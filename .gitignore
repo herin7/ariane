@@ -1,0 +1,33 @@
+# never publish the internal build spec
+plan.md
+.claude/
+
+# raw scrape cache. per docs/research/README.md raw pages are not graph data,
+# they are the layer before it. kept locally, extracted into docs/research/*.json
+.firecrawl/
+
+# deps
+node_modules/
+.pnpm-store/
+
+# builds
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# env
+.env
+.env.*
+!.env.example
+
+# tooling
+.turbo/
+coverage/
+.vercel/
+*.log
+
+# os
+.DS_Store
+Thumbs.db
