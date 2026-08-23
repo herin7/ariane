@@ -27,6 +27,11 @@ export default function Home() {
           </div>
         </Link>
       ))}
+
+      <p className="small muted">
+        Want to see the machinery? <Link href="/admin/graph">Open the graph explorer</Link>. Same compile call,
+        drawn instead of listed.
+      </p>
     </>
   );
 }
