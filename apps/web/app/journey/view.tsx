@@ -1,6 +1,6 @@
 "use client";
 
-import type { Channel, CompiledJourney, DerivedQuestion, Facts, JourneyStep } from "@ariane/core";
+import { officeLine, type Channel, type CompiledJourney, type DerivedQuestion, type Facts, type JourneyStep } from "@ariane/core";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -338,8 +338,7 @@ function Step({ step, held, onHave }: { step: JourneyStep; held: string[]; onHav
 
           {step.offices.map((o) => (
             <p key={o.nodeId} className="small" style={{ margin: "2px 0" }}>
-              <span className="tag">visit</span> {o.name}{" "}
-              <span className="muted">{o.address ?? "address not verified yet"}</span>
+              <span className="tag">visit</span> {officeLine(o)}
             </p>
           ))}
 

@@ -186,7 +186,12 @@ export class JourneyCompiler {
     const steps = this.buildSteps(ordering.order, ctx);
     const subgraph = extractSubgraph(this.index, allNodeIds, allEdges);
 
-    const blockers = steps.flatMap((s) => s.blockers);
+    // One blocker can hold up several steps, and it is reported on each of them
+    // so the citizen sees it where it bites. The journey level list is the
+    // answer to "what is stopping me", so it says each thing once.
+    const blockers = [
+      ...new Map(steps.flatMap((s) => s.blockers).map((b) => [b.nodeId, b])).values(),
+    ];
     trace.push({
       stage: "Detect blockers",
       detail: blockers.length ? blockers.map((b) => b.title).join(", ") : "nothing blocking",
