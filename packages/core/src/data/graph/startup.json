@@ -41,7 +41,15 @@
    "description": "The Startup India Scheme provides recognition and benefits to eligible startups, including tax exemptions, self-certification of compliance, and fast-tracked patent applications.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true
+    "machineExtracted": true,
+    "eligibility": [
+     "A company must not have been formed by splitting up or reconstructing an existing business to be eligible for DPIIT startup recognition.",
+     "A company must work towards the development or improvement of a product, process, or service and/or have a scalable business model with high potential for wealth and employment generation to be eligible for DPIIT startup recognition.",
+     "A company must be incorporated as a Private Limited Company, Registered Partnership Firm, Limited Liability Partnership, or Cooperative Society to be eligible for DPIIT startup recognition.",
+     "A company must not exceed an annual turnover of Rs. 200 crore in any financial year since incorporation to be eligible for DPIIT startup recognition.",
+     "A company must not exceed a period of existence and operations of 10 years from the date of incorporation to be eligible for DPIIT startup recognition.",
+     "DPIIT recognised startups within 10 years of incorporation are eligible for self-certification of compliance."
+    ]
    },
    "sources": [
     {
@@ -165,7 +173,15 @@
    "description": "The Haryana Entrepreneur & Startup Policy provides a Seed Grant of up to INR 3 Lakhs per startup for idea validation, prototype development, and other related activities.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true
+    "machineExtracted": true,
+    "eligibility": [
+     "The company must be registered in Haryana under the Haryana Shops and Commercial Establishment Act, 1958.",
+     "The company must not have been formed by splitting up, reconstruction, demerger, or reconstitution of a business already in existence.",
+     "The company must not be a holding company or a subsidiary of any firm already in existence, except the subsidiary of any startup.",
+     "The company must be incorporated in India as a private limited company, partnership firm, or limited liability partnership.",
+     "The company must not have been incorporated prior to seven years, or ten years in the case of Biotechnology Companies.",
+     "The company must have an annual turnover not exceeding INR 25 crore in any preceding financial year."
+    ]
    },
    "sources": [
     {

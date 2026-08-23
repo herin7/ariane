@@ -1058,7 +1058,15 @@
    "description": "A person can obtain an electrical contractor license if they have an electrical supervisor permit or employ someone with such a permit.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true
+    "machineExtracted": true,
+    "eligibility": [
+     "A person must have one year of experience under a certified electrician or engineer to appear in the wireman examination.",
+     "A person must have six months of practical experience after completing a wireman apprentice course to appear in the wireman examination.",
+     "A person must have completed a one-year course in electrician or related fields to appear in the wireman examination.",
+     "A person must have completed a one-year course in electrician at Rajkot to appear in the wireman examination.",
+     "A person must have completed a six-month course in motor winding to appear in the wireman examination.",
+     "A person must have passed the wireman examination and have four years of experience to appear in the supervisor examination."
+    ]
    },
    "sources": [
     {
@@ -3664,7 +3672,10 @@
    "description": "A permanent driving licence is issued to an applicant who passes the test of competence and meets the eligibility requirements.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true
+    "machineExtracted": true,
+    "eligibility": [
+     "A valid Learner's Licence must be held for at least 30 days before appearing for the test of competence."
+    ]
    },
    "sources": [
     {

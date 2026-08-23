@@ -96,7 +96,15 @@
    "description": "The page outlines the criteria for identifying 'Priority Households' in rural and urban areas for food security under the National Food Security Act (NFSA).",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true
+    "machineExtracted": true,
+    "eligibility": [
+     "Families with a mechanically propelled 4 wheeler vehicle or mechanical fishing boat are excluded from being identified as 'Priority Households' in rural areas.",
+     "Families with a government servant (excluding Class-IV employees on outsourcing) are excluded from being identified as 'Priority Households' in rural areas.",
+     "Families with a monthly income of more than Rs.20,000 or an annual income of more than Rs.2,40,000 are excluded from being identified as 'Priority Households' in rural areas.",
+     "Families whose members are paying income tax or business tax are excluded from being identified as 'Priority Households' in rural areas.",
+     "Families holding 5 acres or more irrigated land harvesting crops in two or more seasons are excluded from being identified as 'Priority Households' in rural areas.",
+     "Families holding 7.5 acres or more land with a source of irrigation are excluded from being identified as 'Priority Households' in rural areas."
+    ]
    },
    "sources": [
     {
@@ -200,7 +208,15 @@
    "description": "The Antyodaya Anna Yojana (AAY) ration card is provided to eligible families, including those from Primitive Groups, widows, disabled persons, senior citizens with no livelihood, and BPL cardholders with specific conditions.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true
+    "machineExtracted": true,
+    "eligibility": [
+     "Families under all Primitive Groups are eligible for the Antyodaya Anna Yojana (AAY) ration card.",
+     "Widows, sick persons, disabled persons, or persons of 60 years of age or above with no means of livelihood or social support are eligible for the Antyodaya Anna Yojana (AAY) ration card.",
+     "Widows, sick persons, disabled persons, or persons of 60 years of age or above, or single women or single men with no family or social support or any means of livelihood are eligible for the Antyodaya Anna Yojana (AAY) ration card.",
+     "Landless agricultural labourers, marginal farmers, rural artisans, and informal sector workers are eligible for the Antyodaya Anna Yojana (AAY) ration card if their name is in the BPL list (with 0 to 16 marks) or they are holding a BPL ration card.",
+     "BPL card holders who are HIV Patients are eligible for the Antyodaya Anna Yojana (AAY) ration card.",
+     "BPL card holders who are Leprosy Patients are eligible for the Antyodaya Anna Yojana (AAY) ration card."
+    ]
    },
    "sources": [
     {

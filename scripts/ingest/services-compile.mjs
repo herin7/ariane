@@ -350,6 +350,39 @@ const NOT_A_WAIT = /\b(appeal|revision|course duration|valid for|validity|renew\
 export const isProcessingTime = (f) =>
   f.kind === "TIMELINE" && Boolean(f.detail?.days) && TAKES.test(f.claim) && !NOT_A_WAIT.test(f.claim);
 
+/**
+ * True if this ELIGIBILITY fact says who qualifies, rather than what the scheme is.
+ *
+ * "Am I eligible" is the first thing anybody asks and 189 of the 217 services
+ * had no answer to it, while 644 eligibility facts sat in the extraction
+ * unread. Half of them are not criteria though. The extractor filed the aim of
+ * the scheme, its inauguration date and its achievements under ELIGIBILITY too:
+ * "The Panchavati Scheme aims to promote rural life", "Gandhinagar Municipal
+ * Corporation was formed on March 16, 2010", "All 13693 Gram Panchayats have
+ * been provided computer hardware". Printed under "who qualifies" every one of
+ * those is a non answer wearing the costume of an answer.
+ *
+ * So the same word test as the fee and the timeline, on the model's own
+ * sentence: a criterion says somebody must be, is eligible, is excluded, or may
+ * apply. It loses real criteria phrased without any of that ("Families with no
+ * income from any source are included for food security"), which is a gap, and
+ * gaps are the acceptable failure here.
+ */
+const QUALIFIES =
+  /(must (?:be|have|not|hold|possess|own|reside|belong)|is eligible|are eligible|eligible (?:for|if|to|under|candidates?|applicants?|beneficiar\w+)|not eligible|ineligible|is excluded|are excluded|excluded from|open (?:only )?to|is applicable to|are applicable to|is available (?:only )?(?:for|to)|are available (?:only )?(?:for|to)|requires? (?:the )?(?:candidate|applicant)|should (?:be|have)|can apply|may apply|can avail)/i;
+const NOT_A_CRITERION =
+  /(aims? to|was (?:formed|established|launched|set up|started|created)|(?:have|has) been provided|is intended to promote)/i;
+export const isQualifyingRule = (f) =>
+  f.kind === "ELIGIBILITY" && QUALIFIES.test(f.claim) && !NOT_A_CRITERION.test(f.claim);
+
+/**
+ * How many criteria a service shows before the list stops being read.
+ *
+ * The worst service in the corpus quotes 30 of these across nine pages. A wall
+ * of 30 sentences is the government website we are supposed to be replacing.
+ */
+const ELIGIBILITY_SHOWN = 6;
+
 // ----------------------------------------------------------------- self test
 
 if (flag("selftest")) {
@@ -417,6 +450,15 @@ if (flag("selftest")) {
   assert.ok(!isProcessingTime(WHEN("An appeal under Section 203 must be filed within 60 days of the decision.")), "a deadline you must meet read as a wait is the expensive way to be wrong");
   assert.ok(!isProcessingTime(WHEN("The course duration is 1 month.")));
   assert.ok(!isProcessingTime(WHEN("The website will be down on 13/06/2019 due to technical maintenance.")));
+
+  const WHO = (claim) => ({ kind: "ELIGIBILITY", claim });
+  assert.ok(isQualifyingRule(WHO("The applicant must be at least 18 years old to be eligible for the PMEGP scheme.")));
+  assert.ok(isQualifyingRule(WHO("Families with a government servant are excluded from being identified as Priority Households.")));
+  assert.ok(isQualifyingRule(WHO("BPL card holders who are HIV Patients are eligible for the Antyodaya Anna Yojana ration card.")));
+  assert.ok(!isQualifyingRule(WHO("The Tirthagram Yojana aims to promote unity and harmony in villages.")), "what a scheme is for is not who it is for");
+  assert.ok(!isQualifyingRule(WHO("Gandhinagar Municipal Corporation was formed on March 16, 2010.")));
+  assert.ok(!isQualifyingRule(WHO("All 13693 Gram Panchayats in Gujarat have been provided computer hardware and software.")));
+  assert.ok(!isQualifyingRule({ kind: "BLOCKER", claim: "The applicant must be at least 18 years old." }));
 
   assert.equal(officeName({ object: "jan_seva_kendra", detail: { address: "Near Subhash Bridge Circle" } }), "jan_seva_kendra");
   assert.equal(officeName({ object: "contact_email", detail: { email: "x@gujarat.gov.in" } }), null);
@@ -915,6 +957,23 @@ function build(journey, services) {
 
     const fee = service.pages.flatMap((c) => c.facts).find(isCitizenFee);
     const timeline = service.pages.flatMap((c) => c.facts).find(isProcessingTime);
+    // Deduped before capping, because nine pages of one scheme repeat the
+    // income limit nine times and six copies of one sentence is not six criteria.
+    //
+    // ponytail: exact match only, so two pages writing one rule in two wordings
+    // ("must not own any plot or house" / "must not own any plot or house in
+    // their own name") both survive, and Sardar Patel Awas Yojana shows the
+    // land rule twice out of six. Tried prefix matching with the shortest kept
+    // first and it was worse: sorting by length pulled all four paraphrases of
+    // the same rule to the top and pushed the four distinct ones off the end.
+    // Jaccard is the real fix and its threshold has no safe setting here,
+    // because Chiranjeevi Yojana's five genuinely different rules share a
+    // fourteen word boilerplate tail and score 0.48 against each other. Page
+    // order plus exact dedupe reads fine; revisit with sentence embeddings or
+    // not at all.
+    const eligibility = [
+      ...new Set(service.pages.flatMap((c) => c.facts).filter(isQualifyingRule).map((f) => f.claim)),
+    ].slice(0, ELIGIBILITY_SHOWN);
 
     put({
       id: serviceNodeId,
@@ -939,6 +998,7 @@ function build(journey, services) {
         // published processing time that never reached a screen.
         ...(fee ? { fee: fee.claim } : {}),
         ...(timeline ? { timeline: timeline.claim } : {}),
+        ...(eligibility.length ? { eligibility } : {}),
       },
       sources: serviceRefs,
       lastVerifiedAt: today(),

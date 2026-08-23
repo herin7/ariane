@@ -477,7 +477,10 @@
    "jurisdictionId": "IN-GJ-AHMEDABAD",
    "metadata": {
     "machineExtracted": true,
-    "timeline": "The processing time for the application is 75 days."
+    "timeline": "The processing time for the application is 75 days.",
+    "eligibility": [
+     "Applications for the plot must be submitted by homeless individuals."
+    ]
    },
    "sources": [
     {

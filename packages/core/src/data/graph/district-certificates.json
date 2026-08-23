@@ -1104,7 +1104,10 @@
    "description": "This service provides the process for registering a new cooperative society and amending its bye-laws, including required documents and eligibility criteria.",
    "jurisdictionId": "IN-GJ-JAMNAGAR",
    "metadata": {
-    "machineExtracted": true
+    "machineExtracted": true,
+    "eligibility": [
+     "The village of the society's working area must be a revenue village"
+    ]
    },
    "sources": [
     {
@@ -1702,7 +1705,10 @@
    "jurisdictionId": "IN-GJ-KHEDA",
    "metadata": {
     "machineExtracted": true,
-    "timeline": "The processing time for the application is 60 days."
+    "timeline": "The processing time for the application is 60 days.",
+    "eligibility": [
+     "The application must be submitted by the legal lineal heir of the deceased pensioner."
+    ]
    },
    "sources": [
     {
@@ -3258,7 +3264,11 @@
    "description": "The service allows teachers to apply for intra-district and inter-district transfers based on seniority and priority.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true
+    "machineExtracted": true,
+    "eligibility": [
+     "Teachers must have completed three years of service in their current school to participate in intra-district transfer camps.",
+     "Teachers must have completed five years of service to be eligible for inter-district transfers."
+    ]
    },
    "sources": [
     {

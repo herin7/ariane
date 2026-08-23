@@ -279,7 +279,10 @@
    "description": "The PMEGP scheme provides subsidies and loans to new entrepreneurs for setting up manufacturing, service, or trading units.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true
+    "machineExtracted": true,
+    "eligibility": [
+     "The applicant must be at least 18 years old to be eligible for the PMEGP scheme."
+    ]
    },
    "sources": [
     {

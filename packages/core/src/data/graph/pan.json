@@ -61,7 +61,10 @@
    "description": "Form 67 is used by resident taxpayers to claim credit for foreign tax paid in a country or specified territory outside India.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true
+    "machineExtracted": true,
+    "eligibility": [
+     "A resident taxpayer is eligible to claim credit for any foreign tax paid in a country or specified territory outside India."
+    ]
    },
    "sources": [
     {
@@ -147,7 +150,10 @@
    "description": "A service allowing taxpayers to request corrections to their challans for specific tax payments.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true
+    "machineExtracted": true,
+    "eligibility": [
+     "A taxpayer must be a registered PAN user on the e-Filing portal to request a challan correction."
+    ]
    },
    "sources": [
     {
@@ -233,7 +239,10 @@
    "description": "A service that allows registered e-Filing portal users to manage their authorized Chartered Accountants and assign or withdraw tax forms.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true
+    "machineExtracted": true,
+    "eligibility": [
+     "A citizen must be a registered user of the e-Filing portal to use the My CA service."
+    ]
    },
    "sources": [
     {
@@ -393,7 +402,11 @@
    "description": "Provides jurisdictional assessing officer details to taxpayers with a valid PAN.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true
+    "machineExtracted": true,
+    "eligibility": [
+     "The 'Know Your JAO' service is available to taxpayers who have a valid PAN.",
+     "The 'Know Your JAO' service is available to both registered or unregistered users on the e-Filing portal."
+    ]
    },
    "sources": [
     {
