@@ -33,6 +33,7 @@
  */
 
 import { at, chat, jsonArray, pool, readJsonl, sha1 } from "./lib.mjs";
+import { display, districtOf, slug, title } from "./places.mjs";
 import { appendFileSync, existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 
 const IDENTIFY = ".ingest/identify/";
@@ -72,18 +73,8 @@ const value = (name, fallback) => {
 };
 
 const today = () => new Date().toISOString().slice(0, 10);
-const slug = (s) =>
-  String(s ?? "")
-    .toLowerCase()
-    // One page writes "Chief Minister's Matru Shakti Yojana", the next writes
-    // "Chief Minister Matru Shakti Yojana", and both are the same scheme. The
-    // possessive goes with the apostrophe, or they stay two services differing
-    // by one letter and a citizen sees the scheme listed twice.
-    .replace(/['‘’]s\b/g, "")
-    .replace(/['‘’]/g, "")
-    .replace(/[^a-z0-9]+/g, "_")
-    .replace(/^_+|_+$/g, "")
-    .slice(0, 60);
+// slug, title, display and districtOf moved to places.mjs, so
+// offices-discover reads the same gazetteer instead of keeping its own.
 
 /**
  * The journeys this is allowed to produce, and what belongs in each.
@@ -125,56 +116,7 @@ const EXISTING = new Set(
     .filter((name) => !Object.hasOwn(JOURNEYS, name)),
 );
 
-const DISTRICTS = [
-  "AHMEDABAD", "AMRELI", "ANAND", "ARAVALLI", "BANASKANTHA", "BHARUCH", "BHAVNAGAR", "BOTAD", "CHHOTA_UDEPUR",
-  "DAHOD", "DANG", "DEVBHOOMI_DWARKA", "GANDHINAGAR", "GIR_SOMNATH", "JAMNAGAR", "JUNAGADH", "KHEDA", "KUTCH",
-  "MAHISAGAR", "MEHSANA", "MORBI", "NARMADA", "NAVSARI", "PANCHMAHAL", "PATAN", "PORBANDAR", "RAJKOT",
-  "SABARKANTHA", "SURAT", "SURENDRANAGAR", "TAPI", "VADODARA", "VALSAD",
-];
 
-/**
- * What a district is called in a hostname when that is not its name.
- *
- * `collectordwarka.gujarat.gov.in` is the Devbhoomi Dwarka collectorate; the
- * district was renamed and the hostname was not. Kachchh and Kutch are the same
- * place spelled two ways and both spellings are in live use by the state.
- */
-const ALIASES = {
-  dwarka: "DEVBHOOMI_DWARKA",
-  kachchh: "KUTCH",
-  bhuj: "KUTCH",
-  somnath: "GIR_SOMNATH",
-  veraval: "GIR_SOMNATH",
-  panchmahals: "PANCHMAHAL",
-  godhra: "PANCHMAHAL",
-  chhotaudepur: "CHHOTA_UDEPUR",
-  modasa: "ARAVALLI",
-  lunawada: "MAHISAGAR",
-  ahwa: "DANG",
-};
-
-/**
- * Which district a host belongs to, or the state.
- *
- * `collectorkheda.gujarat.gov.in` is Kheda's collectorate and its page about the
- * varsai certificate describes Kheda's counter, not Gujarat's. Scoping it to
- * `IN-GJ` would tell someone in Surat to visit an office in Kheda, so the
- * hostname is worth reading.
- *
- * Longest pattern first: "dwarka" and "devbhoomidwarka" both point at the same
- * district, but "somnath" must not be tested before "girsomnath" on a host that
- * has both.
- */
-const PATTERNS = [
-  ...DISTRICTS.map((d) => [d.toLowerCase().replace(/_/g, ""), d]),
-  ...Object.entries(ALIASES),
-].sort((a, b) => b[0].length - a[0].length);
-
-export function districtOf(host) {
-  const flat = String(host ?? "").toLowerCase().replace(/[^a-z]/g, "");
-  const hit = PATTERNS.find(([pattern]) => flat.includes(pattern));
-  return hit ? `IN-GJ-${hit[1]}` : "IN-GJ";
-}
 
 /** Which of the ten allowed source types this page is, from what it yielded. */
 export function sourceTypeOf(url, title, kinds) {
@@ -252,20 +194,6 @@ export function isHeading(id, ids) {
   return under.length >= 2;
 }
 
-const title = (s) =>
-  String(s ?? "")
-    .replace(/_/g, " ")
-    .replace(/^\w/, (c) => c.toUpperCase());
-
-/**
- * A name the model returned in lower case, capitalised for a human to read.
- *
- * Some pages say "varshai" in a url slug and nowhere else, so that is what comes
- * back, and "varshai" is what a citizen would then see on their screen. Only
- * applied when there is no capital anywhere: a name that already has one was
- * copied off the page and its capitalisation is the page's, not ours to improve.
- */
-const display = (s) => (/[A-Z]/.test(s) ? s : s.replace(/\b[a-z]/g, (c) => c.toUpperCase()));
 
 /**
  * Hosts we are willing to send a citizen to, recognised from the name alone.
