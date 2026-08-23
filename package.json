@@ -20,7 +20,10 @@
     "verify:live": "node scripts/verify-live.mjs",
     "domains:build": "node scripts/domains.mjs",
     "fetch:ledger": "node scripts/fetch-ledger.mjs",
-    "fetch:have": "node scripts/fetch-ledger.mjs --have"
+    "fetch:have": "node scripts/fetch-ledger.mjs --have",
+    "graph:snapshot": "pnpm --filter @ariane/core graph:snapshot",
+    "bundles:build": "node scripts/bundles.mjs",
+    "gates": "node scripts/bundles.mjs --check && node scripts/domains.mjs --check && node scripts/fetch-ledger.mjs --check && pnpm typecheck && pnpm test && pnpm graph:validate && pnpm quotes:audit"
   },
   "devDependencies": {
     "typescript": "^5.9.2"
