@@ -57,4 +57,15 @@ describe("what it refuses to do", () => {
   it("says which words it matched, so a wrong guess is arguable", () => {
     expect(top("aavak nu dakhlo")?.matched).toContain("aavak");
   });
+
+  it("keeps a Gujarati word whole instead of splitting it at the vowel signs", () => {
+    // આવકનો is one word. A matra is a mark, not a letter, so \p{L} alone tore
+    // it into આવકન plus a dropped ો and still matched, because the alias tore
+    // the same way. The citizen saw the shrapnel in `matched`.
+    expect(top("મારે આવકનો દાખલો જોઈએ છે")?.matched).toContain("આવકનો");
+  });
+
+  it("finds the certificate inside a whole Gujarati sentence, not just the bare term", () => {
+    expect(top("મારે આવકનો દાખલો જોઈએ છે")?.goal).toBe("service:income_certificate");
+  });
 });

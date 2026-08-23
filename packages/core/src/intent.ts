@@ -26,14 +26,18 @@ const STOPWORDS = new Set([
 ]);
 
 /**
- * Unicode aware on purpose. Splitting on `[^a-z0-9]` quietly deleted every
- * Gujarati character, so "આવકનો દાખલો" tokenised to nothing and the citizen who
- * typed their own language got an empty page.
+ * Unicode aware on purpose, marks included.
+ *
+ * Splitting on `[^a-z0-9]` quietly deleted every Gujarati character, so
+ * "આવકનો દાખલો" tokenised to nothing. Fixing that with `\p{L}` was still wrong:
+ * a Gujarati vowel sign is a mark, not a letter, so "આવકનો" came apart into
+ * "આવકન" and a dropped "ો". It matched anyway, because the aliases came apart
+ * the same way, which is the worst kind of working. `\p{M}` keeps words whole.
  */
 function tokenise(text: string): string[] {
   return text
     .toLowerCase()
-    .split(/[^\p{L}\p{N}']+/u)
+    .split(/[^\p{L}\p{N}\p{M}']+/u)
     .filter((t) => t.length > 1 && !STOPWORDS.has(t));
 }
 
