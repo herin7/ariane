@@ -3,6 +3,7 @@ import { pathToFileURL } from "node:url";
 import { journeyBundleNames } from "../data/graph/manifest";
 import type { GraphBundle } from "../data/index";
 import { loadGraph } from "../data/index";
+import { GraphIndex } from "../graph";
 import type { GraphNode, VerificationStatus } from "../types";
 
 /**
@@ -104,6 +105,120 @@ export function coverage(): JourneyCoverage[] {
   return [...journeyBundleNames].map(coverageOf);
 }
 
+// --------------------------------------------------------------------- depth
+//
+// The journey table answers "do we have evidence". This answers "how much of
+// the journey do we actually know", which is a different failure: a service
+// with a source, a portal link and nothing else passes every gate in this repo
+// and still cannot tell a citizen what to bring.
+
+/**
+ * The ten things a citizen needs before a service page is any use to them.
+ *
+ * Each is a question the graph can answer or cannot, read off edges and node
+ * metadata. Nothing here is hardcoded per service; every count is computed.
+ */
+const DIMENSIONS = [
+  "source",
+  "application channel",
+  "required documents",
+  "eligibility",
+  "ordered actions",
+  "tracking",
+  "physical office",
+  "helpline",
+  "escalation",
+  "produced output",
+] as const;
+
+export type Dimension = (typeof DIMENSIONS)[number];
+
+export interface DepthReport {
+  services: number;
+  /** How many services can answer each question. */
+  byDimension: Record<Dimension, number>;
+  /** Services grouped by how many ACTION steps their journey has. */
+  steps: { one: number; twoToThree: number; fourToSix: number; sevenPlus: number };
+  /** Distribution of how many of the ten dimensions each service can answer. */
+  answered: number[];
+  pdfs: { parsed: number; pages: number; pageUnits: number; unreadable: number };
+}
+
+export function depth(): DepthReport {
+  const data = loadGraph();
+  const index = new GraphIndex(data);
+  const services = data.nodes.filter((n) => n.type === "SERVICE");
+  const typeOf = (id: string) => index.node(id)?.type;
+
+  const byDimension = Object.fromEntries(DIMENSIONS.map((d) => [d, 0])) as Record<Dimension, number>;
+  const steps = { one: 0, twoToThree: 0, fourToSix: 0, sevenPlus: 0 };
+  const answered: number[] = [];
+
+  for (const service of services) {
+    const out = index.outgoing(service.id);
+    const to = (type: string) => out.some((e) => typeOf(e.to) === type);
+    const actions = out.filter((e) => typeOf(e.to) === "ACTION").length;
+
+    const has: Record<Dimension, boolean> = {
+      source: Boolean(service.sources?.length),
+      "application channel": out.some((e) => e.type === "APPLY_AT" || e.type === "AVAILABLE_VIA"),
+      "required documents": to("DOCUMENT") || to("DOCUMENT_GROUP"),
+      // Either a rule node or the sentence the compiler carries on the service.
+      eligibility: to("ELIGIBILITY") || Boolean((service.metadata as { eligibility?: unknown[] })?.eligibility?.length),
+      "ordered actions": actions >= 2,
+      tracking: out.some((e) => e.type === "TRACK_AT"),
+      "physical office": to("OFFICE"),
+      helpline: to("HELPLINE"),
+      escalation: out.some((e) => e.type === "ESCALATE_TO"),
+      "produced output": out.some((e) => e.type === "PRODUCES"),
+    };
+    for (const d of DIMENSIONS) if (has[d]) byDimension[d]++;
+    answered.push(DIMENSIONS.filter((d) => has[d]).length);
+
+    // §12. A service that compiles to one step is a link with a name on it.
+    if (actions <= 1) steps.one++;
+    else if (actions <= 3) steps.twoToThree++;
+    else if (actions <= 6) steps.fourToSix++;
+    else steps.sevenPlus++;
+  }
+
+  return { services: services.length, byDimension, steps, answered, pdfs: pdfCounts() };
+}
+
+/**
+ * What the pdf corpus cost and what came out of it.
+ *
+ * Read off the committed ledgers, never off `.ingest/pdf/`, which is gitignored:
+ * a clone has every number and none of the bytes, and these have to agree in
+ * both places or the report is only true on one machine.
+ */
+function pdfCounts(): DepthReport["pdfs"] {
+  const jsonl = (name: string): Record<string, unknown>[] => {
+    try {
+      return readFileSync(new URL(`../../../../.ingest/${name}`, import.meta.url), "utf8")
+        .split("\n")
+        .filter((l) => l.trim())
+        .map((l) => {
+          try {
+            return JSON.parse(l) as Record<string, unknown>;
+          } catch {
+            return null;
+          }
+        })
+        .filter((r): r is Record<string, unknown> => r !== null);
+    } catch {
+      return [];
+    }
+  };
+  const pdfs = jsonl("pdfs.jsonl");
+  return {
+    parsed: pdfs.length,
+    pages: pdfs.reduce((sum, p) => sum + (typeof p.pageCount === "number" ? p.pageCount : 0), 0),
+    pageUnits: jsonl("pages.jsonl").filter((p) => p.pdf).length,
+    unreadable: jsonl("negative.jsonl").filter((n) => n.reason === "SCANNED_PDF").length,
+  };
+}
+
 // ---------------------------------------------------------------------- cli
 //
 // Everything below runs only when this file is the process entry point, so
@@ -118,7 +233,7 @@ const all = coverage();
 
 if (args.includes("--json")) {
   const data = loadGraph();
-  console.log(JSON.stringify({ generatedBy: "pnpm coverage", services: data.nodes.filter((n) => n.type === "SERVICE").length, journeys: all }, null, 2));
+  console.log(JSON.stringify({ generatedBy: "pnpm coverage", services: data.nodes.filter((n) => n.type === "SERVICE").length, journeys: all, depth: depth() }, null, 2));
   process.exit(0);
 }
 
@@ -150,6 +265,28 @@ console.log(
   `\n${total((c) => c.services)} services across ${all.length} journeys. ` +
     `${total((c) => c.byStatus.VERIFIED ?? 0)} citation(s) a person checked, ` +
     `${total((c) => c.byStatus.EXTRACTED ?? 0)} a machine did.`,
+);
+
+// ------------------------------------------------------------- the depth table
+
+const d = depth();
+const pct = (n: number) => `${((n / Math.max(1, d.services)) * 100).toFixed(0)}%`;
+console.log(`
+How deep, across all ${d.services} services:`);
+const widest = Math.max(...DIMENSIONS.map((k) => k.length));
+for (const k of DIMENSIONS) {
+  console.log(`  ${k.padEnd(widest)}  ${String(d.byDimension[k]).padStart(4)}  ${pct(d.byDimension[k]).padStart(4)}`);
+}
+console.log(
+  `
+  steps per service: ${d.steps.one} at one, ${d.steps.twoToThree} at two or three, ` +
+    `${d.steps.fourToSix} at four to six, ${d.steps.sevenPlus} at seven or more`,
+);
+const mean = d.answered.reduce((a, b) => a + b, 0) / Math.max(1, d.answered.length);
+console.log(`  a service answers ${mean.toFixed(1)} of the ${DIMENSIONS.length} questions on average`);
+console.log(
+  `  pdfs: ${d.pdfs.parsed} parsed into ${d.pdfs.pages} page(s), ` +
+    `${d.pdfs.pageUnits} worth extracting from, ${d.pdfs.unreadable} scanned and unread`,
 );
 
 const unsourced = all.flatMap((c) => c.unsourced);
