@@ -339,6 +339,10 @@ export interface Channel {
   url?: string;
   androidAppId?: string;
   iosAppId?: string;
+  /** HELPLINE and GRIEVANCE_CHANNEL. A phone channel with no number is furniture. */
+  phoneNumbers?: string[];
+  emails?: string[];
+  workingHours?: string;
   /** APPLY_AT, TRACK_AT, AVAILABLE_VIA, ESCALATE_TO ... */
   via: EdgeType;
   note?: string;

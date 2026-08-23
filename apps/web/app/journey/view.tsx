@@ -188,6 +188,17 @@ function ChannelLine({ channel, tag }: { channel: Channel; tag: string }) {
           <b>{channel.name}</b>
         )}
       </p>
+      {channel.phoneNumbers?.length || channel.emails?.length ? (
+        <p className="small" style={{ margin: 0 }}>
+          {channel.phoneNumbers?.map((p) => (
+            <a key={p} href={`tel:${p.replace(/[^+\d]/g, "")}`} style={{ marginRight: 10 }}>{p}</a>
+          ))}
+          {channel.emails?.map((e) => (
+            <a key={e} href={`mailto:${e}`} style={{ marginRight: 10 }}>{e}</a>
+          ))}
+          {channel.workingHours ? <span className="muted">{channel.workingHours}</span> : null}
+        </p>
+      ) : null}
       {channel.note ? <p className="small muted" style={{ margin: 0 }}>{channel.note}</p> : null}
       {channel.sources[0] ? (
         <p className="small muted" style={{ margin: 0 }}>
