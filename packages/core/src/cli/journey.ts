@@ -1,6 +1,6 @@
 import { loadGraph } from "../data/index";
 import { compileJourney } from "../journey";
-import type { CompiledJourney, DocumentRequirement, Facts } from "../types";
+import { officeLine, type CompiledJourney, type DocumentRequirement, type Facts } from "../types";
 
 /**
  * Compile a journey from the command line. This is the checkpoint the whole
@@ -70,7 +70,7 @@ function print(j: CompiledJourney): void {
     for (const d of step.documentsNeeded) console.log(`     needs: ${describe(d)}`);
     for (const d of step.documentsReady) console.log(`     have: ${d.name}`);
     for (const c of step.channels) console.log(`     ${c.via.toLowerCase()}: ${c.name} ${c.url ?? ""}`);
-    for (const o of step.offices) console.log(`     visit: ${o.name} ${o.address ?? "(address not verified yet)"}`);
+    for (const o of step.offices) console.log(`     visit: ${officeLine(o)}`);
     for (const b of step.blockers) console.log(`     blocked: ${b.title} [${b.actor}] ${b.reason}`);
     console.log(`     sources: ${step.sources.map((s) => s.source.url).join(", ") || "none yet"}`);
   }

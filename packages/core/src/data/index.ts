@@ -1,7 +1,11 @@
 import type { GraphData } from "../types";
 import * as escalation from "./escalation";
 import { jurisdictions } from "./jurisdictions";
+import * as certificates from "./journeys/certificates";
 import * as drivingLicence from "./journeys/driving-licence";
+import * as pension from "./journeys/pension";
+import * as pf from "./journeys/pf";
+import * as scholarship from "./journeys/scholarship";
 
 export { validateGraph, type GraphIssue } from "./validate";
 
@@ -13,7 +17,7 @@ export { validateGraph, type GraphIssue } from "./validate";
  * nothing above it changes.
  */
 
-const journeys = [drivingLicence];
+const journeys = [drivingLicence, certificates, scholarship, pf, pension];
 
 let cached: GraphData | undefined;
 

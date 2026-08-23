@@ -363,6 +363,18 @@ export interface OfficeRef {
   sources: ResolvedSource[];
 }
 
+/**
+ * Government pages print the office name inside the address more often than
+ * not, so naive `name + address` renders "Mamlatdar Office, Ahmedabad
+ * Mamlatdar Office, Ahmedabad - 380027". Addresses are quoted verbatim and are
+ * not going to be tidied up, so the fix lives here where every renderer shares
+ * it.
+ */
+export function officeLine(office: OfficeRef): string {
+  if (!office.address) return `${office.name} (address not verified yet)`;
+  return office.address.includes(office.name) ? office.address : `${office.name}, ${office.address}`;
+}
+
 export interface Blocker {
   nodeId: string;
   title: string;
