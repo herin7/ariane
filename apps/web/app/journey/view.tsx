@@ -287,6 +287,14 @@ function Step({ step, held, onHave }: { step: JourneyStep; held: string[]; onHav
           {step.officialName && step.officialName !== step.title ? (
             <p className="muted small">Officially: {step.officialName}</p>
           ) : null}
+          {step.machineExtracted ? (
+            // Deliberately above everything it is a caveat about. A disclaimer
+            // under the fee is a disclaimer nobody read before believing the fee.
+            <p className="small" style={{ color: "var(--warn)" }}>
+              No person has checked this one. Every line below is quoted from the government page it
+              links to, but a machine did the reading. Open the source before you rely on it.
+            </p>
+          ) : null}
           {step.description ? <p className="small">{step.description}</p> : null}
           {step.whyRequired ? <p className="small">{step.whyRequired}</p> : null}
           {step.whatToDo ? <p className="small"><b>Do this: </b>{step.whatToDo}</p> : null}

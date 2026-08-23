@@ -443,6 +443,16 @@ export interface JourneyStep {
   formNumber?: string;
   /** Who qualifies, quoted from the page. See `NodeMetadata.eligibility`. */
   eligibility?: string[];
+  /**
+   * Nobody has read this page. A machine found it, quoted it and checked the
+   * quote, and that is a different thing from a person having looked.
+   *
+   * 189 of 217 services are this. The label was written onto the node by the
+   * compiler and stopped at the database, so the citizen saw a machine's
+   * reading and a researcher's reading in the same typeface, which is the one
+   * thing this project is not allowed to let happen.
+   */
+  machineExtracted?: boolean;
   documentsNeeded: DocumentRequirement[];
   documentsReady: DocumentRequirement[];
   channels: Channel[];

@@ -514,6 +514,7 @@ export class JourneyCompiler {
         timeline: node.metadata?.timeline,
         formNumber: node.metadata?.formNumber,
         eligibility: node.metadata?.eligibility,
+        machineExtracted: node.metadata?.machineExtracted,
         documentsNeeded: documents.needed,
         documentsReady: documents.ready,
         channels,
