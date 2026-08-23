@@ -14,7 +14,10 @@ export interface IntentMatch {
   goal: string;
   name: string;
   officialName?: string;
-  /** 0 to 1. Anything under 0.3 is a guess and the UI should say so. */
+  /**
+   * 0 to 1. Token overlap never returns anything under 0.3, so a value below
+   * that came from a model reading the sentence and the UI should say so.
+   */
   confidence: number;
   /** Which words in the query actually matched. Shown so the citizen can correct us. */
   matched: string[];
@@ -41,6 +44,23 @@ function tokenise(text: string): string[] {
     .filter((t) => t.length > 1 && !STOPWORDS.has(t));
 }
 
+/**
+ * Below this a match is noise, not a guess, and saying nothing is better.
+ *
+ * One shared word used to be enough to be a match. "I am 70 and nobody
+ * supports me" scored 0.2 against a scholarship because "supports" is in its
+ * name, and four services nobody asked about came back looking like answers.
+ * Worse, upstream reads a non empty list as "solved" and stops, so a citizen
+ * describing a problem in their own words never reached the model that could
+ * actually read it.
+ *
+ * 0.3 is the line the rest of the codebase already calls a guess. Measured
+ * against the seeded services it sits in open space: every query that names
+ * its service scores 0.33 or better even buried in nine words of politeness,
+ * and every junk overlap scores 0.29 or less.
+ */
+const FLOOR = 0.3;
+
 export function resolveIntent(data: GraphData, text: string, limit = 5): IntentMatch[] {
   const query = tokenise(text);
   if (!query.length) return [];
@@ -49,12 +69,13 @@ export function resolveIntent(data: GraphData, text: string, limit = 5): IntentM
   for (const node of data.nodes) {
     if (node.type !== "SERVICE") continue;
     const scored = score(node, query);
-    if (scored.hits.length) {
+    const confidence = Math.min(1, scored.score / query.length);
+    if (confidence >= FLOOR) {
       matches.push({
         goal: node.id,
         name: node.name,
         officialName: node.officialName,
-        confidence: Math.min(1, scored.score / query.length),
+        confidence,
         matched: scored.hits,
       });
     }

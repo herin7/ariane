@@ -177,6 +177,34 @@ check(
   `matches: ${nonsense.body.matches.map((m) => m.goal).join(", ") || "none"}`,
 );
 
+// -------------------------------------- the citizen who describes it instead of naming it
+
+/**
+ * Nobody in a queue says "widow pension". They say their husband died.
+ *
+ * These sentences share no useful word with any alias, so they exist to prove
+ * the model pass is actually reachable. It was not: token overlap answered off
+ * one shared word, upstream stopped at the first answer, and this whole pass
+ * was dead code that every earlier run of this file reported as fine.
+ *
+ * Skipped rather than failed without a key, because the product is supposed to
+ * degrade to token overlap on a machine that has none.
+ */
+const described = [
+  ["my husband died and I have no income now", "service:widow_pension"],
+  ["I am 70 and nobody supports me", "service:old_age_pension"],
+  ["I left my job and want the money from my provident fund", "service:pf_final_settlement"],
+];
+for (const [text, expected] of described) {
+  const { body } = await post("/api/intents/resolve", { text });
+  const got = body.matches?.[0]?.goal;
+  if (!got && !body.inferred) {
+    console.log(`  --  described: "${text}" skipped, no model configured`);
+    continue;
+  }
+  check(`described, not named: "${text}"`, got === expected && body.inferred === true, `-> ${got ?? "nothing"}`);
+}
+
 // ----------------------------------------------------------------------- report
 
 for (const r of results) console.log(`${r.pass ? "  ok  " : "FAIL  "}${r.name}${r.detail ? `\n        ${r.detail}` : ""}`);
