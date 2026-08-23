@@ -79,6 +79,226 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "action:e_filing_tin_2_0_1_go_to_the_e_filing_homepage_and_click_re",
+   "type": "ACTION",
+   "name": "Go to the e-Filing homepage and click Register",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Go to the e-Filing homepage and click Register.",
+    "stepNumber": 1,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 1: Go to the e-Filing homepage and click Register.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:e_filing_tin_2_0_2_on_the_register_page_click_others_in_the",
+   "type": "ACTION",
+   "name": "On the Register page, click Others in the Register as section",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "On the Register page, click Others in the Register as section.",
+    "stepNumber": 2,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 2: On the Register page, click Others in the Register as section.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:e_filing_tin_2_0_3_select_tin_2_0_stakeholders_from_the_cat",
+   "type": "ACTION",
+   "name": "Select TIN 2.0 Stakeholders from the Category dropdown and click Continue",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Select TIN 2.0 Stakeholders from the Category dropdown and click Continue.",
+    "stepNumber": 3,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 3: Select TIN 2.0 Stakeholders from the Category dropdown and click Continue.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:e_filing_tin_2_0_4_in_the_basic_details_tab_enter_all_the_m",
+   "type": "ACTION",
+   "name": "In the Basic Details tab, enter all the mandatory information ( Organization Type , PAN , ",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "In the Basic Details tab, enter all the mandatory information ( Organization Type , PAN , Name , Date of Incorporation , CIN , and Source IP Details ). Click Continue.",
+    "stepNumber": 4,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 4: In the Basic Details tab, enter all the mandatory information ( Organization Type , PAN , Name , Date of Incorporation , CIN , and Source IP Details ). Click Continue.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:e_filing_tin_2_0_5_in_the_technical_spoc_tab_enter_the_spoc",
+   "type": "ACTION",
+   "name": "In the Technical SPOC tab, enter the SPOC's mandatory information ( PAN , Last Name , Date",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "In the Technical SPOC tab, enter the SPOC's mandatory information ( PAN , Last Name , Date of Birth , Gender , Designation ). Click Continue.",
+    "stepNumber": 5,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 5: In the Technical SPOC tab, enter the SPOC's mandatory information ( PAN , Last Name , Date of Birth , Gender , Designation ). Click Continue.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:e_filing_tin_2_0_6_in_the_contact_details_tab_enter_the_spo",
+   "type": "ACTION",
+   "name": "In the Contact Details tab, enter the SPOC's contact details ( Primary Mobile Number and E",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "In the Contact Details tab, enter the SPOC's contact details ( Primary Mobile Number and Email ID , who it belongs to, and Postal Address details ). Click Continue .",
+    "stepNumber": 6,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 6: In the Contact Details tab, enter the SPOC's contact details ( Primary Mobile Number and Email ID , who it belongs to, and Postal Address details ). Click Continue .",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:e_filing_tin_2_0_7_two_separate_6_digit_otps_are_sent_to_th",
+   "type": "ACTION",
+   "name": "Two separate 6-digit OTPs are sent to the primary mobile number and email ID you entered i",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Two separate 6-digit OTPs are sent to the primary mobile number and email ID you entered in Step 6. Enter the 6-digit Mobile OTP and Email OTP, and click Continue.",
+    "stepNumber": 7,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 7 : Two separate 6-digit OTPs are sent to the primary mobile number and email ID you entered in Step 6. Enter the 6-digit Mobile OTP and Email OTP, and click Continue.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:e_filing_tin_2_0_8_in_the_attachments_tab_click_attachment_",
+   "type": "ACTION",
+   "name": "In the Attachments tab, click Attachment and upload the following required documents",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "In the Attachments tab, click Attachment and upload the following required documents:",
+    "stepNumber": 8,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 8: In the Attachments tab, click Attachment and upload the following required documents:",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:e_filing_tin_2_0_9_on_the_verify_details_page_review_the_de",
+   "type": "ACTION",
+   "name": "On the Verify Details page, review the details you entered for all sections. Click Edit fo",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "On the Verify Details page, review the details you entered for all sections. Click Edit for the relevant section if you need to change any detail. If all the details are correct, click Confirm.",
+    "stepNumber": 9,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 9: On the Verify Details page, review the details you entered for all sections. Click Edit for the relevant section if you need to change any detail. If all the details are correct, click Confirm.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:e_filing_tin_2_0_10_on_the_set_password_page_enter_your_pass",
+   "type": "ACTION",
+   "name": "On the Set Password page, enter your password in the Set Password textbox, and re-enter th",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "On the Set Password page, enter your password in the Set Password textbox, and re-enter the same password in the Confirm Password textbox.",
+    "stepNumber": 10,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 10: On the Set Password page, enter your password in the Set Password textbox, and re-enter the same password in the Confirm Password textbox.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:e_filing_tin_2_0_11_enter_a_personalized_message_of_your_cho",
+   "type": "ACTION",
+   "name": "Enter a personalized message of your choice, which can contain a maximum of 25 characters.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Enter a personalized message of your choice, which can contain a maximum of 25 characters. Then, click Register.",
+    "stepNumber": 11,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 11: Enter a personalized message of your choice, which can contain a maximum of 25 characters. Then, click Register.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
    "id": "service:e_filing_tin_2_0",
    "type": "SERVICE",
    "name": "e-Filing (TIN 2.0)",
@@ -285,6 +505,66 @@
      "verificationStatus": "EXTRACTED"
     }
    ]
+  },
+  {
+   "id": "action:tax_deductor_and_collector_registration_1_go_to_the_e_filing_portal_homepage_click",
+   "type": "ACTION",
+   "name": "Go to the e-Filing portal homepage, click Register",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Go to the e-Filing portal homepage, click Register.",
+    "stepNumber": 1,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:29580f620b91",
+     "evidence": "Step 1: Go to the e-Filing portal homepage, click Register.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:tax_deductor_and_collector_registration_2_click_others_and_select_the_category_as_",
+   "type": "ACTION",
+   "name": "Click Others and select the Category as Tax Deductor and Collector",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Click Others and select the Category as Tax Deductor and Collector.",
+    "stepNumber": 2,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:29580f620b91",
+     "evidence": "Step 2: Click Others and select the Category as Tax Deductor and Collector.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:tax_deductor_and_collector_registration_3_enter_the_tan_of_the_organization_and_cl",
+   "type": "ACTION",
+   "name": "Enter the TAN of the Organization and click Validate",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Enter the TAN of the Organization and click Validate.",
+    "stepNumber": 3,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:29580f620b91",
+     "evidence": "Step 3: Enter the TAN of the Organization and click Validate.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
   },
   {
    "id": "service:tax_deductor_and_collector_registration",
@@ -592,6 +872,342 @@
    ]
   },
   {
+   "id": "e:service_e_filing_tin_2_0__requires__action_e_filing_tin_2_0_1_go_to_the_e_filing_homepage_and_cl",
+   "from": "service:e_filing_tin_2_0",
+   "to": "action:e_filing_tin_2_0_1_go_to_the_e_filing_homepage_and_click_re",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 1 of 11 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 1: Go to the e-Filing homepage and click Register.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_e_filing_tin_2_0__requires__action_e_filing_tin_2_0_2_on_the_register_page_click_others_",
+   "from": "service:e_filing_tin_2_0",
+   "to": "action:e_filing_tin_2_0_2_on_the_register_page_click_others_in_the",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 2 of 11 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 2: On the Register page, click Others in the Register as section.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_e_filing_tin_2_0_2_on_the_register_page_click_others___depends_on__action_e_filing_tin_2_0_1_go_to_the_e_filing",
+   "from": "action:e_filing_tin_2_0_2_on_the_register_page_click_others_in_the",
+   "to": "action:e_filing_tin_2_0_1_go_to_the_e_filing_homepage_and_click_re",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 2: On the Register page, click Others in the Register as section.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_e_filing_tin_2_0__requires__action_e_filing_tin_2_0_3_select_tin_2_0_stakeholders_from_t",
+   "from": "service:e_filing_tin_2_0",
+   "to": "action:e_filing_tin_2_0_3_select_tin_2_0_stakeholders_from_the_cat",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 3 of 11 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 3: Select TIN 2.0 Stakeholders from the Category dropdown and click Continue.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_e_filing_tin_2_0_3_select_tin_2_0_stakeholders_from_t__depends_on__action_e_filing_tin_2_0_2_on_the_register_pa",
+   "from": "action:e_filing_tin_2_0_3_select_tin_2_0_stakeholders_from_the_cat",
+   "to": "action:e_filing_tin_2_0_2_on_the_register_page_click_others_in_the",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 3: Select TIN 2.0 Stakeholders from the Category dropdown and click Continue.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_e_filing_tin_2_0__requires__action_e_filing_tin_2_0_4_in_the_basic_details_tab_enter_all",
+   "from": "service:e_filing_tin_2_0",
+   "to": "action:e_filing_tin_2_0_4_in_the_basic_details_tab_enter_all_the_m",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 4 of 11 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 4: In the Basic Details tab, enter all the mandatory information ( Organization Type , PAN , Name , Date of Incorporation , CIN , and Source IP Details ). Click Continue.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_e_filing_tin_2_0_4_in_the_basic_details_tab_enter_all__depends_on__action_e_filing_tin_2_0_3_select_tin_2_0_sta",
+   "from": "action:e_filing_tin_2_0_4_in_the_basic_details_tab_enter_all_the_m",
+   "to": "action:e_filing_tin_2_0_3_select_tin_2_0_stakeholders_from_the_cat",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 4: In the Basic Details tab, enter all the mandatory information ( Organization Type , PAN , Name , Date of Incorporation , CIN , and Source IP Details ). Click Continue.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_e_filing_tin_2_0__requires__action_e_filing_tin_2_0_5_in_the_technical_spoc_tab_enter_th",
+   "from": "service:e_filing_tin_2_0",
+   "to": "action:e_filing_tin_2_0_5_in_the_technical_spoc_tab_enter_the_spoc",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 5 of 11 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 5: In the Technical SPOC tab, enter the SPOC's mandatory information ( PAN , Last Name , Date of Birth , Gender , Designation ). Click Continue.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_e_filing_tin_2_0_5_in_the_technical_spoc_tab_enter_th__depends_on__action_e_filing_tin_2_0_4_in_the_basic_detai",
+   "from": "action:e_filing_tin_2_0_5_in_the_technical_spoc_tab_enter_the_spoc",
+   "to": "action:e_filing_tin_2_0_4_in_the_basic_details_tab_enter_all_the_m",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 5: In the Technical SPOC tab, enter the SPOC's mandatory information ( PAN , Last Name , Date of Birth , Gender , Designation ). Click Continue.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_e_filing_tin_2_0__requires__action_e_filing_tin_2_0_6_in_the_contact_details_tab_enter_t",
+   "from": "service:e_filing_tin_2_0",
+   "to": "action:e_filing_tin_2_0_6_in_the_contact_details_tab_enter_the_spo",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 6 of 11 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 6: In the Contact Details tab, enter the SPOC's contact details ( Primary Mobile Number and Email ID , who it belongs to, and Postal Address details ). Click Continue .",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_e_filing_tin_2_0_6_in_the_contact_details_tab_enter_t__depends_on__action_e_filing_tin_2_0_5_in_the_technical_s",
+   "from": "action:e_filing_tin_2_0_6_in_the_contact_details_tab_enter_the_spo",
+   "to": "action:e_filing_tin_2_0_5_in_the_technical_spoc_tab_enter_the_spoc",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 6: In the Contact Details tab, enter the SPOC's contact details ( Primary Mobile Number and Email ID , who it belongs to, and Postal Address details ). Click Continue .",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_e_filing_tin_2_0__requires__action_e_filing_tin_2_0_7_two_separate_6_digit_otps_are_sent",
+   "from": "service:e_filing_tin_2_0",
+   "to": "action:e_filing_tin_2_0_7_two_separate_6_digit_otps_are_sent_to_th",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 7 of 11 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 7 : Two separate 6-digit OTPs are sent to the primary mobile number and email ID you entered in Step 6. Enter the 6-digit Mobile OTP and Email OTP, and click Continue.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_e_filing_tin_2_0_7_two_separate_6_digit_otps_are_sent__depends_on__action_e_filing_tin_2_0_6_in_the_contact_det",
+   "from": "action:e_filing_tin_2_0_7_two_separate_6_digit_otps_are_sent_to_th",
+   "to": "action:e_filing_tin_2_0_6_in_the_contact_details_tab_enter_the_spo",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 7 : Two separate 6-digit OTPs are sent to the primary mobile number and email ID you entered in Step 6. Enter the 6-digit Mobile OTP and Email OTP, and click Continue.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_e_filing_tin_2_0__requires__action_e_filing_tin_2_0_8_in_the_attachments_tab_click_attac",
+   "from": "service:e_filing_tin_2_0",
+   "to": "action:e_filing_tin_2_0_8_in_the_attachments_tab_click_attachment_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 8 of 11 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 8: In the Attachments tab, click Attachment and upload the following required documents:",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_e_filing_tin_2_0_8_in_the_attachments_tab_click_attac__depends_on__action_e_filing_tin_2_0_7_two_separate_6_dig",
+   "from": "action:e_filing_tin_2_0_8_in_the_attachments_tab_click_attachment_",
+   "to": "action:e_filing_tin_2_0_7_two_separate_6_digit_otps_are_sent_to_th",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 8: In the Attachments tab, click Attachment and upload the following required documents:",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_e_filing_tin_2_0__requires__action_e_filing_tin_2_0_9_on_the_verify_details_page_review_",
+   "from": "service:e_filing_tin_2_0",
+   "to": "action:e_filing_tin_2_0_9_on_the_verify_details_page_review_the_de",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 9 of 11 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 9: On the Verify Details page, review the details you entered for all sections. Click Edit for the relevant section if you need to change any detail. If all the details are correct, click Confirm.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_e_filing_tin_2_0_9_on_the_verify_details_page_review___depends_on__action_e_filing_tin_2_0_8_in_the_attachments",
+   "from": "action:e_filing_tin_2_0_9_on_the_verify_details_page_review_the_de",
+   "to": "action:e_filing_tin_2_0_8_in_the_attachments_tab_click_attachment_",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 9: On the Verify Details page, review the details you entered for all sections. Click Edit for the relevant section if you need to change any detail. If all the details are correct, click Confirm.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_e_filing_tin_2_0__requires__action_e_filing_tin_2_0_10_on_the_set_password_page_enter_yo",
+   "from": "service:e_filing_tin_2_0",
+   "to": "action:e_filing_tin_2_0_10_on_the_set_password_page_enter_your_pass",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 10 of 11 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 10: On the Set Password page, enter your password in the Set Password textbox, and re-enter the same password in the Confirm Password textbox.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_e_filing_tin_2_0_10_on_the_set_password_page_enter_yo__depends_on__action_e_filing_tin_2_0_9_on_the_verify_deta",
+   "from": "action:e_filing_tin_2_0_10_on_the_set_password_page_enter_your_pass",
+   "to": "action:e_filing_tin_2_0_9_on_the_verify_details_page_review_the_de",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 10: On the Set Password page, enter your password in the Set Password textbox, and re-enter the same password in the Confirm Password textbox.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_e_filing_tin_2_0__requires__action_e_filing_tin_2_0_11_enter_a_personalized_message_of_y",
+   "from": "service:e_filing_tin_2_0",
+   "to": "action:e_filing_tin_2_0_11_enter_a_personalized_message_of_your_cho",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 11 of 11 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 11: Enter a personalized message of your choice, which can contain a maximum of 25 characters. Then, click Register.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_e_filing_tin_2_0_11_enter_a_personalized_message_of_y__depends_on__action_e_filing_tin_2_0_10_on_the_set_passwo",
+   "from": "action:e_filing_tin_2_0_11_enter_a_personalized_message_of_your_cho",
+   "to": "action:e_filing_tin_2_0_10_on_the_set_password_page_enter_your_pass",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 11: Enter a personalized message of your choice, which can contain a maximum of 25 characters. Then, click Register.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_e_filing_tin_2_0__apply_at__portal_incometax_gov_in",
    "from": "service:e_filing_tin_2_0",
    "to": "portal:incometax_gov_in",
@@ -635,6 +1251,86 @@
      "sourceId": "src:29580f620b91",
      "evidence": "Link for Tax Deductor and Collector https://www.tdscpc.gov.in/app/login.xhtml",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_tax_deductor_and_collector_registration__requires__action_tax_deductor_and_collector_registration_1_go_to_the_",
+   "from": "service:tax_deductor_and_collector_registration",
+   "to": "action:tax_deductor_and_collector_registration_1_go_to_the_e_filing_portal_homepage_click",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 1 of 3 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:29580f620b91",
+     "evidence": "Step 1: Go to the e-Filing portal homepage, click Register.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_tax_deductor_and_collector_registration__requires__action_tax_deductor_and_collector_registration_2_click_othe",
+   "from": "service:tax_deductor_and_collector_registration",
+   "to": "action:tax_deductor_and_collector_registration_2_click_others_and_select_the_category_as_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 2 of 3 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:29580f620b91",
+     "evidence": "Step 2: Click Others and select the Category as Tax Deductor and Collector.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_tax_deductor_and_collector_registration_2_click_other__depends_on__action_tax_deductor_and_collector_registrati",
+   "from": "action:tax_deductor_and_collector_registration_2_click_others_and_select_the_category_as_",
+   "to": "action:tax_deductor_and_collector_registration_1_go_to_the_e_filing_portal_homepage_click",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:29580f620b91",
+     "evidence": "Step 2: Click Others and select the Category as Tax Deductor and Collector.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_tax_deductor_and_collector_registration__requires__action_tax_deductor_and_collector_registration_3_enter_the_",
+   "from": "service:tax_deductor_and_collector_registration",
+   "to": "action:tax_deductor_and_collector_registration_3_enter_the_tan_of_the_organization_and_cl",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 3 of 3 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:29580f620b91",
+     "evidence": "Step 3: Enter the TAN of the Organization and click Validate.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_tax_deductor_and_collector_registration_3_enter_the_t__depends_on__action_tax_deductor_and_collector_registrati",
+   "from": "action:tax_deductor_and_collector_registration_3_enter_the_tan_of_the_organization_and_cl",
+   "to": "action:tax_deductor_and_collector_registration_2_click_others_and_select_the_category_as_",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:29580f620b91",
+     "evidence": "Step 3: Enter the TAN of the Organization and click Validate.",
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ]

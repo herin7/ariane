@@ -54,6 +54,186 @@
  ],
  "nodes": [
   {
+   "id": "action:form_67_1_log_in_to_the_e_filing_portal_using_your",
+   "type": "ACTION",
+   "name": "Log in to the e-Filing portal using your user ID and password",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Log in to the e-Filing portal using your user ID and password.",
+    "stepNumber": 1,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 1: Log in to the e-Filing portal using your user ID and password.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:form_67_2_on_your_dashboard_click_e_file_income_ta",
+   "type": "ACTION",
+   "name": "On your Dashboard, click e-File > Income Tax Forms > File Income Tax Forms",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "On your Dashboard, click e-File > Income Tax Forms > File Income Tax Forms.",
+    "stepNumber": 2,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 2: On your Dashboard, click e-File > Income Tax Forms > File Income Tax Forms.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:form_67_3_on_the_file_income_tax_forms_page_select",
+   "type": "ACTION",
+   "name": "On the File Income Tax Forms page, select Form 67 . Alternatively, enter Form 67 in the se",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "On the File Income Tax Forms page, select Form 67 . Alternatively, enter Form 67 in the search box to find the form.",
+    "stepNumber": 3,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 3: On the File Income Tax Forms page, select Form 67 . Alternatively, enter Form 67 in the search box to find the form.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:form_67_4_on_the_form_67_page_select_the_assessmen",
+   "type": "ACTION",
+   "name": "On the Form 67 page, select the Assessment Year (A.Y.) and click Continue",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "On the Form 67 page, select the Assessment Year (A.Y.) and click Continue.",
+    "stepNumber": 4,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 4 : On the Form 67 page, select the Assessment Year (A.Y.) and click Continue.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:form_67_5_on_the_instructions_page_click_let_get_s",
+   "type": "ACTION",
+   "name": "On the Instructions page, click Let's Get Started",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "On the Instructions page, click Let's Get Started.",
+    "stepNumber": 5,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 5 : On the Instructions page, click Let's Get Started.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:form_67_6_on_click_of_let_get_started_form_67_is_d",
+   "type": "ACTION",
+   "name": "On click of Let's Get Started , Form 67 is displayed. Fill all the required details and cl",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "On click of Let's Get Started , Form 67 is displayed. Fill all the required details and click Preview .",
+    "stepNumber": 6,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 6 : On click of Let's Get Started , Form 67 is displayed. Fill all the required details and click Preview .",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:form_67_7_on_the_preview_page_verify_the_details_a",
+   "type": "ACTION",
+   "name": "On the Preview page, verify the details and click Proceed to e-Verify",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "On the Preview page, verify the details and click Proceed to e-Verify.",
+    "stepNumber": 7,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 7: On the Preview page, verify the details and click Proceed to e-Verify.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:form_67_8_click_yes_to_e_verify",
+   "type": "ACTION",
+   "name": "Click Yes to e-Verify.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Click Yes to e-Verify..",
+    "stepNumber": 8,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 8 : Click Yes to e-Verify..",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:form_67_9_on_clicking_yes_you_will_be_taken_to_the",
+   "type": "ACTION",
+   "name": "On clicking Yes , you will be taken to the e-Verify page",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "On clicking Yes , you will be taken to the e-Verify page.",
+    "stepNumber": 9,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 9 : On clicking Yes , you will be taken to the e-Verify page.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
    "id": "service:form_67",
    "type": "SERVICE",
    "name": "Form 67",
@@ -137,6 +317,126 @@
      "sourceId": "src:a86a67611d4f",
      "evidence": "The Verification section contains a self-declaration form containing fields as per Rule 128 of the Income Tax Rules, 1962.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:challan_correction_request_1_log_in_to_the_e_filing_portal_with_user_",
+   "type": "ACTION",
+   "name": "Log in to the e-Filing portal with user ID and password",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Log in to the e-Filing portal with user ID and password.",
+    "stepNumber": 1,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 1: Log in to the e-Filing portal with user ID and password.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:challan_correction_request_2_on_the_dashboard_click_services_challan_",
+   "type": "ACTION",
+   "name": "On the Dashboard, click Services > Challan Correction",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "On the Dashboard, click Services > Challan Correction.",
+    "stepNumber": 2,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 2: On the Dashboard, click Services > Challan Correction.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:challan_correction_request_3_on_the_challan_correction_page_click_the",
+   "type": "ACTION",
+   "name": "On the Challan Correction page, click the “+ Create Challan Correction Request” option to ",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "On the Challan Correction page, click the “+ Create Challan Correction Request” option to create a new Challan Correction Request.",
+    "stepNumber": 3,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 3: On the Challan Correction page, click the “+ Create Challan Correction Request” option to create a new Challan Correction Request.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:challan_correction_request_4_you_are_required_to_select_the_relevant_",
+   "type": "ACTION",
+   "name": "You are required to select the relevant attribute for correction in the challan. Select th",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "You are required to select the relevant attribute for correction in the challan. Select the appropriate option (multiple options can be selected as applicable)and click Continue.",
+    "stepNumber": 4,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 4: You are required to select the relevant attribute for correction in the challan. Select the appropriate option (multiple options can be selected as applicable)and click Continue.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:challan_correction_request_5_you_are_required_to_select_the_tax_year_",
+   "type": "ACTION",
+   "name": "You are required to select the Tax year/Assessment Year or Challan Identification Number (",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "You are required to select the Tax year/Assessment Year or Challan Identification Number (CIN) to create challan correction request .Based on selection the unconsumed challans will be displayed for the correction. Click Continue to proceed.",
+    "stepNumber": 5,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 5: You are required to select the Tax year/Assessment Year or Challan Identification Number (CIN) to create challan correction request .Based on selection the unconsumed challans will be displayed for the correction. Click Continue to proceed.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:challan_correction_request_6_once_the_relevant_challan_is_selected_th",
+   "type": "ACTION",
+   "name": "Once the relevant challan is selected, the Correction in Challan page will open. On this p",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Once the relevant challan is selected, the Correction in Challan page will open. On this page, the user can update the required challan attributes and then click Continue.",
+    "stepNumber": 6,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 6: Once the relevant challan is selected, the Correction in Challan page will open. On this page, the user can update the required challan attributes and then click Continue.",
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -232,6 +532,106 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "action:my_ca_1_log_in_to_the_e_filing_portal_using_user",
+   "type": "ACTION",
+   "name": "Log in to the e-Filing portal using user ID and password",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Log in to the e-Filing portal using user ID and password.",
+    "stepNumber": 1,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Step 1: Log in to the e-Filing portal using user ID and password.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:my_ca_2_click_authorized_partners_my_chartered_a",
+   "type": "ACTION",
+   "name": "Click Authorized Partners > My Chartered Accountant",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Click Authorized Partners > My Chartered Accountant.",
+    "stepNumber": 2,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Step 2: Click Authorized Partners > My Chartered Accountant.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:my_ca_3_the_my_chartered_accountant_s_page_appea",
+   "type": "ACTION",
+   "name": "The My Chartered Accountant(s) page appears. It displays the active and inactive CAs under",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The My Chartered Accountant(s) page appears. It displays the active and inactive CAs under the respective tabs.",
+    "stepNumber": 3,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Step 3: The My Chartered Accountant(s) page appears. It displays the active and inactive CAs under the respective tabs.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:my_ca_4_enter_name_in_the_search_by_name_textbox",
+   "type": "ACTION",
+   "name": "Enter name in the Search by Name textbox to view all matching records",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Enter name in the Search by Name textbox to view all matching records.",
+    "stepNumber": 4,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Step 4: Enter name in the Search by Name textbox to view all matching records.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:my_ca_5_click_view_assigned_forms_to_display_the",
+   "type": "ACTION",
+   "name": "Click View Assigned Forms to display the status and details of all forms assigned to a spe",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Click View Assigned Forms to display the status and details of all forms assigned to a specific CA.",
+    "stepNumber": 5,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Step 5: Click View Assigned Forms to display the status and details of all forms assigned to a specific CA.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
    "id": "service:my_ca",
    "type": "SERVICE",
    "name": "My CA",
@@ -309,6 +709,92 @@
      "sourceId": "src:3b4d79f6e027",
      "evidence": "Click View Assigned Forms to display the status and details of all forms assigned to a specific CA.",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Step 1: Log in to the e-Filing portal using user ID and password.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:refund_status_check_1_go_to_the_e_filing_portal_homepage",
+   "type": "ACTION",
+   "name": "Go to the e-Filing portal homepage",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Go to the e-Filing portal homepage.",
+    "stepNumber": 1,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Step 1: Go to the e-Filing portal homepage.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:refund_status_check_2_enter_the_user_id_and_password",
+   "type": "ACTION",
+   "name": "Enter the user ID and password",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Enter the user ID and password.",
+    "stepNumber": 2,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Step 2: Enter the user ID and password.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:refund_status_check_3_go_to_e_file_tab_income_tax_returns_view",
+   "type": "ACTION",
+   "name": "Go to e-File tab > Income Tax Returns > View Filed Returns",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Go to e-File tab > Income Tax Returns > View Filed Returns.",
+    "stepNumber": 3,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Step 3: Go to e-File tab > Income Tax Returns > View Filed Returns.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:refund_status_check_4_now_you_can_check_the_refund_status_for_",
+   "type": "ACTION",
+   "name": "Now you can check the refund status for the desired Assessment year",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Now you can check the refund status for the desired Assessment year.",
+    "stepNumber": 4,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Step 4: Now you can check the refund status for the desired Assessment year.",
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -390,6 +876,92 @@
      "evidence": "Step 4: Now you can check the refund status for the desired Assessment year.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Step 1: Go to the e-Filing portal homepage.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:know_your_jao_1_go_to_the_e_filing_portal_homepage_in_qu",
+   "type": "ACTION",
+   "name": "Go to the e-Filing portal homepage. In quick links section, click ‘ Know Your JAO’ ",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Go to the e-Filing portal homepage. In quick links section, click ‘ Know Your JAO’ .",
+    "stepNumber": 1,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "Step 1: Go to the e-Filing portal homepage. In quick links section, click ‘ Know Your JAO’ .",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:know_your_jao_2_on_the_know_your_jurisdictional_assessin",
+   "type": "ACTION",
+   "name": "On the ‘ Know Your Jurisdictional Assessing Officer’ page, enter your PAN and a valid mobi",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "On the ‘ Know Your Jurisdictional Assessing Officer’ page, enter your PAN and a valid mobile number and click ‘Continue’ .",
+    "stepNumber": 2,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "Step 2 : On the ‘ Know Your Jurisdictional Assessing Officer’ page, enter your PAN and a valid mobile number and click ‘Continue’ .",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:know_your_jao_3_you_will_receive_a_6_digit_otp_on_the_mo",
+   "type": "ACTION",
+   "name": "You will receive a 6-digit OTP on the mobile number you entered in Step 2. Enter the OTP a",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "You will receive a 6-digit OTP on the mobile number you entered in Step 2. Enter the OTP and click ‘ Validate ’.",
+    "stepNumber": 3,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "Step 3: You will receive a 6-digit OTP on the mobile number you entered in Step 2. Enter the OTP and click ‘ Validate ’.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:know_your_jao_4_related_topics",
+   "type": "ACTION",
+   "name": "Related Topics",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Related Topics",
+    "stepNumber": 4,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "4. Related Topics",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
     }
    ],
    "lastVerifiedAt": "2026-08-23"
@@ -462,12 +1034,302 @@
      "evidence": "On successful OTP validation, you will see the Jurisdictional Assessing Officer Details (such as Area Code, AO Type, Range Code, AO Number, Jurisdiction, Address and email ID of the JAO), along with status of your PAN.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "Step 1: Go to the e-Filing portal homepage. In quick links section, click ‘ Know Your JAO’ .",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "Step 2 : On the ‘ Know Your Jurisdictional Assessing Officer’ page, enter your PAN and a valid mobile number and click ‘Continue’ .",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "Step 3: You will receive a 6-digit OTP on the mobile number you entered in Step 2. Enter the OTP and click ‘ Validate ’.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
     }
    ],
    "lastVerifiedAt": "2026-08-23"
   }
  ],
  "edges": [
+  {
+   "id": "e:service_form_67__requires__action_form_67_1_log_in_to_the_e_filing_portal_using_your",
+   "from": "service:form_67",
+   "to": "action:form_67_1_log_in_to_the_e_filing_portal_using_your",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 1 of 9 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 1: Log in to the e-Filing portal using your user ID and password.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_form_67__requires__action_form_67_2_on_your_dashboard_click_e_file_income_ta",
+   "from": "service:form_67",
+   "to": "action:form_67_2_on_your_dashboard_click_e_file_income_ta",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 2 of 9 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 2: On your Dashboard, click e-File > Income Tax Forms > File Income Tax Forms.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_form_67_2_on_your_dashboard_click_e_file_income_ta__depends_on__action_form_67_1_log_in_to_the_e_filing_portal_",
+   "from": "action:form_67_2_on_your_dashboard_click_e_file_income_ta",
+   "to": "action:form_67_1_log_in_to_the_e_filing_portal_using_your",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 2: On your Dashboard, click e-File > Income Tax Forms > File Income Tax Forms.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_form_67__requires__action_form_67_3_on_the_file_income_tax_forms_page_select",
+   "from": "service:form_67",
+   "to": "action:form_67_3_on_the_file_income_tax_forms_page_select",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 3 of 9 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 3: On the File Income Tax Forms page, select Form 67 . Alternatively, enter Form 67 in the search box to find the form.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_form_67_3_on_the_file_income_tax_forms_page_select__depends_on__action_form_67_2_on_your_dashboard_click_e_file",
+   "from": "action:form_67_3_on_the_file_income_tax_forms_page_select",
+   "to": "action:form_67_2_on_your_dashboard_click_e_file_income_ta",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 3: On the File Income Tax Forms page, select Form 67 . Alternatively, enter Form 67 in the search box to find the form.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_form_67__requires__action_form_67_4_on_the_form_67_page_select_the_assessmen",
+   "from": "service:form_67",
+   "to": "action:form_67_4_on_the_form_67_page_select_the_assessmen",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 4 of 9 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 4 : On the Form 67 page, select the Assessment Year (A.Y.) and click Continue.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_form_67_4_on_the_form_67_page_select_the_assessmen__depends_on__action_form_67_3_on_the_file_income_tax_forms_p",
+   "from": "action:form_67_4_on_the_form_67_page_select_the_assessmen",
+   "to": "action:form_67_3_on_the_file_income_tax_forms_page_select",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 4 : On the Form 67 page, select the Assessment Year (A.Y.) and click Continue.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_form_67__requires__action_form_67_5_on_the_instructions_page_click_let_get_s",
+   "from": "service:form_67",
+   "to": "action:form_67_5_on_the_instructions_page_click_let_get_s",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 5 of 9 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 5 : On the Instructions page, click Let's Get Started.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_form_67_5_on_the_instructions_page_click_let_get_s__depends_on__action_form_67_4_on_the_form_67_page_select_the",
+   "from": "action:form_67_5_on_the_instructions_page_click_let_get_s",
+   "to": "action:form_67_4_on_the_form_67_page_select_the_assessmen",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 5 : On the Instructions page, click Let's Get Started.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_form_67__requires__action_form_67_6_on_click_of_let_get_started_form_67_is_d",
+   "from": "service:form_67",
+   "to": "action:form_67_6_on_click_of_let_get_started_form_67_is_d",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 6 of 9 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 6 : On click of Let's Get Started , Form 67 is displayed. Fill all the required details and click Preview .",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_form_67_6_on_click_of_let_get_started_form_67_is_d__depends_on__action_form_67_5_on_the_instructions_page_click",
+   "from": "action:form_67_6_on_click_of_let_get_started_form_67_is_d",
+   "to": "action:form_67_5_on_the_instructions_page_click_let_get_s",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 6 : On click of Let's Get Started , Form 67 is displayed. Fill all the required details and click Preview .",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_form_67__requires__action_form_67_7_on_the_preview_page_verify_the_details_a",
+   "from": "service:form_67",
+   "to": "action:form_67_7_on_the_preview_page_verify_the_details_a",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 7 of 9 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 7: On the Preview page, verify the details and click Proceed to e-Verify.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_form_67_7_on_the_preview_page_verify_the_details_a__depends_on__action_form_67_6_on_click_of_let_get_started_fo",
+   "from": "action:form_67_7_on_the_preview_page_verify_the_details_a",
+   "to": "action:form_67_6_on_click_of_let_get_started_form_67_is_d",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 7: On the Preview page, verify the details and click Proceed to e-Verify.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_form_67__requires__action_form_67_8_click_yes_to_e_verify",
+   "from": "service:form_67",
+   "to": "action:form_67_8_click_yes_to_e_verify",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 8 of 9 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 8 : Click Yes to e-Verify..",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_form_67_8_click_yes_to_e_verify__depends_on__action_form_67_7_on_the_preview_page_verify_the_details_a",
+   "from": "action:form_67_8_click_yes_to_e_verify",
+   "to": "action:form_67_7_on_the_preview_page_verify_the_details_a",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 8 : Click Yes to e-Verify..",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_form_67__requires__action_form_67_9_on_clicking_yes_you_will_be_taken_to_the",
+   "from": "service:form_67",
+   "to": "action:form_67_9_on_clicking_yes_you_will_be_taken_to_the",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 9 of 9 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 9 : On clicking Yes , you will be taken to the e-Verify page.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_form_67_9_on_clicking_yes_you_will_be_taken_to_the__depends_on__action_form_67_8_click_yes_to_e_verify",
+   "from": "action:form_67_9_on_clicking_yes_you_will_be_taken_to_the",
+   "to": "action:form_67_8_click_yes_to_e_verify",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Step 9 : On clicking Yes , you will be taken to the e-Verify page.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
   {
    "id": "e:service_form_67__apply_at__portal_incometax_gov_in",
    "from": "service:form_67",
@@ -480,6 +1342,182 @@
      "sourceId": "src:a86a67611d4f",
      "evidence": "As per Rule 128 of the Income Tax Rules, 1962, a resident taxpayer is eligible to claim credit for any foreign tax paid, in a country or specified territory outside India.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_challan_correction_request__requires__action_challan_correction_request_1_log_in_to_the_e_filing_p",
+   "from": "service:challan_correction_request",
+   "to": "action:challan_correction_request_1_log_in_to_the_e_filing_portal_with_user_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 1 of 6 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 1: Log in to the e-Filing portal with user ID and password.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_challan_correction_request__requires__action_challan_correction_request_2_on_the_dashboard_click_s",
+   "from": "service:challan_correction_request",
+   "to": "action:challan_correction_request_2_on_the_dashboard_click_services_challan_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 2 of 6 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 2: On the Dashboard, click Services > Challan Correction.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_challan_correction_request_2_on_the_dashboard_click_s__depends_on__action_challan_correction_request_1_log_in_t",
+   "from": "action:challan_correction_request_2_on_the_dashboard_click_services_challan_",
+   "to": "action:challan_correction_request_1_log_in_to_the_e_filing_portal_with_user_",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 2: On the Dashboard, click Services > Challan Correction.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_challan_correction_request__requires__action_challan_correction_request_3_on_the_challan_correctio",
+   "from": "service:challan_correction_request",
+   "to": "action:challan_correction_request_3_on_the_challan_correction_page_click_the",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 3 of 6 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 3: On the Challan Correction page, click the “+ Create Challan Correction Request” option to create a new Challan Correction Request.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_challan_correction_request_3_on_the_challan_correctio__depends_on__action_challan_correction_request_2_on_the_d",
+   "from": "action:challan_correction_request_3_on_the_challan_correction_page_click_the",
+   "to": "action:challan_correction_request_2_on_the_dashboard_click_services_challan_",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 3: On the Challan Correction page, click the “+ Create Challan Correction Request” option to create a new Challan Correction Request.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_challan_correction_request__requires__action_challan_correction_request_4_you_are_required_to_sele",
+   "from": "service:challan_correction_request",
+   "to": "action:challan_correction_request_4_you_are_required_to_select_the_relevant_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 4 of 6 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 4: You are required to select the relevant attribute for correction in the challan. Select the appropriate option (multiple options can be selected as applicable)and click Continue.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_challan_correction_request_4_you_are_required_to_sele__depends_on__action_challan_correction_request_3_on_the_c",
+   "from": "action:challan_correction_request_4_you_are_required_to_select_the_relevant_",
+   "to": "action:challan_correction_request_3_on_the_challan_correction_page_click_the",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 4: You are required to select the relevant attribute for correction in the challan. Select the appropriate option (multiple options can be selected as applicable)and click Continue.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_challan_correction_request__requires__action_challan_correction_request_5_you_are_required_to_sele",
+   "from": "service:challan_correction_request",
+   "to": "action:challan_correction_request_5_you_are_required_to_select_the_tax_year_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 5 of 6 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 5: You are required to select the Tax year/Assessment Year or Challan Identification Number (CIN) to create challan correction request .Based on selection the unconsumed challans will be displayed for the correction. Click Continue to proceed.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_challan_correction_request_5_you_are_required_to_sele__depends_on__action_challan_correction_request_4_you_are_",
+   "from": "action:challan_correction_request_5_you_are_required_to_select_the_tax_year_",
+   "to": "action:challan_correction_request_4_you_are_required_to_select_the_relevant_",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 5: You are required to select the Tax year/Assessment Year or Challan Identification Number (CIN) to create challan correction request .Based on selection the unconsumed challans will be displayed for the correction. Click Continue to proceed.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_challan_correction_request__requires__action_challan_correction_request_6_once_the_relevant_challa",
+   "from": "service:challan_correction_request",
+   "to": "action:challan_correction_request_6_once_the_relevant_challan_is_selected_th",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 6 of 6 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 6: Once the relevant challan is selected, the Correction in Challan page will open. On this page, the user can update the required challan attributes and then click Continue.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_challan_correction_request_6_once_the_relevant_challa__depends_on__action_challan_correction_request_5_you_are_",
+   "from": "action:challan_correction_request_6_once_the_relevant_challan_is_selected_th",
+   "to": "action:challan_correction_request_5_you_are_required_to_select_the_tax_year_",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 6: Once the relevant challan is selected, the Correction in Challan page will open. On this page, the user can update the required challan attributes and then click Continue.",
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -501,6 +1539,150 @@
    ]
   },
   {
+   "id": "e:service_my_ca__requires__action_my_ca_1_log_in_to_the_e_filing_portal_using_user",
+   "from": "service:my_ca",
+   "to": "action:my_ca_1_log_in_to_the_e_filing_portal_using_user",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 1 of 5 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Step 1: Log in to the e-Filing portal using user ID and password.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_my_ca__requires__action_my_ca_2_click_authorized_partners_my_chartered_a",
+   "from": "service:my_ca",
+   "to": "action:my_ca_2_click_authorized_partners_my_chartered_a",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 2 of 5 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Step 2: Click Authorized Partners > My Chartered Accountant.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_my_ca_2_click_authorized_partners_my_chartered_a__depends_on__action_my_ca_1_log_in_to_the_e_filing_portal_usin",
+   "from": "action:my_ca_2_click_authorized_partners_my_chartered_a",
+   "to": "action:my_ca_1_log_in_to_the_e_filing_portal_using_user",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Step 2: Click Authorized Partners > My Chartered Accountant.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_my_ca__requires__action_my_ca_3_the_my_chartered_accountant_s_page_appea",
+   "from": "service:my_ca",
+   "to": "action:my_ca_3_the_my_chartered_accountant_s_page_appea",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 3 of 5 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Step 3: The My Chartered Accountant(s) page appears. It displays the active and inactive CAs under the respective tabs.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_my_ca_3_the_my_chartered_accountant_s_page_appea__depends_on__action_my_ca_2_click_authorized_partners_my_chart",
+   "from": "action:my_ca_3_the_my_chartered_accountant_s_page_appea",
+   "to": "action:my_ca_2_click_authorized_partners_my_chartered_a",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Step 3: The My Chartered Accountant(s) page appears. It displays the active and inactive CAs under the respective tabs.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_my_ca__requires__action_my_ca_4_enter_name_in_the_search_by_name_textbox",
+   "from": "service:my_ca",
+   "to": "action:my_ca_4_enter_name_in_the_search_by_name_textbox",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 4 of 5 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Step 4: Enter name in the Search by Name textbox to view all matching records.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_my_ca_4_enter_name_in_the_search_by_name_textbox__depends_on__action_my_ca_3_the_my_chartered_accountant_s_page",
+   "from": "action:my_ca_4_enter_name_in_the_search_by_name_textbox",
+   "to": "action:my_ca_3_the_my_chartered_accountant_s_page_appea",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Step 4: Enter name in the Search by Name textbox to view all matching records.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_my_ca__requires__action_my_ca_5_click_view_assigned_forms_to_display_the",
+   "from": "service:my_ca",
+   "to": "action:my_ca_5_click_view_assigned_forms_to_display_the",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 5 of 5 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Step 5: Click View Assigned Forms to display the status and details of all forms assigned to a specific CA.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_my_ca_5_click_view_assigned_forms_to_display_the__depends_on__action_my_ca_4_enter_name_in_the_search_by_name_t",
+   "from": "action:my_ca_5_click_view_assigned_forms_to_display_the",
+   "to": "action:my_ca_4_enter_name_in_the_search_by_name_textbox",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Step 5: Click View Assigned Forms to display the status and details of all forms assigned to a specific CA.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_my_ca__apply_at__portal_incometax_gov_in",
    "from": "service:my_ca",
    "to": "portal:incometax_gov_in",
@@ -517,6 +1699,118 @@
    ]
   },
   {
+   "id": "e:service_refund_status_check__requires__action_refund_status_check_1_go_to_the_e_filing_portal_homep",
+   "from": "service:refund_status_check",
+   "to": "action:refund_status_check_1_go_to_the_e_filing_portal_homepage",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 1 of 4 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Step 1: Go to the e-Filing portal homepage.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_refund_status_check__requires__action_refund_status_check_2_enter_the_user_id_and_password",
+   "from": "service:refund_status_check",
+   "to": "action:refund_status_check_2_enter_the_user_id_and_password",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 2 of 4 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Step 2: Enter the user ID and password.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_refund_status_check_2_enter_the_user_id_and_password__depends_on__action_refund_status_check_1_go_to_the_e_fili",
+   "from": "action:refund_status_check_2_enter_the_user_id_and_password",
+   "to": "action:refund_status_check_1_go_to_the_e_filing_portal_homepage",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Step 2: Enter the user ID and password.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_refund_status_check__requires__action_refund_status_check_3_go_to_e_file_tab_income_tax_ret",
+   "from": "service:refund_status_check",
+   "to": "action:refund_status_check_3_go_to_e_file_tab_income_tax_returns_view",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 3 of 4 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Step 3: Go to e-File tab > Income Tax Returns > View Filed Returns.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_refund_status_check_3_go_to_e_file_tab_income_tax_ret__depends_on__action_refund_status_check_2_enter_the_user_",
+   "from": "action:refund_status_check_3_go_to_e_file_tab_income_tax_returns_view",
+   "to": "action:refund_status_check_2_enter_the_user_id_and_password",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Step 3: Go to e-File tab > Income Tax Returns > View Filed Returns.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_refund_status_check__requires__action_refund_status_check_4_now_you_can_check_the_refund_st",
+   "from": "service:refund_status_check",
+   "to": "action:refund_status_check_4_now_you_can_check_the_refund_status_for_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 4 of 4 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Step 4: Now you can check the refund status for the desired Assessment year.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_refund_status_check_4_now_you_can_check_the_refund_st__depends_on__action_refund_status_check_3_go_to_e_file_ta",
+   "from": "action:refund_status_check_4_now_you_can_check_the_refund_status_for_",
+   "to": "action:refund_status_check_3_go_to_e_file_tab_income_tax_returns_view",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Step 4: Now you can check the refund status for the desired Assessment year.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_refund_status_check__apply_at__portal_incometax_gov_in",
    "from": "service:refund_status_check",
    "to": "portal:incometax_gov_in",
@@ -528,6 +1822,118 @@
      "sourceId": "src:d043f7ad5e63",
      "evidence": "Refund processing by the tax department starts only after the return is e-verified by the taxpayer.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_know_your_jao__requires__action_know_your_jao_1_go_to_the_e_filing_portal_homepage_in",
+   "from": "service:know_your_jao",
+   "to": "action:know_your_jao_1_go_to_the_e_filing_portal_homepage_in_qu",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 1 of 4 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "Step 1: Go to the e-Filing portal homepage. In quick links section, click ‘ Know Your JAO’ .",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_know_your_jao__requires__action_know_your_jao_2_on_the_know_your_jurisdictional_asses",
+   "from": "service:know_your_jao",
+   "to": "action:know_your_jao_2_on_the_know_your_jurisdictional_assessin",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 2 of 4 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "Step 2 : On the ‘ Know Your Jurisdictional Assessing Officer’ page, enter your PAN and a valid mobile number and click ‘Continue’ .",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_know_your_jao_2_on_the_know_your_jurisdictional_asses__depends_on__action_know_your_jao_1_go_to_the_e_filing_po",
+   "from": "action:know_your_jao_2_on_the_know_your_jurisdictional_assessin",
+   "to": "action:know_your_jao_1_go_to_the_e_filing_portal_homepage_in_qu",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "Step 2 : On the ‘ Know Your Jurisdictional Assessing Officer’ page, enter your PAN and a valid mobile number and click ‘Continue’ .",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_know_your_jao__requires__action_know_your_jao_3_you_will_receive_a_6_digit_otp_on_the",
+   "from": "service:know_your_jao",
+   "to": "action:know_your_jao_3_you_will_receive_a_6_digit_otp_on_the_mo",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 3 of 4 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "Step 3: You will receive a 6-digit OTP on the mobile number you entered in Step 2. Enter the OTP and click ‘ Validate ’.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_know_your_jao_3_you_will_receive_a_6_digit_otp_on_the__depends_on__action_know_your_jao_2_on_the_know_your_juri",
+   "from": "action:know_your_jao_3_you_will_receive_a_6_digit_otp_on_the_mo",
+   "to": "action:know_your_jao_2_on_the_know_your_jurisdictional_assessin",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "Step 3: You will receive a 6-digit OTP on the mobile number you entered in Step 2. Enter the OTP and click ‘ Validate ’.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_know_your_jao__requires__action_know_your_jao_4_related_topics",
+   "from": "service:know_your_jao",
+   "to": "action:know_your_jao_4_related_topics",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 4 of 4 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "4. Related Topics",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_know_your_jao_4_related_topics__depends_on__action_know_your_jao_3_you_will_receive_a_6_digit_otp_on_the",
+   "from": "action:know_your_jao_4_related_topics",
+   "to": "action:know_your_jao_3_you_will_receive_a_6_digit_otp_on_the_mo",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "4. Related Topics",
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ]

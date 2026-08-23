@@ -4825,7 +4825,7 @@
    "name": "Applicant may fill the User ID creation form. Click here to download the prescribed form",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "whatToDo": "Applicants must fill the User ID creation form.",
+    "whatToDo": "Applicant may fill the User ID creation form. Click here to download the prescribed form.",
     "stepNumber": 1,
     "machineExtracted": true
    },
@@ -4833,7 +4833,7 @@
     {
      "sourceId": "src:cb87993841b5",
      "evidence": "1- Applicant may fill the User ID creation form. Click here to download the prescribed form.",
-     "confidence": 1,
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -4845,7 +4845,7 @@
    "name": "Send the scan copy of the following documents to cngmaker-vahan[at]gov[dot]in",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "whatToDo": "Scanned copies of the documents must be sent to cngmaker-vahan[at]gov[dot]in.",
+    "whatToDo": "Send the scan copy of the following documents to cngmaker-vahan[at]gov[dot]in",
     "stepNumber": 2,
     "machineExtracted": true
    },
@@ -4853,7 +4853,7 @@
     {
      "sourceId": "src:cb87993841b5",
      "evidence": "2- Send the scan copy of the following documents to cngmaker-vahan[at]gov[dot]in",
-     "confidence": 1,
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -4865,7 +4865,7 @@
    "name": "After verification and approval of the submitted application, user-id will be created and ",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "whatToDo": "After verification and approval, a user-id will be created and communicated to the applicant.",
+    "whatToDo": "After verification and approval of the submitted application, user-id will be created and information will be communicated to the applicant.",
     "stepNumber": 3,
     "machineExtracted": true
    },
@@ -4873,7 +4873,7 @@
     {
      "sourceId": "src:cb87993841b5",
      "evidence": "3- After verification and approval of the submitted application, user-id will be created and information will be communicated to the applicant.",
-     "confidence": 1,
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -4885,7 +4885,7 @@
    "name": "The password need to be changed immediately by the user organization",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "whatToDo": "The password must be changed immediately by the user organization.",
+    "whatToDo": "The password need to be changed immediately by the user organization.",
     "stepNumber": 4,
     "machineExtracted": true
    },
@@ -4893,7 +4893,7 @@
     {
      "sourceId": "src:cb87993841b5",
      "evidence": "4- The password need to be changed immediately by the user organization.",
-     "confidence": 1,
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -4902,18 +4902,18 @@
   {
    "id": "action:user_id_creation_for_vahan_green_sewa_5_only_one_user_id_password_will_be_issued",
    "type": "ACTION",
-   "name": "Only one user id/ password will be issued to an organization",
+   "name": "Only one user id/ password will be issued to an organization. The organization may, in tur",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "whatToDo": "Only one user id/password will be issued to an organization.",
+    "whatToDo": "Only one user id/ password will be issued to an organization. The organization may, in turn, create sub-user ids and passwords, if required, for its constituents/branches etc.",
     "stepNumber": 5,
     "machineExtracted": true
    },
    "sources": [
     {
      "sourceId": "src:cb87993841b5",
-     "evidence": "5- Only one user id/ password will be issued to an organization.",
-     "confidence": 1,
+     "evidence": "5- Only one user id/ password will be issued to an organization. The organization may, in turn, create sub-user ids and passwords, if required, for its constituents/branches etc.",
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -4981,25 +4981,25 @@
     {
      "sourceId": "src:cb87993841b5",
      "evidence": "1- Applicant may fill the User ID creation form. Click here to download the prescribed form.",
-     "confidence": 1,
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:cb87993841b5",
      "evidence": "2- Send the scan copy of the following documents to cngmaker-vahan[at]gov[dot]in",
-     "confidence": 1,
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:cb87993841b5",
      "evidence": "3- After verification and approval of the submitted application, user-id will be created and information will be communicated to the applicant.",
-     "confidence": 1,
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:cb87993841b5",
      "evidence": "4- The password need to be changed immediately by the user organization.",
-     "confidence": 1,
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -5987,6 +5987,106 @@
    ]
   },
   {
+   "id": "action:learners_license_1_visit_https_sarathi_parivahan_gov_in",
+   "type": "ACTION",
+   "name": "Visit https://sarathi.parivahan.gov.in/",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Visit https://sarathi.parivahan.gov.in/",
+    "stepNumber": 1,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "1. Visit https://sarathi.parivahan.gov.in/",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:learners_license_2_select_concerned_state",
+   "type": "ACTION",
+   "name": "Select concerned state",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Select concerned state",
+    "stepNumber": 2,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "2. Select concerned state",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:learners_license_3_click_on_learner_license_menu",
+   "type": "ACTION",
+   "name": "Click on \"Learner License\" menu",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Click on \"Learner License\" menu",
+    "stepNumber": 3,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "3. Click on \"Learner License\" menu",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:learners_license_4_click_on_print_learners_license_form3",
+   "type": "ACTION",
+   "name": "Click on print Learners License (FORM3)",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Click on print Learners License (FORM3)",
+    "stepNumber": 4,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "4. Click on print Learners License (FORM3)",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:learners_license_5_fill_application_number_date_of_birth_an",
+   "type": "ACTION",
+   "name": "Fill Application number & Date of Birth AND Submit",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Fill Application number & Date of Birth AND Submit.",
+    "stepNumber": 5,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "5. Fill Application number & Date of Birth AND Submit.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
    "id": "service:learners_license",
    "type": "SERVICE",
    "name": "Learners License",
@@ -6043,6 +6143,30 @@
      "sourceId": "src:1b512feb4f0f",
      "evidence": "Why should I visit RTO even after successful submission of application? After completing online procedure for further processing of application you should visit the concerned RTO office with the required documents as shown on the acknowledgement slip. You should also carry a copy of the fee receipt",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "1. Visit https://sarathi.parivahan.gov.in/",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "2. Select concerned state",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "3. Click on \"Learner License\" menu",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "4. Click on print Learners License (FORM3)",
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -9830,7 +9954,7 @@
     {
      "sourceId": "src:cb87993841b5",
      "evidence": "1- Applicant may fill the User ID creation form. Click here to download the prescribed form.",
-     "confidence": 1,
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -9846,7 +9970,7 @@
     {
      "sourceId": "src:cb87993841b5",
      "evidence": "2- Send the scan copy of the following documents to cngmaker-vahan[at]gov[dot]in",
-     "confidence": 1,
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -9862,7 +9986,7 @@
     {
      "sourceId": "src:cb87993841b5",
      "evidence": "2- Send the scan copy of the following documents to cngmaker-vahan[at]gov[dot]in",
-     "confidence": 1,
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -9878,7 +10002,7 @@
     {
      "sourceId": "src:cb87993841b5",
      "evidence": "3- After verification and approval of the submitted application, user-id will be created and information will be communicated to the applicant.",
-     "confidence": 1,
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -9894,7 +10018,7 @@
     {
      "sourceId": "src:cb87993841b5",
      "evidence": "3- After verification and approval of the submitted application, user-id will be created and information will be communicated to the applicant.",
-     "confidence": 1,
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -9910,7 +10034,7 @@
     {
      "sourceId": "src:cb87993841b5",
      "evidence": "4- The password need to be changed immediately by the user organization.",
-     "confidence": 1,
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -9926,7 +10050,7 @@
     {
      "sourceId": "src:cb87993841b5",
      "evidence": "4- The password need to be changed immediately by the user organization.",
-     "confidence": 1,
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -9941,8 +10065,8 @@
    "sources": [
     {
      "sourceId": "src:cb87993841b5",
-     "evidence": "5- Only one user id/ password will be issued to an organization.",
-     "confidence": 1,
+     "evidence": "5- Only one user id/ password will be issued to an organization. The organization may, in turn, create sub-user ids and passwords, if required, for its constituents/branches etc.",
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -9957,8 +10081,8 @@
    "sources": [
     {
      "sourceId": "src:cb87993841b5",
-     "evidence": "5- Only one user id/ password will be issued to an organization.",
-     "confidence": 1,
+     "evidence": "5- Only one user id/ password will be issued to an organization. The organization may, in turn, create sub-user ids and passwords, if required, for its constituents/branches etc.",
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -10567,6 +10691,150 @@
      "sourceId": "src:1b512feb4f0f",
      "evidence": "For Retest payment visit https://sarathi.parivahan.gov.in/ >> Select State >> and Click on Fee Payments >> Fee Payments.",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_learners_license__requires__action_learners_license_1_visit_https_sarathi_parivahan_gov_",
+   "from": "service:learners_license",
+   "to": "action:learners_license_1_visit_https_sarathi_parivahan_gov_in",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 1 of 5 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "1. Visit https://sarathi.parivahan.gov.in/",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_learners_license__requires__action_learners_license_2_select_concerned_state",
+   "from": "service:learners_license",
+   "to": "action:learners_license_2_select_concerned_state",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 2 of 5 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "2. Select concerned state",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_learners_license_2_select_concerned_state__depends_on__action_learners_license_1_visit_https_sarathi_parivahan_",
+   "from": "action:learners_license_2_select_concerned_state",
+   "to": "action:learners_license_1_visit_https_sarathi_parivahan_gov_in",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "2. Select concerned state",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_learners_license__requires__action_learners_license_3_click_on_learner_license_menu",
+   "from": "service:learners_license",
+   "to": "action:learners_license_3_click_on_learner_license_menu",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 3 of 5 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "3. Click on \"Learner License\" menu",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_learners_license_3_click_on_learner_license_menu__depends_on__action_learners_license_2_select_concerned_state",
+   "from": "action:learners_license_3_click_on_learner_license_menu",
+   "to": "action:learners_license_2_select_concerned_state",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "3. Click on \"Learner License\" menu",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_learners_license__requires__action_learners_license_4_click_on_print_learners_license_fo",
+   "from": "service:learners_license",
+   "to": "action:learners_license_4_click_on_print_learners_license_form3",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 4 of 5 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "4. Click on print Learners License (FORM3)",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_learners_license_4_click_on_print_learners_license_fo__depends_on__action_learners_license_3_click_on_learner_l",
+   "from": "action:learners_license_4_click_on_print_learners_license_form3",
+   "to": "action:learners_license_3_click_on_learner_license_menu",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "4. Click on print Learners License (FORM3)",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_learners_license__requires__action_learners_license_5_fill_application_number_date_of_bi",
+   "from": "service:learners_license",
+   "to": "action:learners_license_5_fill_application_number_date_of_birth_an",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 5 of 5 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "5. Fill Application number & Date of Birth AND Submit.",
+     "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_learners_license_5_fill_application_number_date_of_bi__depends_on__action_learners_license_4_click_on_print_lea",
+   "from": "action:learners_license_5_fill_application_number_date_of_birth_an",
+   "to": "action:learners_license_4_click_on_print_learners_license_form3",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "5. Fill Application number & Date of Birth AND Submit.",
+     "confidence": 0.55,
      "verificationStatus": "EXTRACTED"
     }
    ]

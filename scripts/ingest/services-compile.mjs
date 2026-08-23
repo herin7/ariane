@@ -325,7 +325,93 @@ export function orderedSteps(facts) {
   const explicit = marked.filter((m) => m.explicit).length;
   if (explicit && explicit !== marked.length) return [];
 
-  return run.map((n) => byNumber.get(n));
+  // Same bar the page reader has to clear. A startup policy pdf numbers its six
+  // kinds of assistance in a table, the extractor calls each row an ACTION
+  // because it says "on submission of proof", and the run is as clean as a real
+  // process. Printed as steps it tells a founder to do six things in an order
+  // the policy never claimed. Numbering is not instruction.
+  const steps = run.map((n) => byNumber.get(n));
+  if (steps.filter((m) => INSTRUCTION.test(m.rest || m.fact.claim)).length / steps.length < MOSTLY) return [];
+
+  return steps;
+}
+
+/**
+ * The page saying, in its own words, that what follows is the order.
+ *
+ * `orderedSteps` can only see the handful of lines the extractor decided were
+ * ACTION facts, and it measured badly: 92 pages in the corpus have a numbered
+ * instruction somewhere and only 11 of them survive as a process, because the
+ * model quoted steps 1, 2 and 5 of a list of nine and a gap is a refusal. The
+ * numbered list is right there in the cached markdown. Reading it ourselves
+ * costs nothing, cannot paraphrase, and the evidence is the line.
+ *
+ * What it must not do is turn every numbered list into a process. 192 pages
+ * have a clean 1..N run and most of them are gazette clauses, footnote
+ * markers and policy paragraphs. So the page has to have said the word: a
+ * heading within eight lines that calls it a procedure, or every line of the
+ * run reading as an instruction. Both together is better and rarer.
+ */
+const PROCESS_HEAD =
+  /\b(how\s+to\s+apply|application\s+process|procedure|process\s+flow|step[\s-]*by[\s-]*step|steps?\s+(to|for)\b|following\s+steps|below\s+steps|apply\s+online|registration\s+process|process\s+of\b|પ્રક્રિયા)\b/i;
+
+/** A line that tells a citizen to do something, rather than telling them a rule. */
+const INSTRUCTION =
+  /\b(appl(y|ies)|submit|upload|fill|click|select|visit|login|log\s*in|register|registration|pay|download|print|attach|enter|choose|go\s+to|open|receive|collect|obtain|verify|scan|send|check|create|generate|complete|sign|book|search|contact|bring|carry|provide|enclose|affix|deposit|કરો|કરવી|જાઓ)\b/i;
+
+/** How much of a run has to read as an instruction once the heading vouched for it. */
+const MOSTLY = 0.6;
+
+/** Numbered markdown lines. Same shapes as `stepMarker`, anchored for a whole line. */
+const LINE_STEP = /^\s*(?:\*\*)?(?:step|stage|પગલું|તબક્કો)\s*[-:.]?\s*(\d{1,2})\b[).:\-\s]*/i;
+// The `(?![\d.])` is what keeps "1.2 Nodal Institution" out. A document outline
+// numbers its sections and is not telling anybody to do anything.
+const LINE_NUM = /^\s*(?:\*\*)?\(?(\d{1,2})\)?\s*[).:\-]\s*(?![\d.])(?=\S)/;
+
+/**
+ * The numbered process a cached page states, or an empty array.
+ *
+ * Returns the same shape as `orderedSteps` so the caller cannot tell which of
+ * the two read the page, including a synthetic fact whose `evidence` is the
+ * untouched line. Verbatim by construction: the quote is a slice of the file
+ * the substring gate checks against.
+ */
+export function pageSteps(text) {
+  const lines = String(text ?? "").split("\n");
+  for (let i = 0; i < lines.length; i++) {
+    const first = LINE_STEP.exec(lines[i]) ?? LINE_NUM.exec(lines[i]);
+    if (!first || Number(first[1]) !== 1) continue;
+
+    const run = [lines[i]];
+    for (let j = i + 1, want = 2; j < lines.length && j < i + 200; j++) {
+      if (!lines[j].trim()) continue;
+      const next = LINE_STEP.exec(lines[j]) ?? LINE_NUM.exec(lines[j]);
+      if (!next) continue;
+      if (Number(next[1]) !== want) break;
+      run.push(lines[j]);
+      want++;
+    }
+    if (run.length < MIN_STEPS) continue;
+
+    const bodies = run.map((line) => line.replace(LINE_STEP, "").replace(LINE_NUM, "").trim());
+    // Eight characters is "Pay fee." Anything shorter is a table cell that
+    // happened to start with a number; anything past 240 is a paragraph.
+    if (!bodies.every((b) => b.length >= 8 && b.length <= 240)) continue;
+    if (bodies.some(readsAsAQuestion)) continue;
+
+    const headed = PROCESS_HEAD.test(lines.slice(Math.max(0, i - 8), i).join(" "));
+    const share = bodies.filter((b) => INSTRUCTION.test(b)).length / bodies.length;
+    if (!(headed ? share >= MOSTLY : share === 1)) continue;
+
+    return run.map((line, k) => ({
+      n: k + 1,
+      explicit: LINE_STEP.test(line),
+      rest: bodies[k],
+      label: bodies[k],
+      fact: { kind: "ACTION", claim: bodies[k], evidence: line.trim(), confidence: 0.55 },
+    }));
+  }
+  return [];
 }
 
 /** A short human label for a step, taken off the page and never written for it. */
@@ -625,6 +711,47 @@ if (flag("selftest")) {
     orderedSteps([action("1) Apply online"), action("2) Pay the fee"), action("Step 3: Collect it")]),
     [],
     "one Step 3 among bare numbers is two interleaved lists",
+  );
+
+  assert.deepEqual(
+    orderedSteps([
+      action("1. Capital Assistance In 3 tranches Reimbursement as per approval"),
+      action("2. Mentoring Assistance On Submission of Proof of eligible expenditure"),
+      action("3. Operating Assistance On Submission of Audited Accounts"),
+    ]),
+    [],
+    "a numbered table of what a scheme pays for is not a numbered process",
+  );
+
+  // ------------------------------------------------- the page read directly
+
+  const HOW = "How to apply for Renewal License?\n\n1) Login to the system and find the Renewal submenu.\n2) Upload the attachment and add the payment detail.\n3) Submit the application and print the receipt.\n";
+  assert.deepEqual(pageSteps(HOW).map((s) => s.n), [1, 2, 3], "a numbered list under How to apply is the page stating an order");
+  assert.equal(pageSteps(HOW)[0].fact.evidence, "1) Login to the system and find the Renewal submenu.", "the quote is the line, untouched");
+  assert.deepEqual(
+    pageSteps("Contents\n\n1.2 Nodal Institution shall be notified\n2.1 Eligible enterprises are defined\n3.1 The scheme period is five years"),
+    [],
+    "a document outline numbers its sections and instructs nobody",
+  );
+  assert.deepEqual(
+    pageSteps("Procedure\n\n1. These words, brackets and letters were substituted by notification.\n2. These figures were omitted by the same notification.\n3. This clause was renumbered accordingly."),
+    [],
+    "gazette footnotes sit under the word Procedure and are still not steps",
+  );
+  assert.deepEqual(
+    pageSteps("Register Online here\n\n1) Go to the portal and click Register.\n2) Enter your details and submit the form.\n3) Download the acknowledgement receipt.").map((s) => s.n),
+    [1, 2, 3],
+    "no heading, but every line tells the citizen to do something",
+  );
+  assert.deepEqual(
+    pageSteps("Notes\n\n1) The scheme was announced in 2015 by the department.\n2) The budget allocated was fifty crore rupees.\n3) The scheme covers all districts of the state."),
+    [],
+    "three numbered statements with nothing to do are not a process",
+  );
+  assert.deepEqual(
+    pageSteps("Steps to apply\n\n2) Pay the fee at the counter.\n3) Collect the receipt from the clerk.\n4) Submit the receipt online."),
+    [],
+    "a run that does not start at one is a run we have joined halfway",
   );
   assert.deepEqual(
     orderedSteps([action("1) Apply online"), action("1) Apply online again"), action("2) Pay"), action("3) Collect")]).map((s) => s.n),
@@ -1169,8 +1296,19 @@ function build(journey, services) {
       // or nothing, and nothing is the common answer: 2521 ACTION facts across
       // the corpus and most of them are a Mamlatdar's job description or a
       // dropdown label. §9: an ambiguous sequence never becomes a citizen path.
-      const run = steps ? [] : orderedSteps(c.facts);
+      // The extractor's facts first, because a fact was worth quoting; the page
+      // itself second, for the nine step list the extractor quoted three of.
+      const fromFacts = steps ? [] : orderedSteps(c.facts);
+      const run = steps ? [] : (fromFacts.length ? fromFacts : pageSteps(textOf(c.page.sha1)));
       if (run.length) {
+        // A step read straight off the page is not one of `c.facts`, so it is
+        // not in the evidence layer yet, and quotes:audit is right to call a
+        // graph quote nobody recorded a fabrication. Record it as what it is.
+        if (run !== fromFacts) {
+          for (const m of run) {
+            facts.push({ claim: m.fact.claim, kind: "ACTION", subject: service.id, object: null, detail: { stepNumber: m.n }, sourceId, evidence: m.fact.evidence, confidence: m.fact.confidence });
+          }
+        }
         let previous = null;
         for (const m of run) {
           const label = stepLabel(m.label);

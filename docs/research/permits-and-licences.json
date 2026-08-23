@@ -9187,6 +9187,66 @@
    "confidence": 1
   },
   {
+   "claim": "Applicant may fill the User ID creation form. Click here to download the prescribed form.",
+   "kind": "ACTION",
+   "subject": "user_id_creation_for_vahan_green_sewa",
+   "object": null,
+   "detail": {
+    "stepNumber": 1
+   },
+   "sourceId": "src:cb87993841b5",
+   "evidence": "1- Applicant may fill the User ID creation form. Click here to download the prescribed form.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "Send the scan copy of the following documents to cngmaker-vahan[at]gov[dot]in",
+   "kind": "ACTION",
+   "subject": "user_id_creation_for_vahan_green_sewa",
+   "object": null,
+   "detail": {
+    "stepNumber": 2
+   },
+   "sourceId": "src:cb87993841b5",
+   "evidence": "2- Send the scan copy of the following documents to cngmaker-vahan[at]gov[dot]in",
+   "confidence": 0.55
+  },
+  {
+   "claim": "After verification and approval of the submitted application, user-id will be created and information will be communicated to the applicant.",
+   "kind": "ACTION",
+   "subject": "user_id_creation_for_vahan_green_sewa",
+   "object": null,
+   "detail": {
+    "stepNumber": 3
+   },
+   "sourceId": "src:cb87993841b5",
+   "evidence": "3- After verification and approval of the submitted application, user-id will be created and information will be communicated to the applicant.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "The password need to be changed immediately by the user organization.",
+   "kind": "ACTION",
+   "subject": "user_id_creation_for_vahan_green_sewa",
+   "object": null,
+   "detail": {
+    "stepNumber": 4
+   },
+   "sourceId": "src:cb87993841b5",
+   "evidence": "4- The password need to be changed immediately by the user organization.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "Only one user id/ password will be issued to an organization. The organization may, in turn, create sub-user ids and passwords, if required, for its constituents/branches etc.",
+   "kind": "ACTION",
+   "subject": "user_id_creation_for_vahan_green_sewa",
+   "object": null,
+   "detail": {
+    "stepNumber": 5
+   },
+   "sourceId": "src:cb87993841b5",
+   "evidence": "5- Only one user id/ password will be issued to an organization. The organization may, in turn, create sub-user ids and passwords, if required, for its constituents/branches etc.",
+   "confidence": 0.55
+  },
+  {
    "claim": "The adventure tourism operator must have a printed brochure or website describing its activities, area of operation, and commitment to eco-tourism guidelines.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "adventure_tourism_operator",
@@ -10445,6 +10505,66 @@
    "sourceId": "src:1b512feb4f0f",
    "evidence": "Why should I visit RTO even after successful submission of application? After completing online procedure for further processing of application you should visit the concerned RTO office with the required documents as shown on the acknowledgement slip. You should also carry a copy of the fee receipt",
    "confidence": 0.9
+  },
+  {
+   "claim": "Visit https://sarathi.parivahan.gov.in/",
+   "kind": "ACTION",
+   "subject": "learners_license",
+   "object": null,
+   "detail": {
+    "stepNumber": 1
+   },
+   "sourceId": "src:1b512feb4f0f",
+   "evidence": "1. Visit https://sarathi.parivahan.gov.in/",
+   "confidence": 0.55
+  },
+  {
+   "claim": "Select concerned state",
+   "kind": "ACTION",
+   "subject": "learners_license",
+   "object": null,
+   "detail": {
+    "stepNumber": 2
+   },
+   "sourceId": "src:1b512feb4f0f",
+   "evidence": "2. Select concerned state",
+   "confidence": 0.55
+  },
+  {
+   "claim": "Click on \"Learner License\" menu",
+   "kind": "ACTION",
+   "subject": "learners_license",
+   "object": null,
+   "detail": {
+    "stepNumber": 3
+   },
+   "sourceId": "src:1b512feb4f0f",
+   "evidence": "3. Click on \"Learner License\" menu",
+   "confidence": 0.55
+  },
+  {
+   "claim": "Click on print Learners License (FORM3)",
+   "kind": "ACTION",
+   "subject": "learners_license",
+   "object": null,
+   "detail": {
+    "stepNumber": 4
+   },
+   "sourceId": "src:1b512feb4f0f",
+   "evidence": "4. Click on print Learners License (FORM3)",
+   "confidence": 0.55
+  },
+  {
+   "claim": "Fill Application number & Date of Birth AND Submit.",
+   "kind": "ACTION",
+   "subject": "learners_license",
+   "object": null,
+   "detail": {
+    "stepNumber": 5
+   },
+   "sourceId": "src:1b512feb4f0f",
+   "evidence": "5. Fill Application number & Date of Birth AND Submit.",
+   "confidence": 0.55
   },
   {
    "claim": "The National Permit is an e-Governance application under the National Transport Project.",
@@ -12622,7 +12742,6 @@
   "Tourist Guide License: https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=5 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "SARAL Pass Travel Scheme: https://suratmunicipal.gov.in/Services/Sitilink/SaralPassTravelScheme lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Pleasure Craft/Boat Operation Permission: https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=4 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
-  "Learners License: https://parivahan.gov.in/en/faq/learners-license-related-services lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "National Permit: https://www.vahan.parivahan.gov.in/npermit/faces/welcome.jsp lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "VAHAN: https://vahan.parivahan.gov.in/nrservices lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "GSLCS: https://girlion.gujarat.gov.in/PermitBookingForJungleTrail.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",

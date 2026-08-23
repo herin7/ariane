@@ -318,6 +318,114 @@
    "confidence": 1
   },
   {
+   "claim": "Log in to the e-Filing portal using your user ID and password.",
+   "kind": "ACTION",
+   "subject": "form_67",
+   "object": null,
+   "detail": {
+    "stepNumber": 1
+   },
+   "sourceId": "src:a86a67611d4f",
+   "evidence": "Step 1: Log in to the e-Filing portal using your user ID and password.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "On your Dashboard, click e-File > Income Tax Forms > File Income Tax Forms.",
+   "kind": "ACTION",
+   "subject": "form_67",
+   "object": null,
+   "detail": {
+    "stepNumber": 2
+   },
+   "sourceId": "src:a86a67611d4f",
+   "evidence": "Step 2: On your Dashboard, click e-File > Income Tax Forms > File Income Tax Forms.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "On the File Income Tax Forms page, select Form 67 . Alternatively, enter Form 67 in the search box to find the form.",
+   "kind": "ACTION",
+   "subject": "form_67",
+   "object": null,
+   "detail": {
+    "stepNumber": 3
+   },
+   "sourceId": "src:a86a67611d4f",
+   "evidence": "Step 3: On the File Income Tax Forms page, select Form 67 . Alternatively, enter Form 67 in the search box to find the form.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "On the Form 67 page, select the Assessment Year (A.Y.) and click Continue.",
+   "kind": "ACTION",
+   "subject": "form_67",
+   "object": null,
+   "detail": {
+    "stepNumber": 4
+   },
+   "sourceId": "src:a86a67611d4f",
+   "evidence": "Step 4 : On the Form 67 page, select the Assessment Year (A.Y.) and click Continue.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "On the Instructions page, click Let's Get Started.",
+   "kind": "ACTION",
+   "subject": "form_67",
+   "object": null,
+   "detail": {
+    "stepNumber": 5
+   },
+   "sourceId": "src:a86a67611d4f",
+   "evidence": "Step 5 : On the Instructions page, click Let's Get Started.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "On click of Let's Get Started , Form 67 is displayed. Fill all the required details and click Preview .",
+   "kind": "ACTION",
+   "subject": "form_67",
+   "object": null,
+   "detail": {
+    "stepNumber": 6
+   },
+   "sourceId": "src:a86a67611d4f",
+   "evidence": "Step 6 : On click of Let's Get Started , Form 67 is displayed. Fill all the required details and click Preview .",
+   "confidence": 0.55
+  },
+  {
+   "claim": "On the Preview page, verify the details and click Proceed to e-Verify.",
+   "kind": "ACTION",
+   "subject": "form_67",
+   "object": null,
+   "detail": {
+    "stepNumber": 7
+   },
+   "sourceId": "src:a86a67611d4f",
+   "evidence": "Step 7: On the Preview page, verify the details and click Proceed to e-Verify.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "Click Yes to e-Verify..",
+   "kind": "ACTION",
+   "subject": "form_67",
+   "object": null,
+   "detail": {
+    "stepNumber": 8
+   },
+   "sourceId": "src:a86a67611d4f",
+   "evidence": "Step 8 : Click Yes to e-Verify..",
+   "confidence": 0.55
+  },
+  {
+   "claim": "On clicking Yes , you will be taken to the e-Verify page.",
+   "kind": "ACTION",
+   "subject": "form_67",
+   "object": null,
+   "detail": {
+    "stepNumber": 9
+   },
+   "sourceId": "src:a86a67611d4f",
+   "evidence": "Step 9 : On clicking Yes , you will be taken to the e-Verify page.",
+   "confidence": 0.55
+  },
+  {
    "claim": "A taxpayer must be a registered PAN user on the e-Filing portal to request a challan correction.",
    "kind": "ELIGIBILITY",
    "subject": "challan_correction_request",
@@ -450,6 +558,78 @@
    "confidence": 1
   },
   {
+   "claim": "Log in to the e-Filing portal with user ID and password.",
+   "kind": "ACTION",
+   "subject": "challan_correction_request",
+   "object": null,
+   "detail": {
+    "stepNumber": 1
+   },
+   "sourceId": "src:7fd29c1cf6e0",
+   "evidence": "Step 1: Log in to the e-Filing portal with user ID and password.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "On the Dashboard, click Services > Challan Correction.",
+   "kind": "ACTION",
+   "subject": "challan_correction_request",
+   "object": null,
+   "detail": {
+    "stepNumber": 2
+   },
+   "sourceId": "src:7fd29c1cf6e0",
+   "evidence": "Step 2: On the Dashboard, click Services > Challan Correction.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "On the Challan Correction page, click the “+ Create Challan Correction Request” option to create a new Challan Correction Request.",
+   "kind": "ACTION",
+   "subject": "challan_correction_request",
+   "object": null,
+   "detail": {
+    "stepNumber": 3
+   },
+   "sourceId": "src:7fd29c1cf6e0",
+   "evidence": "Step 3: On the Challan Correction page, click the “+ Create Challan Correction Request” option to create a new Challan Correction Request.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "You are required to select the relevant attribute for correction in the challan. Select the appropriate option (multiple options can be selected as applicable)and click Continue.",
+   "kind": "ACTION",
+   "subject": "challan_correction_request",
+   "object": null,
+   "detail": {
+    "stepNumber": 4
+   },
+   "sourceId": "src:7fd29c1cf6e0",
+   "evidence": "Step 4: You are required to select the relevant attribute for correction in the challan. Select the appropriate option (multiple options can be selected as applicable)and click Continue.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "You are required to select the Tax year/Assessment Year or Challan Identification Number (CIN) to create challan correction request .Based on selection the unconsumed challans will be displayed for the correction. Click Continue to proceed.",
+   "kind": "ACTION",
+   "subject": "challan_correction_request",
+   "object": null,
+   "detail": {
+    "stepNumber": 5
+   },
+   "sourceId": "src:7fd29c1cf6e0",
+   "evidence": "Step 5: You are required to select the Tax year/Assessment Year or Challan Identification Number (CIN) to create challan correction request .Based on selection the unconsumed challans will be displayed for the correction. Click Continue to proceed.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "Once the relevant challan is selected, the Correction in Challan page will open. On this page, the user can update the required challan attributes and then click Continue.",
+   "kind": "ACTION",
+   "subject": "challan_correction_request",
+   "object": null,
+   "detail": {
+    "stepNumber": 6
+   },
+   "sourceId": "src:7fd29c1cf6e0",
+   "evidence": "Step 6: Once the relevant challan is selected, the Correction in Challan page will open. On this page, the user can update the required challan attributes and then click Continue.",
+   "confidence": 0.55
+  },
+  {
    "claim": "A citizen must be a registered user of the e-Filing portal to use the My CA service.",
    "kind": "ELIGIBILITY",
    "subject": "my_ca_service",
@@ -570,6 +750,66 @@
    "confidence": 0.95
   },
   {
+   "claim": "Log in to the e-Filing portal using user ID and password.",
+   "kind": "ACTION",
+   "subject": "my_ca",
+   "object": null,
+   "detail": {
+    "stepNumber": 1
+   },
+   "sourceId": "src:3b4d79f6e027",
+   "evidence": "Step 1: Log in to the e-Filing portal using user ID and password.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "Click Authorized Partners > My Chartered Accountant.",
+   "kind": "ACTION",
+   "subject": "my_ca",
+   "object": null,
+   "detail": {
+    "stepNumber": 2
+   },
+   "sourceId": "src:3b4d79f6e027",
+   "evidence": "Step 2: Click Authorized Partners > My Chartered Accountant.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "The My Chartered Accountant(s) page appears. It displays the active and inactive CAs under the respective tabs.",
+   "kind": "ACTION",
+   "subject": "my_ca",
+   "object": null,
+   "detail": {
+    "stepNumber": 3
+   },
+   "sourceId": "src:3b4d79f6e027",
+   "evidence": "Step 3: The My Chartered Accountant(s) page appears. It displays the active and inactive CAs under the respective tabs.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "Enter name in the Search by Name textbox to view all matching records.",
+   "kind": "ACTION",
+   "subject": "my_ca",
+   "object": null,
+   "detail": {
+    "stepNumber": 4
+   },
+   "sourceId": "src:3b4d79f6e027",
+   "evidence": "Step 4: Enter name in the Search by Name textbox to view all matching records.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "Click View Assigned Forms to display the status and details of all forms assigned to a specific CA.",
+   "kind": "ACTION",
+   "subject": "my_ca",
+   "object": null,
+   "detail": {
+    "stepNumber": 5
+   },
+   "sourceId": "src:3b4d79f6e027",
+   "evidence": "Step 5: Click View Assigned Forms to display the status and details of all forms assigned to a specific CA.",
+   "confidence": 0.55
+  },
+  {
    "claim": "A taxpayer must e-verify their return before refund processing can start.",
    "kind": "CONDITIONAL_REQUIREMENT",
    "subject": "refund_processing",
@@ -680,6 +920,54 @@
    "confidence": 1
   },
   {
+   "claim": "Go to the e-Filing portal homepage.",
+   "kind": "ACTION",
+   "subject": "refund_status_check",
+   "object": null,
+   "detail": {
+    "stepNumber": 1
+   },
+   "sourceId": "src:d043f7ad5e63",
+   "evidence": "Step 1: Go to the e-Filing portal homepage.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "Enter the user ID and password.",
+   "kind": "ACTION",
+   "subject": "refund_status_check",
+   "object": null,
+   "detail": {
+    "stepNumber": 2
+   },
+   "sourceId": "src:d043f7ad5e63",
+   "evidence": "Step 2: Enter the user ID and password.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "Go to e-File tab > Income Tax Returns > View Filed Returns.",
+   "kind": "ACTION",
+   "subject": "refund_status_check",
+   "object": null,
+   "detail": {
+    "stepNumber": 3
+   },
+   "sourceId": "src:d043f7ad5e63",
+   "evidence": "Step 3: Go to e-File tab > Income Tax Returns > View Filed Returns.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "Now you can check the refund status for the desired Assessment year.",
+   "kind": "ACTION",
+   "subject": "refund_status_check",
+   "object": null,
+   "detail": {
+    "stepNumber": 4
+   },
+   "sourceId": "src:d043f7ad5e63",
+   "evidence": "Step 4: Now you can check the refund status for the desired Assessment year.",
+   "confidence": 0.55
+  },
+  {
    "claim": "The 'Know Your JAO' service is available to taxpayers who have a valid PAN.",
    "kind": "ELIGIBILITY",
    "subject": "know_your_jao_service",
@@ -774,11 +1062,55 @@
    "sourceId": "src:0dba2f26987a",
    "evidence": "On successful OTP validation, you will see the Jurisdictional Assessing Officer Details (such as Area Code, AO Type, Range Code, AO Number, Jurisdiction, Address and email ID of the JAO), along with status of your PAN.",
    "confidence": 1
+  },
+  {
+   "claim": "Go to the e-Filing portal homepage. In quick links section, click ‘ Know Your JAO’ .",
+   "kind": "ACTION",
+   "subject": "know_your_jao",
+   "object": null,
+   "detail": {
+    "stepNumber": 1
+   },
+   "sourceId": "src:0dba2f26987a",
+   "evidence": "Step 1: Go to the e-Filing portal homepage. In quick links section, click ‘ Know Your JAO’ .",
+   "confidence": 0.55
+  },
+  {
+   "claim": "On the ‘ Know Your Jurisdictional Assessing Officer’ page, enter your PAN and a valid mobile number and click ‘Continue’ .",
+   "kind": "ACTION",
+   "subject": "know_your_jao",
+   "object": null,
+   "detail": {
+    "stepNumber": 2
+   },
+   "sourceId": "src:0dba2f26987a",
+   "evidence": "Step 2 : On the ‘ Know Your Jurisdictional Assessing Officer’ page, enter your PAN and a valid mobile number and click ‘Continue’ .",
+   "confidence": 0.55
+  },
+  {
+   "claim": "You will receive a 6-digit OTP on the mobile number you entered in Step 2. Enter the OTP and click ‘ Validate ’.",
+   "kind": "ACTION",
+   "subject": "know_your_jao",
+   "object": null,
+   "detail": {
+    "stepNumber": 3
+   },
+   "sourceId": "src:0dba2f26987a",
+   "evidence": "Step 3: You will receive a 6-digit OTP on the mobile number you entered in Step 2. Enter the OTP and click ‘ Validate ’.",
+   "confidence": 0.55
+  },
+  {
+   "claim": "Related Topics",
+   "kind": "ACTION",
+   "subject": "know_your_jao",
+   "object": null,
+   "detail": {
+    "stepNumber": 4
+   },
+   "sourceId": "src:0dba2f26987a",
+   "evidence": "4. Related Topics",
+   "confidence": 0.55
   }
  ],
- "notFound": [
-  "Form 67: https://www.incometax.gov.in/iec/foportal/help/statutory-forms/popular-form/form67-um lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
-  "My CA: https://www.incometax.gov.in/iec/foportal/help/MyCAUserManual lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
-  "Know Your JAO: https://www.incometax.gov.in/iec/foportal/help/know-ao lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page."
- ]
+ "notFound": []
 }
