@@ -513,6 +513,7 @@ export class JourneyCompiler {
         fee: node.metadata?.fee,
         timeline: node.metadata?.timeline,
         formNumber: node.metadata?.formNumber,
+        eligibility: node.metadata?.eligibility,
         documentsNeeded: documents.needed,
         documentsReady: documents.ready,
         channels,

@@ -316,6 +316,14 @@ function Step({
       {step.whyRequired ? <Text style={styles.body}>{step.whyRequired}</Text> : null}
       {step.whatToDo ? <Text style={styles.body}>Do this: {step.whatToDo}</Text> : null}
       {step.expectedOutput ? <Text style={styles.body}>You get: {step.expectedOutput}</Text> : null}
+      {step.eligibility?.length ? (
+        <>
+          <Text style={styles.body}>The page says this about who qualifies:</Text>
+          {step.eligibility.map((rule) => (
+            <Text key={rule} style={styles.muted}>{"• " + rule}</Text>
+          ))}
+        </>
+      ) : null}
       {facts ? <Text style={styles.muted}>{facts}</Text> : null}
 
       {step.documentsNeeded.map((d) => (

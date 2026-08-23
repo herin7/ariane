@@ -107,6 +107,16 @@ export interface NodeMetadata {
   fee?: string;
   timeline?: string;
   formNumber?: string;
+  /**
+   * Who the page says qualifies, in the page's own sentences.
+   *
+   * Not a rule and deliberately not one. An `ELIGIBILITY` node needs a
+   * `Condition` over a field the question bank already asks about, and there is
+   * no honest way to turn "the beneficiary must be a woman" into one without
+   * inventing the field. So the criteria are quoted, not evaluated: the citizen
+   * reads them and decides, which is what they do at the counter anyway.
+   */
+  eligibility?: string[];
 
   /** DOCUMENT_GROUP: which requirement group defines satisfaction. */
   requirementGroupId?: string;
@@ -431,6 +441,8 @@ export interface JourneyStep {
   fee?: string;
   timeline?: string;
   formNumber?: string;
+  /** Who qualifies, quoted from the page. See `NodeMetadata.eligibility`. */
+  eligibility?: string[];
   documentsNeeded: DocumentRequirement[];
   documentsReady: DocumentRequirement[];
   channels: Channel[];

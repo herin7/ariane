@@ -292,6 +292,18 @@ function Step({ step, held, onHave }: { step: JourneyStep; held: string[]; onHav
           {step.whatToDo ? <p className="small"><b>Do this: </b>{step.whatToDo}</p> : null}
           {step.expectedOutput ? <p className="small"><b>You get: </b>{step.expectedOutput}</p> : null}
 
+          {step.eligibility?.length ? (
+            <>
+              {/* Quoted, not evaluated. We are not telling anyone they qualify. */}
+              <p className="small" style={{ marginBottom: 2 }}><b>The page says this about who qualifies</b></p>
+              <ul className="small">
+                {step.eligibility.map((rule) => (
+                  <li key={rule}>{rule}</li>
+                ))}
+              </ul>
+            </>
+          ) : null}
+
           <p className="small muted">
             {[step.fee && `Fee: ${step.fee}`, step.formNumber && `Form: ${step.formNumber}`, step.timeline]
               .filter(Boolean)
