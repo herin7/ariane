@@ -32,7 +32,29 @@ import type { SourceRef } from "../types";
 const ALL = [...journeyBundleNames];
 
 const read = (url: URL) => JSON.parse(readFileSync(url, "utf8"));
-const norm = (s: string) => s.replace(/\s+/g, " ").trim().toLowerCase();
+
+/**
+ * Markdown syntax is not part of what the page said.
+ *
+ * Research evidence is captured off markdown, so it arrives carrying `**` and
+ * `\.` and `[label](url)`. A graph quote is written the way a citizen reads it.
+ * Comparing those two raw made the audit reject quotes that were verbatim
+ * correct, which trains everyone to work around the gate instead of trusting
+ * it. Both sides get stripped, so a paraphrase still has different letters and
+ * still fails.
+ *
+ * Character for character the same rule as
+ * `scripts/ingest/services-extract.mjs`, which asserts the two agree.
+ */
+const norm = (s: string) =>
+  s
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
+    .replace(/\\([-.*_[\]()#+!`>~])/g, "$1")
+    .replace(/[*_`~]/g, "")
+    .replace(/[\u200b-\u200d\u2060\ufeff]/g, "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
 
 function auditOne(name: string): number {
   const journey: GraphBundle = read(new URL(`../data/graph/${name}.json`, import.meta.url));

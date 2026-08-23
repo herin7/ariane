@@ -45,9 +45,16 @@ const EXTRACT = ".ingest/extract/";
 const PAGES_LEDGER = ".ingest/pages.jsonl";
 const FACTS = ".ingest/facts.jsonl";
 
-/** Bump either and every cached extraction is invalidated. No manual busting. */
+/** Bump any and every cached extraction is invalidated. No manual busting. */
 const SCHEMA_VERSION = 1;
-const PROMPT_VERSION = 2;
+const PROMPT_VERSION = 4;
+/**
+ * The substring gate is part of what an extraction means, not part of how it
+ * was requested. Loosening it without a key of its own leaves a cache full of
+ * results the current gate would never have produced, and no way to tell.
+ * v2: markdown markup stopped counting as a difference in wording.
+ */
+const GATE_VERSION = 2;
 
 // Eight against Bedrock, four against the state's own servers. Different
 // systems, different tolerances, and `chat` already backs off on a 429.
@@ -74,16 +81,41 @@ const FETCH_CONCURRENCY = flag("render") ? Number(value("concurrency", 10)) : 8;
 
 // ---------------------------------------------------------- the substring gate
 
+/**
+ * Markdown syntax is not part of what the page says.
+ *
+ * We hand the model markdown and ask it to quote the page. It quotes what a
+ * human reads, "For Law Studies", where the file holds "8\. **For Law
+ * Studies:**". Same characters, same claim, and the substring check said no.
+ *
+ * Measured before this existed: 73% of page lines over 40 characters carry an
+ * emphasis marker, an escape or a link, and of 14,869 facts that got through
+ * the gate, the number whose evidence contained `**` or a markdown link was
+ * zero. Not few. Zero. Every bolded requirement and every linked form on the
+ * estate was being dropped as though the model had made it up.
+ *
+ * This does not soften the gate, it just stops comparing in the wrong space.
+ * Both sides get the same treatment, so a paraphrase still has different
+ * letters in it and still fails.
+ */
+const unmark = (s) =>
+  s
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
+    .replace(/\\([-.*_[\]()#+!`>~])/g, "$1")
+    .replace(/[*_`~]/g, "")
+    .replace(/[\u200b-\u200d\u2060\ufeff]/g, "");
+
 /** Character for character the same rule as `packages/core/src/cli/quotes.ts`. */
-const norm = (s) => s.replace(/\s+/g, " ").trim().toLowerCase();
+const norm = (s) => unmark(s).replace(/\s+/g, " ").trim().toLowerCase();
 
 /**
  * Did this quote come off this page?
  *
- * One substring check after whitespace normalisation. No fuzzy matching, no
- * edit distance, no "close enough". A quote trimmed differently from the page
- * passes, a paraphrase does not, and that is the entire line worth drawing:
- * the moment it is fuzzy, a confident model can walk a fact across it.
+ * One substring check after whitespace and markup normalisation. No fuzzy
+ * matching, no edit distance, no "close enough". A quote trimmed differently
+ * from the page passes, a quote the page printed in bold passes, a paraphrase
+ * does not, and that is the entire line worth drawing: the moment it is fuzzy,
+ * a confident model can walk a fact across it.
  */
 export function grounded(evidence, pageText) {
   if (typeof evidence !== "string") return false;
@@ -92,6 +124,31 @@ export function grounded(evidence, pageText) {
   // appears on every page in the estate.
   if (quote.length < 12) return false;
   return norm(pageText).includes(quote);
+}
+
+/**
+ * A long page in as many windows as it takes, not the first 14,000 characters.
+ *
+ * Measured across the cache: 201 pages are longer than the window and between
+ * them 2,478,500 characters had never once been shown to a model. Not thin
+ * pages. The opposite: a page is long here because it is the one that lists all
+ * forty documents, and we were reading the first third of exactly the pages
+ * worth reading.
+ *
+ * Overlapped, because a requirement that straddles a boundary is invisible in
+ * both halves otherwise, and the quote has to survive whole to pass the gate.
+ *
+ * ponytail: split on characters, not on headings. A heading-aware split is
+ * better and this estate's markdown is not consistent enough to trust one.
+ */
+const WINDOW_OVERLAP = 600;
+/** Four windows is 54k characters. Past that a page is a document dump. */
+const MAX_WINDOWS = 4;
+
+export function windows(text, size = MAX_CHARS, overlap = WINDOW_OVERLAP) {
+  const out = [];
+  for (let i = 0; i < text.length && out.length < MAX_WINDOWS; i += size - overlap) out.push(text.slice(i, i + size));
+  return out;
 }
 
 const GUJARATI_DIGITS = "૦૧૨૩૪૫૬૭૮૯";
@@ -172,10 +229,42 @@ if (flag("selftest")) {
   assert.equal(grounded("fee", page), false, "too short to be a quote");
   assert.equal(grounded(undefined, page), false);
 
+  // A page written in markdown says the same thing a page written in plain text
+  // says. The model quotes what a citizen would read off the screen, and until
+  // this passed, every bolded requirement on the estate was thrown away.
+  const md = "8\\. **For Law Studies:** [**Course List**](https://x.gov.in/c.aspx)\n\nFee is \\*Rs. 20\\* per copy.";
+  assert.equal(grounded("For Law Studies: Course List", md), true, "bold and a link are not part of the claim");
+  assert.equal(grounded("**For Law Studies:**", md), true, "quoting the markup back at us is also fine");
+  assert.equal(grounded("Fee is Rs. 20 per copy.", md), true, "an escaped asterisk is a printed asterisk, not a word");
+  assert.equal(grounded("For Law Studies: Course Catalogue", md), false, "still a paraphrase, still dropped");
+  assert.equal(grounded("https://x.gov.in/c.aspx", md), false, "a link target is not something the page said");
+
   // The gate must agree with the auditor that runs on the committed graph, or a
   // fact passes here and fails there, which is the worst place to find out.
-  const auditor = (s) => s.replace(/\s+/g, " ").trim().toLowerCase();
-  assert.equal(norm("  A   B\nc "), auditor("  A   B\nc "));
+  const auditor = (s) =>
+    s
+      .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
+      .replace(/\\([-.*_[\]()#+!`>~])/g, "$1")
+      .replace(/[*_`~]/g, "")
+      .replace(/[\u200b-\u200d\u2060\ufeff]/g, "")
+      .replace(/\s+/g, " ")
+      .trim()
+      .toLowerCase();
+  for (const s of ["  A   B\nc ", md, "**bold** and [a link](http://x)", "plain"]) {
+    assert.equal(norm(s), auditor(s), `the two copies of the rule disagree on ${JSON.stringify(s)}`);
+  }
+
+  // A page longer than the window is read whole, and the overlap is real, or a
+  // requirement that lands on a boundary is in neither half and the quote that
+  // proves it never survives to be checked.
+  const long = "x".repeat(100);
+  assert.deepEqual(windows("short", 10, 3), ["short"]);
+  assert.deepEqual(windows("abcdefghij", 4, 1), ["abcd", "defg", "ghij", "j"]);
+  assert.equal(windows(long, 10, 3).length, 4, "the cap is a cap, not a suggestion");
+  const w = windows("abcdefghij", 4, 1);
+  for (const [i, part] of w.slice(1).entries()) {
+    assert.ok(w[i].endsWith(part[0]), "consecutive windows must share a character or a sentence can fall between them");
+  }
 
   assert.deepEqual(sane({ days: "૧૫", amount: 20, blank: "", missing: null }), { days: "15", amount: 20 });
   assert.deepEqual(sane("not an object"), {});
@@ -231,10 +320,19 @@ const toRender = rendering
 // second credit on the same page.
 const uniqueRender = [...new Map(toRender.map((r) => [r.url, r])).values()];
 
-const toFetch = queue
-  .filter((r) => !pages.has(r.url) && !blocked.has(r.url) && !/\.pdf(\?|$)/i.test(r.url))
-  .concat(uniqueRender)
-  .slice(0, Number(value("limit", Infinity)));
+/**
+ * `--no-fetch` extracts over what is already cached and touches no ledger a
+ * fetch owns. Fetching and extracting normally belong in one run, but a render
+ * pass takes hours at the plan's eleven a minute, and re-running extraction
+ * after a gate change should not have to wait behind it or fight it for
+ * `.ingest/pages.jsonl`. The reverse flag, `--fetch-only`, already existed.
+ */
+const toFetch = flag("no-fetch")
+  ? []
+  : queue
+      .filter((r) => !pages.has(r.url) && !blocked.has(r.url) && !/\.pdf(\?|$)/i.test(r.url))
+      .concat(uniqueRender)
+      .slice(0, Number(value("limit", Infinity)));
 
 console.log(`${queue.length} discovered urls, ${pages.size} already fetched, ${blocked.size} in the negative cache, ${deferredPdf.length} pdfs deferred, ${toFetch.length} to fetch${rendering ? ` (${uniqueRender.length} of them retries through a browser)` : ""}`);
 
@@ -369,30 +467,43 @@ for (const got of fetched) {
   pages.set(got.row.url, got.row);
 }
 
-saveLedger(PAGES_LEDGER, pages);
+// Rewriting the page ledger with what we read at startup would erase whatever a
+// concurrent fetch pass has appended since. Under `--no-fetch` we have nothing
+// to say about it, so we say nothing.
+if (toFetch.length) saveLedger(PAGES_LEDGER, pages);
 appendJsonl(NEGATIVE, newlyNegative);
-console.log(`  ${ok} fetched, ${duplicates} discarded as a catch-all shell, ${newlyNegative.length} recorded as not worth asking again${credits ? `, ${credits} rendered through a browser` : ""}${rateLimited ? `, ${rateLimited} left for next run because we hit our own rate limit` : ""}`);
+if (toFetch.length)
+  console.log(`  ${ok} fetched, ${duplicates} discarded as a catch-all shell, ${newlyNegative.length} recorded as not worth asking again${credits ? `, ${credits} rendered through a browser` : ""}${rateLimited ? `, ${rateLimited} left for next run because we hit our own rate limit` : ""}`);
 
 if (flag("fetch-only")) process.exit(0);
 
 // ------------------------------------------------------------------ extract
 
-const cacheKey = (contentHash, model) => sha256(`${contentHash}|${SCHEMA_VERSION}|${PROMPT_VERSION}|${model}`);
+const cacheKey = (contentHash, model) => sha256(`${contentHash}|${SCHEMA_VERSION}|${PROMPT_VERSION}|${GATE_VERSION}|${model}`);
 
 /** One page through one model, cached on content plus prompt plus model id. */
 async function extract(page, text, model) {
   const file = at(EXTRACT + cacheKey(page.contentHash, model) + ".json");
   if (existsSync(file)) return { ...JSON.parse(readFileSync(file, "utf8")), cached: true };
 
-  const reply = await chat(
-    [
-      { role: "system", content: SYSTEM },
-      { role: "user", content: userPrompt(page.url, page.title, text.slice(0, MAX_CHARS)) },
-    ],
-    { model, maxTokens: 4000 },
+  // Markup off before the model sees it. Measured: 73% of page lines over 40
+  // characters carry an emphasis marker, an escape or a link, and of 14,869
+  // facts extracted while it was left on, the number whose evidence contained
+  // `**` or a markdown link was zero, so the model was quoting around the
+  // formatting rather than through it. `grounded` normalises both sides, so a
+  // quote off the stripped text still has to be verbatim on the stored page.
+  const parts = windows(unmark(text));
+  const replies = await pool(parts, 2, (part, i) =>
+    chat(
+      [
+        { role: "system", content: SYSTEM },
+        { role: "user", content: userPrompt(page.url, page.title, part) + (parts.length > 1 ? `\n\n(Part ${i + 1} of ${parts.length} of this page.)` : "") },
+      ],
+      { model, maxTokens: 4000 },
+    ),
   );
 
-  const raw = reply ? (jsonArray(reply.text) ?? []) : null;
+  const raw = replies.some(Boolean) ? replies.flatMap((r) => (r ? (jsonArray(r.text) ?? []) : [])) : null;
   const facts = [];
   const seen = new Set();
   let dropped = 0;
@@ -428,14 +539,19 @@ async function extract(page, text, model) {
     facts.push(row);
   }
 
-  const result = { url: page.url, contentHash: page.contentHash, model, promptVersion: PROMPT_VERSION, schemaVersion: SCHEMA_VERSION, extractedAt: now, reachedModel: reply !== null, facts, dropped };
+  const result = { url: page.url, contentHash: page.contentHash, model, promptVersion: PROMPT_VERSION, schemaVersion: SCHEMA_VERSION, extractedAt: now, reachedModel: raw !== null, windows: parts.length, truncatedChars: Math.max(0, unmark(text).length - (parts.at(-1)?.length ?? 0) - (parts.length - 1) * (MAX_CHARS - WINDOW_OVERLAP)), facts, dropped };
   // Written even when it found nothing. "This page states no citizen facts" is
   // a real and common answer and paying to rediscover it would be silly.
   writeFileSync(file, JSON.stringify(result, null, 1));
   return { ...result, cached: false };
 }
 
-const toExtract = [...pages.values()].sort((a, b) => b.score - a.score).slice(0, Number(value("limit", Infinity)));
+// `--min-chars` picks the long pages, which are a different population to the
+// high scoring ones and the only place the windowing above can show up at all.
+const toExtract = [...pages.values()]
+  .filter((p) => (p.chars ?? 0) >= Number(value("min-chars", 0)))
+  .sort((a, b) => b.score - a.score)
+  .slice(0, Number(value("limit", Infinity)));
 console.log(`\n${toExtract.length} cached pages to extract from`);
 
 const stats = { cached: 0, calls: 0, dropped: 0, escalated: 0, unreachable: 0 };
