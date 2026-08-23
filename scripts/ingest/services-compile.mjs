@@ -33,7 +33,7 @@
  */
 
 import { at, chat, jsonArray, pool, readJsonl, sha1 } from "./lib.mjs";
-import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { appendFileSync, existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 
 const IDENTIFY = ".ingest/identify/";
 const PROMPT_VERSION = 2;
@@ -436,6 +436,103 @@ for (const name of EXISTING) {
   for (const n of bundle.nodes ?? []) taken.add(n.id);
 }
 
+// ---------------------------------------------------- documents, not fields
+
+/**
+ * Which of the extractor's "required documents" are documents.
+ *
+ * The FIELDS stoplist above caught `document:gender` and stopped there, because
+ * a stoplist only knows the words somebody thought of. The real page says this,
+ * under one heading, in one list:
+ *
+ *   Aadhaar card · Aadhaar number · English name per Aadhaar · Village or city
+ *   name · Anganwadi name · District and taluka · Ration card member id
+ *
+ * Two of those seven are documents. The other five are boxes on the form, and
+ * telling a woman applying for Matru Shakti Yojana to go and obtain a "village
+ * or city name" is worse than telling her nothing, because she will believe it.
+ *
+ * A regex cannot draw this line. "Aadhaar card" and "name per ration card" both
+ * end in "card"; "Electoral id card" is a document and "Family card id" is not.
+ * So this is a model call, and it is the right kind: it never invents a
+ * document, it only says which of ours were never documents. Cached per phrase,
+ * so the second run asks nothing and the fiftieth asks only about new words.
+ */
+const DOCUMENTS = ".ingest/documents.jsonl";
+const DOC_VERSION = 1;
+const DOC_BATCH = 60;
+
+const DOC_SYSTEM = [
+  "You are given phrases that an extractor pulled out of the \"documents required\" area of an Indian government page.",
+  "Some are documents. The rest are form fields, headings or navigation that happened to sit under the same heading.",
+  "",
+  "Answer with a JSON array of only the phrases that are documents, copied exactly as they were given to you, and nothing else.",
+  "",
+  "A document exists before the application and can be handed over or uploaded: a card, a certificate, a passbook, a photograph, an affidavit, a marksheet, a deed, a cancelled cheque, a government order, a sanctioned plan.",
+  "A field has no existence outside the form: \"Aadhaar number\", \"village or city name\", \"district and taluka\", \"alternative mobile number\", \"name per ration card\", \"gender selection\", \"captcha code\", \"registration number\".",
+  "\"Aadhaar card\" is a document and \"Aadhaar number\" is a field. The test is whether you could put it in an envelope.",
+  "",
+  "An empty array is a correct answer. Leaving out a real document is a small mistake. Telling a citizen to go and obtain a form field is a large one.",
+].join("\n");
+
+/** phrase as shown to the model -> true if it is a document */
+const known = new Map(readJsonl(DOCUMENTS).filter((r) => r.promptVersion === DOC_VERSION).map((r) => [r.phrase, r.document]));
+
+const wanted = new Set();
+for (const services of journeys.values()) {
+  for (const service of services.values()) {
+    for (const page of service.pages) {
+      for (const f of page.facts) {
+        if (f.kind === "DOCUMENT_REQUIREMENT" && f.object && !FIELDS.has(f.object)) wanted.add(f.object);
+      }
+    }
+  }
+}
+
+const asking = [...wanted].filter((o) => !known.has(title(o)));
+if (asking.length) {
+  console.log(`\nasking which of ${asking.length} phrase(s) are documents and which are form fields`);
+  const batches = Array.from({ length: Math.ceil(asking.length / DOC_BATCH) }, (_, i) => asking.slice(i * DOC_BATCH, (i + 1) * DOC_BATCH));
+  const rows = [];
+  await pool(batches, CONCURRENCY, async (batch) => {
+    const phrases = batch.map(title);
+    const reply = await chat(
+      [
+        { role: "system", content: DOC_SYSTEM },
+        { role: "user", content: `Phrases:\n${phrases.map((p) => `- ${p}`).join("\n")}\n\nWhich of these are documents?` },
+      ],
+      { maxTokens: 1600 },
+    );
+    const kept = reply ? jsonArray(reply.text) : null;
+    // A batch the model never answered stays unclassified rather than being
+    // guessed either way. Nothing is written for it, so the next run asks again.
+    if (!kept) return;
+    const yes = new Set(kept.filter((k) => typeof k === "string").map((k) => k.trim().toLowerCase()));
+    for (const [i, phrase] of phrases.entries()) {
+      const document = yes.has(phrase.toLowerCase());
+      known.set(phrase, document);
+      rows.push({ phrase, object: batch[i], document, model: reply.model ?? null, promptVersion: DOC_VERSION });
+    }
+  });
+  if (rows.length) appendFileSync(at(DOCUMENTS), rows.map((r) => JSON.stringify(r)).join("\n") + "\n");
+}
+
+const unclassified = [...wanted].filter((o) => !known.has(title(o)));
+// Half the corpus unanswered means Bedrock is down, not that the pages changed.
+// Writing now would ship bundles stripped of their documents and every gate
+// would pass, because an empty list is valid. Stop instead.
+if (unclassified.length * 2 >= wanted.size) {
+  console.error(`\n${unclassified.length} of ${wanted.size} document phrases could not be classified. Nothing written. Check Bedrock and run again.`);
+  process.exit(1);
+}
+console.log(
+  `${[...wanted].filter((o) => known.get(title(o))).length} of ${wanted.size} phrase(s) are documents` +
+    (unclassified.length ? `, ${unclassified.length} unanswered and dropped for now` : ""),
+);
+
+/** A phrase nobody has classified is not a document yet. UNKNOWN, not assumed. */
+const isDocument = (object) => known.get(title(object)) === true;
+
 // -------------------------------------------------------------------- build
 
 const ref = (sourceId, fact) => ({ sourceId, evidence: fact.evidence, confidence: fact.confidence, verificationStatus: "EXTRACTED" });
@@ -524,7 +621,7 @@ function build(journey, services) {
         facts.push({ claim: f.claim, kind: f.kind, subject: f.subject, object: f.object, detail: f.detail, sourceId, evidence: f.evidence, confidence: f.confidence });
         const r = [ref(sourceId, f)];
 
-        if (f.kind === "DOCUMENT_REQUIREMENT" && f.object && !FIELDS.has(f.object)) {
+        if (f.kind === "DOCUMENT_REQUIREMENT" && f.object && !FIELDS.has(f.object) && isDocument(f.object)) {
           const docId = `document:${f.object}`;
           put({ id: docId, type: "DOCUMENT", name: title(f.object), jurisdictionId, sources: r, lastVerifiedAt: today() });
           link(serviceNodeId, docId, "REQUIRES", f.claim, r);

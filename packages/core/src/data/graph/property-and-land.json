@@ -84,21 +84,6 @@
  ],
  "nodes": [
   {
-   "id": "document:party_code",
-   "type": "DOCUMENT",
-   "name": "Party code",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:e567da21d421",
-     "evidence": "Applicant will require following details to access and obtain different documents/certificates in their DigiLocker account:\n1) Party Code (Can be accessed from GG user login in ‘My Property’ Section)",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "service:digilocker",
    "type": "SERVICE",
    "name": "DigiLocker",
@@ -109,6 +94,12 @@
     "machineExtracted": true
    },
    "sources": [
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "Applicant will require following details to access and obtain different documents/certificates in their DigiLocker account:\n1) Party Code (Can be accessed from GG user login in ‘My Property’ Section)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
     {
      "sourceId": "src:e567da21d421",
      "evidence": "1 |\n2R Permission (Mortgage) Order |\nMortgage Permission |\n27/08/2019 |",
@@ -174,12 +165,6 @@
      "evidence": "11 |\nAmalgamation (FAO) |\nAmalgamation Order |\n08/01/2020 |",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e567da21d421",
-     "evidence": "12 |\nFinal Time Limit Extension Order |\nExtension Order |\n08/07/2020 |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
     }
    ],
    "lastVerifiedAt": "2026-08-23"
@@ -219,6 +204,12 @@
     {
      "sourceId": "src:3203b82bd43a",
      "evidence": "Application for allotment of properties in GIDC estates is accepted online.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "An application will be considered complete after the applicant submits the online copies of application and required documents (including project presentation).",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
@@ -281,12 +272,6 @@
      "evidence": "During counselling of applicant corporation will suggest the applicant to match the required norms and criteria defined by corporation like water demand, power demand, effluent generation, solid waste generation and any other requirement needs to be corrected.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:3203b82bd43a",
-     "evidence": "If everything found to be in order by GIDC, system generated an online allotment letter will be awarded to the applicant.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
     }
    ],
    "lastVerifiedAt": "2026-08-23"
@@ -300,36 +285,6 @@
     {
      "sourceId": "src:2bd753e1b32d",
      "evidence": "ગ્રામ પંચાયતના ઠરાવની નકલ",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:required",
-   "type": "DOCUMENT",
-   "name": "Required",
-   "jurisdictionId": "IN-GJ-AHMEDABAD",
-   "sources": [
-    {
-     "sourceId": "src:2bd753e1b32d",
-     "evidence": "આવકનું પ્રમાણપત્ર",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:copy",
-   "type": "DOCUMENT",
-   "name": "Copy",
-   "jurisdictionId": "IN-GJ-AHMEDABAD",
-   "sources": [
-    {
-     "sourceId": "src:2bd753e1b32d",
-     "evidence": "રેશનકાર્ડની નકલ",
      "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
@@ -377,8 +332,26 @@
     },
     {
      "sourceId": "src:2bd753e1b32d",
+     "evidence": "આવકનું પ્રમાણપત્ર",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:2bd753e1b32d",
      "evidence": "ઘરવિહોણા ઈસમોને ઘરથાળના પ્લોટ મેળવવા માટેની અરજીઓ",
      "confidence": 0.85,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:2bd753e1b32d",
+     "evidence": "પછાતવર્ગના કિસ્સામાં તમામ અરજદારના જાતિના પ્રમાણપત્ર",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:2bd753e1b32d",
+     "evidence": "રેશનકાર્ડની નકલ",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -490,21 +463,6 @@
    ]
   },
   {
-   "id": "document:jan_seva_kendra",
-   "type": "DOCUMENT",
-   "name": "Jan seva kendra",
-   "jurisdictionId": "IN-GJ-GANDHINAGAR",
-   "sources": [
-    {
-     "sourceId": "src:00c45e7162f4",
-     "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "service:government_office_land_request",
    "type": "SERVICE",
    "name": "Government Office Land Request",
@@ -536,65 +494,35 @@
      "evidence": "નિકાલની સમય મર્યાદા કુલ ૪૦ દિવસ.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:district_name",
-   "type": "DOCUMENT",
-   "name": "District name",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
+    },
     {
-     "sourceId": "src:b29f2940bcec",
-     "evidence": "જીલ્લા નું નામ *",
-     "confidence": 1,
+     "sourceId": "src:00c45e7162f4",
+     "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:ilr_office",
-   "type": "DOCUMENT",
-   "name": "Ilr office",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
+    },
     {
-     "sourceId": "src:b29f2940bcec",
-     "evidence": "આઇ.એલ.આર. ઓફિસ *",
-     "confidence": 1,
+     "sourceId": "src:00c45e7162f4",
+     "evidence": "માંગણીવાળી જમીનની સ્થળ સ્થિતિનું અંગેનું પંચનામું.",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:current_area_square_meters",
-   "type": "DOCUMENT",
-   "name": "Current area square meters",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
+    },
     {
-     "sourceId": "src:b29f2940bcec",
-     "evidence": "હાલનુ ક્ષેત્રફ્ળ(ચો.મી.) *",
-     "confidence": 1,
+     "sourceId": "src:00c45e7162f4",
+     "evidence": "માંગણીવાળી જમીનની ૭/૧૨ ની પ્રમાણિત નકલ..",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:total_fee_rupees",
-   "type": "DOCUMENT",
-   "name": "Total fee rupees",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
+    },
     {
-     "sourceId": "src:b29f2940bcec",
-     "evidence": "કુલ ફી રૂ. *",
-     "confidence": 1,
+     "sourceId": "src:00c45e7162f4",
+     "evidence": "માંગણીવાળી જમીનનો નકશો (તલાટી તથા સર્કલ ઓફિસર દ્વારા પ્રમાણિત).",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:00c45e7162f4",
+     "evidence": "વિભાગ / ખાતાની મંજુરીનો હુકમ / પત્ર.",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -643,6 +571,30 @@
     {
      "sourceId": "src:b29f2940bcec",
      "evidence": "પુરૂષ/સ્ત્રી *",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b29f2940bcec",
+     "evidence": "જીલ્લા નું નામ *",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b29f2940bcec",
+     "evidence": "આઇ.એલ.આર. ઓફિસ *",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b29f2940bcec",
+     "evidence": "હાલનુ ક્ષેત્રફ્ળ(ચો.મી.) *",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b29f2940bcec",
+     "evidence": "કુલ ફી રૂ. *",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
@@ -808,22 +760,6 @@
  ],
  "edges": [
   {
-   "id": "e:service_digilocker__requires__document_party_code",
-   "from": "service:digilocker",
-   "to": "document:party_code",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "To access and obtain different documents/certificates in their DigiLocker account, applicants need their Party Code.",
-   "sources": [
-    {
-     "sourceId": "src:e567da21d421",
-     "evidence": "Applicant will require following details to access and obtain different documents/certificates in their DigiLocker account:\n1) Party Code (Can be accessed from GG user login in ‘My Property’ Section)",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_digilocker__call_if__helpline_91_79_23250636",
    "from": "service:digilocker",
    "to": "helpline:91_79_23250636",
@@ -849,24 +785,8 @@
    "sources": [
     {
      "sourceId": "src:e567da21d421",
-     "evidence": "1 |\n2R Permission (Mortgage) Order |\nMortgage Permission |\n27/08/2019 |",
+     "evidence": "Applicant will require following details to access and obtain different documents/certificates in their DigiLocker account:\n1) Party Code (Can be accessed from GG user login in ‘My Property’ Section)",
      "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_application_for_allotment_of_properties__requires__document_required_documents",
-   "from": "service:application_for_allotment_of_properties",
-   "to": "document:required_documents",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Applicants must submit online copies of the application and required documents, including a project presentation, for the application to be considered complete.",
-   "sources": [
-    {
-     "sourceId": "src:3203b82bd43a",
-     "evidence": "An application will be considered complete after the applicant submits the online copies of application and required documents (including project presentation).",
-     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -952,38 +872,6 @@
    ]
   },
   {
-   "id": "e:service_land_allocation_for_housing__requires__document_required",
-   "from": "service:land_allocation_for_housing",
-   "to": "document:required",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "An income certificate is required.",
-   "sources": [
-    {
-     "sourceId": "src:2bd753e1b32d",
-     "evidence": "આવકનું પ્રમાણપત્ર",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_land_allocation_for_housing__requires__document_copy",
-   "from": "service:land_allocation_for_housing",
-   "to": "document:copy",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A copy of the ration card is required.",
-   "sources": [
-    {
-     "sourceId": "src:2bd753e1b32d",
-     "evidence": "રેશનકાર્ડની નકલ",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_land_allocation_for_housing__visit_at__office_jan_seva_kendra_ahmedabad",
    "from": "service:land_allocation_for_housing",
    "to": "office:jan_seva_kendra_ahmedabad",
@@ -1048,22 +936,6 @@
    ]
   },
   {
-   "id": "e:service_government_office_land_request__requires__document_jan_seva_kendra",
-   "from": "service:government_office_land_request",
-   "to": "document:jan_seva_kendra",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A certified copy of the documents is required.",
-   "sources": [
-    {
-     "sourceId": "src:00c45e7162f4",
-     "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_government_office_land_request__visit_at__office_jan_seva_kendra",
    "from": "service:government_office_land_request",
    "to": "office:jan_seva_kendra",
@@ -1091,70 +963,6 @@
      "sourceId": "src:00c45e7162f4",
      "evidence": "હું કઈ રીતે સરકારી ખાતા / કચેરીઓને જમીનની માંગણી કરી શકું? જિલ્લા કલેકટરશ્રી ને, પરિશિષ્ટ-૧/૨ મુજબ અરજી કરવી.",
      "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_property_card__requires__document_district_name",
-   "from": "service:property_card",
-   "to": "document:district_name",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must select the district name.",
-   "sources": [
-    {
-     "sourceId": "src:b29f2940bcec",
-     "evidence": "જીલ્લા નું નામ *",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_property_card__requires__document_ilr_office",
-   "from": "service:property_card",
-   "to": "document:ilr_office",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must select the ILR office.",
-   "sources": [
-    {
-     "sourceId": "src:b29f2940bcec",
-     "evidence": "આઇ.એલ.આર. ઓફિસ *",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_property_card__requires__document_current_area_square_meters",
-   "from": "service:property_card",
-   "to": "document:current_area_square_meters",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must provide the current area in square meters.",
-   "sources": [
-    {
-     "sourceId": "src:b29f2940bcec",
-     "evidence": "હાલનુ ક્ષેત્રફ્ળ(ચો.મી.) *",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_property_card__requires__document_total_fee_rupees",
-   "from": "service:property_card",
-   "to": "document:total_fee_rupees",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must provide the total fee in rupees.",
-   "sources": [
-    {
-     "sourceId": "src:b29f2940bcec",
-     "evidence": "કુલ ફી રૂ. *",
-     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]

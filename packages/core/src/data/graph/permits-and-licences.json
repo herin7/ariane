@@ -315,21 +315,6 @@
  ],
  "nodes": [
   {
-   "id": "document:entry",
-   "type": "DOCUMENT",
-   "name": "Entry",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:486c8338b1b8",
-     "evidence": "It is compulsory to carry the 'e-Permit' during reporting and entry time.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "document:original_photo_identity_proof",
    "type": "DOCUMENT",
    "name": "Original photo identity proof",
@@ -397,21 +382,6 @@
    ]
   },
   {
-   "id": "document:identity_card_details",
-   "type": "DOCUMENT",
-   "name": "Identity card details",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:486c8338b1b8",
-     "evidence": "For the safari, each visitor's name, his/her identity card number and type of identity card should be mentioned during the online booking",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "service:gir_online_permit",
    "type": "SERVICE",
    "name": "Gir Online Permit",
@@ -425,6 +395,12 @@
     {
      "sourceId": "src:486c8338b1b8",
      "evidence": "The 'e-Permit' is for a visit to 'Gir Jungle Safari', 'GIZ Devalia Safari', 'Ambardi Safari Park' and 'Girnar Nature Safari' only.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:486c8338b1b8",
+     "evidence": "It is compulsory to carry the 'e-Permit' during reporting and entry time.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
@@ -487,12 +463,6 @@
      "evidence": "Gir Jungle Trail, GIZ Devalia Gypsy Safari, 'Ambardi Safari Park' and Girnar Nature Safari visitors are requested to arrive at the respective reception centres (boarding point) 30 minutes before the scheduled time mentioned in the e-Permit.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:486c8338b1b8",
-     "evidence": "If the late reporting at the boarding point, e-Permit will get cancelled, and no refund can be claimed.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
     }
    ],
    "lastVerifiedAt": "2026-08-23"
@@ -514,36 +484,6 @@
      "verificationStatus": "EXTRACTED"
     }
    ]
-  },
-  {
-   "id": "document:written_agreement",
-   "type": "DOCUMENT",
-   "name": "Written agreement",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:e0cc234eb940",
-     "evidence": "A written agreement (on Rs. 300’s stamp paper) duly signed by an authorized officer of the Board and the applicant shall govern the access or collection, as well as royalty paid to Board.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:company_profile",
-   "type": "DOCUMENT",
-   "name": "Company profile",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:e0cc234eb940",
-     "evidence": "Company profile in detail with company seal and authorized signature.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
   },
   {
    "id": "document:memorandum_association",
@@ -569,66 +509,6 @@
     {
      "sourceId": "src:e0cc234eb940",
      "evidence": "3 year audited financial report of your company with certificate of CA.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:raw_material_list",
-   "type": "DOCUMENT",
-   "name": "Raw material list",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:e0cc234eb940",
-     "evidence": "List of Raw Material used by your company with scientific name and Biological Resources/ raw material purchased, whether cultivated or wild variety.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:yearly_consumption",
-   "type": "DOCUMENT",
-   "name": "Yearly consumption",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:e0cc234eb940",
-     "evidence": "Yearly consumption of raw material.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:product_list",
-   "type": "DOCUMENT",
-   "name": "Product list",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:e0cc234eb940",
-     "evidence": "List of products manufactured and traded by your company.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:supplier_list",
-   "type": "DOCUMENT",
-   "name": "Supplier list",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:e0cc234eb940",
-     "evidence": "List of suppliers/ traders of raw materials and final products in detail.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -675,6 +555,42 @@
     },
     {
      "sourceId": "src:e0cc234eb940",
+     "evidence": "A written agreement (on Rs. 300’s stamp paper) duly signed by an authorized officer of the Board and the applicant shall govern the access or collection, as well as royalty paid to Board.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e0cc234eb940",
+     "evidence": "Company profile in detail with company seal and authorized signature.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e0cc234eb940",
+     "evidence": "List of Raw Material used by your company with scientific name and Biological Resources/ raw material purchased, whether cultivated or wild variety.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e0cc234eb940",
+     "evidence": "Yearly consumption of raw material.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e0cc234eb940",
+     "evidence": "List of products manufactured and traded by your company.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e0cc234eb940",
+     "evidence": "List of suppliers/ traders of raw materials and final products in detail.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e0cc234eb940",
      "evidence": "Rs. 5000/- (For Commercial purpose)",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
@@ -702,18 +618,6 @@
      "evidence": "GBB encourages payment of Application fee by Online through India bank collect ( using IB Net Banking, IB Group ATM Cum Debit Cards, Any Bank Debit / Credit Cards and Other bank internet banking)",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e0cc234eb940",
-     "evidence": "May also pay the fee in the form of Demand Draft in favour of \"MEMBER SECERTARY, GUJARAT BIODIVERSITY BOARD\" payable at Gandhinagar, Gujarat, India.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e0cc234eb940",
-     "evidence": "membersec-biodiversity[at]gujarat[dot]gov[dot]in infogbb2014[at]gujarat[dot]gov[dot]in infogbb2014[at]gmail[dot]com",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
     }
    ],
    "lastVerifiedAt": "2026-08-23"
@@ -735,21 +639,6 @@
      "verificationStatus": "EXTRACTED"
     }
    ]
-  },
-  {
-   "id": "document:required_documents",
-   "type": "DOCUMENT",
-   "name": "Required documents",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:d8e8ff030eae",
-     "evidence": "Which documents are required for appearing in the wireman examination?\nApplication in the prescribe form, two photographs, a challan of Rs.200/- and experience certificate (FORM-K) from the licensed contractor and a copy of his staff register",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
   },
   {
    "id": "service:electrical_contractor_license",
@@ -824,7 +713,13 @@
     },
     {
      "sourceId": "src:d8e8ff030eae",
-     "evidence": "Any person who has electrical supervisor permit or a person who has employed such person can get electrical contractor license.",
+     "evidence": "Which documents are required for appearing in the wireman examination?\nApplication in the prescribe form, two photographs, a challan of Rs.200/- and experience certificate (FORM-K) from the licensed contractor and a copy of his staff register",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d8e8ff030eae",
+     "evidence": "Which document required for appearing in the supervisor examination?\nApplication in the prescribe form, two photographs, a challan of Rs.500/- and experience certificate (FORM-K) from the licensed contractor and a copy of his staff register, wireman certificate and permit.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -1014,36 +909,6 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "document:circular",
-   "type": "DOCUMENT",
-   "name": "Circular",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:16b5f493e686",
-     "evidence": "Circular of GVC Regarding Registration/Renewal, Dated: 06-05-2015",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:letter_to_college",
-   "type": "DOCUMENT",
-   "name": "Letter to college",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:16b5f493e686",
-     "evidence": "Letter to Vet.College for Registration/Renewal, Dated: 16-04-2015",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "document:e_gazette",
    "type": "DOCUMENT",
    "name": "E gazette",
@@ -1067,21 +932,6 @@
     {
      "sourceId": "src:16b5f493e686",
      "evidence": "Circular of JAU Regarding Registration/Renewal At GVC",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:circular_certificate_publish",
-   "type": "DOCUMENT",
-   "name": "Circular certificate publish",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:16b5f493e686",
-     "evidence": "Circular of GVC Regarding Publish of Regi. Certificate, Dated: 3-2-2015",
      "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
@@ -1126,20 +976,23 @@
      "evidence": "Application Form for GVC registration",
      "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:identity_proof_dropdown",
-   "type": "DOCUMENT",
-   "name": "Identity proof dropdown",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
+    },
     {
-     "sourceId": "src:d405aafc8d64",
-     "evidence": "ઓળખનો પુરાવો : | select | આધાર કાર્ડ ડ્રાઇવિંગ લાયસન્સ ચૂંટણી કાર્ડ પાન કાર્ડ રેશન કાર્ડ",
-     "confidence": 1,
+     "sourceId": "src:16b5f493e686",
+     "evidence": "Circular of GVC Regarding Registration/Renewal, Dated: 06-05-2015",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:16b5f493e686",
+     "evidence": "Letter to Vet.College for Registration/Renewal, Dated: 16-04-2015",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:16b5f493e686",
+     "evidence": "Circular of GVC Regarding Publish of Regi. Certificate, Dated: 3-2-2015",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -1230,6 +1083,12 @@
     },
     {
      "sourceId": "src:d405aafc8d64",
+     "evidence": "ઓળખનો પુરાવો : | select | આધાર કાર્ડ ડ્રાઇવિંગ લાયસન્સ ચૂંટણી કાર્ડ પાન કાર્ડ રેશન કાર્ડ",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d405aafc8d64",
      "evidence": "કાર્ડ નંબર :",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
@@ -1237,12 +1096,6 @@
     {
      "sourceId": "src:d405aafc8d64",
      "evidence": "* બેંકનું નામ : * બેંક ખાતા નં. :",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:d405aafc8d64",
-     "evidence": "રોપા વાવેતર સ્થળ : શેડેપાડે | બ્લોક | વાડો |",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -1268,21 +1121,6 @@
    ]
   },
   {
-   "id": "document:protected_area_selection",
-   "type": "DOCUMENT",
-   "name": "Protected area selection",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "Protected Area : Single &nbsp | Multiple &nbsp | (To apply for more than one Protected Area, please select \"Multiple\")",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "document:proof_of_identity",
    "type": "DOCUMENT",
    "name": "Proof of identity",
@@ -1291,171 +1129,6 @@
     {
      "sourceId": "src:a4264d4ffddb",
      "evidence": "Proof of Identity : | select | Aadhar Card Driving License Election Card Pan Card Ration Card",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:study_purpose",
-   "type": "DOCUMENT",
-   "name": "Study purpose",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "* Purpose of Study : Academic &nbsp | Commercial &nbsp |",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:research_subject",
-   "type": "DOCUMENT",
-   "name": "Research subject",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "* Subject of Research Work : Subject",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:principal_investigator_details",
-   "type": "DOCUMENT",
-   "name": "Principal investigator details",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "* Principal Investigator of Guide/Institution Name : * Address : Address",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:project_synopsis",
-   "type": "DOCUMENT",
-   "name": "Project synopsis",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "* Project / Synopsys : Please upload file. Please upload file less than 4 MB and of .pdf,doc,docx,jpg,jpeg,gif and png format.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:team_members_count",
-   "type": "DOCUMENT",
-   "name": "Team members count",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "* Total Team Members :",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:team_member_details",
-   "type": "DOCUMENT",
-   "name": "Team member details",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "* Team member Details : Please upload file. Please upload file less than 4 MB and of .pdf,doc,docx,jpg,jpeg,gif and png format.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:project_period",
-   "type": "DOCUMENT",
-   "name": "Project period",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "* Project period :",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:methodology",
-   "type": "DOCUMENT",
-   "name": "Methodology",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "* Methodology : Please upload file. Please upload file less than 4 MB and of .pdf,doc,docx,jpg,jpeg,gif and png format.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:previous_permission_order",
-   "type": "DOCUMENT",
-   "name": "Previous permission order",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "Previous Permission Order(if Applicable) : Please upload file less than 4 MB and of .pdf,doc,docx,jpg,jpeg,gif and png format.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:vehicle_details",
-   "type": "DOCUMENT",
-   "name": "Vehicle details",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "Vehicle needed : Yes | No | Own | * Vehicle Details: Please upload file. Please upload file less than 4 MB and of .pdf,doc,docx,jpg,jpeg,gif and png format.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:shooting_time",
-   "type": "DOCUMENT",
-   "name": "Shooting time",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "* Time For Shooting : Day &nbsp | Night &nbsp | Both &nbsp |",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -1481,140 +1154,68 @@
     },
     {
      "sourceId": "src:a4264d4ffddb",
-     "evidence": "અરજદારની અરજી માટેનાં સંપર્કની વિગત * મોબાઈલ નં. : * ઈમેલ આઈ-ડી :",
+     "evidence": "Protected Area : Single &nbsp | Multiple &nbsp | (To apply for more than one Protected Area, please select \"Multiple\")",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:a4264d4ffddb",
-     "evidence": "Note 1) I agree to abide by the provisions, rules & regulations as may be applicable for the time being enforced. 2) I agree to pay fees, cess, taxes and /or any other levy that might be applicable.",
+     "evidence": "* Purpose of Study : Academic &nbsp | Commercial &nbsp |",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:a4264d4ffddb",
-     "evidence": "I/We certify that the documents uploaded with the application and the information provided there in are true to the best of my knowledge and beliefs.",
+     "evidence": "* Subject of Research Work : Subject",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:district",
-   "type": "DOCUMENT",
-   "name": "District",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
+    },
     {
-     "sourceId": "src:52cd469e9103",
-     "evidence": "જિલ્લો : | select |",
-     "confidence": 0.95,
+     "sourceId": "src:a4264d4ffddb",
+     "evidence": "* Principal Investigator of Guide/Institution Name : * Address : Address",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:taluka",
-   "type": "DOCUMENT",
-   "name": "Taluka",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
+    },
     {
-     "sourceId": "src:52cd469e9103",
-     "evidence": "તાલુકો : | select |",
-     "confidence": 0.95,
+     "sourceId": "src:a4264d4ffddb",
+     "evidence": "* Project / Synopsys : Please upload file. Please upload file less than 4 MB and of .pdf,doc,docx,jpg,jpeg,gif and png format.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:caste",
-   "type": "DOCUMENT",
-   "name": "Caste",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
+    },
     {
-     "sourceId": "src:52cd469e9103",
-     "evidence": "જાત : અ.જા. | અ.જ.જા. | સા.શૈ.પ. | અન્ય | |",
-     "confidence": 0.95,
+     "sourceId": "src:a4264d4ffddb",
+     "evidence": "* Total Team Members :",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:identity_proof",
-   "type": "DOCUMENT",
-   "name": "Identity proof",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
+    },
     {
-     "sourceId": "src:52cd469e9103",
-     "evidence": "ઓળખનો પુરાવો : | select | આધાર કાર્ડ ડ્રાઇવિંગ લાયસન્સ ચૂંટણી કાર્ડ પાન કાર્ડ રેશન કાર્ડ",
-     "confidence": 0.95,
+     "sourceId": "src:a4264d4ffddb",
+     "evidence": "* Team member Details : Please upload file. Please upload file less than 4 MB and of .pdf,doc,docx,jpg,jpeg,gif and png format.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:identity_proof_number",
-   "type": "DOCUMENT",
-   "name": "Identity proof number",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
+    },
     {
-     "sourceId": "src:52cd469e9103",
-     "evidence": "કાર્ડ નંબર :",
-     "confidence": 0.95,
+     "sourceId": "src:a4264d4ffddb",
+     "evidence": "* Project period :",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:farmer_type",
-   "type": "DOCUMENT",
-   "name": "Farmer type",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
+    },
     {
-     "sourceId": "src:52cd469e9103",
-     "evidence": "ખેડૂતનો પ્રકાર : નાના | સીમાંત | મોટા | બિનખેડૂત | | |",
-     "confidence": 0.95,
+     "sourceId": "src:a4264d4ffddb",
+     "evidence": "* Methodology : Please upload file. Please upload file less than 4 MB and of .pdf,doc,docx,jpg,jpeg,gif and png format.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:land_area_hectares",
-   "type": "DOCUMENT",
-   "name": "Land area hectares",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
+    },
     {
-     "sourceId": "src:52cd469e9103",
-     "evidence": "વિસ્તાર (હેક્ટરમાં) :",
-     "confidence": 0.95,
+     "sourceId": "src:a4264d4ffddb",
+     "evidence": "Previous Permission Order(if Applicable) : Please upload file less than 4 MB and of .pdf,doc,docx,jpg,jpeg,gif and png format.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:fencing_length_meters",
-   "type": "DOCUMENT",
-   "name": "Fencing length meters",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
+    },
     {
-     "sourceId": "src:52cd469e9103",
-     "evidence": "વાડની લંબાઈ (મીટરમાં) :",
-     "confidence": 0.95,
+     "sourceId": "src:a4264d4ffddb",
+     "evidence": "Vehicle needed : Yes | No | Own | * Vehicle Details: Please upload file. Please upload file less than 4 MB and of .pdf,doc,docx,jpg,jpeg,gif and png format.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -1645,6 +1246,18 @@
     },
     {
      "sourceId": "src:52cd469e9103",
+     "evidence": "જિલ્લો : | select |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:52cd469e9103",
+     "evidence": "તાલુકો : | select |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:52cd469e9103",
      "evidence": "મોબાઈલ નં : (+91)",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
@@ -1652,6 +1265,24 @@
     {
      "sourceId": "src:52cd469e9103",
      "evidence": "જાતિ : પુરુષ | સ્ત્રી |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:52cd469e9103",
+     "evidence": "જાત : અ.જા. | અ.જ.જા. | સા.શૈ.પ. | અન્ય | |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:52cd469e9103",
+     "evidence": "ઓળખનો પુરાવો : | select | આધાર કાર્ડ ડ્રાઇવિંગ લાયસન્સ ચૂંટણી કાર્ડ પાન કાર્ડ રેશન કાર્ડ",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:52cd469e9103",
+     "evidence": "કાર્ડ નંબર :",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     },
@@ -1669,7 +1300,7 @@
     },
     {
      "sourceId": "src:52cd469e9103",
-     "evidence": "આથી અમો બાહેધરી આપીએ છીએ કે ઉપર જણાવેલ માહિતી સાચી છે અને પ્રવર્તમાન શરતો, નિયમો તથા/અથવા અન્ય જોગવાઈઓ મને માન્ય છે અને બંધન કર્તા રહેશે.",
+     "evidence": "ખેડૂતનો પ્રકાર : નાના | સીમાંત | મોટા | બિનખેડૂત | | |",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -1868,36 +1499,6 @@
    ]
   },
   {
-   "id": "document:ward_office",
-   "type": "DOCUMENT",
-   "name": "Ward office",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a299a14d5099",
-     "evidence": "For restaurant, hotels or shops of sweet meats, a Health Licence should be obtained from concerned Ward Office first.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:noc_requirements",
-   "type": "DOCUMENT",
-   "name": "Noc requirements",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a299a14d5099",
-     "evidence": "Which Kind of N.O.C Required for the Building Plan Permission? Ans : Airport N.O.C if the property falls in funnal area of aircraft and for highrise building Director Airport Western Region Mumbai. Fire N.O.C (C.O. Fire VMC Mr. Gunjal Mob.9879615036) is concern person The information for N.O.C is also available on Website of Corporation.In case of Highrise Building and special Structure school buildings and Hospital Buildings. Archiological N.O.C If property falls within radios of 200mts. From the Archiological Monuments notified by Archiological Department Gov.of India. Conservation Assistant Archaelogical Survey Of India, Vadodara Sub-circle Bhau Tambekar Haveli, Pratap Road, Raopura Vadodara. Electricity Board N.O.C If H.T and L.T line pass through the property . Railway N.O.C DRM Western Railway Vadodara Division, Pratapnagar Vadodara. It property is adjoining to the Railway line or within 30mts. Of the railway track. Environment N.O.C GPCB Gandhinagar - Incase Construction area is 20000mts. Or more - Society N.O.C in case of co.op.housing Society . Resional manager N.O.C Regional Manager GIDC kansar Restorant Building Sayajigunj Vadodara. in case of GIDC Notified Area. Irrigation N.O.C Executive Engineer Vadodara Kuber bhuvan Vadodara. If canal pass adjoining to the property.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "service:building_development_permission",
    "type": "SERVICE",
    "name": "Building Development Permission",
@@ -1912,6 +1513,12 @@
     {
      "sourceId": "src:a299a14d5099",
      "evidence": "What is required if I want to start a new business or shop? Ans : You may contact our Shops and Establishment Office Tel.No.2411086 near Navrang Complex on Prof. Manekrao Road in Raopura and send your application in the prescribed form for Shops and Establishment licence. With application you have to attach copies of latest Municipal Tax Bill, Building Permission letter and Occupation Certificate of the Corporation.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a299a14d5099",
+     "evidence": "For restaurant, hotels or shops of sweet meats, a Health Licence should be obtained from concerned Ward Office first.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     },
@@ -1941,6 +1548,18 @@
     },
     {
      "sourceId": "src:a299a14d5099",
+     "evidence": "Which documents are required for getting building plan permission? Ans : Check list of required documents is available on corporation website however following documents generally required. Owener ship Document:- 7/12,8A,6/ property card/sanad/ Ragistered Sale did with Index, Power of Attorny/ lease deed/ project Area Releted Documents:- DILR measurement sheet, city survey tippan/ tracing/ sand, T.P.Site plan/ old approved drowings in case of revise permission. Zoning Certificate and Zone plan:- B or F form. Effidivate for parking, common plot, ULC, Indemnity Bond. House Tax clearance certificate if redeveloped the old property. Opinion of T.P.O in case property is in draft T.P.Scheme.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a299a14d5099",
+     "evidence": "Which Kind of N.O.C Required for the Building Plan Permission? Ans : Airport N.O.C if the property falls in funnal area of aircraft and for highrise building Director Airport Western Region Mumbai. Fire N.O.C (C.O. Fire VMC Mr. Gunjal Mob.9879615036) is concern person The information for N.O.C is also available on Website of Corporation.In case of Highrise Building and special Structure school buildings and Hospital Buildings. Archiological N.O.C If property falls within radios of 200mts. From the Archiological Monuments notified by Archiological Department Gov.of India. Conservation Assistant Archaelogical Survey Of India, Vadodara Sub-circle Bhau Tambekar Haveli, Pratap Road, Raopura Vadodara. Electricity Board N.O.C If H.T and L.T line pass through the property . Railway N.O.C DRM Western Railway Vadodara Division, Pratapnagar Vadodara. It property is adjoining to the Railway line or within 30mts. Of the railway track. Environment N.O.C GPCB Gandhinagar - Incase Construction area is 20000mts. Or more - Society N.O.C in case of co.op.housing Society . Resional manager N.O.C Regional Manager GIDC kansar Restorant Building Sayajigunj Vadodara. in case of GIDC Notified Area. Irrigation N.O.C Executive Engineer Vadodara Kuber bhuvan Vadodara. If canal pass adjoining to the property.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a299a14d5099",
      "evidence": "Within how much time Construction Should be Started ? Ans : According to T.P. Act 1976 person who get the permission is valid for one year However it is renewed for further 3 Years. What is the validity period of the permission according to the provision of T.P Act 1+3 year is validity period of the permission then permission is lapsed.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
@@ -1960,12 +1579,6 @@
     {
      "sourceId": "src:a299a14d5099",
      "evidence": "how to get B.U.Certificate by submitting following documents through register licence Ans : holder like Copy of set of Structure Drawings. Final fire N.O.C Structure Stability Certificate. Photographs of RWS and Building. Drainage Connection Slip. Vadodara Municipal Corporation should be grant the Building Use Permission (occupancy permit) after a necessary inspection within 21 days of receipt of the completion report. Before issuing the occupancy certificate.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:a299a14d5099",
-     "evidence": "Online Complaint Submit your grievance to VMC anytime, anywhere. WhatsApp Complaint Do Complaint on WhatsApp for quick help from Vadodara Municipal Corporation.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -2006,51 +1619,6 @@
      "verificationStatus": "EXTRACTED"
     }
    ]
-  },
-  {
-   "id": "document:devalia_safari_park",
-   "type": "DOCUMENT",
-   "name": "Devalia safari park",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:7f4a4e5e8699",
-     "evidence": "Note: In one E-permit maximum 6 persons (plus one child between 3-12 years) are allowed.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:validity",
-   "type": "DOCUMENT",
-   "name": "Validity",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:5dd1e4da0095",
-     "evidence": "Please Enter valid email id",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:selection",
-   "type": "DOCUMENT",
-   "name": "Selection",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:5dd1e4da0095",
-     "evidence": "Please Select Country",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
   },
   {
    "id": "service:gir_online_permit_booking_system",
@@ -2195,6 +1763,12 @@
     },
     {
      "sourceId": "src:3352bf96ce66",
+     "evidence": "બિડાણો/દસ્તાવેજો ની યાદી અરજી પત્રક માં જણાવેલ છે તે મુજબના તમામ સી.એ.સર્ટિ, મશીનરી પત્રક સોગંદનામુ બિડાણ/દસ્તાવેજોના નમૂના",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3352bf96ce66",
      "evidence": "અરજીની સંદર્ભમાં જરૂરી નોંધણી કરી, ફાઇલ બનાવી ચકાસણી કરી દિન-૩૦ માં જવાબ આપવાનો રહે છે.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
@@ -2233,36 +1807,6 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "document:user_registration",
-   "type": "DOCUMENT",
-   "name": "User registration",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:2d20ddb5e853",
-     "evidence": "Mobile Number must be 10 digits",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:visit",
-   "type": "DOCUMENT",
-   "name": "Visit",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:2d20ddb5e853",
-     "evidence": "The print out of E-permit must be brought at the time of reporting at Reception Centre of Girnar Nature Safari along with original Identity card.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "service:girnar_nature_safari_permit",
    "type": "SERVICE",
    "name": "Girnar Nature Safari Permit",
@@ -2281,7 +1825,55 @@
    "sources": [
     {
      "sourceId": "src:2d20ddb5e853",
+     "evidence": "Mobile Number must be 10 digits",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:2d20ddb5e853",
+     "evidence": "Enter valid email id",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:2d20ddb5e853",
      "evidence": "OTP is valid only 30 Minutes.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:2d20ddb5e853",
+     "evidence": "Only alphabets are allowed in First Name",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:2d20ddb5e853",
+     "evidence": "Only alphabets are allowed in Last Name",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:2d20ddb5e853",
+     "evidence": "Only , / & are allowed in Address other than alphabets",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:2d20ddb5e853",
+     "evidence": "Only alphabets are allowed in City",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:2d20ddb5e853",
+     "evidence": "Only @ # $ % ^ & are allowed in Password",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:2d20ddb5e853",
+     "evidence": "The print out of E-permit must be brought at the time of reporting at Reception Centre of Girnar Nature Safari along with original Identity card.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     },
@@ -2301,51 +1893,6 @@
      "sourceId": "src:035a9fb40617",
      "evidence": "Note: The Sanctuary remains closed from 16th June to 15th Oct every year.",
      "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:035a9fb40617",
-     "evidence": "Girnar Safari will remain closed during Girnar Parikrama and Mahashivratri Festival every year as per Hindu Calender Days.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:035a9fb40617",
-     "evidence": "Only a maximum of six visitors (plus one child between 3-12 years) are allowed in each gypsy.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:035a9fb40617",
-     "evidence": "Permit Charges\nVehicle Type |\nDays\n|\nParticulars\n|\nIndian (In Rs.)\n|\nForeigner (In Rs.)\n|\nSafari Gypsy |\nMonday to Friday\n|\nUp To 6 persons\n|\n800\n|\n7600\n|\nSafari Gypsy |\nMonday to Friday\n|\nExtra Child\n|\n100\n|\n1900\n|\nSafari Gypsy |\nSaturday/Sunday/\nFestival Days\n|\nUp To 6 persons\n|\n1000\n|\n9500\n|\nSafari Gypsy |\nSaturday/Sunday/\nFestival Days\n|\nExtra Child\n|\n125\n|\n2375\n|",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:035a9fb40617",
-     "evidence": "The Permit charges don't include eco-guide charges (INR 400/-) and safari gypsy charges (INR 2000/-), which must be paid separately to the respective eco-guide and safari gypsy owner.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:035a9fb40617",
-     "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:gir_jungle_safari_visit",
-   "type": "DOCUMENT",
-   "name": "Gir jungle safari visit",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:61f17e5a5fa6",
-     "evidence": "The print out of E-permit must be brought at the time of reporting of Gir Jungle Safari Visit along with original Identity card.",
-     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -2372,6 +1919,12 @@
     {
      "sourceId": "src:61f17e5a5fa6",
      "evidence": "* Note: The camera fee for amateur photography is Rs. 200 for Indian nationals and for foreigners, it is calculated by 20 multiplying the current dollar rate in Rs. Kindly select your appropriate camera count.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:61f17e5a5fa6",
+     "evidence": "The print out of E-permit must be brought at the time of reporting of Gir Jungle Safari Visit along with original Identity card.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
@@ -2531,36 +2084,6 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "document:merchant_name",
-   "type": "DOCUMENT",
-   "name": "Merchant name",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:1c622b6d545b",
-     "evidence": "Merchant/Trader Name *",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:captcha_code",
-   "type": "DOCUMENT",
-   "name": "Captcha code",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:1c622b6d545b",
-     "evidence": "Captcha Code Allows Only Alpha-numeric 6 Characters.",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "service:transit_pass_for_imported_timber",
    "type": "SERVICE",
    "name": "Transit Pass for Imported Timber",
@@ -2573,7 +2096,19 @@
    "sources": [
     {
      "sourceId": "src:1c622b6d545b",
+     "evidence": "Merchant/Trader Name *",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:1c622b6d545b",
      "evidence": "Password must have at least 8 characters including 1 lowercase, 1 uppercase, 1 numeric, and 1 special character.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:1c622b6d545b",
+     "evidence": "Captcha Code Allows Only Alpha-numeric 6 Characters.",
      "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     },
@@ -2645,22 +2180,6 @@
  ],
  "edges": [
   {
-   "id": "e:service_gir_online_permit__requires__document_entry",
-   "from": "service:gir_online_permit",
-   "to": "document:entry",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "It is compulsory to carry the 'e-Permit' during reporting and entry time.",
-   "sources": [
-    {
-     "sourceId": "src:486c8338b1b8",
-     "evidence": "It is compulsory to carry the 'e-Permit' during reporting and entry time.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_gir_online_permit__requires__document_original_photo_identity_proof",
    "from": "service:gir_online_permit",
    "to": "document:original_photo_identity_proof",
@@ -2725,22 +2244,6 @@
    ]
   },
   {
-   "id": "e:service_gir_online_permit__requires__document_identity_card_details",
-   "from": "service:gir_online_permit",
-   "to": "document:identity_card_details",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "For the safari, each visitor's name, his/her identity card number and type of identity card should be mentioned during the online booking.",
-   "sources": [
-    {
-     "sourceId": "src:486c8338b1b8",
-     "evidence": "For the safari, each visitor's name, his/her identity card number and type of identity card should be mentioned during the online booking",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_gir_online_permit__apply_at__portal_girlion_gujarat_gov_in",
    "from": "service:gir_online_permit",
    "to": "portal:girlion_gujarat_gov_in",
@@ -2751,38 +2254,6 @@
     {
      "sourceId": "src:486c8338b1b8",
      "evidence": "The 'e-Permit' is for a visit to 'Gir Jungle Safari', 'GIZ Devalia Safari', 'Ambardi Safari Park' and 'Girnar Nature Safari' only.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_access_to_biological_resources__requires__document_written_agreement",
-   "from": "service:access_to_biological_resources",
-   "to": "document:written_agreement",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A written agreement on Rs. 300’s stamp paper is required for access or collection of biological resources and associated knowledge.",
-   "sources": [
-    {
-     "sourceId": "src:e0cc234eb940",
-     "evidence": "A written agreement (on Rs. 300’s stamp paper) duly signed by an authorized officer of the Board and the applicant shall govern the access or collection, as well as royalty paid to Board.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_access_to_biological_resources__requires__document_company_profile",
-   "from": "service:access_to_biological_resources",
-   "to": "document:company_profile",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A company profile in detail with company seal and authorized signature must be attached with Form - I.",
-   "sources": [
-    {
-     "sourceId": "src:e0cc234eb940",
-     "evidence": "Company profile in detail with company seal and authorized signature.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -2837,70 +2308,6 @@
    ]
   },
   {
-   "id": "e:service_access_to_biological_resources__requires__document_raw_material_list",
-   "from": "service:access_to_biological_resources",
-   "to": "document:raw_material_list",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A list of raw material used by the company with scientific names and whether cultivated or wild variety must be attached with Form - I.",
-   "sources": [
-    {
-     "sourceId": "src:e0cc234eb940",
-     "evidence": "List of Raw Material used by your company with scientific name and Biological Resources/ raw material purchased, whether cultivated or wild variety.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_access_to_biological_resources__requires__document_yearly_consumption",
-   "from": "service:access_to_biological_resources",
-   "to": "document:yearly_consumption",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A yearly consumption of raw material must be attached with Form - I.",
-   "sources": [
-    {
-     "sourceId": "src:e0cc234eb940",
-     "evidence": "Yearly consumption of raw material.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_access_to_biological_resources__requires__document_product_list",
-   "from": "service:access_to_biological_resources",
-   "to": "document:product_list",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A list of products manufactured and traded by the company must be attached with Form - I.",
-   "sources": [
-    {
-     "sourceId": "src:e0cc234eb940",
-     "evidence": "List of products manufactured and traded by your company.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_access_to_biological_resources__requires__document_supplier_list",
-   "from": "service:access_to_biological_resources",
-   "to": "document:supplier_list",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A list of suppliers/traders of raw materials and final products in detail must be attached with Form - I.",
-   "sources": [
-    {
-     "sourceId": "src:e0cc234eb940",
-     "evidence": "List of suppliers/ traders of raw materials and final products in detail.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_access_to_biological_resources__call_if__helpline_079_23257950",
    "from": "service:access_to_biological_resources",
    "to": "helpline:079_23257950",
@@ -2928,22 +2335,6 @@
      "sourceId": "src:e0cc234eb940",
      "evidence": "Every application shall be accompanied with process fees of Rs. 5000/- in the form of a demand draft drawn in favor of the “Gujarat Biodiversity Board”.",
      "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_electrical_contractor_license__requires__document_required_documents",
-   "from": "service:electrical_contractor_license",
-   "to": "document:required_documents",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "To appear in the wireman examination, an application form, two photographs, a Rs.200 challan, an experience certificate (FORM-K), and a copy of the staff register are required.",
-   "sources": [
-    {
-     "sourceId": "src:d8e8ff030eae",
-     "evidence": "Which documents are required for appearing in the wireman examination?\nApplication in the prescribe form, two photographs, a challan of Rs.200/- and experience certificate (FORM-K) from the licensed contractor and a copy of his staff register",
-     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -3077,38 +2468,6 @@
    ]
   },
   {
-   "id": "e:service_gujarat_veterinary_council_registration_and_renewal__requires__document_circular",
-   "from": "service:gujarat_veterinary_council_registration_and_renewal",
-   "to": "document:circular",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Gujarat Veterinary Council provides downloadable circulars regarding registration and renewal processes.",
-   "sources": [
-    {
-     "sourceId": "src:16b5f493e686",
-     "evidence": "Circular of GVC Regarding Registration/Renewal, Dated: 06-05-2015",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_gujarat_veterinary_council_registration_and_renewal__requires__document_letter_to_college",
-   "from": "service:gujarat_veterinary_council_registration_and_renewal",
-   "to": "document:letter_to_college",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Gujarat Veterinary Council provides downloadable letters to veterinary colleges regarding registration and renewal.",
-   "sources": [
-    {
-     "sourceId": "src:16b5f493e686",
-     "evidence": "Letter to Vet.College for Registration/Renewal, Dated: 16-04-2015",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_gujarat_veterinary_council_registration_and_renewal__requires__document_e_gazette",
    "from": "service:gujarat_veterinary_council_registration_and_renewal",
    "to": "document:e_gazette",
@@ -3173,22 +2532,6 @@
    ]
   },
   {
-   "id": "e:service_gujarat_veterinary_council_registration_and_renewal__requires__document_circular_certificate_publish",
-   "from": "service:gujarat_veterinary_council_registration_and_renewal",
-   "to": "document:circular_certificate_publish",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Gujarat Veterinary Council provides downloadable circulars regarding the publication of registration certificates.",
-   "sources": [
-    {
-     "sourceId": "src:16b5f493e686",
-     "evidence": "Circular of GVC Regarding Publish of Regi. Certificate, Dated: 3-2-2015",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_gujarat_veterinary_council_registration_and_renewal__apply_at__portal_gvc_org_in",
    "from": "service:gujarat_veterinary_council_registration_and_renewal",
    "to": "portal:gvc_org_in",
@@ -3200,22 +2543,6 @@
      "sourceId": "src:16b5f493e686",
      "evidence": "BHATT BALVANTRAY GOKALDAS | Pay for renewal",
      "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_van_mahotsav_sapling_application__requires__document_identity_proof_dropdown",
-   "from": "service:van_mahotsav_sapling_application",
-   "to": "document:identity_proof_dropdown",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must select an identity proof from a dropdown list (e.g., Aadhaar Card, Driving License, Election Card, PAN Card, Ration Card).",
-   "sources": [
-    {
-     "sourceId": "src:d405aafc8d64",
-     "evidence": "ઓળખનો પુરાવો : | select | આધાર કાર્ડ ડ્રાઇવિંગ લાયસન્સ ચૂંટણી કાર્ડ પાન કાર્ડ રેશન કાર્ડ",
-     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -3253,22 +2580,6 @@
    ]
   },
   {
-   "id": "e:service_film_shooting_permission__requires__document_protected_area_selection",
-   "from": "service:film_shooting_permission",
-   "to": "document:protected_area_selection",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Applicants must select a protected area from a list provided on the form.",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "Protected Area : Single &nbsp | Multiple &nbsp | (To apply for more than one Protected Area, please select \"Multiple\")",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_film_shooting_permission__requires__document_proof_of_identity",
    "from": "service:film_shooting_permission",
    "to": "document:proof_of_identity",
@@ -3279,182 +2590,6 @@
     {
      "sourceId": "src:a4264d4ffddb",
      "evidence": "Proof of Identity : | select | Aadhar Card Driving License Election Card Pan Card Ration Card",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_film_shooting_permission__requires__document_study_purpose",
-   "from": "service:film_shooting_permission",
-   "to": "document:study_purpose",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Applicants must specify the purpose of the study as either academic or commercial.",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "* Purpose of Study : Academic &nbsp | Commercial &nbsp |",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_film_shooting_permission__requires__document_research_subject",
-   "from": "service:film_shooting_permission",
-   "to": "document:research_subject",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Applicants must provide the subject of the research work.",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "* Subject of Research Work : Subject",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_film_shooting_permission__requires__document_principal_investigator_details",
-   "from": "service:film_shooting_permission",
-   "to": "document:principal_investigator_details",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Applicants must provide the name and address of the principal investigator or guide/institution.",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "* Principal Investigator of Guide/Institution Name : * Address : Address",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_film_shooting_permission__requires__document_project_synopsis",
-   "from": "service:film_shooting_permission",
-   "to": "document:project_synopsis",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Applicants must upload a project synopsis in a specified file format and size.",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "* Project / Synopsys : Please upload file. Please upload file less than 4 MB and of .pdf,doc,docx,jpg,jpeg,gif and png format.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_film_shooting_permission__requires__document_team_members_count",
-   "from": "service:film_shooting_permission",
-   "to": "document:team_members_count",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Applicants must specify the total number of team members.",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "* Total Team Members :",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_film_shooting_permission__requires__document_team_member_details",
-   "from": "service:film_shooting_permission",
-   "to": "document:team_member_details",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Applicants must upload team member details in a specified file format and size.",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "* Team member Details : Please upload file. Please upload file less than 4 MB and of .pdf,doc,docx,jpg,jpeg,gif and png format.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_film_shooting_permission__requires__document_project_period",
-   "from": "service:film_shooting_permission",
-   "to": "document:project_period",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Applicants must specify the project period.",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "* Project period :",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_film_shooting_permission__requires__document_methodology",
-   "from": "service:film_shooting_permission",
-   "to": "document:methodology",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Applicants must upload a methodology in a specified file format and size.",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "* Methodology : Please upload file. Please upload file less than 4 MB and of .pdf,doc,docx,jpg,jpeg,gif and png format.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_film_shooting_permission__requires__document_previous_permission_order",
-   "from": "service:film_shooting_permission",
-   "to": "document:previous_permission_order",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Applicants must upload any previous permission order, if applicable, in a specified file format and size.",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "Previous Permission Order(if Applicable) : Please upload file less than 4 MB and of .pdf,doc,docx,jpg,jpeg,gif and png format.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_film_shooting_permission__requires__document_vehicle_details",
-   "from": "service:film_shooting_permission",
-   "to": "document:vehicle_details",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Applicants must specify if a vehicle is needed and upload vehicle details in a specified file format and size.",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "Vehicle needed : Yes | No | Own | * Vehicle Details: Please upload file. Please upload file less than 4 MB and of .pdf,doc,docx,jpg,jpeg,gif and png format.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_film_shooting_permission__requires__document_shooting_time",
-   "from": "service:film_shooting_permission",
-   "to": "document:shooting_time",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Applicants must specify the time for shooting as day, night, or both.",
-   "sources": [
-    {
-     "sourceId": "src:a4264d4ffddb",
-     "evidence": "* Time For Shooting : Day &nbsp | Night &nbsp | Both &nbsp |",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -3472,134 +2607,6 @@
      "sourceId": "src:a4264d4ffddb",
      "evidence": "Application Form for Research work in Protected Area As Per WLPA-1972,Sec-33",
      "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_barbed_wire_fencing_application__requires__document_district",
-   "from": "service:barbed_wire_fencing_application",
-   "to": "document:district",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must select their district.",
-   "sources": [
-    {
-     "sourceId": "src:52cd469e9103",
-     "evidence": "જિલ્લો : | select |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_barbed_wire_fencing_application__requires__document_taluka",
-   "from": "service:barbed_wire_fencing_application",
-   "to": "document:taluka",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must select their taluka.",
-   "sources": [
-    {
-     "sourceId": "src:52cd469e9103",
-     "evidence": "તાલુકો : | select |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_barbed_wire_fencing_application__requires__document_caste",
-   "from": "service:barbed_wire_fencing_application",
-   "to": "document:caste",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must provide their caste (e.g., SC, ST, General).",
-   "sources": [
-    {
-     "sourceId": "src:52cd469e9103",
-     "evidence": "જાત : અ.જા. | અ.જ.જા. | સા.શૈ.પ. | અન્ય | |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_barbed_wire_fencing_application__requires__document_identity_proof",
-   "from": "service:barbed_wire_fencing_application",
-   "to": "document:identity_proof",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must provide proof of identity (e.g., Aadhaar Card, Driving License, etc.).",
-   "sources": [
-    {
-     "sourceId": "src:52cd469e9103",
-     "evidence": "ઓળખનો પુરાવો : | select | આધાર કાર્ડ ડ્રાઇવિંગ લાયસન્સ ચૂંટણી કાર્ડ પાન કાર્ડ રેશન કાર્ડ",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_barbed_wire_fencing_application__requires__document_identity_proof_number",
-   "from": "service:barbed_wire_fencing_application",
-   "to": "document:identity_proof_number",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must provide the number of the identity proof document.",
-   "sources": [
-    {
-     "sourceId": "src:52cd469e9103",
-     "evidence": "કાર્ડ નંબર :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_barbed_wire_fencing_application__requires__document_farmer_type",
-   "from": "service:barbed_wire_fencing_application",
-   "to": "document:farmer_type",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must specify their type of farmer (e.g., small, marginal, large, non-farmer).",
-   "sources": [
-    {
-     "sourceId": "src:52cd469e9103",
-     "evidence": "ખેડૂતનો પ્રકાર : નાના | સીમાંત | મોટા | બિનખેડૂત | | |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_barbed_wire_fencing_application__requires__document_land_area_hectares",
-   "from": "service:barbed_wire_fencing_application",
-   "to": "document:land_area_hectares",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must provide the area of their land in hectares.",
-   "sources": [
-    {
-     "sourceId": "src:52cd469e9103",
-     "evidence": "વિસ્તાર (હેક્ટરમાં) :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_barbed_wire_fencing_application__requires__document_fencing_length_meters",
-   "from": "service:barbed_wire_fencing_application",
-   "to": "document:fencing_length_meters",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must provide the length of the fencing in meters.",
-   "sources": [
-    {
-     "sourceId": "src:52cd469e9103",
-     "evidence": "વાડની લંબાઈ (મીટરમાં) :",
-     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -3765,54 +2772,6 @@
    ]
   },
   {
-   "id": "e:service_building_development_permission__requires__document_ward_office",
-   "from": "service:building_development_permission",
-   "to": "document:ward_office",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "For a restaurant, hotel, or shop of sweet meats, a Health Licence must be obtained from the concerned Ward Office first.",
-   "sources": [
-    {
-     "sourceId": "src:a299a14d5099",
-     "evidence": "For restaurant, hotels or shops of sweet meats, a Health Licence should be obtained from concerned Ward Office first.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_building_development_permission__requires__document_required_documents",
-   "from": "service:building_development_permission",
-   "to": "document:required_documents",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Documents required for building plan permission include ownership documents, area-related documents, zoning certificate, affidavits, house tax clearance certificate, and opinion of T.P.O if the property is in a draft T.P. Scheme.",
-   "sources": [
-    {
-     "sourceId": "src:a299a14d5099",
-     "evidence": "Which documents are required for getting building plan permission? Ans : Check list of required documents is available on corporation website however following documents generally required. Owener ship Document:- 7/12,8A,6/ property card/sanad/ Ragistered Sale did with Index, Power of Attorny/ lease deed/ project Area Releted Documents:- DILR measurement sheet, city survey tippan/ tracing/ sand, T.P.Site plan/ old approved drowings in case of revise permission. Zoning Certificate and Zone plan:- B or F form. Effidivate for parking, common plot, ULC, Indemnity Bond. House Tax clearance certificate if redeveloped the old property. Opinion of T.P.O in case property is in draft T.P.Scheme.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_building_development_permission__requires__document_noc_requirements",
-   "from": "service:building_development_permission",
-   "to": "document:noc_requirements",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Various N.O.Cs are required for building plan permission, including Airport N.O.C, Fire N.O.C, Archiological N.O.C, Electricity Board N.O.C, Railway N.O.C, Environment N.O.C, Regional Manager N.O.C, and Irrigation N.O.C.",
-   "sources": [
-    {
-     "sourceId": "src:a299a14d5099",
-     "evidence": "Which Kind of N.O.C Required for the Building Plan Permission? Ans : Airport N.O.C if the property falls in funnal area of aircraft and for highrise building Director Airport Western Region Mumbai. Fire N.O.C (C.O. Fire VMC Mr. Gunjal Mob.9879615036) is concern person The information for N.O.C is also available on Website of Corporation.In case of Highrise Building and special Structure school buildings and Hospital Buildings. Archiological N.O.C If property falls within radios of 200mts. From the Archiological Monuments notified by Archiological Department Gov.of India. Conservation Assistant Archaelogical Survey Of India, Vadodara Sub-circle Bhau Tambekar Haveli, Pratap Road, Raopura Vadodara. Electricity Board N.O.C If H.T and L.T line pass through the property . Railway N.O.C DRM Western Railway Vadodara Division, Pratapnagar Vadodara. It property is adjoining to the Railway line or within 30mts. Of the railway track. Environment N.O.C GPCB Gandhinagar - Incase Construction area is 20000mts. Or more - Society N.O.C in case of co.op.housing Society . Resional manager N.O.C Regional Manager GIDC kansar Restorant Building Sayajigunj Vadodara. in case of GIDC Notified Area. Irrigation N.O.C Executive Engineer Vadodara Kuber bhuvan Vadodara. If canal pass adjoining to the property.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_building_development_permission__apply_at__portal_vmc_gov_in",
    "from": "service:building_development_permission",
    "to": "portal:vmc_gov_in",
@@ -3861,70 +2820,6 @@
    ]
   },
   {
-   "id": "e:service_gir_online_permit_booking_system__requires__document_devalia_safari_park",
-   "from": "service:gir_online_permit_booking_system",
-   "to": "document:devalia_safari_park",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The maximum number of persons allowed in one E-permit is 6 persons plus one child between 3-12 years.",
-   "sources": [
-    {
-     "sourceId": "src:7f4a4e5e8699",
-     "evidence": "Note: In one E-permit maximum 6 persons (plus one child between 3-12 years) are allowed.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_gir_online_permit_booking_system__requires__document_validity",
-   "from": "service:gir_online_permit_booking_system",
-   "to": "document:validity",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Email ID must be valid.",
-   "sources": [
-    {
-     "sourceId": "src:5dd1e4da0095",
-     "evidence": "Please Enter valid email id",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_gir_online_permit_booking_system__requires__document_selection",
-   "from": "service:gir_online_permit_booking_system",
-   "to": "document:selection",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A country must be selected.",
-   "sources": [
-    {
-     "sourceId": "src:5dd1e4da0095",
-     "evidence": "Please Select Country",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_gir_online_permit_booking_system__requires__document_entry",
-   "from": "service:gir_online_permit_booking_system",
-   "to": "document:entry",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A city must be entered.",
-   "sources": [
-    {
-     "sourceId": "src:5dd1e4da0095",
-     "evidence": "Please Enter City",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_gir_online_permit_booking_system__apply_at__portal_girlion_gujarat_gov_in",
    "from": "service:gir_online_permit_booking_system",
    "to": "portal:girlion_gujarat_gov_in",
@@ -3957,22 +2852,6 @@
    ]
   },
   {
-   "id": "e:service_electricity_tax_exemption_or_relief__requires__document_required_documents",
-   "from": "service:electricity_tax_exemption_or_relief",
-   "to": "document:required_documents",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The application for electricity tax exemption or relief must include all the required documents such as CA Certificate, Machinery Schedule, and Affidavit.",
-   "sources": [
-    {
-     "sourceId": "src:3352bf96ce66",
-     "evidence": "બિડાણો/દસ્તાવેજો ની યાદી અરજી પત્રક માં જણાવેલ છે તે મુજબના તમામ સી.એ.સર્ટિ, મશીનરી પત્રક સોગંદનામુ બિડાણ/દસ્તાવેજોના નમૂના",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_electricity_tax_exemption_or_relief__apply_at__portal_ceiced_gujarat_gov_in",
    "from": "service:electricity_tax_exemption_or_relief",
    "to": "portal:ceiced_gujarat_gov_in",
@@ -3989,38 +2868,6 @@
    ]
   },
   {
-   "id": "e:service_girnar_nature_safari_permit__requires__document_user_registration",
-   "from": "service:girnar_nature_safari_permit",
-   "to": "document:user_registration",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The mobile number must be 10 digits.",
-   "sources": [
-    {
-     "sourceId": "src:2d20ddb5e853",
-     "evidence": "Mobile Number must be 10 digits",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_girnar_nature_safari_permit__requires__document_visit",
-   "from": "service:girnar_nature_safari_permit",
-   "to": "document:visit",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The E-permit must be printed and brought to the Reception Centre of Girnar Nature Safari along with an original identity card.",
-   "sources": [
-    {
-     "sourceId": "src:2d20ddb5e853",
-     "evidence": "The print out of E-permit must be brought at the time of reporting at Reception Centre of Girnar Nature Safari along with original Identity card.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_girnar_nature_safari_permit__apply_at__portal_girlion_gujarat_gov_in",
    "from": "service:girnar_nature_safari_permit",
    "to": "portal:girlion_gujarat_gov_in",
@@ -4030,24 +2877,8 @@
    "sources": [
     {
      "sourceId": "src:2d20ddb5e853",
-     "evidence": "OTP is valid only 30 Minutes.",
+     "evidence": "Mobile Number must be 10 digits",
      "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_gslcs__requires__document_gir_jungle_safari_visit",
-   "from": "service:gslcs",
-   "to": "document:gir_jungle_safari_visit",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The printout of the E-permit must be brought at the time of reporting for the Gir Jungle Safari visit along with the original identity card.",
-   "sources": [
-    {
-     "sourceId": "src:61f17e5a5fa6",
-     "evidence": "The print out of E-permit must be brought at the time of reporting of Gir Jungle Safari Visit along with original Identity card.",
-     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -4101,38 +2932,6 @@
    ]
   },
   {
-   "id": "e:service_transit_pass_for_imported_timber__requires__document_merchant_name",
-   "from": "service:transit_pass_for_imported_timber",
-   "to": "document:merchant_name",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A merchant or trader must provide their name for registration.",
-   "sources": [
-    {
-     "sourceId": "src:1c622b6d545b",
-     "evidence": "Merchant/Trader Name *",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_transit_pass_for_imported_timber__requires__document_captcha_code",
-   "from": "service:transit_pass_for_imported_timber",
-   "to": "document:captcha_code",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A captcha code consisting of 6 alphanumeric characters is required for registration.",
-   "sources": [
-    {
-     "sourceId": "src:1c622b6d545b",
-     "evidence": "Captcha Code Allows Only Alpha-numeric 6 Characters.",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_transit_pass_for_imported_timber__apply_at__portal_forestservices_gujarat_gov_in",
    "from": "service:transit_pass_for_imported_timber",
    "to": "portal:forestservices_gujarat_gov_in",
@@ -4142,7 +2941,7 @@
    "sources": [
     {
      "sourceId": "src:1c622b6d545b",
-     "evidence": "Password must have at least 8 characters including 1 lowercase, 1 uppercase, 1 numeric, and 1 special character.",
+     "evidence": "Merchant/Trader Name *",
      "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }

@@ -574,21 +574,6 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "document:labour_welfare_officer_part_b",
-   "type": "DOCUMENT",
-   "name": "Labour welfare officer part b",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a7ce7dd84685",
-     "evidence": "· અરજીના ભાગ-(બ) મુજબનું મ.સ.શ્ર.અ/સ.શ્ર.અ.શ્રીની પ્રાથમિક ચકાસણી.",
-     "confidence": 0.85,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "service:financial_assistance_for_self_employed_labours",
    "type": "SERVICE",
    "name": "Financial Assistance for Self Employed Labours",
@@ -637,6 +622,12 @@
     },
     {
      "sourceId": "src:a7ce7dd84685",
+     "evidence": "· અરજીના ભાગ-(બ) મુજબનું મ.સ.શ્ર.અ/સ.શ્ર.અ.શ્રીની પ્રાથમિક ચકાસણી.",
+     "confidence": 0.85,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a7ce7dd84685",
      "evidence": "( અ) મૃતકના પતિ અથવા પત્ની દર્દીની ગેરહયાતિમાં",
      "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
@@ -670,12 +661,6 @@
      "evidence": "( ફ) ઉપરોક્ત કિસ્સા સિવાયના કેસોમાં ઈન્ડીયન સક્સેશન એક્ટ હેઠળ જાહેર થયેલ વારસદાર.",
      "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:a7ce7dd84685",
-     "evidence": "( ૧) અરજદાર તરફથી ૯૦ દિવસની સમયમર્યાદામાં મદદનીશ સરકારી શ્રમ અધિકારીને રજુ કરશે.",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
     }
    ],
    "lastVerifiedAt": "2026-08-23"
@@ -697,231 +682,6 @@
      "verificationStatus": "EXTRACTED"
     }
    ]
-  },
-  {
-   "id": "document:aadhaar_number",
-   "type": "DOCUMENT",
-   "name": "Aadhaar number",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "આધાર કાર્ડ નંબર (લાભાર્થી) *",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:english_name_per_aadhaar",
-   "type": "DOCUMENT",
-   "name": "English name per aadhaar",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "લાભાર્થીનું નામ (અંગ્રેજીમા આઘાર મુજબ) *",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:aadhaar_linked_mobile_number",
-   "type": "DOCUMENT",
-   "name": "Aadhaar linked mobile number",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "આધાર વાળો મોબાઈલ નંબર. *",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:village_or_city_name",
-   "type": "DOCUMENT",
-   "name": "Village or city name",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "ગામ * ( ગામ/ શહેર )",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:anganwadi_name",
-   "type": "DOCUMENT",
-   "name": "Anganwadi name",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "આંગણવાડીનું નામ *",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:worker_or_helper_name",
-   "type": "DOCUMENT",
-   "name": "Worker or helper name",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "કાર્યકર/તેડાગર નું નામ *",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:district_and_taluka",
-   "type": "DOCUMENT",
-   "name": "District and taluka",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "જિલ્લો * તાલુકો *",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:name_per_ration_card",
-   "type": "DOCUMENT",
-   "name": "Name per ration card",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "રેશનકાર્ડ પ્રમાણે નામ",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:ration_card_member_id",
-   "type": "DOCUMENT",
-   "name": "Ration card member id",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "રેશન કાર્ડ મેમ્બર આઈ.ડી.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:family_card_id",
-   "type": "DOCUMENT",
-   "name": "Family card id",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "ફેમિલી કાર્ડ આઈ.ડી.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:alternative_mobile_number",
-   "type": "DOCUMENT",
-   "name": "Alternative mobile number",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "અન્ય કોઇ મોબાઇલ નંબર.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:name_in_english",
-   "type": "DOCUMENT",
-   "name": "Name in english",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:d0c1afe6687f",
-     "evidence": "લાભાર્થીનું નામ (અંગ્રેજીમા આઘાર મુજબ) *",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:aadhaar_mobile_number",
-   "type": "DOCUMENT",
-   "name": "Aadhaar mobile number",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:d0c1afe6687f",
-     "evidence": "આધાર વાળો મોબાઈલ નંબર. *",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:village_or_city",
-   "type": "DOCUMENT",
-   "name": "Village or city",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:d0c1afe6687f",
-     "evidence": "ગામ * ( ગામ/ શહેર )",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:registration_number",
-   "type": "DOCUMENT",
-   "name": "Registration number",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:04364ee1275e",
-     "evidence": "નોંધણી સુધારો\nનોંધણી નંબર",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
   },
   {
    "id": "helpline:079_232_57942",
@@ -971,44 +731,62 @@
     },
     {
      "sourceId": "src:b078560c40dc",
+     "evidence": "આધાર કાર્ડ નંબર (લાભાર્થી) *",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b078560c40dc",
+     "evidence": "લાભાર્થીનું નામ (અંગ્રેજીમા આઘાર મુજબ) *",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b078560c40dc",
      "evidence": "જન્મ તારીખ / જન્મ વર્ષ *",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:b078560c40dc",
-     "evidence": "લાભ લેવા અર્થે મારો આધાર નંબરનો ઉપયોગ કરવા માટેની હું સંમતિ આપું છું અને લાભાર્થી પ્રથમ પ્રસૂતા છે.",
+     "evidence": "આધાર વાળો મોબાઈલ નંબર. *",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:d0c1afe6687f",
-     "evidence": "જન્મ તારીખ / જન્મ વર્ષ *",
-     "confidence": 0.95,
+     "sourceId": "src:b078560c40dc",
+     "evidence": "ગામ * ( ગામ/ શહેર )",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:d0c1afe6687f",
-     "evidence": "લાભાર્થીની જાતી : * સ્ત્રી",
-     "confidence": 0.95,
+     "sourceId": "src:b078560c40dc",
+     "evidence": "આંગણવાડીનું નામ *",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:d0c1afe6687f",
-     "evidence": "આ યોજનાનો લાભ લેવા અર્થે મારો આધાર નંબરનો ઉપયોગ કરવા માટેની હું સંમતિ આપું છું અને લાભાર્થી પ્રથમ પ્રસૂતા છે.",
-     "confidence": 0.95,
+     "sourceId": "src:b078560c40dc",
+     "evidence": "કાર્યકર/તેડાગર નું નામ *",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:04364ee1275e",
-     "evidence": "મોબાઈલ નંબર\n*",
-     "confidence": 0.9,
+     "sourceId": "src:b078560c40dc",
+     "evidence": "જિલ્લો * તાલુકો *",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:04364ee1275e",
-     "evidence": "જન્મ તારીખ /\nજન્મ વર્ષ *",
-     "confidence": 0.9,
+     "sourceId": "src:b078560c40dc",
+     "evidence": "રેશનકાર્ડ પ્રમાણે નામ",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b078560c40dc",
+     "evidence": "રેશન કાર્ડ મેમ્બર આઈ.ડી.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -1033,201 +811,6 @@
    ]
   },
   {
-   "id": "document:district_selection",
-   "type": "DOCUMENT",
-   "name": "District selection",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "જિલ્લો : | select | -- પસંદ કરો -- Ahmedabad Amreli Anand Aravalli Banaskantha Bharuch Bhavnagar Botad Chhota Udepur Dahod Dang Deesa Devbhumi Dwarka Gandhinagar Gir Somnath Jamnagar Junagadh Kheda Kutch Mahisagar Mehsana Morbi Nakhtrana Narmada Navsari Panchmahal Patan Porbandar Rajkot Sabarkantha Surat Surendranagar Tapi Vadodara Valsad",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:taluka_selection",
-   "type": "DOCUMENT",
-   "name": "Taluka selection",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "તાલુકો : | select | -- પસંદ કરો --",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:range_selection",
-   "type": "DOCUMENT",
-   "name": "Range selection",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "રેન્જ : | select | -- પસંદ કરો --",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:address_district_selection",
-   "type": "DOCUMENT",
-   "name": "Address district selection",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "જિલ્લો : | select | -- પસંદ કરો -- Ahmedabad Amreli Anand Aravalli Banaskantha Bharuch Bhavnagar Botad Chhota Udepur Dahod Dang Deesa Devbhumi Dwarka Gandhinagar Gir Somnath Jamnagar Junagadh Kheda Kutch Mahisagar Mehsana Morbi Nakhtrana Narmada Navsari Panchmahal Patan Porbandar Rajkot Sabarkantha Surat Surendranagar Tapi Vadodara Valsad",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:address_taluka_selection",
-   "type": "DOCUMENT",
-   "name": "Address taluka selection",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "તાલુકો : | select | -- પસંદ કરો --",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:address_city_village_selection",
-   "type": "DOCUMENT",
-   "name": "Address city village selection",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "શહેર / ગામ : | select | -- પસંદ કરો --",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:gender_selection",
-   "type": "DOCUMENT",
-   "name": "Gender selection",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "જાતિ : પુરુષ | સ્ત્રી |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:caste_selection",
-   "type": "DOCUMENT",
-   "name": "Caste selection",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "જાત : અ.જા. | અ.જ.જા. | સા.શૈ.પ. | અન્ય | |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:poverty_line_status",
-   "type": "DOCUMENT",
-   "name": "Poverty line status",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "ગરીબી રેખા નીચે આવે છે કે કેમ ? હા | ના |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:contact_number",
-   "type": "DOCUMENT",
-   "name": "Contact number",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "મોબાઈલ/લેન્ડ-લાઈન નંબર:",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:energy_saving_equipment_selection",
-   "type": "DOCUMENT",
-   "name": "Energy saving equipment selection",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "ઉર્જા બચતનું સાધન : | select | -- પસંદ કરો -- LPG સગડી સ્ટવ અને પ્રેસર કુકર બાયોગેસ સોલર કુકર",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:number_of_devices_requested",
-   "type": "DOCUMENT",
-   "name": "Number of devices requested",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "* માંગણી કરેલ સાધનની સંખ્યા :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:signature_and_stamp",
-   "type": "DOCUMENT",
-   "name": "Signature and stamp",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "સ્થાનીય સ્વરાજની તથા અન્ય સંસ્થાઓએ તેમના લેટર પેડ પર સહી અને સિક્કા સહિત અરજી કરવાની રહેશે.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "service:energy_saving_equipments",
    "type": "SERVICE",
    "name": "Energy Saving Equipments",
@@ -1243,6 +826,24 @@
    "sources": [
     {
      "sourceId": "src:084d61b22eab",
+     "evidence": "જિલ્લો : | select | -- પસંદ કરો -- Ahmedabad Amreli Anand Aravalli Banaskantha Bharuch Bhavnagar Botad Chhota Udepur Dahod Dang Deesa Devbhumi Dwarka Gandhinagar Gir Somnath Jamnagar Junagadh Kheda Kutch Mahisagar Mehsana Morbi Nakhtrana Narmada Navsari Panchmahal Patan Porbandar Rajkot Sabarkantha Surat Surendranagar Tapi Vadodara Valsad",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:084d61b22eab",
+     "evidence": "તાલુકો : | select | -- પસંદ કરો --",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:084d61b22eab",
+     "evidence": "રેન્જ : | select | -- પસંદ કરો --",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:084d61b22eab",
      "evidence": "અરજદારનું નામ :",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
@@ -1255,7 +856,43 @@
     },
     {
      "sourceId": "src:084d61b22eab",
-     "evidence": "આથી અમો બાહેધરી આપીએ છીએ કે ઉપર જણાવેલ માહિતી સાચી છે અને પ્રવર્તમાન શરતો, નિયમો તથા/અથવા અન્ય જોગવાઈઓ મને માન્ય છે અને બંધન કર્તા રહેશે.",
+     "evidence": "જિલ્લો : | select | -- પસંદ કરો -- Ahmedabad Amreli Anand Aravalli Banaskantha Bharuch Bhavnagar Botad Chhota Udepur Dahod Dang Deesa Devbhumi Dwarka Gandhinagar Gir Somnath Jamnagar Junagadh Kheda Kutch Mahisagar Mehsana Morbi Nakhtrana Narmada Navsari Panchmahal Patan Porbandar Rajkot Sabarkantha Surat Surendranagar Tapi Vadodara Valsad",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:084d61b22eab",
+     "evidence": "તાલુકો : | select | -- પસંદ કરો --",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:084d61b22eab",
+     "evidence": "શહેર / ગામ : | select | -- પસંદ કરો --",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:084d61b22eab",
+     "evidence": "જાતિ : પુરુષ | સ્ત્રી |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:084d61b22eab",
+     "evidence": "જાત : અ.જા. | અ.જ.જા. | સા.શૈ.પ. | અન્ય | |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:084d61b22eab",
+     "evidence": "ગરીબી રેખા નીચે આવે છે કે કેમ ? હા | ના |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:084d61b22eab",
+     "evidence": "મોબાઈલ/લેન્ડ-લાઈન નંબર:",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -1401,96 +1038,6 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "document:name_and_title",
-   "type": "DOCUMENT",
-   "name": "Name and title",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:f696fb59a3e5",
-     "evidence": "અરજદારનું ઉપનામ :\nશ્રી | શ્રીમતી | કુમારી |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:city_or_village",
-   "type": "DOCUMENT",
-   "name": "City or village",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:f696fb59a3e5",
-     "evidence": "શહેર / ગામ :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:landline_or_other_number",
-   "type": "DOCUMENT",
-   "name": "Landline or other number",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:f696fb59a3e5",
-     "evidence": "લેન્ડ-લાઈન/અન્ય નં :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:fax_number",
-   "type": "DOCUMENT",
-   "name": "Fax number",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:f696fb59a3e5",
-     "evidence": "ફેક્સ નંબર :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:date",
-   "type": "DOCUMENT",
-   "name": "Date",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:f696fb59a3e5",
-     "evidence": "બનાવની તારીખ :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:location",
-   "type": "DOCUMENT",
-   "name": "Location",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:f696fb59a3e5",
-     "evidence": "બનાવનું સ્થળ :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "service:compensation_for_livestock_death",
    "type": "SERVICE",
    "name": "Compensation for Livestock Death",
@@ -1503,13 +1050,49 @@
    "sources": [
     {
      "sourceId": "src:f696fb59a3e5",
+     "evidence": "અરજદારનું ઉપનામ :\nશ્રી | શ્રીમતી | કુમારી |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f696fb59a3e5",
      "evidence": "અરજદારનું સરનામું :",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:f696fb59a3e5",
+     "evidence": "શહેર / ગામ :",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f696fb59a3e5",
      "evidence": "મોબાઈલ નં : (+91)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f696fb59a3e5",
+     "evidence": "લેન્ડ-લાઈન/અન્ય નં :",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f696fb59a3e5",
+     "evidence": "ફેક્સ નંબર :",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f696fb59a3e5",
+     "evidence": "ઓળખનો પુરાવો :",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f696fb59a3e5",
+     "evidence": "કાર્ડ નંબર :",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     },
@@ -1527,19 +1110,13 @@
     },
     {
      "sourceId": "src:f696fb59a3e5",
-     "evidence": "મ્રુત્યુ પામેલ ઢોરની વિગત :",
+     "evidence": "બનાવની તારીખ :",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:f696fb59a3e5",
-     "evidence": "અરજદારની અરજી માટેનાં સંપર્કની વિગત",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:f696fb59a3e5",
-     "evidence": "નોંધ\nઆથી અમો બાહેધરી આપીએ છીએ કે ઉપર જણાવેલ માહિતી સાચી છે અને પ્રવર્તમાન શરતો, નિયમો તથા/અથવા અન્ય જોગવાઈઓ મને માન્ય છે અને બંધન કર્તા રહેશે.",
+     "evidence": "બનાવનું સ્થળ :",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -1655,51 +1232,6 @@
    ]
   },
   {
-   "id": "document:valid_license",
-   "type": "DOCUMENT",
-   "name": "Valid license",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:98884ff5f944",
-     "evidence": "વાહન માટેની લોનની યોજનામાં અરજદાર પાસે પાકું લાયસન્સ હોવું જોઇએ.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:guarantee_bond",
-   "type": "DOCUMENT",
-   "name": "Guarantee bond",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:98884ff5f944",
-     "evidence": "લોનની કુલ રકમ રૂ. ૭.૫૦ લાખ કે તેથી ઓછી હોય તો તેટલી રકમ ભરી શકે તેવા બે સધ્ધર જામીનનું જામીન ખત રજુ કરવાનું રહેશે.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:blank_cheques",
-   "type": "DOCUMENT",
-   "name": "Blank cheques",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:98884ff5f944",
-     "evidence": "દરેક લોન લેનારે નિગમની તરફેણમાં સહી કરેલા પાંચ બ્લેન્ક ચેક આપવાના રહેશે.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "helpline:079_23258688_079_23258684",
    "type": "HELPLINE",
    "name": "Self-Employment Scheme helpline",
@@ -1786,6 +1318,12 @@
     },
     {
      "sourceId": "src:98884ff5f944",
+     "evidence": "વાહન માટેની લોનની યોજનામાં અરજદાર પાસે પાકું લાયસન્સ હોવું જોઇએ.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:98884ff5f944",
      "evidence": "ટ્રાન્સપોર્ટ, લોજીસ્ટીક, ટ્રાવેલર્સ, ફુડ કોર્ટ વગેરે વ્યવસાય માટે વાહન જરૂરી સ્ટ્રક્ચર સહિત મેળવવા માટે બેંક માંથી રૂ. ૬.૦૦ લાખની લીધેલ લોન ઉપર ૫ ટકા વ્યાજ સહાય મળવા પાત્ર થશે.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
@@ -1810,19 +1348,13 @@
     },
     {
      "sourceId": "src:98884ff5f944",
+     "evidence": "લોનની કુલ રકમ રૂ. ૭.૫૦ લાખ કે તેથી ઓછી હોય તો તેટલી રકમ ભરી શકે તેવા બે સધ્ધર જામીનનું જામીન ખત રજુ કરવાનું રહેશે.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:98884ff5f944",
      "evidence": "લોનની કુલ રકમ રૂ. ૭.૫૦ લાખ કરતા વધતી હોય તો તે કુલ રકમ જેટલી રકમની પોતાની અથવા અન્ય કોઇ સગા સબંધીની સ્થાવર મિલ્કત નિગમની તરફેણમાં ગીરો કરવાની રહેશે.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:fefe6bbbe272",
-     "evidence": "વ્યવસાય કે કરીયાણાની દુકાન, મેડીકલ સ્ટોર , રેડીમેડ ગારમેન્ટ સ્ટોર, બુકસ્ટોર વગેરે કોઇપણ સ્વરોજગારલક્ષી વ્યવસાય માટે રૂા.૧૦.૦૦ લાખ સુધી અથવા ખરેખર થનાર ખર્ચ એ બે પૈકી જે ઓછું હોય તે લોન પેટે નિગમ તરફથી આપવામાં આવશે.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:fefe6bbbe272",
-     "evidence": "ઉપરોકત ક્રમ ૧ અને ૨ ની યોજના માટે લોન વાર્ષિક ૫ ટકા ના સાદા વ્યાજે મળવાપાત્રથશે. મહિલાઓ માટે ૪ ટકાના સાદા વ્યાજે લોન મળવાપાત્ર થશે.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -1846,21 +1378,6 @@
      "verificationStatus": "EXTRACTED"
     }
    ]
-  },
-  {
-   "id": "document:personal_details",
-   "type": "DOCUMENT",
-   "name": "Personal details",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:79fdc662dbe8",
-     "evidence": "Register: Click the Register or New Application link and complete the form with Name, DOB, Address, Mobile number, Aadhar (if required), and local Anganwadi details.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
   },
   {
    "id": "office:gandhinagar",
@@ -1909,6 +1426,12 @@
     {
      "sourceId": "src:79fdc662dbe8",
      "evidence": "Open the portal: Visit 1000d.gujarat.gov.in .",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:79fdc662dbe8",
+     "evidence": "Register: Click the Register or New Application link and complete the form with Name, DOB, Address, Mobile number, Aadhar (if required), and local Anganwadi details.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
@@ -2269,21 +1792,6 @@
    ]
   },
   {
-   "id": "document:educational_qualification",
-   "type": "DOCUMENT",
-   "name": "Educational qualification",
-   "jurisdictionId": "IN-GJ-JAMNAGAR",
-   "sources": [
-    {
-     "sourceId": "src:91a620ee733a",
-     "evidence": "શૈક્ષણિક લાયકાતની પ્રમાણિત નકલ",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "document:identity_documents",
    "type": "DOCUMENT",
    "name": "Identity documents",
@@ -2377,6 +1885,12 @@
      "sourceId": "src:91a620ee733a",
      "evidence": "નિકાલની સમય મર્યાદા કુલ ૧૫ દિવસ.",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:91a620ee733a",
+     "evidence": "શૈક્ષણિક લાયકાતની પ્રમાણિત નકલ",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     },
     {
@@ -2563,6 +2077,12 @@
     {
      "sourceId": "src:d22ee1190fd8",
      "evidence": "રૂા.૫.૦૦ લાખ સુધીની કુલ લોનના કિસ્સામાં અભ્યાસ પુરો કર્યાના ૧ વર્ષ બાદ ૫ (પાંચ) વર્ષમાં એક સરખા માસિક હપ્તામાં લોનની રકમ વ્યાજ સથે ભરવાની રહેશે.\nરૂા.૫.૦૦ લાખથી વધુની લોનના કિસ્સામાં અભ્યાસ પુરો કર્યાના ૧ વર્ષ બાદ ૬(છ) વર્ષમાં એક સરખા માસિક હપ્તામાં લોનની રકમ વ્યાજ સાથે ભરવાની રહેશે.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d22ee1190fd8",
+     "evidence": "દરેક લોન લેનારે નિગમની તરફેણમાં સહી કરેલા પાંચ બ્લેન્ક(BLANK) ચેક આપવાના રહેશે.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -3256,126 +2776,6 @@
    ]
   },
   {
-   "id": "document:applicant_workman_details",
-   "type": "DOCUMENT",
-   "name": "Applicant workman details",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a09f7e259dcc",
-     "evidence": "2.\n|\nName & Address of applicant workman :- applying for State Shram Award\n(a) Present address\n(b) Permanent address",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:workman_age_details",
-   "type": "DOCUMENT",
-   "name": "Workman age details",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a09f7e259dcc",
-     "evidence": "3.\n|\na) Age of Workmen b) Birth date & Place of Workmen",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:work_duration_details",
-   "type": "DOCUMENT",
-   "name": "Work duration details",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a09f7e259dcc",
-     "evidence": "4.\n|\nDetails information of duration of work",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:employment_type",
-   "type": "DOCUMENT",
-   "name": "Employment type",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a09f7e259dcc",
-     "evidence": "5.\n|\nType : Permanent or temporary",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:workman_qualifications",
-   "type": "DOCUMENT",
-   "name": "Workman qualifications",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a09f7e259dcc",
-     "evidence": "6.\n|\nQualification\n(a) Educational\n(b) Technical",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:workman_relations",
-   "type": "DOCUMENT",
-   "name": "Workman relations",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a09f7e259dcc",
-     "evidence": "7.\n|\nRelations of workman with his Co-workmen",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:distinguished_work_details",
-   "type": "DOCUMENT",
-   "name": "Distinguished work details",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a09f7e259dcc",
-     "evidence": "8.\n|\nDetail information of distinguished work. Distinguished work should be for the year _______________ social or other work done outside factory should not be included in the distinguished work.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:recognition_details",
-   "type": "DOCUMENT",
-   "name": "Recognition details",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:a09f7e259dcc",
-     "evidence": "9.\n|\nDetails of any certificate or letter of recognition received from employer of the factory.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "service:shram_awards",
    "type": "SERVICE",
    "name": "Shram Awards",
@@ -3386,6 +2786,54 @@
     "machineExtracted": true
    },
    "sources": [
+    {
+     "sourceId": "src:a09f7e259dcc",
+     "evidence": "2.\n|\nName & Address of applicant workman :- applying for State Shram Award\n(a) Present address\n(b) Permanent address",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a09f7e259dcc",
+     "evidence": "3.\n|\na) Age of Workmen b) Birth date & Place of Workmen",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a09f7e259dcc",
+     "evidence": "4.\n|\nDetails information of duration of work",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a09f7e259dcc",
+     "evidence": "5.\n|\nType : Permanent or temporary",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a09f7e259dcc",
+     "evidence": "6.\n|\nQualification\n(a) Educational\n(b) Technical",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a09f7e259dcc",
+     "evidence": "7.\n|\nRelations of workman with his Co-workmen",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a09f7e259dcc",
+     "evidence": "8.\n|\nDetail information of distinguished work. Distinguished work should be for the year _______________ social or other work done outside factory should not be included in the distinguished work.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a09f7e259dcc",
+     "evidence": "9.\n|\nDetails of any certificate or letter of recognition received from employer of the factory.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
     {
      "sourceId": "src:a09f7e259dcc",
      "evidence": "1) Indicate accurate statistics of increase in productivity or production e.g. approximate value due to increase in production of 50 Ton due to distinguished work done.",
@@ -3589,21 +3037,6 @@
    ]
   },
   {
-   "id": "document:previous_three_years_data",
-   "type": "DOCUMENT",
-   "name": "Previous three years data",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:400e2076e716",
-     "evidence": "Each Application should include previous three Years data with the Application.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "helpline:23258378",
    "type": "HELPLINE",
    "name": "Incentive Schemes helpline",
@@ -3662,6 +3095,12 @@
     },
     {
      "sourceId": "src:400e2076e716",
+     "evidence": "Each Application should include previous three Years data with the Application.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:400e2076e716",
      "evidence": "For Export Award 2018-19 only those Units Can Apply which are mentioned in Category -A attached here with.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
@@ -3710,21 +3149,6 @@
      "verificationStatus": "EXTRACTED"
     }
    ]
-  },
-  {
-   "id": "document:training_program",
-   "type": "DOCUMENT",
-   "name": "Training program",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:bfd20f36eb49",
-     "evidence": "Download Application Form [English] [1141 KB]",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
   },
   {
    "id": "service:tuition_fees_for_enhancement_of_skill",
@@ -3776,67 +3200,19 @@
     },
     {
      "sourceId": "src:bfd20f36eb49",
+     "evidence": "Download Application Form [English] [1141 KB]",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:bfd20f36eb49",
+     "evidence": "Download Training Partners [English] [200 KB]",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:bfd20f36eb49",
      "evidence": "Last update 07, Aug 2026",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:red_book_number",
-   "type": "DOCUMENT",
-   "name": "Red book number",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:519cf6979a7f",
-     "evidence": "1. Red Book Number * :-",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:beneficiary_name",
-   "type": "DOCUMENT",
-   "name": "Beneficiary name",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:519cf6979a7f",
-     "evidence": "3. Beneficiary Name * :-",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:aadhaar_card_number",
-   "type": "DOCUMENT",
-   "name": "Aadhaar card number",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:519cf6979a7f",
-     "evidence": "5. Adharcard Number * :-",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:bank_details",
-   "type": "DOCUMENT",
-   "name": "Bank details",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:519cf6979a7f",
-     "evidence": "6. Bank Details * :-",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -3865,13 +3241,37 @@
     },
     {
      "sourceId": "src:519cf6979a7f",
+     "evidence": "1. Red Book Number * :-",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:519cf6979a7f",
      "evidence": "2. Address * :-",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:519cf6979a7f",
+     "evidence": "3. Beneficiary Name * :-",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:519cf6979a7f",
      "evidence": "4. Mobile Number * :-",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:519cf6979a7f",
+     "evidence": "5. Adharcard Number * :-",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:519cf6979a7f",
+     "evidence": "6. Bank Details * :-",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
@@ -4203,21 +3603,6 @@
    ]
   },
   {
-   "id": "document:user_guidelines_for_incentive_claim_documents",
-   "type": "DOCUMENT",
-   "name": "User guidelines for incentive claim documents",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:59679f983b78",
-     "evidence": "4 | User guidelines of required documents for incentive claim processing under IT/ITeS Policy (2022-27) (PDF - 253.52 KB) | - | View Document |",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "document:general_declaration_and_undertaking",
    "type": "DOCUMENT",
    "name": "General declaration and undertaking",
@@ -4293,75 +3678,20 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "document:primary_health_center",
-   "type": "DOCUMENT",
-   "name": "Primary health center",
+   "id": "service:it_ites_policy_incentive_claim",
+   "type": "SERVICE",
+   "name": "IT/ITeS Policy Incentive Claim",
+   "officialName": "IT/ITeS Policy Incentive Claim",
+   "description": "The page provides documents and guidelines for processing incentive claims under the Gujarat IT/ITeS Policy (2022-27).",
    "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
    "sources": [
     {
-     "sourceId": "src:5df9af57e1ce",
-     "evidence": "પ્રાથમિક આરોગ્ય કેન્દ્ર *",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:last_menstrual_date",
-   "type": "DOCUMENT",
-   "name": "Last menstrual date",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:5df9af57e1ce",
-     "evidence": "છેલ્લી માસિકની તારીખ *",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:estimated_delivery_date",
-   "type": "DOCUMENT",
-   "name": "Estimated delivery date",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:5df9af57e1ce",
-     "evidence": "સુવાવડની સંભવિત તારીખ *",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:number_of_live_children",
-   "type": "DOCUMENT",
-   "name": "Number of live children",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:5df9af57e1ce",
-     "evidence": "જીવિત બાળક ની સંખ્યા *",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:twins",
-   "type": "DOCUMENT",
-   "name": "Twins",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:5df9af57e1ce",
-     "evidence": "જોડિયા બાળકો *",
-     "confidence": 0.95,
+     "sourceId": "src:59679f983b78",
+     "evidence": "4 | User guidelines of required documents for incentive claim processing under IT/ITeS Policy (2022-27) (PDF - 253.52 KB) | - | View Document |",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -4386,34 +3716,34 @@
      "evidence": "લાભાર્થીનું નામ *",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:loan_proof",
-   "type": "DOCUMENT",
-   "name": "Loan proof",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
+    },
     {
-     "sourceId": "src:75f71600a32a",
-     "evidence": "બેંક પાસેથી લીધેલ લોનના પુરાવા રજૂ કરવાના રહેશે.",
+     "sourceId": "src:5df9af57e1ce",
+     "evidence": "પ્રાથમિક આરોગ્ય કેન્દ્ર *",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:professional_registration",
-   "type": "DOCUMENT",
-   "name": "Professional registration",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
+    },
     {
-     "sourceId": "src:75f71600a32a",
-     "evidence": "વ્યવસાય માટે નિયમોનુસાર જરૂરી રજીસ્ટ્રેશન હોવું જોઈશે.",
+     "sourceId": "src:5df9af57e1ce",
+     "evidence": "છેલ્લી માસિકની તારીખ *",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:5df9af57e1ce",
+     "evidence": "સુવાવડની સંભવિત તારીખ *",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:5df9af57e1ce",
+     "evidence": "જીવિત બાળક ની સંખ્યા *",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:5df9af57e1ce",
+     "evidence": "જોડિયા બાળકો *",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -4454,23 +3784,20 @@
     },
     {
      "sourceId": "src:75f71600a32a",
+     "evidence": "બેંક પાસેથી લીધેલ લોનના પુરાવા રજૂ કરવાના રહેશે.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:75f71600a32a",
      "evidence": "આવક મર્યાદા : કુટુંબની વાર્ષિક આવક મર્યાદા રૂા.૬.૦૦ લાખ કે તેથી ઓછી.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:medical_board",
-   "type": "DOCUMENT",
-   "name": "Medical board",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
+    },
     {
-     "sourceId": "src:adbbef8d8fde",
-     "evidence": "શારીરીક રીતે ૪૦% થી ૭૦% તેમજ૭૦% થી વધુ ડિસેબીલીટી માટે સિવિલ સર્જન/ મેડિકલ બોર્ડનુ ડોકટરી પ્રમાણ પત્ર રજુ કર્યેથી શ્રમયોગીને અનુક્રમે રૂ.૨૫,૦૦૦/- અને રૂ. ૫૦,૦૦૦/-આર્થિક સહાય",
-     "confidence": 0.9,
+     "sourceId": "src:75f71600a32a",
+     "evidence": "વ્યવસાય માટે નિયમોનુસાર જરૂરી રજીસ્ટ્રેશન હોવું જોઈશે.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -4494,6 +3821,12 @@
     {
      "sourceId": "src:adbbef8d8fde",
      "evidence": "સંસ્થાઓના શ્રમયોગીઓને તેમના કાર્ય ના સમય દરમ્યાન કાર્ય સ્થળ ઉપર દુર્ઘટના થાય અને તેના કારણે અપંગ થાય તેવા કિસ્સાઓમાં આર્થિક સહાય",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:adbbef8d8fde",
+     "evidence": "શારીરીક રીતે ૪૦% થી ૭૦% તેમજ૭૦% થી વધુ ડિસેબીલીટી માટે સિવિલ સર્જન/ મેડિકલ બોર્ડનુ ડોકટરી પ્રમાણ પત્ર રજુ કર્યેથી શ્રમયોગીને અનુક્રમે રૂ.૨૫,૦૦૦/- અને રૂ. ૫૦,૦૦૦/-આર્થિક સહાય",
      "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     },
@@ -4535,21 +3868,6 @@
      "verificationStatus": "EXTRACTED"
     }
    ]
-  },
-  {
-   "id": "document:brief_introduction_document",
-   "type": "DOCUMENT",
-   "name": "Brief introduction document",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:dffa8870fd1e",
-     "evidence": "5 | PM KUSUM Component-B Brief Introduction | view |",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
   },
   {
    "id": "document:government_resolution_19_6_20",
@@ -4612,14 +3930,78 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "document:download",
-   "type": "DOCUMENT",
-   "name": "Download",
+   "id": "service:pm_kusum_component_b",
+   "type": "SERVICE",
+   "name": "PM KUSUM Component B",
+   "officialName": "PM KUSUM Component B",
+   "description": "The page provides downloadable documents related to the PM KUSUM Component B scheme, including a brief introduction, government resolution, and amendments.",
    "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:dffa8870fd1e",
+     "evidence": "5 | PM KUSUM Component-B Brief Introduction | view |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:guj_epd_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "guj-epd.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://guj-epd.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:dffa8870fd1e",
+     "evidence": "5 | PM KUSUM Component-B Brief Introduction | view |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:gujarat_rural_workers_welfare_board_schemes",
+   "type": "SERVICE",
+   "name": "Gujarat Rural Workers Welfare Board schemes",
+   "officialName": "Gujarat Rural Workers Welfare Board schemes",
+   "aliases": [
+    "ગુજરાત ગ્રામ કામદાર કલ્યાણ બોર્ડ"
+   ],
+   "description": "The page provides downloadable application forms for various schemes including Silikosisa Disease, Antyeshti, and insurance schemes for rural workers.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
    "sources": [
     {
      "sourceId": "src:7a2aa53c41f3",
      "evidence": "Silikosisa Disease Application Form ડાઉનલોડ પીડીએફ",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:7a2aa53c41f3",
+     "evidence": "અંત્યેષ્ઠિ યોજના માટેનું અરજી ફોર્મ ડાઉનલોડ પીડીએફ",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:7a2aa53c41f3",
+     "evidence": "વિમા યોજના અરજી પત્રક ડાઉનલોડ પીડીએફ",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:7a2aa53c41f3",
+     "evidence": "સિલિકોસીસ પિડિતને આર્થિક સહાય યોજના અંગેનું યોજના ફોર્મ ડાઉનલોડ પીડીએફ",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -4712,10 +4094,46 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "document:document_access",
-   "type": "DOCUMENT",
-   "name": "Document access",
+   "id": "service:rashtriya_krishi_vikas_yojana",
+   "type": "SERVICE",
+   "name": "Rashtriya Krishi Vikas Yojana",
+   "officialName": "Rashtriya Krishi Vikas Yojana",
+   "description": "The page provides access to guidelines and forms related to the Rashtriya Krishi Vikas Yojana.",
    "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:1168cc4ae193",
+     "evidence": "PM-RKVY Guidelines.pdf | 10.4 MB",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:1168cc4ae193",
+     "evidence": "PPPAVCD Guideline.pdf | 3.9 MB",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:1168cc4ae193",
+     "evidence": "Project Proposal and Checklist Formate.pdf | 493 KB",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:dag_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "dag.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://dag.gujarat.gov.in/"
+   },
    "sources": [
     {
      "sourceId": "src:1168cc4ae193",
@@ -4723,8 +4141,7 @@
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
-   ],
-   "lastVerifiedAt": "2026-08-23"
+   ]
   },
   {
    "id": "service:interest_subsidy_on_loans",
@@ -4874,22 +4291,6 @@
    ]
   },
   {
-   "id": "e:service_financial_assistance_for_self_employed_labours__requires__document_labour_welfare_officer_part_b",
-   "from": "service:financial_assistance_for_self_employed_labours",
-   "to": "document:labour_welfare_officer_part_b",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Primary verification by Labour Welfare Officer/Assistant Labour Welfare Officer as per Part-B of application is required.",
-   "sources": [
-    {
-     "sourceId": "src:a7ce7dd84685",
-     "evidence": "· અરજીના ભાગ-(બ) મુજબનું મ.સ.શ્ર.અ/સ.શ્ર.અ.શ્રીની પ્રાથમિક ચકાસણી.",
-     "confidence": 0.85,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_financial_assistance_for_self_employed_labours__apply_at__portal_grwwb_gujarat_gov_in",
    "from": "service:financial_assistance_for_self_employed_labours",
    "to": "portal:grwwb_gujarat_gov_in",
@@ -4922,182 +4323,6 @@
    ]
   },
   {
-   "id": "e:service_chief_minister_matru_shakti_yojana__requires__document_aadhaar_number",
-   "from": "service:chief_minister_matru_shakti_yojana",
-   "to": "document:aadhaar_number",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The beneficiary must provide an Aadhaar number.",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "આધાર કાર્ડ નંબર (લાભાર્થી) *",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_chief_minister_matru_shakti_yojana__requires__document_english_name_per_aadhaar",
-   "from": "service:chief_minister_matru_shakti_yojana",
-   "to": "document:english_name_per_aadhaar",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The beneficiary must provide their name in English as per Aadhaar.",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "લાભાર્થીનું નામ (અંગ્રેજીમા આઘાર મુજબ) *",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_chief_minister_matru_shakti_yojana__requires__document_aadhaar_linked_mobile_number",
-   "from": "service:chief_minister_matru_shakti_yojana",
-   "to": "document:aadhaar_linked_mobile_number",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The beneficiary must provide their mobile number with Aadhaar.",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "આધાર વાળો મોબાઈલ નંબર. *",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_chief_minister_matru_shakti_yojana__requires__document_village_or_city_name",
-   "from": "service:chief_minister_matru_shakti_yojana",
-   "to": "document:village_or_city_name",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The beneficiary must provide their village or city name.",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "ગામ * ( ગામ/ શહેર )",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_chief_minister_matru_shakti_yojana__requires__document_anganwadi_name",
-   "from": "service:chief_minister_matru_shakti_yojana",
-   "to": "document:anganwadi_name",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The beneficiary must provide the name of the Anganwadi.",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "આંગણવાડીનું નામ *",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_chief_minister_matru_shakti_yojana__requires__document_worker_or_helper_name",
-   "from": "service:chief_minister_matru_shakti_yojana",
-   "to": "document:worker_or_helper_name",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The beneficiary must provide the name of the worker or helper.",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "કાર્યકર/તેડાગર નું નામ *",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_chief_minister_matru_shakti_yojana__requires__document_district_and_taluka",
-   "from": "service:chief_minister_matru_shakti_yojana",
-   "to": "document:district_and_taluka",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The beneficiary must provide their district and taluka.",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "જિલ્લો * તાલુકો *",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_chief_minister_matru_shakti_yojana__requires__document_name_per_ration_card",
-   "from": "service:chief_minister_matru_shakti_yojana",
-   "to": "document:name_per_ration_card",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The beneficiary must provide the name as per the ration card.",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "રેશનકાર્ડ પ્રમાણે નામ",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_chief_minister_matru_shakti_yojana__requires__document_ration_card_member_id",
-   "from": "service:chief_minister_matru_shakti_yojana",
-   "to": "document:ration_card_member_id",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The beneficiary must provide the ration card member ID.",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "રેશન કાર્ડ મેમ્બર આઈ.ડી.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_chief_minister_matru_shakti_yojana__requires__document_family_card_id",
-   "from": "service:chief_minister_matru_shakti_yojana",
-   "to": "document:family_card_id",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The beneficiary must provide the family card ID.",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "ફેમિલી કાર્ડ આઈ.ડી.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_chief_minister_matru_shakti_yojana__requires__document_alternative_mobile_number",
-   "from": "service:chief_minister_matru_shakti_yojana",
-   "to": "document:alternative_mobile_number",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The beneficiary must provide an alternative mobile number.",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "અન્ય કોઇ મોબાઇલ નંબર.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_chief_minister_matru_shakti_yojana__requires__document_ration_card",
    "from": "service:chief_minister_matru_shakti_yojana",
    "to": "document:ration_card",
@@ -5109,70 +4334,6 @@
      "sourceId": "src:d0c1afe6687f",
      "evidence": "મુખ્યમંત્રી માતૃશક્તિ યોજના માટે રાશનકાર્ડ હોવુ મરજીયાત છે. હવે ફક્ત આધારકાર્ડ તથા ટેકો નોંધણી દ્વારા આ યોજનાનો લાભ મેળવી શકાય છે.",
      "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_chief_minister_matru_shakti_yojana__requires__document_name_in_english",
-   "from": "service:chief_minister_matru_shakti_yojana",
-   "to": "document:name_in_english",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must provide their name in English as per Aadhaar.",
-   "sources": [
-    {
-     "sourceId": "src:d0c1afe6687f",
-     "evidence": "લાભાર્થીનું નામ (અંગ્રેજીમા આઘાર મુજબ) *",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_chief_minister_matru_shakti_yojana__requires__document_aadhaar_mobile_number",
-   "from": "service:chief_minister_matru_shakti_yojana",
-   "to": "document:aadhaar_mobile_number",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must provide their mobile number with Aadhaar.",
-   "sources": [
-    {
-     "sourceId": "src:d0c1afe6687f",
-     "evidence": "આધાર વાળો મોબાઈલ નંબર. *",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_chief_minister_matru_shakti_yojana__requires__document_village_or_city",
-   "from": "service:chief_minister_matru_shakti_yojana",
-   "to": "document:village_or_city",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must provide their village or city.",
-   "sources": [
-    {
-     "sourceId": "src:d0c1afe6687f",
-     "evidence": "ગામ * ( ગામ/ શહેર )",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_chief_minister_matru_shakti_yojana__requires__document_registration_number",
-   "from": "service:chief_minister_matru_shakti_yojana",
-   "to": "document:registration_number",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The user must enter a registration number to modify their registration.",
-   "sources": [
-    {
-     "sourceId": "src:04364ee1275e",
-     "evidence": "નોંધણી સુધારો\nનોંધણી નંબર",
-     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -5210,214 +4371,6 @@
    ]
   },
   {
-   "id": "e:service_energy_saving_equipments__requires__document_district_selection",
-   "from": "service:energy_saving_equipments",
-   "to": "document:district_selection",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must select a district from the provided list.",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "જિલ્લો : | select | -- પસંદ કરો -- Ahmedabad Amreli Anand Aravalli Banaskantha Bharuch Bhavnagar Botad Chhota Udepur Dahod Dang Deesa Devbhumi Dwarka Gandhinagar Gir Somnath Jamnagar Junagadh Kheda Kutch Mahisagar Mehsana Morbi Nakhtrana Narmada Navsari Panchmahal Patan Porbandar Rajkot Sabarkantha Surat Surendranagar Tapi Vadodara Valsad",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_energy_saving_equipments__requires__document_taluka_selection",
-   "from": "service:energy_saving_equipments",
-   "to": "document:taluka_selection",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must select a taluka from the provided list.",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "તાલુકો : | select | -- પસંદ કરો --",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_energy_saving_equipments__requires__document_range_selection",
-   "from": "service:energy_saving_equipments",
-   "to": "document:range_selection",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must select a range from the provided list.",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "રેન્જ : | select | -- પસંદ કરો --",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_energy_saving_equipments__requires__document_address_district_selection",
-   "from": "service:energy_saving_equipments",
-   "to": "document:address_district_selection",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must select a district for their address from the provided list.",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "જિલ્લો : | select | -- પસંદ કરો -- Ahmedabad Amreli Anand Aravalli Banaskantha Bharuch Bhavnagar Botad Chhota Udepur Dahod Dang Deesa Devbhumi Dwarka Gandhinagar Gir Somnath Jamnagar Junagadh Kheda Kutch Mahisagar Mehsana Morbi Nakhtrana Narmada Navsari Panchmahal Patan Porbandar Rajkot Sabarkantha Surat Surendranagar Tapi Vadodara Valsad",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_energy_saving_equipments__requires__document_address_taluka_selection",
-   "from": "service:energy_saving_equipments",
-   "to": "document:address_taluka_selection",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must select a taluka for their address from the provided list.",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "તાલુકો : | select | -- પસંદ કરો --",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_energy_saving_equipments__requires__document_address_city_village_selection",
-   "from": "service:energy_saving_equipments",
-   "to": "document:address_city_village_selection",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must select a city or village for their address from the provided list.",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "શહેર / ગામ : | select | -- પસંદ કરો --",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_energy_saving_equipments__requires__document_gender_selection",
-   "from": "service:energy_saving_equipments",
-   "to": "document:gender_selection",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must select their gender from the provided options.",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "જાતિ : પુરુષ | સ્ત્રી |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_energy_saving_equipments__requires__document_caste_selection",
-   "from": "service:energy_saving_equipments",
-   "to": "document:caste_selection",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must select their caste from the provided options.",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "જાત : અ.જા. | અ.જ.જા. | સા.શૈ.પ. | અન્ય | |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_energy_saving_equipments__requires__document_poverty_line_status",
-   "from": "service:energy_saving_equipments",
-   "to": "document:poverty_line_status",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must indicate whether they are below the poverty line.",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "ગરીબી રેખા નીચે આવે છે કે કેમ ? હા | ના |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_energy_saving_equipments__requires__document_contact_number",
-   "from": "service:energy_saving_equipments",
-   "to": "document:contact_number",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must provide a mobile or landline number.",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "મોબાઈલ/લેન્ડ-લાઈન નંબર:",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_energy_saving_equipments__requires__document_energy_saving_equipment_selection",
-   "from": "service:energy_saving_equipments",
-   "to": "document:energy_saving_equipment_selection",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must select the type of energy-saving equipment they are requesting from the provided list.",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "ઉર્જા બચતનું સાધન : | select | -- પસંદ કરો -- LPG સગડી સ્ટવ અને પ્રેસર કુકર બાયોગેસ સોલર કુકર",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_energy_saving_equipments__requires__document_number_of_devices_requested",
-   "from": "service:energy_saving_equipments",
-   "to": "document:number_of_devices_requested",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must specify the number of requested energy-saving devices.",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "* માંગણી કરેલ સાધનની સંખ્યા :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_energy_saving_equipments__requires__document_signature_and_stamp",
-   "from": "service:energy_saving_equipments",
-   "to": "document:signature_and_stamp",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The application must be signed and stamped by the applicant on the letterhead of a local self-government or other organization.",
-   "sources": [
-    {
-     "sourceId": "src:084d61b22eab",
-     "evidence": "સ્થાનીય સ્વરાજની તથા અન્ય સંસ્થાઓએ તેમના લેટર પેડ પર સહી અને સિક્કા સહિત અરજી કરવાની રહેશે.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_energy_saving_equipments__apply_at__portal_forestservices_gujarat_gov_in",
    "from": "service:energy_saving_equipments",
    "to": "portal:forestservices_gujarat_gov_in",
@@ -5427,7 +4380,7 @@
    "sources": [
     {
      "sourceId": "src:084d61b22eab",
-     "evidence": "અરજદારનું નામ :",
+     "evidence": "જિલ્લો : | select | -- પસંદ કરો -- Ahmedabad Amreli Anand Aravalli Banaskantha Bharuch Bhavnagar Botad Chhota Udepur Dahod Dang Deesa Devbhumi Dwarka Gandhinagar Gir Somnath Jamnagar Junagadh Kheda Kutch Mahisagar Mehsana Morbi Nakhtrana Narmada Navsari Panchmahal Patan Porbandar Rajkot Sabarkantha Surat Surendranagar Tapi Vadodara Valsad",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -5450,134 +4403,6 @@
    ]
   },
   {
-   "id": "e:service_compensation_for_livestock_death__requires__document_name_and_title",
-   "from": "service:compensation_for_livestock_death",
-   "to": "document:name_and_title",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must provide their name and title (Shri, Srimati, Kumari).",
-   "sources": [
-    {
-     "sourceId": "src:f696fb59a3e5",
-     "evidence": "અરજદારનું ઉપનામ :\nશ્રી | શ્રીમતી | કુમારી |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_compensation_for_livestock_death__requires__document_city_or_village",
-   "from": "service:compensation_for_livestock_death",
-   "to": "document:city_or_village",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must select their city or village from a dropdown list.",
-   "sources": [
-    {
-     "sourceId": "src:f696fb59a3e5",
-     "evidence": "શહેર / ગામ :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_compensation_for_livestock_death__requires__document_landline_or_other_number",
-   "from": "service:compensation_for_livestock_death",
-   "to": "document:landline_or_other_number",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must provide their landline or other phone number.",
-   "sources": [
-    {
-     "sourceId": "src:f696fb59a3e5",
-     "evidence": "લેન્ડ-લાઈન/અન્ય નં :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_compensation_for_livestock_death__requires__document_fax_number",
-   "from": "service:compensation_for_livestock_death",
-   "to": "document:fax_number",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must provide their fax number.",
-   "sources": [
-    {
-     "sourceId": "src:f696fb59a3e5",
-     "evidence": "ફેક્સ નંબર :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_compensation_for_livestock_death__requires__document_identity_proof",
-   "from": "service:compensation_for_livestock_death",
-   "to": "document:identity_proof",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must select an identity proof document from a dropdown list.",
-   "sources": [
-    {
-     "sourceId": "src:f696fb59a3e5",
-     "evidence": "ઓળખનો પુરાવો :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_compensation_for_livestock_death__requires__document_identity_proof_number",
-   "from": "service:compensation_for_livestock_death",
-   "to": "document:identity_proof_number",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must provide the number of the selected identity proof document.",
-   "sources": [
-    {
-     "sourceId": "src:f696fb59a3e5",
-     "evidence": "કાર્ડ નંબર :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_compensation_for_livestock_death__requires__document_date",
-   "from": "service:compensation_for_livestock_death",
-   "to": "document:date",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must provide the date of the incident.",
-   "sources": [
-    {
-     "sourceId": "src:f696fb59a3e5",
-     "evidence": "બનાવની તારીખ :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_compensation_for_livestock_death__requires__document_location",
-   "from": "service:compensation_for_livestock_death",
-   "to": "document:location",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must provide the location of the incident, including the name of the forest or village, survey number, and other details.",
-   "sources": [
-    {
-     "sourceId": "src:f696fb59a3e5",
-     "evidence": "બનાવનું સ્થળ :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_compensation_for_livestock_death__apply_at__portal_forestservices_gujarat_gov_in",
    "from": "service:compensation_for_livestock_death",
    "to": "portal:forestservices_gujarat_gov_in",
@@ -5587,7 +4412,7 @@
    "sources": [
     {
      "sourceId": "src:f696fb59a3e5",
-     "evidence": "અરજદારનું સરનામું :",
+     "evidence": "અરજદારનું ઉપનામ :\nશ્રી | શ્રીમતી | કુમારી |",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -5604,54 +4429,6 @@
     {
      "sourceId": "src:a825cf5ab97d",
      "evidence": "This scheme shall be applicable to those companies, which have been financed under GS Loan, ERS loan, FS loan, Seed Capital and TS/NES / Land & Shade, Sales Tax loan cases for Textile mills/ company etc.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_self_employment_scheme__requires__document_valid_license",
-   "from": "service:self_employment_scheme",
-   "to": "document:valid_license",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must have a valid license for the vehicle loan scheme.",
-   "sources": [
-    {
-     "sourceId": "src:98884ff5f944",
-     "evidence": "વાહન માટેની લોનની યોજનામાં અરજદાર પાસે પાકું લાયસન્સ હોવું જોઇએ.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_self_employment_scheme__requires__document_guarantee_bond",
-   "from": "service:self_employment_scheme",
-   "to": "document:guarantee_bond",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "If the loan amount is less than or equal to 7.50 lakh rupees, the applicant must submit a guarantee bond for two reliable guarantors.",
-   "sources": [
-    {
-     "sourceId": "src:98884ff5f944",
-     "evidence": "લોનની કુલ રકમ રૂ. ૭.૫૦ લાખ કે તેથી ઓછી હોય તો તેટલી રકમ ભરી શકે તેવા બે સધ્ધર જામીનનું જામીન ખત રજુ કરવાનું રહેશે.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_self_employment_scheme__requires__document_blank_cheques",
-   "from": "service:self_employment_scheme",
-   "to": "document:blank_cheques",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The loan applicant must submit five blank cheques in favor of the corporation.",
-   "sources": [
-    {
-     "sourceId": "src:98884ff5f944",
-     "evidence": "દરેક લોન લેનારે નિગમની તરફેણમાં સહી કરેલા પાંચ બ્લેન્ક ચેક આપવાના રહેશે.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -5701,22 +4478,6 @@
      "sourceId": "src:98884ff5f944",
      "evidence": "અરજદાર ગુજરાતના વતની હોવા જોઇએ અને બિન અનામત વર્ગના હોવા જોઇએ.",
      "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_chief_minister_s_matru_shakti_yojana__requires__document_personal_details",
-   "from": "service:chief_minister_s_matru_shakti_yojana",
-   "to": "document:personal_details",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "During registration, the form requires Name, DOB, Address, Mobile number, Aadhar (if required), and local Anganwadi details.",
-   "sources": [
-    {
-     "sourceId": "src:79fdc662dbe8",
-     "evidence": "Register: Click the Register or New Application link and complete the form with Name, DOB, Address, Mobile number, Aadhar (if required), and local Anganwadi details.",
-     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -5978,22 +4739,6 @@
    ]
   },
   {
-   "id": "e:service_small_savings__requires__document_educational_qualification",
-   "from": "service:small_savings",
-   "to": "document:educational_qualification",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A certified copy of the educational qualification is required.",
-   "sources": [
-    {
-     "sourceId": "src:91a620ee733a",
-     "evidence": "શૈક્ષણિક લાયકાતની પ્રમાણિત નકલ",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_small_savings__requires__document_identity_documents",
    "from": "service:small_savings",
    "to": "document:identity_documents",
@@ -6196,22 +4941,6 @@
     {
      "sourceId": "src:d22ee1190fd8",
      "evidence": "સંબધિત અભ્યાસક્રમમાં પ્રવેશ મેળવ્યા અંગેનો પુરાવો રજુ કરવાનો રહેશે.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_education_scheme__requires__document_blank_cheques",
-   "from": "service:education_scheme",
-   "to": "document:blank_cheques",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Applicants must submit five blank signed cheques to the commission.",
-   "sources": [
-    {
-     "sourceId": "src:d22ee1190fd8",
-     "evidence": "દરેક લોન લેનારે નિગમની તરફેણમાં સહી કરેલા પાંચ બ્લેન્ક(BLANK) ચેક આપવાના રહેશે.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -6506,134 +5235,6 @@
    ]
   },
   {
-   "id": "e:service_shram_awards__requires__document_applicant_workman_details",
-   "from": "service:shram_awards",
-   "to": "document:applicant_workman_details",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The application form for the Shram Award requires the name and address of the applicant workman.",
-   "sources": [
-    {
-     "sourceId": "src:a09f7e259dcc",
-     "evidence": "2.\n|\nName & Address of applicant workman :- applying for State Shram Award\n(a) Present address\n(b) Permanent address",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_shram_awards__requires__document_workman_age_details",
-   "from": "service:shram_awards",
-   "to": "document:workman_age_details",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The application form for the Shram Award requires the age, birth date, and place of the workman.",
-   "sources": [
-    {
-     "sourceId": "src:a09f7e259dcc",
-     "evidence": "3.\n|\na) Age of Workmen b) Birth date & Place of Workmen",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_shram_awards__requires__document_work_duration_details",
-   "from": "service:shram_awards",
-   "to": "document:work_duration_details",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The application form for the Shram Award requires the duration of work details.",
-   "sources": [
-    {
-     "sourceId": "src:a09f7e259dcc",
-     "evidence": "4.\n|\nDetails information of duration of work",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_shram_awards__requires__document_employment_type",
-   "from": "service:shram_awards",
-   "to": "document:employment_type",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The application form for the Shram Award requires the type of employment (permanent or temporary).",
-   "sources": [
-    {
-     "sourceId": "src:a09f7e259dcc",
-     "evidence": "5.\n|\nType : Permanent or temporary",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_shram_awards__requires__document_workman_qualifications",
-   "from": "service:shram_awards",
-   "to": "document:workman_qualifications",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The application form for the Shram Award requires the educational and technical qualifications of the workman.",
-   "sources": [
-    {
-     "sourceId": "src:a09f7e259dcc",
-     "evidence": "6.\n|\nQualification\n(a) Educational\n(b) Technical",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_shram_awards__requires__document_workman_relations",
-   "from": "service:shram_awards",
-   "to": "document:workman_relations",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The application form for the Shram Award requires details of the workman's relations with co-workers.",
-   "sources": [
-    {
-     "sourceId": "src:a09f7e259dcc",
-     "evidence": "7.\n|\nRelations of workman with his Co-workmen",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_shram_awards__requires__document_distinguished_work_details",
-   "from": "service:shram_awards",
-   "to": "document:distinguished_work_details",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The application form for the Shram Award requires detailed information about the distinguished work done by the workman.",
-   "sources": [
-    {
-     "sourceId": "src:a09f7e259dcc",
-     "evidence": "8.\n|\nDetail information of distinguished work. Distinguished work should be for the year _______________ social or other work done outside factory should not be included in the distinguished work.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_shram_awards__requires__document_recognition_details",
-   "from": "service:shram_awards",
-   "to": "document:recognition_details",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The application form for the Shram Award requires details of any certificate or letter of recognition received from the employer.",
-   "sources": [
-    {
-     "sourceId": "src:a09f7e259dcc",
-     "evidence": "9.\n|\nDetails of any certificate or letter of recognition received from employer of the factory.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_shram_awards__apply_at__portal_dish_gujarat_gov_in",
    "from": "service:shram_awards",
    "to": "portal:dish_gujarat_gov_in",
@@ -6643,7 +5244,7 @@
    "sources": [
     {
      "sourceId": "src:a09f7e259dcc",
-     "evidence": "1) Indicate accurate statistics of increase in productivity or production e.g. approximate value due to increase in production of 50 Ton due to distinguished work done.",
+     "evidence": "2.\n|\nName & Address of applicant workman :- applying for State Shram Award\n(a) Present address\n(b) Permanent address",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -6676,22 +5277,6 @@
     {
      "sourceId": "src:512e0858f8e9",
      "evidence": "માનવ કલ્યાણ યોજના વર્ષ ૨૦૨૫-૨૬ માં ૧૦ ટ્રેડ માટે ઇ-કુટીર પોર્ટલ પર તા૦૮/૦૪/૨૦૨૫ થી તા. ૨૨/૦૫/૨૦૨૫ સુધી અરજીઓ સ્વીકારવામાં આવશે.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_incentive_schemes__requires__document_previous_three_years_data",
-   "from": "service:incentive_schemes",
-   "to": "document:previous_three_years_data",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Each application for the Scheme for Awards to MSMEs and Export Awards must include data from the previous three years.",
-   "sources": [
-    {
-     "sourceId": "src:400e2076e716",
-     "evidence": "Each Application should include previous three Years data with the Application.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -6746,22 +5331,6 @@
    ]
   },
   {
-   "id": "e:service_tuition_fees_for_enhancement_of_skill__requires__document_training_program",
-   "from": "service:tuition_fees_for_enhancement_of_skill",
-   "to": "document:training_program",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Application forms for the training program can be downloaded from the website.",
-   "sources": [
-    {
-     "sourceId": "src:bfd20f36eb49",
-     "evidence": "Download Application Form [English] [1141 KB]",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_tuition_fees_for_enhancement_of_skill__apply_at__portal_ced_gujarat_gov_in",
    "from": "service:tuition_fees_for_enhancement_of_skill",
    "to": "portal:ced_gujarat_gov_in",
@@ -6772,70 +5341,6 @@
     {
      "sourceId": "src:bfd20f36eb49",
      "evidence": "Financial assistance shall be given for per training programme per candidate as under: Rs. Up to 15,000/- for 121 hrs & above training duration",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_gujarat_housing_and_other_construction_workers_welfa__requires__document_red_book_number",
-   "from": "service:gujarat_housing_and_other_construction_workers_welfare_board",
-   "to": "document:red_book_number",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A Red Book Number is required for registration.",
-   "sources": [
-    {
-     "sourceId": "src:519cf6979a7f",
-     "evidence": "1. Red Book Number * :-",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_gujarat_housing_and_other_construction_workers_welfa__requires__document_beneficiary_name",
-   "from": "service:gujarat_housing_and_other_construction_workers_welfare_board",
-   "to": "document:beneficiary_name",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A beneficiary's name is required for registration.",
-   "sources": [
-    {
-     "sourceId": "src:519cf6979a7f",
-     "evidence": "3. Beneficiary Name * :-",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_gujarat_housing_and_other_construction_workers_welfa__requires__document_aadhaar_card_number",
-   "from": "service:gujarat_housing_and_other_construction_workers_welfare_board",
-   "to": "document:aadhaar_card_number",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "An Aadhaar card number is required for registration.",
-   "sources": [
-    {
-     "sourceId": "src:519cf6979a7f",
-     "evidence": "5. Adharcard Number * :-",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_gujarat_housing_and_other_construction_workers_welfa__requires__document_bank_details",
-   "from": "service:gujarat_housing_and_other_construction_workers_welfare_board",
-   "to": "document:bank_details",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Bank details are required for registration.",
-   "sources": [
-    {
-     "sourceId": "src:519cf6979a7f",
-     "evidence": "6. Bank Details * :-",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -6938,81 +5443,97 @@
    ]
   },
   {
-   "id": "e:service_maternity_benefit_scheme__requires__document_primary_health_center",
-   "from": "service:maternity_benefit_scheme",
-   "to": "document:primary_health_center",
+   "id": "e:service_it_ites_policy_incentive_claim__requires__document_general_declaration_and_undertaking",
+   "from": "service:it_ites_policy_incentive_claim",
+   "to": "document:general_declaration_and_undertaking",
    "type": "REQUIRES",
    "verificationStatus": "EXTRACTED",
-   "note": "The beneficiary must provide their health center information.",
+   "note": "A general declaration and undertaking (affidavit template) is available for use under the IT/ITeS Policy (2022-27).",
    "sources": [
     {
-     "sourceId": "src:5df9af57e1ce",
-     "evidence": "પ્રાથમિક આરોગ્ય કેન્દ્ર *",
-     "confidence": 0.95,
+     "sourceId": "src:59679f983b78",
+     "evidence": "5 | General Declaration and Undertaking (Affidavit Template) (PDF - 52.9 KB) | - | View Document |",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
   },
   {
-   "id": "e:service_maternity_benefit_scheme__requires__document_last_menstrual_date",
-   "from": "service:maternity_benefit_scheme",
-   "to": "document:last_menstrual_date",
+   "id": "e:service_it_ites_policy_incentive_claim__requires__document_it_ites_policy_resolution",
+   "from": "service:it_ites_policy_incentive_claim",
+   "to": "document:it_ites_policy_resolution",
    "type": "REQUIRES",
    "verificationStatus": "EXTRACTED",
-   "note": "The beneficiary must provide the date of their last menstrual cycle.",
+   "note": "The IT/ITeS Policy (2022-27) resolution is available as a document.",
    "sources": [
     {
-     "sourceId": "src:5df9af57e1ce",
-     "evidence": "છેલ્લી માસિકની તારીખ *",
-     "confidence": 0.95,
+     "sourceId": "src:59679f983b78",
+     "evidence": "1 | IT/ITeS Policy (2022-27) - Resolution (PDF - 983.46 KB) | 07-02-2022 | View Document |",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
   },
   {
-   "id": "e:service_maternity_benefit_scheme__requires__document_estimated_delivery_date",
-   "from": "service:maternity_benefit_scheme",
-   "to": "document:estimated_delivery_date",
+   "id": "e:service_it_ites_policy_incentive_claim__requires__document_implementation_guidelines",
+   "from": "service:it_ites_policy_incentive_claim",
+   "to": "document:implementation_guidelines",
    "type": "REQUIRES",
    "verificationStatus": "EXTRACTED",
-   "note": "The beneficiary must provide the estimated date of delivery.",
+   "note": "The implementation guidelines for the Gujarat IT/ITeS Policy (2022-27) are available as a document.",
    "sources": [
     {
-     "sourceId": "src:5df9af57e1ce",
-     "evidence": "સુવાવડની સંભવિત તારીખ *",
-     "confidence": 0.95,
+     "sourceId": "src:59679f983b78",
+     "evidence": "2 | Implementation Guidelines for Gujarat IT/ITeS Policy (2022–27) - Resolution (PDF - 663 KB) | 06-07-2022 | View Document |",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
   },
   {
-   "id": "e:service_maternity_benefit_scheme__requires__document_number_of_live_children",
-   "from": "service:maternity_benefit_scheme",
-   "to": "document:number_of_live_children",
+   "id": "e:service_it_ites_policy_incentive_claim__requires__document_amendment_to_implementation_guidelines",
+   "from": "service:it_ites_policy_incentive_claim",
+   "to": "document:amendment_to_implementation_guidelines",
    "type": "REQUIRES",
    "verificationStatus": "EXTRACTED",
-   "note": "The beneficiary must provide the number of live children they have.",
+   "note": "An amendment in the implementation guidelines for the Gujarat IT/ITeS Policy (2022-27) is available as a document.",
    "sources": [
     {
-     "sourceId": "src:5df9af57e1ce",
-     "evidence": "જીવિત બાળક ની સંખ્યા *",
-     "confidence": 0.95,
+     "sourceId": "src:59679f983b78",
+     "evidence": "3 | Amendment in Implementation Guidelines for Gujarat IT/ITeS Policy (2022-27) - Resolution (PDF - 74.5 KB) | 13-08-2024 | View Document |",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
   },
   {
-   "id": "e:service_maternity_benefit_scheme__requires__document_twins",
-   "from": "service:maternity_benefit_scheme",
-   "to": "document:twins",
+   "id": "e:service_it_ites_policy_incentive_claim__requires__document_modification_and_addendum",
+   "from": "service:it_ites_policy_incentive_claim",
+   "to": "document:modification_and_addendum",
    "type": "REQUIRES",
    "verificationStatus": "EXTRACTED",
-   "note": "The beneficiary must indicate if they have twins.",
+   "note": "A modification and addendum to the Gujarat IT/ITeS Policy (2022-27) is available as a document.",
    "sources": [
     {
-     "sourceId": "src:5df9af57e1ce",
-     "evidence": "જોડિયા બાળકો *",
-     "confidence": 0.95,
+     "sourceId": "src:59679f983b78",
+     "evidence": "6 | Modification and Addendum to the Gujarat IT/ITeS Policy (2022-27) - Resolution (PDF - 5.6 MB) | 11-10-2024 | View Document |",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_it_ites_policy_incentive_claim__apply_at__portal_dstpolicy_gujarat_gov_in",
+   "from": "service:it_ites_policy_incentive_claim",
+   "to": "portal:dstpolicy_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on dstpolicy.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:59679f983b78",
+     "evidence": "4 | User guidelines of required documents for incentive claim processing under IT/ITeS Policy (2022-27) (PDF - 253.52 KB) | - | View Document |",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -7028,38 +5549,6 @@
     {
      "sourceId": "src:5df9af57e1ce",
      "evidence": "લાભાર્થીનું નામ *",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_interest_help_scheme_for_all__requires__document_loan_proof",
-   "from": "service:interest_help_scheme_for_all",
-   "to": "document:loan_proof",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Applicants must provide proof of a loan taken from a bank.",
-   "sources": [
-    {
-     "sourceId": "src:75f71600a32a",
-     "evidence": "બેંક પાસેથી લીધેલ લોનના પુરાવા રજૂ કરવાના રહેશે.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_interest_help_scheme_for_all__requires__document_professional_registration",
-   "from": "service:interest_help_scheme_for_all",
-   "to": "document:professional_registration",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must have the necessary registration for the profession.",
-   "sources": [
-    {
-     "sourceId": "src:75f71600a32a",
-     "evidence": "વ્યવસાય માટે નિયમોનુસાર જરૂરી રજીસ્ટ્રેશન હોવું જોઈશે.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -7082,22 +5571,6 @@
    ]
   },
   {
-   "id": "e:service_labour_accident_benefit_scheme__requires__document_medical_board",
-   "from": "service:labour_accident_benefit_scheme",
-   "to": "document:medical_board",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A medical certificate from a civil surgeon or medical board is required to prove disability percentage.",
-   "sources": [
-    {
-     "sourceId": "src:adbbef8d8fde",
-     "evidence": "શારીરીક રીતે ૪૦% થી ૭૦% તેમજ૭૦% થી વધુ ડિસેબીલીટી માટે સિવિલ સર્જન/ મેડિકલ બોર્ડનુ ડોકટરી પ્રમાણ પત્ર રજુ કર્યેથી શ્રમયોગીને અનુક્રમે રૂ.૨૫,૦૦૦/- અને રૂ. ૫૦,૦૦૦/-આર્થિક સહાય",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_labour_accident_benefit_scheme__apply_at__portal_glwb_gujarat_gov_in",
    "from": "service:labour_accident_benefit_scheme",
    "to": "portal:glwb_gujarat_gov_in",
@@ -7109,6 +5582,102 @@
      "sourceId": "src:adbbef8d8fde",
      "evidence": "સંસ્થાઓના શ્રમયોગીઓને તેમના કાર્ય ના સમય દરમ્યાન કાર્ય સ્થળ ઉપર દુર્ઘટના થાય અને તેના કારણે અપંગ થાય તેવા કિસ્સાઓમાં આર્થિક સહાય",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_pm_kusum_component_b__requires__document_government_resolution_19_6_20",
+   "from": "service:pm_kusum_component_b",
+   "to": "document:government_resolution_19_6_20",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The PM KUSUM Component B scheme has a government resolution dated 19-6-20 available for download.",
+   "sources": [
+    {
+     "sourceId": "src:dffa8870fd1e",
+     "evidence": "1 | State Govt GR for PM-KUSUM Component-B dt.19-6-20 | view |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_pm_kusum_component_b__requires__document_amendment_25_10_21",
+   "from": "service:pm_kusum_component_b",
+   "to": "document:amendment_25_10_21",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The PM KUSUM Component B scheme has an amendment dated 25-10-21 available for download.",
+   "sources": [
+    {
+     "sourceId": "src:dffa8870fd1e",
+     "evidence": "2 | Amendment Com-B dt.25-10-21 | view |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_pm_kusum_component_b__requires__document_amendment_16_11_21",
+   "from": "service:pm_kusum_component_b",
+   "to": "document:amendment_16_11_21",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The PM KUSUM Component B scheme has an amendment dated 16-11-21 available for download.",
+   "sources": [
+    {
+     "sourceId": "src:dffa8870fd1e",
+     "evidence": "3 | Amendment Com-B dt.16-11-21 | view |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_pm_kusum_component_b__requires__document_amendment_17_04_23",
+   "from": "service:pm_kusum_component_b",
+   "to": "document:amendment_17_04_23",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The PM KUSUM Component B scheme has an amendment dated 17-04-23 available for download.",
+   "sources": [
+    {
+     "sourceId": "src:dffa8870fd1e",
+     "evidence": "4 | Amendment Com-B dt.17-04-23 | view |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_pm_kusum_component_b__apply_at__portal_guj_epd_gujarat_gov_in",
+   "from": "service:pm_kusum_component_b",
+   "to": "portal:guj_epd_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on guj-epd.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:dffa8870fd1e",
+     "evidence": "5 | PM KUSUM Component-B Brief Introduction | view |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gujarat_rural_workers_welfare_board_schemes__apply_at__portal_grwwb_gujarat_gov_in",
+   "from": "service:gujarat_rural_workers_welfare_board_schemes",
+   "to": "portal:grwwb_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on grwwb.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:7a2aa53c41f3",
+     "evidence": "Silikosisa Disease Application Form ડાઉનલોડ પીડીએફ",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -7141,6 +5710,22 @@
      "sourceId": "src:e43e5c473c91",
      "evidence": "Employee contribution : 6 Rs Employer Contribution: 12 Rs. This is effective from December 2016.",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_rashtriya_krishi_vikas_yojana__apply_at__portal_dag_gujarat_gov_in",
+   "from": "service:rashtriya_krishi_vikas_yojana",
+   "to": "portal:dag_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on dag.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:1168cc4ae193",
+     "evidence": "PM-RKVY Guidelines.pdf | 10.4 MB",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]

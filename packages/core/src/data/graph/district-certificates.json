@@ -164,21 +164,6 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "document:form_xxii",
-   "type": "DOCUMENT",
-   "name": "Form xxii",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:b95bad3f5be2",
-     "evidence": "Every Graduate shall be required to apply for the provisional registration on the prescribed Form-XXII through the Dean/Principal of the Veterinary College concerned from where he/she completed academic course.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "document:original_registration_certificate",
    "type": "DOCUMENT",
    "name": "Original registration certificate",
@@ -268,6 +253,12 @@
     },
     {
      "sourceId": "src:b95bad3f5be2",
+     "evidence": "Every Graduate shall be required to apply for the provisional registration on the prescribed Form-XXII through the Dean/Principal of the Veterinary College concerned from where he/she completed academic course.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b95bad3f5be2",
      "evidence": "On completion of internship training, every graduate shall apply for permanent registration and shall surrender his/her provisional certificate along with application for registration to the State Council.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
@@ -298,51 +289,6 @@
      "verificationStatus": "EXTRACTED"
     }
    ]
-  },
-  {
-   "id": "document:qualification_add_form",
-   "type": "DOCUMENT",
-   "name": "Qualification add form",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:268c6a48bdd4",
-     "evidence": "Application Form for Qualification Add/ Duplicate Certificate",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:complaint_form_registered",
-   "type": "DOCUMENT",
-   "name": "Complaint form registered",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:268c6a48bdd4",
-     "evidence": "Form for Complaint against Registered Veterinary Practitioner",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:complaint_form_unregistered",
-   "type": "DOCUMENT",
-   "name": "Complaint form unregistered",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:268c6a48bdd4",
-     "evidence": "Form for Complaint against Unregistered Veterinary Practitioner/quacks",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
   },
   {
    "id": "document:e_gazette_gsvpr",
@@ -383,21 +329,6 @@
     {
      "sourceId": "src:268c6a48bdd4",
      "evidence": "Sample Format of GVC Registration Certificate",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:vci_registration_transfer_form",
-   "type": "DOCUMENT",
-   "name": "Vci registration transfer form",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:268c6a48bdd4",
-     "evidence": "For Apply in VCI_registrationTransfer_form",
      "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
@@ -480,36 +411,6 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "document:jau_circular",
-   "type": "DOCUMENT",
-   "name": "Jau circular",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:268c6a48bdd4",
-     "evidence": "Circular of JAU Regarding Registration/Renewal At GVC",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:skau_circular",
-   "type": "DOCUMENT",
-   "name": "Skau circular",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:268c6a48bdd4",
-     "evidence": "Circular of SDAU Regarding Registration/Renewal At GVC",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "document:veterinarian_oath",
    "type": "DOCUMENT",
    "name": "Veterinarian oath",
@@ -548,6 +449,42 @@
     {
      "sourceId": "src:268c6a48bdd4",
      "evidence": "Application Form for GVC registration",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:268c6a48bdd4",
+     "evidence": "Application Form for Qualification Add/ Duplicate Certificate",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:268c6a48bdd4",
+     "evidence": "Form for Complaint against Registered Veterinary Practitioner",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:268c6a48bdd4",
+     "evidence": "Form for Complaint against Unregistered Veterinary Practitioner/quacks",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:268c6a48bdd4",
+     "evidence": "For Apply in VCI_registrationTransfer_form",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:268c6a48bdd4",
+     "evidence": "Circular of JAU Regarding Registration/Renewal At GVC",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:268c6a48bdd4",
+     "evidence": "Circular of SDAU Regarding Registration/Renewal At GVC",
      "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
@@ -819,21 +756,6 @@
    ]
   },
   {
-   "id": "document:family_details_form",
-   "type": "DOCUMENT",
-   "name": "Family details form",
-   "jurisdictionId": "IN-GJ-GANDHINAGAR",
-   "sources": [
-    {
-     "sourceId": "src:5c9f24f67a98",
-     "evidence": "કુટુંબના સભ્યોની વિગતો દર્શાવતું પત્રક",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "document:residence_proof",
    "type": "DOCUMENT",
    "name": "Residence proof",
@@ -919,6 +841,12 @@
     },
     {
      "sourceId": "src:5c9f24f67a98",
+     "evidence": "કુટુંબના સભ્યોની વિગતો દર્શાવતું પત્રક",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:5c9f24f67a98",
      "evidence": "અરજદારનો તલાટી સમક્ષ રૂબરૂ જવાબ",
      "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
@@ -963,81 +891,6 @@
    ]
   },
   {
-   "id": "document:gujarati_language",
-   "type": "DOCUMENT",
-   "name": "Gujarati language",
-   "jurisdictionId": "IN-GJ-AHMEDABAD",
-   "sources": [
-    {
-     "sourceId": "src:119c5e4a63b6",
-     "evidence": "એપ્લીકેશન ફોર્મ [File Size : 45 KB] [Gujarati]",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:certified",
-   "type": "DOCUMENT",
-   "name": "Certified",
-   "jurisdictionId": "IN-GJ-AHMEDABAD",
-   "sources": [
-    {
-     "sourceId": "src:119c5e4a63b6",
-     "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:applicant",
-   "type": "DOCUMENT",
-   "name": "Applicant",
-   "jurisdictionId": "IN-GJ-AHMEDABAD",
-   "sources": [
-    {
-     "sourceId": "src:119c5e4a63b6",
-     "evidence": "અરજદારનો તલાટી રૂબરૂ જવાબ",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:application",
-   "type": "DOCUMENT",
-   "name": "Application",
-   "jurisdictionId": "IN-GJ-AHMEDABAD",
-   "sources": [
-    {
-     "sourceId": "src:119c5e4a63b6",
-     "evidence": "પ્રતિજ્ઞાપત્ર",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:religious_linguistic_minority",
-   "type": "DOCUMENT",
-   "name": "Religious linguistic minority",
-   "jurisdictionId": "IN-GJ-AHMEDABAD",
-   "sources": [
-    {
-     "sourceId": "src:119c5e4a63b6",
-     "evidence": "ધાર્મિક/ ભાષાકીય લઘુમતી અંગેનો શાળાના લેટરપેડ ઉપર દાખલો",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "service:religious_and_linguistic_minority_certificate",
    "type": "SERVICE",
    "name": "Religious and Linguistic Minority Certificate",
@@ -1054,7 +907,49 @@
    "sources": [
     {
      "sourceId": "src:119c5e4a63b6",
+     "evidence": "એપ્લીકેશન ફોર્મ [File Size : 45 KB] [Gujarati]",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:119c5e4a63b6",
      "evidence": "નિકાલની સમય મર્યાદા કુલ ૧ દિવસ.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:119c5e4a63b6",
+     "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:119c5e4a63b6",
+     "evidence": "અરજદારનો તલાટી રૂબરૂ જવાબ",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:119c5e4a63b6",
+     "evidence": "પ્રતિજ્ઞાપત્ર",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:119c5e4a63b6",
+     "evidence": "ધાર્મિક/ ભાષાકીય લઘુમતી અંગેનો શાળાના લેટરપેડ ઉપર દાખલો",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:119c5e4a63b6",
+     "evidence": "રહેઠાણનો પુરાવો (લાઈટબીલ, મ્યુનિ.ટેક્ષબીલ, ટેલીફોન બીલ વિગેરે પૈકી એક)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:119c5e4a63b6",
+     "evidence": "શાળા છોડયા અંગેનો દાખલો",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     },
@@ -1086,21 +981,6 @@
    ]
   },
   {
-   "id": "document:birth_or_domicile_or_passport",
-   "type": "DOCUMENT",
-   "name": "Birth or domicile or passport",
-   "jurisdictionId": "IN-GJ-JAMNAGAR",
-   "sources": [
-    {
-     "sourceId": "src:517e00ce5909",
-     "evidence": "જન્મના પ્રમાણપત્રની નકલ અથવા ડોમીસાઈલ સર્ટીફીકેટની નકલ અથવા ભારતીય પાસપોર્ટ ની નકલ.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "document:school_living_certificate",
    "type": "DOCUMENT",
    "name": "School living certificate",
@@ -1124,21 +1004,6 @@
     {
      "sourceId": "src:517e00ce5909",
      "evidence": "ધોરણ–૧૦/ધોરણ–૧ર ની માર્કશીટ તથા સર્ટીફીકેટ ની નકલ",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:utility_or_tax_or_voter_id",
-   "type": "DOCUMENT",
-   "name": "Utility or tax or voter id",
-   "jurisdictionId": "IN-GJ-JAMNAGAR",
-   "sources": [
-    {
-     "sourceId": "src:517e00ce5909",
-     "evidence": "ટેલીફોન બીલ અથવા લાઈટબીલની નકલ અથવા મતદાર ઓળખપત્રની નકલ અથવા રેશન કાર્ડની નકલ અથવા કરવેરા માગણી બીલ",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -1180,6 +1045,18 @@
      "evidence": "નિકાલની સમય મર્યાદા કુલ ૨૧ દિવસ.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:517e00ce5909",
+     "evidence": "જન્મના પ્રમાણપત્રની નકલ અથવા ડોમીસાઈલ સર્ટીફીકેટની નકલ અથવા ભારતીય પાસપોર્ટ ની નકલ.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:517e00ce5909",
+     "evidence": "ટેલીફોન બીલ અથવા લાઈટબીલની નકલ અથવા મતદાર ઓળખપત્રની નકલ અથવા રેશન કાર્ડની નકલ અથવા કરવેરા માગણી બીલ",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
     }
    ],
    "lastVerifiedAt": "2026-08-23"
@@ -1201,21 +1078,6 @@
      "verificationStatus": "EXTRACTED"
     }
    ]
-  },
-  {
-   "id": "document:personal_response",
-   "type": "DOCUMENT",
-   "name": "Personal response",
-   "jurisdictionId": "IN-GJ-AHMEDABAD",
-   "sources": [
-    {
-     "sourceId": "src:fa4073ea12cb",
-     "evidence": "અરજદારનો રૂબરૂ જવાબ",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
   },
   {
    "id": "document:school_leaving_certificate",
@@ -1304,6 +1166,12 @@
     {
      "sourceId": "src:fa4073ea12cb",
      "evidence": "નિકાલની સમય મર્યાદા કુલ ૧ દિવસ.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fa4073ea12cb",
+     "evidence": "અરજદારનો રૂબરૂ જવાબ",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -1527,22 +1395,6 @@
    ]
   },
   {
-   "id": "e:service_veterinary_registration__requires__document_form_xxii",
-   "from": "service:veterinary_registration",
-   "to": "document:form_xxii",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Graduates must apply for provisional registration on the prescribed Form-XXII through the Dean/Principal of the Veterinary College.",
-   "sources": [
-    {
-     "sourceId": "src:b95bad3f5be2",
-     "evidence": "Every Graduate shall be required to apply for the provisional registration on the prescribed Form-XXII through the Dean/Principal of the Veterinary College concerned from where he/she completed academic course.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_veterinary_registration__requires__document_original_registration_certificate",
    "from": "service:veterinary_registration",
    "to": "document:original_registration_certificate",
@@ -1591,54 +1443,6 @@
    ]
   },
   {
-   "id": "e:service_gujarat_veterinary_council_registration__requires__document_qualification_add_form",
-   "from": "service:gujarat_veterinary_council_registration",
-   "to": "document:qualification_add_form",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Gujarat Veterinary Council provides downloadable application forms for adding qualifications or obtaining duplicate certificates.",
-   "sources": [
-    {
-     "sourceId": "src:268c6a48bdd4",
-     "evidence": "Application Form for Qualification Add/ Duplicate Certificate",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_gujarat_veterinary_council_registration__requires__document_complaint_form_registered",
-   "from": "service:gujarat_veterinary_council_registration",
-   "to": "document:complaint_form_registered",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Gujarat Veterinary Council provides downloadable forms for submitting complaints against registered veterinary practitioners.",
-   "sources": [
-    {
-     "sourceId": "src:268c6a48bdd4",
-     "evidence": "Form for Complaint against Registered Veterinary Practitioner",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_gujarat_veterinary_council_registration__requires__document_complaint_form_unregistered",
-   "from": "service:gujarat_veterinary_council_registration",
-   "to": "document:complaint_form_unregistered",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Gujarat Veterinary Council provides downloadable forms for submitting complaints against unregistered veterinary practitioners or quacks.",
-   "sources": [
-    {
-     "sourceId": "src:268c6a48bdd4",
-     "evidence": "Form for Complaint against Unregistered Veterinary Practitioner/quacks",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_gujarat_veterinary_council_registration__requires__document_e_gazette_gsvpr",
    "from": "service:gujarat_veterinary_council_registration",
    "to": "document:e_gazette_gsvpr",
@@ -1681,22 +1485,6 @@
     {
      "sourceId": "src:268c6a48bdd4",
      "evidence": "Sample Format of GVC Registration Certificate",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_gujarat_veterinary_council_registration__requires__document_vci_registration_transfer_form",
-   "from": "service:gujarat_veterinary_council_registration",
-   "to": "document:vci_registration_transfer_form",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Gujarat Veterinary Council provides a downloadable application form for registration transfer to the Veterinary Council of India (VCI).",
-   "sources": [
-    {
-     "sourceId": "src:268c6a48bdd4",
-     "evidence": "For Apply in VCI_registrationTransfer_form",
      "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
@@ -1777,38 +1565,6 @@
     {
      "sourceId": "src:268c6a48bdd4",
      "evidence": "Letter to Vet.College for Registration/Renewal, Dated: 16-04-2015",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_gujarat_veterinary_council_registration__requires__document_jau_circular",
-   "from": "service:gujarat_veterinary_council_registration",
-   "to": "document:jau_circular",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Gujarat Veterinary Council provides downloadable circulars from the Junagadh Agricultural University (JAU) regarding registration and renewal processes.",
-   "sources": [
-    {
-     "sourceId": "src:268c6a48bdd4",
-     "evidence": "Circular of JAU Regarding Registration/Renewal At GVC",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_gujarat_veterinary_council_registration__requires__document_skau_circular",
-   "from": "service:gujarat_veterinary_council_registration",
-   "to": "document:skau_circular",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Gujarat Veterinary Council provides downloadable circulars from the Sher-e-Kashmir University of Agricultural Sciences and Technology (SKAU) regarding registration and renewal processes.",
-   "sources": [
-    {
-     "sourceId": "src:268c6a48bdd4",
-     "evidence": "Circular of SDAU Regarding Registration/Renewal At GVC",
      "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
@@ -2055,22 +1811,6 @@
    ]
   },
   {
-   "id": "e:service_salary_certificate__requires__document_family_details_form",
-   "from": "service:salary_certificate",
-   "to": "document:family_details_form",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must provide a form showing details of family members.",
-   "sources": [
-    {
-     "sourceId": "src:5c9f24f67a98",
-     "evidence": "કુટુંબના સભ્યોની વિગતો દર્શાવતું પત્રક",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_salary_certificate__requires__document_residence_proof",
    "from": "service:salary_certificate",
    "to": "document:residence_proof",
@@ -2183,86 +1923,6 @@
    ]
   },
   {
-   "id": "e:service_religious_and_linguistic_minority_certificate__requires__document_gujarati_language",
-   "from": "service:religious_and_linguistic_minority_certificate",
-   "to": "document:gujarati_language",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The application form for the certificate is available in Gujarati.",
-   "sources": [
-    {
-     "sourceId": "src:119c5e4a63b6",
-     "evidence": "એપ્લીકેશન ફોર્મ [File Size : 45 KB] [Gujarati]",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_religious_and_linguistic_minority_certificate__requires__document_certified",
-   "from": "service:religious_and_linguistic_minority_certificate",
-   "to": "document:certified",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A certified copy of documents is required for the application.",
-   "sources": [
-    {
-     "sourceId": "src:119c5e4a63b6",
-     "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_religious_and_linguistic_minority_certificate__requires__document_applicant",
-   "from": "service:religious_and_linguistic_minority_certificate",
-   "to": "document:applicant",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must provide a personal response from the Talati.",
-   "sources": [
-    {
-     "sourceId": "src:119c5e4a63b6",
-     "evidence": "અરજદારનો તલાટી રૂબરૂ જવાબ",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_religious_and_linguistic_minority_certificate__requires__document_application",
-   "from": "service:religious_and_linguistic_minority_certificate",
-   "to": "document:application",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "An affidavit is required for the application.",
-   "sources": [
-    {
-     "sourceId": "src:119c5e4a63b6",
-     "evidence": "પ્રતિજ્ઞાપત્ર",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_religious_and_linguistic_minority_certificate__requires__document_religious_linguistic_minority",
-   "from": "service:religious_and_linguistic_minority_certificate",
-   "to": "document:religious_linguistic_minority",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A document on the school's letterhead regarding religious or linguistic minority is required.",
-   "sources": [
-    {
-     "sourceId": "src:119c5e4a63b6",
-     "evidence": "ધાર્મિક/ ભાષાકીય લઘુમતી અંગેનો શાળાના લેટરપેડ ઉપર દાખલો",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_religious_and_linguistic_minority_certificate__visit_at__office_jan_seva_kendra",
    "from": "service:religious_and_linguistic_minority_certificate",
    "to": "office:jan_seva_kendra",
@@ -2288,7 +1948,7 @@
    "sources": [
     {
      "sourceId": "src:119c5e4a63b6",
-     "evidence": "નિકાલની સમય મર્યાદા કુલ ૧ દિવસ.",
+     "evidence": "એપ્લીકેશન ફોર્મ [File Size : 45 KB] [Gujarati]",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -2305,22 +1965,6 @@
     {
      "sourceId": "src:517e00ce5909",
      "evidence": "Application Process\nDistrict Collector Office\nJilla Seva Sadan,\nSharu Section Road,\nJamnagar,\nGujarat - 361002",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_education_purpose_nationality_certificate__requires__document_birth_or_domicile_or_passport",
-   "from": "service:education_purpose_nationality_certificate",
-   "to": "document:birth_or_domicile_or_passport",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A certified copy of a birth certificate or domicile certificate or Indian passport is required for an education purpose nationality certificate.",
-   "sources": [
-    {
-     "sourceId": "src:517e00ce5909",
-     "evidence": "જન્મના પ્રમાણપત્રની નકલ અથવા ડોમીસાઈલ સર્ટીફીકેટની નકલ અથવા ભારતીય પાસપોર્ટ ની નકલ.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -2353,22 +1997,6 @@
     {
      "sourceId": "src:517e00ce5909",
      "evidence": "ધોરણ–૧૦/ધોરણ–૧ર ની માર્કશીટ તથા સર્ટીફીકેટ ની નકલ",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_education_purpose_nationality_certificate__requires__document_utility_or_tax_or_voter_id",
-   "from": "service:education_purpose_nationality_certificate",
-   "to": "document:utility_or_tax_or_voter_id",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A certified copy of a telephone bill or electricity bill or voter ID or ration card or property tax bill is required for an education purpose nationality certificate.",
-   "sources": [
-    {
-     "sourceId": "src:517e00ce5909",
-     "evidence": "ટેલીફોન બીલ અથવા લાઈટબીલની નકલ અથવા મતદાર ઓળખપત્રની નકલ અથવા રેશન કાર્ડની નકલ અથવા કરવેરા માગણી બીલ",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -2433,22 +2061,6 @@
     {
      "sourceId": "src:fa4073ea12cb",
      "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_residential_certificate__requires__document_personal_response",
-   "from": "service:residential_certificate",
-   "to": "document:personal_response",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant must provide a personal response.",
-   "sources": [
-    {
-     "sourceId": "src:fa4073ea12cb",
-     "evidence": "અરજદારનો રૂબરૂ જવાબ",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
