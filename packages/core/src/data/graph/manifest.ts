@@ -5,6 +5,7 @@ import districtCertificates from "./district-certificates.json";
 import drivingLicence from "./driving-licence.json";
 import gst from "./gst.json";
 import msmeAndUdyam from "./msme-and-udyam.json";
+import offices from "./offices.json";
 import pan from "./pan.json";
 import pension from "./pension.json";
 import permitsAndLicences from "./permits-and-licences.json";
@@ -17,13 +18,13 @@ import welfareSchemes from "./welfare-schemes.json";
 import escalation from "./escalation.json";
 
 /** Every bundle file in this folder, journeys first, templates last. */
-export const seedBundleModules: unknown[] = [certificates, districtCertificates, drivingLicence, gst, msmeAndUdyam, pan, pension, permitsAndLicences, pf, propertyAndLand, rationCard, scholarship, startup, welfareSchemes, escalation];
+export const seedBundleModules: unknown[] = [certificates, districtCertificates, drivingLicence, gst, msmeAndUdyam, offices, pan, pension, permitsAndLicences, pf, propertyAndLand, rationCard, scholarship, startup, welfareSchemes, escalation];
 
 /** Same order, as ids. */
-export const seedBundleNames = ["certificates", "district-certificates", "driving-licence", "gst", "msme-and-udyam", "pan", "pension", "permits-and-licences", "pf", "property-and-land", "ration-card", "scholarship", "startup", "welfare-schemes", "escalation"] as const;
+export const seedBundleNames = ["certificates", "district-certificates", "driving-licence", "gst", "msme-and-udyam", "offices", "pan", "pension", "permits-and-licences", "pf", "property-and-land", "ration-card", "scholarship", "startup", "welfare-schemes", "escalation"] as const;
 
 /**
  * The ones with a docs/research file behind them, so `quotes:audit` knows what
  * to audit without keeping its own copy of the list.
  */
-export const journeyBundleNames = ["certificates", "district-certificates", "driving-licence", "gst", "msme-and-udyam", "pan", "pension", "permits-and-licences", "pf", "property-and-land", "ration-card", "scholarship", "startup", "welfare-schemes"] as const;
+export const journeyBundleNames = ["certificates", "district-certificates", "driving-licence", "gst", "msme-and-udyam", "offices", "pan", "pension", "permits-and-licences", "pf", "property-and-land", "ration-card", "scholarship", "startup", "welfare-schemes"] as const;
