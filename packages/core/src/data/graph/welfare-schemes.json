@@ -2590,6 +2590,78 @@
    ]
   },
   {
+   "id": "portal:yatradham_gujarat_gov_in_1cd003",
+   "type": "PORTAL",
+   "name": "yatradham.gujarat.gov.in/KailashMansarovarYatraApplication",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://yatradham.gujarat.gov.in/KailashMansarovarYatraApplication"
+   },
+   "sources": [
+    {
+     "sourceId": "src:cdae6cffb9f2",
+     "evidence": "Name of the Portal for applying in the scheme: Kailas Mansarovar Yatra Application\nLink of the portal: https://yatradham.gujarat.gov.in/KailashMansarovarYatraApplication",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "portal:yatradham_gujarat_gov_in_ccab72",
+   "type": "PORTAL",
+   "name": "yatradham.gujarat.gov.in/ApplicantRegistration",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://yatradham.gujarat.gov.in/ApplicantRegistration"
+   },
+   "sources": [
+    {
+     "sourceId": "src:cdae6cffb9f2",
+     "evidence": "Name of the Portal for applying in the scheme: Shravan Tirth Registration\nLink of the portal: https://yatradham.gujarat.gov.in/ApplicantRegistration",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "portal:yatradham_gujarat_gov_in_d5f61b",
+   "type": "PORTAL",
+   "name": "yatradham.gujarat.gov.in/SindhuDarshanApplication",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://yatradham.gujarat.gov.in/SindhuDarshanApplication"
+   },
+   "sources": [
+    {
+     "sourceId": "src:cdae6cffb9f2",
+     "evidence": "Name of the Portal for applying in the scheme: Sindhu Darshan\nLink of the portal: https://yatradham.gujarat.gov.in/SindhuDarshanApplication",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "portal:yatradham_gujarat_gov_in_dbf8ce",
+   "type": "PORTAL",
+   "name": "yatradham.gujarat.gov.in/SRJApplicantRegistration",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://yatradham.gujarat.gov.in/SRJApplicantRegistration"
+   },
+   "sources": [
+    {
+     "sourceId": "src:cdae6cffb9f2",
+     "evidence": "Name of the Portal for applying in the scheme: Shri Ram Janmabhoomi Registration\nLink of the portal: https://yatradham.gujarat.gov.in/SRJApplicantRegistration",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "service:kailash_mansarovar_yojana",
    "type": "SERVICE",
    "name": "Kailash Mansarovar Yojana",
@@ -2915,6 +2987,24 @@
    ]
   },
   {
+   "id": "portal:1000d_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "1000d.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://1000d.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:79fdc662dbe8",
+     "evidence": "Open the portal: Visit 1000d.gujarat.gov.in .",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "office:gandhinagar",
    "type": "OFFICE",
    "name": "Gandhinagar",
@@ -3040,24 +3130,6 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "portal:1000d_gujarat_gov_in",
-   "type": "PORTAL",
-   "name": "1000d.gujarat.gov.in",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "WEB",
-    "url": "https://1000d.gujarat.gov.in/"
-   },
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "લાભાર્થીની જાતી : * સ્ત્રી",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
   },
   {
    "id": "service:energy_saving_equipments",
@@ -5241,6 +5313,24 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "portal:dstpolicy_gujarat_gov_in_225f2e",
+   "type": "PORTAL",
+   "name": "dstpolicy.gujarat.gov.in/faq",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://dstpolicy.gujarat.gov.in/faq"
+   },
+   "sources": [
+    {
+     "sourceId": "src:225f2e06ee88",
+     "evidence": "Can the application be submitted offline? No. The incentive application process is online through Incentive Management Portal.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "document:user_guidelines_affidavit",
    "type": "DOCUMENT",
    "name": "User guidelines affidavit",
@@ -6167,6 +6257,24 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "portal:msmec_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "msmec.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://msmec.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:400e2076e716",
+     "evidence": "https://msmec.gujarat.gov.in",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "helpline:23258378",
    "type": "HELPLINE",
    "name": "Incentive Schemes helpline",
@@ -6261,24 +6369,6 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "portal:msmec_gujarat_gov_in",
-   "type": "PORTAL",
-   "name": "msmec.gujarat.gov.in",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "WEB",
-    "url": "https://msmec.gujarat.gov.in/"
-   },
-   "sources": [
-    {
-     "sourceId": "src:400e2076e716",
-     "evidence": "Applicant has to Apply Separately for each financial Year.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
   },
   {
    "id": "service:promotional_scheme",
@@ -7167,6 +7257,24 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "portal:ikhedut_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "ikhedut.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ-BANASKANTHA",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://www.ikhedut.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:b138d1d3a6ea",
+     "evidence": "I-khedut (આઇ ખેડૂત) પોર્ટલમાં અરજી કરવાની સુવિધા ઈન્ટરનેટના માધ્યમ પર પણ ઉપલબ્ધ",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "service:prime_minister_crop_insurance_scheme",
    "type": "SERVICE",
    "name": "Prime Minister Crop Insurance Scheme",
@@ -7641,12 +7749,6 @@
     },
     {
      "sourceId": "src:054f8271b834",
-     "evidence": "The application can be made through the online portal: https://rte.orpgujarat.com/",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:054f8271b834",
      "evidence": "The required documents can be submitted via the online portal: https://rte.orpgujarat.com/",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
@@ -7786,6 +7888,42 @@
    ]
   },
   {
+   "id": "portal:pmaymis_gov_in",
+   "type": "PORTAL",
+   "name": "pmaymis.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://pmaymis.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:f33b5b87b1a1",
+     "evidence": "MIS:\nhttps://pmaymis.gov.in",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "portal:pmay_urban_gov_in",
+   "type": "PORTAL",
+   "name": "pmay-urban.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://pmay-urban.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:f33b5b87b1a1",
+     "evidence": "Website:\nhttps://pmay-urban.gov.in/",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "grievance:pmay_urban",
    "type": "GRIEVANCE_CHANNEL",
    "name": "Grievances about pmay (urban)",
@@ -7831,30 +7969,18 @@
     },
     {
      "sourceId": "src:f33b5b87b1a1",
+     "evidence": "MIS:\nhttps://pmaymis.gov.in",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f33b5b87b1a1",
      "evidence": "Website:\nhttps://pmay-urban.gov.in/",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ],
    "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "portal:pmay_urban_gov_in",
-   "type": "PORTAL",
-   "name": "pmay-urban.gov.in",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "WEB",
-    "url": "https://pmay-urban.gov.in/"
-   },
-   "sources": [
-    {
-     "sourceId": "src:f33b5b87b1a1",
-     "evidence": "4 | PMAY-U 2.0 Scheme Guidelines - English (September, 2024) | Click Here |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
   },
   {
    "id": "grievance:pmay_u",
@@ -7899,6 +8025,12 @@
     {
      "sourceId": "src:ed01a4582788",
      "evidence": "30 | PMAY Application Form (Survey Form 4A and 4B) | Click Here |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:ed01a4582788",
+     "evidence": "MIS:\nhttps://pmaymis.gov.in",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     },
@@ -8446,18 +8578,6 @@
    "sources": [
     {
      "sourceId": "src:9b90c07204ff",
-     "evidence": "Mudra loans under Pradhan Mantri Mudra Yojana (PMMY) can be availed of from nearby branch office of a bank, NBFC, MFIs etc.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:9b90c07204ff",
-     "evidence": "Borrowers can also now file online application for MUDRA loans on Udyamimitra portal (www.udyamimitra.in).",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:9b90c07204ff",
      "evidence": "Under the aegis of PMMY, MUDRA has created four products namely 'Shishu', 'Kishor', 'Tarun' and 'TarunPlus' to signify the stage of growth / development and funding needs of the beneficiary micro unit / entrepreneur and also provide a reference point for the next phase of graduation / growth.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
@@ -8495,7 +8615,7 @@
    "sources": [
     {
      "sourceId": "src:9b90c07204ff",
-     "evidence": "Mudra loans under Pradhan Mantri Mudra Yojana (PMMY) can be availed of from nearby branch office of a bank, NBFC, MFIs etc.",
+     "evidence": "Under the aegis of PMMY, MUDRA has created four products namely 'Shishu', 'Kishor', 'Tarun' and 'TarunPlus' to signify the stage of growth / development and funding needs of the beneficiary micro unit / entrepreneur and also provide a reference point for the next phase of graduation / growth.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -8808,12 +8928,6 @@
     {
      "sourceId": "src:adbbef8d8fde",
      "evidence": "શારીરીક રીતે ૪૦% થી ૭૦% તેમજ૭૦% થી વધુ ડિસેબીલીટી માટે સિવિલ સર્જન/ મેડિકલ બોર્ડનુ ડોકટરી પ્રમાણ પત્ર રજુ કર્યેથી શ્રમયોગીને અનુક્રમે રૂ.૨૫,૦૦૦/- અને રૂ. ૫૦,૦૦૦/-આર્થિક સહાય",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:adbbef8d8fde",
-     "evidence": "Sanman Portal for online Application",
      "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
@@ -9427,12 +9541,6 @@
     {
      "sourceId": "src:5cc3da285d54",
      "evidence": "શ્રમયોગીઓના બાળકોને ઉચ્ચ્તર શિક્ષણના ખર્ચના ભારણને ઓછુ કરવા ઉચ્ચતર શિક્ષણ સહાય યોજના શરૂ કરેલ છે.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:5cc3da285d54",
-     "evidence": "Sanman Portal for online Application",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -10513,6 +10621,70 @@
    ]
   },
   {
+   "id": "e:service_kailash_mansarovar_yojana__apply_at__portal_yatradham_gujarat_gov_in_1cd003",
+   "from": "service:kailash_mansarovar_yojana",
+   "to": "portal:yatradham_gujarat_gov_in_1cd003",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The portal for applying to the Kailash Mansarovar Yojana is the Kailas Mansarovar Yatra Application.",
+   "sources": [
+    {
+     "sourceId": "src:cdae6cffb9f2",
+     "evidence": "Name of the Portal for applying in the scheme: Kailas Mansarovar Yatra Application\nLink of the portal: https://yatradham.gujarat.gov.in/KailashMansarovarYatraApplication",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_kailash_mansarovar_yojana__apply_at__portal_yatradham_gujarat_gov_in_ccab72",
+   "from": "service:kailash_mansarovar_yojana",
+   "to": "portal:yatradham_gujarat_gov_in_ccab72",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The portal for applying to the Shravan Tirth Darshan Yojana is the Shravan Tirth Registration.",
+   "sources": [
+    {
+     "sourceId": "src:cdae6cffb9f2",
+     "evidence": "Name of the Portal for applying in the scheme: Shravan Tirth Registration\nLink of the portal: https://yatradham.gujarat.gov.in/ApplicantRegistration",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_kailash_mansarovar_yojana__apply_at__portal_yatradham_gujarat_gov_in_d5f61b",
+   "from": "service:kailash_mansarovar_yojana",
+   "to": "portal:yatradham_gujarat_gov_in_d5f61b",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The portal for applying to the Sindhu Darshan Scheme is the Sindhu Darshan portal.",
+   "sources": [
+    {
+     "sourceId": "src:cdae6cffb9f2",
+     "evidence": "Name of the Portal for applying in the scheme: Sindhu Darshan\nLink of the portal: https://yatradham.gujarat.gov.in/SindhuDarshanApplication",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_kailash_mansarovar_yojana__apply_at__portal_yatradham_gujarat_gov_in_dbf8ce",
+   "from": "service:kailash_mansarovar_yojana",
+   "to": "portal:yatradham_gujarat_gov_in_dbf8ce",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The portal for applying to the Shree Ram Janmabhoomi Shabri Smruti Yatra Sahay Sahay Scheme is the Shri Ram Janmabhoomi Registration portal.",
+   "sources": [
+    {
+     "sourceId": "src:cdae6cffb9f2",
+     "evidence": "Name of the Portal for applying in the scheme: Shri Ram Janmabhoomi Registration\nLink of the portal: https://yatradham.gujarat.gov.in/SRJApplicantRegistration",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_kailash_mansarovar_yojana__apply_at__portal_imd_gujarat_gov_in",
    "from": "service:kailash_mansarovar_yojana",
    "to": "portal:imd_gujarat_gov_in",
@@ -10550,11 +10722,11 @@
    "to": "portal:champions_gov_in",
    "type": "APPLY_AT",
    "verificationStatus": "EXTRACTED",
-   "note": "Published on champions.gov.in.",
+   "note": "More information can be obtained by visiting www.champions.gov.in for all three schemes.",
    "sources": [
     {
      "sourceId": "src:dbf5b386a0f3",
-     "evidence": "The artisans between 18 years and upto 55 years of age.",
+     "evidence": "Kindly Visit our Single window System @ www.champions.gov.in",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -10587,6 +10759,22 @@
     {
      "sourceId": "src:b078560c40dc",
      "evidence": "મુખ્યમંત્રી માતૃશક્તિ યોજના માટે રાશનકાર્ડ હોવુ મરજીયાત છે. હવે ફક્ત આધારકાર્ડ તથા ટેકો નોંધણી દ્વારા આ યોજનાનો લાભ મેળવી શકાય છે.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_chief_minister_matru_shakti_yojana__apply_at__portal_1000d_gujarat_gov_in",
+   "from": "service:chief_minister_matru_shakti_yojana",
+   "to": "portal:1000d_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "To register, visit 1000d.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:79fdc662dbe8",
+     "evidence": "Open the portal: Visit 1000d.gujarat.gov.in .",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -10636,22 +10824,6 @@
      "sourceId": "src:d0c1afe6687f",
      "evidence": "મુખ્યમંત્રી માતૃશક્તિ યોજના માટે રાશનકાર્ડ હોવુ મરજીયાત છે. હવે ફક્ત આધારકાર્ડ તથા ટેકો નોંધણી દ્વારા આ યોજનાનો લાભ મેળવી શકાય છે.",
      "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_chief_minister_matru_shakti_yojana__apply_at__portal_1000d_gujarat_gov_in",
-   "from": "service:chief_minister_matru_shakti_yojana",
-   "to": "portal:1000d_gujarat_gov_in",
-   "type": "APPLY_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "Published on 1000d.gujarat.gov.in.",
-   "sources": [
-    {
-     "sourceId": "src:b078560c40dc",
-     "evidence": "લાભાર્થીની જાતી : * સ્ત્રી",
-     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -11681,6 +11853,22 @@
    ]
   },
   {
+   "id": "e:service_it_ites_incentive_management__apply_at__portal_dstpolicy_gujarat_gov_in_225f2e",
+   "from": "service:it_ites_incentive_management",
+   "to": "portal:dstpolicy_gujarat_gov_in_225f2e",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The application for incentives must be submitted online through the Incentive Management Portal.",
+   "sources": [
+    {
+     "sourceId": "src:225f2e06ee88",
+     "evidence": "Can the application be submitted offline? No. The incentive application process is online through Incentive Management Portal.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_it_ites_incentive_management__requires__document_user_guidelines_affidavit",
    "from": "service:it_ites_incentive_management",
    "to": "document:user_guidelines_affidavit",
@@ -11953,6 +12141,22 @@
    ]
   },
   {
+   "id": "e:service_incentive_schemes__apply_at__portal_msmec_gujarat_gov_in",
+   "from": "service:incentive_schemes",
+   "to": "portal:msmec_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page provides a link to apply for incentive schemes.",
+   "sources": [
+    {
+     "sourceId": "src:400e2076e716",
+     "evidence": "https://msmec.gujarat.gov.in",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_incentive_schemes__call_if__helpline_23258378",
    "from": "service:incentive_schemes",
    "to": "helpline:23258378",
@@ -11979,22 +12183,6 @@
     {
      "sourceId": "src:400e2076e716",
      "evidence": "MSME-D Branch No. - 23258378 , LEGAL Expert No.-23258379",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_incentive_schemes__apply_at__portal_msmec_gujarat_gov_in",
-   "from": "service:incentive_schemes",
-   "to": "portal:msmec_gujarat_gov_in",
-   "type": "APPLY_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "Published on msmec.gujarat.gov.in.",
-   "sources": [
-    {
-     "sourceId": "src:400e2076e716",
-     "evidence": "Applicant has to Apply Separately for each financial Year.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -12236,6 +12424,22 @@
      "sourceId": "src:60dde4040b28",
      "evidence": "(૧) તમારો (અરજદારનો) Application No. એજ તમારો Confirmation No છે.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_prime_minister_crop_insurance_scheme__apply_at__portal_ikhedut_gujarat_gov_in",
+   "from": "service:prime_minister_crop_insurance_scheme",
+   "to": "portal:ikhedut_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Farmers can apply for various agricultural schemes through the I-Khedut portal.",
+   "sources": [
+    {
+     "sourceId": "src:b138d1d3a6ea",
+     "evidence": "I-khedut (આઇ ખેડૂત) પોર્ટલમાં અરજી કરવાની સુવિધા ઈન્ટરનેટના માધ્યમ પર પણ ઉપલબ્ધ",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -12513,16 +12717,16 @@
    ]
   },
   {
-   "id": "e:service_pmay_urban__escalate_to__grievance_pmay_urban",
+   "id": "e:service_pmay_urban__track_at__portal_pmaymis_gov_in",
    "from": "service:pmay_urban",
-   "to": "grievance:pmay_urban",
-   "type": "ESCALATE_TO",
+   "to": "portal:pmaymis_gov_in",
+   "type": "TRACK_AT",
    "verificationStatus": "EXTRACTED",
-   "note": "Citizens can lodge complaints, queries, clarifications, grievances, or feedback through the PMAY (Urban) portal.",
+   "note": "The PMAY (Urban) MIS portal is available for tracking progress.",
    "sources": [
     {
      "sourceId": "src:f33b5b87b1a1",
-     "evidence": "To lodge your complaint/query/clarification/ grievance/feedback Click here",
+     "evidence": "MIS:\nhttps://pmaymis.gov.in",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -12534,11 +12738,27 @@
    "to": "portal:pmay_urban_gov_in",
    "type": "APPLY_AT",
    "verificationStatus": "EXTRACTED",
-   "note": "Published on pmay-urban.gov.in.",
+   "note": "The PMAY (Urban) official website is available for information and resources.",
    "sources": [
     {
      "sourceId": "src:f33b5b87b1a1",
-     "evidence": "4 | PMAY-U 2.0 Scheme Guidelines - English (September, 2024) | Click Here |",
+     "evidence": "Website:\nhttps://pmay-urban.gov.in/",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_pmay_urban__escalate_to__grievance_pmay_urban",
+   "from": "service:pmay_urban",
+   "to": "grievance:pmay_urban",
+   "type": "ESCALATE_TO",
+   "verificationStatus": "EXTRACTED",
+   "note": "Citizens can lodge complaints, queries, clarifications, grievances, or feedback through the PMAY (Urban) portal.",
+   "sources": [
+    {
+     "sourceId": "src:f33b5b87b1a1",
+     "evidence": "To lodge your complaint/query/clarification/ grievance/feedback Click here",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -12593,16 +12813,32 @@
    ]
   },
   {
+   "id": "e:service_pmay_u__track_at__portal_pmaymis_gov_in",
+   "from": "service:pmay_u",
+   "to": "portal:pmaymis_gov_in",
+   "type": "TRACK_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The PMAY (U) MIS portal is available for tracking progress.",
+   "sources": [
+    {
+     "sourceId": "src:ed01a4582788",
+     "evidence": "MIS:\nhttps://pmaymis.gov.in",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_pmay_u__apply_at__portal_pmay_urban_gov_in",
    "from": "service:pmay_u",
    "to": "portal:pmay_urban_gov_in",
    "type": "APPLY_AT",
    "verificationStatus": "EXTRACTED",
-   "note": "Published on pmay-urban.gov.in.",
+   "note": "The PMAY (U) official website is https://pmay-urban.gov.in/.",
    "sources": [
     {
      "sourceId": "src:ed01a4582788",
-     "evidence": "4 | PMAY-U 2.0 Scheme Guidelines - English (September, 2024) | Click Here |",
+     "evidence": "Website:\nhttps://pmay-urban.gov.in/",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -12874,7 +13110,7 @@
    "sources": [
     {
      "sourceId": "src:9b90c07204ff",
-     "evidence": "Mudra loans under Pradhan Mantri Mudra Yojana (PMMY) can be availed of from nearby branch office of a bank, NBFC, MFIs etc.",
+     "evidence": "Under the aegis of PMMY, MUDRA has created four products namely 'Shishu', 'Kishor', 'Tarun' and 'TarunPlus' to signify the stage of growth / development and funding needs of the beneficiary micro unit / entrepreneur and also provide a reference point for the next phase of graduation / growth.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }

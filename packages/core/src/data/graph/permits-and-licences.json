@@ -793,6 +793,24 @@
    ]
   },
   {
+   "id": "portal:boiler_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "boiler.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://www.boiler.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:83167136359e",
+     "evidence": "From Where I can get various application form ?\nA:\nVarious application forms can be download from Boiler department website\nwww.boiler.gujarat.gov.in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "service:boiler_registration_and_inspection",
    "type": "SERVICE",
    "name": "Boiler Registration and Inspection",
@@ -877,24 +895,6 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "portal:boiler_gujarat_gov_in",
-   "type": "PORTAL",
-   "name": "boiler.gujarat.gov.in",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "WEB",
-    "url": "https://boiler.gujarat.gov.in/"
-   },
-   "sources": [
-    {
-     "sourceId": "src:83167136359e",
-     "evidence": "Do I required to inform Boiler office if I purchase secondhand boiler from Gujarat or other state ?\nA:\nYes, in case of change in ownership Boiler office shall be informed and necessary other formalities are required to be completed.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
   },
   {
    "id": "document:memorandum_association",
@@ -2468,6 +2468,60 @@
    ]
   },
   {
+   "id": "portal:girlion_gujarat_gov_in_11052a",
+   "type": "PORTAL",
+   "name": "girlion.gujarat.gov.in/VelavadarBooking.aspx",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://girlion.gujarat.gov.in/VelavadarBooking.aspx"
+   },
+   "sources": [
+    {
+     "sourceId": "src:11052a2e4ead",
+     "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "portal:girlion_gujarat_gov_in_95a9c0",
+   "type": "PORTAL",
+   "name": "girlion.gujarat.gov.in/Services.aspx",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://girlion.gujarat.gov.in/Services.aspx"
+   },
+   "sources": [
+    {
+     "sourceId": "src:95a9c084b03d",
+     "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "portal:girlion_gujarat_gov_in_f2cbb7",
+   "type": "PORTAL",
+   "name": "girlion.gujarat.gov.in/GirnarNatureSafariBooking.aspx",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://girlion.gujarat.gov.in/GirnarNatureSafariBooking.aspx"
+   },
+   "sources": [
+    {
+     "sourceId": "src:f2cbb7797ef7",
+     "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "grievance:gir_online_permit_booking_system",
    "type": "GRIEVANCE_CHANNEL",
    "name": "Grievances about gir online permit booking system",
@@ -2479,6 +2533,60 @@
     {
      "sourceId": "src:f2cbb7797ef7",
      "evidence": "Beware of fraudulant websites claiming to provide confirmed Permit booking services at premium rates.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "portal:girlion_gujarat_gov_in_8b0605",
+   "type": "PORTAL",
+   "name": "girlion.gujarat.gov.in/GIZDevaliaBusBooking.aspx",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://girlion.gujarat.gov.in/GIZDevaliaBusBooking.aspx"
+   },
+   "sources": [
+    {
+     "sourceId": "src:8b0605f91d38",
+     "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "portal:girlion_gujarat_gov_in_380c25",
+   "type": "PORTAL",
+   "name": "girlion.gujarat.gov.in/AmbardiBooking.aspx/AboutGir.aspx",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://girlion.gujarat.gov.in/AmbardiBooking.aspx/AboutGir.aspx"
+   },
+   "sources": [
+    {
+     "sourceId": "src:380c2532b17d",
+     "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "portal:girlion_gujarat_gov_in_fea498",
+   "type": "PORTAL",
+   "name": "girlion.gujarat.gov.in/GIZDevaliaGypsyBooking.aspx",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://girlion.gujarat.gov.in/GIZDevaliaGypsyBooking.aspx"
+   },
+   "sources": [
+    {
+     "sourceId": "src:fea49844e324",
+     "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -3054,6 +3162,24 @@
      "sourceId": "src:21b6ef1e1050",
      "evidence": "SARAL pass is an annual prepaid unlimited travel scheme in Surat Sitilink Ltd.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "portal:sarathi_parivahan_gov_in",
+   "type": "PORTAL",
+   "name": "sarathi.parivahan.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://sarathi.parivahan.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "For Retest payment visit https://sarathi.parivahan.gov.in/ >> Select State >> and Click on Fee Payments >> Fee Payments.",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -4117,11 +4243,11 @@
    "to": "portal:boiler_gujarat_gov_in",
    "type": "APPLY_AT",
    "verificationStatus": "EXTRACTED",
-   "note": "Published on boiler.gujarat.gov.in.",
+   "note": "Various application forms for firm recognition can be downloaded from the Boiler department website.",
    "sources": [
     {
      "sourceId": "src:83167136359e",
-     "evidence": "Do I required to inform Boiler office if I purchase secondhand boiler from Gujarat or other state ?\nA:\nYes, in case of change in ownership Boiler office shall be informed and necessary other formalities are required to be completed.",
+     "evidence": "From Where I can get various application form ?\nA:\nVarious application forms can be download from Boiler department website\nwww.boiler.gujarat.gov.in",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -4960,6 +5086,70 @@
    ]
   },
   {
+   "id": "e:service_gir_online_permit_booking_system__apply_at__portal_girlion_gujarat_gov_in",
+   "from": "service:gir_online_permit_booking_system",
+   "to": "portal:girlion_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "This is the only official booking website for Gir Online Permit Booking System.",
+   "sources": [
+    {
+     "sourceId": "src:ae4e926fc5b9",
+     "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gir_online_permit_booking_system__apply_at__portal_girlion_gujarat_gov_in_11052a",
+   "from": "service:gir_online_permit_booking_system",
+   "to": "portal:girlion_gujarat_gov_in_11052a",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "This is the only official booking website for Gir Online Permit Booking System.",
+   "sources": [
+    {
+     "sourceId": "src:11052a2e4ead",
+     "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gir_online_permit_booking_system__apply_at__portal_girlion_gujarat_gov_in_95a9c0",
+   "from": "service:gir_online_permit_booking_system",
+   "to": "portal:girlion_gujarat_gov_in_95a9c0",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "This is the only official booking website for Gir Online Permit Booking System.",
+   "sources": [
+    {
+     "sourceId": "src:95a9c084b03d",
+     "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gir_online_permit_booking_system__apply_at__portal_girlion_gujarat_gov_in_f2cbb7",
+   "from": "service:gir_online_permit_booking_system",
+   "to": "portal:girlion_gujarat_gov_in_f2cbb7",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The official booking website for Girnar Nature Safari is the only authorized platform for permit bookings.",
+   "sources": [
+    {
+     "sourceId": "src:f2cbb7797ef7",
+     "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_gir_online_permit_booking_system__escalate_to__grievance_gir_online_permit_booking_system",
    "from": "service:gir_online_permit_booking_system",
    "to": "grievance:gir_online_permit_booking_system",
@@ -4976,16 +5166,48 @@
    ]
   },
   {
-   "id": "e:service_gir_online_permit_booking_system__apply_at__portal_girlion_gujarat_gov_in",
+   "id": "e:service_gir_online_permit_booking_system__apply_at__portal_girlion_gujarat_gov_in_8b0605",
    "from": "service:gir_online_permit_booking_system",
-   "to": "portal:girlion_gujarat_gov_in",
+   "to": "portal:girlion_gujarat_gov_in_8b0605",
    "type": "APPLY_AT",
    "verificationStatus": "EXTRACTED",
-   "note": "Published on girlion.gujarat.gov.in.",
+   "note": "This is the only official booking website for Gir Online Permit Booking System.",
    "sources": [
     {
-     "sourceId": "src:276afc4b2b42",
-     "evidence": "The Permit charges don't include eco-guide charges (INR 400/-) and safari gypsy charges (INR 2000/-), which must be paid separately to the respective eco-guide and safari gypsy owner.",
+     "sourceId": "src:8b0605f91d38",
+     "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gir_online_permit_booking_system__apply_at__portal_girlion_gujarat_gov_in_380c25",
+   "from": "service:gir_online_permit_booking_system",
+   "to": "portal:girlion_gujarat_gov_in_380c25",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "This is the only official booking website for Gir Online Permit Booking System.",
+   "sources": [
+    {
+     "sourceId": "src:380c2532b17d",
+     "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gir_online_permit_booking_system__apply_at__portal_girlion_gujarat_gov_in_fea498",
+   "from": "service:gir_online_permit_booking_system",
+   "to": "portal:girlion_gujarat_gov_in_fea498",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The website is the only official booking website for Gir Online Permit Booking System.",
+   "sources": [
+    {
+     "sourceId": "src:fea49844e324",
+     "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -5125,11 +5347,11 @@
    "to": "portal:girlion_gujarat_gov_in",
    "type": "APPLY_AT",
    "verificationStatus": "EXTRACTED",
-   "note": "Published on girlion.gujarat.gov.in.",
+   "note": "The only official booking website for Gir Online Permit Booking System is https://girlion.gujarat.gov.in.",
    "sources": [
     {
-     "sourceId": "src:2d20ddb5e853",
-     "evidence": "Mobile Number must be 10 digits",
+     "sourceId": "src:035a9fb40617",
+     "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -5211,6 +5433,22 @@
      "sourceId": "src:21b6ef1e1050",
      "evidence": "SARAL pass is an annual prepaid unlimited travel scheme in Surat Sitilink Ltd.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_learners_license__apply_at__portal_sarathi_parivahan_gov_in",
+   "from": "service:learners_license",
+   "to": "portal:sarathi_parivahan_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "To pay the retest fee, you must visit the specified website and follow the steps.",
+   "sources": [
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "For Retest payment visit https://sarathi.parivahan.gov.in/ >> Select State >> and Click on Fee Payments >> Fee Payments.",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ]

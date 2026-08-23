@@ -7798,6 +7798,7 @@
   }
  ],
  "notFound": [
+  "Water Connection: a page mentions a mobile app (\"The GIDC Setu Mobile Application is available for download.\") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.",
   "Driving Licence: the hand written graph already answers to service:driving_licence, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "Drug Manufacturing Licence System - Ayurvedic: no quotable requirement, fee or timeline survived, so no service node was written for it.",
   "Learner's License: the hand written graph already answers to service:learner_license, so the pages found for it were not merged in. Reconciling the two is a job for a person."

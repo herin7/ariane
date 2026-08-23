@@ -64,6 +64,24 @@
  ],
  "nodes": [
   {
+   "id": "portal:udyamregistration_gov_in",
+   "type": "PORTAL",
+   "name": "udyamregistration.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://udyamregistration.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "This is official website of Govt. of India, Ministry of MSME. No other website/portal/app is official. MSMEs are requested to do MSME Registration here only",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "document:aadhaar_card",
    "type": "DOCUMENT",
    "name": "Aadhaar card",
@@ -218,19 +236,19 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "portal:udyamregistration_gov_in",
+   "id": "portal:kviconline_gov_in_b72394",
    "type": "PORTAL",
-   "name": "udyamregistration.gov.in",
+   "name": "kviconline.gov.in/pmegpeportal",
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "channelType": "WEB",
-    "url": "https://udyamregistration.gov.in/"
+    "url": "https://www.kviconline.gov.in/pmegpeportal"
    },
    "sources": [
     {
-     "sourceId": "src:cef59a1e5f90",
-     "evidence": "Udyam Registration : Zero cost, No Fee and Free Registration of MSMEs.",
-     "confidence": 1,
+     "sourceId": "src:fe4f101fbfb0",
+     "evidence": "The applicant should apply in the following Website- https://www.kviconline.gov.in/pmegpeportal The applicant to follow the guidelines of this portal.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -500,6 +518,22 @@
  ],
  "edges": [
   {
+   "id": "e:service_udyam_registration__apply_at__portal_udyamregistration_gov_in",
+   "from": "service:udyam_registration",
+   "to": "portal:udyamregistration_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Udyam Registration is the only official website for MSME registration by the Government of India.",
+   "sources": [
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "This is official website of Govt. of India, Ministry of MSME. No other website/portal/app is official. MSMEs are requested to do MSME Registration here only",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_udyam_registration__requires__document_aadhaar_card",
    "from": "service:udyam_registration",
    "to": "document:aadhaar_card",
@@ -564,17 +598,17 @@
    ]
   },
   {
-   "id": "e:service_udyam_registration__apply_at__portal_udyamregistration_gov_in",
-   "from": "service:udyam_registration",
-   "to": "portal:udyamregistration_gov_in",
+   "id": "e:service_pmegp_scheme__apply_at__portal_kviconline_gov_in_b72394",
+   "from": "service:pmegp_scheme",
+   "to": "portal:kviconline_gov_in_b72394",
    "type": "APPLY_AT",
    "verificationStatus": "EXTRACTED",
-   "note": "Published on udyamregistration.gov.in.",
+   "note": "The PMEGP scheme requires the applicant to apply online through the website https://www.kviconline.gov.in/pmegpeportal.",
    "sources": [
     {
-     "sourceId": "src:cef59a1e5f90",
-     "evidence": "Udyam Registration : Zero cost, No Fee and Free Registration of MSMEs.",
-     "confidence": 1,
+     "sourceId": "src:fe4f101fbfb0",
+     "evidence": "The applicant should apply in the following Website- https://www.kviconline.gov.in/pmegpeportal The applicant to follow the guidelines of this portal.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]

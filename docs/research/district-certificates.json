@@ -6800,6 +6800,7 @@
   "certificate: a page listing 31 other services in this journey, not a service itself, so it was read for its links and not kept as somewhere to apply. Its pages: https://collectorpanchmahal.gujarat.gov.in/showpage.aspx?contentid=344, https://botad.gujarat.gov.in/certificate-truecopy",
   "EWS Certificate: the hand written graph already answers to service:ews_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "Domicile Certificate: the hand written graph already answers to service:domicile_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
+  "varshai: the page points at Digital Gujarat, which is not on a gov.in or nic.in host, so we could not prove from the name alone that government owns it and did not send anyone there.",
   "income certificate: the hand written graph already answers to service:income_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "Non-Creamy Layer certificate: the hand written graph already answers to service:non_creamy_layer_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "residence certificate: the hand written graph already answers to service:residence_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person."

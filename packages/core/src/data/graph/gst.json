@@ -270,6 +270,24 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "portal:tdscpc_gov_in_f413b2",
+   "type": "PORTAL",
+   "name": "tdscpc.gov.in/app/login.xhtml",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://www.tdscpc.gov.in/app/login.xhtml"
+   },
+   "sources": [
+    {
+     "sourceId": "src:29580f620b91",
+     "evidence": "Link for Tax Deductor and Collector https://www.tdscpc.gov.in/app/login.xhtml",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "service:tax_deductor_and_collector_registration",
    "type": "SERVICE",
    "name": "Tax Deductor and Collector registration",
@@ -601,6 +619,22 @@
     {
      "sourceId": "src:5b01f9f92250",
      "evidence": "1. What is Challan Correction?\nChallan correction in Income Tax refers to the process of rectifying errors made while depositing tax using a challan.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_tax_deductor_and_collector_registration__apply_at__portal_tdscpc_gov_in_f413b2",
+   "from": "service:tax_deductor_and_collector_registration",
+   "to": "portal:tdscpc_gov_in_f413b2",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The user can access the Tax Deductor and Collector portal via the provided link.",
+   "sources": [
+    {
+     "sourceId": "src:29580f620b91",
+     "evidence": "Link for Tax Deductor and Collector https://www.tdscpc.gov.in/app/login.xhtml",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
