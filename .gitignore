@@ -48,7 +48,11 @@ out/
 
 # tooling
 .turbo/
-coverage/
+# vitest output, anchored. Unanchored it also matched
+# apps/web/app/admin/coverage/, so the page that says what we do not know was
+# the one file in the repo nobody could clone.
+/coverage/
+/*/*/coverage/
 .vercel/
 *.log
 
