@@ -54,6 +54,28 @@ describe("what it refuses to do", () => {
     }
   });
 
+  it("stays quiet when a citizen describes the problem instead of naming the service", () => {
+    // These are the sentences the model pass exists for. Token overlap has
+    // nothing useful to say about any of them: it used to answer anyway off a
+    // single shared word, and because upstream stops at the first non empty
+    // result, answering was how it stopped them from ever reaching the model.
+    for (const query of [
+      "my husband died and I have no income now",
+      "I left my job and want the money from my provident fund",
+      "I am 70 and nobody supports me",
+    ]) {
+      expect(resolveIntent(data, query)).toEqual([]);
+    }
+  });
+
+  it("still finds a service named inside a long polite sentence", () => {
+    // The other side of that floor. Dropping weak matches must not start
+    // dropping a citizen who said the words, just at length.
+    expect(top("I really need to get an income certificate for my son school admission please")?.goal).toBe(
+      "service:income_certificate",
+    );
+  });
+
   it("says which words it matched, so a wrong guess is arguable", () => {
     expect(top("aavak nu dakhlo")?.matched).toContain("aavak");
   });

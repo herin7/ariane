@@ -21,6 +21,12 @@ import type { GraphData } from "@ariane/core";
  *      problem instead of naming the service. It picks from a list of our ids
  *      or says nothing.
  *
+ * Each pass stops the moment it has something, which only works because pass 1
+ * returns nothing rather than a weak overlap. It did not always: one shared
+ * word counted as a match, so "I am 70 and nobody supports me" returned four
+ * scholarships and pass 3 was unreachable dead code. The floor lives in
+ * resolveIntent, where the mobile app and the search page get it too.
+ *
  * Passes 2 and 3 are both optional. With no keys in `.env` this degrades to
  * pass 1, which is worse but never wrong.
  */
