@@ -1,0 +1,589 @@
+{
+  "journey": "pension",
+  "researchedAt": "2026-08-23T00:00:00.000Z",
+  "sources": [
+    {
+      "id": "src_wcd_ganga",
+      "url": "https://wcd.gujarat.gov.in/initiativedetails?id=231",
+      "title": "Ganga Swarupa Pension Scheme - Women and Child Development Department, Government of Gujarat",
+      "domain": "wcd.gujarat.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pension/wcd-ganga-swarupa.md",
+      "scrapedOk": true,
+      "note": "Scheme table is published in Gujarati; evidence quoted verbatim in Gujarati."
+    },
+    {
+      "id": "src_myscheme_gspsg",
+      "url": "https://www.myscheme.gov.in/schemes/gspsg",
+      "title": "Ganga Swarupa Pension Scheme, Gujarat - myScheme",
+      "domain": "myscheme.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pension/myscheme-gspsg.md",
+      "scrapedOk": true,
+      "note": "myScheme is the National Scheme Discovery Platform run by Digital India Corporation, MeitY."
+    },
+    {
+      "id": "src_myscheme_ignwps",
+      "url": "https://www.myscheme.gov.in/schemes/ignwps",
+      "title": "Indira Gandhi National Widow Pension Scheme - myScheme",
+      "domain": "myscheme.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pension/myscheme-ignwps.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_sje_vrudh",
+      "url": "https://sje.gujarat.gov.in/dsd/schemes/2212?lang=english",
+      "title": "Finacial assistance to destitute older persons (Scheme of State Government) - Director, Social Defence, Social Justice & Empowerment Department, Government of Gujarat",
+      "domain": "sje.gujarat.gov.in",
+      "sourceType": "GUIDELINE",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pension/sje-vrudh-2212.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_sje_ignoaps",
+      "url": "https://sje.gujarat.gov.in/dsd/showpage.aspx?contentid=2208&lang=English",
+      "title": "Indira Gandhi National old pension (vayvandana scheme) - Director, Social Defence, Government of Gujarat",
+      "domain": "sje.gujarat.gov.in",
+      "sourceType": "GUIDELINE",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pension/sje-ignoaps-2208.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_nsap_about",
+      "url": "https://nsap.nic.in/circular.do?method=aboutus",
+      "title": "About Us - National Social Assistance Programme (NSAP), Ministry of Rural Development",
+      "domain": "nsap.nic.in",
+      "sourceType": "GUIDELINE",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pension/wb-nsap-about.md",
+      "scrapedOk": true,
+      "retrievedVia": "https://web.archive.org/web/2025/https://nsap.nic.in/circular.do?method=aboutus",
+      "note": "nsap.nic.in did not resolve in DNS on 2026-08-23 (getaddrinfo ENOTFOUND for nsap.nic.in, www.nsap.nic.in and nsap.gov.in); content read from the Internet Archive capture of the official page."
+    },
+    {
+      "id": "src_anand_ignoaps",
+      "url": "https://anand.nic.in/scheme/indira-gandhi-national-old-age-pension-scheme/",
+      "title": "Indira Gandhi National Old Age Pension Scheme - District Anand, Government of Gujarat",
+      "domain": "anand.nic.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pension/anand-ignoaps.md",
+      "scrapedOk": true,
+      "note": "This district page states two different benefit figures in two sections; both are recorded below without resolution."
+    },
+    {
+      "id": "src_anand_ignwps",
+      "url": "https://anand.nic.in/schemes/indira-gandhi-national-widow-pension-scheme/",
+      "title": "Indira Gandhi National Widow Pension Scheme - District Anand, Government of Gujarat",
+      "domain": "anand.nic.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pension/anand-ignwps.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_wcd_contact",
+      "url": "https://wcd.gujarat.gov.in/contact",
+      "title": "Contact - Women and Child Development Department, Government of Gujarat",
+      "domain": "wcd.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pension/wcd-contact.md",
+      "scrapedOk": true,
+      "note": "Page carries only downloadable PDF lists (District Programme Officer list etc.); no helpline number is printed on the page."
+    },
+    {
+      "id": "src_digitalgujarat",
+      "url": "https://www.digitalgujarat.gov.in/",
+      "title": "Digital Gujarat Portal",
+      "domain": "digitalgujarat.gov.in",
+      "sourceType": "PORTAL_HOME",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pension/dg-home.md",
+      "scrapedOk": false,
+      "note": "Two scrape attempts failed with ERR_TUNNEL_CONNECTION_FAILED. The portal is referenced only through the official SJE page quoted below; no content from it is asserted here."
+    }
+  ],
+  "facts": [
+    {
+      "claim": "The Gujarat widow pension scheme is officially printed as 'Ganga Swarupa Pension Scheme' / 'ગંગા સ્વરૂપા બહેનોને આર્થિક સહાય યોજના' by the Women and Child Development Department.",
+      "kind": "ELIGIBILITY",
+      "subject": "widow_pension_gujarat",
+      "object": "scheme_name",
+      "detail": { "level": "STATE", "department": "Women and Child Development Department, Government of Gujarat" },
+      "sourceId": "src_wcd_ganga",
+      "evidence": "ગંગા સ્વરૂપા બહેનોને આર્થિક સહાય યોજના",
+      "confidence": 0.96
+    },
+    {
+      "claim": "The stated objective of the Ganga Swarupa scheme is economic self-reliance of widows, and the beneficiary type is a widowed woman.",
+      "kind": "ELIGIBILITY",
+      "subject": "widow_pension_gujarat",
+      "object": "beneficiary_type",
+      "detail": { "level": "STATE" },
+      "sourceId": "src_wcd_ganga",
+      "evidence": "યોજનાનો ઉદ્દેશ / હેતુઃ | વિધવાઓનું આર્થિક સ્વાવલંબન |\n| લાભાર્થીનો પ્રકાર | વિધવા મહિલા |",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Ganga Swarupa eligibility is a widow aged 18 years or above.",
+      "kind": "ELIGIBILITY",
+      "subject": "widow_pension_gujarat",
+      "object": "age",
+      "detail": { "level": "STATE", "minAge": 18 },
+      "sourceId": "src_wcd_ganga",
+      "evidence": "આ યોજના હેઠળ ૧૮ વર્ષ કે તેથી વધુ ઉંમરની વિધવા મહિલા",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The Ganga Swarupa income ceiling is Rs. 1,20,000 for rural areas and Rs. 1,50,000 for urban areas.",
+      "kind": "ELIGIBILITY",
+      "subject": "widow_pension_gujarat",
+      "object": "income_ceiling",
+      "detail": { "level": "STATE", "rural": "Rs. 1,20,000", "urban": "Rs. 1,50,000", "period": "annual" },
+      "sourceId": "src_wcd_ganga",
+      "evidence": "ગ્રામીણ વિસ્તાર માટે રૂ.૧,૨૦,૦૦૦ અને<br>શહેર વિસ્તાર માટે રૂ.૧,૫૦,૦૦૦",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The English mirror on myScheme states the applicant's annual income must not exceed Rs 1,20,000 in rural areas and Rs 1,50,000 in urban areas, and the applicant must be a resident of Gujarat.",
+      "kind": "ELIGIBILITY",
+      "subject": "widow_pension_gujarat",
+      "object": "income_ceiling_and_residency",
+      "detail": { "level": "STATE" },
+      "sourceId": "src_myscheme_gspsg",
+      "evidence": "The applicant must be a resident of Gujarat.\n\nThe applicant must be a widowed woman.\n\nThe applicant must be aged 18 years or above.\n\nThe applicant's annual income must not exceed ₹1,20,000/- in rural areas and ₹1,50,000/- in urban areas.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Ganga Swarupa pays monthly assistance of Rs. 1250 credited directly into the beneficiary's post office account.",
+      "kind": "TIMELINE",
+      "subject": "widow_pension_gujarat",
+      "object": "monthly_amount",
+      "detail": { "level": "STATE", "amount": "Rs. 1250", "frequency": "monthly", "disbursement": "post office account" },
+      "sourceId": "src_wcd_ganga",
+      "evidence": "માસિક રૂ. ૧૨૫૦ લાભાર્થીના પોસ્ટ ખાતામાં સીધી જમા થાય છે.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "myScheme confirms the Ganga Swarupa benefit as monthly financial assistance of Rs 1,250 deposited directly into post office accounts.",
+      "kind": "TIMELINE",
+      "subject": "widow_pension_gujarat",
+      "object": "monthly_amount",
+      "detail": { "level": "STATE", "amount": "₹1,250", "disbursement": "Post Office account" },
+      "sourceId": "src_myscheme_gspsg",
+      "evidence": "Eligible beneficiaries receive a monthly pension directly deposited into their Post Office accounts.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "The Ganga Swarupa application form, with the listed proofs, must be submitted to the Taluka Mamlatdar, who verifies it and sanctions the assistance.",
+      "kind": "OFFICE",
+      "subject": "widow_pension_gujarat",
+      "object": "receiving_office",
+      "detail": { "level": "STATE", "office": "Taluka Mamlatdar", "decisionMaker": "Mamlatdar" },
+      "sourceId": "src_wcd_ganga",
+      "evidence": "ફોર્મમાં જણાવેલ પુરાવા અને વિગત સાથેનું ફોર્મ ભરી તાલુકા મામલતદારને રજુ કરવાનું હોય છે. મામલતદારશ્રી દ્વારા ચકાસણી કરી સહાય મંજુર કરવામાં આવે છે.",
+      "confidence": 0.96
+    },
+    {
+      "claim": "The Ganga Swarupa application process is offline: the form is obtained from the Taluka Mamlatdar's office and the Mamlatdar verifies and approves it.",
+      "kind": "CHANNEL",
+      "subject": "widow_pension_gujarat",
+      "object": "application_channel",
+      "detail": { "level": "STATE", "mode": "Offline" },
+      "sourceId": "src_myscheme_gspsg",
+      "evidence": "Step 1: Obtain the application form from Taluka Mamlatdar's office.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "Ganga Swarupa is implemented at state level by the Director, Women Welfare / Commissioner, Women and Child Development, Block No. 20, Dr. Jivraj Mehta Bhavan, Gandhinagar, and at district level by the Mamlatdar and the Dowry Prohibition Officer cum Protection Officer.",
+      "kind": "OFFICE",
+      "subject": "widow_pension_gujarat",
+      "object": "implementing_office",
+      "detail": { "level": "STATE", "stateOffice": "Block No. 20, Dr. Jivraj Mehta Bhavan, Gandhinagar", "districtOffice": "Mamlatdar / Dowry Prohibition Officer cum Protection Officer" },
+      "sourceId": "src_wcd_ganga",
+      "evidence": "નિયામકશ્રી, મહિલા કલ્યાણ , કમિશનર, મહિલા અને બાળ વિકાસની કચેરી બ્લોક નં.૨૦, ડૉ. જીવરાજ મહેતા ભવન, ગાંધીનગર.<br>જિલ્લા સ્તરે ઃ મામલતદારશ્રી, દહેજ પ્રતિબંધક અધિકારી સહ રક્ષણ અધિકારીની કચેરી",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Ganga Swarupa requires at application: photo of the widow, ration card copy, school leaving certificate, income certificate, husband's death certificate, election card/Aadhaar card, light bill, birth certificate and a widowhood certificate.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "widow_pension_gujarat",
+      "object": "documents",
+      "detail": { "level": "STATE" },
+      "sourceId": "src_wcd_ganga",
+      "evidence": "વિધવા બહેનનો ફોટો, રેશન કાર્ડની નકલ, શાળા છોડ્‌યાનું પ્રમાણપત્ર, આવકનો દાખલો, પતિના મૃત્યુનો દાખલો, ચૂંટણી કાર્ડ/આધાર કાર્ડ, લાઈટ બીલ, જન્મ પ્રમાણપત્ર, વિધવા હોવા અંગેનો દાખલો",
+      "confidence": 0.95
+    },
+    {
+      "claim": "IGNWPS is a central non-contributory pension scheme of the Ministry of Rural Development for widows of BPL families.",
+      "kind": "ELIGIBILITY",
+      "subject": "widow_pension_central",
+      "object": "ignwps",
+      "detail": { "level": "CENTRAL", "ministry": "Ministry of Rural Development" },
+      "sourceId": "src_myscheme_ignwps",
+      "evidence": "Indira Gandhi National Widow Pension Scheme (IGNWPS) is implemented by Ministry of Rural Development, Government of India. It is a non-contributory pension scheme to provide social security to widows of poor family (BPL) of the society.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "myScheme states IGNWPS pays Rs 300 per month for widows aged 40 to 79 and Rs 500 per month for those 80 and above.",
+      "kind": "TIMELINE",
+      "subject": "widow_pension_central",
+      "object": "monthly_amount",
+      "detail": { "level": "CENTRAL", "band_40_79": "₹300", "band_80_plus": "₹500", "conflictsWith": "src_nsap_about and src_anand_ignwps" },
+      "sourceId": "src_myscheme_ignwps",
+      "evidence": "A pension of ₹ 300/- per month is provided to Widows between 40 years and 79 years. For persons who are 80 years and above, the pension is ₹ 500/- per month.",
+      "confidence": 0.85
+    },
+    {
+      "claim": "IGNWPS eligibility requires the applicant to be a widow aged 40-79 from a household below the poverty line as per Government of India criteria.",
+      "kind": "ELIGIBILITY",
+      "subject": "widow_pension_central",
+      "object": "age_and_bpl",
+      "detail": { "level": "CENTRAL" },
+      "sourceId": "src_myscheme_ignwps",
+      "evidence": "The applicant must be a widow in the age group of 40-79 years.\n\nThe applicant should belong to a household living below the poverty line according to the criteria prescribed by the Govt. of India",
+      "confidence": 0.9
+    },
+    {
+      "claim": "IGNWPS pension stops on remarriage of the widow or once she moves above the poverty line.",
+      "kind": "CONDITIONAL_REQUIREMENT",
+      "subject": "widow_pension_central",
+      "object": "exclusions",
+      "detail": { "level": "CENTRAL" },
+      "sourceId": "src_myscheme_ignwps",
+      "evidence": "In case of remarriage of widow\n\nOnce the widow moves above poverty line",
+      "confidence": 0.92
+    },
+    {
+      "claim": "IGNWPS requires the husband's death certificate carrying the surviving widow's name, a BPL card, and age proof, where a birth or school certificate is preferred and a government Medical Officer's age certificate is the fallback.",
+      "kind": "ACCEPTED_ALTERNATIVES",
+      "subject": "widow_pension_central",
+      "object": "documents",
+      "detail": { "level": "CENTRAL" },
+      "sourceId": "src_myscheme_ignwps",
+      "evidence": "Age Proof - For age, the birth certificate or school certificate may be relied on. In their absence ration card and EPIC may be considered. If there is no valid document, any Medical Officer of any government hospital may be authorized to issue the age certificate.",
+      "confidence": 0.9
+    },
+    {
+      "claim": "IGNWPS can be applied for online through the UMANG portal by logging in with a mobile number and OTP and searching for NSAP.",
+      "kind": "CHANNEL",
+      "subject": "widow_pension_central",
+      "object": "application_channel",
+      "detail": { "level": "CENTRAL", "url": "https://web.umang.gov.in/web_new/home" },
+      "sourceId": "src_myscheme_ignwps",
+      "evidence": "Step 01: Visit the official website of the UMANG portal, https://web.umang.gov.in/web_new/home",
+      "confidence": 0.88
+    },
+    {
+      "claim": "NSAP's own about page states IGNWPS gives BPL widows aged 40-59 a monthly pension of Rs. 200, later approved for the 40-64 age group at Rs. 200 per month.",
+      "kind": "TIMELINE",
+      "subject": "widow_pension_central",
+      "object": "monthly_amount",
+      "detail": { "level": "CENTRAL", "amount": "Rs. 200", "ageBand": "40-59, later 40-64", "conflictsWith": "src_myscheme_ignwps and src_anand_ignwps" },
+      "sourceId": "src_nsap_about",
+      "evidence": "**Indira Gandhi National Widow Pension Scheme (IGNWPS):** BPL widows aged 40-59 years are entitled to a monthly pension of Rs. 200/-.",
+      "confidence": 0.85
+    },
+    {
+      "claim": "NSAP's about page states IGNOAPS gives BPL persons aged 60 or above a monthly pension of Rs. 200 up to 79 years and Rs. 500 thereafter.",
+      "kind": "TIMELINE",
+      "subject": "old_age_pension_central",
+      "object": "monthly_amount",
+      "detail": { "level": "CENTRAL", "band_60_79": "Rs. 200", "band_80_plus": "Rs. 500", "conflictsWith": "src_sje_ignoaps and src_anand_ignoaps" },
+      "sourceId": "src_nsap_about",
+      "evidence": "**Indira Gandhi National Old Age Pension Scheme (IGNOAPS):** Under the scheme, BPL persons aged 60 years or above are entitled to a monthly pension of Rs. 200/- up to 79 years of age and Rs.500/- thereafter.",
+      "confidence": 0.88
+    },
+    {
+      "claim": "The eligibility age for IGNOAPS was reduced to 60 years with effect from 1 April 2011.",
+      "kind": "ELIGIBILITY",
+      "subject": "old_age_pension_central",
+      "object": "age",
+      "detail": { "level": "CENTRAL", "minAge": 60, "effectiveFrom": "2011-04-01" },
+      "sourceId": "src_nsap_about",
+      "evidence": "the eligibility age for pension under IGNOAPS has been reduced to 60 years w.e.f. 1st April, 2011.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "Gram Panchayats and Municipalities are expected to play an active role in identifying NSAP beneficiaries.",
+      "kind": "OFFICE",
+      "subject": "old_age_pension_central",
+      "object": "identification_body",
+      "detail": { "level": "CENTRAL" },
+      "sourceId": "src_nsap_about",
+      "evidence": "The Gram Panchayat / Municipalities are expected to play an active role in the identification of the beneficiaries under the three schemes.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "NSAP benefits may be disbursed through bank accounts, Post Office Savings Bank accounts, postal money order, or in public meetings such as Gram Sabha meetings.",
+      "kind": "CHANNEL",
+      "subject": "old_age_pension_central",
+      "object": "disbursement",
+      "detail": { "level": "CENTRAL" },
+      "sourceId": "src_nsap_about",
+      "evidence": "Apart from the disbursal of benefits through the accounts of the beneficiaries in Banks or in Post Office Savings Banks or through Postal Money Order the assistance under NOAPS, may also be disbursed in public meetings such as Gram Sabha meetings in rural areas and by neighbourhood / mohalla committees in urban areas.",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Gujarat's Social Defence directorate lists IGNOAPS under the name 'Indira Gandhi National old pension (vayvandana scheme)' with eligibility of age 60 or more and membership of a family scoring 0 to 20 in the BPL list.",
+      "kind": "ELIGIBILITY",
+      "subject": "old_age_pension_central",
+      "object": "gujarat_ignoaps_eligibility",
+      "detail": { "level": "CENTRAL_VIA_STATE", "minAge": 60, "bplScore": "0 to 20" },
+      "sourceId": "src_sje_ignoaps",
+      "evidence": "(A) Elligibility Criteria:  \n1. 60 years or more  \n2. Member of family in 0 to 20 score of BPL list",
+      "confidence": 0.93
+    },
+    {
+      "claim": "In Gujarat an IGNOAPS application is given at the respective Mamlatdar office or the Jan Seva Kendra of the respective district collector office.",
+      "kind": "OFFICE",
+      "subject": "old_age_pension_central",
+      "object": "receiving_office",
+      "detail": { "level": "CENTRAL_VIA_STATE", "offices": ["Mamlatdar office", "Jan Seva Kendra of district collector office"] },
+      "sourceId": "src_sje_ignoaps",
+      "evidence": "(B) Place to give application: respective mamlatdar office, jansevaKendra of respective district collector offices",
+      "confidence": 0.94
+    },
+    {
+      "claim": "The documents to attach to a Gujarat IGNOAPS application are an age certificate and a BPL certificate.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "old_age_pension_central",
+      "object": "documents",
+      "detail": { "level": "CENTRAL_VIA_STATE" },
+      "sourceId": "src_sje_ignoaps",
+      "evidence": "(C) Documents to be attached with application  \n1. Age Certificate  \n2. BPL Certificate",
+      "confidence": 0.93
+    },
+    {
+      "claim": "In Gujarat IGNOAPS pays Rs. 750 per month for ages 60 to 79 and Rs. 1000 for 80 and above, which includes Rs. 500 contributed by the State Government.",
+      "kind": "TIMELINE",
+      "subject": "old_age_pension_central",
+      "object": "monthly_amount",
+      "detail": { "level": "CENTRAL_VIA_STATE", "band_60_79": "Rs.750", "band_80_plus": "Rs.1000", "stateShare": "Rs. 500" },
+      "sourceId": "src_sje_ignoaps",
+      "evidence": "(D) Monthly Assistance: Rs.750/- for 60 to 79 age group and Rs. 1000/- for more than 80 years which also includes Rs. 500/- by State Government",
+      "confidence": 0.92
+    },
+    {
+      "claim": "Gujarat IGNOAPS assistance is paid by money order, with the option of receiving it through a post office or bank account by DBT credit.",
+      "kind": "CHANNEL",
+      "subject": "old_age_pension_central",
+      "object": "disbursement",
+      "detail": { "level": "CENTRAL_VIA_STATE" },
+      "sourceId": "src_sje_ignoaps",
+      "evidence": "(E) Mode of assistance : By money order. Option to get finanicial assistance through Post Account or Bank Acccount pension by D.B.T. credit.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "The Gujarat state old-age scheme is printed as 'Finacial assistance to destitute older persons (Scheme of State Government)' and 'Niradhar Vriddha Pension Yojana (State Government Scheme)'.",
+      "kind": "ELIGIBILITY",
+      "subject": "old_age_pension_gujarat",
+      "object": "scheme_name",
+      "detail": { "level": "STATE", "department": "Director, Social Defence, Social Justice & Empowerment Department" },
+      "sourceId": "src_sje_vrudh",
+      "evidence": "Niradhar Vriddha Pension Yojana (State Government Scheme)",
+      "confidence": 0.94
+    },
+    {
+      "claim": "The Gujarat state old-age pension covers persons aged 60 years or above.",
+      "kind": "ELIGIBILITY",
+      "subject": "old_age_pension_gujarat",
+      "object": "age",
+      "detail": { "level": "STATE", "minAge": 60 },
+      "sourceId": "src_sje_vrudh",
+      "evidence": "Elderly people of 60 years or above under this scheme.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "For a disabled applicant the Gujarat state old-age pension applies at disability of more than 75% and age 45 years or above.",
+      "kind": "ELIGIBILITY",
+      "subject": "old_age_pension_gujarat",
+      "object": "disability_route",
+      "condition": "applicant is a disabled person",
+      "detail": { "level": "STATE", "disability": ">75%", "minAge": 45 },
+      "sourceId": "src_sje_vrudh",
+      "evidence": "In case of a disabled person, disability of more than 75% and age limit of 45 years or above.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "The Gujarat state old-age applicant should not have a son or grandson aged 21 or above, unless that son or grandson is mentally unstable, disabled, unable to earn or suffering a serious illness such as cancer or T.B.",
+      "kind": "ELIGIBILITY",
+      "subject": "old_age_pension_gujarat",
+      "object": "destitution_test",
+      "detail": { "level": "STATE" },
+      "sourceId": "src_sje_vrudh",
+      "evidence": "Should not have a son or grandson of 21 years or above and if he is alive and is mentally unstable or disabled and is unable to earn or is suffering from a serious illness like cancer, T.B. then application can be made.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "The Gujarat state old-age pension requires permanent residence in Gujarat for at least 10 years.",
+      "kind": "ELIGIBILITY",
+      "subject": "old_age_pension_gujarat",
+      "object": "residency",
+      "detail": { "level": "STATE", "years": 10 },
+      "sourceId": "src_sje_vrudh",
+      "evidence": "Applicants who have been permanently residing in Gujarat for at least 10 years.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "The Gujarat state old-age pension income ceiling is Rs. 1,20,000 annually in rural areas and Rs. 1,50,000 in urban areas.",
+      "kind": "ELIGIBILITY",
+      "subject": "old_age_pension_gujarat",
+      "object": "income_ceiling",
+      "detail": { "level": "STATE", "rural": "Rs. 1,20,000", "urban": "Rs. 1,50,000" },
+      "sourceId": "src_sje_vrudh",
+      "evidence": "The annual income of the applicant should not exceed Rs. 1,20,000/- in rural areas and Rs. 1,50,000/- in urban areas.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "An alternative BPL route for the Gujarat state old-age pension requires rural applicants to be in the BPL list with a score of 0 to 20.",
+      "kind": "ACCEPTED_ALTERNATIVES",
+      "subject": "old_age_pension_gujarat",
+      "object": "bpl_route",
+      "detail": { "level": "STATE", "bplScore": "0 to 20" },
+      "sourceId": "src_sje_vrudh",
+      "evidence": "Applicants from rural areas should be included in the BPL list below the poverty line with a score of 0 to 20.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "The Gujarat state old-age pension application can be made online from the Jan Seva Kendra, the Mamlatdar Office, or the Gram Panchayat at village level via the Digital Gujarat portal.",
+      "kind": "CHANNEL",
+      "subject": "old_age_pension_gujarat",
+      "object": "application_channel",
+      "detail": { "level": "STATE", "offices": ["Jan Seva Kendra", "Mamlatdar Office", "Gram Panchayat"], "portal": "https://www.digitalgujarat.gov.in/" },
+      "sourceId": "src_sje_vrudh",
+      "evidence": "Online application can be made from the Jan Seva Kendra, Mamlatdar Office, Gram Panchayat at the village level of the concerned district/taluka. https://www.digitalgujarat.gov.in/",
+      "confidence": 0.94
+    },
+    {
+      "claim": "The Gujarat state old-age pension form is available free of cost at the Mamlatdar's Office and at the District Collector's Office, and can be downloaded from the official Digital Seva Setu scheme portal.",
+      "kind": "CHANNEL",
+      "subject": "old_age_pension_gujarat",
+      "object": "form_availability",
+      "detail": { "level": "STATE", "fee": "free of cost", "downloadUrl": "https://digitalsevasetu.gujarat.gov.in/SchemPortal/ServiceGroup.aspx" },
+      "sourceId": "src_sje_vrudh",
+      "evidence": "This application form can be obtained free of cost from the Mamlatdar's Office.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "At village level the Gujarat state old-age pension application can be made online from the Gram Panchayat by the Village Computer Entrepreneur (V.C.E.).",
+      "kind": "CHANNEL",
+      "subject": "old_age_pension_gujarat",
+      "object": "village_channel",
+      "detail": { "level": "STATE", "operator": "V.C.E. at Gram Panchayat" },
+      "sourceId": "src_sje_vrudh",
+      "evidence": "At the village level (V.C.E.) the application can be made online from the Gram Panchayat.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "The authority to approve or reject a Gujarat state old-age pension application is delegated to the Mamlatdar, and the scheme is implemented by the concerned Mamlatdar office.",
+      "kind": "OFFICE",
+      "subject": "old_age_pension_gujarat",
+      "object": "deciding_authority",
+      "detail": { "level": "STATE", "authority": "Mamlatdar" },
+      "sourceId": "src_sje_vrudh",
+      "evidence": "The authority to approve/reject has been delegated to the Mamlatdar.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "A rejected Gujarat state old-age pension application can be appealed to the Provincial Officer within 60 days.",
+      "kind": "GRIEVANCE",
+      "subject": "old_age_pension_gujarat",
+      "object": "appeal",
+      "detail": { "level": "STATE", "authority": "Provincial Officer", "deadlineDays": 60 },
+      "sourceId": "src_sje_vrudh",
+      "evidence": "There is a provision to file an appeal application to the Provincial Officer within 60 days of the rejected application.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "The Gujarat state old-age pension pays Rs. 1000 per month to beneficiaries aged 60 to 79 and Rs. 1250 to those aged 80 or more.",
+      "kind": "TIMELINE",
+      "subject": "old_age_pension_gujarat",
+      "object": "monthly_amount",
+      "detail": { "level": "STATE", "band_60_79": "Rs. 1000", "band_80_plus": "Rs. 1250" },
+      "sourceId": "src_sje_vrudh",
+      "evidence": "Monthly assistance of Rs. 1000/- is paid to the beneficiary aged 60 to 79 years and Rs. 1250/- to the beneficiary aged 80 years or more.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "Gujarat state old-age pension payment is made through DBT into the beneficiary's post office or bank account.",
+      "kind": "CHANNEL",
+      "subject": "old_age_pension_gujarat",
+      "object": "disbursement",
+      "detail": { "level": "STATE", "method": "DBT" },
+      "sourceId": "src_sje_vrudh",
+      "evidence": "Payment is made through DBT to the beneficiary's post or bank account.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "The District Anand NIC page states that IGNOAPS was launched by the Ministry of Rural Development and covers BPL persons aged 60 and above, revised downwards from 65 in 2011.",
+      "kind": "ELIGIBILITY",
+      "subject": "old_age_pension_central",
+      "object": "ignoaps",
+      "detail": { "level": "CENTRAL" },
+      "sourceId": "src_anand_ignoaps",
+      "evidence": "It was launched by Ministry of Rural Development. All persons of 60 years and above (revised downwards from 65 in 2011) and belonging to below the poverty line category",
+      "confidence": 0.9
+    },
+    {
+      "claim": "The District Anand page lists IGNOAPS documents as a BPL score card rated 0-16, address proof, age proof and citizenship proof.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "old_age_pension_central",
+      "object": "documents",
+      "detail": { "level": "CENTRAL", "district": "Anand", "bplScore": "0-16" },
+      "sourceId": "src_anand_ignoaps",
+      "evidence": "BPL Score card rated 0-16. Address proof. Age proof. Citizenship proof.",
+      "confidence": 0.88
+    },
+    {
+      "claim": "The District Anand page states IGNWPS covers all widows aged 18 or above belonging to the BPL category, payable until she remarries or her son attains 21 years.",
+      "kind": "ELIGIBILITY",
+      "subject": "widow_pension_central",
+      "object": "district_variant",
+      "detail": { "level": "CENTRAL", "district": "Anand", "amount": "Rs. 700/-", "conflictsWith": "src_nsap_about and src_myscheme_ignwps" },
+      "sourceId": "src_anand_ignwps",
+      "evidence": "Widow from BPL family aged 18 or above, get the amount of 700/- per month till she gets remarried or her son attend the age of 21.",
+      "confidence": 0.8
+    },
+    {
+      "claim": "The District Anand page lists IGNWPS documents as a BPL score card, address proof, age proof and citizenship proof.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "widow_pension_central",
+      "object": "documents",
+      "detail": { "level": "CENTRAL", "district": "Anand" },
+      "sourceId": "src_anand_ignwps",
+      "evidence": "BPL Score card rated. Address proof. Age proof. Citizenship proof.",
+      "confidence": 0.87
+    },
+    {
+      "claim": "NSAP also includes the National Family Benefit Scheme, a lump sum of Rs. 10,000 to a BPL household on the death of the primary breadwinner aged between 18 and 64 years.",
+      "kind": "ELIGIBILITY",
+      "subject": "widow_pension_central",
+      "object": "nfbs",
+      "detail": { "level": "CENTRAL", "amount": "Rs. 10.000/- as printed", "type": "lump sum" },
+      "sourceId": "src_nsap_about",
+      "evidence": "**National Family Benefit Scheme (NFBS):** Under the scheme a BPL household is entitled to lump sum amount of money on the death of primary breadwinner aged between 18 and 64 years. The amount of assistance is Rs. 10.000/-.",
+      "confidence": 0.85
+    }
+  ],
+  "notFound": [
+    "nsap.nic.in did not resolve in DNS on 2026-08-23 for any variant (nsap.nic.in, www.nsap.nic.in, nsap.gov.in), so no live NSAP page could be fetched. All NSAP facts come from an Internet Archive capture of the official page.",
+    "digitalgujarat.gov.in was unreachable (ERR_TUNNEL_CONNECTION_FAILED on two attempts), so the online Digital Gujarat pension service listing, its exact service names, its application-tracking screen and any service fee could not be verified. The portal is asserted here only as the URL printed on the official SJE page.",
+    "No official helpline number for the Ganga Swarupa (widow) pension or the Niradhar Vriddha (old age) pension could be found. The WCD Gujarat contact page carries only downloadable officer-list PDFs and no phone number.",
+    "No official application-tracking URL or status-check page for either Gujarat pension scheme or for NSAP could be retrieved. The only officially printed redressal route found is the 60-day appeal to the Provincial Officer for the state old-age scheme.",
+    "Official monthly amounts for IGNWPS conflict across official sources: Rs. 200 for ages 40-59 (nsap.nic.in), Rs. 300 for 40-79 and Rs. 500 for 80+ (myscheme.gov.in), Rs. 700 (anand.nic.in). Not resolved; all three recorded with their sources.",
+    "Official monthly amounts for IGNOAPS also conflict: Rs. 200 / Rs. 500 (nsap.nic.in), Rs. 400 / Rs. 700 in one section and Rs. 200 / Rs. 500 in another section of the same anand.nic.in page, and Rs. 750 / Rs. 1000 including a Rs. 500 state share (sje.gujarat.gov.in). Not resolved.",
+    "No official page was found publishing the widow scheme under the name 'Vidhva Sahay Yojana'; the Government of Gujarat WCD department prints it as 'Ganga Swarupa Pension Scheme'. Do not assert the older name as official.",
+    "The IGNWPS minimum age also conflicts between central sources (40 years) and the Gujarat state Ganga Swarupa scheme (18 years) and anand.nic.in's IGNWPS page (18 years). Treat as two distinct schemes rather than reconciling.",
+    "No official source could be retrieved stating that the District Social Defence Officer receives pension applications directly; the officially printed receiving points are the Taluka Mamlatdar, the Jan Seva Kendra at the District Collector office, and the Gram Panchayat (V.C.E.).",
+    "https://www.myscheme.gov.in/schemes/ignoaps returns 'Page not found'; the correct slug appears to be nsap-ignoaps but that scrape timed out and was not retried.",
+    "The sje.gujarat.gov.in root domain failed to scrape ('All scraping engines failed'); only the two deep scheme URLs listed in sources were retrievable."
+  ]
+}
