@@ -1,0 +1,7 @@
+# LF in the repo and LF on disk, on every machine.
+#
+# Without this, git on Windows checks out CRLF while the generators write LF,
+# so `pnpm bundles:build --check` compares 1866 bytes against 1837 and reports
+# the manifest stale on a clone that has not changed a thing. First command of
+# `pnpm gates`, so a fresh clone failed before it ran a single test.
+* text=auto eol=lf
