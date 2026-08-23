@@ -132,8 +132,10 @@ been read by a human being. So each one arrives with that said out loud, above
 the fee, before you believe anything under it.
 
 568 citations a person checked, 2507 a machine did. `pnpm coverage` prints the
-split per journey along with what each one admits it could not find, and
-`pnpm quotes:audit` is what stops either number from being a claim.
+split per journey, `pnpm quotes:audit` is what stops either number from being a
+claim, and `pnpm coverage --gaps` reads out the 74 things we went looking for and
+could not find, written down at the moment we gave up on each one. `/admin/coverage`
+shows the same 74 to anyone without a terminal.
 
 Known gaps, recorded rather than papered over: 925 pdfs in the cache we have no
 reader for, one state portal that renders entirely in javascript, and no

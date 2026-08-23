@@ -18432,10 +18432,10 @@
   "Rural Housing Interest Subsidy Scheme: a page mentions a mobile app (\"A mobile app for the Rural Housing Interest Subsidy Scheme (RHISS) is available for geo-referenced photographs.\") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.",
   "Rural Housing Interest Subsidy Scheme: a page mentions a mobile app (\"A mobile app link for the Rural Housing Interest Subsidy Scheme (RHISS) is available.\") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.",
   "Human Welfare Scheme: a page mentions a mobile app (\"The e-kutir mobile application is available for download.\") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.",
-  "RTE scheme: the page points at https://rte.orpgujarat.com/, which is not on a gov.in or nic.in host, so we could not prove from the name alone that government owns it and did not send anyone there.",
-  "Mudra loans: the page points at www.udyamimitra.in, which is not on a gov.in or nic.in host, so we could not prove from the name alone that government owns it and did not send anyone there.",
-  "Labour Accident Benefit Scheme: the page points at Sanman Portal for online Application, which is not on a gov.in or nic.in host, so we could not prove from the name alone that government owns it and did not send anyone there.",
-  "Higher Education Assistance Scheme: the page points at Sanman Portal, which is not on a gov.in or nic.in host, so we could not prove from the name alone that government owns it and did not send anyone there.",
+  "RTE scheme: the page links to rte.orpgujarat.com, which is not a gov.in or nic.in host, so we could not prove from the name alone that government owns it and did not send anyone there.",
+  "Mudra loans: the page links to www.udyamimitra.in, which is not a gov.in or nic.in host, so we could not prove from the name alone that government owns it and did not send anyone there.",
+  "Labour Accident Benefit Scheme: the page names \"Sanman Portal for online Application\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
+  "Higher Education Assistance Scheme: the page names \"Sanman Portal\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
   "scholarship: the hand written graph already answers to service:scholarship, so the pages found for it were not merged in. Reconciling the two is a job for a person."
  ]
 }

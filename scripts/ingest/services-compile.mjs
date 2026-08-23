@@ -288,15 +288,28 @@ const GOV_HOST = /(^|\.)(gov\.in|nic\.in)$/;
  * dropped, because "we recognise the brand" is not proof and the day it becomes
  * proof is the day somebody registers gujarat-tourism.com.
  */
-export function govUrl(value) {
+/**
+ * The parsed url a fact points at, whoever owns it, or null if it is not one.
+ *
+ * `detail.url` holds whatever the extractor found where a link should be, and
+ * that is not always a link: "Sanman Portal", "To view your document on
+ * DigiLocker, Click here.". A page that names a destination without printing
+ * its href and a page that links somewhere we will not vouch for are both gaps
+ * and they are not the same gap, so they do not get the same sentence.
+ */
+export function urlOf(value) {
   const raw = String(value ?? "").trim();
   if (!raw || !raw.includes(".") || /\s/.test(raw)) return null;
-  let url;
   try {
-    url = new URL(/^https?:\/\//i.test(raw) ? raw : `https://${raw}`);
+    return new URL(/^https?:\/\//i.test(raw) ? raw : `https://${raw}`);
   } catch {
     return null;
   }
+}
+
+export function govUrl(value) {
+  const url = urlOf(value);
+  if (!url) return null;
   const host = url.hostname.toLowerCase().replace(/^www\./, "");
   if (!GOV_HOST.test(host)) return null;
   // Keyed on the host without www, linked to the hostname the page wrote,
@@ -433,6 +446,10 @@ if (flag("selftest")) {
   assert.equal(govUrl("https://facebook.com/collector"), null);
   assert.equal(govUrl("https://gujarattourism.com"), null, "genuinely official, and we still cannot prove it from the name");
   assert.equal(govUrl("https://notgov.in.example.com/"), null, "gov.in has to end the hostname, not appear in it");
+
+  assert.equal(urlOf("https://gujarattourism.com/x")?.hostname, "gujarattourism.com", "not ours, still a link");
+  assert.equal(urlOf("Sanman Portal"), null, "the name of a portal is not a link");
+  assert.equal(urlOf("To view your document on DigiLocker, Click here."), null, "nor is the words on the link");
   assert.equal(govEmail("mam-mehsana@gujarat.gov.in"), "mam-mehsana@gujarat.gov.in");
   assert.equal(govEmail("collector.ahd@gmail.com"), null, "a collector using gmail is real and is still not a channel we can verify");
 
@@ -934,7 +951,12 @@ function build(journey, services) {
           // owns it. gujarattourism.com and mcjamnagar.com are genuinely
           // official and are dropped here anyway, because "we recognise the
           // brand" stops being a test the day somebody registers a lookalike.
-          gaps.push(`${service.name}: the page points at ${f.detail.url}, which is not on a gov.in or nic.in host, so we could not prove from the name alone that government owns it and did not send anyone there.`);
+          const dest = urlOf(f.detail.url);
+          gaps.push(
+            dest
+              ? `${service.name}: the page links to ${dest.hostname}, which is not a gov.in or nic.in host, so we could not prove from the name alone that government owns it and did not send anyone there.`
+              : `${service.name}: the page names "${f.detail.url}" as somewhere to go but printed no link to it, so there was nothing to send anyone to.`,
+          );
         } else if (f.kind === "GRIEVANCE") {
           const gId = `grievance:${slug(service.id)}`;
           put({ id: gId, type: "GRIEVANCE_CHANNEL", name: `Grievances about ${service.name.toLowerCase()}`, jurisdictionId, metadata: { channelType: "GRIEVANCE_PORTAL" }, sources: r });

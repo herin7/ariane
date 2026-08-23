@@ -1526,8 +1526,8 @@
   }
  ],
  "notFound": [
-  "DigiLocker: the page points at To view your document on DigiLocker, Click here., which is not on a gov.in or nic.in host, so we could not prove from the name alone that government owns it and did not send anyone there.",
-  "DigiLocker: the page points at To access FAQ before using DigiLocker, Click here., which is not on a gov.in or nic.in host, so we could not prove from the name alone that government owns it and did not send anyone there.",
+  "DigiLocker: the page names \"To view your document on DigiLocker, Click here.\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
+  "DigiLocker: the page names \"To access FAQ before using DigiLocker, Click here.\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
   "DigiLocker: a page mentions a mobile app (\"The GIDC Setu Mobile Application can be downloaded from the page.\") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.",
   "application for allotment of properties: a page mentions a mobile app (\"Applicants can download the GIDC Setu Mobile Application.\") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.",
   "certified copies: the hand written graph already answers to service:certified_copies, so the pages found for it were not merged in. Reconciling the two is a job for a person."
