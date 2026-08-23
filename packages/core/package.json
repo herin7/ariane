@@ -21,7 +21,8 @@
     "quotes:audit": "tsx src/cli/quotes.ts",
     "coverage": "tsx src/cli/coverage.ts",
     "db:push": "tsx --env-file-if-exists=../../.env src/cli/db-push.ts",
-    "graph:snapshot": "tsx src/cli/snapshot.ts"
+    "graph:snapshot": "tsx src/cli/snapshot.ts",
+    "intent:eval": "tsx --env-file-if-exists=../../.env src/cli/intent-eval.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.112.3",

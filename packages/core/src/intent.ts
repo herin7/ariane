@@ -5,9 +5,18 @@ import type { GraphData, GraphNode } from "./types";
  *
  * This is the ONLY place a model is ever allowed to touch, and even here it
  * may only choose among services that already exist in the graph. It never
- * invents a service, a requirement or an order. Until Bedrock and Sarvam are
- * wired up this runs on token overlap, which is enough for the five seeded
- * journeys and is honest about being a placeholder.
+ * invents a service, a requirement or an order.
+ *
+ * Nothing in this file calls a model. This is pass one: token overlap, free,
+ * instant and auditable, and it runs first precisely so the expensive passes
+ * only see what it could not answer. Sarvam and Bedrock live behind
+ * `/api/intents/resolve` and are reached only when this returns nothing
+ * confident.
+ *
+ * Know what that costs. `pnpm intent:eval` scores this column 3 out of 15 on
+ * citizens describing a problem rather than naming a service, against 12 to 14
+ * with the model. Overlap is the floor, not the product. It is here because a
+ * floor that is right every time is worth more than a guess.
  */
 
 export interface IntentMatch {
