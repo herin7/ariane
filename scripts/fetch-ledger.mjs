@@ -21,8 +21,9 @@
  */
 
 import { createHash } from "node:crypto";
-import { readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
+import { readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
+import { normalise } from "./lib/url.mjs";
 
 const root = new URL("../", import.meta.url);
 const at = (p) => fileURLToPath(new URL(p, root));
@@ -52,22 +53,6 @@ for (const file of readdirSync(researchDir).filter((f) => f.endsWith(".json"))) 
     if (source.scrapedOk === false) entry.fetchFailed = true;
     if (quotedIds.has(source.id)) entry.quoted = true;
     cited.set(key, entry);
-  }
-}
-
-/**
- * Trailing slashes and a `?utm_source=` do not make it a different page, and
- * treating them as different is exactly how you pay twice. Fragments never do.
- */
-function normalise(url) {
-  try {
-    const u = new URL(url);
-    u.hash = "";
-    for (const p of [...u.searchParams.keys()]) if (/^(utm_|fbclid|gclid)/.test(p)) u.searchParams.delete(p);
-    u.pathname = u.pathname.replace(/\/+$/, "") || "/";
-    return u.toString();
-  } catch {
-    return url;
   }
 }
 
