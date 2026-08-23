@@ -17,7 +17,10 @@
     "journey:test": "pnpm --filter @ariane/core journey:test",
     "quotes:audit": "pnpm --filter @ariane/core quotes:audit",
     "db:push": "pnpm --filter @ariane/core db:push",
-    "verify:live": "node scripts/verify-live.mjs"
+    "verify:live": "node scripts/verify-live.mjs",
+    "domains:build": "node scripts/domains.mjs",
+    "fetch:ledger": "node scripts/fetch-ledger.mjs",
+    "fetch:have": "node scripts/fetch-ledger.mjs --have"
   },
   "devDependencies": {
     "typescript": "^5.9.2"

@@ -12,9 +12,12 @@ TODO.md
 *.plan.md
 .claude/
 
-# raw scrape cache. per docs/research/README.md raw pages are not graph data,
-# they are the layer before it. kept locally, extracted into docs/research/*.json
-.firecrawl/
+# .firecrawl/ used to be ignored, on the theory that raw pages are not graph
+# data. true, and beside the point: ignoring it meant every clone had the
+# citations and none of the pages, so the first thing a second machine did was
+# refetch six hundred public pages we already had. the cache is committed now.
+# it is 1.3M of public government html and it is the difference between "we
+# fetched this once" and "we fetch this once per checkout".
 
 # deps
 node_modules/
