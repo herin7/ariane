@@ -14,7 +14,8 @@
     "graph:stats": "pnpm --filter @ariane/core graph:stats",
     "graph:validate": "pnpm --filter @ariane/core graph:validate",
     "journey:test": "pnpm --filter @ariane/core journey:test",
-    "quotes:audit": "pnpm --filter @ariane/core quotes:audit"
+    "quotes:audit": "pnpm --filter @ariane/core quotes:audit",
+    "db:push": "pnpm --filter @ariane/core db:push"
   },
   "devDependencies": {
     "typescript": "^5.9.2"
