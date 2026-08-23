@@ -214,10 +214,60 @@ try {
   // no classification run on this machine yet, which just means we map more
 }
 
-const hosts = registry
-  .filter((r) => WORTH_MAPPING.has(r.category) && !dead.has(r.host))
-  .map((r) => r.host)
-  .filter((h) => !value("host", null) || h === value("host", null));
+/**
+ * The doors that are not in Gujarat.
+ *
+ * The 800 host capture is gujarat.gov.in only, and `central-portals.tsv` opens
+ * by saying so: a passport is the Ministry of External Affairs, Aadhaar is
+ * UIDAI, GST is the GST Council, a voter id is the Election Commission. None of
+ * it is under gujarat.gov.in and no amount of classifying that file will find
+ * it, which is exactly what the first full run demonstrated: 4383 facts, and
+ * zero of them about a passport, a voter id, GST or a startup.
+ *
+ * That file is a pointer list and every row in it is UNVERIFIED by its own
+ * header. It is used here only to decide where to knock. It is never a citation,
+ * and nothing in it reaches a citizen without a verbatim quote from a page we
+ * actually fetched, same as everything else.
+ */
+function centralPortals() {
+  const byHost = new Map();
+  let text;
+  try {
+    text = readFileSync(at("docs/research/domains/central-portals.tsv"), "utf8");
+  } catch {
+    return byHost;
+  }
+  for (const line of text.split("\n")) {
+    if (!line.trim() || line.startsWith("#")) continue;
+    const [journey, , , url] = line.split("\t");
+    if (!url?.startsWith("http")) continue;
+    const host = hostOf(url);
+    if (!host) continue;
+    if (!byHost.has(host)) byHost.set(host, { host, category: "SERVICE_PORTAL", journeys: new Set(), urls: [] });
+    const entry = byHost.get(host);
+    entry.journeys.add(journey);
+    entry.urls.push({ url: normalise(url), title: null, description: null, journey });
+  }
+  return byHost;
+}
+
+const central = centralPortals();
+
+/** Gujarat hosts worth mapping, plus the central portals, deduped by host. */
+const targets = [];
+const claimed = new Set();
+for (const r of registry) {
+  if (!WORTH_MAPPING.has(r.category) || dead.has(r.host) || claimed.has(r.host)) continue;
+  claimed.add(r.host);
+  targets.push({ host: r.host, category: r.category });
+}
+for (const c of central.values()) {
+  if (claimed.has(c.host)) continue;
+  claimed.add(c.host);
+  targets.push({ host: c.host, category: c.category });
+}
+
+const hosts = targets.map((t) => t.host).filter((h) => !value("host", null) || h === value("host", null));
 
 mkdirSync(at(MAPS), { recursive: true });
 
@@ -246,7 +296,13 @@ const settled = (host) => {
   return m !== null && (!m.failure || (m.attempts ?? 1) >= MAX_ATTEMPTS);
 };
 
-const todo = hosts.filter((h) => !settled(h)).slice(0, Number(value("limit", Infinity)));
+// Central portals first. Firecrawl's map rate limit is the real constraint on
+// wall clock here, so the order of this queue is the order coverage arrives in,
+// and a passport is worth more than the four hundredth Gujarat department.
+const todo = hosts
+  .filter((h) => !settled(h))
+  .sort((a, b) => Number(central.has(b)) - Number(central.has(a)))
+  .slice(0, Number(value("limit", Infinity)));
 
 console.log(`${hosts.length} hosts worth mapping, ${hosts.filter(settled).length} already settled, ${todo.length} to do`);
 
@@ -318,7 +374,7 @@ const seen = new Map();
 let mapped = 0;
 let offHost = 0;
 let harvestedUrls = 0;
-for (const r of registry) {
+for (const r of targets) {
   const file = cached(r.host);
   if (!file) continue;
   mapped++;
@@ -362,6 +418,44 @@ for (const r of registry) {
   }
 }
 
+/**
+ * The curated entry points, added by hand and floored at the threshold.
+ *
+ * `https://www.mea.gov.in/passport.htm` scores 0: nothing in the path or the
+ * title matches a rule, because the scorer is tuned for Gujarat's url habits and
+ * MEA does not share them. Dropping the front door of the passport journey
+ * because a regex written for a different estate did not recognise it would be
+ * silly, so a url a human wrote down as the door to knock on gets to be fetched.
+ *
+ * Floored, not forced: a curated url that already scores well keeps its score.
+ * And it buys a fetch, nothing more. It is still one page, still quoted or
+ * discarded by the same substring gate as every other page.
+ */
+let curated = 0;
+for (const c of central.values()) {
+  for (const link of c.urls) {
+    if (seen.has(link.url)) {
+      const row = seen.get(link.url);
+      row.journey ??= link.journey;
+      row.score = Math.max(row.score, THRESHOLD);
+      continue;
+    }
+    curated++;
+    seen.set(link.url, {
+      url: link.url,
+      host: hostOf(link.url),
+      hosts: [hostOf(link.url)],
+      category: "SERVICE_PORTAL",
+      title: null,
+      description: null,
+      journey: link.journey,
+      score: Math.max(score(link), THRESHOLD),
+      discovery: "central portals list",
+      discoveredAt: now,
+    });
+  }
+}
+
 const all = [...seen.values()].sort((a, b) => b.score - a.score || a.url.localeCompare(b.url));
 const above = all.filter((r) => r.score >= THRESHOLD);
 
@@ -387,7 +481,7 @@ const lowScore = rows.filter((r) => r.state === "SKIPPED_LOW_SCORE").length;
 
 appendJsonl(".ingest/runs.jsonl", [{ run: "services:discover", at: now, hostsMapped: mapped, urls: rows.length, discovered, overCap, lowScore, offHost }]);
 
-console.log(`\n${mapped} hosts mapped, ${rows.length} unique urls (${harvestedUrls} from homepages, free), ${offHost} off-host links dropped`);
+console.log(`\n${mapped} hosts mapped, ${rows.length} unique urls (${harvestedUrls} from homepages, ${curated} curated central entry points), ${offHost} off-host links dropped`);
 console.log(`  ${discovered} DISCOVERED (score >= ${THRESHOLD}, under the ${PAGE_CAP} cap)`);
 if (overCap) console.log(`  ${overCap} SKIPPED_OVER_CAP  <- scored well enough but the cap is ${PAGE_CAP}. Lowest kept score: ${above[PAGE_CAP - 1]?.score}`);
 console.log(`  ${lowScore} SKIPPED_LOW_SCORE`);
