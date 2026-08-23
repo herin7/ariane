@@ -46,8 +46,16 @@ export interface JourneyCoverage {
   byStatus: Partial<Record<VerificationStatus, number>>;
   /** Load bearing nodes carrying no evidence at all. The number that matters. */
   unsourced: string[];
-  /** Things the researcher looked for and could not find, in their own words. */
-  notFound: number;
+  /**
+   * Things we looked for and could not find, in the words they were recorded in.
+   *
+   * Carried as prose rather than a count on purpose. "9" says a journey has
+   * gaps; "digitalgujarat.gov.in is hard-blocked from scraping, so only the
+   * Mahesana evidence list could be verified officially" says which gap, and
+   * that is the sentence that decides whether a citizen should trust the rest
+   * of the page. A count of the things we admit to is not an admission.
+   */
+  notFound: string[];
   /** Sources cited but never fetched, so nothing can be quoted from them. */
   unfetched: number;
 }
@@ -84,7 +92,9 @@ export function coverageOf(name: string): JourneyCoverage {
     sources: bundle.sources.length,
     byStatus,
     unsourced: bundle.nodes.filter((n) => LOAD_BEARING.has(n.type) && !n.sources?.length).map((n) => n.id),
-    notFound: research.notFound?.length ?? 0,
+    // Strings only. Two of the fourteen research files were hand written and
+    // nothing stops the next one recording a gap as an object.
+    notFound: (research.notFound ?? []).filter((n): n is string => typeof n === "string"),
     unfetched: (research.sources ?? []).filter((s) => s.scrapedOk === false).length,
   };
 }
@@ -125,7 +135,7 @@ const columns: [string, (c: JourneyCoverage) => string][] = [
   ["extracted", (c) => String(c.byStatus.EXTRACTED ?? 0)],
   ["conflicting", (c) => String(c.byStatus.CONFLICTING ?? 0)],
   ["unsourced", (c) => String(c.unsourced.length)],
-  ["not found", (c) => String(c.notFound)],
+  ["not found", (c) => String(c.notFound.length)],
 ];
 
 const rows = [columns.map(([h]) => h), ...all.map((c) => columns.map(([, f]) => f(c)))];
@@ -147,6 +157,17 @@ if (unsourced.length) {
   console.log(`\n${unsourced.length} load bearing node(s) with no evidence at all:`);
   for (const id of unsourced.slice(0, 20)) console.log(`  ${id}`);
   if (unsourced.length > 20) console.log(`  ...and ${unsourced.length - 20} more`);
+}
+
+// Behind a flag because there are 74 of them and they are paragraphs, not ids.
+// The table says how many; this says which, and /admin/coverage shows the same
+// text to anyone who does not have a terminal.
+const gaps = all.flatMap((c) => c.notFound.map((n) => [c.journey, n] as const));
+if (args.includes("--gaps")) {
+  console.log(`\n${gaps.length} thing(s) we looked for and could not find:`);
+  for (const [journey, note] of gaps) console.log(`\n  [${journey}] ${note}`);
+} else if (gaps.length) {
+  console.log(`\n${gaps.length} thing(s) we looked for and could not find. Run with --gaps to read them.`);
 }
 
 const unfetched = total((c) => c.unfetched);
