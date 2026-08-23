@@ -506,6 +506,7 @@ export class JourneyCompiler {
         title: node.name,
         officialName: node.officialName,
         state: ctx.nodeStates[id] ?? "READY",
+        description: node.description,
         whyRequired: node.metadata?.whyRequired,
         whatToDo: node.metadata?.whatToDo,
         expectedOutput: node.metadata?.expectedOutput,

@@ -312,6 +312,7 @@ function Step({
       {step.officialName && step.officialName !== step.title ? (
         <Text style={styles.muted}>Officially: {step.officialName}</Text>
       ) : null}
+      {step.description ? <Text style={styles.body}>{step.description}</Text> : null}
       {step.whyRequired ? <Text style={styles.body}>{step.whyRequired}</Text> : null}
       {step.whatToDo ? <Text style={styles.body}>Do this: {step.whatToDo}</Text> : null}
       {step.expectedOutput ? <Text style={styles.body}>You get: {step.expectedOutput}</Text> : null}
