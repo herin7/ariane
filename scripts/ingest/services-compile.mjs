@@ -312,6 +312,44 @@ export function govEmail(value) {
   return GOV_HOST.test(raw.slice(at + 1)) ? raw : null;
 }
 
+/**
+ * True if this FEE fact is money the citizen hands over for this service.
+ *
+ * 334 FEE facts carry an amount and only 140 of them are a fee. The rest are
+ * money moving the other way or not moving at all: "Financial assistance of up
+ * to Rs. 15,000 is given", "The Gujarat Government has allocated Rs. 5500
+ * Crore", "A discretionary grant of Rs. 25 Lakh to each Prant Officer". Written
+ * onto a service as `fee` those read as a bill, and telling somebody a welfare
+ * scheme costs 5500 crore is worse than telling them nothing.
+ *
+ * A word test on the model's own sentence, deliberately. The extractor already
+ * decided this was about money; what it did not decide is which direction, and
+ * a page that says "fee" and does not say "subsidy" has said which direction.
+ * It loses "A token amount of 1000 rupees needs to be submitted", which is a
+ * real fee described without the word. Missing a fee is a gap. Inventing one is
+ * a lie, and §41 only forbids one of those.
+ */
+const PAYS = /\b(fee|fees|charge|charges|cost|costs|price|payable|pay)\b/i;
+const NOT_A_FEE = /\b(crore|allocat\w*|budget|outlay|subsid\w*|grant\w*|assistance|incentive|reimburs\w*|scholarship|stipend|benefit|award\w*|prize|loan|income|salary|turnover|investment)\b/i;
+export const isCitizenFee = (f) =>
+  f.kind === "FEE" && Boolean(f.detail?.amount) && PAYS.test(f.claim) && !NOT_A_FEE.test(f.claim);
+
+/**
+ * True if this TIMELINE fact is how long the government takes, not some other clock.
+ *
+ * Same shape of problem. 190 timeline facts carry a number of days and half of
+ * them are a deadline the citizen has to meet, a course length or a maintenance
+ * window: "An appeal must be filed within 60 days", "The course duration is 1
+ * month", "The website will be down on 13/06/2019". Shown as "how long this
+ * takes" every one of those is wrong, and the appeal one is wrong in the
+ * expensive direction, because a citizen who reads a 60 day filing deadline as
+ * a processing time misses it.
+ */
+const TAKES = /(processing time|time (?:limit|frame|period)|is (?:issued|delivered|provided)|will be (?:issued|delivered|provided)|issued (?:in|within)|delivered (?:in|within)|disposed of|completed (?:in|within)|takes)/i;
+const NOT_A_WAIT = /\b(appeal|revision|course duration|valid for|validity|renew\w*|before the|prior to|deadline for applying|last date)\b/i;
+export const isProcessingTime = (f) =>
+  f.kind === "TIMELINE" && Boolean(f.detail?.days) && TAKES.test(f.claim) && !NOT_A_WAIT.test(f.claim);
+
 // ----------------------------------------------------------------- self test
 
 if (flag("selftest")) {
@@ -364,6 +402,21 @@ if (flag("selftest")) {
   assert.equal(govUrl("https://notgov.in.example.com/"), null, "gov.in has to end the hostname, not appear in it");
   assert.equal(govEmail("mam-mehsana@gujarat.gov.in"), "mam-mehsana@gujarat.gov.in");
   assert.equal(govEmail("collector.ahd@gmail.com"), null, "a collector using gmail is real and is still not a channel we can verify");
+
+  const FEE = (claim) => ({ kind: "FEE", claim, detail: { amount: 1 } });
+  assert.ok(isCitizenFee(FEE("The course fee is Rs. 3,000 per year.")));
+  assert.ok(isCitizenFee(FEE("The camera fee for amateur photography is Rs. 200 for Indian nationals.")));
+  assert.ok(!isCitizenFee(FEE("The Gujarat Government has allocated Rs. 5500 Crore for health care.")), "money the state spends is not money you owe");
+  assert.ok(!isCitizenFee(FEE("Financial assistance of up to Rs. 15,000 is given for training programs.")), "money coming to you is not a fee");
+  assert.ok(!isCitizenFee({ kind: "FEE", claim: "The fee is Rs. 50.", detail: {} }), "a fee with no amount is a sentence, not a price");
+  assert.ok(!isCitizenFee({ kind: "TIMELINE", claim: "The fee is Rs. 50.", detail: { amount: 50 } }));
+
+  const WHEN = (claim) => ({ kind: "TIMELINE", claim, detail: { days: 1 } });
+  assert.ok(isProcessingTime(WHEN("The processing time for the Domicile Certificate is 1 day.")));
+  assert.ok(isProcessingTime(WHEN("The certificate is issued within 30 days after receiving the documents.")));
+  assert.ok(!isProcessingTime(WHEN("An appeal under Section 203 must be filed within 60 days of the decision.")), "a deadline you must meet read as a wait is the expensive way to be wrong");
+  assert.ok(!isProcessingTime(WHEN("The course duration is 1 month.")));
+  assert.ok(!isProcessingTime(WHEN("The website will be down on 13/06/2019 due to technical maintenance.")));
 
   assert.equal(officeName({ object: "jan_seva_kendra", detail: { address: "Near Subhash Bridge Circle" } }), "jan_seva_kendra");
   assert.equal(officeName({ object: "contact_email", detail: { email: "x@gujarat.gov.in" } }), null);
@@ -860,8 +913,8 @@ function build(journey, services) {
     // is one gap, not nine.
     notFound.push(...new Set(gaps));
 
-    const fees = service.pages.flatMap((c) => c.facts.filter((f) => f.kind === "FEE" && f.detail.amount));
-    const times = service.pages.flatMap((c) => c.facts.filter((f) => f.kind === "TIMELINE" && f.detail.days));
+    const fee = service.pages.flatMap((c) => c.facts).find(isCitizenFee);
+    const timeline = service.pages.flatMap((c) => c.facts).find(isProcessingTime);
 
     put({
       id: serviceNodeId,
@@ -880,8 +933,12 @@ function build(journey, services) {
         // this bundle was read by a machine and checked by a machine, and that
         // is a different thing from a person having looked at it.
         machineExtracted: true,
-        ...(fees[0]?.detail.amount ? { fee: String(fees[0].detail.amount) } : {}),
-        ...(times[0]?.detail.days ? { processingDays: String(times[0].detail.days) } : {}),
+        // The sentence, not the number. `{amount: 50}` rendered as "Fee: 50",
+        // which is not an answer to what it costs, and `processingDays` was
+        // written by this line and read by nobody, so 189 services had a
+        // published processing time that never reached a screen.
+        ...(fee ? { fee: fee.claim } : {}),
+        ...(timeline ? { timeline: timeline.claim } : {}),
       },
       sources: serviceRefs,
       lastVerifiedAt: today(),
