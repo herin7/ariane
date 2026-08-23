@@ -964,18 +964,6 @@
    "scrapedOk": true
   },
   {
-   "id": "src:3e35b27b1ef0",
-   "url": "https://www.mea.gov.in/apostille-menu",
-   "title": "Attestation / Apostille | Ministry of External Affairs , Government of India",
-   "domain": "mea.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "0bb62aee64937c473ffbb999e793d42c0874f2230af7dd6ea0577888db6e3a53",
-   "cacheFile": ".ingest/pages/3e35b27b1ef0e0c8bea79de1bf2cb9c6232f49de.md",
-   "scrapedOk": true
-  },
-  {
    "id": "src:9f5f3692e126",
    "url": "https://amreli.gujarat.gov.in/showpage.aspx?contentid=253",
    "title": "નકલ માટેની અરજીઓ નિકાલ કરવા બાબત | Revenue | Jan Seva Kendra Form | Collectorate - District Amreli",
@@ -10804,120 +10792,6 @@
    "confidence": 1
   },
   {
-   "claim": "A fee of Rs 50 is payable for Apostille of a document.",
-   "kind": "FEE",
-   "subject": "apostille_service",
-   "object": "citizen",
-   "detail": {
-    "amount": "50",
-    "currency": "INR"
-   },
-   "sourceId": "src:3e35b27b1ef0",
-   "evidence": "MEA: A fee of Rs 50 is payable for Apostille of document. (W.e.f 21 December 2016, payment by means of postal orders has been discontinued.) Normal Attestation is done free of cost.",
-   "confidence": 1
-  },
-  {
-   "claim": "Applicants must submit documents to one of the five outsourced service providers for Apostille or Attestation services.",
-   "kind": "CHANNEL",
-   "subject": "apostille_attestation_service",
-   "object": "outsourced_service_providers",
-   "detail": {
-    "names": [
-     "M/s BLS International Services Ltd.",
-     "M/s Superb Enterprises Pvt. Ltd.",
-     "M/s IVS Global Services Private Ltd.",
-     "M/s Alhind Tours & Travels Pvt. Ltd.",
-     "NORKA ROOTS"
-    ]
-   },
-   "sourceId": "src:3e35b27b1ef0",
-   "evidence": "Applicants are advised not to rely on unauthorised persons/touts for Apostille or Attestation services. Decentralization of Attestation/ Apostille Services W.e.f. January 01 2019, Attestation/Apostille services have been decentralized to Branch Secretariats/RPOs in 16 cities Ahemdabad, Bengaluru, Bhopal, Chennai, Chandigarh, Cochin, New Delhi, Guwahati, Hyderabad, Kolkata, Lucknow, Mumbai, Panaji, Jaipur, Patna and Thiruvanantapuram. The contact details of these RPOs and the collection centres of the five service providers in these 16 cities are as given above.NORKA ROOTS, a public sector company under the Department of Non-Resident Keralite Affairs, Government of Kerala is authorized to submit documents for Attestation/Apostille by RPO, Thiruvanantapuram. Applicants are requested to approach their respective Branch Secretariats/RPOs as enumerated above through the five outsourced service providers for obtaining the requisite services of apostille/attestation as required.",
-   "confidence": 1
-  },
-  {
-   "claim": "Applicants must apply for Attestation and Apostille services well in advance as the Ministry needs some time to verify and process the documents.",
-   "kind": "TIMELINE",
-   "subject": "apostille_attestation_service",
-   "object": "citizen",
-   "detail": {},
-   "sourceId": "src:3e35b27b1ef0",
-   "evidence": "Those applying for Attestation and Apostille services should apply well in advance as Ministry needs some time to verify and process the documents.",
-   "confidence": 1
-  },
-  {
-   "claim": "Applicants must submit a photocopy of the document and a photocopy of the applicant's passport when submitting documents for Apostille or Attestation.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "apostille_attestation_service",
-   "object": "citizen",
-   "detail": {
-    "required_documents": [
-     "photocopy of the document",
-     "photocopy of the applicant's passport"
-    ]
-   },
-   "sourceId": "src:3e35b27b1ef0",
-   "evidence": "The original document/true copy is to be submitted directly to any of the five outsourced service providers along with a photocopy of the document and a photocopy of the Passport of the applicant.",
-   "confidence": 1
-  },
-  {
-   "claim": "Applicants must not rely on unauthorized persons or touts for Apostille or Attestation services.",
-   "kind": "BLOCKER",
-   "subject": "apostille_attestation_service",
-   "object": "unauthorized_persons",
-   "detail": {},
-   "sourceId": "src:3e35b27b1ef0",
-   "evidence": "Applicants are advised not to rely on unauthorised persons/touts for Apostille or Attestation services.",
-   "confidence": 1
-  },
-  {
-   "claim": "Applicants can contact the Attestation Section/Apostille Cell for more information, suggestions, or any grievance.",
-   "kind": "GRIEVANCE",
-   "subject": "apostille_attestation_service",
-   "object": "citizen",
-   "detail": {
-    "address": "Attestation Section/Apostille Cell, Ministry of External Affairs, Jawahar Lal Nehru Bhawan, Janapath Marg, New Delhi-110011.",
-    "phone_numbers": [
-     "011-23088403 (Attestation)",
-     "011-23088404 (Apostille)"
-    ],
-    "emails": [
-     "usattestation[at]mea[dot]gov[dot]in",
-     "soatt1[at]mea[dot]gov[dot]in",
-     "sooi[at]mea[dot]gov[dot]in"
-    ]
-   },
-   "sourceId": "src:3e35b27b1ef0",
-   "evidence": "For more information, suggestions or any grievance please contact Attestation Section/Apostille Cell Ministry of External Affairs Jawahar Lal Nehru Bhawan, Janapath Marg, New Delhi-110011. 011-23088403 (Attestation) 011-23088404 (Apostille) CPV Division Ministry of External Affairs Patiala House Annexe, Tilak Marg New Delhi -110001 usattestation[at]mea[dot]gov[dot]in - soatt1[at]mea[dot]gov[dot]in sooi[at]mea[dot]gov[dot]in",
-   "confidence": 1
-  },
-  {
-   "claim": "Applicants can use the e-Sanad service for verification and attestation of documents.",
-   "kind": "CHANNEL",
-   "subject": "e_sanad_service",
-   "object": "citizen",
-   "detail": {
-    "description": "e-Service for verification & attestation of documents of Indian Citizens"
-   },
-   "sourceId": "src:3e35b27b1ef0",
-   "evidence": "A. E-sanad: e-Service for verification & attestation of documents of Indian Citizens Detatils of e-Sanad can be obtained by following thefollowing Link",
-   "confidence": 1
-  },
-  {
-   "claim": "Applicants must pay an additional service charge of Rs 84 per document and Rs 3 per page to the outsourced agencies for Apostille or Attestation services.",
-   "kind": "FEE",
-   "subject": "outsourced_service_providers",
-   "object": "citizen",
-   "detail": {
-    "apostille_fee": "84",
-    "attestation_fee": "84",
-    "scanning_charge": "3",
-    "currency": "INR"
-   },
-   "sourceId": "src:3e35b27b1ef0",
-   "evidence": "The fee chargeable is as follows Apostille Type of Service | MEA Fee | Outsource Agency Fee | | Service Charge | Scanning Charge | Apostille | Rs 50 per apostille sticker | Rs 84 per document | Rs. 3 per page | Attestation | Free of Cost | Rs 84 per document | Rs. 3 per page |",
-   "confidence": 1
-  },
-  {
    "claim": "The application process for obtaining certified copies must be completed within a total of 15 days.",
    "kind": "TIMELINE",
    "subject": "application_process",
@@ -11789,7 +11663,7 @@
   }
  ],
  "notFound": [
-  "certificate: a page listing 50 other services in this journey, not a service itself, so it was read for its links and not kept as somewhere to apply. Its pages: https://collectorpanchmahal.gujarat.gov.in/showpage.aspx?contentid=344, https://botad.gujarat.gov.in/certificate-truecopy, https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201819_124.pdf#page=13, https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/GSSSB_202526_312.pdf#page=6, https://ma.gujarat.gov.in/documents/new%20CB%20Guideline.pdf#page=36",
+  "certificate: a page listing 49 other services in this journey, not a service itself, so it was read for its links and not kept as somewhere to apply. Its pages: https://collectorpanchmahal.gujarat.gov.in/showpage.aspx?contentid=344, https://botad.gujarat.gov.in/certificate-truecopy, https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201819_124.pdf#page=13, https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/GSSSB_202526_312.pdf#page=6, https://ma.gujarat.gov.in/documents/new%20CB%20Guideline.pdf#page=36",
   "Registration Certificate Services: https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "E-Gram Panchayat: https://devbhumidwarkadp.gujarat.gov.in/gu/E-gram-Vishvagram-Yojana lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "EWS Certificate: the hand written graph already answers to service:ews_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",

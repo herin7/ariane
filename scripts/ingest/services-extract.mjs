@@ -37,7 +37,7 @@
  * `pnpm graph:validate` and `pnpm quotes:audit` afterwards.
  */
 
-import { appendJsonl, at, chat, fetchPage, hostOf, jsonArray, ledger, loadNegative, looksSoft404, MODELS, NEGATIVE, negativeRow, pool, readJsonl, saveLedger, sha1, sha256, toText, htmlMeta, writeJsonl } from "./lib.mjs";
+import { appendJsonl, at, chat, fetchPage, hostOf, jsonArray, ledger, loadNegative, looksSoft404, MODELS, NEGATIVE, negativeRow, pool, readJsonl, renderPage, saveLedger, sha1, sha256, toText, htmlMeta, writeJsonl } from "./lib.mjs";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const PAGES = ".ingest/pages/";
@@ -49,7 +49,6 @@ const FACTS = ".ingest/facts.jsonl";
 const SCHEMA_VERSION = 1;
 const PROMPT_VERSION = 2;
 
-const FETCH_CONCURRENCY = 8;
 // Eight against Bedrock, four against the state's own servers. Different
 // systems, different tolerances, and `chat` already backs off on a 429.
 const MODEL_CONCURRENCY = 8;
@@ -66,6 +65,12 @@ const value = (name, fallback) => {
   const i = args.indexOf(`--${name}`);
   return i >= 0 && args[i + 1] ? args[i + 1] : fallback;
 };
+
+// Eight against a state web server is polite. A render goes to Firecrawl and
+// not to the site, and `renderPage` paces itself at the plan's eleven a minute,
+// so this number stops being a rate and becomes only how much slow render we
+// can have in the air at once. Ten covers the 45s ceiling at a 6s gap.
+const FETCH_CONCURRENCY = flag("render") ? Number(value("concurrency", 10)) : 8;
 
 // ---------------------------------------------------------- the substring gate
 
@@ -199,11 +204,39 @@ const queue = readJsonl(".ingest/urls.jsonl")
 // whoever adds a PDF reader knows exactly what is waiting for them.
 const deferredPdf = queue.filter((r) => !pages.has(r.url) && !blocked.has(r.url) && /\.pdf(\?|$)/i.test(r.url));
 
+/**
+ * Failures that mean "a browser would have seen more", as opposed to "there is
+ * nothing here".
+ *
+ * A 404 is a 404 however you render it and a scanned PDF stays a picture, so
+ * neither is ever worth a credit. These three are the ones where the plain GET
+ * and the citizen's browser disagree: an app shell with no content yet, one
+ * shell served for every route, and a WAF that turns away anything without a
+ * JavaScript engine.
+ */
+const RENDERABLE = new Set(["TOO_THIN", "SOFT_404", "BLOCKED_BY_SITE"]);
+const rendering = flag("render");
+
+// Deliberately reads the negative cache past its `blockedUntil`. The backoff
+// says "do not ask this host again the same way"; asking a different way is the
+// whole point of the flag, and without this the 645 urls that already failed
+// are exactly the ones a render pass can never reach.
+const toRender = rendering
+  ? readJsonl(NEGATIVE)
+      .filter((r) => RENDERABLE.has(r.reason) && !pages.has(r.url) && !/\.pdf(\?|$)/i.test(r.url))
+      .filter((r) => !value("host", null) || hostOf(r.url) === value("host", null))
+      .map((r) => ({ url: r.url, title: null, score: 0, rerender: true }))
+  : [];
+// A url that failed twice is in there twice, and the second row would spend a
+// second credit on the same page.
+const uniqueRender = [...new Map(toRender.map((r) => [r.url, r])).values()];
+
 const toFetch = queue
   .filter((r) => !pages.has(r.url) && !blocked.has(r.url) && !/\.pdf(\?|$)/i.test(r.url))
+  .concat(uniqueRender)
   .slice(0, Number(value("limit", Infinity)));
 
-console.log(`${queue.length} discovered urls, ${pages.size} already fetched, ${blocked.size} in the negative cache, ${deferredPdf.length} pdfs deferred, ${toFetch.length} to fetch`);
+console.log(`${queue.length} discovered urls, ${pages.size} already fetched, ${blocked.size} in the negative cache, ${deferredPdf.length} pdfs deferred, ${toFetch.length} to fetch${rendering ? ` (${uniqueRender.length} of them retries through a browser)` : ""}`);
 
 const newlyNegative = deferredPdf.map((r) => negativeRow(r.url, "NOT_TEXT", now, "pdf, no reader built"));
 
@@ -225,12 +258,69 @@ const byContent = new Map();
 for (const p of pages.values()) if (!byContent.has(p.contentHash)) byContent.set(p.contentHash, p.url);
 
 let ok = 0;
-const fetched = await pool(toFetch, FETCH_CONCURRENCY, async (row) => {
-  const res = await fetchPage(row.url, { timeoutMs: 20_000 });
-  if (!res.ok) {
-    newlyNegative.push(negativeRow(row.url, res.failure ?? "HTTP_ERROR", now, res.errorCode ?? null));
-    return;
+let credits = 0;
+let rateLimited = 0;
+/**
+ * Tier 2. Only ever reached from a tier 1 failure this flag says is worth a
+ * browser, and it either produces a page indistinguishable from a fetched one
+ * or an honest reason it did not.
+ */
+const render = async (url, reason, detail) => {
+  if (!rendering || !RENDERABLE.has(reason)) {
+    newlyNegative.push(negativeRow(url, reason, now, detail));
+    return null;
   }
+  credits++;
+  const shot = await renderPage(url);
+  if (shot.failure === "OUT_OF_CREDITS") {
+    console.error("out of firecrawl credits, stopping before anything is written half done");
+    process.exit(3);
+  }
+  // Our bill and our impatience are not the page's fault, so the url keeps its
+  // old negative row and comes back around on the next run. Writing "HTTP 429"
+  // here retired 138 pages we had never actually looked at.
+  if (shot.failure === "RATE_LIMITED") {
+    rateLimited++;
+    return null;
+  }
+  const text = String(shot.markdown ?? "").trim();
+  if (!shot.ok || text.length < MIN_CHARS) {
+    // The reason it failed the second time, not the first. "The browser saw an
+    // empty page too" and "the plain fetch got a shell" are different findings
+    // and the second one is no longer true.
+    newlyNegative.push(negativeRow(url, shot.ok ? "TOO_THIN" : shot.failure ?? "EMPTY_RENDER", now, `rendered: ${shot.ok ? `${text.length} chars` : shot.failure}`));
+    return null;
+  }
+  ok++;
+  return {
+    text,
+    row: {
+      url,
+      sha1: sha1(url),
+      contentHash: sha256(text),
+      host: hostOf(url),
+      title: shot.title || null,
+      chars: text.length,
+      status: shot.status ?? 200,
+      tlsVerified: true,
+      truncated: false,
+      // Provenance says which pair of eyes saw this. A rendered page is still
+      // the page's own bytes, but it is not the bytes a plain GET returns, and
+      // anyone checking a quote by hand needs to know to render it too.
+      rendered: true,
+      score: 0,
+      fetchedAt: now,
+    },
+  };
+};
+
+const fetched = await pool(toFetch, FETCH_CONCURRENCY, async (row) => {
+  // Already known to be a shell. Skip straight to the browser instead of
+  // spending a request to be told the same thing again.
+  if (row.rerender) return render(row.url, "TOO_THIN", "known shell");
+
+  const res = await fetchPage(row.url, { timeoutMs: 20_000 });
+  if (!res.ok) return render(row.url, res.failure ?? "HTTP_ERROR", res.errorCode ?? null);
   // A url that ends in .html and serves a zip is a thing this estate does.
   if (res.contentType && !/text\/|xml|json/i.test(res.contentType)) {
     newlyNegative.push(negativeRow(row.url, "NOT_TEXT", now, String(res.contentType).slice(0, 60)));
@@ -238,15 +328,10 @@ const fetched = await pool(toFetch, FETCH_CONCURRENCY, async (row) => {
   }
   const meta = htmlMeta(res.body ?? "");
   const text = toText(res.body ?? "");
-  if (looksSoft404(text, meta, res.contentType)) {
-    newlyNegative.push(negativeRow(row.url, "SOFT_404", now, meta.title || null));
-    return;
-  }
-  if (text.length < MIN_CHARS) {
-    // Not an error and not worth a model. Recorded so it is never fetched again.
-    newlyNegative.push(negativeRow(row.url, "TOO_THIN", now, `${text.length} chars`));
-    return;
-  }
+  if (looksSoft404(text, meta, res.contentType)) return render(row.url, "SOFT_404", meta.title || null);
+  // Not an error and not worth a model. Recorded so it is never fetched again.
+  if (text.length < MIN_CHARS) return render(row.url, "TOO_THIN", `${text.length} chars`);
+
   ok++;
   if (ok % 50 === 0) console.log(`  ${ok} pages fetched`);
   return {
@@ -286,7 +371,7 @@ for (const got of fetched) {
 
 saveLedger(PAGES_LEDGER, pages);
 appendJsonl(NEGATIVE, newlyNegative);
-console.log(`  ${ok} fetched, ${duplicates} discarded as a catch-all shell, ${newlyNegative.length} recorded as not worth asking again`);
+console.log(`  ${ok} fetched, ${duplicates} discarded as a catch-all shell, ${newlyNegative.length} recorded as not worth asking again${credits ? `, ${credits} rendered through a browser` : ""}${rateLimited ? `, ${rateLimited} left for next run because we hit our own rate limit` : ""}`);
 
 if (flag("fetch-only")) process.exit(0);
 

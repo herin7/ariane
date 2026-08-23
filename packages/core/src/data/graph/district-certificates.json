@@ -802,16 +802,6 @@
    "contentHash": "be46b4088c447c0117ad6b6073a069b6ed0ce53171687decb3001a74155e9825"
   },
   {
-   "id": "src:3e35b27b1ef0",
-   "url": "https://www.mea.gov.in/apostille-menu",
-   "title": "Attestation / Apostille | Ministry of External Affairs , Government of India",
-   "domain": "mea.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "0bb62aee64937c473ffbb999e793d42c0874f2230af7dd6ea0577888db6e3a53"
-  },
-  {
    "id": "src:9f5f3692e126",
    "url": "https://amreli.gujarat.gov.in/showpage.aspx?contentid=253",
    "title": "નકલ માટેની અરજીઓ નિકાલ કરવા બાબત | Revenue | Jan Seva Kendra Form | Collectorate - District Amreli",
@@ -6063,77 +6053,6 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "grievance:apostille",
-   "type": "GRIEVANCE_CHANNEL",
-   "name": "Grievances about apostille",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "GRIEVANCE_PORTAL"
-   },
-   "sources": [
-    {
-     "sourceId": "src:3e35b27b1ef0",
-     "evidence": "For more information, suggestions or any grievance please contact Attestation Section/Apostille Cell Ministry of External Affairs Jawahar Lal Nehru Bhawan, Janapath Marg, New Delhi-110011. 011-23088403 (Attestation) 011-23088404 (Apostille) CPV Division Ministry of External Affairs Patiala House Annexe, Tilak Marg New Delhi -110001 usattestation[at]mea[dot]gov[dot]in - soatt1[at]mea[dot]gov[dot]in sooi[at]mea[dot]gov[dot]in",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "service:apostille",
-   "type": "SERVICE",
-   "name": "Apostille",
-   "officialName": "Apostille",
-   "aliases": [
-    "attestation"
-   ],
-   "description": "The service provides Apostille or Attestation for documents, with a fee of Rs 50 for Apostille and additional charges by outsourced agencies.",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "machineExtracted": true,
-    "fee": "A fee of Rs 50 is payable for Apostille of a document."
-   },
-   "sources": [
-    {
-     "sourceId": "src:3e35b27b1ef0",
-     "evidence": "MEA: A fee of Rs 50 is payable for Apostille of document. (W.e.f 21 December 2016, payment by means of postal orders has been discontinued.) Normal Attestation is done free of cost.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:3e35b27b1ef0",
-     "evidence": "Applicants are advised not to rely on unauthorised persons/touts for Apostille or Attestation services. Decentralization of Attestation/ Apostille Services W.e.f. January 01 2019, Attestation/Apostille services have been decentralized to Branch Secretariats/RPOs in 16 cities Ahemdabad, Bengaluru, Bhopal, Chennai, Chandigarh, Cochin, New Delhi, Guwahati, Hyderabad, Kolkata, Lucknow, Mumbai, Panaji, Jaipur, Patna and Thiruvanantapuram. The contact details of these RPOs and the collection centres of the five service providers in these 16 cities are as given above.NORKA ROOTS, a public sector company under the Department of Non-Resident Keralite Affairs, Government of Kerala is authorized to submit documents for Attestation/Apostille by RPO, Thiruvanantapuram. Applicants are requested to approach their respective Branch Secretariats/RPOs as enumerated above through the five outsourced service providers for obtaining the requisite services of apostille/attestation as required.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:3e35b27b1ef0",
-     "evidence": "Those applying for Attestation and Apostille services should apply well in advance as Ministry needs some time to verify and process the documents.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:3e35b27b1ef0",
-     "evidence": "The original document/true copy is to be submitted directly to any of the five outsourced service providers along with a photocopy of the document and a photocopy of the Passport of the applicant.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:3e35b27b1ef0",
-     "evidence": "A. E-sanad: e-Service for verification & attestation of documents of Indian Citizens Detatils of e-Sanad can be obtained by following thefollowing Link",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:3e35b27b1ef0",
-     "evidence": "The fee chargeable is as follows Apostille Type of Service | MEA Fee | Outsource Agency Fee | | Service Charge | Scanning Charge | Apostille | Rs 50 per apostille sticker | Rs 84 per document | Rs. 3 per page | Attestation | Free of Cost | Rs 84 per document | Rs. 3 per page |",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "document:deposit_receipt_copy",
    "type": "DOCUMENT",
    "name": "Deposit receipt copy",
@@ -10741,38 +10660,6 @@
     {
      "sourceId": "src:b55b2acd832b",
      "evidence": "નિકાલની સમય મર્યાદા કુલ ૧૫ દિવસ.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_apostille__escalate_to__grievance_apostille",
-   "from": "service:apostille",
-   "to": "grievance:apostille",
-   "type": "ESCALATE_TO",
-   "verificationStatus": "EXTRACTED",
-   "note": "Applicants can contact the Attestation Section/Apostille Cell for more information, suggestions, or any grievance.",
-   "sources": [
-    {
-     "sourceId": "src:3e35b27b1ef0",
-     "evidence": "For more information, suggestions or any grievance please contact Attestation Section/Apostille Cell Ministry of External Affairs Jawahar Lal Nehru Bhawan, Janapath Marg, New Delhi-110011. 011-23088403 (Attestation) 011-23088404 (Apostille) CPV Division Ministry of External Affairs Patiala House Annexe, Tilak Marg New Delhi -110001 usattestation[at]mea[dot]gov[dot]in - soatt1[at]mea[dot]gov[dot]in sooi[at]mea[dot]gov[dot]in",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_apostille__apply_at__portal_mea_gov_in",
-   "from": "service:apostille",
-   "to": "portal:mea_gov_in",
-   "type": "APPLY_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "Published on mea.gov.in.",
-   "sources": [
-    {
-     "sourceId": "src:3e35b27b1ef0",
-     "evidence": "MEA: A fee of Rs 50 is payable for Apostille of document. (W.e.f 21 December 2016, payment by means of postal orders has been discontinued.) Normal Attestation is done free of cost.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }

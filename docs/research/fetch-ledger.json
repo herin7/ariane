@@ -1,7 +1,7 @@
 {
   "generatedBy": "scripts/fetch-ledger.mjs",
-  "urls": 775,
-  "cached": 771,
+  "urls": 771,
+  "cached": 767,
   "missing": 0,
   "noCacheFile": 0,
   "fetchFailed": 4,
@@ -42,7 +42,7 @@
     ".firecrawl/sarathi-ll-map.json",
     ".firecrawl/sarathi-map.json"
   ],
-  "uncitedIngestPages": 1714,
+  "uncitedIngestPages": 1721,
   "entries": [
     {
       "url": "http://ggrc.co.in/webui/Content.aspx",
@@ -3885,20 +3885,6 @@
       "quoted": true,
       "bytes": 3014,
       "sha256": "a89fa98cc75034eb0ebda56f9f0e47a8a669382ff6b599e1460e55a3fb7c7d60",
-      "retrievedAt": "2026-08-23"
-    },
-    {
-      "url": "https://dilrmp.gov.in/dilrmpold/PhyscialComponent/mapDigitization/digitizedtehsilstatusreport/68",
-      "title": "map digitized tehsil status",
-      "sourceType": "SERVICE_PAGE",
-      "journeys": [
-        "property-and-land"
-      ],
-      "cacheFile": ".ingest/pages/b051d72e5b23717f36c7207f6930783571a40e74.md",
-      "status": "CACHED",
-      "quoted": true,
-      "bytes": 2023,
-      "sha256": "91ce1b70cbe3401fa80d067b5c513d79f3bb6eec70e797652a819540c5b2ce37",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -8178,20 +8164,6 @@
       "retrievedAt": "2026-08-23"
     },
     {
-      "url": "https://nfsa.gov.in/Default.aspx",
-      "title": "NFSA",
-      "sourceType": "PORTAL_HOME",
-      "journeys": [
-        "ration-card"
-      ],
-      "cacheFile": ".ingest/pages/6c58f85643b14284beecddb777790fa3e077d963.md",
-      "status": "CACHED",
-      "quoted": true,
-      "bytes": 6975,
-      "sha256": "f1a91ee6eb188213aa4935570fd158da8c0aa24739cc1e60389971a07c373637",
-      "retrievedAt": "2026-08-23"
-    },
-    {
       "url": "https://nhb.org.in/",
       "title": "National Housing Bank",
       "sourceType": "OFFICE_DIRECTORY",
@@ -9961,20 +9933,6 @@
       "retrievedAt": "2026-08-23"
     },
     {
-      "url": "https://vahan.parivahan.gov.in/vahantc",
-      "title": "VAHAN4(Trade Citizen Services)",
-      "sourceType": "SERVICE_PAGE",
-      "journeys": [
-        "permits-and-licences"
-      ],
-      "cacheFile": ".ingest/pages/08998f5020a1d60ee352b2d49b122f8c858f1be0.md",
-      "status": "CACHED",
-      "quoted": true,
-      "bytes": 4195,
-      "sha256": "ff721b10714eaf01ac4a46601d710566aab4726d055ec10e3778de0f11704b70",
-      "retrievedAt": "2026-08-23"
-    },
-    {
       "url": "https://vahan.parivahan.gov.in/vahantc/vahan/ui/tradecert/form_tc_login.xhtml",
       "title": "VAHAN4(Trade Citizen Services)",
       "sourceType": "SERVICE_PAGE",
@@ -10631,20 +10589,6 @@
       "quoted": true,
       "bytes": 7716,
       "sha256": "868757eeae6024705dfc57fddf6b4b98576e2a12fd0d48e95cb5a386ca6fb1ac",
-      "retrievedAt": "2026-08-23"
-    },
-    {
-      "url": "https://www.mea.gov.in/apostille-menu",
-      "title": "Attestation / Apostille | Ministry of External Affairs , Government of India",
-      "sourceType": "SERVICE_PAGE",
-      "journeys": [
-        "district-certificates"
-      ],
-      "cacheFile": ".ingest/pages/3e35b27b1ef0e0c8bea79de1bf2cb9c6232f49de.md",
-      "status": "CACHED",
-      "quoted": true,
-      "bytes": 10044,
-      "sha256": "0bb62aee64937c473ffbb999e793d42c0874f2230af7dd6ea0577888db6e3a53",
       "retrievedAt": "2026-08-23"
     },
     {

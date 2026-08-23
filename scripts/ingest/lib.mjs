@@ -162,6 +162,92 @@ export async function fetchPage(url, { timeoutMs = 20000, redirects = 5 } = {}) 
 }
 
 /**
+ * The last rung of the fetch ladder: let a headless browser run the page's own
+ * JavaScript and tell us what a citizen would have seen.
+ *
+ * Nothing here defeats a protection. It renders a public page the way a browser
+ * does, which is the difference between the 213 characters of shell that
+ * `fetchPage` gets from myscheme.gov.in and the 24,000 characters of Benefits,
+ * Eligibility, Application Process and Documents Required that are actually on
+ * it. 645 urls in the negative cache failed as TOO_THIN, SOFT_404 or blocked,
+ * and 368 of them are three single page apps that hold the national scheme
+ * catalogue.
+ *
+ * 45 seconds, not 90. A page that has not rendered in 45 is a shell that never
+ * will, and at 90 the whole pass sat behind a handful of them: 156 renders in
+ * forty minutes, where a render that works comes back in under ten seconds.
+ *
+ * Paced, not throttled by concurrency. The plan allows 11 scrapes a minute and
+ * says so in the 429 body; nothing in the response headers does. Concurrency is
+ * the wrong knob for that, and picking it by hand was worse than useless: at 8
+ * we got 4 renders a minute because the pages are slow, at 32 every single
+ * request came back 429, and at 12 with a backoff the slots spent longer asleep
+ * than working and we managed one a minute. So one queue, one gap, six seconds
+ * wide, and the caller may run as many in flight as it likes.
+ *
+ * 402 and 429 are ours, not the site's, and both are reported as such so the
+ * caller can leave the url alone instead of writing our own bill or our own
+ * impatience into the negative cache as though the page were at fault. A single
+ * pass at 32 in flight put 138 working government pages there under the reason
+ * "HTTP 429", which is not in the renderable set, so a rate limit we caused
+ * would have permanently retired pages we had never once looked at.
+ *
+ * The 429 window is a minute wide, measured: one request refused, three
+ * accepted 75 seconds later. So back off past the window rather than past the
+ * retry budget, and only then give up.
+ */
+/** 11 a minute is the measured allowance; 6s between starts leaves one spare. */
+const RENDER_GAP_MS = 6000;
+let renderTurn = Promise.resolve();
+
+/** Take the next slot in the single global queue and return when it is ours. */
+export function pace(gap = RENDER_GAP_MS) {
+  const mine = renderTurn.then(() => new Promise((r) => setTimeout(r, gap)));
+  renderTurn = mine;
+  return mine;
+}
+
+export async function renderPage(url, { timeoutMs = 45_000 } = {}) {
+  const key = process.env.FIRECRAWL_API_KEY?.trim();
+  if (!key) return { ok: false, failure: "NO_API_KEY" };
+
+  for (let attempt = 0; attempt < 3; attempt++) {
+    await pace();
+    try {
+      const res = await fetch("https://api.firecrawl.dev/v2/scrape", {
+        method: "POST",
+        headers: { authorization: `Bearer ${key}`, "content-type": "application/json" },
+        // onlyMainContent strips the nav and the cookie banner, which on these
+        // apps is most of the bytes and all of the reason they read as thin.
+        body: JSON.stringify({ url, formats: ["markdown"], onlyMainContent: true, waitFor: 3000 }),
+        signal: AbortSignal.timeout(timeoutMs),
+      });
+      if (res.status === 402) return { ok: false, failure: "OUT_OF_CREDITS" };
+      if (res.status === 429) {
+        if (attempt === 2) return { ok: false, failure: "RATE_LIMITED" };
+        await new Promise((r) => setTimeout(r, Number(res.headers.get("retry-after") ?? 0) * 1000 || 70_000));
+        continue;
+      }
+      if (res.status >= 500) throw new Error(`HTTP ${res.status}`);
+      if (!res.ok) return { ok: false, failure: `HTTP_${res.status}` };
+      const body = await res.json();
+      const markdown = String(body?.data?.markdown ?? "");
+      return {
+        ok: Boolean(markdown),
+        markdown,
+        title: body?.data?.metadata?.title ?? null,
+        status: body?.data?.metadata?.statusCode ?? res.status,
+        failure: markdown ? null : "EMPTY_RENDER",
+      };
+    } catch (e) {
+      if (attempt === 2) return { ok: false, failure: String(e.message ?? e).slice(0, 60) };
+      await new Promise((r) => setTimeout(r, 5000));
+    }
+  }
+  return { ok: false, failure: "GAVE_UP" };
+}
+
+/**
  * The same GET, but the body comes back as bytes.
  *
  * `fetchPage` sets the response encoding to utf8, which is right for html and
@@ -518,6 +604,16 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   });
   assert.deepEqual(order, [2, 4, 6, 8, 10, 12, 14], "results come back in input order, not finish order");
   assert.ok(peak <= 3, `pool ran ${peak} at once with a limit of 3`);
+
+  // The render pacer spaces starts however many callers are in flight. A pool
+  // limit cannot do this: it bounds how many run, not how often one begins, and
+  // the plan counts the second thing. Gap comes from the env so this is a test
+  // and not a wait.
+  const started = [];
+  const began = Date.now();
+  await Promise.all([1, 2, 3, 4].map(() => pace(20).then(() => started.push(Date.now() - began))));
+  assert.equal(started.length, 4);
+  assert.ok(started[3] >= 70, `four paced starts took ${started[3]}ms, expected at least four gaps`);
 
   console.log("ingest/lib.mjs: ok");
 }

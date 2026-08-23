@@ -163,6 +163,57 @@ export function officeFromClaim(claim) {
   return name.length > 3 ? name : null;
 }
 
+/**
+ * The other twenty seven states, so a national portal's pages can be told apart.
+ *
+ * myscheme.gov.in holds the scheme catalogue for the whole country and its
+ * pages render identically whichever state wrote the scheme. Mukhyamantri
+ * Medhavi Vidyarthi Yojana is a real scheme with real documents and a real
+ * eligibility rule, and a citizen in Ahmedabad cannot have any of it, because
+ * it belongs to Madhya Pradesh. Putting it in a Gujarat graph is not a
+ * fabricated fact, it is a true fact aimed at the wrong person, which lands the
+ * same way.
+ *
+ * Delhi is left out on purpose: it is in the postal address of half the central
+ * government and naming it would exclude the schemes that do apply here.
+ */
+const STATES = [
+  "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Goa", "Haryana",
+  "Himachal Pradesh", "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh", "Maharashtra",
+  "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Odisha", "Punjab", "Rajasthan", "Sikkim",
+  "Tamil Nadu", "Telangana", "Tripura", "Uttarakhand", "Uttar Pradesh", "West Bengal",
+  "Jammu and Kashmir", "Ladakh", "Puducherry",
+];
+
+/**
+ * A host whose pages are Gujarat's by construction, so the state filter below
+ * never has to read them.
+ *
+ * `districtOf` answers IN-GJ for everything it does not recognise, so its bare
+ * answer proves nothing. A named district does: it only names one when the
+ * hostname says so, which is how suratmunicipal.gov.in counts and
+ * myscheme.gov.in does not.
+ */
+export const isGujarat = (host) =>
+  /(^|\.)gujarat\.gov\.in$/.test(String(host ?? "")) || districtOf(host).split("-").length > 2;
+
+/**
+ * Which state's scheme this page is about, or null if it is Gujarat's, the
+ * country's, or unclear.
+ *
+ * Says nothing unless the page is unambiguous: one other state named, Gujarat
+ * named nowhere. A page that mentions two states is a comparison or a list and
+ * a page that says Gujarat is ours whatever else it says, so both are kept.
+ * Erring towards keeping is deliberate; the cost of dropping a Gujarat scheme
+ * is a citizen who cannot find what they are entitled to.
+ */
+export function otherState(text) {
+  const t = String(text ?? "");
+  if (/\bgujarat\b|ગુજરાત/i.test(t)) return null;
+  const named = STATES.filter((s) => new RegExp(`\\b${s}\\b`, "i").test(t));
+  return named.length === 1 ? named[0] : null;
+}
+
 /** Below this a bundle is a stub pretending to be a journey. */
 const MIN_SERVICES = 3;
 
@@ -867,6 +918,19 @@ if (flag("selftest")) {
     "a numbered table of what a scheme pays for is not a numbered process",
   );
 
+  assert.equal(
+    otherState('The scheme "Mukhyamantri Medhavi Vidyarthi Yojana" by the state government of Madhya Pradesh aims to help students.'),
+    "Madhya Pradesh",
+    "a real scheme with real documents, and not one a citizen in Ahmedabad can have",
+  );
+  assert.equal(otherState("Registered under the Rajasthan Gaushala Act, 1960."), "Rajasthan");
+  assert.equal(otherState("Applicants from Gujarat and Rajasthan may both apply."), null, "a page that says Gujarat is ours whatever else it says");
+  assert.equal(otherState("A comparison of Kerala, Karnataka and Tamil Nadu practice."), null, "two states is a list, not an owner");
+  assert.equal(otherState("Pradhan Mantri Awas Yojana is open to all citizens of India."), null, "a central scheme names no state and stays");
+  assert.equal(otherState("Directorate of Social Defence, New Delhi."), null, "half the central government has a Delhi address");
+  assert.equal(isGujarat("collectorahmedabad.gujarat.gov.in"), true);
+  assert.equal(isGujarat("www.myscheme.gov.in"), false, "a national portal is not evidence of jurisdiction");
+
   assert.equal(placeable({ kind: "FEE", detail: {} }), true, "a fee is why we are here");
   assert.equal(placeable({ kind: "HELPLINE", detail: { phone: "1800 233 5500" } }), true);
   assert.equal(placeable({ kind: "HELPLINE", detail: { number: "1800 233 5500" } }), true, "the extractor uses both keys for the same thing");
@@ -966,12 +1030,27 @@ for (const f of readJsonl(".ingest/facts.jsonl")) {
  */
 const MIN_HARD = Number(value("min", 1));
 
-const candidates = [...byUrl.entries()]
+const textOf = memo((sha1) => {
+  const file = at(`.ingest/pages/${sha1}.md`);
+  return existsSync(file) ? readFileSync(file, "utf8") : "";
+});
+const blocksOf = memo((sha1) => groupBlocks(textOf(sha1)));
+
+const admissible = [...byUrl.entries()]
   .map(([url, facts]) => ({ url, facts, page: pages.get(url) }))
-  .filter((c) => c.page && c.facts.filter(placeable).length >= MIN_HARD)
+  .filter((c) => c.page && c.facts.filter(placeable).length >= MIN_HARD);
+
+// A national portal carries every state's schemes, and this one is for Gujarat.
+const foreign = admissible.filter((c) => !isGujarat(c.page.host) && otherState(textOf(c.page.sha1)));
+const candidates = admissible
+  .filter((c) => !foreign.includes(c))
   .sort((a, b) => b.facts.length - a.facts.length);
 
 console.log(`${byUrl.size} pages with facts, ${candidates.length} with at least ${MIN_HARD} fact(s) we could place`);
+if (foreign.length) {
+  const where = [...new Set(foreign.map((c) => otherState(textOf(c.page.sha1))))].sort();
+  console.log(`  ${foreign.length} page(s) left out because they are another state's scheme: ${where.join(", ")}`);
+}
 
 // ----------------------------------------------------------------- identify
 
@@ -1205,11 +1284,6 @@ const known = new Map(readJsonl(DOCUMENTS).filter((r) => r.promptVersion === DOC
  * page is read twice, once to ask the classifier about its members and once to
  * write the group.
  */
-const textOf = memo((sha1) => {
-  const file = at(`.ingest/pages/${sha1}.md`);
-  return existsSync(file) ? readFileSync(file, "utf8") : "";
-});
-const blocksOf = memo((sha1) => groupBlocks(textOf(sha1)));
 
 function memo(fn) {
   const seen = new Map();

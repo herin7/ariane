@@ -943,30 +943,6 @@
    "scrapedOk": true
   },
   {
-   "id": "src:08998f5020a1",
-   "url": "https://vahan.parivahan.gov.in/vahantc",
-   "title": "VAHAN4(Trade Citizen Services)",
-   "domain": "vahan.parivahan.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "ff721b10714eaf01ac4a46601d710566aab4726d055ec10e3778de0f11704b70",
-   "cacheFile": ".ingest/pages/08998f5020a1d60ee352b2d49b122f8c858f1be0.md",
-   "scrapedOk": true
-  },
-  {
-   "id": "src:447614db9858",
-   "url": "https://vahan.parivahan.gov.in/vahantc/vahan/ui/tradecert/form_tc_login.xhtml",
-   "title": "VAHAN4(Trade Citizen Services)",
-   "domain": "vahan.parivahan.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "26ca2be7886e36714a80e3c672b6b80ad20872bc67d8b4886ae1fea8515d4ac0",
-   "cacheFile": ".ingest/pages/447614db98582664ea38acad5ac7077ffe528929.md",
-   "scrapedOk": true
-  },
-  {
    "id": "src:ff9f374b2a18",
    "url": "https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=6",
    "title": "Vessal_25102024 (page 6 of 21)",
@@ -1409,6 +1385,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "47045468eb20b03dbccd3f4b7bbb34d1c01ddcd464e64c432e54e40758e018b3",
    "cacheFile": ".ingest/pages/0415e6113e6514fd2615a1365d5ae1a20b5a3f01.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:447614db9858",
+   "url": "https://vahan.parivahan.gov.in/vahantc/vahan/ui/tradecert/form_tc_login.xhtml",
+   "title": "VAHAN4(Trade Citizen Services)",
+   "domain": "vahan.parivahan.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "26ca2be7886e36714a80e3c672b6b80ad20872bc67d8b4886ae1fea8515d4ac0",
+   "cacheFile": ".ingest/pages/447614db98582664ea38acad5ac7077ffe528929.md",
    "scrapedOk": true
   },
   {
@@ -12914,150 +12902,6 @@
    "confidence": 0.95
   },
   {
-   "claim": "A new applicant must apply for a new trade certificate through an admin user ID provided by the authority.",
-   "kind": "ACTION",
-   "subject": "new_applicant",
-   "object": "apply_for_new_trade_certificate",
-   "detail": {},
-   "sourceId": "src:08998f5020a1",
-   "evidence": "New Applicant Apply for New trade certificate [ New Dealer Admin User ID will be provided by Authority ]",
-   "confidence": 0.95
-  },
-  {
-   "claim": "An existing applicant can apply for a trade certificate renewal or duplicate.",
-   "kind": "ACTION",
-   "subject": "existing_applicant",
-   "object": "apply_for_trade_certificate_renewal_duplicate",
-   "detail": {},
-   "sourceId": "src:08998f5020a1",
-   "evidence": "Existing Applicant Apply for Trade Certificate (Renewal / Duplicate)",
-   "confidence": 0.95
-  },
-  {
-   "claim": "An existing applicant can apply for a change of address in the trade certificate.",
-   "kind": "ACTION",
-   "subject": "existing_applicant",
-   "object": "apply_for_change_of_address",
-   "detail": {},
-   "sourceId": "src:08998f5020a1",
-   "evidence": "Apply For Change of Address in Trade Certificate",
-   "confidence": 0.95
-  },
-  {
-   "claim": "A trade certificate can be granted for a period of five years from the date of issue.",
-   "kind": "TIMELINE",
-   "subject": "trade_certificate",
-   "object": "validity_period",
-   "detail": {
-    "days": 1825
-   },
-   "sourceId": "src:08998f5020a1",
-   "evidence": "As per Rule 37 of CMV Rules, the trade certificate can be granted for a period of five years from the date of issue.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "A trade certificate can be renewed for a further period of five years by applying for renewal and depositing the prescribed renewal fee.",
-   "kind": "ACTION",
-   "subject": "trade_certificate_owner",
-   "object": "renew_trade_certificate",
-   "detail": {
-    "days": 1825
-   },
-   "sourceId": "src:08998f5020a1",
-   "evidence": "Trade certificate can be renewed further for 5 years by applying for renewal and depositing the prescribed renewal fee.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "A dealer must submit a 'Certificate of Authorization by Manufacturer of Motor Vehicles' in Form 16A.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "dealer",
-   "object": "certificate_of_authorization",
-   "detail": {
-    "form_number": "Form 16A"
-   },
-   "sourceId": "src:08998f5020a1",
-   "evidence": "The application by a dealer should also be accompanied by “Certificate of Authorization by Manufacturer of Motor Vehicles” in Form 16 A.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "A trade certificate owner can apply for the grant of additional trade registration marks.",
-   "kind": "ACTION",
-   "subject": "trade_certificate_owner",
-   "object": "grant_additional_trade_registration_marks",
-   "detail": {
-    "form_number": "Form 17A"
-   },
-   "sourceId": "src:08998f5020a1",
-   "evidence": "The trade certificate owner can apply in Form 17A for ‘Grant of Additional Trade Registration Marks’",
-   "confidence": 0.95
-  },
-  {
-   "claim": "A trade certificate owner can apply for intimation of change of address of place of business.",
-   "kind": "ACTION",
-   "subject": "trade_certificate_owner",
-   "object": "intimation_change_of_address",
-   "detail": {
-    "form_number": "Form 17C"
-   },
-   "sourceId": "src:08998f5020a1",
-   "evidence": "as well as in Form 17C for ‘Intimation for Change of Address of Place of Business’ by depositing the prescribed fee.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "For technical problems related to trade certificate, a citizen can contact the email helpdesk-trade[at]supportgov[dot]in.",
-   "kind": "HELPLINE",
-   "subject": "trade_certificate",
-   "object": "technical_support_email",
-   "detail": {
-    "email": "helpdesk-trade[at]supportgov[dot]in"
-   },
-   "sourceId": "src:08998f5020a1",
-   "evidence": "For Any Technical Problems Related To Trade Certificate You May Contact EMail: helpdesk-trade[at]supportgov[dot]in",
-   "confidence": 0.95
-  },
-  {
-   "claim": "A citizen must select their state and applicant category to apply for a trade certificate.",
-   "kind": "ACTION",
-   "subject": "application_for_trade_certificate",
-   "object": "state_applicant_category_selection",
-   "detail": {},
-   "sourceId": "src:447614db9858",
-   "evidence": "Applying for State (having place of business):\n-SELECT- Andaman & Nicobar Island Andhra Pradesh Arunachal Pradesh Assam Bihar Chandigarh Chhattisgarh Delhi Goa Gujarat Haryana Himachal Pradesh Jammu and Kashmir Jharkhand Karnataka Kerala Ladakh Madhya Pradesh Maharashtra Manipur Mizoram Odisha Punjab Rajasthan Tamil Nadu Uttarakhand Uttar Pradesh West Bengal\nApplicant Category\n-SELECT-",
-   "confidence": 0.95
-  },
-  {
-   "claim": "A citizen must accept the privacy policy and terms of service to proceed with the application.",
-   "kind": "ACTION",
-   "subject": "application_for_trade_certificate",
-   "object": "privacy_policy_terms_acceptance",
-   "detail": {},
-   "sourceId": "src:447614db9858",
-   "evidence": "I accept to have read the\nPrivacy Policy\nand\nTerms of Services\nfor processing of my personal data into the system.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "A citizen must provide a correct mobile number and email ID to apply for a new trade certificate.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "application_for_trade_certificate",
-   "object": "mobile_email_verification",
-   "detail": {},
-   "sourceId": "src:447614db9858",
-   "evidence": "You have already applied for New Trade Certificate Application using this mobile and email id.\nPlease check the application using 'Know Your Status' and first dispose it and then apply afresh !!",
-   "confidence": 0.9
-  },
-  {
-   "claim": "A citizen must contact the provided email for technical problems related to the trade certificate application.",
-   "kind": "HELPLINE",
-   "subject": "technical_support",
-   "object": "email_contact",
-   "detail": {
-    "email": "helpdesk-trade[at]supportgov[dot]in"
-   },
-   "sourceId": "src:447614db9858",
-   "evidence": "For Any Technical Problems Related To Trade Certificate You May Contact\nEMail: helpdesk-trade[at]supportgov[dot]in",
-   "confidence": 0.95
-  },
-  {
    "claim": "An appeal must be decided within 180 days from the date of filing.",
    "kind": "TIMELINE",
    "subject": "appeal",
@@ -15647,6 +15491,48 @@
    "confidence": 0.95
   },
   {
+   "claim": "A citizen must select their state and applicant category to apply for a trade certificate.",
+   "kind": "ACTION",
+   "subject": "application_for_trade_certificate",
+   "object": "state_applicant_category_selection",
+   "detail": {},
+   "sourceId": "src:447614db9858",
+   "evidence": "Applying for State (having place of business):\n-SELECT- Andaman & Nicobar Island Andhra Pradesh Arunachal Pradesh Assam Bihar Chandigarh Chhattisgarh Delhi Goa Gujarat Haryana Himachal Pradesh Jammu and Kashmir Jharkhand Karnataka Kerala Ladakh Madhya Pradesh Maharashtra Manipur Mizoram Odisha Punjab Rajasthan Tamil Nadu Uttarakhand Uttar Pradesh West Bengal\nApplicant Category\n-SELECT-",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must accept the privacy policy and terms of service to proceed with the application.",
+   "kind": "ACTION",
+   "subject": "application_for_trade_certificate",
+   "object": "privacy_policy_terms_acceptance",
+   "detail": {},
+   "sourceId": "src:447614db9858",
+   "evidence": "I accept to have read the\nPrivacy Policy\nand\nTerms of Services\nfor processing of my personal data into the system.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must provide a correct mobile number and email ID to apply for a new trade certificate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_for_trade_certificate",
+   "object": "mobile_email_verification",
+   "detail": {},
+   "sourceId": "src:447614db9858",
+   "evidence": "You have already applied for New Trade Certificate Application using this mobile and email id.\nPlease check the application using 'Know Your Status' and first dispose it and then apply afresh !!",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A citizen must contact the provided email for technical problems related to the trade certificate application.",
+   "kind": "HELPLINE",
+   "subject": "technical_support",
+   "object": "email_contact",
+   "detail": {
+    "email": "helpdesk-trade[at]supportgov[dot]in"
+   },
+   "sourceId": "src:447614db9858",
+   "evidence": "For Any Technical Problems Related To Trade Certificate You May Contact\nEMail: helpdesk-trade[at]supportgov[dot]in",
+   "confidence": 0.95
+  },
+  {
    "claim": "Employers not being government officers liable to pay tax must obtain a certificate of registration from the prescribed authority.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "employer",
@@ -16171,7 +16057,6 @@
   "SARAL Pass Travel Scheme: https://suratmunicipal.gov.in/Services/Sitilink/SaralPassTravelScheme lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Pleasure Craft/Boat Operation Permission: https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=4 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "National Permit: https://www.vahan.parivahan.gov.in/npermit/faces/welcome.jsp lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
-  "trade certificate: https://vahan.parivahan.gov.in/vahantc lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "VAHAN: https://vahan.parivahan.gov.in/nrservices lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "license renewal: https://ayudmla.gujarat.gov.in/documents/renewal.pdf#page=1 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Chief Electrical Inspector: no quotable requirement, fee or timeline survived, so no service node was written for it.",

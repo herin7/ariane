@@ -232,19 +232,6 @@
    "scrapedOk": true
   },
   {
-   "id": "src:b051d72e5b23",
-   "url": "https://dilrmp.gov.in/dilrmpold/PhyscialComponent/mapDigitization/digitizedtehsilstatusreport/68",
-   "title": "map digitized tehsil status",
-   "domain": "dilrmp.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "91ce1b70cbe3401fa80d067b5c513d79f3bb6eec70e797652a819540c5b2ce37",
-   "cacheFile": ".ingest/pages/b051d72e5b23717f36c7207f6930783571a40e74.md",
-   "scrapedOk": true,
-   "tlsVerified": false
-  },
-  {
    "id": "src:4836e2cf4ed0",
    "url": "https://ahmedabad.gujarat.gov.in/nakal-application",
    "title": "નકલ માટેની અરજીઓ નિકાલ કરવા બાબત | Revenue | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
@@ -2725,90 +2712,6 @@
    "confidence": 0.95
   },
   {
-   "claim": "The website is managed by the Government of India, Ministry of Rural Development, Department of Land Resources.",
-   "kind": "OFFICE",
-   "subject": "website_content_managed_by",
-   "object": "government_of_india",
-   "detail": {
-    "officeName": "Government of India, Ministry of Rural Development, Department of Land Resources"
-   },
-   "sourceId": "src:b051d72e5b23",
-   "evidence": "Website Content Managed by Government of India Ministry of Rural Development Department of Land Resources",
-   "confidence": 1
-  },
-  {
-   "claim": "The website is designed, developed, and hosted by the National Informatics Centre (NIC).",
-   "kind": "OFFICE",
-   "subject": "website_developed_by",
-   "object": "national_informatics_centre",
-   "detail": {
-    "officeName": "National Informatics Centre (NIC)"
-   },
-   "sourceId": "src:b051d72e5b23",
-   "evidence": "Designed, Developed and Hosted by National Informatics Centre( NIC )",
-   "confidence": 1
-  },
-  {
-   "claim": "For support, the Department of Land Resources can be contacted at NBO Building, G-Wings, Nirman Bhawan, Maulana Azad Road, New Delhi-110011.",
-   "kind": "OFFICE",
-   "subject": "support_contact_address",
-   "object": "department_of_land_resources",
-   "detail": {
-    "address": "NBO Building, G-Wings, Nirman Bhawan, Maulana Azad Road, New Delhi-110011"
-   },
-   "sourceId": "src:b051d72e5b23",
-   "evidence": "Department of Land Resources Ministry of Rural Development NBO Building,G-Wings, Nirman Bhawan Maulana Azad Road, New Delhi-110011",
-   "confidence": 1
-  },
-  {
-   "claim": "For support, the Department of Land Resources can be contacted by phone at 011-23063224.",
-   "kind": "HELPLINE",
-   "subject": "support_contact_phone",
-   "object": "department_of_land_resources",
-   "detail": {
-    "phone": "011-23063224"
-   },
-   "sourceId": "src:b051d72e5b23",
-   "evidence": "Phone-011-23063224,",
-   "confidence": 1
-  },
-  {
-   "claim": "For support, the Department of Land Resources can be contacted by email at support-dilrmp[at]gov[dot]in.",
-   "kind": "HELPLINE",
-   "subject": "support_contact_email",
-   "object": "department_of_land_resources",
-   "detail": {
-    "email": "support-dilrmp[at]gov[dot]in"
-   },
-   "sourceId": "src:b051d72e5b23",
-   "evidence": "Email-support-dilrmp[at]gov[dot]in",
-   "confidence": 1
-  },
-  {
-   "claim": "The data on the site is updated by respective State Governments/UT Administration and the Department of Land Resources and Ministry of Rural Development.",
-   "kind": "DEPENDENCY",
-   "subject": "data_source",
-   "object": "state_governments_ut_administration",
-   "detail": {
-    "source": "respective State Governments/UT Administration and Department of Land Resources and Ministry of Rural Development"
-   },
-   "sourceId": "src:b051d72e5b23",
-   "evidence": "Data presented in this site has been updated by respective State Governments/UT Administration and Department of Land Resources and Ministry of Rural Development(MoRD), .",
-   "confidence": 1
-  },
-  {
-   "claim": "The website is hosted and maintained by the National Informatics Centre.",
-   "kind": "OFFICE",
-   "subject": "website_hosted_by",
-   "object": "national_informatics_centre",
-   "detail": {
-    "officeName": "National Informatics Centre"
-   },
-   "sourceId": "src:b051d72e5b23",
-   "evidence": "Website hosted and maintained by National Informatics Centre .",
-   "confidence": 1
-  },
-  {
    "claim": "The application process for obtaining a copy must be submitted to the Jan Seva Kendra Ahmedabad.",
    "kind": "OFFICE",
    "subject": "application_process",
@@ -3419,7 +3322,6 @@
   "land records: no quotable requirement, fee or timeline survived, so no service node was written for it.",
   "assessment notice: https://mcjamnagar.com/Services/Survey_Notice.aspx?SID=SER lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Property Tax Bill: https://mcjamnagar.com/Services/Propertytax_bill.aspx?SID=SER lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
-  "map digitized tehsil status: no quotable requirement, fee or timeline survived, so no service node was written for it.",
   "Jamnagar Municipal Corporation: no quotable requirement, fee or timeline survived, so no service node was written for it.",
   "certified copies: the hand written graph already answers to service:certified_copies, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "e-Milkat: no quotable requirement, fee or timeline survived, so no service node was written for it."

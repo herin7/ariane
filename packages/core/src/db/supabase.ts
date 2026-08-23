@@ -148,3 +148,53 @@ export async function pushToSupabase(
   await upsert("questions", rows.questions, "field");
   await upsert("escalation_templates", rows.escalation_templates);
 }
+
+/**
+ * Rows the database still holds that the seed no longer contains.
+ *
+ * `pushToSupabase` upserts and never deletes, on purpose. The cost of that
+ * purpose is that once a fact leaves the seed the database quietly keeps
+ * serving it, and `db:push` reports the drift as "94 item(s) went in, 95 came
+ * back", which reads like corruption and is actually an old row nobody removed.
+ * Name them instead, so removing one stays a decision somebody makes.
+ *
+ * Children first in the returned order, so a caller deleting the list top to
+ * bottom never orphans a row it has not reached yet.
+ */
+export async function orphansInSupabase(
+  db: SupabaseClient,
+  bundles: GraphBundle[],
+): Promise<{ table: string; key: string; id: string; label: string }[]> {
+  const seed = toRows(bundles);
+  const tables = [
+    ["edges", "id", seed.edges],
+    ["requirement_groups", "id", seed.requirement_groups],
+    ["escalation_templates", "id", seed.escalation_templates],
+    ["questions", "field", seed.questions],
+    ["nodes", "id", seed.nodes],
+    ["sources", "id", seed.sources],
+    ["journeys", "id", seed.journeys],
+  ] as const;
+
+  const found: { table: string; key: string; id: string; label: string }[] = [];
+  for (const [table, key, values] of tables) {
+    const known = new Set(values.map((v) => String((v as Record<string, unknown>)[key])));
+    for (const row of await readAll(db, table, key)) {
+      const id = String(row[key]);
+      if (known.has(id)) continue;
+      found.push({ table, key, id, label: String(row.url ?? row.name ?? row.label ?? row.type ?? "") });
+    }
+  }
+  return found;
+}
+
+/** Delete exactly the rows named. No filters, no cascades, nothing inferred. */
+export async function deleteRows(
+  db: SupabaseClient,
+  rows: { table: string; key: string; id: string }[],
+): Promise<void> {
+  for (const { table, key, id } of rows) {
+    const { error } = await db.from(table).delete().eq(key, id);
+    if (error) throw new Error(`deleting ${table} ${id}: ${error.message}`);
+  }
+}

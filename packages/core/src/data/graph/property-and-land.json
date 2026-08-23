@@ -192,17 +192,6 @@
    "contentHash": "d4cdfccf00d2d17ec5e3035d3907c898b4db3c8f1af05eb07bec22009bb65665"
   },
   {
-   "id": "src:b051d72e5b23",
-   "url": "https://dilrmp.gov.in/dilrmpold/PhyscialComponent/mapDigitization/digitizedtehsilstatusreport/68",
-   "title": "map digitized tehsil status",
-   "domain": "dilrmp.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "91ce1b70cbe3401fa80d067b5c513d79f3bb6eec70e797652a819540c5b2ce37",
-   "tlsVerified": false
-  },
-  {
    "id": "src:4836e2cf4ed0",
    "url": "https://ahmedabad.gujarat.gov.in/nakal-application",
    "title": "નકલ માટેની અરજીઓ નિકાલ કરવા બાબત | Revenue | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
@@ -1431,44 +1420,6 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "office:department_of_land_resources",
-   "type": "OFFICE",
-   "name": "Department_of_land_resources",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "address": "NBO Building, G-Wings, Nirman Bhawan, Maulana Azad Road, New Delhi-110011"
-   },
-   "sources": [
-    {
-     "sourceId": "src:b051d72e5b23",
-     "evidence": "Department of Land Resources Ministry of Rural Development NBO Building,G-Wings, Nirman Bhawan Maulana Azad Road, New Delhi-110011",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "helpline:011_23063224",
-   "type": "HELPLINE",
-   "name": "Map Digitized Tehsil Status Helpline",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHONE",
-    "phoneNumbers": [
-     "011-23063224"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:b051d72e5b23",
-     "evidence": "Phone-011-23063224,",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
   },
   {
    "id": "document:deposit_proof_copy",
