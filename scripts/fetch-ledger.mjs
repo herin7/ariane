@@ -59,7 +59,7 @@ for (const file of readdirSync(researchDir).filter((f) => f.endsWith(".json"))) 
 // ------------------------------------------------------------ what is on disk
 
 const files = new Map(); // relative path -> { bytes, sha256 }
-(function walk(dir) {
+function walkInto(dir) {
   let entries;
   try {
     entries = readdirSync(at(dir), { withFileTypes: true });
@@ -68,13 +68,18 @@ const files = new Map(); // relative path -> { bytes, sha256 }
   }
   for (const e of entries) {
     const path = `${dir}${e.name}`;
-    if (e.isDirectory()) walk(`${path}/`);
+    if (e.isDirectory()) walkInto(`${path}/`);
     else {
       const buffer = readFileSync(at(path));
       files.set(path, { bytes: buffer.length, sha256: createHash("sha256").update(buffer).digest("hex") });
     }
   }
-})(".firecrawl/");
+}
+walkInto(".firecrawl/");
+// The second cache. `.firecrawl/` is where a person saved a page they read;
+// `.ingest/pages/` is where the pipeline saves one. Both answer the only
+// question this file asks, so both are on disk as far as the ledger cares.
+walkInto(".ingest/pages/");
 
 // ------------------------------------------------------------------ reconcile
 
@@ -103,7 +108,12 @@ const entries = [...cited.values()]
   .sort((a, b) => a.url.localeCompare(b.url));
 
 const referenced = new Set(entries.map((e) => e.cacheFile).filter(Boolean));
-const orphans = [...files.keys()].filter((f) => !referenced.has(f)).sort();
+// Listed for `.firecrawl/` only. A page a person saved by hand and then never
+// cited is a loose end worth a name. A page the crawler saved and nobody has
+// cited yet is the ordinary state of a crawl, and printing six hundred of them
+// turns the one signal into scrollback.
+const orphans = [...files.keys()].filter((f) => !referenced.has(f) && f.startsWith(".firecrawl/")).sort();
+const uncitedIngest = [...files.keys()].filter((f) => !referenced.has(f) && f.startsWith(".ingest/")).length;
 
 const ledger = {
   // Regenerate with `pnpm fetch:ledger`. Hand edits get overwritten.
@@ -119,6 +129,8 @@ const ledger = {
   // Raw pages nobody cites. Not deleted: an uncited page is a page whose facts
   // have not been extracted yet, which is a lead, not litter.
   orphanedCacheFiles: orphans,
+  /** Crawled pages no bundle cites yet. The size of the backlog, not a fault. */
+  uncitedIngestPages: uncitedIngest,
   entries,
 };
 
