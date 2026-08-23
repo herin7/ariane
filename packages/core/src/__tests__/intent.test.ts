@@ -90,4 +90,25 @@ describe("what it refuses to do", () => {
   it("finds the certificate inside a whole Gujarati sentence, not just the bare term", () => {
     expect(top("મારે આવકનો દાખલો જોઈએ છે")?.goal).toBe("service:income_certificate");
   });
+
+  it("reads one spelling of a Gujarati word when the graph holds another", () => {
+    // વારસાઈ has no single English spelling and the state uses several. The
+    // collectorate pages say varsai, the url says varshai, and a citizen types
+    // whichever they last saw. One edit apart is one word.
+    const match = top("varsai certificate");
+    expect(match?.goal).toBe("service:varshai");
+    // Reported as the graph spells it, not as the citizen typed it, so the
+    // screen shows them how we read the question.
+    expect(match?.matched).toContain("varshai");
+
+    expect(top("kunvarbai mameru")?.goal).toBe("service:kunvarbai_mamera_scheme");
+  });
+
+  it("does not treat two short words one letter apart as the same word", () => {
+    // The cost of the rule above, and why it has a length floor. There is no
+    // service here for either, and inventing a match between them would be
+    // worse than the transliteration miss it was added to fix.
+    expect(resolveIntent(data, "pen")).toEqual([]);
+    expect(resolveIntent(data, "farm licence")?.some((m) => m.goal === "service:form_licence")).toBe(false);
+  });
 });

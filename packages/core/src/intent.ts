@@ -144,27 +144,76 @@ function phrasesOf(node: GraphNode): string[] {
   return [node.name, node.officialName ?? "", ...(node.aliases ?? [])].map((p) => p.toLowerCase()).filter(Boolean);
 }
 
+/**
+ * Shortest word where one edit is a spelling and not a different word.
+ *
+ * Gujarati has no one English spelling. The state itself writes વારસાઈ as
+ * "varsai" on the collectorate page and "varshai" in the url, and a citizen
+ * types whichever they saw last. Exact matching answered nothing for "varsai
+ * certificate", which is one of the most asked for certificates in the graph.
+ *
+ * Six is where it stops being dangerous. "pan" and "pen" are one edit apart and
+ * are not the same thing; "varsai" and "varshai" are one edit apart and are.
+ */
+const NEAR = 6;
+
+/** True if one insertion, deletion or substitution turns a into b. */
+function near(a: string, b: string): boolean {
+  if (a.length < NEAR || b.length < NEAR) return false;
+  if (Math.abs(a.length - b.length) > 1) return false;
+
+  let i = 0;
+  let j = 0;
+  let edits = 0;
+  while (i < a.length && j < b.length) {
+    if (a[i] === b[j]) {
+      i++;
+      j++;
+      continue;
+    }
+    if (++edits > 1) return false;
+    // Consume from the longer side on a length difference, both on a swap.
+    if (a.length >= b.length) i++;
+    if (b.length >= a.length) j++;
+  }
+  return edits + (a.length - i) + (b.length - j) <= 1;
+}
+
 function score(node: GraphNode, query: string[]): { score: number; hits: string[]; named: number } {
   const phrases = phrasesOf(node);
-  const vocabulary = new Set(phrases.flatMap(tokenise));
+  const vocabulary = [...new Set(phrases.flatMap(tokenise))];
 
   const hits: string[] = [];
+  // The service's own words that the query reached, however it reached them.
+  const asked = new Set<string>();
   let total = 0;
   for (const token of query) {
     // An exact alias match is worth more than a shared word like "licence".
     if (phrases.includes(token)) {
       total += 2;
       hits.push(token);
-    } else if (vocabulary.has(token)) {
+      asked.add(token);
+      continue;
+    }
+    if (vocabulary.includes(token)) {
       total += 1;
       hits.push(token);
+      asked.add(token);
+      continue;
+    }
+    // Recorded as the word the service uses, not the word the citizen typed,
+    // so the UI shows them how we read it and they can say we read it wrong.
+    const close = vocabulary.find((word) => near(word, token));
+    if (close) {
+      total += 1;
+      hits.push(close);
+      asked.add(close);
     }
   }
 
   // The other half of the question: did the query name this service, or just
   // brush against a word in it. Best phrase wins, so an obscure long official
   // name never drags down a service the citizen called by its short one.
-  const asked = new Set(query);
   let named = 0;
   for (const phrase of phrases) {
     const words = tokenise(phrase);
