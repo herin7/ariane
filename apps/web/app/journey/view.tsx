@@ -312,6 +312,20 @@ function Step({ step, held, onHave }: { step: JourneyStep; held: string[]; onHav
             </>
           ) : null}
 
+          {step.couldBlock?.length ? (
+            <>
+              {/* Not a blocker. A blocker is somebody holding your application
+                  and you can see it. These are the ones you find out about when
+                  the money does not arrive. */}
+              <p className="small" style={{ marginBottom: 2 }}><b>What quietly stops this</b></p>
+              <ul className="small" style={{ color: "var(--warn)" }}>
+                {step.couldBlock.map((risk) => (
+                  <li key={risk}>{risk}</li>
+                ))}
+              </ul>
+            </>
+          ) : null}
+
           <p className="small muted">
             {[step.fee && `Fee: ${step.fee}`, step.formNumber && `Form: ${step.formNumber}`, step.timeline]
               .filter(Boolean)

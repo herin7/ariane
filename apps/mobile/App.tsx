@@ -330,6 +330,14 @@ function Step({
           ))}
         </>
       ) : null}
+      {step.couldBlock?.length ? (
+        <>
+          <Text style={styles.body}>What quietly stops this:</Text>
+          {step.couldBlock.map((risk) => (
+            <Text key={risk} style={styles.warn}>{"• " + risk}</Text>
+          ))}
+        </>
+      ) : null}
       {facts ? <Text style={styles.muted}>{facts}</Text> : null}
 
       {step.documentsNeeded.map((d) => (

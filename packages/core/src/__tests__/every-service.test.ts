@@ -69,6 +69,35 @@ describe("every service compiles into something a citizen can act on", () => {
 });
 
 /**
+ * What quietly stops a step has to reach the step.
+ *
+ * Third time now: `processingDays`, then `machineExtracted`, now `couldBlock`.
+ * A researcher writes a field onto a node, `db:push` carries it, and no screen
+ * ever asks for it. Four of these exist and one of them is "an institute whose
+ * AISHE status is INACTIVE stops the payment", which is the single most useful
+ * sentence in the scholarship journey and was reaching nobody.
+ */
+describe("couldBlock survives the compile", () => {
+  const carrying = data.nodes.filter((n) => n.metadata?.couldBlock?.length);
+
+  it("there are nodes carrying it", () => {
+    expect(carrying.length).toBeGreaterThan(0);
+  });
+
+  for (const node of carrying) {
+    it(`${node.id} shows what stops it`, () => {
+      // Compiled from the node itself, so this holds whatever journey drags it
+      // in and does not go stale when the graph is rewired around it.
+      const step = compile(node.id).orderedSteps.find((s) => s.nodeId === node.id);
+      expect(step?.couldBlock?.length).toBe(node.metadata?.couldBlock?.length);
+      // A node id is not a warning. Anything shaped like one must have been
+      // swapped for the thing's name before it reaches a citizen.
+      for (const risk of step?.couldBlock ?? []) expect(risk).not.toMatch(/^[a-z_]+:[a-z0-9_]+$/);
+    });
+  }
+});
+
+/**
  * A generated service may not take a name a hand written one already answers to.
  *
  * `resolveGoal` tries `service:<slug of what you typed>` before it scans

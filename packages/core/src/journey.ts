@@ -514,6 +514,10 @@ export class JourneyCompiler {
         timeline: node.metadata?.timeline,
         formNumber: node.metadata?.formNumber,
         eligibility: node.metadata?.eligibility,
+        // Half of these are written as a sentence and half as a node id, so an
+        // id gets swapped for the thing's name and anything else is printed as
+        // it was written. "document:police_noc" is not a warning.
+        couldBlock: node.metadata?.couldBlock?.map((b) => this.index.node(b)?.name ?? b),
         machineExtracted: node.metadata?.machineExtracted,
         documentsNeeded: documents.needed,
         documentsReady: documents.ready,
