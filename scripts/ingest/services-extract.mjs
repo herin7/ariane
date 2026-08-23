@@ -50,7 +50,9 @@ const SCHEMA_VERSION = 1;
 const PROMPT_VERSION = 2;
 
 const FETCH_CONCURRENCY = 8;
-const MODEL_CONCURRENCY = 4;
+// Eight against Bedrock, four against the state's own servers. Different
+// systems, different tolerances, and `chat` already backs off on a 429.
+const MODEL_CONCURRENCY = 8;
 /** Enough of a page for the model to see the requirements table, not the footer. */
 const MAX_CHARS = 14_000;
 /** Below this a page has navigation and nothing else. */
