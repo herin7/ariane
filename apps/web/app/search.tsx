@@ -8,6 +8,10 @@ export function Search() {
   const router = useRouter();
   const [text, setText] = useState("");
   const [matches, setMatches] = useState<IntentMatch[] | null>(null);
+  // What we translated the question into before we searched. The phone has said
+  // this since day one and the browser never did, so somebody typing Gujarati
+  // got English service names back and no account of how we got there.
+  const [readAs, setReadAs] = useState<{ understoodAs?: string; detectedLanguage?: string }>({});
   const [busy, setBusy] = useState(false);
 
   async function submit(event: React.FormEvent) {
@@ -19,8 +23,13 @@ export function Search() {
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ text }),
     });
-    const data = (await response.json()) as { matches?: IntentMatch[] };
+    const data = (await response.json()) as {
+      matches?: IntentMatch[];
+      understoodAs?: string;
+      detectedLanguage?: string;
+    };
     setBusy(false);
+    setReadAs({ understoodAs: data.understoodAs, detectedLanguage: data.detectedLanguage });
 
     // One confident match and nothing close behind it, so stop asking.
     const [best, second] = data.matches ?? [];
@@ -44,6 +53,13 @@ export function Search() {
         <button className="primary" disabled={busy}>{busy ? "Thinking" : "Find my path"}</button>
       </form>
 
+      {readAs.understoodAs ? (
+        <p className="muted small" style={{ marginTop: 12 }}>
+          Read as: {readAs.understoodAs}
+          {readAs.detectedLanguage ? ` (${readAs.detectedLanguage})` : ""}
+        </p>
+      ) : null}
+
       {matches?.length === 0 ? (
         <p className="muted small" style={{ marginTop: 12 }}>
           We do not have that journey mapped yet. Only the services listed below are covered so far, and we
@@ -62,8 +78,14 @@ export function Search() {
               onClick={() => router.push(`/journey?goal=${encodeURIComponent(match.goal)}`)}
             >
               <h3>{match.name}</h3>
+              {/* An empty `matched` is the model having read the sentence, not
+                  a word having matched. It rendered as "matched on  (25% sure)",
+                  a claim about words that were never there. Mobile already said
+                  the right thing here and the web did not. */}
               <span className="muted small">
-                matched on {match.matched.join(", ")} ({Math.round(match.confidence * 100)}% sure)
+                {match.matched.length
+                  ? `matched on ${match.matched.join(", ")} (${Math.round(match.confidence * 100)}% sure)`
+                  : "read out of your sentence by a model, not matched on a word. Check it is what you meant."}
               </span>
             </button>
           ))}
