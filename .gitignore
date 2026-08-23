@@ -31,6 +31,15 @@ TODO.md
 # rescore is paying storage for a `node` invocation.
 .ingest/urls.jsonl
 
+# The raw PDF bytes are the other exception, and for the opposite reason to
+# urls.jsonl: they are not derived, they are just enormous. 925 government PDFs
+# is over half a gigabyte, and nothing downstream reads them. Every quote is
+# checked against .ingest/pages/*.md, the page preserving text in
+# .ingest/pdftext/ is committed, and .ingest/pdfs.jsonl holds a sha256 of every
+# file, so the bytes are pinned without being carried. Refetching one is a
+# single GET nobody will ever need to make.
+.ingest/pdf/
+
 # deps
 node_modules/
 .pnpm-store/
