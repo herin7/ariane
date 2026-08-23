@@ -79,6 +79,16 @@ const FLOOR = 0.3;
 const NAMED = 0.5;
 
 /**
+ * Enough of a stemmer to count "certificate" and "certificates" as one word.
+ *
+ * Only ever used for counting, never for matching, so the cost of getting it
+ * wrong is a tie broken in the wrong order and not a service that cannot be
+ * found. Without it "Miscellaneous Certificates" was the rarest thing in the
+ * graph, because it is the only service that spells the word with an s.
+ */
+const stem = (token: string): string => (token.length > 3 && token.endsWith("s") ? token.slice(0, -1) : token);
+
+/**
  * How many services a word may appear in and still count as having named one.
  *
  * NAMED is satisfied by half of a two word name, and half of "Caste Certificate"
@@ -91,39 +101,40 @@ const NAMED = 0.5;
  * thirty services in this graph are one. So ask the graph. A word in a tenth of
  * the catalogue is a category; a word in two services is a name.
  */
-const generic = new WeakMap<GraphData, Set<string>>();
+const generic = new WeakMap<GraphData, { counts: Map<string, number>; categories: Set<string> }>();
 
-function categoryWords(data: GraphData): Set<string> {
+function vocabularyOf(data: GraphData): { counts: Map<string, number>; categories: Set<string> } {
   const cached = generic.get(data);
   if (cached) return cached;
 
-  const seen = new Map<string, number>();
+  const counts = new Map<string, number>();
   let services = 0;
   for (const node of data.nodes) {
     if (node.type !== "SERVICE") continue;
     services++;
-    for (const token of new Set(phrasesOf(node).flatMap(tokenise))) {
-      seen.set(token, (seen.get(token) ?? 0) + 1);
+    for (const token of new Set(phrasesOf(node).flatMap(tokenise).map(stem))) {
+      counts.set(token, (counts.get(token) ?? 0) + 1);
     }
   }
 
   const ceiling = Math.max(2, services * 0.1);
-  const words = new Set([...seen].filter(([, count]) => count > ceiling).map(([token]) => token));
-  generic.set(data, words);
-  return words;
+  const categories = new Set([...counts].filter(([, count]) => count > ceiling).map(([token]) => token));
+  const built = { counts, categories };
+  generic.set(data, built);
+  return built;
 }
 
 export function resolveIntent(data: GraphData, text: string, limit = 5): IntentMatch[] {
   const query = tokenise(text);
   if (!query.length) return [];
 
-  const categories = categoryWords(data);
+  const { counts, categories } = vocabularyOf(data);
   const matches: IntentMatch[] = [];
   for (const node of data.nodes) {
     if (node.type !== "SERVICE") continue;
     const scored = score(node, query);
     const confidence = Math.min(1, scored.score / query.length);
-    const distinctive = scored.hits.some((h) => !categories.has(h));
+    const distinctive = scored.hits.some((h) => !categories.has(stem(h)));
     if (confidence >= FLOOR && scored.named >= NAMED && distinctive) {
       matches.push({
         goal: node.id,
@@ -135,7 +146,20 @@ export function resolveIntent(data: GraphData, text: string, limit = 5): IntentM
     }
   }
 
-  matches.sort((a, b) => b.confidence - a.confidence || a.name.localeCompare(b.name));
+  // Confidence first, then how rare the words that matched were.
+  //
+  // Six services tie at 0.50 for "varsai certificate": five certificates that
+  // matched the word "certificate" and Varshai, which matched "varshai".
+  // Alphabetical order put Varshai sixth, off the end of a list of five, and
+  // the citizen who typed the one word that identified their service got the
+  // five services that ignored it. `categories` cannot break this tie: at 222
+  // services "certificate" is in fifteen of them, well under the tenth of the
+  // catalogue that makes a word generic, so it counts as distinctive and so
+  // does "varshai". Rarity is a scale where that was a threshold. One service
+  // in the graph says varshai and fifteen say certificate, so varshai is
+  // fifteen times more of an answer.
+  const rarity = (m: IntentMatch) => m.matched.reduce((sum, h) => sum + 1 / (counts.get(stem(h)) ?? 1), 0);
+  matches.sort((a, b) => b.confidence - a.confidence || rarity(b) - rarity(a) || a.name.localeCompare(b.name));
   return matches.slice(0, limit);
 }
 

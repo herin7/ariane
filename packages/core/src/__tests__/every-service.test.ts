@@ -57,3 +57,42 @@ describe("every service compiles into something a citizen can act on", () => {
     });
   }
 });
+
+/**
+ * A generated service may not take a name a hand written one already answers to.
+ *
+ * `resolveGoal` tries `service:<slug of what you typed>` before it scans
+ * aliases, so an id nobody declared is still load bearing. `scholarship.json`
+ * has no `service:scholarship` node; it answers to that word because it is an
+ * alias of `service:nsp_scholarship`. The first machine compile minted a
+ * `service:scholarship` off a Rajkot listing page, that id won the earlier
+ * candidate, and the entire scholarship journey compiled to one step while
+ * every gate stayed green.
+ *
+ * The compiler now reserves these ids. This is the test that says so, because
+ * the reservation lives in a script that only runs when someone re-crawls, and
+ * a guarantee nobody checks is a guarantee until the day it is not.
+ */
+describe("the machine cannot shadow a hand written service", () => {
+  const handWritten = services.filter((s) => !s.metadata?.machineExtracted);
+
+  it("found the hand written services", () => {
+    expect(handWritten.length).toBeGreaterThan(20);
+  });
+
+  for (const service of handWritten) {
+    const phrases = [service.name, service.officialName, ...(service.aliases ?? [])].filter(
+      (p): p is string => Boolean(p),
+    );
+    for (const phrase of phrases) {
+      it(`"${phrase}" still resolves to a hand written service`, () => {
+        // Not to *this* service. "sebc certificate" is the name of one hand
+        // written service and an alias of another, and which one wins is an
+        // overlap two people left in the seed, not a thing the machine broke.
+        // What must never happen is a machine extracted service answering.
+        const winner = data.nodes.find((n) => n.id === compile(phrase).goal);
+        expect(winner?.metadata?.machineExtracted).toBeFalsy();
+      });
+    }
+  }
+});

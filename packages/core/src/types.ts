@@ -71,6 +71,17 @@ export type ChannelType =
 export type Actor = "CITIZEN" | "EMPLOYER" | "GOVERNMENT" | "INSTITUTE" | "BANK";
 
 export interface NodeMetadata {
+  /**
+   * Written by the ingestion pipeline, absent on anything a person authored.
+   *
+   * Not a quality claim in either direction. Every quote on either kind is
+   * proved verbatim against a fetched page before it is written. It says who
+   * chose the words around the quote, which is what decides a tie: a hand
+   * written service wins a name collision, and a machine one may never take a
+   * name the seed already answers to.
+   */
+  machineExtracted?: boolean;
+
   /** PORTAL / TRACKING / GRIEVANCE_CHANNEL: the official URL. */
   url?: string;
   /** MOBILE_APP: verified store identifiers. Never guessed. */
