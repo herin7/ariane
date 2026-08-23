@@ -1,0 +1,4839 @@
+{
+ "journey": "permits-and-licences",
+ "researchedAt": "2026-08-23",
+ "region": "Gujarat, India",
+ "sources": [
+  {
+   "id": "src:486c8338b1b8",
+   "url": "https://girlion.gujarat.gov.in/TermsConditions.aspx",
+   "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+   "domain": "girlion.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "fa5e3e855110f920c781c25494e490b080000c2e7f48b317639faa175352112c",
+   "cacheFile": ".ingest/pages/486c8338b1b8530b469f3ccb50f7404585f3c5bf.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:e0cc234eb940",
+   "url": "https://gsbb.gujarat.gov.in/access-benefit-sharing-abs.htm",
+   "title": "Access & Benefit Sharing (ABS) | Activities | Gujarat Biodiversity Board",
+   "domain": "gsbb.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "6d0c448a07e75108f3c6dc52bb0da7dbb9493f7af56c736f6c454ad1b05abe1b",
+   "cacheFile": ".ingest/pages/e0cc234eb940a49a22eda2af7427842cf9849134.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:d8e8ff030eae",
+   "url": "https://ceiced.gujarat.gov.in/lb",
+   "title": "LB | પ્રશ્નોત્તર | ઈ-નાગરિક | મુખ્ય વિદ્યુત નિરીક્ષક <br />અને<br />વિદ્યુત શુલ્ક સમાહર્તા",
+   "domain": "ceiced.gujarat.gov.in",
+   "sourceType": "FAQ",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "dba9512f73a52f0ad3545b21b6607e33a6abc80b9cb4e945d9ad0f2f6114e97c",
+   "cacheFile": ".ingest/pages/d8e8ff030eaeee467475ae1519f071f9ff7e01cf.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:f84364f06217",
+   "url": "https://townplanning.gujarat.gov.in/DPIFC",
+   "title": "DPIFC | Development Permission Investors Facilitation Cell — Single Page (Temporary)",
+   "domain": "townplanning.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "836066cf5df66ea7e36b9aa7fd3a62cd64364e35d6dc607751461f6ba15060e1",
+   "cacheFile": ".ingest/pages/f84364f0621709a94f6441c067c84d3fa1f3df9f.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:16b5f493e686",
+   "url": "https://gvc.org.in/webcontroller/members/40",
+   "title": "Gujarat Veterinary Council",
+   "domain": "gvc.org.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "514b30e619eaa169c914dfc31ea2ceffbc9e3d7d40f167cd3fee0d1eaaac5eb2",
+   "cacheFile": ".ingest/pages/16b5f493e686a6de377169caaf4ce6fd1738e796.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:d405aafc8d64",
+   "url": "https://forestservices.gujarat.gov.in/eServices/Vanmahotsav/frmVanMahotsavapp.aspx",
+   "title": "Gujarat Forest Department",
+   "domain": "forestservices.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "0188ff951939325b47678c8f3bf7b84aa1902611b4984fed077962b3df5faa37",
+   "cacheFile": ".ingest/pages/d405aafc8d643b1b35af77f0a8f4648eb8697204.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:a4264d4ffddb",
+   "url": "https://forestservices.gujarat.gov.in/eServices/FilmShooting/frmPermissionResearch_New.aspx",
+   "title": "Gujarat Forest Department",
+   "domain": "forestservices.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "30fa36cf27cd17ab94a6c546a7def72621e97bb4de7086eb475e5f94b22aa80a",
+   "cacheFile": ".ingest/pages/a4264d4ffddb75a5410771d0fda9c475eb14e9ab.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:52cd469e9103",
+   "url": "https://forestservices.gujarat.gov.in/eServices/BarbedWireFencing/frmBarbedWireFencingApp_New.aspx",
+   "title": "Gujarat Forest Department",
+   "domain": "forestservices.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "681e485695d9b22b4d6a779bea0004b1c44cb18459228a12f980dadd65ba80b2",
+   "cacheFile": ".ingest/pages/52cd469e91036e5469f7a761e72c39b291350eac.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:ddfe75bb179b",
+   "url": "https://www.gidc.gujarat.gov.in/Pages/Contents/application-for-water-connection",
+   "title": "GIDC",
+   "domain": "gidc.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "de8da32bed250db5ce6fbaa5d8e0ba19a21dbbfeb9ae43bbbd4d8f913321d7cc",
+   "cacheFile": ".ingest/pages/ddfe75bb179b1c2f573bc35e16488dc18090a7a9.md",
+   "scrapedOk": true,
+   "tlsVerified": false
+  },
+  {
+   "id": "src:a299a14d5099",
+   "url": "https://vmc.gov.in/faqs.aspx",
+   "title": "Vadodara Municipal Corporation",
+   "domain": "vmc.gov.in",
+   "sourceType": "FAQ",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ce8a259fd30547263a96c0639d750eb6dd4df1e1872ce73393047cba12071ace",
+   "cacheFile": ".ingest/pages/a299a14d5099e70bcf5e4470042ef112c570e6b5.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:276afc4b2b42",
+   "url": "https://girlion.gujarat.gov.in/AboutGirnarNatureSafari.aspx",
+   "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+   "domain": "girlion.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "79ec18635ad0e5aa0672a8c2172ac473da8ccc832a4d8dd3243ca154162a15e6",
+   "cacheFile": ".ingest/pages/276afc4b2b427ea5266191746b42880aabc4115c.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:ae4e926fc5b9",
+   "url": "https://girlion.gujarat.gov.in/ContactUs.aspx/1000",
+   "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+   "domain": "girlion.gujarat.gov.in",
+   "sourceType": "HELPLINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "52c93fce13c89b0fd9dc3857cd155483b105612a1e42d4929f7a25f1048c73de",
+   "cacheFile": ".ingest/pages/ae4e926fc5b998ed209784425ebc3b3c326f5c4f.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:11052a2e4ead",
+   "url": "https://girlion.gujarat.gov.in/VelavadarBooking.aspx",
+   "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+   "domain": "girlion.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "6821110af00b546f5d159d30e6a14a52d51ac29dd5d76f2fab3269cd5b9b103b",
+   "cacheFile": ".ingest/pages/11052a2e4ead4141c706a32ea8f01d27ae91157b.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:95a9c084b03d",
+   "url": "https://girlion.gujarat.gov.in/Services.aspx",
+   "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+   "domain": "girlion.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "57696074614658b869e13eceaceeca4b1731a40effec2030262323ea4dbf411d",
+   "cacheFile": ".ingest/pages/95a9c084b03dab2b48affd70fd8dfe6499008ed4.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:f2cbb7797ef7",
+   "url": "https://girlion.gujarat.gov.in/GirnarNatureSafariBooking.aspx",
+   "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+   "domain": "girlion.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "f2917fb7036505ca4d1fa6fdefef29973e2e4566857ca1b5a721364230da37d3",
+   "cacheFile": ".ingest/pages/f2cbb7797ef72058f06db04171bd808b47345f19.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:2bf6f853854d",
+   "url": "https://girlion.gujarat.gov.in/",
+   "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+   "domain": "girlion.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "a9f6f9b6196925721f2c0aefabd98c759f1a7acfab45f3957e0aea522502746a",
+   "cacheFile": ".ingest/pages/2bf6f853854d966af521f352132c05c42a0246da.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:e89c2413eb37",
+   "url": "https://girlion.gujarat.gov.in/GirJungleTrailBooking.aspx",
+   "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+   "domain": "girlion.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "e50f13abd23d59c64a1d479e90f917262cba53177e4bb19f12812c5f419396ab",
+   "cacheFile": ".ingest/pages/e89c2413eb37288bf15a680fe9591931ef3583ea.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:7f4a4e5e8699",
+   "url": "https://girlion.gujarat.gov.in/AboutDevalia.aspx",
+   "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+   "domain": "girlion.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "4b58869dae80baee511bedc3ab903d9db21151b5b7a87bb52a26041b817a1b55",
+   "cacheFile": ".ingest/pages/7f4a4e5e8699ca5435055eaa6eb33511a2018c46.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:074dec0e7f9b",
+   "url": "https://girlion.gujarat.gov.in/AboutAmbardi.aspx/1000",
+   "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+   "domain": "girlion.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "4f8c6972cf0c473f4f18edc42c79e15ceb971e68694426b7e7bb685a5ebc55f3",
+   "cacheFile": ".ingest/pages/074dec0e7f9bbc74e3f353a9f5b97827f1b9c20e.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:8b0605f91d38",
+   "url": "https://girlion.gujarat.gov.in/GIZDevaliaBusBooking.aspx",
+   "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+   "domain": "girlion.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "90fe9ad3447efe2d56989fc622bfab08c344cbb2b66ad61898b460ec5a57cad4",
+   "cacheFile": ".ingest/pages/8b0605f91d38395e2e4c698167a6e34c1952ada7.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:380c2532b17d",
+   "url": "https://girlion.gujarat.gov.in/AmbardiBooking.aspx/AboutGir.aspx",
+   "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+   "domain": "girlion.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "7ede3b2fdb3bc26869892d0962fb67300841e2f7b7f0d1ac4e2329dcbc15b869",
+   "cacheFile": ".ingest/pages/380c2532b17d098079578159ac8a80025e7eefdc.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:5dd1e4da0095",
+   "url": "https://girlion.gujarat.gov.in/Rating.aspx",
+   "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+   "domain": "girlion.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "3825995354e5c19f1f204918bc1645338ab3d9da825b71e35f6218af6362e02d",
+   "cacheFile": ".ingest/pages/5dd1e4da00957b9b39761cf47a8c7e8de14eba35.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:fea49844e324",
+   "url": "https://girlion.gujarat.gov.in/GIZDevaliaGypsyBooking.aspx",
+   "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+   "domain": "girlion.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "cddcf7b288fe740c1471d1bdb654b3ec015562aedd0a95360dbd5b521a9343e4",
+   "cacheFile": ".ingest/pages/fea49844e324a7cd9e52847dbbdea2896b41def9.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:3352bf96ce66",
+   "url": "https://ceiced.gujarat.gov.in/ced",
+   "title": "CED | પ્રશ્નોત્તર | ઈ-નાગરિક | મુખ્ય વિદ્યુત નિરીક્ષક <br />અને<br />વિદ્યુત શુલ્ક સમાહર્તા",
+   "domain": "ceiced.gujarat.gov.in",
+   "sourceType": "FAQ",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "643e20574b35dd3df2740008e045322d0fc6c43b7bd04d9941b7ac798307b650",
+   "cacheFile": ".ingest/pages/3352bf96ce667dd9fe2adec82ec38babeeb59dae.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:2d20ddb5e853",
+   "url": "https://girlion.gujarat.gov.in/PermitBookingForGirnarNature.aspx",
+   "title": "GSLCS",
+   "domain": "girlion.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "dc6c2b7292c1b2f5d63494833d69399cbda62ed2fb7fe61251bea625dd265641",
+   "cacheFile": ".ingest/pages/2d20ddb5e8531a9bdbb4670e4cc2a514092980dc.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:035a9fb40617",
+   "url": "https://girlion.gujarat.gov.in/AboutGirnarNatureSafari.aspx/1000",
+   "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+   "domain": "girlion.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "52466dc945de29b94096e31472d31994a8467487f7570c84895ea9c9a9a1596a",
+   "cacheFile": ".ingest/pages/035a9fb40617e972514fa156f7d569c611245155.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:61f17e5a5fa6",
+   "url": "https://girlion.gujarat.gov.in/PermitBookingForJungleTrail.aspx",
+   "title": "GSLCS",
+   "domain": "girlion.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "78f42a2e885ae3b0f6db6b63b33a09b5e5ca0974438ebf54047525eba7dbb5d1",
+   "cacheFile": ".ingest/pages/61f17e5a5fa67de33467be0fe5ef9e6351913d8a.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:b02637248ac0",
+   "url": "https://ayudmla.gujarat.gov.in/downloads.php",
+   "title": "FDCA",
+   "domain": "ayudmla.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "033a86a7dbffd2c6840cebddb9f14b9a422f67f455b6448993ab090d6e464a01",
+   "cacheFile": ".ingest/pages/b02637248ac072bef91cd42e3e4664a2ea1a55f5.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:7d05e57bbb38",
+   "url": "https://forestservices.gujarat.gov.in/eServices/Parapit/frmParapitApp.aspx",
+   "title": "Gujarat Forest Department",
+   "domain": "forestservices.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "f284dce482a94bb937a3366c08bb1212f6c7f0a6120e6c61a699a4291f30231c",
+   "cacheFile": ".ingest/pages/7d05e57bbb387cb4d813d1a7a7cd66d8736be5c6.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:1c622b6d545b",
+   "url": "https://forestservices.gujarat.gov.in/TransitPass/MerchantRegistration.aspx",
+   "title": "Transit Pass Management System for Imported Timber, Forest Department, Govt. of Gujarat",
+   "domain": "forestservices.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "e4855dcca038073b5ab4444cc282c4b1170aa4d209a1c162ede74010a39de5b9",
+   "cacheFile": ".ingest/pages/1c622b6d545b0ceaad2eaa407dd99024b9e15373.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:0415e6113e65",
+   "url": "https://dish.gujarat.gov.in/m/contact-competant_persons.htm",
+   "title": "DISH | Contact us | Contact Persons/Whom to Contact | Competant Persons",
+   "domain": "dish.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "47045468eb20b03dbccd3f4b7bbb34d1c01ddcd464e64c432e54e40758e018b3",
+   "cacheFile": ".ingest/pages/0415e6113e6514fd2615a1365d5ae1a20b5a3f01.md",
+   "scrapedOk": true
+  }
+ ],
+ "facts": [
+  {
+   "claim": "The 'e-Permit' is only valid for visits to 'Gir Jungle Safari', 'GIZ Devalia Safari', 'Ambardi Safari Park', and 'Girnar Nature Safari'.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "e_permit",
+   "object": "gir_jungle_safari_giz_devalia_safari_ambardi_safari_park_gir",
+   "detail": {},
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "The 'e-Permit' is for a visit to 'Gir Jungle Safari', 'GIZ Devalia Safari', 'Ambardi Safari Park' and 'Girnar Nature Safari' only.",
+   "confidence": 1
+  },
+  {
+   "claim": "It is compulsory to carry the 'e-Permit' during reporting and entry time.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "e_permit",
+   "object": "entry",
+   "detail": {},
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "It is compulsory to carry the 'e-Permit' during reporting and entry time.",
+   "confidence": 1
+  },
+  {
+   "claim": "All visitors must carry their original photo identity proof (Aadhar Card/PAN Card/Driving Licence/Voter ID Card).",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "visitor",
+   "object": "original_photo_identity_proof",
+   "detail": {},
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "All the visitors should carry their original photo identity proof (Aadhar Card/PAN Card/Driving Licence/Voter ID Card).",
+   "confidence": 1
+  },
+  {
+   "claim": "Foreigners must carry their original passport as the photo identity proof.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "foreigner",
+   "object": "original_passport",
+   "detail": {},
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "For FOREIGNER , it is compulsory to keep the original passport as the photo identity proof with him/her.",
+   "confidence": 1
+  },
+  {
+   "claim": "Entry will not be permitted for the safari without original photo identity proof.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "entry",
+   "object": "original_photo_identity_proof",
+   "detail": {},
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "Entry will not be permitted for the safari without original photo identity proof.",
+   "confidence": 1
+  },
+  {
+   "claim": "During the reporting time, the presence of each person is compulsory.",
+   "kind": "ACTION",
+   "subject": "person",
+   "object": "presence",
+   "detail": {},
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "During the reporting time, the presence of each person is compulsory.",
+   "confidence": 1
+  },
+  {
+   "claim": "One 'e-Permit' allows entry of a maximum of 6 adults + 1 child (3-12 years) to visit 'Gir Jungle Safari', 'GIZ Devalia Safari', 'Ambardi Safari Park', and 'Girnar Nature Safari' within the selected time slot on a particular route only.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "e_permit",
+   "object": "entry",
+   "detail": {
+    "max_adults": 6,
+    "max_children": 1
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "One 'e-Permit' allows entry of a maximum of 6 adults + 1 child* (3-12 years) to visit 'Gir Jungle Safari', 'GIZ Devalia Safari', 'Ambardi Safari Park' and 'Girnar Nature Safari' within the selected time slot on a particular route only.",
+   "confidence": 1
+  },
+  {
+   "claim": "For Gir Jungle Safari and Girnar Nature Safari, one person can get only one 'e-Permit' per slot per day.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "person",
+   "object": "e_permit",
+   "detail": {
+    "max_per_person_per_day": 1
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "For Gir Jungle Safari and Girnar Nature Safari, one person can get only one 'e-Permit' per slot per day.",
+   "confidence": 1
+  },
+  {
+   "claim": "'GIZ Devalia Safari Park' remains closed every Wednesday.",
+   "kind": "TIMELINE",
+   "subject": "giz_devalia_safari_park",
+   "object": "closure",
+   "detail": {
+    "day": "wednesday"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "'GIZ Devalia Safari Park' remain closed every Wednesday.",
+   "confidence": 1
+  },
+  {
+   "claim": "The e-permit does not include the Guide and Safari vehicle charge, which must be paid separately to respective Guides and Safari vehicle owners.",
+   "kind": "FEE",
+   "subject": "e_permit",
+   "object": "guide_safari_vehicle_charge",
+   "detail": {
+    "payment_method": "separately"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "The e-permit doesn't includes the Guide and Safari vehicle charge,which must be paid separatley to respective Guides and Safari vehicle owners.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Forest Department's concerned authorities reserve the full rights to change the time slot timings as per the weather/seasonal conditions or due to sudden, unavoidable circumstances.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "forest_department",
+   "object": "time_slot_timings",
+   "detail": {},
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "The Forest Department's concerned authorities reserve the full rights to change the time slot timings as per the weather/seasonal conditions or due to sudden, unavoidable circumstances.",
+   "confidence": 1
+  },
+  {
+   "claim": "'Gir Jungle Trail' and 'Girnar Nature Safari' can be booked only through the online booking system, and 'GIZ Devalia Gypsy Safari' can be booked online as well as current booking if the permits are available.",
+   "kind": "CHANNEL",
+   "subject": "booking",
+   "object": "gir_jungle_trail_girnar_nature_safari_giz_devalia_gypsy_safa",
+   "detail": {
+    "method": "online_booking_system_current_booking"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "'Gir Jungle Trail' and 'Girnar Nature Safari' can be booked only through the online booking system, and 'GIZ Devalia Gypsy Safari can be booked online as well as current booking if the permits are available.",
+   "confidence": 1
+  },
+  {
+   "claim": "For Gir Jungle Trail, GIZ Devalia Gypsy Safari, 'Ambardi Safari Park' and Girnar Nature Safari, online booking opens three months before the date and closes down two hours before the date.",
+   "kind": "TIMELINE",
+   "subject": "online_booking",
+   "object": "gir_jungle_trail_giz_devalia_gypsy_safari_ambardi_safari_par",
+   "detail": {
+    "open_before": "3 months",
+    "close_before": "2 hours"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "For Gir Jungle Trail, GIZ Devalia Gypsy Safari, 'Ambardi Safari Park' and Girnar Nature Safari, online booking opens three months before the date. It closes down two hours before the date.",
+   "confidence": 1
+  },
+  {
+   "claim": "If one does not receive an e-Permit despite the successful financial transaction due to technical errors, a refund will be done in 15-20 working days.",
+   "kind": "GRIEVANCE",
+   "subject": "e_permit",
+   "object": "refund",
+   "detail": {
+    "days": "15-20"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "If one does not receive an e-Permit despite the successful financial transaction due to technical errors, a refund will be done in 15-20 working days.",
+   "confidence": 1
+  },
+  {
+   "claim": "For such issues, kindly send an email to gslcsgir@yahoo.com or call us on 02877-285621.",
+   "kind": "HELPLINE",
+   "subject": "gslcsgir",
+   "object": "email_call",
+   "detail": {
+    "email": "gslcsgir@yahoo.com",
+    "phone": "02877-285621"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "For such issues, kindly send an email to gslcsgir@yahoo.com or call us on 02877-285621.",
+   "confidence": 1
+  },
+  {
+   "claim": "Gir Jungle Trail, GIZ Devalia Gypsy Safari, 'Ambardi Safari Park' and Girnar Nature Safari visitors are requested to arrive at the respective reception centres (boarding point) 30 minutes before the scheduled time mentioned in the e-Permit.",
+   "kind": "ACTION",
+   "subject": "visitor",
+   "object": "arrival",
+   "detail": {
+    "minutes_before": 30
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "Gir Jungle Trail, GIZ Devalia Gypsy Safari, 'Ambardi Safari Park' and Girnar Nature Safari visitors are requested to arrive at the respective reception centres (boarding point) 30 minutes before the scheduled time mentioned in the e-Permit.",
+   "confidence": 1
+  },
+  {
+   "claim": "If the late reporting at the boarding point, e-Permit will get cancelled, and no refund can be claimed.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "e_permit",
+   "object": "cancellation",
+   "detail": {},
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "If the late reporting at the boarding point, e-Permit will get cancelled, and no refund can be claimed.",
+   "confidence": 1
+  },
+  {
+   "claim": "The waitlist will be cleared only as per the cancellation.",
+   "kind": "ACTION",
+   "subject": "waitlist",
+   "object": "clearance",
+   "detail": {
+    "condition": "cancellation"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "The waitlist will be cleared only as per the cancellation.",
+   "confidence": 1
+  },
+  {
+   "claim": "An eco-guide will accompany the visitors during the safari, and eco-guide allocation will be done randomly by the concerned authority.",
+   "kind": "ACTION",
+   "subject": "eco_guide",
+   "object": "allocation",
+   "detail": {
+    "method": "random"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "An eco-guide will accompany the visitors during the safari, and eco-guide allocation will be done randomly by the concerned authority.",
+   "confidence": 1
+  },
+  {
+   "claim": "For the safari, each visitor's name, his/her identity card number and type of identity card should be mentioned during the online booking.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "visitor",
+   "object": "identity_card_details",
+   "detail": {},
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "For the safari, each visitor's name, his/her identity card number and type of identity card should be mentioned during the online booking",
+   "confidence": 1
+  },
+  {
+   "claim": "No other person than the registered visitor is allowed in the safari vehicle.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "safari_vehicle",
+   "object": "occupants",
+   "detail": {
+    "allowed": "registered_visitor"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "No other person than the registered visitor is allowed in the safari vehicle.",
+   "confidence": 1
+  },
+  {
+   "claim": "Bookings with incomplete or incorrect I.D. proof will be considered invalid.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "booking",
+   "object": "id_proof",
+   "detail": {
+    "validity": "invalid"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "Bookings with incomplete or incorrect I.D. proof will be considered invalid.",
+   "confidence": 1
+  },
+  {
+   "claim": "No Gir Jungle Trail, GIZ Devalia Gypsy Safari, 'Ambardi Safari Park' and Girnar Nature Safari will be permitted against such bookings.",
+   "kind": "BLOCKER",
+   "subject": "booking",
+   "object": "permitted_safari",
+   "detail": {
+    "permitted": false
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "No Gir Jungle Trail, GIZ Devalia Gypsy Safari, 'Ambardi Safari Park' and Girnar Nature Safari will be permitted against such bookings.",
+   "confidence": 1
+  },
+  {
+   "claim": "No refund will be made for such cases.",
+   "kind": "GRIEVANCE",
+   "subject": "booking",
+   "object": "refund",
+   "detail": {
+    "allowed": false
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "No refund will be made for such cases.",
+   "confidence": 1
+  },
+  {
+   "claim": "All disputes and legal matters are subject to the jurisdiction of Junagadh district, Gujarat state only.",
+   "kind": "ACTION",
+   "subject": "dispute",
+   "object": "jurisdiction",
+   "detail": {
+    "location": "junagadh_district_gujarat"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "All disputes and legal matters are subject to the jurisdiction of Junagadh district, Gujarat state only.",
+   "confidence": 1
+  },
+  {
+   "claim": "The services such as the issue of duplicate permits for lost/mutilated/torn permits and bulk booking for more than six people (for Gir Jungle Trail, GIZ Devalia Gypsy Safari and Girnar Nature Safari) will not be provided.",
+   "kind": "BLOCKER",
+   "subject": "service",
+   "object": "duplicate_permit_bulk_booking",
+   "detail": {
+    "provided": false
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "The services such as the issue of duplicate permits for lost/mutilated/torn permits and bulk booking for more than six people (for Gir Jungle Trail, GIZ Devalia Gypsy Safari and Girnar Nature Safari) will not be provided.",
+   "confidence": 1
+  },
+  {
+   "claim": "An application for access to or collection of biological resources for commercial utilization must be accompanied with a process fee of Rs. 5000/- in the form of a demand draft.",
+   "kind": "FEE",
+   "subject": "application_form_i",
+   "object": "process_fee",
+   "detail": {
+    "amount": "5000",
+    "currency": "INR",
+    "form": "demand_draft"
+   },
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "Every application shall be accompanied with process fees of Rs. 5000/- in the form of a demand draft drawn in favor of the “Gujarat Biodiversity Board”.",
+   "confidence": 1
+  },
+  {
+   "claim": "A written agreement on Rs. 300’s stamp paper is required for access or collection of biological resources and associated knowledge.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form_i",
+   "object": "written_agreement",
+   "detail": {
+    "stamp_paper_value": "300"
+   },
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "A written agreement (on Rs. 300’s stamp paper) duly signed by an authorized officer of the Board and the applicant shall govern the access or collection, as well as royalty paid to Board.",
+   "confidence": 1
+  },
+  {
+   "claim": "A company profile in detail with company seal and authorized signature must be attached with Form - I.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form_i",
+   "object": "company_profile",
+   "detail": {},
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "Company profile in detail with company seal and authorized signature.",
+   "confidence": 1
+  },
+  {
+   "claim": "An address proof of the applicant must be attached with Form - I.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form_i",
+   "object": "address_proof",
+   "detail": {},
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "Address proof of the applicant.",
+   "confidence": 1
+  },
+  {
+   "claim": "A Memorandum of association/article of association/shareholding pattern of the company must be attached with Form - I for a limited company.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form_i",
+   "object": "memorandum_association",
+   "detail": {},
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "Memorandum of association/article of association/ Share holding pattern of the company, in case of Limited company.",
+   "confidence": 1
+  },
+  {
+   "claim": "A 3-year audited financial report of the company with a certificate of CA must be attached with Form - I.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form_i",
+   "object": "audited_financial_report",
+   "detail": {
+    "duration": "3"
+   },
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "3 year audited financial report of your company with certificate of CA.",
+   "confidence": 1
+  },
+  {
+   "claim": "A list of raw material used by the company with scientific names and whether cultivated or wild variety must be attached with Form - I.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form_i",
+   "object": "raw_material_list",
+   "detail": {},
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "List of Raw Material used by your company with scientific name and Biological Resources/ raw material purchased, whether cultivated or wild variety.",
+   "confidence": 1
+  },
+  {
+   "claim": "A yearly consumption of raw material must be attached with Form - I.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form_i",
+   "object": "yearly_consumption",
+   "detail": {},
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "Yearly consumption of raw material.",
+   "confidence": 1
+  },
+  {
+   "claim": "A list of products manufactured and traded by the company must be attached with Form - I.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form_i",
+   "object": "product_list",
+   "detail": {},
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "List of products manufactured and traded by your company.",
+   "confidence": 1
+  },
+  {
+   "claim": "A list of suppliers/traders of raw materials and final products in detail must be attached with Form - I.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form_i",
+   "object": "supplier_list",
+   "detail": {},
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "List of suppliers/ traders of raw materials and final products in detail.",
+   "confidence": 1
+  },
+  {
+   "claim": "Application fees for Form – I are Rs. 5000/- for commercial purposes.",
+   "kind": "FEE",
+   "subject": "application_form_i",
+   "object": "application_fee",
+   "detail": {
+    "amount": "5000",
+    "currency": "INR"
+   },
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "Rs. 5000/- (For Commercial purpose)",
+   "confidence": 1
+  },
+  {
+   "claim": "Application fees for Form – II are Rs. 5000/-.",
+   "kind": "FEE",
+   "subject": "application_form_ii",
+   "object": "application_fee",
+   "detail": {
+    "amount": "5000",
+    "currency": "INR"
+   },
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "Rs. 5000/- ( http://nbaindia.org/content/26/59/1/forms.html )",
+   "confidence": 1
+  },
+  {
+   "claim": "Application fees for Form – III are Rs. 500/-.",
+   "kind": "FEE",
+   "subject": "application_form_iii",
+   "object": "application_fee",
+   "detail": {
+    "amount": "500",
+    "currency": "INR"
+   },
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "Rs. 500/- ( http://nbaindia.org/content/26/59/1/forms.html )",
+   "confidence": 1
+  },
+  {
+   "claim": "Application fees for Form - IV are Rs. 10000/-.",
+   "kind": "FEE",
+   "subject": "application_form_iv",
+   "object": "application_fee",
+   "detail": {
+    "amount": "10000",
+    "currency": "INR"
+   },
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "Rs. 10000/- ( http://nbaindia.org/content/26/59/1/forms.html )",
+   "confidence": 1
+  },
+  {
+   "claim": "Application fees must be paid to the Gujarat Biodiversity Board ABS account at India Bank.",
+   "kind": "OFFICE",
+   "subject": "application_fee",
+   "object": "payment_bank",
+   "detail": {
+    "bank_name": "India Bank",
+    "account_name": "Gujarat Biodiversity Board ABS",
+    "account_number": "6337660519",
+    "branch": "Gandhinagar (1155)",
+    "ifsc_code": "IDIB000G047"
+   },
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "Name of the Account | Gujarat Biodiversity Board ABS | Name of the Bank | India Bank | Account No. | 6337660519 | Branch | Gandhinagar (1155) | IFSC code | IDIB000G047",
+   "confidence": 1
+  },
+  {
+   "claim": "Application fees can be paid online through India bank collect using IB Net Banking, IB Group ATM Cum Debit Cards, Any Bank Debit / Credit Cards and Other bank internet banking.",
+   "kind": "CHANNEL",
+   "subject": "application_fee",
+   "object": "payment_method",
+   "detail": {
+    "method": "online_payment"
+   },
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "GBB encourages payment of Application fee by Online through India bank collect ( using IB Net Banking, IB Group ATM Cum Debit Cards, Any Bank Debit / Credit Cards and Other bank internet banking)",
+   "confidence": 1
+  },
+  {
+   "claim": "Application fees can also be paid in the form of a demand draft in favor of “MEMBER SECERTARY, GUJARAT BIODIVERSITY BOARD” payable at Gandhinagar, Gujarat, India.",
+   "kind": "CHANNEL",
+   "subject": "application_fee",
+   "object": "payment_method",
+   "detail": {
+    "method": "demand_draft"
+   },
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "May also pay the fee in the form of Demand Draft in favour of \"MEMBER SECERTARY, GUJARAT BIODIVERSITY BOARD\" payable at Gandhinagar, Gujarat, India.",
+   "confidence": 1
+  },
+  {
+   "claim": "Cash payments for application fees will not be accepted.",
+   "kind": "BLOCKER",
+   "subject": "application_fee",
+   "object": "cash_payment",
+   "detail": {},
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "Cash Payments will not be accepted.",
+   "confidence": 1
+  },
+  {
+   "claim": "Application fees once paid will not be refunded.",
+   "kind": "BLOCKER",
+   "subject": "application_fee",
+   "object": "refund",
+   "detail": {},
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "Application fee once paid will not be refunded.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Gujarat Biodiversity Board office is located at Aranya Bhavan B Wing, 5th Floor, Sector 10 A, Ch -3, Gandhinagar – 382 010, Gujarat, India.",
+   "kind": "OFFICE",
+   "subject": "gujarat_biodiversity_board",
+   "object": "office_address",
+   "detail": {
+    "address": "Aranya Bhavan B Wing, 5th Floor, Sector 10 A, Ch -3, Gandhinagar – 382 010, Gujarat, India"
+   },
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "Office Address | Gujarat Biodiversity Board Aranya Bhavan B Wing 5th Floor, Sector 10 A, Ch -3, Gandhinagar – 382 010 Gujarat, India",
+   "confidence": 1
+  },
+  {
+   "claim": "The Gujarat Biodiversity Board can be contacted at 079-23257950.",
+   "kind": "HELPLINE",
+   "subject": "gujarat_biodiversity_board",
+   "object": "contact_number",
+   "detail": {
+    "phone": "079-23257950"
+   },
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "079-23257950 079-23257950",
+   "confidence": 1
+  },
+  {
+   "claim": "The Gujarat Biodiversity Board can be contacted via email at membersec-biodiversity@gujarat.gov.in, infogbb2014@gujarat.gov.in, or infogbb2014@gmail.com.",
+   "kind": "CHANNEL",
+   "subject": "gujarat_biodiversity_board",
+   "object": "email",
+   "detail": {
+    "emails": [
+     "membersec-biodiversity@gujarat.gov.in",
+     "infogbb2014@gujarat.gov.in",
+     "infogbb2014@gmail.com"
+    ]
+   },
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "membersec-biodiversity[at]gujarat[dot]gov[dot]in infogbb2014[at]gujarat[dot]gov[dot]in infogbb2014[at]gmail[dot]com",
+   "confidence": 1
+  },
+  {
+   "claim": "A person must have one year of experience under a certified electrician or engineer to appear in the wireman examination.",
+   "kind": "ELIGIBILITY",
+   "subject": "wireman_examination",
+   "object": "experience",
+   "detail": {
+    "experience_required": "one year"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "A person\nA. Who has worked on wiring and electrical installation works under direct supervision of a competency certificate holder or a qualified electrical engineer for a total period of one year.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A person must have six months of practical experience after completing a wireman apprentice course to appear in the wireman examination.",
+   "kind": "ELIGIBILITY",
+   "subject": "wireman_examination",
+   "object": "experience",
+   "detail": {
+    "experience_required": "six months"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "B. Who has gained six months practical experience after completion of the wireman apprentice course at any recognized technical institute and also passed by the examination held by the Technical Examination Board(TEB).",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A person must have completed a one-year course in electrician or related fields to appear in the wireman examination.",
+   "kind": "ELIGIBILITY",
+   "subject": "wireman_examination",
+   "object": "course",
+   "detail": {
+    "course_duration": "one year"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "C. Who has completed one year’s course of electrician or radio mechanic or wireman motor rewinding conducted by the director of cottage industries.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A person must have completed a one-year course in electrician at Rajkot to appear in the wireman examination.",
+   "kind": "ELIGIBILITY",
+   "subject": "wireman_examination",
+   "object": "course",
+   "detail": {
+    "course_duration": "one year",
+    "location": "Rajkot"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "D. Who has completed one year’s course of electrician conducted by the prototype development and training center at Rajkot.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A person must have completed a six-month course in motor winding to appear in the wireman examination.",
+   "kind": "ELIGIBILITY",
+   "subject": "wireman_examination",
+   "object": "course",
+   "detail": {
+    "course_duration": "six months"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "E. Who has completed six months course of motor winding conducted by TEB.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A person must have passed the wireman examination and have four years of experience to appear in the supervisor examination.",
+   "kind": "ELIGIBILITY",
+   "subject": "supervisor_examination",
+   "object": "experience",
+   "detail": {
+    "experience_required": "four years"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "A person who\nA. Have passed the examination of the wireman &\nB. have total four years of practical experience under direct supervision of a competency certificate holder or qualified electrical engineer out of which minimum two years’ experience must be gained after passing the wireman examination.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A person must have three and a half years of experience if they have completed an electrician course at a recognized institute to appear in the supervisor examination.",
+   "kind": "ELIGIBILITY",
+   "subject": "supervisor_examination",
+   "object": "experience",
+   "detail": {
+    "experience_required": "three and a half years"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "or\nthree and half years practical experience, if such candidate has completed electrician course at recognized technical institute and has passed the examination held by TEB, out of which minimum one and half year’s practical experience must be after passing wireman examination.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The supervisor and wireman examinations are conducted twice a year, in May and November.",
+   "kind": "TIMELINE",
+   "subject": "supervisor_wireman_examination",
+   "object": "examination_conduct",
+   "detail": {
+    "months": "May and November"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "The supervisor / wireman exam is conducted by the licensing board twice in a year, one in the month of May and second in the month of November.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Applications for the May supervisor/wireman examination are accepted in February.",
+   "kind": "TIMELINE",
+   "subject": "supervisor_wireman_examination",
+   "object": "application_deadline",
+   "detail": {
+    "month": "February"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "For the examination in May, forms are received by this office in the month of February",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Applications for the November supervisor/wireman examination are accepted in August.",
+   "kind": "TIMELINE",
+   "subject": "supervisor_wireman_examination",
+   "object": "application_deadline",
+   "detail": {
+    "month": "August"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "and for the examination in the month of November, the forms are received by this office in the month of August.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "To appear in the wireman examination, an application form, two photographs, a Rs.200 challan, an experience certificate (FORM-K), and a copy of the staff register are required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "wireman_examination",
+   "object": "required_documents",
+   "detail": {
+    "application_form": "prescribed form",
+    "photographs": "two",
+    "challan_amount": "Rs.200/-",
+    "experience_certificate": "FORM-K",
+    "staff_register_copy": "copy"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "Which documents are required for appearing in the wireman examination?\nApplication in the prescribe form, two photographs, a challan of Rs.200/- and experience certificate (FORM-K) from the licensed contractor and a copy of his staff register",
+   "confidence": 0.95
+  },
+  {
+   "claim": "To appear in the supervisor examination, an application form, two photographs, a Rs.500 challan, an experience certificate (FORM-K), a copy of the staff register, a wireman certificate, and a permit are required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "supervisor_examination",
+   "object": "required_documents",
+   "detail": {
+    "application_form": "prescribed form",
+    "photographs": "two",
+    "challan_amount": "Rs.500/-",
+    "experience_certificate": "FORM-K",
+    "staff_register_copy": "copy",
+    "wireman_certificate": "one",
+    "permit": "one"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "Which document required for appearing in the supervisor examination?\nApplication in the prescribe form, two photographs, a challan of Rs.500/- and experience certificate (FORM-K) from the licensed contractor and a copy of his staff register, wireman certificate and permit.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A person who has passed the national apprenticeship certificate in electrician, wireman, or lineman trade is exempt from the wireman examination.",
+   "kind": "ACCEPTED_ALTERNATIVES",
+   "subject": "wireman_examination",
+   "object": "exemption",
+   "detail": {
+    "certificate_type": "national apprenticeship certificate"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "a person who produces a certificate of having passed the examination for national apprenticeship certificate in electrician, wireman or lineman trade shall be exempted from appearing in the wireman examination.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A person who has passed the national trade certificate in electrician, wireman, or lineman trade is exempt from the wireman examination.",
+   "kind": "ACCEPTED_ALTERNATIVES",
+   "subject": "wireman_examination",
+   "object": "exemption",
+   "detail": {
+    "certificate_type": "national trade certificate"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "OR\na person who produces a certificate of having passed the examination for national trade certificate in electrician, wireman or lineman trade after completing 2 years training or 18 month training followed by 6 months in plant training shall be exempted from appearing in the wireman examination.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A person who has passed the electrical service technician examination is exempt from the wireman examination.",
+   "kind": "ACCEPTED_ALTERNATIVES",
+   "subject": "wireman_examination",
+   "object": "exemption",
+   "detail": {
+    "certificate_type": "electrical service technician"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "OR\na person who produces a certificate of having passed the electrical service technician examination shall be exempted from appearing in the wireman examination.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A person who has passed the electrical installation, wiring, and jointing examination held by the Gujarat Technical Examination Board is exempt from the wireman examination.",
+   "kind": "ACCEPTED_ALTERNATIVES",
+   "subject": "wireman_examination",
+   "object": "exemption",
+   "detail": {
+    "certificate_type": "electrical installation, wiring, and jointing"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "OR\na person who produces a certificate of having passed the examination of electrical installation, wiring and jointing held by the technical examination board of the Gujarat state shall be exempted from appearing in the wireman examination.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A candidate who has passed the final year’s diploma in electrical engineering is exempt from the supervisor examination.",
+   "kind": "ACCEPTED_ALTERNATIVES",
+   "subject": "supervisor_examination",
+   "object": "exemption",
+   "detail": {
+    "certificate_type": "diploma in electrical engineering"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "a candidate who has passed the final year’s examination of the diploma in electrical engineering from technical education board or degree in electrical engineering from university approved by the state government will be exempted from appearing this examination",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A candidate who has a degree or diploma in electrical engineering from a recognized institution is exempt from the supervisor examination.",
+   "kind": "ACCEPTED_ALTERNATIVES",
+   "subject": "supervisor_examination",
+   "object": "exemption",
+   "detail": {
+    "certificate_type": "degree or diploma in electrical engineering"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "OR\na candidate who possesses a degree or diploma in electrical engineering from a recognized university or institute approved by AICTE or qualification equivalent to such degree or diploma shall be exempted from appearing in this examination.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A candidate who has passed the national apprenticeship certificate in electrician trade and has one year of experience under a supervisor or engineer is exempt from the supervisor examination.",
+   "kind": "ACCEPTED_ALTERNATIVES",
+   "subject": "supervisor_examination",
+   "object": "exemption",
+   "detail": {
+    "certificate_type": "national apprenticeship certificate in electrician trade",
+    "experience_required": "one year"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "OR\nA candidate who produces a certificate of having passed the examination for national apprenticeship certificate in electrician trade and one year practical experience under the direct supervision of a person holding supervisors competency certificate or under a qualified electrical engineer.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A candidate who has passed the electrical service technician examination and has two years of experience under a supervisor or engineer is exempt from the supervisor examination.",
+   "kind": "ACCEPTED_ALTERNATIVES",
+   "subject": "supervisor_examination",
+   "object": "exemption",
+   "detail": {
+    "certificate_type": "electrical service technician",
+    "experience_required": "two years"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "OR\nA candidate who produces a certificate of having passed electrical service technician examination conducted by the TEB and who has obtained the exemption from appearing in wireman examination and after obtaining such exemption has obtained two years practical experience under direct supervision of a person holding the supervisors competency certificate or under a qualified electrical engineer.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "To obtain an electrical contractor license, a person must have an electrical supervisor permit or employ someone with such a permit.",
+   "kind": "ELIGIBILITY",
+   "subject": "electrical_contractor_license",
+   "object": "eligibility",
+   "detail": {
+    "requirement": "electrical supervisor permit or employ someone with such a permit"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "Any person who has electrical supervisor permit or a person who has employed such person can get electrical contractor license.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "To obtain an electrical contractor license, an application form, a Rs.5000 challan, a bank solvency of ten thousand, three testing instruments, a partnership deed or memorandum, address proof, and school leaving certificates are required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "electrical_contractor_license",
+   "object": "required_documents",
+   "detail": {
+    "application_form": "prescribed form",
+    "challan_amount": "Rs.5000/-",
+    "bank_solvency": "ten thousand",
+    "testing_instruments": "megger, earth tester, clip on meter",
+    "purchase_bill": "one",
+    "certificate_from_aei_office": "one",
+    "partnership_deed": "one",
+    "memorandum_and_article_of_association": "one",
+    "address_proof": "one",
+    "school_leaving_certificate": "one for owner and supervisor"
+   },
+   "sourceId": "src:d8e8ff030eae",
+   "evidence": "The document required for the same are (1) application in prescribe form (2) Original Challan of Rs. 5000/- (3)Bank solvency of Ten thousand (4) three Testing instruments namely megger, earth tester, clip on meter, along with purchase bill and a certificate from concerned AEI office. (5) a copy of partnership deed or memorandum and article of association. (6) address proof of the forms (7) school leaving certificate of owner and supervisor.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIFC provides facilitation for industrial projects with an investment of ₹100 crore or more.",
+   "kind": "ELIGIBILITY",
+   "subject": "dpifc_eligibility",
+   "object": "industrial_projects",
+   "detail": {
+    "amount": "100",
+    "currency": "₹",
+    "threshold_type": "investment"
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "Industrial Projects\nInvestors with a signed MoU with the Government of Gujarat for an industrial project investment (excluding land cost) of ₹100 crore or above.\n₹100 Cr+",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIFC provides facilitation for residential or commercial projects with an investment of ₹500 crore or more.",
+   "kind": "ELIGIBILITY",
+   "subject": "dpifc_eligibility",
+   "object": "residential_commercial_projects",
+   "detail": {
+    "amount": "500",
+    "currency": "₹",
+    "threshold_type": "investment"
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "Residential & Commercial\nInvestors with a signed MoU with the Government of Gujarat for a residential or commercial project investment (excluding land cost) of ₹500 crore or above.\n₹500 Cr+",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIFC facilitates projects under the Regulations for Corporate Office, Hotel & Mixed-Use Development – 2024.",
+   "kind": "ELIGIBILITY",
+   "subject": "dpifc_eligibility",
+   "object": "corporate_hotel_mixed_use_projects",
+   "detail": {},
+   "sourceId": "src:f84364f06217",
+   "evidence": "Corporate Office, Hotel & Mixed-Use\nProjects proposed under the Regulations for Corporate Office, Hotel & Mixed-Use Development &ndash; 2024.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "DPIFC facilitates hospital projects under the Regulations for Hospital – 2011.",
+   "kind": "ELIGIBILITY",
+   "subject": "dpifc_eligibility",
+   "object": "hospital_projects",
+   "detail": {},
+   "sourceId": "src:f84364f06217",
+   "evidence": "Hospital Projects\nProjects proposed under the Regulations for Hospital &ndash; 2011.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "DPIFC facilitates projects within the jurisdiction of Urban Development Authorities, Area Development Authorities, Municipal Corporations, and Municipalities.",
+   "kind": "ELIGIBILITY",
+   "subject": "dpifc_eligibility",
+   "object": "jurisdiction",
+   "detail": {
+    "jurisdictions": [
+     "Urban Development Authorities",
+     "Area Development Authorities",
+     "Municipal Corporations",
+     "Municipalities"
+    ]
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "Jurisdiction Covered\nProjects within Urban Development Authorities, Area Development Authorities, Municipal Corporations and Municipalities in Gujarat.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIFC facilitates projects promoted by investors from within Gujarat, other States of India, and overseas.",
+   "kind": "ELIGIBILITY",
+   "subject": "dpifc_eligibility",
+   "object": "investor_origin",
+   "detail": {
+    "origin": [
+     "within Gujarat",
+     "other States of India",
+     "overseas"
+    ]
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "Investors From Anywhere\nDPIFC facilitates eligible investment projects promoted by investors from within Gujarat, other States of India, and overseas.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIFC does not grant statutory approvals or development permissions.",
+   "kind": "ACTION",
+   "subject": "dpifc_action",
+   "object": "statutory_approvals",
+   "detail": {
+    "action": "does not grant"
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "Please note: DPIFC functions solely as a facilitation cell. It does not grant statutory approvals or permissions &mdash; these continue to remain within the jurisdiction of the respective Competent Authorities under the applicable Acts, Rules, Regulations, Government Resolutions and policies.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIFC provides guidance on the development permission process.",
+   "kind": "ACTION",
+   "subject": "dpifc_action",
+   "object": "guidance_development_permission",
+   "detail": {},
+   "sourceId": "src:f84364f06217",
+   "evidence": "2 Provide end-to-end guidance on the development permission application process.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "DPIFC assists investors in understanding statutory requirements, including all necessary No Objection Certificates (NoCs).",
+   "kind": "ACTION",
+   "subject": "dpifc_action",
+   "object": "statutory_requirements",
+   "detail": {
+    "requirements": [
+     "No Objection Certificates (NoCs)"
+    ]
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "3 Assist investors in understanding statutory requirements, including all necessary No Objection Certificates (NoCs).",
+   "confidence": 0.9
+  },
+  {
+   "claim": "DPIFC coordinates with State Government departments and competent authorities to facilitate timely processing of approvals and NoCs.",
+   "kind": "ACTION",
+   "subject": "dpifc_action",
+   "object": "coordination_processing",
+   "detail": {
+    "departments": [
+     "State Government departments",
+     "competent authorities"
+    ]
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "5 Coordinate with State Government departments and competent authorities to facilitate timely processing of approvals and NoCs.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "DPIFC provides handholding support to investors throughout the permission process until statutory clearances are obtained.",
+   "kind": "ACTION",
+   "subject": "dpifc_action",
+   "object": "handholding_support",
+   "detail": {
+    "support_type": "handholding"
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "6 Provide handholding support to investors throughout the permission process until statutory clearances are obtained.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "DPIFC facilitates investment projects proposed within the jurisdiction of Urban Development Authorities, Area Development Authorities, Municipal Corporations, and Municipalities.",
+   "kind": "ACTION",
+   "subject": "dpifc_action",
+   "object": "facilitate_projects",
+   "detail": {
+    "jurisdictions": [
+     "Urban Development Authorities",
+     "Area Development Authorities",
+     "Municipal Corporations",
+     "Municipalities"
+    ]
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "7 Facilitate investment projects proposed within the jurisdiction of Urban Development Authorities, Area Development Authorities, Municipal Corporations, and Municipalities.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "DPIFC improves the ease, transparency, and efficiency of Gujarat's development permission ecosystem in support of investment promotion.",
+   "kind": "ACTION",
+   "subject": "dpifc_action",
+   "object": "improve_permission_ecosystem",
+   "detail": {
+    "improvements": [
+     "ease",
+     "transparency",
+     "efficiency"
+    ]
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "8 Improve the ease, transparency, and efficiency of Gujarat's development permission ecosystem in support of investment promotion.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "DPIFC engages professional agencies, where necessary and with Government approval, to provide specialized facilitation services.",
+   "kind": "ACTION",
+   "subject": "dpifc_action",
+   "object": "engage_professional_agencies",
+   "detail": {
+    "condition": "with Government approval"
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "10 Engage professional agencies, where necessary and with Government approval, to provide specialized facilitation services.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "DPIFC functions under the Additional Chief Town Planner (Research), within the Town Planning & Valuation Department, under the Urban Development & Urban Housing Department.",
+   "kind": "OFFICE",
+   "subject": "dpifc_office",
+   "object": "additional_chief_town_planner_research",
+   "detail": {
+    "department": "Town Planning & Valuation Department",
+    "ministry": "Urban Development & Urban Housing Department"
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "DPIFC functions under the Additional Chief Town Planner (Research), within the Town Planning & Valuation Department, under the Urban Development & Urban Housing Department &mdash; and is guided at the highest levels of government.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIFC provides an online Request for Assistance through the DPIFC Portal.",
+   "kind": "CHANNEL",
+   "subject": "dpifc_assistance",
+   "object": "online_request",
+   "detail": {
+    "portal": "DPIFC Portal"
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "7. How can I request facilitation from DPIFC?\nEligible applicants may submit an online Request for Assistance through the DPIFC Portal by providing the required project details and supporting documents.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Upon successful submission of the request, the system shall generate an Acknowledgement ID for future reference and correspondence.",
+   "kind": "TRACKING",
+   "subject": "dpifc_submission",
+   "object": "acknowledgement_id",
+   "detail": {
+    "purpose": "future reference and correspondence"
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "Submission & Acknowledgement\nUpon successful submission of the request, the system shall generate an Acknowledgement ID for future reference and correspondence.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Acknowledgement ID shall also be sent to the registered email address (where possible).",
+   "kind": "TRACKING",
+   "subject": "dpifc_submission",
+   "object": "acknowledgement_email",
+   "detail": {
+    "method": "registered email address"
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "The Acknowledgement ID shall also be sent to the registered email address (where possible).",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Acknowledgement ID is to be used for tracking and future communications.",
+   "kind": "TRACKING",
+   "subject": "dpifc_submission",
+   "object": "tracking_future_communications",
+   "detail": {
+    "tool": "Acknowledgement ID"
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "The Acknowledgement ID is to be used for tracking and future communications.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Eligible applicants may request a Consultation through the Contact Us section in DPIFC Portal.",
+   "kind": "CHANNEL",
+   "subject": "dpifc_consultation",
+   "object": "contact_us_section",
+   "detail": {
+    "portal": "DPIFC Portal"
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "10. Can I schedule a consultation with DPIFC?\nYes. Eligible applicants may request a Consultation through the Contact Us section in DPIFC Portal. Consultations are scheduled subject to availability.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIFC provides guidance on development permission procedures, applicable planning regulations, required statutory approvals and NoCs, and identification of Competent Authorities.",
+   "kind": "ACTION",
+   "subject": "dpifc_consultation",
+   "object": "guidance_provided",
+   "detail": {
+    "guidance_topics": [
+     "development permission procedures",
+     "applicable planning regulations",
+     "required statutory approvals and NoCs",
+     "identification of Competent Authorities"
+    ]
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "11. What type of facilitation does DPIFC provide during the consultation?\nDPIFC provides guidance on:\nDevelopment permission procedures\nApplicable planning regulations\nRequired statutory approvals and NoCs\nIdentification of Competent Authorities",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Members of the Gujarat Veterinary Council can pay for renewal of their registration.",
+   "kind": "ACTION",
+   "subject": "gvc_member",
+   "object": "renew_registration",
+   "detail": {},
+   "sourceId": "src:16b5f493e686",
+   "evidence": "BHATT BALVANTRAY GOKALDAS | Pay for renewal",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Members of the Gujarat Veterinary Council can login to access their account.",
+   "kind": "CHANNEL",
+   "subject": "gvc_member",
+   "object": "login",
+   "detail": {},
+   "sourceId": "src:16b5f493e686",
+   "evidence": "GVC Member Login",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Members can reset their password if they forget it.",
+   "kind": "CHANNEL",
+   "subject": "gvc_member",
+   "object": "forgot_password",
+   "detail": {},
+   "sourceId": "src:16b5f493e686",
+   "evidence": "Forgot Password",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides downloadable application forms for registration and related processes.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:16b5f493e686",
+   "evidence": "Application Form for GVC registration",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides downloadable forms for complaints against registered veterinary practitioners.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "complaint_form",
+   "detail": {},
+   "sourceId": "src:16b5f493e686",
+   "evidence": "Form for Complaint against Registered Veterinary Practitioner",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides downloadable forms for complaints against unregistered veterinary practitioners or quacks.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "complaint_form",
+   "detail": {},
+   "sourceId": "src:16b5f493e686",
+   "evidence": "Form for Complaint against Unregistered Veterinary Practitioner/quacks",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides downloadable application forms for NOC (only for provisional registration).",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "noc_form",
+   "detail": {},
+   "sourceId": "src:16b5f493e686",
+   "evidence": "Application Form for NOC (only for Pro.Regi)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides downloadable application forms for adding qualifications or obtaining duplicate certificates.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "qualification_form",
+   "detail": {},
+   "sourceId": "src:16b5f493e686",
+   "evidence": "Application Form for Qualification Add/ Duplicate Certificate",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides downloadable application forms for Loss of Stamped (LOS) or Bonafide certificates.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "los_bonafide_form",
+   "detail": {},
+   "sourceId": "src:16b5f493e686",
+   "evidence": "Application Form for LOS/ Bonafied",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides a downloadable form for registration transfer to the Veterinary Council of India (VCI).",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "registration_transfer_form",
+   "detail": {},
+   "sourceId": "src:16b5f493e686",
+   "evidence": "For Apply in VCI_registrationTransfer_form",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides a downloadable sample format of the GVC Registration Certificate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "registration_certificate_format",
+   "detail": {},
+   "sourceId": "src:16b5f493e686",
+   "evidence": "Sample Format of GVC Registration Certificate",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides downloadable circulars regarding registration and renewal processes.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "circular",
+   "detail": {},
+   "sourceId": "src:16b5f493e686",
+   "evidence": "Circular of GVC Regarding Registration/Renewal, Dated: 06-05-2015",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides downloadable letters to veterinary colleges regarding registration and renewal.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "letter_to_college",
+   "detail": {},
+   "sourceId": "src:16b5f493e686",
+   "evidence": "Letter to Vet.College for Registration/Renewal, Dated: 16-04-2015",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides downloadable e-gazette of the Gujarat State Veterinary Practitioners Regulation (up to December 2020).",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "e_gazette",
+   "detail": {},
+   "sourceId": "src:16b5f493e686",
+   "evidence": "e-gazette of GSVPR (Up to Dec 2020)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides a downloadable revised application format for NOC/Transfer applicable from 1st November 2021.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "noc_transfer_form",
+   "detail": {},
+   "sourceId": "src:16b5f493e686",
+   "evidence": "Revised Application Format for NOC_Transfer (Applicable from 1st November 2021)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides downloadable circulars from other institutions like JAU and SDAU regarding registration and renewal.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "circular_from_other_institutions",
+   "detail": {},
+   "sourceId": "src:16b5f493e686",
+   "evidence": "Circular of JAU Regarding Registration/Renewal At GVC",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides downloadable circulars from other institutions like JAU and SDAU regarding registration and renewal.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "circular_from_other_institutions",
+   "detail": {},
+   "sourceId": "src:16b5f493e686",
+   "evidence": "Circular of SDAU Regarding Registration/Renewal At GVC",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides a downloadable veterinarian's oath.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "veterinarian_oath",
+   "detail": {},
+   "sourceId": "src:16b5f493e686",
+   "evidence": "Veterinarian's Oath",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides downloadable circulars regarding the publication of registration certificates.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "circular_certificate_publish",
+   "detail": {},
+   "sourceId": "src:16b5f493e686",
+   "evidence": "Circular of GVC Regarding Publish of Regi. Certificate, Dated: 3-2-2015",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council is located at Block No. 14/1, Jivraj Mehta Bhavan, Sector 10/B, Gandhinagar, Gujarat-382010.",
+   "kind": "OFFICE",
+   "subject": "gvc",
+   "object": "office_address",
+   "detail": {
+    "address": "BLOCK NO. 14/1, JIVRAJ MEHTA BHAVAN, SECTOR 10/B, GANDHINAGAR, GUJARAT-382010."
+   },
+   "sourceId": "src:16b5f493e686",
+   "evidence": "GUJARAT VETERINARY COUNCIL BLOCK NO. 14/1, JIVRAJ MEHTA BHAVAN, SECTOR 10/B, GANDHINAGAR, GUJARAT-382010.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council can be contacted via email at registrar@gvc.org.in.",
+   "kind": "HELPLINE",
+   "subject": "gvc",
+   "object": "contact_email",
+   "detail": {
+    "email": "registrar@gvc.org.in"
+   },
+   "sourceId": "src:16b5f493e686",
+   "evidence": ": registrar@gvc.org.in",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must select a district from a dropdown list.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "district_dropdown",
+   "detail": {},
+   "sourceId": "src:d405aafc8d64",
+   "evidence": "જિલ્લો : | select | -- પસંદ કરો -- Ahmedabad Amreli Anand Aravalli Banaskantha Bharuch Bhavnagar Botad Chhota Udepur Dahod Dang Deesa Devbhumi Dwarka Gandhinagar Gir Somnath Jamnagar Junagadh Kheda Kutch Mahisagar Mehsana Morbi Nakhtrana Narmada Navsari Panchmahal Patan Porbandar Rajkot Sabarkantha Surat Surendranagar Tapi Vadodara Valsad",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must select a taluka from a dropdown list.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "taluka_dropdown",
+   "detail": {},
+   "sourceId": "src:d405aafc8d64",
+   "evidence": "તાલુકો : | select | -- પસંદ કરો --",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must select a range from a dropdown list.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "range_dropdown",
+   "detail": {},
+   "sourceId": "src:d405aafc8d64",
+   "evidence": "રેન્જ : | select | -- પસંદ કરો --",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must select a type of applicant (e.g., individual, school, organization, self-help group).",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "applicant_type_dropdown",
+   "detail": {},
+   "sourceId": "src:d405aafc8d64",
+   "evidence": "અરજદારનો પ્રકાર : વ્યકિત | શાળા | સંસ્થા | સ્વસહાય જુથ |",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide their name and address.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "name_address",
+   "detail": {},
+   "sourceId": "src:d405aafc8d64",
+   "evidence": "અરજદારનું નામ : * અરજદારનું સરનામું : Address",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must select their district from a dropdown list for their address.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "address_district_dropdown",
+   "detail": {},
+   "sourceId": "src:d405aafc8d64",
+   "evidence": "જિલ્લો : | select | -- પસંદ કરો -- Ahmedabad Amreli Anand Aravalli Banaskantha Bharuch Bhavnagar Botad Chhota Udepur Dahod Dang Deesa Devbhumi Dwarka Gandhinagar Gir Somnath Jamnagar Junagadh Kheda Kutch Mahisagar Mehsana Morbi Nakhtrana Narmada Navsari Panchmahal Patan Porbandar Rajkot Sabarkantha Surat Surendranagar Tapi Vadodara Valsad",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must select their taluka from a dropdown list for their address.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "address_taluka_dropdown",
+   "detail": {},
+   "sourceId": "src:d405aafc8d64",
+   "evidence": "તાલુકો : | select | -- પસંદ કરો --",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must select their city or village from a dropdown list.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "city_village_dropdown",
+   "detail": {},
+   "sourceId": "src:d405aafc8d64",
+   "evidence": "શહેર / ગામ : | select | -- પસંદ કરો --",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide a pin code, mobile number, and other contact details.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "contact_details",
+   "detail": {},
+   "sourceId": "src:d405aafc8d64",
+   "evidence": "પીનકોડ : મોબાઈલ નં : (+91) લેન્ડ-લાઈન/અન્ય નં : ફેક્સ નંબર : ઈ-મેઈલ :",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must select an identity proof from a dropdown list (e.g., Aadhaar Card, Driving License, Election Card, PAN Card, Ration Card).",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant",
+   "object": "identity_proof_dropdown",
+   "detail": {},
+   "sourceId": "src:d405aafc8d64",
+   "evidence": "ઓળખનો પુરાવો : | select | આધાર કાર્ડ ડ્રાઇવિંગ લાયસન્સ ચૂંટણી કાર્ડ પાન કાર્ડ રેશન કાર્ડ",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide the number of the selected identity proof.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "identity_proof_number",
+   "detail": {},
+   "sourceId": "src:d405aafc8d64",
+   "evidence": "કાર્ડ નંબર :",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide the name of the bank and the bank account number.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "bank_details",
+   "detail": {},
+   "sourceId": "src:d405aafc8d64",
+   "evidence": "* બેંકનું નામ : * બેંક ખાતા નં. :",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must specify the location for planting saplings (e.g., shade, block, plot).",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "planting_location_dropdown",
+   "detail": {},
+   "sourceId": "src:d405aafc8d64",
+   "evidence": "રોપા વાવેતર સ્થળ : શેડેપાડે | બ્લોક | વાડો |",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must indicate whether water facilities are available at the planting location (yes or no).",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "water_facility",
+   "detail": {},
+   "sourceId": "src:d405aafc8d64",
+   "evidence": "પાણીની સગવડ છે ? હા | ના |",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must indicate whether fencing facilities are available at the planting location (yes or no).",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "fencing_facility",
+   "detail": {},
+   "sourceId": "src:d405aafc8d64",
+   "evidence": "વાડ / ફેન્સીંગ સગવડ છે ? હા | ના |",
+   "confidence": 1
+  },
+  {
+   "claim": "If the applicant is a farmer, they must select their category (small, marginal, large).",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "farmer_category_dropdown",
+   "detail": {},
+   "sourceId": "src:d405aafc8d64",
+   "evidence": "જો ખેડુત હોય તો પ્રકાર : નાના | સીમાંત | મોટા |",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide details of the saplings required, including type and quantity.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "sapling_details",
+   "detail": {},
+   "sourceId": "src:d405aafc8d64",
+   "evidence": "જોઈતા રોપાની વિગતો : Command item Command item | જોઈતા રોપા ઉમેરો | Refresh |",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must confirm that the information provided is true and agrees to the current conditions and rules.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "confirmation",
+   "detail": {},
+   "sourceId": "src:d405aafc8d64",
+   "evidence": "આથી અમો બાહેધરી આપીએ છીએ કે ઉપર જણાવેલ માહિતી સાચી છે અને પ્રવર્તમાન શરતો, નિયમો તથા/અથવા અન્ય જોગવાઇઓ મને માન્ય છે અને બંધનકર્તા રહેશે.",
+   "confidence": 1
+  },
+  {
+   "claim": "The allocation of saplings will be based on current rules and availability, following a first-come, first-served basis.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "sapling_allocation",
+   "object": "availability_rules",
+   "detail": {},
+   "sourceId": "src:d405aafc8d64",
+   "evidence": "(૧) પ્રવર્તમાન જોગવાઈઓ તેમજ રોપાઓની ઉપલ્બધતાના આધારે અને વહેલા તે પહેલાના ધોરણે ફાળવણી કરવામાં આવશે.",
+   "confidence": 1
+  },
+  {
+   "claim": "Local self-government bodies and other organizations must submit their application with a signed and stamped letterhead.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "organization_applicant",
+   "object": "letterhead_application",
+   "detail": {},
+   "sourceId": "src:d405aafc8d64",
+   "evidence": "(ર) સ્થાનિય સ્વરાજની તથા અન્ય સંસ્થાઓએ તેમના લેટર પેડ પર સહી અને સિક્કા સહિત અરજી કરવાની રહેશે.",
+   "confidence": 1
+  },
+  {
+   "claim": "The application is for research work in a protected area as per WLPA-1972, Section 33.",
+   "kind": "ACTION",
+   "subject": "application",
+   "object": "research_work",
+   "detail": {
+    "law": "WLPA-1972, Sec-33"
+   },
+   "sourceId": "src:a4264d4ffddb",
+   "evidence": "Application Form for Research work in Protected Area As Per WLPA-1972,Sec-33",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must select a protected area from a list provided on the form.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application",
+   "object": "protected_area_selection",
+   "detail": {},
+   "sourceId": "src:a4264d4ffddb",
+   "evidence": "Protected Area : Single &nbsp | Multiple &nbsp | (To apply for more than one Protected Area, please select \"Multiple\")",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must provide proof of identity, such as an Aadhar Card, Driving License, Election Card, Pan Card, or Ration Card.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application",
+   "object": "proof_of_identity",
+   "detail": {
+    "options": "Aadhar Card, Driving License, Election Card, Pan Card, Ration Card"
+   },
+   "sourceId": "src:a4264d4ffddb",
+   "evidence": "Proof of Identity : | select | Aadhar Card Driving License Election Card Pan Card Ration Card",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must specify the purpose of the study as either academic or commercial.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application",
+   "object": "study_purpose",
+   "detail": {
+    "options": "Academic, Commercial"
+   },
+   "sourceId": "src:a4264d4ffddb",
+   "evidence": "* Purpose of Study : Academic &nbsp | Commercial &nbsp |",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must provide the subject of the research work.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application",
+   "object": "research_subject",
+   "detail": {},
+   "sourceId": "src:a4264d4ffddb",
+   "evidence": "* Subject of Research Work : Subject",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must provide the name and address of the principal investigator or guide/institution.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application",
+   "object": "principal_investigator_details",
+   "detail": {},
+   "sourceId": "src:a4264d4ffddb",
+   "evidence": "* Principal Investigator of Guide/Institution Name : * Address : Address",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must upload a project synopsis in a specified file format and size.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application",
+   "object": "project_synopsis",
+   "detail": {
+    "max_size": "4 MB",
+    "formats": ".pdf, .doc, .docx, .jpg, .jpeg, .gif, .png"
+   },
+   "sourceId": "src:a4264d4ffddb",
+   "evidence": "* Project / Synopsys : Please upload file. Please upload file less than 4 MB and of .pdf,doc,docx,jpg,jpeg,gif and png format.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must specify the total number of team members.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application",
+   "object": "team_members_count",
+   "detail": {},
+   "sourceId": "src:a4264d4ffddb",
+   "evidence": "* Total Team Members :",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must upload team member details in a specified file format and size.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application",
+   "object": "team_member_details",
+   "detail": {
+    "max_size": "4 MB",
+    "formats": ".pdf, .doc, .docx, .jpg, .jpeg, .gif, .png"
+   },
+   "sourceId": "src:a4264d4ffddb",
+   "evidence": "* Team member Details : Please upload file. Please upload file less than 4 MB and of .pdf,doc,docx,jpg,jpeg,gif and png format.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must specify the project period.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application",
+   "object": "project_period",
+   "detail": {},
+   "sourceId": "src:a4264d4ffddb",
+   "evidence": "* Project period :",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must upload a methodology in a specified file format and size.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application",
+   "object": "methodology",
+   "detail": {
+    "max_size": "4 MB",
+    "formats": ".pdf, .doc, .docx, .jpg, .jpeg, .gif, .png"
+   },
+   "sourceId": "src:a4264d4ffddb",
+   "evidence": "* Methodology : Please upload file. Please upload file less than 4 MB and of .pdf,doc,docx,jpg,jpeg,gif and png format.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must upload any previous permission order, if applicable, in a specified file format and size.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application",
+   "object": "previous_permission_order",
+   "detail": {
+    "max_size": "4 MB",
+    "formats": ".pdf, .doc, .docx, .jpg, .jpeg, .gif, .png"
+   },
+   "sourceId": "src:a4264d4ffddb",
+   "evidence": "Previous Permission Order(if Applicable) : Please upload file less than 4 MB and of .pdf,doc,docx,jpg,jpeg,gif and png format.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must specify if a vehicle is needed and upload vehicle details in a specified file format and size.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application",
+   "object": "vehicle_details",
+   "detail": {
+    "max_size": "4 MB",
+    "formats": ".pdf, .doc, .docx, .jpg, .jpeg, .gif, .png"
+   },
+   "sourceId": "src:a4264d4ffddb",
+   "evidence": "Vehicle needed : Yes | No | Own | * Vehicle Details: Please upload file. Please upload file less than 4 MB and of .pdf,doc,docx,jpg,jpeg,gif and png format.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must specify the time for shooting as day, night, or both.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application",
+   "object": "shooting_time",
+   "detail": {
+    "options": "Day, Night, Both"
+   },
+   "sourceId": "src:a4264d4ffddb",
+   "evidence": "* Time For Shooting : Day &nbsp | Night &nbsp | Both &nbsp |",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must provide contact details in Gujarati, including mobile number and email ID.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application",
+   "object": "contact_details",
+   "detail": {},
+   "sourceId": "src:a4264d4ffddb",
+   "evidence": "અરજદારની અરજી માટેનાં સંપર્કની વિગત * મોબાઈલ નં. : * ઈમેલ આઈ-ડી :",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must agree to the terms and conditions, including abiding by rules and regulations and paying applicable fees.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "application",
+   "object": "terms_and_conditions",
+   "detail": {},
+   "sourceId": "src:a4264d4ffddb",
+   "evidence": "Note 1) I agree to abide by the provisions, rules & regulations as may be applicable for the time being enforced. 2) I agree to pay fees, cess, taxes and /or any other levy that might be applicable.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must certify that the documents and information provided are true to the best of their knowledge.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "application",
+   "object": "certification",
+   "detail": {},
+   "sourceId": "src:a4264d4ffddb",
+   "evidence": "I/We certify that the documents uploaded with the application and the information provided there in are true to the best of my knowledge and beliefs.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide their name.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant",
+   "object": "name",
+   "detail": {},
+   "sourceId": "src:52cd469e9103",
+   "evidence": "ગૃપવતી રજૂઆત કરનાર નોડલ ખેડૂતનું નામ:",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must provide their address.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant",
+   "object": "address",
+   "detail": {},
+   "sourceId": "src:52cd469e9103",
+   "evidence": "અરજદારનું સરનામું :",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must select their district.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant",
+   "object": "district",
+   "detail": {},
+   "sourceId": "src:52cd469e9103",
+   "evidence": "જિલ્લો : | select |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must select their taluka.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant",
+   "object": "taluka",
+   "detail": {},
+   "sourceId": "src:52cd469e9103",
+   "evidence": "તાલુકો : | select |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must provide their mobile number with the country code (+91).",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant",
+   "object": "mobile_number",
+   "detail": {
+    "country_code": "+91"
+   },
+   "sourceId": "src:52cd469e9103",
+   "evidence": "મોબાઈલ નં : (+91)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must provide their gender.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant",
+   "object": "gender",
+   "detail": {},
+   "sourceId": "src:52cd469e9103",
+   "evidence": "જાતિ : પુરુષ | સ્ત્રી |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must provide their caste (e.g., SC, ST, General).",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant",
+   "object": "caste",
+   "detail": {},
+   "sourceId": "src:52cd469e9103",
+   "evidence": "જાત : અ.જા. | અ.જ.જા. | સા.શૈ.પ. | અન્ય | |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must provide proof of identity (e.g., Aadhaar Card, Driving License, etc.).",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant",
+   "object": "identity_proof",
+   "detail": {},
+   "sourceId": "src:52cd469e9103",
+   "evidence": "ઓળખનો પુરાવો : | select | આધાર કાર્ડ ડ્રાઇવિંગ લાયસન્સ ચૂંટણી કાર્ડ પાન કાર્ડ રેશન કાર્ડ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must provide the number of the identity proof document.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant",
+   "object": "identity_proof_number",
+   "detail": {},
+   "sourceId": "src:52cd469e9103",
+   "evidence": "કાર્ડ નંબર :",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must provide the name of their bank.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant",
+   "object": "bank_name",
+   "detail": {},
+   "sourceId": "src:52cd469e9103",
+   "evidence": "બેંકનું નામ :",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must provide their bank account number.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant",
+   "object": "bank_account_number",
+   "detail": {},
+   "sourceId": "src:52cd469e9103",
+   "evidence": "બેંક ખાતા નં. :",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must specify their type of farmer (e.g., small, marginal, large, non-farmer).",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant",
+   "object": "farmer_type",
+   "detail": {},
+   "sourceId": "src:52cd469e9103",
+   "evidence": "ખેડૂતનો પ્રકાર : નાના | સીમાંત | મોટા | બિનખેડૂત | | |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must provide the area of their land in hectares.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant",
+   "object": "land_area_hectares",
+   "detail": {},
+   "sourceId": "src:52cd469e9103",
+   "evidence": "વિસ્તાર (હેક્ટરમાં) :",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must provide the length of the fencing in meters.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant",
+   "object": "fencing_length_meters",
+   "detail": {},
+   "sourceId": "src:52cd469e9103",
+   "evidence": "વાડની લંબાઈ (મીટરમાં) :",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must confirm that the information provided is true and agrees to the conditions and rules.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "applicant",
+   "object": "confirmation",
+   "detail": {},
+   "sourceId": "src:52cd469e9103",
+   "evidence": "આથી અમો બાહેધરી આપીએ છીએ કે ઉપર જણાવેલ માહિતી સાચી છે અને પ્રવર્તમાન શરતો, નિયમો તથા/અથવા અન્ય જોગવાઈઓ મને માન્ય છે અને બંધન કર્તા રહેશે.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An editable application form with an adhesive stamp of Rs. 300 is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "adhesive_stamp",
+   "detail": {
+    "amount": "300",
+    "currency": "INR"
+   },
+   "sourceId": "src:ddfe75bb179b",
+   "evidence": "Editable application form (Adhesive stamp of Rs. 300)",
+   "confidence": 1
+  },
+  {
+   "claim": "A copy of the Offer cum Allotment letter is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "offer_cum_allotment_letter",
+   "detail": {},
+   "sourceId": "src:ddfe75bb179b",
+   "evidence": "Copy of Offer cum Allotment letter",
+   "confidence": 1
+  },
+  {
+   "claim": "If the unit is a chemical unit, a copy of the GPCB NOC is required.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "application_form",
+   "object": "gpcb_noc",
+   "detail": {},
+   "sourceId": "src:ddfe75bb179b",
+   "evidence": "If Chemical Unit – Copy of GPCB NOC",
+   "confidence": 1
+  },
+  {
+   "claim": "A copy of the Approved Building Plan is required, but it is not mandatory.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "approved_building_plan",
+   "detail": {
+    "mandatory": "false"
+   },
+   "sourceId": "src:ddfe75bb179b",
+   "evidence": "Copy of Approved Building Plan (Not Mandatory)",
+   "confidence": 1
+  },
+  {
+   "claim": "A copy of the Licence Agreement is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "licence_agreement",
+   "detail": {},
+   "sourceId": "src:ddfe75bb179b",
+   "evidence": "Copy of Licence Agreement",
+   "confidence": 1
+  },
+  {
+   "claim": "Possession Receipt and/or Final Transfer Order is mandatory.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "possession_receipt_final_transfer_order",
+   "detail": {
+    "mandatory": "true"
+   },
+   "sourceId": "src:ddfe75bb179b",
+   "evidence": "Possession Receipt and / OR Final Transfer Order (Mandatory)",
+   "confidence": 1
+  },
+  {
+   "claim": "If the Moratorium period is over on the day of application, a Final Plot Utilisation Extension Order is required.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "application_form",
+   "object": "final_plot_utilisation_extension_order",
+   "detail": {},
+   "sourceId": "src:ddfe75bb179b",
+   "evidence": "Final Plot Utilisation Extension Order if Moratorium period is over on day of application.",
+   "confidence": 1
+  },
+  {
+   "claim": "GIDC may ask for additional documents if necessary.",
+   "kind": "ACCEPTED_ALTERNATIVES",
+   "subject": "application_form",
+   "object": "additional_documents",
+   "detail": {},
+   "sourceId": "src:ddfe75bb179b",
+   "evidence": "Note : If necessary, GIDC will ask the applicant to submit other necessary documents to process the application.",
+   "confidence": 1
+  },
+  {
+   "claim": "The approval for connection is processed within 10 days from the date of application.",
+   "kind": "TIMELINE",
+   "subject": "approval_process",
+   "object": "connection_approval",
+   "detail": {
+    "days": "10"
+   },
+   "sourceId": "src:ddfe75bb179b",
+   "evidence": "Providing approval for connection | 10 days from date of application",
+   "confidence": 1
+  },
+  {
+   "claim": "The physical connection on site is provided within a maximum of 20 days from the date of approval, provided all formalities are completed.",
+   "kind": "TIMELINE",
+   "subject": "physical_connection",
+   "object": "connection_on_site",
+   "detail": {
+    "days": "20"
+   },
+   "sourceId": "src:ddfe75bb179b",
+   "evidence": "Providing physical connection on site | Max 20 days from date of approval application (Provided all the formalities are completed by the Allottee)",
+   "confidence": 1
+  },
+  {
+   "claim": "The GIDC Setu Mobile Application is available for download.",
+   "kind": "APP",
+   "subject": "application_form",
+   "object": "setu_mobile_app",
+   "detail": {},
+   "sourceId": "src:ddfe75bb179b",
+   "evidence": "Download GIDC Setu Mobile Application",
+   "confidence": 1
+  },
+  {
+   "claim": "The GIDC office is located at Block 3,4,5, Udhyog Bhavan, Sector-11, Gandhinagar 382 011, Gujarat, India.",
+   "kind": "OFFICE",
+   "subject": "office",
+   "object": "gidc_office",
+   "detail": {
+    "address": "Block 3,4,5, Udhyog Bhavan, Sector-11, Gandhinagar 382 011, Gujarat, India."
+   },
+   "sourceId": "src:ddfe75bb179b",
+   "evidence": "Our Address\nBlock 3,4,5, Udhyog Bhavan, Sector-11,\nGandhinagar 382 011,\nGujarat, India.",
+   "confidence": 1
+  },
+  {
+   "claim": "The GIDC office can be contacted at +91 79 23250636.",
+   "kind": "HELPLINE",
+   "subject": "office",
+   "object": "gidc_office",
+   "detail": {
+    "phone": "+91 79 23250636"
+   },
+   "sourceId": "src:ddfe75bb179b",
+   "evidence": "Phone: +91 79 23250636",
+   "confidence": 1
+  },
+  {
+   "claim": "The GIDC website provides a downloadable version of the Water Supply Regulation Act 1991 - First Amendment 2010 in English and Gujarati.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "water_supply_regulation_act",
+   "detail": {
+    "url_english": "Download Water Supply Regulation Act 1991 - First Amendment 2010 For English",
+    "url_gujarati": "Download Water Supply Regulation Act 1991 - First Amendment 2010 For Gujarati"
+   },
+   "sourceId": "src:ddfe75bb179b",
+   "evidence": "To download and view Water Supply Regulation Act 1991 -First Amendment 2010 please click on links given below\nDownload Water Supply Regulation Act 1991 - First Amendment 2010 For English\nDownload Water Supply Regulation Act 1991 - First Amendment 2010 For Gujarati",
+   "confidence": 1
+  },
+  {
+   "claim": "The Corporation provides water supply in certain estates only.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "water_connection",
+   "object": "corporation_service",
+   "detail": {},
+   "sourceId": "src:ddfe75bb179b",
+   "evidence": "The Corporation provides facility of water supply in certain estates only. Please confirm with respective GIDC field office for availability of infrastructure.",
+   "confidence": 1
+  },
+  {
+   "claim": "To start a new business or shop, you must contact the Shops and Establishment Office and submit an application in the prescribed form with copies of the latest Municipal Tax Bill, Building Permission letter, and Occupation Certificate of the Corporation.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "shops_and_establishment_license",
+   "object": "application_form",
+   "detail": {
+    "documents": [
+     "latest Municipal Tax Bill",
+     "Building Permission letter",
+     "Occupation Certificate"
+    ],
+    "office": "Shops and Establishment Office"
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "What is required if I want to start a new business or shop? Ans : You may contact our Shops and Establishment Office Tel.No.2411086 near Navrang Complex on Prof. Manekrao Road in Raopura and send your application in the prescribed form for Shops and Establishment licence. With application you have to attach copies of latest Municipal Tax Bill, Building Permission letter and Occupation Certificate of the Corporation.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "For a restaurant, hotel, or shop of sweet meats, a Health Licence must be obtained from the concerned Ward Office first.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "health_license",
+   "object": "ward_office",
+   "detail": {
+    "office": "concerned Ward Office"
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "For restaurant, hotels or shops of sweet meats, a Health Licence should be obtained from concerned Ward Office first.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "To rent a marriage hall, you must contact the office of the Tourist Officer for necessary information and register your booking.",
+   "kind": "ACTION",
+   "subject": "rent_marriage_hall",
+   "object": "tourist_officer_office",
+   "detail": {
+    "office": "Tourist Officer Office",
+    "phone": "2793519"
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "How do I rent a marriage hall? Ans : Contact office of the Tourist Officer on Tel.No.2793519 for necessary information and register your booking.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Domestic waste must be kept in separate bags or containers for dry and wet waste and handed over to the Corporation's collection agent.",
+   "kind": "ACTION",
+   "subject": "dispose_domestic_waste",
+   "object": "corporation_collection_agent",
+   "detail": {
+    "containers": "white for dry waste and green for wet waste"
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "The Solid Waste Management Rules require you to keep your dry and wet waste in separate bags or containers. These should be handed over to the collection agent of the Corporation to be deposited in the containers of the Corporation nearest your house (white for dry waste and green for wet waste).",
+   "confidence": 0.95
+  },
+  {
+   "claim": "To obtain a new building development permission, you must visit the corporation's website or approach a licensed architect, engineer, or structural engineer registered with the corporation.",
+   "kind": "ACTION",
+   "subject": "building_development_permission",
+   "object": "corporation_website",
+   "detail": {
+    "website": "www.vmc.gov.in",
+    "professionals": "licensed architect, engineer, or structural engineer registered with the corporation"
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "How to Obtain new building development permission Form vmc? Ans : Open the website of corporation . www.vmc.gov.in , also approach the lissence holder architects, engineer, structural engineer registered with corporation. The list of registered architect engineer & structural engineers available on website.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Building permission is granted within 90 days according to the T.P. Act 1976.",
+   "kind": "TIMELINE",
+   "subject": "building_permission",
+   "object": "tp_act_1976",
+   "detail": {
+    "days": 90
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "How much time take for building permission? Ans : According to the T.P. Act 1976 within 90 days permission is granted in accordance to the GDCR( Genaral Devlopment Control Regulation) GDCR is available on website of corporation.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Documents required for building plan permission include ownership documents, area-related documents, zoning certificate, affidavits, house tax clearance certificate, and opinion of T.P.O if the property is in a draft T.P. Scheme.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "building_plan_permission",
+   "object": "required_documents",
+   "detail": {
+    "ownership_documents": [
+     "7/12,8A,6/ property card/sanad/ Ragistered Sale did with Index, Power of Attorny/ lease deed/ project"
+    ],
+    "area_related_documents": [
+     "DILR measurement sheet, city survey tippan/ tracing/ sand, T.P.Site plan/ old approved drowings"
+    ],
+    "zoning_certificate": "B or F form",
+    "affidavits": [
+     "Effidivate for parking, common plot, ULC, Indemnity Bond"
+    ],
+    "house_tax_clearance_certificate": "if redeveloped the old property",
+    "opinion_of_tpo": "if property is in draft T.P. Scheme"
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "Which documents are required for getting building plan permission? Ans : Check list of required documents is available on corporation website however following documents generally required. Owener ship Document:- 7/12,8A,6/ property card/sanad/ Ragistered Sale did with Index, Power of Attorny/ lease deed/ project Area Releted Documents:- DILR measurement sheet, city survey tippan/ tracing/ sand, T.P.Site plan/ old approved drowings in case of revise permission. Zoning Certificate and Zone plan:- B or F form. Effidivate for parking, common plot, ULC, Indemnity Bond. House Tax clearance certificate if redeveloped the old property. Opinion of T.P.O in case property is in draft T.P.Scheme.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Various N.O.Cs are required for building plan permission, including Airport N.O.C, Fire N.O.C, Archiological N.O.C, Electricity Board N.O.C, Railway N.O.C, Environment N.O.C, Regional Manager N.O.C, and Irrigation N.O.C.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "building_plan_permission",
+   "object": "noc_requirements",
+   "detail": {
+    "noc_types": [
+     "Airport N.O.C",
+     "Fire N.O.C",
+     "Archiological N.O.C",
+     "Electricity Board N.O.C",
+     "Railway N.O.C",
+     "Environment N.O.C",
+     "Regional Manager N.O.C",
+     "Irrigation N.O.C"
+    ],
+    "contact_details": {
+     "fire_noc": "C.O. Fire VMC Mr. Gunjal Mob.9879615036",
+     "archiological_noc": "Conservation Assistant Archaelogical Survey Of India, Vadodara Sub-circle Bhau Tambekar Haveli, Pratap Road, Raopura Vadodara.",
+     "electricity_board_noc": "GIDC Kansar Restorant Building Sayajigunj Vadodara",
+     "railway_noc": "DRM Western Railway Vadodara Division, Pratapnagar Vadodara",
+     "environment_noc": "GPCB Gandhinagar",
+     "regional_manager_noc": "Regional Manager GIDC Kansar Restorant Building Sayajigunj Vadodara",
+     "irrigation_noc": "Executive Engineer Vadodara Kuber bhuvan Vadodara"
+    }
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "Which Kind of N.O.C Required for the Building Plan Permission? Ans : Airport N.O.C if the property falls in funnal area of aircraft and for highrise building Director Airport Western Region Mumbai. Fire N.O.C (C.O. Fire VMC Mr. Gunjal Mob.9879615036) is concern person The information for N.O.C is also available on Website of Corporation.In case of Highrise Building and special Structure school buildings and Hospital Buildings. Archiological N.O.C If property falls within radios of 200mts. From the Archiological Monuments notified by Archiological Department Gov.of India. Conservation Assistant Archaelogical Survey Of India, Vadodara Sub-circle Bhau Tambekar Haveli, Pratap Road, Raopura Vadodara. Electricity Board N.O.C If H.T and L.T line pass through the property . Railway N.O.C DRM Western Railway Vadodara Division, Pratapnagar Vadodara. It property is adjoining to the Railway line or within 30mts. Of the railway track. Environment N.O.C GPCB Gandhinagar - Incase Construction area is 20000mts. Or more - Society N.O.C in case of co.op.housing Society . Resional manager N.O.C Regional Manager GIDC kansar Restorant Building Sayajigunj Vadodara. in case of GIDC Notified Area. Irrigation N.O.C Executive Engineer Vadodara Kuber bhuvan Vadodara. If canal pass adjoining to the property.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Construction must be started within one year of obtaining permission, and the permission is valid for 1+3 years.",
+   "kind": "TIMELINE",
+   "subject": "construction_start",
+   "object": "permission_validity",
+   "detail": {
+    "initial_validity_days": 365,
+    "renewal_validity_days": 1095
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "Within how much time Construction Should be Started ? Ans : According to T.P. Act 1976 person who get the permission is valid for one year However it is renewed for further 3 Years. What is the validity period of the permission according to the provision of T.P Act 1+3 year is validity period of the permission then permission is lapsed.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "To renew the permission, an application must be made with a copy of the permission letter and approved map to the Town Planning department of Vadodara Municipal Corporation.",
+   "kind": "ACTION",
+   "subject": "renew_permission",
+   "object": "town_planning_department",
+   "detail": {
+    "documents": [
+     "copy of permission letter",
+     "copy of approved map"
+    ],
+    "office": "Town Planning department of Vadodara Municipal Corporation"
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "How to get Renewal the Permission. Ans : If it is within the time period in accordance of the act application made with copy of permission letter and copy of approved map. In the Town Planning department of Vadodara Municipal Corporation.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "At the end of the construction, the building company must submit a completion report in Form No. 7 along with a copy of the plans, structural drawings, photos of the building, and a Xerox copy of the house tax to initiate the final inspection and permit process.",
+   "kind": "ACTION",
+   "subject": "submit_completion_notice",
+   "object": "vmc",
+   "detail": {
+    "form": "Form No. 7",
+    "documents": [
+     "copy of the plans",
+     "structural drawings",
+     "photos of building",
+     "Xerox copy of house tax"
+    ],
+    "office": "Vadodara Municipal Corporation"
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "How to Submit a completion notice to the Vadodara Municipal Corporation Ans : At the end of the construction, the building company must notify the VMC about the completion of construction by submitting a completion report in Form No. 7 along with a copy of the plans, structural drawings, photos of building & RWH with Xerox copy of house tax to initiate the final inspection and permit process. The report and all information must be submitted and signed by the owner and the concerned structural engineer / architect.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Vadodara Municipal Corporation should grant the Building Use Permission (occupancy permit) after a necessary inspection within 21 days of receipt of the completion report.",
+   "kind": "TIMELINE",
+   "subject": "building_use_permission",
+   "object": "completion_report",
+   "detail": {
+    "days": 21
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "how to get B.U.Certificate by submitting following documents through register licence Ans : holder like Copy of set of Structure Drawings. Final fire N.O.C Structure Stability Certificate. Photographs of RWS and Building. Drainage Connection Slip. Vadodara Municipal Corporation should be grant the Building Use Permission (occupancy permit) after a necessary inspection within 21 days of receipt of the completion report. Before issuing the occupancy certificate.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "To submit a complaint to VMC, you can do it anytime, anywhere through the Online Complaint portal or on WhatsApp at +91 99131-66666.",
+   "kind": "CHANNEL",
+   "subject": "submit_complaint",
+   "object": "vmc",
+   "detail": {
+    "online_portal": "Online Complaint portal",
+    "whatsapp": "+91 99131-66666"
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "Online Complaint Submit your grievance to VMC anytime, anywhere. WhatsApp Complaint Do Complaint on WhatsApp for quick help from Vadodara Municipal Corporation.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The contact number for VMC is 1800-233-0265 and the email is notification@vmc.gov.in.",
+   "kind": "OFFICE",
+   "subject": "vmc_contact",
+   "object": "vmc",
+   "detail": {
+    "phone": "1800-233-0265",
+    "email": "notification@vmc.gov.in",
+    "address": "Vadodara Municipal Corporation, Khanderao Market, Vadodara-390001."
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "1800-233-0265 WhatsApp No. +91 99131-66666 Vadodara Municipal Corporation, Khanderao Market, Vadodara-390001. notification@vmc.gov.in",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The only official booking website for Gir Online Permit Booking System is this page.",
+   "kind": "OFFICE",
+   "subject": "gir_online_permit_booking",
+   "object": "official_website",
+   "detail": {
+    "url": "https://girlion.gujarat.gov.in/AboutGirnarNatureSafari.aspx"
+   },
+   "sourceId": "src:276afc4b2b42",
+   "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+   "confidence": 1
+  },
+  {
+   "claim": "Tatkal or urgent bookings are not allowed on the official website.",
+   "kind": "BLOCKER",
+   "subject": "gir_online_permit_booking",
+   "object": "tatkal_booking",
+   "detail": {},
+   "sourceId": "src:276afc4b2b42",
+   "evidence": "Tatkal or urgent bookings are not allowed on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Sinh Sadhan room bookings are not offered on the official website.",
+   "kind": "BLOCKER",
+   "subject": "gir_online_permit_booking",
+   "object": "sinh_sadan_room_booking",
+   "detail": {},
+   "sourceId": "src:276afc4b2b42",
+   "evidence": "Kindly note that sinh sadan room bookings are not offered on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "The permit charges do not include eco-guide charges and safari gypsy charges, which must be paid separately.",
+   "kind": "FEE",
+   "subject": "gir_permit_booking",
+   "object": "eco_guide_safari_charges",
+   "detail": {
+    "eco_guide_charges": "400",
+    "safari_gypsy_charges": "2000"
+   },
+   "sourceId": "src:276afc4b2b42",
+   "evidence": "The Permit charges don't include eco-guide charges (INR 400/-) and safari gypsy charges (INR 2000/-), which must be paid separately to the respective eco-guide and safari gypsy owner.",
+   "confidence": 1
+  },
+  {
+   "claim": "A maximum of six persons (plus one child between 3-12 years) are allowed in each gypsy.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "gir_permit_booking",
+   "object": "gypsy_capacity",
+   "detail": {
+    "max_persons": "6",
+    "max_children": "1"
+   },
+   "sourceId": "src:276afc4b2b42",
+   "evidence": "Only a maximum of six visitors (plus one child between 3-12 years) are allowed in each gypsy.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Girnar Nature Safari is closed from 16th June to 15th October every year.",
+   "kind": "TIMELINE",
+   "subject": "girnar_nature_safari",
+   "object": "closure_period",
+   "detail": {
+    "start_date": "16th June",
+    "end_date": "15th October"
+   },
+   "sourceId": "src:276afc4b2b42",
+   "evidence": "The Sanctuary remains closed from 16th June to 15th Oct every year.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Girnar Safari will remain closed during Girnar Parikrama and Mahashivratri Festival every year as per the Hindu calendar.",
+   "kind": "TIMELINE",
+   "subject": "girnar_nature_safari",
+   "object": "closure_during_festivals",
+   "detail": {
+    "festivals": "Girnar Parikrama, Mahashivratri"
+   },
+   "sourceId": "src:276afc4b2b42",
+   "evidence": "Girnar Safari will remain closed during Girnar Parikrama and Mahashivratri Festival every year as per Hindu Calender Days.",
+   "confidence": 1
+  },
+  {
+   "claim": "The permit charges for a safari gypsy for up to 6 persons on weekdays is INR 800 for Indian visitors and INR 7600 for foreign visitors.",
+   "kind": "FEE",
+   "subject": "gir_permit_booking",
+   "object": "weekday_permit_charges",
+   "detail": {
+    "indian_charges": "800",
+    "foreigner_charges": "7600"
+   },
+   "sourceId": "src:276afc4b2b42",
+   "evidence": "Safari Gypsy | Monday to Friday | Up To 6 persons | 800 | 7600",
+   "confidence": 1
+  },
+  {
+   "claim": "The permit charges for an extra child on weekdays is INR 100 for Indian visitors and INR 1900 for foreign visitors.",
+   "kind": "FEE",
+   "subject": "gir_permit_booking",
+   "object": "weekday_extra_child_charges",
+   "detail": {
+    "indian_charges": "100",
+    "foreigner_charges": "1900"
+   },
+   "sourceId": "src:276afc4b2b42",
+   "evidence": "Safari Gypsy | Monday to Friday | Extra Child | 100 | 1900",
+   "confidence": 1
+  },
+  {
+   "claim": "The timings for the Girnar Nature Safari during the summer season (1st March to 15th June) are 6:00 AM to 9:00 AM in the morning and 4:00 PM to 7:00 PM in the evening.",
+   "kind": "TIMELINE",
+   "subject": "girnar_nature_safari",
+   "object": "summer_timings",
+   "detail": {
+    "season": "Summer",
+    "start_date": "1st March",
+    "end_date": "15th June",
+    "morning_timings": "6:00 AM to 9:00 AM",
+    "evening_timings": "4:00 PM to 7:00 PM"
+   },
+   "sourceId": "src:276afc4b2b42",
+   "evidence": "Summer (1 st March To 15 th June) | Monday To Sunday | 6:00 AM to 9:00 AM | 4 PM to 7 PM",
+   "confidence": 1
+  },
+  {
+   "claim": "The timings for the Girnar Nature Safari during the winter season (16th October to 28th/29th February) are 6:45 AM to 9:45 AM in the morning and 3:00 PM to 6:00 PM in the evening.",
+   "kind": "TIMELINE",
+   "subject": "girnar_nature_safari",
+   "object": "winter_timings",
+   "detail": {
+    "season": "Winter",
+    "start_date": "16th October",
+    "end_date": "28th/29th February",
+    "morning_timings": "6:45 AM to 9:45 AM",
+    "evening_timings": "3:00 PM to 6:00 PM"
+   },
+   "sourceId": "src:276afc4b2b42",
+   "evidence": "Winter (16 th October To 28 th /29 th February) | Monday To Sunday | 6:45 AM to 9:45 AM | 3 PM to 6 PM",
+   "confidence": 1
+  },
+  {
+   "claim": "The nearest railway station to Girnar Nature Safari is Junagadh.",
+   "kind": "OFFICE",
+   "subject": "girnar_nature_safari",
+   "object": "nearest_railway_station",
+   "detail": {
+    "station": "Junagadh"
+   },
+   "sourceId": "src:276afc4b2b42",
+   "evidence": "The nearest railway station is at Junagadh.",
+   "confidence": 1
+  },
+  {
+   "claim": "The nearest airport to Girnar Nature Safari is Rajkot.",
+   "kind": "OFFICE",
+   "subject": "girnar_nature_safari",
+   "object": "nearest_airport",
+   "detail": {
+    "airport": "Rajkot"
+   },
+   "sourceId": "src:276afc4b2b42",
+   "evidence": "The nearest airport is Rajkot.",
+   "confidence": 1
+  },
+  {
+   "claim": "Girnar Nature Safari is approximately 100 km from Rajkot and 320 km from Ahmedabad.",
+   "kind": "OFFICE",
+   "subject": "girnar_nature_safari",
+   "object": "distance_from_cities",
+   "detail": {
+    "rajgot_distance": "100 km",
+    "ahmedabad_distance": "320 km"
+   },
+   "sourceId": "src:276afc4b2b42",
+   "evidence": "It is approximately 100 km from Rajkot and 320 km from Ahmedabad.",
+   "confidence": 1
+  },
+  {
+   "claim": "Telephonic queries will be responded to during 10:30am to 6:00pm (IST) from Monday to Saturday.",
+   "kind": "TIMELINE",
+   "subject": "telephonic_queries",
+   "object": "response_time",
+   "detail": {
+    "hours": "10:30am to 6:00pm",
+    "days": "Monday-Saturday"
+   },
+   "sourceId": "src:ae4e926fc5b9",
+   "evidence": "Telephonic queries will be respond during 10:30am to 6:00pm (IST) (Monday-Saturday).",
+   "confidence": 1
+  },
+  {
+   "claim": "Email queries will be responded to within 48 hours.",
+   "kind": "TIMELINE",
+   "subject": "email_queries",
+   "object": "response_time",
+   "detail": {
+    "hours": "48"
+   },
+   "sourceId": "src:ae4e926fc5b9",
+   "evidence": "Email queries will be respond within 48 Hours.",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact phone number for Sasan Gir (Gir Jungle Safari / Develia Gypsy Safari / Develia Bus Safari) is 02877-285621.",
+   "kind": "HELPLINE",
+   "subject": "sasan_gir",
+   "object": "phone_number",
+   "detail": {
+    "phone": "02877-285621"
+   },
+   "sourceId": "src:ae4e926fc5b9",
+   "evidence": "PHONE\n02877-285621",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact email for Sasan Gir (Gir Jungle Safari / Develia Gypsy Safari / Develia Bus Safari) is gslcsgir@yahoo.com.",
+   "kind": "HELPLINE",
+   "subject": "sasan_gir",
+   "object": "email",
+   "detail": {
+    "email": "gslcsgir@yahoo.com"
+   },
+   "sourceId": "src:ae4e926fc5b9",
+   "evidence": "E-MAIL\ngslcsgir[at]yahoo[dot]com",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact phone numbers for Ambardi Safari Park are 9016769612 and 6359950214.",
+   "kind": "HELPLINE",
+   "subject": "ambardi_safari_park",
+   "object": "phone_numbers",
+   "detail": {
+    "phone1": "9016769612",
+    "phone2": "6359950214"
+   },
+   "sourceId": "src:ae4e926fc5b9",
+   "evidence": "PHONE\n9016769612, 6359950214",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact email for Ambardi Safari Park is dcf_dhari@yahoo.com.",
+   "kind": "HELPLINE",
+   "subject": "ambardi_safari_park",
+   "object": "email",
+   "detail": {
+    "email": "dcf_dhari@yahoo.com"
+   },
+   "sourceId": "src:ae4e926fc5b9",
+   "evidence": "E-MAIL\ndcf_dhari[at]yahoo[dot]com",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact phone numbers for Girnar Nature Safari are 0285-2651763 and 6359950387.",
+   "kind": "HELPLINE",
+   "subject": "girnar_nature_safari",
+   "object": "phone_numbers",
+   "detail": {
+    "phone1": "0285-2651763",
+    "phone2": "6359950387"
+   },
+   "sourceId": "src:ae4e926fc5b9",
+   "evidence": "PHONE\n0285-2651763,6359950387",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact email for Girnar Nature Safari is girnar.safari@gmail.com.",
+   "kind": "HELPLINE",
+   "subject": "girnar_nature_safari",
+   "object": "email",
+   "detail": {
+    "email": "girnar.safari@gmail.com"
+   },
+   "sourceId": "src:ae4e926fc5b9",
+   "evidence": "E-MAIL\ngirnar[dot]safari[at]gmail[dot]com",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact phone numbers for Velavadar Blackbuck National Park are 063532 15151 and 093270 41859.",
+   "kind": "HELPLINE",
+   "subject": "velavadar_blackbuck_national_park",
+   "object": "phone_numbers",
+   "detail": {
+    "phone1": "063532 15151",
+    "phone2": "093270 41859"
+   },
+   "sourceId": "src:ae4e926fc5b9",
+   "evidence": "PHONE\n1. 063532 15151\n2. 093270 41859",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact email for Velavadar Blackbuck National Park is rfo03velavadar@gmail.com.",
+   "kind": "HELPLINE",
+   "subject": "velavadar_blackbuck_national_park",
+   "object": "email",
+   "detail": {
+    "email": "rfo03velavadar@gmail.com"
+   },
+   "sourceId": "src:ae4e926fc5b9",
+   "evidence": "E-MAIL\nrfo03velavadar[at]gmail[dot]com",
+   "confidence": 1
+  },
+  {
+   "claim": "This is the only official booking website for Gir Online Permit Booking System.",
+   "kind": "CHANNEL",
+   "subject": "gir_online_permit_booking",
+   "object": "official_website",
+   "detail": {
+    "url": "https://girlion.gujarat.gov.in"
+   },
+   "sourceId": "src:ae4e926fc5b9",
+   "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+   "confidence": 1
+  },
+  {
+   "claim": "Tatkal or urgent bookings are not allowed on this website.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "gir_online_permit_booking",
+   "object": "booking_type",
+   "detail": {
+    "disallowed": "Tatkal or urgent bookings"
+   },
+   "sourceId": "src:ae4e926fc5b9",
+   "evidence": "Tatkal or urgent bookings are not allowed on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Sinh Sadhan room bookings are not offered on this website.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "gir_online_permit_booking",
+   "object": "booking_type",
+   "detail": {
+    "disallowed": "Sinh Sadhan room bookings"
+   },
+   "sourceId": "src:ae4e926fc5b9",
+   "evidence": "Kindly note that sinh sadan room bookings are not offered on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Extra charges of 25% will be applied every weekend.",
+   "kind": "FEE",
+   "subject": "velavadar_national_park",
+   "object": "extra_charges_weekend",
+   "detail": {
+    "percentage": "25%",
+    "url": "https://girlion.gujarat.gov.in/VelavadarBooking.aspx"
+   },
+   "sourceId": "src:11052a2e4ead",
+   "evidence": "Note: Extra charges of 25% will be applied every weekend.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The park remains open from Monday to Sunday.",
+   "kind": "TIMELINE",
+   "subject": "velavadar_national_park",
+   "object": "operating_days",
+   "detail": {
+    "days": "Monday to Sunday",
+    "url": "https://girlion.gujarat.gov.in/VelavadarBooking.aspx"
+   },
+   "sourceId": "src:11052a2e4ead",
+   "evidence": "The park remains open from Monday to Sunday.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Morning timings during winter season are 6:30 am to 11:30 am.",
+   "kind": "TIMELINE",
+   "subject": "velavadar_national_park",
+   "object": "winter_morning_timings",
+   "detail": {
+    "timings": "6:30 am to 11:30 am",
+    "url": "https://girlion.gujarat.gov.in/VelavadarBooking.aspx"
+   },
+   "sourceId": "src:11052a2e4ead",
+   "evidence": "Winter\n(16 th October\nTo\n28 th /29 th February) |\nMonday To Sunday |\n6:30 am to 11:30 am |\n2:00 pm to 7:00 pm",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Evening timings during winter season are 2:00 pm to 7:00 pm.",
+   "kind": "TIMELINE",
+   "subject": "velavadar_national_park",
+   "object": "winter_evening_timings",
+   "detail": {
+    "timings": "2:00 pm to 7:00 pm",
+    "url": "https://girlion.gujarat.gov.in/VelavadarBooking.aspx"
+   },
+   "sourceId": "src:11052a2e4ead",
+   "evidence": "Winter\n(16 th October\nTo\n28 th /29 th February) |\nMonday To Sunday |\n6:30 am to 11:30 am |\n2:00 pm to 7:00 pm",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Morning timings during summer season are 6:00 am to 11:00 am.",
+   "kind": "TIMELINE",
+   "subject": "velavadar_national_park",
+   "object": "summer_morning_timings",
+   "detail": {
+    "timings": "6:00 am to 11:00 am",
+    "url": "https://girlion.gujarat.gov.in/VelavadarBooking.aspx"
+   },
+   "sourceId": "src:11052a2e4ead",
+   "evidence": "Summer\n(1 st March\nTo\n15 th th June) |\nMonday To Sunday |\n6:00 am to 11:00 am\n|\n2:30 pm to 7:30 pm",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Evening timings during summer season are 2:30 pm to 7:30 pm.",
+   "kind": "TIMELINE",
+   "subject": "velavadar_national_park",
+   "object": "summer_evening_timings",
+   "detail": {
+    "timings": "2:30 pm to 7:30 pm",
+    "url": "https://girlion.gujarat.gov.in/VelavadarBooking.aspx"
+   },
+   "sourceId": "src:11052a2e4ead",
+   "evidence": "Summer\n(1 st March\nTo\n15 th th June) |\nMonday To Sunday |\n6:00 am to 11:00 am\n|\n2:30 pm to 7:30 pm",
+   "confidence": 0.95
+  },
+  {
+   "claim": "This is the only official booking website for Gir Online Permit Booking System.",
+   "kind": "CHANNEL",
+   "subject": "velavadar_national_park",
+   "object": "official_booking_website",
+   "detail": {
+    "url": "https://girlion.gujarat.gov.in/VelavadarBooking.aspx"
+   },
+   "sourceId": "src:11052a2e4ead",
+   "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Beware of fraudulent websites claiming to provide confirmed Permit booking services at premium rates.",
+   "kind": "BLOCKER",
+   "subject": "velavadar_national_park",
+   "object": "fraudulent_booking_websites",
+   "detail": {
+    "url": "https://girlion.gujarat.gov.in/VelavadarBooking.aspx"
+   },
+   "sourceId": "src:11052a2e4ead",
+   "evidence": "Beware of fraudulant websites claiming to provide confirmed Permit booking services at premium rates.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Tatkal or urgent bookings are not allowed on this website.",
+   "kind": "BLOCKER",
+   "subject": "velavadar_national_park",
+   "object": "tatkal_bookings",
+   "detail": {
+    "url": "https://girlion.gujarat.gov.in/VelavadarBooking.aspx"
+   },
+   "sourceId": "src:11052a2e4ead",
+   "evidence": "Tatkal or urgent bookings are not allowed on this website.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Sinh sadan room bookings are not offered on this website.",
+   "kind": "BLOCKER",
+   "subject": "velavadar_national_park",
+   "object": "sinh_sadan_room_bookings",
+   "detail": {
+    "url": "https://girlion.gujarat.gov.in/VelavadarBooking.aspx"
+   },
+   "sourceId": "src:11052a2e4ead",
+   "evidence": "Kindly note that sinh sadan room bookings are not offered on this website.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Please use only official and authorized platforms for bookings.",
+   "kind": "CHANNEL",
+   "subject": "velavadar_national_park",
+   "object": "booking_platforms",
+   "detail": {
+    "url": "https://girlion.gujarat.gov.in/VelavadarBooking.aspx"
+   },
+   "sourceId": "src:11052a2e4ead",
+   "evidence": "Please use only official and authorized platforms for bookings.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The camera fee for amateur photography is Rs. 200 for Indian nationals.",
+   "kind": "FEE",
+   "subject": "camera_fee",
+   "object": "indian_nationals",
+   "detail": {
+    "amount": "200",
+    "currency": "Rs."
+   },
+   "sourceId": "src:95a9c084b03d",
+   "evidence": "The camera fee for amateur photography is Rs. 200 for Indian nationals and for foreigners, it is calculated by 20 multiplying the current dollar rate in Rs.",
+   "confidence": 1
+  },
+  {
+   "claim": "The camera fee for amateur photography for foreigners is calculated by 20 multiplying the current dollar rate in Rs.",
+   "kind": "FEE",
+   "subject": "camera_fee",
+   "object": "foreigners",
+   "detail": {
+    "amount": "20",
+    "currency": "multiplied by current dollar rate in Rs."
+   },
+   "sourceId": "src:95a9c084b03d",
+   "evidence": "The camera fee for amateur photography is Rs. 200 for Indian nationals and for foreigners, it is calculated by 20 multiplying the current dollar rate in Rs.",
+   "confidence": 1
+  },
+  {
+   "claim": "Private vehicles (Gypsy) are available at Reception Centre, Sinh Sadan, Sasan for Gir Jungle Safari at Rs. 2000.",
+   "kind": "FEE",
+   "subject": "gypsy_vehicle_hire",
+   "object": "gir_jungle_safari",
+   "detail": {
+    "amount": "2000",
+    "currency": "Rs.",
+    "location": "Reception Centre, Sinh Sadan, Sasan"
+   },
+   "sourceId": "src:95a9c084b03d",
+   "evidence": "Private vehicles (Gypsy) are locally available at Reception Centre, Sinh Sadan, Sasan. Rates to hire the vehicle are Rs. 2000 for Gir Jungle Safari ,Rs. 1600 for Devaliya Safari Park and Rs 2000 for Girnar Nature Safari.",
+   "confidence": 1
+  },
+  {
+   "claim": "Private vehicles (Gypsy) are available at Reception Centre, Sinh Sadan, Sasan for Devaliya Safari Park at Rs. 1600.",
+   "kind": "FEE",
+   "subject": "gypsy_vehicle_hire",
+   "object": "devaliya_safari_park",
+   "detail": {
+    "amount": "1600",
+    "currency": "Rs.",
+    "location": "Reception Centre, Sinh Sadan, Sasan"
+   },
+   "sourceId": "src:95a9c084b03d",
+   "evidence": "Private vehicles (Gypsy) are locally available at Reception Centre, Sinh Sadan, Sasan. Rates to hire the vehicle are Rs. 2000 for Gir Jungle Safari ,Rs. 1600 for Devaliya Safari Park and Rs 2000 for Girnar Nature Safari.",
+   "confidence": 1
+  },
+  {
+   "claim": "Private vehicles (Gypsy) are available at Reception Centre, Sinh Sadan, Sasan for Girnar Nature Safari at Rs. 2000.",
+   "kind": "FEE",
+   "subject": "gypsy_vehicle_hire",
+   "object": "girnar_nature_safari",
+   "detail": {
+    "amount": "2000",
+    "currency": "Rs.",
+    "location": "Reception Centre, Sinh Sadan, Sasan"
+   },
+   "sourceId": "src:95a9c084b03d",
+   "evidence": "Private vehicles (Gypsy) are locally available at Reception Centre, Sinh Sadan, Sasan. Rates to hire the vehicle are Rs. 2000 for Gir Jungle Safari ,Rs. 1600 for Devaliya Safari Park and Rs 2000 for Girnar Nature Safari.",
+   "confidence": 1
+  },
+  {
+   "claim": "It is compulsory to take a registered Guide while on a Gypsy ride to Gir Jungle Safari or Devaliya Safari Park.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "gypsy_ride",
+   "object": "registered_guide",
+   "detail": {},
+   "sourceId": "src:95a9c084b03d",
+   "evidence": "It is compulsory to take a registered Guide while on a Gypsy ride to Gir Jungle Safari or Devaliya Safari Park.",
+   "confidence": 1
+  },
+  {
+   "claim": "This is the only official booking website for Gir Online Permit Booking System.",
+   "kind": "CHANNEL",
+   "subject": "gir_permit_booking",
+   "object": "official_website",
+   "detail": {
+    "url": "https://girlion.gujarat.gov.in/Services.aspx"
+   },
+   "sourceId": "src:95a9c084b03d",
+   "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+   "confidence": 1
+  },
+  {
+   "claim": "Tatkal or urgent bookings are not allowed on this website.",
+   "kind": "BLOCKER",
+   "subject": "booking",
+   "object": "tatkal_urgent_bookings",
+   "detail": {},
+   "sourceId": "src:95a9c084b03d",
+   "evidence": "Tatkal or urgent bookings are not allowed on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Sinh Sadan room bookings are not offered on this website.",
+   "kind": "BLOCKER",
+   "subject": "booking",
+   "object": "sinh_sadan_room_bookings",
+   "detail": {},
+   "sourceId": "src:95a9c084b03d",
+   "evidence": "Kindly note that sinh sadan room bookings are not offered on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Please use only official and authorized platforms for bookings.",
+   "kind": "ACTION",
+   "subject": "booking",
+   "object": "official_authorized_platforms",
+   "detail": {},
+   "sourceId": "src:95a9c084b03d",
+   "evidence": "Please use only official and authorized platforms for bookings.",
+   "confidence": 1
+  },
+  {
+   "claim": "The official booking website for Girnar Nature Safari is the only authorized platform for permit bookings.",
+   "kind": "CHANNEL",
+   "subject": "girnar_nature_safari_booking",
+   "object": "official_website",
+   "detail": {
+    "url": "https://girlion.gujarat.gov.in/GirnarNatureSafariBooking.aspx"
+   },
+   "sourceId": "src:f2cbb7797ef7",
+   "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+   "confidence": 1
+  },
+  {
+   "claim": "The sanctuary is closed from 16th June to 15th October every year.",
+   "kind": "TIMELINE",
+   "subject": "girnar_nature_safari",
+   "object": "sanctuary_closure",
+   "detail": {
+    "start_date": "16th June",
+    "end_date": "15th October"
+   },
+   "sourceId": "src:f2cbb7797ef7",
+   "evidence": "Note: The Sanctuary remains closed from 16th June to 15th Oct every year.",
+   "confidence": 1
+  },
+  {
+   "claim": "Girnar Safari will remain closed during Girnar Parikrama and Mahashivratri Festival every year as per the Hindu calendar.",
+   "kind": "TIMELINE",
+   "subject": "girnar_nature_safari",
+   "object": "festival_closure",
+   "detail": {
+    "events": "Girnar Parikrama, Mahashivratri Festival"
+   },
+   "sourceId": "src:f2cbb7797ef7",
+   "evidence": "Girnar Safari will remain closed during Girnar Parikrama and Mahashivratri Festival every year as per Hindu Calender Days.",
+   "confidence": 1
+  },
+  {
+   "claim": "Safari Gypsy permits for Monday to Friday cost INR 800 for Indian visitors and INR 7600 for foreign visitors for up to 6 persons.",
+   "kind": "FEE",
+   "subject": "safari_gypsy_permit",
+   "object": "booking_fee",
+   "detail": {
+    "currency": "INR",
+    "indian_fee": "800",
+    "foreigner_fee": "7600",
+    "persons": "6"
+   },
+   "sourceId": "src:f2cbb7797ef7",
+   "evidence": "Safari Gypsy | Monday to Friday | Up To 6 persons | 800 | 7600",
+   "confidence": 1
+  },
+  {
+   "claim": "An extra child in a Safari Gypsy permit costs INR 100 for Indian visitors and INR 1900 for foreign visitors on weekdays.",
+   "kind": "FEE",
+   "subject": "safari_gypsy_permit",
+   "object": "extra_child_fee",
+   "detail": {
+    "currency": "INR",
+    "indian_fee": "100",
+    "foreigner_fee": "1900"
+   },
+   "sourceId": "src:f2cbb7797ef7",
+   "evidence": "Safari Gypsy | Monday to Friday | Extra Child | 100 | 1900",
+   "confidence": 1
+  },
+  {
+   "claim": "In one e-permit, a maximum of 6 persons (plus one child between 3-12 years) is allowed.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "e_permit",
+   "object": "maximum_persons",
+   "detail": {
+    "max_adults": "6",
+    "max_children": "1"
+   },
+   "sourceId": "src:f2cbb7797ef7",
+   "evidence": "Note: In one E-permit maximum 6 persons (plus one child between 3-12 years) are allowed.",
+   "confidence": 1
+  },
+  {
+   "claim": "The permit charges do not include eco-guide charges (INR 400) and safari gypsy charges (INR 2000), which must be paid separately.",
+   "kind": "FEE",
+   "subject": "safari_gypsy_permit",
+   "object": "additional_charges",
+   "detail": {
+    "eco_guide_fee": "400",
+    "safari_gypsy_fee": "2000",
+    "currency": "INR"
+   },
+   "sourceId": "src:f2cbb7797ef7",
+   "evidence": "The Permit charges don't include eco-guide charges (INR 400/-) and safari gypsy charges (INR 2000/-), which must be paid separately to the respective eco-guide and safari gypsy owner.",
+   "confidence": 1
+  },
+  {
+   "claim": "Tatkal or urgent bookings are not allowed on the official website.",
+   "kind": "BLOCKER",
+   "subject": "girnar_nature_safari_booking",
+   "object": "tatkal_booking",
+   "detail": {},
+   "sourceId": "src:f2cbb7797ef7",
+   "evidence": "Tatkal or urgent bookings are not allowed on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Sinh Sadhan room bookings are not offered on the official website.",
+   "kind": "BLOCKER",
+   "subject": "girnar_nature_safari_booking",
+   "object": "sinh_sadhan_room",
+   "detail": {},
+   "sourceId": "src:f2cbb7797ef7",
+   "evidence": "Kindly note that sinh sadan room bookings are not offered on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Users must be cautious of fraudulent websites offering confirmed permit bookings at premium rates.",
+   "kind": "GRIEVANCE",
+   "subject": "girnar_nature_safari_booking",
+   "object": "fraudulent_website",
+   "detail": {},
+   "sourceId": "src:f2cbb7797ef7",
+   "evidence": "Beware of fraudulant websites claiming to provide confirmed Permit booking services at premium rates.",
+   "confidence": 1
+  },
+  {
+   "claim": "This is the only official booking website for Gir Online Permit Booking System.",
+   "kind": "OFFICE",
+   "subject": "gir_permit_booking",
+   "object": "official_website",
+   "detail": {
+    "url": "https://girlion.gujarat.gov.in/"
+   },
+   "sourceId": "src:2bf6f853854d",
+   "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+   "confidence": 1
+  },
+  {
+   "claim": "Beware of fraudulent websites claiming to provide confirmed Permit booking services at premium rates.",
+   "kind": "BLOCKER",
+   "subject": "fraudulent_booking",
+   "object": "unauthorized_website",
+   "detail": {},
+   "sourceId": "src:2bf6f853854d",
+   "evidence": "Beware of fraudulant websites claiming to provide confirmed Permit booking services at premium rates.",
+   "confidence": 1
+  },
+  {
+   "claim": "Tatkal or urgent bookings are not allowed on this website.",
+   "kind": "BLOCKER",
+   "subject": "tatkal_booking",
+   "object": "gir_permit_booking",
+   "detail": {},
+   "sourceId": "src:2bf6f853854d",
+   "evidence": "Tatkal or urgent bookings are not allowed on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Sinh Sadan room bookings are not offered on this website.",
+   "kind": "BLOCKER",
+   "subject": "sinh_sadan_booking",
+   "object": "gir_permit_booking",
+   "detail": {},
+   "sourceId": "src:2bf6f853854d",
+   "evidence": "Kindly note that sinh sadan room bookings are not offered on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Face masks/shields are compulsory for all the visitors including eco-guides and safari vehicle drivers.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "face_mask",
+   "object": "gir_visit",
+   "detail": {},
+   "sourceId": "src:2bf6f853854d",
+   "evidence": "Face masks/shields are compulsory for all the visitors including eco-guides and safari vehicle drivers.",
+   "confidence": 1
+  },
+  {
+   "claim": "Visitors are advised to carry the sanitizers and use them as and when required.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "sanitizer",
+   "object": "gir_visit",
+   "detail": {},
+   "sourceId": "src:2bf6f853854d",
+   "evidence": "Visitors are advised to carry the sanitizers and use them as and when required.",
+   "confidence": 1
+  },
+  {
+   "claim": "It’s better to avoid touching surfaces as much as possible.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "surface_touch",
+   "object": "gir_visit",
+   "detail": {},
+   "sourceId": "src:2bf6f853854d",
+   "evidence": "It’s better to avoid touching surfaces as much as possible.",
+   "confidence": 1
+  },
+  {
+   "claim": "Persons above 65 years of age, persons with comorbidities, pregnant women and children below the age of 10 years are advised to stay at home.",
+   "kind": "ELIGIBILITY",
+   "subject": "gir_visit",
+   "object": "age_comorbidity",
+   "detail": {},
+   "sourceId": "src:2bf6f853854d",
+   "evidence": "Persons above 65 years of age, persons with comorbidities, pregnant women and children below the age of 10 years are advised to stay at home.",
+   "confidence": 1
+  },
+  {
+   "claim": "The official booking website for Gir Online Permit Booking System is this site.",
+   "kind": "CHANNEL",
+   "subject": "gir_jungle_safari",
+   "object": "booking_website",
+   "detail": {},
+   "sourceId": "src:e89c2413eb37",
+   "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+   "confidence": 1
+  },
+  {
+   "claim": "Gir Jungle Safari is closed from 16th June to 15th October every year.",
+   "kind": "TIMELINE",
+   "subject": "gir_jungle_safari",
+   "object": "closure_period",
+   "detail": {
+    "start_date": "16th June",
+    "end_date": "15th October"
+   },
+   "sourceId": "src:e89c2413eb37",
+   "evidence": "Note: Gir Jungle Safari is closed from 16th June to 15th Oct every year.",
+   "confidence": 1
+  },
+  {
+   "claim": "The permit does not include Guide and Safari vehicle charges, which must be paid separately.",
+   "kind": "DEPENDENCY",
+   "subject": "gir_jungle_safari_permit",
+   "object": "guide_safari_vehicle_charges",
+   "detail": {},
+   "sourceId": "src:e89c2413eb37",
+   "evidence": "Note: * The permit doesn't includes the Guide and Safari vehicle charge, which must be paid separately to respective Guides and Safari vehicle owners.",
+   "confidence": 1
+  },
+  {
+   "claim": "Safari vehicle charges for a 4 seater new safari vehicle are 2500 rupees.",
+   "kind": "FEE",
+   "subject": "safari_vehicle",
+   "object": "4_seater_charge",
+   "detail": {
+    "amount": 2500,
+    "currency": "INR"
+   },
+   "sourceId": "src:e89c2413eb37",
+   "evidence": "Safari Vehicle Charges as {Type A: 2500/- (4 seater new safari vehicle); 3500/- (6 seater new safari vehicle); 4500/- (8 seater new comfortable safari vehicle)}.",
+   "confidence": 1
+  },
+  {
+   "claim": "Safari vehicle charges for a 6 seater new safari vehicle are 3500 rupees.",
+   "kind": "FEE",
+   "subject": "safari_vehicle",
+   "object": "6_seater_charge",
+   "detail": {
+    "amount": 3500,
+    "currency": "INR"
+   },
+   "sourceId": "src:e89c2413eb37",
+   "evidence": "Safari Vehicle Charges as {Type A: 2500/- (4 seater new safari vehicle); 3500/- (6 seater new safari vehicle); 4500/- (8 seater new comfortable safari vehicle)}.",
+   "confidence": 1
+  },
+  {
+   "claim": "Safari vehicle charges for an 8 seater new comfortable safari vehicle are 4500 rupees.",
+   "kind": "FEE",
+   "subject": "safari_vehicle",
+   "object": "8_seater_charge",
+   "detail": {
+    "amount": 4500,
+    "currency": "INR"
+   },
+   "sourceId": "src:e89c2413eb37",
+   "evidence": "Safari Vehicle Charges as {Type A: 2500/- (4 seater new safari vehicle); 3500/- (6 seater new safari vehicle); 4500/- (8 seater new comfortable safari vehicle)}.",
+   "confidence": 1
+  },
+  {
+   "claim": "Tatkal or urgent bookings are not allowed on this website.",
+   "kind": "BLOCKER",
+   "subject": "gir_jungle_safari",
+   "object": "tatkal_booking",
+   "detail": {},
+   "sourceId": "src:e89c2413eb37",
+   "evidence": "Tatkal or urgent bookings are not allowed on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Sinh Sadhan room bookings are not offered on this website.",
+   "kind": "BLOCKER",
+   "subject": "gir_jungle_safari",
+   "object": "sinh_sadhan_room_booking",
+   "detail": {},
+   "sourceId": "src:e89c2413eb37",
+   "evidence": "Kindly note that sinh sadan room bookings are not offered on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Devalia Safari Park is closed on every Wednesday.",
+   "kind": "TIMELINE",
+   "subject": "devalia_safari_park",
+   "object": "closure",
+   "detail": {
+    "days": "wednesday"
+   },
+   "sourceId": "src:7f4a4e5e8699",
+   "evidence": "Note: Devalia Safari Park remains closed on every wednesday.",
+   "confidence": 1
+  },
+  {
+   "claim": "The maximum number of persons allowed in one E-permit is 6 persons plus one child between 3-12 years.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "e_permit",
+   "object": "devalia_safari_park",
+   "detail": {
+    "max_persons": "6",
+    "max_children": "1"
+   },
+   "sourceId": "src:7f4a4e5e8699",
+   "evidence": "Note: In one E-permit maximum 6 persons (plus one child between 3-12 years) are allowed.",
+   "confidence": 1
+  },
+  {
+   "claim": "The permit does not include the Guide and Safari vehicle charge, which must be paid separately to respective Guides and Safari vehicle owners.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "permit",
+   "object": "devalia_safari_park",
+   "detail": {
+    "excluded_charges": "guide, safari_vehicle"
+   },
+   "sourceId": "src:7f4a4e5e8699",
+   "evidence": "The permit doesn't includes the Guide and Safari vehicle charge, which must be paid separately to respective Guides and Safari vehicle owners.",
+   "confidence": 1
+  },
+  {
+   "claim": "Safari Vehicle Charges are 2000/- for a 4 seater, 2500/- for a 6 seater, and 3000/- for an 8 seater.",
+   "kind": "FEE",
+   "subject": "safari_vehicle",
+   "object": "devalia_safari_park",
+   "detail": {
+    "4_seater": "2000",
+    "6_seater": "2500",
+    "8_seater": "3000"
+   },
+   "sourceId": "src:7f4a4e5e8699",
+   "evidence": "Safari Vehicle Charges as {2000/- (4 seater safari vehicle);2500/- (6 seater safari vehicle);3000/- (8 seater safari vehicle)}.",
+   "confidence": 1
+  },
+  {
+   "claim": "The only official booking website for Gir Online Permit Booking System is https://girlion.gujarat.gov.in.",
+   "kind": "CHANNEL",
+   "subject": "gir_online_permit_booking",
+   "object": "booking_website",
+   "detail": {
+    "url": "https://girlion.gujarat.gov.in"
+   },
+   "sourceId": "src:7f4a4e5e8699",
+   "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+   "confidence": 1
+  },
+  {
+   "claim": "Tatkal or urgent bookings are not allowed on the official Gir Online Permit Booking System website.",
+   "kind": "BLOCKER",
+   "subject": "gir_online_permit_booking",
+   "object": "tatkal_urgent_bookings",
+   "detail": {},
+   "sourceId": "src:7f4a4e5e8699",
+   "evidence": "Tatkal or urgent bookings are not allowed on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Sinh Sadan room bookings are not offered on the official Gir Online Permit Booking System website.",
+   "kind": "BLOCKER",
+   "subject": "gir_online_permit_booking",
+   "object": "sinh_sadan_room_bookings",
+   "detail": {},
+   "sourceId": "src:7f4a4e5e8699",
+   "evidence": "Kindly note that sinh sadan room bookings are not offered on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Citizens should be aware of fraudulent websites claiming to provide confirmed Permit booking services at premium rates.",
+   "kind": "GRIEVANCE",
+   "subject": "gir_online_permit_booking",
+   "object": "fraudulent_websites",
+   "detail": {},
+   "sourceId": "src:7f4a4e5e8699",
+   "evidence": "Beware of fraudulant websites claiming to provide confirmed Permit booking services at premium rates.",
+   "confidence": 1
+  },
+  {
+   "claim": "Ambardi Safari Park is closed every Tuesday.",
+   "kind": "TIMELINE",
+   "subject": "ambardi_safari_park",
+   "object": "closure",
+   "detail": {
+    "days": "Tuesday"
+   },
+   "sourceId": "src:074dec0e7f9b",
+   "evidence": "Note: Ambardi Safari Park remains closed on every tuesday.",
+   "confidence": 1
+  },
+  {
+   "claim": "The permit charges for Indian visitors on weekdays for a non-AC bus are 150 rupees per person.",
+   "kind": "FEE",
+   "subject": "ambardi_safari_park",
+   "object": "permit_charges",
+   "detail": {
+    "amount": "150",
+    "currency": "Rs."
+   },
+   "sourceId": "src:074dec0e7f9b",
+   "evidence": "Bus (Non-AC) | Monday-Friday | 150 | 3800",
+   "confidence": 1
+  },
+  {
+   "claim": "The permit charges for Indian visitors on weekends and festival days for a non-AC bus are 190 rupees per person.",
+   "kind": "FEE",
+   "subject": "ambardi_safari_park",
+   "object": "permit_charges",
+   "detail": {
+    "amount": "190",
+    "currency": "Rs."
+   },
+   "sourceId": "src:074dec0e7f9b",
+   "evidence": "Bus (Non-AC) | Saturday-Sunday/ Festival Days | 190 | 4750",
+   "confidence": 1
+  },
+  {
+   "claim": "The only official booking website for Gir Online Permit Booking System is this site.",
+   "kind": "CHANNEL",
+   "subject": "gir_online_permit_booking",
+   "object": "official_website",
+   "detail": {
+    "url": "https://girlion.gujarat.gov.in"
+   },
+   "sourceId": "src:074dec0e7f9b",
+   "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+   "confidence": 1
+  },
+  {
+   "claim": "Tatkal or urgent bookings are not allowed on the official Gir Online Permit Booking System website.",
+   "kind": "BLOCKER",
+   "subject": "gir_online_permit_booking",
+   "object": "tatkal_booking",
+   "detail": {},
+   "sourceId": "src:074dec0e7f9b",
+   "evidence": "Tatkal or urgent bookings are not allowed on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Sinh Sadhan room bookings are not offered on the official Gir Online Permit Booking System website.",
+   "kind": "BLOCKER",
+   "subject": "gir_online_permit_booking",
+   "object": "sinh_sadhan_room_booking",
+   "detail": {},
+   "sourceId": "src:074dec0e7f9b",
+   "evidence": "Kindly note that sinh sadan room bookings are not offered on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Citizens should be cautious of fraudulent websites offering confirmed permit bookings at premium rates.",
+   "kind": "GRIEVANCE",
+   "subject": "gir_online_permit_booking",
+   "object": "fraudulent_website",
+   "detail": {},
+   "sourceId": "src:074dec0e7f9b",
+   "evidence": "Beware of fraudulant websites claiming to provide confirmed Permit booking services at premium rates.",
+   "confidence": 1
+  },
+  {
+   "claim": "This is the only official booking website for Gir Online Permit Booking System.",
+   "kind": "CHANNEL",
+   "subject": "gir_permit_booking",
+   "object": "official_website",
+   "detail": {
+    "url": "https://girlion.gujarat.gov.in/GIZDevaliaBusBooking.aspx"
+   },
+   "sourceId": "src:8b0605f91d38",
+   "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+   "confidence": 1
+  },
+  {
+   "claim": "Tatkal or urgent bookings are not allowed on this website.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "gir_permit_booking",
+   "object": "tatkal_booking",
+   "detail": {},
+   "sourceId": "src:8b0605f91d38",
+   "evidence": "Tatkal or urgent bookings are not allowed on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Sinh Sadan room bookings are not offered on this website.",
+   "kind": "BLOCKER",
+   "subject": "gir_permit_booking",
+   "object": "sinh_sadan_room_booking",
+   "detail": {},
+   "sourceId": "src:8b0605f91d38",
+   "evidence": "Kindly note that sinh sadan room bookings are not offered on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Devalia Safari Park remains closed on every Wednesday.",
+   "kind": "TIMELINE",
+   "subject": "devalia_safari_park",
+   "object": "closure",
+   "detail": {
+    "day": "Wednesday"
+   },
+   "sourceId": "src:8b0605f91d38",
+   "evidence": "Note: Devalia Safari Park remains closed on every wednesday.",
+   "confidence": 1
+  },
+  {
+   "claim": "There will be no refund for cancellation of E-permit for Devalia Park Bus Safari.",
+   "kind": "FEE",
+   "subject": "devalia_bus_safari",
+   "object": "cancellation_refund",
+   "detail": {
+    "amount": 0,
+    "currency": "INR"
+   },
+   "sourceId": "src:8b0605f91d38",
+   "evidence": "Note: There will be “NO REFUND” for cancellation of E-permit for Devalia Park Bus Safari.",
+   "confidence": 1
+  },
+  {
+   "claim": "This is the only official booking website for Gir Online Permit Booking System.",
+   "kind": "CHANNEL",
+   "subject": "gir_permit_booking",
+   "object": "official_website",
+   "detail": {
+    "url": "https://girlion.gujarat.gov.in/AmbardiBooking.aspx/AboutGir.aspx"
+   },
+   "sourceId": "src:380c2532b17d",
+   "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+   "confidence": 1
+  },
+  {
+   "claim": "Tatkal or urgent bookings are not allowed on this website.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "gir_permit_booking",
+   "object": "tatkal_urgent_bookings",
+   "detail": {},
+   "sourceId": "src:380c2532b17d",
+   "evidence": "Tatkal or urgent bookings are not allowed on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Sinh Sadhan room bookings are not offered on this website.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "gir_permit_booking",
+   "object": "sinh_sadhan_room_bookings",
+   "detail": {},
+   "sourceId": "src:380c2532b17d",
+   "evidence": "Kindly note that sinh sadan room bookings are not offered on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Ambardi Safari Park remains closed on every Tuesday.",
+   "kind": "TIMELINE",
+   "subject": "ambardi_safari_park",
+   "object": "closure",
+   "detail": {
+    "day": "Tuesday"
+   },
+   "sourceId": "src:380c2532b17d",
+   "evidence": "Note: Ambardi Safari Park remains closed on every tuesday.",
+   "confidence": 1
+  },
+  {
+   "claim": "OTP is valid only for 30 minutes.",
+   "kind": "TIMELINE",
+   "subject": "otp",
+   "object": "validity",
+   "detail": {
+    "days": 0,
+    "hours": 0,
+    "minutes": 30
+   },
+   "sourceId": "src:5dd1e4da0095",
+   "evidence": "OTP is valid only 30 Minutes.",
+   "confidence": 1
+  },
+  {
+   "claim": "Mobile number must be 10 digits.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "mobile_number",
+   "object": "format",
+   "detail": {
+    "digits": 10
+   },
+   "sourceId": "src:5dd1e4da0095",
+   "evidence": "Please Enter 10 digit for mobile",
+   "confidence": 1
+  },
+  {
+   "claim": "Email ID must be valid.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "email_id",
+   "object": "validity",
+   "detail": {},
+   "sourceId": "src:5dd1e4da0095",
+   "evidence": "Please Enter valid email id",
+   "confidence": 1
+  },
+  {
+   "claim": "Password can only contain @, #, $, %, ^, & symbols.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "password",
+   "object": "format",
+   "detail": {
+    "allowed_symbols": [
+     "@",
+     "#",
+     "$",
+     "%",
+     "^",
+     "&"
+    ]
+   },
+   "sourceId": "src:5dd1e4da0095",
+   "evidence": "Only @ # $ % ^ & are allowed in Password",
+   "confidence": 1
+  },
+  {
+   "claim": "First name can only contain alphabets.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "first_name",
+   "object": "format",
+   "detail": {
+    "allowed_characters": "alphabets"
+   },
+   "sourceId": "src:5dd1e4da0095",
+   "evidence": "Only alphabets are allowed in First Name",
+   "confidence": 1
+  },
+  {
+   "claim": "Last name can only contain alphabets.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "last_name",
+   "object": "format",
+   "detail": {
+    "allowed_characters": "alphabets"
+   },
+   "sourceId": "src:5dd1e4da0095",
+   "evidence": "Only alphabets are allowed in Last Name",
+   "confidence": 1
+  },
+  {
+   "claim": "Address can only contain alphabets and the symbols , / &.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "address",
+   "object": "format",
+   "detail": {
+    "allowed_characters": "alphabets, , / &"
+   },
+   "sourceId": "src:5dd1e4da0095",
+   "evidence": "Only , / & are allowed in Address other than alphabets",
+   "confidence": 1
+  },
+  {
+   "claim": "City can only contain alphabets.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "city",
+   "object": "format",
+   "detail": {
+    "allowed_characters": "alphabets"
+   },
+   "sourceId": "src:5dd1e4da0095",
+   "evidence": "Only alphabets are allowed in City",
+   "confidence": 1
+  },
+  {
+   "claim": "A country must be selected.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "country",
+   "object": "selection",
+   "detail": {},
+   "sourceId": "src:5dd1e4da0095",
+   "evidence": "Please Select Country",
+   "confidence": 1
+  },
+  {
+   "claim": "A state must be selected.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "state",
+   "object": "selection",
+   "detail": {},
+   "sourceId": "src:5dd1e4da0095",
+   "evidence": "Please Select State",
+   "confidence": 1
+  },
+  {
+   "claim": "A city must be entered.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "city",
+   "object": "entry",
+   "detail": {},
+   "sourceId": "src:5dd1e4da0095",
+   "evidence": "Please Enter City",
+   "confidence": 1
+  },
+  {
+   "claim": "Password and confirm password must match.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "password",
+   "object": "confirmation",
+   "detail": {},
+   "sourceId": "src:5dd1e4da0095",
+   "evidence": "Password and Confirm password do not match",
+   "confidence": 1
+  },
+  {
+   "claim": "A mobile number must be entered.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "mobile_number",
+   "object": "entry",
+   "detail": {},
+   "sourceId": "src:5dd1e4da0095",
+   "evidence": "Please Enter Mobile No",
+   "confidence": 1
+  },
+  {
+   "claim": "An email ID must be entered.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "email_id",
+   "object": "entry",
+   "detail": {},
+   "sourceId": "src:5dd1e4da0095",
+   "evidence": "Please Enter EmailId",
+   "confidence": 1
+  },
+  {
+   "claim": "A first name must be entered.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "first_name",
+   "object": "entry",
+   "detail": {},
+   "sourceId": "src:5dd1e4da0095",
+   "evidence": "Please Enter First Name",
+   "confidence": 1
+  },
+  {
+   "claim": "A last name must be entered.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "last_name",
+   "object": "entry",
+   "detail": {},
+   "sourceId": "src:5dd1e4da0095",
+   "evidence": "Please Enter Last Name",
+   "confidence": 1
+  },
+  {
+   "claim": "A password must be entered.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "password",
+   "object": "entry",
+   "detail": {},
+   "sourceId": "src:5dd1e4da0095",
+   "evidence": "Please Enter Password",
+   "confidence": 1
+  },
+  {
+   "claim": "A confirm password must be entered.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "confirm_password",
+   "object": "entry",
+   "detail": {},
+   "sourceId": "src:5dd1e4da0095",
+   "evidence": "Please Enter Confirm Password",
+   "confidence": 1
+  },
+  {
+   "claim": "The website is the only official booking website for Gir Online Permit Booking System.",
+   "kind": "CHANNEL",
+   "subject": "gir_permit_booking",
+   "object": "official_website",
+   "detail": {
+    "url": "https://girlion.gujarat.gov.in/GIZDevaliaGypsyBooking.aspx"
+   },
+   "sourceId": "src:fea49844e324",
+   "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+   "confidence": 1
+  },
+  {
+   "claim": "Beware of fraudulent websites claiming to provide confirmed Permit booking services at premium rates.",
+   "kind": "BLOCKER",
+   "subject": "gir_permit_booking",
+   "object": "fraudulent_websites",
+   "detail": {},
+   "sourceId": "src:fea49844e324",
+   "evidence": "Beware of fraudulant websites claiming to provide confirmed Permit booking services at premium rates.",
+   "confidence": 1
+  },
+  {
+   "claim": "Tatkal or urgent bookings are not allowed on this website.",
+   "kind": "BLOCKER",
+   "subject": "gir_permit_booking",
+   "object": "tatkal_bookings",
+   "detail": {},
+   "sourceId": "src:fea49844e324",
+   "evidence": "Tatkal or urgent bookings are not allowed on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Sinh Sadhan room bookings are not offered on this website.",
+   "kind": "BLOCKER",
+   "subject": "gir_permit_booking",
+   "object": "sinh_sadan_bookings",
+   "detail": {},
+   "sourceId": "src:fea49844e324",
+   "evidence": "Kindly note that sinh sadan room bookings are not offered on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Devalia Safari Park remains closed on every Wednesday.",
+   "kind": "TIMELINE",
+   "subject": "devalia_safari_park",
+   "object": "closure",
+   "detail": {
+    "days": "Wednesday"
+   },
+   "sourceId": "src:fea49844e324",
+   "evidence": "Note: Devalia Safari Park remains closed on every wednesday.",
+   "confidence": 1
+  },
+  {
+   "claim": "The permit does not include the Guide and Safari vehicle charge, which must be paid separately to respective Guides and Safari vehicle owners.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "gir_permit_booking",
+   "object": "guide_and_safari_charges",
+   "detail": {
+    "note": "The permit doesn't includes the Guide and Safari vehicle charge, which must be paid separately to respective Guides and Safari vehicle owners."
+   },
+   "sourceId": "src:fea49844e324",
+   "evidence": "The permit doesn't includes the Guide and Safari vehicle charge, which must be paid separately to respective Guides and Safari vehicle owners.",
+   "confidence": 1
+  },
+  {
+   "claim": "Safari Vehicle Charges are 2000/- for a 4 seater, 2500/- for a 6 seater, and 3000/- for an 8 seater.",
+   "kind": "FEE",
+   "subject": "gir_permit_booking",
+   "object": "safari_vehicle_charges",
+   "detail": {
+    "4_seater": "2000/-",
+    "6_seater": "2500/-",
+    "8_seater": "3000/-"
+   },
+   "sourceId": "src:fea49844e324",
+   "evidence": "Safari Vehicle Charges as {2000/- (4 seater safari vehicle);2500/- (6 seater safari vehicle);3000/- (8 seater safari vehicle)}.",
+   "confidence": 1
+  },
+  {
+   "claim": "Guide Charges for Devalia Park Gypsy Safari are 700.00 for a Naturalist, 500.00 for Guide G1, and 400.00 for Guide G2.",
+   "kind": "FEE",
+   "subject": "gir_permit_booking",
+   "object": "guide_charges",
+   "detail": {
+    "naturalist": "700.00",
+    "guide_g1": "500.00",
+    "guide_g2": "400.00"
+   },
+   "sourceId": "src:fea49844e324",
+   "evidence": "Guide Charges is Rs. 400 and Safari Vehicle Charges as Safari Vehicle Charges as {Type A: 2500/- (6 seater new safari vehicle);Type B: 1600/- (6 seater old safari vehicle)}.",
+   "confidence": 1
+  },
+  {
+   "claim": "Gypsy Charges for Devalia Park Gypsy Safari are 2000.00 for a 4 seater, 2500.00 for a 6 seater, and 3000.00 for an 8 seater.",
+   "kind": "FEE",
+   "subject": "gir_permit_booking",
+   "object": "gypsy_charges",
+   "detail": {
+    "4_seater": "2000.00",
+    "6_seater": "2500.00",
+    "8_seater": "3000.00"
+   },
+   "sourceId": "src:fea49844e324",
+   "evidence": "Gypsy Charges Location | Category | Seat Capacity | Charges (In Rs.) | Devalia Park Gypsy Safari | Category A | 4 Seater | 2000.00 | Devalia Park Gypsy Safari | Category A | 6 Seater | 2500.00 | Devalia Park Gypsy Safari | Category A | 8 Seater | 3000.00",
+   "confidence": 1
+  },
+  {
+   "claim": "In one E-permit, a maximum of 6 persons (plus one child between 3-12 years) are allowed.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "gir_permit_booking",
+   "object": "e_permit_capacity",
+   "detail": {
+    "max_adults": "6",
+    "max_children": "1"
+   },
+   "sourceId": "src:fea49844e324",
+   "evidence": "Note: In one E-permit maximum 6 persons (plus one child between 3-12 years) are allowed.",
+   "confidence": 1
+  },
+  {
+   "claim": "Permit charges for Safari Vehicle on Monday to Friday for up to 6 persons are 800 for Indian and 7600 for Foreigner.",
+   "kind": "FEE",
+   "subject": "gir_permit_booking",
+   "object": "permit_charges_mon_to_fri",
+   "detail": {
+    "indian": "800",
+    "foreigner": "7600"
+   },
+   "sourceId": "src:fea49844e324",
+   "evidence": "Safari Vehicle | Monday to Friday | Up To 6 persons | 800 | 7600",
+   "confidence": 1
+  },
+  {
+   "claim": "Permit charges for Safari Vehicle on Monday to Friday for extra child are 100 for Indian and 1900 for Foreigner.",
+   "kind": "FEE",
+   "subject": "gir_permit_booking",
+   "object": "permit_charges_mon_to_fri_extra_child",
+   "detail": {
+    "indian": "100",
+    "foreigner": "1900"
+   },
+   "sourceId": "src:fea49844e324",
+   "evidence": "Safari Vehicle | Monday to Friday | Extra Child | 100 | 1900",
+   "confidence": 1
+  },
+  {
+   "claim": "Permit charges for Safari Vehicle on Saturday/Sunday/Festival Days for up to 6 persons are 1000 for Indian and 9500 for Foreigner.",
+   "kind": "FEE",
+   "subject": "gir_permit_booking",
+   "object": "permit_charges_sat_sun_festival",
+   "detail": {
+    "indian": "1000",
+    "foreigner": "9500"
+   },
+   "sourceId": "src:fea49844e324",
+   "evidence": "Safari Vehicle | Saturday/Sunday/ Festival Days | Up To 6 persons | 1000 | 9500",
+   "confidence": 1
+  },
+  {
+   "claim": "Permit charges for Safari Vehicle on Saturday/Sunday/Festival Days for extra child are 125 for Indian and 2375 for Foreigner.",
+   "kind": "FEE",
+   "subject": "gir_permit_booking",
+   "object": "permit_charges_sat_sun_festival_extra_child",
+   "detail": {
+    "indian": "125",
+    "foreigner": "2375"
+   },
+   "sourceId": "src:fea49844e324",
+   "evidence": "Safari Vehicle | Saturday/Sunday/ Festival Days | Extra Child | 125 | 2375",
+   "confidence": 1
+  },
+  {
+   "claim": "To apply for electricity tax exemption or relief, the applicant must submit the required application form with a signed and stamped letter pad.",
+   "kind": "ACTION",
+   "subject": "electricity_tax_exemption_application",
+   "object": "application_form_submission",
+   "detail": {
+    "form_type": "prescribed_form",
+    "letter_pad": "signed_and_stamped"
+   },
+   "sourceId": "src:3352bf96ce66",
+   "evidence": "સદરહુ ગ્રાહકે સંબંધિત નિયત નમૂના માં અરજી સહિ-સિકકા સાથે લેટર પેડ પર અરજી કરવાનો રહે છે.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application for electricity tax exemption or relief is free of cost.",
+   "kind": "FEE",
+   "subject": "electricity_tax_exemption_application",
+   "object": "application_fee",
+   "detail": {
+    "amount": 0,
+    "currency": "INR"
+   },
+   "sourceId": "src:3352bf96ce66",
+   "evidence": "અરજી ફી - વિના મૂલ્ય",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application for electricity tax exemption or relief must be submitted to the office of the Electricity Revenue Collector at Block No.18, 7th Floor, Sector-11, Industry Bhavan, Gandhinagar.",
+   "kind": "OFFICE",
+   "subject": "electricity_tax_exemption_application",
+   "object": "electricity_revenue_collector_office",
+   "detail": {
+    "address": "Block No.18, 7th Floor, Sector-11, Industry Bhavan, Gandhinagar"
+   },
+   "sourceId": "src:3352bf96ce66",
+   "evidence": "અરજી કરવા માટેની સંપર્ક માહિતી : વિદ્યુત શુલ્ક સમાહર્તાની કચેરી બ્લોકનં.૧૮, ૭મો માળ, સેકટર-૧૧, ઉધોગ ભવન. ગાંધીનગર.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application for electricity tax exemption or relief must include all the required documents such as CA Certificate, Machinery Schedule, and Affidavit.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "electricity_tax_exemption_application",
+   "object": "required_documents",
+   "detail": {
+    "documents": [
+     "CA Certificate",
+     "Machinery Schedule",
+     "Affidavit"
+    ]
+   },
+   "sourceId": "src:3352bf96ce66",
+   "evidence": "બિડાણો/દસ્તાવેજો ની યાદી અરજી પત્રક માં જણાવેલ છે તે મુજબના તમામ સી.એ.સર્ટિ, મશીનરી પત્રક સોગંદનામુ બિડાણ/દસ્તાવેજોના નમૂના",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The process for applying for electricity tax exemption or relief involves submitting the application with the required documents and waiting for a response within 30 days.",
+   "kind": "TIMELINE",
+   "subject": "electricity_tax_exemption_application",
+   "object": "processing_time",
+   "detail": {
+    "days": 30
+   },
+   "sourceId": "src:3352bf96ce66",
+   "evidence": "અરજીની સંદર્ભમાં જરૂરી નોંધણી કરી, ફાઇલ બનાવી ચકાસણી કરી દિન-૩૦ માં જવાબ આપવાનો રહે છે.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The certificate for electricity tax exemption or relief is issued within 30 days after receiving the complete response with detailed documentary evidence.",
+   "kind": "TIMELINE",
+   "subject": "electricity_tax_exemption_certificate",
+   "object": "issuance_time",
+   "detail": {
+    "days": 30
+   },
+   "sourceId": "src:3352bf96ce66",
+   "evidence": "પ્રમાણપત્ર આપવામાં સામાન્ય રીતે લાગતો સમય એકમનો સંપૂર્ણ જવાબ વિગતવાર દસ્તાવેજી આધારો સહિત મળ્યાબાદ દિન-૩૦ માં કાર્યવાહી કરી,ખાતાના વડાની મંજૂરી મેળવી પ્રમાણપત્ર આપવામાં આવે છે.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The validity period of the certificate for electricity tax exemption or relief is as specified in the certificate itself.",
+   "kind": "TIMELINE",
+   "subject": "electricity_tax_exemption_certificate",
+   "object": "validity_period",
+   "detail": {},
+   "sourceId": "src:3352bf96ce66",
+   "evidence": "પ્રમાણપત્રનો કાયદેસર નો સમયગાળો - પ્રમાણપત્રમાં દર્શાવ્યા મુજબ.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The electricity tax is levied on the total value of electricity consumption on a percentage basis and also per unit for self-generated electricity.",
+   "kind": "FEE",
+   "subject": "electricity_tax",
+   "object": "levy_basis",
+   "detail": {},
+   "sourceId": "src:3352bf96ce66",
+   "evidence": "વીજકર - આ કર વીજવપરાશ ની કુલ કિંમત ઉપર ટકાવારીના ધોરણે વસુલ કરવામાં આવે છે તથા સ્વ વીજ ઉત્પાદન માટે પ્રતિ યુનીટ વીજકર વસુલવામાં આવે છે.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The purpose of levying electricity tax is for the development of public welfare projects by the state government.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "electricity_tax",
+   "object": "levy_purpose",
+   "detail": {},
+   "sourceId": "src:3352bf96ce66",
+   "evidence": "વેરા લેવાનું હેતુ રાજય સરકાર દ્વારા પ્રજાલક્ષી વિકાસ કાર્યો માટે.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The criteria for determining the electricity tax is as per the state budget.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "electricity_tax",
+   "object": "determination_criteria",
+   "detail": {},
+   "sourceId": "src:3352bf96ce66",
+   "evidence": "કર ર્નિધારણ માટેની કાર્યવાહી અને માપદંડ અર્થે રાજયના અંદાજ પત્ર મુજબ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The mobile number must be 10 digits.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "mobile_number",
+   "object": "user_registration",
+   "detail": {
+    "constraint": "10 digits"
+   },
+   "sourceId": "src:2d20ddb5e853",
+   "evidence": "Mobile Number must be 10 digits",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The email ID must be valid.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "email_id",
+   "object": "user_registration",
+   "detail": {},
+   "sourceId": "src:2d20ddb5e853",
+   "evidence": "Enter valid email id",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The OTP is valid only for 30 minutes.",
+   "kind": "TIMELINE",
+   "subject": "otp",
+   "object": "user_authentication",
+   "detail": {
+    "duration": "30 minutes"
+   },
+   "sourceId": "src:2d20ddb5e853",
+   "evidence": "OTP is valid only 30 Minutes.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The first name must contain only alphabets.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "first_name",
+   "object": "user_registration",
+   "detail": {
+    "constraint": "only alphabets"
+   },
+   "sourceId": "src:2d20ddb5e853",
+   "evidence": "Only alphabets are allowed in First Name",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The last name must contain only alphabets.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "last_name",
+   "object": "user_registration",
+   "detail": {
+    "constraint": "only alphabets"
+   },
+   "sourceId": "src:2d20ddb5e853",
+   "evidence": "Only alphabets are allowed in Last Name",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The address can only contain alphabets and the characters \", /, &\".",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "address",
+   "object": "user_registration",
+   "detail": {
+    "allowed_characters": "alphabets, \", /, &"
+   },
+   "sourceId": "src:2d20ddb5e853",
+   "evidence": "Only , / & are allowed in Address other than alphabets",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The city name must contain only alphabets.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "city",
+   "object": "user_registration",
+   "detail": {
+    "constraint": "only alphabets"
+   },
+   "sourceId": "src:2d20ddb5e853",
+   "evidence": "Only alphabets are allowed in City",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The password can only contain the characters \"@, #, $, %, ^, &\".",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "password",
+   "object": "user_registration",
+   "detail": {
+    "allowed_characters": "@, #, $, %, ^, &"
+   },
+   "sourceId": "src:2d20ddb5e853",
+   "evidence": "Only @ # $ % ^ & are allowed in Password",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The E-permit must be printed and brought to the Reception Centre of Girnar Nature Safari along with an original identity card.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "e_permit",
+   "object": "visit",
+   "detail": {
+    "required_documents": "E-permit, original identity card"
+   },
+   "sourceId": "src:2d20ddb5e853",
+   "evidence": "The print out of E-permit must be brought at the time of reporting at Reception Centre of Girnar Nature Safari along with original Identity card.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The visit time may be slightly changed by the authority due to weather or seasonal changes.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "visit_time",
+   "object": "visit",
+   "detail": {
+    "condition": "weather or seasonal changes"
+   },
+   "sourceId": "src:2d20ddb5e853",
+   "evidence": "Slight changes in visit time may be done by authority due to Weather/Seasonal changes.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Girnar Nature Safari is located near the city of Junagadh.",
+   "kind": "OFFICE",
+   "subject": "girnar_nature_safari",
+   "object": "junagadh_city",
+   "detail": {},
+   "sourceId": "src:035a9fb40617",
+   "evidence": "Located near the \"Old Fort\" city (Junagadh) and designated after the legendary and much revered mighty mount Girnar, the Girnar forest (Girnar Wildlife Sanctuary) is an amazing amalgamation of nature, religion and history.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Girnar Nature Safari is open for visits on specific days and timings depending on the season.",
+   "kind": "TIMELINE",
+   "subject": "girnar_nature_safari",
+   "object": "visiting_hours",
+   "detail": {
+    "summer_start": "1st March",
+    "summer_end": "15th June",
+    "summer_morning": "6:00 AM to 9:00 AM",
+    "summer_evening": "4 PM to 7 PM",
+    "winter_start": "16th October",
+    "winter_end": "28th/29th February",
+    "winter_morning": "6:45 AM to 9:45 AM",
+    "winter_evening": "3 PM to 6 PM"
+   },
+   "sourceId": "src:035a9fb40617",
+   "evidence": "Season\n|\nDays\n|\nMorning Timings\n|\nEvening Timings\n|\nSummer\n(1 st March To 15 th June)\n|\nMonday To Sunday\n|\n6:00 AM to 9:00 AM\n|\n4 PM to 7 PM\n|\nWinter\n(16 th October To 28 th /29 th February)\n|\nMonday To Sunday\n|\n6:45 AM to 9:45 AM\n|\n3 PM to 6 PM\n|",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Girnar Nature Safari is closed from 16th June to 15th October every year.",
+   "kind": "TIMELINE",
+   "subject": "girnar_nature_safari",
+   "object": "closure_period",
+   "detail": {
+    "start": "16th June",
+    "end": "15th October"
+   },
+   "sourceId": "src:035a9fb40617",
+   "evidence": "Note: The Sanctuary remains closed from 16th June to 15th Oct every year.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Girnar Nature Safari is closed during Girnar Parikrama and Mahashivratri Festival every year as per the Hindu calendar.",
+   "kind": "TIMELINE",
+   "subject": "girnar_nature_safari",
+   "object": "closure_period",
+   "detail": {
+    "event1": "Girnar Parikrama",
+    "event2": "Mahashivratri Festival"
+   },
+   "sourceId": "src:035a9fb40617",
+   "evidence": "Girnar Safari will remain closed during Girnar Parikrama and Mahashivratri Festival every year as per Hindu Calender Days.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The maximum number of persons allowed in a safari gypsy is six, plus one child between 3-12 years.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "safari_gypsy",
+   "object": "occupancy_limit",
+   "detail": {
+    "max_adults": "6",
+    "max_children": "1"
+   },
+   "sourceId": "src:035a9fb40617",
+   "evidence": "Only a maximum of six visitors (plus one child between 3-12 years) are allowed in each gypsy.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The permit charges for a safari gypsy vary depending on the day of the week and the nationality of the visitor.",
+   "kind": "FEE",
+   "subject": "safari_gypsy",
+   "object": "permit_charges",
+   "detail": {
+    "indian_mon_to_fri": "800",
+    "foreigner_mon_to_fri": "7600",
+    "indian_extra_child_mon_to_fri": "100",
+    "foreigner_extra_child_mon_to_fri": "1900",
+    "indian_sat_sun_festival": "1000",
+    "foreigner_sat_sun_festival": "9500",
+    "indian_extra_child_sat_sun_festival": "125",
+    "foreigner_extra_child_sat_sun_festival": "2375"
+   },
+   "sourceId": "src:035a9fb40617",
+   "evidence": "Permit Charges\nVehicle Type |\nDays\n|\nParticulars\n|\nIndian (In Rs.)\n|\nForeigner (In Rs.)\n|\nSafari Gypsy |\nMonday to Friday\n|\nUp To 6 persons\n|\n800\n|\n7600\n|\nSafari Gypsy |\nMonday to Friday\n|\nExtra Child\n|\n100\n|\n1900\n|\nSafari Gypsy |\nSaturday/Sunday/\nFestival Days\n|\nUp To 6 persons\n|\n1000\n|\n9500\n|\nSafari Gypsy |\nSaturday/Sunday/\nFestival Days\n|\nExtra Child\n|\n125\n|\n2375\n|",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The permit charges do not include eco-guide charges and safari gypsy charges, which must be paid separately.",
+   "kind": "FEE",
+   "subject": "safari_gypsy",
+   "object": "additional_charges",
+   "detail": {
+    "eco_guide_charges": "400",
+    "safari_gypsy_charges": "2000"
+   },
+   "sourceId": "src:035a9fb40617",
+   "evidence": "The Permit charges don't include eco-guide charges (INR 400/-) and safari gypsy charges (INR 2000/-), which must be paid separately to the respective eco-guide and safari gypsy owner.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The only official booking website for Gir Online Permit Booking System is https://girlion.gujarat.gov.in.",
+   "kind": "CHANNEL",
+   "subject": "gir_online_permit_booking",
+   "object": "official_website",
+   "detail": {
+    "url": "https://girlion.gujarat.gov.in"
+   },
+   "sourceId": "src:035a9fb40617",
+   "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Tatkal or urgent bookings are not allowed on the official website for Gir Online Permit Booking System.",
+   "kind": "BLOCKER",
+   "subject": "gir_online_permit_booking",
+   "object": "booking_type",
+   "detail": {
+    "booking_type": "Tatkal or urgent"
+   },
+   "sourceId": "src:035a9fb40617",
+   "evidence": "Tatkal or urgent bookings are not allowed on this website.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Sinh Sadan room bookings are not offered on the official website for Gir Online Permit Booking System.",
+   "kind": "BLOCKER",
+   "subject": "gir_online_permit_booking",
+   "object": "sinh_sadan_room",
+   "detail": {},
+   "sourceId": "src:035a9fb40617",
+   "evidence": "Kindly note that sinh sadan room bookings are not offered on this website.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The camera fee for amateur photography is Rs. 200 for Indian nationals.",
+   "kind": "FEE",
+   "subject": "camera_fee",
+   "object": "indian_nationals",
+   "detail": {
+    "amount": 200,
+    "currency": "INR"
+   },
+   "sourceId": "src:61f17e5a5fa6",
+   "evidence": "* Note: The camera fee for amateur photography is Rs. 200 for Indian nationals and for foreigners, it is calculated by 20 multiplying the current dollar rate in Rs. Kindly select your appropriate camera count.",
+   "confidence": 1
+  },
+  {
+   "claim": "The camera fee for foreigners is calculated by 20 multiplied by the current dollar rate in rupees.",
+   "kind": "FEE",
+   "subject": "camera_fee",
+   "object": "foreigners",
+   "detail": {
+    "formula": "20 * current_dollar_rate"
+   },
+   "sourceId": "src:61f17e5a5fa6",
+   "evidence": "* Note: The camera fee for amateur photography is Rs. 200 for Indian nationals and for foreigners, it is calculated by 20 multiplying the current dollar rate in Rs. Kindly select your appropriate camera count.",
+   "confidence": 1
+  },
+  {
+   "claim": "The printout of the E-permit must be brought at the time of reporting for the Gir Jungle Safari visit along with the original identity card.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "e_permit",
+   "object": "gir_jungle_safari_visit",
+   "detail": {
+    "required_documents": "E-permit printout, original identity card"
+   },
+   "sourceId": "src:61f17e5a5fa6",
+   "evidence": "The print out of E-permit must be brought at the time of reporting of Gir Jungle Safari Visit along with original Identity card.",
+   "confidence": 1
+  },
+  {
+   "claim": "Slight changes in visit time may be done by the authority due to weather or seasonal changes.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "visit_time",
+   "object": "gir_jungle_safari",
+   "detail": {
+    "condition": "weather or seasonal changes"
+   },
+   "sourceId": "src:61f17e5a5fa6",
+   "evidence": "Slight changes in visit time may be done by authority due to Weather/Seasonal changes.",
+   "confidence": 1
+  },
+  {
+   "claim": "Do not refresh your browser or click the back button during the payment process.",
+   "kind": "ACTION",
+   "subject": "user",
+   "object": "payment_process",
+   "detail": {
+    "action": "do_not_refresh_browser_or_click_back_button"
+   },
+   "sourceId": "src:61f17e5a5fa6",
+   "evidence": "Do not refresh your browser or click the back button during the payment process.",
+   "confidence": 1
+  },
+  {
+   "claim": "Click on the Make Payment button if you agree to the terms and conditions.",
+   "kind": "ACTION",
+   "subject": "user",
+   "object": "make_payment",
+   "detail": {
+    "action": "click_make_payment_button"
+   },
+   "sourceId": "src:61f17e5a5fa6",
+   "evidence": "Click on Make Payment button if you are agree to the term & conditions.",
+   "confidence": 1
+  },
+  {
+   "claim": "Once you click the payment button, you are agreed to the mentioned terms and conditions to make payment with GSLCS.",
+   "kind": "ACTION",
+   "subject": "user",
+   "object": "payment_terms",
+   "detail": {
+    "action": "agree_to_terms_and_conditions"
+   },
+   "sourceId": "src:61f17e5a5fa6",
+   "evidence": "Once you click the payment button, you are agreed to mentioned terms and conditions to make payment with GSLCS .",
+   "confidence": 1
+  },
+  {
+   "claim": "A citizen must download Annexure 2 (DL) for the Drug Manufacturing Licence System - Ayurvedic.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "drug_manufacturing_licence_ayurvedic",
+   "object": "annexure_2_dl",
+   "detail": {},
+   "sourceId": "src:b02637248ac0",
+   "evidence": "Download Helpful Document.\n# |\nDocument Name |\nDownload |\n1 |\nANNEXURE 2 (DL) |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A citizen must download Annexure 3 (MFC) for the Drug Manufacturing Licence System - Ayurvedic.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "drug_manufacturing_licence_ayurvedic",
+   "object": "annexure_3_mfc",
+   "detail": {},
+   "sourceId": "src:b02637248ac0",
+   "evidence": "2 |\nANNEXURE 3 (MFC) |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A citizen must download Annexure 4 (QCS) for the Drug Manufacturing Licence System - Ayurvedic.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "drug_manufacturing_licence_ayurvedic",
+   "object": "annexure_4_qcs",
+   "detail": {},
+   "sourceId": "src:b02637248ac0",
+   "evidence": "3 |\nANNEXURE 4 (QCS) |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A citizen must download Annexure 5 (PE) for the Drug Manufacturing Licence System - Ayurvedic.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "drug_manufacturing_licence_ayurvedic",
+   "object": "annexure_5_pe",
+   "detail": {},
+   "sourceId": "src:b02637248ac0",
+   "evidence": "4 |\nANNEXURE 5 (PE) |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A citizen must download the Performa for fresh licence, routine inspection, or GMP inspection of Ayurvedic pharmacies as per Schedule T/GMP.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "drug_manufacturing_licence_ayurvedic",
+   "object": "performa_fresh_licence_inspection",
+   "detail": {},
+   "sourceId": "src:b02637248ac0",
+   "evidence": "5 |\nPerforma for fresh licence/ routine inspection/ GMP inspection of Ayurvedic pharmacies as per Schedule T/GMP |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must provide their name and surname.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "applicant_name",
+   "detail": {},
+   "sourceId": "src:7d05e57bbb38",
+   "evidence": "અરજદારનું ઉપનામ :",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must provide their address.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "applicant_address",
+   "detail": {},
+   "sourceId": "src:7d05e57bbb38",
+   "evidence": "અરજદારનું સરનામું :",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must provide their mobile number.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "mobile_number",
+   "detail": {},
+   "sourceId": "src:7d05e57bbb38",
+   "evidence": "મોબાઈલ નં : (+91)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must provide proof of identity, such as an Aadhaar card.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "aadhaar_card",
+   "detail": {},
+   "sourceId": "src:7d05e57bbb38",
+   "evidence": "ઓળખનો પુરાવો : | select | આધાર કાર્ડ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must confirm that the provided information is true and agrees to the current conditions and rules.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "application_form",
+   "object": "confirmation",
+   "detail": {},
+   "sourceId": "src:7d05e57bbb38",
+   "evidence": "નોંધ આથી અમો બાહેધરી આપીએ છીએ કે ઉપર જણાવેલ માહિતી સાચી છે અને પ્રવર્તમાન શરતો, નિયમો તથા/અથવા અન્ય જોગવાઈઓ મને માન્ય છે અને બંધન કર્તા રહેશે.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A merchant or trader must provide their name for registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "merchant_registration",
+   "object": "merchant_name",
+   "detail": {},
+   "sourceId": "src:1c622b6d545b",
+   "evidence": "Merchant/Trader Name *",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A password must be at least 8 characters long and include 1 lowercase, 1 uppercase, 1 numeric, and 1 special character.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "merchant_registration",
+   "object": "password",
+   "detail": {
+    "length": "8",
+    "lowercase": "1",
+    "uppercase": "1",
+    "numeric": "1",
+    "special_character": "1"
+   },
+   "sourceId": "src:1c622b6d545b",
+   "evidence": "Password must have at least 8 characters including 1 lowercase, 1 uppercase, 1 numeric, and 1 special character.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A captcha code consisting of 6 alphanumeric characters is required for registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "merchant_registration",
+   "object": "captcha_code",
+   "detail": {
+    "length": "6"
+   },
+   "sourceId": "src:1c622b6d545b",
+   "evidence": "Captcha Code Allows Only Alpha-numeric 6 Characters.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "An existing account holder can log in using the provided link.",
+   "kind": "CHANNEL",
+   "subject": "merchant_login",
+   "object": "login_link",
+   "detail": {},
+   "sourceId": "src:1c622b6d545b",
+   "evidence": "Already have an account Login Here!",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A competent person must be recognized by the Chief Inspector for carrying out tests, examinations, and inspections under the Factories Act.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "competent_person",
+   "object": "chief_inspector",
+   "detail": {},
+   "sourceId": "src:0415e6113e65",
+   "evidence": "Such person may be an individual person or an institution. Its recognition by the Chief Inspector is necessary.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Chief Inspector may revoke the certificate of competency if the competent person violates any condition in the certificate or acts wrongly.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "chief_inspector",
+   "object": "competent_person",
+   "detail": {},
+   "sourceId": "src:0415e6113e65",
+   "evidence": "The Chief Inspector may revoke the certificate of competency if he has reason to believe that the competent person has violated any condition in the certificate, the tests etc. are carried out is an inconsistent manner, has acted wrongly or has omitted to act rightly etc.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The qualification, experience, and facilities required for a competent person vary depending on the type of competency needed.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "competent_person",
+   "object": "qualification_experience",
+   "detail": {},
+   "sourceId": "src:0415e6113e65",
+   "evidence": "Types of qualification, experience and facilities at command may vary with types of competency required viz, for stability certificate, pressure plants, lifting machines, dangerous machines, ventilation systems, precautions against dangerous fumes, gas etc, ship-building and ship repair etc.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Chief Inspector may require re-certification of lifting machines, pressure plant, and buildings certified by a competent person outside the State.",
+   "kind": "ACTION",
+   "subject": "chief_inspector",
+   "object": "re_certification",
+   "detail": {},
+   "sourceId": "src:0415e6113e65",
+   "evidence": "The Chief Inspector may require re-certification lifting machines, pressure plant, buildings etc, which have been certified by a competent person outside the State.",
+   "confidence": 0.95
+  }
+ ],
+ "notFound": [
+  "Drug Manufacturing Licence System - Ayurvedic: no quotable requirement, fee or timeline survived, so no service node was written for it."
+ ]
+}

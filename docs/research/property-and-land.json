@@ -1,0 +1,1154 @@
+{
+ "journey": "property-and-land",
+ "researchedAt": "2026-08-23",
+ "region": "Gujarat, India",
+ "sources": [
+  {
+   "id": "src:e567da21d421",
+   "url": "https://gidc.gujarat.gov.in/Pages/Contents/digilocker",
+   "title": "GIDC",
+   "domain": "gidc.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "368fc0ca50c1d888400be40f0f399c0c59c4c00b5ca11eeb44146223b29192d0",
+   "cacheFile": ".ingest/pages/e567da21d42110f58819ee4f5dc79cc21a868523.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:3203b82bd43a",
+   "url": "https://gidc.gujarat.gov.in/Pages/Contents/application-for-allotment",
+   "title": "GIDC",
+   "domain": "gidc.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "82f029fa604bb0e71065655a8eb01366714cc04bcad74492b1672f11d7386235",
+   "cacheFile": ".ingest/pages/3203b82bd43ab615062117233c1cca15b9a6db00.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:2bd753e1b32d",
+   "url": "https://ahmedabad.gujarat.gov.in/land-neem",
+   "title": "ગામ તળ માટે જમીન નીમ કરવા બાબત | Revenue | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
+   "domain": "ahmedabad.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "560bf55ce50856256c01393b71d1c90cb127c97883320537745994a7167e156d",
+   "cacheFile": ".ingest/pages/2bd753e1b32da7de73616fd6738aa48d8b3a47a0.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:4b89c4b38ed9",
+   "url": "https://garvi.gujarat.gov.in/FrmViewAppointment_New.aspx",
+   "title": "Garvi",
+   "domain": "garvi.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "43d3d3179fae9d7563bccb347f3f49cad4960060340bd4b051f60e3c04ebd4d9",
+   "cacheFile": ".ingest/pages/4b89c4b38ed90c2978c7a0fb51fc8d8bafb979ae.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:00c45e7162f4",
+   "url": "https://collectorgandhinagar.gujarat.gov.in/govt-office-land",
+   "title": "સરકારી ખાતા / કચેરીઓને જમીનની માંગણી બાબત | Revenue | Jan Seva Kendra form | Collectorate - District Gandhinagar",
+   "domain": "collectorgandhinagar.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-GANDHINAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "e0c3cf8a748347a3ade93667699b376b3bd1720dfcd6cc49da53642435cdd7dc",
+   "cacheFile": ".ingest/pages/00c45e7162f4537b75e8d31659072eae764b7a66.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:b29f2940bcec",
+   "url": "https://e-milkat.gujarat.gov.in/ioraonlinepcard/ioraonlinepcard.aspx",
+   "title": ":: iORA - Integrated Online Revenue Applications ::",
+   "domain": "e-milkat.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "567d4630f1fbf9a3a5ae25cd6a6b3aae25ccc42fa567a514510d7a7ca4802a9e",
+   "cacheFile": ".ingest/pages/b29f2940bcecfa5b199ef9b585796dc79c43c71f.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:f822111ca37c",
+   "url": "https://ahmedabad.gujarat.gov.in/legal",
+   "title": "Legal | Branches | Collectorate - District Ahmedabad",
+   "domain": "ahmedabad.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d4cdfccf00d2d17ec5e3035d3907c898b4db3c8f1af05eb07bec22009bb65665",
+   "cacheFile": ".ingest/pages/f822111ca37c895adf5fd0ecb0398c879338f49f.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:4836e2cf4ed0",
+   "url": "https://ahmedabad.gujarat.gov.in/nakal-application",
+   "title": "નકલ માટેની અરજીઓ નિકાલ કરવા બાબત | Revenue | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
+   "domain": "ahmedabad.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "8f0e47687087cec73876b84e0c3ddaa2aad0763cf3e5654ef96077b1dfa93a3c",
+   "cacheFile": ".ingest/pages/4836e2cf4ed0d5c63fbda06e3bd9af5afd950476.md",
+   "scrapedOk": true
+  }
+ ],
+ "facts": [
+  {
+   "claim": "To access and obtain different documents/certificates in their DigiLocker account, applicants need their Party Code.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant",
+   "object": "party_code",
+   "detail": {},
+   "sourceId": "src:e567da21d421",
+   "evidence": "Applicant will require following details to access and obtain different documents/certificates in their DigiLocker account:\n1) Party Code (Can be accessed from GG user login in ‘My Property’ Section)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Mortgage Permission' will be available in DigiLocker from 27/08/2019.",
+   "kind": "TIMELINE",
+   "subject": "mortgage_permission",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "27/08/2019"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "1 |\n2R Permission (Mortgage) Order |\nMortgage Permission |\n27/08/2019 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Transfer Certificate / Order' for Provisional Transfer Order will be available in DigiLocker from 20/12/2019.",
+   "kind": "TIMELINE",
+   "subject": "provisional_transfer_order",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "20/12/2019"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "2 |\nProvisional Transfer Order |\nTransfer Certificate / Order |\n20/12/2019 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Transfer Certificate / Order' for Final Transfer Order will be available in DigiLocker from 20/12/2019.",
+   "kind": "TIMELINE",
+   "subject": "final_transfer_order",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "20/12/2019"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "3 |\nFinal Transfer Order |\nTransfer Certificate / Order |\n20/12/2019 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Rights of Use Permission' for Rights of Use (PTO) will be available in DigiLocker from 27/08/2019.",
+   "kind": "TIMELINE",
+   "subject": "rights_of_use_pto",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "27/08/2019"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "4 |\nRights of Use (PTO) |\nRights of Use Permission |\n27/08/2019 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Rights of Use Permission' for Rights of Use (FTO) will be available in DigiLocker from 27/08/2019.",
+   "kind": "TIMELINE",
+   "subject": "rights_of_use_fto",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "27/08/2019"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "5 |\nRights of Use (FTO) |\nRights of Use Permission |\n27/08/2019 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Surrender Order' for Surrender (Rescindment Order) will be available in DigiLocker from 28/01/2020.",
+   "kind": "TIMELINE",
+   "subject": "surrender_rescindment_order",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "28/01/2020"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "6 |\nSurrender (Rescindment Order) |\nSurrender Order |\n28/01/2020 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Surrender Order' for Surrender (Refund Order) will be available in DigiLocker from 28/01/2020.",
+   "kind": "TIMELINE",
+   "subject": "surrender_refund_order",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "28/01/2020"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "7 |\nSurrender (Refund Order) |\nSurrender Order |\n28/01/2020 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Sub Division Permission Order' for Sub Division (PSO) will be available in DigiLocker from 25/08/2019.",
+   "kind": "TIMELINE",
+   "subject": "sub_division_pso",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "25/08/2019"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "8 |\nSub Division (PSO) |\nSub Division Permission Order |\n25/08/2019 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Sub Division Permission Order' for Sub Division (FSO) will be available in DigiLocker from 25/08/2019.",
+   "kind": "TIMELINE",
+   "subject": "sub_division_fso",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "25/08/2019"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "9 |\nSub Division (FSO) |\nSub Division Permission Order |\n25/08/2019 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Amalgamation Order' for Amalgamation (PAO) will be available in DigiLocker from 08/01/2020.",
+   "kind": "TIMELINE",
+   "subject": "amalgamation_pao",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "08/01/2020"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "10 |\nAmalgamation (PAO) |\nAmalgamation Order |\n08/01/2020 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Amalgamation Order' for Amalgamation (FAO) will be available in DigiLocker from 08/01/2020.",
+   "kind": "TIMELINE",
+   "subject": "amalgamation_fao",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "08/01/2020"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "11 |\nAmalgamation (FAO) |\nAmalgamation Order |\n08/01/2020 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Extension Order' for Final Time Limit Extension Order will be available in DigiLocker from 08/07/2020.",
+   "kind": "TIMELINE",
+   "subject": "final_time_limit_extension_order",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "08/07/2020"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "12 |\nFinal Time Limit Extension Order |\nExtension Order |\n08/07/2020 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Subletting Order' for Subletting (PSLO) will be available in DigiLocker from 01/01/2020.",
+   "kind": "TIMELINE",
+   "subject": "subletting_pslo",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "01/01/2020"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "13 |\nSubletting (PSLO) |\nSubletting Order |\n01/01/2020 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Subletting Order' for Subletting (FSLO) will be available in DigiLocker from 01/01/2020.",
+   "kind": "TIMELINE",
+   "subject": "subletting_fslo",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "01/01/2020"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "14 |\nSubletting (FSLO) |\nSubletting Order |\n01/01/2020 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Plan Approval Order' will be available in DigiLocker from 14/07/2020.",
+   "kind": "TIMELINE",
+   "subject": "plan_approval",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "14/07/2020"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "15 |\nPlan Approval |\nPlan Approval Order |\n14/07/2020 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "To view your document on DigiLocker, a link is provided on the page.",
+   "kind": "CHANNEL",
+   "subject": "digilocker",
+   "object": "document_view_link",
+   "detail": {
+    "url": "To view your document on DigiLocker, Click here."
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "To view your document on DigiLocker, Click here.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "To access FAQ before using DigiLocker, a link is provided on the page.",
+   "kind": "CHANNEL",
+   "subject": "digilocker",
+   "object": "faq_link",
+   "detail": {
+    "url": "To access FAQ before using DigiLocker, Click here."
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "To access FAQ before using DigiLocker, Click here.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The GIDC Setu Mobile Application can be downloaded from the page.",
+   "kind": "APP",
+   "subject": "gidc_setu_app",
+   "object": "download_link",
+   "detail": {
+    "url": "Download GIDC Setu Mobile Application"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "Download GIDC Setu Mobile Application",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The GIDC office is located at Block 3,4,5, Udhyog Bhavan, Sector-11, Gandhinagar 382 011, Gujarat, India.",
+   "kind": "OFFICE",
+   "subject": "gidc_office",
+   "object": "address",
+   "detail": {
+    "address": "Block 3,4,5, Udhyog Bhavan, Sector-11, Gandhinagar 382 011, Gujarat, India."
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "Our Address\nBlock 3,4,5, Udhyog Bhavan, Sector-11,\nGandhinagar 382 011,\nGujarat, India.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The GIDC office can be contacted at +91 79 23250636.",
+   "kind": "HELPLINE",
+   "subject": "gidc_office",
+   "object": "phone",
+   "detail": {
+    "phone": "+91 79 23250636"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "Phone: +91 79 23250636",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The GIDC office can be contacted via email at gidc@gujarat.gov.in and gidc@gidcgujarat.org.",
+   "kind": "HELPLINE",
+   "subject": "gidc_office",
+   "object": "email",
+   "detail": {
+    "email": "gidc@gujarat.gov.in, gidc@gidcgujarat.org"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "Email\ngidc@gujarat.gov.in\ngidc@gidcgujarat.org",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An application for allotment of properties in GIDC estates is accepted online.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "online_submission",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "Application for allotment of properties in GIDC estates is accepted online.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must submit online copies of the application and required documents, including a project presentation, for the application to be considered complete.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_for_allotment",
+   "object": "required_documents",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "An application will be considered complete after the applicant submits the online copies of application and required documents (including project presentation).",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must submit a printed copy of the system-generated application and acknowledgment receipt along with all necessary documents via Registered post (RPAD) to the office of the concerned Regional Manager within 30 days from the date of applying online.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "document_submission",
+   "detail": {
+    "days": "30",
+    "method": "Registered post (RPAD)"
+   },
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "The applicant has to submit the print out of the system generated application and acknowledgement receipt along with all necessary documents through Registered post (RPAD) to the office of concerned Regional Manager within 30 days from the date of applying online.",
+   "confidence": 1
+  },
+  {
+   "claim": "If the required documents are not received within the prescribed time limit, the application will be cancelled.",
+   "kind": "BLOCKER",
+   "subject": "application_for_allotment",
+   "object": "document_submission",
+   "detail": {
+    "days": "30"
+   },
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "If above mentioned documents are not received within prescribed time limit then application stands cancelled.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants are not allowed to vary from the details submitted online. No changes are allowed once the details are submitted.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "application_for_allotment",
+   "object": "details_submission",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "The applicants shall not be allowed to vary from the details submitted by him/her online. No change shall be allowed in the details once it is submitted online.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must register on the portal to make an online application.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "portal_registration",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "You will need to first register on the portal to make an Online Application.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must agree to the terms and conditions by clicking on the checkbox before the online application link is activated.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "terms_and_conditions",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "You will have to agree to these terms and conditions by clicking on the check box which you will find at the bottom of the page which opens with the given link. Only after you have clicked on the check box, the link for online application will activate.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants can search for a property/properties after clicking on the online application link.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "property_search",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "After clicking on Online Application link you can Search for a property/properties.",
+   "confidence": 1
+  },
+  {
+   "claim": "GIDC field offices will evaluate the application and may request additional documents, information, or clarification from the applicant.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "scrutiny_procedure",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "GIDC field office will thoroughly evaluate/scrutinize the application along with the documents submitted and If require GIDC may ask for additional documents/ information/clarification from the applicant.",
+   "confidence": 1
+  },
+  {
+   "claim": "If all submitted documents meet the requirements, the field office will confirm the application and assign a priority number to the applicant.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "confirmation_and_priority",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "After scrutiny if all submitted documents meeting the requirements , field office will confirm the application and a priority number will be assigned to applicant",
+   "confidence": 1
+  },
+  {
+   "claim": "After confirmation, the application will be forwarded to the head office for evaluation of the submitted project report and presentation.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "head_office_evaluation",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "After confirmation of the application, it will be forwarded to head office to check/evaluate the submitted project report and presentation to determine the possibility of allotment to the applicant.",
+   "confidence": 1
+  },
+  {
+   "claim": "If any requirements in the application are unclear, GIDC may contact the applicant for clarification or request a presentation of the proposed project/unit at the GIDC head office for counseling.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "clarification_or_counseling",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "If any of the requirement mentioned in the application isn’t clear than GIDC will either contact applicant for clarification or if require GIDC will ask applicant for further information verification/ presentation of their proposed project/unit at GIDC head office for counselling before the final decision of land allotment.",
+   "confidence": 1
+  },
+  {
+   "claim": "During counseling, GIDC may suggest changes to the applicant to meet the required norms and criteria defined by the corporation.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "counseling_suggestions",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "During counselling of applicant corporation will suggest the applicant to match the required norms and criteria defined by corporation like water demand, power demand, effluent generation, solid waste generation and any other requirement needs to be corrected.",
+   "confidence": 1
+  },
+  {
+   "claim": "If everything is found to be in order, GIDC will issue an online allotment letter to the applicant.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "allotment_letter",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "If everything found to be in order by GIDC, system generated an online allotment letter will be awarded to the applicant.",
+   "confidence": 1
+  },
+  {
+   "claim": "The procedural steps for application are uniform and applicable across all types of establishments, regardless of risk category, firm size, business location, or type of investor.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "application_for_allotment",
+   "object": "procedural_uniformity",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "The procedural steps outlined above are uniform, consistent, and applicable across all types of establishments, regardless of their risk category, firm size/category (small, medium, large), business location (whether rural or urban), and the type of investor (whether foreign or domestic).",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants can download the GIDC Setu Mobile Application.",
+   "kind": "APP",
+   "subject": "application_for_allotment",
+   "object": "gidc_setu_app",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "Download GIDC Setu Mobile Application",
+   "confidence": 1
+  },
+  {
+   "claim": "The GIDC office is located at Block 3,4,5, Udhyog Bhavan, Sector-11, Gandhinagar 382 011, Gujarat, India.",
+   "kind": "OFFICE",
+   "subject": "application_for_allotment",
+   "object": "gidc_office",
+   "detail": {
+    "address": "Block 3,4,5, Udhyog Bhavan, Sector-11, Gandhinagar 382 011, Gujarat, India."
+   },
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "Our Address\nBlock 3,4,5, Udhyog Bhavan, Sector-11,\nGandhinagar 382 011,\nGujarat, India.",
+   "confidence": 1
+  },
+  {
+   "claim": "The GIDC office can be contacted at +91 79 23250636.",
+   "kind": "HELPLINE",
+   "subject": "application_for_allotment",
+   "object": "gidc_office",
+   "detail": {
+    "phone": "+91 79 23250636"
+   },
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "Phone: +91 79 23250636",
+   "confidence": 1
+  },
+  {
+   "claim": "The GIDC office can be contacted via email at gidc@gujarat.gov.in and gidc@gidcgujarat.org.",
+   "kind": "GRIEVANCE",
+   "subject": "application_for_allotment",
+   "object": "gidc_office",
+   "detail": {
+    "email": "gidc@gujarat.gov.in, gidc@gidcgujarat.org"
+   },
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "Email\ngidc@gujarat.gov.in\ngidc@gidcgujarat.org",
+   "confidence": 1
+  },
+  {
+   "claim": "An application must be submitted to the Prant Officer as per Appendix-1/1.",
+   "kind": "ACTION",
+   "subject": "application_submission",
+   "object": "prant_officer",
+   "detail": {},
+   "sourceId": "src:2bd753e1b32d",
+   "evidence": "હું કઈ રીતે ગામ તળ માટે જમીન નીમ કરાવી શકું? પ્રાંત અધિકારીશ્રી ને, પરિશિષ્ટ-૧/૧ મુજબ અરજી કરવી.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application form is available for download.",
+   "kind": "CHANNEL",
+   "subject": "application_form",
+   "object": "download",
+   "detail": {
+    "file_size": "59 KB"
+   },
+   "sourceId": "src:2bd753e1b32d",
+   "evidence": "એપ્લીકેશન ફોર્મ [File Size : 59 KB] [Gujarati]",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The processing time for the application is 75 days.",
+   "kind": "TIMELINE",
+   "subject": "application_processing",
+   "object": "75_days",
+   "detail": {
+    "days": "75"
+   },
+   "sourceId": "src:2bd753e1b32d",
+   "evidence": "નિકાલની સમય મર્યાદા કુલ ૭૫ દિવસ.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A certified copy of the Gram Panchayat resolution is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gram_panchayat_resolution",
+   "object": "certified_copy",
+   "detail": {},
+   "sourceId": "src:2bd753e1b32d",
+   "evidence": "ગ્રામ પંચાયતના ઠરાવની નકલ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A document showing the details of the applicants for the plot is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "plot_applicants_details",
+   "object": "document",
+   "detail": {},
+   "sourceId": "src:2bd753e1b32d",
+   "evidence": "ઘરથાળના પ્લોટની માંગણીદારોની વિગત દર્શાવતું પત્રક.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "An income certificate is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "income_certificate",
+   "object": "required",
+   "detail": {},
+   "sourceId": "src:2bd753e1b32d",
+   "evidence": "આવકનું પ્રમાણપત્ર",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Applications for the plot must be submitted by homeless individuals.",
+   "kind": "ELIGIBILITY",
+   "subject": "homeless_individuals",
+   "object": "plot_applications",
+   "detail": {},
+   "sourceId": "src:2bd753e1b32d",
+   "evidence": "ઘરવિહોણા ઈસમોને ઘરથાળના પ્લોટ મેળવવા માટેની અરજીઓ",
+   "confidence": 0.85
+  },
+  {
+   "claim": "A certified copy of the 7/12 and amendment notes is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "7_12_amendment_notes",
+   "object": "certified_copy",
+   "detail": {},
+   "sourceId": "src:2bd753e1b32d",
+   "evidence": "સ.નં.ની ૭/૧૨ તથા ફેરફાર નોંધોની નકલ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "In the case of backward classes, caste certificates for all applicants are required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "backward_classes_caste_certificates",
+   "object": "required",
+   "detail": {},
+   "sourceId": "src:2bd753e1b32d",
+   "evidence": "પછાતવર્ગના કિસ્સામાં તમામ અરજદારના જાતિના પ્રમાણપત્ર",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A certified copy of the BPL list number is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "bpl_list_number",
+   "object": "certified_copy",
+   "detail": {},
+   "sourceId": "src:2bd753e1b32d",
+   "evidence": "બી.પી.એલ. યાદીના નંબરની પ્રમાણિત નકલ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A copy of the ration card is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "ration_card",
+   "object": "copy",
+   "detail": {},
+   "sourceId": "src:2bd753e1b32d",
+   "evidence": "રેશનકાર્ડની નકલ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The application process is handled at the Jan Seva Kendra Ahmedabad.",
+   "kind": "OFFICE",
+   "subject": "application_process",
+   "object": "jan_seva_kendra_ahmedabad",
+   "detail": {
+    "address": "Office of The Collector & District Magistrate, Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027",
+    "hours": "8:30 A.M To 5:30 P.M"
+   },
+   "sourceId": "src:2bd753e1b32d",
+   "evidence": "Jan Seva Kendra Ahmedabad Office of The Collector & District Magistrate Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027 8:30 A.M To 5:30 P.M",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must select a district to view appointment details.",
+   "kind": "ACTION",
+   "subject": "citizen",
+   "object": "district_selection",
+   "detail": {},
+   "sourceId": "src:4b89c4b38ed9",
+   "evidence": "District (જીલ્લો પસંદ કરો) : ---Select District--- AHMEDABAD AMRELI ANAND ARVALLI BANASKANTHA BHARUCH BHAVNAGAR BOTAD CHHOTAUDEPUR DAHOD DANG DEV BHUMI-DWARKA GANDHINAGAR GIR SOMNATH JAMNAGAR JUNAGADH KACHCHH KHEDA MAHESANA MAHISAGAR MORBI NARMADA NAVSARI PANCHMAHAL PATAN PORBANDAR RAJKOT SABARKANTHA SURAT SURENDRANAGAR TAPI VADODARA VALSAD VAV-THARAD",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must select a Sub-Registrar Office to view appointment details.",
+   "kind": "ACTION",
+   "subject": "citizen",
+   "object": "sub_registrar_office_selection",
+   "detail": {},
+   "sourceId": "src:4b89c4b38ed9",
+   "evidence": "Sub-Registrar Office (સબ-રજીસ્ટ્રાર ઓફીસ પસંદ કરો) :",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must enter a Captcha code to proceed with the appointment process.",
+   "kind": "ACTION",
+   "subject": "citizen",
+   "object": "captcha_entry",
+   "detail": {},
+   "sourceId": "src:4b89c4b38ed9",
+   "evidence": "Captcha : Enter the code shown:",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must select a date for the appointment.",
+   "kind": "ACTION",
+   "subject": "citizen",
+   "object": "appointment_date_selection",
+   "detail": {},
+   "sourceId": "src:4b89c4b38ed9",
+   "evidence": "Date Of Appointment : ❮ ❯",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The GARVI 2.0 application provides online services for submitting document details for registration and paying Stamp Duty and Registration Fee.",
+   "kind": "CHANNEL",
+   "subject": "garvi_2_0",
+   "object": "online_services",
+   "detail": {
+    "description": "submit document details for registration and online facility to pay Stamp Duty and Registration Fee"
+   },
+   "sourceId": "src:4b89c4b38ed9",
+   "evidence": "Garvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides services to citizens to submit document details for registration and online facility to pay Stamp Duty and Registration Fee.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The IGR Department manages the GARVI 2.0 website content.",
+   "kind": "OFFICE",
+   "subject": "garvi_2_0_website",
+   "object": "managed_by_igr_department",
+   "detail": {
+    "office_name": "IGR Department"
+   },
+   "sourceId": "src:4b89c4b38ed9",
+   "evidence": "Website Content Managed by IGR Department, Government of Gujarat",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The GARVI 2.0 website is designed, developed, and hosted by the National Informatics Centre (NIC).",
+   "kind": "OFFICE",
+   "subject": "garvi_2_0_website",
+   "object": "developed_by_nic",
+   "detail": {
+    "office_name": "National Informatics Centre (NIC)"
+   },
+   "sourceId": "src:4b89c4b38ed9",
+   "evidence": "Designed, Developed and Hosted by National Informatics Centre ( NIC )",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The GARVI 2.0 website was last updated on 21-08-2026.",
+   "kind": "TIMELINE",
+   "subject": "garvi_2_0_website",
+   "object": "last_updated",
+   "detail": {
+    "date": "21-08-2026"
+   },
+   "sourceId": "src:4b89c4b38ed9",
+   "evidence": "Last Updated: 21-08-2026",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The contact information for the GARVI 2.0 website is at Stamp & Registration Bhavan, KH-5, Sector-14, Gandhinagar, Gujarat - 382016.",
+   "kind": "OFFICE",
+   "subject": "garvi_2_0_website",
+   "object": "contact_info",
+   "detail": {
+    "address": "Stamp & Registration Bhavan, KH-5, Sector-14, Gandhinagar, Gujarat - 382016",
+    "phone": "(079) 23288575"
+   },
+   "sourceId": "src:4b89c4b38ed9",
+   "evidence": "Contact Info Stamp & Registration Bhavan KH-5, Sector-14, Gandhinagar, Gujarat - 382016 Phone: (079) 23288575",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The GARVI 2.0 website recommends using Firefox 64.0 or Chrome 72.0 or above for best viewing.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "garvi_2_0_website",
+   "object": "browser_recommendation",
+   "detail": {
+    "browser": "Firefox 64.0 / Chrome 72.0 or above"
+   },
+   "sourceId": "src:4b89c4b38ed9",
+   "evidence": "Best viewed in Firefox 64.0 / Chrome 72.0 or above",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The GARVI 2.0 website recommends a screen resolution of 1280x1024.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "garvi_2_0_website",
+   "object": "screen_resolution_recommendation",
+   "detail": {
+    "resolution": "1280x1024"
+   },
+   "sourceId": "src:4b89c4b38ed9",
+   "evidence": "Site Resolution : 1280x1024",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application must be submitted to the District Collector, following Appendix-1/2.",
+   "kind": "ACTION",
+   "subject": "application_submission",
+   "object": "district_collector",
+   "detail": {
+    "appendix": "Appendix-1/2"
+   },
+   "sourceId": "src:00c45e7162f4",
+   "evidence": "હું કઈ રીતે સરકારી ખાતા / કચેરીઓને જમીનની માંગણી કરી શકું? જિલ્લા કલેકટરશ્રી ને, પરિશિષ્ટ-૧/૨ મુજબ અરજી કરવી.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application form is available for download on the website.",
+   "kind": "ACTION",
+   "subject": "application_form",
+   "object": "jan_seva_kendra",
+   "detail": {
+    "file_size": "55 KB"
+   },
+   "sourceId": "src:00c45e7162f4",
+   "evidence": "એપ્લીકેશન ફોર્મ [File Size : 55 KB] [Gujarati]",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The total processing time for the application is 40 days.",
+   "kind": "TIMELINE",
+   "subject": "application_processing",
+   "object": "jan_seva_kendra",
+   "detail": {
+    "days": "40"
+   },
+   "sourceId": "src:00c45e7162f4",
+   "evidence": "નિકાલની સમય મર્યાદા કુલ ૪૦ દિવસ.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A certified copy of the documents is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "document_copy",
+   "object": "jan_seva_kendra",
+   "detail": {},
+   "sourceId": "src:00c45e7162f4",
+   "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A panchanama of the location of the requested land is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "location_panchanama",
+   "object": "jan_seva_kendra",
+   "detail": {},
+   "sourceId": "src:00c45e7162f4",
+   "evidence": "માંગણીવાળી જમીનની સ્થળ સ્થિતિનું અંગેનું પંચનામું.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A certified copy of the 7/12 document of the requested land is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "7_12_copy",
+   "object": "jan_seva_kendra",
+   "detail": {},
+   "sourceId": "src:00c45e7162f4",
+   "evidence": "માંગણીવાળી જમીનની ૭/૧૨ ની પ્રમાણિત નકલ..",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A map of the requested land, certified by the Talati and Circle Officer, is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "land_map",
+   "object": "jan_seva_kendra",
+   "detail": {},
+   "sourceId": "src:00c45e7162f4",
+   "evidence": "માંગણીવાળી જમીનનો નકશો (તલાટી તથા સર્કલ ઓફિસર દ્વારા પ્રમાણિત).",
+   "confidence": 0.9
+  },
+  {
+   "claim": "An order or letter of approval from the department/account is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "approval_letter",
+   "object": "jan_seva_kendra",
+   "detail": {},
+   "sourceId": "src:00c45e7162f4",
+   "evidence": "વિભાગ / ખાતાની મંજુરીનો હુકમ / પત્ર.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The application process is handled at the Jan Seva Kendra, Gandhinagar.",
+   "kind": "OFFICE",
+   "subject": "application_process",
+   "object": "jan_seva_kendra",
+   "detail": {
+    "address": "District Collector Office, District Collector & Jilla Seva Sadan Kacheri, Near Pathika Ashram, GH Road, Sector 11, Gandhinagar, Gujarat - 382017",
+    "timing": "10:30 A.M To 6:10 P.M"
+   },
+   "sourceId": "src:00c45e7162f4",
+   "evidence": "Application Process Jan Seva Kendra, Gandhinagar District Collector Office District Collector & Jilla Seva Sadan Kacheri, Near Pathika Ashram, GH Road, Sector 11, Gandhinagar, Gujarat - 382017 10:30 A.M To 6:10 P.M",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must provide their name.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "applicant_name",
+   "detail": {},
+   "sourceId": "src:b29f2940bcec",
+   "evidence": "અરજદારનું નામ *",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide their mobile number.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "mobile_number",
+   "detail": {},
+   "sourceId": "src:b29f2940bcec",
+   "evidence": "મોબાઈલ નંબર *",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must select their gender.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "gender",
+   "detail": {},
+   "sourceId": "src:b29f2940bcec",
+   "evidence": "પુરૂષ/સ્ત્રી *",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must select the district name.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "district_name",
+   "detail": {},
+   "sourceId": "src:b29f2940bcec",
+   "evidence": "જીલ્લા નું નામ *",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must select the ILR office.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "ilr_office",
+   "detail": {},
+   "sourceId": "src:b29f2940bcec",
+   "evidence": "આઇ.એલ.આર. ઓફિસ *",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide the current area in square meters.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "current_area_square_meters",
+   "detail": {},
+   "sourceId": "src:b29f2940bcec",
+   "evidence": "હાલનુ ક્ષેત્રફ્ળ(ચો.મી.) *",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide the total fee in rupees.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "total_fee_rupees",
+   "detail": {},
+   "sourceId": "src:b29f2940bcec",
+   "evidence": "કુલ ફી રૂ. *",
+   "confidence": 1
+  },
+  {
+   "claim": "The property card will be issued on the date and time when the application is confirmed.",
+   "kind": "TIMELINE",
+   "subject": "property_card",
+   "object": "application_confirmation",
+   "detail": {},
+   "sourceId": "src:b29f2940bcec",
+   "evidence": "નોંધ : (૧) જે તારીખ અને સમયે અરજી Confirm થઇ હશે તે સ્થિતિ નું પ્રોપર્ટીકાર્ડ મળશે.",
+   "confidence": 1
+  },
+  {
+   "claim": "If the digital e-sealed property card copy shows any technical damage, the applicant should contact the respective ILR office.",
+   "kind": "GRIEVANCE",
+   "subject": "property_card",
+   "object": "ilr_office",
+   "detail": {},
+   "sourceId": "src:b29f2940bcec",
+   "evidence": "ડીજીટલ ઇ સીલ્ડ પ્રોપર્ટીકાર્ડ ની નકલ જનરેટ કરવામાં કોઇ પણ ટેકનીકલ ક્ષતિ જણાય આવે તો જે તે સંબધિત આઇ.એલ.આર. (ILR) કચેરી નો સંપર્ક કરવાનો રહેશે.",
+   "confidence": 1
+  },
+  {
+   "claim": "An appeal under Section 203 of the Land Revenue Code 1879 must be filed within 60 days of the decision by the subordinate officer.",
+   "kind": "TIMELINE",
+   "subject": "appeal_section_203",
+   "object": "decision_date",
+   "detail": {
+    "days": "60"
+   },
+   "sourceId": "src:f822111ca37c",
+   "evidence": "Appeal / dispute application must be filed within 60 days of the decision / order made by the subordinate officer as prescribed by law.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An appeal under Section 203 of the Land Revenue Code 1879 must include a certified copy of the lower court's order.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "appeal_section_203",
+   "object": "certified_copy_lower_court_order",
+   "detail": {},
+   "sourceId": "src:f822111ca37c",
+   "evidence": "Certified copy of lower courts order.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An appeal under Section 203 of the Land Revenue Code 1879 must include a court fee stamp on the authenticated copy of the resolution of the lower court.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "appeal_section_203",
+   "object": "court_fee_stamp",
+   "detail": {},
+   "sourceId": "src:f822111ca37c",
+   "evidence": "Court fee stamp stipulated under the court fee act on the authenticated copy of the resolution of the lower court as well as on the Advocate letter (Vakilat patra) the lawyer (if any) of the court.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A revision application under Rule 108(6) of the Land Revenue Rules 1972 must be filed within 90 days of the decision by the subordinate officer.",
+   "kind": "TIMELINE",
+   "subject": "revision_application_rule_108_6",
+   "object": "decision_date",
+   "detail": {
+    "days": "90"
+   },
+   "sourceId": "src:f822111ca37c",
+   "evidence": "Revision / Appeal application must be filed within 90 days of the decision / order made by the subordinate officer as prescribed by law.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A revision application under Rule 108(6) of the Land Revenue Rules 1972 must include a certified copy of the lower court's order.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "revision_application_rule_108_6",
+   "object": "certified_copy_lower_court_order",
+   "detail": {},
+   "sourceId": "src:f822111ca37c",
+   "evidence": "Certified copy of lower courts order.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A revision application under Rule 108(6) of the Land Revenue Rules 1972 must include a court fee stamp on the authenticated copy of the resolution of the lower court.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "revision_application_rule_108_6",
+   "object": "court_fee_stamp",
+   "detail": {},
+   "sourceId": "src:f822111ca37c",
+   "evidence": "Court fee stamp stipulated under the court fee act on the authenticated copy of the resolution of the lower court as well as on the Advocate letter (Vakilat patra) the lawyer (if any) of the court.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An appeal under Section 12 of the Gujarat Entertainment Tax Act 1977 must include a court fee stamp on the authenticated copy of the resolution of the lower court.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "appeal_section_12_gujarat_entertainment_tax_act",
+   "object": "court_fee_stamp",
+   "detail": {},
+   "sourceId": "src:f822111ca37c",
+   "evidence": "અપીલ ઉપર અરજદારે યોગ્ય રીતે સહી કરી ખરાઈ કરવાની રહેશે. તેમજ અપીલ અરજી કોર્ટ ફી અધિનિયમ હેઠળ નક્કી થયેલ કોર્ટ ફી સ્ટેમ્પ લગાવવાની રહેશે.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application process for obtaining a copy must be submitted to the Jan Seva Kendra Ahmedabad.",
+   "kind": "OFFICE",
+   "subject": "application_process",
+   "object": "jan_seva_kendra_ahmedabad",
+   "detail": {
+    "officeName": "Jan Seva Kendra Ahmedabad",
+    "address": "Office of The Collector & District Magistrate, Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027"
+   },
+   "sourceId": "src:4836e2cf4ed0",
+   "evidence": "Application Process\nJan Seva Kendra Ahmedabad\nOffice of The Collector & District Magistrate\nNear Subhash Bridge Circle,\nR.T.O Ashram Rd, Hridaya Kunj,\nOld Wadaj, Ahmedabad,\nGujarat - 380027",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application for obtaining a copy must be submitted between 8:30 A.M. and 5:30 P.M.",
+   "kind": "TIMELINE",
+   "subject": "application_hours",
+   "object": "jan_seva_kendra_ahmedabad",
+   "detail": {
+    "hours": "8:30 A.M To 5:30 P.M"
+   },
+   "sourceId": "src:4836e2cf4ed0",
+   "evidence": "8:30 A.M To 5:30 P.M",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The total time limit for the process of obtaining a copy is 15 days.",
+   "kind": "TIMELINE",
+   "subject": "copy_process",
+   "object": "time_limit",
+   "detail": {
+    "days": "15"
+   },
+   "sourceId": "src:4836e2cf4ed0",
+   "evidence": "નિકાલની સમય મર્યાદા કુલ ૧૫ દિવસ.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A certified copy of the documents is required for the process of obtaining a copy.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "copy_process",
+   "object": "certified_copy_of_documents",
+   "detail": {},
+   "sourceId": "src:4836e2cf4ed0",
+   "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A zerox copy of the proof of deposit of 20 rupees is required for the process of obtaining a copy.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "copy_process",
+   "object": "deposit_proof_copy",
+   "detail": {
+    "amount": "20",
+    "currency": "INR"
+   },
+   "sourceId": "src:4836e2cf4ed0",
+   "evidence": "રૂા ર૦/– ડિપોઝીટ ભરેલ હોવા અંગેની પહોંચની ઝેરોક્ષ નકલ.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Proof of ownership of the property for which a copy is required must be provided.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "copy_process",
+   "object": "property_ownership_proof",
+   "detail": {},
+   "sourceId": "src:4836e2cf4ed0",
+   "evidence": "જેની નકલ જરૂરી હોય તે મિલ્કતની માલિકીના પુરાવા.",
+   "confidence": 0.95
+  }
+ ],
+ "notFound": []
+}

@@ -1,7 +1,7 @@
 {
   "generatedBy": "scripts/fetch-ledger.mjs",
-  "urls": 66,
-  "cached": 61,
+  "urls": 163,
+  "cached": 158,
   "missing": 0,
   "noCacheFile": 0,
   "fetchFailed": 5,
@@ -42,7 +42,204 @@
     ".firecrawl/sarathi-ll-map.json",
     ".firecrawl/sarathi-map.json"
   ],
+  "uncitedIngestPages": 629,
   "entries": [
+    {
+      "url": "https://1000d.gujarat.gov.in/ApplicationCheck",
+      "title": "હોમ - મુખ્યમંત્રી માતૃશક્તિ યોજના",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/04364ee1275e1f574332ece1c8da7ba6d424f9d5.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 1879,
+      "sha256": "ac3d35c3291633cb0d5a504219ab315f875f67fbd56091fcd93a131c0d0de20a",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://1000d.gujarat.gov.in/Home/Help",
+      "title": "હોમ - મુખ્યમંત્રી માતૃશક્તિ યોજના",
+      "sourceType": "PORTAL_HOME",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/79fdc662dbe82dc6d1b630fe67037bfc7e7efb4d.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 3641,
+      "sha256": "d464a0b90fe5f1af7c13d58eb0f36ab51293a1b5a702e8f1315c016e9e10e723",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://1000d.gujarat.gov.in/RegistrationForm",
+      "title": "હોમ - મુખ્યમંત્રી માતૃશક્તિ યોજના",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/b078560c40dc782524ed2db9fc827726b66a0fb0.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 3456,
+      "sha256": "b1423eea7db236695a4e62198f4ce80af03b9701c7942ff6f6b0f9d9d46a7e30",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://1000d.gujarat.gov.in/RegistrationForm/RegistrationFormTecho",
+      "title": "હોમ - મુખ્યમંત્રી માતૃશક્તિ યોજના",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/5df9af57e1ce16556e43abe2c6ea4ab240f15d73.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 1257,
+      "sha256": "2ee19cf020c378f518bcf1eda22aa86a871e3383c2b7c242c7efb03975a13384",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://1000d.gujarat.gov.in/RegistrationFormEdit",
+      "title": "હોમ - મુખ્યમંત્રી માતૃશક્તિ યોજના",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/d0c1afe6687ff6b83039ee64a5b4b7ca3cdf24c0.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2253,
+      "sha256": "3cee65b34eaa2290bcdb621a926ad9076f2dec0d370a7669b69a8a7420e19865",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://adijatinigam.gujarat.gov.in/law-advocate-loan-help1",
+      "title": "અનુસુચિત જનજાતિના કાયદાના સ્નાતકોને વકીલાતના ધંધા માટે સહાય | Archive | Publication | Gujarat Tribal Development Corporation",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/56bab62c9e31e678516de492468cc2f8a9e6825c.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 7252,
+      "sha256": "f60f25ee7850e991af8ca1a72415302bd783cb6e0aad5e4b18731df1360e4f7c",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://adijatinigam.gujarat.gov.in/notification",
+      "title": "Notification | Policies | Gujarat Tribal Development Corporation",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/541d3138e7299e48609f94f10280cd56eb160ee1.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 3466,
+      "sha256": "49a5a0ef7ef9da201ea444f1990c98c00df2b3fe5adeb20b0dcf50049145a870",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://ahmedabad.gujarat.gov.in/farmer-khatedar-dakhlo",
+      "title": "ખેડુત ખાતેદાર હોવા અંગેનો દાખલો મેળવવા બાબત | Revenue | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "district-certificates"
+      ],
+      "cacheFile": ".ingest/pages/b55b2acd832b0d2cd7a35d26032f9ff4ee74c8a0.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 6684,
+      "sha256": "be46b4088c447c0117ad6b6073a069b6ed0ce53171687decb3001a74155e9825",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://ahmedabad.gujarat.gov.in/land-neem",
+      "title": "ગામ તળ માટે જમીન નીમ કરવા બાબત | Revenue | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "property-and-land"
+      ],
+      "cacheFile": ".ingest/pages/2bd753e1b32da7de73616fd6738aa48d8b3a47a0.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 6778,
+      "sha256": "560bf55ce50856256c01393b71d1c90cb127c97883320537745994a7167e156d",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://ahmedabad.gujarat.gov.in/legal",
+      "title": "Legal | Branches | Collectorate - District Ahmedabad",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "property-and-land"
+      ],
+      "cacheFile": ".ingest/pages/f822111ca37c895adf5fd0ecb0398c879338f49f.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 13577,
+      "sha256": "d4cdfccf00d2d17ec5e3035d3907c898b4db3c8f1af05eb07bec22009bb65665",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://ahmedabad.gujarat.gov.in/nakal-application",
+      "title": "નકલ માટેની અરજીઓ નિકાલ કરવા બાબત | Revenue | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "property-and-land"
+      ],
+      "cacheFile": ".ingest/pages/4836e2cf4ed0d5c63fbda06e3bd9af5afd950476.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 6345,
+      "sha256": "8f0e47687087cec73876b84e0c3ddaa2aad0763cf3e5654ef96077b1dfa93a3c",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://ahmedabad.gujarat.gov.in/religion-and-lunguages-certificate",
+      "title": "ધાર્મિક અને ભાષાકીય લઘુમતી અંગેનું પ્રમાણપત્ર મેળવવા બાબત | Certificate | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "district-certificates"
+      ],
+      "cacheFile": ".ingest/pages/119c5e4a63b601ec3d59107491ae2effb6abc0ab.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 6936,
+      "sha256": "4445fd23fb2a35cd23aacb13a4551eeb3fea9508fedd35e1ce38d90ab19a8b62",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://ahmedabad.gujarat.gov.in/residential-certificate",
+      "title": "રહેઠાણ અંગેનું પ્રમાણપત્ર મેળવવા બાબત | Certificate | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "district-certificates"
+      ],
+      "cacheFile": ".ingest/pages/fa4073ea12cb11177fa12c44da42b3d86262ba38.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 6667,
+      "sha256": "10b29ec6ae6daeeb6de29d3d528af7649712f4ee9f905857159ee608d33fcd3f",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://ahmedabad.gujarat.gov.in/Unreserved-Class-Certificate",
+      "title": "બીનઅનામત વર્ગનું જાતિનું પ્રમાણપત્ર મેળવવા બાબત | Certificate | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "district-certificates"
+      ],
+      "cacheFile": ".ingest/pages/75df169cf632f39b743d9fd8c3ad7c0f47b33229.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 7964,
+      "sha256": "1b986637c66c410a5bcaebe5b3cc261986f99062a7518a905adc2a5c2eabc1d4",
+      "retrievedAt": "2026-08-23"
+    },
     {
       "url": "https://ahmedabad.nic.in/service/income-certificate",
       "title": "Income Certificate - Mamlatdar Office, Jan Seva Kendra (District Ahmedabad)",
@@ -114,6 +311,34 @@
       "retrievedAt": "2026-08-23T00:00:00.000Z"
     },
     {
+      "url": "https://atma.gujarat.gov.in/Home/ASchemeToProvideAssistantToFarmersFamilyForNaturalFarmingToMaintainIndigenousCow",
+      "title": "ATMA Directorate and SAMETI",
+      "sourceType": "PORTAL_HOME",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/a342d38a38fc5cb191714a0511210b9439ca1d24.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 5691,
+      "sha256": "c8551f6053768faff9314550e540ca6603cd356e1e9c980807122300e18d0edf",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://ayudmla.gujarat.gov.in/downloads.php",
+      "title": "FDCA",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/b02637248ac072bef91cd42e3e4664a2ea1a55f5.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 848,
+      "sha256": "033a86a7dbffd2c6840cebddb9f14b9a422f67f455b6448993ab090d6e464a01",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://banaskantha.nic.in/service/certificate",
       "title": "Certificate | District Banaskantha, Government of Gujarat",
       "sourceType": "SERVICE_PAGE",
@@ -126,6 +351,160 @@
       "bytes": 1316,
       "sha256": "f03053fe2f167929ce288ae419eb77797a89b49ad165ac0402caec9897dc45e4",
       "retrievedAt": "2026-08-23T02:50:00Z"
+    },
+    {
+      "url": "https://ced.gujarat.gov.in/pagetuition-fees-for-enhancement-of-skill",
+      "title": "Tuition fees for Enhancement of Skill | Skill Development - CED – Centre for Entrepreneurship Development, Gujarat",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/bfd20f36eb49b89d1ab0cf6be631b2b859b8ba73.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 4388,
+      "sha256": "ed9a188585d79dfbcca11268a0fe4514c89899a37e5f65f2145c8d0f5d3088ff",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://ced.gujarat.gov.in/schemes",
+      "title": "Cluster Development | Schemes - CED – Centre for Entrepreneurship Development, Gujarat",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/a1064e649b73ec634ca3538f0c01ac3e88d89a19.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 5309,
+      "sha256": "d57244335580e6b90453e46540f9d7de5ff8504d0d0fea298e214a6305af6f55",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://ceiced.gujarat.gov.in/ced",
+      "title": "CED | પ્રશ્નોત્તર | ઈ-નાગરિક | મુખ્ય વિદ્યુત નિરીક્ષક <br />અને<br />વિદ્યુત શુલ્ક સમાહર્તા",
+      "sourceType": "FAQ",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/3352bf96ce667dd9fe2adec82ec38babeeb59dae.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14895,
+      "sha256": "643e20574b35dd3df2740008e045322d0fc6c43b7bd04d9941b7ac798307b650",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://ceiced.gujarat.gov.in/lb",
+      "title": "LB | પ્રશ્નોત્તર | ઈ-નાગરિક | મુખ્ય વિદ્યુત નિરીક્ષક <br />અને<br />વિદ્યુત શુલ્ક સમાહર્તા",
+      "sourceType": "FAQ",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/d8e8ff030eaeee467475ae1519f071f9ff7e01cf.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 10995,
+      "sha256": "dba9512f73a52f0ad3545b21b6607e33a6abc80b9cb4e945d9ad0f2f6114e97c",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://collectordwarka.gujarat.gov.in/page/kuvarbainumameru",
+      "title": "કુંવરબાઇ મામેરૂ યોજના | scheme | FAQs | e-Citizen | Collectorate - District Devbhumi Dwarka",
+      "sourceType": "FAQ",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/22f2869e784c8989b912bc67630f3e3a95fa95be.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 10802,
+      "sha256": "c084c9c29505588633148bbe31b72f1cfb89f09f2d7f50bf394434dea5dc16cc",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://collectorgandhinagar.gujarat.gov.in/govt-office-land",
+      "title": "સરકારી ખાતા / કચેરીઓને જમીનની માંગણી બાબત | Revenue | Jan Seva Kendra form | Collectorate - District Gandhinagar",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "property-and-land"
+      ],
+      "cacheFile": ".ingest/pages/00c45e7162f4537b75e8d31659072eae764b7a66.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 6680,
+      "sha256": "e0c3cf8a748347a3ade93667699b376b3bd1720dfcd6cc49da53642435cdd7dc",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://collectorgandhinagar.gujarat.gov.in/salary-certificate",
+      "title": "આવક અંગેનું પ્રમાણપત્ર મેળવવા બાબત | Certificate | Jan Seva Kendra form | Collectorate - District Gandhinagar",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "district-certificates"
+      ],
+      "cacheFile": ".ingest/pages/5c9f24f67a9867e17c2bcf0b6d4accdda052c704.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 6965,
+      "sha256": "fd9de7bc8c478222b445fb9b3b57b025c4a432b5d4fcd517d4165304f6f1c3a4",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://collectorjamnagar.gujarat.gov.in/education-nationality-certificate",
+      "title": "શૈક્ષણિક હેતુ માટે નેશનાલીટી સર્ટીફીકેટ મેળવવા બાબત | Miscellaneous | Jan Seva Kendra Form | Collectorate - District Jamnagar",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "district-certificates"
+      ],
+      "cacheFile": ".ingest/pages/517e00ce5909be35713cecca4dd8944f81c49530.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 7323,
+      "sha256": "d3c032698b056966244f8019996388af4c7f45bbd85ccb6b8c5d36d86b3e8207",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://collectorjamnagar.gujarat.gov.in/small-saving-scheme",
+      "title": "નાની બચત યોજનાની એન.એસ.સી./કે.વી.પી./માસિક આવક યોજનાની એજન્સી બાબત | Revenue | Jan Seva Kendra Form | Collectorate - District Jamnagar",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/91a620ee733a408b4b6b9ef2db51604491146746.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 7728,
+      "sha256": "0170522d7101bbeba8a8a18b3a7552687a3aef9c9b7a81a15c06c4818724e807",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://collectorjamnagar.gujarat.gov.in/sogandnamu-efidevit",
+      "title": "સોગંદનામું (એફીડેવીટ) | Miscellaneous | Jan Seva Kendra Form | Collectorate - District Jamnagar",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "district-certificates"
+      ],
+      "cacheFile": ".ingest/pages/0543004fcb521801f11b8b006047f07a0d00346e.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 5957,
+      "sha256": "4df8c17bee18fc1b98502113945b7e89513090ed34cf3076046dca3c22ea7d78",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://collectorkheda.gujarat.gov.in/varshai-app-form-47",
+      "title": "વારસાઈ પ્રમાણપત્ર આપવા બાબત | Certificate | Jan Seva Kendra form | Collectorate - District Kheda",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "district-certificates"
+      ],
+      "cacheFile": ".ingest/pages/02558b8797dfe77372bb7b5056723b199938d4c2.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 6090,
+      "sha256": "6032ff67253176c2f65c2642a51e941462918f4d057c567b4243283d145eec73",
+      "retrievedAt": "2026-08-23"
     },
     {
       "url": "https://cot.gujarat.gov.in/driving-licence.htm",
@@ -170,6 +549,20 @@
       "retrievedAt": "2026-08-23T11:17:00+05:30"
     },
     {
+      "url": "https://dag.gujarat.gov.in/Home/RashtriyaKrishiVikasYojana",
+      "title": "Directorate_Agricuture",
+      "sourceType": "PORTAL_HOME",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/1168cc4ae193a2041594f488592bccb1f181074d.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 1278,
+      "sha256": "dafccb930a8974e7cf829be2955e02ee20b680463f43657cd63ccf1e53bb0503",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://devbhumidwarka.nic.in/service/certificates",
       "title": "Certificates | District Devbhumi Dwarka, Government of Gujarat",
       "sourceType": "SERVICE_PAGE",
@@ -182,6 +575,104 @@
       "bytes": 1230,
       "sha256": "abb52a1b7a3ea9fd40f6bb9a1f527b8046f49d9eb98786e90f82f6665619f20b",
       "retrievedAt": "2026-08-23T02:45:00Z"
+    },
+    {
+      "url": "https://dish.gujarat.gov.in/m/contact-competant_persons.htm",
+      "title": "DISH | Contact us | Contact Persons/Whom to Contact | Competant Persons",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/0415e6113e6514fd2615a1365d5ae1a20b5a3f01.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 3909,
+      "sha256": "47045468eb20b03dbccd3f4b7bbb34d1c01ddcd464e64c432e54e40758e018b3",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://dish.gujarat.gov.in/shram_awards3.htm",
+      "title": "DISH | Shram Awards | Schemes",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/a09f7e259dcc4389442311cb4e79ea8753bac13c.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 4171,
+      "sha256": "93e9b5df282f97fcd7a2b66bb87cc33fc3d79f13012eb1588a82bf25600b3b5f",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://dstpolicy.gujarat.gov.in/faq",
+      "title": "FAQs (IT/ITeS Policy 2022-27) | DST Incentive Management Portal",
+      "sourceType": "FAQ",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/225f2e06ee8844c933215baf38c8b6c764e5b5db.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 4090,
+      "sha256": "491eef46b55d880130d99726f07330b7167d0a7137ce0c80a53a8020b620d70d",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://dstpolicy.gujarat.gov.in/public-document",
+      "title": "List of documents for applicants, under IT/ITeS Policy (2022-27) | DST Incentive Management Portal",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/59679f983b785f6807e9e587f36ad87fa7995906.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2150,
+      "sha256": "132404f4db080c6a940085a9f37fbc6c157ad8fdc2d737a2b9e101d6067e31eb",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://e-kutir.gujarat.gov.in/",
+      "title": "Commissioner of Cottage and Rural Industries",
+      "sourceType": "PORTAL_HOME",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/6d8bddc32330a07d3fbd369c399729cf2e029c36.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 5496,
+      "sha256": "d03ba1114ef8eba5e2b6c59e4dd43bca2d57be04704fcbaf41372626741a0ef7",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://e-kutir.gujarat.gov.in/index.aspx",
+      "title": "Commissioner of Cottage and Rural Industries",
+      "sourceType": "PORTAL_HOME",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/512e0858f8e9d0ae74171f4f76221de4b906f473.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 5496,
+      "sha256": "8bafae85e875ac15ac0e53d8091ee4a1927dd51a7faa40907c2e450843304516",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://e-milkat.gujarat.gov.in/ioraonlinepcard/ioraonlinepcard.aspx",
+      "title": ":: iORA - Integrated Online Revenue Applications ::",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "property-and-land"
+      ],
+      "cacheFile": ".ingest/pages/b29f2940bcecfa5b199ef9b585796dc79c43c71f.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 3060,
+      "sha256": "567d4630f1fbf9a3a5ae25cd6a6b3aae25ccc42fa567a514510d7a7ca4802a9e",
+      "retrievedAt": "2026-08-23"
     },
     {
       "url": "https://epfigms.gov.in/",
@@ -212,6 +703,622 @@
       "retrievedAt": "2026-08-23T00:00:00.000Z"
     },
     {
+      "url": "https://forestservices.gujarat.gov.in/eServices/BarbedWireFencing/frmBarbedWireFencingApp_New.aspx",
+      "title": "Gujarat Forest Department",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/52cd469e91036e5469f7a761e72c39b291350eac.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 5396,
+      "sha256": "681e485695d9b22b4d6a779bea0004b1c44cb18459228a12f980dadd65ba80b2",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://forestservices.gujarat.gov.in/eServices/Compensation/frmCompensationApp.aspx",
+      "title": "Gujarat Forest Department",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/f696fb59a3e5021a3b4233b500311ba0aee26355.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 4633,
+      "sha256": "9c7f50a6d4d6ef2328cac3d205c849fcd023085efc2582d79e5947c6d4c2cb13",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://forestservices.gujarat.gov.in/eServices/EnergySavingEquipments/frmEnergySavingEquipmentsApp.aspx",
+      "title": "Gujarat Forest Department",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/084d61b22eaba7e4839f46295706be12489181f5.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 3238,
+      "sha256": "64de0b107a17652ab6904e1fff9e47324099a1a60203a82c4cc6b3049c71882b",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://forestservices.gujarat.gov.in/eServices/FilmShooting/frmPermissionResearch_New.aspx",
+      "title": "Gujarat Forest Department",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/a4264d4ffddb75a5410771d0fda9c475eb14e9ab.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 4129,
+      "sha256": "30fa36cf27cd17ab94a6c546a7def72621e97bb4de7086eb475e5f94b22aa80a",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://forestservices.gujarat.gov.in/eServices/Parapit/frmParapitApp.aspx",
+      "title": "Gujarat Forest Department",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/7d05e57bbb387cb4d813d1a7a7cd66d8736be5c6.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2746,
+      "sha256": "f284dce482a94bb937a3366c08bb1212f6c7f0a6120e6c61a699a4291f30231c",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://forestservices.gujarat.gov.in/eServices/Vanmahotsav/frmVanMahotsavapp.aspx",
+      "title": "Gujarat Forest Department",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/d405aafc8d643b1b35af77f0a8f4648eb8697204.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 4447,
+      "sha256": "0188ff951939325b47678c8f3bf7b84aa1902611b4984fed077962b3df5faa37",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://forestservices.gujarat.gov.in/TransitPass/MerchantRegistration.aspx",
+      "title": "Transit Pass Management System for Imported Timber, Forest Department, Govt. of Gujarat",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/1c622b6d545b0ceaad2eaa407dd99024b9e15373.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 1400,
+      "sha256": "e4855dcca038073b5ab4444cc282c4b1170aa4d209a1c162ede74010a39de5b9",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://garvi.gujarat.gov.in/FrmViewAppointment_New.aspx",
+      "title": "Garvi",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "property-and-land"
+      ],
+      "cacheFile": ".ingest/pages/4b89c4b38ed90c2978c7a0fb51fc8d8bafb979ae.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2966,
+      "sha256": "43d3d3179fae9d7563bccb347f3f49cad4960060340bd4b051f60e3c04ebd4d9",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://gidc.gujarat.gov.in/Pages/Contents/application-for-allotment",
+      "title": "GIDC",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "property-and-land"
+      ],
+      "cacheFile": ".ingest/pages/3203b82bd43ab615062117233c1cca15b9a6db00.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 5575,
+      "sha256": "82f029fa604bb0e71065655a8eb01366714cc04bcad74492b1672f11d7386235",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://gidc.gujarat.gov.in/Pages/Contents/digilocker",
+      "title": "GIDC",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "property-and-land"
+      ],
+      "cacheFile": ".ingest/pages/e567da21d42110f58819ee4f5dc79cc21a868523.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2948,
+      "sha256": "368fc0ca50c1d888400be40f0f399c0c59c4c00b5ca11eeb44146223b29192d0",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://giic.gujarat.gov.in/ots-scheme-guj.htm",
+      "title": "ઓ.ટી.એસ. યોજના",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/4bc10aba1153c9bf2ba4469fda177af3e55c01e9.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16211,
+      "sha256": "e19eae791e81663768d5cadfe837f7920d80b4f09317cdb44baf1a88054c793a",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://giic.gujarat.gov.in/ots-scheme.htm",
+      "title": "OTS Scheme | Gujarat Industrial Investment Corporation Limited",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/a825cf5ab97d7ddcc0207df3a9185160f9540406.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 10154,
+      "sha256": "a54046ea087c211a82ab17ab8eb92a6617471cad643252f7ef5612b06233127b",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://girlion.gujarat.gov.in/",
+      "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+      "sourceType": "PORTAL_HOME",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/2bf6f853854d966af521f352132c05c42a0246da.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 9566,
+      "sha256": "a9f6f9b6196925721f2c0aefabd98c759f1a7acfab45f3957e0aea522502746a",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://girlion.gujarat.gov.in/AboutAmbardi.aspx/1000",
+      "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/074dec0e7f9bbc74e3f353a9f5b97827f1b9c20e.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 8297,
+      "sha256": "4f8c6972cf0c473f4f18edc42c79e15ceb971e68694426b7e7bb685a5ebc55f3",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://girlion.gujarat.gov.in/AboutDevalia.aspx",
+      "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/7f4a4e5e8699ca5435055eaa6eb33511a2018c46.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 10640,
+      "sha256": "4b58869dae80baee511bedc3ab903d9db21151b5b7a87bb52a26041b817a1b55",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://girlion.gujarat.gov.in/AboutGirnarNatureSafari.aspx",
+      "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/276afc4b2b427ea5266191746b42880aabc4115c.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 9175,
+      "sha256": "79ec18635ad0e5aa0672a8c2172ac473da8ccc832a4d8dd3243ca154162a15e6",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://girlion.gujarat.gov.in/AboutGirnarNatureSafari.aspx/1000",
+      "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/035a9fb40617e972514fa156f7d569c611245155.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 9175,
+      "sha256": "52466dc945de29b94096e31472d31994a8467487f7570c84895ea9c9a9a1596a",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://girlion.gujarat.gov.in/AmbardiBooking.aspx/AboutGir.aspx",
+      "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/380c2532b17d098079578159ac8a80025e7eefdc.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 8198,
+      "sha256": "7ede3b2fdb3bc26869892d0962fb67300841e2f7b7f0d1ac4e2329dcbc15b869",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://girlion.gujarat.gov.in/ContactUs.aspx/1000",
+      "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+      "sourceType": "HELPLINE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/ae4e926fc5b998ed209784425ebc3b3c326f5c4f.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 7125,
+      "sha256": "52c93fce13c89b0fd9dc3857cd155483b105612a1e42d4929f7a25f1048c73de",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://girlion.gujarat.gov.in/GirJungleTrailBooking.aspx",
+      "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/e89c2413eb37288bf15a680fe9591931ef3583ea.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 9819,
+      "sha256": "e50f13abd23d59c64a1d479e90f917262cba53177e4bb19f12812c5f419396ab",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://girlion.gujarat.gov.in/GirnarNatureSafariBooking.aspx",
+      "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/f2cbb7797ef72058f06db04171bd808b47345f19.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 8794,
+      "sha256": "f2917fb7036505ca4d1fa6fdefef29973e2e4566857ca1b5a721364230da37d3",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://girlion.gujarat.gov.in/GIZDevaliaBusBooking.aspx",
+      "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/8b0605f91d38395e2e4c698167a6e34c1952ada7.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 8789,
+      "sha256": "90fe9ad3447efe2d56989fc622bfab08c344cbb2b66ad61898b460ec5a57cad4",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://girlion.gujarat.gov.in/GIZDevaliaGypsyBooking.aspx",
+      "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/fea49844e324a7cd9e52847dbbdea2896b41def9.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 10145,
+      "sha256": "cddcf7b288fe740c1471d1bdb654b3ec015562aedd0a95360dbd5b521a9343e4",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://girlion.gujarat.gov.in/PermitBookingForGirnarNature.aspx",
+      "title": "GSLCS",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/2d20ddb5e8531a9bdbb4670e4cc2a514092980dc.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 8274,
+      "sha256": "dc6c2b7292c1b2f5d63494833d69399cbda62ed2fb7fe61251bea625dd265641",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://girlion.gujarat.gov.in/PermitBookingForJungleTrail.aspx",
+      "title": "GSLCS",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/61f17e5a5fa67de33467be0fe5ef9e6351913d8a.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 8786,
+      "sha256": "78f42a2e885ae3b0f6db6b63b33a09b5e5ca0974438ebf54047525eba7dbb5d1",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://girlion.gujarat.gov.in/Rating.aspx",
+      "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/5dd1e4da00957b9b39761cf47a8c7e8de14eba35.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 5432,
+      "sha256": "3825995354e5c19f1f204918bc1645338ab3d9da825b71e35f6218af6362e02d",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://girlion.gujarat.gov.in/Services.aspx",
+      "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/95a9c084b03dab2b48affd70fd8dfe6499008ed4.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 7080,
+      "sha256": "57696074614658b869e13eceaceeca4b1731a40effec2030262323ea4dbf411d",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://girlion.gujarat.gov.in/TermsConditions.aspx",
+      "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/486c8338b1b8530b469f3ccb50f7404585f3c5bf.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15284,
+      "sha256": "fa5e3e855110f920c781c25494e490b080000c2e7f48b317639faa175352112c",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://girlion.gujarat.gov.in/VelavadarBooking.aspx",
+      "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/11052a2e4ead4141c706a32ea8f01d27ae91157b.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 9298,
+      "sha256": "6821110af00b546f5d159d30e6a14a52d51ac29dd5d76f2fab3269cd5b9b103b",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://glwb.gujarat.gov.in/higher-education-reward-scheme-guj.htm",
+      "title": "ઉચ્ચતર શિક્ષણ સહાય યોજના",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/5cc3da285d54addebd0dbd827eebce362f7c6a2a.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2652,
+      "sha256": "5fb78bd7f8d0a12f2f60e5af46afa5c047119f12ee9cd8c2bdee38506d1ecfd3",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://glwb.gujarat.gov.in/labour-acc-benifite-scheme-guj.htm",
+      "title": "શ્રમયોગી અકસ્માત સહાય યોજના",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/adbbef8d8fde9cdd0647610d0379e3e1d1f7d0d7.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 3635,
+      "sha256": "32485885e952cddb4e18d670253ad315b62d06f328a2bcce65efbc1b41d693e7",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://glwb.gujarat.gov.in/m/labour-welfare-fund-guj.htm",
+      "title": "લેબર વેલ્ફેર ફંડ સુધારા નોટીફીકેશન | ગુજરાત શ્રમયોગી કલ્યાણ બોર્ડ",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/e43e5c473c913ab48c04655c979458faae622aac.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2605,
+      "sha256": "e1ca1ea47788428c6257afb2f82ba4dd46644c98c5467731c7c965772545cddd",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://grwwb.gujarat.gov.in/application-from-guj.htm",
+      "title": "અરજીપત્રકો | ઇ-સિટિઝન | ગુજરાત ગ્રામ કામદાર કલ્યાણ બોર્ડ",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/7a2aa53c41f354f6c45b9404507e456e43feb57f.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2697,
+      "sha256": "eec873b6cd70ed9bd15d0805bd4542b7156923e97c4f32aa5ef9fb69a7210011",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://grwwb.gujarat.gov.in/insurance-scheme.htm",
+      "title": "Accident Group Insurance Scheme| Schemes | Gujarat Rural Workers Welfare Board",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/9b64f9b2083baffe60b3af3f808e587f98d447f4.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 3757,
+      "sha256": "946c9dc429963d0ad5a38fe6e5d5840bcf24474b9c1c656eafed7787cf067981",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://grwwb.gujarat.gov.in/professional-yojana.htm",
+      "title": "Financial Assistance for Self Employed Labours",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/a7ce7dd846856c4349323ff7f9fcad8b8868bb31.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 9934,
+      "sha256": "18de0335091ade6c23ce840c36bd674e6ab9a8673375ba366bf5006b1a378fea",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://gsbb.gujarat.gov.in/access-benefit-sharing-abs.htm",
+      "title": "Access & Benefit Sharing (ABS) | Activities | Gujarat Biodiversity Board",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/e0cc234eb940a49a22eda2af7427842cf9849134.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 6100,
+      "sha256": "6d0c448a07e75108f3c6dc52bb0da7dbb9493f7af56c736f6c454ad1b05abe1b",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://gscps.gujarat.gov.in/Home/Guidelines",
+      "title": "Gujarat State Child Protection Society",
+      "sourceType": "GUIDELINE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/f8353532adf7b54bd1a264b79c90bb65c4238813.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 4437,
+      "sha256": "885515cc07926ecbd93b6312d00ac0e587f5fd177b6652ed6b5591cd01b36727",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://gscuc.gujarat.gov.in/Pages/Contents/education-scheme",
+      "title": "Education Scheme | Gujarat State Commission for Unreserved Classes",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/d22ee1190fd8ee12d2b0cf8613ba38fdc5631374.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 7327,
+      "sha256": "52613683dad1f7e2dce9d13c38f9fa44d6ee80162329226132e2a4a73c1b575b",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://gscuc.gujarat.gov.in/Pages/Contents/foreign-education-scheme",
+      "title": "Foreign Education Scheme | Gujarat State Commission for Unreserved Classes",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/fcc68130b8a974b5f6123e367dd5a13f11e21ae3.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 4669,
+      "sha256": "9893cd407243ce31e156f6406cf8e4e0ab46e3f1b4d4a61ba7a483af8116d53d",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://gscuc.gujarat.gov.in/Pages/Contents/govtschemes",
+      "title": "Govt. Schemes | Gujarat State Commission for Unreserved Classes",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/bf34d7da44c92d0b06f9f09857b3db4f94d1e36a.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 8888,
+      "sha256": "dff57ab57e6c9ff3cac2f72c385d46dd8b8aa1c5893bd6210ec9e890a2e6fbd8",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://gscuc.gujarat.gov.in/Pages/Contents/Interest-Help-Scheme-for-All",
+      "title": "Interest Help Scheme for All | Gujarat State Commission for Unreserved Classes",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/75f71600a32a26d1b378457c6cd7f2b9834e7fe9.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2577,
+      "sha256": "af48d2b81d0b2c1908c45f143d7a132b703f86f1d3b47db91ee87cd3215abd30",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://gscuc.gujarat.gov.in/Pages/Contents/self-employment-schemE",
+      "title": "Self Employment Scheme | Gujarat State Commission for Unreserved Classes",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/fefe6bbbe272a6891d426c8f8c7f8ad3dddd7e9f.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 6392,
+      "sha256": "9233723d9ab71e5579bdf2234db6773b4e27eb09c9b7256d34682f67007ebaad",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://gscuc.gujarat.gov.in/Pages/Contents/tution%20help%20scheme",
+      "title": "Tution Help Scheme | Gujarat State Commission for Unreserved Classes",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/917bfed1a27e3e49bef710f1921389c8790c8f8c.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2939,
+      "sha256": "837ce983359cd41d2af56c863339e87feb02b3b3f34a5da44829e29a0494b48a",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://gsem.gujarat.gov.in/Home/GujaratElectronicsPolicy",
+      "title": "Gujarat State Electronics Mission",
+      "sourceType": "PORTAL_HOME",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/2d345548b3a3325fee9653d372be5429b6638e5f.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 3324,
+      "sha256": "48089571120dccdf523d92dd70df5baa10b356c561a769f49c1c981417059835",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://gssp.gujarat.gov.in/",
       "title": "Digital Gujarat Portal - Gujarat State Scholarship Portal",
       "sourceType": "PORTAL_HOME",
@@ -226,6 +1333,118 @@
       "retrievedAt": "2026-08-23T02:58:00+05:30"
     },
     {
+      "url": "https://gueedc.gujarat.gov.in/self-employment-scheme-3.html",
+      "title": "GUEEDC",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/98884ff5f9447ae3bd5bc8c471ffa98d12c4acdc.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 7000,
+      "sha256": "ec8a003f0f58bc4728fb4660ba552c40bea28f1447b575332e2d238d18d92bac",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://guj-epd.gujarat.gov.in/Home/BlogDetailsPage/53",
+      "title": "Energy and Petrochemicals Department",
+      "sourceType": "PORTAL_HOME",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/dffa8870fd1e04f74d628cff766752c4f3ad3b78.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2783,
+      "sha256": "80a6bf54b6636bfe235c9c526bb335f7307fa90d15c50ac6896d3ee68489ecab",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://gvc.org.in/webcontroller/clickmenu/MTYyMDU3OTYw",
+      "title": "Gujarat Veterinary Council",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "district-certificates"
+      ],
+      "cacheFile": ".ingest/pages/b95bad3f5be2e576e7e3596be3a49062b2d9efb2.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 4666,
+      "sha256": "56a88513ddc850e8c48752ccaca91ec048e4dc02268bf203e8157837182c4f23",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://gvc.org.in/webcontroller/members/40",
+      "title": "Gujarat Veterinary Council",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/16b5f493e686a6de377169caaf4ce6fd1738e796.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2413,
+      "sha256": "514b30e619eaa169c914dfc31ea2ceffbc9e3d7d40f167cd3fee0d1eaaac5eb2",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://gvc.org.in/webcontroller/members/710",
+      "title": "Gujarat Veterinary Council",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "district-certificates"
+      ],
+      "cacheFile": ".ingest/pages/268c6a48bdd48ccec19a171e983ea5d0a0300fdd.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2408,
+      "sha256": "94f48b8e5735675164a60b95fb1c671296bea185b5dd60e417357c15fb7053de",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://kcg.gujarat.gov.in/gu/namo-e-tablet-scheme",
+      "title": "નમો ઇ-ટેબ્લેટ યોજના | નોલેજ કોન્સોર્ટીયમ ઓફ ગુજરાતની સત્તાવાર વેબસાઇટ, ગુજરાત સરકાર, ભારત.",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/4a2daf6e38a4469c75e7b9889cf35912815f8af1.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 9596,
+      "sha256": "61d328632e310d53fd8ca1556494ed2f47cfd3aabedf3881444fc36e0f86528f",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://kcg.gujarat.gov.in/namo-e-tablet-scheme",
+      "title": "NAMO E-Tablet Scheme | The Official Website of Knowledge Consortium Of Gujarat, Gujarat Government, India.",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/8d1f46ab58f2eba616984e4ad0fff088ed90a753.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 4077,
+      "sha256": "253d83d988ef6c12a8ddda1918d03a6ceded379ff857d7d72923e613e31c15f5",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://kcg.gujarat.gov.in/rusa-rashtriya-uchchatar-shiksha-abhiyan",
+      "title": "RUSA- Rashtriya Uchchatar Shiksha Abhiyan | The Official Website of Knowledge Consortium Of Gujarat, Gujarat Government, India.",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/950d066e07a49a3d6394840fb14d173983f92611.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14333,
+      "sha256": "e22d15a2fb8cedc5d98e1a26a574be40ffac17db532f1b81a768a4f93a490a48",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://mahesana.nic.in/service/regarding-getting-a-widow-and-income-certificate",
       "title": "Regarding obtaining widow and income certificates | District Mahesana",
       "sourceType": "SERVICE_PAGE",
@@ -238,6 +1457,20 @@
       "bytes": 1553,
       "sha256": "c6d669099e7bbd677f23591b40d37e4e835e7058f20dcca194b44d74a55b8c51",
       "retrievedAt": "2026-08-23T02:45:00Z"
+    },
+    {
+      "url": "https://misbocwwb.gujarat.gov.in/registrationform",
+      "title": "ગુજરાત મકાન અને અન્ય બાંધકામ શ્રમયોગી કલ્યાણ બોર્ડ",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/519cf6979a7f7e5522181e57b593d7eb94d1e565.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2108,
+      "sha256": "f73e02b6ca881581fbbe0d8e893883923b91d7eeba79c58c1f0837e8bdc80958",
+      "retrievedAt": "2026-08-23"
     },
     {
       "url": "https://morbi.nic.in/service-category/certificates",
@@ -280,6 +1513,20 @@
       "bytes": 935,
       "sha256": "735bc38a085f60e20eb43644045d7e94005bb3f7e9ac94cb5eafd4029311719d",
       "retrievedAt": "2026-08-23T02:45:00Z"
+    },
+    {
+      "url": "https://msmec.gujarat.gov.in/incentivescheme",
+      "title": "Incentive Schemes | MSME Gujarat",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/400e2076e71688265c633989b19d9b09fb97e789.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 10663,
+      "sha256": "b2032ff8de326e21562776d090a5306f50f0bcfbf42401f1b17380179b9bcb2a",
+      "retrievedAt": "2026-08-23"
     },
     {
       "url": "https://nsap.nic.in/circular.do?method=aboutus",
@@ -688,6 +1935,76 @@
       "retrievedAt": "2026-08-23T02:50:00Z"
     },
     {
+      "url": "https://sycd.gujarat.gov.in/scheme-state-mountain-climbing.htm",
+      "title": "રાજય પર્વતારોહણ પારિતોષિક યોજના | Sports, Youth & Cultural Activities Department, Government of Gujarat",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/557d10bf1d683a77278cb9a5988332ee3f61d5cc.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 7920,
+      "sha256": "fb81b81b71a467ca045bb5123d879780719cbfd18336d4880cc9030d74559f16",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://sycd.gujarat.gov.in/shaktidoot-scheme-guj.htm",
+      "title": "શક્તિદૂત યોજના | રમતગમત, યુવા અને સાંસ્કૃતિક પ્રવૃતિઓ વિભાગ, ગુજરાત સરકાર",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/a08f444b581386249f5eb7c010170871cd1cff1e.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 21404,
+      "sha256": "b8713507d028455ee70307050496db3c4acecfaa5b9bb9086fbe4f6f70193bd1",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://sycd.gujarat.gov.in/shaktidoot-scheme.htm",
+      "title": "Shaktidoot Scheme | Sports, Youth & Cultural Activities Department, Government of Gujarat",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/3927ada406cd746c3e0ae74d4b17885284105910.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15508,
+      "sha256": "eed4a00ad186187f2735bd2b4bb656f2ec7515f871bbe3e8a5d6fc1653c45f71",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://townplanning.gujarat.gov.in/DPIFC",
+      "title": "DPIFC | Development Permission Investors Facilitation Cell — Single Page (Temporary)",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/f84364f0621709a94f6441c067c84d3fa1f3df9f.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16457,
+      "sha256": "836066cf5df66ea7e36b9aa7fd3a62cd64364e35d6dc607751461f6ba15060e1",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://tribal.gujarat.gov.in/goi-guidelines",
+      "title": "GoI Guidelines | Special Central Assistance | Centrally Sponsored Schemes | Program & Schemes | Tribal Development Department",
+      "sourceType": "GUIDELINE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/4e41c1ee3efba31002fa139b8ef5d823f132b517.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 6652,
+      "sha256": "dadddf7889cdff3d91d07fa59718130c2ec2a01881ec3d5cc52515cd55b21a13",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://unifiedportal-mem.epfindia.gov.in/memberinterface",
       "title": "EPFO Member e-SEWA (Member Interface, Unified Portal)",
       "sourceType": "PORTAL_HOME",
@@ -714,6 +2031,34 @@
       "bytes": 753,
       "sha256": "3495f2ac7efd7ba29e0ba42dba82c4486315ea91a052accde868e8ea2d5542d1",
       "retrievedAt": "2026-08-23T03:00:00Z"
+    },
+    {
+      "url": "https://vmc.gov.in/faqs.aspx",
+      "title": "Vadodara Municipal Corporation",
+      "sourceType": "FAQ",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/a299a14d5099e70bcf5e4470042ef112c570e6b5.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 11357,
+      "sha256": "ce8a259fd30547263a96c0639d750eb6dd4df1e1872ce73393047cba12071ace",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://wcd.gujarat.gov.in/b1branch",
+      "title": "WCD",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/3762e028def023df38b04d7104e26365fc830d8a.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 143955,
+      "sha256": "8c1d9ab63887530ca9e0da0e841bdba332037f1d8cfafa46b9ad468a1fe82ace",
+      "retrievedAt": "2026-08-23"
     },
     {
       "url": "https://wcd.gujarat.gov.in/contact",
@@ -924,6 +2269,20 @@
       "bytes": 38428,
       "sha256": "0cec4ead88c9ee1a8c9b4025a3e1574a0aaf91001ef73b4f6a18bba49abf4303",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
+    },
+    {
+      "url": "https://www.gidc.gujarat.gov.in/Pages/Contents/application-for-water-connection",
+      "title": "GIDC",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/ddfe75bb179b1c2f573bc35e16488dc18090a7a9.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 3668,
+      "sha256": "de8da32bed250db5ce6fbaa5d8e0ba19a21dbbfeb9ae43bbbd4d8f913321d7cc",
+      "retrievedAt": "2026-08-23"
     },
     {
       "url": "https://www.myscheme.gov.in/schemes/gspsg",

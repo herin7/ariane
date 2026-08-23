@@ -61,6 +61,23 @@ function tokenise(text: string): string[] {
  */
 const FLOOR = 0.3;
 
+/**
+ * How much of the service's own name the query has to account for.
+ *
+ * FLOOR alone only asks whether the query was used up, which stops being
+ * evidence once the graph is large. "passport renewal appointment" scores 0.33
+ * against "Gujarat Veterinary Council registration and renewal", because one
+ * word of three matched, and 0.33 is a passing grade. It matched "renewal". A
+ * citizen asking about a passport is not asking about a veterinary council.
+ *
+ * So the service has to be accounted for too, measured against its best single
+ * phrase rather than the union of its aliases: a service with nine aliases is
+ * not harder to name than one with two, and dividing by the union would punish
+ * it for being well described. Half of one phrase is the bar. "driving licence"
+ * is fully covered; one word of five is not.
+ */
+const NAMED = 0.5;
+
 export function resolveIntent(data: GraphData, text: string, limit = 5): IntentMatch[] {
   const query = tokenise(text);
   if (!query.length) return [];
@@ -70,7 +87,7 @@ export function resolveIntent(data: GraphData, text: string, limit = 5): IntentM
     if (node.type !== "SERVICE") continue;
     const scored = score(node, query);
     const confidence = Math.min(1, scored.score / query.length);
-    if (confidence >= FLOOR) {
+    if (confidence >= FLOOR && scored.named >= NAMED) {
       matches.push({
         goal: node.id,
         name: node.name,
@@ -85,8 +102,8 @@ export function resolveIntent(data: GraphData, text: string, limit = 5): IntentM
   return matches.slice(0, limit);
 }
 
-function score(node: GraphNode, query: string[]): { score: number; hits: string[] } {
-  const phrases = [node.name, node.officialName ?? "", ...(node.aliases ?? [])].map((p) => p.toLowerCase());
+function score(node: GraphNode, query: string[]): { score: number; hits: string[]; named: number } {
+  const phrases = [node.name, node.officialName ?? "", ...(node.aliases ?? [])].map((p) => p.toLowerCase()).filter(Boolean);
   const vocabulary = new Set(phrases.flatMap(tokenise));
 
   const hits: string[] = [];
@@ -101,5 +118,17 @@ function score(node: GraphNode, query: string[]): { score: number; hits: string[
       hits.push(token);
     }
   }
-  return { score: total, hits };
+
+  // The other half of the question: did the query name this service, or just
+  // brush against a word in it. Best phrase wins, so an obscure long official
+  // name never drags down a service the citizen called by its short one.
+  const asked = new Set(query);
+  let named = 0;
+  for (const phrase of phrases) {
+    const words = tokenise(phrase);
+    if (!words.length) continue;
+    named = Math.max(named, words.filter((w) => asked.has(w)).length / words.length);
+  }
+
+  return { score: total, hits, named };
 }

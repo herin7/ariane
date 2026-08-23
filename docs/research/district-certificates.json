@@ -1,0 +1,1398 @@
+{
+ "journey": "district-certificates",
+ "researchedAt": "2026-08-23",
+ "region": "Gujarat, India",
+ "sources": [
+  {
+   "id": "src:b95bad3f5be2",
+   "url": "https://gvc.org.in/webcontroller/clickmenu/MTYyMDU3OTYw",
+   "title": "Gujarat Veterinary Council",
+   "domain": "gvc.org.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "56a88513ddc850e8c48752ccaca91ec048e4dc02268bf203e8157837182c4f23",
+   "cacheFile": ".ingest/pages/b95bad3f5be2e576e7e3596be3a49062b2d9efb2.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:268c6a48bdd4",
+   "url": "https://gvc.org.in/webcontroller/members/710",
+   "title": "Gujarat Veterinary Council",
+   "domain": "gvc.org.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "94f48b8e5735675164a60b95fb1c671296bea185b5dd60e417357c15fb7053de",
+   "cacheFile": ".ingest/pages/268c6a48bdd48ccec19a171e983ea5d0a0300fdd.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:02558b8797df",
+   "url": "https://collectorkheda.gujarat.gov.in/varshai-app-form-47",
+   "title": "વારસાઈ પ્રમાણપત્ર આપવા બાબત | Certificate | Jan Seva Kendra form | Collectorate - District Kheda",
+   "domain": "collectorkheda.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-KHEDA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "6032ff67253176c2f65c2642a51e941462918f4d057c567b4243283d145eec73",
+   "cacheFile": ".ingest/pages/02558b8797dfe77372bb7b5056723b199938d4c2.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:75df169cf632",
+   "url": "https://ahmedabad.gujarat.gov.in/Unreserved-Class-Certificate",
+   "title": "બીનઅનામત વર્ગનું જાતિનું પ્રમાણપત્ર મેળવવા બાબત | Certificate | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
+   "domain": "ahmedabad.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "1b986637c66c410a5bcaebe5b3cc261986f99062a7518a905adc2a5c2eabc1d4",
+   "cacheFile": ".ingest/pages/75df169cf632f39b743d9fd8c3ad7c0f47b33229.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:5c9f24f67a98",
+   "url": "https://collectorgandhinagar.gujarat.gov.in/salary-certificate",
+   "title": "આવક અંગેનું પ્રમાણપત્ર મેળવવા બાબત | Certificate | Jan Seva Kendra form | Collectorate - District Gandhinagar",
+   "domain": "collectorgandhinagar.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-GANDHINAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "fd9de7bc8c478222b445fb9b3b57b025c4a432b5d4fcd517d4165304f6f1c3a4",
+   "cacheFile": ".ingest/pages/5c9f24f67a9867e17c2bcf0b6d4accdda052c704.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:119c5e4a63b6",
+   "url": "https://ahmedabad.gujarat.gov.in/religion-and-lunguages-certificate",
+   "title": "ધાર્મિક અને ભાષાકીય લઘુમતી અંગેનું પ્રમાણપત્ર મેળવવા બાબત | Certificate | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
+   "domain": "ahmedabad.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "4445fd23fb2a35cd23aacb13a4551eeb3fea9508fedd35e1ce38d90ab19a8b62",
+   "cacheFile": ".ingest/pages/119c5e4a63b601ec3d59107491ae2effb6abc0ab.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:517e00ce5909",
+   "url": "https://collectorjamnagar.gujarat.gov.in/education-nationality-certificate",
+   "title": "શૈક્ષણિક હેતુ માટે નેશનાલીટી સર્ટીફીકેટ મેળવવા બાબત | Miscellaneous | Jan Seva Kendra Form | Collectorate - District Jamnagar",
+   "domain": "collectorjamnagar.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-JAMNAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d3c032698b056966244f8019996388af4c7f45bbd85ccb6b8c5d36d86b3e8207",
+   "cacheFile": ".ingest/pages/517e00ce5909be35713cecca4dd8944f81c49530.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:fa4073ea12cb",
+   "url": "https://ahmedabad.gujarat.gov.in/residential-certificate",
+   "title": "રહેઠાણ અંગેનું પ્રમાણપત્ર મેળવવા બાબત | Certificate | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
+   "domain": "ahmedabad.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "10b29ec6ae6daeeb6de29d3d528af7649712f4ee9f905857159ee608d33fcd3f",
+   "cacheFile": ".ingest/pages/fa4073ea12cb11177fa12c44da42b3d86262ba38.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:b55b2acd832b",
+   "url": "https://ahmedabad.gujarat.gov.in/farmer-khatedar-dakhlo",
+   "title": "ખેડુત ખાતેદાર હોવા અંગેનો દાખલો મેળવવા બાબત | Revenue | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
+   "domain": "ahmedabad.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "be46b4088c447c0117ad6b6073a069b6ed0ce53171687decb3001a74155e9825",
+   "cacheFile": ".ingest/pages/b55b2acd832b0d2cd7a35d26032f9ff4ee74c8a0.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:0543004fcb52",
+   "url": "https://collectorjamnagar.gujarat.gov.in/sogandnamu-efidevit",
+   "title": "સોગંદનામું (એફીડેવીટ) | Miscellaneous | Jan Seva Kendra Form | Collectorate - District Jamnagar",
+   "domain": "collectorjamnagar.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-JAMNAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "4df8c17bee18fc1b98502113945b7e89513090ed34cf3076046dca3c22ea7d78",
+   "cacheFile": ".ingest/pages/0543004fcb521801f11b8b006047f07a0d00346e.md",
+   "scrapedOk": true
+  }
+ ],
+ "facts": [
+  {
+   "claim": "A certificate of registration is issued on payment of a fee not exceeding 115 rupees.",
+   "kind": "FEE",
+   "subject": "certificate_of_registration",
+   "object": "fee",
+   "detail": {
+    "amount": "115",
+    "currency": "INR"
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "This behalf in such form and in such manner and on payment of such fees, not exceeding One Hundred fifteen rupees",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A duplicate certificate of registration is issued on payment of a fee not exceeding 110 rupees.",
+   "kind": "FEE",
+   "subject": "duplicate_certificate_of_registration",
+   "object": "fee",
+   "detail": {
+    "amount": "110",
+    "currency": "INR"
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Where it is shown to the satisfaction of the Secretary of the Council that a certificate of registration has been lost or destroyed,the Secretary may, on payment of such fees, not exceeding One Hundred ten rupees (i.e. included administrative charges of Rs.100/-), as may be specified by regulations, issue a duplicate certificate in such form as may be specified in the regulations.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An application form or printout from an online filled application is required for registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "registration",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Application Form or print out from online filled application.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An attested photocopy of the B.V.Sc. & A.H. degree certificate is required for registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "registration",
+   "object": "degree_certificate",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Attested photocopies of Degree (B.V.Sc. & A.H.) Certificate.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Two self-attested passport size photographs are required for registration if not applied online.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "registration",
+   "object": "passport_size_photographs",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Two Self Attested(Back side) Passport size Photograph (Pl.Do Not stapled) if not applied online.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Any one proof of date of birth is required for registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "registration",
+   "object": "date_of_birth_proof",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Any one proof for Date of Birth i.e. L.C./SSCE Certificate/Driving licence/ Passport etc.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An address proof is required for registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "registration",
+   "object": "address_proof",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Address Proof.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Renewal of registration is compulsory every five years as per the IVC Act, 1984.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "registration",
+   "object": "renewal",
+   "detail": {
+    "days": "1825"
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "As per the provisions of IVC Act. 1984 renewal of registration every five years is compulsory; otherwise registration is liable for cancellation.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Provisional registration is issued to graduates who have completed their academic requirements for the degree course.",
+   "kind": "ELIGIBILITY",
+   "subject": "provisional_registration",
+   "object": "graduate",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "The state Council shall issue provisional registration certificate in Form-XXIV to such graduates who have completed their academic requirements for the degree course.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Every graduate must get provisional registration before undergoing internship training.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "internship_training",
+   "object": "provisional_registration",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Every graduate is required to get himself/herself registered provisionally before being allowed to undergo internship training for the prescribed period.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Provisional registration is limited only for the internship training.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "provisional_registration",
+   "object": "internship_training",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "The provisional registration shall be limited only for the internship training.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Graduates must apply for provisional registration on the prescribed Form-XXII through the Dean/Principal of the Veterinary College.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "provisional_registration",
+   "object": "form_xxii",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Every Graduate shall be required to apply for the provisional registration on the prescribed Form-XXII through the Dean/Principal of the Veterinary College concerned from where he/she completed academic course.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "On completion of internship training, graduates must apply for permanent registration and surrender their provisional certificate.",
+   "kind": "ACTION",
+   "subject": "permanent_registration",
+   "object": "provisional_certificate",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "On completion of internship training, every graduate shall apply for permanent registration and shall surrender his/her provisional certificate along with application for registration to the State Council.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A final certificate of registration is issued to veterinarians who were registered at the council before the year 2007 on payment of a fee of 150 rupees.",
+   "kind": "FEE",
+   "subject": "final_certificate_of_registration",
+   "object": "fee",
+   "detail": {
+    "amount": "150",
+    "currency": "INR"
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Application on payment of fees of Rupees One Hundred Fifty only (i.e. included administrative charges of Rs.100/- and I-card Charge Rs.25/-) with any other dues i.e. Renewal Fees only.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The original registration certificate must be submitted to the council for getting a new registration certificate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "new_registration_certificate",
+   "object": "original_registration_certificate",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Original Registration Certificate should be submitted to council for getting new Registration Certificate.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An attested photocopy of the B.V.Sc. & A.H. degree certificate is required for the final certificate of registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "final_certificate_of_registration",
+   "object": "degree_certificate",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Attested photocopies of Degree (B.V.Sc. & A.H.) Certificate",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An additional degree certificate self-attested copy is required for the final certificate of registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "final_certificate_of_registration",
+   "object": "additional_degree_certificate",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Additional Degree certificate self attested copy",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Gujarat Veterinary Council is located at Block No. 14/1, Jivraj Mehta Bhavan, Sector 10/B, Gandhinagar, Gujarat-382010.",
+   "kind": "OFFICE",
+   "subject": "gujarat_veterinary_council",
+   "object": "office_address",
+   "detail": {
+    "address": "Block No. 14/1, Jivraj Mehta Bhavan, Sector 10/B, Gandhinagar, Gujarat-382010."
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "GUJARAT VETERINARY COUNCIL BLOCK NO. 14/1, JIVRAJ MEHTA BHAVAN, SECTOR 10/B, GANDHINAGAR, GUJARAT-382010.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The contact email for the Gujarat Veterinary Council is registrar@gvc.org.in.",
+   "kind": "HELPLINE",
+   "subject": "gujarat_veterinary_council",
+   "object": "email",
+   "detail": {
+    "email": "registrar@gvc.org.in"
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": ": registrar@gvc.org.in",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Members of the Gujarat Veterinary Council must pay for renewal to maintain their registration status.",
+   "kind": "ACTION",
+   "subject": "gvc_member",
+   "object": "renewal_payment",
+   "detail": {},
+   "sourceId": "src:268c6a48bdd4",
+   "evidence": "Pay for renewal",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides downloadable application forms for registration and related processes.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "application_form",
+   "detail": {
+    "url": "https://gvc.org.in/webcontroller/members/710"
+   },
+   "sourceId": "src:268c6a48bdd4",
+   "evidence": "Application Form for GVC registration",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides downloadable application forms for adding qualifications or obtaining duplicate certificates.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "qualification_add_form",
+   "detail": {
+    "url": "https://gvc.org.in/webcontroller/members/710"
+   },
+   "sourceId": "src:268c6a48bdd4",
+   "evidence": "Application Form for Qualification Add/ Duplicate Certificate",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides downloadable forms for submitting complaints against registered veterinary practitioners.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "complaint_form_registered",
+   "detail": {
+    "url": "https://gvc.org.in/webcontroller/members/710"
+   },
+   "sourceId": "src:268c6a48bdd4",
+   "evidence": "Form for Complaint against Registered Veterinary Practitioner",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides downloadable forms for submitting complaints against unregistered veterinary practitioners or quacks.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "complaint_form_unregistered",
+   "detail": {
+    "url": "https://gvc.org.in/webcontroller/members/710"
+   },
+   "sourceId": "src:268c6a48bdd4",
+   "evidence": "Form for Complaint against Unregistered Veterinary Practitioner/quacks",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides a downloadable e-gazette of the Gujarat Society for the Prevention of Cruelty to Animals (GSVPR) up to December 2020.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "e_gazette_gsvpr",
+   "detail": {
+    "url": "https://gvc.org.in/webcontroller/members/710"
+   },
+   "sourceId": "src:268c6a48bdd4",
+   "evidence": "e-gazette of GSVPR (Up to Dec 2020)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides a downloadable revised application format for NOC/Transfer applicable from 1st November 2021.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "noc_transfer_form",
+   "detail": {
+    "url": "https://gvc.org.in/webcontroller/members/710"
+   },
+   "sourceId": "src:268c6a48bdd4",
+   "evidence": "Revised Application Format for NOC_Transfer (Applicable from 1st November 2021)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides a downloadable sample format of the GVC Registration Certificate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "registration_certificate_sample",
+   "detail": {
+    "url": "https://gvc.org.in/webcontroller/members/710"
+   },
+   "sourceId": "src:268c6a48bdd4",
+   "evidence": "Sample Format of GVC Registration Certificate",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides a downloadable application form for registration transfer to the Veterinary Council of India (VCI).",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "vci_registration_transfer_form",
+   "detail": {
+    "url": "https://gvc.org.in/webcontroller/members/710"
+   },
+   "sourceId": "src:268c6a48bdd4",
+   "evidence": "For Apply in VCI_registrationTransfer_form",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides a downloadable application form for Loss of Stamped Certificate (LOS) or Bonafide Certificate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "los_bonafide_form",
+   "detail": {
+    "url": "https://gvc.org.in/webcontroller/members/710"
+   },
+   "sourceId": "src:268c6a48bdd4",
+   "evidence": "Application Form for LOS/ Bonafied",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides a downloadable application form for NOC, which is only for provisional registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "noc_form",
+   "detail": {
+    "url": "https://gvc.org.in/webcontroller/members/710"
+   },
+   "sourceId": "src:268c6a48bdd4",
+   "evidence": "Application Form for NOC (only for Pro.Regi)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides downloadable circulars regarding registration and renewal processes.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "registration_renewal_circular",
+   "detail": {
+    "url": "https://gvc.org.in/webcontroller/members/710"
+   },
+   "sourceId": "src:268c6a48bdd4",
+   "evidence": "Circular of GVC Regarding Registration/Renewal, Dated: 06-05-2015",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides downloadable circulars regarding the publication of registration certificates.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "regi_certificate_circular",
+   "detail": {
+    "url": "https://gvc.org.in/webcontroller/members/710"
+   },
+   "sourceId": "src:268c6a48bdd4",
+   "evidence": "Circular of GVC Regarding Publish of Regi. Certificate, Dated: 3-2-2015",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides downloadable letters to veterinary colleges regarding registration and renewal processes.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "letter_to_vet_college",
+   "detail": {
+    "url": "https://gvc.org.in/webcontroller/members/710"
+   },
+   "sourceId": "src:268c6a48bdd4",
+   "evidence": "Letter to Vet.College for Registration/Renewal, Dated: 16-04-2015",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides downloadable circulars from the Junagadh Agricultural University (JAU) regarding registration and renewal processes.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "jau_circular",
+   "detail": {
+    "url": "https://gvc.org.in/webcontroller/members/710"
+   },
+   "sourceId": "src:268c6a48bdd4",
+   "evidence": "Circular of JAU Regarding Registration/Renewal At GVC",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides downloadable circulars from the Sher-e-Kashmir University of Agricultural Sciences and Technology (SKAU) regarding registration and renewal processes.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "skau_circular",
+   "detail": {
+    "url": "https://gvc.org.in/webcontroller/members/710"
+   },
+   "sourceId": "src:268c6a48bdd4",
+   "evidence": "Circular of SDAU Regarding Registration/Renewal At GVC",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council provides a downloadable Veterinarian's Oath.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "gvc",
+   "object": "veterinarian_oath",
+   "detail": {
+    "url": "https://gvc.org.in/webcontroller/members/710"
+   },
+   "sourceId": "src:268c6a48bdd4",
+   "evidence": "Veterinarian's Oath",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Veterinary Council is located at Block No. 14/1, Jivraj Mehta Bhavan, Sector 10/B, Gandhinagar, Gujarat-382010.",
+   "kind": "OFFICE",
+   "subject": "gvc",
+   "object": "office_address",
+   "detail": {
+    "address": "BLOCK NO. 14/1, JIVRAJ MEHTA BHAVAN, SECTOR 10/B, GANDHINAGAR, GUJARAT-382010."
+   },
+   "sourceId": "src:268c6a48bdd4",
+   "evidence": "GUJARAT VETERINARY COUNCIL BLOCK NO. 14/1, JIVRAJ MEHTA BHAVAN, SECTOR 10/B, GANDHINAGAR, GUJARAT-382010.",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact email for the Gujarat Veterinary Council is registrar@gvc.org.in.",
+   "kind": "HELPLINE",
+   "subject": "gvc",
+   "object": "contact_email",
+   "detail": {
+    "email": "registrar@gvc.org.in"
+   },
+   "sourceId": "src:268c6a48bdd4",
+   "evidence": ": registrar@gvc.org.in",
+   "confidence": 1
+  },
+  {
+   "claim": "The application must be submitted by the legal lineal heir of the deceased pensioner.",
+   "kind": "ELIGIBILITY",
+   "subject": "application_submission",
+   "object": "legal_lineal_heir",
+   "detail": {},
+   "sourceId": "src:02558b8797df",
+   "evidence": "હું કઈ રીતે વારસાઈ પ્રમાણપત્ર આપવા મંજુરી મેળવી શકું? સ્વ.પેન્શનરના કાયદેસર સીધી લીટીના વારસદાર આવી",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application form is available for download.",
+   "kind": "ACTION",
+   "subject": "application_form",
+   "object": "available_for_download",
+   "detail": {
+    "file_size": "57 KB"
+   },
+   "sourceId": "src:02558b8797df",
+   "evidence": "એપ્લીકેશન ફોર્મ [File Size : 57 KB] [Gujarati]",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The processing time for the application is 60 days.",
+   "kind": "TIMELINE",
+   "subject": "application_processing",
+   "object": "60_days",
+   "detail": {
+    "days": "60"
+   },
+   "sourceId": "src:02558b8797df",
+   "evidence": "નિકાલની સમય મર્યાદા કુલ ૬૦ દિવસ.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Certified copies of documents are required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "document_submission",
+   "object": "certified_copies",
+   "detail": {},
+   "sourceId": "src:02558b8797df",
+   "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "An affidavit regarding the renunciation of the heirs' rights is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "document_submission",
+   "object": "affidavit_renunciation",
+   "detail": {},
+   "sourceId": "src:02558b8797df",
+   "evidence": "વારસદારોનો હક્ક જતો કરવાની એફીડેવીટ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A personal response regarding the renunciation of the heirs' rights is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "document_submission",
+   "object": "personal_response_renunciation",
+   "detail": {},
+   "sourceId": "src:02558b8797df",
+   "evidence": "વારસદારોનો હક્ક જતો કરવા સંબંધે રૂબરૂ જવાબ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A panchanama (as per Appendix-4/47) is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "document_submission",
+   "object": "panchanama",
+   "detail": {
+    "reference": "Appendix-4/47"
+   },
+   "sourceId": "src:02558b8797df",
+   "evidence": "પંચનામુ (પરિશિષ્ટ–૪ /૪૭ મુજબ)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A pedigree (provided by the Talati) is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "document_submission",
+   "object": "pedigree",
+   "detail": {
+    "issuer": "Talati"
+   },
+   "sourceId": "src:02558b8797df",
+   "evidence": "પેઢીનામુ (તલાટીશ્રી દ્બારા આપવામાં આવેલ)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A certified copy of the deceased pensioner's death certificate is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "document_submission",
+   "object": "death_certificate",
+   "detail": {},
+   "sourceId": "src:02558b8797df",
+   "evidence": "સ્વ. પેન્શનરનો મરણનો દાખલો",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A certified copy of the pension payment office's letter is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "document_submission",
+   "object": "pension_payment_office_letter",
+   "detail": {},
+   "sourceId": "src:02558b8797df",
+   "evidence": "પેન્શન ચુકવણા કચેરીના પત્રની પ્રમાણિત નકલ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A certified copy of the ration card is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "document_submission",
+   "object": "ration_card",
+   "detail": {},
+   "sourceId": "src:02558b8797df",
+   "evidence": "રેશનકાર્ડની નકલ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "An online application can be submitted through Digital Gujarat.",
+   "kind": "CHANNEL",
+   "subject": "application_submission",
+   "object": "digital_gujarat",
+   "detail": {
+    "url": "Digital Gujarat"
+   },
+   "sourceId": "src:02558b8797df",
+   "evidence": "Click here for online application on Digital Gujarat",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The application can be submitted at the Jan Seva Kendra, Kheda.",
+   "kind": "OFFICE",
+   "subject": "application_submission",
+   "object": "jan_seva_kendra_kheda",
+   "detail": {
+    "address": "Ayojan Bhavan Building, Subhash Nagar, Nadiad, Dist : Kheda, Gujarat - 387001",
+    "hours": "8:30 A.M To 5:30 A.M"
+   },
+   "sourceId": "src:02558b8797df",
+   "evidence": "Jan Seva Kendra, Kheda District Collector Office Ayojan Bhavan Building, Subhash Nagar, Nadiad, Dist : Kheda, Gujarat - 387001 8:30 A.M To 5:30 A.M",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The processing time for the certificate is 1 day.",
+   "kind": "TIMELINE",
+   "subject": "processing_time",
+   "object": "certificate",
+   "detail": {
+    "days": "1"
+   },
+   "sourceId": "src:75df169cf632",
+   "evidence": "નિકાલની સમય મર્યાદા કુલ ૧ દિવસ.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An application must be submitted to the Collector, Assistant Collector, Deputy Collector, District Development Officer, Deputy District Development Officer, Mamlatdar, or Taluka Development Officer.",
+   "kind": "OFFICE",
+   "subject": "application_submission",
+   "object": "collector_office",
+   "detail": {
+    "office_name": "Collector / Assistant Collector / Deputy Collector / District Development Officer / Deputy District Development Officer / Mamlatdar / Taluka Development Officer"
+   },
+   "sourceId": "src:75df169cf632",
+   "evidence": "હું કઈ રીતે બીનઅનામત વર્ગનું જાતિનું પ્રમાણપત્ર મેળવી શકું? કલેક્ટરશ્રી / મદદનીશ કલેક્ટરશ્રી / નાયબ કલેક્ટરશ્રી/જીલ્લા વિકાસ અધિકારીશ્રી / નાયબ જીલ્લા વિકાસ અધિકારીશ્રી/મામલતદારશ્રી/તાલુકા વિકાસ અધિકારીશ્રી/ જીલ્લા નાયબ નિયામકશ્રી (વિ.જા.) / જીલ્લા સમાજ કલ્યાણ અધિકારીશ્રી (વિ.જા.) ને સામાજિક ન્યાય અને અધિકારીતા વિભાગના તા.૩૦/૦૫/૨૦૧૮ ના ઠરાવ ક્ર:સશપ/૧૨૨૦૧૮/૨૧૮૯૨૭/અ ના પરિશિષ્ટ-બ મુજબ અરજી કરવી.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "An application form is available for download.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "certificate",
+   "detail": {
+    "file_size": "2149 KB"
+   },
+   "sourceId": "src:75df169cf632",
+   "evidence": "એપ્લીકેશન ફોર્મ [File Size : 2149 KB] [Gujarati]",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A certified copy of documents is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "document_copy",
+   "object": "certificate",
+   "detail": {},
+   "sourceId": "src:75df169cf632",
+   "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "An affidavit (original) is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "affidavit",
+   "object": "certificate",
+   "detail": {},
+   "sourceId": "src:75df169cf632",
+   "evidence": "સોગંદનામું (અસલ)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Proof of residence is required, which can be a telephone bill, electricity bill, municipal tax bill, driving license, or PAN card.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "residence_proof",
+   "object": "certificate",
+   "detail": {},
+   "sourceId": "src:75df169cf632",
+   "evidence": "રહેઠાણનો પુરાવો (ટેલીફોન બીલ/ લાઈટબીલ/ મ્યુનિ.ટેક્ષ બીલ /ડ્રાઈવીંગ લાયસન્સ/પાન કાર્ડ / મતદાર ફોટો વગેરે ઓળખપત્ર પૈકી ગમે તે એક)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "An Aadhaar card, ration card, or voter ID is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "identity_proof",
+   "object": "certificate",
+   "detail": {},
+   "sourceId": "src:75df169cf632",
+   "evidence": "રેશનકાર્ડ / ચુંટણી કાર્ડ / આધાર કાર્ડ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A school leaving certificate of the applicant is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant_school_certificate",
+   "object": "certificate",
+   "detail": {},
+   "sourceId": "src:75df169cf632",
+   "evidence": "અરજદારનું સ્કુલ લિવિંગ સર્ટીફીકેટ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A school leaving certificate of the applicant's father is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "father_school_certificate",
+   "object": "certificate",
+   "detail": {},
+   "sourceId": "src:75df169cf632",
+   "evidence": "અરજદારના પિતાનું સ્કુલ લિવિંગ સર્ટીફીકેટ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A document proving the caste of the applicant's grandfather, father, or uncle may be requested if needed.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "caste_proving_document",
+   "object": "certificate",
+   "detail": {},
+   "sourceId": "src:75df169cf632",
+   "evidence": "સક્ષમ અધિકારીને જરૂર જણાય ત્યાં દાદા, પિતા, કાકા, ફોઈ પૈકી કોઈ એકનો જાતી પુરવાર થાય તેવો દસ્તાવેજ માગી શકશે.",
+   "confidence": 0.85
+  },
+  {
+   "claim": "Applications can be submitted at the Office of the Collector & District Magistrate in Ahmedabad.",
+   "kind": "OFFICE",
+   "subject": "application_submission",
+   "object": "collector_office",
+   "detail": {
+    "address": "Office of The Collector & District Magistrate, Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027"
+   },
+   "sourceId": "src:75df169cf632",
+   "evidence": "Application Process Jan Seva Kendra Ahmedabad Office of The Collector & District Magistrate Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Applications can be submitted online.",
+   "kind": "CHANNEL",
+   "subject": "application_submission",
+   "object": "online",
+   "detail": {},
+   "sourceId": "src:75df169cf632",
+   "evidence": "ઓનલાઈન અરજી કરો",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must submit a self-attested copy of the documents.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "documents",
+   "detail": {},
+   "sourceId": "src:5c9f24f67a98",
+   "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must provide a form showing details of family members.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "family_details_form",
+   "detail": {},
+   "sourceId": "src:5c9f24f67a98",
+   "evidence": "કુટુંબના સભ્યોની વિગતો દર્શાવતું પત્રક",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must appear in person before the Talati.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "talati",
+   "detail": {},
+   "sourceId": "src:5c9f24f67a98",
+   "evidence": "અરજદારનો તલાટી સમક્ષ રૂબરૂ જવાબ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must provide proof of residence.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "residence_proof",
+   "detail": {},
+   "sourceId": "src:5c9f24f67a98",
+   "evidence": "રહેઠાણ અંગેનું પુરાવો",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must provide the last month's telephone bill, including landline and mobile phone bills.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "telephone_bill",
+   "detail": {},
+   "sourceId": "src:5c9f24f67a98",
+   "evidence": "છેલ્લા માસનું ટેલીફોન બીલ–લેન્ડલાઈન સહિત મોબાઈલ ફોનનાં બીલોની વિગત આપવી",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must provide the last month's electricity bill.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "electricity_bill",
+   "detail": {},
+   "sourceId": "src:5c9f24f67a98",
+   "evidence": "છેલ્લા માસનું લાઈટ બીલ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "If employed, the applicant must provide proof of income.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "application_form",
+   "object": "income_proof",
+   "detail": {},
+   "sourceId": "src:5c9f24f67a98",
+   "evidence": "નોકરી કરતાં હોયતો આવકનો પુરાવો",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must provide proof of business or profession.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "business_proof",
+   "detail": {},
+   "sourceId": "src:5c9f24f67a98",
+   "evidence": "ધંધો/વ્યવસાયના પુરાવા",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must submit a copy of the last year's income statement and income tax return for business or profession.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "income_statement",
+   "detail": {},
+   "sourceId": "src:5c9f24f67a98",
+   "evidence": "ધંધો/વ્યવસાયના આવકના છેલ્લા વર્ષના સરવૈયાની નકલ તથા ઇન્કમટેક્ષની નકલ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The processing time for the certificate is a total of 1 day.",
+   "kind": "TIMELINE",
+   "subject": "certificate",
+   "object": "processing_time",
+   "detail": {
+    "days": "1"
+   },
+   "sourceId": "src:5c9f24f67a98",
+   "evidence": "નિકાલની સમય મર્યાદા કુલ ૧ દિવસ.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The application must be submitted at Jan Seva Kendra, Gandhinagar.",
+   "kind": "OFFICE",
+   "subject": "application_form",
+   "object": "jan_seva_kendra",
+   "detail": {
+    "address": "District Collector Office, District Collector & Jilla Seva Sadan Kacheri, Near Pathika Ashram, GH Road, Sector 11, Gandhinagar, Gujarat - 382017"
+   },
+   "sourceId": "src:5c9f24f67a98",
+   "evidence": "Application Process\nJan Seva Kendra, Gandhinagar\nDistrict Collector Office\nDistrict Collector & Jilla Seva Sadan Kacheri,\nNear Pathika Ashram,\nGH Road, Sector 11,\nGandhinagar,\nGujarat - 382017",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The office hours for the application process are from 10:30 A.M. to 6:10 P.M.",
+   "kind": "TIMELINE",
+   "subject": "application_form",
+   "object": "office_hours",
+   "detail": {
+    "start_time": "10:30 A.M.",
+    "end_time": "6:10 P.M."
+   },
+   "sourceId": "src:5c9f24f67a98",
+   "evidence": "10:30 A.M To 6:10 P.M",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The application form for the certificate is available in Gujarati.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "gujarati_language",
+   "detail": {},
+   "sourceId": "src:119c5e4a63b6",
+   "evidence": "એપ્લીકેશન ફોર્મ [File Size : 45 KB] [Gujarati]",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The total processing time for the certificate is 1 day.",
+   "kind": "TIMELINE",
+   "subject": "processing_time",
+   "object": "certificate_issue",
+   "detail": {
+    "days": "1"
+   },
+   "sourceId": "src:119c5e4a63b6",
+   "evidence": "નિકાલની સમય મર્યાદા કુલ ૧ દિવસ.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A certified copy of documents is required for the application.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "document_copy",
+   "object": "certified",
+   "detail": {},
+   "sourceId": "src:119c5e4a63b6",
+   "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must provide a personal response from the Talati.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "talati_response",
+   "object": "applicant",
+   "detail": {},
+   "sourceId": "src:119c5e4a63b6",
+   "evidence": "અરજદારનો તલાટી રૂબરૂ જવાબ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An affidavit is required for the application.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "affidavit",
+   "object": "application",
+   "detail": {},
+   "sourceId": "src:119c5e4a63b6",
+   "evidence": "પ્રતિજ્ઞાપત્ર",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A document on the school's letterhead regarding religious or linguistic minority is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "school_letterhead",
+   "object": "religious_linguistic_minority",
+   "detail": {},
+   "sourceId": "src:119c5e4a63b6",
+   "evidence": "ધાર્મિક/ ભાષાકીય લઘુમતી અંગેનો શાળાના લેટરપેડ ઉપર દાખલો",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Proof of residence is required for the application.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "residence_proof",
+   "object": "application",
+   "detail": {},
+   "sourceId": "src:119c5e4a63b6",
+   "evidence": "રહેઠાણનો પુરાવો (લાઈટબીલ, મ્યુનિ.ટેક્ષબીલ, ટેલીફોન બીલ વિગેરે પૈકી એક)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Proof of leaving the school is required for the application.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "school_leaving_proof",
+   "object": "application",
+   "detail": {},
+   "sourceId": "src:119c5e4a63b6",
+   "evidence": "શાળા છોડયા અંગેનો દાખલો",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application must be submitted at the Jan Seva Kendra Ahmedabad.",
+   "kind": "OFFICE",
+   "subject": "application_submission",
+   "object": "jan_seva_kendra",
+   "detail": {
+    "address": "Office of The Collector & District Magistrate, Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027"
+   },
+   "sourceId": "src:119c5e4a63b6",
+   "evidence": "Application Process\nJan Seva Kendra Ahmedabad\nOffice of The Collector & District Magistrate\nNear Subhash Bridge Circle,\nR.T.O Ashram Rd, Hridaya Kunj,\nOld Wadaj, Ahmedabad,\nGujarat - 380027",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The office hours for the Jan Seva Kendra Ahmedabad are from 8:30 A.M. to 5:30 P.M.",
+   "kind": "TIMELINE",
+   "subject": "office_hours",
+   "object": "jan_seva_kendra",
+   "detail": {
+    "start_time": "8:30 A.M.",
+    "end_time": "5:30 P.M."
+   },
+   "sourceId": "src:119c5e4a63b6",
+   "evidence": "8:30 A.M To 5:30 P.M",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application process for an education purpose nationality certificate must be submitted to the District Collector Office.",
+   "kind": "OFFICE",
+   "subject": "education_nationality_certificate",
+   "object": "district_collector_office",
+   "detail": {
+    "address": "Jilla Seva Sadan, Sharu Section Road, Jamnagar, Gujarat - 361002"
+   },
+   "sourceId": "src:517e00ce5909",
+   "evidence": "Application Process\nDistrict Collector Office\nJilla Seva Sadan,\nSharu Section Road,\nJamnagar,\nGujarat - 361002",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The processing time for an education purpose nationality certificate is 21 days.",
+   "kind": "TIMELINE",
+   "subject": "education_nationality_certificate",
+   "object": "processing_time",
+   "detail": {
+    "days": "21"
+   },
+   "sourceId": "src:517e00ce5909",
+   "evidence": "નિકાલની સમય મર્યાદા કુલ ૨૧ દિવસ.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A certified copy of a birth certificate or domicile certificate or Indian passport is required for an education purpose nationality certificate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "education_nationality_certificate",
+   "object": "birth_or_domicile_or_passport",
+   "detail": {},
+   "sourceId": "src:517e00ce5909",
+   "evidence": "જન્મના પ્રમાણપત્રની નકલ અથવા ડોમીસાઈલ સર્ટીફીકેટની નકલ અથવા ભારતીય પાસપોર્ટ ની નકલ.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A certified copy of a school living certificate and a parent/guardian's school living certificate is required for an education purpose nationality certificate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "education_nationality_certificate",
+   "object": "school_living_certificate",
+   "detail": {},
+   "sourceId": "src:517e00ce5909",
+   "evidence": "સ્કુલ લિવિંગ સર્ટીફીકેટ નકલ તેમજ માતા/પિતા/વાલીના સ્કુલ લીવીંગ સર્ટી ની નકલ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A certified copy of Class 10 or Class 12 marksheet and certificate is required for an education purpose nationality certificate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "education_nationality_certificate",
+   "object": "class_10_or_12_marksheet",
+   "detail": {},
+   "sourceId": "src:517e00ce5909",
+   "evidence": "ધોરણ–૧૦/ધોરણ–૧ર ની માર્કશીટ તથા સર્ટીફીકેટ ની નકલ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A certified copy of a telephone bill or electricity bill or voter ID or ration card or property tax bill is required for an education purpose nationality certificate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "education_nationality_certificate",
+   "object": "utility_or_tax_or_voter_id",
+   "detail": {},
+   "sourceId": "src:517e00ce5909",
+   "evidence": "ટેલીફોન બીલ અથવા લાઈટબીલની નકલ અથવા મતદાર ઓળખપત્રની નકલ અથવા રેશન કાર્ડની નકલ અથવા કરવેરા માગણી બીલ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A certified copy of an income tax permanent account number (PAN card) is required for an education purpose nationality certificate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "education_nationality_certificate",
+   "object": "pan_card",
+   "detail": {},
+   "sourceId": "src:517e00ce5909",
+   "evidence": "ઈન્કમટેક્ષ પરમેનેન્ટ એકાઉન્ટ નંબર (પાનકાર્ડ) ની નકલ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A certified copy of a request letter for submitting a nationality certificate or an admission form/receipt from a related college is required for an education purpose nationality certificate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "education_nationality_certificate",
+   "object": "request_letter_or_admission_form",
+   "detail": {},
+   "sourceId": "src:517e00ce5909",
+   "evidence": "નેશનાલીટી સર્ટીફીકેટ રજુ કરવા જણાવતા માંગણી પત્ર/ સંબંધિત સંસ્થા કોલેજનુ એડમીશન ફોર્મ/રીસીપ્ટની નકલ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The District Collector Office operates from 8:30 A.M. to 5:30 P.M.",
+   "kind": "OFFICE",
+   "subject": "district_collector_office",
+   "object": "operating_hours",
+   "detail": {
+    "hours": "8:30 A.M. To 5:30 P.M."
+   },
+   "sourceId": "src:517e00ce5909",
+   "evidence": "8:30 A.M To 5:30 P.M",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application form for the residential certificate is available in Gujarati.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "residential_certificate",
+   "object": "application_form",
+   "detail": {
+    "file_size": "44 KB"
+   },
+   "sourceId": "src:fa4073ea12cb",
+   "evidence": "એપ્લીકેશન ફોર્મ [File Size : 44 KB] [Gujarati]",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The processing time for the residential certificate is a total of 1 day.",
+   "kind": "TIMELINE",
+   "subject": "residential_certificate",
+   "object": "processing_time",
+   "detail": {
+    "days": "1"
+   },
+   "sourceId": "src:fa4073ea12cb",
+   "evidence": "નિકાલની સમય મર્યાદા કુલ ૧ દિવસ.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must provide certified copies of documents.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "residential_certificate",
+   "object": "certified_copies",
+   "detail": {},
+   "sourceId": "src:fa4073ea12cb",
+   "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must provide a personal response.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "residential_certificate",
+   "object": "personal_response",
+   "detail": {},
+   "sourceId": "src:fa4073ea12cb",
+   "evidence": "અરજદારનો રૂબરૂ જવાબ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A copy of the school leaving certificate is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "residential_certificate",
+   "object": "school_leaving_certificate",
+   "detail": {},
+   "sourceId": "src:fa4073ea12cb",
+   "evidence": "શાળા છોડયા અંગેનું પ્રમાણપત્ર",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Proof of residence (such as a light bill, telephone bill, or municipal tax bill) is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "residential_certificate",
+   "object": "proof_of_residence",
+   "detail": {},
+   "sourceId": "src:fa4073ea12cb",
+   "evidence": "રહેઠાણનો પુરાવો (લાઈટ બીલ / ટેલીફોન બીલ / મ્યુ. ટેક્ષ બીલ ગમે તે એક)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An electoral photo ID card is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "residential_certificate",
+   "object": "electoral_id_card",
+   "detail": {},
+   "sourceId": "src:fa4073ea12cb",
+   "evidence": "મતદાર ફોટો ઓળખકાર્ડ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application for the residential certificate must be submitted at the Jan Seva Kendra Ahmedabad.",
+   "kind": "OFFICE",
+   "subject": "residential_certificate",
+   "object": "jan_seva_kendra_ahmedabad",
+   "detail": {
+    "address": "Office of The Collector & District Magistrate, Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027",
+    "hours": "8:30 A.M To 5:30 P.M"
+   },
+   "sourceId": "src:fa4073ea12cb",
+   "evidence": "Application Process Jan Seva Kendra Ahmedabad Office of The Collector & District Magistrate Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027 8:30 A.M To 5:30 P.M",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application process for a farmer account holder certificate takes a total of 15 days.",
+   "kind": "TIMELINE",
+   "subject": "application_process",
+   "object": "processing_time",
+   "detail": {
+    "days": "15"
+   },
+   "sourceId": "src:b55b2acd832b",
+   "evidence": "નિકાલની સમય મર્યાદા કુલ ૧૫ દિવસ.",
+   "confidence": 1
+  },
+  {
+   "claim": "Certified copies of documents are required for the application.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_process",
+   "object": "certified_copies",
+   "detail": {},
+   "sourceId": "src:b55b2acd832b",
+   "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+   "confidence": 1
+  },
+  {
+   "claim": "An in-person response from the applicant is required.",
+   "kind": "ACTION",
+   "subject": "application_process",
+   "object": "in_person_response",
+   "detail": {},
+   "sourceId": "src:b55b2acd832b",
+   "evidence": "અરજદારનો રૂબરૂ જવાબ",
+   "confidence": 1
+  },
+  {
+   "claim": "A survey report regarding the location is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_process",
+   "object": "location_survey_report",
+   "detail": {},
+   "sourceId": "src:b55b2acd832b",
+   "evidence": "સ્થળ સ્થિતિ અંગેનું પંચનામું",
+   "confidence": 1
+  },
+  {
+   "claim": "Certified copies of village records number 7/12, number 8-a, and number 6 are required for land holders.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_process",
+   "object": "land_holder_documents",
+   "detail": {
+    "village_records": "7/12, 8-a, 6"
+   },
+   "sourceId": "src:b55b2acd832b",
+   "evidence": "જે જમીન ધારણ કરતા હોય તેની ગામ ન.નં.–૭ / ૧ર, નં. ૮–અ, તથા ન.નં. ૬ની પ્રમાણિત નકલ",
+   "confidence": 1
+  },
+  {
+   "claim": "Certified copies of village records number 7/12, number 8-a, and number 6 are required for land buyers.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_process",
+   "object": "land_buyer_documents",
+   "detail": {
+    "village_records": "7/12, 8-a, 6"
+   },
+   "sourceId": "src:b55b2acd832b",
+   "evidence": "જે જમીન વેચાણ લેવાની હોય તેના અદ્યતન ગામ ન. નં. ૭ / ૧ર, નં. ૮–અ, ન.નં. ૬ની પ્રમાણિત નકલ",
+   "confidence": 1
+  },
+  {
+   "claim": "The application process for a farmer account holder certificate is handled at the Jan Seva Kendra Ahmedabad office.",
+   "kind": "OFFICE",
+   "subject": "application_process",
+   "object": "jan_seva_kendra_ahmedabad",
+   "detail": {
+    "address": "Office of The Collector & District Magistrate, Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027"
+   },
+   "sourceId": "src:b55b2acd832b",
+   "evidence": "Jan Seva Kendra Ahmedabad Office of The Collector & District Magistrate Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027",
+   "confidence": 1
+  },
+  {
+   "claim": "The office hours for the Jan Seva Kendra Ahmedabad are from 8:30 A.M to 5:30 P.M.",
+   "kind": "TIMELINE",
+   "subject": "jan_seva_kendra_ahmedabad",
+   "object": "office_hours",
+   "detail": {
+    "start_time": "8:30 A.M",
+    "end_time": "5:30 P.M"
+   },
+   "sourceId": "src:b55b2acd832b",
+   "evidence": "8:30 A.M To 5:30 P.M",
+   "confidence": 1
+  },
+  {
+   "claim": "An original photo ID or identification by a witness is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "affidavit",
+   "object": "photo_id_or_witness_identification",
+   "detail": {},
+   "sourceId": "src:0543004fcb52",
+   "evidence": "ફોટાવાળું અસલ ઓળખપત્ર અથવા સાક્ષી દ્વારા ઓળખાણ",
+   "confidence": 1
+  },
+  {
+   "claim": "A government ID or PAN card is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "affidavit",
+   "object": "government_id_or_pan_card",
+   "detail": {},
+   "sourceId": "src:0543004fcb52",
+   "evidence": "સરકારી ઓળખપત્ર / પાનકાર્ડ",
+   "confidence": 1
+  },
+  {
+   "claim": "A witness's original ID is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "affidavit",
+   "object": "witness_original_id",
+   "detail": {},
+   "sourceId": "src:0543004fcb52",
+   "evidence": "સાક્ષીનું અસલ ઓળખપત્ર",
+   "confidence": 1
+  },
+  {
+   "claim": "The affidavit can be obtained at the District Collector Office.",
+   "kind": "OFFICE",
+   "subject": "affidavit",
+   "object": "district_collector_office",
+   "detail": {
+    "address": "Jilla Seva Sadan, Sharu Section Road, Jamnagar, Gujarat - 361002"
+   },
+   "sourceId": "src:0543004fcb52",
+   "evidence": "Application Process\nDistrict Collector Office\nJilla Seva Sadan,\nSharu Section Road,\nJamnagar,\nGujarat - 361002",
+   "confidence": 1
+  },
+  {
+   "claim": "The office hours are from 8:30 A.M. to 5:30 P.M.",
+   "kind": "TIMELINE",
+   "subject": "district_collector_office",
+   "object": "office_hours",
+   "detail": {
+    "start_time": "8:30 A.M.",
+    "end_time": "5:30 P.M."
+   },
+   "sourceId": "src:0543004fcb52",
+   "evidence": "8:30 A.M To 5:30 P.M",
+   "confidence": 1
+  }
+ ],
+ "notFound": [
+  "EWS Certificate: already in the hand written graph as service:ews_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
+  "Domicile Certificate: already in the hand written graph as service:domicile_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person."
+ ]
+}

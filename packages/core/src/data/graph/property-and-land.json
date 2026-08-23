@@ -1,0 +1,1258 @@
+{
+ "id": "property-and-land",
+ "sources": [
+  {
+   "id": "src:e567da21d421",
+   "url": "https://gidc.gujarat.gov.in/Pages/Contents/digilocker",
+   "title": "GIDC",
+   "domain": "gidc.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "368fc0ca50c1d888400be40f0f399c0c59c4c00b5ca11eeb44146223b29192d0"
+  },
+  {
+   "id": "src:3203b82bd43a",
+   "url": "https://gidc.gujarat.gov.in/Pages/Contents/application-for-allotment",
+   "title": "GIDC",
+   "domain": "gidc.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "82f029fa604bb0e71065655a8eb01366714cc04bcad74492b1672f11d7386235"
+  },
+  {
+   "id": "src:2bd753e1b32d",
+   "url": "https://ahmedabad.gujarat.gov.in/land-neem",
+   "title": "ગામ તળ માટે જમીન નીમ કરવા બાબત | Revenue | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
+   "domain": "ahmedabad.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "560bf55ce50856256c01393b71d1c90cb127c97883320537745994a7167e156d"
+  },
+  {
+   "id": "src:4b89c4b38ed9",
+   "url": "https://garvi.gujarat.gov.in/FrmViewAppointment_New.aspx",
+   "title": "Garvi",
+   "domain": "garvi.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "43d3d3179fae9d7563bccb347f3f49cad4960060340bd4b051f60e3c04ebd4d9"
+  },
+  {
+   "id": "src:00c45e7162f4",
+   "url": "https://collectorgandhinagar.gujarat.gov.in/govt-office-land",
+   "title": "સરકારી ખાતા / કચેરીઓને જમીનની માંગણી બાબત | Revenue | Jan Seva Kendra form | Collectorate - District Gandhinagar",
+   "domain": "collectorgandhinagar.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-GANDHINAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "e0c3cf8a748347a3ade93667699b376b3bd1720dfcd6cc49da53642435cdd7dc"
+  },
+  {
+   "id": "src:b29f2940bcec",
+   "url": "https://e-milkat.gujarat.gov.in/ioraonlinepcard/ioraonlinepcard.aspx",
+   "title": ":: iORA - Integrated Online Revenue Applications ::",
+   "domain": "e-milkat.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "567d4630f1fbf9a3a5ae25cd6a6b3aae25ccc42fa567a514510d7a7ca4802a9e"
+  },
+  {
+   "id": "src:f822111ca37c",
+   "url": "https://ahmedabad.gujarat.gov.in/legal",
+   "title": "Legal | Branches | Collectorate - District Ahmedabad",
+   "domain": "ahmedabad.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d4cdfccf00d2d17ec5e3035d3907c898b4db3c8f1af05eb07bec22009bb65665"
+  },
+  {
+   "id": "src:4836e2cf4ed0",
+   "url": "https://ahmedabad.gujarat.gov.in/nakal-application",
+   "title": "નકલ માટેની અરજીઓ નિકાલ કરવા બાબત | Revenue | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
+   "domain": "ahmedabad.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "8f0e47687087cec73876b84e0c3ddaa2aad0763cf3e5654ef96077b1dfa93a3c"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "document:party_code",
+   "type": "DOCUMENT",
+   "name": "Party code",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "Applicant will require following details to access and obtain different documents/certificates in their DigiLocker account:\n1) Party Code (Can be accessed from GG user login in ‘My Property’ Section)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:digilocker",
+   "type": "SERVICE",
+   "name": "DigiLocker",
+   "officialName": "DigiLocker",
+   "description": "DigiLocker provides access to various property-related documents and certificates such as Mortgage Permission, Transfer Certificate, and Sub Division Permission Order.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "1 |\n2R Permission (Mortgage) Order |\nMortgage Permission |\n27/08/2019 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "2 |\nProvisional Transfer Order |\nTransfer Certificate / Order |\n20/12/2019 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "3 |\nFinal Transfer Order |\nTransfer Certificate / Order |\n20/12/2019 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "4 |\nRights of Use (PTO) |\nRights of Use Permission |\n27/08/2019 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "5 |\nRights of Use (FTO) |\nRights of Use Permission |\n27/08/2019 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "6 |\nSurrender (Rescindment Order) |\nSurrender Order |\n28/01/2020 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "7 |\nSurrender (Refund Order) |\nSurrender Order |\n28/01/2020 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "8 |\nSub Division (PSO) |\nSub Division Permission Order |\n25/08/2019 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "9 |\nSub Division (FSO) |\nSub Division Permission Order |\n25/08/2019 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "10 |\nAmalgamation (PAO) |\nAmalgamation Order |\n08/01/2020 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "11 |\nAmalgamation (FAO) |\nAmalgamation Order |\n08/01/2020 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "12 |\nFinal Time Limit Extension Order |\nExtension Order |\n08/07/2020 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "grievance:application_for_allotment_of_properties",
+   "type": "GRIEVANCE_CHANNEL",
+   "name": "Grievances about application for allotment of properties",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "GRIEVANCE_PORTAL"
+   },
+   "sources": [
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "Email\ngidc@gujarat.gov.in\ngidc@gidcgujarat.org",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:application_for_allotment_of_properties",
+   "type": "SERVICE",
+   "name": "application for allotment of properties",
+   "officialName": "application for allotment of properties",
+   "aliases": [
+    "gidc application for allotment",
+    "gidc property allotment"
+   ],
+   "description": "The service allows applicants to apply online for the allotment of properties in GIDC estates.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "Application for allotment of properties in GIDC estates is accepted online.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "The applicant has to submit the print out of the system generated application and acknowledgement receipt along with all necessary documents through Registered post (RPAD) to the office of concerned Regional Manager within 30 days from the date of applying online.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "The applicants shall not be allowed to vary from the details submitted by him/her online. No change shall be allowed in the details once it is submitted online.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "You will need to first register on the portal to make an Online Application.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "You will have to agree to these terms and conditions by clicking on the check box which you will find at the bottom of the page which opens with the given link. Only after you have clicked on the check box, the link for online application will activate.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "After clicking on Online Application link you can Search for a property/properties.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "GIDC field office will thoroughly evaluate/scrutinize the application along with the documents submitted and If require GIDC may ask for additional documents/ information/clarification from the applicant.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "After scrutiny if all submitted documents meeting the requirements , field office will confirm the application and a priority number will be assigned to applicant",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "After confirmation of the application, it will be forwarded to head office to check/evaluate the submitted project report and presentation to determine the possibility of allotment to the applicant.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "If any of the requirement mentioned in the application isn’t clear than GIDC will either contact applicant for clarification or if require GIDC will ask applicant for further information verification/ presentation of their proposed project/unit at GIDC head office for counselling before the final decision of land allotment.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "During counselling of applicant corporation will suggest the applicant to match the required norms and criteria defined by corporation like water demand, power demand, effluent generation, solid waste generation and any other requirement needs to be corrected.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "If everything found to be in order by GIDC, system generated an online allotment letter will be awarded to the applicant.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:certified_copy",
+   "type": "DOCUMENT",
+   "name": "Certified copy",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "sources": [
+    {
+     "sourceId": "src:2bd753e1b32d",
+     "evidence": "ગ્રામ પંચાયતના ઠરાવની નકલ",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:required",
+   "type": "DOCUMENT",
+   "name": "Required",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "sources": [
+    {
+     "sourceId": "src:2bd753e1b32d",
+     "evidence": "આવકનું પ્રમાણપત્ર",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:copy",
+   "type": "DOCUMENT",
+   "name": "Copy",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "sources": [
+    {
+     "sourceId": "src:2bd753e1b32d",
+     "evidence": "રેશનકાર્ડની નકલ",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:land_allocation_for_housing",
+   "type": "SERVICE",
+   "name": "land allocation for housing",
+   "officialName": "land allocation for housing",
+   "aliases": [
+    "ગામ તળ માટે જમીન નીમ કરવા બાબત"
+   ],
+   "description": "Homeless individuals can apply for a plot of land for housing by submitting an application to the Prant Officer with required documents.",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "metadata": {
+    "machineExtracted": true,
+    "processingDays": "75"
+   },
+   "sources": [
+    {
+     "sourceId": "src:2bd753e1b32d",
+     "evidence": "હું કઈ રીતે ગામ તળ માટે જમીન નીમ કરાવી શકું? પ્રાંત અધિકારીશ્રી ને, પરિશિષ્ટ-૧/૧ મુજબ અરજી કરવી.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:2bd753e1b32d",
+     "evidence": "એપ્લીકેશન ફોર્મ [File Size : 59 KB] [Gujarati]",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:2bd753e1b32d",
+     "evidence": "નિકાલની સમય મર્યાદા કુલ ૭૫ દિવસ.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:2bd753e1b32d",
+     "evidence": "ઘરથાળના પ્લોટની માંગણીદારોની વિગત દર્શાવતું પત્રક.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:2bd753e1b32d",
+     "evidence": "ઘરવિહોણા ઈસમોને ઘરથાળના પ્લોટ મેળવવા માટેની અરજીઓ",
+     "confidence": 0.85,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:garvi",
+   "type": "SERVICE",
+   "name": "GARVI",
+   "officialName": "GARVI",
+   "aliases": [
+    "garvi",
+    "garvi 2.0"
+   ],
+   "description": "The GARVI 2.0 application provides online services for submitting document details for registration and paying Stamp Duty and Registration Fee.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:4b89c4b38ed9",
+     "evidence": "District (જીલ્લો પસંદ કરો) : ---Select District--- AHMEDABAD AMRELI ANAND ARVALLI BANASKANTHA BHARUCH BHAVNAGAR BOTAD CHHOTAUDEPUR DAHOD DANG DEV BHUMI-DWARKA GANDHINAGAR GIR SOMNATH JAMNAGAR JUNAGADH KACHCHH KHEDA MAHESANA MAHISAGAR MORBI NARMADA NAVSARI PANCHMAHAL PATAN PORBANDAR RAJKOT SABARKANTHA SURAT SURENDRANAGAR TAPI VADODARA VALSAD VAV-THARAD",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4b89c4b38ed9",
+     "evidence": "Sub-Registrar Office (સબ-રજીસ્ટ્રાર ઓફીસ પસંદ કરો) :",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4b89c4b38ed9",
+     "evidence": "Captcha : Enter the code shown:",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4b89c4b38ed9",
+     "evidence": "Date Of Appointment : ❮ ❯",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4b89c4b38ed9",
+     "evidence": "Garvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides services to citizens to submit document details for registration and online facility to pay Stamp Duty and Registration Fee.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4b89c4b38ed9",
+     "evidence": "Last Updated: 21-08-2026",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4b89c4b38ed9",
+     "evidence": "Best viewed in Firefox 64.0 / Chrome 72.0 or above",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4b89c4b38ed9",
+     "evidence": "Site Resolution : 1280x1024",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:garvi_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "garvi.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://garvi.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:4b89c4b38ed9",
+     "evidence": "District (જીલ્લો પસંદ કરો) : ---Select District--- AHMEDABAD AMRELI ANAND ARVALLI BANASKANTHA BHARUCH BHAVNAGAR BOTAD CHHOTAUDEPUR DAHOD DANG DEV BHUMI-DWARKA GANDHINAGAR GIR SOMNATH JAMNAGAR JUNAGADH KACHCHH KHEDA MAHESANA MAHISAGAR MORBI NARMADA NAVSARI PANCHMAHAL PATAN PORBANDAR RAJKOT SABARKANTHA SURAT SURENDRANAGAR TAPI VADODARA VALSAD VAV-THARAD",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "document:jan_seva_kendra",
+   "type": "DOCUMENT",
+   "name": "Jan seva kendra",
+   "jurisdictionId": "IN-GJ-GANDHINAGAR",
+   "sources": [
+    {
+     "sourceId": "src:00c45e7162f4",
+     "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:government_office_land_request",
+   "type": "SERVICE",
+   "name": "Government Office Land Request",
+   "officialName": "Government Office Land Request",
+   "aliases": [
+    "સરકારી ખાતા / કચેરીઓને જમીનની માંગણી"
+   ],
+   "description": "This service allows a citizen to request land for government offices or accounts.",
+   "jurisdictionId": "IN-GJ-GANDHINAGAR",
+   "metadata": {
+    "machineExtracted": true,
+    "processingDays": "40"
+   },
+   "sources": [
+    {
+     "sourceId": "src:00c45e7162f4",
+     "evidence": "હું કઈ રીતે સરકારી ખાતા / કચેરીઓને જમીનની માંગણી કરી શકું? જિલ્લા કલેકટરશ્રી ને, પરિશિષ્ટ-૧/૨ મુજબ અરજી કરવી.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:00c45e7162f4",
+     "evidence": "એપ્લીકેશન ફોર્મ [File Size : 55 KB] [Gujarati]",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:00c45e7162f4",
+     "evidence": "નિકાલની સમય મર્યાદા કુલ ૪૦ દિવસ.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:district_name",
+   "type": "DOCUMENT",
+   "name": "District name",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:b29f2940bcec",
+     "evidence": "જીલ્લા નું નામ *",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:ilr_office",
+   "type": "DOCUMENT",
+   "name": "Ilr office",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:b29f2940bcec",
+     "evidence": "આઇ.એલ.આર. ઓફિસ *",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:current_area_square_meters",
+   "type": "DOCUMENT",
+   "name": "Current area square meters",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:b29f2940bcec",
+     "evidence": "હાલનુ ક્ષેત્રફ્ળ(ચો.મી.) *",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:total_fee_rupees",
+   "type": "DOCUMENT",
+   "name": "Total fee rupees",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:b29f2940bcec",
+     "evidence": "કુલ ફી રૂ. *",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "grievance:property_card",
+   "type": "GRIEVANCE_CHANNEL",
+   "name": "Grievances about property card",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "GRIEVANCE_PORTAL"
+   },
+   "sources": [
+    {
+     "sourceId": "src:b29f2940bcec",
+     "evidence": "ડીજીટલ ઇ સીલ્ડ પ્રોપર્ટીકાર્ડ ની નકલ જનરેટ કરવામાં કોઇ પણ ટેકનીકલ ક્ષતિ જણાય આવે તો જે તે સંબધિત આઇ.એલ.આર. (ILR) કચેરી નો સંપર્ક કરવાનો રહેશે.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:property_card",
+   "type": "SERVICE",
+   "name": "property card",
+   "officialName": "property card",
+   "description": "The service provides a property card with details like area and fee, issued upon confirmation of the application.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:b29f2940bcec",
+     "evidence": "અરજદારનું નામ *",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b29f2940bcec",
+     "evidence": "મોબાઈલ નંબર *",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b29f2940bcec",
+     "evidence": "પુરૂષ/સ્ત્રી *",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b29f2940bcec",
+     "evidence": "નોંધ : (૧) જે તારીખ અને સમયે અરજી Confirm થઇ હશે તે સ્થિતિ નું પ્રોપર્ટીકાર્ડ મળશે.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:e_milkat_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "e-milkat.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://e-milkat.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:b29f2940bcec",
+     "evidence": "અરજદારનું નામ *",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "document:certified_copy_lower_court_order",
+   "type": "DOCUMENT",
+   "name": "Certified copy lower court order",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "sources": [
+    {
+     "sourceId": "src:f822111ca37c",
+     "evidence": "Certified copy of lower courts order.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:court_fee_stamp",
+   "type": "DOCUMENT",
+   "name": "Court fee stamp",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "sources": [
+    {
+     "sourceId": "src:f822111ca37c",
+     "evidence": "Court fee stamp stipulated under the court fee act on the authenticated copy of the resolution of the lower court as well as on the Advocate letter (Vakilat patra) the lawyer (if any) of the court.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:appeal_and_revision_applications",
+   "type": "SERVICE",
+   "name": "Appeal and Revision Applications",
+   "officialName": "Appeal and Revision Applications",
+   "description": "The page provides information on the requirements and timelines for filing appeals and revision applications under various legal provisions.",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "metadata": {
+    "machineExtracted": true,
+    "processingDays": "60"
+   },
+   "sources": [
+    {
+     "sourceId": "src:f822111ca37c",
+     "evidence": "Appeal / dispute application must be filed within 60 days of the decision / order made by the subordinate officer as prescribed by law.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f822111ca37c",
+     "evidence": "Revision / Appeal application must be filed within 90 days of the decision / order made by the subordinate officer as prescribed by law.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "office:jan_seva_kendra_ahmedabad",
+   "type": "OFFICE",
+   "name": "Jan Seva Kendra Ahmedabad",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Office of The Collector & District Magistrate, Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027"
+   },
+   "sources": [
+    {
+     "sourceId": "src:4836e2cf4ed0",
+     "evidence": "Application Process\nJan Seva Kendra Ahmedabad\nOffice of The Collector & District Magistrate\nNear Subhash Bridge Circle,\nR.T.O Ashram Rd, Hridaya Kunj,\nOld Wadaj, Ahmedabad,\nGujarat - 380027",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "document:certified_copy_of_documents",
+   "type": "DOCUMENT",
+   "name": "Certified copy of documents",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "sources": [
+    {
+     "sourceId": "src:4836e2cf4ed0",
+     "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:deposit_proof_copy",
+   "type": "DOCUMENT",
+   "name": "Deposit proof copy",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "sources": [
+    {
+     "sourceId": "src:4836e2cf4ed0",
+     "evidence": "રૂા ર૦/– ડિપોઝીટ ભરેલ હોવા અંગેની પહોંચની ઝેરોક્ષ નકલ.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:property_ownership_proof",
+   "type": "DOCUMENT",
+   "name": "Property ownership proof",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "sources": [
+    {
+     "sourceId": "src:4836e2cf4ed0",
+     "evidence": "જેની નકલ જરૂરી હોય તે મિલ્કતની માલિકીના પુરાવા.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:copy_of_documents",
+   "type": "SERVICE",
+   "name": "Copy of Documents",
+   "officialName": "Copy of Documents",
+   "aliases": [
+    "નકલ માટેની અરજીઓ નિકાલ કરવા બાબત"
+   ],
+   "description": "The service provides a certified copy of property-related documents after depositing 20 rupees and providing proof of ownership.",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "metadata": {
+    "machineExtracted": true,
+    "processingDays": "15"
+   },
+   "sources": [
+    {
+     "sourceId": "src:4836e2cf4ed0",
+     "evidence": "8:30 A.M To 5:30 P.M",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4836e2cf4ed0",
+     "evidence": "નિકાલની સમય મર્યાદા કુલ ૧૫ દિવસ.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e:service_digilocker__requires__document_party_code",
+   "from": "service:digilocker",
+   "to": "document:party_code",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "To access and obtain different documents/certificates in their DigiLocker account, applicants need their Party Code.",
+   "sources": [
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "Applicant will require following details to access and obtain different documents/certificates in their DigiLocker account:\n1) Party Code (Can be accessed from GG user login in ‘My Property’ Section)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_digilocker__call_if__helpline_91_79_23250636",
+   "from": "service:digilocker",
+   "to": "helpline:91_79_23250636",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The GIDC office can be contacted at +91 79 23250636.",
+   "sources": [
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "Phone: +91 79 23250636",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_digilocker__apply_at__portal_gidc_gujarat_gov_in",
+   "from": "service:digilocker",
+   "to": "portal:gidc_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on gidc.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "1 |\n2R Permission (Mortgage) Order |\nMortgage Permission |\n27/08/2019 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_application_for_allotment_of_properties__requires__document_required_documents",
+   "from": "service:application_for_allotment_of_properties",
+   "to": "document:required_documents",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Applicants must submit online copies of the application and required documents, including a project presentation, for the application to be considered complete.",
+   "sources": [
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "An application will be considered complete after the applicant submits the online copies of application and required documents (including project presentation).",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_application_for_allotment_of_properties__call_if__helpline_91_79_23250636",
+   "from": "service:application_for_allotment_of_properties",
+   "to": "helpline:91_79_23250636",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The GIDC office can be contacted at +91 79 23250636.",
+   "sources": [
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "Phone: +91 79 23250636",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_application_for_allotment_of_properties__escalate_to__grievance_application_for_allotment_of_properties",
+   "from": "service:application_for_allotment_of_properties",
+   "to": "grievance:application_for_allotment_of_properties",
+   "type": "ESCALATE_TO",
+   "verificationStatus": "EXTRACTED",
+   "note": "The GIDC office can be contacted via email at gidc@gujarat.gov.in and gidc@gidcgujarat.org.",
+   "sources": [
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "Email\ngidc@gujarat.gov.in\ngidc@gidcgujarat.org",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_application_for_allotment_of_properties__apply_at__portal_gidc_gujarat_gov_in",
+   "from": "service:application_for_allotment_of_properties",
+   "to": "portal:gidc_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on gidc.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "Application for allotment of properties in GIDC estates is accepted online.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_land_allocation_for_housing__requires__document_certified_copy",
+   "from": "service:land_allocation_for_housing",
+   "to": "document:certified_copy",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A certified copy of the Gram Panchayat resolution is required.",
+   "sources": [
+    {
+     "sourceId": "src:2bd753e1b32d",
+     "evidence": "ગ્રામ પંચાયતના ઠરાવની નકલ",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_land_allocation_for_housing__requires__document_required",
+   "from": "service:land_allocation_for_housing",
+   "to": "document:required",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An income certificate is required.",
+   "sources": [
+    {
+     "sourceId": "src:2bd753e1b32d",
+     "evidence": "આવકનું પ્રમાણપત્ર",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_land_allocation_for_housing__requires__document_copy",
+   "from": "service:land_allocation_for_housing",
+   "to": "document:copy",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A copy of the ration card is required.",
+   "sources": [
+    {
+     "sourceId": "src:2bd753e1b32d",
+     "evidence": "રેશનકાર્ડની નકલ",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_land_allocation_for_housing__apply_at__portal_ahmedabad_gujarat_gov_in",
+   "from": "service:land_allocation_for_housing",
+   "to": "portal:ahmedabad_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ahmedabad.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:2bd753e1b32d",
+     "evidence": "હું કઈ રીતે ગામ તળ માટે જમીન નીમ કરાવી શકું? પ્રાંત અધિકારીશ્રી ને, પરિશિષ્ટ-૧/૧ મુજબ અરજી કરવી.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi__apply_at__portal_garvi_gujarat_gov_in",
+   "from": "service:garvi",
+   "to": "portal:garvi_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on garvi.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:4b89c4b38ed9",
+     "evidence": "District (જીલ્લો પસંદ કરો) : ---Select District--- AHMEDABAD AMRELI ANAND ARVALLI BANASKANTHA BHARUCH BHAVNAGAR BOTAD CHHOTAUDEPUR DAHOD DANG DEV BHUMI-DWARKA GANDHINAGAR GIR SOMNATH JAMNAGAR JUNAGADH KACHCHH KHEDA MAHESANA MAHISAGAR MORBI NARMADA NAVSARI PANCHMAHAL PATAN PORBANDAR RAJKOT SABARKANTHA SURAT SURENDRANAGAR TAPI VADODARA VALSAD VAV-THARAD",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_government_office_land_request__requires__document_jan_seva_kendra",
+   "from": "service:government_office_land_request",
+   "to": "document:jan_seva_kendra",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A certified copy of the documents is required.",
+   "sources": [
+    {
+     "sourceId": "src:00c45e7162f4",
+     "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_government_office_land_request__apply_at__portal_collectorgandhinagar_gujarat_gov_in",
+   "from": "service:government_office_land_request",
+   "to": "portal:collectorgandhinagar_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on collectorgandhinagar.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:00c45e7162f4",
+     "evidence": "હું કઈ રીતે સરકારી ખાતા / કચેરીઓને જમીનની માંગણી કરી શકું? જિલ્લા કલેકટરશ્રી ને, પરિશિષ્ટ-૧/૨ મુજબ અરજી કરવી.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_property_card__requires__document_district_name",
+   "from": "service:property_card",
+   "to": "document:district_name",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must select the district name.",
+   "sources": [
+    {
+     "sourceId": "src:b29f2940bcec",
+     "evidence": "જીલ્લા નું નામ *",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_property_card__requires__document_ilr_office",
+   "from": "service:property_card",
+   "to": "document:ilr_office",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must select the ILR office.",
+   "sources": [
+    {
+     "sourceId": "src:b29f2940bcec",
+     "evidence": "આઇ.એલ.આર. ઓફિસ *",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_property_card__requires__document_current_area_square_meters",
+   "from": "service:property_card",
+   "to": "document:current_area_square_meters",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must provide the current area in square meters.",
+   "sources": [
+    {
+     "sourceId": "src:b29f2940bcec",
+     "evidence": "હાલનુ ક્ષેત્રફ્ળ(ચો.મી.) *",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_property_card__requires__document_total_fee_rupees",
+   "from": "service:property_card",
+   "to": "document:total_fee_rupees",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must provide the total fee in rupees.",
+   "sources": [
+    {
+     "sourceId": "src:b29f2940bcec",
+     "evidence": "કુલ ફી રૂ. *",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_property_card__escalate_to__grievance_property_card",
+   "from": "service:property_card",
+   "to": "grievance:property_card",
+   "type": "ESCALATE_TO",
+   "verificationStatus": "EXTRACTED",
+   "note": "If the digital e-sealed property card copy shows any technical damage, the applicant should contact the respective ILR office.",
+   "sources": [
+    {
+     "sourceId": "src:b29f2940bcec",
+     "evidence": "ડીજીટલ ઇ સીલ્ડ પ્રોપર્ટીકાર્ડ ની નકલ જનરેટ કરવામાં કોઇ પણ ટેકનીકલ ક્ષતિ જણાય આવે તો જે તે સંબધિત આઇ.એલ.આર. (ILR) કચેરી નો સંપર્ક કરવાનો રહેશે.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_property_card__apply_at__portal_e_milkat_gujarat_gov_in",
+   "from": "service:property_card",
+   "to": "portal:e_milkat_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on e-milkat.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:b29f2940bcec",
+     "evidence": "અરજદારનું નામ *",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_appeal_and_revision_applications__requires__document_certified_copy_lower_court_order",
+   "from": "service:appeal_and_revision_applications",
+   "to": "document:certified_copy_lower_court_order",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An appeal under Section 203 of the Land Revenue Code 1879 must include a certified copy of the lower court's order.",
+   "sources": [
+    {
+     "sourceId": "src:f822111ca37c",
+     "evidence": "Certified copy of lower courts order.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_appeal_and_revision_applications__requires__document_court_fee_stamp",
+   "from": "service:appeal_and_revision_applications",
+   "to": "document:court_fee_stamp",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An appeal under Section 203 of the Land Revenue Code 1879 must include a court fee stamp on the authenticated copy of the resolution of the lower court.",
+   "sources": [
+    {
+     "sourceId": "src:f822111ca37c",
+     "evidence": "Court fee stamp stipulated under the court fee act on the authenticated copy of the resolution of the lower court as well as on the Advocate letter (Vakilat patra) the lawyer (if any) of the court.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_appeal_and_revision_applications__apply_at__portal_ahmedabad_gujarat_gov_in",
+   "from": "service:appeal_and_revision_applications",
+   "to": "portal:ahmedabad_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ahmedabad.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:f822111ca37c",
+     "evidence": "Appeal / dispute application must be filed within 60 days of the decision / order made by the subordinate officer as prescribed by law.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_copy_of_documents__visit_at__office_jan_seva_kendra_ahmedabad",
+   "from": "service:copy_of_documents",
+   "to": "office:jan_seva_kendra_ahmedabad",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The application process for obtaining a copy must be submitted to the Jan Seva Kendra Ahmedabad.",
+   "sources": [
+    {
+     "sourceId": "src:4836e2cf4ed0",
+     "evidence": "Application Process\nJan Seva Kendra Ahmedabad\nOffice of The Collector & District Magistrate\nNear Subhash Bridge Circle,\nR.T.O Ashram Rd, Hridaya Kunj,\nOld Wadaj, Ahmedabad,\nGujarat - 380027",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_copy_of_documents__requires__document_certified_copy_of_documents",
+   "from": "service:copy_of_documents",
+   "to": "document:certified_copy_of_documents",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A certified copy of the documents is required for the process of obtaining a copy.",
+   "sources": [
+    {
+     "sourceId": "src:4836e2cf4ed0",
+     "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_copy_of_documents__requires__document_deposit_proof_copy",
+   "from": "service:copy_of_documents",
+   "to": "document:deposit_proof_copy",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A zerox copy of the proof of deposit of 20 rupees is required for the process of obtaining a copy.",
+   "sources": [
+    {
+     "sourceId": "src:4836e2cf4ed0",
+     "evidence": "રૂા ર૦/– ડિપોઝીટ ભરેલ હોવા અંગેની પહોંચની ઝેરોક્ષ નકલ.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_copy_of_documents__requires__document_property_ownership_proof",
+   "from": "service:copy_of_documents",
+   "to": "document:property_ownership_proof",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Proof of ownership of the property for which a copy is required must be provided.",
+   "sources": [
+    {
+     "sourceId": "src:4836e2cf4ed0",
+     "evidence": "જેની નકલ જરૂરી હોય તે મિલ્કતની માલિકીના પુરાવા.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_copy_of_documents__apply_at__portal_ahmedabad_gujarat_gov_in",
+   "from": "service:copy_of_documents",
+   "to": "portal:ahmedabad_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ahmedabad.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:4836e2cf4ed0",
+     "evidence": "8:30 A.M To 5:30 P.M",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  }
+ ],
+ "requirementGroups": [],
+ "questions": []
+}
