@@ -19,6 +19,10 @@ export {
   type SupabaseConfig,
 } from "./db/supabase";
 export { jurisdictionRows, toBundles, toJurisdictions, toRows, type GraphRows } from "./db/rows";
+// Server only because it reads the seed and the research files off disk. It
+// reports on the checked in bundles, not on Supabase, which is the point: it
+// answers "what did we ship" and not "what is live right now".
+export { coverage, coverageOf, type JourneyCoverage } from "./cli/coverage";
 export { sarvamKeyFromEnv, understand, type Understood } from "./lang/sarvam";
 export {
   bedrockConfigFromEnv,

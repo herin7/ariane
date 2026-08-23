@@ -36,7 +36,7 @@ export default async function Home() {
 
       <p className="small muted">
         Want to see the machinery? <Link href="/admin/graph">Open the graph explorer</Link>. Same compile call,
-        drawn instead of listed.
+        drawn instead of listed. Want to see what we do not know yet? <Link href="/admin/coverage">Coverage</Link>.
       </p>
     </>
   );

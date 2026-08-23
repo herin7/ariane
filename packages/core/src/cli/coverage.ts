@@ -1,4 +1,5 @@
 import { readFileSync } from "node:fs";
+import { pathToFileURL } from "node:url";
 import { journeyBundleNames } from "../data/graph/manifest";
 import type { GraphBundle } from "../data/index";
 import { loadGraph } from "../data/index";
@@ -21,7 +22,6 @@ import type { GraphNode, VerificationStatus } from "../types";
  * what could not be found. This puts the three in one table.
  */
 
-const args = process.argv.slice(2);
 const read = (url: URL) => JSON.parse(readFileSync(url, "utf8"));
 
 /**
@@ -89,7 +89,22 @@ export function coverageOf(name: string): JourneyCoverage {
   };
 }
 
-const all = [...journeyBundleNames].map(coverageOf);
+/** Every journey, in manifest order. What `/admin/coverage` renders. */
+export function coverage(): JourneyCoverage[] {
+  return [...journeyBundleNames].map(coverageOf);
+}
+
+// ---------------------------------------------------------------------- cli
+//
+// Everything below runs only when this file is the process entry point, so
+// `/admin/coverage` can import coverage() without a table appearing in the
+// server log and without --json calling process.exit inside a request.
+
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) main();
+
+function main(): void {
+const args = process.argv.slice(2);
+const all = coverage();
 
 if (args.includes("--json")) {
   const data = loadGraph();
@@ -148,4 +163,5 @@ if (args.includes("--check")) {
     process.exit(1);
   }
   console.log("\nEvery load bearing node can show its working.");
+}
 }
