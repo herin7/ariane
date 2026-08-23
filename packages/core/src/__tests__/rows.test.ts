@@ -31,6 +31,14 @@ describe("a government fact survives the trip through Postgres", () => {
     expect(roundTripped.flatMap((b) => b.requirementGroups).filter((g) => g.jurisdictionId)).toEqual(scoped);
   });
 
+  it("keeps tlsVerified:false, so a page from a portal with a broken chain stays branded", () => {
+    // Nothing in the seed carries it yet, and it has to survive the day it does:
+    // `false` is the whole signal, and a mapper that drops falsy values would
+    // silently upgrade an unverifiable government page to an ordinary one.
+    const branded = seedBundles.slice(0, 1).map((b) => ({ ...b, sources: b.sources.map((s, i) => (i === 0 ? { ...s, tlsVerified: false } : s)) }));
+    expect(toBundles(toRows(branded))[0]?.sources[0]?.tlsVerified).toBe(false);
+  });
+
   it("compiles the same graph out of rows as out of the seed", () => {
     const fromRows = loadGraphFrom(roundTripped, jurisdictions);
     expect(fromRows).toEqual(loadGraphFrom(seedBundles, seedJurisdictions));

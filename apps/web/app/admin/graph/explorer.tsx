@@ -252,6 +252,7 @@ function Evidence({ refs, sources }: { refs?: SourceRef[]; sources: ResolvedSour
               {source ? `retrieved ${source.retrievedAt}` : ""}
               {r.confidence !== undefined ? ` · confidence ${r.confidence}` : ""}
               {r.verificationStatus ? ` · ${r.verificationStatus}` : ""}
+              {source?.tlsVerified === false ? " · unverified certificate" : ""}
             </span>
           </div>
         );

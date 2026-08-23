@@ -391,6 +391,9 @@ function Step({
                   <Text style={styles.body}>“{src.evidence}”</Text>
                   <Link label={src.source.title} url={src.source.url} />
                   <Text style={styles.muted}>retrieved {src.source.retrievedAt}</Text>
+                  {src.source.tlsVerified === false ? (
+                    <Text style={styles.warn}>unverified certificate</Text>
+                  ) : null}
                 </View>
               ))
             : null}
