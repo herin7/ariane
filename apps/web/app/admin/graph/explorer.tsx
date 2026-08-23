@@ -13,7 +13,10 @@ import { place } from "./place";
  * projection.
  */
 
-const GOALS = ["driving_licence", "learner_licence"];
+export interface GoalOption {
+  id: string;
+  name: string;
+}
 
 const TONE: Record<string, string> = {
   SERVICE: "#5b8def",
@@ -29,8 +32,8 @@ const TONE: Record<string, string> = {
   DEPARTMENT: "#4a6b8a",
 };
 
-export function GraphExplorer() {
-  const [goal, setGoal] = useState(GOALS[0]);
+export function GraphExplorer({ goals }: { goals: GoalOption[] }) {
+  const [goal, setGoal] = useState(goals[0]?.id ?? "");
   const [journey, setJourney] = useState<CompiledJourney | null>(null);
   const [selected, setSelected] = useState<{ kind: "node" | "edge"; id: string } | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -102,7 +105,7 @@ export function GraphExplorer() {
       <div className="row" style={{ marginBottom: 10 }}>
         <Link href="/" className="small">Back</Link>
         <select value={goal} onChange={(e) => setGoal(e.target.value)}>
-          {GOALS.map((g) => <option key={g}>{g}</option>)}
+          {goals.map((g) => <option key={g.id} value={g.id}>{g.name}</option>)}
         </select>
         <span className="small muted">
           {journey.graph.nodes.length} nodes, {journey.graph.edges.length} edges, {journey.orderedSteps.length} steps
