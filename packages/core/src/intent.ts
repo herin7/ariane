@@ -78,16 +78,53 @@ const FLOOR = 0.3;
  */
 const NAMED = 0.5;
 
+/**
+ * How many services a word may appear in and still count as having named one.
+ *
+ * NAMED is satisfied by half of a two word name, and half of "Caste Certificate"
+ * is "certificate". So "varsai certificate" came back with the caste and the
+ * domicile certificate, which is the same failure as the veterinary council in a
+ * politer disguise: the query named a category, not a service.
+ *
+ * The fix is not a stoplist of generic government words. That list is endless
+ * and different in every state, and "certificate" is only generic *here* because
+ * thirty services in this graph are one. So ask the graph. A word in a tenth of
+ * the catalogue is a category; a word in two services is a name.
+ */
+const generic = new WeakMap<GraphData, Set<string>>();
+
+function categoryWords(data: GraphData): Set<string> {
+  const cached = generic.get(data);
+  if (cached) return cached;
+
+  const seen = new Map<string, number>();
+  let services = 0;
+  for (const node of data.nodes) {
+    if (node.type !== "SERVICE") continue;
+    services++;
+    for (const token of new Set(phrasesOf(node).flatMap(tokenise))) {
+      seen.set(token, (seen.get(token) ?? 0) + 1);
+    }
+  }
+
+  const ceiling = Math.max(2, services * 0.1);
+  const words = new Set([...seen].filter(([, count]) => count > ceiling).map(([token]) => token));
+  generic.set(data, words);
+  return words;
+}
+
 export function resolveIntent(data: GraphData, text: string, limit = 5): IntentMatch[] {
   const query = tokenise(text);
   if (!query.length) return [];
 
+  const categories = categoryWords(data);
   const matches: IntentMatch[] = [];
   for (const node of data.nodes) {
     if (node.type !== "SERVICE") continue;
     const scored = score(node, query);
     const confidence = Math.min(1, scored.score / query.length);
-    if (confidence >= FLOOR && scored.named >= NAMED) {
+    const distinctive = scored.hits.some((h) => !categories.has(h));
+    if (confidence >= FLOOR && scored.named >= NAMED && distinctive) {
       matches.push({
         goal: node.id,
         name: node.name,
@@ -102,8 +139,13 @@ export function resolveIntent(data: GraphData, text: string, limit = 5): IntentM
   return matches.slice(0, limit);
 }
 
+/** Every name this service answers to, lowercased. */
+function phrasesOf(node: GraphNode): string[] {
+  return [node.name, node.officialName ?? "", ...(node.aliases ?? [])].map((p) => p.toLowerCase()).filter(Boolean);
+}
+
 function score(node: GraphNode, query: string[]): { score: number; hits: string[]; named: number } {
-  const phrases = [node.name, node.officialName ?? "", ...(node.aliases ?? [])].map((p) => p.toLowerCase()).filter(Boolean);
+  const phrases = phrasesOf(node);
   const vocabulary = new Set(phrases.flatMap(tokenise));
 
   const hits: string[] = [];

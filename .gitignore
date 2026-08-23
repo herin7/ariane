@@ -19,6 +19,17 @@ TODO.md
 # it is 1.3M of public government html and it is the difference between "we
 # fetched this once" and "we fetch this once per checkout".
 
+# .ingest/ follows the same rule as .firecrawl/ and for the same reason: a fetch
+# nobody can reuse is a fetch we will pay for again. So pages/, maps/, extract/
+# and identify/ are all committed, because each one cost either a credit, a
+# model call or a request to a government server.
+#
+# urls.jsonl is the exception. It is 12M and it holds nothing that maps/ does not
+# already hold: the scoring pass rebuilds it from the maps, offline, for free, in
+# seconds. Committing a derived file that large only to have it churn on every
+# rescore is paying storage for a `node` invocation.
+.ingest/urls.jsonl
+
 # deps
 node_modules/
 .pnpm-store/
