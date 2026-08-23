@@ -28,6 +28,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:79fdc662dbe8",
+   "url": "https://1000d.gujarat.gov.in/Home/Help",
+   "title": "હોમ - મુખ્યમંત્રી માતૃશક્તિ યોજના",
+   "domain": "1000d.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d464a0b90fe5f1af7c13d58eb0f36ab51293a1b5a702e8f1315c016e9e10e723",
+   "cacheFile": ".ingest/pages/79fdc662dbe82dc6d1b630fe67037bfc7e7efb4d.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:d0c1afe6687f",
    "url": "https://1000d.gujarat.gov.in/RegistrationFormEdit",
    "title": "હોમ - મુખ્યમંત્રી માતૃશક્તિ યોજના",
@@ -145,18 +157,6 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "9233723d9ab71e5579bdf2234db6773b4e27eb09c9b7256d34682f67007ebaad",
    "cacheFile": ".ingest/pages/fefe6bbbe272a6891d426c8f8c7f8ad3dddd7e9f.md",
-   "scrapedOk": true
-  },
-  {
-   "id": "src:79fdc662dbe8",
-   "url": "https://1000d.gujarat.gov.in/Home/Help",
-   "title": "હોમ - મુખ્યમંત્રી માતૃશક્તિ યોજના",
-   "domain": "1000d.gujarat.gov.in",
-   "sourceType": "PORTAL_HOME",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "d464a0b90fe5f1af7c13d58eb0f36ab51293a1b5a702e8f1315c016e9e10e723",
-   "cacheFile": ".ingest/pages/79fdc662dbe82dc6d1b630fe67037bfc7e7efb4d.md",
    "scrapedOk": true
   },
   {
@@ -1016,6 +1016,144 @@
    "detail": {},
    "sourceId": "src:b078560c40dc",
    "evidence": "લાભ લેવા અર્થે મારો આધાર નંબરનો ઉપયોગ કરવા માટેની હું સંમતિ આપું છું અને લાભાર્થી પ્રથમ પ્રસૂતા છે.",
+   "confidence": 1
+  },
+  {
+   "claim": "Pregnant women and lactating mothers (and mothers of children up to two years) who meet the scheme’s criteria and are registered with the local health/Anganwadi system are eligible.",
+   "kind": "ELIGIBILITY",
+   "subject": "pregnant_women_and_lactating_mothers",
+   "object": "scheme",
+   "detail": {},
+   "sourceId": "src:79fdc662dbe8",
+   "evidence": "Who is eligible: Pregnant women and lactating mothers (and mothers of children up to two years) who meet the scheme’s criteria and are registered with the local health/Anganwadi system.",
+   "confidence": 1
+  },
+  {
+   "claim": "Eligible women and mothers can self-register online.",
+   "kind": "ACTION",
+   "subject": "eligible_women_and_mothers",
+   "object": "self_register",
+   "detail": {},
+   "sourceId": "src:79fdc662dbe8",
+   "evidence": "Online Registration: Self-registration for eligible women and mothers.",
+   "confidence": 1
+  },
+  {
+   "claim": "To register, visit 1000d.gujarat.gov.in.",
+   "kind": "CHANNEL",
+   "subject": "registration",
+   "object": "portal",
+   "detail": {
+    "url": "1000d.gujarat.gov.in"
+   },
+   "sourceId": "src:79fdc662dbe8",
+   "evidence": "Open the portal: Visit 1000d.gujarat.gov.in .",
+   "confidence": 1
+  },
+  {
+   "claim": "During registration, the form requires Name, DOB, Address, Mobile number, Aadhar (if required), and local Anganwadi details.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "registration_form",
+   "object": "personal_details",
+   "detail": {
+    "required_fields": "Name, DOB, Address, Mobile number, Aadhar (if required), and local Anganwadi details"
+   },
+   "sourceId": "src:79fdc662dbe8",
+   "evidence": "Register: Click the Register or New Application link and complete the form with Name, DOB, Address, Mobile number, Aadhar (if required), and local Anganwadi details.",
+   "confidence": 1
+  },
+  {
+   "claim": "If required, documents must be uploaded during registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "registration",
+   "object": "documents",
+   "detail": {},
+   "sourceId": "src:79fdc662dbe8",
+   "evidence": "Submit documents: Upload any required documents (if asked). Keep scanned copies or photos ready for quick upload.",
+   "confidence": 1
+  },
+  {
+   "claim": "After submission, a registration receipt or application reference number is provided.",
+   "kind": "TRACKING",
+   "subject": "application",
+   "object": "receipt",
+   "detail": {},
+   "sourceId": "src:79fdc662dbe8",
+   "evidence": "Get confirmation: After submission, download/print the registration receipt or note the application reference number for follow-up.",
+   "confidence": 1
+  },
+  {
+   "claim": "Application status can be checked using the Check Status feature on the portal.",
+   "kind": "TRACKING",
+   "subject": "application_status",
+   "object": "portal",
+   "detail": {},
+   "sourceId": "src:79fdc662dbe8",
+   "evidence": "Track status: Use the Check Status feature on the portal to view application progress (Pending/Approved/Rejected).",
+   "confidence": 1
+  },
+  {
+   "claim": "Approved beneficiaries receive nutrition kits from their nearest Anganwadi centre.",
+   "kind": "OFFICE",
+   "subject": "beneficiaries",
+   "object": "anganwadi_centre",
+   "detail": {},
+   "sourceId": "src:79fdc662dbe8",
+   "evidence": "Local Delivery: Approved beneficiaries receive nutrition kits from their nearest Anganwadi centre.",
+   "confidence": 1
+  },
+  {
+   "claim": "Beneficiaries must visit their assigned Anganwadi centre to collect the nutrition kit.",
+   "kind": "ACTION",
+   "subject": "beneficiaries",
+   "object": "anganwadi_centre",
+   "detail": {},
+   "sourceId": "src:79fdc662dbe8",
+   "evidence": "Collect kit: Once approved, visit your assigned Anganwadi centre to collect the nutrition kit; carry your registration receipt and ID as instructed.",
+   "confidence": 1
+  },
+  {
+   "claim": "If a mobile number changes, it can be updated using the portal’s update option.",
+   "kind": "ACTION",
+   "subject": "mobile_number",
+   "object": "update",
+   "detail": {},
+   "sourceId": "src:79fdc662dbe8",
+   "evidence": "Update contact details: If your mobile number changes, use the portal’s update option to keep your record current so you receive messages and alerts.",
+   "confidence": 1
+  },
+  {
+   "claim": "The application reference number helps Anganwadi staff and helplines find the case quickly.",
+   "kind": "TRACKING",
+   "subject": "application_reference_number",
+   "object": "tracking",
+   "detail": {},
+   "sourceId": "src:79fdc662dbe8",
+   "evidence": "Tip: Keep the application reference number safe — it helps Anganwadi staff and helplines find your case quickly.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Women & Child Development Department is located at Block No. 9, 8th Floor, New Sachivalaya, Gandhinagar.",
+   "kind": "OFFICE",
+   "subject": "wcd_department",
+   "object": "gandhinagar",
+   "detail": {
+    "address": "Block No. 9, 8th Floor, New Sachivalaya, Gandhinagar."
+   },
+   "sourceId": "src:79fdc662dbe8",
+   "evidence": "Women & Child Development Department (WCD)\nBlock No. 9, 8th Floor, New Sachivalaya, Gandhinagar.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Women & Child Development Department can be contacted at 079-232-57942.",
+   "kind": "HELPLINE",
+   "subject": "wcd_department",
+   "object": "helpline",
+   "detail": {
+    "phone": "079-232-57942"
+   },
+   "sourceId": "src:79fdc662dbe8",
+   "evidence": "079-232-57942",
    "confidence": 1
   },
   {
@@ -2405,144 +2543,6 @@
    "sourceId": "src:fefe6bbbe272",
    "evidence": "+91 079 232 58647",
    "confidence": 0.95
-  },
-  {
-   "claim": "Pregnant women and lactating mothers (and mothers of children up to two years) who meet the scheme’s criteria and are registered with the local health/Anganwadi system are eligible.",
-   "kind": "ELIGIBILITY",
-   "subject": "pregnant_women_and_lactating_mothers",
-   "object": "scheme",
-   "detail": {},
-   "sourceId": "src:79fdc662dbe8",
-   "evidence": "Who is eligible: Pregnant women and lactating mothers (and mothers of children up to two years) who meet the scheme’s criteria and are registered with the local health/Anganwadi system.",
-   "confidence": 1
-  },
-  {
-   "claim": "Eligible women and mothers can self-register online.",
-   "kind": "ACTION",
-   "subject": "eligible_women_and_mothers",
-   "object": "self_register",
-   "detail": {},
-   "sourceId": "src:79fdc662dbe8",
-   "evidence": "Online Registration: Self-registration for eligible women and mothers.",
-   "confidence": 1
-  },
-  {
-   "claim": "To register, visit 1000d.gujarat.gov.in.",
-   "kind": "CHANNEL",
-   "subject": "registration",
-   "object": "portal",
-   "detail": {
-    "url": "1000d.gujarat.gov.in"
-   },
-   "sourceId": "src:79fdc662dbe8",
-   "evidence": "Open the portal: Visit 1000d.gujarat.gov.in .",
-   "confidence": 1
-  },
-  {
-   "claim": "During registration, the form requires Name, DOB, Address, Mobile number, Aadhar (if required), and local Anganwadi details.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "registration_form",
-   "object": "personal_details",
-   "detail": {
-    "required_fields": "Name, DOB, Address, Mobile number, Aadhar (if required), and local Anganwadi details"
-   },
-   "sourceId": "src:79fdc662dbe8",
-   "evidence": "Register: Click the Register or New Application link and complete the form with Name, DOB, Address, Mobile number, Aadhar (if required), and local Anganwadi details.",
-   "confidence": 1
-  },
-  {
-   "claim": "If required, documents must be uploaded during registration.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "registration",
-   "object": "documents",
-   "detail": {},
-   "sourceId": "src:79fdc662dbe8",
-   "evidence": "Submit documents: Upload any required documents (if asked). Keep scanned copies or photos ready for quick upload.",
-   "confidence": 1
-  },
-  {
-   "claim": "After submission, a registration receipt or application reference number is provided.",
-   "kind": "TRACKING",
-   "subject": "application",
-   "object": "receipt",
-   "detail": {},
-   "sourceId": "src:79fdc662dbe8",
-   "evidence": "Get confirmation: After submission, download/print the registration receipt or note the application reference number for follow-up.",
-   "confidence": 1
-  },
-  {
-   "claim": "Application status can be checked using the Check Status feature on the portal.",
-   "kind": "TRACKING",
-   "subject": "application_status",
-   "object": "portal",
-   "detail": {},
-   "sourceId": "src:79fdc662dbe8",
-   "evidence": "Track status: Use the Check Status feature on the portal to view application progress (Pending/Approved/Rejected).",
-   "confidence": 1
-  },
-  {
-   "claim": "Approved beneficiaries receive nutrition kits from their nearest Anganwadi centre.",
-   "kind": "OFFICE",
-   "subject": "beneficiaries",
-   "object": "anganwadi_centre",
-   "detail": {},
-   "sourceId": "src:79fdc662dbe8",
-   "evidence": "Local Delivery: Approved beneficiaries receive nutrition kits from their nearest Anganwadi centre.",
-   "confidence": 1
-  },
-  {
-   "claim": "Beneficiaries must visit their assigned Anganwadi centre to collect the nutrition kit.",
-   "kind": "ACTION",
-   "subject": "beneficiaries",
-   "object": "anganwadi_centre",
-   "detail": {},
-   "sourceId": "src:79fdc662dbe8",
-   "evidence": "Collect kit: Once approved, visit your assigned Anganwadi centre to collect the nutrition kit; carry your registration receipt and ID as instructed.",
-   "confidence": 1
-  },
-  {
-   "claim": "If a mobile number changes, it can be updated using the portal’s update option.",
-   "kind": "ACTION",
-   "subject": "mobile_number",
-   "object": "update",
-   "detail": {},
-   "sourceId": "src:79fdc662dbe8",
-   "evidence": "Update contact details: If your mobile number changes, use the portal’s update option to keep your record current so you receive messages and alerts.",
-   "confidence": 1
-  },
-  {
-   "claim": "The application reference number helps Anganwadi staff and helplines find the case quickly.",
-   "kind": "TRACKING",
-   "subject": "application_reference_number",
-   "object": "tracking",
-   "detail": {},
-   "sourceId": "src:79fdc662dbe8",
-   "evidence": "Tip: Keep the application reference number safe — it helps Anganwadi staff and helplines find your case quickly.",
-   "confidence": 1
-  },
-  {
-   "claim": "The Women & Child Development Department is located at Block No. 9, 8th Floor, New Sachivalaya, Gandhinagar.",
-   "kind": "OFFICE",
-   "subject": "wcd_department",
-   "object": "gandhinagar",
-   "detail": {
-    "address": "Block No. 9, 8th Floor, New Sachivalaya, Gandhinagar."
-   },
-   "sourceId": "src:79fdc662dbe8",
-   "evidence": "Women & Child Development Department (WCD)\nBlock No. 9, 8th Floor, New Sachivalaya, Gandhinagar.",
-   "confidence": 1
-  },
-  {
-   "claim": "The Women & Child Development Department can be contacted at 079-232-57942.",
-   "kind": "HELPLINE",
-   "subject": "wcd_department",
-   "object": "helpline",
-   "detail": {
-    "phone": "079-232-57942"
-   },
-   "sourceId": "src:79fdc662dbe8",
-   "evidence": "079-232-57942",
-   "confidence": 1
   },
   {
    "claim": "The Shakti Doot scheme was implemented by the Gujarat government in 2006.",

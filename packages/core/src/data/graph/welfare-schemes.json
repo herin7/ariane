@@ -22,6 +22,16 @@
    "contentHash": "b1423eea7db236695a4e62198f4ce80af03b9701c7942ff6f6b0f9d9d46a7e30"
   },
   {
+   "id": "src:79fdc662dbe8",
+   "url": "https://1000d.gujarat.gov.in/Home/Help",
+   "title": "હોમ - મુખ્યમંત્રી માતૃશક્તિ યોજના",
+   "domain": "1000d.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d464a0b90fe5f1af7c13d58eb0f36ab51293a1b5a702e8f1315c016e9e10e723"
+  },
+  {
    "id": "src:d0c1afe6687f",
    "url": "https://1000d.gujarat.gov.in/RegistrationFormEdit",
    "title": "હોમ - મુખ્યમંત્રી માતૃશક્તિ યોજના",
@@ -120,16 +130,6 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "9233723d9ab71e5579bdf2234db6773b4e27eb09c9b7256d34682f67007ebaad"
-  },
-  {
-   "id": "src:79fdc662dbe8",
-   "url": "https://1000d.gujarat.gov.in/Home/Help",
-   "title": "હોમ - મુખ્યમંત્રી માતૃશક્તિ યોજના",
-   "domain": "1000d.gujarat.gov.in",
-   "sourceType": "PORTAL_HOME",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "d464a0b90fe5f1af7c13d58eb0f36ab51293a1b5a702e8f1315c016e9e10e723"
   },
   {
    "id": "src:a08f444b5813",
@@ -684,6 +684,24 @@
    ]
   },
   {
+   "id": "office:gandhinagar",
+   "type": "OFFICE",
+   "name": "Gandhinagar",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Block No. 9, 8th Floor, New Sachivalaya, Gandhinagar."
+   },
+   "sources": [
+    {
+     "sourceId": "src:79fdc662dbe8",
+     "evidence": "Women & Child Development Department (WCD)\nBlock No. 9, 8th Floor, New Sachivalaya, Gandhinagar.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "helpline:079_232_57942",
    "type": "HELPLINE",
    "name": "Chief Minister Matru Shakti Yojana helpline",
@@ -696,7 +714,7 @@
    },
    "sources": [
     {
-     "sourceId": "src:04364ee1275e",
+     "sourceId": "src:79fdc662dbe8",
      "evidence": "079-232-57942",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
@@ -1378,83 +1396,6 @@
      "verificationStatus": "EXTRACTED"
     }
    ]
-  },
-  {
-   "id": "office:gandhinagar",
-   "type": "OFFICE",
-   "name": "Gandhinagar",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "address": "Block No. 9, 8th Floor, New Sachivalaya, Gandhinagar."
-   },
-   "sources": [
-    {
-     "sourceId": "src:79fdc662dbe8",
-     "evidence": "Women & Child Development Department (WCD)\nBlock No. 9, 8th Floor, New Sachivalaya, Gandhinagar.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "service:chief_minister_s_matru_shakti_yojana",
-   "type": "SERVICE",
-   "name": "Chief Minister's Matru Shakti Yojana",
-   "officialName": "Chief Minister's Matru Shakti Yojana",
-   "aliases": [
-    "મુખ્યમંત્રી માતૃશક્તિ યોજના"
-   ],
-   "description": "Eligible pregnant women, lactating mothers, and mothers of children up to two years can self-register online to receive nutrition kits from their nearest Anganwadi centre.",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "machineExtracted": true
-   },
-   "sources": [
-    {
-     "sourceId": "src:79fdc662dbe8",
-     "evidence": "Who is eligible: Pregnant women and lactating mothers (and mothers of children up to two years) who meet the scheme’s criteria and are registered with the local health/Anganwadi system.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:79fdc662dbe8",
-     "evidence": "Online Registration: Self-registration for eligible women and mothers.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:79fdc662dbe8",
-     "evidence": "Open the portal: Visit 1000d.gujarat.gov.in .",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:79fdc662dbe8",
-     "evidence": "Register: Click the Register or New Application link and complete the form with Name, DOB, Address, Mobile number, Aadhar (if required), and local Anganwadi details.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:79fdc662dbe8",
-     "evidence": "Submit documents: Upload any required documents (if asked). Keep scanned copies or photos ready for quick upload.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:79fdc662dbe8",
-     "evidence": "Collect kit: Once approved, visit your assigned Anganwadi centre to collect the nutrition kit; carry your registration receipt and ID as instructed.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:79fdc662dbe8",
-     "evidence": "Update contact details: If your mobile number changes, use the portal’s update option to keep your record current so you receive messages and alerts.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
   },
   {
    "id": "service:shakti_doot_scheme",
@@ -4323,6 +4264,38 @@
    ]
   },
   {
+   "id": "e:service_chief_minister_matru_shakti_yojana__visit_at__office_gandhinagar",
+   "from": "service:chief_minister_matru_shakti_yojana",
+   "to": "office:gandhinagar",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Women & Child Development Department is located at Block No. 9, 8th Floor, New Sachivalaya, Gandhinagar.",
+   "sources": [
+    {
+     "sourceId": "src:79fdc662dbe8",
+     "evidence": "Women & Child Development Department (WCD)\nBlock No. 9, 8th Floor, New Sachivalaya, Gandhinagar.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_chief_minister_matru_shakti_yojana__call_if__helpline_079_232_57942",
+   "from": "service:chief_minister_matru_shakti_yojana",
+   "to": "helpline:079_232_57942",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Women & Child Development Department can be contacted at 079-232-57942.",
+   "sources": [
+    {
+     "sourceId": "src:79fdc662dbe8",
+     "evidence": "079-232-57942",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_chief_minister_matru_shakti_yojana__requires__document_ration_card",
    "from": "service:chief_minister_matru_shakti_yojana",
    "to": "document:ration_card",
@@ -4334,22 +4307,6 @@
      "sourceId": "src:d0c1afe6687f",
      "evidence": "મુખ્યમંત્રી માતૃશક્તિ યોજના માટે રાશનકાર્ડ હોવુ મરજીયાત છે. હવે ફક્ત આધારકાર્ડ તથા ટેકો નોંધણી દ્વારા આ યોજનાનો લાભ મેળવી શકાય છે.",
      "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_chief_minister_matru_shakti_yojana__call_if__helpline_079_232_57942",
-   "from": "service:chief_minister_matru_shakti_yojana",
-   "to": "helpline:079_232_57942",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The contact number for the Women and Child Development Department is 079-232-57942.",
-   "sources": [
-    {
-     "sourceId": "src:04364ee1275e",
-     "evidence": "079-232-57942",
-     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -4478,54 +4435,6 @@
      "sourceId": "src:98884ff5f944",
      "evidence": "અરજદાર ગુજરાતના વતની હોવા જોઇએ અને બિન અનામત વર્ગના હોવા જોઇએ.",
      "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_chief_minister_s_matru_shakti_yojana__visit_at__office_gandhinagar",
-   "from": "service:chief_minister_s_matru_shakti_yojana",
-   "to": "office:gandhinagar",
-   "type": "VISIT_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Women & Child Development Department is located at Block No. 9, 8th Floor, New Sachivalaya, Gandhinagar.",
-   "sources": [
-    {
-     "sourceId": "src:79fdc662dbe8",
-     "evidence": "Women & Child Development Department (WCD)\nBlock No. 9, 8th Floor, New Sachivalaya, Gandhinagar.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_chief_minister_s_matru_shakti_yojana__call_if__helpline_079_232_57942",
-   "from": "service:chief_minister_s_matru_shakti_yojana",
-   "to": "helpline:079_232_57942",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Women & Child Development Department can be contacted at 079-232-57942.",
-   "sources": [
-    {
-     "sourceId": "src:79fdc662dbe8",
-     "evidence": "079-232-57942",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_chief_minister_s_matru_shakti_yojana__apply_at__portal_1000d_gujarat_gov_in",
-   "from": "service:chief_minister_s_matru_shakti_yojana",
-   "to": "portal:1000d_gujarat_gov_in",
-   "type": "APPLY_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "Published on 1000d.gujarat.gov.in.",
-   "sources": [
-    {
-     "sourceId": "src:79fdc662dbe8",
-     "evidence": "Who is eligible: Pregnant women and lactating mothers (and mothers of children up to two years) who meet the scheme’s criteria and are registered with the local health/Anganwadi system.",
-     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]

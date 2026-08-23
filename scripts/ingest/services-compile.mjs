@@ -75,6 +75,12 @@ const today = () => new Date().toISOString().slice(0, 10);
 const slug = (s) =>
   String(s ?? "")
     .toLowerCase()
+    // One page writes "Chief Minister's Matru Shakti Yojana", the next writes
+    // "Chief Minister Matru Shakti Yojana", and both are the same scheme. The
+    // possessive goes with the apostrophe, or they stay two services differing
+    // by one letter and a citizen sees the scheme listed twice.
+    .replace(/['‘’]s\b/g, "")
+    .replace(/['‘’]/g, "")
     .replace(/[^a-z0-9]+/g, "_")
     .replace(/^_+|_+$/g, "")
     .slice(0, 60);
@@ -245,6 +251,7 @@ if (flag("selftest")) {
   );
 
   assert.equal(slug("Varsai (heirship) Certificate"), "varsai_heirship_certificate");
+  assert.equal(slug("Chief Minister's Matru Shakti Yojana"), slug("Chief Minister Matru Shakti Yojana"), "one scheme, two ways of typing it");
 
   assert.ok(absorbs("gir_online_permit_booking", "gir_online_permit_booking_system"));
   assert.ok(absorbs("education_loan", "education_loan_scheme"));
@@ -374,7 +381,10 @@ const identified = (await pool(candidates, CONCURRENCY, async (c) => {
   const id = await identify(c);
   if (!id.cached) calls++;
   if (calls && calls % 40 === 0) console.log(`  ${calls} identified`);
-  return { ...c, ...id };
+  // Re-slugged rather than read off the cache file. The id is how two pages
+  // become one service, so a fix to `slug` has to reach identifications that
+  // were cached before it, and the cached model answer is the name, not the id.
+  return { ...c, ...id, serviceId: slug(id.service) };
 })).filter((c) => c && !c.skip);
 
 console.log(`${calls} model calls, ${candidates.length - calls} cached`);
