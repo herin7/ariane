@@ -13,17 +13,10 @@ import { useEffect, useState } from "react";
  * starts deciding things it starts disagreeing with the graph.
  */
 
-const GUJARAT_DISTRICTS = [
-  "Ahmedabad", "Amreli", "Anand", "Aravalli", "Banaskantha", "Bharuch", "Bhavnagar", "Botad",
-  "Chhota Udepur", "Dahod", "Dang", "Devbhoomi Dwarka", "Gandhinagar", "Gir Somnath", "Jamnagar",
-  "Junagadh", "Kheda", "Kutch", "Mahisagar", "Mehsana", "Morbi", "Narmada", "Navsari", "Panchmahal",
-  "Patan", "Porbandar", "Rajkot", "Sabarkantha", "Surat", "Surendranagar", "Tapi", "Vadodara", "Valsad",
-];
-
-export function JourneyView() {
+export function JourneyView({ districts }: { districts: string[] }) {
   const goal = useSearchParams().get("goal") ?? "driving_licence";
 
-  const [district, setDistrict] = useState("Ahmedabad");
+  const [district, setDistrict] = useState(districts[0] ?? "Ahmedabad");
   const [answers, setAnswers] = useState<Facts>({});
   const [held, setHeld] = useState<string[]>([]);
   const [journey, setJourney] = useState<CompiledJourney | null>(null);
@@ -67,7 +60,7 @@ export function JourneyView() {
         <label className="small muted">
           District{" "}
           <select value={district} onChange={(e) => setDistrict(e.target.value)}>
-            {GUJARAT_DISTRICTS.map((d) => <option key={d}>{d}</option>)}
+            {districts.map((d) => <option key={d}>{d}</option>)}
           </select>
         </label>
       </div>
@@ -106,7 +99,12 @@ export function JourneyView() {
 
       <h2>Your path</h2>
       {journey.orderedSteps.map((step) => (
-        <Step key={step.nodeId} step={step} held={held} onHave={(id) => setHeld((h) => [...h, id])} />
+        <Step
+          key={step.nodeId}
+          step={step}
+          held={held}
+          onHave={(id) => setHeld((h) => (h.includes(id) ? h.filter((x) => x !== id) : [...h, id]))}
+        />
       ))}
 
       {journey.mobileApps.length ? (
@@ -327,7 +325,20 @@ function Step({ step, held, onHave }: { step: JourneyStep; held: string[]; onHav
           ) : null}
 
           {step.documentsReady.length ? (
-            <p className="small muted">Already have: {step.documentsReady.map((d) => d.name).join(", ")}</p>
+            <p className="small muted">
+              Already have:{" "}
+              {step.documentsReady.map((d) => (
+                <span key={d.nodeId} style={{ marginRight: 8 }}>
+                  {d.name}
+                  {held.includes(d.nodeId) ? (
+                    // Misclicking "I have this" used to mean reloading the page.
+                    <button className="small" style={{ padding: "1px 8px", marginLeft: 4 }} onClick={() => onHave(d.nodeId)}>
+                      undo
+                    </button>
+                  ) : null}
+                </span>
+              ))}
+            </p>
           ) : null}
 
           {step.channels.map((c) => (
