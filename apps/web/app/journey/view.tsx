@@ -350,22 +350,45 @@ function Step({ step, held, onHave }: { step: JourneyStep; held: string[]; onHav
 
           {step.offices.map((o) => (
             <p key={o.nodeId} className="small" style={{ margin: "2px 0" }}>
-              <span className="tag">visit</span> {officeLine(o)}
+              <span className="tag">visit</span> {officeLine(o)}{" "}
+              {/* An address is exactly the kind of fact §41 says never to
+                  fabricate, so it carries its source on the same line as the
+                  address rather than nowhere. */}
+              {o.sources[0] ? (
+                <a href={o.sources[0].source.url} target="_blank" rel="noreferrer" className="muted">
+                  {o.sources.some((s) => s.verificationStatus === "CONFLICTING") ? "sources disagree" : "source"}
+                </a>
+              ) : (
+                <span className="muted">Not verified yet.</span>
+              )}
             </p>
           ))}
 
           {step.sources.length ? (
-            <details style={{ marginTop: 10 }}>
-              <summary>Where this came from ({step.sources.length})</summary>
-              {step.sources.map((s, i) => (
-                <div key={i} className="evidence">
-                  “{s.evidence}”
-                  <br />
-                  <a href={s.source.url} target="_blank" rel="noreferrer" className="small">{s.source.title}</a>{" "}
-                  <span className="muted small">retrieved {s.source.retrievedAt}</span>
-                </div>
-              ))}
-            </details>
+            <>
+              {step.sources.some((s) => s.verificationStatus === "CONFLICTING") ? (
+                // §42. Four government pages quote four different pension
+                // amounts. Picking one silently would be the single most
+                // damaging thing this product could do, so the citizen gets
+                // told they disagree and gets to read all of them.
+                <p className="small" style={{ marginTop: 10, marginBottom: 0 }}>
+                  <span className="tag warn">sources disagree</span> Official pages do not say the same thing
+                  here. Open the sources below and read all sides before you rely on this.
+                </p>
+              ) : null}
+              <details style={{ marginTop: 10 }}>
+                <summary>Where this came from ({step.sources.length})</summary>
+                {step.sources.map((s, i) => (
+                  <div key={i} className="evidence">
+                    {s.verificationStatus === "CONFLICTING" ? <span className="tag warn">disputed</span> : null}{" "}
+                    “{s.evidence}”
+                    <br />
+                    <a href={s.source.url} target="_blank" rel="noreferrer" className="small">{s.source.title}</a>{" "}
+                    <span className="muted small">retrieved {s.source.retrievedAt}</span>
+                  </div>
+                ))}
+              </details>
+            </>
           ) : (
             <p className="small muted">Not verified yet.</p>
           )}

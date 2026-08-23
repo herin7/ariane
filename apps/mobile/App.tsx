@@ -349,13 +349,34 @@ function Step({
       {step.offices.map((o) => (
         // Not core's officeLine, on purpose. Importing a runtime helper drags
         // Metro into transpiling the workspace package for one string join.
-        <Text key={o.nodeId} style={styles.body}>
-          Visit: {[o.name, o.address, o.workingHours].filter(Boolean).join(", ")}
-        </Text>
+        <View key={o.nodeId} style={styles.line}>
+          <Text style={styles.body}>
+            Visit: {[o.name, o.address, o.workingHours].filter(Boolean).join(", ")}
+          </Text>
+          {/* An address is exactly the kind of fact §41 says never to
+              fabricate, so it carries its source or admits it has none. */}
+          {o.sources[0] ? (
+            <Link
+              label={o.sources.some((s) => s.verificationStatus === "CONFLICTING") ? "sources disagree" : "source"}
+              url={o.sources[0].source.url}
+            />
+          ) : (
+            <Text style={styles.muted}>Not verified yet.</Text>
+          )}
+        </View>
       ))}
 
       {step.sources.length ? (
         <>
+          {step.sources.some((s) => s.verificationStatus === "CONFLICTING") ? (
+            // §42. Four government pages quote four different pension amounts.
+            // Picking one silently would be the most damaging thing this
+            // product could do, so say they disagree and show all of them.
+            <Text style={styles.warn}>
+              Official pages do not say the same thing here. Read all sides below before you rely on
+              this.
+            </Text>
+          ) : null}
           <Pressable style={styles.small} onPress={() => setShowSources((v) => !v)}>
             <Text style={styles.smallText}>
               {showSources ? "Hide" : "Where this came from"} ({step.sources.length})
@@ -364,6 +385,9 @@ function Step({
           {showSources
             ? step.sources.map((src, i) => (
                 <View key={i} style={styles.evidence}>
+                  {src.verificationStatus === "CONFLICTING" ? (
+                    <Text style={styles.warn}>disputed</Text>
+                  ) : null}
                   <Text style={styles.body}>“{src.evidence}”</Text>
                   <Link label={src.source.title} url={src.source.url} />
                   <Text style={styles.muted}>retrieved {src.source.retrievedAt}</Text>
@@ -463,6 +487,7 @@ const styles = StyleSheet.create({
   body: { fontSize: 14, color: "#222", lineHeight: 20 },
   muted: { fontSize: 12, color: "#666", lineHeight: 17 },
   error: { fontSize: 14, color: "#a11", lineHeight: 20 },
+  warn: { fontSize: 12, color: "#8a5a00", lineHeight: 17, fontWeight: "600" },
   link: { fontSize: 12, color: "#0645ad", textDecorationLine: "underline" },
   input: {
     borderWidth: 1,
