@@ -1,11 +1,19 @@
 import { seedBundles, seedJurisdictions, validateGraph, loadGraph } from "../data/index";
-import { loadFromSupabase, pushToSupabase, supabaseClient, supabaseConfigFromEnv } from "../db/supabase";
+import {
+  deleteRows,
+  loadFromSupabase,
+  orphansInSupabase,
+  pushToSupabase,
+  supabaseClient,
+  supabaseConfigFromEnv,
+} from "../db/supabase";
 
 /**
  * Load the checked in seed into Supabase, then read it back and check it came
  * back the same.
  *
  *   SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... pnpm db:push
+ *   pnpm db:push --prune     # also remove rows the seed no longer contains
  *
  * Run `src/db/schema.sql` first. This writes rows, it does not create tables,
  * because a script that can reshape the schema is a script that can drop a
@@ -34,6 +42,25 @@ const db = supabaseClient(config);
 
 console.log(`pushing ${seedBundles.length} bundle(s) to ${config.url}`);
 await pushToSupabase(db, seedBundles, seedJurisdictions, (line) => console.log(`  ${line}`));
+
+/**
+ * The push upserts and never deletes, which is right, and leaves the database
+ * holding facts the seed has since dropped, which is not. Read back below then
+ * fails with "94 item(s) went in, 95 came back", a sentence that sounds like a
+ * truncated write and is actually a source we removed a month ago still being
+ * served. Name them, delete them only when asked.
+ */
+const orphans = await orphansInSupabase(db, seedBundles);
+if (orphans.length && process.argv.includes("--prune")) {
+  await deleteRows(db, orphans);
+  console.log(`  pruned ${orphans.length} row(s) the seed no longer contains`);
+  for (const o of orphans) console.log(`    ${o.table} ${o.id} ${o.label}`);
+} else if (orphans.length) {
+  console.log(`  ${orphans.length} row(s) in the database are not in the seed, and were left alone:`);
+  for (const o of orphans.slice(0, 20)) console.log(`    ${o.table} ${o.id} ${o.label}`);
+  if (orphans.length > 20) console.log(`    and ${orphans.length - 20} more`);
+  console.log("  Run pnpm db:push --prune to remove them.");
+}
 
 // Reading it back is the only thing that proves the write actually landed the
 // way the seed reads. A silently truncated jsonb column looks fine until a
