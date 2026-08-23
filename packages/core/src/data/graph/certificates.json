@@ -135,7 +135,11 @@
       "officialName": "Income Certificate",
       "aliases": [
         "income certificate",
-        "income proof certificate"
+        "income proof certificate",
+        "aavak no dakhlo",
+        "aavak nu dakhlo",
+        "આવકનો દાખલો",
+        "aavak certificate"
       ],
       "description": "The certificate that states your family income, asked for by scholarships, fee waivers and reserved category schemes. Applied for on Digital Gujarat or over the counter at the Jan Seva Kendra.",
       "jurisdictionId": "IN-GJ",
@@ -182,7 +186,10 @@
       "aliases": [
         "caste certificate",
         "sc st certificate",
-        "sebc certificate"
+        "sebc certificate",
+        "jati no dakhlo",
+        "જાતિનો દાખલો",
+        "jati praman patra"
       ],
       "description": "In Gujarat this is not one certificate but three: the SEBC Certificate, the SC/ST Caste Certificate and the Non-Creamy Layer Certificate For Gujarat Government. Which one you need depends on your category and what you are applying for. The counter is the same for all of them.",
       "jurisdictionId": "IN-GJ",
@@ -219,7 +226,9 @@
       "officialName": "Domicile Certificate",
       "aliases": [
         "domicile certificate",
-        "residence certificate"
+        "residence certificate",
+        "rahethan no dakhlo",
+        "રહેઠાણનો દાખલો"
       ],
       "description": "Proof that Gujarat is where you live and have lived. The longest of the three: eleven separate proofs, one of which is a No Objection Certificate you have to get out of a police station, and another is ten years of residence evidence.",
       "jurisdictionId": "IN-GJ",
