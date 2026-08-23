@@ -1,4 +1,4 @@
-import type { Condition, ConditionOperator, Facts, Predicate, Truth } from "./types.js";
+import type { Condition, ConditionOperator, Facts, Predicate, Truth } from "./types";
 
 /**
  * Deterministic condition evaluator.

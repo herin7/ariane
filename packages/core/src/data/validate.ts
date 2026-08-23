@@ -1,5 +1,5 @@
-import { topologicalSort } from "../graph.js";
-import type { GraphData, SourceRef } from "../types.js";
+import { topologicalSort } from "../graph";
+import type { GraphData, SourceRef } from "../types";
 
 /**
  * Data integrity checks. The graph is hand seeded from official pages today

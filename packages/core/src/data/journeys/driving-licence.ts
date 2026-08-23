@@ -1,4 +1,4 @@
-import type { GraphEdge, GraphNode, QuestionDefinition, RequirementGroup, Source } from "../../types.js";
+import type { GraphEdge, GraphNode, QuestionDefinition, RequirementGroup, Source } from "../../types";
 
 /**
  * Driving licence, Gujarat.

@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
-import { loadGraph, validateGraph } from "../data/index.js";
-import { GoalNotFoundError, compileJourney } from "../journey.js";
-import type { CitizenContext, CompiledJourney } from "../types.js";
+import { loadGraph, validateGraph } from "../data/index";
+import { GoalNotFoundError, compileJourney } from "../journey";
+import type { CitizenContext, CompiledJourney } from "../types";
 
 /**
  * The checkpoint the whole engine is graded against. These assert citizen

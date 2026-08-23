@@ -1,4 +1,4 @@
-import type { Jurisdiction } from "../types.js";
+import type { Jurisdiction } from "../types";
 
 /**
  * Jurisdiction is data, never a branch in engine code. Adding a state is

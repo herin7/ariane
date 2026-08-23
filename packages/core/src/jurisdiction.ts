@@ -1,4 +1,4 @@
-import type { Jurisdiction, JurisdictionLevel, JurisdictionQuery } from "./types.js";
+import type { Jurisdiction, JurisdictionLevel, JurisdictionQuery } from "./types";
 
 /**
  * Jurisdiction resolution.

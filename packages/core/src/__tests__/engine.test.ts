@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
-import { evaluateCondition, unresolvedFields } from "../condition.js";
-import { filterEdges, topologicalSort, traverse } from "../graph.js";
-import { JurisdictionIndex, appliesTo, specificity } from "../jurisdiction.js";
-import { evaluateRequirementGroup } from "../requirements.js";
-import type { GraphEdge, Jurisdiction, RequirementGroup } from "../types.js";
+import { evaluateCondition, unresolvedFields } from "../condition";
+import { filterEdges, topologicalSort, traverse } from "../graph";
+import { JurisdictionIndex, appliesTo, specificity } from "../jurisdiction";
+import { evaluateRequirementGroup } from "../requirements";
+import type { GraphEdge, Jurisdiction, RequirementGroup } from "../types";
 
 /** Engine unit tests. No government data in here, only mechanics. */
 

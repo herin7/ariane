@@ -1,8 +1,8 @@
-import type { GraphData } from "../types.js";
-import { jurisdictions } from "./jurisdictions.js";
-import * as drivingLicence from "./journeys/driving-licence.js";
+import type { GraphData } from "../types";
+import { jurisdictions } from "./jurisdictions";
+import * as drivingLicence from "./journeys/driving-licence";
 
-export { validateGraph, type GraphIssue } from "./validate.js";
+export { validateGraph, type GraphIssue } from "./validate";
 
 /**
  * The single seam the rest of the product loads data through.

@@ -1,6 +1,6 @@
-import { loadGraph } from "../data/index.js";
-import { compileJourney } from "../journey.js";
-import type { CompiledJourney, DocumentRequirement, Facts } from "../types.js";
+import { loadGraph } from "../data/index";
+import { compileJourney } from "../journey";
+import type { CompiledJourney, DocumentRequirement, Facts } from "../types";
 
 /**
  * Compile a journey from the command line. This is the checkpoint the whole

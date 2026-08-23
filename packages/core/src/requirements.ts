@@ -1,6 +1,6 @@
-import { evaluateCondition } from "./condition.js";
-import { appliesTo } from "./jurisdiction.js";
-import type { Facts, RequirementGroup, RequirementGroupMember, Truth } from "./types.js";
+import { evaluateCondition } from "./condition";
+import { appliesTo } from "./jurisdiction";
+import type { Facts, RequirementGroup, RequirementGroupMember, Truth } from "./types";
 
 /**
  * Requirement group evaluation: the AND / OR / N-of logic that government

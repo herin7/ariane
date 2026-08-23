@@ -1,6 +1,6 @@
-export * from "./types.js";
-export { collectFields, evaluateCondition, unresolvedFields } from "./condition.js";
-export { JurisdictionIndex, appliesTo, specificity, type ResolvedJurisdiction } from "./jurisdiction.js";
+export * from "./types";
+export { collectFields, evaluateCondition, unresolvedFields } from "./condition";
+export { JurisdictionIndex, appliesTo, specificity, type ResolvedJurisdiction } from "./jurisdiction";
 export {
   GraphIndex,
   extractSubgraph,
@@ -12,12 +12,13 @@ export {
   type FilteredEdge,
   type TopoResult,
   type TraversalResult,
-} from "./graph.js";
-export { evaluateRequirementGroup, type GroupContext, type GroupEvaluation } from "./requirements.js";
+} from "./graph";
+export { evaluateRequirementGroup, type GroupContext, type GroupEvaluation } from "./requirements";
 export {
   GoalNotFoundError,
   JourneyCompiler,
   JurisdictionNotFoundError,
   compileJourney,
-} from "./journey.js";
-export { loadGraph, validateGraph, type GraphIssue } from "./data/index.js";
+} from "./journey";
+export { resolveIntent, type IntentMatch } from "./intent";
+export { loadGraph, validateGraph, type GraphIssue } from "./data/index";

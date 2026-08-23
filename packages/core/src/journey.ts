@@ -1,7 +1,7 @@
-import { evaluateCondition, unresolvedFields } from "./condition.js";
-import { extractSubgraph, filterEdges, GraphIndex, topologicalSort, traverse } from "./graph.js";
-import { JurisdictionIndex, type ResolvedJurisdiction } from "./jurisdiction.js";
-import { evaluateRequirementGroup, type GroupContext } from "./requirements.js";
+import { evaluateCondition, unresolvedFields } from "./condition";
+import { extractSubgraph, filterEdges, GraphIndex, topologicalSort, traverse } from "./graph";
+import { JurisdictionIndex, type ResolvedJurisdiction } from "./jurisdiction";
+import { evaluateRequirementGroup, type GroupContext } from "./requirements";
 import type {
   Blocker,
   Channel,
@@ -21,7 +21,7 @@ import type {
   OfficeRef,
   QuestionDefinition,
   TraceEntry,
-} from "./types.js";
+} from "./types";
 
 /**
  * The journey compiler.

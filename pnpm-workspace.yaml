@@ -2,6 +2,8 @@ packages:
   - "apps/*"
   - "packages/*"
 
-# vitest needs esbuild's postinstall to fetch its native binary
+# both of these fetch a native binary in a postinstall.
+# esbuild is vitest's bundler, sharp is next's image optimiser.
 allowBuilds:
   esbuild: true
+  sharp: true

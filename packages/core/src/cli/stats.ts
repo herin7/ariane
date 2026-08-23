@@ -1,5 +1,5 @@
-import { loadGraph } from "../data/index.js";
-import type { NodeType } from "../types.js";
+import { loadGraph } from "../data/index";
+import type { NodeType } from "../types";
 
 const data = loadGraph();
 
