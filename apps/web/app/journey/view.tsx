@@ -1,6 +1,6 @@
 "use client";
 
-import type { CompiledJourney, DerivedQuestion, Facts, JourneyStep } from "@ariane/core";
+import type { Channel, CompiledJourney, DerivedQuestion, Facts, JourneyStep } from "@ariane/core";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -109,6 +109,56 @@ export function JourneyView() {
         <Step key={step.nodeId} step={step} held={held} onHave={(id) => setHeld((h) => [...h, id])} />
       ))}
 
+      {journey.mobileApps.length ? (
+        <>
+          <h2>Official apps</h2>
+          <div className="card">
+            {journey.mobileApps.map((a) => (
+              <p key={a.nodeId} className="small" style={{ margin: "4px 0" }}>
+                <b>{a.name}</b>
+                {a.androidAppId ? (
+                  <>
+                    {" "}
+                    <a href={`https://play.google.com/store/apps/details?id=${a.androidAppId}`} target="_blank" rel="noreferrer">
+                      Android
+                    </a>
+                  </>
+                ) : null}
+                {a.iosAppId ? (
+                  <>
+                    {" "}
+                    <a href={`https://apps.apple.com/in/app/id${a.iosAppId}`} target="_blank" rel="noreferrer">iOS</a>
+                  </>
+                ) : null}
+                {a.note ? <span className="muted"> {a.note}</span> : null}
+              </p>
+            ))}
+          </div>
+        </>
+      ) : null}
+
+      <h2>If you get stuck</h2>
+      {journey.helplines.length || journey.escalationPaths.length ? (
+        <div className="card">
+          {journey.helplines.map((c) => (
+            <ChannelLine key={c.nodeId} channel={c} tag="call" />
+          ))}
+          {journey.escalationPaths.map((c) => (
+            <ChannelLine key={c.nodeId} channel={c} tag="escalate" />
+          ))}
+          <p className="muted small" style={{ marginBottom: 0 }}>
+            Applying again does not restart a stalled file. A tracked grievance does.
+          </p>
+        </div>
+      ) : (
+        <div className="card">
+          <p className="small muted" style={{ margin: 0 }}>
+            No escalation route verified for this service yet. We would rather say that than send you somewhere we
+            have not checked.
+          </p>
+        </div>
+      )}
+
       <h2>How we worked this out</h2>
       <div className="card">
         {journey.trace.map((t, i) => (
@@ -124,6 +174,31 @@ export function JourneyView() {
         </div>
       ) : null}
     </>
+  );
+}
+
+function ChannelLine({ channel, tag }: { channel: Channel; tag: string }) {
+  return (
+    <div style={{ margin: "6px 0" }}>
+      <p className="small" style={{ margin: 0 }}>
+        <span className="tag">{tag}</span>{" "}
+        {channel.url ? (
+          <a href={channel.url} target="_blank" rel="noreferrer">{channel.name}</a>
+        ) : (
+          <b>{channel.name}</b>
+        )}
+      </p>
+      {channel.note ? <p className="small muted" style={{ margin: 0 }}>{channel.note}</p> : null}
+      {channel.sources[0] ? (
+        <p className="small muted" style={{ margin: 0 }}>
+          <a href={channel.sources[0].source.url} target="_blank" rel="noreferrer">
+            {channel.sources[0].source.title}
+          </a>
+        </p>
+      ) : (
+        <p className="small muted" style={{ margin: 0 }}>Not verified yet.</p>
+      )}
+    </div>
   );
 }
 
