@@ -15,7 +15,8 @@
     "build": "tsc --noEmit",
     "graph:stats": "tsx src/cli/stats.ts",
     "graph:validate": "tsx src/cli/validate.ts",
-    "journey:test": "tsx src/cli/journey.ts"
+    "journey:test": "tsx src/cli/journey.ts",
+    "quotes:audit": "tsx src/cli/quotes.ts"
   },
   "dependencies": {
     "zod": "^4.1.5"
