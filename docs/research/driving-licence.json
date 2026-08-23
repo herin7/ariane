@@ -1057,6 +1057,123 @@
       "sourceId": "src_parivahan_ll",
       "evidence": "[Sample LL Question Bank](https://parivahan.gov.in/sites/default/files/DownloadForm/STALL_QB_ENGLISH_NEW.pdf)",
       "confidence": 0.92
+    },
+    {
+      "claim": "A Learner Licence is applied for online at sarathi.parivahan.gov.in/sarathiservice through the New Learning Licence link, and the printed online application carrying its reference number is submitted at the chosen RTO office.",
+      "kind": "ACTION",
+      "subject": "learner_licence",
+      "detail": { "url": "https://sarathi.parivahan.gov.in/sarathiservice", "link": "New Learning Licence", "printRequired": true, "submitAt": "chosen RTO office", "note": "Re-fetched from the live PDF on 2026-08-23 (HTTP 200, 60335 bytes). Every word matches. pdftotext renders the two marks around New Learning Licence as straight double quotes with a space before the closing one; the PDF font maps that glyph code to U+0022 in its ToUnicode table while separately defining U+201C, so the exact quotation-mark codepoint cannot be settled from the file. The evidence string is kept as the original reader recorded it." },
+      "sourceId": "src_sarathi_ll_faq",
+      "evidence": "Applicants can visit https://sarathi.parivahan.gov.in/sarathiservice and apply for Learner Licence ONLINE by following the link “New Learning Licence“ Applicants should take print of the duly filled-in ONLINE application along with the reference number and submit at the chosen RTO office.",
+      "confidence": 0.9
+    },
+    {
+      "claim": "An application shown as under scrutiny means the applicant must attend the concerned RTO in person for document verification and biometrics.",
+      "kind": "ACTION",
+      "subject": "learner_licence",
+      "detail": { "trigger": "Application is under scrutiny & processing at RTO Level", "requires": ["physical verification of documents", "biometrics"], "inPerson": true },
+      "sourceId": "src_sarathi_ll_faq",
+      "evidence": "Scrutiny means applicant has to visit the concerned RTO for physical verification of documents and submit Biometrics to complete the process.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "After the online procedure the applicant must visit the concerned RTO with the documents listed on the acknowledgement slip and a copy of the fee receipt.",
+      "kind": "ACTION",
+      "subject": "learner_licence",
+      "detail": { "visitRequired": true, "carry": ["documents shown on the acknowledgement slip", "copy of the fee receipt"], "note": "The page spells it 'acknowledgtement'." },
+      "sourceId": "src_sarathi_ll_faq",
+      "evidence": "After completing online procedure, for further processing of application you should visit the concerned RTO office with the required documents as shown on the acknowledgtement slip. You should also carry a copy of the fee receipt.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Online fee payment is not offered by every RTO; where it is unavailable the fee is paid at the concerned RTO cash counter.",
+      "kind": "CHANNEL",
+      "subject": "learner_licence",
+      "detail": { "offlineChannel": "concerned RTO cash counter", "onlinePaymentAvailableEverywhere": false },
+      "sourceId": "src_sarathi_ll_faq",
+      "evidence": "Pay the fees at the concerned RTO cash counter. Online fee payment facility is not available for some RTOs.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Application status is checked on Sarathi by selecting the State, clicking Apply online and then selecting Application status.",
+      "kind": "TRACKING",
+      "subject": "learner_licence",
+      "detail": { "url": "https://sarathi.parivahan.gov.in/sarathiservice", "menuPath": "select State > Apply online > Application status" },
+      "sourceId": "src_sarathi_ll_faq",
+      "evidence": "Visit https://sarathi.parivahan.gov.in/sarathiservice >>select State > and click on Apply online >select Application status.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The fee is paid by filling the application, opening its status page and clicking the pending payment flow.",
+      "kind": "ACTION",
+      "subject": "learner_licence",
+      "detail": { "path": "Fill Application > check application status > pending payment flow > make payment" },
+      "sourceId": "src_sarathi_ll_faq",
+      "evidence": "Fill Application & check application status provided on the website and click on pending payment flow and make payment",
+      "confidence": 0.95
+    },
+    {
+      "claim": "CMV Form 2 is the single form of application covering a learner's licence, a driving licence, addition of a new class of vehicle, renewal of a driving licence, and change of address or name.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "learner_licence",
+      "detail": { "form": "Form 2", "rules": "Rules 10, 14, 17 and 18", "covers": ["learner's licence", "driving licence", "addition of a new class of vehicle", "renewal of driving licence", "change of address or name"] },
+      "sourceId": "src_cmvr_form2",
+      "evidence": "FORM 2 [Refer Rules 10, 14, 17 and 18] FORM OF APPLICATION FOR LEARNER’S LICENCE OR DRIVING LICENCE OR ADDITION OF A NEW CLASS OF VEHICLE OR RENEWAL OF DRIVING LICENCE OR CHANGE OF ADDRESS OR NAME",
+      "confidence": 0.97
+    },
+    {
+      "claim": "Form 2 requires address proof to be enclosed for a new learner's licence, a new driving licence, or a change of address.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "learner_licence",
+      "detail": { "field": "Address", "proofRequired": true, "appliesTo": ["New Learner's Licence", "New Driving Licence", "Change of Address"] },
+      "sourceId": "src_cmvr_form2",
+      "evidence": "Address (proof to be enclosed, in case of New Learner’s Licence or New Driving Licence or Change of Address)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Issue of a learner's licence in Form 3 costs Rs. 150.00 for each class of vehicle.",
+      "kind": "FEE",
+      "subject": "learner_licence",
+      "detail": { "amountInr": 150, "unit": "each class of vehicle", "form": "Form 3" },
+      "sourceId": "src_parivahan_fees",
+      "evidence": "Issue of learner’s licence in Form 3 for each class of vehicle | Rs. 150.00/-",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The learner's licence test fee, or repeat test fee, is Rs. 50.00.",
+      "kind": "FEE",
+      "subject": "learner_licence",
+      "detail": { "amountInr": 50, "purpose": "Learner's licence test fee or repeat test fee" },
+      "sourceId": "src_parivahan_fees",
+      "evidence": "Learner’s licence test fee or repeat test fee, as the case may be | Rs. 50.00/-",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The driving licence test of competence is conducted by the competent authority.",
+      "kind": "ACTION",
+      "subject": "driving_licence",
+      "detail": { "conductedBy": "competent authority" },
+      "sourceId": "src_parivahan_dl",
+      "evidence": "The test of competence will be conducted by the competent authority.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "A driving licence application must be accompanied by the prescribed fees together with user charges; the permanent licence page states no amount.",
+      "kind": "FEE",
+      "subject": "driving_licence",
+      "detail": { "amountInr": null, "purpose": "fees as prescribed along with user charges", "listedAmong": "requirements for a driving licence" },
+      "sourceId": "src_parivahan_dl",
+      "evidence": "Fees as prescribed along with user charges",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Online slot booking is available for the driving licence test of competence.",
+      "kind": "CHANNEL",
+      "subject": "driving_licence",
+      "detail": { "onlineSlotBooking": true, "action": "visit the website for scheduling an appointment", "note": "The page spells it 'completence'." },
+      "sourceId": "src_parivahan_dl",
+      "evidence": "The Facility of online slot booking for test of completence of driving licence has been provided. Please visit the website for scheduling an appointment.",
+      "confidence": 0.95
     }
   ],
   "notFound": [

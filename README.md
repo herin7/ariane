@@ -56,6 +56,7 @@ log.md            milestone log
 pnpm install
 pnpm test             # graph + compiler unit and integration tests
 pnpm graph:validate   # source integrity. must be zero errors, zero warnings
+pnpm quotes:audit     # every quote traces back to a page somebody actually read
 pnpm journey:test     # compile a journey in the terminal, no browser needed
 pnpm dev              # http://localhost:3000
 ```
