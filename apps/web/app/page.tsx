@@ -1,9 +1,15 @@
-import { loadGraph } from "@ariane/core";
+import { loadLiveGraph } from "@ariane/core/server";
 import Link from "next/link";
 import { Search } from "./search";
 
-export default function Home() {
-  const services = loadGraph().nodes.filter((n) => n.type === "SERVICE");
+// Government facts live in the database, so this page is re-rendered rather
+// than frozen at build time. A minute is close enough to live for a list of
+// service names and keeps the page a static file the rest of the time.
+export const revalidate = 60;
+
+export default async function Home() {
+  const { nodes } = await loadLiveGraph();
+  const services = nodes.filter((n) => n.type === "SERVICE");
 
   return (
     <>

@@ -1,4 +1,5 @@
-import { GoalNotFoundError, JurisdictionNotFoundError, compileJourney, loadGraph } from "@ariane/core";
+import { GoalNotFoundError, JurisdictionNotFoundError, compileJourney } from "@ariane/core";
+import { loadLiveGraph } from "@ariane/core/server";
 import type { CompileRequest } from "@ariane/core";
 import { NextResponse } from "next/server";
 
@@ -22,7 +23,7 @@ export async function POST(request: Request) {
   }
 
   try {
-    return NextResponse.json(compileJourney(loadGraph(), body));
+    return NextResponse.json(compileJourney(await loadLiveGraph(), body));
   } catch (error) {
     if (error instanceof GoalNotFoundError || error instanceof JurisdictionNotFoundError) {
       return NextResponse.json({ error: error.message }, { status: 404 });

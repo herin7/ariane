@@ -1,5 +1,4 @@
 import type { GraphData, GraphEdge, GraphNode, Jurisdiction, RequirementGroup, Source } from "../types";
-import { attachEscalation } from "./escalation";
 import certificates from "./graph/certificates.json";
 import drivingLicence from "./graph/driving-licence.json";
 import escalation from "./graph/escalation.json";
@@ -15,9 +14,9 @@ export { validateGraph, type GraphIssue } from "./validate";
  *
  * No government fact lives in TypeScript. Schemes, documents, offices, fees,
  * eligibility rules and the quotes behind them are rows, because government
- * requirements change and a fact that needs a redeploy to correct is a fact
- * that stays wrong. Code holds the compiler and the rule evaluator, nothing
- * else.
+ * requirements change and a fact that needs a rebuild and a redeploy to
+ * correct is a fact that stays wrong. Code holds the compiler and the rule
+ * evaluator, nothing else.
  *
  * The JSON under `graph/` is the seed: the same rows the database is loaded
  * from, checked in so tests, CI and a laptop with no network still work.
@@ -32,6 +31,14 @@ export interface GraphBundle {
   edges: GraphEdge[];
   requirementGroups: RequirementGroup[];
   questions: GraphData["questions"];
+  /**
+   * Escalation only. CPGRAMS and SWAGAT are not tied to one department, so
+   * rather than writing the same two edges onto forty services by hand they
+   * are stored once with `*` where the service id goes, and stamped out at
+   * load time. Kept apart from `edges` because `*` is not a node and the
+   * validator is right to say so.
+   */
+  edgeTemplates?: GraphEdge[];
 }
 
 /**
@@ -41,35 +48,50 @@ export interface GraphBundle {
  * `pnpm graph:validate`, so a bad row fails the build the same as a bad type
  * used to.
  */
-const bundles = [drivingLicence, certificates, scholarship, pf, pension] as unknown as GraphBundle[];
-const escalationBundle = escalation as unknown as GraphBundle;
+const seed = [drivingLicence, certificates, scholarship, pf, pension, escalation] as unknown as GraphBundle[];
+
+/** Every seeded bundle, escalation included, for the tools that push rows. */
+export const seedBundles: GraphBundle[] = seed;
 export const seedJurisdictions = jurisdictionRows as unknown as Jurisdiction[];
 
-/** Every seeded journey, for the tools that work a journey at a time. */
-export const seedBundles: GraphBundle[] = bundles;
+/** The five demo journeys, without the shared escalation bundle. */
+export const seedJourneys: GraphBundle[] = seed.filter((b) => !b.edgeTemplates);
 
-export function loadGraphFrom(journeys: GraphBundle[], jurisdictions: Jurisdiction[]): GraphData {
-  const nodes = journeys.flatMap((j) => j.nodes);
+export function loadGraphFrom(bundles: GraphBundle[], jurisdictions: Jurisdiction[]): GraphData {
+  const nodes = bundles.flatMap((b) => b.nodes);
+  const templates = bundles.flatMap((b) => b.edgeTemplates ?? []);
+  const services = nodes.filter((n) => n.type === "SERVICE");
+
   return {
     jurisdictions,
-    nodes: [...nodes, ...escalationBundle.nodes],
+    nodes,
     edges: [
-      ...journeys.flatMap((j) => j.edges),
-      ...escalationBundle.edges,
-      ...attachEscalation(nodes.filter((n) => n.type === "SERVICE")),
+      ...bundles.flatMap((b) => b.edges),
+      ...services.flatMap((s) => templates.map((t) => ({ ...t, id: t.id.replace("*", s.id), from: s.id }))),
     ],
-    requirementGroups: journeys.flatMap((j) => j.requirementGroups),
-    sources: [...journeys.flatMap((j) => j.sources), ...escalationBundle.sources],
-    questions: dedupeQuestions(journeys.flatMap((j) => j.questions)),
+    requirementGroups: bundles.flatMap((b) => b.requirementGroups),
+    sources: bundles.flatMap((b) => b.sources),
+    questions: dedupeQuestions(bundles.flatMap((b) => b.questions)),
   };
 }
 
 let cached: GraphData | undefined;
 
+/**
+ * The seed, synchronously. Always works, needs no network and no credentials,
+ * which is what tests, the CLIs and a laptop on a train use.
+ */
 export function loadGraph(): GraphData {
-  cached ??= loadGraphFrom(bundles, seedJurisdictions);
+  cached ??= loadGraphFrom(seed, seedJurisdictions);
   return cached;
 }
+
+/**
+ * The database backed loader lives in `../server`, not here, and is reached
+ * through `@ariane/core/server`. A browser bundle that can see it drags the
+ * whole Supabase SDK in behind it, which is 64kB of a citizen's data plan
+ * spent on a client that will never open a socket to Postgres.
+ */
 
 /** Journeys share fields like `age`. First definition wins. */
 function dedupeQuestions<T extends { field: string }>(questions: T[]): T[] {
