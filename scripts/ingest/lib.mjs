@@ -90,7 +90,7 @@ export const NEGATIVE = INGEST + "negative.jsonl";
  * timeout gets a day, because sites come back and we are not going to spend a
  * hundred retries finding out which kind of failure this was.
  */
-const BACKOFF_HOURS = { HTTP_404: 24 * 365, HTTP_410: 24 * 365, SOFT_404: 24 * 365, BLOCKED_BY_SITE: 24, TIMEOUT: 24, TLS_FAIL: 24, DNS_FAIL: 24 * 7, HTTP_ERROR: 24, TOO_THIN: 24 * 30, NOT_TEXT: 24 * 365 };
+const BACKOFF_HOURS = { HTTP_404: 24 * 365, HTTP_410: 24 * 365, SOFT_404: 24 * 365, BLOCKED_BY_SITE: 24, TIMEOUT: 24, TLS_FAIL: 24, DNS_FAIL: 24 * 7, HTTP_ERROR: 24, TOO_THIN: 24 * 30, NOT_TEXT: 24 * 365, SCANNED_PDF: 24 * 365, EMPTY_RENDER: 24 * 30, AUTH_REQUIRED: 24 * 365, CAPTCHA: 24 * 365 };
 
 export function loadNegative(now) {
   const blocked = new Map();
@@ -161,7 +161,22 @@ export async function fetchPage(url, { timeoutMs = 20000, redirects = 5 } = {}) 
   return { ...lax, tlsVerified: false, tlsError: strict.errorCode };
 }
 
-function request(url, { timeoutMs, redirects, insecure }) {
+/**
+ * The same GET, but the body comes back as bytes.
+ *
+ * `fetchPage` sets the response encoding to utf8, which is right for html and
+ * destroys a PDF: the decoder replaces every byte that is not valid utf8 with
+ * U+FFFD, so the file arrives corrupted and no parser will open it. Same TLS
+ * retry, same redirect handling, same failure vocabulary, different sink.
+ */
+export async function fetchBytes(url, { timeoutMs = 60_000, redirects = 5, maxBytes = 40_000_000 } = {}) {
+  const strict = await request(url, { timeoutMs, redirects, insecure: false, binary: true, maxBytes });
+  if (!TLS_CODES.has(strict.errorCode ?? "")) return strict;
+  const lax = await request(url, { timeoutMs, redirects, insecure: true, binary: true, maxBytes });
+  return { ...lax, tlsVerified: false, tlsError: strict.errorCode };
+}
+
+function request(url, { timeoutMs, redirects, insecure, binary = false, maxBytes = MAX_BYTES }) {
   return new Promise((resolve) => {
     let u;
     try {
@@ -189,24 +204,24 @@ function request(url, { timeoutMs, redirects, insecure }) {
           // actually ended up. `redirectedFrom` is overwritten at each level on
           // the way back out, so it ends up naming the url we originally asked
           // for. Both halves of "A sent us to B" survive a chain of any length.
-          return resolve(request(next, { timeoutMs, redirects: redirects - 1, insecure }).then((r) => ({ ...r, redirectedFrom: url })));
+          return resolve(request(next, { timeoutMs, redirects: redirects - 1, insecure, binary, maxBytes }).then((r) => ({ ...r, redirectedFrom: url })));
         }
-        let body = "";
+        let body = binary ? [] : "";
         let bytes = 0;
-        res.setEncoding("utf8");
+        if (!binary) res.setEncoding("utf8");
         res.on("data", (c) => {
           bytes += c.length;
           // A 40MB PDF served as text is not worth the memory. Truncation is
           // recorded so nobody later mistakes a cut page for a short one.
-          if (bytes <= MAX_BYTES) body += c;
+          if (bytes <= maxBytes) binary ? body.push(c) : (body += c);
         });
         res.on("end", () =>
           resolve({
             ok: status >= 200 && status < 300,
             status,
-            body,
+            body: binary ? Buffer.concat(body) : body,
             bytes,
-            truncated: bytes > MAX_BYTES,
+            truncated: bytes > maxBytes,
             contentType: res.headers["content-type"] ?? "",
             tlsVerified: !insecure,
             errorCode: null,
