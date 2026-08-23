@@ -42,6 +42,7 @@ the official source URL and the evidence text it was taken from.
 ```
 apps/
   web/        Next.js citizen product + API + admin graph explorer
+  mobile/     Expo app, same four endpoints, no rule logic of its own
 packages/
   core/       ontology, graph algorithms, condition evaluator, journey compiler
   core/src/data/graph/  the government facts, as rows. no scheme is in code
@@ -59,8 +60,13 @@ pnpm graph:validate   # source integrity. must be zero errors, zero warnings
 pnpm quotes:audit     # every quote traces back to a page somebody actually read
 pnpm journey:test     # compile a journey in the terminal, no browser needed
 pnpm dev              # http://localhost:3000
+pnpm mobile           # Expo. scan the QR code, needs pnpm dev running too
 pnpm db:push          # push the seed to Supabase. needs credentials
 ```
+
+The phone finds the API on its own: Expo already knows the dev machine's address
+on the network, so there is no IP to type in anywhere. Set `EXPO_PUBLIC_API_URL`
+when the API is not the laptop that served the bundle.
 
 No credentials are needed for any of the above except the last one. Copy
 `.env.example` to `.env.local` when you want Supabase, Bedrock, Sarvam or voice.
