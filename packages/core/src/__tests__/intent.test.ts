@@ -68,6 +68,13 @@ describe("what it refuses to do", () => {
     }
   });
 
+  it("never counts a conjunction as a word that named a service", () => {
+    // Half the catalogue has "and" in its official name. Matching on it is how
+    // a pensioner got offered R&D support.
+    for (const match of resolveIntent(data, "and")) expect(match.matched).not.toContain("and");
+    expect(resolveIntent(data, "and or and")).toEqual([]);
+  });
+
   it("still finds a service named inside a long polite sentence", () => {
     // The other side of that floor. Dropping weak matches must not start
     // dropping a citizen who said the words, just at length.

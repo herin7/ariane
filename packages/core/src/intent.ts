@@ -38,6 +38,22 @@ const STOPWORDS = new Set([
 ]);
 
 /**
+ * Words that are in a service's name but are never the reason it is the answer.
+ *
+ * "I am 70 and nobody supports me" came back as "IT/ITeS and R&D Support",
+ * confidence 0.4, because it shares "and" and "support" with it. A conjunction
+ * is in the name of a hundred government services and in the middle of every
+ * sentence a citizen types.
+ *
+ * Deliberately not a stopword. A stopword leaves the query, and leaving the
+ * query shrinks the denominator that FLOOR divides by, so dropping "and" would
+ * *raise* our confidence in every sentence containing one. The citizen still
+ * typed the word and we still did not account for it. It stays counted and
+ * stops being evidence.
+ */
+const NOT_EVIDENCE = new Set(["and", "or", "amp", "cum"]);
+
+/**
  * Unicode aware on purpose, marks included.
  *
  * Splitting on `[^a-z0-9]` quietly deleted every Gujarati character, so
@@ -221,6 +237,7 @@ function score(node: GraphNode, query: string[]): { score: number; hits: string[
   const asked = new Set<string>();
   let total = 0;
   for (const token of query) {
+    if (NOT_EVIDENCE.has(token)) continue;
     // An exact alias match is worth more than a shared word like "licence".
     if (phrases.includes(token)) {
       total += 2;
