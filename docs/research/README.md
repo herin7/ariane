@@ -67,6 +67,16 @@ is the question that comes before research, not after it.
 Its "Named but unclassified" table is the work queue. Identifying one is a line
 added to the TSV, not a scrape.
 
+That file is Gujarat only, and most of what is left to build is not. A passport
+is the Ministry of External Affairs, Aadhaar is UIDAI, company and startup
+registration are MCA and DPIIT, insolvency is IBBI. `domains/central-portals.tsv`
+lists those doors, grouped by the journey they serve, so it doubles as the
+coverage checklist: a journey with no rows there has not been scoped yet.
+
+Unlike the GSWAN capture, that file is not a government publication. Every row in
+it is unverified and none of it is ever a citation. Confirm the URL, fetch it,
+log the fetch, then quote it. In that order.
+
 ## The one rule
 
 No verbatim `evidence` quote, no fact. Anything that cannot be quoted from an

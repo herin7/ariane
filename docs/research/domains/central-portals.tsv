@@ -1,0 +1,101 @@
+# Central government portals, by journey. Research pointers, NOT evidence.
+#
+# The 800 hostname capture is Gujarat only. Almost everything on the expansion
+# list is central: a passport is the Ministry of External Affairs, Aadhaar is
+# UIDAI, company and startup registration are MCA and DPIIT, insolvency is IBBI.
+# None of it lives under gujarat.gov.in, so none of it appears in
+# docs/gujarat-domains.md and no amount of classifying that file will find it.
+#
+# READ THIS BEFORE USING ANY LINE HERE.
+#
+# Unlike the GSWAN file, this is not a government publication we captured. It is
+# a starting list, written down so a research pass knows which door to knock on.
+# Every row is UNVERIFIED. A row being here means "go look here", it does not
+# mean the URL is live, current, or the right one, and it is never a citation.
+#
+# The rule from docs/research/README.md is unchanged and absolute: a fact reaches
+# a citizen only with a verbatim quote from a page somebody actually fetched, and
+# that fetch goes in the ledger. Confirm the URL first, quote second. Anything
+# that cannot be quoted is notFound and renders as "Not verified yet".
+#
+# Format: journey<TAB>authority<TAB>name<TAB>url
+# Journey names match the seed bundle ids we intend to build, so this file is
+# also the coverage checklist. A journey with no rows here has not been scoped.
+
+passport	Ministry of External Affairs	Passport Seva	https://www.passportindia.gov.in/
+passport	Ministry of External Affairs	Passport Seva, apply online	https://portal2.passportindia.gov.in/
+passport	Ministry of External Affairs	MEA passport division	https://www.mea.gov.in/passport.htm
+
+aadhaar	UIDAI	Unique Identification Authority of India	https://uidai.gov.in/
+aadhaar	UIDAI	myAadhaar self service	https://myaadhaar.uidai.gov.in/
+aadhaar	UIDAI	Aadhaar enrolment and update centre locator	https://bhuvan.nrsc.gov.in/aadhaar/
+
+pan	Income Tax Department	Income Tax e-Filing	https://www.incometax.gov.in/iec/foportal/
+pan	Income Tax Department	PAN and TAN services (Protean)	https://www.protean-tinpan.com/
+pan	Income Tax Department	PAN services (UTIITSL)	https://www.pan.utiitsl.com/
+
+company_registration	Ministry of Corporate Affairs	MCA21 portal	https://www.mca.gov.in/
+company_registration	Ministry of Corporate Affairs	SPICe+ incorporation	https://www.mca.gov.in/content/mca/global/en/mca/master-data-and-services/incorporation-services.html
+
+startup_registration	DPIIT	Startup India	https://www.startupindia.gov.in/
+startup_registration	DPIIT	DPIIT recognition	https://www.startupindia.gov.in/content/sih/en/startupgov/startup-recognition-page.html
+startup_registration	Government of Gujarat	Gujarat Startup portal	https://startup.gujarat.gov.in/
+
+msme_registration	Ministry of MSME	Udyam registration	https://udyamregistration.gov.in/
+msme_registration	Ministry of MSME	MSME Champions	https://champions.gov.in/
+
+gst_registration	GST Council	Goods and Services Tax portal	https://www.gst.gov.in/
+gst_registration	Government of Gujarat	Gujarat commercial tax	https://commercialtax.gujarat.gov.in/
+
+insolvency	IBBI	Insolvency and Bankruptcy Board of India	https://ibbi.gov.in/
+insolvency	IBBI	Insolvency professionals and processes	https://ibbi.gov.in/en/home/insolvencyprofessionals
+insolvency	National Company Law Tribunal	NCLT	https://nclt.gov.in/
+
+home_loan	Ministry of Housing and Urban Affairs	PMAY Urban	https://pmay-urban.gov.in/
+home_loan	Ministry of Rural Development	PMAY Gramin	https://pmayg.nic.in/
+home_loan	National Housing Bank	National Housing Bank	https://nhb.org.in/
+# Bank home loan terms are private commercial products, not government facts.
+# The graph covers the government subsidy and the documents it demands. It does
+# not and will not quote an interest rate.
+
+education_loan	Department of Financial Services	Vidya Lakshmi education loan portal	https://www.vidyalakshmi.co.in/
+education_loan	Department of Financial Services	Jan Samarth	https://www.jansamarth.in/
+
+business_loan	SIDBI	Udyami Mitra	https://udyamimitra.in/
+business_loan	Ministry of Finance	Mudra loans	https://www.mudra.org.in/
+business_loan	Government of Gujarat	Gujarat cottage and rural industries	https://cottage.gujarat.gov.in/
+
+driving_licence	MoRTH	Sarathi Parivahan	https://sarathi.parivahan.gov.in/
+driving_licence	MoRTH	Parivahan Sewa	https://parivahan.gov.in/
+
+vehicle_registration	MoRTH	Vahan citizen services	https://vahan.parivahan.gov.in/
+
+voter_id	Election Commission of India	Voters service portal	https://voters.eci.gov.in/
+voter_id	Election Commission of India	National Voters Service Portal	https://www.nvsp.in/
+voter_id	Government of Gujarat	Chief Electoral Officer, Gujarat	https://ceo.gujarat.gov.in/
+
+birth_death_certificate	Registrar General of India	Civil Registration System	https://crsorgi.gov.in/
+birth_death_certificate	Government of Gujarat	Gujarat e-Nagar	https://enagar.gujarat.gov.in/
+
+marriage_registration	Government of Gujarat	Inspector General of Registration	https://stampsregistration.gujarat.gov.in/
+marriage_registration	Government of Gujarat	Gujarat e-Nagar	https://enagar.gujarat.gov.in/
+
+property_registration	Government of Gujarat	Garvi, document registration	https://garvi.gujarat.gov.in/
+property_registration	Government of Gujarat	AnyROR, land record extracts	https://anyror.gujarat.gov.in/
+property_registration	Government of Gujarat	e-Dhara land records	https://e-dhara.gujarat.gov.in/
+property_registration	Ministry of Rural Development	Digital India Land Records Modernisation	https://dilrmp.gov.in/
+
+ration_card	Government of Gujarat	Digital Gujarat citizen services	https://www.digitalgujarat.gov.in/
+ration_card	Department of Food and Public Distribution	One Nation One Ration Card	https://nfsa.gov.in/
+
+pf_final_settlement	EPFO	EPFO member portal	https://unifiedportal-mem.epfindia.gov.in/memberinterface/
+pf_final_settlement	EPFO	EPFO	https://www.epfindia.gov.in/
+
+digilocker	MeitY	DigiLocker	https://www.digilocker.gov.in/
+
+grievance	DARPG	Centralised Public Grievance Redress and Monitoring System	https://pgportal.gov.in/
+grievance	Government of Gujarat	Swagat online grievance	https://swagat.gujarat.gov.in/
+
+scheme_discovery	MeitY	myScheme	https://www.myscheme.gov.in/
+scheme_discovery	NIC	India.gov.in national portal	https://www.india.gov.in/
+scheme_discovery	MeitY	UMANG	https://web.umang.gov.in/
