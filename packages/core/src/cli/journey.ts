@@ -77,7 +77,13 @@ function print(j: CompiledJourney): void {
     for (const c of step.channels) console.log(`     ${c.via.toLowerCase()}: ${c.name} ${c.url ?? ""}`);
     for (const o of step.offices) console.log(`     visit: ${officeLine(o)}`);
     for (const b of step.blockers) console.log(`     blocked: ${b.title} [${b.actor}] ${b.reason}`);
-    console.log(`     sources: ${step.sources.map((s) => s.source.url).join(", ") || "none yet"}`);
+    // By page, not by citation. Twelve distinct quotes off one FAQ is twelve
+    // rows on the web, where each one is shown, and one url printed twelve
+    // times here, where they are not.
+    const pages = new Map<string, number>();
+    for (const s of step.sources) pages.set(s.source.url, (pages.get(s.source.url) ?? 0) + 1);
+    const cited = [...pages].map(([url, n]) => (n > 1 ? `${url} (${n} quotes)` : url));
+    console.log(`     sources: ${cited.join(", ") || "none yet"}`);
   }
 
   if (j.warnings.length) {
