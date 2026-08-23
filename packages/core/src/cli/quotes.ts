@@ -28,9 +28,6 @@ interface JourneyModule {
   requirementGroups: RequirementGroup[];
 }
 
-/** Journeys whose seed data predates docs/research, quoted from live fetches. */
-const PRE_RESEARCH = new Set(["driving-licence"]);
-
 const ALL = ["driving-licence", "certificates", "scholarship", "pf", "pension"];
 
 const norm = (s: string) => s.replace(/\s+/g, " ").trim().toLowerCase();
@@ -76,12 +73,9 @@ async function auditOne(name: string): Promise<number> {
     if (!urls.has(norm(source.url))) problems.push(`source ${source.id} points at a URL no researcher fetched: ${source.url}`);
   }
 
-  const lenient = PRE_RESEARCH.has(name);
-  console.log(
-    `${name}: ${refs.length} citation(s), ${problems.length} problem(s)${lenient ? " (seeded before the research files existed, reported only)" : ""}`,
-  );
-  for (const p of problems) console.log(`  ${lenient ? "note" : "FAIL"} ${p}`);
-  return lenient ? 0 : problems.length;
+  console.log(`${name}: ${refs.length} citation(s), ${problems.length} problem(s)`);
+  for (const p of problems) console.log(`  FAIL ${p}`);
+  return problems.length;
 }
 
 const wanted = process.argv.slice(2);
