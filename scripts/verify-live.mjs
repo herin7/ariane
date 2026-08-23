@@ -89,7 +89,21 @@ for (const goal of services) {
   if (faults.length) broken.push(`${goal}: ${faults.join(", ")}`);
   else clean++;
 }
-check(`every service compiles over HTTP`, broken.length === 0, `${clean}/${services.length} clean${broken.length ? "\n        " + broken.join("\n        ") : ""}`);
+// Most of them 404ing at once is one cause, not N failures, and it is always
+// the same cause: the seed grew and the database it is served from did not.
+// Every offline gate stays green through this, because they all read the seed
+// while the server reads Supabase. Say it here rather than printing 189 lines
+// that each look like a different bug.
+const missing = broken.filter((line) => line.includes("HTTP 404")).length;
+const stale =
+  missing > services.length / 2
+    ? `\n        ${missing} of ${services.length} are 404. That is a stale database, not ${missing} broken services. Run pnpm db:push.`
+    : "";
+check(
+  `every service compiles over HTTP`,
+  broken.length === 0,
+  `${clean}/${services.length} clean${stale}${broken.length ? "\n        " + broken.slice(0, 20).join("\n        ") : ""}${broken.length > 20 ? `\n        ... and ${broken.length - 20} more` : ""}`,
+);
 
 // ------------------------------------------------------------ personalisation
 
