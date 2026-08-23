@@ -126,6 +126,31 @@ describe("questions collapse as they are answered", () => {
   });
 });
 
+describe("escalation", () => {
+  it("always tells you where to go when nothing is moving", () => {
+    const paths = compile().escalationPaths.map((c) => c.nodeId);
+    expect(paths).toContain("grievance:cpgrams");
+    expect(paths).toContain("grievance:swagat");
+  });
+
+  it("quotes an official page for every escalation route it offers", () => {
+    for (const path of compile().escalationPaths) {
+      expect(path.sources.length).toBeGreaterThan(0);
+      for (const s of path.sources) expect(s.evidence?.length ?? 0).toBeGreaterThan(0);
+    }
+  });
+
+  it("keeps the Gujarat route out of a journey compiled outside Gujarat", () => {
+    const outside = compileJourney(data, {
+      goal: "driving_licence",
+      jurisdiction: { country: "India" },
+    });
+    const paths = outside.escalationPaths.map((c) => c.nodeId);
+    expect(paths).toContain("grievance:cpgrams");
+    expect(paths).not.toContain("grievance:swagat");
+  });
+});
+
 describe("eligibility", () => {
   it("blocks a 16 year old and says who has to act", () => {
     const j = compile({ answers: { age: 16, vehicle_class: "non_transport" } });

@@ -1,0 +1,1074 @@
+{
+  "journey": "driving_licence",
+  "researchedAt": "2026-08-23T11:20:00+05:30",
+  "region": "Gujarat, India",
+  "sources": [
+    {
+      "id": "src_parivahan_ll",
+      "url": "https://parivahan.gov.in/en/content/learners-license",
+      "title": "Learner's License | Parivahan Sewa",
+      "domain": "parivahan.gov.in",
+      "sourceType": "GUIDELINE",
+      "retrievedAt": "2026-08-23T02:25:00+05:30",
+      "cacheFile": ".firecrawl/ll.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_parivahan_dl",
+      "url": "https://parivahan.gov.in/en/content/permanent-license",
+      "title": "Permanent License | Parivahan Sewa",
+      "domain": "parivahan.gov.in",
+      "sourceType": "GUIDELINE",
+      "retrievedAt": "2026-08-23T02:25:00+05:30",
+      "cacheFile": ".firecrawl/dl.md",
+      "scrapedOk": true,
+      "note": "Page title on the cached file is 'Permanent License'; the canonical URL is taken from the site navigation block present in the same cache file."
+    },
+    {
+      "id": "src_parivahan_faq",
+      "url": "https://parivahan.gov.in/en/content/faq",
+      "title": "Frequently Asked Questions | Parivahansewa",
+      "domain": "parivahan.gov.in",
+      "sourceType": "FAQ",
+      "retrievedAt": "2026-08-23T02:26:00+05:30",
+      "cacheFile": ".firecrawl/faq.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_parivahan_fees",
+      "url": "https://parivahan.gov.in/en/content/licensing-related-fees-charges",
+      "title": "Licensing Related fees and Charges | Parivahan Sewa",
+      "domain": "parivahan.gov.in",
+      "sourceType": "GUIDELINE",
+      "retrievedAt": "2026-08-23T02:26:00+05:30",
+      "cacheFile": ".firecrawl/fees.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_parivahan_contact",
+      "url": "https://parivahan.gov.in/en/content/contact-us",
+      "title": "Contact Us | Parivahan Sewa",
+      "domain": "parivahan.gov.in",
+      "sourceType": "HELPLINE",
+      "retrievedAt": "2026-08-23T02:26:00+05:30",
+      "cacheFile": ".firecrawl/contact.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_cmvr_form2",
+      "url": "https://parivahan.gov.in/sites/default/files/DownloadForm/cmvr/FORM-2.pdf",
+      "title": "FORM 2 [Refer Rules 10, 14, 17 and 18] - Form of application for Learner's Licence or Driving Licence",
+      "domain": "parivahan.gov.in",
+      "sourceType": "PDF",
+      "retrievedAt": "2026-08-23T11:11:00+05:30",
+      "cacheFile": ".firecrawl/form2.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_sarathi_home",
+      "url": "https://sarathi.parivahan.gov.in/sarathiservice/stateSelection.do",
+      "title": "Sarathi Parivahan Sewa - State Selection",
+      "domain": "sarathi.parivahan.gov.in",
+      "sourceType": "PORTAL_HOME",
+      "retrievedAt": "2026-08-23T02:27:00+05:30",
+      "cacheFile": ".firecrawl/sarathi-state.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_sarathi_ll_faq",
+      "url": "https://sarathi.parivahan.gov.in/sarathicms/api/v1/get-resource/UFhyTWVpVitVVDFjelRxS0pwTU5RVlR2Q29FZTRRSFZsVHZvR3Ric3IzUT0=",
+      "title": "FAQ (LEARNER LICENCE) - Sarathi Parivahan Portal",
+      "domain": "sarathi.parivahan.gov.in",
+      "sourceType": "FAQ",
+      "retrievedAt": "2026-08-23T11:14:00+05:30",
+      "cacheFile": ".firecrawl/sarathi-ll-faq.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_sarathi_status",
+      "url": "https://sarathi.parivahan.gov.in/sarathiservice/applViewStatus.do",
+      "title": "Application Status - SarathiOnWeb",
+      "domain": "sarathi.parivahan.gov.in",
+      "sourceType": "TRACKING_PAGE",
+      "retrievedAt": "2026-08-23T11:18:00+05:30",
+      "cacheFile": ".firecrawl/sarathi-status.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_gj_dl",
+      "url": "https://cot.gujarat.gov.in/driving-licence.htm",
+      "title": "Driving License | Commissionerate of Transport, Government of Gujarat",
+      "domain": "cot.gujarat.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T11:19:00+05:30",
+      "cacheFile": ".firecrawl/gj-dl.html",
+      "scrapedOk": true,
+      "note": "Firecrawl proxy could not reach cot.gujarat.gov.in (ERR_TUNNEL_CONNECTION_FAILED); page fetched over plain HTTPS (HTTP 200) and cached as raw HTML plus a text rendering at .firecrawl/gj-dl.txt."
+    },
+    {
+      "id": "src_gj_rto",
+      "url": "https://cot.gujarat.gov.in/rto-arto.htm",
+      "title": "RTO/ARTO | Commissionerate of Transport, Government of Gujarat",
+      "domain": "cot.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "retrievedAt": "2026-08-23T11:17:00+05:30",
+      "cacheFile": ".firecrawl/gj-rto.html",
+      "scrapedOk": true,
+      "note": "Firecrawl proxy blocked; fetched over plain HTTPS (HTTP 200, 61824 bytes) and cached as raw HTML."
+    },
+    {
+      "id": "src_gj_helpline",
+      "url": "https://cot.gujarat.gov.in/helpline-number.htm",
+      "title": "Helpline Number | Commissionerate of Transport, Government of Gujarat",
+      "domain": "cot.gujarat.gov.in",
+      "sourceType": "HELPLINE",
+      "retrievedAt": "2026-08-23T11:19:00+05:30",
+      "cacheFile": ".firecrawl/gj-helpline.html",
+      "scrapedOk": true,
+      "note": "Fetched over plain HTTPS (HTTP 200); text rendering cached at .firecrawl/gj-helpline.txt."
+    },
+    {
+      "id": "src_mparivahan_play",
+      "url": "https://play.google.com/store/apps/details?id=com.nic.mparivahan",
+      "title": "NextGen mParivahan - Apps on Google Play (National Informatics Centre)",
+      "domain": "play.google.com",
+      "sourceType": "MOBILE_APP_INFO",
+      "retrievedAt": "2026-08-23T11:16:00+05:30",
+      "cacheFile": ".firecrawl/mparivahan-play.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_digilocker_installapp",
+      "url": "https://www.digilocker.gov.in/web/installapp",
+      "title": "Download DigiLocker Mobile App",
+      "domain": "digilocker.gov.in",
+      "sourceType": "MOBILE_APP_INFO",
+      "retrievedAt": "2026-08-23T11:18:00+05:30",
+      "cacheFile": ".firecrawl/digilocker-installapp.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_pv_ll_404",
+      "url": "https://parivahan.gov.in/parivahan/en/content/learners-license",
+      "title": "Page not found",
+      "domain": "parivahan.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T02:25:00+05:30",
+      "cacheFile": ".firecrawl/pv-ll.md",
+      "scrapedOk": false,
+      "note": "Cached page body is 'Page not found'. No facts were taken from this file."
+    },
+    {
+      "id": "src_pv_dl_404",
+      "url": "https://parivahan.gov.in/parivahan/en/content/permanent-license",
+      "title": "Page not found",
+      "domain": "parivahan.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T02:25:00+05:30",
+      "cacheFile": ".firecrawl/pv-dl.md",
+      "scrapedOk": false,
+      "note": "Cached page body is 'Page not found'. No facts were taken from this file."
+    }
+  ],
+  "facts": [
+    {
+      "claim": "A Learner Licence must be obtained before a new Driving Licence can be granted in Gujarat.",
+      "kind": "DEPENDENCY",
+      "subject": "driving_licence",
+      "object": "learner_licence",
+      "detail": { "required": true, "scope": "Gujarat" },
+      "sourceId": "src_gj_dl",
+      "evidence": "An applicant is required to obtain a learning license in order to get new driving license.",
+      "confidence": 0.97
+    },
+    {
+      "claim": "Nationally, a non-diplomat applicant must apply for a Learner's Licence before proceeding to a Driving Licence.",
+      "kind": "DEPENDENCY",
+      "subject": "driving_licence",
+      "object": "learner_licence",
+      "detail": { "required": true, "exception": "Diplomats may apply for a Driving Licence directly" },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "1. If you are a Diplomat: You can apply for Driving License directly.\n\n2. If you are a Non-Diplomat: You have to apply for Learner's License, before proceeding for Driving License.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The permanent Driving Licence application is made in Form 4 together with the Learner's Licence held for that class of vehicle.",
+      "kind": "DEPENDENCY",
+      "subject": "driving_licence",
+      "object": "form_4",
+      "detail": { "formNumber": "Form 4", "mustAccompany": "Learner's Licence for the same class of vehicle" },
+      "sourceId": "src_parivahan_dl",
+      "evidence": "An application in Form 4, for a permanent driving licence shall be made along with the Learners' Licence obtained for such class of vehicle.",
+      "confidence": 0.97
+    },
+    {
+      "claim": "An applicant must have held a valid Learner's Licence for at least 30 days before being competent to appear for the driving test of competence.",
+      "kind": "TIMELINE",
+      "subject": "driving_licence",
+      "object": "learner_licence",
+      "detail": { "waitingPeriodDays": 30, "milestone": "test of competence to drive" },
+      "sourceId": "src_parivahan_dl",
+      "evidence": "The applicant who has held a valid Learners' Licence, for a period of at least 30 days, shall be competent to appear for the test of competence.",
+      "confidence": 0.97
+    },
+    {
+      "claim": "Learner's Licence validity is 6 months and a New Driving Licence can be applied for after 30 days.",
+      "kind": "TIMELINE",
+      "subject": "learner_licence",
+      "object": "driving_licence",
+      "detail": { "llValidityMonths": 6, "waitingPeriodDays": 30 },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "Learner's Licence validity is for 6 months, and you can apply for New Driving Licence after 30 days.",
+      "confidence": 0.96
+    },
+    {
+      "claim": "The Learner Licence is valid throughout India for 6 months, and on expiry the whole process must be repeated afresh.",
+      "kind": "TIMELINE",
+      "subject": "learner_licence",
+      "detail": { "validityMonths": 6, "validArea": "throughout India", "renewable": false },
+      "sourceId": "src_sarathi_ll_faq",
+      "evidence": "The Learner Licence is valid through out India for a period of 6 months only. In case of expiry of the Learner Licence the applicant needs to repeat the process afresh.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "An expired Learner's Licence cannot be renewed; only a new Learner's Licence can be obtained.",
+      "kind": "TIMELINE",
+      "subject": "learner_licence",
+      "detail": { "renewable": false },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "Learner's License validity is for 6 Months and post expiry you can only get a new Learner's License.\n\nThe expired License cannot be renewed.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The Driving Licence must be applied for before the Learner Licence expires and the driving test completed within that window.",
+      "kind": "TIMELINE",
+      "subject": "driving_licence",
+      "object": "learner_licence",
+      "detail": { "deadline": "before Learner Licence expiry" },
+      "sourceId": "src_sarathi_ll_faq",
+      "evidence": "No. Apply for Driving licence before your Learner Licence expires and complete the driving test.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "In Gujarat the driving test may be taken after a gap of 30 days from obtaining the learning licence.",
+      "kind": "TIMELINE",
+      "subject": "driving_licence",
+      "object": "learner_licence",
+      "detail": { "waitingPeriodDays": 30, "scope": "Gujarat" },
+      "sourceId": "src_gj_dl",
+      "evidence": "One can appear for driving test after a gap of 30 days of obtaining learning license.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "In Gujarat the learning licence is valid for 6 months and the driving test must be taken within that validity period.",
+      "kind": "TIMELINE",
+      "subject": "learner_licence",
+      "detail": { "validityMonths": 6, "scope": "Gujarat" },
+      "sourceId": "src_gj_dl",
+      "evidence": "Learning license is valid for a period of 6 months only, therefore, an applicant is required to appear for driving test within the validity period.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "A re-test can be applied for after 7 days.",
+      "kind": "TIMELINE",
+      "subject": "driving_licence",
+      "detail": { "retestAfterDays": 7 },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "Re-test can be applied after 7 days.",
+      "confidence": 0.85
+    },
+    {
+      "claim": "After failing the driving skill test three times, the retest fee may only be deposited 60 days after the last failed attempt.",
+      "kind": "TIMELINE",
+      "subject": "driving_licence",
+      "detail": { "afterThreeFailuresWaitDays": 60 },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "Yes, you are able to deposit the fee but after the 60 days of last failure attempt.",
+      "confidence": 0.85
+    },
+    {
+      "claim": "In Gujarat a person failing the learner licence knowledge test may re-take it after a gap of 24 hours.",
+      "kind": "TIMELINE",
+      "subject": "learner_licence",
+      "detail": { "retestAfterHours": 24, "scope": "Gujarat" },
+      "sourceId": "src_gj_dl",
+      "evidence": "A person failing in the test can appear for the re-test after a gap of 24 hours.",
+      "confidence": 0.9
+    },
+    {
+      "claim": "An applicant under 18 may be granted a learner's licence for a motor cycle without gear only with the written consent of the person having care of the applicant.",
+      "kind": "ELIGIBILITY",
+      "subject": "learner_licence",
+      "detail": { "minAgeYears": 16, "vehicleClass": "MCWOG", "requiresGuardianWrittenConsent": true },
+      "sourceId": "src_parivahan_ll",
+      "evidence": "An applicant under the age of eighteen years shall be granted a learner's license to drive a motor cycle without gear except with the consent in writing of the person having the care of the person desiring a learner's license.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "An applicant who has completed 18 years is eligible to apply for a driving licence for a motor vehicle other than a transport vehicle.",
+      "kind": "ELIGIBILITY",
+      "subject": "driving_licence",
+      "detail": { "minAgeYears": 18, "vehicleClass": "non-transport (incl. LMV, MCWG)" },
+      "sourceId": "src_parivahan_ll",
+      "evidence": "The applicant who has completed the age of eighteen years of age is eligible to apply for a driving licence to drive a motor vehicle other than a transport vehicle.",
+      "confidence": 0.96
+    },
+    {
+      "claim": "An applicant who has completed 20 years is eligible to apply for a licence to drive a transport vehicle.",
+      "kind": "ELIGIBILITY",
+      "subject": "driving_licence",
+      "detail": { "minAgeYears": 20, "vehicleClass": "Transport Vehicle" },
+      "sourceId": "src_parivahan_ll",
+      "evidence": "An applicant who has completed twenty years of age will be eligible for applying for a licence to drive a transport vehicle.",
+      "confidence": 0.96
+    },
+    {
+      "claim": "The national age criteria are 16 for MCWOG, 18 for LMV and MCWG, 20 for Transport Vehicle and 18 for Conductor Licence.",
+      "kind": "ELIGIBILITY",
+      "subject": "driving_licence",
+      "detail": {
+        "ageByClass": [
+          { "minAgeYears": 16, "vehicleClass": "MCWOG", "note": "Private Vehicle" },
+          { "minAgeYears": 18, "vehicleClass": "LMV" },
+          { "minAgeYears": 18, "vehicleClass": "MCWG", "note": "Private Vehicle" },
+          { "minAgeYears": 20, "vehicleClass": "Transport Vehicle" },
+          { "minAgeYears": 18, "vehicleClass": "Conductor License" }
+        ]
+      },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "The age criteria are as follows:\n\n1. 16 years of age for MCWOG vehicle class (Private Vehicle)\n\n2. 18 years of age for LMV (Light Motor Vehicle) & MCWG vehicle class (Private Vehicle)\n\n3. 20 years of age for Transport Vehicle\n\n4. 18 years of age for Conductor License",
+      "confidence": 0.95
+    },
+    {
+      "claim": "In Gujarat a person must have completed 16 years to obtain a licence for two wheelers without gear.",
+      "kind": "ELIGIBILITY",
+      "subject": "driving_licence",
+      "detail": { "minAgeYears": 16, "vehicleClass": "MCWOG", "scope": "Gujarat" },
+      "sourceId": "src_gj_dl",
+      "evidence": "A person should have completed 16 years to obtain license for 2 wheelers without gear.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "In Gujarat a person must have completed 18 years for two wheelers with gear, motor-car, tractor and other non-transport vehicles.",
+      "kind": "ELIGIBILITY",
+      "subject": "driving_licence",
+      "detail": { "minAgeYears": 18, "vehicleClass": "MCWG, Motor-car, Tractor, other non-transport", "scope": "Gujarat" },
+      "sourceId": "src_gj_dl",
+      "evidence": "A person should have completed 18 years age to obtain license for 2 wheelers with gear, Motor-car, Tractor and other non-transport vehicles.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "In Gujarat a transport vehicle licence requires age 20, a pass in standard 8, and one year of light motor vehicle driving experience.",
+      "kind": "ELIGIBILITY",
+      "subject": "driving_licence",
+      "detail": { "minAgeYears": 20, "vehicleClass": "Transport Vehicle", "minEducation": "standard 8th pass", "minExperienceYears": 1, "scope": "Gujarat" },
+      "sourceId": "src_gj_dl",
+      "evidence": "For transport vehicles, a person should have completed 20 years of age. In addition he should be passed standard 8th pass and should have experience of 1 year driving a light motor vehicle.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "MCWOG means Motor cycle without Gear, MCWG means Motor Cycle with Gear, and MC50CC means motor vehicle with engine capacity less than 50CC.",
+      "kind": "ELIGIBILITY",
+      "subject": "driving_licence",
+      "detail": { "MCWOG": "Motor cycle without Gear", "MCWG": "Motor Cycle with Gear", "MC50CC": "Motor vehicle with engine capacity less than 50CC" },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "Full Form for MCWOG: Motor cycle without Gear.\n\nMCWG: Motor Cycle with Gear\n\nMC50CC: Motor vehicle with engine capacity less than 50CC",
+      "confidence": 0.92
+    },
+    {
+      "claim": "A colour blind applicant may apply for a driving or learner's licence but must obtain a medical certificate from a hospital.",
+      "kind": "ELIGIBILITY",
+      "subject": "driving_licence",
+      "detail": { "condition": "colour blindness", "allowed": true, "extraDocument": "medical certificate from the hospital" },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "Yes, you need to get the medical certificate from the hospital.",
+      "confidence": 0.82
+    },
+    {
+      "claim": "A one-eyed applicant cannot apply for a driving or learner's licence.",
+      "kind": "ELIGIBILITY",
+      "subject": "driving_licence",
+      "detail": { "condition": "one eyed", "allowed": false },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "[Can one eyed applicant apply for the driving/learner's license](https://parivahan.gov.in/en/node/111)\n\nNo",
+      "confidence": 0.75
+    },
+    {
+      "claim": "An illiterate applicant may apply for a Driving Licence in India.",
+      "kind": "ELIGIBILITY",
+      "subject": "driving_licence",
+      "detail": { "condition": "illiterate", "allowed": true },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "[I am illiterate, can I apply for the driving License/Learner's License](https://parivahan.gov.in/en/node/114)\n\nYes, you can apply for Driving License in India.",
+      "confidence": 0.8
+    },
+    {
+      "claim": "The official CMVR Form 2 annexure lists ten alternative documents accepted as Proof of Address and Age, and only one need be selected if the same proof covers both.",
+      "kind": "ACCEPTED_ALTERNATIVES",
+      "subject": "learner_licence",
+      "object": "proof_of_address_and_age",
+      "detail": {
+        "selectionRule": "ANY_OF",
+        "note": "Select only one if the proof is common for Address and Age",
+        "acceptedDocuments": [
+          "Aadhaar Card",
+          "Electoral Roll",
+          "Life Insurance Policy",
+          "Passport",
+          "School Certificate",
+          "Birth Certificate",
+          "Pay slip issued by any office of the State Government or Central Government or a local Body",
+          "Affidavit sworn before an Executive Magistrate or Notary Public or First Class Judicial Magistrate",
+          "A certificate granted by a Registered Medical Practitioner not below the rank of Civil Surgeon as to the age of the applicant",
+          "Any other document or documents as may be specified by State Government"
+        ]
+      },
+      "sourceId": "src_cmvr_form2",
+      "evidence": "ANNEXURE LIST OF DOCUMENTS TO BE SUBMITTED OR UPLOADED BY THE APPLICANT Proof of Address and Age. (Select only one if the proof is common for Address and Age)\n\n1. Aadhaar Card\n2. Electoral Roll\n3. Life Insurance Policy\n4. Passport\n5. School Certificate\n6. Birth Certificate\n7. Pay slip issued by any office of the State Government or Central Government or a local Body\n8. Affidavit sworn before an Executive Magistrate or Notary Public or First Class Judicial Magistrate\n9. A certificate granted by a Registered Medical Practitioner not below the rank of Civil Surgeon as to the age of the applicant\n10. Any other document or documents as may be specified by State Government",
+      "confidence": 0.97
+    },
+    {
+      "claim": "CMVR Form 2 lists eight further documents to be enclosed or uploaded if applicable, including Form 1, Form 1A, Form 5 and a parent/guardian declaration for minors.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "learner_licence",
+      "detail": {
+        "selectionRule": "CONDITIONAL_EACH",
+        "documents": [
+          "Self Declaration for Physical Fitness in Form-1",
+          "Medical Certificate in Form-1A (to be provided if the applicant is applying for renewal and is above 40 years of age or applying for Transport Licence)",
+          "Driving Certificate issued by Driving School or Establishments in Form 5",
+          "Parent or Guardian Declaration in case of applicant who is a minor",
+          "Photograph",
+          "Valid proof of passport and visa (for International Driving Permit only)",
+          "Proof of legal presence in India in addition to proof of residence in case of Foreigners",
+          "Other documents, if any"
+        ]
+      },
+      "sourceId": "src_cmvr_form2",
+      "evidence": "Other documents to be enclosed or uploaded if applicable\n1. Self Declaration for Physical Fitness in Form-1\n2. Medical Certificate in Form-1A (to be provided if the applicant is applying for renewal and is above 40 years of age or applying for Transport Licence)\n3. Driving Certificate issued by Driving School or Establishments in Form 5\n4. Parent or Guardian Declaration in case of applicant who is a minor\n5. Photograph\n6. Valid proof of passport and visa (for International Driving Permit only)\n7. Proof of legal presence in India in addition to proof of residence in case of Foreigners\n8. Other documents, if any",
+      "confidence": 0.96
+    },
+    {
+      "claim": "Gujarat's Commissionerate of Transport lists seven alternative documents accepted as proof of age.",
+      "kind": "ACCEPTED_ALTERNATIVES",
+      "subject": "learner_licence",
+      "object": "proof_of_age",
+      "detail": {
+        "selectionRule": "ANY_OF",
+        "scope": "Gujarat",
+        "acceptedDocuments": [
+          "School Leaving Certificate",
+          "Birth Certificate",
+          "Passport",
+          "Pan Card",
+          "L.I.C. Policy",
+          "a Certificate from Civil Surgeon",
+          "a Doctor equivalent to that"
+        ]
+      },
+      "sourceId": "src_gj_dl",
+      "evidence": "School Leaving Certificate, Birth Certificate, Passport, Pan Card, L.I.C. Policy or a Certificate from Civil Surgeon or a Doctor equivalent to that can be submitted as a proof of age.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Gujarat's Commissionerate of Transport lists nine alternative documents accepted as proof of address.",
+      "kind": "ACCEPTED_ALTERNATIVES",
+      "subject": "learner_licence",
+      "object": "proof_of_address",
+      "detail": {
+        "selectionRule": "ANY_OF",
+        "scope": "Gujarat",
+        "acceptedDocuments": [
+          "School Leaving Certificate",
+          "Passport",
+          "L.I.C. Policy",
+          "Electoral Voter I-Card",
+          "Light Bill",
+          "Telephone Bill",
+          "receipt of House Tax with address",
+          "Pay Slip of Central/State/Local self Government",
+          "an Affidavit from the applicant to that effect"
+        ]
+      },
+      "sourceId": "src_gj_dl",
+      "evidence": "School Leaving Certificate, Passport, L.I.C. Policy, Electoral Voter I-Card, Light Bill, Telephone Bill, receipt of House Tax with address, Pay Slip of Central/State/Local self Government or an Affidavit from the applicant to that effect can be submitted asthe proof for address.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Address proof must be enclosed with the Form 2 application in the case of a New Learner's Licence or New Driving Licence.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "learner_licence",
+      "object": "proof_of_address",
+      "detail": { "required": true, "appliesTo": ["New Learner's Licence", "New Driving Licence", "Change of Address"] },
+      "sourceId": "src_cmvr_form2",
+      "evidence": "Address (proof to be enclosed, in case of New Learner's Licence or New Driving Present Address (shall be printed on Licence)",
+      "confidence": 0.85
+    },
+    {
+      "claim": "Form 1 (self-declaration as to physical fitness) is mandatory for the Learner Licence test.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "learner_licence",
+      "object": "form_1",
+      "detail": { "formNumber": "Form 1", "mandatory": true, "description": "self declaration medical" },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "[Is Form 1 Mandatory for Learner Licence Test?](https://parivahan.gov.in/en/node/161)\n\nYes, Form 1 is self declaration medical",
+      "confidence": 0.92
+    },
+    {
+      "claim": "Form 1A (medical certificate) is not mandatory for the Learner Licence test; it is required only for applicants aged 40 years or above.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "learner_licence",
+      "object": "form_1a",
+      "detail": { "formNumber": "Form 1A", "mandatory": false, "requiredWhenAgeYearsAtLeast": 40 },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "[Is Form 1A Mandatory for Learner Licence Test?](https://parivahan.gov.in/en/node/160)\n\nNo,\n\nMedical Certificate (FORM 1A) is required for applicants having age equal to or above 40 years.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "For a New Driving Licence, Form 1A is required for applicants aged 40 or above; applicants under 40 submit Form 1.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "driving_licence",
+      "object": "form_1a",
+      "detail": { "requiredWhenAgeYearsAtLeast": 40, "otherwiseSubmit": "FORM 1" },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "Medical Certificate (FORM 1A) is required for applicants having age equal to or above 40 years, in case of less than 40 you need to submit FORM 1.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "The Sarathi Learner Licence FAQ states Form 1 should invariably be attached with Form 1A for the Learner Licence test, and links the download path for both forms.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "learner_licence",
+      "object": "form_1_and_1a",
+      "detail": { "downloadPath": "https://parivahan.gov.in/parivahan >> Informational Services >> DownloadableForms > AllForms >> Form-1 and Form-1A", "conflictsWith": "parivahan.gov.in FAQ node/160 which says Form 1A is not mandatory below age 40" },
+      "sourceId": "src_sarathi_ll_faq",
+      "evidence": "Yes. Form 1 should be invariably attached with Form 1A ( Medical Fitness)\n\nLog on [https://parivahan.gov.in/parivahan](https://parivahan.gov.in/parivahan) >>Informational Services>>DownloadableForms> AllForms>>Form-1(Application – cum – Declaration as to Physical Fitness) and Form- 1A(Medical Fitness)",
+      "confidence": 0.8
+    },
+    {
+      "claim": "In Gujarat the application for both learning and driving licence is made in Form No.2/4 with Medical Certificate in Form No.1(A) attached.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "driving_licence",
+      "detail": { "formNumbers": ["Form No.2", "Form No.4", "Form No.1 (A)"], "scope": "Gujarat" },
+      "sourceId": "src_gj_dl",
+      "evidence": "An applicant is required to apply in Form No.2/4 for the purpose of both learning as well as driving license, Medical Certificate in Form No.1 (A) is also required to be attached.",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Form 2 is the single form of application for a Learner's Licence, a Driving Licence, addition of a class of vehicle, renewal, or change of address or name.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "learner_licence",
+      "object": "form_2",
+      "detail": { "formNumber": "Form 2", "rulesReferenced": "Rules 10, 14, 17 and 18" },
+      "sourceId": "src_cmvr_form2",
+      "evidence": "FORM 2 *[Refer Rules 10, 14, 17 and 18]* FORM OF APPLICATION FOR LEARNER'S LICENCE OR DRIVING LICENCE OR ADDITION OF A NEW CLASS OF VEHICLE OR RENEWAL OF DRIVING LICENCE OR CHANGE OF ADDRESS OR NAME",
+      "confidence": 0.97
+    },
+    {
+      "claim": "A passport size photograph is required with Form 2 and for online applications must not exceed 50 KB.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "learner_licence",
+      "object": "photograph",
+      "detail": { "type": "passport size photograph", "maxSizeKb": 50, "appliesTo": "online application" },
+      "sourceId": "src_cmvr_form2",
+      "evidence": "Space for passport size photograph (Upload the photo for online application of the size not more than 50 KB)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "A minor applicant's Form 2 must carry a parent/guardian declaration under sub-section (2) of section 7 of the Motor Vehicles Act, 1988 consenting to the learner's licence.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "learner_licence",
+      "object": "guardian_consent",
+      "detail": { "statute": "sub-section (2) of section 7 of the Motor Vehicles Act, 1988", "appliesWhen": "applicant is a minor" },
+      "sourceId": "src_cmvr_form2",
+      "evidence": "Under sub-section (2) of section 7 of the Motor Vehicles Act, 1988\n\nShri/Smt./Kumari ......................................... son/daughter ........................................\nof .................................... who is a minor is under my care and I accept responsibility for\nhis/her driving. If at a later date I decide not to accept responsibility for his/her driving,\nI shall inform the licensing authority in writing for the cancellation of the licence. I give\nmy consent for his/her obtaining the learner's licence.",
+      "confidence": 0.96
+    },
+    {
+      "claim": "The documents to carry to the RTO office are the printed acknowledgment listing required documents, Form 1 and Form 1A, the appointment letter and the fee receipt.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "learner_licence",
+      "detail": { "items": ["print acknowledgment which shows required documents", "print Form 1 & application form & Form 1A", "Appointment letter", "Fee receipt"] },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "1. Check the application status and click on print acknowledgment which shows required documents.\n\n2. Click on print Form 1 & can download application form & Form 1A\n\n3. Click on Appointment letter from the same application status.\n\n4. Fee receipt.",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Form 2 records Aadhaar card number only if already available with the applicant, or the Aadhaar application number if applied.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "learner_licence",
+      "object": "aadhaar",
+      "detail": { "mandatory": false, "capturedAs": ["Aadhaar Card Number", "Aadhaar Card application number"] },
+      "sourceId": "src_cmvr_form2",
+      "evidence": "Details of Aadhaar card, if already available with the applicant|||Aadhaar Card Number|||\n|Details of Aadhaar application number if applied|||Aadhaar Card application number|||",
+      "confidence": 0.85
+    },
+    {
+      "claim": "Uploaded documents must be a single JPEG or PDF file within the given size limit.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "learner_licence",
+      "detail": { "fileFormats": ["jpeg", "PDF"], "singleFile": true },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "Document need to be single jpeg copy or PDF file in the given size only. You may use online option to compress them.",
+      "confidence": 0.85
+    },
+    {
+      "claim": "Learner Licence applications are made online on the Sarathi service portal via the 'New Learning Licence' link, and where online transactions are not enabled the CMV Form-2 may be submitted to the jurisdictional licensing authority.",
+      "kind": "CHANNEL",
+      "subject": "learner_licence",
+      "detail": { "url": "https://sarathi.parivahan.gov.in/sarathiservice", "menuPath": "New Learning Licence", "offlineFallback": "prescribed CMV Form-2 / Unified Form to the jurisdictional licensing authority" },
+      "sourceId": "src_sarathi_ll_faq",
+      "evidence": "Applicants can visit [https://sarathi.parivahan.gov.in/sarathiservice](https://sarathi.parivahan.gov.in/sarathiservice) and apply for Learner Licence ONLINE by following the link \"New Learning Licence \" Applicants should take print of the duly filled-in ONLINE application along with the reference number and submit at the chosen RTO office. Wherever the ONLINE transactions are not enabled, the applicants can submit the application in the prescribed CMV Form-2 / Unified Form to the jurisdictional licensing authority.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The Learner Licence application flow on Sarathi is: select state, choose 'Application for New Learners License' from the Learner's License menu, fill the form, then visit the RTO on the scheduled date with original documents and fee slip.",
+      "kind": "ACTION",
+      "subject": "learner_licence",
+      "detail": { "url": "https://sarathi.parivahan.gov.in/", "menuPath": "Learner's License > Application for New Learners License" },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "Steps to for Learners' Licence for New Learner's License (Flow may be differ from state to state):-\n\n1. Visit https://sarathi.parivahan.gov.in/\n\n2. Select concerned state\n\n3. Click on \"Application for New Learners License\" from \"Learner's License\" menu\n\n4. Fill up Learner's License application Form\n\n5. Click on Next Button to proceed\n\n6. Visit RTO on scheduled date with original documents & Fee Slip",
+      "confidence": 0.94
+    },
+    {
+      "claim": "The permanent Driving Licence application flow on Sarathi is: select state, choose 'New Driving Licence' from the Driving Licence menu, enter the Learning Licence Number and Date of Birth, fill the form, then visit the RTO on the scheduled date.",
+      "kind": "ACTION",
+      "subject": "driving_licence",
+      "detail": { "url": "https://sarathi.parivahan.gov.in/", "menuPath": "Driving Licence > New Driving Licence", "inputs": ["Learning License Number", "Date of Birth"] },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "Steps to follow for New Driving License :-\n\n1. Visit https://sarathi.parivahan.gov.in/\n\n2. Select concerned state\n\n3. Click on \"New Driving Licence\" from \"Driving Licence\" menu\n\n4. Enter your \"Learning License Number\" & \"Date of Birth\" to proceed further\n\n5. Fill up application Form\n\n6.Click on Next Button to proceed\n\n7. Visit RTO on scheduled date with original documents & Fee Slip",
+      "confidence": 0.94
+    },
+    {
+      "claim": "Parivahan lists Driving License Related Services at the Sarathi state selection URL.",
+      "kind": "CHANNEL",
+      "subject": "driving_licence",
+      "detail": { "url": "https://sarathi.parivahan.gov.in/sarathiservice/stateSelection.do", "label": "Driving License Related Services" },
+      "sourceId": "src_parivahan_ll",
+      "evidence": "[Driving License Related Services](https://sarathi.parivahan.gov.in/sarathiservice/stateSelection.do)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Gujarat is one of the states for which online Sarathi services are available and appears in the Sarathi state selection list.",
+      "kind": "CHANNEL",
+      "subject": "driving_licence",
+      "detail": { "state": "Gujarat", "url": "https://sarathi.parivahan.gov.in/sarathiservice/stateSelection.do" },
+      "sourceId": "src_sarathi_home",
+      "evidence": "Online services in this portal are available only for the States listed below",
+      "confidence": 0.88
+    },
+    {
+      "claim": "Online slot booking for the driving licence test of competence is available; appointments may otherwise be scheduled directly at the office concerned.",
+      "kind": "CHANNEL",
+      "subject": "driving_licence",
+      "detail": { "onlineSlotBooking": true, "fallback": "schedule an appointment directly at the Office Concerned" },
+      "sourceId": "src_parivahan_dl",
+      "evidence": "Schedule an appointment for the test of competence online by visiting the website or any RTO office where such facility exists. In other cases schedule an appointment directly at the Office Concerned.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "The Learner Licence test is an online test but must be taken at the concerned RTO or its authorised learning licence test centre, not from home.",
+      "kind": "CHANNEL",
+      "subject": "learner_licence",
+      "object": "learner_licence_test",
+      "detail": { "mode": "online test", "location": "concerned RTO or their authorized learning license test center", "fromHome": false },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "[Can I give exam from home or I will have to go to the concerned RTO?](https://parivahan.gov.in/en/node/90)\n\nYou need to report the concerned RTO or their authorized learning license test center.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "The Learner Licence is obtained by passing the online STALL test, after which one month must elapse before appearing for the driving test.",
+      "kind": "TIMELINE",
+      "subject": "learner_licence",
+      "detail": { "testName": "STALL Test", "mode": "online", "waitAfter": "one month" },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "Yes, you have to pass the online test (STALL Test) to get Learner's License. After the completion of its one\n\nmonth you need to appear for driving test to get your driving license.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "To obtain a driving licence one must undergo a Motor Driving test on a vehicle, conducted at the RTO.",
+      "kind": "CHANNEL",
+      "subject": "driving_licence",
+      "object": "driving_test",
+      "detail": { "mode": "on vehicle", "location": "RTO" },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "[What type of test would be conducted at RTO?](https://parivahan.gov.in/en/node/184)\n\nTo obtaining a driving license one needs to undergo a Motor Driving test (on vehicle)",
+      "confidence": 0.92
+    },
+    {
+      "claim": "The applicant should bring a vehicle of the type to which the driving licence application relates and must satisfy the testing officer per Rule 15(2) of the CMVR.",
+      "kind": "ACTION",
+      "subject": "driving_licence",
+      "object": "driving_test",
+      "detail": { "bringVehicle": true, "ruleReference": "Rule-15(2) of the CMVR" },
+      "sourceId": "src_parivahan_dl",
+      "evidence": "The applicant should bring a vehicle of the type to which the application relates.\n- The applicant should satisfy the officer conducting the test regarding his capability to drive the vehicle and his ability to perform the tasks specified in Rule-15(2) of the CMVR.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "In Gujarat the learner licence knowledge test is on computer, asks 15 random questions of which 11 must be answered correctly, with 48 seconds allowed per question.",
+      "kind": "ELIGIBILITY",
+      "subject": "learner_licence",
+      "object": "learner_licence_test",
+      "detail": { "questions": 15, "passMark": 11, "secondsPerQuestion": 48, "topics": "Rules and Regulations of traffic, and traffic signage", "scope": "Gujarat" },
+      "sourceId": "src_gj_dl",
+      "evidence": "To obtain Learning License, Knowledge Test through computer is required to be passed.\nSubject like Rules and Regulations of traffic, and traffic signage's are included the test.\n15 questions are asked in the test at random, out of which 11 questions are required to be answered correctly to pass the test.\n48 seconds are allowed to answer each question.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "In Gujarat a driving test is compulsory for a permanent driving licence and is conducted on the same kind of vehicle applied for.",
+      "kind": "CHANNEL",
+      "subject": "driving_licence",
+      "object": "driving_test",
+      "detail": { "compulsory": true, "vehicle": "same kind of vehicle for which application is made", "scope": "Gujarat" },
+      "sourceId": "src_gj_dl",
+      "evidence": "Driving test is compulsory to obtain permanent driving license|\nOne can appear for driving test after a gap of 30 days of obtaining learning license.\nDriving test is conducted on same kind of vehicle for which application is made for obtaining driving license has been made.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "A certificate from a Driving Training School exempts the applicant from the Learner's Licence test, subject to state jurisdiction.",
+      "kind": "ELIGIBILITY",
+      "subject": "learner_licence",
+      "detail": { "exemption": true, "condition": "certificate from Driving Training School", "caveat": "This will come under the state jurisdiction" },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "[I have got the certificate from Driving Training School, is my Learner's License test exempted?](https://parivahan.gov.in/en/node/183)\n\nYes, it is. (This will come under the state jurisdiction)",
+      "confidence": 0.85
+    },
+    {
+      "claim": "In Gujarat the learning licence is handed to the applicant in person on the day of the knowledge test, while the driving licence is sent by speed post to the address given in the application.",
+      "kind": "TIMELINE",
+      "subject": "driving_licence",
+      "detail": { "llDelivery": "in person on the same day as the knowledge test", "dlDelivery": "speed post to the address in the application", "scope": "Gujarat" },
+      "sourceId": "src_gj_dl",
+      "evidence": "Learning license is delivered to the applicant in person on the same day when he comes for knowledge test.|\nDriving license is sent by speed post at the address mentioned by the applicant in his application.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "Nationally, a candidate who passes the test of competence is issued a driving licence sent through speed post to the address furnished.",
+      "kind": "TIMELINE",
+      "subject": "driving_licence",
+      "detail": { "delivery": "speed post to the address furnished" },
+      "sourceId": "src_parivahan_dl",
+      "evidence": "The candidate who passes the test of competence successfully will be issued with a driving licence and sent through speed post to the address furnished.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "Issue of a learner's licence in Form 3 costs Rs. 150.00 for each class of vehicle.",
+      "kind": "FEE",
+      "subject": "learner_licence",
+      "detail": { "amountInr": 150, "unit": "each class of vehicle", "form": "Form 3" },
+      "sourceId": "src_parivahan_fees",
+      "evidence": "| 1 | Issue of learner's licence in [Form 3](https://parivahan.gov.in/parivahan/sites/default/files/DownloadForm/cmvr/FORM-3.pdf) for each class of vehicle | Rs. 150.00/- |",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The learner's licence test fee, or repeat test fee, is Rs. 50.00.",
+      "kind": "FEE",
+      "subject": "learner_licence",
+      "detail": { "amountInr": 50, "purpose": "Learner's licence test fee or repeat test fee" },
+      "sourceId": "src_parivahan_fees",
+      "evidence": "| 2 | Learner's licence test fee or repeat test fee, as the case may be | Rs. 50.00/- |",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The test or repeat test of competence to drive costs Rs. 300.00 for each class of vehicle.",
+      "kind": "FEE",
+      "subject": "driving_licence",
+      "detail": { "amountInr": 300, "unit": "each class of vehicle", "purpose": "test, or repeat test, of competence to drive" },
+      "sourceId": "src_parivahan_fees",
+      "evidence": "| 3 | For test, or repeat test, as the case may be, of competence to drive (for each class of vehicle) | Rs. 300.00/- |",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Issue of a driving licence costs Rs. 200.00.",
+      "kind": "FEE",
+      "subject": "driving_licence",
+      "detail": { "amountInr": 200, "purpose": "Issue of a driving licence" },
+      "sourceId": "src_parivahan_fees",
+      "evidence": "| 4 | Issue of a driving licence | Rs. 200.00/- |",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Addition of another class of vehicle to a driving licence costs Rs. 500.00 and renewal of a driving licence costs Rs. 200.00.",
+      "kind": "FEE",
+      "subject": "driving_licence",
+      "detail": { "additionOfClassInr": 500, "renewalInr": 200 },
+      "sourceId": "src_parivahan_fees",
+      "evidence": "| 6 | Addition of another class of vehicle to driving licence | Rs. 500.00/- |\n| 7 | Endorsement or renewal of authorisation for vehicle carrying hazardous goods | Rs. 1000.00/- |\n| 8 | Renewal of driving licence | Rs. 200.00/- |",
+      "confidence": 0.93
+    },
+    {
+      "claim": "The Gujarat Commissionerate of Transport page quotes lower state fee figures than the central Parivahan fee schedule, so the two sources conflict.",
+      "kind": "FEE",
+      "subject": "driving_licence",
+      "detail": { "scope": "Gujarat", "llTestFeeInr": 25, "llPerCategoryInr": 30, "smartCardDlInr": 200, "dlPerCategoryInr": 50, "conflictsWith": "src_parivahan_fees", "warning": "Gujarat page figures appear outdated relative to the central schedule; do not treat as authoritative without re-verification" },
+      "sourceId": "src_gj_dl",
+      "evidence": "The fee for Learning License and Driving License has to be paid together.Rs.25/-as test fee plus Rs.30/- per category of vehicle is required to be paid for Learning License.\nRs.200/- for a Smart Card Driving License and Rs.50/- per category of vehicle is required to be paid for Driving License.",
+      "confidence": 0.75
+    },
+    {
+      "claim": "The official application status page for licence applications is the Sarathi Application Status page, which takes an Application Number and Date of Birth with a captcha.",
+      "kind": "TRACKING",
+      "subject": "driving_licence",
+      "detail": { "url": "https://sarathi.parivahan.gov.in/sarathiservice/applViewStatus.do", "inputs": ["Application Number", "Date of Birth", "Captcha"] },
+      "sourceId": "src_sarathi_status",
+      "evidence": "Enter Application Details\n\n### Application Status\n\n\\*\nApplication Number:\n\n\n\\*\nDate of Birth:",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Application status is checked by visiting the Sarathi state selection page, selecting the state and choosing Application Status from the Apply Online menu.",
+      "kind": "TRACKING",
+      "subject": "driving_licence",
+      "detail": { "url": "https://sarathi.parivahan.gov.in/sarathiservice/stateSelection.do", "menuPath": "Apply Online > Application Status" },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "Steps to check License status:\n\n1. Visit https://sarathi.parivahan.gov.in/sarathiservice/stateSelection.do\n\n2. Select concerned state\n\n3. Select \"Application Status\" from \"Apply Online\" menu",
+      "confidence": 0.93
+    },
+    {
+      "claim": "The official mobile app of the Ministry of Road Transport and Highways for vehicle, driving licence and eChallan services is NextGen mParivahan, with Android package id com.nic.mparivahan published by National Informatics Centre.",
+      "kind": "APP",
+      "subject": "driving_licence",
+      "detail": { "appName": "NextGen mParivahan", "androidPackageId": "com.nic.mparivahan", "publisher": "National Informatics Centre.", "storeUrl": "https://play.google.com/store/apps/details?id=com.nic.mparivahan", "category": "Government" },
+      "sourceId": "src_mparivahan_play",
+      "evidence": "# NextGen mParivahan\n\n[National Informatics Centre.](https://play.google.com/store/apps/dev?id=9076108670215860604)",
+      "confidence": 0.93
+    },
+    {
+      "claim": "Sarathi warns that vehicle, driving licence and eChallan services can only be availed through parivahan.gov.in and the Nexgen mParivahan mobile app of the Ministry of Road Transport and Highways.",
+      "kind": "APP",
+      "subject": "driving_licence",
+      "detail": { "officialPlatforms": ["https://parivahan.gov.in", "Nexgen mParivahan mobile app"] },
+      "sourceId": "src_sarathi_home",
+      "evidence": "Vehicle, Driving License, and eChallan related services can only be availed through the official platforms:\n\n- 🌐 [https://parivahan.gov.in](https://parivahan.gov.in/)\n- 📱 **Nexgen mParivahan** mobile app of the Ministry of Road Transport and Highways",
+      "confidence": 0.95
+    },
+    {
+      "claim": "mParivahan provides a Virtual DL with an encrypted QR code and RTO office locations.",
+      "kind": "APP",
+      "subject": "driving_licence",
+      "detail": { "features": ["Virtual RC/DL", "Encrypted QR Code", "Information Services", "DL/RC search", "Transport Notification to the citizen", "RTO/Traffic Office Locations"] },
+      "sourceId": "src_mparivahan_play",
+      "evidence": "Highlights: Virtual RC/DL, Encrypted QR Code, Information Services, DL/RC search, Transport Notification to the citizen, RTO/Traffic Office Locations. Complete Transport Office related services will also be facilitated soon..",
+      "confidence": 0.9
+    },
+    {
+      "claim": "The official DigiLocker app is linked from digilocker.gov.in with Android package id com.digilocker.android and iOS app id 1320618078.",
+      "kind": "APP",
+      "subject": "driving_licence",
+      "detail": { "appName": "DigiLocker", "androidPackageId": "com.digilocker.android", "iosAppId": "1320618078", "androidUrl": "https://play.google.com/store/apps/details?id=com.digilocker.android", "iosUrl": "https://itunes.apple.com/in/app/digilocker/id1320618078" },
+      "sourceId": "src_digilocker_installapp",
+      "evidence": "[![](https://cdn.digilocker.gov.in//assets/img/playstore_2.png)](https://play.google.com/store/apps/details?id=com.digilocker.android)\n\n[![](https://cdn.digilocker.gov.in//assets/img/ios_1.png)](https://itunes.apple.com/in/app/digilocker/id1320618078)",
+      "confidence": 0.93
+    },
+    {
+      "claim": "Driving Licence details must be migrated from the RTO to the Sarathi portal before they appear in DigiLocker.",
+      "kind": "APP",
+      "subject": "driving_licence",
+      "detail": { "app": "DigiLocker", "prerequisite": "DL details migrated from RTO to Sarathi portal", "escalation": "consult your RTO/Department" },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "Driving License details are needed to be migrated from RTO to Sarathi portal by your concerned RTO. If the Driving License details are not found in Digilocker, please consult your RTO/Department",
+      "confidence": 0.9
+    },
+    {
+      "claim": "The official helpdesk email for Learner Licence and Driving Licence matters is helpdesk-sarathi[at]gov[dot]in.",
+      "kind": "HELPLINE",
+      "subject": "driving_licence",
+      "detail": { "email": "helpdesk-sarathi@gov.in", "problemArea": "Learner License, Driving Licence etc" },
+      "sourceId": "src_parivahan_contact",
+      "evidence": "| Learner License, Driving Licence etc | helpdesk-sarathi\\[at\\]gov\\[dot\\]in |",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The Sarathi helpline number is +91-120-2459169, operating 06:00AM to 10:00PM, with email helpdesk-sarathi@gov.in.",
+      "kind": "HELPLINE",
+      "subject": "driving_licence",
+      "detail": { "phone": "+91-120-2459169", "timings": "06:00AM - 10:00PM", "email": "helpdesk-sarathi@gov.in" },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "You can call us on our Helpline number: +91-120-2459169 (Timings: 06:00AM - 10:00PM)\n\nEmail: helpdesk-sarathi@gov.in(link sends e-mail)",
+      "confidence": 0.92
+    },
+    {
+      "claim": "The mParivahan helpdesk email is helpdesk-mparivahan[at]gov[dot]in.",
+      "kind": "HELPLINE",
+      "subject": "driving_licence",
+      "detail": { "email": "helpdesk-mparivahan@gov.in", "problemArea": "mParivahan Related" },
+      "sourceId": "src_parivahan_contact",
+      "evidence": "| mParivahan Related | helpdesk-mparivahan\\[at\\]gov\\[dot\\]in |",
+      "confidence": 0.93
+    },
+    {
+      "claim": "The Gujarat Commissionerate of Transport helpline for Driving License printing and dispatch queries is 079-29914473 and 079-29914474.",
+      "kind": "HELPLINE",
+      "subject": "driving_licence",
+      "detail": { "phones": ["079 -29914473", "079- 29914474"], "purpose": "Driving License Printing and dispatch related queries", "scope": "Gujarat" },
+      "sourceId": "src_gj_helpline",
+      "evidence": "Helpline Number \n1) Driving License Printing and dispatch related queries\n079 -29914473|\n079- 29914474",
+      "confidence": 0.93
+    },
+    {
+      "claim": "The Parivahan Web Information Manager, for questions about the website, is Shri Suresh Rana, Under Secretary (MVL).",
+      "kind": "GRIEVANCE",
+      "subject": "driving_licence",
+      "detail": { "name": "Shri Suresh Rana", "designation": "Under Secretary (MVL)", "email": "suresh[dot]rana77[at]gov[dot]in" },
+      "sourceId": "src_parivahan_contact",
+      "evidence": "For any questions about this website, please contact the Web Information Manager\n\n|     |     |\n| --- | --- |\n| Name | Shri Suresh Rana |\n| Designation | Under Secretary (MVL) |\n| Email | suresh\\[dot\\]rana77\\[at\\]gov\\[dot\\]in |",
+      "confidence": 0.9
+    },
+    {
+      "claim": "The standard escalation route for application problems is to contact the Zonal Office or Transport Department carrying original documents, or to approach the helpdesk.",
+      "kind": "GRIEVANCE",
+      "subject": "driving_licence",
+      "detail": { "escalationPath": ["Zonal Office / Transport Department with original documents", "helpdesk"] },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "You need to contact your Zonal Office/Transport Department, while carrying the original document(s), or you may approach to the helpdesk.",
+      "confidence": 0.9
+    },
+    {
+      "claim": "The Gujarat Commissionerate of Transport site publishes 'Register Your Grievance' and 'Track Your Grievance' as its grievance channels.",
+      "kind": "GRIEVANCE",
+      "subject": "driving_licence",
+      "detail": { "channels": ["Register Your Grievance", "Track Your Grievance"], "url": null, "scope": "Gujarat", "note": "Menu labels are printed on the page; the underlying URLs are JavaScript-driven and were not resolvable from the served HTML." },
+      "sourceId": "src_gj_dl",
+      "evidence": "GrievanceRegister Your Grievance|\nTrack Your Grievance|",
+      "confidence": 0.6
+    },
+    {
+      "claim": "RTO Ahmedabad has code GJ01 at RTO Office, Subhash Bridge, Sabarmati, Ahmedabad - 380027, phone 079-27559697, email rto-trans-ahd@gujarat.gov.in.",
+      "kind": "OFFICE",
+      "subject": "driving_licence",
+      "detail": { "office": "RTO Ahmedabad", "rtoCode": "GJ01", "address": "RTO Office, Subhash Bridge, Sabarmati,Ahmedabad- 380027.", "stdCode": "079", "phone": "27559697", "fax": "27559696", "email": "rto-trans-ahd@gujarat.gov.in" },
+      "sourceId": "src_gj_rto",
+      "evidence": "1|\nRTO |\nAhmedabad|\nGJ01|\nRTO Office, Subhash Bridge, Sabarmati,Ahmedabad- 380027.|\nEmail: rto-trans-ahd@gujarat.gov.in|\n079|\n27559697|\n27559696|",
+      "confidence": 0.93
+    },
+    {
+      "claim": "RTO Surat has code GJ05 at RTO Office, Ring Road, Nanpura, Surat - 385001, phone 0261-2464902, email rto-trans-sur@gujarat.gov.in.",
+      "kind": "OFFICE",
+      "subject": "driving_licence",
+      "detail": { "office": "RTO Surat", "rtoCode": "GJ05", "address": "RTO Office, Ring Road, Nanpura, Surat - 385001.", "stdCode": "0261", "phone": "2464902", "fax": "2464253", "email": "rto-trans-sur@gujarat.gov.in" },
+      "sourceId": "src_gj_rto",
+      "evidence": "5|\nRTO Surat|\nGJ05|\nRTO Office, Ring Road, Nanpura, Surat - 385001.|\nEmail: rto-trans-sur@gujarat.gov.in|\n0261|\n2464902|\n2464253|",
+      "confidence": 0.93
+    },
+    {
+      "claim": "RTO Vadodara has code GJ06 at RTO Office, Near Golden Chokdi NH 8, Darji Pura, Vadodra - 390006, phone 0265-2561130, email rto-trans-vad@gujarat.gov.in.",
+      "kind": "OFFICE",
+      "subject": "driving_licence",
+      "detail": { "office": "RTO Vadodara", "rtoCode": "GJ06", "address": "RTO Office, Near Golden Chokdi NH 8, Darji Pura, Vadodra - 390006.", "stdCode": "0265", "phone": "2561130", "fax": "2562497", "email": "rto-trans-vad@gujarat.gov.in", "note": "Table spells the office 'RTO Vadodra'; the site navigation spells it 'RTO Vadodara (GJ-6)'." },
+      "sourceId": "src_gj_rto",
+      "evidence": "6|\nRTO |\nVadodra|\nGJ06|\nRTO Office, Near Golden Chokdi NH 8, Darji Pura, Vadodra - 390006.|\nEmail: rto-trans-vad@gujarat.gov.in|\n0265|\n2561130|\n2562497|",
+      "confidence": 0.93
+    },
+    {
+      "claim": "Licensing Authorities are the Joint Commissioner, Deputy Commissioner and Regional Transport Officers; Administrative Officers and Motor Vehicle Inspectors are Additional Licensing Authorities.",
+      "kind": "OFFICE",
+      "subject": "driving_licence",
+      "detail": { "licensingAuthorities": ["Joint Commissioner", "Deputy Commissioner", "Regional Transport Officers"], "additionalLicensingAuthorities": ["Administrative Officers", "Motor Vehicle Inspectors"] },
+      "sourceId": "src_parivahan_ll",
+      "evidence": "The Joint Commissioner/ Deputy Commissioner and the Regional Transport Officers are the Licensing Authorities. The Administrative Officers and Motor Vehicle Inspectors are the Additional Licensing Authorities.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "After the online procedure the applicant must still visit the concerned RTO for physical verification of documents and biometrics.",
+      "kind": "ACTION",
+      "subject": "driving_licence",
+      "detail": { "inPersonStep": "physical verification of documents and Biometrics at the concerned RTO" },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "Application under scrutiny means applicant is required to visit the concerned RTO for physical verification of\n\ndocuments, and submit his/ her Biometrics to complete the application process.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "A permanent licence is normally issued from the same state, and generally the same RTO, where the learner licence was issued.",
+      "kind": "DEPENDENCY",
+      "subject": "driving_licence",
+      "object": "learner_licence",
+      "detail": { "sameStateRequired": true, "sameRtoUnlessStateAllowsOtherwise": true },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "Yes, you can apply, if your states is allowed for that otherwise Permanent licence is issued from the same RTO your learner license is issued.",
+      "confidence": 0.88
+    },
+    {
+      "claim": "A Learner's Licence is valid throughout India.",
+      "kind": "ELIGIBILITY",
+      "subject": "learner_licence",
+      "detail": { "validArea": "throughout India" },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "[Is Learner's License valid throughout India?](https://parivahan.gov.in/en/node/77)\n\nYes, its valid throughout India",
+      "confidence": 0.9
+    },
+    {
+      "claim": "A driving licence is required to drive a motor vehicle in any public place.",
+      "kind": "DEPENDENCY",
+      "subject": "driving_licence",
+      "detail": { "legalBasis": "effective driving licence issued by the Licensing Authority" },
+      "sourceId": "src_parivahan_ll",
+      "evidence": "No person shall drive a motor vehicle in any public place unless he holds an effective driving licence issued to him by the Licensing Authority, authorising him to drive the vehicle.",
+      "confidence": 0.96
+    },
+    {
+      "claim": "A private driving licence is valid for 20 years from date of issue or until the holder attains 40 years of age, whichever comes earlier.",
+      "kind": "TIMELINE",
+      "subject": "driving_licence",
+      "detail": { "privateValidityYears": 20, "orUntilAgeYears": 40, "after40Years": 10, "thenYears": 5 },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "Private Driving license is valid for 20 years from the date of issue or till the holder attains 40 years of age, which comes earlier.\n\nAfter the age of 40 the Driving licence will be issued for 10 years & then 5 years subsequently.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "Only one learner's licence per category may be held; an additional class of vehicle is endorsed on the same learning licence.",
+      "kind": "ELIGIBILITY",
+      "subject": "learner_licence",
+      "detail": { "duplicatePerCategory": false, "additionalClassHandling": "endorse the class of vehicle on the same Learning License" },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "No, you can endorse the class of vehicle on the same Learning License",
+      "confidence": 0.88
+    },
+    {
+      "claim": "Learner's Licence test is not required when applying for a learner's licence for addition of a class of vehicle.",
+      "kind": "ELIGIBILITY",
+      "subject": "learner_licence",
+      "detail": { "testRequired": false, "scenario": "addition of class of vehicle" },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "[I have applied for a learner's license for addition of class of vehicle. Am I required to take the Learners License test?](https://parivahan.gov.in/en/node/91)\n\nNo, Learners' License test is not required",
+      "confidence": 0.9
+    },
+    {
+      "claim": "The Learner Licence is printed from Sarathi via Learner License > Print Learner License (Form 3) using the Application Number and Date of Birth.",
+      "kind": "ACTION",
+      "subject": "learner_licence",
+      "detail": { "url": "https://sarathi.parivahan.gov.in", "menuPath": "Learner License > Print Learner License(Form3)", "inputs": ["Application No", "Date of Birth"], "form": "Form 3" },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "https://sarathi.parivahan.gov.in >> Select State >> Learner License >> Print Learner License(Form3) >> Enter Application No & Date of Birth",
+      "confidence": 0.92
+    },
+    {
+      "claim": "Failing or missing the Learner Licence test requires paying a retest fee via Sarathi Fee Payments and booking a fresh appointment via Appointments > Slot booking Learner's License Test.",
+      "kind": "ACTION",
+      "subject": "learner_licence",
+      "detail": { "retestFeePath": "Fee Payments > Fee Payments", "reappointmentPath": "Appointments > Slot booking Learner's License Test", "url": "https://sarathi.parivahan.gov.in/" },
+      "sourceId": "src_parivahan_faq",
+      "evidence": "You have to pay Retest fee and book fresh appointment.\n\nFor Retest payment visit\n\nhttps://sarathi.parivahan.gov.in/ >> Select State >> and Click on Fee Payments >> Fee Payments.\n\nFor Re-appointment through visit\n\nhttps://sarathi.parivahan.gov.in/ >> Select State >> Click on \"Appointments\" >> Slot booking Learner's License Test.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "The sample question bank for the Learner Licence test is published as a PDF on parivahan.gov.in.",
+      "kind": "CHANNEL",
+      "subject": "learner_licence",
+      "detail": { "url": "https://parivahan.gov.in/sites/default/files/DownloadForm/STALL_QB_ENGLISH_NEW.pdf", "label": "Sample LL Question Bank" },
+      "sourceId": "src_parivahan_ll",
+      "evidence": "[Sample LL Question Bank](https://parivahan.gov.in/sites/default/files/DownloadForm/STALL_QB_ENGLISH_NEW.pdf)",
+      "confidence": 0.92
+    }
+  ],
+  "notFound": [
+    "Exact deep-link Sarathi URLs for 'Application for New Learners License' and 'New Driving Licence' pre-filtered to Gujarat. Sarathi gates these behind a POST state-selection step and the site map returned only stateSelection.do ('Home') and applViewStatus.do ('Application Status'). Only the portal entry point plus the officially documented menu path could be verified.",
+    "A single official reconciliation of the Form 1A medical-certificate trigger. Three official sources disagree: parivahan.gov.in FAQ says age 40+, CMVR Form 2 annexure says 'applying for renewal and is above 40 years of age or applying for Transport Licence', the Sarathi LL FAQ says Form 1A is required with Form 1 unconditionally, and the Gujarat COT page says age 50+ for renewal.",
+    "Register Your Grievance / Track Your Grievance URLs on cot.gujarat.gov.in. The menu labels are printed on the page but the hrefs are JavaScript-generated and absent from the served HTML, so no URL could be quoted.",
+    "A current, official Gujarat-specific fee schedule for LL and DL. The Gujarat COT page quotes Rs.25 test fee + Rs.30 per category (LL) and Rs.200 smart card + Rs.50 per category (DL), which conflicts with the central Parivahan schedule (Rs.150 / Rs.50 / Rs.300 / Rs.200). No official page reconciling the two was found.",
+    "Official Apple App Store listing and bundle identifier for mParivahan / NextGen mParivahan. Only the Android package (com.nic.mparivahan) is officially verifiable; DigiLocker's iOS id (1320618078) was verifiable but mParivahan's was not.",
+    "Public counter working hours and days for RTO Ahmedabad, RTO Surat and RTO Vadodara. The official cot.gujarat.gov.in RTO/ARTO directory publishes only code, address, STD code, phone, fax, email and a map link.",
+    "National-level specification of the LL test format (number of questions, pass mark, time per question). Only the Gujarat COT page states 15 questions / 11 correct / 48 seconds; no parivahan.gov.in page confirms these numbers.",
+    "Whether Aadhaar is mandatory for LL/DL in Gujarat. CMVR Form 2 records Aadhaar only 'if already available with the applicant' and lists it as one of ten alternative age/address proofs; no official page states it is compulsory.",
+    "The two cached files .firecrawl/pv-ll.md and .firecrawl/pv-dl.md contain 'Page not found' rather than content; no facts were drawn from them.",
+    "Direct Firecrawl access to cot.gujarat.gov.in was blocked (ERR_TUNNEL_CONNECTION_FAILED across 6+ retries). Those three Gujarat pages were fetched over plain HTTPS instead and cached as raw HTML; evidence quotes are from a tag-stripped rendering of that HTML rather than a Firecrawl markdown extraction."
+  ]
+}

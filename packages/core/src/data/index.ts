@@ -1,4 +1,5 @@
 import type { GraphData } from "../types";
+import * as escalation from "./escalation";
 import { jurisdictions } from "./jurisdictions";
 import * as drivingLicence from "./journeys/driving-licence";
 
@@ -18,12 +19,17 @@ let cached: GraphData | undefined;
 
 export function loadGraph(): GraphData {
   if (cached) return cached;
+  const nodes = journeys.flatMap((j) => j.nodes);
   cached = {
     jurisdictions,
-    nodes: journeys.flatMap((j) => j.nodes),
-    edges: journeys.flatMap((j) => j.edges),
+    nodes: [...nodes, ...escalation.nodes],
+    edges: [
+      ...journeys.flatMap((j) => j.edges),
+      ...escalation.edges,
+      ...escalation.attachEscalation(nodes.filter((n) => n.type === "SERVICE")),
+    ],
     requirementGroups: journeys.flatMap((j) => j.requirementGroups),
-    sources: journeys.flatMap((j) => j.sources),
+    sources: [...journeys.flatMap((j) => j.sources), ...escalation.sources],
     questions: dedupeQuestions(journeys.flatMap((j) => j.questions)),
   };
   return cached;
