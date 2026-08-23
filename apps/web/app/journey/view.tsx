@@ -291,6 +291,7 @@ function Step({ step, held, onHave }: { step: JourneyStep; held: string[]; onHav
           ) : null}
           {step.whyRequired ? <p className="small">{step.whyRequired}</p> : null}
           {step.whatToDo ? <p className="small"><b>Do this: </b>{step.whatToDo}</p> : null}
+          {step.expectedOutput ? <p className="small"><b>You get: </b>{step.expectedOutput}</p> : null}
 
           <p className="small muted">
             {[step.fee && `Fee: ${step.fee}`, step.formNumber && `Form: ${step.formNumber}`, step.timeline]

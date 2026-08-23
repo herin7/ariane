@@ -517,7 +517,16 @@ export class JourneyCompiler {
         blockers: this.blockersFor(node, outgoing, ctx, escalation),
         dependsOn: outgoing.filter((e) => e.type === "REQUIRES" || e.type === "DEPENDS_ON").map((e) => e.to),
         produces: outgoing.filter((e) => e.type === "PRODUCES").map((e) => e.to),
-        sources: this.index.resolveSources(node.sources),
+        // A step's own sources plus the sources of whatever it produces. The
+        // pension amount is a property of the pension, not of the application,
+        // so without this the step tells you three official pages disagree
+        // about the money and links you to only one of them.
+        sources: this.index.resolveSources([
+          ...(node.sources ?? []),
+          ...outgoing
+            .filter((e) => e.type === "PRODUCES")
+            .flatMap((e) => this.index.node(e.to)?.sources ?? []),
+        ]),
         lastVerifiedAt: node.lastVerifiedAt,
       });
     }

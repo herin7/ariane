@@ -65,7 +65,9 @@ function print(j: CompiledJourney): void {
     console.log(`\n  ${step.order}. ${step.title}${state}`);
     if (step.officialName && step.officialName !== step.title) console.log(`     officially: ${step.officialName}`);
     if (step.whatToDo) console.log(`     do: ${step.whatToDo}`);
+    if (step.expectedOutput) console.log(`     you get: ${step.expectedOutput}`);
     if (step.fee) console.log(`     fee: ${step.fee}`);
+    if (step.timeline) console.log(`     takes: ${step.timeline}`);
     if (step.formNumber) console.log(`     form: ${step.formNumber}`);
     for (const d of step.documentsNeeded) console.log(`     needs: ${describe(d)}`);
     for (const d of step.documentsReady) console.log(`     have: ${d.name}`);
