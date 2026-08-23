@@ -12,6 +12,17 @@
    "contentHash": "210935a98ae04bbab169709da2981709b282bea58812672bbe276cbc61c9bb71"
   },
   {
+   "id": "src:2f67773e6378",
+   "url": "https://startupindia.gov.in/",
+   "title": "Startup India",
+   "domain": "startupindia.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ebd6bd5ef63b710dd43ee3bd092ed15c9c815b5461728c3bfd3890b15481ba6c",
+   "tlsVerified": false
+  },
+  {
    "id": "src:dc0a95e4944a",
    "url": "https://www.startupindia.gov.in/content/sih/en/startup-scheme/state-startup-policies/Haryana-state-policy.html",
    "title": "Haryana",
@@ -112,6 +123,16 @@
    "contentHash": "eaeed7a62d282778c886d84796dca0c9c03a6a88260ca23080ab515f2187a1ad"
   },
   {
+   "id": "src:fbd13164f1d9",
+   "url": "https://ic.gujarat.gov.in/Default.aspx",
+   "title": "IC Website",
+   "domain": "ic.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "67013bd5b9c3b3bbf0650e587991d42c8b504a24cbdfa3dbc98b1841915380b3"
+  },
+  {
    "id": "src:4236ac0c3e16",
    "url": "https://ced.gujarat.gov.in/assets/downloads/gr-27-01-2015-I.pdf#page=1",
    "title": "gr-27-01-2015-I (page 1 of 5)",
@@ -120,6 +141,26 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "9c72a71a9063c07a703abf35093f7e0350d0cca0a042e3d6115ddd4b3e019685"
+  },
+  {
+   "id": "src:c9ed963f9aaf",
+   "url": "https://ced.gujarat.gov.in/forms",
+   "title": "Application Forms | E-Citizen - CED – Centre for Entrepreneurship Development, Gujarat",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "734ba11e22da12fda8224d7b4dde93677deaed07e114e7b6dcaf4094f4505409"
+  },
+  {
+   "id": "src:ef1d0775243d",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/Entrepreneurship-SOURCE-check.pdf#page=86",
+   "title": "Entrepreneurship-SOURCE-check (page 86 of 184)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "9850fcd26747541f4f6955e75233e936e8eece731ea1c14d05817c3d77f80fea"
   }
  ],
  "nodes": [
@@ -128,6 +169,9 @@
    "type": "SERVICE",
    "name": "Startup India Scheme",
    "officialName": "Startup India Scheme",
+   "aliases": [
+    "startup india"
+   ],
    "description": "The Startup India Scheme provides recognition and benefits to eligible startups, including tax exemptions, self-certification of compliance, and fast-tracked patent applications.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
@@ -713,24 +757,6 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "office:gandhinagar",
-   "type": "OFFICE",
-   "name": "Gandhinagar",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "address": "9th Floor, 1st Block, Udyog Bhavan, Gandhinagar"
-   },
-   "sources": [
-    {
-     "sourceId": "src:38b1ddfb482f",
-     "evidence": "Name of Village/ Taluka/ District : Head Office at Gandhinagar",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "service:entrepreneurship_development_programs",
    "type": "SERVICE",
    "name": "Entrepreneurship Development Programs",
@@ -756,6 +782,81 @@
     {
      "sourceId": "src:38b1ddfb482f",
      "evidence": "As per Training calendar",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "helpline:23252683_23252617",
+   "type": "HELPLINE",
+   "name": "Startup Cell helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "23252683/23252617"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:fbd13164f1d9",
+     "evidence": "Ph. : 23252683/23252617",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "grievance:startup_cell",
+   "type": "GRIEVANCE_CHANNEL",
+   "name": "Grievances about startup cell",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "GRIEVANCE_PORTAL"
+   },
+   "sources": [
+    {
+     "sourceId": "src:fbd13164f1d9",
+     "evidence": "Email ID : iccord[at]gujarat[dot]gov[]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:startup_cell",
+   "type": "SERVICE",
+   "name": "Startup Cell",
+   "officialName": "Startup Cell",
+   "description": "The Startup Cell assists startups and incubation centers through the Startup Policy.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:fbd13164f1d9",
+     "evidence": "It offers various incentive schemes and subsidies to the industries for development and upgradation of manufacturing and service enterprises.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fbd13164f1d9",
+     "evidence": "A dedicated Investor Facilitation Agency has been set up as&lsquo;Single Window Contact&rsquo;for undertaking reforms for investor facilitation and grievance redressal.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fbd13164f1d9",
+     "evidence": "In order to give impetus to development of a strong Startupecosystem in the state, a dedicated Startup Cell functions under the Industries Commissionerate. The cell functions to give assistance to startups, incubation centers etc. by the means of Startup Policy.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fbd13164f1d9",
+     "evidence": "Last Update Date:\n14-10-2024",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -789,6 +890,55 @@
      "sourceId": "src:4236ac0c3e16",
      "evidence": "2500 persons will be supported for the period of 5 years",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:entrepreneurship_development_programme",
+   "type": "SERVICE",
+   "name": "Entrepreneurship Development Programme",
+   "officialName": "Entrepreneurship Development Programme",
+   "aliases": [
+    "scheme 1/2/3/4/5 and 6"
+   ],
+   "description": "The page provides downloadable application forms for the Entrepreneurship Development Programme and related schemes.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:c9ed963f9aaf",
+     "evidence": "Application Form for Entrepreneurship Development Programme\nSr No | Details | Download |\n1 | Entrepreneurship Development Programme | Download\n[Gujarati] [112 KB]",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:c9ed963f9aaf",
+     "evidence": "Application Form for the Scheme 1/2/3/4/5 and 6\nSr No | Details | Download |\n1 | Application Form for the Scheme 1/2/3/4/5 and 6 | Download\n[Gujarati] [1,141 KB]",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:entrepreneurship_source_check",
+   "type": "SERVICE",
+   "name": "Entrepreneurship-SOURCE-check",
+   "officialName": "Entrepreneurship-SOURCE-check",
+   "description": "It provides information about the procedures involved in starting a business in India.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:ef1d0775243d",
+     "evidence": "The official costs of starting a business are high and the process quite complex, involving no less than 13 procedures.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -989,6 +1139,54 @@
    ]
   },
   {
+   "id": "e:service_startup_cell__call_if__helpline_23252683_23252617",
+   "from": "service:startup_cell",
+   "to": "helpline:23252683_23252617",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The contact phone number for the Industries Commissionerate is 23252683/23252617.",
+   "sources": [
+    {
+     "sourceId": "src:fbd13164f1d9",
+     "evidence": "Ph. : 23252683/23252617",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_cell__escalate_to__grievance_startup_cell",
+   "from": "service:startup_cell",
+   "to": "grievance:startup_cell",
+   "type": "ESCALATE_TO",
+   "verificationStatus": "EXTRACTED",
+   "note": "The email address for the Industries Commissionerate is iccord@gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:fbd13164f1d9",
+     "evidence": "Email ID : iccord[at]gujarat[dot]gov[]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_cell__apply_at__portal_ic_gujarat_gov_in",
+   "from": "service:startup_cell",
+   "to": "portal:ic_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ic.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:fbd13164f1d9",
+     "evidence": "It offers various incentive schemes and subsidies to the industries for development and upgradation of manufacturing and service enterprises.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_start_ups_innovation_assistance_scheme__apply_at__portal_ced_gujarat_gov_in",
    "from": "service:start_ups_innovation_assistance_scheme",
    "to": "portal:ced_gujarat_gov_in",
@@ -999,6 +1197,38 @@
     {
      "sourceId": "src:4236ac0c3e16",
      "evidence": "which will come into force from the date 1.1.2015 and will remain in operation for a period of five years.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_entrepreneurship_development_programme__apply_at__portal_ced_gujarat_gov_in",
+   "from": "service:entrepreneurship_development_programme",
+   "to": "portal:ced_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ced.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:c9ed963f9aaf",
+     "evidence": "Application Form for Entrepreneurship Development Programme\nSr No | Details | Download |\n1 | Entrepreneurship Development Programme | Download\n[Gujarati] [112 KB]",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_entrepreneurship_source_check__apply_at__portal_ced_gujarat_gov_in",
+   "from": "service:entrepreneurship_source_check",
+   "to": "portal:ced_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ced.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:ef1d0775243d",
+     "evidence": "The official costs of starting a business are high and the process quite complex, involving no less than 13 procedures.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }

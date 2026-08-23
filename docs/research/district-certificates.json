@@ -40,6 +40,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:fe8c255146a1",
+   "url": "https://devbhumidwarkadp.gujarat.gov.in/gu/E-gram-Vishvagram-Yojana",
+   "title": "ઇ-ગ્રામ વિશ્‍વગ્રામ યોજના | દેવ ભુમી દ્વારકા જિલ્લા પંચાયત",
+   "domain": "devbhumidwarkadp.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "7d22b5f5400dce6bf6389262cf820e9f3d520244cf9485fbb1a47c9221dfecfd",
+   "cacheFile": ".ingest/pages/fe8c255146a10e9cdf8fe306cad74ced9b34601d.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:b95bad3f5be2",
    "url": "https://gvc.org.in/webcontroller/clickmenu/MTYyMDU3OTYw",
    "title": "Gujarat Veterinary Council",
@@ -124,6 +136,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:11f0a6d6e363",
+   "url": "https://ssg-ss.gujarat.gov.in/",
+   "title": "Saksham Shala",
+   "domain": "ssg-ss.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "a902e77f0a9e581a0c4773bddba5df6ceb1da6fad1e19f21236d78cc043de9a1",
+   "cacheFile": ".ingest/pages/11f0a6d6e36305f111e638c05217c388f2f94cd0.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:f39fc919cbcb",
    "url": "https://panchmahal.gujarat.gov.in/",
    "title": "Collectorate - District Panchmahal",
@@ -133,6 +157,30 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "4a61485c8a0b9464c07aded85a6f8993d8d4a662ca86d158bf0c84fa3437c840",
    "cacheFile": ".ingest/pages/f39fc919cbcb8467573f116f266b916008f5b88d.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:024267061148",
+   "url": "https://arvalli.gujarat.gov.in/",
+   "title": "Collectorate - District Arvalli",
+   "domain": "arvalli.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d58b4c732fb0d659c509f09e133bd0cd1efdc4af7e0eed844329d2d4bdf51cb8",
+   "cacheFile": ".ingest/pages/024267061148493dd5b58aa55dc4a4027ef900a4.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:7c2d451dfe95",
+   "url": "https://gandhinagar.gujarat.gov.in/",
+   "title": "Collectorate - District Gandhinagar",
+   "domain": "gandhinagar.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-GANDHINAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "bac31c3be120f92fdef47423bc5fe1dc8ff7c229628bb963765a7f9c6c5c414d",
+   "cacheFile": ".ingest/pages/7c2d451dfe95f13de44c2b2e426389ad7e522b6a.md",
    "scrapedOk": true
   },
   {
@@ -700,6 +748,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:402f2ca32dff",
+   "url": "https://nri.gujarat.gov.in/home/importantprojects",
+   "title": "Home Page",
+   "domain": "nri.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "17b22587b79c9905e5a78c628bf54d37c08b96eb3012ac8f14ae7fa3395e2ad0",
+   "cacheFile": ".ingest/pages/402f2ca32dfff515d182a122463de4daee30385b.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:a3a32e089536",
    "url": "https://empower.gujarat.gov.in/KVK/Registration.aspx",
    "title": ":: KVK, Commissionerate of Employment and Training, Government of Gujarat ::",
@@ -724,6 +784,30 @@
    "scrapedOk": true
   },
   {
+   "id": "src:880227629ccf",
+   "url": "https://sabarkanthadp.gujarat.gov.in/gu/Registration-of-Co-Operative-society",
+   "title": "સહકારી મંડળીઓની નોંધણી | સાબરકાંઠા જિલ્લા પંચાયત",
+   "domain": "sabarkanthadp.gujarat.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ-SABARKANTHA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "70c869faeecd1d729cc5afbb3a241f061352662b60b1cc79f2b68e1df5c410c1",
+   "cacheFile": ".ingest/pages/880227629ccf112663f2407fb0df76d1fa961a8a.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:0262aac5f33a",
+   "url": "https://gscuc.gujarat.gov.in/DownloadData",
+   "title": "Download | Gujarat State Commission for Unreserved Classes",
+   "domain": "gscuc.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "84ba1176930d94eafbe78aa3e5318d8644edce1179cfe422030467db23a49932",
+   "cacheFile": ".ingest/pages/0262aac5f33a5bac9cd973955cbbd14606733516.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:1e206910c90b",
    "url": "https://www.nhb.org.in/format-for-utilization-certificate",
    "title": "Format for Utilization certificate - National Housing Bank",
@@ -745,6 +829,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "52a6b933b44ad54fd94a48dc353623762415ffabbe3cb824b114291e16087815",
    "cacheFile": ".ingest/pages/6b7dd4f0c2109ecb88365e706078a3fecd3c276d.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:3e9caf77dc5a",
+   "url": "https://gssca.gujarat.gov.in/ImportantActivites/BiyarananuCertificate",
+   "title": "Gujarat State Seed Certificate Agency",
+   "domain": "gssca.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "b7f421f2fa593fc3c054b6ac627a22f2abc07b7770f3c2f86114fd34a3d54567",
+   "cacheFile": ".ingest/pages/3e9caf77dc5a1d2b3f4db0350915a4a6dcf9514a.md",
    "scrapedOk": true
   }
  ],
@@ -1461,6 +1557,240 @@
    "sourceId": "src:d0e253331ac7",
    "evidence": "તાલુકા વિકાસ અધિકારીશ્રી તથા વિસ્તરણ અધિકારી(સહકાર)ના જરૂરી ચકાસણી રિપોર્ટમા અભિપ્રાય સાથે મદદનીશ જીલ્લા રજીસ્ટ્રારશ્રીને મંજુરી અર્થે રજુ કરવાની રેહશે.",
    "confidence": 1
+  },
+  {
+   "claim": "E-Gram Panchayat provides birth and death certificates, income certificates, caste certificates, character certificates, and residence certificates.",
+   "kind": "ACTION",
+   "subject": "e_gram_panchayat",
+   "object": "certificates",
+   "detail": {},
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "પ્રથમ તબકકામાં મુખ્‍યત્‍વે ઇ-ગ્રામ દ્વારા જન્‍મ-મરણનું પ્રમાણ૫ત્ર, આવકનો દાખલો, જાતિનો દાખલો, ચારિત્ર્યનું પ્રમાણ૫ત્ર, રહેઠાણનું પ્રમાણ૫ત્ર વગેરે અને સરકારી વિવિઘ યોજનાઓના ફોર્મસ/અરજી૫ત્રકોની ઉ૫લબ્‍ઘતા.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "E-Gram Panchayat provides 7/12 and 8/A land records extracts for farmers.",
+   "kind": "ACTION",
+   "subject": "e_gram_panchayat",
+   "object": "land_records_7_12_8_a",
+   "detail": {},
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "ગ્રામ્‍ય કક્ષાએ ખેડૂતને આ૫વાનાં થતાં ૭/૧૨ અને ૮/અ ના ઉતારા વગેરેની માહિતી તાલુકા /જીલ્‍લા કક્ષાના સર્વર ઉ૫રથી ગ્રામપંચાયત ખાતેથી આ૫વાનું આયોજન અને વ્‍યવસ્‍થા.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "E-Gram Panchayat provides electricity and telephone bill payment services.",
+   "kind": "ACTION",
+   "subject": "e_gram_panchayat",
+   "object": "utility_bill_payments",
+   "detail": {},
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "ઇ-ગ્રામ પંચાયત ખાતે વીજળી અને ટેલીફોનના બીલ, વીમા અને ટપાલ સેવાઓ પૂરી પાડવાનું આયોજન.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "E-Gram Panchayat provides cyber services including agricultural, educational, and health information through internet.",
+   "kind": "ACTION",
+   "subject": "e_gram_panchayat",
+   "object": "cyber_services",
+   "detail": {},
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "ગ્રામના એન.આર.જી./એન. આર. આઇ. સાથે ઇન્‍ટરનેટના ઉ૫યોગથી સાયબર સેવા અંતર્ગત, ગ્રામજનો દ્વારા ખેતી વિષયક, શૈક્ષણ‍િક વિષયક માહિતી, આરોગ્‍ય વિષયક માહિતીની ગ્રામપંચાયત ખાતે ઉ૫લબ્‍ઘ કરવામાં આવી રહેલ છે.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "E-Gram Panchayat provides online application facility and grievance redressal.",
+   "kind": "ACTION",
+   "subject": "e_gram_panchayat",
+   "object": "online_application_grievance",
+   "detail": {},
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "ગ્રામપંચાયત ખાતે ઓનલાઇન અરજીની સગવડ ફરિયા નિવારણની સગવડ, બી.પી.એલ. યાદી તેમજ જુદા જુદા સરકારી વિભાગની નાગરિક સબંઘિત સુવિધાઓ પ્રમાણ૫ત્ર, ઠરાવ સૂચનાઓ, વિવિધ યોજનાઓની ઇ-સેવાની ૫ણ ઉ૫લબ્‍ધ‍િ આ ઉ૫રાંત ખાનગી કં૫નીઓની ઇ-સેવાની ૫ણ ઉ૫લબ્‍ઘ‍િ થશે.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "E-Gram Panchayat provides telemedicine services through video conference.",
+   "kind": "ACTION",
+   "subject": "e_gram_panchayat",
+   "object": "telemedicine",
+   "detail": {},
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "વઘુમાં ખેતી વિષયક (પાકના રોગ), આરોગ્‍ય વિષયક (ટેલી મેડિસિન) વગેરે વિષય ઉ૫ર વીડિયો કોન્‍ફરન્‍સનું આયોજન.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Common Service Centers are established at 6000 Gram Panchayats through public-private partnership.",
+   "kind": "CHANNEL",
+   "subject": "common_service_center",
+   "object": "gram_panchayat",
+   "detail": {
+    "number": 6000
+   },
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "આ પ્રોજેકટ જાહેર અને ખાનગી ભાગીદારીનું એક વિરલ ઉદાહરણ છે કારણકે આ પ્રોજેકટ માટે અમલીકરણ અંગેની કાર્યવાહી સર્વ‍િસ સેન્‍ટર એજન્‍સી (પ્રાઇવેટ કં૫ની) અને ઇ-ગ્રામ વિશ્વગ્રામ સોસાયટી ૬૦૦૦ ગ્રામપંચાયતો ખાતે થી ગ્રામ્‍યજનોને ઉ૫યોગી જીટુસી (સરકાર દ્વારા નાગરીક) તથા બીટુસી (બીઝનેસ ટુ કન્‍ઝયુમર) ઇ-સેવાઓ પૂરી પાડવાની કામગીરી આગામી છ માસમાં પૂર્ણ થાય તે રીતે કાર્યવાહી હાથ ધરેલ છે.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Gram Computer Entrepreneur services are available at E-Gram Panchayat through public-private partnership.",
+   "kind": "CHANNEL",
+   "subject": "gram_computer_entrepreneur",
+   "object": "e_gram_panchayat",
+   "detail": {},
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "ઇ-ગ્રામ પંચાયતના સફળ સંચાલન અર્થે તલાટી-કમ-મંત્રીના સહાયક તરીકે ગામના ખાનગી ગ્રામ કોમ્‍પ્‍યુટર સાહસિક ઇ-સેવાઓ ઇ-ગ્રામ પંચાયત ખાતે ૫બ્‍લ‍િક-પ્રાઇવેટ- પાર્ટનરશી૫(PPP) દ્વારા ઉ૫લબ્‍ઘ થાય તેવી વ્‍યવસ્‍થા.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "All 13693 Gram Panchayats in Gujarat have been provided computer hardware and software.",
+   "kind": "ELIGIBILITY",
+   "subject": "gram_panchayat",
+   "object": "computer_facility",
+   "detail": {
+    "total": 13693
+   },
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "કુલ ૧૩૬૯૩ ગ્રામપંચાયતોને કોમ્‍પ્‍યુટર હાર્ડવેર તથા સોફટવેર પૂરા પાડવામાં આવેલ છે.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "All Talati-cum-Secretaries have been trained in E-Gram software.",
+   "kind": "ELIGIBILITY",
+   "subject": "talati_cum_secretary",
+   "object": "e_gram_training",
+   "detail": {},
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "રાજયના તમામ તલાટી-કમ-મંત્રીઓને ઇ-ગ્રામ સોફટવેરથી તાલીમબદ્ઘ કરવામાં આવેલ છે.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "E-Gram Panchayat provides railway and air reservation e-services.",
+   "kind": "ACTION",
+   "subject": "e_gram_panchayat",
+   "object": "railway_air_reservation",
+   "detail": {},
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "રેલ્‍વે અને હવાઇ રીઝર્વેશન માટેની ઇ-સેવાઓ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "E-Gram Panchayat provides stamp paper sales.",
+   "kind": "ACTION",
+   "subject": "e_gram_panchayat",
+   "object": "stamp_paper_sales",
+   "detail": {},
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "સ્‍ટેમ્‍૫ પે૫રનું વેચાણ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "E-Gram Panchayat provides name change in property records.",
+   "kind": "ACTION",
+   "subject": "e_gram_panchayat",
+   "object": "property_name_change",
+   "detail": {},
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "સં૫ત્તિઓમાં નામ ફેર",
+   "confidence": 0.95
+  },
+  {
+   "claim": "E-Gram Panchayat provides agricultural market linkage for agricultural products.",
+   "kind": "ACTION",
+   "subject": "e_gram_panchayat",
+   "object": "agricultural_market_linkage",
+   "detail": {},
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "કૃષ‍િલક્ષી ચીજવસ્‍તુઓ માટે બજાર સં૫ર્ક કડીઓ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "E-Gram Panchayat provides telemedicine services.",
+   "kind": "ACTION",
+   "subject": "e_gram_panchayat",
+   "object": "telemedicine_service",
+   "detail": {},
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "ટેલિમેડિસીન (ટેલિવિઝનની મદદથી ઉ૫ચાર)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "E-Gram Panchayat provides computer education documents preparation.",
+   "kind": "ACTION",
+   "subject": "e_gram_panchayat",
+   "object": "computer_education_documents",
+   "detail": {},
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "જુદી જુદી યોજનાઓ અંગેનાં અને કોમ્‍પ્‍યુટર શિક્ષણ માટેના દસ્‍તાવેજો તૈયાર કરવા",
+   "confidence": 0.95
+  },
+  {
+   "claim": "E-Gram Panchayat provides licenses, permits, no-objection certificates, and insurance.",
+   "kind": "ACTION",
+   "subject": "e_gram_panchayat",
+   "object": "licenses_permits_insurance",
+   "detail": {},
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "` લાયસન્‍સ, ૫રવાના, ના-વાંધા પ્રમાણ૫ત્ર, વિમો",
+   "confidence": 0.9
+  },
+  {
+   "claim": "E-Gram Panchayat provides community certificates and documentation for affidavits.",
+   "kind": "ACTION",
+   "subject": "e_gram_panchayat",
+   "object": "community_certificates_affidavits",
+   "detail": {},
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "સામુદાયિક પ્રમાણ૫ત્રો, મામલતદારે કાઢી આ૫વાનાં પ્રમાણ ૫ત્રો અને સોગંદનામા માટેનું દસ્‍તાવેજીકરણ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "E-Gram Panchayat provides electricity, telephone, and mobile bill payments.",
+   "kind": "ACTION",
+   "subject": "e_gram_panchayat",
+   "object": "bill_payments_electricity_telephone_mobile",
+   "detail": {},
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "વીજળી, ટેલિફોન, મોબાઇલ વગેરે) ના બિલોની ચુકવણી",
+   "confidence": 0.95
+  },
+  {
+   "claim": "E-Gram Panchayat provides various consumer-oriented facilities.",
+   "kind": "ACTION",
+   "subject": "e_gram_panchayat",
+   "object": "consumer_facilities",
+   "detail": {},
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "વિવિધ ગ્રાહક લક્ષી સુવિધાઓ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "E-Gram Panchayat provides birth and death registration.",
+   "kind": "ACTION",
+   "subject": "e_gram_panchayat",
+   "object": "birth_death_registration",
+   "detail": {},
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "જન્‍મ અને મરણની નોંધણી-",
+   "confidence": 0.95
+  },
+  {
+   "claim": "E-Gram Panchayat provides property tax assessment and collection.",
+   "kind": "ACTION",
+   "subject": "e_gram_panchayat",
+   "object": "property_tax_assessment_collection",
+   "detail": {},
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "મિલ્‍કત સબંઘી કરવેરાની ચુકવણીની વસૂલાત",
+   "confidence": 0.95
+  },
+  {
+   "claim": "E-Gram Panchayat provides land record documents (7/12 and 8/A).",
+   "kind": "ACTION",
+   "subject": "e_gram_panchayat",
+   "object": "land_record_documents",
+   "detail": {},
+   "sourceId": "src:fe8c255146a1",
+   "evidence": "જમીન રેકોર્ડ દસ્‍તાવેજો (૭/૧૨ અને ૮/અ)",
+   "confidence": 0.95
   },
   {
    "claim": "A certificate of registration is issued on payment of a fee not exceeding 115 rupees.",
@@ -2711,6 +3041,150 @@
    "confidence": 0.95
   },
   {
+   "claim": "If a user forgets their password, they can click on 'forget password' and an OTP will be sent to their email to reset it.",
+   "kind": "ACTION",
+   "subject": "password_recovery",
+   "object": "email",
+   "detail": {
+    "email": "ssa.ssggujarat@gmail.com"
+   },
+   "sourceId": "src:11f0a6d6e363",
+   "evidence": "3. I FORGOT MY PASSWORD? Click on ‘forget password’, fill in required details and OTP will be sent to your email address to reset your password.",
+   "confidence": 1
+  },
+  {
+   "claim": "If a user forgets their BRC/CRC login password, they can email the provided email address with their login ID to retrieve their password.",
+   "kind": "ACTION",
+   "subject": "password_recovery",
+   "object": "email",
+   "detail": {
+    "email": "ssa.ssggujarat@gmail.com"
+   },
+   "sourceId": "src:11f0a6d6e363",
+   "evidence": "In case you forget your BRC/CRC login password you can mail to us at (ssa.ssggujarat@gmail.com) with your Login ID and we will retrieve your password.",
+   "confidence": 1
+  },
+  {
+   "claim": "If a user inputs incorrect name or mobile number in the School Survey, they can edit it in the primary information section after logging in.",
+   "kind": "ACTION",
+   "subject": "edit_information",
+   "object": "school_survey",
+   "detail": {},
+   "sourceId": "src:11f0a6d6e363",
+   "evidence": "4. I GAVE INCORRECT NAME AND MOBILE NUMBER HOW CAN I RECTIFY? You can directly edit on the name and number in the primary information section after logging into the School Survey.",
+   "confidence": 1
+  },
+  {
+   "claim": "Users can view their score two weeks after the last date of completing the survey, and it will also be visible on their mobile app.",
+   "kind": "TRACKING",
+   "subject": "score_visibility",
+   "object": "school_survey",
+   "detail": {
+    "days": "14"
+   },
+   "sourceId": "src:11f0a6d6e363",
+   "evidence": "5. HOW CAN I VIEW MY SCORE? Your score will be sent to you two weeks after the last date of completing the survey. It would also be visible to you on your mobile app.",
+   "confidence": 1
+  },
+  {
+   "claim": "All-girls or all-boys schools do not need to have gender-segregated toilets and can select the 'NA' option.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "toilet_requirements",
+   "object": "school_survey",
+   "detail": {},
+   "sourceId": "src:11f0a6d6e363",
+   "evidence": "7. THE SCHOOL IS AN ALL-GIRLS/ALL BOYS SCHOOL. DOES IT STILL REQUIRE TO HAVE A GENDER SEGREGATED TOILET? No. Please choose the NA (Not Applicable) option here.",
+   "confidence": 1
+  },
+  {
+   "claim": "If a user makes a mistake in their responses and finds it after submission, they can edit their responses before the final submission.",
+   "kind": "ACTION",
+   "subject": "edit_responses",
+   "object": "school_survey",
+   "detail": {},
+   "sourceId": "src:11f0a6d6e363",
+   "evidence": "8. WHAT TO DO IF ANY MISTAKES ARE MADE AND FOUND AFTER SUBMISSION? You have multiple opportunities to edit your responses prior to final submission. Check your responses carefully prior to submission. Once the final submission is made, the edit option is disabled and only viewing option is available.",
+   "confidence": 1
+  },
+  {
+   "claim": "If a user has problems uploading images, they should ensure good internet connectivity and that the image resolution is less than or equal to 1 MB.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "image_upload",
+   "object": "school_survey",
+   "detail": {
+    "max_resolution": "1 MB"
+   },
+   "sourceId": "src:11f0a6d6e363",
+   "evidence": "9.I HAVE A PROBLEM IN UPLOADING THE IMAGES Make sure that you have good internet connectivity. Please check that the resolution of the image is less than or equal to 1 MB. Auto compression features is available in the app.",
+   "confidence": 1
+  },
+  {
+   "claim": "Users can change the photos they uploaded by clicking the red cross mark on the photo to delete it and then uploading a new one.",
+   "kind": "ACTION",
+   "subject": "photo_upload",
+   "object": "school_survey",
+   "detail": {},
+   "sourceId": "src:11f0a6d6e363",
+   "evidence": "10. I WANT TO CHANGE THE PHOTOS UPLOADED If you want to remove the existing photo and add a new one, there will be a red colour cross mark on the photo you can click on it to delete the photo. You can then upload a new photo.",
+   "confidence": 1
+  },
+  {
+   "claim": "Users can submit their entry without photographs and upload the photos later by logging in again.",
+   "kind": "ACTION",
+   "subject": "photo_upload",
+   "object": "school_survey",
+   "detail": {},
+   "sourceId": "src:11f0a6d6e363",
+   "evidence": "11. CAN I UPLOAD THE PHOTOS LATER? Yes. You can submit your entry without photographs. Please log in later and upload the photos.",
+   "confidence": 1
+  },
+  {
+   "claim": "If the mobile app is not working properly, users can uninstall it and install it again.",
+   "kind": "ACTION",
+   "subject": "app_troubleshooting",
+   "object": "mobile_app",
+   "detail": {},
+   "sourceId": "src:11f0a6d6e363",
+   "evidence": "12. MOBILE APP IS NOT WORKING PROPERLY. Uninstall the app and install it again.",
+   "confidence": 1
+  },
+  {
+   "claim": "If a user inputs incorrect name or mobile number in the Teachers Training section, they can contact their Cluster (CRC) and Block (BRC) Coordinator to reset it or email the provided email address.",
+   "kind": "ACTION",
+   "subject": "edit_information",
+   "object": "teachers_training",
+   "detail": {
+    "email": "ssa.ssggujarat@gmail.com"
+   },
+   "sourceId": "src:11f0a6d6e363",
+   "evidence": "1. I GAVE INCORRECT NAME AND MOBILE NUMBER HOW CAN I RECTIFY? You can contact your Cluster (CRC) and Block (BRC) Coordinator and they can reset it for you. You can also send a mail at ssa.ssggujarat@gmail.com requesting the same, we can reset it for you.",
+   "confidence": 1
+  },
+  {
+   "claim": "If a user is unable to download their certificate, they can email the provided email address to request it.",
+   "kind": "ACTION",
+   "subject": "certificate_download",
+   "object": "teachers_training",
+   "detail": {
+    "email": "ssa.ssggujarat@gmail.com"
+   },
+   "sourceId": "src:11f0a6d6e363",
+   "evidence": "2.I AM NOT ABLE TO DOWNLOAD THE CERTIFICAT? You can also send a mail at ssa.ssggujarat@gmail.com requesting the same, we will download the certificate and send it to you.",
+   "confidence": 1
+  },
+  {
+   "claim": "For any questionnaire-related queries in the Teachers Training section, users can refer to the SVP indicator guide or email the provided email address.",
+   "kind": "GRIEVANCE",
+   "subject": "query_resolution",
+   "object": "teachers_training",
+   "detail": {
+    "email": "ssa.ssggujarat@gmail.com"
+   },
+   "sourceId": "src:11f0a6d6e363",
+   "evidence": "3.HOW CAN I CLEAR MY QUERIES WITH REGARDS TO THE QUESTIONNAIRE? For any questionnaire related queries refer to SVP indicator guide or email on ssa.ssggujarat@gmail.com",
+   "confidence": 1
+  },
+  {
    "claim": "The Jan Seva Kendra in Panchmahal provides one-stop solutions for 102 public services.",
    "kind": "CHANNEL",
    "subject": "jan_seva_kendra",
@@ -2856,6 +3330,230 @@
    },
    "sourceId": "src:f39fc919cbcb",
    "evidence": "Call +91 2672 1077 Commissioner of Rescue & Relief Call 1070",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Jan Seva Kendra provides one-stop solutions for 102 public services.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "public_services",
+   "detail": {
+    "amount": "102"
+   },
+   "sourceId": "src:024267061148",
+   "evidence": "Jan Seva Kendra provides one stop solutions for 102 public services.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra provides information on documents required and downloadable application forms for each service.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "jan_seva_kendra",
+   "object": "application_forms",
+   "detail": {},
+   "sourceId": "src:024267061148",
+   "evidence": "Following section will let you understand documents required and downloadable application form for each service.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers services in the Certificate category.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "certificate_services",
+   "detail": {
+    "amount": "10"
+   },
+   "sourceId": "src:024267061148",
+   "evidence": "Certificate Ten services offered in Certificate.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers services in the Magisterial category.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "magisterial_services",
+   "detail": {
+    "amount": "26"
+   },
+   "sourceId": "src:024267061148",
+   "evidence": "Magisterial Twenty six services offered in Magisterial.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers services in the Miscellaneous category.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "miscellaneous_services",
+   "detail": {
+    "amount": "5"
+   },
+   "sourceId": "src:024267061148",
+   "evidence": "Miscellaneous Five services offered in Miscellaneous.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers services in the Revenue category.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "revenue_services",
+   "detail": {
+    "amount": "31"
+   },
+   "sourceId": "src:024267061148",
+   "evidence": "Revenue Thirty one services offered in Revenue.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers services in the RTI category.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "rti_services",
+   "detail": {
+    "amount": "1"
+   },
+   "sourceId": "src:024267061148",
+   "evidence": "RTI One service offered in RTI.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers services in the Social Security category.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "social_security_services",
+   "detail": {
+    "amount": "1"
+   },
+   "sourceId": "src:024267061148",
+   "evidence": "Social Security One service offered in Social Security.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers services in the Supply category.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "supply_services",
+   "detail": {
+    "amount": "13"
+   },
+   "sourceId": "src:024267061148",
+   "evidence": "Supply Thirteen services offered in Supply.",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Emergency Response Center can be contacted at 1800 233 0060.",
+   "kind": "HELPLINE",
+   "subject": "district_emergency_response_center",
+   "object": "emergency_contact",
+   "detail": {
+    "phone": "1800 233 0060"
+   },
+   "sourceId": "src:024267061148",
+   "evidence": "District Emergency Response Center Call 1800 233 0060",
+   "confidence": 1
+  },
+  {
+   "claim": "The Commissioner of Rescue & Relief can be contacted at 1077.",
+   "kind": "HELPLINE",
+   "subject": "commissioner_of_rescue_and_relief",
+   "object": "emergency_contact",
+   "detail": {
+    "phone": "1077"
+   },
+   "sourceId": "src:024267061148",
+   "evidence": "Commissioner of Rescue & Relief Call 1077",
+   "confidence": 1
+  },
+  {
+   "claim": "A citizen can access 102 government services under one roof at the Jan Seva Kendra, District Collectorate.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "government_services",
+   "detail": {
+    "services_count": "102"
+   },
+   "sourceId": "src:7c2d451dfe95",
+   "evidence": "Jan Seva Kendra provides one stop solutions for 102 public services.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Jan Seva Kendra is located at the District Collectorate in Gandhinagar.",
+   "kind": "OFFICE",
+   "subject": "jan_seva_kendra",
+   "object": "district_collectorate_gandhinagar",
+   "detail": {},
+   "sourceId": "src:7c2d451dfe95",
+   "evidence": "Jan Seva Kendra, District Collectorate is the outcome of the strategic union of technology and positive governance.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The District Collector of Gandhinagar is Shri Ravindra D. Khatale.",
+   "kind": "OFFICE",
+   "subject": "district_collector",
+   "object": "gandhinagar",
+   "detail": {
+    "name": "Shri Ravindra D. Khatale"
+   },
+   "sourceId": "src:7c2d451dfe95",
+   "evidence": "Shri Ravindra D. Khatale Collector, Gandhinagar",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The District Collector Office in Gandhinagar is located at Akshardham Temple, Gandhinagar.",
+   "kind": "OFFICE",
+   "subject": "district_collector_office",
+   "object": "gandhinagar",
+   "detail": {
+    "address": "Akshardham Temple, Gandhinagar"
+   },
+   "sourceId": "src:7c2d451dfe95",
+   "evidence": "District Collector Office, Gandhinagar Akshardham Temple, Gandhinagar",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Gujarat Vidhansabha is located in Gandhinagar.",
+   "kind": "OFFICE",
+   "subject": "gujarat_vidhansabha",
+   "object": "gandhinagar",
+   "detail": {
+    "address": "Gandhinagar"
+   },
+   "sourceId": "src:7c2d451dfe95",
+   "evidence": "Gujarat Vidhansabha, Gandhinagar",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The District Emergency Response Center in Gandhinagar can be contacted at +91 79 23256720.",
+   "kind": "HELPLINE",
+   "subject": "district_emergency_response_center",
+   "object": "gandhinagar",
+   "detail": {
+    "phone": "+91 79 23256720"
+   },
+   "sourceId": "src:7c2d451dfe95",
+   "evidence": "District Emergency Response Center Call +91 79 23256720",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Commissioner of Rescue & Relief in Gandhinagar can be contacted at 1070.",
+   "kind": "HELPLINE",
+   "subject": "commissioner_of_rescue_and_relief",
+   "object": "gandhinagar",
+   "detail": {
+    "phone": "1070"
+   },
+   "sourceId": "src:7c2d451dfe95",
+   "evidence": "Commissioner of Rescue & Relief Call 1070",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The page was last updated on August 07, 2026.",
+   "kind": "TIMELINE",
+   "subject": "page_update",
+   "object": "gandhinagar_collectorate_website",
+   "detail": {
+    "date": "Aug 07 2026"
+   },
+   "sourceId": "src:7c2d451dfe95",
+   "evidence": "Last update : Aug 07 2026",
    "confidence": 0.95
   },
   {
@@ -7836,6 +8534,82 @@
    "confidence": 0.95
   },
   {
+   "claim": "The Gujarat Card is issued at a fee of $5.00 (US) or Rs. 225/- in Indian currency.",
+   "kind": "FEE",
+   "subject": "gujarat_card",
+   "object": "fee",
+   "detail": {
+    "amount": "5.00",
+    "currency": "USD",
+    "amount_inr": "225",
+    "currency_inr": "INR"
+   },
+   "sourceId": "src:402f2ca32dff",
+   "evidence": "The NRGF issues 'Gujarat Card’ to non-resident Gujaratis. 'Gujarat Card' is issued at a fee of $5.00(US) or Rs. 225/- in Indian currency.",
+   "confidence": 1
+  },
+  {
+   "claim": "All the District Collectors have been authorized to issue Gujarat Cards.",
+   "kind": "OFFICE",
+   "subject": "district_collector",
+   "object": "gujarat_card",
+   "detail": {
+    "office_name": "District Collector"
+   },
+   "sourceId": "src:402f2ca32dff",
+   "evidence": "All the District Collectors have been authorized to issue Gujarat Cards.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Government of Gujarat provides financial assistance of up to Rs.40.00 lacs for building or renovating Gujarati Samaj Bhavan.",
+   "kind": "FEE",
+   "subject": "gujarati_samaj_bhavan",
+   "object": "financial_assistance",
+   "detail": {
+    "amount": "40.00",
+    "currency": "lacs"
+   },
+   "sourceId": "src:402f2ca32dff",
+   "evidence": "The Government of Gujarat has introduced a scheme extending financial assistance to Gujarati Samaj upto Rs.40.00 lacs to build the Gujarati Samaj bhavan or buildings and for renovation uptp Rs.10 .00 lacs.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Government of Gujarat has formed NRG District Committees in all districts to resolve issues faced by Non-Resident Gujaratis.",
+   "kind": "OFFICE",
+   "subject": "nrg_district_committee",
+   "object": "resolution_of_issues",
+   "detail": {
+    "office_name": "NRG District Committees"
+   },
+   "sourceId": "src:402f2ca32dff",
+   "evidence": "The Government has formed NRG committees in all the districts of the State of Gujarat for resolving any problems/issues faced by the Non-Resident Gujaratis, including those related to their property/land in the native place in Gujarat.",
+   "confidence": 1
+  },
+  {
+   "claim": "Non-Resident Gujaratis can contact the Member Secretary Resident Additional Collector of the committee of the concerned district for their issues.",
+   "kind": "OFFICE",
+   "subject": "nrg_district_committee",
+   "object": "contact",
+   "detail": {
+    "office_name": "Member Secretary Resident Additional Collector"
+   },
+   "sourceId": "src:402f2ca32dff",
+   "evidence": "Non-Resident Gujaratis can directly contact the Member Secretary Resident Additional Collector of the committee of the concerned district or can get in touch with the N.R.I. Division or The NRG Foundation.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Constitution of the NRG District Committee includes four non-official members appointed by the State Government.",
+   "kind": "OFFICE",
+   "subject": "nrg_district_committee",
+   "object": "non_official_members",
+   "detail": {
+    "number": "4"
+   },
+   "sourceId": "src:402f2ca32dff",
+   "evidence": "All four Non Official members to be appointed by the State Government.",
+   "confidence": 1
+  },
+  {
    "claim": "The registration form must be printed from the main page with a barcode and submitted to any KVK in the state.",
    "kind": "ACTION",
    "subject": "registration_form",
@@ -7971,6 +8745,143 @@
    "confidence": 0.95
   },
   {
+   "claim": "The district panchayat has the authority to register cooperative societies as per the cooperative law.",
+   "kind": "OFFICE",
+   "subject": "district_panchayat",
+   "object": "cooperative_society_registration",
+   "detail": {
+    "office_name": "District Panchayat",
+    "authority": "Cooperative Law"
+   },
+   "sourceId": "src:880227629ccf",
+   "evidence": "જીલ્લા પંચાયતને સહકારી કાયદા પ્રમાણે અધિકારો સુપ્રત ક૨વામાં આવે છે જે નીચે મુજબ છે.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The district panchayat maintains records of registered cooperative societies.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "district_panchayat",
+   "object": "cooperative_society_records",
+   "detail": {
+    "document_type": "Registration Records"
+   },
+   "sourceId": "src:880227629ccf",
+   "evidence": "કલમ.૧૦ | સહકારી મંડળીઓના નોધણી ૫ત્રકો રાખવા |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The district panchayat has the authority to make and amend bylaws for cooperative societies.",
+   "kind": "OFFICE",
+   "subject": "district_panchayat",
+   "object": "amend_bylaws_cooperative_societies",
+   "detail": {
+    "office_name": "District Panchayat",
+    "authority": "Amendment of Bylaws"
+   },
+   "sourceId": "src:880227629ccf",
+   "evidence": "કલમ.૧૩ | સહકારી મંડળીઓના પેટા નિયમ સુધા૨વા |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The district panchayat can reconstitute cooperative societies that have been merged or restructured.",
+   "kind": "OFFICE",
+   "subject": "district_panchayat",
+   "object": "reconstitute_cooperative_societies",
+   "detail": {
+    "office_name": "District Panchayat",
+    "action": "Reconstitution"
+   },
+   "sourceId": "src:880227629ccf",
+   "evidence": "કલમ.૧૭ | મંડળીઓના એકત્રિત કરેલ વિભાજન દુ૨ કરેલ અથવા રૂપાંત૨ કરેલ મંડળીઓની પુર્ન૨ચના |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The district panchayat can handle appeals regarding the rejection of membership in cooperative societies.",
+   "kind": "OFFICE",
+   "subject": "district_panchayat",
+   "object": "handle_membership_appeals",
+   "detail": {
+    "office_name": "District Panchayat",
+    "action": "Handling Appeals"
+   },
+   "sourceId": "src:880227629ccf",
+   "evidence": "કલમ.૨૧ | સહકારી મંડળીઓમાં સદસ્યોને દાખલ નહી ક૨વામાં આવતી અપીલો અંગે |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The district panchayat can handle appeals regarding the rejection of membership applications for cooperative societies.",
+   "kind": "OFFICE",
+   "subject": "district_panchayat",
+   "object": "handle_membership_application_appeals",
+   "detail": {
+    "office_name": "District Panchayat",
+    "action": "Handling Appeals"
+   },
+   "sourceId": "src:880227629ccf",
+   "evidence": "કલમ.૨૪ | સભાસદો તરીકે દાખલ નહી ક૨વામાં આવતી અપીલો |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The application form for the Certificate of Unreserved Classes can be downloaded.",
+   "kind": "CHANNEL",
+   "subject": "unreserved_classes_certificate",
+   "object": "application_form",
+   "detail": {
+    "url": "https://gscuc.gujarat.gov.in/DownloadData"
+   },
+   "sourceId": "src:0262aac5f33a",
+   "evidence": "Application Form for Certificate of Unreserved Classes Download",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Guidelines for Certificates of Unreserved Classes can be downloaded.",
+   "kind": "CHANNEL",
+   "subject": "unreserved_classes_certificate",
+   "object": "guidelines",
+   "detail": {
+    "url": "https://gscuc.gujarat.gov.in/DownloadData"
+   },
+   "sourceId": "src:0262aac5f33a",
+   "evidence": "Guidelines for Certificates of Unreserved Classes Download",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Required documents for schemes of Unreserved Classes can be downloaded.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "unreserved_classes_schemes",
+   "object": "required_documents",
+   "detail": {
+    "url": "https://gscuc.gujarat.gov.in/DownloadData"
+   },
+   "sourceId": "src:0262aac5f33a",
+   "evidence": "Required Documents for Schemes of Unreserved Classes Download",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Gujarat State Commission for Unreserved Classes is located at Block No. 1, 6th floor, Karmayogi Bhavan, Sector - 10, Gandhinagar, Gujarat – 382010.",
+   "kind": "OFFICE",
+   "subject": "gujarat_state_commission",
+   "object": "unreserved_classes_commission",
+   "detail": {
+    "address": "Block No. 1, 6th floor, Karmayogi Bhavan, Sector - 10, Gandhinagar, Gujarat – 382010."
+   },
+   "sourceId": "src:0262aac5f33a",
+   "evidence": "GUJARAT STATE COMMISSION FOR UNRESERVED CLASSES Block No. 1, 6th floor, Karmayogi Bhavan,Sector - 10, Gandhinagar, Gujarat – 382010.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The contact number for the Gujarat State Commission for Unreserved Classes is +91 079 232 58647.",
+   "kind": "HELPLINE",
+   "subject": "gujarat_state_commission",
+   "object": "unreserved_classes_commission",
+   "detail": {
+    "phone": "+91 079 232 58647"
+   },
+   "sourceId": "src:0262aac5f33a",
+   "evidence": "+91 079 232 58647",
+   "confidence": 0.95
+  },
+  {
    "claim": "A citizen must provide a utilization certificate to confirm that the interest subsidy was used for its intended purpose.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "utilization_certificate",
@@ -8071,18 +8982,50 @@
    "sourceId": "src:6b7dd4f0c210",
    "evidence": "જો દસ્તાવેજ ચકાસણી સમયે આવા પ્ર માણપત્ર રજુ નહી કરે તો અરજીપત્રક રદ કરવામાં આવશે .",
    "confidence": 0.9
+  },
+  {
+   "claim": "Each seed producer must attach their own opal green label with full details on the tag of the bag at the time of packing.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "seed_producer",
+   "object": "opal_green_label",
+   "detail": {
+    "rule": "બીજ કાયદાની જોગવાઇ મુજબ દરેક બીજ ઉત્&zwj;પાદકે પેકીંગ સમયે થેલી ઉપર એજન્&zwj;સીની ટેગ પાછળ સિલાઇમાંથી પોતાનું ઓપલ ગ્રીન રંગનું લેબલ સંપૂર્ણ વિગતોવાળુ લગાવવાનું રહેશે."
+   },
+   "sourceId": "src:3e9caf77dc5a",
+   "evidence": "બીજ કાયદાની જોગવાઇ મુજબ દરેક બીજ ઉત્&zwj;પાદકે પેકીંગ સમયે થેલી ઉપર એજન્&zwj;સીની ટેગ પાછળ સિલાઇમાંથી પોતાનું ઓપલ ગ્રીન રંગનું લેબલ સંપૂર્ણ વિગતોવાળુ લગાવવાનું રહેશે.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Bags of certified seeds must be sealed with the agency's seal in the presence of an authorized officer.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "certified_seed_bag",
+   "object": "agency_seal",
+   "detail": {
+    "rule": "લધુત્તમ બીજ પ્રમાણિકરણના ધોરણમાં બીજ પ્રમાણનના ક્રમાનુસાર તબક્કાઓમાં પસાર થયેલ અને આનુવંશિક અને ભૌતિક શુદ્ધતાના લઘુત્તમ ધોરણોસરના પ્રમાણિકરણને પાત્ર બિયારણની થેલીઓ ઉપર પાયાના (ફાઉન્&zwj;ડેશન) બિયારણ માટે સફેદ અને પ્રમાણિત (સર્ટીફાઇડ) કક્ષાના બિયારણ માટે ભુરા રંગની એજન્&zwj;સીની ટેગ થેલી સાથે સીવી એજ"
+   },
+   "sourceId": "src:3e9caf77dc5a",
+   "evidence": "લધુત્તમ બીજ પ્રમાણિકરણના ધોરણમાં બીજ પ્રમાણનના ક્રમાનુસાર તબક્કાઓમાં પસાર થયેલ અને આનુવંશિક અને ભૌતિક શુદ્ધતાના લઘુત્તમ ધોરણોસરના પ્રમાણિકરણને પાત્ર બિયારણની થેલીઓ ઉપર પાયાના (ફાઉન્&zwj;ડેશન) બિયારણ માટે સફેદ અને પ્રમાણિત (સર્ટીફાઇડ) કક્ષાના બિયારણ માટે ભુરા રંગની એજન્&zwj;સીની ટેગ થેલી સાથે સીવી એજન્&zwj;સીના સીલથી એજન્&zwj;સીના અધિકૃત અધિકારીની હાજરીમાં સીલ કરવાનું રહેશે.",
+   "confidence": 0.95
   }
  ],
  "notFound": [
-  "certificate: a page listing 35 other services in this journey, not a service itself, so it was read for its links and not kept as somewhere to apply. Its pages: https://collectorpanchmahal.gujarat.gov.in/showpage.aspx?contentid=344, https://botad.gujarat.gov.in/certificate-truecopy, https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201819_124.pdf#page=13, https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/GSSSB_202526_312.pdf#page=6",
+  "certificate: a page listing 44 other services in this journey, not a service itself, so it was read for its links and not kept as somewhere to apply. Its pages: https://collectorpanchmahal.gujarat.gov.in/showpage.aspx?contentid=344, https://botad.gujarat.gov.in/certificate-truecopy, https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201819_124.pdf#page=13, https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/GSSSB_202526_312.pdf#page=6, https://ma.gujarat.gov.in/documents/new%20CB%20Guideline.pdf#page=36",
   "Registration Certificate Services: https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "E-Gram Panchayat: https://devbhumidwarkadp.gujarat.gov.in/gu/E-gram-Vishvagram-Yojana lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "EWS Certificate: the hand written graph already answers to service:ews_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "Domicile Certificate: the hand written graph already answers to service:domicile_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "varshai: the page names \"Digital Gujarat\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
+  "Saksham Shala: https://ssg-ss.gujarat.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "income certificate: the hand written graph already answers to service:income_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "Non-Creamy Layer certificate: the hand written graph already answers to service:non_creamy_layer_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
+  "Jan Seva Kendra: https://arvalli.gujarat.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Tourist Guide Certificate: https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "residence certificate: the hand written graph already answers to service:residence_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
-  "Certificate of Fitness: https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/GSSSB_202526_312.pdf#page=4 offers a choice under \"B. Candidates having any of the following physical defects shall be\" but fewer than two of the lines under it are documents, so no group was written."
+  "Certificate of Fitness: https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/GSSSB_202526_312.pdf#page=4 offers a choice under \"B. Candidates having any of the following physical defects shall be\" but fewer than two of the lines under it are documents, so no group was written.",
+  "Registration of Cooperative Society: no quotable requirement, fee or timeline survived, so no service node was written for it.",
+  "Caste Certificate: the hand written graph already answers to service:caste_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
+  "Seed Certificate: no quotable requirement, fee or timeline survived, so no service node was written for it.",
+  "EWS: the hand written graph already answers to service:ews, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
+  "SEBC certificate: the hand written graph already answers to service:sebc_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person."
  ]
 }

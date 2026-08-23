@@ -22,6 +22,16 @@
    "contentHash": "82f029fa604bb0e71065655a8eb01366714cc04bcad74492b1672f11d7386235"
   },
   {
+   "id": "src:73a57c3a2874",
+   "url": "https://garvi.gujarat.gov.in/frmIndex2_New.aspx",
+   "title": "Garvi",
+   "domain": "garvi.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "f1089031ee040246873462fa331acd63d7d4f3f0bba77b210d79a52c362a6eb0"
+  },
+  {
    "id": "src:9837b687d4bb",
    "url": "https://mcjamnagar.com/Services/SelfAssessment.aspx?SID=SER",
    "title": "Self Assessment",
@@ -40,6 +50,16 @@
    "jurisdictionId": "IN-GJ-AHMEDABAD",
    "retrievedAt": "2026-08-23",
    "contentHash": "560bf55ce50856256c01393b71d1c90cb127c97883320537745994a7167e156d"
+  },
+  {
+   "id": "src:17fa5d9e6b48",
+   "url": "https://garvi.gujarat.gov.in/FrmViewUploadedScanDocumentsforCitizen_New.aspx",
+   "title": "Garvi",
+   "domain": "garvi.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "f234a9f78afd29edffaa5404b21debe3265b140a0278f3b32ca133052b2a89cf"
   },
   {
    "id": "src:4b89c4b38ed9",
@@ -130,6 +150,36 @@
    "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
    "retrievedAt": "2026-08-23",
    "contentHash": "99331f28704c54b42221d326c19f9f5440fe5e076c7ec51f3dc7f9622d8b2bcd"
+  },
+  {
+   "id": "src:05fe99b18fe2",
+   "url": "https://stampsregistration.gujarat.gov.in/",
+   "title": "Inspector General of Registration and Superintendent of Stamps",
+   "domain": "stampsregistration.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "1521c053e2f7b25da5f7d6843ab63dd6979f6161618458cf4c856c31ebe82c72"
+  },
+  {
+   "id": "src:c009bc2c7448",
+   "url": "https://ircms.gujarat.gov.in/downloads",
+   "title": "iRCMS-eFiling : File Case",
+   "domain": "ircms.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "6fdad6bea7cf147f2a177f83188cc811f7ff21f01e0b2428a6a00e873b973c64"
+  },
+  {
+   "id": "src:960f5b2acadf",
+   "url": "https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=8",
+   "title": "Vessal_25102024 (page 8 of 21)",
+   "domain": "pnt.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "efdb89153916226310585a622c42296b84dc7712834bd43fb03060917ab279fe"
   }
  ],
  "nodes": [
@@ -327,20 +377,101 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "helpline:0288_2550231_235",
-   "type": "HELPLINE",
-   "name": "Property Tax Calculation Helpline",
-   "jurisdictionId": "IN-GJ-JAMNAGAR",
+   "id": "office:contact_info",
+   "type": "OFFICE",
+   "name": "Contact_info",
+   "jurisdictionId": "IN-GJ",
    "metadata": {
-    "channelType": "PHONE",
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Stamp & Registration Bhavan, KH-5, Sector-14, Gandhinagar, Gujarat - 382016",
     "phoneNumbers": [
-     "(0288) - 2550231 - 235"
+     "(079) 23288575"
     ]
    },
    "sources": [
     {
-     "sourceId": "src:9837b687d4bb",
-     "evidence": "Phone:\n(0288) - 2550231 - 235",
+     "sourceId": "src:73a57c3a2874",
+     "evidence": "Contact Info\nStamp & Registration Bhavan\nKH-5, Sector-14,\nGandhinagar, Gujarat - 382016\nPhone:\n(079) 23288575",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:index_2_details_search",
+   "type": "SERVICE",
+   "name": "Index-2 details search",
+   "officialName": "Index-2 details search",
+   "description": "A citizen can search for Index-2 details by providing a district, year, document number, and mobile number for verification.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:73a57c3a2874",
+     "evidence": "District (જીલ્લો પસંદ કરો) :",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:73a57c3a2874",
+     "evidence": "Document Year (દસ્તાવેજ વર્ષ પસંદ કરો) :",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:73a57c3a2874",
+     "evidence": "Enter Document Number (દસ્તાવેજ નંબર દાખલ કરો) :",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:73a57c3a2874",
+     "evidence": "Enter Mobile Number (મોબાઇલ નંબર દાખલ કરો) :",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:73a57c3a2874",
+     "evidence": "Captcha : Enter the code shown: Wait till Verification Code Receive In Your Mobile No.(તમારા મોબાઇલ નંબર પર ચકાસણી કોડ પ્રાપ્ત ન થાય ત્યાં સુધી રાહ જુઓ).",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:73a57c3a2874",
+     "evidence": "આ વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:73a57c3a2874",
+     "evidence": "Click to get \"Android Play Store\" or \"iOS App Store\" links.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:73a57c3a2874",
+     "evidence": "Last Updated: 21-08-2026",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:garvi_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "garvi.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://garvi.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:73a57c3a2874",
+     "evidence": "District (જીલ્લો પસંદ કરો) :",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -458,24 +589,6 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "portal:mcjamnagar_com",
-   "type": "PORTAL",
-   "name": "mcjamnagar.com",
-   "jurisdictionId": "IN-GJ-JAMNAGAR",
-   "metadata": {
-    "channelType": "WEB",
-    "url": "https://mcjamnagar.com/"
-   },
-   "sources": [
-    {
-     "sourceId": "src:9837b687d4bb",
-     "evidence": "ઓક્યુંપેન્સી ફેક્ટરની કેટેગરી\n--SELECT--\nમાલિક - OWNER\nભાડુઆત - TENANT",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "service:land_allocation_for_housing",
    "type": "SERVICE",
    "name": "Land Allocation For Housing",
@@ -545,109 +658,94 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "office:contact_info",
-   "type": "OFFICE",
-   "name": "Contact_info",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "address": "Stamp & Registration Bhavan, KH-5, Sector-14, Gandhinagar, Gujarat - 382016",
-    "phoneNumbers": [
-     "(079) 23288575"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:4b89c4b38ed9",
-     "evidence": "Contact Info Stamp & Registration Bhavan KH-5, Sector-14, Gandhinagar, Gujarat - 382016 Phone: (079) 23288575",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "service:garvi",
    "type": "SERVICE",
-   "name": "GARVI",
-   "officialName": "GARVI",
+   "name": "Garvi",
+   "officialName": "Garvi",
    "aliases": [
     "garvi",
     "garvi 2.0"
    ],
-   "description": "The GARVI 2.0 application provides online services for submitting document details for registration and paying Stamp Duty and Registration Fee.",
+   "description": "A service for citizens to view uploaded documents by entering details such as mobile number, document number, district, and sub-registrar office.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "machineExtracted": true
    },
    "sources": [
     {
-     "sourceId": "src:4b89c4b38ed9",
-     "evidence": "District (જીલ્લો પસંદ કરો) : ---Select District--- AHMEDABAD AMRELI ANAND ARVALLI BANASKANTHA BHARUCH BHAVNAGAR BOTAD CHHOTAUDEPUR DAHOD DANG DEV BHUMI-DWARKA GANDHINAGAR GIR SOMNATH JAMNAGAR JUNAGADH KACHCHH KHEDA MAHESANA MAHISAGAR MORBI NARMADA NAVSARI PANCHMAHAL PATAN PORBANDAR RAJKOT SABARKANTHA SURAT SURENDRANAGAR TAPI VADODARA VALSAD VAV-THARAD",
+     "sourceId": "src:17fa5d9e6b48",
+     "evidence": "Enter Mobile No(મોબાઇલ નંબર દાખલ કરો) :",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:4b89c4b38ed9",
+     "sourceId": "src:17fa5d9e6b48",
+     "evidence": "Wait till Verification Code Receive In Your Mobile No.(તમારા મોબાઇલ નંબર પર ચકાસણી કોડ પ્રાપ્ત ન થાય ત્યાં સુધી રાહ જુઓ).",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:17fa5d9e6b48",
+     "evidence": "Enter Document Number (દસ્તાવેજ નંબર દાખલ કરો) :",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:17fa5d9e6b48",
+     "evidence": "District (જીલ્લો પસંદ કરો) :",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:17fa5d9e6b48",
+     "evidence": "Document Year (દસ્તાવેજ વર્ષ પસંદ કરો) :",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:17fa5d9e6b48",
      "evidence": "Sub-Registrar Office (સબ-રજીસ્ટ્રાર ઓફીસ પસંદ કરો) :",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:4b89c4b38ed9",
-     "evidence": "Captcha : Enter the code shown:",
+     "sourceId": "src:17fa5d9e6b48",
+     "evidence": "Enter Party Name(દસ્તાવેજ રજુ કરનારનુ નામ) :",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:4b89c4b38ed9",
-     "evidence": "Date Of Appointment : ❮ ❯",
+     "sourceId": "src:17fa5d9e6b48",
+     "evidence": "*Only Alphabets and space.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:4b89c4b38ed9",
-     "evidence": "Garvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides services to citizens to submit document details for registration and online facility to pay Stamp Duty and Registration Fee.",
+     "sourceId": "src:17fa5d9e6b48",
+     "evidence": "Use NIC's SANDES messaging mobile app for getting Alert/OTP SMSes related to your login from Garvi Portal.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:4b89c4b38ed9",
-     "evidence": "Last Updated: 21-08-2026",
+     "sourceId": "src:17fa5d9e6b48",
+     "evidence": "Click to get \"Android Play Store\" or \"iOS App Store\" links.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:4b89c4b38ed9",
-     "evidence": "Best viewed in Firefox 64.0 / Chrome 72.0 or above",
+     "sourceId": "src:17fa5d9e6b48",
+     "evidence": "કોમ્પ્યુટર પ્રિન્ટ ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     },
-    {
-     "sourceId": "src:4b89c4b38ed9",
-     "evidence": "Site Resolution : 1280x1024",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "portal:garvi_gujarat_gov_in",
-   "type": "PORTAL",
-   "name": "garvi.gujarat.gov.in",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "WEB",
-    "url": "https://garvi.gujarat.gov.in/"
-   },
-   "sources": [
     {
      "sourceId": "src:4b89c4b38ed9",
      "evidence": "District (જીલ્લો પસંદ કરો) : ---Select District--- AHMEDABAD AMRELI ANAND ARVALLI BANASKANTHA BHARUCH BHAVNAGAR BOTAD CHHOTAUDEPUR DAHOD DANG DEV BHUMI-DWARKA GANDHINAGAR GIR SOMNATH JAMNAGAR JUNAGADH KACHCHH KHEDA MAHESANA MAHISAGAR MORBI NARMADA NAVSARI PANCHMAHAL PATAN PORBANDAR RAJKOT SABARKANTHA SURAT SURENDRANAGAR TAPI VADODARA VALSAD VAV-THARAD",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
-   ]
+   ],
+   "lastVerifiedAt": "2026-08-23"
   },
   {
    "id": "service:plot_or_shed_allotment",
@@ -1168,6 +1266,155 @@
      "verificationStatus": "EXTRACTED"
     }
    ]
+  },
+  {
+   "id": "helpline:079_232_77200",
+   "type": "HELPLINE",
+   "name": "Stamp & Registration helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "079 - 232 77200"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:05fe99b18fe2",
+     "evidence": "Call Now : 079 - 232 77200",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:stamp_registration",
+   "type": "SERVICE",
+   "name": "Stamp & Registration",
+   "officialName": "Stamp & Registration",
+   "description": "The Stamp & Registration Department manages stamp duty and document registration in Gujarat.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:05fe99b18fe2",
+     "evidence": "With regard to the documents specified in the Constitution of India Seventh Schedule Entry No. 91 (A bill of exchange, cheque, promissory note, bill of lading, letter of credit, policy of insurance, transfer of share, debenture, proxy and receipt) other then the same the State Government is bound to amend the Stamp and Stamp Duty Act.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:stampsregistration_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "stampsregistration.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://stampsregistration.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:05fe99b18fe2",
+     "evidence": "With regard to the documents specified in the Constitution of India Seventh Schedule Entry No. 91 (A bill of exchange, cheque, promissory note, bill of lading, letter of credit, policy of insurance, transfer of share, debenture, proxy and receipt) other then the same the State Government is bound to amend the Stamp and Stamp Duty Act.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "document:checklist_declaration",
+   "type": "DOCUMENT",
+   "name": "Checklist declaration",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:c009bc2c7448",
+     "evidence": "સ્ટેમ્પ ડ્યુટી સંબંધિત કેસો (Filed Under Sec-33) - Checklist / Declaration",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:stamp_duty",
+   "type": "SERVICE",
+   "name": "Stamp Duty",
+   "officialName": "stamp duty",
+   "description": "The page provides checklists, declarations, and process flows for cases related to stamp duty filed under Sections 31 and 33.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:c009bc2c7448",
+     "evidence": "સ્ટેમ્પ ડ્યુટી સંબંધિત કેસો (Filed Under Sec-31 અને Sec-33) - Process Flow",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:c009bc2c7448",
+     "evidence": "Gujarati - Indic Input 3 - 64 bit",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:c009bc2c7448",
+     "evidence": "Gujarati - Indic Input 3 - 32 bit",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:ircms_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "ircms.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://ircms.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:c009bc2c7448",
+     "evidence": "સ્ટેમ્પ ડ્યુટી સંબંધિત કેસો (Filed Under Sec-31 અને Sec-33) - Process Flow",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:declaration_of_survey",
+   "type": "SERVICE",
+   "name": "Declaration Of Survey",
+   "officialName": "declaration of survey",
+   "description": "The declaration of survey is valid up to sixty days from the date of declaration.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:960f5b2acadf",
+     "evidence": "Note. - The declaration shall be made before a Magistrate or a Notary Public or a registering Authority.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:960f5b2acadf",
+     "evidence": "This declaration of Survey is valid up to sixty days from the date of declaration mentioned above.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
   }
  ],
  "edges": [
@@ -1263,6 +1510,38 @@
      "sourceId": "src:3203b82bd43a",
      "evidence": "Application for allotment of properties in GIDC estates is accepted online.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_index_2_details_search__visit_at__office_contact_info",
+   "from": "service:index_2_details_search",
+   "to": "office:contact_info",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Garvi portal provides a contact number for the Stamp & Registration Bhavan in Gandhinagar.",
+   "sources": [
+    {
+     "sourceId": "src:73a57c3a2874",
+     "evidence": "Contact Info\nStamp & Registration Bhavan\nKH-5, Sector-14,\nGandhinagar, Gujarat - 382016\nPhone:\n(079) 23288575",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_index_2_details_search__apply_at__portal_garvi_gujarat_gov_in",
+   "from": "service:index_2_details_search",
+   "to": "portal:garvi_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on garvi.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:73a57c3a2874",
+     "evidence": "District (જીલ્લો પસંદ કરો) :",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -1404,8 +1683,8 @@
    "note": "Published on garvi.gujarat.gov.in.",
    "sources": [
     {
-     "sourceId": "src:4b89c4b38ed9",
-     "evidence": "District (જીલ્લો પસંદ કરો) : ---Select District--- AHMEDABAD AMRELI ANAND ARVALLI BANASKANTHA BHARUCH BHAVNAGAR BOTAD CHHOTAUDEPUR DAHOD DANG DEV BHUMI-DWARKA GANDHINAGAR GIR SOMNATH JAMNAGAR JUNAGADH KACHCHH KHEDA MAHESANA MAHISAGAR MORBI NARMADA NAVSARI PANCHMAHAL PATAN PORBANDAR RAJKOT SABARKANTHA SURAT SURENDRANAGAR TAPI VADODARA VALSAD VAV-THARAD",
+     "sourceId": "src:17fa5d9e6b48",
+     "evidence": "Enter Mobile No(મોબાઇલ નંબર દાખલ કરો) :",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -1774,6 +2053,86 @@
     {
      "sourceId": "src:bf942cad7dd5",
      "evidence": "હું કઈ રીતે સક્ષમ અધિકારીશ્રીના હુકમ અન્વયે સિટી સરવેના હકપત્રકે નોંધ દાખલ કરી શકું? સીટી સર્વે સુપ્રિટેન્ડેન્ટને,\nએપ્લીકેશન ફોર્મ\n[File Size : 62 KB] [Gujarati]",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_stamp_registration__call_if__helpline_079_232_77200",
+   "from": "service:stamp_registration",
+   "to": "helpline:079_232_77200",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "A help desk support service is available for technical issues at the provided phone number.",
+   "sources": [
+    {
+     "sourceId": "src:05fe99b18fe2",
+     "evidence": "Call Now : 079 - 232 77200",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_stamp_registration__apply_at__portal_stampsregistration_gujarat_gov_in",
+   "from": "service:stamp_registration",
+   "to": "portal:stampsregistration_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on stampsregistration.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:05fe99b18fe2",
+     "evidence": "With regard to the documents specified in the Constitution of India Seventh Schedule Entry No. 91 (A bill of exchange, cheque, promissory note, bill of lading, letter of credit, policy of insurance, transfer of share, debenture, proxy and receipt) other then the same the State Government is bound to amend the Stamp and Stamp Duty Act.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_stamp_duty__requires__document_checklist_declaration",
+   "from": "service:stamp_duty",
+   "to": "document:checklist_declaration",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A checklist or declaration is required for cases related to stamp duty filed under Section 33.",
+   "sources": [
+    {
+     "sourceId": "src:c009bc2c7448",
+     "evidence": "સ્ટેમ્પ ડ્યુટી સંબંધિત કેસો (Filed Under Sec-33) - Checklist / Declaration",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_stamp_duty__apply_at__portal_ircms_gujarat_gov_in",
+   "from": "service:stamp_duty",
+   "to": "portal:ircms_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ircms.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:c009bc2c7448",
+     "evidence": "સ્ટેમ્પ ડ્યુટી સંબંધિત કેસો (Filed Under Sec-31 અને Sec-33) - Process Flow",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_declaration_of_survey__apply_at__portal_pnt_gujarat_gov_in",
+   "from": "service:declaration_of_survey",
+   "to": "portal:pnt_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on pnt.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:960f5b2acadf",
+     "evidence": "Note. - The declaration shall be made before a Magistrate or a Notary Public or a registering Authority.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }

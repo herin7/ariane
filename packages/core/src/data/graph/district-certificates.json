@@ -32,6 +32,16 @@
    "contentHash": "b7466baf49c4977e806805cd2c03ba6b5229524224b3a1f6385c289d641b64db"
   },
   {
+   "id": "src:fe8c255146a1",
+   "url": "https://devbhumidwarkadp.gujarat.gov.in/gu/E-gram-Vishvagram-Yojana",
+   "title": "ઇ-ગ્રામ વિશ્‍વગ્રામ યોજના | દેવ ભુમી દ્વારકા જિલ્લા પંચાયત",
+   "domain": "devbhumidwarkadp.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "7d22b5f5400dce6bf6389262cf820e9f3d520244cf9485fbb1a47c9221dfecfd"
+  },
+  {
    "id": "src:b95bad3f5be2",
    "url": "https://gvc.org.in/webcontroller/clickmenu/MTYyMDU3OTYw",
    "title": "Gujarat Veterinary Council",
@@ -102,6 +112,16 @@
    "contentHash": "6032ff67253176c2f65c2642a51e941462918f4d057c567b4243283d145eec73"
   },
   {
+   "id": "src:11f0a6d6e363",
+   "url": "https://ssg-ss.gujarat.gov.in/",
+   "title": "Saksham Shala",
+   "domain": "ssg-ss.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "a902e77f0a9e581a0c4773bddba5df6ceb1da6fad1e19f21236d78cc043de9a1"
+  },
+  {
    "id": "src:f39fc919cbcb",
    "url": "https://panchmahal.gujarat.gov.in/",
    "title": "Collectorate - District Panchmahal",
@@ -110,6 +130,26 @@
    "jurisdictionId": "IN-GJ-PANCHMAHAL",
    "retrievedAt": "2026-08-23",
    "contentHash": "4a61485c8a0b9464c07aded85a6f8993d8d4a662ca86d158bf0c84fa3437c840"
+  },
+  {
+   "id": "src:024267061148",
+   "url": "https://arvalli.gujarat.gov.in/",
+   "title": "Collectorate - District Arvalli",
+   "domain": "arvalli.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d58b4c732fb0d659c509f09e133bd0cd1efdc4af7e0eed844329d2d4bdf51cb8"
+  },
+  {
+   "id": "src:7c2d451dfe95",
+   "url": "https://gandhinagar.gujarat.gov.in/",
+   "title": "Collectorate - District Gandhinagar",
+   "domain": "gandhinagar.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-GANDHINAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "bac31c3be120f92fdef47423bc5fe1dc8ff7c229628bb963765a7f9c6c5c414d"
   },
   {
    "id": "src:173f71fd267e",
@@ -582,6 +622,16 @@
    "contentHash": "a94c224a87140c4b4599f9a8238e47be5fde1ca1b2a989a60548f0f422591204"
   },
   {
+   "id": "src:402f2ca32dff",
+   "url": "https://nri.gujarat.gov.in/home/importantprojects",
+   "title": "Home Page",
+   "domain": "nri.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "17b22587b79c9905e5a78c628bf54d37c08b96eb3012ac8f14ae7fa3395e2ad0"
+  },
+  {
    "id": "src:a3a32e089536",
    "url": "https://empower.gujarat.gov.in/KVK/Registration.aspx",
    "title": ":: KVK, Commissionerate of Employment and Training, Government of Gujarat ::",
@@ -602,6 +652,26 @@
    "contentHash": "eefe3d14d705979bbe40cb233ca05a4fcbbc1171b655a7e44cb8e035cff09da9"
   },
   {
+   "id": "src:880227629ccf",
+   "url": "https://sabarkanthadp.gujarat.gov.in/gu/Registration-of-Co-Operative-society",
+   "title": "સહકારી મંડળીઓની નોંધણી | સાબરકાંઠા જિલ્લા પંચાયત",
+   "domain": "sabarkanthadp.gujarat.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ-SABARKANTHA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "70c869faeecd1d729cc5afbb3a241f061352662b60b1cc79f2b68e1df5c410c1"
+  },
+  {
+   "id": "src:0262aac5f33a",
+   "url": "https://gscuc.gujarat.gov.in/DownloadData",
+   "title": "Download | Gujarat State Commission for Unreserved Classes",
+   "domain": "gscuc.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "84ba1176930d94eafbe78aa3e5318d8644edce1179cfe422030467db23a49932"
+  },
+  {
    "id": "src:1e206910c90b",
    "url": "https://www.nhb.org.in/format-for-utilization-certificate",
    "title": "Format for Utilization certificate - National Housing Bank",
@@ -620,6 +690,16 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "52a6b933b44ad54fd94a48dc353623762415ffabbe3cb824b114291e16087815"
+  },
+  {
+   "id": "src:3e9caf77dc5a",
+   "url": "https://gssca.gujarat.gov.in/ImportantActivites/BiyarananuCertificate",
+   "title": "Gujarat State Seed Certificate Agency",
+   "domain": "gssca.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "b7f421f2fa593fc3c054b6ac627a22f2abc07b7770f3c2f86114fd34a3d54567"
   }
  ],
  "nodes": [
@@ -1543,6 +1623,113 @@
    ]
   },
   {
+   "id": "service:e_gram_panchayat",
+   "type": "SERVICE",
+   "name": "E-Gram Panchayat",
+   "officialName": "E-Gram Panchayat",
+   "aliases": [
+    "ઇ-ગ્રામ પંચાયત"
+   ],
+   "description": "E-Gram Panchayat provides various services including certificates, land records, bill payments, and telemedicine through a digital platform.",
+   "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:fe8c255146a1",
+     "evidence": "પ્રથમ તબકકામાં મુખ્‍યત્‍વે ઇ-ગ્રામ દ્વારા જન્‍મ-મરણનું પ્રમાણ૫ત્ર, આવકનો દાખલો, જાતિનો દાખલો, ચારિત્ર્યનું પ્રમાણ૫ત્ર, રહેઠાણનું પ્રમાણ૫ત્ર વગેરે અને સરકારી વિવિઘ યોજનાઓના ફોર્મસ/અરજી૫ત્રકોની ઉ૫લબ્‍ઘતા.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fe8c255146a1",
+     "evidence": "ગ્રામ્‍ય કક્ષાએ ખેડૂતને આ૫વાનાં થતાં ૭/૧૨ અને ૮/અ ના ઉતારા વગેરેની માહિતી તાલુકા /જીલ્‍લા કક્ષાના સર્વર ઉ૫રથી ગ્રામપંચાયત ખાતેથી આ૫વાનું આયોજન અને વ્‍યવસ્‍થા.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fe8c255146a1",
+     "evidence": "ઇ-ગ્રામ પંચાયત ખાતે વીજળી અને ટેલીફોનના બીલ, વીમા અને ટપાલ સેવાઓ પૂરી પાડવાનું આયોજન.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fe8c255146a1",
+     "evidence": "ગ્રામના એન.આર.જી./એન. આર. આઇ. સાથે ઇન્‍ટરનેટના ઉ૫યોગથી સાયબર સેવા અંતર્ગત, ગ્રામજનો દ્વારા ખેતી વિષયક, શૈક્ષણ‍િક વિષયક માહિતી, આરોગ્‍ય વિષયક માહિતીની ગ્રામપંચાયત ખાતે ઉ૫લબ્‍ઘ કરવામાં આવી રહેલ છે.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fe8c255146a1",
+     "evidence": "ગ્રામપંચાયત ખાતે ઓનલાઇન અરજીની સગવડ ફરિયા નિવારણની સગવડ, બી.પી.એલ. યાદી તેમજ જુદા જુદા સરકારી વિભાગની નાગરિક સબંઘિત સુવિધાઓ પ્રમાણ૫ત્ર, ઠરાવ સૂચનાઓ, વિવિધ યોજનાઓની ઇ-સેવાની ૫ણ ઉ૫લબ્‍ધ‍િ આ ઉ૫રાંત ખાનગી કં૫નીઓની ઇ-સેવાની ૫ણ ઉ૫લબ્‍ઘ‍િ થશે.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fe8c255146a1",
+     "evidence": "વઘુમાં ખેતી વિષયક (પાકના રોગ), આરોગ્‍ય વિષયક (ટેલી મેડિસિન) વગેરે વિષય ઉ૫ર વીડિયો કોન્‍ફરન્‍સનું આયોજન.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fe8c255146a1",
+     "evidence": "આ પ્રોજેકટ જાહેર અને ખાનગી ભાગીદારીનું એક વિરલ ઉદાહરણ છે કારણકે આ પ્રોજેકટ માટે અમલીકરણ અંગેની કાર્યવાહી સર્વ‍િસ સેન્‍ટર એજન્‍સી (પ્રાઇવેટ કં૫ની) અને ઇ-ગ્રામ વિશ્વગ્રામ સોસાયટી ૬૦૦૦ ગ્રામપંચાયતો ખાતે થી ગ્રામ્‍યજનોને ઉ૫યોગી જીટુસી (સરકાર દ્વારા નાગરીક) તથા બીટુસી (બીઝનેસ ટુ કન્‍ઝયુમર) ઇ-સેવાઓ પૂરી પાડવાની કામગીરી આગામી છ માસમાં પૂર્ણ થાય તે રીતે કાર્યવાહી હાથ ધરેલ છે.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fe8c255146a1",
+     "evidence": "ઇ-ગ્રામ પંચાયતના સફળ સંચાલન અર્થે તલાટી-કમ-મંત્રીના સહાયક તરીકે ગામના ખાનગી ગ્રામ કોમ્‍પ્‍યુટર સાહસિક ઇ-સેવાઓ ઇ-ગ્રામ પંચાયત ખાતે ૫બ્‍લ‍િક-પ્રાઇવેટ- પાર્ટનરશી૫(PPP) દ્વારા ઉ૫લબ્‍ઘ થાય તેવી વ્‍યવસ્‍થા.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fe8c255146a1",
+     "evidence": "કુલ ૧૩૬૯૩ ગ્રામપંચાયતોને કોમ્‍પ્‍યુટર હાર્ડવેર તથા સોફટવેર પૂરા પાડવામાં આવેલ છે.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fe8c255146a1",
+     "evidence": "રાજયના તમામ તલાટી-કમ-મંત્રીઓને ઇ-ગ્રામ સોફટવેરથી તાલીમબદ્ઘ કરવામાં આવેલ છે.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fe8c255146a1",
+     "evidence": "રેલ્‍વે અને હવાઇ રીઝર્વેશન માટેની ઇ-સેવાઓ",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fe8c255146a1",
+     "evidence": "સ્‍ટેમ્‍૫ પે૫રનું વેચાણ",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:devbhumidwarkadp_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "devbhumidwarkadp.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://devbhumidwarkadp.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:fe8c255146a1",
+     "evidence": "પ્રથમ તબકકામાં મુખ્‍યત્‍વે ઇ-ગ્રામ દ્વારા જન્‍મ-મરણનું પ્રમાણ૫ત્ર, આવકનો દાખલો, જાતિનો દાખલો, ચારિત્ર્યનું પ્રમાણ૫ત્ર, રહેઠાણનું પ્રમાણ૫ત્ર વગેરે અને સરકારી વિવિઘ યોજનાઓના ફોર્મસ/અરજી૫ત્રકોની ઉ૫લબ્‍ઘતા.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "document:degree_certificate",
    "type": "DOCUMENT",
    "name": "Degree certificate",
@@ -2363,6 +2550,234 @@
    ]
   },
   {
+   "id": "grievance:saksham_shala",
+   "type": "GRIEVANCE_CHANNEL",
+   "name": "Grievances about saksham shala",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "GRIEVANCE_PORTAL"
+   },
+   "sources": [
+    {
+     "sourceId": "src:11f0a6d6e363",
+     "evidence": "3.HOW CAN I CLEAR MY QUERIES WITH REGARDS TO THE QUESTIONNAIRE? For any questionnaire related queries refer to SVP indicator guide or email on ssa.ssggujarat@gmail.com",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:saksham_shala",
+   "type": "SERVICE",
+   "name": "Saksham Shala",
+   "officialName": "Saksham Shala",
+   "description": "A service for schools to complete a survey and receive a certificate, involving inputting information, uploading photos, and tracking scores.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:11f0a6d6e363",
+     "evidence": "3. I FORGOT MY PASSWORD? Click on ‘forget password’, fill in required details and OTP will be sent to your email address to reset your password.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:11f0a6d6e363",
+     "evidence": "In case you forget your BRC/CRC login password you can mail to us at (ssa.ssggujarat@gmail.com) with your Login ID and we will retrieve your password.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:11f0a6d6e363",
+     "evidence": "4. I GAVE INCORRECT NAME AND MOBILE NUMBER HOW CAN I RECTIFY? You can directly edit on the name and number in the primary information section after logging into the School Survey.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:11f0a6d6e363",
+     "evidence": "7. THE SCHOOL IS AN ALL-GIRLS/ALL BOYS SCHOOL. DOES IT STILL REQUIRE TO HAVE A GENDER SEGREGATED TOILET? No. Please choose the NA (Not Applicable) option here.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:11f0a6d6e363",
+     "evidence": "8. WHAT TO DO IF ANY MISTAKES ARE MADE AND FOUND AFTER SUBMISSION? You have multiple opportunities to edit your responses prior to final submission. Check your responses carefully prior to submission. Once the final submission is made, the edit option is disabled and only viewing option is available.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:11f0a6d6e363",
+     "evidence": "9.I HAVE A PROBLEM IN UPLOADING THE IMAGES Make sure that you have good internet connectivity. Please check that the resolution of the image is less than or equal to 1 MB. Auto compression features is available in the app.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:11f0a6d6e363",
+     "evidence": "10. I WANT TO CHANGE THE PHOTOS UPLOADED If you want to remove the existing photo and add a new one, there will be a red colour cross mark on the photo you can click on it to delete the photo. You can then upload a new photo.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:11f0a6d6e363",
+     "evidence": "11. CAN I UPLOAD THE PHOTOS LATER? Yes. You can submit your entry without photographs. Please log in later and upload the photos.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:11f0a6d6e363",
+     "evidence": "12. MOBILE APP IS NOT WORKING PROPERLY. Uninstall the app and install it again.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:11f0a6d6e363",
+     "evidence": "1. I GAVE INCORRECT NAME AND MOBILE NUMBER HOW CAN I RECTIFY? You can contact your Cluster (CRC) and Block (BRC) Coordinator and they can reset it for you. You can also send a mail at ssa.ssggujarat@gmail.com requesting the same, we can reset it for you.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:11f0a6d6e363",
+     "evidence": "2.I AM NOT ABLE TO DOWNLOAD THE CERTIFICAT? You can also send a mail at ssa.ssggujarat@gmail.com requesting the same, we will download the certificate and send it to you.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:ssg_ss_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "ssg-ss.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://ssg-ss.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:11f0a6d6e363",
+     "evidence": "3. I FORGOT MY PASSWORD? Click on ‘forget password’, fill in required details and OTP will be sent to your email address to reset your password.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "document:application_forms",
+   "type": "DOCUMENT",
+   "name": "Application forms",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "sources": [
+    {
+     "sourceId": "src:024267061148",
+     "evidence": "Following section will let you understand documents required and downloadable application form for each service.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "helpline:1800_233_0060",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "1800 233 0060"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:024267061148",
+     "evidence": "District Emergency Response Center Call 1800 233 0060",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:1077",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "1077"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:024267061148",
+     "evidence": "Commissioner of Rescue & Relief Call 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "office:gandhinagar",
+   "type": "OFFICE",
+   "name": "Gandhinagar",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Akshardham Temple, Gandhinagar"
+   },
+   "sources": [
+    {
+     "sourceId": "src:7c2d451dfe95",
+     "evidence": "District Collector Office, Gandhinagar Akshardham Temple, Gandhinagar",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:91_79_23256720",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 79 23256720"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:7c2d451dfe95",
+     "evidence": "District Emergency Response Center Call +91 79 23256720",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:1070",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "1070"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:7c2d451dfe95",
+     "evidence": "Commissioner of Rescue & Relief Call 1070",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "document:standard_formats",
    "type": "DOCUMENT",
    "name": "Standard formats",
@@ -2455,9 +2870,9 @@
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:173f71fd267e",
-     "evidence": "The MOU for the BOOT provides that 50% of the data entry staff should be the applications of the citizens charter by citizens and online monitoring by the officials.",
-     "confidence": 0.85,
+     "sourceId": "src:024267061148",
+     "evidence": "Jan Seva Kendra provides one stop solutions for 102 public services.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -4755,26 +5170,6 @@
    ]
   },
   {
-   "id": "helpline:1070",
-   "type": "HELPLINE",
-   "name": "Certified Copies Helpline",
-   "jurisdictionId": "IN-GJ-AMRELI",
-   "metadata": {
-    "channelType": "PHONE",
-    "phoneNumbers": [
-     "1070"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:9f5f3692e126",
-     "evidence": "Commisioner of Rescue & Relief\nCall 1070",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "helpline:91_02792_230735",
    "type": "HELPLINE",
    "name": "Certified Copies Helpline",
@@ -4900,6 +5295,51 @@
      "sourceId": "src:da85effbdf4d",
      "evidence": "હું કઈ રીતે સક્ષમ અધિકારીશ્રીના હુકમ અન્વયે સિટી સરવેના હકપત્રકે નોંધ દાખલ કરી શકું? સીટી સર્વે સુપ્રિટેન્ડેન્ટને,",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:gujarat_card",
+   "type": "SERVICE",
+   "name": "Gujarat Card",
+   "officialName": "Gujarat Card",
+   "description": "The Gujarat Card is issued to non-resident Gujaratis at a fee of $5.00 (US) or Rs. 225/- in Indian currency.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "The Gujarat Card is issued at a fee of $5.00 (US) or Rs. 225/- in Indian currency."
+   },
+   "sources": [
+    {
+     "sourceId": "src:402f2ca32dff",
+     "evidence": "The NRGF issues 'Gujarat Card’ to non-resident Gujaratis. 'Gujarat Card' is issued at a fee of $5.00(US) or Rs. 225/- in Indian currency.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:402f2ca32dff",
+     "evidence": "The Government of Gujarat has introduced a scheme extending financial assistance to Gujarati Samaj upto Rs.40.00 lacs to build the Gujarati Samaj bhavan or buildings and for renovation uptp Rs.10 .00 lacs.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:nri_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "nri.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://nri.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:402f2ca32dff",
+     "evidence": "The NRGF issues 'Gujarat Card’ to non-resident Gujaratis. 'Gujarat Card' is issued at a fee of $5.00(US) or Rs. 225/- in Indian currency.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -5031,6 +5471,127 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "document:cooperative_society_records",
+   "type": "DOCUMENT",
+   "name": "Cooperative society records",
+   "jurisdictionId": "IN-GJ-SABARKANTHA",
+   "sources": [
+    {
+     "sourceId": "src:880227629ccf",
+     "evidence": "કલમ.૧૦ | સહકારી મંડળીઓના નોધણી ૫ત્રકો રાખવા |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:gscuc_gujarat_gov_in_0262aa",
+   "type": "PORTAL",
+   "name": "gscuc.gujarat.gov.in/DownloadData",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://gscuc.gujarat.gov.in/DownloadData"
+   },
+   "sources": [
+    {
+     "sourceId": "src:0262aac5f33a",
+     "evidence": "Application Form for Certificate of Unreserved Classes Download",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "office:unreserved_classes_commission",
+   "type": "OFFICE",
+   "name": "Unreserved_classes_commission",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Block No. 1, 6th floor, Karmayogi Bhavan, Sector - 10, Gandhinagar, Gujarat – 382010."
+   },
+   "sources": [
+    {
+     "sourceId": "src:0262aac5f33a",
+     "evidence": "GUJARAT STATE COMMISSION FOR UNRESERVED CLASSES Block No. 1, 6th floor, Karmayogi Bhavan,Sector - 10, Gandhinagar, Gujarat – 382010.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:91_079_232_58647",
+   "type": "HELPLINE",
+   "name": "Certificate of Unreserved Classes helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 079 232 58647"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:0262aac5f33a",
+     "evidence": "+91 079 232 58647",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:certificate_of_unreserved_classes",
+   "type": "SERVICE",
+   "name": "Certificate of Unreserved Classes",
+   "officialName": "Certificate of Unreserved Classes",
+   "description": "The page provides downloadable application forms and guidelines for obtaining a Certificate of Unreserved Classes.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:0262aac5f33a",
+     "evidence": "Application Form for Certificate of Unreserved Classes Download",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0262aac5f33a",
+     "evidence": "Guidelines for Certificates of Unreserved Classes Download",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0262aac5f33a",
+     "evidence": "Required Documents for Schemes of Unreserved Classes Download",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:gscuc_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "gscuc.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://gscuc.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:0262aac5f33a",
+     "evidence": "Application Form for Certificate of Unreserved Classes Download",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "service:utilization_certificate",
    "type": "SERVICE",
    "name": "Utilization certificate",
@@ -5134,6 +5695,36 @@
      "sourceId": "src:6b7dd4f0c210",
      "evidence": "જો દસ્તાવેજ ચકાસણી સમયે આવા પ્ર માણપત્ર રજુ નહી કરે તો અરજીપત્રક રદ કરવામાં આવશે .",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:opal_green_label",
+   "type": "DOCUMENT",
+   "name": "Opal green label",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:3e9caf77dc5a",
+     "evidence": "બીજ કાયદાની જોગવાઇ મુજબ દરેક બીજ ઉત્&zwj;પાદકે પેકીંગ સમયે થેલી ઉપર એજન્&zwj;સીની ટેગ પાછળ સિલાઇમાંથી પોતાનું ઓપલ ગ્રીન રંગનું લેબલ સંપૂર્ણ વિગતોવાળુ લગાવવાનું રહેશે.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:agency_seal",
+   "type": "DOCUMENT",
+   "name": "Agency seal",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:3e9caf77dc5a",
+     "evidence": "લધુત્તમ બીજ પ્રમાણિકરણના ધોરણમાં બીજ પ્રમાણનના ક્રમાનુસાર તબક્કાઓમાં પસાર થયેલ અને આનુવંશિક અને ભૌતિક શુદ્ધતાના લઘુત્તમ ધોરણોસરના પ્રમાણિકરણને પાત્ર બિયારણની થેલીઓ ઉપર પાયાના (ફાઉન્&zwj;ડેશન) બિયારણ માટે સફેદ અને પ્રમાણિત (સર્ટીફાઇડ) કક્ષાના બિયારણ માટે ભુરા રંગની એજન્&zwj;સીની ટેગ થેલી સાથે સીવી એજન્&zwj;સીના સીલથી એજન્&zwj;સીના અધિકૃત અધિકારીની હાજરીમાં સીલ કરવાનું રહેશે.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -5766,6 +6357,22 @@
    ]
   },
   {
+   "id": "e:service_e_gram_panchayat__apply_at__portal_devbhumidwarkadp_gujarat_gov_in",
+   "from": "service:e_gram_panchayat",
+   "to": "portal:devbhumidwarkadp_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on devbhumidwarkadp.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:fe8c255146a1",
+     "evidence": "પ્રથમ તબકકામાં મુખ્‍યત્‍વે ઇ-ગ્રામ દ્વારા જન્‍મ-મરણનું પ્રમાણ૫ત્ર, આવકનો દાખલો, જાતિનો દાખલો, ચારિત્ર્યનું પ્રમાણ૫ત્ર, રહેઠાણનું પ્રમાણ૫ત્ર વગેરે અને સરકારી વિવિઘ યોજનાઓના ફોર્મસ/અરજી૫ત્રકોની ઉ૫લબ્‍ઘતા.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_veterinary_registration__requires__document_degree_certificate",
    "from": "service:veterinary_registration",
    "to": "document:degree_certificate",
@@ -6384,6 +6991,134 @@
     {
      "sourceId": "src:02558b8797df",
      "evidence": "હું કઈ રીતે વારસાઈ પ્રમાણપત્ર આપવા મંજુરી મેળવી શકું? સ્વ.પેન્શનરના કાયદેસર સીધી લીટીના વારસદાર આવી",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_saksham_shala__escalate_to__grievance_saksham_shala",
+   "from": "service:saksham_shala",
+   "to": "grievance:saksham_shala",
+   "type": "ESCALATE_TO",
+   "verificationStatus": "EXTRACTED",
+   "note": "For any questionnaire-related queries in the Teachers Training section, users can refer to the SVP indicator guide or email the provided email address.",
+   "sources": [
+    {
+     "sourceId": "src:11f0a6d6e363",
+     "evidence": "3.HOW CAN I CLEAR MY QUERIES WITH REGARDS TO THE QUESTIONNAIRE? For any questionnaire related queries refer to SVP indicator guide or email on ssa.ssggujarat@gmail.com",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_saksham_shala__apply_at__portal_ssg_ss_gujarat_gov_in",
+   "from": "service:saksham_shala",
+   "to": "portal:ssg_ss_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ssg-ss.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:11f0a6d6e363",
+     "evidence": "3. I FORGOT MY PASSWORD? Click on ‘forget password’, fill in required details and OTP will be sent to your email address to reset your password.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__requires__document_application_forms",
+   "from": "service:jan_seva_kendra",
+   "to": "document:application_forms",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Jan Seva Kendra provides information on documents required and downloadable application forms for each service.",
+   "sources": [
+    {
+     "sourceId": "src:024267061148",
+     "evidence": "Following section will let you understand documents required and downloadable application form for each service.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_1800_233_0060",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:1800_233_0060",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Emergency Response Center can be contacted at 1800 233 0060.",
+   "sources": [
+    {
+     "sourceId": "src:024267061148",
+     "evidence": "District Emergency Response Center Call 1800 233 0060",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_1077",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:1077",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Commissioner of Rescue & Relief can be contacted at 1077.",
+   "sources": [
+    {
+     "sourceId": "src:024267061148",
+     "evidence": "Commissioner of Rescue & Relief Call 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__visit_at__office_gandhinagar",
+   "from": "service:jan_seva_kendra",
+   "to": "office:gandhinagar",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Collector Office in Gandhinagar is located at Akshardham Temple, Gandhinagar.",
+   "sources": [
+    {
+     "sourceId": "src:7c2d451dfe95",
+     "evidence": "District Collector Office, Gandhinagar Akshardham Temple, Gandhinagar",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_91_79_23256720",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:91_79_23256720",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Emergency Response Center in Gandhinagar can be contacted at +91 79 23256720.",
+   "sources": [
+    {
+     "sourceId": "src:7c2d451dfe95",
+     "evidence": "District Emergency Response Center Call +91 79 23256720",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_1070",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:1070",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Commissioner of Rescue & Relief in Gandhinagar can be contacted at 1070.",
+   "sources": [
+    {
+     "sourceId": "src:7c2d451dfe95",
+     "evidence": "Commissioner of Rescue & Relief Call 1070",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -8390,6 +9125,22 @@
    ]
   },
   {
+   "id": "e:service_gujarat_card__apply_at__portal_nri_gujarat_gov_in",
+   "from": "service:gujarat_card",
+   "to": "portal:nri_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on nri.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:402f2ca32dff",
+     "evidence": "The NRGF issues 'Gujarat Card’ to non-resident Gujaratis. 'Gujarat Card' is issued at a fee of $5.00(US) or Rs. 225/- in Indian currency.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_kvk_registration__apply_at__portal_empower_gujarat_gov_in",
    "from": "service:kvk_registration",
    "to": "portal:empower_gujarat_gov_in",
@@ -8416,6 +9167,70 @@
     {
      "sourceId": "src:7122f7b1b29d",
      "evidence": "૧. આ ડેટા એન્ટ્રી ફોર્મની પ્રિન્ટ ચાલશે નહિ. મુખ્ય પેજ પરથી Print Registration Form Click કરીને બારકોડ વાળી પ્રિન્ટ કોઇ પણ સરકારી ITI માં જમા કરાવવી.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_certificate_of_unreserved_classes__apply_at__portal_gscuc_gujarat_gov_in_0262aa",
+   "from": "service:certificate_of_unreserved_classes",
+   "to": "portal:gscuc_gujarat_gov_in_0262aa",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The application form for the Certificate of Unreserved Classes can be downloaded.",
+   "sources": [
+    {
+     "sourceId": "src:0262aac5f33a",
+     "evidence": "Application Form for Certificate of Unreserved Classes Download",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_certificate_of_unreserved_classes__visit_at__office_unreserved_classes_commission",
+   "from": "service:certificate_of_unreserved_classes",
+   "to": "office:unreserved_classes_commission",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gujarat State Commission for Unreserved Classes is located at Block No. 1, 6th floor, Karmayogi Bhavan, Sector - 10, Gandhinagar, Gujarat – 382010.",
+   "sources": [
+    {
+     "sourceId": "src:0262aac5f33a",
+     "evidence": "GUJARAT STATE COMMISSION FOR UNRESERVED CLASSES Block No. 1, 6th floor, Karmayogi Bhavan,Sector - 10, Gandhinagar, Gujarat – 382010.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_certificate_of_unreserved_classes__call_if__helpline_91_079_232_58647",
+   "from": "service:certificate_of_unreserved_classes",
+   "to": "helpline:91_079_232_58647",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The contact number for the Gujarat State Commission for Unreserved Classes is +91 079 232 58647.",
+   "sources": [
+    {
+     "sourceId": "src:0262aac5f33a",
+     "evidence": "+91 079 232 58647",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_certificate_of_unreserved_classes__apply_at__portal_gscuc_gujarat_gov_in",
+   "from": "service:certificate_of_unreserved_classes",
+   "to": "portal:gscuc_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on gscuc.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:0262aac5f33a",
+     "evidence": "Application Form for Certificate of Unreserved Classes Download",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }

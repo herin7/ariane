@@ -16,6 +16,19 @@
    "scrapedOk": true
   },
   {
+   "id": "src:2f67773e6378",
+   "url": "https://startupindia.gov.in/",
+   "title": "Startup India",
+   "domain": "startupindia.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ebd6bd5ef63b710dd43ee3bd092ed15c9c815b5461728c3bfd3890b15481ba6c",
+   "cacheFile": ".ingest/pages/2f67773e6378e955eacd30c73d0604456bacbf12.md",
+   "scrapedOk": true,
+   "tlsVerified": false
+  },
+  {
    "id": "src:dc0a95e4944a",
    "url": "https://www.startupindia.gov.in/content/sih/en/startup-scheme/state-startup-policies/Haryana-state-policy.html",
    "title": "Haryana",
@@ -136,6 +149,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:fbd13164f1d9",
+   "url": "https://ic.gujarat.gov.in/Default.aspx",
+   "title": "IC Website",
+   "domain": "ic.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "67013bd5b9c3b3bbf0650e587991d42c8b504a24cbdfa3dbc98b1841915380b3",
+   "cacheFile": ".ingest/pages/fbd13164f1d9e261cd30b7e9ad75cd0c8116d7b8.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:4236ac0c3e16",
    "url": "https://ced.gujarat.gov.in/assets/downloads/gr-27-01-2015-I.pdf#page=1",
    "title": "gr-27-01-2015-I (page 1 of 5)",
@@ -145,6 +170,30 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "9c72a71a9063c07a703abf35093f7e0350d0cca0a042e3d6115ddd4b3e019685",
    "cacheFile": ".ingest/pages/4236ac0c3e16a12c9d32918ea384a5daca04a597.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:c9ed963f9aaf",
+   "url": "https://ced.gujarat.gov.in/forms",
+   "title": "Application Forms | E-Citizen - CED – Centre for Entrepreneurship Development, Gujarat",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "734ba11e22da12fda8224d7b4dde93677deaed07e114e7b6dcaf4094f4505409",
+   "cacheFile": ".ingest/pages/c9ed963f9aaf16c7e6c369fd024f5a4c92e7eb80.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:ef1d0775243d",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/Entrepreneurship-SOURCE-check.pdf#page=86",
+   "title": "Entrepreneurship-SOURCE-check (page 86 of 184)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "9850fcd26747541f4f6955e75233e936e8eece731ea1c14d05817c3d77f80fea",
+   "cacheFile": ".ingest/pages/ef1d0775243d6e6b0e5da98fa728c1dd0dca7592.md",
    "scrapedOk": true
   }
  ],
@@ -391,6 +440,136 @@
    "sourceId": "src:e44566599545",
    "evidence": "Access the latest information about the Startup India Scheme and DPIIT Recognition here",
    "confidence": 0.95
+  },
+  {
+   "claim": "Eligible companies can get recognized as Startups by DPIIT to access tax benefits, easier compliance, IPR fast-tracking, and more.",
+   "kind": "ELIGIBILITY",
+   "subject": "dpiit_recognition",
+   "object": "startup_india_initiative",
+   "detail": {},
+   "sourceId": "src:2f67773e6378",
+   "evidence": "Under the Startup India initiative, eligible companies can get recognised as Startups by DPIIT, in order to access a host of tax benefits, easier compliance, IPR fast-tracking & more.",
+   "confidence": 1
+  },
+  {
+   "claim": "A startup must meet certain criteria to be considered eligible for DPIIT Recognition.",
+   "kind": "ELIGIBILITY",
+   "subject": "startup",
+   "object": "dpiit_recognition",
+   "detail": {},
+   "sourceId": "src:2f67773e6378",
+   "evidence": "A startup must meet certain criteria to be considered eligible for DPIIT Recognition.",
+   "confidence": 1
+  },
+  {
+   "claim": "Click here to know more about the recognition process and apply as a Startup.",
+   "kind": "ACTION",
+   "subject": "startup",
+   "object": "dpiit_recognition",
+   "detail": {},
+   "sourceId": "src:2f67773e6378",
+   "evidence": "Click here to know more about the recognition process and apply as a Startup.",
+   "confidence": 1
+  },
+  {
+   "claim": "Stay on top of Recognition and Tax Exemption updates.",
+   "kind": "TRACKING",
+   "subject": "startup",
+   "object": "dpiit_recognition",
+   "detail": {},
+   "sourceId": "src:2f67773e6378",
+   "evidence": "Stay on top of Recognition and Tax Exemption updates.",
+   "confidence": 1
+  },
+  {
+   "claim": "Click here to verify your Recognition/Tax Exemption certificates.",
+   "kind": "ACTION",
+   "subject": "startup",
+   "object": "dpiit_recognition",
+   "detail": {},
+   "sourceId": "src:2f67773e6378",
+   "evidence": "Click here to verify your Recognition/Tax Exemption certificates.",
+   "confidence": 1
+  },
+  {
+   "claim": "Verify your DPIIT Certification.",
+   "kind": "ACTION",
+   "subject": "startup",
+   "object": "dpiit_recognition",
+   "detail": {},
+   "sourceId": "src:2f67773e6378",
+   "evidence": "Verify your DPIIT Certification",
+   "confidence": 1
+  },
+  {
+   "claim": "The Startup India Seed Fund Scheme aims to provide financial assistance to startups for proof of concept, prototype development, product trials, market entry, and commercialisation.",
+   "kind": "ACTION",
+   "subject": "startup",
+   "object": "seed_fund_scheme",
+   "detail": {},
+   "sourceId": "src:2f67773e6378",
+   "evidence": "The Startup India Seed Fund Scheme (SISFS) aims to provide financial assistance to startups for proof of concept, prototype development, product trials, market entry, and commercialisation.",
+   "confidence": 1
+  },
+  {
+   "claim": "The MAARG mentorship platform aims at facilitating intelligent matchmaking between mentors and startups across varied sectors at scale.",
+   "kind": "ACTION",
+   "subject": "startup",
+   "object": "maarg_platform",
+   "detail": {},
+   "sourceId": "src:2f67773e6378",
+   "evidence": "The MAARG mentorship platform aims at facilitating intelligent matchmaking between mentors and startups across varied sectors at scale.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Shanghai Cooperation Organisation (SCO) Startup Forum is conducted by DPIIT to provide assistance for the development and sustainable growth of the startup ecosystem in the SCO Member States.",
+   "kind": "ACTION",
+   "subject": "dpiit",
+   "object": "startup_india",
+   "detail": {},
+   "sourceId": "src:2f67773e6378",
+   "evidence": "As the Chair of the SWG, headed by India, DPIIT holds the annual meetings of the SWG, along with conducting specialised activities like the SCO Startup Forum, to provide the necessary assistance for the development and sustainable growth of the startup ecosystem in the SCO Member States.",
+   "confidence": 1
+  },
+  {
+   "claim": "Startup India Investor Connect is a platform that connects startups with investors to facilitate investment opportunities.",
+   "kind": "ACTION",
+   "subject": "startup",
+   "object": "investor_connect",
+   "detail": {},
+   "sourceId": "src:2f67773e6378",
+   "evidence": "Startup India Investor Connect is a platform that connects startups with investors to facilitate investment opportunities.",
+   "confidence": 1
+  },
+  {
+   "claim": "BHASKAR is envisioned as a one-stop digital platform where diverse startup ecosystem stakeholders can seamlessly connect and collaborate.",
+   "kind": "ACTION",
+   "subject": "startup",
+   "object": "bhaskar_platform",
+   "detail": {},
+   "sourceId": "src:2f67773e6378",
+   "evidence": "Bharat Startup Knowledge Access Registry, BHASKAR, is envisioned as a one-stop digital platform where diverse startup ecosystem stakeholders can seamlessly connect and collaborate, catalysing the growth and success of the startup ecosystem across India.",
+   "confidence": 1
+  },
+  {
+   "claim": "The National Startup Awards recognize exceptional startups across India, creating economic and societal impact.",
+   "kind": "ACTION",
+   "subject": "startup",
+   "object": "national_startup_awards",
+   "detail": {},
+   "sourceId": "src:2f67773e6378",
+   "evidence": "The National Startup Award is a marquee initiative by Startup India, DPIIT, to recognise exceptional startups across India, creating economic impact and larger societal impact.",
+   "confidence": 1
+  },
+  {
+   "claim": "The States’ Startup Ranking is an annual capacity building exercise to build a conducive startup ecosystem across the country.",
+   "kind": "ACTION",
+   "subject": "state",
+   "object": "startup_ranking",
+   "detail": {},
+   "sourceId": "src:2f67773e6378",
+   "evidence": "The States’ Startup Ranking is an annual capacity building exercise which has been developed with the objective to build a conducive startup ecosystem across the country, through sustained efforts of States and Union Territories.",
+   "confidence": 1
   },
   {
    "claim": "The company must be registered in Haryana under the Haryana Shops and Commercial Establishment Act, 1958.",
@@ -1674,6 +1853,102 @@
    "confidence": 1
   },
   {
+   "claim": "The Industries Commissionerate is the executive arm of the Industries and Mines Department of the Government of Gujarat.",
+   "kind": "OFFICE",
+   "subject": "industries_commissionerate",
+   "object": "industries_mines_department",
+   "detail": {
+    "role": "executive_arm"
+   },
+   "sourceId": "src:fbd13164f1d9",
+   "evidence": "The Industries Commissionerate is the executive arm of Industries and Mines Department of Government of Gujarat.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Industries Commissionerate offers various incentive schemes and subsidies to industries for development and upgradation of manufacturing and service enterprises.",
+   "kind": "ACTION",
+   "subject": "industries_commissionerate",
+   "object": "industries",
+   "detail": {
+    "action": "offers_incentive_schemes_subsidies"
+   },
+   "sourceId": "src:fbd13164f1d9",
+   "evidence": "It offers various incentive schemes and subsidies to the industries for development and upgradation of manufacturing and service enterprises.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Industries Commissionerate has set up a dedicated Investor Facilitation Agency as a 'Single Window Contact' for investor facilitation and grievance redressal.",
+   "kind": "CHANNEL",
+   "subject": "industries_commissionerate",
+   "object": "investor_facilitation_agency",
+   "detail": {
+    "channel_type": "single_window_contact"
+   },
+   "sourceId": "src:fbd13164f1d9",
+   "evidence": "A dedicated Investor Facilitation Agency has been set up as&lsquo;Single Window Contact&rsquo;for undertaking reforms for investor facilitation and grievance redressal.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Industries Commissionerate has a dedicated Startup Cell to assist startups and incubation centers through the Startup Policy.",
+   "kind": "ACTION",
+   "subject": "industries_commissionerate",
+   "object": "startup_cell",
+   "detail": {
+    "action": "assists_startups_incubation_centers"
+   },
+   "sourceId": "src:fbd13164f1d9",
+   "evidence": "In order to give impetus to development of a strong Startupecosystem in the state, a dedicated Startup Cell functions under the Industries Commissionerate. The cell functions to give assistance to startups, incubation centers etc. by the means of Startup Policy.",
+   "confidence": 1
+  },
+  {
+   "claim": "The last update date of the website is 14-10-2024.",
+   "kind": "TIMELINE",
+   "subject": "website",
+   "object": "last_update",
+   "detail": {
+    "date": "14-10-2024"
+   },
+   "sourceId": "src:fbd13164f1d9",
+   "evidence": "Last Update Date:\n14-10-2024",
+   "confidence": 1
+  },
+  {
+   "claim": "The office of the Industries Commissionerate is located at Block No. 1, 2nd Floor, Udyog Bhavan, Gandhinagar, 382 010, Gujarat, INDIA.",
+   "kind": "OFFICE",
+   "subject": "industries_commissionerate",
+   "object": "office_address",
+   "detail": {
+    "address": "Block No. 1, 2nd Floor, Udyog Bhavan, Gandhinagar, 382 010. Gujarat. INDIA"
+   },
+   "sourceId": "src:fbd13164f1d9",
+   "evidence": "Office of The Industries Commissionerate Block No. 1, 2nd Floor, Udyog Bhavan, Gandhinagar\n382 010. Gujarat. INDIA",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact phone number for the Industries Commissionerate is 23252683/23252617.",
+   "kind": "HELPLINE",
+   "subject": "industries_commissionerate",
+   "object": "contact_number",
+   "detail": {
+    "phone": "23252683/23252617"
+   },
+   "sourceId": "src:fbd13164f1d9",
+   "evidence": "Ph. : 23252683/23252617",
+   "confidence": 1
+  },
+  {
+   "claim": "The email address for the Industries Commissionerate is iccord@gujarat.gov.in.",
+   "kind": "GRIEVANCE",
+   "subject": "industries_commissionerate",
+   "object": "email_address",
+   "detail": {
+    "email": "iccord@gujarat.gov.in"
+   },
+   "sourceId": "src:fbd13164f1d9",
+   "evidence": "Email ID : iccord[at]gujarat[dot]gov[]in",
+   "confidence": 1
+  },
+  {
    "claim": "The scheme for assistance for Start Ups/Innovation will remain in operation for a period of five years.",
    "kind": "TIMELINE",
    "subject": "scheme_operation",
@@ -1709,10 +1984,49 @@
    "sourceId": "src:4236ac0c3e16",
    "evidence": "2500 persons will be supported for the period of 5 years",
    "confidence": 0.9
+  },
+  {
+   "claim": "An application form for the Entrepreneurship Development Programme is available for download.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "entrepreneurship_development_programme",
+   "object": "application_form",
+   "detail": {
+    "size": "112 KB",
+    "language": "Gujarati"
+   },
+   "sourceId": "src:c9ed963f9aaf",
+   "evidence": "Application Form for Entrepreneurship Development Programme\nSr No | Details | Download |\n1 | Entrepreneurship Development Programme | Download\n[Gujarati] [112 KB]",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An application form for Scheme 1/2/3/4/5 and 6 is available for download.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "scheme_1_2_3_4_5_6",
+   "object": "application_form",
+   "detail": {
+    "size": "1,141 KB",
+    "language": "Gujarati"
+   },
+   "sourceId": "src:c9ed963f9aaf",
+   "evidence": "Application Form for the Scheme 1/2/3/4/5 and 6\nSr No | Details | Download |\n1 | Application Form for the Scheme 1/2/3/4/5 and 6 | Download\n[Gujarati] [1,141 KB]",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Starting a business in India involves at least 13 procedures.",
+   "kind": "TIMELINE",
+   "subject": "starting_business",
+   "object": "procedures",
+   "detail": {
+    "amount": "13"
+   },
+   "sourceId": "src:ef1d0775243d",
+   "evidence": "The official costs of starting a business are high and the process quite complex, involving no less than 13 procedures.",
+   "confidence": 0.95
   }
  ],
  "notFound": [
   "Startup India Scheme: https://www.startupindia.gov.in/content/sih/en/startup-scheme.html lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Startup India Scheme: https://startupindia.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Haryana Entrepreneur & Startup Policy: the page names \"Startup Haryana\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
   "Startup Policy Scheme: https://directorit.gujarat.gov.in/Content/Scheme_for_Startup_Policy.pdf#page=6 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Startup Policy Scheme: https://directorit.gujarat.gov.in/Content/Scheme_for_Startup_Policy.pdf#page=26 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",

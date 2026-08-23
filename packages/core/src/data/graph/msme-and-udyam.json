@@ -52,6 +52,16 @@
    "contentHash": "f30bd918d449bce9bc98a1cafbe3eae8db7e1c697f65a2c21f555201846e1b67"
   },
   {
+   "id": "src:c5211b11fb0a",
+   "url": "https://udyamregistration.gov.in/UdyamRegistrationExist.aspx",
+   "title": "Udyam Registration : Zero cost, No Fee and Free Registration of MSMEs. This is official website of Govt. of India, Ministry of MSME. No other website/portal/app is official. MSMEs are requested to do MSME Registration here only",
+   "domain": "udyamregistration.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "92aeef31c9cbed788cfdd697ab300ffc295665ab6c40f275a56fe5b23b2daa78"
+  },
+  {
    "id": "src:2a571cf99014",
    "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/ONDC/MSME/Guidelines.pdf#page=12",
    "title": "Guidelines (page 12 of 15)",
@@ -70,6 +80,56 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "87b2c74553bd5a74cad175f6b188d914d4e2039c54ef1730cacb9bfcfffd833d"
+  },
+  {
+   "id": "src:0b444870b833",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/BASPGUIDELINES.pdf#page=5",
+   "title": "BASPGUIDELINES (page 5 of 13)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "5b2b535f1492c534ccc4d1d316c0a99597f8dcf327d14a0ceb5cbb47e87ada77"
+  },
+  {
+   "id": "src:8854b9c1cb5a",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/BASPGUIDELINES.pdf#page=2",
+   "title": "BASPGUIDELINES (page 2 of 13)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "8b4040dda54762b7c89f47f15528bd28f1ae09676e2d46039d0979083c366ca6"
+  },
+  {
+   "id": "src:6a95c6d730e8",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/ONDC/MSME/Guidelines.pdf#page=15",
+   "title": "Guidelines (page 15 of 15)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "7a131553b7b876a8f2971cf6a7097987ad162f4dec06104190722ee93021589f"
+  },
+  {
+   "id": "src:3e3397570135",
+   "url": "https://ic.gujarat.gov.in/documents/commondoc/2025/MSME%20Special%20category%20award%20form.pdf#page=4",
+   "title": "MSME%20Special%20category%20award%20form (page 4 of 4)",
+   "domain": "ic.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "a59e38b40323e8f356e2f56545801d4d0b753cdfebdd04014b287bfebf2a4c5a"
+  },
+  {
+   "id": "src:609a55d95471",
+   "url": "https://ic.gujarat.gov.in/documents/commondoc/2025/MSME%20Special%20category%20award%20form.pdf#page=1",
+   "title": "MSME%20Special%20category%20award%20form (page 1 of 4)",
+   "domain": "ic.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ffbe78d95dc23f2a437e8909b0252413d8e5d542c8adf2657848cea54333a1ee"
   },
   {
    "id": "src:575622b1525b",
@@ -132,16 +192,6 @@
    "contentHash": "281c812ebf5172f6018e1503c584385f04c8bcc26260843e4651b5b9b5a6f148"
   },
   {
-   "id": "src:609a55d95471",
-   "url": "https://ic.gujarat.gov.in/documents/commondoc/2025/MSME%20Special%20category%20award%20form.pdf#page=1",
-   "title": "MSME%20Special%20category%20award%20form (page 1 of 4)",
-   "domain": "ic.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "ffbe78d95dc23f2a437e8909b0252413d8e5d542c8adf2657848cea54333a1ee"
-  },
-  {
    "id": "src:15614cce9684",
    "url": "https://e-kutir.gujarat.gov.in/registration.aspx",
    "title": "Commissioner of Cottage and Rural Industries",
@@ -160,6 +210,16 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "381f5a97809dbe6a8aeb075d102a0967c9f699c987ec6706589daf799d2cede8"
+  },
+  {
+   "id": "src:fef9370769e6",
+   "url": "https://kutchdp.gujarat.gov.in/kutch/documents/aakda-business-2025.pdf#page=1",
+   "title": "aakda-business-2025 (page 1 of 1)",
+   "domain": "kutchdp.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-KUTCH",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "666c8e321427b84980621d5f8c4dc707de374e6fbe4b1512785f70c01bbc152f"
   }
  ],
  "nodes": [
@@ -408,11 +468,30 @@
    ]
   },
   {
+   "id": "portal:udyamregistration_gov_in_c5211b",
+   "type": "PORTAL",
+   "name": "udyamregistration.gov.in/UdyamRegistrationExist.aspx",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://udyamregistration.gov.in/UdyamRegistrationExist.aspx"
+   },
+   "sources": [
+    {
+     "sourceId": "src:c5211b11fb0a",
+     "evidence": "This is official website of Govt. of India, Ministry of MSME. No other website/portal/app is official.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "service:udyam_registration",
    "type": "SERVICE",
    "name": "Udyam Registration",
    "officialName": "Udyam Registration",
    "aliases": [
+    "msme registration",
     "udyam"
    ],
    "description": "Udyam Registration is a free, online, and paperless process for registering MSMEs with the Government of India.",
@@ -598,6 +677,377 @@
     {
      "sourceId": "src:f11e2f4d794c",
      "evidence": "The eligible fixed capital investment of the project will be decided on the basis of following criteria.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:1800_180_6763",
+   "type": "HELPLINE",
+   "name": "BASP helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "1800-180-6763"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:8854b9c1cb5a",
+     "evidence": "2.3 Information support through Udyami helpline ( on ertneC llaC eerF lloT. 1800-180-6763) on procedural formalities and promotional schemes available for setting up and running of an enterprise will also be provided under the Scheme.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:basp",
+   "type": "SERVICE",
+   "name": "BASP",
+   "officialName": "BASP",
+   "description": "The service provides assistance to beneficiaries under a scheme involving mentorship and support for entrepreneurs.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "eligibility": [
+     "An Implementing Agency (IA) must have been in existence for at least 5 years to be eligible for selection under the scheme."
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:0b444870b833",
+     "evidence": "4.2 All the proposals for providing assistance to beneficiaries under the scheme will be forwarded by IA alongwith their specific recommendations to the Nodal Agency (NA). The NA after scrutinizing the proposals will put up to Screening Committee for sanction or otherwise.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0b444870b833",
+     "evidence": "4.2 All the proposals for providing assistance to beneficiaries under the scheme will be forwarded by IA alongwith their specific recommendations to the Nodal Agency (NA). The NA after scrutinizing the proposals will put up to Screening Committee for sanction or otherwise.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0b444870b833",
+     "evidence": "4.3 Screening Committee would regularly review the progress of the Scheme and whenever necessary for the smooth functioning of the scheme, issue suitable executive instructions, with the approval of Secretary (MSME).",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0b444870b833",
+     "evidence": "4.4 The Screening Committee will meet once in a month to consider proposals received under the scheme and also to review/monitor the progress of the scheme.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0b444870b833",
+     "evidence": "a) Screen the applications of Mentors for empanelling them as per eligibility criteria under the scheme.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0b444870b833",
+     "evidence": "b) Prepare and maintain a panel of Mentors on the existing scheme portal.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0b444870b833",
+     "evidence": "c) Screen the application(s) of prospective entrepreneurs willing to set up their enterprise and / or existing entrepreneur for improving their performance, as per the eligibility criteria under the scheme along with the proposal(s) of the mentors for hand-holding of target beneficiaries together with milestones for doing the same.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0b444870b833",
+     "evidence": "d) Prepare Data on all applications received from new and existing entrepreneurs under the mentoring support on the existing scheme portal.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0b444870b833",
+     "evidence": "e) Forward completed applications received from the target beneficiaries along with their recommendations to BASP Cell in the Ministry of MSME.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0b444870b833",
+     "evidence": "f) Provide dedicated officer to work as a nodal contact under the scheme.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0b444870b833",
+     "evidence": "g) Maintain important information and data, copies of different acts, rules and regulations, forms, website containing market related information, information about schemes/subsidies/grants and data relating to different industrial sectors.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0b444870b833",
+     "evidence": "h) Review and monitor progress of the beneficiaries approved by the Screening Committee and being assisted under the Scheme. The progress in all such cases to be reported to Ministry of MSME/NA on quarterly basis.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:reports_and_documentation",
+   "type": "DOCUMENT",
+   "name": "Reports and documentation",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:6a95c6d730e8",
+     "evidence": "5) Provide reports and documentation as required and communicated by the Ministry of MSME and the IA",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:reports_and_documents",
+   "type": "DOCUMENT",
+   "name": "Reports and documents",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:6a95c6d730e8",
+     "evidence": "5) Provide necessary reports/documents for implementing various components of the Initiative",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:ondc_initiative_for_mses",
+   "type": "SERVICE",
+   "name": "ONDC Initiative for MSEs",
+   "officialName": "ONDC Initiative for MSEs",
+   "description": "The page outlines the responsibilities of Seller Network Participants (SNPs) and the role of ONDC in supporting the onboarding and growth of Micro, Small, and Medium Enterprises (MSEs) onto the ONDC network.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:6a95c6d730e8",
+     "evidence": "The Seller Network Participants (SNPs) shall be the nodal points for the MSEs to join the ONDC network. The SNP will be responsible for the following: 1) Onboard the eligible MSEs on the ONDC network and support them in creation of their digital catalogue",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6a95c6d730e8",
+     "evidence": "2) Act on the leads generated through the Initiative portal",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6a95c6d730e8",
+     "evidence": "3) Provide operations and account management support to the MSEs that join the ONDC network under the Initiative",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6a95c6d730e8",
+     "evidence": "4) Support growth of MSEs on the network in terms of increase in orders, pricing support, market intelligence, etc.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6a95c6d730e8",
+     "evidence": "6) Participate in awareness and onboarding workshops.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6a95c6d730e8",
+     "evidence": "7) Include Initiative beneficiaries in their marketing and outreach activities",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6a95c6d730e8",
+     "evidence": "8) Any other task assigned by the Ministry of MSME with the approval of SMC",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6a95c6d730e8",
+     "evidence": "1) Support in assessing the B2B and B2C e-commerce ecosystem requirements for the implementation of the Initiative",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6a95c6d730e8",
+     "evidence": "3) Design and implement a ‘train the trainer’ session(s) for capacity building on various aspects of the Initiative.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6a95c6d730e8",
+     "evidence": "4) Support the Ministry in the empanelment process of the eligible SNPs",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6a95c6d730e8",
+     "evidence": "6) Any other support requested by the Ministry of MSME with the approval of SMC",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:ifp_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "ifp.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://ifp.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:6a95c6d730e8",
+     "evidence": "The Seller Network Participants (SNPs) shall be the nodal points for the MSEs to join the ONDC network. The SNP will be responsible for the following: 1) Onboard the eligible MSEs on the ONDC network and support them in creation of their digital catalogue",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "document:high_resolution_photo",
+   "type": "DOCUMENT",
+   "name": "High resolution photo",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:609a55d95471",
+     "evidence": "Please affix one high resolution photo (size 8cmx5cm)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:udyam_registration",
+   "type": "DOCUMENT",
+   "name": "Udyam registration",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:609a55d95471",
+     "evidence": "4 Udyam registration: Tick Appropriately (Micro/ Small/ Medium) Udyam Registration Number:",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:msme_special_category_award",
+   "type": "SERVICE",
+   "name": "MSME Special category award",
+   "officialName": "MSME Special category award",
+   "description": "An application form for an award to an MSME enterprise as per GR no. SSI/102020/332326/Ch dated 01/09/2020.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:3e3397570135",
+     "evidence": "5. Two (High Resolution) Photographs of the\nProducts",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3e3397570135",
+     "evidence": "6. Two High Resolution (Front and Rear View)\nPhotograph of the enterprise",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3e3397570135",
+     "evidence": "\n The information furnished in this form is authentic and correct to the best of my\nknowledge and belief.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3e3397570135",
+     "evidence": "\n All outstanding dues/ taxes etc. required to be paid to the Government / Boards/\nCorporations etc. has been paid.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3e3397570135",
+     "evidence": "\n I am/we are not involved in any economic or other offence for which legal\naction/enquiry is pending against me. There is no criminal case/tax liability etc. pending\nagainst me/us.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3e3397570135",
+     "evidence": "\n All bank accounts are standard as on date of filling applications.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3e3397570135",
+     "evidence": "\n Our Enterprise has been in continuous production for previous three years.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3e3397570135",
+     "evidence": "\n Our Enterprise shall have valid statutory clearances and licenses as may be applicable.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3e3397570135",
+     "evidence": "\n I/We/our Enterprise is eligible for taking award as per GR no. SSI/102020/332326/Ch\ndated 01/09/2020.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3e3397570135",
+     "evidence": "\nI/we hereby declare that the information, statements & other papers given herein are true\nand correct to the best of my knowledge & belief.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3e3397570135",
+     "evidence": "Date: Signature of Applicant\nPlace: Or Authorized Signatory\nWith name and designation",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3e3397570135",
+     "evidence": "Seal of the Unit",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:ic_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "ic.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://ic.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:3e3397570135",
+     "evidence": "5. Two (High Resolution) Photographs of the\nProducts",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -1038,104 +1488,6 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "document:high_resolution_photo",
-   "type": "DOCUMENT",
-   "name": "High resolution photo",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:609a55d95471",
-     "evidence": "Please affix one high resolution photo (size 8cmx5cm)",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:udyam_registration",
-   "type": "DOCUMENT",
-   "name": "Udyam registration",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:609a55d95471",
-     "evidence": "4 Udyam registration: Tick Appropriately (Micro/ Small/ Medium) Udyam Registration Number:",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "service:msme_special_category_award",
-   "type": "SERVICE",
-   "name": "MSME Special category award",
-   "officialName": "MSME Special category award",
-   "description": "An application form for an award under the MSME Special category, requiring details like Udyam registration, enterprise information, and personal details of the business owners.",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "machineExtracted": true
-   },
-   "sources": [
-    {
-     "sourceId": "src:609a55d95471",
-     "evidence": "Note: - To be printed on light cream color paper",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:609a55d95471",
-     "evidence": "Application to be submitted in duplicate",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:609a55d95471",
-     "evidence": "3 Name and address of Enterprise (English)",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:609a55d95471",
-     "evidence": "5 Constitution of the Unit (Proprietorship/partnership/ company/society/LLP/others, Proof may be submitted)",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:609a55d95471",
-     "evidence": "6 Name, address & contact details of the Proprietor/ Partners/ Directors.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:609a55d95471",
-     "evidence": "7 Date of Birth of Proprietor/ All Partners/ All Directors",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "portal:ic_gujarat_gov_in",
-   "type": "PORTAL",
-   "name": "ic.gujarat.gov.in",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "WEB",
-    "url": "https://ic.gujarat.gov.in/"
-   },
-   "sources": [
-    {
-     "sourceId": "src:609a55d95471",
-     "evidence": "Note: - To be printed on light cream color paper",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "service:cottage_and_rural_industries_registration",
    "type": "SERVICE",
    "name": "Cottage and Rural Industries Registration",
@@ -1228,19 +1580,63 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "portal:ifp_gujarat_gov_in",
+   "id": "portal:giss_gujarat_gov_in",
    "type": "PORTAL",
-   "name": "ifp.gujarat.gov.in",
-   "jurisdictionId": "IN-GJ",
+   "name": "giss.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ-KUTCH",
    "metadata": {
     "channelType": "WEB",
-    "url": "https://ifp.gujarat.gov.in/"
+    "url": "https://giss.gujarat.gov.in/"
    },
    "sources": [
     {
-     "sourceId": "src:c462f68c4585",
-     "evidence": "12.1. The project should complete in all respects within three years from the date of in principle Approval.",
-     "confidence": 1,
+     "sourceId": "src:fef9370769e6",
+     "evidence": "અને ઓનલાઈન ડેટા એન્ટ્ રી giss.gujarat.gov.in પોટાલ પર કરિામાાં આિે છે.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:business_registration",
+   "type": "SERVICE",
+   "name": "Business Registration",
+   "officialName": "business registration",
+   "description": "Business registration data is collected and entered online on the giss.gujarat.gov.in portal.",
+   "jurisdictionId": "IN-GJ-KUTCH",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:fef9370769e6",
+     "evidence": "ઉક્ ત એક્ ટ હેઠળ નોં ધાયેલ ર્ િર્ િધ આર્ થિક એકમોની માહીતી જે િી કે એકમનુાં નામ, સરનામુાં. PAN/TAN NO., પ્ર વૃર્ િનો પ્ર કાર, કામ કરતા કમાચારીઓની સાંખ્ યા િગેરે જે િી માહહતી દર ૩ માસે એકત્ર કરી, તેની પ્ર વૃર્ તના આધારે કોડીં ગ આપિાનુાં રહે છે.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fef9370769e6",
+     "evidence": "અને ઓનલાઈન ડેટા એન્ટ્ રી giss.gujarat.gov.in પોટાલ પર કરિામાાં આિે છે.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:kutchdp_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "kutchdp.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ-KUTCH",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://kutchdp.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:fef9370769e6",
+     "evidence": "ઉક્ ત એક્ ટ હેઠળ નોં ધાયેલ ર્ િર્ િધ આર્ થિક એકમોની માહીતી જે િી કે એકમનુાં નામ, સરનામુાં. PAN/TAN NO., પ્ર વૃર્ િનો પ્ર કાર, કામ કરતા કમાચારીઓની સાંખ્ યા િગેરે જે િી માહહતી દર ૩ માસે એકત્ર કરી, તેની પ્ર વૃર્ તના આધારે કોડીં ગ આપિાનુાં રહે છે.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -1392,6 +1788,22 @@
    ]
   },
   {
+   "id": "e:service_udyam_registration__apply_at__portal_udyamregistration_gov_in_c5211b",
+   "from": "service:udyam_registration",
+   "to": "portal:udyamregistration_gov_in_c5211b",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "This is the official website for Udyam Registration by the Government of India, Ministry of MSME.",
+   "sources": [
+    {
+     "sourceId": "src:c5211b11fb0a",
+     "evidence": "This is official website of Govt. of India, Ministry of MSME. No other website/portal/app is official.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_mse_estate_development__apply_at__portal_ced_gujarat_gov_in",
    "from": "service:mse_estate_development",
    "to": "portal:ced_gujarat_gov_in",
@@ -1402,6 +1814,134 @@
     {
      "sourceId": "src:f11e2f4d794c",
      "evidence": "The eligible fixed capital investment of the project will be decided on the basis of following criteria.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_basp__call_if__helpline_1800_180_6763",
+   "from": "service:basp",
+   "to": "helpline:1800_180_6763",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Scheme provides information support through the Udyami helpline at 1800-180-6763 for procedural formalities and promotional schemes for enterprises.",
+   "sources": [
+    {
+     "sourceId": "src:8854b9c1cb5a",
+     "evidence": "2.3 Information support through Udyami helpline ( on ertneC llaC eerF lloT. 1800-180-6763) on procedural formalities and promotional schemes available for setting up and running of an enterprise will also be provided under the Scheme.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_basp__apply_at__portal_ced_gujarat_gov_in",
+   "from": "service:basp",
+   "to": "portal:ced_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ced.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:0b444870b833",
+     "evidence": "4.2 All the proposals for providing assistance to beneficiaries under the scheme will be forwarded by IA alongwith their specific recommendations to the Nodal Agency (NA). The NA after scrutinizing the proposals will put up to Screening Committee for sanction or otherwise.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_ondc_initiative_for_mses__requires__document_reports_and_documentation",
+   "from": "service:ondc_initiative_for_mses",
+   "to": "document:reports_and_documentation",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Seller Network Participants (SNPs) must provide reports and documentation as required by the Ministry of MSME and the IA.",
+   "sources": [
+    {
+     "sourceId": "src:6a95c6d730e8",
+     "evidence": "5) Provide reports and documentation as required and communicated by the Ministry of MSME and the IA",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_ondc_initiative_for_mses__requires__document_reports_and_documents",
+   "from": "service:ondc_initiative_for_mses",
+   "to": "document:reports_and_documents",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "ONDC will provide necessary reports and documents for implementing various components of the Initiative.",
+   "sources": [
+    {
+     "sourceId": "src:6a95c6d730e8",
+     "evidence": "5) Provide necessary reports/documents for implementing various components of the Initiative",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_ondc_initiative_for_mses__apply_at__portal_ifp_gujarat_gov_in",
+   "from": "service:ondc_initiative_for_mses",
+   "to": "portal:ifp_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ifp.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:6a95c6d730e8",
+     "evidence": "The Seller Network Participants (SNPs) shall be the nodal points for the MSEs to join the ONDC network. The SNP will be responsible for the following: 1) Onboard the eligible MSEs on the ONDC network and support them in creation of their digital catalogue",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_msme_special_category_award__requires__document_high_resolution_photo",
+   "from": "service:msme_special_category_award",
+   "to": "document:high_resolution_photo",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A high resolution photo of size 8cmx5cm must be affixed.",
+   "sources": [
+    {
+     "sourceId": "src:609a55d95471",
+     "evidence": "Please affix one high resolution photo (size 8cmx5cm)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_msme_special_category_award__requires__document_udyam_registration",
+   "from": "service:msme_special_category_award",
+   "to": "document:udyam_registration",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The application must include the Udyam registration number and indicate if it is Micro, Small, or Medium.",
+   "sources": [
+    {
+     "sourceId": "src:609a55d95471",
+     "evidence": "4 Udyam registration: Tick Appropriately (Micro/ Small/ Medium) Udyam Registration Number:",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_msme_special_category_award__apply_at__portal_ic_gujarat_gov_in",
+   "from": "service:msme_special_category_award",
+   "to": "portal:ic_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ic.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:3e3397570135",
+     "evidence": "5. Two (High Resolution) Photographs of the\nProducts",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -1520,54 +2060,6 @@
    ]
   },
   {
-   "id": "e:service_msme_special_category_award__requires__document_high_resolution_photo",
-   "from": "service:msme_special_category_award",
-   "to": "document:high_resolution_photo",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A high resolution photo of size 8cmx5cm must be affixed.",
-   "sources": [
-    {
-     "sourceId": "src:609a55d95471",
-     "evidence": "Please affix one high resolution photo (size 8cmx5cm)",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_msme_special_category_award__requires__document_udyam_registration",
-   "from": "service:msme_special_category_award",
-   "to": "document:udyam_registration",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The application must include the Udyam registration number and indicate if it is Micro, Small, or Medium.",
-   "sources": [
-    {
-     "sourceId": "src:609a55d95471",
-     "evidence": "4 Udyam registration: Tick Appropriately (Micro/ Small/ Medium) Udyam Registration Number:",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_msme_special_category_award__apply_at__portal_ic_gujarat_gov_in",
-   "from": "service:msme_special_category_award",
-   "to": "portal:ic_gujarat_gov_in",
-   "type": "APPLY_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "Published on ic.gujarat.gov.in.",
-   "sources": [
-    {
-     "sourceId": "src:609a55d95471",
-     "evidence": "Note: - To be printed on light cream color paper",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_cottage_and_rural_industries_registration__requires__document_aadhaar_card",
    "from": "service:cottage_and_rural_industries_registration",
    "to": "document:aadhaar_card",
@@ -1611,6 +2103,38 @@
      "sourceId": "src:c462f68c4585",
      "evidence": "12.1. The project should complete in all respects within three years from the date of in principle Approval.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_business_registration__apply_at__portal_giss_gujarat_gov_in",
+   "from": "service:business_registration",
+   "to": "portal:giss_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Business registration data is entered online on the giss.gujarat.gov.in portal.",
+   "sources": [
+    {
+     "sourceId": "src:fef9370769e6",
+     "evidence": "અને ઓનલાઈન ડેટા એન્ટ્ રી giss.gujarat.gov.in પોટાલ પર કરિામાાં આિે છે.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_business_registration__apply_at__portal_kutchdp_gujarat_gov_in",
+   "from": "service:business_registration",
+   "to": "portal:kutchdp_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on kutchdp.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:fef9370769e6",
+     "evidence": "ઉક્ ત એક્ ટ હેઠળ નોં ધાયેલ ર્ િર્ િધ આર્ થિક એકમોની માહીતી જે િી કે એકમનુાં નામ, સરનામુાં. PAN/TAN NO., પ્ર વૃર્ િનો પ્ર કાર, કામ કરતા કમાચારીઓની સાંખ્ યા િગેરે જે િી માહહતી દર ૩ માસે એકત્ર કરી, તેની પ્ર વૃર્ તના આધારે કોડીં ગ આપિાનુાં રહે છે.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]

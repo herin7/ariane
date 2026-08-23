@@ -28,6 +28,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:6c58f85643b1",
+   "url": "https://nfsa.gov.in/Default.aspx",
+   "title": "NFSA",
+   "domain": "nfsa.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "f1a91ee6eb188213aa4935570fd158da8c0aa24739cc1e60389971a07c373637",
+   "cacheFile": ".ingest/pages/6c58f85643b14284beecddb777790fa3e077d963.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:b38b52a25dc5",
    "url": "https://fcsca.gujarat.gov.in/en/aay-scheme-add",
    "title": "Criteria for determining families to be covered under Antyodaya Anna Yojana (AAY).",
@@ -608,6 +620,138 @@
    "confidence": 1
   },
   {
+   "claim": "The SCAN portal has been launched to ensure end-to-end automation of processes for the release and settlement of food subsidies.",
+   "kind": "ACTION",
+   "subject": "scan_portal",
+   "object": "food_subsidy_release",
+   "detail": {
+    "description": "The Portal will ensure end-to-end automation of processes for the release and settlement of food subsidies."
+   },
+   "sourceId": "src:6c58f85643b1",
+   "evidence": "Launch of SCAN Portal by Honourable Minister Shri Pralhad Joshi Food and Public Distribution Minister Pralhad Joshi launched a portal named subsidy claim application for national food security act (SCAN). The Portal will ensure end-to-end automation of processes for the release and settlement of food subsidies.",
+   "confidence": 1
+  },
+  {
+   "claim": "The SCAN portal aims to enhance transparency, efficiency, and accountability in the implementation of the Public Distribution System (PDS).",
+   "kind": "ACTION",
+   "subject": "scan_portal",
+   "object": "pds_implementation",
+   "detail": {
+    "description": "enhance transparency, efficiency, and accountability in the implementation of the PDS."
+   },
+   "sourceId": "src:6c58f85643b1",
+   "evidence": "Speaking at the occasion, Mr Joshi said, these innovative steps will enhance transparency, efficiency, and accountability in the implementation of the PDS.",
+   "confidence": 1
+  },
+  {
+   "claim": "The SCAN portal is aimed at modernising the Public Distribution System and subsidy claim mechanisms of the States.",
+   "kind": "ACTION",
+   "subject": "scan_portal",
+   "object": "modernisation_pds",
+   "detail": {
+    "description": "aimed towards modernising the Public Distribution System and subsidy claim mechanisms of the States."
+   },
+   "sourceId": "src:6c58f85643b1",
+   "evidence": "He said, these steps are aimed towards modernising the Public Distribution System and subsidy claim mechanisms of the States.",
+   "confidence": 1
+  },
+  {
+   "claim": "A citizen can register a grievance related to the Public Distribution System (PDS) through an online grievance portal.",
+   "kind": "GRIEVANCE",
+   "subject": "citizen",
+   "object": "online_grievance_portal",
+   "detail": {
+    "description": "Online Grievance (State Portal)"
+   },
+   "sourceId": "src:6c58f85643b1",
+   "evidence": "Online Grievance (State Portal)",
+   "confidence": 1
+  },
+  {
+   "claim": "A citizen can know the status of their grievance through the 'Know Your Grievance Status' feature.",
+   "kind": "TRACKING",
+   "subject": "citizen",
+   "object": "grievance_status",
+   "detail": {
+    "description": "Know Your Grievance Status"
+   },
+   "sourceId": "src:6c58f85643b1",
+   "evidence": "Know Your Grievance Status",
+   "confidence": 1
+  },
+  {
+   "claim": "A citizen can know the status of their Common Registration Facility (CRF) application through the 'Know Your CRF Application Status' feature.",
+   "kind": "TRACKING",
+   "subject": "citizen",
+   "object": "crf_application_status",
+   "detail": {
+    "description": "Know Your CRF Application Status"
+   },
+   "sourceId": "src:6c58f85643b1",
+   "evidence": "Know Your CRF Application Status",
+   "confidence": 1
+  },
+  {
+   "claim": "A citizen can register a grievance by providing their state, district, name, Aadhaar number, email address, mobile number, address, ration card number, application number, fair price shop number, and problem description.",
+   "kind": "GRIEVANCE",
+   "subject": "citizen",
+   "object": "grievance_registration",
+   "detail": {
+    "description": "Grievance Registration Form"
+   },
+   "sourceId": "src:6c58f85643b1",
+   "evidence": "Grievance Registration Form",
+   "confidence": 1
+  },
+  {
+   "claim": "A citizen must provide a valid Aadhaar number to register a grievance, as an OTP will be sent to the mobile number linked with the Aadhaar.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "citizen",
+   "object": "aadhaar_number",
+   "detail": {
+    "description": "Unique Identification(UIDAI/Aadhar) No. (OTP will be sent to the mobile no. linked with the Aadhaar no.)"
+   },
+   "sourceId": "src:6c58f85643b1",
+   "evidence": "Unique Identification(UIDAI/Aadhar) No. (OTP will be sent to the mobile no. linked with the Aadhaar no.)",
+   "confidence": 1
+  },
+  {
+   "claim": "A citizen can check the status of their request by providing the reference number, last 4 digits of their UID/VID number, email address, and mobile number.",
+   "kind": "TRACKING",
+   "subject": "citizen",
+   "object": "request_status",
+   "detail": {
+    "description": "Know the status of your request"
+   },
+   "sourceId": "src:6c58f85643b1",
+   "evidence": "Know the status of your request",
+   "confidence": 1
+  },
+  {
+   "claim": "A citizen can check the status of their CRF application by providing the state where registration was done, CRF reference number, and the date of birth of the head of the family.",
+   "kind": "TRACKING",
+   "subject": "citizen",
+   "object": "crf_status",
+   "detail": {
+    "description": "Know the status of your CRF application"
+   },
+   "sourceId": "src:6c58f85643b1",
+   "evidence": "Know the status of your CRF application",
+   "confidence": 1
+  },
+  {
+   "claim": "A citizen must enter a valid one-time password (OTP) to proceed with certain actions on the portal.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "citizen",
+   "object": "otp_verification",
+   "detail": {
+    "description": "One Time Password (OTP) (As received to your registered mobile no. & Email Id)"
+   },
+   "sourceId": "src:6c58f85643b1",
+   "evidence": "One Time Password (OTP) (As received to your registered mobile no. & Email Id)",
+   "confidence": 1
+  },
+  {
    "claim": "Families under all Primitive Groups are eligible for the Antyodaya Anna Yojana (AAY) ration card.",
    "kind": "ELIGIBILITY",
    "subject": "primitive_groups",
@@ -895,6 +1039,7 @@
   }
  ],
  "notFound": [
-  "Priority Households (PHH) Scheme: https://fcsca.gujarat.gov.in/en/phh-schemenew1 offers a choice under \"Family having deprivation/insecurity of any of the following shall be included for food security.\" but fewer than two of the lines under it are documents, so no group was written."
+  "Priority Households (PHH) Scheme: https://fcsca.gujarat.gov.in/en/phh-schemenew1 offers a choice under \"Family having deprivation/insecurity of any of the following shall be included for food security.\" but fewer than two of the lines under it are documents, so no group was written.",
+  "NFSA: https://nfsa.gov.in/Default.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page."
  ]
 }

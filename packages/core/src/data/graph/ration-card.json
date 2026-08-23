@@ -22,6 +22,16 @@
    "contentHash": "8302062e74aa9494a58d6d2f0679458f2e8924bfad6d798372bbe780baef067c"
   },
   {
+   "id": "src:6c58f85643b1",
+   "url": "https://nfsa.gov.in/Default.aspx",
+   "title": "NFSA",
+   "domain": "nfsa.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "f1a91ee6eb188213aa4935570fd158da8c0aa24739cc1e60389971a07c373637"
+  },
+  {
    "id": "src:b38b52a25dc5",
    "url": "https://fcsca.gujarat.gov.in/en/aay-scheme-add",
    "title": "Criteria for determining families to be covered under Antyodaya Anna Yojana (AAY).",
@@ -366,6 +376,85 @@
     {
      "sourceId": "src:487d4a702330",
      "evidence": "Family which has mechanically propelled 4 wheeler vehicle or mechanical fishing boat.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "grievance:nfsa",
+   "type": "GRIEVANCE_CHANNEL",
+   "name": "Grievances about nfsa",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "GRIEVANCE_PORTAL"
+   },
+   "sources": [
+    {
+     "sourceId": "src:6c58f85643b1",
+     "evidence": "Online Grievance (State Portal)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:nfsa",
+   "type": "SERVICE",
+   "name": "NFSA",
+   "officialName": "NFSA",
+   "description": "The SCAN portal ensures end-to-end automation of processes for the release and settlement of food subsidies under the National Food Security Act.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:6c58f85643b1",
+     "evidence": "Launch of SCAN Portal by Honourable Minister Shri Pralhad Joshi Food and Public Distribution Minister Pralhad Joshi launched a portal named subsidy claim application for national food security act (SCAN). The Portal will ensure end-to-end automation of processes for the release and settlement of food subsidies.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6c58f85643b1",
+     "evidence": "Speaking at the occasion, Mr Joshi said, these innovative steps will enhance transparency, efficiency, and accountability in the implementation of the PDS.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6c58f85643b1",
+     "evidence": "He said, these steps are aimed towards modernising the Public Distribution System and subsidy claim mechanisms of the States.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6c58f85643b1",
+     "evidence": "Unique Identification(UIDAI/Aadhar) No. (OTP will be sent to the mobile no. linked with the Aadhaar no.)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6c58f85643b1",
+     "evidence": "One Time Password (OTP) (As received to your registered mobile no. & Email Id)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:nfsa_gov_in",
+   "type": "PORTAL",
+   "name": "nfsa.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://nfsa.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:6c58f85643b1",
+     "evidence": "Launch of SCAN Portal by Honourable Minister Shri Pralhad Joshi Food and Public Distribution Minister Pralhad Joshi launched a portal named subsidy claim application for national food security act (SCAN). The Portal will ensure end-to-end automation of processes for the release and settlement of food subsidies.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -867,6 +956,38 @@
     {
      "sourceId": "src:487d4a702330",
      "evidence": "Family which has mechanically propelled 4 wheeler vehicle or mechanical fishing boat.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_nfsa__escalate_to__grievance_nfsa",
+   "from": "service:nfsa",
+   "to": "grievance:nfsa",
+   "type": "ESCALATE_TO",
+   "verificationStatus": "EXTRACTED",
+   "note": "A citizen can register a grievance related to the Public Distribution System (PDS) through an online grievance portal.",
+   "sources": [
+    {
+     "sourceId": "src:6c58f85643b1",
+     "evidence": "Online Grievance (State Portal)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_nfsa__apply_at__portal_nfsa_gov_in",
+   "from": "service:nfsa",
+   "to": "portal:nfsa_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on nfsa.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:6c58f85643b1",
+     "evidence": "Launch of SCAN Portal by Honourable Minister Shri Pralhad Joshi Food and Public Distribution Minister Pralhad Joshi launched a portal named subsidy claim application for national food security act (SCAN). The Portal will ensure end-to-end automation of processes for the release and settlement of food subsidies.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }

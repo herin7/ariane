@@ -64,6 +64,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:c5211b11fb0a",
+   "url": "https://udyamregistration.gov.in/UdyamRegistrationExist.aspx",
+   "title": "Udyam Registration : Zero cost, No Fee and Free Registration of MSMEs. This is official website of Govt. of India, Ministry of MSME. No other website/portal/app is official. MSMEs are requested to do MSME Registration here only",
+   "domain": "udyamregistration.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "92aeef31c9cbed788cfdd697ab300ffc295665ab6c40f275a56fe5b23b2daa78",
+   "cacheFile": ".ingest/pages/c5211b11fb0af053455215fd067695986610a5b8.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:2a571cf99014",
    "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/ONDC/MSME/Guidelines.pdf#page=12",
    "title": "Guidelines (page 12 of 15)",
@@ -85,6 +97,66 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "87b2c74553bd5a74cad175f6b188d914d4e2039c54ef1730cacb9bfcfffd833d",
    "cacheFile": ".ingest/pages/f11e2f4d794c0702c9f212c7f1519cff727ec278.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:0b444870b833",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/BASPGUIDELINES.pdf#page=5",
+   "title": "BASPGUIDELINES (page 5 of 13)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "5b2b535f1492c534ccc4d1d316c0a99597f8dcf327d14a0ceb5cbb47e87ada77",
+   "cacheFile": ".ingest/pages/0b444870b833b5560a3e020dc8c7ddedd36791f5.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:8854b9c1cb5a",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/BASPGUIDELINES.pdf#page=2",
+   "title": "BASPGUIDELINES (page 2 of 13)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "8b4040dda54762b7c89f47f15528bd28f1ae09676e2d46039d0979083c366ca6",
+   "cacheFile": ".ingest/pages/8854b9c1cb5ac85a229457887c6810ccc56a5465.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:6a95c6d730e8",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/ONDC/MSME/Guidelines.pdf#page=15",
+   "title": "Guidelines (page 15 of 15)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "7a131553b7b876a8f2971cf6a7097987ad162f4dec06104190722ee93021589f",
+   "cacheFile": ".ingest/pages/6a95c6d730e8a4f4f325b1d6ff6cede181d13a01.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:3e3397570135",
+   "url": "https://ic.gujarat.gov.in/documents/commondoc/2025/MSME%20Special%20category%20award%20form.pdf#page=4",
+   "title": "MSME%20Special%20category%20award%20form (page 4 of 4)",
+   "domain": "ic.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "a59e38b40323e8f356e2f56545801d4d0b753cdfebdd04014b287bfebf2a4c5a",
+   "cacheFile": ".ingest/pages/3e339757013586b8b8acbf0103a58d7703151267.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:609a55d95471",
+   "url": "https://ic.gujarat.gov.in/documents/commondoc/2025/MSME%20Special%20category%20award%20form.pdf#page=1",
+   "title": "MSME%20Special%20category%20award%20form (page 1 of 4)",
+   "domain": "ic.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ffbe78d95dc23f2a437e8909b0252413d8e5d542c8adf2657848cea54333a1ee",
+   "cacheFile": ".ingest/pages/609a55d9547192732434e72432cd90b5e6d6428d.md",
    "scrapedOk": true
   },
   {
@@ -160,18 +232,6 @@
    "scrapedOk": true
   },
   {
-   "id": "src:609a55d95471",
-   "url": "https://ic.gujarat.gov.in/documents/commondoc/2025/MSME%20Special%20category%20award%20form.pdf#page=1",
-   "title": "MSME%20Special%20category%20award%20form (page 1 of 4)",
-   "domain": "ic.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "ffbe78d95dc23f2a437e8909b0252413d8e5d542c8adf2657848cea54333a1ee",
-   "cacheFile": ".ingest/pages/609a55d9547192732434e72432cd90b5e6d6428d.md",
-   "scrapedOk": true
-  },
-  {
    "id": "src:15614cce9684",
    "url": "https://e-kutir.gujarat.gov.in/registration.aspx",
    "title": "Commissioner of Cottage and Rural Industries",
@@ -193,6 +253,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "381f5a97809dbe6a8aeb075d102a0967c9f699c987ec6706589daf799d2cede8",
    "cacheFile": ".ingest/pages/c462f68c4585738b1d0b476f94698de80648aef9.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:fef9370769e6",
+   "url": "https://kutchdp.gujarat.gov.in/kutch/documents/aakda-business-2025.pdf#page=1",
+   "title": "aakda-business-2025 (page 1 of 1)",
+   "domain": "kutchdp.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-KUTCH",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "666c8e321427b84980621d5f8c4dc707de374e6fbe4b1512785f70c01bbc152f",
+   "cacheFile": ".ingest/pages/fef9370769e635609a9812f50d085813d02b3ec6.md",
    "scrapedOk": true
   }
  ],
@@ -740,6 +812,64 @@
    "confidence": 1
   },
   {
+   "claim": "Udyam Registration is zero cost and free for MSMEs.",
+   "kind": "FEE",
+   "subject": "udyam_registration",
+   "object": "fee",
+   "detail": {
+    "amount": 0,
+    "currency": "INR"
+   },
+   "sourceId": "src:c5211b11fb0a",
+   "evidence": "Udyam Registration : Zero cost, No Fee and Free Registration of MSMEs.",
+   "confidence": 1
+  },
+  {
+   "claim": "This is the official website for Udyam Registration by the Government of India, Ministry of MSME.",
+   "kind": "CHANNEL",
+   "subject": "udyam_registration",
+   "object": "official_website",
+   "detail": {
+    "url": "https://udyamregistration.gov.in/UdyamRegistrationExist.aspx"
+   },
+   "sourceId": "src:c5211b11fb0a",
+   "evidence": "This is official website of Govt. of India, Ministry of MSME. No other website/portal/app is official.",
+   "confidence": 1
+  },
+  {
+   "claim": "MSMEs are requested to register only on this official website.",
+   "kind": "ACTION",
+   "subject": "msme",
+   "object": "registration",
+   "detail": {},
+   "sourceId": "src:c5211b11fb0a",
+   "evidence": "MSMEs are requested to do MSME Registration here only",
+   "confidence": 1
+  },
+  {
+   "claim": "For grievances, citizens can call or WhatsApp at +91 8308809334 from Monday to Friday between 10:00 AM and 06:00 PM.",
+   "kind": "GRIEVANCE",
+   "subject": "grievance",
+   "object": "contact",
+   "detail": {
+    "phone": "+91 8308809334",
+    "timing": "Mon to Fri : 10:00 AM - 06:00 PM"
+   },
+   "sourceId": "src:c5211b11fb0a",
+   "evidence": "Call or Whatsapp on +91 8308809334 Mon to Fri : 10:00 AM - 06:00 PM",
+   "confidence": 1
+  },
+  {
+   "claim": "The website is hosted and managed by the National Informatics Centre, Ministry of Electronics and IT, Government of India.",
+   "kind": "OFFICE",
+   "subject": "website_hosting",
+   "object": "national_informatics_centre",
+   "detail": {},
+   "sourceId": "src:c5211b11fb0a",
+   "evidence": "Website hosted & managed by National Informatics Centre , Ministry of Electronics and IT , Government of India",
+   "confidence": 1
+  },
+  {
    "claim": "Only Udyam registered Micro and Small Enterprises (MSEs) under manufacturing and services sectors are eligible for benefits under the Initiative.",
    "kind": "ELIGIBILITY",
    "subject": "udyam_registered_mses",
@@ -937,6 +1067,534 @@
    "sourceId": "src:f11e2f4d794c",
    "evidence": "2. GIDC shall have to develop the estate within three years from the date o: sanction or procurement of land whichever is earlier.",
    "confidence": 0.9
+  },
+  {
+   "claim": "Proposals for providing assistance to beneficiaries must be forwarded by the Implementing Agency (IA) with their specific recommendations to the Nodal Agency (NA).",
+   "kind": "ACTION",
+   "subject": "implementing_agency",
+   "object": "nodal_agency",
+   "detail": {},
+   "sourceId": "src:0b444870b833",
+   "evidence": "4.2 All the proposals for providing assistance to beneficiaries under the scheme will be forwarded by IA alongwith their specific recommendations to the Nodal Agency (NA). The NA after scrutinizing the proposals will put up to Screening Committee for sanction or otherwise.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Nodal Agency (NA) must scrutinize the proposals and submit them to the Screening Committee for sanction or otherwise.",
+   "kind": "ACTION",
+   "subject": "nodal_agency",
+   "object": "screening_committee",
+   "detail": {},
+   "sourceId": "src:0b444870b833",
+   "evidence": "4.2 All the proposals for providing assistance to beneficiaries under the scheme will be forwarded by IA alongwith their specific recommendations to the Nodal Agency (NA). The NA after scrutinizing the proposals will put up to Screening Committee for sanction or otherwise.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Screening Committee must regularly review the progress of the Scheme and issue executive instructions, with the approval of the Secretary (MSME).",
+   "kind": "ACTION",
+   "subject": "screening_committee",
+   "object": "scheme_progress",
+   "detail": {},
+   "sourceId": "src:0b444870b833",
+   "evidence": "4.3 Screening Committee would regularly review the progress of the Scheme and whenever necessary for the smooth functioning of the scheme, issue suitable executive instructions, with the approval of Secretary (MSME).",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Screening Committee must meet once a month to consider proposals and review the progress of the scheme.",
+   "kind": "TIMELINE",
+   "subject": "screening_committee_meeting",
+   "object": "scheme_progress",
+   "detail": {
+    "days": 30
+   },
+   "sourceId": "src:0b444870b833",
+   "evidence": "4.4 The Screening Committee will meet once in a month to consider proposals received under the scheme and also to review/monitor the progress of the scheme.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Implementing Agencies (IAs) must screen applications of Mentors for empanelment as per the eligibility criteria under the scheme.",
+   "kind": "ACTION",
+   "subject": "implementing_agency",
+   "object": "mentor_applications",
+   "detail": {},
+   "sourceId": "src:0b444870b833",
+   "evidence": "a) Screen the applications of Mentors for empanelling them as per eligibility criteria under the scheme.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Implementing Agencies (IAs) must prepare and maintain a panel of Mentors on the existing scheme portal.",
+   "kind": "ACTION",
+   "subject": "implementing_agency",
+   "object": "mentor_panel",
+   "detail": {},
+   "sourceId": "src:0b444870b833",
+   "evidence": "b) Prepare and maintain a panel of Mentors on the existing scheme portal.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Implementing Agencies (IAs) must screen applications of prospective entrepreneurs and existing entrepreneurs for improving their performance, as per the eligibility criteria under the scheme.",
+   "kind": "ACTION",
+   "subject": "implementing_agency",
+   "object": "entrepreneur_applications",
+   "detail": {},
+   "sourceId": "src:0b444870b833",
+   "evidence": "c) Screen the application(s) of prospective entrepreneurs willing to set up their enterprise and / or existing entrepreneur for improving their performance, as per the eligibility criteria under the scheme along with the proposal(s) of the mentors for hand-holding of target beneficiaries together with milestones for doing the same.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Implementing Agencies (IAs) must prepare data on all applications received from new and existing entrepreneurs under the mentoring support on the existing scheme portal.",
+   "kind": "ACTION",
+   "subject": "implementing_agency",
+   "object": "entrepreneur_data",
+   "detail": {},
+   "sourceId": "src:0b444870b833",
+   "evidence": "d) Prepare Data on all applications received from new and existing entrepreneurs under the mentoring support on the existing scheme portal.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Implementing Agencies (IAs) must forward completed applications to the BASP Cell in the Ministry of MSME along with their recommendations.",
+   "kind": "ACTION",
+   "subject": "implementing_agency",
+   "object": "basp_cell",
+   "detail": {},
+   "sourceId": "src:0b444870b833",
+   "evidence": "e) Forward completed applications received from the target beneficiaries along with their recommendations to BASP Cell in the Ministry of MSME.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Implementing Agencies (IAs) must provide a dedicated officer to work as a nodal contact under the scheme.",
+   "kind": "ACTION",
+   "subject": "implementing_agency",
+   "object": "nodal_contact",
+   "detail": {},
+   "sourceId": "src:0b444870b833",
+   "evidence": "f) Provide dedicated officer to work as a nodal contact under the scheme.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Implementing Agencies (IAs) must maintain important information and data, including acts, rules, regulations, forms, and information about schemes and industrial sectors.",
+   "kind": "ACTION",
+   "subject": "implementing_agency",
+   "object": "important_information",
+   "detail": {},
+   "sourceId": "src:0b444870b833",
+   "evidence": "g) Maintain important information and data, copies of different acts, rules and regulations, forms, website containing market related information, information about schemes/subsidies/grants and data relating to different industrial sectors.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Implementing Agencies (IAs) must review and monitor the progress of beneficiaries approved by the Screening Committee and report it to the Ministry of MSME/NA on a quarterly basis.",
+   "kind": "ACTION",
+   "subject": "implementing_agency",
+   "object": "beneficiary_progress",
+   "detail": {
+    "days": 90
+   },
+   "sourceId": "src:0b444870b833",
+   "evidence": "h) Review and monitor progress of the beneficiaries approved by the Screening Committee and being assisted under the Scheme. The progress in all such cases to be reported to Ministry of MSME/NA on quarterly basis.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Implementing Agencies (IAs) must make recommendations about the release of assistance to mentors based on the milestones achieved.",
+   "kind": "ACTION",
+   "subject": "implementing_agency",
+   "object": "mentor_assistance",
+   "detail": {},
+   "sourceId": "src:0b444870b833",
+   "evidence": "i) Make recommendations about the release of assistance to the mentors linking it with the milestones achieved.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Mentors must guide potential entrepreneurs on procedural and legal formalities required to set up a new business enterprise.",
+   "kind": "ACTION",
+   "subject": "mentor",
+   "object": "entrepreneur_guidance",
+   "detail": {},
+   "sourceId": "src:0b444870b833",
+   "evidence": "6.1 For Start-up Units Mentors will play an advisory role and guide the potential entrepreneurs on the procedural and legal formalities required to be completed for setting up new business enterprise.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Scheme provides information support through the Udyami helpline at 1800-180-6763 for procedural formalities and promotional schemes for enterprises.",
+   "kind": "HELPLINE",
+   "subject": "baspguidelines_scheme",
+   "object": "udyami_helpline",
+   "detail": {
+    "phone": "1800-180-6763"
+   },
+   "sourceId": "src:8854b9c1cb5a",
+   "evidence": "2.3 Information support through Udyami helpline ( on ertneC llaC eerF lloT. 1800-180-6763) on procedural formalities and promotional schemes available for setting up and running of an enterprise will also be provided under the Scheme.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The National Small Industries Corporation (NSIC) will act as the Nodal Agency for implementing the scheme.",
+   "kind": "OFFICE",
+   "subject": "nodal_agency",
+   "object": "national_small_industries_corporation",
+   "detail": {
+    "officeName": "National Small Industries Corporation (NSIC)"
+   },
+   "sourceId": "src:8854b9c1cb5a",
+   "evidence": "3.2 Nodal Agency The National Small Industries Corporation (NSIC), a Central Public Sector Enterprise (CPSE), under the Ministry of MSME will act as the Nodal Agency (NA) for implementing the scheme.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An Implementing Agency (IA) must have been in existence for at least 5 years to be eligible for selection under the scheme.",
+   "kind": "ELIGIBILITY",
+   "subject": "implementing_agency",
+   "object": "existence_duration",
+   "detail": {
+    "days": 1825
+   },
+   "sourceId": "src:8854b9c1cb5a",
+   "evidence": "3.3.2 An IA, to be eligible for selection under the scheme, should have the following:- a) A local reach to industry through field offices or district level agencies. b) In existence for at-least 5 years",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Seller Network Participants (SNPs) are responsible for onboarding eligible MSEs onto the ONDC network.",
+   "kind": "ACTION",
+   "subject": "seller_network_participants",
+   "object": "micro_small_medium_enterprises",
+   "detail": {},
+   "sourceId": "src:6a95c6d730e8",
+   "evidence": "The Seller Network Participants (SNPs) shall be the nodal points for the MSEs to join the ONDC network. The SNP will be responsible for the following: 1) Onboard the eligible MSEs on the ONDC network and support them in creation of their digital catalogue",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Seller Network Participants (SNPs) must act on leads generated through the Initiative portal.",
+   "kind": "ACTION",
+   "subject": "seller_network_participants",
+   "object": "leads",
+   "detail": {},
+   "sourceId": "src:6a95c6d730e8",
+   "evidence": "2) Act on the leads generated through the Initiative portal",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Seller Network Participants (SNPs) must provide operations and account management support to MSEs that join the ONDC network.",
+   "kind": "ACTION",
+   "subject": "seller_network_participants",
+   "object": "micro_small_medium_enterprises",
+   "detail": {},
+   "sourceId": "src:6a95c6d730e8",
+   "evidence": "3) Provide operations and account management support to the MSEs that join the ONDC network under the Initiative",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Seller Network Participants (SNPs) must support the growth of MSEs on the ONDC network.",
+   "kind": "ACTION",
+   "subject": "seller_network_participants",
+   "object": "micro_small_medium_enterprises",
+   "detail": {},
+   "sourceId": "src:6a95c6d730e8",
+   "evidence": "4) Support growth of MSEs on the network in terms of increase in orders, pricing support, market intelligence, etc.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Seller Network Participants (SNPs) must provide reports and documentation as required by the Ministry of MSME and the IA.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "seller_network_participants",
+   "object": "reports_and_documentation",
+   "detail": {},
+   "sourceId": "src:6a95c6d730e8",
+   "evidence": "5) Provide reports and documentation as required and communicated by the Ministry of MSME and the IA",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Seller Network Participants (SNPs) must participate in awareness and onboarding workshops.",
+   "kind": "ACTION",
+   "subject": "seller_network_participants",
+   "object": "awareness_and_onboarding_workshops",
+   "detail": {},
+   "sourceId": "src:6a95c6d730e8",
+   "evidence": "6) Participate in awareness and onboarding workshops.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Seller Network Participants (SNPs) must include Initiative beneficiaries in their marketing and outreach activities.",
+   "kind": "ACTION",
+   "subject": "seller_network_participants",
+   "object": "initiative_beneficiaries",
+   "detail": {},
+   "sourceId": "src:6a95c6d730e8",
+   "evidence": "7) Include Initiative beneficiaries in their marketing and outreach activities",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Seller Network Participants (SNPs) must perform any other tasks assigned by the Ministry of MSME with the approval of SMC.",
+   "kind": "ACTION",
+   "subject": "seller_network_participants",
+   "object": "tasks",
+   "detail": {},
+   "sourceId": "src:6a95c6d730e8",
+   "evidence": "8) Any other task assigned by the Ministry of MSME with the approval of SMC",
+   "confidence": 0.95
+  },
+  {
+   "claim": "ONDC will support in assessing the B2B and B2C e-commerce ecosystem requirements for the implementation of the Initiative.",
+   "kind": "ACTION",
+   "subject": "ondc",
+   "object": "b2b_b2c_ecommerce_ecosystem_requirements",
+   "detail": {},
+   "sourceId": "src:6a95c6d730e8",
+   "evidence": "1) Support in assessing the B2B and B2C e-commerce ecosystem requirements for the implementation of the Initiative",
+   "confidence": 0.95
+  },
+  {
+   "claim": "ONDC will design and implement a 'train the trainer' session(s) for capacity building on various aspects of the Initiative.",
+   "kind": "ACTION",
+   "subject": "ondc",
+   "object": "train_the_trainer_sessions",
+   "detail": {},
+   "sourceId": "src:6a95c6d730e8",
+   "evidence": "3) Design and implement a ‘train the trainer’ session(s) for capacity building on various aspects of the Initiative.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "ONDC will support the Ministry in the empanelment process of the eligible SNPs.",
+   "kind": "ACTION",
+   "subject": "ondc",
+   "object": "empanelment_process",
+   "detail": {},
+   "sourceId": "src:6a95c6d730e8",
+   "evidence": "4) Support the Ministry in the empanelment process of the eligible SNPs",
+   "confidence": 0.95
+  },
+  {
+   "claim": "ONDC will provide necessary reports and documents for implementing various components of the Initiative.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "ondc",
+   "object": "reports_and_documents",
+   "detail": {},
+   "sourceId": "src:6a95c6d730e8",
+   "evidence": "5) Provide necessary reports/documents for implementing various components of the Initiative",
+   "confidence": 0.95
+  },
+  {
+   "claim": "ONDC will provide any other support requested by the Ministry of MSME with the approval of SMC.",
+   "kind": "ACTION",
+   "subject": "ondc",
+   "object": "support",
+   "detail": {},
+   "sourceId": "src:6a95c6d730e8",
+   "evidence": "6) Any other support requested by the Ministry of MSME with the approval of SMC",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Two high-resolution photographs of the products must be submitted.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "product_photographs",
+   "object": "application_form",
+   "detail": {
+    "quantity": 2,
+    "type": "high_resolution"
+   },
+   "sourceId": "src:3e3397570135",
+   "evidence": "5. Two (High Resolution) Photographs of the\nProducts",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Two high-resolution photographs of the front and rear view of the enterprise must be submitted.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "enterprise_photographs",
+   "object": "application_form",
+   "detail": {
+    "quantity": 2,
+    "type": "high_resolution",
+    "views": [
+     "front",
+     "rear"
+    ]
+   },
+   "sourceId": "src:3e3397570135",
+   "evidence": "6. Two High Resolution (Front and Rear View)\nPhotograph of the enterprise",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must declare that the information provided is authentic and correct to the best of their knowledge and belief.",
+   "kind": "ACTION",
+   "subject": "declaration",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:3e3397570135",
+   "evidence": "\n The information furnished in this form is authentic and correct to the best of my\nknowledge and belief.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must declare that all outstanding dues or taxes to the Government, Boards, or Corporations have been paid.",
+   "kind": "ACTION",
+   "subject": "tax_clearance_declaration",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:3e3397570135",
+   "evidence": "\n All outstanding dues/ taxes etc. required to be paid to the Government / Boards/\nCorporations etc. has been paid.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must declare that they are not involved in any economic or other offence with pending legal action or enquiry.",
+   "kind": "ACTION",
+   "subject": "legal_clearance_declaration",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:3e3397570135",
+   "evidence": "\n I am/we are not involved in any economic or other offence for which legal\naction/enquiry is pending against me. There is no criminal case/tax liability etc. pending\nagainst me/us.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must declare that all bank accounts are standard as of the date of filling the application.",
+   "kind": "ACTION",
+   "subject": "bank_account_declaration",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:3e3397570135",
+   "evidence": "\n All bank accounts are standard as on date of filling applications.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must declare that their enterprise has been in continuous production for the previous three years.",
+   "kind": "ACTION",
+   "subject": "production_duration_declaration",
+   "object": "application_form",
+   "detail": {
+    "duration": 3,
+    "unit": "years"
+   },
+   "sourceId": "src:3e3397570135",
+   "evidence": "\n Our Enterprise has been in continuous production for previous three years.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must declare that their enterprise has valid statutory clearances and licenses as applicable.",
+   "kind": "ACTION",
+   "subject": "statutory_clearance_declaration",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:3e3397570135",
+   "evidence": "\n Our Enterprise shall have valid statutory clearances and licenses as may be applicable.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must declare that they are eligible for the award as per GR no. SSI/102020/332326/Ch dated 01/09/2020.",
+   "kind": "ACTION",
+   "subject": "eligibility_declaration",
+   "object": "application_form",
+   "detail": {
+    "reference": "GR no. SSI/102020/332326/Ch",
+    "date": "01/09/2020"
+   },
+   "sourceId": "src:3e3397570135",
+   "evidence": "\n I/We/our Enterprise is eligible for taking award as per GR no. SSI/102020/332326/Ch\ndated 01/09/2020.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must declare that the information, statements, and other papers given are true and correct to the best of their knowledge and belief.",
+   "kind": "ACTION",
+   "subject": "truthfulness_declaration",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:3e3397570135",
+   "evidence": "\nI/we hereby declare that the information, statements & other papers given herein are true\nand correct to the best of my knowledge & belief.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must sign the application and provide the date and place of submission.",
+   "kind": "ACTION",
+   "subject": "signature",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:3e3397570135",
+   "evidence": "Date: Signature of Applicant\nPlace: Or Authorized Signatory\nWith name and designation",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must affix the seal of the unit on the application.",
+   "kind": "ACTION",
+   "subject": "seal",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:3e3397570135",
+   "evidence": "Seal of the Unit",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application must be printed on light cream color paper.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "application_form",
+   "object": "light_cream_color_paper",
+   "detail": {},
+   "sourceId": "src:609a55d95471",
+   "evidence": "Note: - To be printed on light cream color paper",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application must be submitted in duplicate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "duplicate_submission",
+   "detail": {},
+   "sourceId": "src:609a55d95471",
+   "evidence": "Application to be submitted in duplicate",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A high resolution photo of size 8cmx5cm must be affixed.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "high_resolution_photo",
+   "detail": {
+    "size": "8cmx5cm"
+   },
+   "sourceId": "src:609a55d95471",
+   "evidence": "Please affix one high resolution photo (size 8cmx5cm)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application must include the name and address of the enterprise in English.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "enterprise_details",
+   "detail": {},
+   "sourceId": "src:609a55d95471",
+   "evidence": "3 Name and address of Enterprise (English)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application must include the Udyam registration number and indicate if it is Micro, Small, or Medium.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "udyam_registration",
+   "detail": {},
+   "sourceId": "src:609a55d95471",
+   "evidence": "4 Udyam registration: Tick Appropriately (Micro/ Small/ Medium) Udyam Registration Number:",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application must include the constitution of the unit (e.g., proprietorship, partnership, company, etc.).",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "unit_constitution",
+   "detail": {},
+   "sourceId": "src:609a55d95471",
+   "evidence": "5 Constitution of the Unit (Proprietorship/partnership/ company/society/LLP/others, Proof may be submitted)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application must include the name, address, and contact details of the proprietor, partners, or directors.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "proprietor_details",
+   "detail": {},
+   "sourceId": "src:609a55d95471",
+   "evidence": "6 Name, address & contact details of the Proprietor/ Partners/ Directors.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application must include the date of birth of the proprietor, all partners, and all directors.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "date_of_birth_details",
+   "detail": {},
+   "sourceId": "src:609a55d95471",
+   "evidence": "7 Date of Birth of Proprietor/ All Partners/ All Directors",
+   "confidence": 0.95
   },
   {
    "claim": "An existing enterprise must be a Micro/Small enterprise engaged in manufacturing or services activities to be eligible under the Scheme.",
@@ -1625,88 +2283,6 @@
    "confidence": 1
   },
   {
-   "claim": "The application must be printed on light cream color paper.",
-   "kind": "CONDITIONAL_REQUIREMENT",
-   "subject": "application_form",
-   "object": "light_cream_color_paper",
-   "detail": {},
-   "sourceId": "src:609a55d95471",
-   "evidence": "Note: - To be printed on light cream color paper",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The application must be submitted in duplicate.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "application_form",
-   "object": "duplicate_submission",
-   "detail": {},
-   "sourceId": "src:609a55d95471",
-   "evidence": "Application to be submitted in duplicate",
-   "confidence": 0.95
-  },
-  {
-   "claim": "A high resolution photo of size 8cmx5cm must be affixed.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "application_form",
-   "object": "high_resolution_photo",
-   "detail": {
-    "size": "8cmx5cm"
-   },
-   "sourceId": "src:609a55d95471",
-   "evidence": "Please affix one high resolution photo (size 8cmx5cm)",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The application must include the name and address of the enterprise in English.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "application_form",
-   "object": "enterprise_details",
-   "detail": {},
-   "sourceId": "src:609a55d95471",
-   "evidence": "3 Name and address of Enterprise (English)",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The application must include the Udyam registration number and indicate if it is Micro, Small, or Medium.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "application_form",
-   "object": "udyam_registration",
-   "detail": {},
-   "sourceId": "src:609a55d95471",
-   "evidence": "4 Udyam registration: Tick Appropriately (Micro/ Small/ Medium) Udyam Registration Number:",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The application must include the constitution of the unit (e.g., proprietorship, partnership, company, etc.).",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "application_form",
-   "object": "unit_constitution",
-   "detail": {},
-   "sourceId": "src:609a55d95471",
-   "evidence": "5 Constitution of the Unit (Proprietorship/partnership/ company/society/LLP/others, Proof may be submitted)",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The application must include the name, address, and contact details of the proprietor, partners, or directors.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "application_form",
-   "object": "proprietor_details",
-   "detail": {},
-   "sourceId": "src:609a55d95471",
-   "evidence": "6 Name, address & contact details of the Proprietor/ Partners/ Directors.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The application must include the date of birth of the proprietor, all partners, and all directors.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "application_form",
-   "object": "date_of_birth_details",
-   "detail": {},
-   "sourceId": "src:609a55d95471",
-   "evidence": "7 Date of Birth of Proprietor/ All Partners/ All Directors",
-   "confidence": 0.95
-  },
-  {
    "claim": "A citizen must provide their full name in English.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "registration",
@@ -1873,12 +2449,39 @@
    "sourceId": "src:c462f68c4585",
    "evidence": " The projects having project cost more than Rs. 100 crores and parks, a committee, State Level Approval Committee (SLAC), will be set up with the following members:",
    "confidence": 1
+  },
+  {
+   "claim": "Business registration information is collected every 3 months.",
+   "kind": "TIMELINE",
+   "subject": "business_registration",
+   "object": "information_collection",
+   "detail": {
+    "days": 90
+   },
+   "sourceId": "src:fef9370769e6",
+   "evidence": "ઉક્ ત એક્ ટ હેઠળ નોં ધાયેલ ર્ િર્ િધ આર્ થિક એકમોની માહીતી જે િી કે એકમનુાં નામ, સરનામુાં. PAN/TAN NO., પ્ર વૃર્ િનો પ્ર કાર, કામ કરતા કમાચારીઓની સાંખ્ યા િગેરે જે િી માહહતી દર ૩ માસે એકત્ર કરી, તેની પ્ર વૃર્ તના આધારે કોડીં ગ આપિાનુાં રહે છે.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Business registration data is entered online on the giss.gujarat.gov.in portal.",
+   "kind": "CHANNEL",
+   "subject": "business_registration",
+   "object": "data_entry",
+   "detail": {
+    "url": "giss.gujarat.gov.in"
+   },
+   "sourceId": "src:fef9370769e6",
+   "evidence": "અને ઓનલાઈન ડેટા એન્ટ્ રી giss.gujarat.gov.in પોટાલ પર કરિામાાં આિે છે.",
+   "confidence": 0.95
   }
  ],
  "notFound": [
   "MSME registration: the page names \"scheme portal\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
   "Udyam Registration: https://udyamregistration.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "MSE Estate Development: https://ced.gujarat.gov.in/assets/downloads/gr-10-03-2015-CH.pdf#page=2 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "BASP: https://ced.gujarat.gov.in/assets/downloads/BASPGUIDELINES.pdf#page=5 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "ONDC Initiative for MSEs: https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/ONDC/MSME/Guidelines.pdf#page=15 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "MSME Special category award: https://ic.gujarat.gov.in/documents/commondoc/2025/MSME%20Special%20category%20award%20form.pdf#page=4 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "MSME Scheme for Up-scaling Enterprises: https://ced.gujarat.gov.in/assets/downloads/BASPGUIDELINES.pdf#page=4 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "PMEGP scheme: https://champions.gov.in/MSME_Ministry_entrepreneurs/PMEGP_bank_loan_finance/old_existing_Schemes.htm lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page."
  ]

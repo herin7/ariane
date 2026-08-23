@@ -98,8 +98,14 @@ const FLOOR = 0.3;
  * So the service has to be accounted for too, measured against its best single
  * phrase rather than the union of its aliases: a service with nine aliases is
  * not harder to name than one with two, and dividing by the union would punish
- * it for being well described. Half of one phrase is the bar. "driving licence"
- * is fully covered; one word of five is not.
+ * it for being well described.
+ *
+ * More than half of one phrase, and the "more than" is load bearing. At half,
+ * one word of a two word name is enough, and the corpus grew a service called
+ * "License Renewal", so "passport renewal appointment" came back with it: one
+ * word of two, 0.5, a pass. A citizen asking about a passport is not asking
+ * about a licence. One word only names a service whose name is one word, which
+ * is what "pf" and "varshai" are.
  */
 const NAMED = 0.5;
 
@@ -160,7 +166,7 @@ export function resolveIntent(data: GraphData, text: string, limit = 5): IntentM
     const scored = score(node, query);
     const confidence = Math.min(1, scored.score / query.length);
     const distinctive = scored.hits.some((h) => !categories.has(stem(h)));
-    if (confidence >= FLOOR && scored.named >= NAMED && distinctive) {
+    if (confidence >= FLOOR && scored.named > NAMED && distinctive) {
       matches.push({
         goal: node.id,
         name: node.name,
