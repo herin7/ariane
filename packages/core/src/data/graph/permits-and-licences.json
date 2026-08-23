@@ -2098,6 +2098,21 @@
    ]
   },
   {
+   "id": "department:boiler_office",
+   "type": "DEPARTMENT",
+   "name": "Boiler office",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:83167136359e",
+     "evidence": "Can I get NOC of My Boiler ?\nA:\nBoiler office issues NOC of a Particular Boiler if it meets the condition as mentioned in section 2(b) of Boiler Act-1923.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
    "id": "portal:boiler_gujarat_gov_in",
    "type": "PORTAL",
    "name": "boiler.gujarat.gov.in",
@@ -6370,6 +6385,21 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "department:directorate_of_marketing_and_inspection",
+   "type": "DEPARTMENT",
+   "name": "Directorate of Marketing and Inspection",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:bf723df831da",
+     "evidence": "AGMARK Certification Directorate of Marketing and Inspection,\nMinistry of Rural Development, GOI",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
    "id": "document:shop_establishment_license",
    "type": "DOCUMENT",
    "name": "Shop establishment license",
@@ -6388,6 +6418,21 @@
    "id": "document:sales_tax_number",
    "type": "DOCUMENT",
    "name": "Sales tax number",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:bf723df831da",
+     "evidence": "Sales tax number Government of Gujarat commercial Tax\ndept.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "department:government_of_gujarat_commercial_tax_department",
+   "type": "DEPARTMENT",
+   "name": "Government of Gujarat Commercial Tax Department",
    "jurisdictionId": "IN-GJ",
    "sources": [
     {
@@ -6474,6 +6519,18 @@
      "sourceId": "src:bf723df831da",
      "evidence": "In India it is mandatory for all Food Business Operators (FBO) to be registered\nor licensed in accordance with the procedures laid down in the regulation.",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:bf723df831da",
+     "evidence": "AGMARK Certification Directorate of Marketing and Inspection,\nMinistry of Rural Development, GOI",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:bf723df831da",
+     "evidence": "Sales tax number Government of Gujarat commercial Tax\ndept.",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -10762,6 +10819,22 @@
    ]
   },
   {
+   "id": "e:service_boiler_registration_and_inspection__issued_by__department_boiler_office",
+   "from": "service:boiler_registration_and_inspection",
+   "to": "department:boiler_office",
+   "type": "ISSUED_BY",
+   "verificationStatus": "EXTRACTED",
+   "note": "A NOC for a boiler is issued by the Boiler office if the boiler meets the conditions mentioned in section 2(b) of the Boiler Act-1923.",
+   "sources": [
+    {
+     "sourceId": "src:83167136359e",
+     "evidence": "Can I get NOC of My Boiler ?\nA:\nBoiler office issues NOC of a Particular Boiler if it meets the condition as mentioned in section 2(b) of Boiler Act-1923.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_boiler_registration_and_inspection__apply_at__portal_boiler_gujarat_gov_in",
    "from": "service:boiler_registration_and_inspection",
    "to": "portal:boiler_gujarat_gov_in",
@@ -12986,6 +13059,22 @@
    ]
   },
   {
+   "id": "e:document_agmark_certification__issued_by__department_directorate_of_marketing_and_inspection",
+   "from": "document:agmark_certification",
+   "to": "department:directorate_of_marketing_and_inspection",
+   "type": "ISSUED_BY",
+   "verificationStatus": "EXTRACTED",
+   "note": "AGMARK certification is required and is issued by the Directorate of Marketing and Inspection, Ministry of Rural Development, GOI.",
+   "sources": [
+    {
+     "sourceId": "src:bf723df831da",
+     "evidence": "AGMARK Certification Directorate of Marketing and Inspection,\nMinistry of Rural Development, GOI",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_haccp_certification__requires__document_shop_establishment_license",
    "from": "service:haccp_certification",
    "to": "document:shop_establishment_license",
@@ -13006,6 +13095,22 @@
    "from": "service:haccp_certification",
    "to": "document:sales_tax_number",
    "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Sales tax number is required and is issued by the Government of Gujarat Commercial Tax Department.",
+   "sources": [
+    {
+     "sourceId": "src:bf723df831da",
+     "evidence": "Sales tax number Government of Gujarat commercial Tax\ndept.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:document_sales_tax_number__issued_by__department_government_of_gujarat_commercial_tax_department",
+   "from": "document:sales_tax_number",
+   "to": "department:government_of_gujarat_commercial_tax_department",
+   "type": "ISSUED_BY",
    "verificationStatus": "EXTRACTED",
    "note": "Sales tax number is required and is issued by the Government of Gujarat Commercial Tax Department.",
    "sources": [

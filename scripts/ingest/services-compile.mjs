@@ -164,6 +164,61 @@ export function officeFromClaim(claim) {
 }
 
 /**
+ * Who the page says issues a document, or checks an application before it counts.
+ *
+ * ISSUED_BY and VERIFIED_BY have been in the edge enum and in the journey
+ * engine's attachment list since the seed was written, with zero rows behind
+ * them. They are the answer to "and who actually signs this", which a citizen
+ * standing at a counter needs and which no other edge carries.
+ *
+ * Passive voice only, because the passive is the one construction in which the
+ * page has named the actor and not merely described a job. "The certificate
+ * will be issued by the Mahatma Gandhi Labour Institute" names an issuer;
+ * "Mamlatdar issues certificates" is a directory blurb about a role. §26 says
+ * do not guess the actor, and the grammar is what stops us guessing.
+ *
+ * A bare "and" is kept, not split on and not rejected. "Directorate of
+ * Marketing and Inspection" is one body whose name contains an "and", and
+ * "Mamlatdar and Taluka Development Officer" is two bodies, and no rule tells
+ * them apart. Splitting mangles the first; the phrase as printed is true of
+ * both, so the node is named exactly what the page said and nobody has to
+ * guess. "and then" and "or" and a slash list are different: they say the page
+ * declined to name one actor, and those are dropped.
+ */
+const AUTHORITY_VERB = [
+  ["ISSUED_BY", /\b(?:is|are|was|were|will\s+be|shall\s+be)\s+issued\s+by\s+(?:the\s+)?([^.,;()]{4,70})/i],
+  ["VERIFIED_BY", /\b(?:is|are|was|were|will\s+be|shall\s+be)\s+(?:verified|attested|countersigned|approved|sanctioned)\s+by\s+(?:the\s+)?([^.,;()]{4,70})/i],
+  ["VERIFIED_BY", /\bverification\s+by\s+(?:the\s+)?([^.,;()]{4,70})/i],
+];
+
+/** An officer holds an office. `OFFICE_WORD` is about buildings and misses them. */
+const AUTHORITY_WORD =
+  /\b(officer|adhikari|inspector|registrar|tahsildar|talati|ministry|secretary|university|institute|committee)\b/i;
+
+/** A condition attached to the approval, not part of who gives it. */
+const TRAILING_CLAUSE = /\s+(?:if|when|upon|as\s+per|as|under|within|after|before|for|on|in\s+case)\b.*$/i;
+
+/** "any three of", "either the", and every other way a page declines to say who. */
+const NOT_ONE_ACTOR = /\b(?:any|either|one|two|three)\s+(?:of|the|three|two)\b|\/|\sand\s+then\s|\s+or\s+/i;
+
+export function authorityFromClaim(claim) {
+  const text = String(claim ?? "").trim();
+  for (const [type, re] of AUTHORITY_VERB) {
+    const m = re.exec(text);
+    if (!m) continue;
+    const raw = m[1].trim();
+    if (NOT_ONE_ACTOR.test(raw)) return null;
+    const name = raw.replace(TRAILING_CLAUSE, "").replace(/\s{2,}/g, " ").trim();
+    if (name.length < 4 || isPerson(name)) return null;
+    if (!OFFICE_WORD.test(name) && !AUTHORITY_WORD.test(name)) return null;
+    // "and" survives the multi actor check only inside a name, so it has to
+    // still look like one thing by the time we get here.
+    return { type, authority: name };
+  }
+  return null;
+}
+
+/**
  * The other twenty seven states, so a national portal's pages can be told apart.
  *
  * myscheme.gov.in holds the scheme catalogue for the whole country and its
@@ -931,6 +986,67 @@ if (flag("selftest")) {
   assert.equal(isGujarat("collectorahmedabad.gujarat.gov.in"), true);
   assert.equal(isGujarat("www.myscheme.gov.in"), false, "a national portal is not evidence of jurisdiction");
 
+  // ------------------------------------------------------- and who signs it
+  assert.deepEqual(
+    authorityFromClaim("The certificate will be issued by the Mahatma Gandhi Labour Institute."),
+    { type: "ISSUED_BY", authority: "Mahatma Gandhi Labour Institute" },
+    "the passive names an actor, which is the whole reason we only read the passive",
+  );
+  assert.deepEqual(
+    authorityFromClaim("AGMARK certification is required and is issued by the Directorate of Marketing and Inspection."),
+    { type: "ISSUED_BY", authority: "Directorate of Marketing and Inspection" },
+    "one body with an and in its name, so splitting on and would have invented a second",
+  );
+  assert.deepEqual(
+    authorityFromClaim("The application is verified by the District Education Officer under the Commissionerate of Schools."),
+    { type: "VERIFIED_BY", authority: "District Education Officer" },
+    "where the authority sits is not part of who the authority is",
+  );
+  // The known ceiling, asserted so it is a decision and not a surprise. The
+  // sentence does say who verifies, and "KVK" survives the trim as three
+  // letters that match no office word and no officer word. Recognising bare
+  // acronyms means keeping a list of them, and a list we half maintain is how a
+  // gate quietly stops being one.
+  assert.equal(
+    authorityFromClaim("The form will only be considered valid after verification by the KVK under the authority of the Commissionerate of Employment."),
+    null,
+  );
+  assert.deepEqual(
+    authorityFromClaim("A NOC for a boiler is issued by the Boiler office if the boiler meets the conditions mentioned in section 2(b)."),
+    { type: "ISSUED_BY", authority: "Boiler office" },
+    "the condition on the approval is not part of the name of who approves",
+  );
+  assert.equal(
+    authorityFromClaim("The form will be approved by the Government Labour Officer and then the Member Secretary."),
+    null,
+    "two actors in an order, and choosing one of them would be us deciding",
+  );
+  assert.equal(
+    authorityFromClaim("Approval will be made after field verification by any three of BTM/ATM/Gram Sewak/Horticulture Officer."),
+    null,
+    "any three of a list of five is the page declining to say who",
+  );
+  assert.equal(
+    authorityFromClaim("The Mamlatdar issues income certificates."),
+    null,
+    "the active voice is a job description, not a named actor on this service",
+  );
+  assert.equal(
+    authorityFromClaim("The resolution plan was approved by the NCLT on 13-Jul-2026."),
+    null,
+    "NCLT is real and is not an office word, and inventing a match for it is how the gate rots",
+  );
+  assert.equal(
+    authorityFromClaim("The Sukhadi recipe is approved by the CFTRI and nutrition experts."),
+    null,
+    "a recipe endorsement is not a step a citizen completes",
+  );
+  assert.equal(
+    authorityFromClaim("A certificate of registration is issued on payment of a fee not exceeding 115 rupees."),
+    null,
+    "issued on is not issued by, and a fee is not an authority",
+  );
+
   assert.equal(placeable({ kind: "FEE", detail: {} }), true, "a fee is why we are here");
   assert.equal(placeable({ kind: "HELPLINE", detail: { phone: "1800 233 5500" } }), true);
   assert.equal(placeable({ kind: "HELPLINE", detail: { number: "1800 233 5500" } }), true, "the extractor uses both keys for the same thing");
@@ -1504,6 +1620,28 @@ function build(journey, services) {
         } else if (HARD.includes(f.kind) || f.kind === "ACTION" || f.kind === "CHANNEL") {
           // Not its own node, but it is why this service node is believable, so
           // it hangs off the service with its quote intact.
+          if (serviceRefs.length < 12) serviceRefs.push(ref(sourceId, f));
+        }
+
+        // ------------------------------------------------- who signs it off
+        //
+        // Runs beside the chain above, not inside it, because the sentence that
+        // names the issuer is usually already doing another job: it arrives as a
+        // DOCUMENT_REQUIREMENT, a CONDITIONAL_REQUIREMENT or an ACTION, and one
+        // sentence can be both "you need AGMARK" and "AGMARK comes from the
+        // Directorate of Marketing and Inspection".
+        const authority = authorityFromClaim(f.claim);
+        if (authority) {
+          const deptId = `department:${slug(authority.authority)}`;
+          // DEPARTMENT and not OFFICE. The page named who, never where, and an
+          // OFFICE node with no address is an invitation to go and stand
+          // somewhere we never found.
+          put({ id: deptId, type: "DEPARTMENT", name: display(authority.authority), jurisdictionId, sources: r, lastVerifiedAt: today() });
+          // ISSUED_BY belongs to the document, when we wrote the document. The
+          // service issues nothing; the certificate is what gets issued.
+          const docId = `document:${f.object}`;
+          const from = authority.type === "ISSUED_BY" && declared.has(docId) ? docId : serviceNodeId;
+          link(from, deptId, authority.type, f.claim, r);
           if (serviceRefs.length < 12) serviceRefs.push(ref(sourceId, f));
         }
       }

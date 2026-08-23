@@ -7912,6 +7912,21 @@
    ]
   },
   {
+   "id": "department:sanctioning_authority",
+   "type": "DEPARTMENT",
+   "name": "Sanctioning Authority",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:52e08416bcc9",
+     "evidence": "\n The claim will be then approved by Sanctioning Authority upon satisfactory inspection\nreport and the assistance will be disbursed to GIDC.\n",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
    "id": "document:project_completion_certificate",
    "type": "DOCUMENT",
    "name": "Project completion certificate",
@@ -7966,6 +7981,12 @@
     },
     {
      "sourceId": "src:52e08416bcc9",
+     "evidence": "\n The claim will be then approved by Sanctioning Authority upon satisfactory inspection\nreport and the assistance will be disbursed to GIDC.\n",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:52e08416bcc9",
      "evidence": "\n3. GIDC shall have to follow the terms and conditions mentioned in the sanction letter\nwith respect of project implementation and disbursement of assistance under this\nscheme.\n",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
@@ -8003,12 +8024,6 @@
     {
      "sourceId": "src:52e08416bcc9",
      "evidence": "\n9. In case of any dispute, SLAC decision shall be treated as final.\n",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:52e08416bcc9",
-     "evidence": "\nEnterprise will be provided rent assistance at the rate of 50% of the rent fixed by GIDC\n",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -22823,6 +22838,22 @@
     {
      "sourceId": "src:7687596ad9d6",
      "evidence": "ગુજરાત રાજય લલિત કલા અકાદમી દ્વારા યોજવામાં આવતી રાજયકલા સ્પર્ધામાં કલાકાર શ્રેણીમાં, ડ્રોઇંગ એન્ડ પેઇન્ટીંગ વિભાગમાં ઈનામ વિજેતા થયેલ કલાકારોને રાજ્યના કોઇ એક સ્થળે એકત્રિત કરી આ શિબિર યોજવામાં આવે છે.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garment_policy__verified_by__department_sanctioning_authority",
+   "from": "service:garment_policy",
+   "to": "department:sanctioning_authority",
+   "type": "VERIFIED_BY",
+   "verificationStatus": "EXTRACTED",
+   "note": "The claim will be approved by the Sanctioning Authority upon a satisfactory inspection report.",
+   "sources": [
+    {
+     "sourceId": "src:52e08416bcc9",
+     "evidence": "\n The claim will be then approved by Sanctioning Authority upon satisfactory inspection\nreport and the assistance will be disbursed to GIDC.\n",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }

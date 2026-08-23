@@ -1599,6 +1599,36 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "department:industries_commissioner",
+   "type": "DEPARTMENT",
+   "name": "Industries Commissioner",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:c462f68c4585",
+     "evidence": " The projects above MSMEs and project cost up to Rs. 100 crores will be sanctioned by Industries Commissioner, Gujarat.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "department:state_level_approval_committee",
+   "type": "DEPARTMENT",
+   "name": "State Level Approval Committee",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:c462f68c4585",
+     "evidence": " The projects having project cost more than Rs. 100 crores and parks, a committee, State Level Approval Committee (SLAC), will be set up with the following members:",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
    "id": "service:slac",
    "type": "SERVICE",
    "name": "SLAC",
@@ -1631,6 +1661,18 @@
     {
      "sourceId": "src:c462f68c4585",
      "evidence": "12.7. The total amount of assistance shall not exceed 50% of total eligible project cost in case of assistance claimed from both central & state Government.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:c462f68c4585",
+     "evidence": " The projects above MSMEs and project cost up to Rs. 100 crores will be sanctioned by Industries Commissioner, Gujarat.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:c462f68c4585",
+     "evidence": " The projects having project cost more than Rs. 100 crores and parks, a committee, State Level Approval Committee (SLAC), will be set up with the following members:",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -2247,6 +2289,38 @@
      "sourceId": "src:15614cce9684",
      "evidence": "પૂરું નામ (અંગ્રેજીમાં) *",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_slac__verified_by__department_industries_commissioner",
+   "from": "service:slac",
+   "to": "department:industries_commissioner",
+   "type": "VERIFIED_BY",
+   "verificationStatus": "EXTRACTED",
+   "note": "Projects above MSMEs and with a project cost up to Rs. 100 crores will be sanctioned by the Industries Commissioner, Gujarat.",
+   "sources": [
+    {
+     "sourceId": "src:c462f68c4585",
+     "evidence": " The projects above MSMEs and project cost up to Rs. 100 crores will be sanctioned by Industries Commissioner, Gujarat.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_slac__verified_by__department_state_level_approval_committee",
+   "from": "service:slac",
+   "to": "department:state_level_approval_committee",
+   "type": "VERIFIED_BY",
+   "verificationStatus": "EXTRACTED",
+   "note": "Projects with a project cost more than Rs. 100 crores and parks will be sanctioned by the State Level Approval Committee (SLAC).",
+   "sources": [
+    {
+     "sourceId": "src:c462f68c4585",
+     "evidence": " The projects having project cost more than Rs. 100 crores and parks, a committee, State Level Approval Committee (SLAC), will be set up with the following members:",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
