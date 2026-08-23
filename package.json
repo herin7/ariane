@@ -25,7 +25,8 @@
     "fetch:have": "node scripts/fetch-ledger.mjs --have",
     "graph:snapshot": "pnpm --filter @ariane/core graph:snapshot",
     "bundles:build": "node scripts/bundles.mjs",
-    "gates": "node scripts/ingest/lib.mjs && node scripts/ingest/domains-classify.mjs --selftest && node scripts/bundles.mjs --check && node scripts/domains.mjs --check && node scripts/fetch-ledger.mjs --check && pnpm typecheck && pnpm test && pnpm graph:validate && pnpm quotes:audit"
+    "gates": "node scripts/ingest/lib.mjs && node scripts/ingest/domains-classify.mjs --selftest && node scripts/ingest/services-discover.mjs --selftest && node scripts/bundles.mjs --check && node scripts/domains.mjs --check && node scripts/fetch-ledger.mjs --check && pnpm typecheck && pnpm test && pnpm graph:validate && pnpm quotes:audit",
+    "services:discover": "node --env-file-if-exists=.env scripts/ingest/services-discover.mjs"
   },
   "devDependencies": {
     "typescript": "^5.9.2"
