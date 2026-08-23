@@ -1,0 +1,809 @@
+{
+  "journey": "pf",
+  "researchedAt": "2026-08-23T00:00:00.000Z",
+  "sources": [
+    {
+      "id": "src_epfo_faq",
+      "url": "https://www.epfindia.gov.in/site_en/FAQ.php",
+      "title": "EPFO || Frequently Asked Questions",
+      "domain": "epfindia.gov.in",
+      "sourceType": "FAQ",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pf/wb-faq.md",
+      "scrapedOk": true,
+      "retrievedVia": "https://web.archive.org/web/20251220193942/https://www.epfindia.gov.in/site_en/FAQ.php",
+      "note": "www.epfindia.gov.in refused all direct connections (curl, WebFetch and Firecrawl) on 2026-08-23; content taken from the Internet Archive capture of the official page."
+    },
+    {
+      "id": "src_epfo_ocs_faq",
+      "url": "https://www.epfindia.gov.in/site_docs/PDFs/MiscPDFs/OCS_FAQ_Eligibility_102017.pdf",
+      "title": "FAQs regarding ONLINE CLAIM SETTLEMENT",
+      "domain": "epfindia.gov.in",
+      "sourceType": "PDF",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pf/wb-ocs-faq.md",
+      "scrapedOk": true,
+      "retrievedVia": "https://web.archive.org/web/2024/https://www.epfindia.gov.in/site_docs/PDFs/MiscPDFs/OCS_FAQ_Eligibility_102017.pdf"
+    },
+    {
+      "id": "src_epfo_members_faq",
+      "url": "https://www.epfindia.gov.in/site_docs/PDFs/OTCP_PDFs/MembersFAQ.pdf",
+      "title": "Frequently Asked Questions (FAQs) - EPF members",
+      "domain": "epfindia.gov.in",
+      "sourceType": "PDF",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pf/wb-members-faq.md",
+      "scrapedOk": true,
+      "retrievedVia": "https://web.archive.org/web/2024/https://www.epfindia.gov.in/site_docs/PDFs/OTCP_PDFs/MembersFAQ.pdf"
+    },
+    {
+      "id": "src_epfo_which_claim_form",
+      "url": "https://www.epfindia.gov.in/site_en/WhichClaimForm.php",
+      "title": "EPFO || Which Claim Form(s) To Submit",
+      "domain": "epfindia.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pf/wb-whichclaimform.md",
+      "scrapedOk": true,
+      "retrievedVia": "https://web.archive.org/web/20251209171841/https://www.epfindia.gov.in/site_en/WhichClaimForm.php"
+    },
+    {
+      "id": "src_epfo_citizen_charter",
+      "url": "https://www.epfindia.gov.in/site_docs/PDFs/MiscPDFs/CitizenCharter.pdf",
+      "title": "EPFO Citizens' Charter",
+      "domain": "epfindia.gov.in",
+      "sourceType": "PDF",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pf/wb-citizencharter.md",
+      "scrapedOk": true,
+      "retrievedVia": "https://web.archive.org/web/2024/https://www.epfindia.gov.in/site_docs/PDFs/MiscPDFs/CitizenCharter.pdf"
+    },
+    {
+      "id": "src_epfo_pr_profile",
+      "url": "https://www.epfindia.gov.in/site_docs/PDFs/EPFO_PRESS_RELEASES/EPFOSimplifiesOnlineProcessForMemberProfileUpdation_19012025.pdf",
+      "title": "EPFO Simplifies Online Process for Member Profile Updation (PIB, Ministry of Labour & Employment)",
+      "domain": "epfindia.gov.in",
+      "sourceType": "PDF",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pf/wb-pr-profile.md",
+      "scrapedOk": true,
+      "retrievedVia": "https://web.archive.org/web/2025/https://www.epfindia.gov.in/site_docs/PDFs/EPFO_PRESS_RELEASES/EPFOSimplifiesOnlineProcessForMemberProfileUpdation_19012025.pdf"
+    },
+    {
+      "id": "src_epfigms",
+      "url": "https://epfigms.gov.in/",
+      "title": "EPFiGrievance Management System",
+      "domain": "epfigms.gov.in",
+      "sourceType": "GRIEVANCE_PAGE",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pf/epfigms-home.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_epfigms_register",
+      "url": "https://epfigms.gov.in/Grievance/GrievanceMaster",
+      "title": "EPFiGMS - Register Grievance",
+      "domain": "epfigms.gov.in",
+      "sourceType": "GRIEVANCE_PAGE",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pf/epfigms-register.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_unifiedportal_mem",
+      "url": "https://unifiedportal-mem.epfindia.gov.in/memberinterface/",
+      "title": "EPFO Member e-SEWA (Member Interface, Unified Portal)",
+      "domain": "unifiedportal-mem.epfindia.gov.in",
+      "sourceType": "PORTAL_HOME",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pf/unifiedportal-mem.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_epfo_passbook",
+      "url": "https://passbook.epfindia.gov.in/MemberPassBook/login",
+      "title": "EPF Passbook & Claim Status",
+      "domain": "passbook.epfindia.gov.in",
+      "sourceType": "TRACKING_PAGE",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pf/passbook.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_umang_epfo",
+      "url": "https://web.umang.gov.in/landing/department/epfo.html",
+      "title": "EPFO - UMANG (Ministry of Electronics and Information Technology)",
+      "domain": "web.umang.gov.in",
+      "sourceType": "MOBILE_APP_INFO",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pf/umang-epfo.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_epfo_contact",
+      "url": "https://www.epfindia.gov.in/site_en/Contact.php",
+      "title": "EPFO || Contact Us",
+      "domain": "epfindia.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pf/wb-contact.md",
+      "scrapedOk": true,
+      "retrievedVia": "https://web.archive.org/web/2025/https://www.epfindia.gov.in/site_en/Contact.php",
+      "note": "Page is a state/district/office search form only; it renders no static address or phone list."
+    },
+    {
+      "id": "src_cpgrams",
+      "url": "https://pgportal.gov.in/",
+      "title": "CPGRAMS - Centralized Public Grievance Redress And Monitoring System",
+      "domain": "pgportal.gov.in",
+      "sourceType": "GRIEVANCE_PAGE",
+      "retrievedAt": "2026-08-23T00:00:00.000Z",
+      "cacheFile": ".firecrawl/pf/pgportal.md",
+      "scrapedOk": true
+    }
+  ],
+  "facts": [
+    {
+      "claim": "A member can file only three claim types directly from the UAN member interface: Form 19, Form 10C and Form 31.",
+      "kind": "CHANNEL",
+      "subject": "pf_withdrawal",
+      "object": "online_claim_forms",
+      "detail": { "whoMustAct": "CITIZEN", "forms": ["Form 19", "Form 10C", "Form 31"] },
+      "sourceId": "src_epfo_ocs_faq",
+      "evidence": "Member can apply for a. PF Final Settlement (Form19), b. Pension Withdrawal Benefit (Form10-C) and c. PF Part Withdrawal (Form31) from the Member Interface directly",
+      "confidence": 0.97
+    },
+    {
+      "claim": "The UAN must be activated and the mobile number used for activation must be working before any online claim can be filed.",
+      "kind": "DEPENDENCY",
+      "subject": "pf_withdrawal",
+      "object": "uan_activation",
+      "detail": { "whoMustAct": "CITIZEN" },
+      "sourceId": "src_epfo_ocs_faq",
+      "evidence": "The member should have activated his/her  Universal  Account  Number  and the mobile number used for activating UAN should be in the working  condition.",
+      "confidence": 0.97
+    },
+    {
+      "claim": "Aadhaar must be seeded in the EPFO database and the member must use OTP-based eKYC verification from UIDAI while submitting the claim.",
+      "kind": "DEPENDENCY",
+      "subject": "pf_withdrawal",
+      "object": "aadhaar_seeding",
+      "detail": { "whoMustAct": "CITIZEN" },
+      "sourceId": "src_epfo_ocs_faq",
+      "evidence": "Member's AADHAAR details should be seeded in EPFO database and he should avail  OTP based facility for verifying eKYC from UIDAI while submitting the claim.",
+      "confidence": 0.96
+    },
+    {
+      "claim": "The member's bank account along with IFSC code must be seeded in the EPFO database.",
+      "kind": "DEPENDENCY",
+      "subject": "pf_withdrawal",
+      "object": "bank_account_ifsc",
+      "detail": { "whoMustAct": "CITIZEN" },
+      "sourceId": "src_epfo_ocs_faq",
+      "evidence": "Member's Bank Account along with IFSC code should be seeded in EPFO database.",
+      "confidence": 0.96
+    },
+    {
+      "claim": "PAN must be seeded in the EPFO database for PF Final Settlement claims where service is less than 5 years.",
+      "kind": "CONDITIONAL_REQUIREMENT",
+      "subject": "pf_withdrawal",
+      "object": "pan_seeding",
+      "condition": "service is less than 5 years (Form 19)",
+      "detail": { "whoMustAct": "CITIZEN" },
+      "sourceId": "src_epfo_ocs_faq",
+      "evidence": "Permanent Account Number (PAN) should be seeded in EPFO database for PF Final Settlement Claims in case his/her service is less than 5 years.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "For online Form 19, both Date of Joining and Date of Exit must already exist in the EPFO database.",
+      "kind": "BLOCKER",
+      "subject": "pf_withdrawal",
+      "object": "date_of_exit",
+      "detail": { "whoMustAct": "EMPLOYER" },
+      "sourceId": "src_epfo_ocs_faq",
+      "evidence": "Date of Joining and Date of Exit of Member should be available in the EPFO Database.",
+      "confidence": 0.97
+    },
+    {
+      "claim": "A Form 19 claim cannot be submitted before two months after leaving the establishment, and the member must not presently be working under a covered establishment.",
+      "kind": "CONDITIONAL_REQUIREMENT",
+      "subject": "pf_withdrawal",
+      "object": "waiting_period",
+      "condition": "final settlement after resignation",
+      "detail": { "whoMustAct": "CITIZEN", "waitingPeriod": "2 months" },
+      "sourceId": "src_epfo_ocs_faq",
+      "evidence": "Member should not be working presently under any establishment coverable under PF Act. c. The Claim should be submitted  not before  two months after leaving Establishment.",
+      "confidence": 0.97
+    },
+    {
+      "claim": "For online Form 10C the member's total service must be more than 6 months and less than 9.5 years, in addition to the Form 19 conditions.",
+      "kind": "ELIGIBILITY",
+      "subject": "pf_pension_withdrawal",
+      "object": "form_10c",
+      "detail": { "whoMustAct": "CITIZEN", "serviceBand": ">6 months and <9.5 years" },
+      "sourceId": "src_epfo_ocs_faq",
+      "evidence": "Member's Total Service should be more than 6 months and less than 9.5 years in addition to the conditions mentioned under 3)  above for filing Pension Withdrawal Benefit Claim.",
+      "confidence": 0.96
+    },
+    {
+      "claim": "For online Form 31 (advance) only the Date of Joining needs to be available in the EPFO database.",
+      "kind": "ELIGIBILITY",
+      "subject": "pf_advance",
+      "object": "form_31",
+      "detail": { "whoMustAct": "CITIZEN" },
+      "sourceId": "src_epfo_ocs_faq",
+      "evidence": "Member's Date of Joining should be available in the EPFO database.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The online eligibility engine requires, for Form 19 and 10C, that DOE and DOJ are available and that current date minus date of exit is at least 2 months; for Form 31 the Date of Exit must NOT be available.",
+      "kind": "BLOCKER",
+      "subject": "pf_withdrawal",
+      "object": "eligibility_engine",
+      "detail": { "whoMustAct": "EPFO", "abbreviations": "DOJ=Date of Joining, DOE=Date of Exit, CD=Current Date" },
+      "sourceId": "src_epfo_ocs_faq",
+      "evidence": "NO FAILD CONDITION NO 1. DOE NOT AVAILABLE\n1. DOE ,DOJ AVAILABLE\nWILL BE SHOWN 2. CD-DOJ TO BE AS PER\n2. CD-DOE>=2 MONTHS",
+      "confidence": 0.85
+    },
+    {
+      "claim": "No supporting document is required for an online Form 31 advance; the act of filing online is taken as the member's self-declaration.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "pf_advance",
+      "object": "supporting_documents",
+      "detail": { "whoMustAct": "CITIZEN" },
+      "sourceId": "src_epfo_ocs_faq",
+      "evidence": "Member is not required to give any supporting document while preferring online PF Part Withdrawal case. Member's act of preferring the advance claim online will be taken as his self- declaration for having applied for the same.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Payment can only go to the bank account registered with EPFO; if that account is closed the member must first get the bank account changed through the current employer instead of filing online.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "pf_withdrawal",
+      "object": "bank_account_change",
+      "condition": "registered bank account is closed or member wants a different account",
+      "detail": { "whoMustAct": "EMPLOYER" },
+      "sourceId": "src_epfo_ocs_faq",
+      "evidence": "If the shown Bank Account is closed or if the member wants to use some other Bank Account, member should not prefer the online claim and first get the Bank Account changed through his current employer.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "Where a member has multiple Member IDs, all accounts must be merged into a single account before proceeding with an online claim.",
+      "kind": "BLOCKER",
+      "subject": "pf_withdrawal",
+      "object": "multiple_member_ids",
+      "detail": { "whoMustAct": "CITIZEN" },
+      "sourceId": "src_epfo_ocs_faq",
+      "evidence": "MSG2: ALL ACCOUNTS\nTO BE MERGED INTO\nSINGLE ACCOUNT\nBEFORE PROCEEDING",
+      "confidence": 0.8
+    },
+    {
+      "claim": "Online claim submission is authenticated by an OTP sent to the member's UIDAI-registered mobile number, giving consent to share e-KYC credentials with EPFO.",
+      "kind": "ACTION",
+      "subject": "pf_withdrawal",
+      "object": "otp_authentication",
+      "detail": { "whoMustAct": "CITIZEN" },
+      "sourceId": "src_epfo_ocs_faq",
+      "evidence": "Members applying online  are required to authenticate their claim submission using OTP sent to their UIDAI registered Mobile number giving consent to UIDAI to share their e-KYC (Aadhaar) credentials to EPFO.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Even for the three employer-attestation-free claim forms, the bank account and Aadhaar KYC must be approved by the employer using the employer's Digital Signature Certificate.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "pf_withdrawal",
+      "object": "kyc_approval",
+      "detail": { "whoMustAct": "EMPLOYER", "instrument": "Digital Signature Certificate" },
+      "sourceId": "src_epfo_faq",
+      "evidence": "Currently the member can submit 3 types of claims without attestation of Employer namely, Form-19, 10C and 31. However, the member must ensure that his UAN is activated and at least the bank account and Aadhaar KYC's in respect of his account are approved by the Employer using his Digital Signature Certificate.",
+      "confidence": 0.97
+    },
+    {
+      "claim": "EPFO will not approve a member's KYC in place of the employer; the employer must approve it, and may register Aadhaar-based e-Sign if the DSC has expired.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "pf_withdrawal",
+      "object": "kyc_approval",
+      "condition": "employer's Digital Signature Certificate has expired",
+      "detail": { "whoMustAct": "EMPLOYER", "epfoWillNotSubstitute": true },
+      "sourceId": "src_epfo_faq",
+      "evidence": "No, Employer need to approve the KYC of the employee. Employer can register for e-sign which is Aadhar based and then approve the details.",
+      "confidence": 0.97
+    },
+    {
+      "claim": "If the employer is not approving KYC the member must escalate inside the organisation first, and only then approach EPF Grievance via EPFiGMS.",
+      "kind": "ACTION",
+      "subject": "pf_withdrawal",
+      "object": "employer_not_approving_kyc",
+      "detail": { "whoMustAct": "CITIZEN", "escalationTarget": "https://epfigms.gov.in" },
+      "sourceId": "src_epfo_faq",
+      "evidence": "In case your employer is not approving KYC details, you can directly approach administration or HR department with request. If it is taking more time you can escalate it to higher authority in the organization.\nIf no one is responding to your request you can approach EPF Grievance via https://epfigms.gov.in.",
+      "confidence": 0.96
+    },
+    {
+      "claim": "For a closed establishment with no employer, KYC and joint-declaration corrections can be made by submitting a request to the concerned field office attested by an authorised official listed in para 10.18 of MAP Vol. II.",
+      "kind": "ACCEPTED_ALTERNATIVES",
+      "subject": "pf_withdrawal",
+      "object": "employer_attestation",
+      "condition": "establishment closed / no authorised signatory available",
+      "detail": { "whoMustAct": "CITIZEN", "alternative": "attestation by authorised official per para 10.18 MAP Vol. II" },
+      "sourceId": "src_epfo_faq",
+      "evidence": "In respect of closed establishment, where the employee finds it difficult to get the attestation of the employer, the member can update the KYC by submitting a request to concerned field office duly attested by one of the authorized officials. The complete list of authorized officials is as prescribed in para 10.18 of the MAP Vol. II",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The Date of Exit can only be updated after two months of leaving a job, and must fall in the month in which the previous employer made the last contribution.",
+      "kind": "CONDITIONAL_REQUIREMENT",
+      "subject": "pf_withdrawal",
+      "object": "date_of_exit",
+      "condition": "two months after leaving the job",
+      "detail": { "whoMustAct": "CITIZEN" },
+      "sourceId": "src_epfo_faq",
+      "evidence": "Yes, updation of date of exit of previous job/employment is mandatory for applying online transfer. The date of exit can be updated only after two months of leaving a job. Also, the date of exit can be any date in the month in which the last contribution was made by the previous employer.",
+      "confidence": 0.96
+    },
+    {
+      "claim": "The member can mark his own date of exit on the member portal via Manage > Mark Exit using an Aadhaar-linked OTP, and once updated it cannot be changed.",
+      "kind": "ACTION",
+      "subject": "pf_withdrawal",
+      "object": "mark_exit",
+      "detail": { "whoMustAct": "CITIZEN", "path": "Manage > Mark Exit", "irreversible": true },
+      "sourceId": "src_epfo_faq",
+      "evidence": "i. Go to the https://unifiedportal-mem.epfindia.gov.in/memberinterface/ and login using your UAN and password\n2. ii. Click on tab “manage\" >> click “mark exit\". Under the “select employment”\ndropdown, select the previous PF account number linked to your UAN\n3. iii. Enter the date and reason of exit.\n4. iv. Then request for an OTP which will be sent to your Aadhaar-linked mobile number.\n5. v. After you enter the OTP, submit the request. It may be noted that once the date of exit is updated, it cannot be changed.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "If the employer has not entered the Date of Exit, the member can self-submit or update it online through the Member Portal after 60 days from the date of leaving service.",
+      "kind": "ACTION",
+      "subject": "pf_withdrawal",
+      "object": "date_of_exit",
+      "condition": "employer has not entered Date of Exit",
+      "detail": { "whoMustAct": "CITIZEN", "waitingPeriod": "60 days" },
+      "sourceId": "src_epfo_faq",
+      "evidence": "After 60 Days from the date of leaving of services, the member can him self submit / update Date of Exit online through Member Portal.",
+      "confidence": 0.96
+    },
+    {
+      "claim": "If the Date of Exit or Date of Joining already recorded in the UAN is wrong or missing, only the employer can request the correction from the concerned PF Office.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "pf_withdrawal",
+      "object": "date_of_exit_correction",
+      "condition": "DOE/DOJ already recorded but wrong",
+      "detail": { "whoMustAct": "EMPLOYER" },
+      "sourceId": "src_epfo_faq",
+      "evidence": "The Employer can make a request to the concerned PF Office for corrections.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "A wrong reason of exit entered by the employer causes an error when filing an online claim, and the member must contact the employer to have it rectified through the PF Office.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "pf_withdrawal",
+      "object": "reason_of_exit",
+      "detail": { "whoMustAct": "EMPLOYER" },
+      "sourceId": "src_epfo_faq",
+      "evidence": "Contact employer to get the reason of exit rectified through the concerned PF Office.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "A mismatch between UAN data and Aadhaar/PAN/bank data is likely to cause claim rejection, and the fix is a joint declaration through the employer, not re-filing the claim.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "pf_withdrawal",
+      "object": "name_dob_mismatch",
+      "detail": { "whoMustAct": "EMPLOYER", "fix": "joint declaration through the employer" },
+      "sourceId": "src_epfo_faq",
+      "evidence": "Get the data in UAN corrected through joint declaration through the employer.The claim is likely to be rejected in case of mismatch.",
+      "confidence": 0.96
+    },
+    {
+      "claim": "If a second, unapproved bank account KYC is pending against the UAN, only the employer can reject it.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "pf_withdrawal",
+      "object": "pending_bank_kyc",
+      "detail": { "whoMustAct": "EMPLOYER" },
+      "sourceId": "src_epfo_faq",
+      "evidence": "Contact the employer to reject the pending KYC",
+      "confidence": 0.93
+    },
+    {
+      "claim": "A name change (for example on marriage) is applied for online by the member but must be digitally approved by the employer.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "pf_withdrawal",
+      "object": "name_correction",
+      "detail": { "whoMustAct": "EMPLOYER", "documents": ["marriage certificate", "school records with father's name and date of birth", "PAN taken before marriage"] },
+      "sourceId": "src_epfo_faq",
+      "evidence": "Member has to apply online and employer will digitally approve the request. The correction request can be submitted online or offline (joint request) along with a copy of the marriage certificate or such other documents which can prove that only the name of the member has changed from before marriage.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "The name as per Aadhaar and PAN must be the same as in PF records for KYC to complete successfully; otherwise a name change request must be raised.",
+      "kind": "BLOCKER",
+      "subject": "pf_withdrawal",
+      "object": "name_mismatch",
+      "detail": { "whoMustAct": "CITIZEN" },
+      "sourceId": "src_epfo_faq",
+      "evidence": "The name as per Aadhaar and PAN must be same as that in PF records for KYC to be successfully completed.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "A date-of-birth change request needs a supporting document upload only when the requested date differs from the Aadhaar date of birth by more than 3 years.",
+      "kind": "CONDITIONAL_REQUIREMENT",
+      "subject": "pf_withdrawal",
+      "object": "date_of_birth_correction",
+      "condition": "difference of more than 3 years from Aadhaar",
+      "detail": { "whoMustAct": "CITIZEN" },
+      "sourceId": "src_epfo_faq",
+      "evidence": "In case you have requested for a change in date of birth which as per aadhar is having a difference of more than 3 years a document in support of the date of birth in Aadhar has to be uploaded.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "The minimum details required to be linked with the UAN for availing online services are mobile, Aadhaar and bank account number.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "pf_withdrawal",
+      "object": "uan_kyc_minimum",
+      "detail": { "whoMustAct": "CITIZEN", "items": ["Mobile", "Aadhaar", "Bank account number"] },
+      "sourceId": "src_epfo_faq",
+      "evidence": "Mobile, Aadhar and Bank account number",
+      "confidence": 0.92
+    },
+    {
+      "claim": "It is mandatory to upload a cheque leaf with the member's printed name, or the first page of the bank passbook or a bank statement showing name, account number and IFSC.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "pf_withdrawal",
+      "object": "bank_proof",
+      "detail": { "whoMustAct": "CITIZEN" },
+      "sourceId": "src_epfo_faq",
+      "evidence": "As per prevailing instructions it is mandatory to upload a cheque leaf containing the printed name of the member, or the first page of the bank Passbook or bank statement containing the name, account number and IFSC.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "For an online PF transfer the employer must have approved the e-KYC and the date of exit for the previous employment must have been entered.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "pf_transfer",
+      "object": "employer_ekyc_approval",
+      "detail": { "whoMustAct": "EMPLOYER" },
+      "sourceId": "src_epfo_faq",
+      "evidence": "iii. The date of exit for the previous employment must have been entered. If date of exit is missing kindly follow the process as given in this FAQ for updation of date of exit.\n5. iv. The employer should have approved the e-KYC.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "A member cannot edit father's name, relationship, date of birth, date of joining or date of exit as held in the EPFO database.",
+      "kind": "BLOCKER",
+      "subject": "pf_withdrawal",
+      "object": "member_editable_fields",
+      "detail": { "whoMustAct": "EMPLOYER" },
+      "sourceId": "src_epfo_members_faq",
+      "evidence": "No, the member cannot edit his details i.e. father's name, relationship, date of birth, date of joining, date of exit as available in the EPFO database.",
+      "confidence": 0.9,
+      "supersededByNote": "Partly relaxed by the 19 Jan 2025 EPFO press release for Aadhaar-validated UANs; see fact on self-approval."
+    },
+    {
+      "claim": "A prerequisite for filing an online transfer claim is that the employer has registered the digital signature certificate of his authorised signatories with EPFO.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "pf_transfer",
+      "object": "employer_dsc_registration",
+      "detail": { "whoMustAct": "EMPLOYER" },
+      "sourceId": "src_epfo_members_faq",
+      "evidence": "The employer should have registered the digital signature certificate of his authorized signatories with EPFO.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "An online claim can be rejected by the employer because member details do not match establishment records or the member's signature does not match office records.",
+      "kind": "BLOCKER",
+      "subject": "pf_transfer",
+      "object": "employer_rejection_reasons",
+      "detail": { "whoMustAct": "EMPLOYER" },
+      "sourceId": "src_epfo_members_faq",
+      "evidence": "(c) The member details do not match with establishment records.\n(d) The signature of the member does not match with those available in office records.",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Members whose UAN is already Aadhaar-validated can self-update name, date of birth, gender, nationality, parents' names, marital status, spouse name, date of joining and date of leaving without uploading any document.",
+      "kind": "ACTION",
+      "subject": "pf_withdrawal",
+      "object": "member_profile_self_update",
+      "condition": "UAN already validated through Aadhaar",
+      "detail": { "whoMustAct": "CITIZEN", "effectiveFrom": "19 January 2025" },
+      "sourceId": "src_epfo_pr_profile",
+      "evidence": "Under the revised procedure, the members whose Universal Account Number (UAN) has already been validated through Aadhaar can update their profile like name, date of birth, gender, nationality, father/mother's name, marital status, spouse name, date of joining and date of leaving themselves without the requirement of uploading any document.",
+      "confidence": 0.97
+    },
+    {
+      "claim": "Where the UAN was obtained before 1 October 2017, member profile updation still requires certification by the employer.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "pf_withdrawal",
+      "object": "member_profile_update",
+      "condition": "UAN obtained prior to 1-10-2017",
+      "detail": { "whoMustAct": "EMPLOYER" },
+      "sourceId": "src_epfo_pr_profile",
+      "evidence": "Only, in certain cases where UAN was obtained prior to 1-10-2017, the updation would require certification of employer only.",
+      "confidence": 0.96
+    },
+    {
+      "claim": "Employer approval of Joint Declarations historically added an average delay of nearly 28 days.",
+      "kind": "TIMELINE",
+      "subject": "pf_withdrawal",
+      "object": "joint_declaration",
+      "detail": { "whoMustAct": "EMPLOYER", "averageDelayDays": 28 },
+      "sourceId": "src_epfo_pr_profile",
+      "evidence": "On an average this will eliminate a delay of nearly 28 days taken by employer to approve Joint Declarations (JDs).",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Around 27% of grievances filed by EPF members relate to member profile or KYC issues.",
+      "kind": "BLOCKER",
+      "subject": "pf_withdrawal",
+      "object": "grievance_causes",
+      "detail": { "share": "27%" },
+      "sourceId": "src_epfo_pr_profile",
+      "evidence": "At present, around 27% of the grievances filed by the members relate to member profile/KYC issues",
+      "confidence": 0.94
+    },
+    {
+      "claim": "Correction requests used to be endorsed by the employer online and forwarded to EPFO for final approval.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "pf_withdrawal",
+      "object": "correction_workflow",
+      "detail": { "whoMustAct": "EMPLOYER" },
+      "sourceId": "src_epfo_pr_profile",
+      "evidence": "Such requests used to be endorsed by the employer online and forwarded to EPFO for final approval.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "A member who has left before completing 10 years of eligible service may apply for Withdrawal Benefit or a Scheme Certificate through Form 10C to retain Pension Fund membership.",
+      "kind": "ELIGIBILITY",
+      "subject": "pf_pension_withdrawal",
+      "object": "form_10c",
+      "condition": "less than 10 years of eligible service",
+      "detail": { "whoMustAct": "CITIZEN" },
+      "sourceId": "src_epfo_which_claim_form",
+      "evidence": "You can apply for Withdrawal Benefit or Scheme Certificate through Form 10C for retaining the Pension Fund Membership. Retention of the membership will give advantage of adding any future period of membership under the Fund and attain eligible service of 10 years to get pension.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "Where 10 years of eligible service is complete, withdrawal benefit is not permitted and only a Scheme Certificate is issued.",
+      "kind": "ELIGIBILITY",
+      "subject": "pf_pension_withdrawal",
+      "object": "scheme_certificate",
+      "condition": "more than 10 years of eligible service",
+      "detail": { "whoMustAct": "EPFO" },
+      "sourceId": "src_epfo_which_claim_form",
+      "evidence": "Withdrawal Benefit is not permitted since you have > 10 Years of eligible service. Only Scheme Certificate will be issued.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "Settlement should be applied for before 36 months from leaving the last job, since no interest is paid after 36 months and the account becomes inoperative.",
+      "kind": "TIMELINE",
+      "subject": "pf_withdrawal",
+      "object": "inoperative_account",
+      "detail": { "whoMustAct": "CITIZEN", "limitMonths": 36 },
+      "sourceId": "src_epfo_which_claim_form",
+      "evidence": "in case of not getting the job, apply for the settlement before 36 months from leaving the last job as no interest will be paid after 36 months and the account will become inoperative.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Only in the case of resignation (not superannuation) must a member wait two months before withdrawing the PF amount.",
+      "kind": "CONDITIONAL_REQUIREMENT",
+      "subject": "pf_withdrawal",
+      "object": "waiting_period",
+      "condition": "resignation from service",
+      "detail": { "whoMustAct": "CITIZEN" },
+      "sourceId": "src_epfo_faq",
+      "evidence": "Only in the case of resignation from service (not superannuation) a member has to wait for a period of two months for withdrawal of the PF amount.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The statutory settlement time for Form 19 final withdrawal is 20 days, with an aspirational Citizens' Charter time of 7 working days.",
+      "kind": "TIMELINE",
+      "subject": "pf_withdrawal",
+      "object": "settlement_time",
+      "detail": { "whoMustAct": "EPFO", "scheme": "20 Days", "charter": "7 Working Days" },
+      "sourceId": "src_epfo_citizen_charter",
+      "evidence": "| PF - Final Withdrawal (Settlement of Form-19) | 20 Days | 7 Working Days |",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The general time limit for settlement of any grievance is 7 working days, and in case of non-redressal the grievance is escalated to the next higher authority.",
+      "kind": "GRIEVANCE",
+      "subject": "pf_withdrawal",
+      "object": "grievance_timeline",
+      "detail": { "whoMustAct": "EPFO", "timeLimit": "7 working days" },
+      "sourceId": "src_epfo_citizen_charter",
+      "evidence": "General time limit for settlement of any grievance shall be 7 working days.\n\n• In case of non-redressal, the grievance is escalated to the next higher authority.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "If the PF amount is not settled within 20 days the member can approach the Regional P.F. Commissioner in charge of grievances, file on EPFiGMS, or appear before the Commissioner at 'Nidhi Apke Nikat' held on the 10th of every month.",
+      "kind": "GRIEVANCE",
+      "subject": "pf_withdrawal",
+      "object": "escalation_ladder",
+      "detail": { "whoMustAct": "CITIZEN", "ladder": ["Regional P.F. Commissioner in charge of grievances", "EPFiGMS at http://epfigms.gov.in/", "Nidhi Apke Nikat on the 10th of every month"] },
+      "sourceId": "src_epfo_faq",
+      "evidence": "He can approach the Regional P.F. Commissioner in charge of grievances; file a complaint on the website using the EPFiGMS feature in the section ‘FOR EMPLOYEES’. The url for the grievance page is http://epfigms.gov.in/ or he can appear before the Commissioner in the ‘Nidhi Apke Nikat’ program being conducted on 10th of every month.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "A grievance lodged on EPFiGMS with a UAN is auto-routed to the linked PF office, generates a unique registration number sent by SMS or email, and its status can be checked on the same portal.",
+      "kind": "GRIEVANCE",
+      "subject": "pf_withdrawal",
+      "object": "epfigms_process",
+      "detail": { "whoMustAct": "CITIZEN", "url": "https://epfigms.gov.in" },
+      "sourceId": "src_epfo_faq",
+      "evidence": "A complainant can lodge his/her grievance online on – https://epfigms.gov.in. If the complainant has UAN/Establishment/PPO number then he can directly enter his respective detail and fill his/her grievance category and description of grievance along with uploading supporting documents. Thereafter his grievance is forwarded to the concerned PF office which is linked to its UAN/Establishment/PPO number",
+      "confidence": 0.96
+    },
+    {
+      "claim": "EPFiGMS grievances can be lodged from anywhere and land in the concerned office; they may be sent to the Head Office in New Delhi or to the 135 field offices across the country.",
+      "kind": "GRIEVANCE",
+      "subject": "pf_withdrawal",
+      "object": "epfigms_routing",
+      "detail": { "fieldOffices": 135 },
+      "sourceId": "src_epfigms",
+      "evidence": "Grievances can be lodged at any place and will land in concerned office to which the grievances pertain. Grievances can be sent to Head office at New Delhi or to the field offices now 135 across the country.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "On EPFiGMS a grievance can be lodged by a PF member, EPS Pensioner, Employer or Others, with OTP verification and UAN-based lodging, and reminders can be sent for pending grievances.",
+      "kind": "GRIEVANCE",
+      "subject": "pf_withdrawal",
+      "object": "epfigms_features",
+      "detail": { "statuses": ["PF Member", "EPS Pensioner", "Employer", "Others"], "reminderUrl": "https://epfigms.gov.in/Reminder", "statusUrl": "https://epfigms.gov.in/Status", "documentUploadUrl": "https://epfigms.gov.in/SupportingDocument" },
+      "sourceId": "src_epfigms",
+      "evidence": "Grievance can be lodged by PF member, EPS Pensioner, Employer and Others\n\n- OTP verification\n\n- Online lodging of grievance/complaint based on UAN",
+      "confidence": 0.95
+    },
+    {
+      "claim": "When registering an EPFiGMS grievance the member should select the status matching their UAN/PPO/Establishment number, and choose 'Others' only when they have none of these.",
+      "kind": "GRIEVANCE",
+      "subject": "pf_withdrawal",
+      "object": "epfigms_registration",
+      "detail": { "whoMustAct": "CITIZEN", "url": "https://epfigms.gov.in/Grievance/GrievanceMaster" },
+      "sourceId": "src_epfigms_register",
+      "evidence": "For Speedy redress of your grievance, please select the appropriate Status if you have a UAN / PPO Number / Establishment Number. Others to be selected only when you do not have UAN / PPO Number/ Establishment Number.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "EPFiGMS is also available inside the UMANG mobile application under EPFO Services.",
+      "kind": "CHANNEL",
+      "subject": "pf_withdrawal",
+      "object": "epfigms_umang",
+      "sourceId": "src_epfigms",
+      "evidence": "\"EPFiGMS is available in UMANG. Please lodge your grievances using UMANG Mobile Application and select EPFO Services\"",
+      "confidence": 0.94
+    },
+    {
+      "claim": "Claim status for a PF settlement, advance or transfer is checked at the official claim status URL.",
+      "kind": "TRACKING",
+      "subject": "pf_withdrawal",
+      "object": "claim_status",
+      "detail": { "whoMustAct": "CITIZEN", "url": "https://passbook.epfindia.gov.in/MemClaimStatusUAN/" },
+      "sourceId": "src_epfo_faq",
+      "evidence": "Please use the url https://passbook.epfindia.gov.in/MemClaimStatusUAN/ for checking your claim status.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The member portal offers Activate UAN, Know Your UAN, Direct UAN Allotment and UAN for Existing PF entry points without login.",
+      "kind": "CHANNEL",
+      "subject": "pf_withdrawal",
+      "object": "member_portal",
+      "detail": { "whoMustAct": "CITIZEN", "url": "https://unifiedportal-mem.epfindia.gov.in/memberinterface/" },
+      "sourceId": "src_unifiedportal_mem",
+      "evidence": "Activate UAN\\\n\\\nActivate your UAN to access EPF services online",
+      "confidence": 0.9
+    },
+    {
+      "claim": "UAN activation for existing UANs and generation of new UANs can be done through the UMANG app.",
+      "kind": "CHANNEL",
+      "subject": "pf_withdrawal",
+      "object": "uan_activation",
+      "detail": { "whoMustAct": "CITIZEN", "channel": "UMANG app" },
+      "sourceId": "src_unifiedportal_mem",
+      "evidence": "Dear Member, UAN activation for existing UANs and generation of new UANs can be done through the UMANG app.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "EPF balance can be obtained by a missed call to 9966044425 or by SMS, and the EPFO help desk toll free number is 1800118005.",
+      "kind": "HELPLINE",
+      "subject": "pf_withdrawal",
+      "object": "helplines",
+      "detail": { "missedCall": "9966044425", "sms": "EPFOHO UAN <LAN> to 7738299899", "tollFree": "1800118005" },
+      "sourceId": "src_epfo_passbook",
+      "evidence": "For EPF Balance Enquiry : 1. Give a Missed call to 9966044425 or 2. SMS EPFOHO UAN < LAN > to 7738299899\n\nHelp Desk/Toll Free Number : 1800118005",
+      "confidence": 0.96
+    },
+    {
+      "claim": "UAN-activated members can obtain their latest PF contribution and balance by sending EPFOHO UAN to 7738299899 from the registered mobile number.",
+      "kind": "HELPLINE",
+      "subject": "pf_withdrawal",
+      "object": "sms_service",
+      "detail": { "sms": "EPFOHO UAN to 7738299899" },
+      "sourceId": "src_umang_epfo",
+      "evidence": "UAN activated Members may know their latest PF contribution and balance available with EPFO by sending an SMS at 7738299899 from registered mobile number.\nEPFOHO UAN to 7738299899.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "UMANG exposes EPFO services including PF balance, raising a claim, applying for a Scheme Certificate, applying for a UAN, seeding UAN with Aadhaar, checking claim status, establishment search, viewing EPFO office address and registering a grievance.",
+      "kind": "CHANNEL",
+      "subject": "pf_withdrawal",
+      "object": "umang_services",
+      "detail": { "url": "https://web.umang.gov.in/landing/department/epfo.html" },
+      "sourceId": "src_umang_epfo",
+      "evidence": "Users can check their PF balance,Raise claim,Apply for Scheme Certificate,Apply for UAN, Seed UAN with Aadhaar,Check claim status,Search for establishment,View EPFO office address,Register Grievance and apply for Jeevan Pramaan certificate using this app.",
+      "confidence": 0.96
+    },
+    {
+      "claim": "UMANG's Track Claim service shows only the non-financial status details of claims raised against a member ID.",
+      "kind": "TRACKING",
+      "subject": "pf_withdrawal",
+      "object": "umang_track_claim",
+      "sourceId": "src_umang_epfo",
+      "evidence": "Track the status (only the non financial details) of the claims raised against a member ID.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "EPFO office contact details are obtained by selecting the zonal office and then the concerned Regional/District office on the official Contact Us page.",
+      "kind": "OFFICE",
+      "subject": "pf_withdrawal",
+      "object": "epfo_office_directory",
+      "detail": { "whoMustAct": "CITIZEN", "url": "https://www.epfindia.gov.in/site_en/Contact_us.php", "gujaratOfficeAddresses": null, "gujaratOfficePhones": null },
+      "sourceId": "src_epfo_faq",
+      "evidence": "Please visit https://www.epfindia.gov.in/site_en/Contact_us.php. Click on the Zonal office under which EPF Regional/District office falls >> Click on concerned Regional/District office to get their contact details.",
+      "confidence": 0.9
+    },
+    {
+      "claim": "If an employee is not given PF membership he can approach his employer, failing which the Regional Provident Fund Commissioner of the nearest PF office.",
+      "kind": "GRIEVANCE",
+      "subject": "pf_withdrawal",
+      "object": "escalation_ladder",
+      "detail": { "whoMustAct": "CITIZEN" },
+      "sourceId": "src_epfo_faq",
+      "evidence": "He can approach his employer failing which he can approach the Regional Provident Fund Commissioner of the nearest PF office.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "For using DSC or e-Sign the employer needs one time approval from a Regional Office of EPFO, obtained by sending a signed one time registration request.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "pf_withdrawal",
+      "object": "employer_dsc_registration",
+      "detail": { "whoMustAct": "EMPLOYER" },
+      "sourceId": "src_epfo_faq",
+      "evidence": "For using DSC/e-Sign, one time approval from Regional Offices of EPFO is required. The employers are required to send one time registration request to regional offices for approval, duly signed by the employer.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "Tasks such as KYC attestation and transfer claim attestation are done online by the employer's authorised persons using digital signatures or Aadhaar based e-Sign.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "pf_withdrawal",
+      "object": "employer_attestation",
+      "detail": { "whoMustAct": "EMPLOYER" },
+      "sourceId": "src_epfo_faq",
+      "evidence": "Many important tasks like KYC attestation, transfer claim attestation etc are done online by the authorized persons of employer using their digital signatures or Aadhaar based e-Sign on EPFO portal.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "Where a previous PF account does not appear for transfer, the cause is a missing date of exit for the previous service in the Unified Portal.",
+      "kind": "BLOCKER",
+      "subject": "pf_transfer",
+      "object": "date_of_exit",
+      "detail": { "whoMustAct": "CITIZEN" },
+      "sourceId": "src_epfo_faq",
+      "evidence": "Above situation occurs when Date of exit of previous service is not available in unified Portal. After updating date of exit, submit online Form-13 and transfer the previous account to current member account.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "CPGRAMS is the Government of India public grievance portal and grievances sent by email are not entertained; they must be lodged on the portal.",
+      "kind": "CHANNEL",
+      "subject": "pf_withdrawal",
+      "object": "cpgrams",
+      "detail": { "url": "https://pgportal.gov.in/", "ministry": "Ministry of Personnel, Public Grievances & Pensions" },
+      "sourceId": "src_cpgrams",
+      "evidence": "Any Grievance sent by email will not be attended to / entertained. Please lodge your grievance on this portal.",
+      "confidence": 0.9
+    }
+  ],
+  "notFound": [
+    "www.epfindia.gov.in refused every direct connection on 2026-08-23 (curl: 'Could not connect to server'; Firecrawl: ERR_TUNNEL_CONNECTION_FAILED; WebFetch: ECONNREFUSED 164.100.160.96:443). All epfindia.gov.in facts above were read from Internet Archive captures of the official pages, not from a live fetch. Sub-domains unifiedportal-mem.epfindia.gov.in and passbook.epfindia.gov.in were reachable live.",
+    "EPFO Gujarat regional office addresses and phone numbers: the official Contact page (https://www.epfindia.gov.in/site_en/Contact.php) is a state/district/office search form and renders no static directory, so no Gujarat office address or phone could be verified. Set to null.",
+    "No official EPFO page was found stating that CPGRAMS (pgportal.gov.in) is the formal escalation tier above EPFiGMS. The only officially printed escalation above EPFiGMS is the Regional P.F. Commissioner in charge of grievances and the 'Nidhi Apke Nikat' hearing. Do not assert a CPGRAMS-above-EPFiGMS ladder without a source.",
+    "The 14470 toll-free number appears only in a link description inside the cached site map (.firecrawl/pf/map-epfindia.json), not in a page body that could be fetched and quoted; only 1800118005 is quoted above from a live official page.",
+    "No official page could be retrieved confirming a 'missing employer DSC' rejection reason worded as such; the officially printed dependency is that KYC must be approved by the employer using his Digital Signature Certificate.",
+    "The Joint Declaration circular at pmvbry-cdn.epfindia.gov.in is a scanned image PDF with no extractable text, so its exact wording on the 11 correctable parameters is unverified.",
+    "The MembersFAQ.pdf source predates the Unified Portal (it references memberclaims.epfoservices.in) and is partly superseded by the Jan 2025 self-approval change; treat its 'member cannot edit' fact as historical baseline, not current for Aadhaar-validated UANs."
+  ]
+}

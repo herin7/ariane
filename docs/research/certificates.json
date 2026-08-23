@@ -1,0 +1,732 @@
+{
+  "journey": "certificates",
+  "researchedAt": "2026-08-23T11:52:00+05:30",
+  "region": "Gujarat, India",
+  "sources": [
+    {
+      "id": "src_ahd_income",
+      "url": "https://ahmedabad.nic.in/service/income-certificate/",
+      "title": "Income Certificate - Mamlatdar Office, Jan Seva Kendra (District Ahmedabad)",
+      "domain": "ahmedabad.nic.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T02:27:00Z",
+      "cacheFile": ".firecrawl/research/ahd-income.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_morbi_caste",
+      "url": "https://morbi.nic.in/service/caste-certificate/",
+      "title": "Caste Certificate | District Morbi, Government of Gujarat",
+      "domain": "morbi.nic.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T02:45:00Z",
+      "cacheFile": ".firecrawl/research/morbi-caste.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_morbi_domicile",
+      "url": "https://morbi.nic.in/service/domicile-certificate/",
+      "title": "Domicile Certificate | District Morbi, Government of Gujarat",
+      "domain": "morbi.nic.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T02:45:00Z",
+      "cacheFile": ".firecrawl/research/morbi-domicile.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_morbi_certcat",
+      "url": "https://morbi.nic.in/service-category/certificates/",
+      "title": "Certificates | District Morbi, Government of Gujarat",
+      "domain": "morbi.nic.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "retrievedAt": "2026-08-23T02:55:00Z",
+      "cacheFile": ".firecrawl/research/morbi-certcat.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_mahesana_income",
+      "url": "https://mahesana.nic.in/service/regarding-getting-a-widow-and-income-certificate/",
+      "title": "Regarding obtaining widow and income certificates | District Mahesana",
+      "domain": "mahesana.nic.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T02:45:00Z",
+      "cacheFile": ".firecrawl/research/mahesana-income.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_dwarka_certs",
+      "url": "https://devbhumidwarka.nic.in/service/certificates/",
+      "title": "Certificates | District Devbhumi Dwarka, Government of Gujarat",
+      "domain": "devbhumidwarka.nic.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T02:45:00Z",
+      "cacheFile": ".firecrawl/research/dwarka-certs.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_bk_certs",
+      "url": "https://banaskantha.nic.in/service/certificate/",
+      "title": "Certificate | District Banaskantha, Government of Gujarat",
+      "domain": "banaskantha.nic.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T02:50:00Z",
+      "cacheFile": ".firecrawl/research/bk-certs.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_sng_caste",
+      "url": "https://surendranagar.nic.in/service/caste-certificate/",
+      "title": "Caste Certificate | District Surendranagar, Government of Gujarat",
+      "domain": "surendranagar.nic.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T02:50:00Z",
+      "cacheFile": ".firecrawl/research/sng-caste.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_ahd_sebc",
+      "url": "https://ahmedabad.nic.in/service/sebc-certificate/",
+      "title": "SEBC Certificate | District Ahmedabad, Government of Gujarat",
+      "domain": "ahmedabad.nic.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T02:50:00Z",
+      "cacheFile": ".firecrawl/research/ahd-sebc.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_ahd_ncl",
+      "url": "https://ahmedabad.nic.in/service/non-creamy-layer-certificate-for-gujarat-government/",
+      "title": "Non-Creamy Layer Certificate For Gujarat Government | District Ahmedabad",
+      "domain": "ahmedabad.nic.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T02:50:00Z",
+      "cacheFile": ".firecrawl/research/ahd-ncl-guj.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_surat_caste",
+      "url": "https://surat.nic.in/service/caste-certificate/",
+      "title": "Caste Certificate | District Surat, Government of Gujarat",
+      "domain": "surat.nic.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T03:00:00Z",
+      "cacheFile": ".firecrawl/research/surat-caste.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_vad_residence",
+      "url": "https://vadodara.nic.in/service/residence-certificate/",
+      "title": "Domicile Certificate & Other Services - DIGITAL GUJARAT | District Vadodara",
+      "domain": "vadodara.nic.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T03:00:00Z",
+      "cacheFile": ".firecrawl/research/vad-residence.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_surat_form36",
+      "url": "https://surat.nic.in/form/income-certificate-form-no-36/",
+      "title": "Income Certificate : Form No. 36 | District Surat, Government of Gujarat",
+      "domain": "surat.nic.in",
+      "sourceType": "PDF",
+      "retrievedAt": "2026-08-23T03:02:00Z",
+      "cacheFile": ".firecrawl/research/surat-form36.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_myscheme_mysy",
+      "url": "https://www.myscheme.gov.in/schemes/mysy",
+      "title": "Mukhyamantri Yuva Swavalamban Yojana | myScheme (National Government Services Portal)",
+      "domain": "myscheme.gov.in",
+      "sourceType": "GUIDELINE",
+      "retrievedAt": "2026-08-23T02:58:00Z",
+      "cacheFile": ".firecrawl/research/mysy-myscheme.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_dg_citizenservice",
+      "url": "https://www.digitalgujarat.gov.in/Citizen/CitizenService.aspx",
+      "title": "Digital Gujarat - Citizen Services (revenue certificates)",
+      "domain": "digitalgujarat.gov.in",
+      "sourceType": "PORTAL_HOME",
+      "retrievedAt": "2026-08-23T02:35:00Z",
+      "cacheFile": null,
+      "scrapedOk": false
+    },
+    {
+      "id": "src_dg_servicedescription",
+      "url": "https://www.digitalgujarat.gov.in/Citizen/ServiceDescription.aspx",
+      "title": "Digital Gujarat - Service Description",
+      "domain": "digitalgujarat.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T03:05:00Z",
+      "cacheFile": null,
+      "scrapedOk": false
+    }
+  ],
+  "facts": [
+    {
+      "claim": "Income Certificate in Gujarat is applied for through the Digital Gujarat citizen services portal.",
+      "kind": "CHANNEL",
+      "subject": "income_certificate",
+      "object": "digital_gujarat_portal",
+      "detail": { "serviceUrl": "https://www.digitalgujarat.gov.in/Citizen/CitizenService.aspx" },
+      "sourceId": "src_ahd_income",
+      "evidence": "Visit: https://www.digitalgujarat.gov.in/Citizen/CitizenService.aspx",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The Income Certificate service is delivered at the Mamlatdar Office / Jan Seva Kendra.",
+      "kind": "OFFICE",
+      "subject": "income_certificate",
+      "object": "mamlatdar_office_jan_seva_kendra",
+      "detail": { "district": "Ahmedabad", "pin": "380027" },
+      "sourceId": "src_ahd_income",
+      "evidence": "Location : Mamlatdar Office, Jan Seva Kendra | City : Ahmedabad | PIN Code : 380027",
+      "confidence": 0.92
+    },
+    {
+      "claim": "Ahmedabad Mamlatdar Office publishes phone 07927551681 and mobile/helpline 18002335500 for the Income Certificate service.",
+      "kind": "HELPLINE",
+      "subject": "income_certificate",
+      "object": "mamlatdar_office_helpline",
+      "detail": { "phone": "07927551681", "mobile": "18002335500" },
+      "sourceId": "src_ahd_income",
+      "evidence": "Phone : 07927551681 | Mobile : 18002335500",
+      "confidence": 0.93
+    },
+    {
+      "claim": "18002335500 is the Digital Gujarat Help Desk number for queries on online certificate applications.",
+      "kind": "HELPLINE",
+      "subject": "digital_gujarat_portal",
+      "object": "help_desk_18002335500",
+      "detail": { "number": "18002335500" },
+      "sourceId": "src_bk_certs",
+      "evidence": "For any query regarding the online application you can contact to Digital Gujarat Help Desk on 18002335500.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Caste Certificate requires a Resident Proof, and any one of ten listed documents is accepted as that proof.",
+      "kind": "ACCEPTED_ALTERNATIVES",
+      "subject": "caste_certificate",
+      "object": "resident_proof",
+      "detail": {
+        "group": "Resident Proof",
+        "logic": "ANY_OF",
+        "options": [
+          "Ration Card",
+          "True Copy of Electricity Bill",
+          "True Copy of Telephone Bill",
+          "True Copy of Election Card",
+          "True Copy of Passport",
+          "First Page Of Bank PassBook/Cancelled Cheque",
+          "Post Office Account Statement/Passbook",
+          "Driving License",
+          "Government Photo ID cards/ service photo identity card issued by PSU",
+          "Water bill (not older than 3 months)"
+        ]
+      },
+      "sourceId": "src_morbi_caste",
+      "evidence": "Resident Proof:\n\n- Ration Card\n- True Copy of Electricity Bill.\n- True Copy of Telephone Bill.\n- True Copy of Election Card.\n- True Copy of Passport\n- First Page Of Bank PassBook/Cancelled Cheque\n- Post Office Account Statement/Passbook\n- Driving License\n- Government Photo ID cards/ service photo identity card issued by PSU\n- Water bill (not older than 3 months)",
+      "confidence": 0.94
+    },
+    {
+      "claim": "A light bill (electricity bill) is an accepted residence proof for the Caste Certificate.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "caste_certificate",
+      "object": "electricity_bill",
+      "condition": "counts only as one option within Resident Proof",
+      "detail": { "group": "Resident Proof", "logic": "ANY_OF" },
+      "sourceId": "src_morbi_caste",
+      "evidence": "True Copy of Electricity Bill.",
+      "confidence": 0.9
+    },
+    {
+      "claim": "A ration card is an accepted residence proof for the Caste Certificate.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "caste_certificate",
+      "object": "ration_card",
+      "detail": { "group": "Resident Proof", "logic": "ANY_OF" },
+      "sourceId": "src_morbi_caste",
+      "evidence": "Ration Card",
+      "confidence": 0.9
+    },
+    {
+      "claim": "A water bill is accepted as residence proof for the Caste Certificate only if it is not older than 3 months.",
+      "kind": "CONDITIONAL_REQUIREMENT",
+      "subject": "caste_certificate",
+      "object": "water_bill",
+      "condition": "document age <= 3 months",
+      "detail": { "group": "Resident Proof", "maxAgeMonths": 3 },
+      "sourceId": "src_morbi_caste",
+      "evidence": "Water bill (not older than 3 months)",
+      "confidence": 0.92
+    },
+    {
+      "claim": "Caste Certificate requires an Identity Proof, satisfied by any one of seven listed documents.",
+      "kind": "ACCEPTED_ALTERNATIVES",
+      "subject": "caste_certificate",
+      "object": "identity_proof",
+      "detail": {
+        "group": "Identity Proof",
+        "logic": "ANY_OF",
+        "options": [
+          "True Copy of Election Card",
+          "True Copy Income Tax PAN Card",
+          "True Copy of Passport",
+          "Driving License",
+          "Government Photo ID cards/ service photo identity card issued by PSU",
+          "Any Government Document having citizen photo",
+          "Photo ID issued by Recognized Educational Institution"
+        ]
+      },
+      "sourceId": "src_morbi_caste",
+      "evidence": "Identity Proof:\n\n- True Copy of Election Card.\n- True Copy Income Tax PAN Card.\n- True Copy of Passport\n- Driving License\n- Government Photo ID cards/ service photo identity card issued by PSU\n- Any Government Document having citizen photo\n- Photo ID issued by Recognized Educational Institution",
+      "confidence": 0.94
+    },
+    {
+      "claim": "Caste Certificate requires a Caste Proof, satisfied by either a school leaving certificate or a family member's caste certificate with Pedhinamu / ration card.",
+      "kind": "ACCEPTED_ALTERNATIVES",
+      "subject": "caste_certificate",
+      "object": "caste_proof",
+      "detail": {
+        "group": "Caste Proof",
+        "logic": "ANY_OF",
+        "options": [
+          "True Copy of School Leaving Certificate",
+          "Certificate of a caste of the family member with Pedhinamu (Family Tree issued by Talati) or Ration Card"
+        ]
+      },
+      "sourceId": "src_morbi_caste",
+      "evidence": "Caste Proof:\n\n- True Copy of School Leaving Certificate\n- Certificate of a caste of the family member with Pedhinamu (Family Tree issued by Talati) or Ration Card",
+      "confidence": 0.94
+    },
+    {
+      "claim": "A Pedhinamu (family tree) issued by the Talati is an accepted supporting document for Caste Certificate caste proof.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "caste_certificate",
+      "object": "pedhinamu_talati_family_tree",
+      "detail": { "issuedBy": "Talati", "group": "Caste Proof" },
+      "sourceId": "src_morbi_caste",
+      "evidence": "Certificate of a caste of the family member with Pedhinamu (Family Tree issued by Talati) or Ration Card",
+      "confidence": 0.9
+    },
+    {
+      "claim": "A school leaving certificate is an accepted caste proof for the Caste Certificate.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "caste_certificate",
+      "object": "school_leaving_certificate",
+      "detail": { "group": "Caste Proof", "logic": "ANY_OF" },
+      "sourceId": "src_morbi_caste",
+      "evidence": "True Copy of School Leaving Certificate",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Caste Certificate requires a Relationship Proof, satisfied by a school leaving certificate, an affidavit, or the father's/uncle's/aunt's school leaving certificate.",
+      "kind": "ACCEPTED_ALTERNATIVES",
+      "subject": "caste_certificate",
+      "object": "relationship_proof",
+      "detail": {
+        "group": "Relationship Proof",
+        "logic": "ANY_OF",
+        "options": [
+          "True Copy of School Leaving Certificate",
+          "An affidavit attached with the application",
+          "True Copy of School Leaving Certificate of Father/Uncle/Aunts"
+        ]
+      },
+      "sourceId": "src_morbi_caste",
+      "evidence": "Relationship Proof:\n\n- True Copy of School Leaving Certificate\n- An affidavit attached with the application.\n- True Copy of School Leaving Certificate of Father/Uncle/Aunts",
+      "confidence": 0.94
+    },
+    {
+      "claim": "An affidavit is an accepted relationship proof for the Caste Certificate.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "caste_certificate",
+      "object": "affidavit",
+      "detail": { "group": "Relationship Proof", "logic": "ANY_OF" },
+      "sourceId": "src_morbi_caste",
+      "evidence": "An affidavit attached with the application.",
+      "confidence": 0.9
+    },
+    {
+      "claim": "The Caste Certificate is delivered through the Jan Seva Kendra located at the respective Taluka Mamlatdar office.",
+      "kind": "OFFICE",
+      "subject": "caste_certificate",
+      "object": "taluka_mamlatdar_office_jan_seva_kendra",
+      "sourceId": "src_morbi_caste",
+      "evidence": "Location : Respective Taluka Mamlatdar office | City : Each Talukas",
+      "confidence": 0.92
+    },
+    {
+      "claim": "Digital Gujarat's ServiceDescription page is the referenced online service entry point for the Caste Certificate.",
+      "kind": "CHANNEL",
+      "subject": "caste_certificate",
+      "object": "digital_gujarat_portal",
+      "detail": { "serviceUrl": "https://www.digitalgujarat.gov.in/Citizen/ServiceDescription.aspx" },
+      "sourceId": "src_morbi_caste",
+      "evidence": "Visit: https://www.digitalgujarat.gov.in/Citizen/ServiceDescription.aspx",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Domicile Certificate requires eleven listed proofs including a Panchnamu, a Talati certificate, a police NOC and an affidavit.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "domicile_certificate",
+      "object": "proofs_needed_list",
+      "detail": {
+        "logic": "ALL_OF_AS_LISTED",
+        "items": [
+          "Panchnamu",
+          "Certificate of Talati",
+          "Applicant Answer",
+          "Domicile by Birth (Birth Certificate)",
+          "Proof of Parent's Job/Business",
+          "No Objection Certificate of Police Station",
+          "Character Certificate",
+          "Affidavit",
+          "Last 10 years residence proof",
+          "Identity Proof",
+          "Resident Proof"
+        ]
+      },
+      "sourceId": "src_morbi_domicile",
+      "evidence": "Proofs Needed:\n\n- Panchnamu\n- Certificate of Talati.\n- Applicant Answer\n- Domicile by Birth (Birth Certificate)\n- Proof of Parent’s Job/Business\n- No Objection Certificate of Police Station\n- Character Certificate\n- Affidavit\n- Last 10 years residence proof\n- Identity Proof\n- Resident Proof",
+      "confidence": 0.94
+    },
+    {
+      "claim": "A Certificate of Talati is required for the Domicile Certificate.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "domicile_certificate",
+      "object": "talati_certificate",
+      "detail": { "issuedBy": "Talati" },
+      "sourceId": "src_morbi_domicile",
+      "evidence": "Certificate of Talati.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "A No Objection Certificate from the Police Station is required for the Domicile Certificate, making it an external dependency on the police.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "domicile_certificate",
+      "object": "police_station_noc",
+      "detail": { "externalParty": "Police Station" },
+      "sourceId": "src_morbi_domicile",
+      "evidence": "No Objection Certificate of Police Station",
+      "confidence": 0.92
+    },
+    {
+      "claim": "An affidavit is required for the Domicile Certificate.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "domicile_certificate",
+      "object": "affidavit",
+      "sourceId": "src_morbi_domicile",
+      "evidence": "Affidavit",
+      "confidence": 0.88
+    },
+    {
+      "claim": "Domicile Certificate requires proof of residence covering the last 10 years.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "domicile_certificate",
+      "object": "ten_year_residence_proof",
+      "detail": { "yearsCovered": 10 },
+      "sourceId": "src_morbi_domicile",
+      "evidence": "Last 10 years residence proof",
+      "confidence": 0.92
+    },
+    {
+      "claim": "A birth certificate establishes domicile by birth for the Domicile Certificate.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "domicile_certificate",
+      "object": "birth_certificate",
+      "sourceId": "src_morbi_domicile",
+      "evidence": "Domicile by Birth (Birth Certificate)",
+      "confidence": 0.9
+    },
+    {
+      "claim": "The Domicile Certificate is delivered at the Taluka Seva Sadan / respective Taluka Mamlatdar office Jan Seva Kendra.",
+      "kind": "OFFICE",
+      "subject": "domicile_certificate",
+      "object": "taluka_seva_sadan_mamlatdar_office",
+      "sourceId": "src_morbi_domicile",
+      "evidence": "Location : Respective Taluka Mamlatdar office | City : All Talukas",
+      "confidence": 0.9
+    },
+    {
+      "claim": "The Income Certificate (issued together with the widow certificate service) is granted by the Mamlatdar or the Taluka Development Officer.",
+      "kind": "OFFICE",
+      "subject": "income_certificate",
+      "object": "mamlatdar_or_taluka_development_officer",
+      "detail": { "district": "Mahesana" },
+      "sourceId": "src_mahesana_income",
+      "evidence": "According to Mamlatdar / Taluka Development Officer.",
+      "confidence": 0.9
+    },
+    {
+      "claim": "The disposal time limit for the widow-and-income certificate service is 7 days.",
+      "kind": "TIMELINE",
+      "subject": "income_certificate",
+      "object": "disposal_time_limit",
+      "detail": { "days": 7, "district": "Mahesana", "serviceScope": "widow and income certificate" },
+      "sourceId": "src_mahesana_income",
+      "evidence": "Disposal time limit is 7 days.",
+      "confidence": 0.9
+    },
+    {
+      "claim": "The fee for the widow-and-income certificate service is Rs. 20.",
+      "kind": "FEE",
+      "subject": "income_certificate",
+      "object": "application_fee",
+      "detail": { "amountInr": 20, "district": "Mahesana", "serviceScope": "widow and income certificate" },
+      "sourceId": "src_mahesana_income",
+      "evidence": "Fee Rs. 20/-",
+      "confidence": 0.9
+    },
+    {
+      "claim": "The widow-and-income certificate application requires nine certified evidence items including income proof, an affidavit and a ration card copy.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "income_certificate",
+      "object": "certified_evidence_list",
+      "detail": {
+        "logic": "ALL_OF_AS_LISTED",
+        "district": "Mahesana",
+        "items": [
+          "Applicant's application",
+          "Responding to the applicant's Talati face-to-face",
+          "Panchanamu",
+          "Proof of residence (telephone bill / light bill / municipal tax bill, whatever one)",
+          "Death Examples",
+          "Example of age (example of a school living certificate / civil surgeon municipality or Talati)",
+          "Income Proof",
+          "Affidavit (as per Appendix 4/48)",
+          "Copy of ration card"
+        ]
+      },
+      "sourceId": "src_mahesana_income",
+      "evidence": "Certified copy of the evidence\n\n1. Applicant’s application\n2. Responding to the applicant’s Talati face-to-face\n3. Panchanamu\n4. Proof of residence (telephone bill / light bill / municipal tax bill, whatever one)\n5. Death Examples\n6. Example of age (example of a school living certificate / civil surgeon municipality or Talati)\n7. Income Proof\n8. Affidavit (as per Appendix 4/48)\n9. Copy of ration card",
+      "confidence": 0.9
+    },
+    {
+      "claim": "For the income certificate evidence, residence proof is satisfied by any one of a telephone bill, light bill or municipal tax bill.",
+      "kind": "ACCEPTED_ALTERNATIVES",
+      "subject": "income_certificate",
+      "object": "residence_proof",
+      "detail": {
+        "logic": "ANY_OF",
+        "options": ["telephone bill", "light bill", "municipal tax bill"]
+      },
+      "sourceId": "src_mahesana_income",
+      "evidence": "Proof of residence (telephone bill / light bill / municipal tax bill, whatever one)",
+      "confidence": 0.9
+    },
+    {
+      "claim": "For the income certificate evidence, age proof is satisfied by a school leaving certificate or a certificate from the civil surgeon, municipality or Talati.",
+      "kind": "ACCEPTED_ALTERNATIVES",
+      "subject": "income_certificate",
+      "object": "age_proof",
+      "detail": {
+        "logic": "ANY_OF",
+        "options": ["school living certificate", "civil surgeon", "municipality", "Talati"]
+      },
+      "sourceId": "src_mahesana_income",
+      "evidence": "Example of age (example of a school living certificate / civil surgeon municipality or Talati)",
+      "confidence": 0.88
+    },
+    {
+      "claim": "An affidavit as per Appendix 4/48 is required for the widow-and-income certificate.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "income_certificate",
+      "object": "affidavit_appendix_4_48",
+      "detail": { "form": "Appendix 4/48" },
+      "sourceId": "src_mahesana_income",
+      "evidence": "Affidavit (as per Appendix 4/48)",
+      "confidence": 0.88
+    },
+    {
+      "claim": "A copy of the ration card is required for the widow-and-income certificate.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "income_certificate",
+      "object": "ration_card",
+      "sourceId": "src_mahesana_income",
+      "evidence": "Copy of ration card",
+      "confidence": 0.88
+    },
+    {
+      "claim": "The Talati must respond in person on the applicant's income certificate case, which is a step outside the applicant's control.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "income_certificate",
+      "object": "talati_report",
+      "detail": { "externalParty": "Talati" },
+      "sourceId": "src_mahesana_income",
+      "evidence": "Responding to the applicant’s Talati face-to-face",
+      "confidence": 0.85
+    },
+    {
+      "claim": "Mahesana Mamlatdar Office publishes phone 02762236386 and email mam-mehsana[at]gujarat[dot]gov[dot]in for the income/widow certificate service.",
+      "kind": "HELPLINE",
+      "subject": "income_certificate",
+      "object": "mahesana_mamlatdar_contact",
+      "detail": { "phone": "02762236386", "email": "mam-mehsana@gujarat.gov.in" },
+      "sourceId": "src_mahesana_income",
+      "evidence": "Phone : 02762236386 | Email : mam-mehsana[at]gujarat[dot]gov[dot]in",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Income, Domicile, SEBC, SC/ST Caste and Non-Creamy Layer certificates are all delivered through the ATVT / Jan Seva Kendra at every Taluka Mamlatdar or Panchayat office and are also available online.",
+      "kind": "CHANNEL",
+      "subject": "certificates_bundle",
+      "object": "atvt_jan_seva_kendra",
+      "detail": {
+        "services": [
+          "Income Certificate",
+          "Domicile Certificate",
+          "Senior Citizen Certificate",
+          "Widow Certificate",
+          "Character Certificate",
+          "Religious Minority Certificate",
+          "SEBC Certificate",
+          "SC/ST Caste Certificate",
+          "Economically Backward Certificate(Other than Job/Education Purpose)",
+          "Non-Creamy layer Certificate For Gujarat Government",
+          "Non-Creamy layer Certificate For Central Government",
+          "Unreserved Economically Weaker Sections(For Job/Education Purpose)",
+          "Farmer Certificate",
+          "Varsai Certificate"
+        ]
+      },
+      "sourceId": "src_dwarka_certs",
+      "evidence": "ATVT / Jan Seva Kendra caters following citizen centric services at all Taluka Mamlatdar / Panchayat Office of Devbhumi Dwarka District.\n\nAlso these services are made available online.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "The certificate services are physically delivered at the respective Mamlatdar or TDO (Taluka Development Officer) office in every taluka.",
+      "kind": "OFFICE",
+      "subject": "certificates_bundle",
+      "object": "mamlatdar_or_tdo_office",
+      "sourceId": "src_dwarka_certs",
+      "evidence": "Location : respective Mamlatdar / TDO Office | City : All Taluka",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Gujarat issues two distinct Non-Creamy Layer certificates - one for Gujarat Government purposes and one for Central Government purposes.",
+      "kind": "DEPENDENCY",
+      "subject": "non_creamy_layer_certificate",
+      "object": "two_variants_state_and_central",
+      "detail": {
+        "variants": [
+          "Non-Creamy layer Certificate For Gujarat Government",
+          "Non-Creamy layer Certificate For Central Government"
+        ]
+      },
+      "sourceId": "src_dwarka_certs",
+      "evidence": "- Non-Creamy layer Certificate For Gujarat Government\n- Non-Creamy layer Certificate For Central Government",
+      "confidence": 0.92
+    },
+    {
+      "claim": "The Economically Backward Certificate is issued specifically for purposes other than job or education, while the Unreserved EWS certificate is for job/education purposes.",
+      "kind": "CONDITIONAL_REQUIREMENT",
+      "subject": "ews_certificate",
+      "object": "purpose_of_use",
+      "condition": "purpose IN [job, education] selects the EWS variant; other purposes select the Economically Backward variant",
+      "sourceId": "src_dwarka_certs",
+      "evidence": "- Economically Backward Certificate(Other than Job/Education Purpose)\n- Unreserved Economically Weaker Sections(For Job/Education Purpose)",
+      "confidence": 0.88
+    },
+    {
+      "claim": "Caste Certificate can be applied for both online on Digital Gujarat and offline at a Janseva Kendra.",
+      "kind": "CHANNEL",
+      "subject": "caste_certificate",
+      "object": "online_and_offline",
+      "sourceId": "src_sng_caste",
+      "evidence": "Citizen can apply for this services online and offline as well. All these applications are available on comman service portal Digital Gujarat portal. Citizen can also apply at Janseva Kendra.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "The caste-related certificate family in Gujarat consists of SEBC Certificate, SC/ST Caste Certificate and Non-Creamy Layer Certificate For Gujarat Government.",
+      "kind": "DEPENDENCY",
+      "subject": "caste_certificate",
+      "object": "certificate_variants",
+      "detail": {
+        "variants": [
+          "SEBC Certificate",
+          "SC/ST Caste Certificate",
+          "Non-Creamy Layer Certificate For Gujarat Government"
+        ]
+      },
+      "sourceId": "src_surat_caste",
+      "evidence": "- SEBC Certificate\n- SC/ST Caste Certificate\n- Non-Creamy Layer Certificate For Gujarat Government",
+      "confidence": 0.9
+    },
+    {
+      "claim": "The SEBC Certificate is issued from the Mamlatdar Office / Jan Seva Kendra and applied for on Digital Gujarat.",
+      "kind": "OFFICE",
+      "subject": "sebc_certificate",
+      "object": "mamlatdar_office_jan_seva_kendra",
+      "detail": { "district": "Ahmedabad", "pin": "380030" },
+      "sourceId": "src_ahd_sebc",
+      "evidence": "Location : Mamlatdar Office, Jan Seva Kendra | City : Ahmedabad | PIN Code : 380030",
+      "confidence": 0.9
+    },
+    {
+      "claim": "The Non-Creamy Layer Certificate For Gujarat Government is issued from the Mamlatdar Office / Jan Seva Kendra and applied for on Digital Gujarat.",
+      "kind": "OFFICE",
+      "subject": "non_creamy_layer_certificate_gujarat",
+      "object": "mamlatdar_office_jan_seva_kendra",
+      "detail": { "district": "Ahmedabad", "pin": "380027" },
+      "sourceId": "src_ahd_ncl",
+      "evidence": "Location : Mamlatdar Office, Jan Seva Kendra | City : Ahmedabad | PIN Code : 380027",
+      "confidence": 0.9
+    },
+    {
+      "claim": "The Jan Seva Kendra is a single-window system through which the Domicile Certificate is delivered.",
+      "kind": "CHANNEL",
+      "subject": "domicile_certificate",
+      "object": "jan_seva_kendra_single_window",
+      "detail": { "district": "Vadodara", "location": "Janseva Kendra, Narmada Bhavan, Jail Road, Vadodara" },
+      "sourceId": "src_vad_residence",
+      "evidence": "JanSeva Kendra : It is Single window system for many services. This is one of them.",
+      "confidence": 0.88
+    },
+    {
+      "claim": "The official Gujarat application form for the Income Certificate is Form No. 36.",
+      "kind": "ACTION",
+      "subject": "income_certificate",
+      "object": "form_no_36",
+      "detail": {
+        "formNumber": "36",
+        "pdf": "https://cdn.s3waas.gov.in/s38d317bdcf4aafcfc22149d77babee96d/uploads/2018/08/2018080526.pdf"
+      },
+      "sourceId": "src_surat_form36",
+      "evidence": "Income Certificate : Form No. 36",
+      "confidence": 0.9
+    },
+    {
+      "claim": "The State Government has approved a validity of three financial years for the income certificate from its date of issue, so it need not be re-issued for the next three financial years.",
+      "kind": "TIMELINE",
+      "subject": "income_certificate",
+      "object": "validity_period",
+      "detail": { "validityFinancialYears": 3, "context": "as applied to MYSY scholarship eligibility" },
+      "sourceId": "src_myscheme_mysy",
+      "evidence": "The State Government has approved the validity of the income certificate for three financial years from the date of issue. Accordingly, a candidate who has a valid income certificate need not have to issue it again for the next three years financial years.",
+      "confidence": 0.85
+    },
+    {
+      "claim": "Morbi district lists Domicile Certificate and Caste Certificate under its Certificates service category alongside Birth & Death Certificate.",
+      "kind": "CHANNEL",
+      "subject": "certificates_bundle",
+      "object": "district_certificate_category",
+      "sourceId": "src_morbi_certcat",
+      "evidence": "- [Birth & Death Certificate](https://morbi.nic.in/service/death-certificate/ \"Birth & Death Certificate\")\n- [Domicile Certificate](https://morbi.nic.in/service/domicile-certificate/ \"Domicile Certificate\")\n- [Caste Certificate](https://morbi.nic.in/service/caste-certificate/ \"Caste Certificate\")",
+      "confidence": 0.85
+    }
+  ],
+  "notFound": [
+    "The full official Digital Gujarat required-document list for the Income Certificate service. digitalgujarat.gov.in is hard-blocked from scraping (ERR_TUNNEL_CONNECTION_FAILED on /Citizen/CitizenService.aspx, /Citizen/ServiceDescription.aspx, /Home/Index and the bare domain); URL maps returned zero links. Only the Mahesana widow+income evidence list could be verified officially.",
+    "The official statewide fee schedule per certificate. Only the Mahesana district figure of Rs. 20 for the widow-and-income certificate was verifiable; no official fee found for caste, SEBC, NCL, domicile or EWS certificates.",
+    "Statewide statutory service-delivery timelines under the Gujarat (Right of Citizens to Public Services) Act, 2013. artd.gujarat.gov.in/public-service-act.htm and kachchh.nic.in/right-of-citizen-to-public-service-act/ both failed to load. Only Mahesana's 7-day disposal limit is evidenced.",
+    "Official certificate validity period for the Caste, SEBC, Non-Creamy Layer and Domicile certificates. Only the income certificate's 3-financial-year validity was found, and only via the MYSY scheme page on myscheme.gov.in.",
+    "Official Digital Gujarat application tracking URL and grievance channel for certificate applications. Only the 18002335500 Digital Gujarat Help Desk number is evidenced; no printed tracking page or grievance URL was retrievable.",
+    "Definitive split of which office issues which certificate. District pages variously name 'Mamlatdar Office', 'Mamlatdar / Taluka Development Officer' and 'respective Mamlatdar / TDO Office' without an authoritative per-certificate mapping. No official statement found that the Collector issues any of these certificates.",
+    "Any official statement on e-Gram / Village Computer Entrepreneur as a delivery channel for these certificates.",
+    "Whether a Sarpanch report (as opposed to a Talati report or Talati-issued Pedhinamu) is officially required for any of these certificates.",
+    "Whether an Aadhaar card is a mandatory document for the income, caste or domicile certificate. It appears in no official required-document list retrieved."
+  ]
+}

@@ -1,0 +1,897 @@
+{
+  "journey": "scholarship",
+  "researchedAt": "2026-08-23T12:05:00+05:30",
+  "region": "Gujarat, India",
+  "sources": [
+    {
+      "id": "src_nsp_students",
+      "url": "https://scholarships.gov.in/Students",
+      "title": "NSP - Students | National Scholarship Portal",
+      "domain": "scholarships.gov.in",
+      "sourceType": "PORTAL_HOME",
+      "retrievedAt": "2026-08-23T02:52:00+05:30",
+      "cacheFile": ".firecrawl/research/nsp-students.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_nsp_csss_faq",
+      "url": "https://scholarships.gov.in/public/schemeGuidelines/FAQ_DOHE_CSSS.pdf",
+      "title": "PM-USP Central Sector Scheme of Scholarship for College and University Students (CSSS) - FAQs 2025-26, Ministry of Education, Department of Higher Education",
+      "domain": "scholarships.gov.in",
+      "sourceType": "PDF",
+      "retrievedAt": "2026-08-23T02:52:00+05:30",
+      "cacheFile": ".firecrawl/research/nsp-csss-faq.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_nsp_st_faq",
+      "url": "https://scholarships.gov.in/public/schemeGuidelines/tribalfellowshipfaq.pdf",
+      "title": "Annexure II - FAQs for Students for NSP A.Y-2025-26, National Fellowship and Scholarship for Higher Education of ST Students, Ministry of Tribal Affairs",
+      "domain": "scholarships.gov.in",
+      "sourceType": "PDF",
+      "retrievedAt": "2026-08-23T02:52:00+05:30",
+      "cacheFile": ".firecrawl/research/nsp-annex2-faq.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_nsp_topclass_faq",
+      "url": "https://scholarships.gov.in/public/schemeGuidelines/Top_Class_Education_Scheme_2018_FAQ.pdf",
+      "title": "Frequently Asked Questions (FAQs) Top Class Education Scheme for SC Students",
+      "domain": "scholarships.gov.in",
+      "sourceType": "PDF",
+      "retrievedAt": "2026-08-23T02:52:00+05:30",
+      "cacheFile": ".firecrawl/research/nsp-topclass-faq.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_nsp_eligibility",
+      "url": "https://scholarships.gov.in/scholarshipEligibility",
+      "title": "Scholarship Eligibility Check | National Scholarship Portal",
+      "domain": "scholarships.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "retrievedAt": "2026-08-23T02:52:00+05:30",
+      "cacheFile": ".firecrawl/research/nsp-eligibility.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_sje_bck61",
+      "url": "https://sje.gujarat.gov.in/dscw/schemes/1521?lang=english",
+      "title": "GOI's Post Matric Scholarship for SC Students (BCK-6.1) | Director, Scheduled Caste Welfare, Gujarat",
+      "domain": "sje.gujarat.gov.in",
+      "sourceType": "GUIDELINE",
+      "retrievedAt": "2026-08-23T02:56:00+05:30",
+      "cacheFile": ".firecrawl/research/sje-bck61.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_sje_ntdnt",
+      "url": "https://sje.gujarat.gov.in/ddcw/schemes/2226?lang=english",
+      "title": "Educational scheme for Nomadic / De-notified Tribes students in self finance institutes | Director, Developing Castes Welfare, Gujarat",
+      "domain": "sje.gujarat.gov.in",
+      "sourceType": "GUIDELINE",
+      "retrievedAt": "2026-08-23T02:56:00+05:30",
+      "cacheFile": ".firecrawl/research/sje-2226.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_sje_mcm",
+      "url": "https://sje.gujarat.gov.in/ddcw/schemes/1492?lang=English",
+      "title": "Merit-cum-Means Scholarship (for Minority Communities) | Director, Developing Castes Welfare, Gujarat",
+      "domain": "sje.gujarat.gov.in",
+      "sourceType": "GUIDELINE",
+      "retrievedAt": "2026-08-23T02:56:00+05:30",
+      "cacheFile": ".firecrawl/research/sje-mcm.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_sje_medeng",
+      "url": "https://sje.gujarat.gov.in/ddcw/schemes/1482?lang=english",
+      "title": "Financial Assistance to Purchase Medical and Engineering Books/Instruments | Director, Developing Castes Welfare, Gujarat",
+      "domain": "sje.gujarat.gov.in",
+      "sourceType": "GUIDELINE",
+      "retrievedAt": "2026-08-23T02:56:00+05:30",
+      "cacheFile": ".firecrawl/research/sje-1482.md",
+      "scrapedOk": true
+    },
+    {
+      "id": "src_myscheme_mysy",
+      "url": "https://www.myscheme.gov.in/schemes/mysy",
+      "title": "Mukhyamantri Yuva Swavalamban Yojana | myScheme, National Government Services Portal (NeGD, MeitY)",
+      "domain": "myscheme.gov.in",
+      "sourceType": "GUIDELINE",
+      "retrievedAt": "2026-08-23T02:58:00+05:30",
+      "cacheFile": ".firecrawl/research/mysy-myscheme.md",
+      "scrapedOk": true,
+      "note": "Official Government of India scheme directory page for the Gujarat MYSY scheme. The scrape contains some 503 error fragments from embedded widgets, but the Details / Eligibility / Documents Required sections rendered in full."
+    },
+    {
+      "id": "src_dg_gssp",
+      "url": "https://www.digitalgujarat.gov.in/GSSP/",
+      "title": "Digital Gujarat Scholarship (GSSP)",
+      "domain": "digitalgujarat.gov.in",
+      "sourceType": "PORTAL_HOME",
+      "retrievedAt": "2026-08-23T02:58:00+05:30",
+      "cacheFile": null,
+      "scrapedOk": false,
+      "note": "Blocked. Every digitalgujarat.gov.in path attempted returned ERR_TUNNEL_CONNECTION_FAILED; a URL map of the domain returned zero links."
+    },
+    {
+      "id": "src_gssp_portal",
+      "url": "https://gssp.gujarat.gov.in/",
+      "title": "Digital Gujarat Portal - Gujarat State Scholarship Portal",
+      "domain": "gssp.gujarat.gov.in",
+      "sourceType": "PORTAL_HOME",
+      "retrievedAt": "2026-08-23T02:58:00+05:30",
+      "cacheFile": null,
+      "scrapedOk": false,
+      "note": "Scrape failed on two attempts (with and without a 4s JS render wait). No content extracted, so nothing from this portal is asserted as fact."
+    }
+  ],
+  "facts": [
+    {
+      "claim": "A One Time Registration (OTR) number is mandatory to avail any scholarship on the National Scholarship Portal.",
+      "kind": "DEPENDENCY",
+      "subject": "nsp_application",
+      "object": "one_time_registration",
+      "detail": { "otrUrl": "https://scholarships.gov.in/otrapplication/#/login-page" },
+      "sourceId": "src_nsp_students",
+      "evidence": "One Time Registration (OTR) is mandatory to avail scholarships. It is a unique number allotted to the candidate for the entire academic career and can be generated through National Scholarship Portal OTR Registration.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The OTR is a unique 14-digit number issued on the basis of the Aadhaar or Aadhaar Enrolment ID and lasts the student's entire academic career.",
+      "kind": "ELIGIBILITY",
+      "subject": "one_time_registration",
+      "object": "aadhaar_or_eid",
+      "detail": { "digits": 14 },
+      "sourceId": "src_nsp_students",
+      "evidence": "One Time Registration (OTR) is a unique 14-digit number issued based on the Aadhaar/Aadhaar Enrolment ID (EID) and is applicable for the entire academic career of the student.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Creating an OTR requires an active mobile number, an Aadhaar number (or Aadhaar Enrolment ID) and a mobile number that is linked with Aadhaar.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "one_time_registration",
+      "object": "otr_prerequisites",
+      "detail": {
+        "logic": "ALL_OF",
+        "items": [
+          "Active mobile number",
+          "Aadhaar number (in absence of Aadhaar Number, Aadhaar Enrollment ID)",
+          "Mobile number linked with Aadhaar"
+        ]
+      },
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "To create OTR, student should first keep the following documents ready: (a) Active mobile number, (b) Aadhaar number (in absence of Aadhaar Number, Aadhaar Enrollment ID), (c) Mobile number linked with Aadhaar.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "Aadhaar is mandatory for a student to register and fill up the scholarship application form online on NSP.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "nsp_application",
+      "object": "aadhaar",
+      "sourceId": "src_nsp_st_faq",
+      "evidence": "Aadhaar is Mandatory for the Students in order to Register and fill-up the application form online.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "A student without an Aadhaar number may apply using the Aadhaar Enrolment ID, but Aadhaar is mandatory for final scholarship disbursal.",
+      "kind": "CONDITIONAL_REQUIREMENT",
+      "subject": "nsp_application",
+      "object": "aadhaar_enrolment_id",
+      "condition": "student does not yet hold an Aadhaar number",
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "Yes, if you do not have an Aadhaar number, you may apply using your Aadhaar Enrollment ID, but update the Aadhaar on receiving the Aadhaar number, as Aadhaar is mandatory for final scholarship disbursal.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "Minor applicants may apply using a parent's Aadhaar but must submit their own Aadhaar on turning 18.",
+      "kind": "CONDITIONAL_REQUIREMENT",
+      "subject": "nsp_application",
+      "object": "parent_aadhaar",
+      "condition": "applicant is a minor (under 18)",
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "Yes, minor applicants can apply with their Parent’s Aadhaar but the applicant must submit their Aadhaar on attaining the age of 18 years.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "A mobile number is compulsory for applying on NSP and must remain the same throughout the tenure of the scholarship.",
+      "kind": "DEPENDENCY",
+      "subject": "nsp_application",
+      "object": "mobile_number",
+      "sourceId": "src_nsp_st_faq",
+      "evidence": "Yes, mobile number is compulsory for applying for Scholarship Scheme through National Scholarship Portal and it should remain same throughout the tenure of the scholarship.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "For a fresh NSP application the student must upload the Class 12 mark sheet, a family income certificate, a category/caste certificate if in a reserved category, and a disability certificate if applicable.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "nsp_fresh_application",
+      "object": "mandatory_upload_list",
+      "detail": {
+        "logic": "ALL_OF_WITH_CONDITIONALS",
+        "items": [
+          { "doc": "12th Mark Sheet", "condition": null },
+          { "doc": "Family Income Certificate", "condition": null },
+          { "doc": "Category/ caste Certification", "condition": "category IN [SC, ST, OBC, SEBC] (reserved category students)" },
+          { "doc": "Disability Certificate", "condition": "applicant has a disability" }
+        ]
+      },
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "FRESH: 12th Mark Sheet, Family Income Certificate, Category/ caste Certification for reserved category students, Disability Certificate (if applicable)",
+      "confidence": 0.94
+    },
+    {
+      "claim": "A caste/category certificate is required on NSP only for reserved category students, not for all applicants.",
+      "kind": "CONDITIONAL_REQUIREMENT",
+      "subject": "nsp_fresh_application",
+      "object": "caste_certificate",
+      "condition": "category IN [SC, ST, OBC, SEBC] (reserved category students)",
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "Category/ caste Certification for reserved category students",
+      "confidence": 0.92
+    },
+    {
+      "claim": "A disability certificate is required on NSP only if the applicant has a disability.",
+      "kind": "CONDITIONAL_REQUIREMENT",
+      "subject": "nsp_fresh_application",
+      "object": "disability_certificate",
+      "condition": "applicant has a disability",
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "Disability Certificate (if applicable)",
+      "confidence": 0.9
+    },
+    {
+      "claim": "For an NSP renewal application only the previous year mark sheet must be uploaded.",
+      "kind": "CONDITIONAL_REQUIREMENT",
+      "subject": "nsp_renewal_application",
+      "object": "previous_year_marksheet",
+      "condition": "applicationType == RENEWAL",
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "RENEWAL: Previous Year Mark Sheet",
+      "confidence": 0.92
+    },
+    {
+      "claim": "For renewal applications the income certificate is not called for; it is required only for the first year.",
+      "kind": "CONDITIONAL_REQUIREMENT",
+      "subject": "nsp_renewal_application",
+      "object": "income_certificate",
+      "condition": "applicationType == RENEWAL -> income certificate NOT required",
+      "sourceId": "src_nsp_st_faq",
+      "evidence": "For the first year the Income certificate should have been issued by the competent authority. For Renewal students Income certificate is not called for.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "The income certificate uploaded to NSP must be issued by a competent authority of the State Government; a certificate signed by a Notary is not valid.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "nsp_application",
+      "object": "income_certificate",
+      "detail": {
+        "issuer": "competent authority appointed by the State Government",
+        "notAccepted": "Notary-signed certificate"
+      },
+      "sourceId": "src_nsp_st_faq",
+      "evidence": "Income Certificate: Fresh applicants should upload latest family Income certificate for the year 2025-26 (Issued for the period from 1st April 2024 to 31st March 2025). and which should be issued by a competent authority to issue these certificates by the State Government (Certificate signed by Notary is not valid).",
+      "confidence": 0.94
+    },
+    {
+      "claim": "The income certificate for academic year 2025-26 must cover the financial year 1 April 2024 to 31 March 2025.",
+      "kind": "TIMELINE",
+      "subject": "income_certificate",
+      "object": "coverage_period",
+      "detail": { "academicYear": "2025-26", "periodFrom": "2024-04-01", "periodTo": "2025-03-31" },
+      "sourceId": "src_nsp_st_faq",
+      "evidence": "Fresh applicants should upload latest family Income certificate for the year 2025-26 (Issued for the period from 1st April 2024 to 31st March 2025).",
+      "confidence": 0.92
+    },
+    {
+      "claim": "A caste/community certificate uploaded to NSP must be signed and stamped by a Competent Authority; a Notary-signed certificate is not valid.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "nsp_application",
+      "object": "caste_certificate",
+      "condition": "category == ST (as stated for the ST scheme)",
+      "detail": { "notAccepted": "Notary-signed certificate" },
+      "sourceId": "src_nsp_st_faq",
+      "evidence": "ST Community/PVTG Certificate signed and stamped by Competent Authority (Certificate signed by Notary is not valid).",
+      "confidence": 0.92
+    },
+    {
+      "claim": "A scanned copy of the bank passbook clearly showing the account number and the student's name is a mandatory NSP upload.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "nsp_application",
+      "object": "bank_passbook",
+      "sourceId": "src_nsp_st_faq",
+      "evidence": "Scanned Copy of the Passbook clearly showing the account number and name of the student",
+      "confidence": 0.92
+    },
+    {
+      "claim": "A bonafide student certificate from the institution, in the format given by NSP in the application form, is a mandatory upload.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "nsp_application",
+      "object": "bonafide_certificate",
+      "detail": { "format": "as per the format given by NSP in application form", "issuer": "the institution" },
+      "sourceId": "src_nsp_st_faq",
+      "evidence": "Bonafide Student of the institution (as per the format given by NSP in application form)",
+      "confidence": 0.92
+    },
+    {
+      "claim": "A student photograph is a mandatory NSP upload.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "nsp_application",
+      "object": "student_photograph",
+      "sourceId": "src_nsp_st_faq",
+      "evidence": "Student Photograph",
+      "confidence": 0.88
+    },
+    {
+      "claim": "Documents uploaded to NSP must be .pdf or .jpeg and each file must not exceed 200 KB.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "nsp_application",
+      "object": "upload_constraints",
+      "detail": { "formats": [".pdf", ".jpeg"], "maxSizeKb": 200 },
+      "sourceId": "src_nsp_st_faq",
+      "evidence": "The format of the file should be .pdf and .jpeg and the size of each document should not exceed more than 200 KB. Also please upload documents which are clearly visible.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Documents can be fetched from DigiLocker instead of being uploaded manually.",
+      "kind": "CHANNEL",
+      "subject": "nsp_application",
+      "object": "digilocker",
+      "sourceId": "src_nsp_st_faq",
+      "evidence": "Upload all the mandatory documents or you can fetch your documents from Digi locker",
+      "confidence": 0.88
+    },
+    {
+      "claim": "After final submission the student's application must be verified by the institution before the cut-off date; an application not verified by the institute or the State Nodal Agency is treated as Invalid.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "nsp_application",
+      "object": "institute_verification",
+      "detail": {
+        "externalParty": "institution / State Higher Education Department / State Nodal Agency",
+        "failureMode": "application treated as 'Invalid'",
+        "blocking": true
+      },
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "After finally submitting the applications on the portal students are advised to get their online application verified by the respective institutions before the cut-off date. Application which is not verified either by the institute or by the concerned State Higher Education Department /State Nodal Agency or by both will be treated as ‘Invalid’.",
+      "confidence": 0.96
+    },
+    {
+      "claim": "Verification is a two-level chain: after institute verification the application moves to the Ministry for final verification.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "nsp_application",
+      "object": "two_level_verification",
+      "detail": { "level1": "Institute", "level2": "Ministry / State Nodal Agency" },
+      "sourceId": "src_nsp_st_faq",
+      "evidence": "After verification of application done by your institute, application comes at Ministry level for final verification.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "An application marked Defective by the institute or the Ministry returns to the student's own level for correction and resubmission.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "nsp_application",
+      "object": "defective_rework_loop",
+      "sourceId": "src_nsp_st_faq",
+      "evidence": "If your application has been marked in Defective mode by your Institute, then your application is available at your level, you have to do the necessary Updation in your application form and click on SUBMIT Button and application will go online at your Institute level for verification.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "Defective means correctable errors, whereas Rejected means the application is permanently disqualified.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "nsp_application",
+      "object": "defective_vs_rejected",
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "Defective: There are errors you can correct and resubmit.\n\nRejected: Your application is permanently disqualified due to non-fulfillment of eligibility or incorrect data.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "The deadline for institute and Ministry level verification is published on the NSP portal and communicated to institutes.",
+      "kind": "TIMELINE",
+      "subject": "institute_verification",
+      "object": "verification_deadline",
+      "sourceId": "src_nsp_st_faq",
+      "evidence": "Deadline of verification of application at Institute/Ministry level is available on the NSP portal. Ministry communicates the same to your institute and you can check from your institute also.",
+      "confidence": 0.9
+    },
+    {
+      "claim": "For the PM-USP CSSS and PM-USP J&K/Ladakh renewal round currently open, the student application closing date is 31-10-2026, institute verification closes 15-11-2026 and L2 verification closes 30/11/2026.",
+      "kind": "TIMELINE",
+      "subject": "nsp_renewal_application",
+      "object": "closing_dates",
+      "detail": {
+        "schemes": [
+          "PM-USP – Central Sector Scheme Of Scholarship For College And University Students (CSSS) (Merit Based Scheme)",
+          "PM USP Special Scholarship Scheme For Jammu Kashmir And Ladakh (Merit Based Scheme)"
+        ],
+        "studentApplicationCloses": "2026-10-31",
+        "instituteVerificationCloses": "2026-11-15",
+        "l2VerificationCloses": "2026-11-30",
+        "applicationType": "RENEWAL"
+      },
+      "sourceId": "src_nsp_students",
+      "evidence": "Renewal applications for the \"PM-USP – Central Sector Scheme Of Scholarship For College And University Students (CSSS) (Merit Based Scheme)\" and \"PM USP Special Scholarship Scheme For Jammu Kashmir And Ladakh (Merit Based Scheme)\" is currently open in NSP. Closing dates for student application is 31-10-2026 and closing date for institute verification is : 15-11-2026 and closing date for L2 verification is : 30/11/2026",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The National Scholarship Portal is open for academic year 2026-27 from 1 June 2026 onwards.",
+      "kind": "TIMELINE",
+      "subject": "nsp_application",
+      "object": "portal_opening",
+      "detail": { "academicYear": "2026-27", "opensFrom": "2026-06-01" },
+      "sourceId": "src_nsp_students",
+      "evidence": "The Portal is open for Academic year 2026-27 from 1'st June 2026 onwards.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "From AY 2026-27 a student may apply for one merit-based scholarship scheme and one or more welfare-based schemes.",
+      "kind": "ELIGIBILITY",
+      "subject": "nsp_application",
+      "object": "scheme_combination_rule",
+      "detail": { "meritBasedMax": 1, "welfareBasedMax": "one or more", "effectiveFrom": "AY 2026-27" },
+      "sourceId": "src_nsp_students",
+      "evidence": "Students may apply for one merit-based scholarship scheme and one or more welfare-based scholarship schemes from AY 2026–27, as per scheme eligibility criteria.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "The Ministry of Tribal Affairs ST scheme FAQ states a student cannot apply for more than one scholarship scheme.",
+      "kind": "ELIGIBILITY",
+      "subject": "nsp_application",
+      "object": "single_scheme_rule",
+      "detail": { "conflictsWith": "the AY 2026-27 announcement on scholarships.gov.in/Students allowing one merit-based plus welfare-based schemes" },
+      "sourceId": "src_nsp_st_faq",
+      "evidence": "A student cannot apply for more than one Scholarship Scheme.",
+      "confidence": 0.75
+    },
+    {
+      "claim": "Applying on the National Scholarship Portal is completely free of cost.",
+      "kind": "FEE",
+      "subject": "nsp_application",
+      "object": "application_fee",
+      "detail": { "amountInr": 0 },
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "No, application on the National Scholarship Portal is completely free of cost.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "To generate an Application ID the student must select their Domicile State and the Post-Matric option from the drop-down menu.",
+      "kind": "ACTION",
+      "subject": "nsp_application",
+      "object": "application_id_generation",
+      "detail": { "requiredSelections": ["Domicile State", "Post-Matric"] },
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "the students are required to select their Domicile State and the “Post-Matric” option from the drop-down menu.",
+      "confidence": 0.9
+    },
+    {
+      "claim": "The institute must be selected by its AISHE code, and scholarship payment is not released to students in institutes whose AISHE status is INACTIVE.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "nsp_application",
+      "object": "aishe_code_status",
+      "detail": { "checkUrl": "https://dcf.aishe.nic.in/aishenew/#/details/knowAisheCode" },
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "the scholarship payment won’t be released to the students studying in the institutes whose Status is INACTIVE.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "Students of private colleges are eligible provided the college is recognised by a regulatory body such as AICTE or UGC and is listed on the AISHE portal.",
+      "kind": "ELIGIBILITY",
+      "subject": "nsp_application",
+      "object": "private_college",
+      "condition": "college recognised by AICTE/UGC and listed on AISHE",
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "Yes, provided the private college is recognized by a regulatory body (like AICTE, UGC, etc.) and listed on the AISHE portal.",
+      "confidence": 0.9
+    },
+    {
+      "claim": "PM-USP CSSS requires family income up to Rs. 4.5 lakh per annum.",
+      "kind": "ELIGIBILITY",
+      "subject": "pm_usp_csss",
+      "object": "income_ceiling",
+      "detail": { "schemeName": "PM-USP Central Sector Scheme of Scholarship for College and University Students (CSSS)", "incomeCeilingInr": 450000, "period": "per annum" },
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "Having family income upto Rs. 4.5 lakh per annum",
+      "confidence": 0.95
+    },
+    {
+      "claim": "PM-USP CSSS applicants must be in the top 20 percentile of their Board in Class XII and must be pursuing a regular (not correspondence or distance) course.",
+      "kind": "ELIGIBILITY",
+      "subject": "pm_usp_csss",
+      "object": "merit_and_mode_criteria",
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "Students pursuing regular course (not correspondence or distance mode)",
+      "confidence": 0.9
+    },
+    {
+      "claim": "PM-USP CSSS applicants must not be receiving any other scholarship or fee reimbursement of any kind, and diploma students are not eligible.",
+      "kind": "ELIGIBILITY",
+      "subject": "pm_usp_csss",
+      "object": "exclusions",
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "Not receiving any other scholarship or fee reimbursement of any kind\n\n• Diploma students are not eligible under the scheme.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "PM-USP CSSS pays Rs. 12,000 per annum at graduation level for the first three years and Rs. 20,000 per annum at post-graduation level.",
+      "kind": "ELIGIBILITY",
+      "subject": "pm_usp_csss",
+      "object": "scholarship_rate",
+      "detail": { "graduationPerAnnumInr": 12000, "postGraduationPerAnnumInr": 20000 },
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "The rate of scholarship is Rs. 12,000/- per annum at Graduation level for first three years of College and University courses and Rs. 20,000/- per annum at Post-Graduation level.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "PM-USP CSSS renewal requires at least 50% marks and at least 75% attendance, for a total duration not exceeding 5 years.",
+      "kind": "ELIGIBILITY",
+      "subject": "pm_usp_csss",
+      "object": "renewal_criteria",
+      "detail": { "minMarksPercent": 50, "minAttendancePercent": 75, "maxDurationYears": 5 },
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "Student must secure at least 50% marks and maintain adequate attendance of at least 75%.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "Scholarship is disbursed by Direct Benefit Transfer into the student's Aadhaar-seeded bank account.",
+      "kind": "DEPENDENCY",
+      "subject": "nsp_application",
+      "object": "aadhaar_seeded_bank_account",
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "Scholarship is disbursed through Direct Benefit Transfer (DBT) mode i.e. directly into the bank accounts of the beneficiary. The scholarship amount will be disbursed in the Aadhaar Seeded Bank Account.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Aadhaar seeding means linking the 12-digit Aadhaar number with the bank account number for receiving DBT payments.",
+      "kind": "DEPENDENCY",
+      "subject": "aadhaar_seeded_bank_account",
+      "object": "definition",
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "The Aadhaar Seeding means linking Aadhaar holder’s Unique 12-digit AADHAAR number with their Bank Account number for receiving Direct Benefit Transfers (DBT) provided under various Government schemes like, Scholarships.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "Aadhaar seeding requires the student to visit the bank branch in person with a duly filled consent form, after which the branch links the Aadhaar to the account and to the NPCI mapper.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "aadhaar_seeded_bank_account",
+      "object": "bank_branch_seeding_process",
+      "detail": { "externalParty": "bank branch", "alsoUpdates": "NPCI mapper" },
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "The student has to visit the bank branch where she is holding an account and submit the duly filled consent form",
+      "confidence": 0.92
+    },
+    {
+      "claim": "Scholarship payment status can be tracked via the Know Your Payment template on the PFMS portal.",
+      "kind": "TRACKING",
+      "subject": "nsp_application",
+      "object": "pfms_know_your_payment",
+      "detail": { "url": "https://pfms.nic.in/SitePages/KnowYourPayment_Dw_NewNew.aspx" },
+      "sourceId": "src_nsp_students",
+      "evidence": "Track your scholarship disbursement status on PFMS portal",
+      "confidence": 0.93
+    },
+    {
+      "claim": "Application status is checked by logging in with the Aadhaar/OTR number and using Check Your Status against the Application ID under My Application.",
+      "kind": "TRACKING",
+      "subject": "nsp_application",
+      "object": "check_your_status",
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "You have to login under the option ‘Student Login’ by entering your Aadhaar number/ OTR number. After login, under the option ‘My Application’, you will be able to view the option ‘Check Your Status’ against your Application ID.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "Grievances must be registered on the Grievance Registration Tab available inside the student's NSP login.",
+      "kind": "GRIEVANCE",
+      "subject": "nsp_application",
+      "object": "grievance_registration_tab",
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "The grievances need to be register on the Grievance Registration Tab available in their Login.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "The NSP Helpdesk for technical issues is helpdesk@nsp.gov.in and 0120-6619540, available 8:00 AM to 8:00 PM on all days except government holidays.",
+      "kind": "HELPLINE",
+      "subject": "nsp_application",
+      "object": "nsp_helpdesk",
+      "detail": { "email": "helpdesk@nsp.gov.in", "phone": "0120-6619540", "hours": "8:00 AM to 8:00 PM on all days except government holidays" },
+      "sourceId": "src_nsp_st_faq",
+      "evidence": "If you experience any technical issues, please contact the NSP Helpdesk:\n\nEmail: helpdesk@nsp.gov.in\n\nPhone: 0120-6619540 (Available from 8:00 AM to 8:00 PM on all days except government holidays)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "For the Ministry of Education CSSS scheme, grievances are addressed to the Scholarship Division, Department of Higher Education at 011-20862360 / ns1-scholarship@gov.in.",
+      "kind": "GRIEVANCE",
+      "subject": "pm_usp_csss",
+      "object": "moe_scholarship_division",
+      "detail": { "phone": "011-20862360", "email": "ns1-scholarship@gov.in" },
+      "sourceId": "src_nsp_csss_faq",
+      "evidence": "Telephone: 011-20862360,\n\nEmail: ns1-scholarship@gov.in",
+      "confidence": 0.9
+    },
+    {
+      "claim": "The NSP Scholarship Eligibility checker collects domicile state, parent annual income, community, religion, disability and hosteller status to decide which schemes a student can apply for.",
+      "kind": "ELIGIBILITY",
+      "subject": "nsp_eligibility_checker",
+      "object": "input_fields",
+      "detail": {
+        "fields": ["Domicile State/UT", "Parent Annual Income", "Parent Profession", "Religion", "Community", "Is Disabled", "Hosteler", "Parents Not Alive", "Scholarship Category", "Application Type"]
+      },
+      "sourceId": "src_nsp_eligibility",
+      "evidence": "Domicile State/UT*\n\nChoose Your Option\n\nName\n\nGender*\n\nChoose Your Option\n\nDate of Birth*\n\nMarital Status*\n\nChoose Your Option\n\nParent Annual Income*\n\nParent Profession*",
+      "confidence": 0.88
+    },
+    {
+      "claim": "The Top Class Education Scheme for SC students requires annual family income up to Rs. 8.00 lakh.",
+      "kind": "ELIGIBILITY",
+      "subject": "top_class_education_scheme_sc",
+      "object": "income_ceiling",
+      "condition": "category == SC",
+      "detail": { "schemeName": "Top Class Education Scheme for SC Students", "incomeCeilingInr": 800000, "period": "per annum" },
+      "sourceId": "src_nsp_topclass_faq",
+      "evidence": "SC students with annual family income up to Rs.8.00 lakh, admitted in a full-time prescribed course in a notified institution, subject to the allotted slots.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "The Top Class Education Scheme requires a valid SC certificate, income certificate, Aadhaar, Aadhaar-seeded bank account details, admission details, admission rank and fee details.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "top_class_education_scheme_sc",
+      "object": "required_documents",
+      "condition": "category == SC",
+      "detail": {
+        "logic": "ALL_OF",
+        "items": ["Valid SC Certificate", "Income Certificate", "Aadhaar", "Aadhaar-seeded bank account details", "admission details", "admission rank", "fee details as prescribed on NSP"]
+      },
+      "sourceId": "src_nsp_topclass_faq",
+      "evidence": "Valid SC Certificate, Income Certificate, Aadhaar, Aadhaar-seeded bank account details, admission details, admission rank and fee details as prescribed on NSP.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "Under the Top Class Education Scheme, self-employed parents need an income certificate from a Revenue Officer not below Tehsildar; salaried parents need an employer certificate plus a Revenue Officer certificate for other income.",
+      "kind": "CONDITIONAL_REQUIREMENT",
+      "subject": "top_class_education_scheme_sc",
+      "object": "income_certificate_issuer",
+      "condition": "parentProfession == SELF_EMPLOYED -> Revenue Officer not below Tehsildar; parentProfession == SALARIED -> employer certificate + Revenue Officer certificate for other income",
+      "sourceId": "src_nsp_topclass_faq",
+      "evidence": "Self-employed parents: certificate by Revenue Officer not below Tehsildar. Salaried parents: employer certificate and Revenue Officer certificate for other income.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "Under the Top Class Education Scheme the institute verifies applications, verifies documents and forwards eligible applications on NSP within prescribed timelines.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "top_class_education_scheme_sc",
+      "object": "institute_verification",
+      "detail": { "externalParty": "institute" },
+      "sourceId": "src_nsp_topclass_faq",
+      "evidence": "Institutes verify applications, ensure slot limits, verify documents and forward eligible applications on NSP within prescribed timelines.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "The last date for institute verification under the Top Class Education Scheme is 31 October every year, or any other date notified by DBT Mission.",
+      "kind": "TIMELINE",
+      "subject": "top_class_education_scheme_sc",
+      "object": "institute_verification_deadline",
+      "detail": { "date": "31 October (annual)", "overriddenBy": "DBT Mission notification" },
+      "sourceId": "src_nsp_topclass_faq",
+      "evidence": "31 October every year or any other date notified by DBT Mission.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "An Aadhaar-seeded bank account is mandatory for DBT under the Top Class Education Scheme.",
+      "kind": "DEPENDENCY",
+      "subject": "top_class_education_scheme_sc",
+      "object": "aadhaar_seeded_bank_account",
+      "sourceId": "src_nsp_topclass_faq",
+      "evidence": "Yes. Aadhaar-seeded bank account is mandatory for DBT.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "Top Class Education Scheme benefits are restricted to two siblings and an affidavit is required.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "top_class_education_scheme_sc",
+      "object": "sibling_affidavit",
+      "condition": "more than one sibling claiming under the scheme",
+      "detail": { "maxSiblings": 2 },
+      "sourceId": "src_nsp_topclass_faq",
+      "evidence": "No. Benefits are restricted to two siblings. An affidavit is required.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "A beneficiary cannot simultaneously avail a similar scholarship from Central or State Government.",
+      "kind": "ELIGIBILITY",
+      "subject": "top_class_education_scheme_sc",
+      "object": "no_double_benefit",
+      "sourceId": "src_nsp_topclass_faq",
+      "evidence": "No. A beneficiary cannot simultaneously avail similar scholarship from Central/State Government.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "Under the Gujarat scheme BCK-6.1 (GOI's Post Matric Scholarship for SC Students) the applicant must be Scheduled Caste and the income limit is Rs. 2.50 lakh.",
+      "kind": "ELIGIBILITY",
+      "subject": "gujarat_bck_6_1_post_matric_sc",
+      "object": "income_ceiling_and_category",
+      "condition": "category == SC",
+      "detail": { "schemeCode": "BCK-6.1", "schemeName": "GOI's Post Matric Scholarship for SC Students (CSS)", "incomeCeilingInr": 250000 },
+      "sourceId": "src_sje_bck61",
+      "evidence": "Student should be of Scheduled Caste.\n- Must full fill all conditions of Government of India's Post Matric Scholarship Scheme Guidelines.\n- Income Limit 2.50 Lakh.",
+      "confidence": 0.94
+    },
+    {
+      "claim": "Students apply for BCK-6.1 online on the Digital Gujarat portal.",
+      "kind": "CHANNEL",
+      "subject": "gujarat_bck_6_1_post_matric_sc",
+      "object": "digital_gujarat_portal",
+      "detail": { "portal": "https://www.digitalgujarat.gov.in" },
+      "sourceId": "src_sje_bck61",
+      "evidence": "(Students have to apply online.)(Portal: https://www.digitalgujarat.gov.in)",
+      "confidence": 0.93
+    },
+    {
+      "claim": "The implementing office for BCK-6.1 is the District Deputy Director (SCW) Office.",
+      "kind": "OFFICE",
+      "subject": "gujarat_bck_6_1_post_matric_sc",
+      "object": "district_deputy_director_scw",
+      "sourceId": "src_sje_bck61",
+      "evidence": "District Deputy Director(SCW) Office",
+      "confidence": 0.92
+    },
+    {
+      "claim": "BCK-6.1 pays a group-wise academic allowance ranging from Rs. 13,500 (Group A hosteller) down to Rs. 2,500 (Group D day-scholar), plus approved tuition and other fees.",
+      "kind": "ELIGIBILITY",
+      "subject": "gujarat_bck_6_1_post_matric_sc",
+      "object": "academic_allowance",
+      "detail": {
+        "hosteller": { "A": 13500, "B": 9500, "C": 6000, "D": 4000 },
+        "dayScholar": { "A": 7000, "B": 6500, "C": 3000, "D": 2500 }
+      },
+      "sourceId": "src_sje_bck61",
+      "evidence": "In addition to the above allowance, Approved tuition fee and Approved other fees are admissible, If the student is disabled then disability allowance is admissible.",
+      "confidence": 0.88
+    },
+    {
+      "claim": "The Gujarat scheme for Nomadic / De-notified Tribes students in self-finance institutes has an annual income limit of Rs. 2,00,000 and requires the institute to be government-certified.",
+      "kind": "ELIGIBILITY",
+      "subject": "gujarat_nt_dnt_self_finance_scheme",
+      "object": "income_ceiling_and_category",
+      "condition": "category == Nomadic / De-notified Tribes",
+      "detail": { "incomeCeilingInr": 200000, "instituteType": "self finance", "instituteMustBeGovernmentCertified": true },
+      "sourceId": "src_sje_ntdnt",
+      "evidence": "Student must be from Nomadic / De-notified Tribes\n- Annual income limit is Rs. 2,00,000/-\n- Studying in self finance institutes\n- Institutes must be certified by government.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "The Gujarat Merit-cum-Means Scholarship for Minority Communities has an annual income limit of Rs. 2,50,000, is for professional courses like Medical and Engineering, and its online form is filled on momascholarship.gov.in rather than Digital Gujarat.",
+      "kind": "ELIGIBILITY",
+      "subject": "gujarat_mcm_minority_scholarship",
+      "object": "income_ceiling_and_category",
+      "condition": "religion IN [Muslim, Christian, Sikh, Buddhist, Jain, Parsi]",
+      "detail": { "incomeCeilingInr": 250000, "portal": "momascholarship.gov.in", "courses": "professional courses like Medical and Engineering" },
+      "sourceId": "src_sje_mcm",
+      "evidence": "Muslim, Christian, Shikh, Buddh, Jain and Parsi (Religious minorities)\n- Annual income limit is Rs. 2,50,000/-\n- Online form is filled momascholarship.gov.in\n- For professional courses like Medical and Engineering.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "The Gujarat financial assistance scheme to purchase Medical and Engineering books/instruments has an annual income limit of Rs. 2,50,000.",
+      "kind": "ELIGIBILITY",
+      "subject": "gujarat_med_eng_books_assistance",
+      "object": "income_ceiling",
+      "condition": "student is studying Medical or Engineering",
+      "detail": { "incomeCeilingInr": 250000 },
+      "sourceId": "src_sje_medeng",
+      "evidence": "Student should be studying in Medical and Engineering\n- Annual Income Limit Rs. 2,50,000/-",
+      "confidence": 0.92
+    },
+    {
+      "claim": "MYSY (Mukhyamantri Yuva Swavalamban Yojana) requires parents' annual income not more than Rs. 6,00,000.",
+      "kind": "ELIGIBILITY",
+      "subject": "mysy",
+      "object": "income_ceiling",
+      "detail": { "schemeName": "Mukhyamantri Yuva Swavalamban Yojana", "incomeCeilingInr": 600000, "period": "per annum" },
+      "sourceId": "src_myscheme_mysy",
+      "evidence": "The candidates whose parents annual income is not more than Rs. 6,00,000/- per annum shall only be considered eligible for the said scheme.",
+      "confidence": 0.93
+    },
+    {
+      "claim": "For MYSY the Gujarat State Government has approved an income certificate validity of three financial years, so it need not be re-issued for the next three financial years.",
+      "kind": "TIMELINE",
+      "subject": "mysy",
+      "object": "income_certificate_validity",
+      "detail": { "validityFinancialYears": 3 },
+      "sourceId": "src_myscheme_mysy",
+      "evidence": "The State Government has approved the validity of the income certificate for three financial years from the date of issue. Accordingly, a candidate who has a valid income certificate need not have to issue it again for the next three years financial years.",
+      "confidence": 0.9
+    },
+    {
+      "claim": "MYSY requires a minimum 80 percentile in the Gujarat board Std XII examination for bachelor's degree programs, 80 percentile in Std X for diploma admissions, and 65% at diploma level for diploma-to-degree students.",
+      "kind": "ELIGIBILITY",
+      "subject": "mysy",
+      "object": "merit_criteria",
+      "detail": { "degreeStdXIIPercentile": 80, "diplomaStdXPercentile": 80, "diplomaToDegreePercent": 65 },
+      "sourceId": "src_myscheme_mysy",
+      "evidence": "For scholarship in Bachelor's degree programs, the candidates should have passed Std XII Science/ General stream from a recognized board from the state of Gujarat with a minimum 80 percentile in the board examination.",
+      "confidence": 0.92
+    },
+    {
+      "claim": "MYSY requires twelve documents including an income certificate, Aadhaar card, institute certificate, 10th and 12th mark sheets, admission letter and fee receipt, bank account proof and an affidavit on Rs 20 non-judicial stamp paper.",
+      "kind": "DOCUMENT_REQUIREMENT",
+      "subject": "mysy",
+      "object": "required_documents",
+      "detail": {
+        "logic": "ALL_OF_AS_LISTED",
+        "items": [
+          "Income certificate",
+          "Adhaar Card",
+          "Self-declaration form",
+          "Certificate from the institute for new students",
+          "Renewal certificate from institute",
+          "Self-declaration for non-IT returns",
+          "10th and 12th standard mark sheet",
+          "Admission letter and fee receipt",
+          "Bank account proof",
+          "Hostel admission letter and fee receipt",
+          "Affidavit (non-judicial stamp paper Rs 20)",
+          "Recent passport-size photo"
+        ]
+      },
+      "sourceId": "src_myscheme_mysy",
+      "evidence": "01. Income certificate.\n02. Adhaar Card.\n03. Self-declaration form.\n04. Certificate from the institute for new students.\n05. Renewal certificate from institute.\n06. Self-declaration for non-IT returns.\n07. 10th and 12th standard mark sheet.\n08. Admission letter and fee receipt.\n09. Bank account proof.\n10. Hostel admission letter and fee receipt.\n11. Affidavit (non-judicial stamp paper Rs 20).\n12. Recent passport-size photo.",
+      "confidence": 0.9
+    },
+    {
+      "claim": "MYSY requires a certificate from the institute for new students and a renewal certificate from the institute for continuing students, making the institute a blocking dependency.",
+      "kind": "EXTERNAL_DEPENDENCY",
+      "subject": "mysy",
+      "object": "institute_certificate",
+      "detail": { "externalParty": "institute", "freshVariant": "Certificate from the institute for new students", "renewalVariant": "Renewal certificate from institute" },
+      "sourceId": "src_myscheme_mysy",
+      "evidence": "04. Certificate from the institute for new students.\n05. Renewal certificate from institute.",
+      "confidence": 0.88
+    },
+    {
+      "claim": "MYSY tuition fee grant is capped at Rs. 2,00,000 for MBBS/BDS, Rs. 50,000 for professional graduation courses, Rs. 25,000 for diploma courses and Rs. 10,000 for other graduation courses, applicable to self-finance courses at 50% of the annual tuition fee.",
+      "kind": "ELIGIBILITY",
+      "subject": "mysy",
+      "object": "tuition_fee_grant_caps",
+      "detail": {
+        "medicalDentalInr": 200000,
+        "professionalGraduationInr": 50000,
+        "diplomaInr": 25000,
+        "otherGraduationInr": 10000,
+        "note": "Applicable for Self-Finance Courses. Amount of 50% of the annual Tuition Fee."
+      },
+      "sourceId": "src_myscheme_mysy",
+      "evidence": "NOTE: Applicable for Self-Finance Courses. Amount of 50% of the annual Tuition Fee.",
+      "confidence": 0.88
+    },
+    {
+      "claim": "MYSY hostel grant is Rs. 1200 per month and requires admission to be in another taluka.",
+      "kind": "CONDITIONAL_REQUIREMENT",
+      "subject": "mysy",
+      "object": "hostel_grant",
+      "condition": "admission is in another Taluka",
+      "detail": { "amountInrPerMonth": 1200 },
+      "sourceId": "src_myscheme_mysy",
+      "evidence": "| Grant Amount | Rs.1200/- Month |\n| Admission in | Admission should be in other Taluka |",
+      "confidence": 0.85
+    },
+    {
+      "claim": "MYSY applications are made online on the official MYSY portal at mysy.guj.nic.in.",
+      "kind": "CHANNEL",
+      "subject": "mysy",
+      "object": "mysy_portal",
+      "detail": { "url": "https://mysy.guj.nic.in/" },
+      "sourceId": "src_myscheme_mysy",
+      "evidence": "Applicants need to visit the official website of MYSY scholarship.",
+      "confidence": 0.9
+    }
+  ],
+  "notFound": [
+    "The Digital Gujarat state scholarship portal content itself. Every digitalgujarat.gov.in path attempted (including /GSSP/) returned ERR_TUNNEL_CONNECTION_FAILED, and gssp.gujarat.gov.in failed to load on two attempts. No Digital Gujarat scholarship required-document list, eligibility page or scheme list is asserted here. The only evidenced link to Digital Gujarat is the sje.gujarat.gov.in scheme page naming it as the application portal for BCK-6.1.",
+    "Whether the Gujarat state (Digital Gujarat / GSSP) scholarship requires an institute verification step. Institute verification is verified only for NSP central schemes and, indirectly for MYSY, via the required institute certificate. The Digital Gujarat state workflow could not be retrieved.",
+    "Gujarat state scholarship application window dates for AY 2026-27. Search snippets referenced dates on gssp.gujarat.gov.in but the page could not be scraped, so no dates are recorded.",
+    "NSP scheme-wise opening and closing dates for FRESH applications in AY 2026-27. Only the currently-open PM-USP CSSS/J&K renewal round dates and the 1 June 2026 portal opening are evidenced.",
+    "An official helpline, tracking URL or grievance channel specific to Gujarat state scholarships (Digital Gujarat / GSSP / SJE). Only NSP-side helpdesk, PFMS tracking and Ministry grievance channels are evidenced.",
+    "Whether a domicile certificate is a required upload for NSP. It appears in no official NSP required-document list retrieved; NSP asks only for Domicile State as a form selection.",
+    "Whether a bonafide certificate and a fee receipt are required for NSP central schemes generally. Bonafide is evidenced only in the Ministry of Tribal Affairs ST scheme mandatory-document list; fee details are evidenced only for the Top Class Education Scheme.",
+    "The required-document list for Gujarat SJE schemes (BCK-6.1, NT/DNT, Merit-cum-Means). The SJE scheme pages publish eligibility, rates and implementing office but no document list.",
+    "Reconciliation of the conflicting one-scheme rules: the Ministry of Tribal Affairs FAQ says a student cannot apply for more than one scheme, while the NSP Students page for AY 2026-27 permits one merit-based plus one or more welfare-based schemes. Both are recorded as separate facts; no official page reconciling them was found.",
+    "Current-year (2026-27) versions of the CSSS, Top Class and ST scheme FAQs. The FAQs retrieved are the 2025-26 editions published on scholarships.gov.in, so figures such as the income certificate coverage period are stated for AY 2025-26."
+  ]
+}
