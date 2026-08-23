@@ -62,6 +62,7 @@ pnpm journey:test     # compile a journey in the terminal, no browser needed
 pnpm dev              # http://localhost:3000
 pnpm mobile           # Expo. scan the QR code, needs pnpm dev running too
 pnpm db:push          # push the seed to Supabase. needs credentials
+pnpm verify:live      # 18 end to end checks against a running server
 ```
 
 The phone finds the API on its own: Expo already knows the dev machine's address
