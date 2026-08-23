@@ -44,6 +44,8 @@ apps/
   web/        Next.js citizen product + API + admin graph explorer
 packages/
   core/       ontology, graph algorithms, condition evaluator, journey compiler
+  core/src/data/graph/  the government facts, as rows. no scheme is in code
+  core/src/db/          the same rows in Postgres, and the mapping between
 docs/
   GOAL.md         current definition of done
   BUILD_PLAN.md   day by day execution log
@@ -59,11 +61,33 @@ pnpm graph:validate   # source integrity. must be zero errors, zero warnings
 pnpm quotes:audit     # every quote traces back to a page somebody actually read
 pnpm journey:test     # compile a journey in the terminal, no browser needed
 pnpm dev              # http://localhost:3000
+pnpm db:push          # push the seed to Supabase. needs credentials
 ```
 
-No credentials are needed for any of the above. Copy `.env.example` to
-`.env.local` when you want Supabase, Bedrock, Sarvam or voice. Everything has a
-deterministic fallback, so a missing key degrades one feature and never the path.
+No credentials are needed for any of the above except the last one. Copy
+`.env.example` to `.env.local` when you want Supabase, Bedrock, Sarvam or voice.
+Everything has a deterministic fallback, so a missing key degrades one feature
+and never the path.
+
+## Where the government facts live
+
+Not in code. Every scheme, document, fee, office, eligibility rule and the
+verbatim quote behind it is a row. The rows are checked in as JSON under
+`packages/core/src/data/graph` and mirrored into Postgres by `pnpm db:push`.
+
+`loadLiveGraph()` reads Supabase when it is configured and the checked in seed
+when it is not, and the compiler cannot tell the difference. So correcting a fee
+the government changed is an edit, not a deploy, and the app still runs on a
+laptop with no network.
+
+The rules that hold whichever side it is loaded from:
+
+- Every node and every edge carries at least one source. It is a check
+  constraint in Postgres and a validator error in `graph:validate`.
+- Sources that disagree are stored as `CONFLICTING` with all sides and shown to
+  the citizen that way. Nothing picks a winner, nothing averages.
+- Anything unverified renders as "not verified yet" rather than a plausible
+  guess.
 
 ## Status
 
