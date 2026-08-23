@@ -1,0 +1,330 @@
+# Official department -> website directory, Government of Gujarat.
+#
+# Source: GSWAN (Gujarat State Wide Area Network), "Government Departments ->
+# GoG Department Websites", https://gswan.gov.in. Page footer states
+# "Last Updated : 06/07/2026".
+#
+# This is the authoritative answer to "what does this site do" for the sites it
+# covers, published by the state's own network operator. It is why the registry
+# needs no scraping to name ~250 hosts: the government already published the
+# mapping and we read it once.
+#
+# Format: department<TAB>official name<TAB>url
+# Lines beginning # are comments. Blank lines ignored.
+#
+# Transcribed verbatim, including the entries whose URLs point off .gov.in
+# (gvc.org.in, gujarattourism.com, ssagujarat.org and so on) and the two typos
+# the source itself carries ("Government ing and Stationery", "Revenue Tribuna").
+# Fixing a quote is how a quote stops being evidence.
+
+General Administration	General Administration Department	http://gad.gujarat.gov.in
+General Administration	Administrative Reforms & Training Division	https://artd.gujarat.gov.in
+General Administration	Chief Electoral Officer, Gujarat	https://ceo.gujarat.gov.in
+General Administration	General Administration Department, Planning Division	http://planning.gujarat.gov.in
+General Administration	General Administration Department, NRI Division	http://nri.gujarat.gov.in
+General Administration	State Election Commission, Gujarat	http://sec.gujarat.gov.in
+General Administration	Directorate of Economics & Statistics	http://gujecostat.gujarat.gov.in
+General Administration	Gujarat State Portal	http://gujaratindia.com/
+General Administration	Directorate of Census Operations	http://censusgujarat.gov.in
+General Administration	Lok Bhavan	http://lokbhavan.gujarat.gov.in
+General Administration	General Administration Department, Personnel Division	https://gad.gujarat.gov.in/personnel
+General Administration	Haj Committee	http://haj.gujarat.gov.in
+General Administration	Gujarat Bhavan & Office of the Resident Commissioner	https://gad.gujarat.gov.in/Personnel/resident-commissioner.htm
+
+Agriculture & Co-Operation	ATMA Directorate & SAMETI	https://atma.gujarat.gov.in
+Agriculture & Co-Operation	Agriculture & Co-operation Department	https://agri.gujarat.gov.in
+Agriculture & Co-Operation	Directorate of Agriculture	https://dag.gujarat.gov.in
+Agriculture & Co-Operation	Director of Horticulture	https://doh.gujarat.gov.in
+Agriculture & Co-Operation	Directorate of Animal Husbandry	https://doah.gujarat.gov.in
+Agriculture & Co-Operation	Commissioner of Co-operation & Registrar of Co-operative Societies	https://rcs.gujarat.gov.in
+Agriculture & Co-Operation	Commissioner of Fisheries	https://cof.gujarat.gov.in
+Agriculture & Co-Operation	Director of Sugar	https://dos.gujarat.gov.in
+Agriculture & Co-Operation	Director of Agriculture Marketing & Rural Finance	https://doamrf.gujarat.gov.in
+Agriculture & Co-Operation	Chief Executive Officer Supervision & Audit Committee	https://ceoaudit.gujarat.gov.in
+Agriculture & Co-Operation	Gujarat State Co-operative Tribunal	https://gscot.gujarat.gov.in
+Agriculture & Co-Operation	Gujarat State Seed Certification Agency	https://gssca.gujarat.gov.in
+Agriculture & Co-Operation	Gujarat State Warehousing Corporation	https://gswc.gujarat.gov.in
+Agriculture & Co-Operation	Gujarat Fisheries Central Co-operative Association Limited	https://gfcca.gujarat.gov.in
+Agriculture & Co-Operation	Gujarat State Agricultural Marketing Board	https://gsamb.gujarat.gov.in
+Agriculture & Co-Operation	Gujarat Livestock Development Board (GLDB)	https://agri.gujarat.gov.in/gldb
+Agriculture & Co-Operation	Gujarat Sheep & Wool Development Corporation Limited	https://gusheel.gujarat.gov.in
+Agriculture & Co-Operation	Gujarat Veterinary Council	www.gvc.org.in
+Agriculture & Co-Operation	Gauseva and Gauchar Vikas Board	https://gauseva.gujarat.gov.in
+
+Climate Change	Climate Change Department	http://ccd.gujarat.gov.in
+Climate Change	Gujarat Energy Developement Agency	http://geda.gujarat.gov.in
+
+Education	Education Department	https://education.gujarat.gov.in
+Education	Commissionnerate of Schools	http://cos.gujarat.gov.in
+Education	Department of Technical Education	http://dte.gujarat.gov.in
+Education	Directorate of Primary Education	https://dpe.gujarat.gov.in
+Education	Gujarat Council of Elementary Education	https://ssagujarat.org
+Education	Commissionerate of Higher Education	https://che.gujarat.gov.in
+Education	Director of Literacy & Continuing Education	https://dlce.gujarat.gov.in
+Education	National Cadet Corps	https://ncc.gujarat.gov.in
+Education	Gujarat State School Textbook Board	https://gsstb.gujarat.gov.in
+Education	Gujarat Institute of Educational Technology	https://giet.gujarat.gov.in
+Education	Gujarat Council of Educational Research and Training, Gandhinagar	https://gcert.gujarat.gov.in
+Education	Technical Examinations Board (TEB)	https://teb.gujarat.gov.in
+
+Energy & Petrochemicals	Energy & Petrochemicals Department	https://guj-epd.gujarat.gov.in
+
+Finance	Finance Department	http://financedepartment.gujarat.gov.in
+Finance	Directorate of Accounts & Treasuries	https://dat.gujarat.gov.in/
+Finance	Examiner, Local Fund Account	https://examiner.gujarat.gov.in/
+Finance	Gujarat Value Added Tax Tribunal	https://vattribunal.gujarat.gov.in/
+Finance	Directorate of Pension & Provident Fund	https://dppf.gujarat.gov.in/
+Finance	Directorate of Insurance	https://insurance.gujarat.gov.in/
+
+Food, Civil Supplies & Consumer Affairs	Food, Civil Supplies & Consumer Affairs Dept.	http://fcsca.gujarat.gov.in
+Food, Civil Supplies & Consumer Affairs	Director of Food and Civil Supplies	http://dcs-dof.gujarat.gov.in
+Food, Civil Supplies & Consumer Affairs	Controller, Legal Metrology & Director, Consumer Affairs	http://lmdca.gujarat.gov.in
+Food, Civil Supplies & Consumer Affairs	State Consumer Disputes Redressal Commission	http://cdrc.gujarat.gov.in
+Food, Civil Supplies & Consumer Affairs	Gujarat State Civil Supplies Corporation Ltd.	http://gscscl.gujarat.gov.in
+Food, Civil Supplies & Consumer Affairs	Food Controller, Ahmedabad	http://dcs-dof.gujarat.gov.in/fc-introduction.htm
+Food, Civil Supplies & Consumer Affairs	Gujarat State Food Commission	https://foodcommission.gujarat.gov.in
+
+Forest & Environment	Forest & Environment Department	http://fed.gujarat.gov.in
+Forest & Environment	Principal Chief Conservator of Forest & Head of the Forest Force (HoFF)	http://forests.gujarat.gov.in
+Forest & Environment	Gujarat Pollution Control Board	http://gpcb.gov.in
+Forest & Environment	Gujarat Ecology Commission	http://gec.gujarat.gov.in
+Forest & Environment	GEER Ecological Education and Research Foundation	http://geerfoundation.gujarat.gov.in
+Forest & Environment	State Environment Impact Assessment Authority	http://seiaa.gujarat.gov.in
+Forest & Environment	Gujarat State Lion Conservation Society	http://gujaratlion.com
+Forest & Environment	Gujarat Environment Management Institute (GEMI)	https://gemi.gujarat.gov.in
+
+Health & Family Welfare	Health & Family Welfare Department	https://gujhealth.gujarat.gov.in
+Health & Family Welfare	Commissioner of Health	https://gujhealth.gujarat.gov.in
+Health & Family Welfare	National Health Mission	http://nhm.gujarat.gov.in/
+Health & Family Welfare	Indian Systems of Medicine & Homeopathy (AYUSH)	http://ayush.gujarat.gov.in/
+Health & Family Welfare	Gujarat Medical Services Corporation Limited	http://gmscl.gujarat.gov.in
+
+Home	Home Department	http://home.gujarat.gov.in
+Home	Anti Curruption Bureau	http://acb.gujarat.gov.in
+Home	DGP Prison	http://prisons.gujarat.gov.in
+Home	Commissioner Of Police Ahmedabad	http://cpahmedabad.gujarat.gov.in
+Home	Commissioner Of Police Rajkot	http://cprajkot.gujarat.gov.in
+Home	Commissioner Of Police Surat	http://cpsurat.gujarat.gov.in
+Home	Commissioner Of Police Vadodara	http://cpvadodara.gujarat.gov.in
+Home	Gujarat Vigilance Commission	http://gvc.gujarat.gov.in
+Home	Gujarat State Human Right Commission	https://gshrc.gujarat.gov.in
+Home	DGP Office	http://police.gujarat.gov.in
+Home	Nashabandhi & Aabkari Khatu	http://prohibition-excise.gujarat.gov.in
+Home	Police Superintendent Office Ahmedabad	http://spahmedabad.gujarat.gov.in
+Home	Police Superintendent Office Amreli	http://spamreli.gujarat.gov.in
+Home	Police Superintendent Office Anand	http://spanand.gujarat.gov.in
+Home	Police Superintendent Office Banaskantha	http://spbanaskantha.gujarat.gov.in
+Home	Police Superintendent Office Bharuch	http://spbharuch.gujarat.gov.in
+Home	Police Superintendent Office Bhavnagar	http://spbhavnagar.gujarat.gov.in
+Home	Police Superintendent Office Dahod	http://spdahod.gujarat.gov.in
+Home	Police Superintendent Office Dang	http://spdang.gujarat.gov.in
+Home	Police Superintendent Office Gandhinagar	http://spgandhinagar.gujarat.gov.in
+Home	Police Superintendent Office Jamnagar	http://spjamnagar.gujarat.gov.in
+Home	Police Superintendent Office Junagadh	http://spjunagadh.gujarat.gov.in
+Home	Police Superintendent Office Kheda	http://spkheda.gujarat.gov.in
+Home	Police Superintendent Office kutch	http://spkutch.gujarat.gov.in
+Home	Police Superintendent Office Mehsana	http://spmehsana.gujarat.gov.in
+Home	Police Superintendent Office Narmada	http://spnarmada.gujarat.gov.in
+Home	Police Superintendent Office Navsari	http://spnavsari.gujarat.gov.in
+Home	Police Superintendent Office Panchmahal	http://sppanchmahal.gujarat.gov.in
+Home	Police Superintendent Office Patan	http://sppatan.gujarat.gov.in
+Home	Police Superintendent Office Porbandar	http://spporbandar.gujarat.gov.in
+Home	Police Superintendent Office Rajkot	http://sprajkot.gujarat.gov.in
+Home	Police Superintendent Office Sabarkantha	http://spsabarkantha.gujarat.gov.in
+Home	Police Superintendent Office Surat	http://spsurat.gujarat.gov.in
+Home	Police Superintendent Office Surendranagar	http://spsurendranagar.gujarat.gov.in
+Home	Police Superintendent Office Vadodara	http://spvadodara.gujarat.gov.in
+Home	Police Superintendent Office Valsad	http://spvalsad.gujarat.gov.in
+Home	Directorate of Prosecution	https://dop.gujarat.gov.in
+
+Industries & Mines	Gujarat State Aviation Infrastructure Company Limited	http://gujsail.gujarat.gov.in/
+Industries & Mines	Vibrant Gujarat Summit 2015	http://vibrantgujarat.com/
+Industries & Mines	Gujarat Industrial Investment Corporation Limited	http://giic.gujarat.gov.in/
+Industries & Mines	Industries & Mines Department	http://imd.gujarat.gov.in
+Industries & Mines	Industries Commissionerate	http://ic.gujarat.gov.in
+Industries & Mines	Commissioner of Geology & Mining	http://geomining.gujarat.gov.in
+Industries & Mines	Gujarat Industrial Development Corporation	http://gidc.gov.in
+Industries & Mines	Gujarat State Handloom & Handicrafts Developement Corporation Ltd.	http://gurjari.co.in
+Industries & Mines	Gujarat Pavitra Yatradham Vikas Board	http://yatradham.gujarat.gov.in
+Industries & Mines	Tourism Corporation of Gujarat Limited	http://gujarattourism.com
+Industries & Mines	Industrial Extension Bureau	http://indextb.com
+Industries & Mines	Director of Civil Aviation (CAD)	http://cad.gujarat.gov.in/
+Industries & Mines	Commissioner, Cottage & Rural Industries	http://cottage.gujarat.gov.in//
+Industries & Mines	Director of Government ing and Stationery	https://dgps.gujarat.gov.in
+Industries & Mines	Director of Government ing and Stationery	https://egazette.gujarat.gov.in
+
+Information & Broadcasting	Directorate of Information	https://gujaratinformation.gujarat.gov.in/
+
+Labour, Skill Development and Employment	Labour, Skill Development and Employment Department	http://labour.gujarat.gov.in
+Labour, Skill Development and Employment	Directorate of Employment & Training / Commissioner Employment & Training	https://talimrojgar.gujarat.gov.in/
+Labour, Skill Development and Employment	Directorate of Employment & Training / Commissioner Employment & Training	https://anubandham.gujarat.gov.in/
+Labour, Skill Development and Employment	Commissioner of Labour	http://col.gujarat.gov.in
+Labour, Skill Development and Employment	Director Industrial Safety and Health	http://dish.gujarat.gov.in
+Labour, Skill Development and Employment	Director of Boilers (Wing of Commissioner of Labour)	http://boiler.gujarat.gov.in
+Labour, Skill Development and Employment	Kaushalya - the Skill University	https://kaushalyaskilluniversity.ac.in/
+Labour, Skill Development and Employment	Gujarat Skill Development Mission	https://skills.gujarat.gov.in/
+Labour, Skill Development and Employment	Building and Other Construction Worker's Welfare Board	https://bocwwb.gujarat.gov.in/
+Labour, Skill Development and Employment	Gujarat Labour Welfare Board	https://glwb.gujarat.gov.in/
+Labour, Skill Development and Employment	Gujarat Rural Worker's Welfare Board	https://grwwb.gujarat.gov.in/
+
+Legal	Legal Department	https://legal.gujarat.gov.in
+
+Legislative & Parliamentary	Legeslative & Parliamentary Department	http://lpd.gujarat.gov.in
+
+Narmada, Water Resources and Water Supply	Narmada Deparment	https://guj-nwrws.gujarat.gov.in/narmadadiv/default.htm
+Narmada, Water Resources and Water Supply	Sardar Sarovar Narmada Nigam Ltd.	https://ssnnl.gujarat.gov.in/
+Narmada, Water Resources and Water Supply	Gujarat Green Revolution Company	www.ggrc.co.in
+Narmada, Water Resources and Water Supply	Sardar Sarovar Punarvasvat Agency	https://sspa.gujarat.gov.in/
+Narmada, Water Resources and Water Supply	Statue of Unity	www.statueofunity.in
+Narmada, Water Resources and Water Supply	Water Resources Department	http://guj-nwrws.gujarat.gov.in/showpage.aspx?contentid=1
+Narmada, Water Resources and Water Supply	Gujarat Engineering Research Institute	https://guj-nwrws.gujarat.gov.in/showpage.aspx?contentid=1555&lang=Gujarati
+Narmada, Water Resources and Water Supply	Gujarat Water Resources Development Corporation	http://gwrdc.gujarat.gov.in
+Narmada, Water Resources and Water Supply	State Water Data Centre	http://swhydrology.gujarat.gov.in/
+Narmada, Water Resources and Water Supply	Water and Land Management Institute	http://guj-nwrws.gujarat.gov.in
+Narmada, Water Resources and Water Supply	Water Supply Department	http://guj-nwrws.gujarat.gov.in/watersupply/default.html
+Narmada, Water Resources and Water Supply	Gujarat Water Supply and Sewerage Board	https://watersupply.gujarat.gov.in/
+Narmada, Water Resources and Water Supply	Kalpasar Department	https://kalpasar.gujarat.gov.in/
+Narmada, Water Resources and Water Supply	Gujarat Water Infrastructure Limited	https://gwilws.gujarat.gov.in/
+
+Panchayat, Rural Housing & Rural Development	Panchayat, Rural Housing & Rural Development Department	http://panchayat.gujarat.gov.in
+Panchayat, Rural Housing & Rural Development	Commissionerate of Rural Development Office	https://ruraldev.gujarat.gov.in/Index
+Panchayat, Rural Housing & Rural Development	Development Commissioner Office	https://dcoffice.gujarat.gov.in/gu/home
+Panchayat, Rural Housing & Rural Development	Egram Vishwagram Project	http://panchayat.gujarat.gov.in/panchayatvibhag/e-gram-viram-New.htm
+Panchayat, Rural Housing & Rural Development	Ahemdabad District Panchayat	http://ahmedabaddp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Vadodara District Panchayat	http://vadodaradp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Gandhinagar District Panchayat	http://gandhinagardp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Surat District Panchayat	http://suratdp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Rajkot District Panchayat	http://rajkotdp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Jamnagar District Panchayat	http://jamnagardp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Anand District Panchayat	http://ananddp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Bhavnagar District Panchayat	http://bhavnagardp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Porbandar District Panchayat	https://porbandardp.gujarat.gov.in/Porbander/english/index.htm
+Panchayat, Rural Housing & Rural Development	Valsad District Panchayat	http://valsaddp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Kutchh District Panchayat	http://kutchdp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Bharuch District Panchayat	http://bharuchdp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Amreli District Panchayat	http://amrelidp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Tapi District Panchayat	http://tapidp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Junagadh District Panchayat	http://junagadhdp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Panchamahal District Panchayat	http://panchmahaldp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Surendranagar District Panchayat	http://surendranagardp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Patan District Panchayat	http://patandp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Navsari District Panchayat	http://navsaridp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Mehsana District Panchayat	https://mehsanadp.gujarat.gov.in/Mehasana/english/index.htm
+Panchayat, Rural Housing & Rural Development	Dang District Panchayat	http://dangdp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Dahod District Panchayat	http://dahoddp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Narmada District Panchayat	http://narmadadp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Banaskantha District Panchayat	http://banaskanthadp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Sabarkantha District Panchayat	http://sabarkanthadp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Morbi District Panchayat	http://morbidp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Mahisagar District Panchayat	http://mahisagardp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Girsomnath District Panchayat	http://girsomnathdp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Dev Bhumi Dwarka District Panchayat	http://devbhumidwarkadp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Chhotaudepur District Panchayat	http://chhotaudepurdp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Botad District Panchayat	http://botaddp.gujarat.gov.in/
+Panchayat, Rural Housing & Rural Development	Arvalli District Panchayat	http://arvallidp.gujarat.gov.in/
+
+Ports & Transport	Ports & Transport Department	http://pnt.gujarat.gov.in
+Ports & Transport	Commissioner of Transport	http://cot.gujarat.gov.in
+Ports & Transport	Gujarat Maritime Board	http://gmbports.org
+Ports & Transport	Gujarat State Road Transport Corporation	https://gsrtc.in/site/
+
+Revenue	Revenue Department	http://revenuedepartment.gujarat.gov.in
+Revenue	Collector Office Ahmedabad	https://ahmedabad.gujarat.gov.in
+Revenue	Collector Office Amreli	http://collectoramreli.gujarat.gov.in
+Revenue	Collector Office Anand	https://anand.gujarat.gov.in/
+Revenue	Collector Office Arvalli	http://collectorarvalli.gujarat.gov.in
+Revenue	Collector Office Bharuch	http://collectorbharuch.gujarat.gov.in
+Revenue	Collector Office Bhavanagar	http://collectorbhavnagar.gujarat.gov.in
+Revenue	Collector Office Banaskantha	http://collectorbk.gujarat.gov.in
+Revenue	Collector Office Botad	http://botad.gujarat.gov.in
+Revenue	Collector Office Chhotaudepur	http://collectorchhotaudepur.gujarat.gov.in
+Revenue	Collector Office Dahod	https://dahod.gujarat.gov.in
+Revenue	Collector Office Dang	http://collectordangs.gujarat.gov.in
+Revenue	Collector Office Devbhumi Dwaraka	http://devbhumidwarka.gujarat.gov.in
+Revenue	Collector Office Gandhinagar	https://gandhinagar.gujarat.gov.in/
+Revenue	Collector Office Girsomnath	http://collectorgirsomnath.gujarat.gov.in
+Revenue	Collector Office Jamnagar	https://jamnagar.gujarat.gov.in/
+Revenue	Collector Office Junagadh	http://collectorjunagadh.gujarat.gov.in
+Revenue	Collector Office Kheda	http://collectorkheda.gujarat.gov.in
+Revenue	Collector Office Kutch	https://kutch.gujarat.gov.in
+Revenue	Collector Office Mahisagar	http://collectormahisagar.gujarat.gov.in
+Revenue	Collector Office Mehsana	https://mehsana.gujarat.gov.in/
+Revenue	Collector Office Morbi	http://collectormorbi.gujarat.gov.in
+Revenue	Collector Office Narmada	https://narmada.gujarat.gov.in/
+Revenue	Collector Office Navsari	http://collectornavsari.gujarat.gov.in
+Revenue	Collector Office Panchmahal	http://collectorpanchmahal.gujarat.gov.in
+Revenue	Collector Office Patan	http://collectorpatan.gujarat.gov.in
+Revenue	Collector Office Porbandar	http://collectorporbandar.gujarat.gov.in
+Revenue	Collector Office Rajkot	https://rajkot.gujarat.gov.in/
+Revenue	Collector Office Sabarkantha	http://collectorsk.gujarat.gov.in
+Revenue	Collector Office Surat	http://collectorsurat.gujarat.gov.in
+Revenue	Collector Office Surendranagar	http://collectorsurendranagar.gujarat.gov.in
+Revenue	Collector Office Tapi	http://tapi.gujarat.gov.in/
+Revenue	Collector Office Vadodara	http://collectorvadodara.gujarat.gov.in
+Revenue	Collector Office Valsad	http://collectorvalsad.gujarat.gov.in
+Revenue	Revenue Inspection Commissioner	http://revenueinspection.gujarat.gov.in
+Revenue	Settlement Commissioner & Superintendent of Land Records	http://landrecords.gujarat.gov.in/
+Revenue	Deendayal Institute of Land & Survey	http://deendayalinstitute.gujarat.gov.in/
+Revenue	Special Secretary Revenue Department - Appeals	http://revenueappeals.gujarat.gov.in/
+Revenue	Gujarat Revenue Tribuna	http://revenuetribunal.gujarat.gov.in/
+Revenue	Suendent Of Stamps and Inspector General of Registration	http://stampsregistration.gujarat.gov.in
+
+Road & Building	Road & Building Department	https://rnb.gujarat.gov.in/
+
+Science & Technology	Department of Science & Technology	http://dst.gujarat.gov.in
+Science & Technology	Directorate of ICT & e-Governance	https://directorit.gujarat.gov.in/
+Science & Technology	Bhaskaracharya Institute for Space Applications & Geo Informatics (BISAG)	http://bisag.gujarat.gov.in
+Science & Technology	Gujarat State Bio-Technology Mission	http://btm.gujarat.gov.in
+Science & Technology	Discussion Board	http://discussionboard.gujarat.gov.in
+Science & Technology	Gujarat State Wide Area Network	http://gswan.gov.in
+Science & Technology	Gujarat Informatics Ltd	http://gil.gujarat.gov.in/
+Science & Technology	Gujarat Science City Council	http://sciencecity.gujarat.gov.in
+Science & Technology	An E-Governance Bulletin from Gujarat Informatics Ltd	http://newsletter.gujarat.gov.in
+Science & Technology	Institute of Seismological Research	http://isr.gujarat.gov.in
+Science & Technology	Gujarat Council on Science and Technology	http://gujcost.gujarat.gov.in
+
+Social Justice & Empowerment	Department Of Social Justice & Empowerment	http://sje.gujarat.gov.in
+Social Justice & Empowerment	Director, Scheduled Caste Welfare	https://sje.gujarat.gov.in/dscw/
+Social Justice & Empowerment	Director, Developing Castes Welfare	https://sje.gujarat.gov.in/ddcw/
+Social Justice & Empowerment	Commissioner, Person with Disabilities	https://sje.gujarat.gov.in/disability/
+Social Justice & Empowerment	Gujarat Schedule Caste Development Corporation	https://sje.gujarat.gov.in/gscdc/
+Social Justice & Empowerment	Gujarat Backward Classes Development Corporation	https://sje.gujarat.gov.in/gbcdc/
+Social Justice & Empowerment	Gujarat Safai Kamdar Development Corporation	https://sje.gujarat.gov.in/gskvn/
+Social Justice & Empowerment	Gujarat Thakore and Koli Development Corporation	https://sje.gujarat.gov.in/gtkvn/
+Social Justice & Empowerment	Gujarat Minority Finance and Development Corporation	https://sje.gujarat.gov.in/gmfdcl/
+Social Justice & Empowerment	Gujarat Gopalak Development Corporation	https://sje.gujarat.gov.in/ggvn/
+Social Justice & Empowerment	Dr.Ambedkar Antyodaya Development Corporation (s.c.)	https://sje.gujarat.gov.in/gapb/
+Social Justice & Empowerment	Gujarat Nomadic and Denotified Tribes Development Corporation	https://sje.gujarat.gov.in/gntdnt/home
+
+Sports, Youth & Cultural Activities	Sports, Youth & Cultural Activities Department	http://sycd.gujarat.gov.in/
+Sports, Youth & Cultural Activities	Commissioner of Youth Services and Cultural Activities	https://commi-synca.gujarat.gov.in/
+Sports, Youth & Cultural Activities	Director of Archaelogy and Museums	https://archaeologymuseum.gujarat.gov.in/
+Sports, Youth & Cultural Activities	Directorate of Archaelogy & Museums	https://archaeologymuseum.gujarat.gov.in/Museum/
+Sports, Youth & Cultural Activities	Gujarat State Abhilekhagar	https://abhilekhagar.gujarat.gov.in/
+Sports, Youth & Cultural Activities	Director of Libraries	https://dolib.gujarat.gov.in/
+Sports, Youth & Cultural Activities	Directorate of Languages	https://dol.gujarat.gov.in/
+Sports, Youth & Cultural Activities	Gujarat State Gazetteer(core group)	https://gazetteer.gujarat.gov.in/
+Sports, Youth & Cultural Activities	Swarnim Gujarat Sports University	https://sgsu.gujarat.gov.in/
+Sports, Youth & Cultural Activities	Gujarat Sahitya Academy	https://sahityaacademy.gujarat.gov.in/
+Sports, Youth & Cultural Activities	Gujarat State Sangeet Natak Academy	https://sangeetnatak.gujarat.gov.in/
+Sports, Youth & Cultural Activities	Gujarat State Lalit Kala Academy	https://lalitkalaacademy.gujarat.gov.in/
+
+Tribal Development	Tribal Development Department	http://tribal.gujarat.gov.in
+Tribal Development	Commissionerate of Tribal Development	http://tribalmis.gujarat.gov.in
+Tribal Development	Commissionerate of Tribal Development	http://comm-tribal.gujarat.gov.in
+Tribal Development	Gujarat Tribal Development Corporation	http://adijatinigam.gujarat.gov.in
+Tribal Development	Vanbandhu Kalyan Yojana	http://vky.gujarat.gov.in
+Tribal Development	Gujarat State Tribal Education Society	http://eklavya-education.gujarat.gov.in
+Tribal Development	Tribal Research & Training Institute	http://trti.gujarat.gov.in
+Tribal Development	Development Support Agency of Gujarat	http://dsag.gujarat.gov.in
+
+Urban Development & Urban Housing	Urban Development & Urban Housing Department	http://udd.gujarat.gov.in
+Urban Development & Urban Housing	Ahmedabad Municipal Corporation	https://ahmedabadcity.gov.in/portal/index.jsp
+Urban Development & Urban Housing	Vadodara Municipal Corporation	https://vmc.gov.in/
+Urban Development & Urban Housing	Bhavnagar Municipal Corporation	https://bmcgujarat.com/
+Urban Development & Urban Housing	Junagadh Municipal Corporation	https://junagadhmunicipal.org/
+Urban Development & Urban Housing	Gandhinagar Municipal Corporation	http://gandhinagarmunicipal.com/
+Urban Development & Urban Housing	Jamnagar Municipal Corporation	http://mcjamnagar.com/
+Urban Development & Urban Housing	Surat Muncipal Corporation	https://suratmunicipal.gov.in/
+
+Women & Child Development	Women & Child Development Department	http://wcd.gujarat.gov.in
