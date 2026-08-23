@@ -11,6 +11,16 @@ export default async function Home() {
   const { nodes } = await loadLiveGraph();
   const services = nodes.filter((n) => n.type === "SERVICE");
 
+  // Two piles, because they are not the same thing and one flat list of 217
+  // said they were. 28 of these were researched by a person and compile into
+  // real multi step journeys; 189 were quoted off a page by a machine and
+  // mostly compile into one well sourced step. Listing them together in graph
+  // order put a machine written entry first and buried the driving licence.
+  const read = services.filter((s) => !s.metadata?.machineExtracted);
+  const found = services
+    .filter((s) => s.metadata?.machineExtracted)
+    .sort((a, b) => a.name.localeCompare(b.name));
+
   return (
     <>
       <h1>What do you need to get done?</h1>
@@ -22,7 +32,12 @@ export default async function Home() {
       <Search />
 
       <h2>Or start from one of these</h2>
-      {services.map((service) => (
+      <p className="sub">
+        A person read the government pages behind these {read.length} and typed out what they said.
+        They are the deep ones: real prerequisites, documents you can tick off, questions that change
+        the path.
+      </p>
+      {read.map((service) => (
         <Link key={service.id} href={`/journey?goal=${encodeURIComponent(service.id)}`} style={{ textDecoration: "none" }}>
           <div className="card">
             <h3>{service.name}</h3>
@@ -33,6 +48,21 @@ export default async function Home() {
           </div>
         </Link>
       ))}
+
+      <h2>Another {found.length} nobody has read</h2>
+      <p className="sub">
+        These were found by the pipeline. Every line on them is quoted from a government page and the
+        quote was checked against that page before it was allowed in, but no person has looked. Most
+        are a single well sourced step rather than a journey. Open the source before you rely on one.
+      </p>
+      {/* A plain list, not 189 more cards. A card is a recommendation. */}
+      <ul className="small" style={{ columns: "2 16rem" }}>
+        {found.map((service) => (
+          <li key={service.id}>
+            <Link href={`/journey?goal=${encodeURIComponent(service.id)}`}>{service.name}</Link>
+          </li>
+        ))}
+      </ul>
 
       <p className="small muted">
         Want to see the machinery? <Link href="/admin/graph">Open the graph explorer</Link>. Same compile call,
