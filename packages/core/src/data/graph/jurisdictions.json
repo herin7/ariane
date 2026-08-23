@@ -1,0 +1,211 @@
+[
+  {
+    "id": "IN",
+    "level": "COUNTRY",
+    "name": "India"
+  },
+  {
+    "id": "IN-GJ",
+    "parentId": "IN",
+    "level": "STATE",
+    "name": "Gujarat"
+  },
+  {
+    "id": "IN-GJ-AHMEDABAD",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Ahmedabad"
+  },
+  {
+    "id": "IN-GJ-AMRELI",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Amreli"
+  },
+  {
+    "id": "IN-GJ-ANAND",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Anand"
+  },
+  {
+    "id": "IN-GJ-ARAVALLI",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Aravalli"
+  },
+  {
+    "id": "IN-GJ-BANASKANTHA",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Banaskantha"
+  },
+  {
+    "id": "IN-GJ-BHARUCH",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Bharuch"
+  },
+  {
+    "id": "IN-GJ-BHAVNAGAR",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Bhavnagar"
+  },
+  {
+    "id": "IN-GJ-BOTAD",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Botad"
+  },
+  {
+    "id": "IN-GJ-CHHOTA_UDEPUR",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Chhota Udepur"
+  },
+  {
+    "id": "IN-GJ-DAHOD",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Dahod"
+  },
+  {
+    "id": "IN-GJ-DANG",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Dang"
+  },
+  {
+    "id": "IN-GJ-DEVBHOOMI_DWARKA",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Devbhoomi Dwarka"
+  },
+  {
+    "id": "IN-GJ-GANDHINAGAR",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Gandhinagar"
+  },
+  {
+    "id": "IN-GJ-GIR_SOMNATH",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Gir Somnath"
+  },
+  {
+    "id": "IN-GJ-JAMNAGAR",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Jamnagar"
+  },
+  {
+    "id": "IN-GJ-JUNAGADH",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Junagadh"
+  },
+  {
+    "id": "IN-GJ-KHEDA",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Kheda"
+  },
+  {
+    "id": "IN-GJ-KUTCH",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Kutch"
+  },
+  {
+    "id": "IN-GJ-MAHISAGAR",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Mahisagar"
+  },
+  {
+    "id": "IN-GJ-MEHSANA",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Mehsana"
+  },
+  {
+    "id": "IN-GJ-MORBI",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Morbi"
+  },
+  {
+    "id": "IN-GJ-NARMADA",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Narmada"
+  },
+  {
+    "id": "IN-GJ-NAVSARI",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Navsari"
+  },
+  {
+    "id": "IN-GJ-PANCHMAHAL",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Panchmahal"
+  },
+  {
+    "id": "IN-GJ-PATAN",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Patan"
+  },
+  {
+    "id": "IN-GJ-PORBANDAR",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Porbandar"
+  },
+  {
+    "id": "IN-GJ-RAJKOT",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Rajkot"
+  },
+  {
+    "id": "IN-GJ-SABARKANTHA",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Sabarkantha"
+  },
+  {
+    "id": "IN-GJ-SURAT",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Surat"
+  },
+  {
+    "id": "IN-GJ-SURENDRANAGAR",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Surendranagar"
+  },
+  {
+    "id": "IN-GJ-TAPI",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Tapi"
+  },
+  {
+    "id": "IN-GJ-VADODARA",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Vadodara"
+  },
+  {
+    "id": "IN-GJ-VALSAD",
+    "parentId": "IN-GJ",
+    "level": "DISTRICT",
+    "name": "Valsad"
+  }
+]

@@ -1,8 +1,7 @@
 import { describe, expect, it } from "vitest";
-import { loadGraph } from "../data/index";
+import { loadGraph, seedBundles } from "../data/index";
 import { resolveIntent } from "../intent";
 import { compileJourney } from "../journey";
-import * as pension from "../data/journeys/pension";
 import type { CitizenContext, CompiledJourney } from "../types";
 
 /**
@@ -14,6 +13,7 @@ import type { CitizenContext, CompiledJourney } from "../types";
  */
 
 const data = loadGraph();
+const pension = seedBundles.find((b) => b.id === "pension")!;
 
 const compile = (goal: string, citizen?: CitizenContext): CompiledJourney =>
   compileJourney(data, {
