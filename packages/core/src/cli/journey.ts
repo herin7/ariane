@@ -64,6 +64,7 @@ function print(j: CompiledJourney): void {
     const state = step.state === "READY" ? "" : `  (${step.state})`;
     console.log(`\n  ${step.order}. ${step.title}${state}`);
     if (step.officialName && step.officialName !== step.title) console.log(`     officially: ${step.officialName}`);
+    if (step.description) console.log(`     what: ${step.description}`);
     if (step.whatToDo) console.log(`     do: ${step.whatToDo}`);
     if (step.expectedOutput) console.log(`     you get: ${step.expectedOutput}`);
     if (step.fee) console.log(`     fee: ${step.fee}`);

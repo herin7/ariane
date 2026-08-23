@@ -417,6 +417,14 @@ export interface JourneyStep {
   title: string;
   officialName?: string;
   state: NodeState;
+  /**
+   * What this step is, in the node's own words.
+   *
+   * 216 of 217 services carry a description and none of it reached a screen,
+   * which mattered most for the generated ones: they have no `whatToDo`, so a
+   * machine written service arrived as a bare title with a fee under it.
+   */
+  description?: string;
   whyRequired?: string;
   whatToDo?: string;
   expectedOutput?: string;

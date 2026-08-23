@@ -287,6 +287,7 @@ function Step({ step, held, onHave }: { step: JourneyStep; held: string[]; onHav
           {step.officialName && step.officialName !== step.title ? (
             <p className="muted small">Officially: {step.officialName}</p>
           ) : null}
+          {step.description ? <p className="small">{step.description}</p> : null}
           {step.whyRequired ? <p className="small">{step.whyRequired}</p> : null}
           {step.whatToDo ? <p className="small"><b>Do this: </b>{step.whatToDo}</p> : null}
           {step.expectedOutput ? <p className="small"><b>You get: </b>{step.expectedOutput}</p> : null}
