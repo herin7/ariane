@@ -26,7 +26,7 @@
  * Phase 4's job, and writes the queue it will work from.
  */
 
-import { appendJsonl, hostOf, normalise, pool, writeJsonl } from "./lib.mjs";
+import { anchors, appendJsonl, fetchPage, hostOf, normalise, pool, writeJsonl } from "./lib.mjs";
 import { buildRegistry } from "../lib/registry.mjs";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
@@ -37,10 +37,15 @@ const at = (p) => fileURLToPath(new URL(p, root));
 const MAPS = ".ingest/maps/";
 const URLS = ".ingest/urls.jsonl";
 // A map call takes about 50 seconds against this estate, so 468 hosts serially
-// is an afternoon. Ten at a time is under Firecrawl's rate limit and turns it
-// into about an hour, and every host is written to disk the moment it lands, so
-// killing this halfway costs nothing.
-const CONCURRENCY = 10;
+// is an afternoon. Every host is written to disk the moment it lands, so killing
+// this halfway costs nothing.
+//
+// Four, not ten. Ten was measured and it is over Firecrawl's rate limit: the
+// first full run got HTTP 429 on 247 of 456 hosts, which is not a slow estate,
+// it is us knocking too fast.
+const CONCURRENCY = 4;
+/** A host that fails this many times is a host for another day, not a loop. */
+const MAX_ATTEMPTS = 3;
 const PAGE_CAP = 3000;
 const THRESHOLD = 4;
 
@@ -149,12 +154,19 @@ if (flag("selftest")) {
 
 const key = process.env.FIRECRAWL_API_KEY?.trim();
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
 /**
- * One /v2/map call, or null.
+ * One /v2/map call.
  *
- * Two retries and then it gives up, per the retry budget. There are 384 hosts
- * and a slow one takes 50 seconds; a host that fails three times is a host to
- * come back to tomorrow, not one to block the queue on.
+ * Two retries and then it gives up, per the retry budget. A host that fails
+ * three times is a host to come back to tomorrow, not one to block the queue on.
+ *
+ * 429 gets its own path and a much longer wait. It used to fall through to the
+ * generic 3 second backoff, which against a per minute rate limit means all four
+ * workers retry in lockstep, get refused again, and burn their whole budget
+ * inside ten seconds. That is how 247 hosts came back "failed" when nothing was
+ * wrong with any of them.
  */
 async function map(host, retries = 2) {
   for (let attempt = 0; attempt <= retries; attempt++) {
@@ -166,17 +178,24 @@ async function map(host, retries = 2) {
         signal: AbortSignal.timeout(120_000),
       });
       if (res.status === 402) return { links: [], failure: "OUT_OF_CREDITS" };
+      if (res.status === 429) {
+        if (attempt === retries) return { links: [], failure: "HTTP_429" };
+        const after = Number(res.headers.get("retry-after"));
+        await sleep(Math.min(after > 0 ? after * 1000 : 20_000 * 2 ** attempt, 180_000));
+        continue;
+      }
       if (!res.ok) {
-        if (res.status < 500 && res.status !== 429) return { links: [], failure: `HTTP_${res.status}` };
+        if (res.status < 500) return { links: [], failure: `HTTP_${res.status}` };
         throw new Error(`HTTP ${res.status}`);
       }
       const body = await res.json();
       return { links: Array.isArray(body.links) ? body.links : [], failure: null };
     } catch (e) {
       if (attempt === retries) return { links: [], failure: String(e.message ?? e).slice(0, 80) };
-      await new Promise((r) => setTimeout(r, 3000 * 2 ** attempt));
+      await sleep(3000 * 2 ** attempt);
     }
   }
+  return { links: [], failure: "GAVE_UP" };
 }
 
 // --------------------------------------------------------------------- run
@@ -201,10 +220,35 @@ const hosts = registry
   .filter((h) => !value("host", null) || h === value("host", null));
 
 mkdirSync(at(MAPS), { recursive: true });
-const cached = (host) => existsSync(at(MAPS + host + ".json"));
-const todo = hosts.filter((h) => !cached(h)).slice(0, Number(value("limit", Infinity)));
 
-console.log(`${hosts.length} hosts worth mapping, ${hosts.filter(cached).length} already mapped, ${todo.length} to do`);
+const cached = (host) => {
+  try {
+    return JSON.parse(readFileSync(at(MAPS + host + ".json"), "utf8"));
+  } catch {
+    return null;
+  }
+};
+
+/**
+ * MAP ONCE meant map once successfully, and it did not say so.
+ *
+ * A file was written for every host including the failures, and the existence
+ * of a file was the whole cache check, so 247 hosts rate limited in one bad
+ * minute were recorded as permanently mapped and could never be tried again. A
+ * cache that remembers a transient failure forever is worse than no cache: it
+ * turns a five minute problem into a silent hole in the data.
+ *
+ * So a failure is retried, with a counter so a genuinely broken host stops after
+ * three tries rather than becoming a loop.
+ */
+const settled = (host) => {
+  const m = cached(host);
+  return m !== null && (!m.failure || (m.attempts ?? 1) >= MAX_ATTEMPTS);
+};
+
+const todo = hosts.filter((h) => !settled(h)).slice(0, Number(value("limit", Infinity)));
+
+console.log(`${hosts.length} hosts worth mapping, ${hosts.filter(settled).length} already settled, ${todo.length} to do`);
 
 if (!flag("score") && todo.length) {
   if (!key) {
@@ -222,12 +266,49 @@ if (!flag("score") && todo.length) {
     // Written even when it comes back empty, and that is deliberate. "We mapped
     // this host and it has nothing" is an answer, and without the file on disk
     // the next run pays to learn it again.
-    writeFileSync(at(MAPS + host + ".json"), JSON.stringify({ host, mappedAt: now, failure: result.failure, links: result.links }, null, 1));
+    const prior = cached(host);
+    writeFileSync(
+      at(MAPS + host + ".json"),
+      JSON.stringify({ host, mappedAt: now, failure: result.failure, attempts: (prior?.attempts ?? 0) + 1, links: result.links, harvested: prior?.harvested }, null, 1),
+    );
     if (result.failure) failed++;
     done++;
     if (done % 25 === 0) console.log(`  ${done}/${todo.length} mapped`);
   });
   console.log(`  ${done} mapped, ${failed} failed`);
+}
+
+// ----------------------------------------------------------------- harvest
+
+/**
+ * The free half of discovery, for hosts the index has never heard of.
+ *
+ * 63 hosts came back from /v2/map with zero links and a warning suggesting we
+ * map the parent domain instead. `amreli.gujarat.gov.in` is one of them and it
+ * is a working district collectorate with a homepage full of service links.
+ * Firecrawl's map is index backed, so "not indexed" arrived looking exactly like
+ * "has no pages", and taking that at face value would have written off a
+ * district.
+ *
+ * Reading one homepage we can already fetch costs no credits, so this runs for
+ * every host the map left empty, and only those.
+ */
+const barren = hosts.filter((h) => {
+  const m = cached(h);
+  return m && !(m.links ?? []).length && !m.harvested;
+});
+
+if (!flag("score") && barren.length) {
+  console.log(`\n${barren.length} host(s) the index has nothing on. Reading their homepages instead, no credits.`);
+  let found = 0;
+  await pool(barren, 8, async (host) => {
+    const res = await fetchPage(`https://${host}/`, { timeoutMs: 20_000 });
+    const links = res.ok ? anchors(res.body ?? "", `https://${host}/`) : [];
+    const prior = cached(host);
+    writeFileSync(at(MAPS + host + ".json"), JSON.stringify({ ...prior, harvestedAt: now, harvested: links }, null, 1));
+    if (links.length) found++;
+  });
+  console.log(`  ${found} of ${barren.length} had a homepage worth reading`);
 }
 
 // ------------------------------------------------------------------- score
@@ -236,35 +317,48 @@ if (!flag("score") && todo.length) {
 const seen = new Map();
 let mapped = 0;
 let offHost = 0;
+let harvestedUrls = 0;
 for (const r of registry) {
-  if (!cached(r.host)) continue;
+  const file = cached(r.host);
+  if (!file) continue;
   mapped++;
-  const file = JSON.parse(readFileSync(at(MAPS + r.host + ".json"), "utf8"));
-  for (const link of file.links ?? []) {
-    const url = normalise(link.url ?? "");
-    if (!url.startsWith("http")) continue;
-    // Firecrawl returns outbound links too. A url on a host we did not ask about
-    // has not been classified, so we have no idea whose page it is.
-    if (hostOf(url) !== r.host) {
-      offHost++;
-      continue;
+  // Map first so its richer descriptions win a tie, harvest second to fill in
+  // what the index never had. Which one found a url is recorded, because they
+  // are not equally trustworthy: a map link is a page Firecrawl has seen, a
+  // harvested link is a page the host claims to have.
+  const sources = [
+    ["firecrawl map", file.links ?? []],
+    ["homepage links", file.harvested ?? []],
+  ];
+  for (const [discovery, links] of sources) {
+    for (const link of links) {
+      const url = normalise(link.url ?? "");
+      if (!url.startsWith("http")) continue;
+      // Firecrawl returns outbound links too, and a homepage links everywhere. A
+      // url on a host we did not ask about has not been classified, so we have
+      // no idea whose page it is.
+      if (hostOf(url) !== r.host) {
+        offHost++;
+        continue;
+      }
+      const existing = seen.get(url);
+      if (existing) {
+        if (!existing.hosts.includes(r.host)) existing.hosts.push(r.host);
+        continue;
+      }
+      if (discovery === "homepage links") harvestedUrls++;
+      seen.set(url, {
+        url,
+        host: r.host,
+        hosts: [r.host],
+        category: r.category,
+        title: (link.title ?? "").slice(0, 200) || null,
+        description: (link.description ?? "").slice(0, 300) || null,
+        score: score(link),
+        discovery,
+        discoveredAt: file.mappedAt ?? now,
+      });
     }
-    const existing = seen.get(url);
-    if (existing) {
-      if (!existing.hosts.includes(r.host)) existing.hosts.push(r.host);
-      continue;
-    }
-    seen.set(url, {
-      url,
-      host: r.host,
-      hosts: [r.host],
-      category: r.category,
-      title: (link.title ?? "").slice(0, 200) || null,
-      description: (link.description ?? "").slice(0, 300) || null,
-      score: score(link),
-      discovery: "firecrawl map",
-      discoveredAt: file.mappedAt ?? now,
-    });
   }
 }
 
@@ -293,7 +387,7 @@ const lowScore = rows.filter((r) => r.state === "SKIPPED_LOW_SCORE").length;
 
 appendJsonl(".ingest/runs.jsonl", [{ run: "services:discover", at: now, hostsMapped: mapped, urls: rows.length, discovered, overCap, lowScore, offHost }]);
 
-console.log(`\n${mapped} hosts mapped, ${rows.length} unique urls, ${offHost} off-host links dropped`);
+console.log(`\n${mapped} hosts mapped, ${rows.length} unique urls (${harvestedUrls} from homepages, free), ${offHost} off-host links dropped`);
 console.log(`  ${discovered} DISCOVERED (score >= ${THRESHOLD}, under the ${PAGE_CAP} cap)`);
 if (overCap) console.log(`  ${overCap} SKIPPED_OVER_CAP  <- scored well enough but the cap is ${PAGE_CAP}. Lowest kept score: ${above[PAGE_CAP - 1]?.score}`);
 console.log(`  ${lowScore} SKIPPED_LOW_SCORE`);

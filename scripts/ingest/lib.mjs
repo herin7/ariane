@@ -288,6 +288,42 @@ export function toText(html) {
 }
 
 /**
+ * Every link a page offers, in the shape the url scorer already reads.
+ *
+ * The free half of discovery. Firecrawl's /v2/map is index backed, so a host
+ * nobody has indexed comes back with zero links and a suggestion to try the
+ * parent domain: `amreli.gujarat.gov.in` returns 0 while `ahmedabad` returns
+ * plenty, and the difference is not that Amreli has no services. Their own
+ * homepages list them perfectly well, and reading a homepage we can already
+ * fetch costs nothing.
+ *
+ * Anchor text becomes the title, which is usually better than a crawler's
+ * guess: a government homepage links to its own service pages with the name of
+ * the service.
+ */
+export function anchors(html, baseUrl) {
+  const out = [];
+  const seen = new Set();
+  for (const m of dechrome(html).matchAll(/<a\b[^>]*\bhref=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
+    const href = decode(m[1]).trim();
+    if (!href || href.startsWith("#")) continue;
+    let url;
+    try {
+      url = new URL(href, baseUrl);
+    } catch {
+      continue;
+    }
+    if (url.protocol !== "https:" && url.protocol !== "http:") continue;
+    url.hash = "";
+    const clean = url.toString();
+    if (seen.has(clean)) continue;
+    seen.add(clean);
+    out.push({ url: clean, title: tidy(stripTags(m[2])).slice(0, 200) || null, description: null });
+  }
+  return out;
+}
+
+/**
  * A page that says 200 and means 404.
  *
  * Measured on this estate: robots.txt and sitemap.xml return HTTP 200 with an
@@ -437,6 +473,20 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   const blocked = negativeRow("https://x.gov.in/b", "BLOCKED_BY_SITE", "2026-08-23T00:00:00.000Z");
   assert.ok(at404.blockedUntil > blocked.blockedUntil, "a hard 404 backs off far longer than a block");
   assert.equal(blocked.blockedUntil, "2026-08-24T00:00:00.000Z");
+
+  const links = anchors(
+    `<a href="/apply.aspx">Apply <b>Online</b></a><a href="#top">Skip</a><a href="mailto:x@y.in">Mail</a>
+     <a href="/apply.aspx#form">Apply again</a><a href="https://other.gov.in/a">Off host</a>
+     <script>var s = '<a href="/fake">not a link</a>';</script>`,
+    "https://x.gov.in/dept/",
+  );
+  assert.deepEqual(
+    links.map((l) => l.url),
+    ["https://x.gov.in/apply.aspx", "https://other.gov.in/a"],
+    "relative resolved, fragment and mailto dropped, same page twice counted once",
+  );
+  assert.equal(links[0].title, "Apply Online", "anchor text is the title, tags stripped");
+  assert.ok(!links.some((l) => l.url.includes("fake")), "a link inside a script tag is not a link");
 
   assert.deepEqual(jsonArray('Sure! ```json\n[{"a":1}]\n``` hope that helps'), [{ a: 1 }]);
   assert.equal(jsonArray("I could not do it"), null, "prose without an array is not an answer");
