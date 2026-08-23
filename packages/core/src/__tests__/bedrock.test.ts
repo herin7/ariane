@@ -7,14 +7,14 @@ import { bedrockConfigFromEnv, pickService, type ServiceChoice } from "../lang/b
  * file is about ignoring the model rather than calling it.
  */
 
-const CONFIG = { token: "t", model: "m", baseUrl: "https://example.invalid/anthropic", workspaceId: "default" };
+const CONFIG = { token: "t", model: "m", baseUrl: "https://example.invalid", project: "default" };
 const CANDIDATES: ServiceChoice[] = [
   { id: "service:income_certificate", name: "Income certificate", aliases: ["aavak no dakhlo"] },
   { id: "service:learner_licence", name: "Learner licence" },
 ];
 
-const replies = (text: string) =>
-  (async () => new Response(JSON.stringify({ content: [{ type: "text", text }] }), { status: 200 })) as never;
+const replies = (content: string) =>
+  (async () => new Response(JSON.stringify({ choices: [{ message: { content } }] }), { status: 200 })) as never;
 
 describe("pickService", () => {
   it("returns the id when the model picks one we offered", async () => {
@@ -23,6 +23,19 @@ describe("pickService", () => {
       fetchImpl: replies("service:income_certificate"),
     });
     expect(picked).toBe("service:income_certificate");
+  });
+
+  it("accepts the id without the service prefix, which half the catalogue drops", async () => {
+    const picked = await pickService("aavak", CANDIDATES, { config: CONFIG, fetchImpl: replies("income_certificate") });
+    expect(picked).toBe("service:income_certificate");
+  });
+
+  it("survives punctuation and formatting around a correct answer", async () => {
+    for (const answer of ["`service:learner_licence`", "service:learner_licence.", "  LEARNER_LICENCE  "]) {
+      expect(await pickService("scooter", CANDIDATES, { config: CONFIG, fetchImpl: replies(answer) })).toBe(
+        "service:learner_licence",
+      );
+    }
   });
 
   it("throws away an id that is not in the graph", async () => {
@@ -36,17 +49,16 @@ describe("pickService", () => {
   });
 
   it("takes NONE for an answer", async () => {
-    const picked = await pickService("book a flight", CANDIDATES, {
-      config: CONFIG,
-      fetchImpl: replies("NONE"),
-    });
-    expect(picked).toBeUndefined();
+    expect(await pickService("book a flight", CANDIDATES, { config: CONFIG, fetchImpl: replies("NONE") })).toBeUndefined();
   });
 
-  it("ignores a chatty answer rather than trying to parse an id out of it", async () => {
+  it("does not mine an id out of a chatty answer", async () => {
+    // Only the last token is read. A model that explains itself has not
+    // followed the instruction, and guessing which id it meant is exactly the
+    // kind of cleverness that sends somebody to the wrong office.
     const picked = await pickService("aavak", CANDIDATES, {
       config: CONFIG,
-      fetchImpl: replies("I think it is service:income_certificate, probably."),
+      fetchImpl: replies("It is probably service:income_certificate but honestly who knows"),
     });
     expect(picked).toBeUndefined();
   });
@@ -61,7 +73,7 @@ describe("pickService", () => {
     expect(picked).toBeUndefined();
   });
 
-  it("swallows the 403 the account currently gets, so intent resolution still answers", async () => {
+  it("swallows a model the account cannot call, so intent resolution still answers", async () => {
     const picked = await pickService("aavak", CANDIDATES, {
       config: CONFIG,
       fetchImpl: (async () => new Response("not available for this account", { status: 403 })) as never,
@@ -81,33 +93,40 @@ describe("pickService", () => {
     expect(picked).toBeUndefined();
   });
 
-  it("sends every candidate id, because the model can only pick what it was shown", async () => {
+  it("posts to the OpenAI shaped route with every candidate id in the body", async () => {
+    let url = "";
+    let headers: Record<string, string> = {};
     let body = "";
     await pickService("aavak", CANDIDATES, {
       config: CONFIG,
-      fetchImpl: ((_: string, init: RequestInit) => {
+      fetchImpl: ((target: string, init: RequestInit) => {
+        url = target;
+        headers = init.headers as Record<string, string>;
         body = String(init.body);
-        return Promise.resolve(new Response(JSON.stringify({ content: [] }), { status: 200 }));
+        return Promise.resolve(new Response(JSON.stringify({ choices: [] }), { status: 200 }));
       }) as never,
     });
+    // Not /anthropic/v1/messages. Every non Anthropic model in the catalogue
+    // rejects that route, which is the bug this test exists to keep fixed.
+    expect(url).toBe("https://example.invalid/v1/chat/completions");
+    expect(headers["openai-project"]).toBe("default");
     for (const c of CANDIDATES) expect(body).toContain(c.id);
   });
 });
 
 describe("bedrockConfigFromEnv", () => {
-  it("needs both a token and a model id, not one of them", () => {
-    expect(bedrockConfigFromEnv({ AWS_BEARER_TOKEN_BEDROCK: "t" })).toBeUndefined();
-    expect(bedrockConfigFromEnv({ BEDROCK_MODEL_ID: "m" })).toBeUndefined();
+  it("needs a token and nothing else, because the rest has a sane default", () => {
     expect(bedrockConfigFromEnv({})).toBeUndefined();
+    expect(bedrockConfigFromEnv({ AWS_BEARER_TOKEN_BEDROCK: "   " })).toBeUndefined();
+    expect(bedrockConfigFromEnv({ AWS_BEARER_TOKEN_BEDROCK: "t" })).toEqual({
+      token: "t",
+      model: "moonshotai.kimi-k2.5",
+      baseUrl: "https://bedrock-mantle.us-east-1.api.aws",
+      project: "default",
+    });
   });
 
-  it("defaults the workspace and the endpoint so .env only carries the secret", () => {
-    const config = bedrockConfigFromEnv({ AWS_BEARER_TOKEN_BEDROCK: "t", BEDROCK_MODEL_ID: "m" });
-    expect(config).toEqual({
-      token: "t",
-      model: "m",
-      baseUrl: "https://bedrock-mantle.us-east-1.api.aws/anthropic",
-      workspaceId: "default",
-    });
+  it("lets .env choose another model without touching code", () => {
+    expect(bedrockConfigFromEnv({ AWS_BEARER_TOKEN_BEDROCK: "t", BEDROCK_MODEL_ID: "zai.glm-5" })?.model).toBe("zai.glm-5");
   });
 });
