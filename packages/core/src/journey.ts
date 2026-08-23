@@ -107,6 +107,10 @@ export class JourneyCompiler {
     for (const node of this.index.nodes.values()) {
       if (node.type !== "SERVICE") continue;
       if (node.name.toLowerCase() === raw) return node;
+      // The official name too, because it is the one on the page and on our own
+      // service card, so it is the string a citizen copies. "PF Final Settlement
+      // (Form19)" was displayed everywhere and resolved nowhere.
+      if (node.officialName?.toLowerCase() === raw) return node;
       if (node.aliases?.some((a) => a.toLowerCase() === raw)) return node;
     }
     return undefined;
