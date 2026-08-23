@@ -1,0 +1,758 @@
+{
+ "journey": "msme-and-udyam",
+ "researchedAt": "2026-08-23",
+ "region": "Gujarat, India",
+ "sources": [
+  {
+   "id": "src:cef59a1e5f90",
+   "url": "https://udyamregistration.gov.in/",
+   "title": "Udyam Registration : Zero cost, No Fee and Free Registration of MSMEs. This is official website of Govt. of India, Ministry of MSME. No other website/portal/app is official. MSMEs are requested to do MSME Registration here only",
+   "domain": "udyamregistration.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ec46bd29e28061797663ccd0c6129477cb4df58847492f5220a0f3dbd7760d4d",
+   "cacheFile": ".ingest/pages/cef59a1e5f904561155bf80feeedeffca51c5fa8.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:1c23804b3160",
+   "url": "https://udyamregistration.gov.in/UdyamRegistration.aspx",
+   "title": "UDYAM REGISTRATION FORM - For New Enterprise who are not Registered yet as MSME",
+   "domain": "udyamregistration.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "f30bd918d449bce9bc98a1cafbe3eae8db7e1c697f65a2c21f555201846e1b67",
+   "cacheFile": ".ingest/pages/1c23804b31607338864fc6478c98289beb6e84b7.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:fe4f101fbfb0",
+   "url": "https://champions.gov.in/MSME_Ministry/start-up-udyam-financing-equity_loan_schemes/new_entrepreneurs_Starters.htm",
+   "title": "SCHEMES FOR STARTERS | MSME CHAMPIONS | Our Small Hands to make you LARGE",
+   "domain": "champions.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "1530407463b6b262aba1fc54fa4c69f50c26434da4497f803839a2df2779fa83",
+   "cacheFile": ".ingest/pages/fe4f101fbfb0b1045d8ae55872341f591074dc92.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:10b8e460fca1",
+   "url": "https://champions.gov.in/MSME_Ministry_entrepreneurs/PMEGP_bank_loan_finance/old_existing_Schemes.htm",
+   "title": "MSME CHAMPIONS | Our Small Hands to make you LARGE",
+   "domain": "champions.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "6558dba102f39ebf872f0a67567e5f2e322e573b604eef85e5ec686ab55af77b",
+   "cacheFile": ".ingest/pages/10b8e460fca1e8868ae152f2b108fe163a992a2c.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:b9f49e2ad4a9",
+   "url": "https://e-kutir.gujarat.gov.in/SHGUserRegistration.aspx",
+   "title": "Commissioner of Cottage and Rural Industries",
+   "domain": "e-kutir.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "99e029038fdd5a375a7c1103547792e3bbca9451f357f1fa3b3a824d46983dac",
+   "cacheFile": ".ingest/pages/b9f49e2ad4a9cbb4396b499be2714c1b2392a066.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:15614cce9684",
+   "url": "https://e-kutir.gujarat.gov.in/registration.aspx",
+   "title": "Commissioner of Cottage and Rural Industries",
+   "domain": "e-kutir.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "22166482957cd4d9d8d8f1d17a605deb585a7927d8ff8f0c088c1842f7e5c004",
+   "cacheFile": ".ingest/pages/15614cce96849ff011b713343e82de8030623092.md",
+   "scrapedOk": true
+  }
+ ],
+ "facts": [
+  {
+   "claim": "Udyam Registration is free of cost and paperless.",
+   "kind": "FEE",
+   "subject": "udyam_registration",
+   "object": "fee",
+   "detail": {
+    "amount": 0,
+    "currency": "INR"
+   },
+   "sourceId": "src:cef59a1e5f90",
+   "evidence": "Udyam Registration : Zero cost, No Fee and Free Registration of MSMEs.",
+   "confidence": 1
+  },
+  {
+   "claim": "Udyam Registration is the only official website for MSME registration by the Government of India.",
+   "kind": "CHANNEL",
+   "subject": "udyam_registration",
+   "object": "official_website",
+   "detail": {
+    "url": "https://udyamregistration.gov.in/"
+   },
+   "sourceId": "src:cef59a1e5f90",
+   "evidence": "This is official website of Govt. of India, Ministry of MSME. No other website/portal/app is official. MSMEs are requested to do MSME Registration here only",
+   "confidence": 1
+  },
+  {
+   "claim": "MSME registration process is fully online and paperless.",
+   "kind": "ACTION",
+   "subject": "msme_registration",
+   "object": "process",
+   "detail": {},
+   "sourceId": "src:cef59a1e5f90",
+   "evidence": "MSME registration process is fully online, paperless and based on self-declaration.",
+   "confidence": 1
+  },
+  {
+   "claim": "No documents or proof are required to be uploaded for registering an MSME.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "msme_registration",
+   "object": "documents",
+   "detail": {},
+   "sourceId": "src:cef59a1e5f90",
+   "evidence": "No documents or proof are required to be uploaded for registering an MSME.",
+   "confidence": 1
+  },
+  {
+   "claim": "Only an Aadhaar Number is enough for registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "msme_registration",
+   "object": "aadhaar_card",
+   "detail": {},
+   "sourceId": "src:cef59a1e5f90",
+   "evidence": "Only Adhaar Number will be enough for registration.",
+   "confidence": 1
+  },
+  {
+   "claim": "PAN and GSTIN are required for Udyam Registration as per the CGST Act 2017 and as notified by the Ministry of MSME.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "udyam_registration",
+   "object": "pan_gstin",
+   "detail": {},
+   "sourceId": "src:cef59a1e5f90",
+   "evidence": "Having PAN and GSTIN (As per applicablity of CGST Act 2017 and as notified by the ministry of MSME vide S.O. 1055(E) dated 05th March 2021 ) is required for Udyam Registration with effect from 01.04.2021.",
+   "confidence": 1
+  },
+  {
+   "claim": "Those who have EM-II or UAM registration or any other registration issued by any authority under the Ministry of MSME will have to re-register themselves.",
+   "kind": "ACTION",
+   "subject": "msme_registration",
+   "object": "re_register",
+   "detail": {},
+   "sourceId": "src:cef59a1e5f90",
+   "evidence": "Those who have EM-II or UAM registration or any other registration issued by any authority under the Ministry of MSME, will have to re-register themselves.",
+   "confidence": 1
+  },
+  {
+   "claim": "No enterprise shall file more than one Udyam Registration.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "udyam_registration",
+   "object": "multiple_registrations",
+   "detail": {},
+   "sourceId": "src:cef59a1e5f90",
+   "evidence": "No enterprise shall file more than one Udyam Registration.",
+   "confidence": 1
+  },
+  {
+   "claim": "A permanent registration number will be given after registration.",
+   "kind": "ACTION",
+   "subject": "udyam_registration",
+   "object": "registration_number",
+   "detail": {},
+   "sourceId": "src:cef59a1e5f90",
+   "evidence": "A permanent registration number will be given after registration.",
+   "confidence": 1
+  },
+  {
+   "claim": "After completion of the registration process, a certificate will be issued online.",
+   "kind": "ACTION",
+   "subject": "udyam_registration",
+   "object": "certificate",
+   "detail": {},
+   "sourceId": "src:cef59a1e5f90",
+   "evidence": "After completion of the process of registration, a certificate will be issued online.",
+   "confidence": 1
+  },
+  {
+   "claim": "The certificate will have a dynamic QR Code from which the web page on the portal and details about the enterprise can be accessed.",
+   "kind": "ACTION",
+   "subject": "udyam_certificate",
+   "object": "qr_code",
+   "detail": {},
+   "sourceId": "src:cef59a1e5f90",
+   "evidence": "This certificate will have a dynamic QR Code from which the web page on our Portal and details about the enterprise can be accessed.",
+   "confidence": 1
+  },
+  {
+   "claim": "There will be no need for renewal of Registration.",
+   "kind": "ACTION",
+   "subject": "udyam_registration",
+   "object": "renewal",
+   "detail": {},
+   "sourceId": "src:cef59a1e5f90",
+   "evidence": "There will be no need for renewal of Registration.",
+   "confidence": 1
+  },
+  {
+   "claim": "The single window systems at Champions Control Rooms and at DICs will help in the process.",
+   "kind": "OFFICE",
+   "subject": "udyam_registration",
+   "object": "champions_control_rooms",
+   "detail": {
+    "officeName": "Champions Control Rooms",
+    "address": "Not specified"
+   },
+   "sourceId": "src:cef59a1e5f90",
+   "evidence": "Our single window systems at Champions Control Rooms and at DICs will help you in the process.",
+   "confidence": 1
+  },
+  {
+   "claim": "The online system will be fully integrated with Income Tax and GSTIN systems.",
+   "kind": "ACTION",
+   "subject": "udyam_registration",
+   "object": "integration",
+   "detail": {
+    "systems": "Income Tax, GSTIN"
+   },
+   "sourceId": "src:cef59a1e5f90",
+   "evidence": "Our online system will be fully integrated with Income Tax and GSTIN systems.",
+   "confidence": 1
+  },
+  {
+   "claim": "For grievances, call or WhatsApp on +91 8308809334 from Monday to Friday between 10:00 AM and 06:00 PM.",
+   "kind": "GRIEVANCE",
+   "subject": "udyam_registration",
+   "object": "grievance",
+   "detail": {
+    "phone": "+91 8308809334",
+    "hours": "Mon to Fri : 10:00 AM - 06:00 PM"
+   },
+   "sourceId": "src:cef59a1e5f90",
+   "evidence": "Call or Whatsapp on +91 8308809334 Mon to Fri : 10:00 AM - 06:00 PM",
+   "confidence": 1
+  },
+  {
+   "claim": "Aadhaar number is required for Udyam Registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "udyam_registration",
+   "object": "aadhaar_number",
+   "detail": {},
+   "sourceId": "src:1c23804b3160",
+   "evidence": "✔ Aadhaar number shall be required for Udyam Registration.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Aadhaar number must be of the proprietor for a proprietorship firm.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "udyam_registration",
+   "object": "aadhaar_number",
+   "detail": {},
+   "sourceId": "src:1c23804b3160",
+   "evidence": "✔ The Aadhaar number shall be of the proprietor in the case of a proprietorship firm, of the managing partner in the case of a partnership firm and of a karta in the case of a Hindu Undivided Family (HUF).",
+   "confidence": 1
+  },
+  {
+   "claim": "For a Company or a Limited Liability Partnership, GSTIN and PAN along with Aadhaar number are required.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "udyam_registration",
+   "object": "gstin_pan_aadhaar",
+   "detail": {},
+   "sourceId": "src:1c23804b3160",
+   "evidence": "✔ In case of a Company or a Limited Liability Partnership or a Cooperative Society or a Society or a Trust, the organisation or its authorised signatory shall provide its GSTIN(As per applicablity of CGST Act 2017 and as notified by the ministry of MSME vide S.O. 1055(E) dated 05th March 2021 ) and PAN along with its Aadhaar number.",
+   "confidence": 1
+  },
+  {
+   "claim": "Aadhaar data will not be stored or shared by the Ministry of MSME.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "udyam_registration",
+   "object": "aadhaar_data_usage",
+   "detail": {},
+   "sourceId": "src:1c23804b3160",
+   "evidence": "Ministry of MSME, Government of India, have informed me that my aadhaar data will not be stored/shared.",
+   "confidence": 1
+  },
+  {
+   "claim": "For grievances, call or Whatsapp on +91 8308809334.",
+   "kind": "GRIEVANCE",
+   "subject": "udyam_registration",
+   "object": "grievance_contact",
+   "detail": {
+    "phone": "+91 8308809334"
+   },
+   "sourceId": "src:1c23804b3160",
+   "evidence": "For Grievances Call or Whatsapp on +91 8308809334",
+   "confidence": 1
+  },
+  {
+   "claim": "Office of DCMSME, Ministry of MSME, Kartavya Bhawan 3 - New Delhi is the address.",
+   "kind": "OFFICE",
+   "subject": "udyam_registration",
+   "object": "dcmsme_office",
+   "detail": {
+    "address": "Office of DCMSME, Ministry of MSME, Kartavya Bhawan 3 - New Delhi"
+   },
+   "sourceId": "src:1c23804b3160",
+   "evidence": "Address Office of DCMSME, Ministry of MSME, Kartavya Bhawan 3 - New Delhi",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must be at least 18 years old to be eligible for the PMEGP scheme.",
+   "kind": "ELIGIBILITY",
+   "subject": "pmegp_eligibility",
+   "object": "age",
+   "detail": {
+    "minimum_age": "18"
+   },
+   "sourceId": "src:fe4f101fbfb0",
+   "evidence": "Target Beneficiary: Unemployed rural and urban youth; Eligibility Criteria: Any individual above 18 years of age, SHGs, Charitable trusts, Registered Societies etc.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The PMEGP scheme allows a maximum project cost of Rs. 25 lakh for manufacturing units.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "pmegp_project_cost",
+   "object": "manufacturing_unit",
+   "detail": {
+    "maximum_cost": "2500000",
+    "currency": "INR"
+   },
+   "sourceId": "src:fe4f101fbfb0",
+   "evidence": "Allowed Project Cost: for Manufacturing Unit: Rs. 25 lakh; Service Sector Unit: Rs. 10 lakh, Trading SectorUnit Rs. 10 lakh in North Eastern Region, LWE-affected districts and Andaman & Nicobar Islands",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The PMEGP scheme provides a subsidy of 15% of the project cost in urban areas for the general category.",
+   "kind": "FEE",
+   "subject": "pmegp_subsidy",
+   "object": "general_category_urban",
+   "detail": {
+    "subsidy_percentage": "15"
+   },
+   "sourceId": "src:fe4f101fbfb0",
+   "evidence": "Subsidy: General Category: 15% of the project cost in urban areas, 25% in rural areas;",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The PMEGP scheme requires the applicant to contribute 10% of the project cost for the general category.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "pmegp_contribution",
+   "object": "general_category",
+   "detail": {
+    "contribution_percentage": "10"
+   },
+   "sourceId": "src:fe4f101fbfb0",
+   "evidence": "Contribution of the Entrepreneur: General: 10 %, Special category: 5 %.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The PMEGP scheme requires the applicant to apply online through the website https://www.kviconline.gov.in/pmegpeportal.",
+   "kind": "CHANNEL",
+   "subject": "pmegp_application",
+   "object": "online_portal",
+   "detail": {
+    "url": "https://www.kviconline.gov.in/pmegpeportal"
+   },
+   "sourceId": "src:fe4f101fbfb0",
+   "evidence": "The applicant should apply in the following Website- https://www.kviconline.gov.in/pmegpeportal The applicant to follow the guidelines of this portal.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The PMEGP scheme requires the applicant to complete an Entrepreneurship Development Programme (EDP) training.",
+   "kind": "ACTION",
+   "subject": "pmegp_edp",
+   "object": "entrepreneurship_development_program",
+   "detail": {},
+   "sourceId": "src:fe4f101fbfb0",
+   "evidence": "Implementing Agency will arrange for the Entrepreneurship Development Programme (EDP) Training for the applicant, which is available on line as well;",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The PMEGP scheme requires the applicant to submit the EDP certificate along with their contribution to the bank to receive the first instalment of the loan.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "pmegp_edp_certificate",
+   "object": "edp_certificate",
+   "detail": {},
+   "sourceId": "src:fe4f101fbfb0",
+   "evidence": "On EDP completion, a certificate is issued to the applicant and same is to be submitted along with applicant contribution to the concerned Bank to get first instalment of the loan.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Gram Udyog Vikas Yojna targets artisans, unemployed youth, and self-help groups (SHGs).",
+   "kind": "ELIGIBILITY",
+   "subject": "gram_udyog_vikas_yojna",
+   "object": "target_beneficiaries",
+   "detail": {},
+   "sourceId": "src:fe4f101fbfb0",
+   "evidence": "Eligibility & Conditions: Target beneficiary: Artisans, Unemployed Youth and Self Help Groups (SHGs)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Credit Guarantee on Loans to Micro and Small Enterprises and New Entrepreneurs provides guarantee coverage of 85% for micro enterprises up to Rs. 5 lakh.",
+   "kind": "FEE",
+   "subject": "credit_guarantee_scheme",
+   "object": "micro_enterprise_guarantee",
+   "detail": {
+    "guarantee_percentage": "85",
+    "maximum_amount": "500000",
+    "currency": "INR"
+   },
+   "sourceId": "src:fe4f101fbfb0",
+   "evidence": "Guarantee coverage ranges from 85% (Micro Enterprise up to Rs 5 lakh) to 75% (others);",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Entrepreneurship and Skill Development Programme (ESDP) requires at least 40% women participation.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "esdp_women_participation",
+   "object": "women",
+   "detail": {
+    "minimum_percentage": "40"
+   },
+   "sourceId": "src:fe4f101fbfb0",
+   "evidence": "As per scheme guidelines, in EAP and E-SDP there should be overall 40% women participation.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Prime Minister’s Employment Generation Programme (PMEGP) provides a margin money subsidy on bank loans for setting up new micro-enterprises.",
+   "kind": "FEE",
+   "subject": "pmegp_scheme",
+   "object": "margin_money_subsidy",
+   "detail": {
+    "amount": "15% to 35%",
+    "currency": "INR"
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "Bank financed subsidy program for setting up new micro-enterprises in non-farm sector. Margin Money subsidy on Bank Loan ranges from 15% to 35% for projects up to Rs. 25 lakhs in manufacturing and Rs. 10 lakhs in service sector",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The PMEGP scheme provides a higher margin money subsidy for beneficiaries from special categories such as SC/ST/Women/PH/Minorities/Ex-Servicemen/NER.",
+   "kind": "FEE",
+   "subject": "pmegp_scheme",
+   "object": "special_category_subsidy",
+   "detail": {
+    "rural_subsidy": "35%",
+    "urban_subsidy": "25%",
+    "currency": "INR"
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "For beneficiaries belonging to special categories such as SC/ST/Women/PH/Minorities/Ex-Servicemen/NER, the margin money subsidy is 35% in rural areas and 25% in urban areas.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The PMEGP scheme is applicable for individuals above 18 years of age, SHGs, Charitable trusts, and Registered Societies.",
+   "kind": "ELIGIBILITY",
+   "subject": "pmegp_scheme",
+   "object": "eligible_applicants",
+   "detail": {},
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "Scheme applicable for Any individual above 18 years of age, SHGs, Charitable trusts, Registered Societies etc.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The PMEGP scheme requires a 10% own contribution of the project cost for general category beneficiaries.",
+   "kind": "FEE",
+   "subject": "pmegp_scheme",
+   "object": "own_contribution",
+   "detail": {
+    "percentage": "10%"
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "The own contribution of the beneficiary is 10% of the project cost in case of general category",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The PMEGP scheme requires a 5% own contribution of the project cost for reserved category beneficiaries.",
+   "kind": "FEE",
+   "subject": "pmegp_scheme",
+   "object": "reserved_category_contribution",
+   "detail": {
+    "percentage": "5%"
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "and 5% of the project cost in case of reserved category (SC/ST/OBC/PH/Women/Ex Servicemen/ NER) beneficiaries.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The PMEGP scheme allows banks to sanction and release 90 to 95 percent of the total project cost after loan approval.",
+   "kind": "FEE",
+   "subject": "pmegp_scheme",
+   "object": "bank_loan_disbursement",
+   "detail": {
+    "percentage": "90 to 95%"
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "If the application for loan is approved, Banks sanction and release the balance amount of 90 to 95 percent of the total project cost suitably for setting up of the units by the beneficiaries.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The PMEGP scheme provides support services like awareness camps, workshops, and EDP training for sustainability of the projects.",
+   "kind": "ACTION",
+   "subject": "pmegp_scheme",
+   "object": "support_services",
+   "detail": {},
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "In order to have sustainability of the projects/units set up under the scheme, support services are also provided in the form of Backward & Forward Linkages by organizing events like awareness camps, workshops, EDP training to the beneficiaries, exhibitions, etc.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The PMEGP scheme has an online process flow for application and disbursement of margin money directly to financing branches.",
+   "kind": "CHANNEL",
+   "subject": "pmegp_scheme",
+   "object": "online_process",
+   "detail": {},
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "Government of India has introduced online process flow of application and disbursement of Margin Money directly to financing branches.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Corporation Bank is engaged as a single National Level Agency for operating the online fund flow system of PMEGP.",
+   "kind": "OFFICE",
+   "subject": "pmegp_scheme",
+   "object": "national_level_agency",
+   "detail": {
+    "office_name": "Corporation Bank"
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "Corporation Bank was engaged as a single National Level Agency for operating the online fund flow system of PMEGP.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A one-page online application form is mandatory for individuals and institutional beneficiaries on the PMEGP e-portal.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "pmegp_scheme",
+   "object": "online_application_form",
+   "detail": {},
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "One-page online application form is mandatory for individuals and institutional beneficiaries on the e-portal.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "SMS/e-mail alerts are sent to applicants automatically by the system or by the concerned officials at each stage of the PMEGP process.",
+   "kind": "TRACKING",
+   "subject": "pmegp_scheme",
+   "object": "application_alerts",
+   "detail": {},
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "SMS/e-mail alerts sent to the applicant automatically by the system or by the concerned officials at the process of each stage.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Model Projects of different KVI activities are available on the PMEGP e-portal for the benefit of potential beneficiaries.",
+   "kind": "ACTION",
+   "subject": "pmegp_scheme",
+   "object": "model_projects",
+   "detail": {},
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "Model Projects of different KVI activities have been put up on PMEGP e-portal for the benefit of potential beneficiaries.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Model Village Industries projects prepared by NSIC are linked to the PMEGP website.",
+   "kind": "ACTION",
+   "subject": "pmegp_scheme",
+   "object": "model_village_projects",
+   "detail": {
+    "preparer": "NSIC"
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "Model Village Industries projects prepared by NSIC have also been linked to the website.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Government encourages PMEGP units to adopt the Udyog Aadhar Memorandum (UAM) to register online.",
+   "kind": "ACTION",
+   "subject": "pmegp_scheme",
+   "object": "udyog_aadhar_memorandum",
+   "detail": {},
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "To increase the registration of MSMEs in the country, the Government has undertaken measures that the PMEGP units can adopt the Udyog Aadhar Memorandum (UAM) to register online.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The name of the SHG/Industrial Cooperative Society/NGO/Trust/Khadi Institution must be written in English.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "shg_or_cooperative_or_ngo_or_trust_or_khadi_institution",
+   "object": "english_name",
+   "detail": {},
+   "sourceId": "src:b9f49e2ad4a9",
+   "evidence": "સખી મંડળ / ઔદ્યોગિક સહકારી મંડળી / એનજીઓ/ટ્રસ્ટનું નામ / ખાદી સંસ્થા - મંડળી (અંગ્રેજીમાં) *",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The type of registration must be selected from the given options.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "registration_type",
+   "object": "selection",
+   "detail": {},
+   "sourceId": "src:b9f49e2ad4a9",
+   "evidence": "નોંધણીનો પ્રકાર * -પસંદ કરો- સખી મંડળ ઔદ્યોગિક સહકારી મંડળી એનજીઓ/ટ્રસ્ટ ખાદી સંસ્થા",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A PAN number must be provided, and it should be in capital letters.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "pan_number",
+   "object": "capital_case",
+   "detail": {},
+   "sourceId": "src:b9f49e2ad4a9",
+   "evidence": "પાન નંબર (સૂચિત નવી મંડળીના કિસ્સામાં પ્રમુખનો પાન નં. લખવો) * પાન નંબર લખો અમાન્ય પાન નંબર, પાન નંબર capital case માં લખો",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A valid mobile number must be provided.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "mobile_number",
+   "object": "valid",
+   "detail": {},
+   "sourceId": "src:b9f49e2ad4a9",
+   "evidence": "મોબાઇલ નંબર * મોબાઇલ નંબર લખો મોબાઇલ નંબર સાચો નાખો",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A valid email address must be provided.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "email",
+   "object": "valid",
+   "detail": {},
+   "sourceId": "src:b9f49e2ad4a9",
+   "evidence": "ઈમેલ * Please Enter Email ઈમેલ બરાબર લખો",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A password must be at least 8 characters long and include uppercase, lowercase, numbers, and special characters.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "password",
+   "object": "format",
+   "detail": {
+    "minimum_length": 8
+   },
+   "sourceId": "src:b9f49e2ad4a9",
+   "evidence": "પાસવર્ડ * પાસવર્ડ લખો પાસવર્ડ ઓછામાં ઓછો ૮ અક્ષરોનો હોવો જોઈએ અને તેમાં મોટા-નાના અક્ષરો, અંક તથા વિશેષ અક્ષર હોવા જોઈએ,પાસવર્ડમાં અક્ષરો માન્ય નથી.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The password must be confirmed by re-entering it.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "password",
+   "object": "confirmation",
+   "detail": {},
+   "sourceId": "src:b9f49e2ad4a9",
+   "evidence": "પાસવર્ડની પુષ્ટિ કરો * પાસવર્ડ સમાન હોવો જોઈએ પાસવર્ડ લખો",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A CAPTCHA code must be solved to proceed.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "captcha",
+   "object": "code",
+   "detail": {
+    "example": "1 + 3 ="
+   },
+   "sourceId": "src:b9f49e2ad4a9",
+   "evidence": "કેપ્ચા કોડ 1 + 3 =",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The user must confirm the details before registration.",
+   "kind": "ACTION",
+   "subject": "user",
+   "object": "confirmation",
+   "detail": {},
+   "sourceId": "src:b9f49e2ad4a9",
+   "evidence": "કૃપા કરીને તમારી વિગતો ચકાસી લો સખી મંડળ / ઔદ્યોગિક સહકારી મંડળી / એનજીઓ/ટ્રસ્ટ / ખાદી સંસ્થા - મંડળીનું નામ : | | મોબાઇલ નંબર : | | પાન નંબર : | | રદ્દ કરો",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must provide their full name in English.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "registration",
+   "object": "full_name",
+   "detail": {},
+   "sourceId": "src:15614cce9684",
+   "evidence": "પૂરું નામ (અંગ્રેજીમાં) *",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must provide their Aadhaar card number in a specific format.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "registration",
+   "object": "aadhaar_card",
+   "detail": {
+    "format": "4 digit space 4 digit"
+   },
+   "sourceId": "src:15614cce9684",
+   "evidence": "Please enter Aadhaar number in 4 digit space 4 digit format.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must provide a valid mobile number.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "registration",
+   "object": "mobile_number",
+   "detail": {},
+   "sourceId": "src:15614cce9684",
+   "evidence": "મોબાઇલ નંબર *",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must create a password with specific requirements.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "registration",
+   "object": "password",
+   "detail": {
+    "min_length": "8",
+    "max_length": "16",
+    "lowercase": "1",
+    "uppercase": "1",
+    "special_characters": "1",
+    "digits": "1"
+   },
+   "sourceId": "src:15614cce9684",
+   "evidence": "તમે ( ) સિવાય પાસવર્ડમાં ઓછામાં ઓછો 8 અક્ષરો અને મહત્તમ 16 અક્ષરો હોવા જોઈએ, ઓછામાં ઓછું એક લોઅરકેસ કેરેક્ટર, ઓછામાં ઓછું એક અપરકેસ કેરેક્ટર, ઓછામાં ઓછું એક સ્પેશિયલ કેરેક્ટર(~!@#$%*()_+^&}{:;?.) અને ઓછામાં ઓછું એક નંબર / અંક હોવો જોઈએ.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must confirm their password.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "registration",
+   "object": "password_confirmation",
+   "detail": {},
+   "sourceId": "src:15614cce9684",
+   "evidence": "પાસવર્ડની પુષ્ટિ કરો *",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must solve a CAPTCHA to proceed with registration.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "registration",
+   "object": "captcha",
+   "detail": {
+    "question": "2 + 1 ="
+   },
+   "sourceId": "src:15614cce9684",
+   "evidence": "કેપ્ચા કોડ *",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must confirm their details before submitting the registration.",
+   "kind": "ACTION",
+   "subject": "registration",
+   "object": "confirmation",
+   "detail": {},
+   "sourceId": "src:15614cce9684",
+   "evidence": "કૃપા કરીને તમારી વિગતો ચકાસી લો",
+   "confidence": 0.95
+  }
+ ],
+ "notFound": []
+}

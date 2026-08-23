@@ -1,0 +1,439 @@
+{
+ "id": "startup",
+ "sources": [
+  {
+   "id": "src:e44566599545",
+   "url": "https://www.startupindia.gov.in/content/sih/en/startup-scheme.html",
+   "title": "Startup India Scheme",
+   "domain": "startupindia.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "210935a98ae04bbab169709da2981709b282bea58812672bbe276cbc61c9bb71"
+  },
+  {
+   "id": "src:dc0a95e4944a",
+   "url": "https://www.startupindia.gov.in/content/sih/en/startup-scheme/state-startup-policies/Haryana-state-policy.html",
+   "title": "Haryana",
+   "domain": "startupindia.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "fa93c2bab1892aacb444a54631aaa4c7dbce0e19eb4c8bd9343a0a029251d428"
+  },
+  {
+   "id": "src:4fc361aa4ee4",
+   "url": "https://www.startupindia.gov.in/content/sih/en/startup-scheme/state-startup-policies/Rajasthan-state-policy.html",
+   "title": "Rajasthan",
+   "domain": "startupindia.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ed5aac894d24acc7a22dc30b3de9bdbf0800100a022706fed631c50fc12fd6b2"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "service:startup_india_scheme",
+   "type": "SERVICE",
+   "name": "Startup India Scheme",
+   "officialName": "Startup India Scheme",
+   "description": "The Startup India Scheme provides recognition and benefits to eligible startups, including tax exemptions, self-certification of compliance, and fast-tracked patent applications.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "The entity should not have been formed by splitting up or reconstructing an existing business.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "The entity should work towards the development or improvement of a product, process, or service and/or have a scalable business model with high potential for wealth and employment generation.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "Incorporated as a Private Limited Company, Registered Partnership Firm, Limited Liability Partnership, or Cooperative Society.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "The annual turnover should not exceed Rs. 200 crore in any financial year since incorporation.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "The period of existence and operations should not exceed 10 years from the date of incorporation.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "Startups shall be allowed to self-certify compliance with 6 labour laws and 3 environmental laws through a simple online procedure.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "DPIIT recognised startups that are within 10 years within date of incorporation ( 20 if deeptech recognized).",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "Eligible startups can be exempted from paying income tax for 3 consecutive financial years out of their first ten years since incorporation.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "DPIIT Recognized Startups can register on GeM as sellers and sell their products and services directly to Government entities.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "DPIIT recognised startups have been exempted from submitting Earnest Money Deposit (EMD) or bid security while filling government tenders.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "Access the Section 80 IAC exemption application form here",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "startups with simple debt structures, or those meeting certain income specified criteria* can be wound up within 90 days of filing an application for insolvency.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:startupindia_gov_in",
+   "type": "PORTAL",
+   "name": "startupindia.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://startupindia.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "The entity should not have been formed by splitting up or reconstructing an existing business.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:18001806222",
+   "type": "HELPLINE",
+   "name": "Haryana Entrepreneur & Startup Policy helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "18001806222"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "Phone Number: 18001806222",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:haryana_entrepreneur_startup_policy",
+   "type": "SERVICE",
+   "name": "Haryana Entrepreneur & Startup Policy",
+   "officialName": "Haryana Entrepreneur & Startup Policy",
+   "description": "The Haryana Entrepreneur & Startup Policy provides a Seed Grant of up to INR 3 Lakhs per startup for idea validation, prototype development, and other related activities.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "300000"
+   },
+   "sources": [
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "Location: The company/entity be registered in Haryana under the Haryana Shops and Commercial Establishment Act, 1958 ; and",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "Employment: The company employs at least 50 (fifty) per cent of its total qualified workforce in Haryana, which shall not include contract employees.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "Provided that such entity is not formed by splitting up, or reconstruction, of a business already in existence and should not have been formed by the demerger or reconstitution of a business already in existence;",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "Provided that such entity is not a holding company and it is not a subsidiary of any firm already in existence or except the subsidiary of any startup;",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "Startup means an entity (Private, Public, Proprietary, Partnership Firm), incorporated in India: As a private limited company (as defined in the Companies Act, 2013) or registered as a Partnership firm (registered under Section 59 of the Partnership Act, 1932) or a limited liability partnership (under the Limited Liability Partnership Act, 2008) in India.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "Not prior to seven years and in the case of Biotechnology Companies this period shall be up to 10 years",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "With annual turnover not exceeding INR 25 crore in any preceding financial year",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "Working towards innovation, development or improvement of products or processes or services, or if it is a scalable business model with a high potential of employment generation or wealth creation",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "Policy Document | Download here",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "Website | Startup Haryana",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "A Seed Grant up to INR 3 Lakhs per start-up shall be provided for validation of idea, prototype development, assistance towards travelling costs and carrying out field/ market research/ skill training/marketing and initial activities to setup a startup etc.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "Seed funding to startups would be routed throughState/Centre recognized Incubators. The incubatee would apply for the grantin the incubators where it is being incubated & incubator after due diligence would forward the case to the Implementation Committee.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "helpline:0141_2929831_2922373",
+   "type": "HELPLINE",
+   "name": "Rajasthan Startup Policy helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "0141-2929831 / 2922373"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:4fc361aa4ee4",
+     "evidence": "Contact: 0141-2929831 / 2922373",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:1800_115_565",
+   "type": "HELPLINE",
+   "name": "Rajasthan Startup Policy helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "1800 115 565"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:4fc361aa4ee4",
+     "evidence": "Our Toll Free Number : 1800 115 565 (10:00 AM to 05:30 PM)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:rajasthan_startup_policy",
+   "type": "SERVICE",
+   "name": "Rajasthan Startup Policy",
+   "officialName": "Rajasthan Startup Policy",
+   "description": "The Rajasthan Startup Policy provides financial assistance and support to innovators and startups at various stages, including sustenance allowances, marketing assistance, capital grants, and support for incubators and entrepreneurship cells.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "10000"
+   },
+   "sources": [
+    {
+     "sourceId": "src:4fc361aa4ee4",
+     "evidence": "Rs. 10,000/- per month will be provided to the innovator as sustenance allowance for one year.Startups whose project is recommended by the Nodal institution and approved by the Committee will get a sustenance allowance of Rs. 10,000 per month for a period of 1 year.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4fc361aa4ee4",
+     "evidence": "Marketing/Commercialization assistance upto a maximum of Rs. 10 lakh shall be provided to Startups to launch its products/services in the market.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4fc361aa4ee4",
+     "evidence": "A one time grant for capital items will be given to Host Institutes by the State Government for the purpose of entrepreneurship development and startup events in the region, with a maximum of Rs. 50 lakh.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4fc361aa4ee4",
+     "evidence": "A grant of maximum 25% of the investment to be given to established and reputed Corporates, VCs and Angel Investors by the State Government for the creation of fixed assets to set up new incubation centres, with a maxium limit of Rs. 50 lakh. This grant is subject to a maxium of 5 per year and 2 per district.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4fc361aa4ee4",
+     "evidence": "A matching grant of upto Rs. 10 lakh will be given to competent institutions and individuals like Incubators, angel investors etc. to run Accelerator Programmes in Rajasthan.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4fc361aa4ee4",
+     "evidence": "The colleges will be given a one-time grant of Rs. 10 lakh to establish and operate an E-Cell.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e:service_startup_india_scheme__apply_at__portal_startupindia_gov_in",
+   "from": "service:startup_india_scheme",
+   "to": "portal:startupindia_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on startupindia.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "The entity should not have been formed by splitting up or reconstructing an existing business.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_haryana_entrepreneur_startup_policy__call_if__helpline_18001806222",
+   "from": "service:haryana_entrepreneur_startup_policy",
+   "to": "helpline:18001806222",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The contact phone number for Startup Haryana is 18001806222.",
+   "sources": [
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "Phone Number: 18001806222",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_haryana_entrepreneur_startup_policy__apply_at__portal_startupindia_gov_in",
+   "from": "service:haryana_entrepreneur_startup_policy",
+   "to": "portal:startupindia_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on startupindia.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "Location: The company/entity be registered in Haryana under the Haryana Shops and Commercial Establishment Act, 1958 ; and",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_rajasthan_startup_policy__call_if__helpline_0141_2929831_2922373",
+   "from": "service:rajasthan_startup_policy",
+   "to": "helpline:0141_2929831_2922373",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The contact number for the Rajasthan Startup Policy is 0141-2929831 / 2922373.",
+   "sources": [
+    {
+     "sourceId": "src:4fc361aa4ee4",
+     "evidence": "Contact: 0141-2929831 / 2922373",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_rajasthan_startup_policy__call_if__helpline_1800_115_565",
+   "from": "service:rajasthan_startup_policy",
+   "to": "helpline:1800_115_565",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The toll-free number for Startup India is 1800 115 565, and it operates from 10:00 AM to 05:30 PM.",
+   "sources": [
+    {
+     "sourceId": "src:4fc361aa4ee4",
+     "evidence": "Our Toll Free Number : 1800 115 565 (10:00 AM to 05:30 PM)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_rajasthan_startup_policy__apply_at__portal_startupindia_gov_in",
+   "from": "service:rajasthan_startup_policy",
+   "to": "portal:startupindia_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on startupindia.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:4fc361aa4ee4",
+     "evidence": "Rs. 10,000/- per month will be provided to the innovator as sustenance allowance for one year.Startups whose project is recommended by the Nodal institution and approved by the Committee will get a sustenance allowance of Rs. 10,000 per month for a period of 1 year.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  }
+ ],
+ "requirementGroups": [],
+ "questions": []
+}

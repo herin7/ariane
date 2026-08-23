@@ -1,0 +1,574 @@
+{
+ "journey": "ration-card",
+ "researchedAt": "2026-08-23",
+ "region": "Gujarat, India",
+ "sources": [
+  {
+   "id": "src:487d4a702330",
+   "url": "https://fcsca.gujarat.gov.in/en/phh-schemenew1",
+   "title": "Skip Navigation Links Standards for Identifying Priority Families (PHH).",
+   "domain": "fcsca.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "8302062e74aa9494a58d6d2f0679458f2e8924bfad6d798372bbe780baef067c",
+   "cacheFile": ".ingest/pages/487d4a702330d17973fab0fc7d9d36ba3f644b19.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:b38b52a25dc5",
+   "url": "https://fcsca.gujarat.gov.in/en/aay-scheme-add",
+   "title": "Criteria for determining families to be covered under Antyodaya Anna Yojana (AAY).",
+   "domain": "fcsca.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ed111979245568276f8a9990ef0ccfdb9c489eabc7b911faab440db9d51082be",
+   "cacheFile": ".ingest/pages/b38b52a25dc5541024be91e0c1775d0a857f6545.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:22f542b87896",
+   "url": "https://dcs-dof.gujarat.gov.in/en/State-Sponsored-Schemes",
+   "title": "State Sponsored Schemes",
+   "domain": "dcs-dof.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "1b654c9056dd6063dc84489ce376a86141248da0140a942afe3a7660f04a541b",
+   "cacheFile": ".ingest/pages/22f542b87896c93fd7947ef8fbd603c394be0a90.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:382646d73ae7",
+   "url": "https://collectorgirsomnath.gujarat.gov.in/duplicate-ration-card",
+   "title": "ડુપ્લીકેટ રેશન કાર્ડ મેળવવા બાબત | Supply | Jan Seva Kendra form | Collectorate - District Gir Somnath",
+   "domain": "collectorgirsomnath.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-GIR_SOMNATH",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "fdc0757ac5e5939991a29988ddecfd16fb01b26652096eea8ac448b4afcc9430",
+   "cacheFile": ".ingest/pages/382646d73ae7cdfb50ec5add04baebd0335b7fd8.md",
+   "scrapedOk": true
+  }
+ ],
+ "facts": [
+  {
+   "claim": "Families with a mechanically propelled 4 wheeler vehicle or mechanical fishing boat are excluded from being identified as 'Priority Households' in rural areas.",
+   "kind": "ELIGIBILITY",
+   "subject": "priority_household_rural",
+   "object": "mechanically_propelled_vehicle",
+   "detail": {},
+   "sourceId": "src:487d4a702330",
+   "evidence": "Family which has mechanically propelled 4 wheeler vehicle or mechanical fishing boat.",
+   "confidence": 1
+  },
+  {
+   "claim": "Families with a government servant (excluding Class-IV employees on outsourcing) are excluded from being identified as 'Priority Households' in rural areas.",
+   "kind": "ELIGIBILITY",
+   "subject": "priority_household_rural",
+   "object": "government_servant",
+   "detail": {},
+   "sourceId": "src:487d4a702330",
+   "evidence": "Family whose any member is a government servant(except a person working as Class-IV employee on outsourcing basis with any concerned office including Government office, Board, Corporation, other government agencies, local self-government bodies).",
+   "confidence": 1
+  },
+  {
+   "claim": "Families with a monthly income of more than Rs.20,000 or an annual income of more than Rs.2,40,000 are excluded from being identified as 'Priority Households' in rural areas.",
+   "kind": "ELIGIBILITY",
+   "subject": "priority_household_rural",
+   "object": "income",
+   "detail": {
+    "monthly_income": "20000",
+    "annual_income": "240000"
+   },
+   "sourceId": "src:487d4a702330",
+   "evidence": "If any member of the family has a monthly income of more than Rs.20,000/- or Annual Income of Family is more than Rs.2,40,000/-.",
+   "confidence": 1
+  },
+  {
+   "claim": "Families whose members are paying income tax or business tax are excluded from being identified as 'Priority Households' in rural areas.",
+   "kind": "ELIGIBILITY",
+   "subject": "priority_household_rural",
+   "object": "income_tax",
+   "detail": {},
+   "sourceId": "src:487d4a702330",
+   "evidence": "Family whose member is paying Income Tax or Business tax",
+   "confidence": 1
+  },
+  {
+   "claim": "Families holding 5 acres or more irrigated land harvesting crops in two or more seasons are excluded from being identified as 'Priority Households' in rural areas.",
+   "kind": "ELIGIBILITY",
+   "subject": "priority_household_rural",
+   "object": "land_holding",
+   "detail": {
+    "acres": "5"
+   },
+   "sourceId": "src:487d4a702330",
+   "evidence": "Family holding 5 acres or more irrigated land harvesting crops in two or more seasons.",
+   "confidence": 1
+  },
+  {
+   "claim": "Families holding 7.5 acres or more land with a source of irrigation are excluded from being identified as 'Priority Households' in rural areas.",
+   "kind": "ELIGIBILITY",
+   "subject": "priority_household_rural",
+   "object": "land_holding",
+   "detail": {
+    "acres": "7.5"
+   },
+   "sourceId": "src:487d4a702330",
+   "evidence": "Family holding 7.5 acres or more land with source of irrigation.",
+   "confidence": 1
+  },
+  {
+   "claim": "Families where all adult earning members are disabled, seriously ill, or above 60 years of age are included as 'Priority Households' in rural areas, even if they are otherwise eligible to be excluded.",
+   "kind": "ELIGIBILITY",
+   "subject": "priority_household_rural",
+   "object": "disabled_or_elderly_members",
+   "detail": {},
+   "sourceId": "src:487d4a702330",
+   "evidence": "A family where all adult earning members are disabled, seriously ill or above 60 years of age, shall be included, even if those families are otherwise eligible to be \"excluded\" on account of any of the above (a) criteria",
+   "confidence": 1
+  },
+  {
+   "claim": "Families with no house are included for food security in urban areas.",
+   "kind": "ELIGIBILITY",
+   "subject": "priority_household_urban",
+   "object": "housing",
+   "detail": {},
+   "sourceId": "src:487d4a702330",
+   "evidence": "Family which has no house.",
+   "confidence": 1
+  },
+  {
+   "claim": "Families with a house of wall and roof of plastic or polythene are included for food security in urban areas.",
+   "kind": "ELIGIBILITY",
+   "subject": "priority_household_urban",
+   "object": "housing",
+   "detail": {},
+   "sourceId": "src:487d4a702330",
+   "evidence": "Family which has house of wall and roof of plastic or polythene.",
+   "confidence": 1
+  },
+  {
+   "claim": "Families with wall of grass straw, bamboo, dung, row brick or wooden wall and one room or house less than that having roof of grass-straw, bamboo dung or wood are included for food security in urban areas.",
+   "kind": "ELIGIBILITY",
+   "subject": "priority_household_urban",
+   "object": "housing",
+   "detail": {},
+   "sourceId": "src:487d4a702330",
+   "evidence": "Family which has wall of grass straw, bamboo, dung, row brick or wooden wall and one room or house less than that having roof of grass-straw, bamboo dung or wood.",
+   "confidence": 1
+  },
+  {
+   "claim": "Families with no income from any source are included for food security in urban areas.",
+   "kind": "ELIGIBILITY",
+   "subject": "priority_household_urban",
+   "object": "income",
+   "detail": {},
+   "sourceId": "src:487d4a702330",
+   "evidence": "Family whose any member (including child) engaged in activities of begging, rag pickers, domestic servant (who have been paid remuneration) and engaged in the work of sweeper or gardener.",
+   "confidence": 1
+  },
+  {
+   "claim": "Families where all adult earning members are daily wagers or getting irregular remuneration are included for food security in urban areas.",
+   "kind": "ELIGIBILITY",
+   "subject": "priority_household_urban",
+   "object": "employment",
+   "detail": {},
+   "sourceId": "src:487d4a702330",
+   "evidence": "Family whose all adult earning members are daily wagers or getting irregular remuneration.",
+   "confidence": 1
+  },
+  {
+   "claim": "Drivers of three-wheel mechanical vehicles (autorickshaw/Chhakdo/Mini tempo) with monthly income less than Rs.20,000 are included for food security in urban areas.",
+   "kind": "ELIGIBILITY",
+   "subject": "priority_household_urban",
+   "object": "driver_income",
+   "detail": {
+    "monthly_income": "20000"
+   },
+   "sourceId": "src:487d4a702330",
+   "evidence": "Drivers having three-wheel mechanical vehicles (autorickshaw/Chhakdo/Mini tempo) (having monthly income less than Rs.20,000/-)",
+   "confidence": 1
+  },
+  {
+   "claim": "Families with a monthly income of less than Rs.20,000 or an annual income of less than Rs.2,40,000 are included for food security in urban areas.",
+   "kind": "ELIGIBILITY",
+   "subject": "priority_household_urban",
+   "object": "income",
+   "detail": {
+    "monthly_income": "20000",
+    "annual_income": "240000"
+   },
+   "sourceId": "src:487d4a702330",
+   "evidence": "If any member of the family has a monthly income of less than Rs. 20,000/- or Annual Income of Family is less than Rs.2,40,000/- .",
+   "confidence": 1
+  },
+  {
+   "claim": "Families where the head is a minor (no member of the family is 18 years of age or more) are included for food security in urban areas.",
+   "kind": "ELIGIBILITY",
+   "subject": "priority_household_urban",
+   "object": "family_head",
+   "detail": {
+    "age": "18"
+   },
+   "sourceId": "src:487d4a702330",
+   "evidence": "Family whose head is a minor, means no member of the family is 18 years of age or more than that.",
+   "confidence": 1
+  },
+  {
+   "claim": "Families with no physically fit person of 18 to 60 years of age are included for food security in urban areas.",
+   "kind": "ELIGIBILITY",
+   "subject": "priority_household_urban",
+   "object": "physically_fit_members",
+   "detail": {
+    "age_range": "18-60"
+   },
+   "sourceId": "src:487d4a702330",
+   "evidence": "Family which has no physically fit person of 18 to 60 years of age that means all members of family of 18 to 60 years of age are disabled or seriously ill.",
+   "confidence": 1
+  },
+  {
+   "claim": "Divyang beneficiaries registered with the Director, Social Justice under the Department of Social Justice and Empowerment, Government of Gujarat are included as 'Priority Households' under NFSA without considering their income.",
+   "kind": "ELIGIBILITY",
+   "subject": "priority_household",
+   "object": "divyang_beneficiaries",
+   "detail": {},
+   "sourceId": "src:487d4a702330",
+   "evidence": "3.1 Divyang beneficiaries registered with the Director, Social Justice under Department of Social Justice and Empowerment, Government of Gujarat and similarly all such Divyang beneficiaries staying at the institutions recognized by the Director, Social Justice shall be issued individual NFSA cards under this Act.",
+   "confidence": 1
+  },
+  {
+   "claim": "Old Age Pensioners registered with the Director, Social Justice under the Department of Social Justice and Empowerment, Government of Gujarat are included as 'Priority Households' under NFSA without considering their income.",
+   "kind": "ELIGIBILITY",
+   "subject": "priority_household",
+   "object": "old_age_pensioners",
+   "detail": {},
+   "sourceId": "src:487d4a702330",
+   "evidence": "3.2 Old Age Pensioner registered with Director, Social Justice under Department of Social Justice and Empowerment, Government of Gujarat and similarly, those Old Age persons living in the institutions recognized by the Director, Social Justice shall be issued individual NFSA cards under this Act.",
+   "confidence": 1
+  },
+  {
+   "claim": "Ganga Swarupa (Widow) Pensioners registered with the Department of Women and Child Development, Government of Gujarat are included as 'Priority Households' under NFSA without considering their income.",
+   "kind": "ELIGIBILITY",
+   "subject": "priority_household",
+   "object": "widow_pensioners",
+   "detail": {},
+   "sourceId": "src:487d4a702330",
+   "evidence": "3.3 Ganga Swarupa (Widow) Pensioner registered with the Department of Women and Child Development, Government of Gujarat and similarly, those Ganga Swarupa (Widow) living in the institutions recognized by the Government shall be issued individual NFSA cards under this Act.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Food Ration Card Helpline is available at the toll-free number 1800-233-5500.",
+   "kind": "HELPLINE",
+   "subject": "food_ration_card",
+   "object": "helpline",
+   "detail": {
+    "phone": "1800-233-5500"
+   },
+   "sourceId": "src:487d4a702330",
+   "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
+   "confidence": 1
+  },
+  {
+   "claim": "The Gujarat State Consumer Helpline is available at the toll-free number 1800-233-0222.",
+   "kind": "HELPLINE",
+   "subject": "consumer_helpline",
+   "object": "helpline",
+   "detail": {
+    "phone": "1800-233-0222"
+   },
+   "sourceId": "src:487d4a702330",
+   "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
+   "confidence": 1
+  },
+  {
+   "claim": "Families under all Primitive Groups are eligible for the Antyodaya Anna Yojana (AAY) ration card.",
+   "kind": "ELIGIBILITY",
+   "subject": "primitive_groups",
+   "object": "aay_ration_card",
+   "detail": {},
+   "sourceId": "src:b38b52a25dc5",
+   "evidence": "Families under all Primitive Groups",
+   "confidence": 1
+  },
+  {
+   "claim": "Widows, sick persons, disabled persons, or persons of 60 years of age or above with no means of livelihood or social support are eligible for the Antyodaya Anna Yojana (AAY) ration card.",
+   "kind": "ELIGIBILITY",
+   "subject": "elderly_and_vulnerable_individuals",
+   "object": "aay_ration_card",
+   "detail": {},
+   "sourceId": "src:b38b52a25dc5",
+   "evidence": "Head of family who are widows or sick persons or disabled persons or persons of 60 years of age or above who have no means of livelihood or social support",
+   "confidence": 1
+  },
+  {
+   "claim": "Widows, sick persons, disabled persons, or persons of 60 years of age or above, or single women or single men with no family or social support or any means of livelihood are eligible for the Antyodaya Anna Yojana (AAY) ration card.",
+   "kind": "ELIGIBILITY",
+   "subject": "elderly_and_vulnerable_individuals",
+   "object": "aay_ration_card",
+   "detail": {},
+   "sourceId": "src:b38b52a25dc5",
+   "evidence": "Widows or sick persons or disabled persons or persons of 60 years of age or above or single women or single men having no family or social support or any means of livelihood",
+   "confidence": 1
+  },
+  {
+   "claim": "Landless agricultural labourers, marginal farmers, rural artisans, and informal sector workers are eligible for the Antyodaya Anna Yojana (AAY) ration card if their name is in the BPL list (with 0 to 16 marks) or they are holding a BPL ration card.",
+   "kind": "ELIGIBILITY",
+   "subject": "rural_and_urban_workers",
+   "object": "aay_ration_card",
+   "detail": {},
+   "sourceId": "src:b38b52a25dc5",
+   "evidence": "Further, Antyodaya Anna Yojana Rationcard shall be issued to persons/people/groups under the categories mentioned below, but their name should be in BPL list (with 0 to 16 marks) or they should be holding BPL rationcard.\n\nLandless agricultural labourers, marginal farmers, rural artisans like potters, tanners, weavers, blacksmiths, carpenters, slum dwellers and those who earn their daily living in the informal sector like porters, rickshaw driver, handshakers, fruits and Flower sellers, madaris, paper weavers and destitute and other such categories of people living in rural and urban areas",
+   "confidence": 1
+  },
+  {
+   "claim": "BPL card holders who are HIV Patients are eligible for the Antyodaya Anna Yojana (AAY) ration card.",
+   "kind": "ELIGIBILITY",
+   "subject": "bpl_hiv_patients",
+   "object": "aay_ration_card",
+   "detail": {},
+   "sourceId": "src:b38b52a25dc5",
+   "evidence": "BPL card holder HIV Patients",
+   "confidence": 1
+  },
+  {
+   "claim": "BPL card holders who are Leprosy Patients are eligible for the Antyodaya Anna Yojana (AAY) ration card.",
+   "kind": "ELIGIBILITY",
+   "subject": "bpl_leprosy_patients",
+   "object": "aay_ration_card",
+   "detail": {},
+   "sourceId": "src:b38b52a25dc5",
+   "evidence": "BPL card holder Leprosy Patients",
+   "confidence": 1
+  },
+  {
+   "claim": "Persons with any type of disability of 40% or more are entitled to benefits as 'Divyang' and are eligible for the Antyodaya Anna Yojana (AAY) ration card.",
+   "kind": "ELIGIBILITY",
+   "subject": "divyang_individuals",
+   "object": "aay_ration_card",
+   "detail": {},
+   "sourceId": "src:b38b52a25dc5",
+   "evidence": "A persons with any type of disability of 40% or more including Orthopedic, Mentally Challenged, Visually Impaired, Deaf-Mute and Cerebral Palsy are entitled to benefits as “Divyang”, this standard has to be followed while issuing Antyodaya Rationcard to differently-abled persons under Antyodaya Anna Yojana.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Food Ration Card Helpline number is 1800-233-5500.",
+   "kind": "HELPLINE",
+   "subject": "food_ration_card",
+   "object": "helpline",
+   "detail": {
+    "phone": "1800-233-5500"
+   },
+   "sourceId": "src:b38b52a25dc5",
+   "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
+   "confidence": 1
+  },
+  {
+   "claim": "The Gujarat State Consumer Helpline number is 1800-233-0222.",
+   "kind": "HELPLINE",
+   "subject": "gujarat_state_consumer",
+   "object": "helpline",
+   "detail": {
+    "phone": "1800-233-0222"
+   },
+   "sourceId": "src:b38b52a25dc5",
+   "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
+   "confidence": 1
+  },
+  {
+   "claim": "AAY ration card holders receive sugar at ₹15 per kg under the Sugar Distribution Scheme.",
+   "kind": "FEE",
+   "subject": "aay_ration_card_holders",
+   "object": "sugar_distribution_scheme",
+   "detail": {
+    "amount": "15",
+    "currency": "₹"
+   },
+   "sourceId": "src:22f542b87896",
+   "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg and approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "BPL ration card holders receive sugar at ₹22 per kg under the Sugar Distribution Scheme.",
+   "kind": "FEE",
+   "subject": "bpl_ration_card_holders",
+   "object": "sugar_distribution_scheme",
+   "detail": {
+    "amount": "22",
+    "currency": "₹"
+   },
+   "sourceId": "src:22f542b87896",
+   "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg and approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "AAY and BPL ration card holders receive an additional 1 kg of sugar per ration card during Janmashtami and Diwali at the same subsidized rates.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "aay_bpl_ration_card_holders",
+   "object": "sugar_distribution_scheme",
+   "detail": {
+    "quantity": "1 kg",
+    "condition": "during Janmashtami and Diwali"
+   },
+   "sourceId": "src:22f542b87896",
+   "evidence": "In addition, during the two major festivals of the year—Janmashtami and Diwali—AAY and BPL ration card holders are provided with an additional 1 kg of sugar per ration card at the same subsidized rates.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "All NFSA ration card holders receive 1 liter of edible oil at a subsidized rate during Janmashtami and Diwali.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "nfsa_ration_card_holders",
+   "object": "edible_oil_distribution",
+   "detail": {
+    "quantity": "1 liter",
+    "condition": "during Janmashtami and Diwali"
+   },
+   "sourceId": "src:22f542b87896",
+   "evidence": "1 Liter pouch of Edible oil per Ration card is being distributed at subsidized rate on two Festivals i.e Jansmashtami and Diwali to All NFSA Ration card holders.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "All NFSA ration card holders receive 1 kg of double fortified salt at ₹1.00 per card.",
+   "kind": "FEE",
+   "subject": "nfsa_ration_card_holders",
+   "object": "double_fortified_salt_distribution",
+   "detail": {
+    "amount": "1.00",
+    "currency": "₹"
+   },
+   "sourceId": "src:22f542b87896",
+   "evidence": "1 kg Double Fortified Salt is being distributed at subsidized rate of Rs.1.00 per card to all NFSA Ration card holders.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "All NFSA ration card holders receive 1 kg of tuverdal at ₹50 per kg as per availability.",
+   "kind": "FEE",
+   "subject": "nfsa_ration_card_holders",
+   "object": "tuvardal_distribution",
+   "detail": {
+    "amount": "50",
+    "currency": "₹"
+   },
+   "sourceId": "src:22f542b87896",
+   "evidence": "1 kg Tuverdal per ration card is being distributed at Rs.50/- per K.G. to all NFSA card holders at subsidized rate as per availability.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "All NFSA ration card holders receive 1 kg of gram at ₹30 per kg as per availability.",
+   "kind": "FEE",
+   "subject": "nfsa_ration_card_holders",
+   "object": "gram_distribution",
+   "detail": {
+    "amount": "30",
+    "currency": "₹"
+   },
+   "sourceId": "src:22f542b87896",
+   "evidence": "1 kg Gram per ration card is being distributed at Rs.30/- per K.G. to all NFSA card holders at subsidized rate as per availability.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Food Ration Card Helpline is available at the toll-free number 1800-233-5500.",
+   "kind": "HELPLINE",
+   "subject": "food_ration_card",
+   "object": "helpline",
+   "detail": {
+    "phone": "1800-233-5500"
+   },
+   "sourceId": "src:22f542b87896",
+   "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Gujarat State Consumer Helpline is available at the toll-free number 1800-233-0222.",
+   "kind": "HELPLINE",
+   "subject": "gujarat_state_consumer",
+   "object": "helpline",
+   "detail": {
+    "phone": "1800-233-0222"
+   },
+   "sourceId": "src:22f542b87896",
+   "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
+   "confidence": 0.95
+  },
+  {
+   "claim": "To obtain a duplicate ration card, an application must be submitted to the Mamlatdar in the taluka as per Appendix-1/66.",
+   "kind": "ACTION",
+   "subject": "duplicate_ration_card",
+   "object": "mamlatdar_office",
+   "detail": {},
+   "sourceId": "src:382646d73ae7",
+   "evidence": "હું કઈ રીતે ડુપ્લીકેટ રેશન કાર્ડ મેળવી શકું? તાલુકામાં મામલતદારશ્રીને, પરિશિષ્ટ-૧/૬૬ મુજબ અરજી કરવી.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An application form for a duplicate ration card is available.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "duplicate_ration_card",
+   "object": "application_form",
+   "detail": {
+    "file_size": "47 KB"
+   },
+   "sourceId": "src:382646d73ae7",
+   "evidence": "એપ્લીકેશન ફોર્મ [File Size : 47 KB] [Gujarati]",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The processing time for a duplicate ration card is 1 day.",
+   "kind": "TIMELINE",
+   "subject": "duplicate_ration_card",
+   "object": "processing_time",
+   "detail": {
+    "days": 1
+   },
+   "sourceId": "src:382646d73ae7",
+   "evidence": "નિકાલની સમય મર્યાદા કુલ ૧ દિવસ.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A certified copy of the proof is required for a duplicate ration card.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "duplicate_ration_card",
+   "object": "certified_copy_of_proof",
+   "detail": {},
+   "sourceId": "src:382646d73ae7",
+   "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "If the card is lost, a zerox copy of the lost ration card or a certificate showing the card number and population details from the shop owner is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "duplicate_ration_card",
+   "object": "lost_card_details",
+   "detail": {},
+   "sourceId": "src:382646d73ae7",
+   "evidence": "જે વ્યાજબી ભાવની દુકાનનું કાર્ડ ધરાવતા હોય તે દુકાનના સંચાલકશ્રીનું કાર્ડ નંબર, જનસંખ્યાની વિગત દર્શાવતું પ્રમાણપત્ર અથવા ખોવાયેલ રેશનકાર્ડની ઝેરોક્ષ નકલ.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "If the card is torn or damaged, the original torn or damaged ration card must be submitted.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "duplicate_ration_card",
+   "object": "torn_or_damaged_card",
+   "detail": {},
+   "sourceId": "src:382646d73ae7",
+   "evidence": "ફાટી ગયેલ અથવા બગડી ગયેલ કાર્ડને બદલે ડુપ્લીકેટ રેશનકાર્ડ મેળવવાનું હોય તો ફાટેલું / બગડેલું અસલ રેશન કાર્ડ.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application process for a duplicate ration card is handled at the Jan Seva Kendra, Gir Somnath.",
+   "kind": "CHANNEL",
+   "subject": "duplicate_ration_card",
+   "object": "jan_seva_kendra",
+   "detail": {
+    "address": "District Collector Office, Veraval, Dist : Somnath, Gujarat - 360024",
+    "hours": "10:30 A.M To 6:10 P.M"
+   },
+   "sourceId": "src:382646d73ae7",
+   "evidence": "Application Process Jan Seva Kendra, Gir Somnath District Collector Office Veraval, Dist : Somnath, Gujarat - 360024 10:30 A.M To 6:10 P.M",
+   "confidence": 0.95
+  }
+ ],
+ "notFound": []
+}

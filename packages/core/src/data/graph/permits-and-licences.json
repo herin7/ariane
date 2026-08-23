@@ -12,6 +12,36 @@
    "contentHash": "fa5e3e855110f920c781c25494e490b080000c2e7f48b317639faa175352112c"
   },
   {
+   "id": "src:8f130659de66",
+   "url": "https://cot.gujarat.gov.in/vehicle-registration.htm",
+   "title": "Vehicle Registration | Services | Commissionerate of Transport, Government of Gujarat",
+   "domain": "cot.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "790b7ee6ea67c396cfa3a046d58cc9867c6eddfbafa0f05e91fbdd30bace39b1"
+  },
+  {
+   "id": "src:83167136359e",
+   "url": "https://boiler.gujarat.gov.in/m/faq.htm",
+   "title": "Director of Boilers | E-Citizen | FAQ",
+   "domain": "boiler.gujarat.gov.in",
+   "sourceType": "FAQ",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ffd02e3b7ed7dfd52e41322d34f011829f931460c5083db2e5f06b9b43a171a0"
+  },
+  {
+   "id": "src:57ed2acb0f84",
+   "url": "https://boiler.gujarat.gov.in/faq.htm",
+   "title": "Director of Boilers | E-Citizen | FAQ",
+   "domain": "boiler.gujarat.gov.in",
+   "sourceType": "FAQ",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "41a72cf65fd7cb9bbf35608c09a3606cfa9df042024056318bf7c27d733f253e"
+  },
+  {
    "id": "src:e0cc234eb940",
    "url": "https://gsbb.gujarat.gov.in/access-benefit-sharing-abs.htm",
    "title": "Access & Benefit Sharing (ABS) | Activities | Gujarat Biodiversity Board",
@@ -52,6 +82,16 @@
    "contentHash": "514b30e619eaa169c914dfc31ea2ceffbc9e3d7d40f167cd3fee0d1eaaac5eb2"
   },
   {
+   "id": "src:df77ac33eaae",
+   "url": "https://vahan.parivahan.gov.in/vahanservice/vahan/ui/appl_status/formTransactionHistory.xhtml",
+   "title": "VAHAN 4.0 (Citizen Services)",
+   "domain": "vahan.parivahan.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "3d5348daabaad49855cd8fb17c89ac7a08c23c207533cb7c6dd2376deba09817"
+  },
+  {
    "id": "src:d405aafc8d64",
    "url": "https://forestservices.gujarat.gov.in/eServices/Vanmahotsav/frmVanMahotsavapp.aspx",
    "title": "Gujarat Forest Department",
@@ -70,6 +110,16 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "30fa36cf27cd17ab94a6c546a7def72621e97bb4de7086eb475e5f94b22aa80a"
+  },
+  {
+   "id": "src:67263ea96ca1",
+   "url": "https://gpcb.gujarat.gov.in/PublicHearing/PublicHearingDetailEia/%E2%9C%A4xc%E2%9C%BFNgk%E2%9C%BFyfusnE5gvYCDug%E2%99%AC%E2%99%AC",
+   "title": "Gujarat Pollution Control Board - Official Portal",
+   "domain": "gpcb.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "1b405c1ef23ae48590e3afa5aa919700a49425a26a27ecd143f547ab2eb2ddd8"
   },
   {
    "id": "src:52cd469e9103",
@@ -91,6 +141,16 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "de8da32bed250db5ce6fbaa5d8e0ba19a21dbbfeb9ae43bbbd4d8f913321d7cc",
    "tlsVerified": false
+  },
+  {
+   "id": "src:cf088b48f3de",
+   "url": "https://col.gujarat.gov.in/e-shram.htm",
+   "title": "E-Shram Seva",
+   "domain": "col.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "5b98cc5cefe773a99e90ee43b9bad96a00571185ffa2f2ea4ddbfef66f9d527f"
   },
   {
    "id": "src:a299a14d5099",
@@ -233,6 +293,26 @@
    "contentHash": "cddcf7b288fe740c1471d1bdb654b3ec015562aedd0a95360dbd5b521a9343e4"
   },
   {
+   "id": "src:6873645dfc69",
+   "url": "https://col.gujarat.gov.in/e-citizen-registration_of_trde_union.htm",
+   "title": "Labour Commissionerate | E-Citizen | Act & Rules | The Trade Unions Act",
+   "domain": "col.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "07c2d45c63cd900d4e8e695a4eecad50352431882aa46666da0d03a8d7276282"
+  },
+  {
+   "id": "src:cb87993841b5",
+   "url": "https://vahan.parivahan.gov.in/vahangreensewa/vahan/application.xhtml",
+   "title": "VAHAN GREEN SEWA",
+   "domain": "vahan.parivahan.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "f32d1ed0ce35bbb36472f0d851e2105818a92d8692c425a718ba41ad163b4685"
+  },
+  {
    "id": "src:3352bf96ce66",
    "url": "https://ceiced.gujarat.gov.in/ced",
    "title": "CED | પ્રશ્નોત્તર | ઈ-નાગરિક | મુખ્ય વિદ્યુત નિરીક્ષક <br />અને<br />વિદ્યુત શુલ્ક સમાહર્તા",
@@ -263,6 +343,77 @@
    "contentHash": "52466dc945de29b94096e31472d31994a8467487f7570c84895ea9c9a9a1596a"
   },
   {
+   "id": "src:21b6ef1e1050",
+   "url": "https://suratmunicipal.gov.in/Services/Sitilink/SaralPassTravelScheme",
+   "title": "Sitilink - SARAL Pass Travel Scheme",
+   "domain": "suratmunicipal.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d22bac10f7ae0adc3d30f0f931f368ccffd54eef5e733b459d5ab0370e19fc63"
+  },
+  {
+   "id": "src:1b512feb4f0f",
+   "url": "https://parivahan.gov.in/en/faq/learners-license-related-services",
+   "title": "LL – Learners License related services | Parivahansewa",
+   "domain": "parivahan.gov.in",
+   "sourceType": "FAQ",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "4cda211945eda2e46d47b0cbf8a6b9d274ebe2d446497a919591f4f41bf4c118"
+  },
+  {
+   "id": "src:6d9d50cb743e",
+   "url": "https://www.vahan.parivahan.gov.in/npermit/faces/welcome.jsp",
+   "title": "Online National Permit::Pay National Permit Authorization Fee Online",
+   "domain": "vahan.parivahan.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "94714f2ae5ab3e157a42dfbcbfe43fbb4e8f074833e9d488c120f5d80935dc38",
+   "tlsVerified": false
+  },
+  {
+   "id": "src:435ad0a265ce",
+   "url": "https://fed.gujarat.gov.in/guidelines.htm",
+   "title": "Guidelines | Forest and Environment Department, Government of Gujarat",
+   "domain": "fed.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "fcd47b123001cb188bb5efeaa4fb7de9e6543bf63cfce4d6e1ab196786043240"
+  },
+  {
+   "id": "src:9f03ddbb98ec",
+   "url": "https://srtgeda.gujarat.gov.in/developer-registration",
+   "title": "GEDA | Unified Single Window Rooftop PV Portal",
+   "domain": "srtgeda.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "b0e5cd644e509cfc928c16d76916408aa4b75772d4823c915128daf582bd79a3"
+  },
+  {
+   "id": "src:63e143ef3b33",
+   "url": "https://vahan.parivahan.gov.in/puc",
+   "title": "Welcome Transport Department",
+   "domain": "vahan.parivahan.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "edfca81c8e2fa0784ee05c7727b14d8716e7825da732d3ced53801c8de6f0ff1"
+  },
+  {
+   "id": "src:0a14063e7f06",
+   "url": "https://vahan.parivahan.gov.in/nrservices",
+   "title": "|| V A H A N | National Register e-Services | Ministry of Road Transport and Highways, Government of India ||",
+   "domain": "vahan.parivahan.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "e433e9d398c09ecf24955b44371380c07b10656bc8b08020346db1d5891c9b8c"
+  },
+  {
    "id": "src:61f17e5a5fa6",
    "url": "https://girlion.gujarat.gov.in/PermitBookingForJungleTrail.aspx",
    "title": "GSLCS",
@@ -271,6 +422,36 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "78f42a2e885ae3b0f6db6b63b33a09b5e5ca0974438ebf54047525eba7dbb5d1"
+  },
+  {
+   "id": "src:934e01778690",
+   "url": "https://parivahan.gov.in/en/content/permanent-license",
+   "title": "Permanent License | Parivahansewa",
+   "domain": "parivahan.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "7e6e2d38e40a7d4635bae5d9b28720e06a65fcbf63c2e155f82385f8add877c9"
+  },
+  {
+   "id": "src:4f7bb61fb6cb",
+   "url": "https://srtgeda.gujarat.gov.in/installer-registration",
+   "title": "GEDA | Unified Single Window Rooftop PV Portal",
+   "domain": "srtgeda.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "59e99d257c70b58a289b1def1a71ffd484e0112f43a33794547e4d4d3968efc8"
+  },
+  {
+   "id": "src:ebcf607d8f35",
+   "url": "https://vahan.parivahan.gov.in/vahanservice",
+   "title": "VAHAN 4.0 (Citizen Services) ~SP-MORTH-WS03~175~8012",
+   "domain": "vahan.parivahan.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "a5b95dc3573beaab596d5af91adaaebfe5fb4a993e97c00350c4174d1e4b9694"
   },
   {
    "id": "src:b02637248ac0",
@@ -291,6 +472,26 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "f284dce482a94bb937a3366c08bb1212f6c7f0a6120e6c61a699a4291f30231c"
+  },
+  {
+   "id": "src:99aae295d09c",
+   "url": "https://geda.gujarat.gov.in/geda/2023/12/20/Application%20Form/10337",
+   "title": "Solar Energy | Gujarat Energy Development Agency",
+   "domain": "geda.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "55cc4d18ab12ec89c314adbc8cf8e77835af8ef1e4a9944cac32cd6d11b338c2"
+  },
+  {
+   "id": "src:0f7d9311985a",
+   "url": "https://vahan.parivahan.gov.in/aitp/faces/disposePendingTransaction.xhtml",
+   "title": "|| V A H A N | All India Tourist Permit | Ministry of Road Transport and Highways, Government of India ||",
+   "domain": "vahan.parivahan.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "8dc86191de303378eb41e8f1557a95b76dbcd6d12c0974770dad035d9a847ed6"
   },
   {
    "id": "src:1c622b6d545b",
@@ -480,6 +681,216 @@
     {
      "sourceId": "src:486c8338b1b8",
      "evidence": "The 'e-Permit' is for a visit to 'Gir Jungle Safari', 'GIZ Devalia Safari', 'Ambardi Safari Park' and 'Girnar Nature Safari' only.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:vehicle_registration",
+   "type": "SERVICE",
+   "name": "Vehicle Registration",
+   "officialName": "Vehicle Registration",
+   "description": "The service provides registration for new vehicles, including the allocation of a registration number and issuance of a smart R.C. Book.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "1000",
+    "processingDays": "7"
+   },
+   "sources": [
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Application in Form - 20 should be made for registration of a New Vehicle. It is compulsory to submit Form - 20 online on the web portal of the department.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "The print out of uploaded Form - 20 should be taken and should be submitted at the concerned R.T.O. along with other necessary documents.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Sale Certificate in Form No.21",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Road worthiness certificate in Form 22.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Identity proof with photographs of applicant.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Proof of address",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "In case vehicle is imported, then, bill of entry submitted to Customs and in case, vehicle is not a body built vehicle, then Form No.22 Part 2 (A) should also be submitted along with the application.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "The inspection of two wheelers and car is permitted to be done by authorized dealer in the State.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "In case, such certificate is issued by the dealer, the same should be attached with the application; otherwise the vehicle is required to be produced in R.T.O. for inspection.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "If, all papers attached to Form-20 are found correct, then, a registration number is allocated to the vehicle, Unless a selected number has been obtained by the owner paying appropriate fee, the vehicle registration number is allocated by computer through a random system after the registration process is completed.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "The vehicle owner is informed about the registration number through SMS or E-Mail address submitted by them.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "The smart R.C. Book of the vehicle is sent by speed-post at the address indicated by the applicant in the Form.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:cot_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "cot.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://cot.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Application in Form - 20 should be made for registration of a New Vehicle. It is compulsory to submit Form - 20 online on the web portal of the department.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:boiler_registration_and_inspection",
+   "type": "SERVICE",
+   "name": "Boiler Registration and Inspection",
+   "officialName": "Boiler Registration and Inspection",
+   "description": "The service provides registration, inspection, and ownership transfer procedures for boilers, along with related fees and documentation requirements.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:83167136359e",
+     "evidence": "Do I required to inform Boiler office if I purchase secondhand boiler from Gujarat or other state ?\nA:\nYes, in case of change in ownership Boiler office shall be informed and necessary other formalities are required to be completed.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:83167136359e",
+     "evidence": "what other formalities are to be carried out ?\nA:\nBuyers and sellers letter is to be submitted to Directors office at Ahemadabad.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:83167136359e",
+     "evidence": "I have purchased a new boiler what should I do ?\nA:\nAn application with required fees ( paid in Govt. treasury through Chalan) and original makers papers is to be submitted to concerned area office.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:83167136359e",
+     "evidence": "what is the Registration fee structure ?\nA:\nIt is as per Regulation 385 of IBR 1950 . It is based on Heating surface area of your boiler.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:83167136359e",
+     "evidence": "What is Inspection fee structure ?\nA:\nIt is as per Regulation 395A of IBR 1950.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:83167136359e",
+     "evidence": "what is the procedure about steam line ?\nA:\nIt is available on Boiler department website\nwww.boiler.gujarat.gov.in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:83167136359e",
+     "evidence": "Who is eligible to qualify as IBR welder ?\nA:\nQualification & experience requirements is mentioned in Regulation 608 of IBR 1950. Those fulfilling these criterias are eligible to apply for welder qualification test.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:83167136359e",
+     "evidence": "Can a welder work fue lance after getting welder certificate. Yes, He has to maintain\nrecords as per Reg.No. 615 of IBr-1950.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:83167136359e",
+     "evidence": "What Preparation is needed before offering welder qualification test ?\nA:\nAll materials like plate, pipe, tube of IBR quality &size as mentioned in Reg. 609 (B) of IBR-1950 is to be kept ready with relevant materials test certificate in original for verification.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:83167136359e",
+     "evidence": "What Type of welder test is conducted ?\nA:\nThere is two type of welder qualification test\nInitial welder qualification test\nWelder RE-qualification test.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:83167136359e",
+     "evidence": "What is Form XII ?\nA:\nForm XII is prescribed form as per IBR-1950. All the Details of welder are to be filled in this form & submitted to local IBR office.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:83167136359e",
+     "evidence": "Can a IBR qualified welder of one state, work in other state ?\nA:\nYes, This is possible after getting endorsement on original welder certificate by CIB of other state. Endorsement fees as per regulation 616 is to be paid.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:boiler_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "boiler.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://boiler.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:83167136359e",
+     "evidence": "Do I required to inform Boiler office if I purchase secondhand boiler from Gujarat or other state ?\nA:\nYes, in case of change in ownership Boiler office shall be informed and necessary other formalities are required to be completed.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -999,6 +1410,92 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "service:vehicle_fitness_testing",
+   "type": "SERVICE",
+   "name": "Vehicle Fitness Testing",
+   "officialName": "vehicle fitness testing",
+   "description": "The service outlines the requirements for vehicle fitness testing, including compliance with rules regarding tyres, windscreen, reflectors, lights, mirrors, and other vehicle components.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:df77ac33eaae",
+     "evidence": "The Condition Of Tyres Should Be Compliant With The Provisions Of Central Motor Vehicles Rules, 1989.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:df77ac33eaae",
+     "evidence": "Fitment of Bald Tyres In Vehicle Will Be Rejected.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:df77ac33eaae",
+     "evidence": "Wind Screen Must Be In Good And Unbroken Condition. Vehicle With Broken Wind Screen Will Be Made Unfit.",
+     "confidence": 0.5,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:df77ac33eaae",
+     "evidence": "Vehicle Must Have Retro Reflective Tapes Affixed At Specified Places As Per Provisions Of Central Motor Vehicles Rules, 1989",
+     "confidence": 0.5,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:df77ac33eaae",
+     "evidence": "Vehicle Must Comply The Emission Norms Provided In The Central Motor Vehicles Rules, 1989",
+     "confidence": 0.5,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:df77ac33eaae",
+     "evidence": "Reflectors Shall Be In Good and Working Condition.",
+     "confidence": 0.5,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:df77ac33eaae",
+     "evidence": "Stop Light, Direction Indicator, Other Necessary Lights And Bulbs Fitted In The Vehicle Shall Be In Good And Working Condition",
+     "confidence": 0.5,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:df77ac33eaae",
+     "evidence": "Ensure Proper And Working Fitment Of Vehicle Head Light. Fuse/Missing Or Non Working Head Light In The Vehicle Shall Be Made Unfit.",
+     "confidence": 0.5,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:df77ac33eaae",
+     "evidence": "There Should Not Be Any Water Entry In Head Lamp.",
+     "confidence": 0.5,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:df77ac33eaae",
+     "evidence": "The Dip And High Beam Function Of Headlight Should Be In Proper Operation; Otherwise Vehicle Shall Be Made Unfit.",
+     "confidence": 0.5,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:df77ac33eaae",
+     "evidence": "Both Side Rear View Mirrors Should Not Be Broken Or Lose Fitted Or Missing, Otherwise Vehicle Shall Be Made Unfit.",
+     "confidence": 0.5,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:df77ac33eaae",
+     "evidence": "Wipers Should Not Be Broken Or Lose Fitted Or Non- Functional Or Missing, Otherwise Vehicle Shall Be Made Unfit.",
+     "confidence": 0.5,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
    "id": "document:letterhead_application",
    "type": "DOCUMENT",
    "name": "Letterhead application",
@@ -1220,6 +1717,269 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:nabl_certificate",
+   "type": "DOCUMENT",
+   "name": "Nabl certificate",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "2 NABL Certificate |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:ultratech_nabet_certificate",
+   "type": "DOCUMENT",
+   "name": "Ultratech nabet certificate",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "2 Ultratech NABET Certificate |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:annexure_i_loi",
+   "type": "DOCUMENT",
+   "name": "Annexure i loi",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "3 Annexure I LOI |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:annexure_ii_mining_plan_part_1",
+   "type": "DOCUMENT",
+   "name": "Annexure ii mining plan part 1",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "4 Annexure II Mining Plan PART 1 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:annexure_ii_mining_plan_part_2",
+   "type": "DOCUMENT",
+   "name": "Annexure ii mining plan part 2",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "4 Annexure II Mining Plan PART 2 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:annexure_iii_approved_mining_plan",
+   "type": "DOCUMENT",
+   "name": "Annexure iii approved mining plan",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "5 Annexure III Approved Mining Plan |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:annexure_iv_cluster_map",
+   "type": "DOCUMENT",
+   "name": "Annexure iv cluster map",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "6 Annexure IV Cluster Map |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:annexure_v_tor",
+   "type": "DOCUMENT",
+   "name": "Annexure v tor",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "7 Annexure V ToR |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:annexure_vi_baseline_monitoring_report_part_1",
+   "type": "DOCUMENT",
+   "name": "Annexure vi baseline monitoring report part 1",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "8 Annexure VI Baseline Monitoring Report PART 1 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:annexure_vi_baseline_monitoring_report_part_2",
+   "type": "DOCUMENT",
+   "name": "Annexure vi baseline monitoring report part 2",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "8 Annexure VI Baseline Monitoring Report PART 2 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:annexure_vi_baseline_monitoring_report_part_3",
+   "type": "DOCUMENT",
+   "name": "Annexure vi baseline monitoring report part 3",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "8 Annexure VI Baseline Monitoring Report PART 3 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:annexure_vi_baseline_monitoring_report_part_4",
+   "type": "DOCUMENT",
+   "name": "Annexure vi baseline monitoring report part 4",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "8 Annexure VI Baseline Monitoring Report PART 4 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:annexure_vii_pdr",
+   "type": "DOCUMENT",
+   "name": "Annexure vii pdr",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "9 Annexure VII PDR |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:english_summary",
+   "type": "DOCUMENT",
+   "name": "English summary",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "12 English Summary |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:gujarati_summary",
+   "type": "DOCUMENT",
+   "name": "Gujarati summary",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "13 Gujarati Summary |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:eia_document_download",
+   "type": "SERVICE",
+   "name": "EIA Document Download",
+   "officialName": "EIA Document Download",
+   "description": "Various documents related to an Environmental Impact Assessment (EIA) are available for download.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "2 Draft EIA |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:gpcb_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "gpcb.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://gpcb.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "2 Draft EIA |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
   },
   {
    "id": "service:barbed_wire_fencing_application",
@@ -1499,6 +2259,110 @@
    ]
   },
   {
+   "id": "service:e_shram_seva",
+   "type": "SERVICE",
+   "name": "E-Shram Seva",
+   "officialName": "E-Shram Seva",
+   "description": "The service provides access to application forms and other resources related to labor laws and worker registrations.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:cf088b48f3de",
+     "evidence": "website will be down on 13/06/2019 and 14/06/2019 due to technical maintenace!",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cf088b48f3de",
+     "evidence": "Website will be down on Tuesday, 30-APR-2019 due to Technical Maintenance!",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cf088b48f3de",
+     "evidence": "On IFP for payment related matter, write to investorfacilitationcell@gmail.com",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cf088b48f3de",
+     "evidence": "Applications Under Contract Labour Act\nRegistration Application\nLicense Application\nLicense Renew Application\nApplication for amendment in registration\nApplication for amendment in license\nApplications Under Interstate Migrant Workers Act.\nRegistration Application\nLicense Application\nLicense Renew Application\nApplication for amendment in registration\nApplication for amendment in license",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cf088b48f3de",
+     "evidence": "Registration Applications\nMotor Transport Workers Act",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cf088b48f3de",
+     "evidence": "Self Certification Scheme\nApplication for amendment in registration",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cf088b48f3de",
+     "evidence": "Other Applications\nNotice for Closure Under Section 25-FFA(1) of IDA\nConciliation cases - IDA\nReinstatement 10(1)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cf088b48f3de",
+     "evidence": "Consolidated Annual Return\nApplication for Trade Union",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cf088b48f3de",
+     "evidence": "View Inspection Report",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cf088b48f3de",
+     "evidence": "Establishment Registration from 1-Oct-2015 till date",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cf088b48f3de",
+     "evidence": "Contractor License from 1-Oct-2015 till date",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cf088b48f3de",
+     "evidence": "Registration search between 1-Jan-2015 and 30-Sep-2015",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:col_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "col.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://col.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:cf088b48f3de",
+     "evidence": "website will be down on 13/06/2019 and 14/06/2019 due to technical maintenace!",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "service:building_development_permission",
    "type": "SERVICE",
    "name": "Building Development Permission",
@@ -1717,6 +2581,203 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "document:intimation_letter",
+   "type": "DOCUMENT",
+   "name": "Intimation letter",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:6873645dfc69",
+     "evidence": ". | (g) A copy of intimation letter, intimates the time & place of the meeting wherein the said resolutions are to be passed.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:trade_union_registration",
+   "type": "SERVICE",
+   "name": "Trade Union Registration",
+   "officialName": "Trade Union Registration",
+   "description": "The service provides the requirements and procedures for registering a trade union, including fees, documentation, and compliance with annual returns.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "50"
+   },
+   "sources": [
+    {
+     "sourceId": "src:6873645dfc69",
+     "evidence": ". | (a) Name of the union which should not be the same or similar to the union previously registered.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6873645dfc69",
+     "evidence": ". | (b) Appointment of office bearers of the trade union.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6873645dfc69",
+     "evidence": ". | (c) Appointment of the applicants who are authorized to apply for registration of the applicant trade union.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6873645dfc69",
+     "evidence": ". | (d) Appointment of executive members of the trade union not less than 7.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6873645dfc69",
+     "evidence": ". | (e) The code of conduct will be binding to the union.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6873645dfc69",
+     "evidence": ". | (f) Name & designation of the person who are authorized to make necessary addition/ alteration & omissions in the application form, constitution and copies of resolutions.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6873645dfc69",
+     "evidence": "If the members of union are not exceed 1000 the registration fee is Rs.50/- (Rupees fifty only) and Rs.100/-(Rupees one hundred only) if the members are more than 1000. It is to be paid only at the time of registration.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6873645dfc69",
+     "evidence": "If any registered union wants to make any addition, omission, alteration in the constitution of the union, the office bearers have to pass a resolution in the constitution of the trade union, the office bearers have to pass a resolution in the meeting of the trade union at least by a majority of the members and they are to be intimated within 15 days from the date of the said meeting wherein these amends were made to the registrar of trade union along with a fee of Rs.25/-(Twenty five) payable either in cash or by M.O.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6873645dfc69",
+     "evidence": "If any registered union wants to make any addition, omission, alteration in the constitution of the union, the office bearers have to pass a resolution in the constitution of the trade union, the office bearers have to pass a resolution in the meeting of the trade union at least by a majority of the members and they are to be intimated within 15 days from the date of the said meeting wherein these amends were made to the registrar of trade union along with a fee of Rs.25/-(Twenty five) payable either in cash or by M.O.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6873645dfc69",
+     "evidence": "Every registered trade union is required to submit an annual return before 31st March, in the prescribed performa to the registrar.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:request_letter_js_mvl",
+   "type": "DOCUMENT",
+   "name": "Request letter js mvl",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:cb87993841b5",
+     "evidence": "i. Request letter to JS(MVL) on official letterhead.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:type_approval_certificate",
+   "type": "DOCUMENT",
+   "name": "Type approval certificate",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:cb87993841b5",
+     "evidence": "iii. Type Approval certificate",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:gst_certificate",
+   "type": "DOCUMENT",
+   "name": "Gst certificate",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:cb87993841b5",
+     "evidence": "iv. GST Certificate",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:user_id_creation_for_vahan_green_sewa",
+   "type": "SERVICE",
+   "name": "User ID creation for Vahan Green Sewa",
+   "officialName": "User ID creation for Vahan Green Sewa",
+   "description": "The service provides the creation of a user ID for organizations to access the Vahan Green Sewa portal after submitting required documents and getting approval.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:cb87993841b5",
+     "evidence": "1- Applicant may fill the User ID creation form. Click here to download the prescribed form.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cb87993841b5",
+     "evidence": "ii. Application Form",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cb87993841b5",
+     "evidence": "v. Certificate of Incorporation or MSME Certificate if applicable",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cb87993841b5",
+     "evidence": "2- Send the scan copy of the following documents to cngmaker-vahan[at]gov[dot]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cb87993841b5",
+     "evidence": "3- After verification and approval of the submitted application, user-id will be created and information will be communicated to the applicant.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cb87993841b5",
+     "evidence": "4- The password need to be changed immediately by the user organization.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cb87993841b5",
+     "evidence": "5- Only one user id/ password will be issued to an organization.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cb87993841b5",
+     "evidence": "The organization may, in turn, create sub-user ids and passwords, if required, for its constituents/branches etc.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
    "id": "office:electricity_revenue_collector_office",
    "type": "OFFICE",
    "name": "Electricity_revenue_collector_office",
@@ -1899,6 +2960,523 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "document:senior_citizen_card",
+   "type": "DOCUMENT",
+   "name": "Senior citizen card",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "sources": [
+    {
+     "sourceId": "src:21b6ef1e1050",
+     "evidence": "Senior Citizen\nCategory Proof\nSenior citizen card issued by Government.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:labour_registration_card",
+   "type": "DOCUMENT",
+   "name": "Labour registration card",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "sources": [
+    {
+     "sourceId": "src:21b6ef1e1050",
+     "evidence": "Additional Document Proof\nLabour registration card issued by Government of Gujarat, Passport size photo.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:saral_pass_travel_scheme",
+   "type": "SERVICE",
+   "name": "SARAL Pass Travel Scheme",
+   "officialName": "SARAL Pass Travel Scheme",
+   "description": "SARAL Pass is an annual prepaid unlimited travel scheme in Surat Sitilink Ltd.",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "1000"
+   },
+   "sources": [
+    {
+     "sourceId": "src:21b6ef1e1050",
+     "evidence": "SARAL pass is an annual prepaid unlimited travel scheme in Surat Sitilink Ltd.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:21b6ef1e1050",
+     "evidence": "Student / Women\nYearly: 1000",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:21b6ef1e1050",
+     "evidence": "Institutional and Other Categories\nYearly: 7000",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:21b6ef1e1050",
+     "evidence": "Gujarat Labour Welfare Board, Government of Gujarat have started free travel scheme for registered construction worker with Building & Other Construction Workers to/from construction site within city areas using city public transport.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:21b6ef1e1050",
+     "evidence": "Charges for this travel pass will be borne by the Gujarat state government and Corporation.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:21b6ef1e1050",
+     "evidence": "The main objective is to ensure that labourers will be able to avail bus passes for traveling within the city absolutely free.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:suratmunicipal_gov_in",
+   "type": "PORTAL",
+   "name": "suratmunicipal.gov.in",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://suratmunicipal.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:21b6ef1e1050",
+     "evidence": "SARAL pass is an annual prepaid unlimited travel scheme in Surat Sitilink Ltd.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:learners_license",
+   "type": "SERVICE",
+   "name": "Learners License",
+   "officialName": "Learners License",
+   "description": "A Learner's License is valid throughout India and requires specific procedures for retests, rescheduling, printing, and updates.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "What happens if I am absent/ failed on the day of the Learner License Test? You have to pay Retest fee and book fresh appointment.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "For Retest payment visit https://sarathi.parivahan.gov.in/ >> Select State >> and Click on Fee Payments >> Fee Payments.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "I did not attend Learner License test on the scheduled date of appointment? Re-schedule the appointment, subject to availability of slots.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "What are the documents required to be carried to the RTO office? 1. Check the application status and click on print acknowledgment which shows required documents. 2. Click on print Form 1 & can download application form & Form 1A 3. Click on Appointment letter from the same application status. 4. Fee receipt.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "I have passed Learners License test and application has been approved, how can I download the print out? Steps to Print Learner's License:- 1. Visit https://sarathi.parivahan.gov.in/ 2. Select concerned state 3. Click on \"Learner License\" menu 4. Click on print Learners License (FORM3) 5. Fill Application number & Date of Birth AND Submit.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "Is Learner's License valid throughout India? Yes, its valid throughout India",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "How can I update my Learners' License mobile number? Steps follow for Mobile number update in License:- 1. Visit https://sarathi.parivahan.gov.in/ 2. Select concerned state 3. Click on \"Mobile Number Update\" from \"Others\" menu",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "Why should I visit RTO even after successful submission of application? After completing online procedure for further processing of application you should visit the concerned RTO office with the required documents as shown on the acknowledgement slip. You should also carry a copy of the fee receipt",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:parivahan_gov_in",
+   "type": "PORTAL",
+   "name": "parivahan.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://parivahan.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "What happens if I am absent/ failed on the day of the Learner License Test? You have to pay Retest fee and book fresh appointment.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:national_permit",
+   "type": "SERVICE",
+   "name": "National Permit",
+   "officialName": "National Permit",
+   "description": "The National Permit is an e-Governance application for authorizing transport operations, with fees payable online.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:6d9d50cb743e",
+     "evidence": "National Permit is the flagship e-Governance application under National Transport Project",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6d9d50cb743e",
+     "evidence": "Remove previously saved passwords from their browsers by clearing browser history.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6d9d50cb743e",
+     "evidence": "Issued (All Over India)between (01-04-2025 and 22-08-2026)\nTotal Permit Count\n21,57,792",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6d9d50cb743e",
+     "evidence": "Total Permit Amount\n35,60,35,68,000/-",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6d9d50cb743e",
+     "evidence": "Print Receipt",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6d9d50cb743e",
+     "evidence": "Dispose Pending Transaction",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:mining_lease_forest_diversion",
+   "type": "DOCUMENT",
+   "name": "Mining lease forest diversion",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:435ad0a265ce",
+     "evidence": "Guidelines for diversion of forest land for non-forest purpose under the Forest (Conservation) Act 1980- Submission of Proposals to obtain approval for diversion of entire forest land located within a Mining Lease.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:forest_land_diversion",
+   "type": "SERVICE",
+   "name": "Forest Land Diversion",
+   "officialName": "forest land diversion",
+   "description": "The service provides guidelines for the diversion of forest land for non-forest purposes under the Forest (Conservation) Act, 1980.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:435ad0a265ce",
+     "evidence": "General approval under section-2 of the Forest (Conservation) Act, 1980 for diversion of forest land for construction and widening of two lane roads for INDO-TIBET Border Police in the areas falling within 100 Km. aerial distance from the Line of Actual Control- reg.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:435ad0a265ce",
+     "evidence": "General approval under Section-2 of the Forest (Conservation) Act, 1980 for diversion of forest land required for creation of border security related infrastructure within five kilometers aerial distance from the International Border by Paramilitary organizations of the Ministry of Home affairs- reg.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:435ad0a265ce",
+     "evidence": "Guidelines for diversion of forest land for non-forest purpose under the Forest(Conservation) Act, 1980- Simplified procedure for grant of permission for felling of trees standing on forest land to be diverted for execution of linear projects:reg.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:435ad0a265ce",
+     "evidence": "Diversion of forest land for non-forest purpose under the Forest(Conservation) Act, 1980- Guidelines regarding management of safety zone in the mining lease - reg.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:435ad0a265ce",
+     "evidence": "Guidelines for diversion of forest land for non-forest purposes under the Forest (Conservation) Act,1980-Guidelines for laying transmission lines through forest areas-reg.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:435ad0a265ce",
+     "evidence": "Guidelines for diversion of forest land for non-forest purposes under the Forest (Conservation) Act,1980 -Non-availability of non-forest land for creation of compensatory afforestation.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:435ad0a265ce",
+     "evidence": "Guidelines for diversion of forest land for non-forest purpose under the Forest (Conservation) ACt,1980-Guidelines related general approval under Section-2 of the Forest (Conservation) Act,1980 for under ground laying of optical fibre cables, telephone lines and drinking water supply pipelines-reg.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:435ad0a265ce",
+     "evidence": "Diversion of forest land for non-forest purposes under the Forest (Conservation) Act,1980-ensuring compliance of the Scheduled Tribes and Other Traditional Forest Dwellers(Recognition of Forest Rights)Act,2006",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:fed_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "fed.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://fed.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:435ad0a265ce",
+     "evidence": "General approval under section-2 of the Forest (Conservation) Act, 1980 for diversion of forest land for construction and widening of two lane roads for INDO-TIBET Border Police in the areas falling within 100 Km. aerial distance from the Line of Actual Control- reg.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:rooftop_pv_portal_registration",
+   "type": "SERVICE",
+   "name": "Rooftop PV Portal Registration",
+   "officialName": "Rooftop PV Portal Registration",
+   "description": "A portal for registration and processing of rooftop photovoltaic (PV) systems with the Gujarat Energy Development Agency.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "11,800.00"
+   },
+   "sources": [
+    {
+     "sourceId": "src:9f03ddbb98ec",
+     "evidence": "The login shall be generated and emailed to you on your registered email ID upon the approval from GEDA Office.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9f03ddbb98ec",
+     "evidence": "Total Processing Fees including GST (in ₹) 11,800.00",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9f03ddbb98ec",
+     "evidence": "It is suggested to kindly check the GST number twice before entering. The same will not be changed once the application is processed.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9f03ddbb98ec",
+     "evidence": "The email ID and mobile no. mentioned here in the form shall be used for all further communication related to this Portal.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9f03ddbb98ec",
+     "evidence": "The documents to be uploaded shall be of max. 1 MB.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9f03ddbb98ec",
+     "evidence": "1) To edit your Login Form, kindly enter the Mandatory Fields - E-mail, Mobile, and PAN",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9f03ddbb98ec",
+     "evidence": "2) To Pay the fees kindly enter the Mandatory Fields - E-mail, Mobile, and PAN to open your saved Login Form",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:srtgeda_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "srtgeda.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://srtgeda.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:9f03ddbb98ec",
+     "evidence": "The login shall be generated and emailed to you on your registered email ID upon the approval from GEDA Office.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:puc",
+   "type": "SERVICE",
+   "name": "PUC",
+   "officialName": "PUC",
+   "description": "The page outlines requirements for video recording during PUC testing to ensure compliance and avoid rejection of the test process.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:63e143ef3b33",
+     "evidence": "The PUC Centre shall prominently display the following information at the testing location in a clearly visible manner: a. PUC Centre Name b. PUC Centre Code",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:63e143ef3b33",
+     "evidence": "b. Vehicle Registration Number of the vehicle undergoing the emission test.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:63e143ef3b33",
+     "evidence": "c. Proper insertion of the emission testing probe into the vehicle's exhaust pipe throughout the testing process.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:63e143ef3b33",
+     "evidence": "d. A clear view of the complete testing area, including the PUC Centre premises and its surroundings/background.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:63e143ef3b33",
+     "evidence": "e. A full view of the vehicle, with the PUC Centre and its displayed identification visible in the background.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:63e143ef3b33",
+     "evidence": "All PUC Centres are advised to ensure strict adherence to these instructions to avoid rejection of the PUC test process and inconvenience to vehicle owners.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:63e143ef3b33",
+     "evidence": "USER CONSENT I hereby confirm that I have read and understood the above instructions and undertake to comply with all the prescribed requirements for video capture during the PUC testing process. I understand that non-compliance may lead to rejection of the video and re-initiation of the PUC test process.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:vahan",
+   "type": "SERVICE",
+   "name": "VAHAN",
+   "officialName": "VAHAN",
+   "description": "VAHAN provides integrated solutions for vehicle registration, fitness, taxes, permits, and enforcement.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:0a14063e7f06",
+     "evidence": "All users are requested to migrate to the new platform at https://services.parivahan.gov.in/ntr/ . The existing portal will be discontinued on September 15,2026. Kindly complete the migration process at the earliest to avoid any disruption in services.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0a14063e7f06",
+     "evidence": "Note: Kindly send approval letter from the concerned department on letter head along with this application to NIC(HQ) for activation of newly created user.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0a14063e7f06",
+     "evidence": "Vehicle Search -\nIt provides a nationwide search over the digitized data of Registered Vehicles. Stake holders may view the details of Registered Vehicles online based on the certain parameters viz.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0a14063e7f06",
+     "evidence": "Registration No (Partial information will be display to citizen and authorized users can see full details)\nChassis No (only for authorized users)\nEngine No (only for authorized users)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0a14063e7f06",
+     "evidence": "VAHAN is a highly flexible and comprehensive system that takes care of all the burdensome activities of Vehicle Registration, leaving the Transport Department to deal with more important business issues. The software enables the processes at RTO/DTO/MLO/SDM involving Vehicle Registration, Fitness, Taxes, Permits & Enforcement to get computerized.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0a14063e7f06",
+     "evidence": "For your security, we need to verify your identify before you log in\nOTP is sent to your mobile number and email address",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0a14063e7f06",
+     "evidence": "OTP will be expired after hours.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0a14063e7f06",
+     "evidence": "Having trouble logging in?\nClick here to Registered yourself.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
    "id": "service:gslcs",
    "type": "SERVICE",
    "name": "GSLCS",
@@ -1950,6 +3528,163 @@
      "sourceId": "src:61f17e5a5fa6",
      "evidence": "Once you click the payment button, you are agreed to mentioned terms and conditions to make payment with GSLCS .",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:permanent_driving_licence",
+   "type": "SERVICE",
+   "name": "Permanent Driving Licence",
+   "officialName": "permanent driving licence",
+   "description": "A permanent driving licence is issued to an applicant who passes the test of competence and meets the eligibility requirements.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:934e01778690",
+     "evidence": "Schedule an appointment for the test of competence online by visiting the website or any RTO office where such facility exists. In other cases schedule an appointment directly at the Office Concerned.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:934e01778690",
+     "evidence": "An application in Form 4, for a permanent driving licence shall be made along with the Learners' Licence obtained for such class of vehicle.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:934e01778690",
+     "evidence": "The applicant who has held a valid Learners' Licence, for a period of at least 30 days, shall be competent to appear for the test of competence.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:934e01778690",
+     "evidence": "The applicant should bring a vehicle of the type to which the application relates.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:934e01778690",
+     "evidence": "The applicant should satisfy the officer conducting the test regarding his capability to drive the vehicle and his ability to perform the tasks specified in Rule-15(2) of the CMVR.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:934e01778690",
+     "evidence": "Fees as prescribed along with user charges",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:934e01778690",
+     "evidence": "The candidate who passes the test of competence successfully will be issued with a driving licence and sent through speed post to the address furnished.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "office:gujarat_energy_development_agency",
+   "type": "OFFICE",
+   "name": "Gujarat Energy Development Agency",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "4th Floor, Block No. 11-12, Udyog Bhawan, Gandhinagar - 382 017, Gujarat"
+   },
+   "sources": [
+    {
+     "sourceId": "src:4f7bb61fb6cb",
+     "evidence": "Gujarat Energy Development Agency,\n4th Floor, Block No. 11-12, Udyog Bhawan,\nGandhinagar - 382 017, Gujarat",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:rooftop_pv_installer_registration",
+   "type": "SERVICE",
+   "name": "Rooftop PV Installer Registration",
+   "officialName": "Rooftop PV Installer Registration",
+   "description": "This service allows solar PV installers to register on a unified portal with a processing fee of ₹11,800 including GST.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "11,800.00"
+   },
+   "sources": [
+    {
+     "sourceId": "src:4f7bb61fb6cb",
+     "evidence": "It is suggested to kindly check the GST number twice before entering. The same will not be changed once the application is processed. GST credit will not be passed on to those who have not entered the correct GST number.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4f7bb61fb6cb",
+     "evidence": "It is in the interest of the Solar PV Installer to provide as much details as possible. The email ID and mobile no. mentioned here in the form shall be used for all further communication related to this Portal.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4f7bb61fb6cb",
+     "evidence": "The documents to be uploaded shall be of max. 1 MB.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4f7bb61fb6cb",
+     "evidence": "The login shall be generated and emailed to you on your registered email ID upon the approval from GEDA Office.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4f7bb61fb6cb",
+     "evidence": "Total Processing Fees including GST (in ₹) 11,800.00",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:vehicle_registration_and_license",
+   "type": "SERVICE",
+   "name": "Vehicle-Registration-And-License",
+   "officialName": "vehicle-registration-and-license",
+   "description": "Citizens can update their mobile numbers in the Vahan and Sarathi portal to ensure accurate details for vehicle-related services.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:ebcf607d8f35",
+     "evidence": "Driving license holders and registered Vehicle owners are urged to ensure that their mobile number is updated in the Vahan and Sarathi portal. This will help them in ensuring that the details are complete, accurate, and up to date. Online facility has been provided to update mobile number in the portal without visiting RTOs.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:ebcf607d8f35",
+     "evidence": "1.Authentication modes for availing any service on Vahan Portal is as per directions from respective state and accordingly authentication modes are enabled or disabled.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:ebcf607d8f35",
+     "evidence": "4.For Services in the Contactless (eKyc) Services, if you apply through aadhar authentication then you do not need to visit RTO office for verification of uploaded documents.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:ebcf607d8f35",
+     "evidence": "5.For Services not in the contactless (eKyc) Services list, after submitting application, depositing fee and uploading required documents as per Motor Vehicle Act/Rules and booking a slot on a required date, you have to compulsorily visit the RTO along with the vehicle( if required) for verification of documents/vehicle.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -2031,21 +3766,6 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "document:aadhaar_card",
-   "type": "DOCUMENT",
-   "name": "Aadhaar card",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:7d05e57bbb38",
-     "evidence": "ઓળખનો પુરાવો : | select | આધાર કાર્ડ",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "service:parapit_application",
    "type": "SERVICE",
    "name": "Parapit Application",
@@ -2078,6 +3798,106 @@
      "sourceId": "src:7d05e57bbb38",
      "evidence": "નોંધ આથી અમો બાહેધરી આપીએ છીએ કે ઉપર જણાવેલ માહિતી સાચી છે અને પ્રવર્તમાન શરતો, નિયમો તથા/અથવા અન્ય જોગવાઈઓ મને માન્ય છે અને બંધન કર્તા રહેશે.",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:solar_power_project_registration",
+   "type": "SERVICE",
+   "name": "Solar Power Project Registration",
+   "officialName": "Solar Power Project Registration",
+   "description": "The service provides forms and undertakings for the registration and commissioning of solar power projects.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:99aae295d09c",
+     "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/Media_Gallery/Annexure_2_Final_Registration_Form_Solar_Power_Project.pdf\" target=\"_blank\">Annexure - 2 Final Registration Form_Solar Power Project</a></p>",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:99aae295d09c",
+     "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/Media_Gallery/Undertaking_for_Newness.pdf\" target=\"_blank\">Undertaking for Newness</a></p>",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:99aae295d09c",
+     "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/Media_Gallery/Group_Captive_Undertaking.pdf\" target=\"_blank\">Undertaking for CGP criteria</a></p>",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:99aae295d09c",
+     "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/Media_Gallery/3Commissioning_request_form___Solar_PV_Poject.pdf\" target=\"_blank\">Annexure - 4 Commissioning request form for Solar Power Project</a></p>",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:99aae295d09c",
+     "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/Media_Gallery/Undertaking_Solar_Rooftop_on_Government_Building.pdf\" target=\"_blank\">Undertaking Solar Rooftop on Government Building</a></p>",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:geda_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "geda.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://geda.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:99aae295d09c",
+     "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/Media_Gallery/Annexure_2_Final_Registration_Form_Solar_Power_Project.pdf\" target=\"_blank\">Annexure - 2 Final Registration Form_Solar Power Project</a></p>",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:all_india_tourist_permit",
+   "type": "SERVICE",
+   "name": "All India Tourist Permit",
+   "officialName": "All India Tourist Permit",
+   "description": "A permit for tourists to travel across India.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:0f7d9311985a",
+     "evidence": "The transaction is pending as no confirmation has been received from the payment gateway/Bank..",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0f7d9311985a",
+     "evidence": "The final transaction status has not yet been received from payment gateway/aggregator.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0f7d9311985a",
+     "evidence": "However if the user wants he/she may terminate the transaction and go for fresh payment.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0f7d9311985a",
+     "evidence": "User hereby accepts the above condition and relinquishes Not the right for refund claim from the department/payment gateway/bank.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -2254,6 +4074,54 @@
     {
      "sourceId": "src:486c8338b1b8",
      "evidence": "The 'e-Permit' is for a visit to 'Gir Jungle Safari', 'GIZ Devalia Safari', 'Ambardi Safari Park' and 'Girnar Nature Safari' only.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_vehicle_registration__requires__document_certificate",
+   "from": "service:vehicle_registration",
+   "to": "document:certificate",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Vehicle insurance certificate is required for vehicle registration.",
+   "sources": [
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Vehicle insurance certificate.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_vehicle_registration__apply_at__portal_cot_gujarat_gov_in",
+   "from": "service:vehicle_registration",
+   "to": "portal:cot_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on cot.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Application in Form - 20 should be made for registration of a New Vehicle. It is compulsory to submit Form - 20 online on the web portal of the department.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_boiler_registration_and_inspection__apply_at__portal_boiler_gujarat_gov_in",
+   "from": "service:boiler_registration_and_inspection",
+   "to": "portal:boiler_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on boiler.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:83167136359e",
+     "evidence": "Do I required to inform Boiler office if I purchase secondhand boiler from Gujarat or other state ?\nA:\nYes, in case of change in ownership Boiler office shall be informed and necessary other formalities are required to be completed.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -2548,6 +4416,22 @@
    ]
   },
   {
+   "id": "e:service_vehicle_fitness_testing__apply_at__portal_vahan_parivahan_gov_in",
+   "from": "service:vehicle_fitness_testing",
+   "to": "portal:vahan_parivahan_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on vahan.parivahan.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:df77ac33eaae",
+     "evidence": "The Condition Of Tyres Should Be Compliant With The Provisions Of Central Motor Vehicles Rules, 1989.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_van_mahotsav_sapling_application__requires__document_letterhead_application",
    "from": "service:van_mahotsav_sapling_application",
    "to": "document:letterhead_application",
@@ -2607,6 +4491,262 @@
      "sourceId": "src:a4264d4ffddb",
      "evidence": "Application Form for Research work in Protected Area As Per WLPA-1972,Sec-33",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_eia_document_download__requires__document_nabl_certificate",
+   "from": "service:eia_document_download",
+   "to": "document:nabl_certificate",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A NABL Certificate is available for download.",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "2 NABL Certificate |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_eia_document_download__requires__document_ultratech_nabet_certificate",
+   "from": "service:eia_document_download",
+   "to": "document:ultratech_nabet_certificate",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An Ultratech NABET Certificate is available for download.",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "2 Ultratech NABET Certificate |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_eia_document_download__requires__document_annexure_i_loi",
+   "from": "service:eia_document_download",
+   "to": "document:annexure_i_loi",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Annexure I LOI is available for download.",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "3 Annexure I LOI |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_eia_document_download__requires__document_annexure_ii_mining_plan_part_1",
+   "from": "service:eia_document_download",
+   "to": "document:annexure_ii_mining_plan_part_1",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Annexure II Mining Plan Part 1 is available for download.",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "4 Annexure II Mining Plan PART 1 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_eia_document_download__requires__document_annexure_ii_mining_plan_part_2",
+   "from": "service:eia_document_download",
+   "to": "document:annexure_ii_mining_plan_part_2",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Annexure II Mining Plan Part 2 is available for download.",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "4 Annexure II Mining Plan PART 2 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_eia_document_download__requires__document_annexure_iii_approved_mining_plan",
+   "from": "service:eia_document_download",
+   "to": "document:annexure_iii_approved_mining_plan",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Annexure III Approved Mining Plan is available for download.",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "5 Annexure III Approved Mining Plan |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_eia_document_download__requires__document_annexure_iv_cluster_map",
+   "from": "service:eia_document_download",
+   "to": "document:annexure_iv_cluster_map",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Annexure IV Cluster Map is available for download.",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "6 Annexure IV Cluster Map |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_eia_document_download__requires__document_annexure_v_tor",
+   "from": "service:eia_document_download",
+   "to": "document:annexure_v_tor",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Annexure V ToR is available for download.",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "7 Annexure V ToR |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_eia_document_download__requires__document_annexure_vi_baseline_monitoring_report_part_1",
+   "from": "service:eia_document_download",
+   "to": "document:annexure_vi_baseline_monitoring_report_part_1",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Annexure VI Baseline Monitoring Report Part 1 is available for download.",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "8 Annexure VI Baseline Monitoring Report PART 1 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_eia_document_download__requires__document_annexure_vi_baseline_monitoring_report_part_2",
+   "from": "service:eia_document_download",
+   "to": "document:annexure_vi_baseline_monitoring_report_part_2",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Annexure VI Baseline Monitoring Report Part 2 is available for download.",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "8 Annexure VI Baseline Monitoring Report PART 2 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_eia_document_download__requires__document_annexure_vi_baseline_monitoring_report_part_3",
+   "from": "service:eia_document_download",
+   "to": "document:annexure_vi_baseline_monitoring_report_part_3",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Annexure VI Baseline Monitoring Report Part 3 is available for download.",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "8 Annexure VI Baseline Monitoring Report PART 3 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_eia_document_download__requires__document_annexure_vi_baseline_monitoring_report_part_4",
+   "from": "service:eia_document_download",
+   "to": "document:annexure_vi_baseline_monitoring_report_part_4",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Annexure VI Baseline Monitoring Report Part 4 is available for download.",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "8 Annexure VI Baseline Monitoring Report PART 4 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_eia_document_download__requires__document_annexure_vii_pdr",
+   "from": "service:eia_document_download",
+   "to": "document:annexure_vii_pdr",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Annexure VII PDR is available for download.",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "9 Annexure VII PDR |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_eia_document_download__requires__document_english_summary",
+   "from": "service:eia_document_download",
+   "to": "document:english_summary",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An English Summary is available for download.",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "12 English Summary |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_eia_document_download__requires__document_gujarati_summary",
+   "from": "service:eia_document_download",
+   "to": "document:gujarati_summary",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A Gujarati Summary is available for download.",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "13 Gujarati Summary |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_eia_document_download__apply_at__portal_gpcb_gujarat_gov_in",
+   "from": "service:eia_document_download",
+   "to": "portal:gpcb_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on gpcb.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:67263ea96ca1",
+     "evidence": "2 Draft EIA |",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -2772,6 +4912,22 @@
    ]
   },
   {
+   "id": "e:service_e_shram_seva__apply_at__portal_col_gujarat_gov_in",
+   "from": "service:e_shram_seva",
+   "to": "portal:col_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on col.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:cf088b48f3de",
+     "evidence": "website will be down on 13/06/2019 and 14/06/2019 due to technical maintenace!",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_building_development_permission__apply_at__portal_vmc_gov_in",
    "from": "service:building_development_permission",
    "to": "portal:vmc_gov_in",
@@ -2836,6 +4992,102 @@
    ]
   },
   {
+   "id": "e:service_trade_union_registration__requires__document_intimation_letter",
+   "from": "service:trade_union_registration",
+   "to": "document:intimation_letter",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A trade union must provide a copy of an intimation letter stating the time and place of the meeting where resolutions are passed.",
+   "sources": [
+    {
+     "sourceId": "src:6873645dfc69",
+     "evidence": ". | (g) A copy of intimation letter, intimates the time & place of the meeting wherein the said resolutions are to be passed.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_trade_union_registration__apply_at__portal_col_gujarat_gov_in",
+   "from": "service:trade_union_registration",
+   "to": "portal:col_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on col.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:6873645dfc69",
+     "evidence": ". | (a) Name of the union which should not be the same or similar to the union previously registered.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_user_id_creation_for_vahan_green_sewa__requires__document_request_letter_js_mvl",
+   "from": "service:user_id_creation_for_vahan_green_sewa",
+   "to": "document:request_letter_js_mvl",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A request letter to JS(MVL) on official letterhead is required.",
+   "sources": [
+    {
+     "sourceId": "src:cb87993841b5",
+     "evidence": "i. Request letter to JS(MVL) on official letterhead.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_user_id_creation_for_vahan_green_sewa__requires__document_type_approval_certificate",
+   "from": "service:user_id_creation_for_vahan_green_sewa",
+   "to": "document:type_approval_certificate",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A Type Approval certificate is required.",
+   "sources": [
+    {
+     "sourceId": "src:cb87993841b5",
+     "evidence": "iii. Type Approval certificate",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_user_id_creation_for_vahan_green_sewa__requires__document_gst_certificate",
+   "from": "service:user_id_creation_for_vahan_green_sewa",
+   "to": "document:gst_certificate",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A GST Certificate is required.",
+   "sources": [
+    {
+     "sourceId": "src:cb87993841b5",
+     "evidence": "iv. GST Certificate",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_user_id_creation_for_vahan_green_sewa__apply_at__portal_vahan_parivahan_gov_in",
+   "from": "service:user_id_creation_for_vahan_green_sewa",
+   "to": "portal:vahan_parivahan_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on vahan.parivahan.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:cb87993841b5",
+     "evidence": "1- Applicant may fill the User ID creation form. Click here to download the prescribed form.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_electricity_tax_exemption_or_relief__visit_at__office_electricity_revenue_collector_office",
    "from": "service:electricity_tax_exemption_or_relief",
    "to": "office:electricity_revenue_collector_office",
@@ -2884,6 +5136,198 @@
    ]
   },
   {
+   "id": "e:service_saral_pass_travel_scheme__requires__document_bonafide_certificate",
+   "from": "service:saral_pass_travel_scheme",
+   "to": "document:bonafide_certificate",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A bonafide certificate from a government-approved educational institution is required for the student category.",
+   "sources": [
+    {
+     "sourceId": "src:21b6ef1e1050",
+     "evidence": "Student\nCategory Proof\nBonafide certificate from Government approved Educational Institution, Passport size photo.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_saral_pass_travel_scheme__requires__document_disability_certificate",
+   "from": "service:saral_pass_travel_scheme",
+   "to": "document:disability_certificate",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A disability certificate of a general physician (40% or higher disability required) is required for the physically challenged category.",
+   "sources": [
+    {
+     "sourceId": "src:21b6ef1e1050",
+     "evidence": "Physically Challenged\nCategory Proof\nDisability Certificate of General physician (40 % or higher disability required)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_saral_pass_travel_scheme__requires__document_senior_citizen_card",
+   "from": "service:saral_pass_travel_scheme",
+   "to": "document:senior_citizen_card",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A senior citizen card issued by the government is required for the senior citizen category.",
+   "sources": [
+    {
+     "sourceId": "src:21b6ef1e1050",
+     "evidence": "Senior Citizen\nCategory Proof\nSenior citizen card issued by Government.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_saral_pass_travel_scheme__requires__document_labour_registration_card",
+   "from": "service:saral_pass_travel_scheme",
+   "to": "document:labour_registration_card",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A labour registration card issued by the Government of Gujarat and a passport size photo are required for the Shramik Pass Travel Scheme.",
+   "sources": [
+    {
+     "sourceId": "src:21b6ef1e1050",
+     "evidence": "Additional Document Proof\nLabour registration card issued by Government of Gujarat, Passport size photo.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_saral_pass_travel_scheme__apply_at__portal_suratmunicipal_gov_in",
+   "from": "service:saral_pass_travel_scheme",
+   "to": "portal:suratmunicipal_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on suratmunicipal.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:21b6ef1e1050",
+     "evidence": "SARAL pass is an annual prepaid unlimited travel scheme in Surat Sitilink Ltd.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_learners_license__apply_at__portal_parivahan_gov_in",
+   "from": "service:learners_license",
+   "to": "portal:parivahan_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on parivahan.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:1b512feb4f0f",
+     "evidence": "What happens if I am absent/ failed on the day of the Learner License Test? You have to pay Retest fee and book fresh appointment.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_national_permit__apply_at__portal_vahan_parivahan_gov_in",
+   "from": "service:national_permit",
+   "to": "portal:vahan_parivahan_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on vahan.parivahan.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:6d9d50cb743e",
+     "evidence": "National Permit is the flagship e-Governance application under National Transport Project",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_forest_land_diversion__requires__document_mining_lease_forest_diversion",
+   "from": "service:forest_land_diversion",
+   "to": "document:mining_lease_forest_diversion",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A proposal must be submitted to obtain approval for the diversion of entire forest land located within a mining lease.",
+   "sources": [
+    {
+     "sourceId": "src:435ad0a265ce",
+     "evidence": "Guidelines for diversion of forest land for non-forest purpose under the Forest (Conservation) Act 1980- Submission of Proposals to obtain approval for diversion of entire forest land located within a Mining Lease.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_forest_land_diversion__apply_at__portal_fed_gujarat_gov_in",
+   "from": "service:forest_land_diversion",
+   "to": "portal:fed_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on fed.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:435ad0a265ce",
+     "evidence": "General approval under section-2 of the Forest (Conservation) Act, 1980 for diversion of forest land for construction and widening of two lane roads for INDO-TIBET Border Police in the areas falling within 100 Km. aerial distance from the Line of Actual Control- reg.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_rooftop_pv_portal_registration__apply_at__portal_srtgeda_gujarat_gov_in",
+   "from": "service:rooftop_pv_portal_registration",
+   "to": "portal:srtgeda_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on srtgeda.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:9f03ddbb98ec",
+     "evidence": "The login shall be generated and emailed to you on your registered email ID upon the approval from GEDA Office.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_puc__apply_at__portal_vahan_parivahan_gov_in",
+   "from": "service:puc",
+   "to": "portal:vahan_parivahan_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on vahan.parivahan.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:63e143ef3b33",
+     "evidence": "The PUC Centre shall prominently display the following information at the testing location in a clearly visible manner: a. PUC Centre Name b. PUC Centre Code",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_vahan__apply_at__portal_vahan_parivahan_gov_in",
+   "from": "service:vahan",
+   "to": "portal:vahan_parivahan_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on vahan.parivahan.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:0a14063e7f06",
+     "evidence": "All users are requested to migrate to the new platform at https://services.parivahan.gov.in/ntr/ . The existing portal will be discontinued on September 15,2026. Kindly complete the migration process at the earliest to avoid any disruption in services.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_gslcs__apply_at__portal_girlion_gujarat_gov_in",
    "from": "service:gslcs",
    "to": "portal:girlion_gujarat_gov_in",
@@ -2895,6 +5339,70 @@
      "sourceId": "src:61f17e5a5fa6",
      "evidence": "* Note: The camera fee for amateur photography is Rs. 200 for Indian nationals and for foreigners, it is calculated by 20 multiplying the current dollar rate in Rs. Kindly select your appropriate camera count.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_permanent_driving_licence__apply_at__portal_parivahan_gov_in",
+   "from": "service:permanent_driving_licence",
+   "to": "portal:parivahan_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on parivahan.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:934e01778690",
+     "evidence": "Schedule an appointment for the test of competence online by visiting the website or any RTO office where such facility exists. In other cases schedule an appointment directly at the Office Concerned.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_rooftop_pv_installer_registration__visit_at__office_gujarat_energy_development_agency",
+   "from": "service:rooftop_pv_installer_registration",
+   "to": "office:gujarat_energy_development_agency",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gujarat Energy Development Agency is located at 4th Floor, Block No. 11-12, Udyog Bhawan, Gandhinagar - 382 017, Gujarat.",
+   "sources": [
+    {
+     "sourceId": "src:4f7bb61fb6cb",
+     "evidence": "Gujarat Energy Development Agency,\n4th Floor, Block No. 11-12, Udyog Bhawan,\nGandhinagar - 382 017, Gujarat",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_rooftop_pv_installer_registration__apply_at__portal_srtgeda_gujarat_gov_in",
+   "from": "service:rooftop_pv_installer_registration",
+   "to": "portal:srtgeda_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on srtgeda.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:4f7bb61fb6cb",
+     "evidence": "It is suggested to kindly check the GST number twice before entering. The same will not be changed once the application is processed. GST credit will not be passed on to those who have not entered the correct GST number.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_vehicle_registration_and_license__apply_at__portal_vahan_parivahan_gov_in",
+   "from": "service:vehicle_registration_and_license",
+   "to": "portal:vahan_parivahan_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on vahan.parivahan.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:ebcf607d8f35",
+     "evidence": "Driving license holders and registered Vehicle owners are urged to ensure that their mobile number is updated in the Vahan and Sarathi portal. This will help them in ensuring that the details are complete, accurate, and up to date. Online facility has been provided to update mobile number in the portal without visiting RTOs.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -2927,6 +5435,38 @@
      "sourceId": "src:7d05e57bbb38",
      "evidence": "અરજદારનું ઉપનામ :",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_solar_power_project_registration__apply_at__portal_geda_gujarat_gov_in",
+   "from": "service:solar_power_project_registration",
+   "to": "portal:geda_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on geda.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:99aae295d09c",
+     "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/Media_Gallery/Annexure_2_Final_Registration_Form_Solar_Power_Project.pdf\" target=\"_blank\">Annexure - 2 Final Registration Form_Solar Power Project</a></p>",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_all_india_tourist_permit__apply_at__portal_vahan_parivahan_gov_in",
+   "from": "service:all_india_tourist_permit",
+   "to": "portal:vahan_parivahan_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on vahan.parivahan.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:0f7d9311985a",
+     "evidence": "The transaction is pending as no confirmation has been received from the payment gateway/Bank..",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]

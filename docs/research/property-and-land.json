@@ -28,6 +28,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:9837b687d4bb",
+   "url": "https://mcjamnagar.com/Services/SelfAssessment.aspx?SID=SER",
+   "title": "Self Assessment",
+   "domain": "mcjamnagar.com",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-JAMNAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "7bb06c69f37c5ea54216b909bca40bec89fea988ae52961a77bef91013477d90",
+   "cacheFile": ".ingest/pages/9837b687d4bbd18dabf8c302548eeca4af681d23.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:2bd753e1b32d",
    "url": "https://ahmedabad.gujarat.gov.in/land-neem",
    "title": "ગામ તળ માટે જમીન નીમ કરવા બાબત | Revenue | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
@@ -97,6 +109,42 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "8f0e47687087cec73876b84e0c3ddaa2aad0763cf3e5654ef96077b1dfa93a3c",
    "cacheFile": ".ingest/pages/4836e2cf4ed0d5c63fbda06e3bd9af5afd950476.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:b711a8fe0826",
+   "url": "https://anand.gujarat.gov.in/showpage.aspx?contentid=253",
+   "title": "નકલ માટેની અરજીઓ નિકાલ કરવા બાબત | Revenue | Jan Seva Kendra form | Collectorate - District Anand",
+   "domain": "anand.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-ANAND",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "6e675279d29b10fda1bbe1bddd6e73aa4a4335325845fa00eafd385f0ab04c6b",
+   "cacheFile": ".ingest/pages/b711a8fe082675f2a558002927858d7467a3fc72.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:eb941cd330fd",
+   "url": "https://bhavnagar.gujarat.gov.in/showpage.aspx?contentid=253",
+   "title": "નકલ માટેની અરજીઓ નિકાલ કરવા બાબત | Revenue | Jan Seva Kendra Form | Collectorate - District Bhavnagar",
+   "domain": "bhavnagar.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-BHAVNAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "561913d9b871921f5a5a6d92983d670fd8a6fadc5af7fb6cfe99181d07ce18f5",
+   "cacheFile": ".ingest/pages/eb941cd330fdcda699cdb8489f2468f97bd81f56.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:bf942cad7dd5",
+   "url": "https://devbhumidwarka.gujarat.gov.in/showpage.aspx?contentid=546",
+   "title": "સક્ષમ અધિકારીશ્રીના હુકમ અન્વયે સિટી સરવેના હકપત્રકે નોંધ દાખલ કરવાની અરજીનો નમુનો | City Survey | Jan Seva Kendra form | Collectorate - District Devbhumi Dwarka",
+   "domain": "devbhumidwarka.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "99331f28704c54b42221d326c19f9f5440fe5e076c7ec51f3dc7f9622d8b2bcd",
+   "cacheFile": ".ingest/pages/bf942cad7dd5d2ebe253af97f2ffe1dc63e6529d.md",
    "scrapedOk": true
   }
  ],
@@ -563,6 +611,144 @@
    "sourceId": "src:3203b82bd43a",
    "evidence": "Email\ngidc@gujarat.gov.in\ngidc@gidcgujarat.org",
    "confidence": 1
+  },
+  {
+   "claim": "A citizen must select the occupancy category of the property as either owner or tenant.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "occupancy_category",
+   "object": "property",
+   "detail": {},
+   "sourceId": "src:9837b687d4bb",
+   "evidence": "ઓક્યુંપેન્સી ફેક્ટરની કેટેગરી\n--SELECT--\nમાલિક - OWNER\nભાડુઆત - TENANT",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must indicate whether the property is an open plot.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "open_plot",
+   "object": "property",
+   "detail": {},
+   "sourceId": "src:9837b687d4bb",
+   "evidence": "ખુલ્લા પ્લોટવાળી મિલ્કત છે?\nNo\nYes",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must select the ownership category of the property, including whether it is government or private.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "ownership_category",
+   "object": "property",
+   "detail": {},
+   "sourceId": "src:9837b687d4bb",
+   "evidence": "સરકારી મિલકત છે?\n--SELECT--\nઅન્ય મિલકત - OTHER PROPERTY\nકેન્દ્ર સરકારની માલિકી - CENTRAL GOVERNMENT\nરાજ્ય સરકારની માલિકી - STATE GOVERNMENT\nઅર્ધસરકારી સંસ્થાની માલિકી - SEMI GOVERNMENT\nબોર્ડ / નિગમની માલિકી - BOARD / NIGAM\nસત્તામંડળની માલિકી - SATTA MANDAL\nઅન્ય સરકારી માલિકી - OTHER GOVERNMENT",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must select the location category of the property based on its area type.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "location_category",
+   "object": "property",
+   "detail": {},
+   "sourceId": "src:9837b687d4bb",
+   "evidence": "મિલકતના લોકેશન ફેક્ટરની કેટેગરી\n--SELECT--\nL1 - સમૃદ્ધ વિસ્તાર - PROSPEROUS AREA\nL2 - સારો વિસ્તાર - GOOD AREA\nL3 - ઉચ્ચો મધ્યમ વિસ્તાર - HIGH MEDIUM AREA\nL4 - મધ્યમ વિસ્તાર - MEDIUM AREA\nL5 - નબળો વિસ્તાર - WEAK / INFERIOUR AREA\nL6 - હાલ નક્કી નથી - NOT DECIDED",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must select the floor of the property for assessment purposes.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "floor_selection",
+   "object": "property",
+   "detail": {},
+   "sourceId": "src:9837b687d4bb",
+   "evidence": "ફ્લોર\n--SELECT--\nભોયરું - CELLAR\nભોયતળીયું - GROUND FLOOR\nપહેલો માળ - FIRST FLOOR\nબીજો માળ - SECOND FLOOR\nત્રીજો માળ - THIRD FLOOR\nચોથો માળ - FOURTH FLOOR\nપાંચમો માળ - FIFTH FLOOR\nછઠ્ઠો માળ - SIXTH FLOOR\nસાતમો માળ - SEVENTH FLOOR\nઆઠમો માળ - EIGHTH FLOOR\nનવમો માળ - NINTH FLOOR\nદશમો માળ - TENTH FLOOR\nમેજેનીન - MEZZANINE\nઅગિયારમો માળ - ELEVENTH FLOOR\nબારમો માળ - TWELTH FLOOR\nતેરમો માળ - THIRTEENTH FLOOR\nચૌદમો માળ - FORTEENTH FLOOR\nપંદરમો માળ - FIFTEENTH FLOOR",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must select whether the property is residential or non-residential.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "residential_category",
+   "object": "property",
+   "detail": {},
+   "sourceId": "src:9837b687d4bb",
+   "evidence": "રહેણાંક અથવા બિન રહેણાંક કેટેગરી\n--SELECT--\nR - રહેણાંક - RESIDENTIAL\nNR - બિન - રહેણાંક - NON-RESIDENTIAL",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must select the type of building construction for the property.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "building_type",
+   "object": "property",
+   "detail": {},
+   "sourceId": "src:9837b687d4bb",
+   "evidence": "ટાઇપ ઓફ બિલ્ડીંગ ફેક્ટરની બિન રહેણાંક કેટેગરી\n--SELECT--\nA - પાકી દીવાલો અને આર.સી.સી. છત - PUCCA WALL WITH RCC ROOF\nB - પાકી દીવાલો અને આર.સી.સી. છત સિવાયની છત - PUCCA WALL WITH ROOF OTHER THAN RCC\nC - પાકી દીવાલો અને સીટના છાપરાવાળી છત - Corrugated/Iron/Cement Sheet wall with other than RCC Roof\nD - દીવાલો વગર અને માત્ર છાપરાવાળી છત - NON ENCLOSED SHED",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must provide the carpet area of the property in square meters.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "carpet_area",
+   "object": "property",
+   "detail": {},
+   "sourceId": "src:9837b687d4bb",
+   "evidence": "કારપેટ એરિયા (ચો.મી)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must provide the year in which the construction of the property was completed.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "construction_year",
+   "object": "property",
+   "detail": {},
+   "sourceId": "src:9837b687d4bb",
+   "evidence": "બાંધકામ પૂર્ણ થયા વર્ષ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Jamnagar Municipal Corporation provides a self-assessment tool for property tax calculation.",
+   "kind": "ACTION",
+   "subject": "self_assessment_tool",
+   "object": "property_tax",
+   "detail": {
+    "url": "https://mcjamnagar.com/Services/SelfAssessment.aspx?SID=SER"
+   },
+   "sourceId": "src:9837b687d4bb",
+   "evidence": "Self Assessment\nHome / Services / Property Tax Calculator",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Jamnagar Municipal Corporation can be contacted at (0288) - 2550231 - 235 for property tax-related queries.",
+   "kind": "HELPLINE",
+   "subject": "contact_number",
+   "object": "jamnagar_municipal_corporation",
+   "detail": {
+    "phone": "(0288) - 2550231 - 235"
+   },
+   "sourceId": "src:9837b687d4bb",
+   "evidence": "Phone:\n(0288) - 2550231 - 235",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Jamnagar Municipal Corporation provides a toll-free number 1800 233 0131 for property tax-related queries.",
+   "kind": "HELPLINE",
+   "subject": "toll_free_number",
+   "object": "jamnagar_municipal_corporation",
+   "detail": {
+    "phone": "1800 233 0131"
+   },
+   "sourceId": "src:9837b687d4bb",
+   "evidence": "Toll Free: 1800 233 0131",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Jamnagar Municipal Corporation's email address for feedback and email communication is feedback.jmc@gmail.com.",
+   "kind": "GRIEVANCE",
+   "subject": "email_address",
+   "object": "jamnagar_municipal_corporation",
+   "detail": {
+    "email": "feedback.jmc@gmail.com"
+   },
+   "sourceId": "src:9837b687d4bb",
+   "evidence": "For Feedback and Email : feedback.jmc@gmail.com",
+   "confidence": 0.95
   },
   {
    "claim": "An application must be submitted to the Prant Officer as per Appendix-1/1.",
@@ -1148,7 +1334,198 @@
    "sourceId": "src:4836e2cf4ed0",
    "evidence": "જેની નકલ જરૂરી હોય તે મિલ્કતની માલિકીના પુરાવા.",
    "confidence": 0.95
+  },
+  {
+   "claim": "The application process for obtaining copies must be submitted to Jan Seva Kendra, Anand.",
+   "kind": "OFFICE",
+   "subject": "application_process",
+   "object": "jan_seva_kendra_anand",
+   "detail": {
+    "address": "District Collector Office, Near Borsad Chokdi, Opp. DSP Office, Anand, Gujarat - 388540"
+   },
+   "sourceId": "src:b711a8fe0826",
+   "evidence": "Application Process\nJan Seva Kendra, Anand\nDistrict Collector Office\nNear Borsad Chokdi,\nOpp. DSP Office,\nAnand,\nGujarat - 388540",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application for copies must be submitted between 8:30 A.M. and 5:30 A.M.",
+   "kind": "TIMELINE",
+   "subject": "application_hours",
+   "object": "jan_seva_kendra_anand",
+   "detail": {
+    "hours": "8:30 A.M To 5:30 A.M"
+   },
+   "sourceId": "src:b711a8fe0826",
+   "evidence": "8:30 A.M To 5:30 A.M",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The total time limit for processing the application is 15 days.",
+   "kind": "TIMELINE",
+   "subject": "processing_time",
+   "object": "application",
+   "detail": {
+    "days": "15"
+   },
+   "sourceId": "src:b711a8fe0826",
+   "evidence": "નિકાલની સમય મર્યાદા કુલ ૧૫ દિવસ.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A certified copy of the proof of deposit must be submitted.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application",
+   "object": "proof_of_deposit",
+   "detail": {},
+   "sourceId": "src:b711a8fe0826",
+   "evidence": "રૂા ર૦/– ડિપોઝીટ ભરેલ હોવા અંગેની પહોંચની ઝેરોક્ષ નકલ.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Proof of ownership of the property for which a copy is required must be submitted.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application",
+   "object": "property_ownership_proof",
+   "detail": {},
+   "sourceId": "src:b711a8fe0826",
+   "evidence": "જેની નકલ જરૂરી હોય તે મિલ્કતની માલિકીના પુરાવા.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A certified copy of the documents is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application",
+   "object": "certified_copy_of_documents",
+   "detail": {},
+   "sourceId": "src:b711a8fe0826",
+   "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application process for obtaining copies must be submitted to the District Collector Office in Bhavnagar.",
+   "kind": "OFFICE",
+   "subject": "application_process",
+   "object": "district_collector_office",
+   "detail": {
+    "address": "Opposite Galaxy Cinema, Kalanala, Bhavnagar, Gujarat - 364001"
+   },
+   "sourceId": "src:eb941cd330fd",
+   "evidence": "Application Process\nJan Seva Kendra, Bhavnagar\nDistrict Collector Office\nOpposite Galaxy Cinema,\nKalanala, Bhavnagar\nGujarat - 364001",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The time limit for processing the application is 15 days.",
+   "kind": "TIMELINE",
+   "subject": "processing_time",
+   "object": "application",
+   "detail": {
+    "days": "15"
+   },
+   "sourceId": "src:eb941cd330fd",
+   "evidence": "નિકાલની સમય મર્યાદા કુલ ૧૫ દિવસ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A certified copy of the documents is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "document_copy",
+   "object": "application",
+   "detail": {},
+   "sourceId": "src:eb941cd330fd",
+   "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A zero copy of the deposit receipt is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "deposit_receipt",
+   "object": "application",
+   "detail": {},
+   "sourceId": "src:eb941cd330fd",
+   "evidence": "રૂા ર૦/– ડિપોઝીટ ભરેલ હોવા અંગેની પહોંચની ઝેરોક્ષ નકલ.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Proof of ownership of the property for which a copy is required is needed.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "property_ownership_proof",
+   "object": "application",
+   "detail": {},
+   "sourceId": "src:eb941cd330fd",
+   "evidence": "જેની નકલ જરૂરી હોય તે મિલ્કતની માલિકીના પુરાવા.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The office hours for the District Collector Office are from 10:30 A.M. to 06:10 P.M.",
+   "kind": "TIMELINE",
+   "subject": "office_hours",
+   "object": "district_collector_office",
+   "detail": {
+    "start_time": "10:30 A.M.",
+    "end_time": "06:10 P.M."
+   },
+   "sourceId": "src:eb941cd330fd",
+   "evidence": "10:30 A.M To 06:10 P.M",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application form for registering a City Survey title deed under the orders of the competent officer is available for download on the page.",
+   "kind": "ACTION",
+   "subject": "application_form",
+   "object": "city_survey_title_deed",
+   "detail": {
+    "file_size": "62 KB",
+    "language": "Gujarati"
+   },
+   "sourceId": "src:bf942cad7dd5",
+   "evidence": "હું કઈ રીતે સક્ષમ અધિકારીશ્રીના હુકમ અન્વયે સિટી સરવેના હકપત્રકે નોંધ દાખલ કરી શકું? સીટી સર્વે સુપ્રિટેન્ડેન્ટને,\nએપ્લીકેશન ફોર્મ\n[File Size : 62 KB] [Gujarati]",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The time limit for processing the application is between 7 to 45 days.",
+   "kind": "TIMELINE",
+   "subject": "application_processing",
+   "object": "time_limit",
+   "detail": {
+    "minimum_days": 7,
+    "maximum_days": 45
+   },
+   "sourceId": "src:bf942cad7dd5",
+   "evidence": "નિકાલની સમય મર્યાદા ૭ થી ૪૫ દિવસ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A certified copy of the documents is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application",
+   "object": "certified_document_copy",
+   "detail": {},
+   "sourceId": "src:bf942cad7dd5",
+   "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The original order of the competent officer is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application",
+   "object": "competent_officer_order",
+   "detail": {},
+   "sourceId": "src:bf942cad7dd5",
+   "evidence": "સક્ષમ અધિકારીશ્રીના હુકમ અસલમાં",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The original layout or estimated plan is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application",
+   "object": "layout_plan",
+   "detail": {},
+   "sourceId": "src:bf942cad7dd5",
+   "evidence": "લે આઉટ/અંદાજિત પ્લાન અસલમાં",
+   "confidence": 0.95
   }
  ],
- "notFound": []
+ "notFound": [
+  "certified copies: the hand written graph already answers to service:certified_copies, so the pages found for it were not merged in. Reconciling the two is a job for a person."
+ ]
 }

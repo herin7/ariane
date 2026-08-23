@@ -1,0 +1,644 @@
+{
+ "id": "ration-card",
+ "sources": [
+  {
+   "id": "src:487d4a702330",
+   "url": "https://fcsca.gujarat.gov.in/en/phh-schemenew1",
+   "title": "Skip Navigation Links Standards for Identifying Priority Families (PHH).",
+   "domain": "fcsca.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "8302062e74aa9494a58d6d2f0679458f2e8924bfad6d798372bbe780baef067c"
+  },
+  {
+   "id": "src:b38b52a25dc5",
+   "url": "https://fcsca.gujarat.gov.in/en/aay-scheme-add",
+   "title": "Criteria for determining families to be covered under Antyodaya Anna Yojana (AAY).",
+   "domain": "fcsca.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ed111979245568276f8a9990ef0ccfdb9c489eabc7b911faab440db9d51082be"
+  },
+  {
+   "id": "src:22f542b87896",
+   "url": "https://dcs-dof.gujarat.gov.in/en/State-Sponsored-Schemes",
+   "title": "State Sponsored Schemes",
+   "domain": "dcs-dof.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "1b654c9056dd6063dc84489ce376a86141248da0140a942afe3a7660f04a541b"
+  },
+  {
+   "id": "src:382646d73ae7",
+   "url": "https://collectorgirsomnath.gujarat.gov.in/duplicate-ration-card",
+   "title": "ડુપ્લીકેટ રેશન કાર્ડ મેળવવા બાબત | Supply | Jan Seva Kendra form | Collectorate - District Gir Somnath",
+   "domain": "collectorgirsomnath.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-GIR_SOMNATH",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "fdc0757ac5e5939991a29988ddecfd16fb01b26652096eea8ac448b4afcc9430"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "helpline:1800_233_5500",
+   "type": "HELPLINE",
+   "name": "Priority Households (PHH) Scheme helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "1800-233-5500"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:487d4a702330",
+     "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:1800_233_0222",
+   "type": "HELPLINE",
+   "name": "Priority Households (PHH) Scheme helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "1800-233-0222"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:487d4a702330",
+     "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:priority_households_phh_scheme",
+   "type": "SERVICE",
+   "name": "Priority Households (PHH) Scheme",
+   "officialName": "Priority Households (PHH) Scheme",
+   "aliases": [
+    "phh",
+    "priority households scheme",
+    "સ્થાનિક પરિસ્થિતિઓ મુજબ પ્રાથમિકતા પરિવારોની ઓળખ માટે માપદંડો"
+   ],
+   "description": "The page outlines the criteria for identifying 'Priority Households' in rural and urban areas for food security under the National Food Security Act (NFSA).",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:487d4a702330",
+     "evidence": "Family which has mechanically propelled 4 wheeler vehicle or mechanical fishing boat.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:487d4a702330",
+     "evidence": "Family whose any member is a government servant(except a person working as Class-IV employee on outsourcing basis with any concerned office including Government office, Board, Corporation, other government agencies, local self-government bodies).",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:487d4a702330",
+     "evidence": "If any member of the family has a monthly income of more than Rs.20,000/- or Annual Income of Family is more than Rs.2,40,000/-.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:487d4a702330",
+     "evidence": "Family whose member is paying Income Tax or Business tax",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:487d4a702330",
+     "evidence": "Family holding 5 acres or more irrigated land harvesting crops in two or more seasons.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:487d4a702330",
+     "evidence": "Family holding 7.5 acres or more land with source of irrigation.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:487d4a702330",
+     "evidence": "A family where all adult earning members are disabled, seriously ill or above 60 years of age, shall be included, even if those families are otherwise eligible to be \"excluded\" on account of any of the above (a) criteria",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:487d4a702330",
+     "evidence": "Family which has no house.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:487d4a702330",
+     "evidence": "Family which has house of wall and roof of plastic or polythene.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:487d4a702330",
+     "evidence": "Family which has wall of grass straw, bamboo, dung, row brick or wooden wall and one room or house less than that having roof of grass-straw, bamboo dung or wood.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:487d4a702330",
+     "evidence": "Family whose any member (including child) engaged in activities of begging, rag pickers, domestic servant (who have been paid remuneration) and engaged in the work of sweeper or gardener.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:487d4a702330",
+     "evidence": "Family whose all adult earning members are daily wagers or getting irregular remuneration.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:fcsca_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "fcsca.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://fcsca.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:487d4a702330",
+     "evidence": "Family which has mechanically propelled 4 wheeler vehicle or mechanical fishing boat.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:antyodaya_anna_yojana_aay_ration_card",
+   "type": "SERVICE",
+   "name": "Antyodaya Anna Yojana (AAY) ration card",
+   "officialName": "Antyodaya Anna Yojana (AAY) ration card",
+   "description": "The Antyodaya Anna Yojana (AAY) ration card is provided to eligible families, including those from Primitive Groups, widows, disabled persons, senior citizens with no livelihood, and BPL cardholders with specific conditions.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:b38b52a25dc5",
+     "evidence": "Families under all Primitive Groups",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b38b52a25dc5",
+     "evidence": "Head of family who are widows or sick persons or disabled persons or persons of 60 years of age or above who have no means of livelihood or social support",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b38b52a25dc5",
+     "evidence": "Widows or sick persons or disabled persons or persons of 60 years of age or above or single women or single men having no family or social support or any means of livelihood",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b38b52a25dc5",
+     "evidence": "Further, Antyodaya Anna Yojana Rationcard shall be issued to persons/people/groups under the categories mentioned below, but their name should be in BPL list (with 0 to 16 marks) or they should be holding BPL rationcard.\n\nLandless agricultural labourers, marginal farmers, rural artisans like potters, tanners, weavers, blacksmiths, carpenters, slum dwellers and those who earn their daily living in the informal sector like porters, rickshaw driver, handshakers, fruits and Flower sellers, madaris, paper weavers and destitute and other such categories of people living in rural and urban areas",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b38b52a25dc5",
+     "evidence": "BPL card holder HIV Patients",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b38b52a25dc5",
+     "evidence": "BPL card holder Leprosy Patients",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b38b52a25dc5",
+     "evidence": "A persons with any type of disability of 40% or more including Orthopedic, Mentally Challenged, Visually Impaired, Deaf-Mute and Cerebral Palsy are entitled to benefits as “Divyang”, this standard has to be followed while issuing Antyodaya Rationcard to differently-abled persons under Antyodaya Anna Yojana.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:sugar_distribution_scheme",
+   "type": "SERVICE",
+   "name": "Sugar Distribution Scheme",
+   "officialName": "Sugar Distribution Scheme",
+   "description": "The Sugar Distribution Scheme provides sugar and other subsidized items to AAY, BPL, and NFSA ration card holders under the Public Distribution System.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "15"
+   },
+   "sources": [
+    {
+     "sourceId": "src:22f542b87896",
+     "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg and approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:22f542b87896",
+     "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg and approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:22f542b87896",
+     "evidence": "In addition, during the two major festivals of the year—Janmashtami and Diwali—AAY and BPL ration card holders are provided with an additional 1 kg of sugar per ration card at the same subsidized rates.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:22f542b87896",
+     "evidence": "1 Liter pouch of Edible oil per Ration card is being distributed at subsidized rate on two Festivals i.e Jansmashtami and Diwali to All NFSA Ration card holders.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:22f542b87896",
+     "evidence": "1 kg Double Fortified Salt is being distributed at subsidized rate of Rs.1.00 per card to all NFSA Ration card holders.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:22f542b87896",
+     "evidence": "1 kg Tuverdal per ration card is being distributed at Rs.50/- per K.G. to all NFSA card holders at subsidized rate as per availability.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:22f542b87896",
+     "evidence": "1 kg Gram per ration card is being distributed at Rs.30/- per K.G. to all NFSA card holders at subsidized rate as per availability.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:dcs_dof_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "dcs-dof.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://dcs-dof.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:22f542b87896",
+     "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg and approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "document:certified_copy_of_proof",
+   "type": "DOCUMENT",
+   "name": "Certified copy of proof",
+   "jurisdictionId": "IN-GJ-GIR_SOMNATH",
+   "sources": [
+    {
+     "sourceId": "src:382646d73ae7",
+     "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:lost_card_details",
+   "type": "DOCUMENT",
+   "name": "Lost card details",
+   "jurisdictionId": "IN-GJ-GIR_SOMNATH",
+   "sources": [
+    {
+     "sourceId": "src:382646d73ae7",
+     "evidence": "જે વ્યાજબી ભાવની દુકાનનું કાર્ડ ધરાવતા હોય તે દુકાનના સંચાલકશ્રીનું કાર્ડ નંબર, જનસંખ્યાની વિગત દર્શાવતું પ્રમાણપત્ર અથવા ખોવાયેલ રેશનકાર્ડની ઝેરોક્ષ નકલ.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:torn_or_damaged_card",
+   "type": "DOCUMENT",
+   "name": "Torn or damaged card",
+   "jurisdictionId": "IN-GJ-GIR_SOMNATH",
+   "sources": [
+    {
+     "sourceId": "src:382646d73ae7",
+     "evidence": "ફાટી ગયેલ અથવા બગડી ગયેલ કાર્ડને બદલે ડુપ્લીકેટ રેશનકાર્ડ મેળવવાનું હોય તો ફાટેલું / બગડેલું અસલ રેશન કાર્ડ.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:duplicate_ration_card",
+   "type": "SERVICE",
+   "name": "Duplicate Ration Card",
+   "officialName": "duplicate ration card",
+   "aliases": [
+    "ડુપ્લીકેટ રેશન કાર્ડ"
+   ],
+   "description": "A duplicate ration card is issued to a citizen who has lost, torn, or damaged their original ration card.",
+   "jurisdictionId": "IN-GJ-GIR_SOMNATH",
+   "metadata": {
+    "machineExtracted": true,
+    "processingDays": "1"
+   },
+   "sources": [
+    {
+     "sourceId": "src:382646d73ae7",
+     "evidence": "હું કઈ રીતે ડુપ્લીકેટ રેશન કાર્ડ મેળવી શકું? તાલુકામાં મામલતદારશ્રીને, પરિશિષ્ટ-૧/૬૬ મુજબ અરજી કરવી.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:382646d73ae7",
+     "evidence": "એપ્લીકેશન ફોર્મ [File Size : 47 KB] [Gujarati]",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:382646d73ae7",
+     "evidence": "નિકાલની સમય મર્યાદા કુલ ૧ દિવસ.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:382646d73ae7",
+     "evidence": "Application Process Jan Seva Kendra, Gir Somnath District Collector Office Veraval, Dist : Somnath, Gujarat - 360024 10:30 A.M To 6:10 P.M",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:collectorgirsomnath_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "collectorgirsomnath.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ-GIR_SOMNATH",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://collectorgirsomnath.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:382646d73ae7",
+     "evidence": "હું કઈ રીતે ડુપ્લીકેટ રેશન કાર્ડ મેળવી શકું? તાલુકામાં મામલતદારશ્રીને, પરિશિષ્ટ-૧/૬૬ મુજબ અરજી કરવી.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "id": "e:service_priority_households_phh_scheme__call_if__helpline_1800_233_5500",
+   "from": "service:priority_households_phh_scheme",
+   "to": "helpline:1800_233_5500",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Food Ration Card Helpline is available at the toll-free number 1800-233-5500.",
+   "sources": [
+    {
+     "sourceId": "src:487d4a702330",
+     "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_priority_households_phh_scheme__call_if__helpline_1800_233_0222",
+   "from": "service:priority_households_phh_scheme",
+   "to": "helpline:1800_233_0222",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gujarat State Consumer Helpline is available at the toll-free number 1800-233-0222.",
+   "sources": [
+    {
+     "sourceId": "src:487d4a702330",
+     "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_priority_households_phh_scheme__apply_at__portal_fcsca_gujarat_gov_in",
+   "from": "service:priority_households_phh_scheme",
+   "to": "portal:fcsca_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on fcsca.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:487d4a702330",
+     "evidence": "Family which has mechanically propelled 4 wheeler vehicle or mechanical fishing boat.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_antyodaya_anna_yojana_aay_ration_card__call_if__helpline_1800_233_5500",
+   "from": "service:antyodaya_anna_yojana_aay_ration_card",
+   "to": "helpline:1800_233_5500",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Food Ration Card Helpline number is 1800-233-5500.",
+   "sources": [
+    {
+     "sourceId": "src:b38b52a25dc5",
+     "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_antyodaya_anna_yojana_aay_ration_card__call_if__helpline_1800_233_0222",
+   "from": "service:antyodaya_anna_yojana_aay_ration_card",
+   "to": "helpline:1800_233_0222",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gujarat State Consumer Helpline number is 1800-233-0222.",
+   "sources": [
+    {
+     "sourceId": "src:b38b52a25dc5",
+     "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_antyodaya_anna_yojana_aay_ration_card__apply_at__portal_fcsca_gujarat_gov_in",
+   "from": "service:antyodaya_anna_yojana_aay_ration_card",
+   "to": "portal:fcsca_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on fcsca.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:b38b52a25dc5",
+     "evidence": "Families under all Primitive Groups",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_sugar_distribution_scheme__call_if__helpline_1800_233_5500",
+   "from": "service:sugar_distribution_scheme",
+   "to": "helpline:1800_233_5500",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Food Ration Card Helpline is available at the toll-free number 1800-233-5500.",
+   "sources": [
+    {
+     "sourceId": "src:22f542b87896",
+     "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_sugar_distribution_scheme__call_if__helpline_1800_233_0222",
+   "from": "service:sugar_distribution_scheme",
+   "to": "helpline:1800_233_0222",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gujarat State Consumer Helpline is available at the toll-free number 1800-233-0222.",
+   "sources": [
+    {
+     "sourceId": "src:22f542b87896",
+     "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_sugar_distribution_scheme__apply_at__portal_dcs_dof_gujarat_gov_in",
+   "from": "service:sugar_distribution_scheme",
+   "to": "portal:dcs_dof_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on dcs-dof.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:22f542b87896",
+     "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg and approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_duplicate_ration_card__requires__document_certified_copy_of_proof",
+   "from": "service:duplicate_ration_card",
+   "to": "document:certified_copy_of_proof",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A certified copy of the proof is required for a duplicate ration card.",
+   "sources": [
+    {
+     "sourceId": "src:382646d73ae7",
+     "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_duplicate_ration_card__requires__document_lost_card_details",
+   "from": "service:duplicate_ration_card",
+   "to": "document:lost_card_details",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "If the card is lost, a zerox copy of the lost ration card or a certificate showing the card number and population details from the shop owner is required.",
+   "sources": [
+    {
+     "sourceId": "src:382646d73ae7",
+     "evidence": "જે વ્યાજબી ભાવની દુકાનનું કાર્ડ ધરાવતા હોય તે દુકાનના સંચાલકશ્રીનું કાર્ડ નંબર, જનસંખ્યાની વિગત દર્શાવતું પ્રમાણપત્ર અથવા ખોવાયેલ રેશનકાર્ડની ઝેરોક્ષ નકલ.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_duplicate_ration_card__requires__document_torn_or_damaged_card",
+   "from": "service:duplicate_ration_card",
+   "to": "document:torn_or_damaged_card",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "If the card is torn or damaged, the original torn or damaged ration card must be submitted.",
+   "sources": [
+    {
+     "sourceId": "src:382646d73ae7",
+     "evidence": "ફાટી ગયેલ અથવા બગડી ગયેલ કાર્ડને બદલે ડુપ્લીકેટ રેશનકાર્ડ મેળવવાનું હોય તો ફાટેલું / બગડેલું અસલ રેશન કાર્ડ.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_duplicate_ration_card__apply_at__portal_collectorgirsomnath_gujarat_gov_in",
+   "from": "service:duplicate_ration_card",
+   "to": "portal:collectorgirsomnath_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on collectorgirsomnath.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:382646d73ae7",
+     "evidence": "હું કઈ રીતે ડુપ્લીકેટ રેશન કાર્ડ મેળવી શકું? તાલુકામાં મામલતદારશ્રીને, પરિશિષ્ટ-૧/૬૬ મુજબ અરજી કરવી.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  }
+ ],
+ "requirementGroups": [],
+ "questions": []
+}

@@ -1,0 +1,542 @@
+{
+ "id": "pan",
+ "sources": [
+  {
+   "id": "src:a86a67611d4f",
+   "url": "https://www.incometax.gov.in/iec/foportal/help/statutory-forms/popular-form/form67-um",
+   "title": "Form 67 User Manual | Income Tax Department",
+   "domain": "incometax.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "db7245a13e373709b72c01fe6ffa846b8aa1b21dc661607a95aea452eb75ca33"
+  },
+  {
+   "id": "src:7fd29c1cf6e0",
+   "url": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/challan-correction-request-UM",
+   "title": "Challan Correction Request User Manual | Income Tax Department",
+   "domain": "incometax.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "14a94679ab84dcd21fd9a0e9f1e238cd614d86e8da02e9a0c66e85a85b4a0b7b"
+  },
+  {
+   "id": "src:3b4d79f6e027",
+   "url": "https://www.incometax.gov.in/iec/foportal/help/MyCAUserManual",
+   "title": "My CA User Manual | Income Tax Department",
+   "domain": "incometax.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "456bf72a0a2c5b2e78d7c856e16ca310e3cf8b266fc36746acc04a6ac51f33d6"
+  },
+  {
+   "id": "src:d043f7ad5e63",
+   "url": "https://www.incometax.gov.in/iec/foportal/help/refund_status_user_manual",
+   "title": "Refund Status User Manual | Income Tax Department",
+   "domain": "incometax.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "1b3de5b445d86987cbf48053fd575a1d17aebaa587f98d623e61b694edf6808c"
+  },
+  {
+   "id": "src:0dba2f26987a",
+   "url": "https://www.incometax.gov.in/iec/foportal/help/know-ao",
+   "title": "Know Your AO User Manual | Income Tax Department",
+   "domain": "incometax.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "6620a127aea52d26c360274068962bf02c871685565201099efddf5fb86705a1"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "service:form_67",
+   "type": "SERVICE",
+   "name": "Form 67",
+   "officialName": "Form 67",
+   "description": "Form 67 is used by resident taxpayers to claim credit for foreign tax paid in a country or specified territory outside India.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "As per Rule 128 of the Income Tax Rules, 1962, a resident taxpayer is eligible to claim credit for any foreign tax paid, in a country or specified territory outside India.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Form 67 can only be submitted through online mode.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "• Registered user on the e-Filing portal with valid user ID and password.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "• PAN and Aadhaar of the taxpayer are linked. (Recommended)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "• Status of PAN of Taxpayer should be \"Active\"",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "A resident taxpayer who has credit for the amount of any foreign tax paid in a country outside India by way of deduction or otherwise will be required to furnish the statement in Form 67 on or before the due date specified for furnishing the return of income under sub-section (1) of Section 139 to claim credit of such taxes.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Form 67 will also be required to be furnished in case the carry backward of loss of the current year results in refund of foreign tax for which credit has been claimed in any earlier previous years.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Form 67 has 4 sections:\nPart A\nPart B\nVerification\nAttachments",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Part A of the form entails basic information such as your Name, PAN or Aadhaar, Address and Assessment Year.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "You are also required to the add the receipt details of the income from a country or specified territory outside India and Foreign Tax Credit claimed.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "Part B of the form is where you will be required to provide details of refund of foreign tax as result of carry backward of losses and disputed foreign tax.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "The Verification section contains a self-declaration form containing fields as per Rule 128 of the Income Tax Rules, 1962.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:challan_correction_request",
+   "type": "SERVICE",
+   "name": "Challan Correction Request",
+   "officialName": "Challan Correction Request",
+   "description": "A service allowing taxpayers to request corrections to their challans for specific tax payments.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "processingDays": "30"
+   },
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Pre-requisites\n|\nRegistered PAN user on the e-Filing portal",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Challan correction request can only be submitted post-login (after logging into e-Filing portal) facility.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Challan to be corrected should not be consumed during processing",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Challan correction request should not be pending with any other authority",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "The Challans pertaining to A.Y 2020-21 onwards are available for correction currently through the e-filing portal.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Challan Correction request will be allowed only once on the e-filing portal for any submitted challan.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "The time window for the correction request by taxpayer for changing Major Head (Tax Applicable) and Minor Head (Type of payment) on the e-filing portal will be within 30 days of the Challan Deposit Date",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "The time window for the correction request by taxpayer for changing AY/Tax year on the e-filing portal will be within 7 days of the Challan Deposit Date.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Challan Correction Request can be submitted only for Minor Heads 100 (Advance Tax), 300 (Self-Assessment Tax) 400 (Demand Payment as Regular Assessment Tax)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Please submit challan correction request to Jurisdictional Assessing Officer for Minor Heads other than 100, 300 and 400",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "You are now required to e-Verify the challan correction request either through Aadhaar OTP, DSC, EVC or other options.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Note: It may take 7–20 days for the challan correction status to be updated on the portal.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:my_ca",
+   "type": "SERVICE",
+   "name": "My CA",
+   "officialName": "My CA",
+   "description": "A service that allows registered e-Filing portal users to manage their authorized Chartered Accountants and assign or withdraw tax forms.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "The My CA service is available to all registered users of the e-Filing portal who fall under the below categories:",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Registered user of the e-Filing portal with valid user ID and password",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "In Case of individual, PAN is linked with Aadhaar number (Recommended)",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "View a listing of their authorized Chartered Accountants (CA)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Assign forms to a CA",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Withdraw a Form",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Activate a CA",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Deactivate a CA",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Step 1: Log in to the e-Filing portal using user ID and password.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Enter the Membership Number of the CA. The CA name is filled automatically from the database.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "Click View Assigned Forms to display the status and details of all forms assigned to a specific CA.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:refund_status_check",
+   "type": "SERVICE",
+   "name": "Refund Status Check",
+   "officialName": "refund status check",
+   "description": "A taxpayer can check the status of their income tax refund on the e-filing portal.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Refund processing by the tax department starts only after the return is e-verified by the taxpayer.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Valid User ID and Password",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "PAN is linked with Aadhaar number",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "ITR filed claiming refund",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "The taxpayer can also check refund status on the e-filing as per the process detailed hereunder.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "1. In case the bank account is not pre-validated. It is now compulsory to pre-validate your bank account.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "2. The name mentioned in the bank account does not match with PAN card details.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "3. In case of an invalid IFSC code.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "4. If the account that you have mentioned in the ITR has been closed.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "However, if refund is not received during this duration, the taxpayer must check for intimation regarding discrepancies in ITR; check email for any notification from the IT department regarding the refund.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Step 4: Now you can check the refund status for the desired Assessment year.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:know_your_jao",
+   "type": "SERVICE",
+   "name": "Know Your JAO",
+   "officialName": "Know Your JAO",
+   "description": "Provides jurisdictional assessing officer details to taxpayers with a valid PAN.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "The ‘Know Your JAO’ service is available to taxpayers who have a valid PAN.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "This service is available to both registered or unregistered user on e-Filing portal.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "Valid mobile number",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "On the ‘ Know Your Jurisdictional Assessing Officer’ page, enter your PAN and a valid mobile number and click ‘Continue’ .",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "You will receive a 6-digit OTP on the mobile number you entered in Step 2.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "OTP will be valid for 15 minutes only.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "You have 3 attempts to enter the correct OTP.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "On clicking ‘Resend OTP’, a new OTP will be generated and sent.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "On successful OTP validation, you will see the Jurisdictional Assessing Officer Details (such as Area Code, AO Type, Range Code, AO Number, Jurisdiction, Address and email ID of the JAO), along with status of your PAN.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e:service_form_67__apply_at__portal_incometax_gov_in",
+   "from": "service:form_67",
+   "to": "portal:incometax_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on incometax.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "As per Rule 128 of the Income Tax Rules, 1962, a resident taxpayer is eligible to claim credit for any foreign tax paid, in a country or specified territory outside India.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_challan_correction_request__apply_at__portal_incometax_gov_in",
+   "from": "service:challan_correction_request",
+   "to": "portal:incometax_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on incometax.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Pre-requisites\n|\nRegistered PAN user on the e-Filing portal",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_my_ca__apply_at__portal_incometax_gov_in",
+   "from": "service:my_ca",
+   "to": "portal:incometax_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on incometax.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "The My CA service is available to all registered users of the e-Filing portal who fall under the below categories:",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_refund_status_check__apply_at__portal_incometax_gov_in",
+   "from": "service:refund_status_check",
+   "to": "portal:incometax_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on incometax.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Refund processing by the tax department starts only after the return is e-verified by the taxpayer.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_know_your_jao__apply_at__portal_incometax_gov_in",
+   "from": "service:know_your_jao",
+   "to": "portal:incometax_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on incometax.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:0dba2f26987a",
+     "evidence": "The ‘Know Your JAO’ service is available to taxpayers who have a valid PAN.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  }
+ ],
+ "requirementGroups": [],
+ "questions": []
+}

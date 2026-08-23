@@ -1,0 +1,955 @@
+{
+ "journey": "gst",
+ "researchedAt": "2026-08-23",
+ "region": "Gujarat, India",
+ "sources": [
+  {
+   "id": "src:d1b6d8fe23c3",
+   "url": "http://www.incometax.gov.in/iec/foportal/help/tin.2.0.registration",
+   "title": "Register for e-Filing (TIN 2.0 Stakeholders) User Manual | Income Tax Department",
+   "domain": "incometax.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "37f38693f4fe2e9eb34119d7f4fa299813a46ea2892d267ae26c48247caa6945",
+   "cacheFile": ".ingest/pages/d1b6d8fe23c33e21db752dc1152c5114096e0eb9.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:5b01f9f92250",
+   "url": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/challan-correction-request",
+   "title": "Challan Correction Request | Income Tax Department",
+   "domain": "incometax.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "6add074e81d7f8c171b429ee0833b3b6bdf4875fd6060e09ce63d06487be3d09",
+   "cacheFile": ".ingest/pages/5b01f9f922503ee3282c2adae283b646cbafbf47.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:29580f620b91",
+   "url": "https://www.incometax.gov.in/iec/foportal/help/taxdeductor/registration",
+   "title": "Registration | Income Tax Department",
+   "domain": "incometax.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "868757eeae6024705dfc57fddf6b4b98576e2a12fd0d48e95cb5a386ca6fb1ac",
+   "cacheFile": ".ingest/pages/29580f620b91c2aeee06837726a8bfc48c0341b1.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:894f44f70a8c",
+   "url": "https://www.incometax.gov.in/iec/foportal/help/statutory-forms/popular-form/form-10-IEA-um",
+   "title": "Form 10-IEA - User Manual & FAQs | Income Tax Department",
+   "domain": "incometax.gov.in",
+   "sourceType": "FAQ",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "e07aab538df2e5f778bd1d829f16e2cc9a1b1d127c5e3d113a6f79fd3c246a28",
+   "cacheFile": ".ingest/pages/894f44f70a8cbd9fd5d62e9102285bd0b1c60618.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:5a938caa93ad",
+   "url": "http://www.incometax.gov.in/iec/foportal/hi/help/taxdeductor/registration",
+   "title": "पंजीकरण | Income Tax Department",
+   "domain": "incometax.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "9586a03c5c7fa20f8b7fa5f8faa5a11f13812722da603ab66b8209cedbf05a20",
+   "cacheFile": ".ingest/pages/5a938caa93add48181919fa5d4e507d1eb7669f0.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:d67224eb685b",
+   "url": "https://www.incometax.gov.in/iec/foportal/help/statutory-forms/popular-forms/form-15ca-faq",
+   "title": "Form 15CA FAQs | Income Tax Department",
+   "domain": "incometax.gov.in",
+   "sourceType": "FAQ",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ec5685a5cff13a7ccedbf47b4a417597cba604fe7f8b557495617610ae90a4cc",
+   "cacheFile": ".ingest/pages/d67224eb685b2434995795937e76ca2e1224bca3.md",
+   "scrapedOk": true
+  }
+ ],
+ "facts": [
+  {
+   "claim": "TIN 2.0 stakeholders must provide their Organization PAN registered with e-Filing for registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "tin_2_0_stakeholders",
+   "object": "organization_pan",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "Organization PAN registered with e-Filing (for Authorized Banks)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Authorized banks must submit a copy of official communication/order to appoint the Technical SPOC.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "authorized_banks",
+   "object": "official_communication_spoc",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "Copy of official communication / order to appoint the Technical SPOC",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Authorized banks must submit a public certificate for registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "authorized_banks",
+   "object": "public_certificate",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "Public Certificate",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Pr. CCA-CBDT and RBI must submit a copy of official communication/order to appoint the Technical SPOC.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "pr_cca_cbdtp_rbi",
+   "object": "official_communication_spoc",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "Copy of official communication / order to appoint the Technical SPOC",
+   "confidence": 0.9
+  },
+  {
+   "claim": "TIN 2.0 stakeholders must provide basic details like Organization Type, PAN, Name, Date of Incorporation, CIN, and Source IP Details.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "tin_2_0_stakeholders",
+   "object": "basic_details",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "enter all the mandatory information ( Organization Type , PAN , Name , Date of Incorporation , CIN , and Source IP Details ).",
+   "confidence": 0.9
+  },
+  {
+   "claim": "TIN 2.0 stakeholders must provide Technical SPOC details like PAN, Last Name, Date of Birth, Gender, and Designation.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "tin_2_0_stakeholders",
+   "object": "spoc_details",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "enter the SPOC's mandatory information ( PAN , Last Name , Date of Birth , Gender , Designation ).",
+   "confidence": 0.9
+  },
+  {
+   "claim": "TIN 2.0 stakeholders must provide contact details like Primary Mobile Number and Email ID.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "tin_2_0_stakeholders",
+   "object": "contact_details",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "enter the SPOC's contact details ( Primary Mobile Number and Email ID , who it belongs to, and Postal Address details ).",
+   "confidence": 0.9
+  },
+  {
+   "claim": "TIN 2.0 stakeholders must enter a 6-digit OTP sent to their mobile and email for registration.",
+   "kind": "ACTION",
+   "subject": "tin_2_0_stakeholders",
+   "object": "otp_entry",
+   "detail": {
+    "attempts": "3",
+    "validity": "15 minutes"
+   },
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "Two separate 6-digit OTPs are sent to the primary mobile number and email ID you entered in Step 6. Enter the 6-digit Mobile OTP and Email OTP, and click Continue.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "TIN 2.0 stakeholders must upload required documents during registration.",
+   "kind": "ACTION",
+   "subject": "tin_2_0_stakeholders",
+   "object": "document_upload",
+   "detail": {
+    "max_size": "5 MB"
+   },
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "click Attachment and upload the following required documents:",
+   "confidence": 0.9
+  },
+  {
+   "claim": "TIN 2.0 stakeholders must set a password that meets specific criteria.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "tin_2_0_stakeholders",
+   "object": "password_policy",
+   "detail": {
+    "min_length": "8",
+    "max_length": "14",
+    "uppercase": true,
+    "lowercase": true,
+    "number": true,
+    "special_char": true
+   },
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "It should be at least 8 characters and at most 14 characters. It should include both uppercase and lowercase letters. It should contain a number. It should have a special character (e.g. @#$%).",
+   "confidence": 0.9
+  },
+  {
+   "claim": "TIN 2.0 stakeholders must enter a personalized message of up to 25 characters during registration.",
+   "kind": "ACTION",
+   "subject": "tin_2_0_stakeholders",
+   "object": "personalized_message",
+   "detail": {
+    "max_length": "25"
+   },
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "Enter a personalized message of your choice, which can contain a maximum of 25 characters.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "TIN 2.0 stakeholders will receive a Transaction ID upon submission of their registration request.",
+   "kind": "TRACKING",
+   "subject": "tin_2_0_stakeholders",
+   "object": "transaction_id",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "When your registration request is submitted, a success message is displayed along with the Transaction ID.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "TIN 2.0 stakeholders will receive a confirmation message on their mobile and email after registration.",
+   "kind": "TRACKING",
+   "subject": "tin_2_0_stakeholders",
+   "object": "confirmation_message",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "You will also receive a confirmation message on your mobile number and email ID provided during the registration process.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "TIN 2.0 stakeholders must wait for approval from the Registrar and competent Income Tax Authority.",
+   "kind": "DEPENDENCY",
+   "subject": "tin_2_0_stakeholders",
+   "object": "registrar_approval",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "Your registration request is then sent to the Registrar for approval. On successful approval by the Registrar, the registration request is sent to the competent Income Tax Authority for final approval.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "TIN 2.0 stakeholders must coordinate with an internal SPOC for pre-go-live registration and integration.",
+   "kind": "ACTION",
+   "subject": "tin_2_0_stakeholders",
+   "object": "internal_spoc_coordination",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "The TIN user has to connect with ITD through an internal SPOC to provide registration and integration-specific details (over email).",
+   "confidence": 0.9
+  },
+  {
+   "claim": "TIN 2.0 stakeholders will receive a client ID and client secret ID for API testing in the non-production environment.",
+   "kind": "TRACKING",
+   "subject": "tin_2_0_stakeholders",
+   "object": "client_id_secret",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "The client ID and client secret ID will be created (non-production environment) and shared over email.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "TIN 2.0 stakeholders must complete API testing with the internal SPOC and internal testing team.",
+   "kind": "ACTION",
+   "subject": "tin_2_0_stakeholders",
+   "object": "api_testing",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "The testing of service APIs will be done by the TIN user in co-ordination with the internal SPOC, and internal testing team.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "TIN 2.0 stakeholders will receive a consolidated test report after API testing.",
+   "kind": "TRACKING",
+   "subject": "tin_2_0_stakeholders",
+   "object": "test_report",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "The consolidated test report of successful testing of service APIs will be shared by the internal quality kiosk (internal testing team) with the internal SPOC through email.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "TIN 2.0 stakeholders must wait for approval from the competent Income Tax Authority to enable production environment access.",
+   "kind": "DEPENDENCY",
+   "subject": "tin_2_0_stakeholders",
+   "object": "production_approval",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "On approval by competent Income Tax Authority for testing service APIs, the e-Filing system will generate production API specifications (client ID, client secret ID), an email will be sent to you, and it will be available under your profile.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "TIN 2.0 stakeholders will receive production environment details via email after go-live.",
+   "kind": "TRACKING",
+   "subject": "tin_2_0_stakeholders",
+   "object": "production_details",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "TIN users will get an email with Prod details (production environment user ID, client ID, client secret ID will be created, with a link to set password for login).",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Challan correction in Income Tax refers to the process of rectifying errors made while depositing tax using a challan.",
+   "kind": "ACTION",
+   "subject": "challan_correction",
+   "object": "income_tax",
+   "detail": {},
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "1. What is Challan Correction?\nChallan correction in Income Tax refers to the process of rectifying errors made while depositing tax using a challan.",
+   "confidence": 1
+  },
+  {
+   "claim": "Challan correction requests can be submitted for the attributes: Taxation Year (Assessment Year / Tax Year), Major Head, and Minor Head.",
+   "kind": "ACTION",
+   "subject": "challan_correction_request",
+   "object": "attributes",
+   "detail": {},
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "2. Which attributes are available for online correction with respect to Challans (100, 300, 400)?\nChallan correction requests can be submitted on the e Filing portal for the following attributes:\n• Taxation Year (Assessment Year / Tax Year)\n• Major Head\n• Minor Head",
+   "confidence": 1
+  },
+  {
+   "claim": "Challan corrections are allowed only through a PAN login on the e Filing portal for Minor Heads 100, 300, and 400 and their corresponding Major Heads.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "challan_correction",
+   "object": "pan_login",
+   "detail": {},
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "3. What type of correction can be made online through the e Filing portal?\nChallan corrections are allowed only through a PAN login on the e Filing portal. Using a PAN login, challan correction is permitted only for the following Minor Heads:\n• 100 – Advance Tax\n• 300 – Self Assessment Tax\n• 400 – Demand from Regular Assessment Tax\nand their corresponding Major Heads.",
+   "confidence": 1
+  },
+  {
+   "claim": "The challan correction functionality is available only after logging in to the e Filing portal under the path: Login → Services → Challan Correction.",
+   "kind": "CHANNEL",
+   "subject": "challan_correction_functionality",
+   "object": "e_filing_portal",
+   "detail": {
+    "path": "Login → Services → Challan Correction"
+   },
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "4. Where can I access Challan Correction Request functionality?\nThe challan correction functionality is available only after logging in to the e Filing portal.\nPath: Login → Services → Challan Correction",
+   "confidence": 1
+  },
+  {
+   "claim": "For challans other than Minor Heads 100, 300, and 400, the user must approach their Jurisdictional Assessing Officer (JAO) for correction.",
+   "kind": "ACTION",
+   "subject": "challan_correction",
+   "object": "jurisdictional_assessing_officer",
+   "detail": {},
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "5. Where can a user raise a request for correction of challans that are not available online (i.e., challans other than Minor Heads 100/300/400)?\nFor challans other than Minor Heads 100, 300, and 400, the user must approach their Jurisdictional Assessing Officer (JAO) for correction.",
+   "confidence": 1
+  },
+  {
+   "claim": "For changes in Assessment Year / Tax Year, the correction request must be filed within 7 days of the challan deposit date.",
+   "kind": "TIMELINE",
+   "subject": "challan_correction_request",
+   "object": "assessment_year_change",
+   "detail": {
+    "days": "7"
+   },
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "6. What is the time limit for filing a correction request?\n• For changes in Assessment Year / Tax Year: within 7 days of the challan deposit date.",
+   "confidence": 1
+  },
+  {
+   "claim": "The e Filing portal supports challan correction only for Assessment Year 2020–21 and onwards.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "challan_correction",
+   "object": "assessment_year",
+   "detail": {
+    "assessment_year": "2020-21"
+   },
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "7. Please specify the year from which the challan correction functionality has been enabled on the e Filing portal.\nThe e Filing portal supports challan correction only for Assessment Year 2020–21 and onwards.",
+   "confidence": 1
+  },
+  {
+   "claim": "Corrected challan details can be downloaded using the path: Post Login → Services → Challan Correction → Download Corrected Details.",
+   "kind": "ACTION",
+   "subject": "corrected_challan_details",
+   "object": "download",
+   "detail": {
+    "path": "Post Login → Services → Challan Correction → Download Corrected Details"
+   },
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "8. Where can I download the corrected challan once the correction has been processed?\nYou can download the corrected challan details using the following path:\nPath: Post Login → Services → Challan Correction → Download Corrected Details",
+   "confidence": 1
+  },
+  {
+   "claim": "Only challan corrections submitted through the e Filing portal are reflected and trackable online.",
+   "kind": "ACTION",
+   "subject": "challan_correction",
+   "object": "e_filing_portal",
+   "detail": {},
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "9. If a user has made a correction offline with the JAO, will the corrected challan be updated on the e Filing portal?\nNo. Only challan corrections submitted through the e Filing portal are reflected and trackable online.",
+   "confidence": 1
+  },
+  {
+   "claim": "Challan correction is allowed only for unconsumed challans. Once a challan is consumed, it becomes final and cannot be corrected.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "challan_correction",
+   "object": "unconsumed_challan",
+   "detail": {},
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "10. Can a challan correction request be initiated on the e Filing portal after the challan has been consumed?\nNo. Challan correction is allowed only for unconsumed challans. Once a challan is consumed, it becomes final and cannot be corrected.",
+   "confidence": 1
+  },
+  {
+   "claim": "The corrected challan does not appear in the Payment History tab. Corrected details can be viewed by following the path: Post Login → Services → Challan Correction → Download Corrected Details.",
+   "kind": "ACTION",
+   "subject": "corrected_challan",
+   "object": "payment_history",
+   "detail": {
+    "path": "Post Login → Services → Challan Correction → Download Corrected Details"
+   },
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "11. Will the corrected challan be updated in the payment history of the original challan?\nNo. The corrected challan does not appear in the Payment History tab.\nCorrected details can be viewed by following this path:\nPath: Post Login → Services → Challan Correction → Download Corrected Details",
+   "confidence": 1
+  },
+  {
+   "claim": "Once submitted, a challan correction request cannot be modified.",
+   "kind": "ACTION",
+   "subject": "challan_correction_request",
+   "object": "modification",
+   "detail": {},
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "12. Can I modify a challan correction request after submission?\nNo. Once submitted, a challan correction request cannot be modified.",
+   "confidence": 1
+  },
+  {
+   "claim": "If the request has not been processed and gets rejected, the user may submit a fresh request.",
+   "kind": "ACTION",
+   "subject": "challan_correction_request",
+   "object": "rejection",
+   "detail": {},
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "12. Can I modify a challan correction request after submission?\nNo. Once submitted, a challan correction request cannot be modified.\nIf the request has not been processed and gets rejected, the user may submit a fresh request.",
+   "confidence": 1
+  },
+  {
+   "claim": "If the request is rejected, the user may submit a new correction request, provided the challan is still unconsumed and the correction request is within the prescribed time limit.",
+   "kind": "ACTION",
+   "subject": "challan_correction_request",
+   "object": "rejection",
+   "detail": {},
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "13. What happens if my challan correction request gets rejected?\nIf the request is rejected, the user may submit a new correction request, provided:\n• The challan is still unconsumed, and\n• The correction request is within the prescribed time limit.",
+   "confidence": 1
+  },
+  {
+   "claim": "A challan correction request cannot be withdrawn or cancelled once submitted.",
+   "kind": "ACTION",
+   "subject": "challan_correction_request",
+   "object": "withdrawal",
+   "detail": {},
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "14. Can I withdraw or cancel a challan correction request?\nNo. A challan correction request cannot be withdrawn or cancelled once submitted.",
+   "confidence": 1
+  },
+  {
+   "claim": "Users can check the status under Services → Challan Correction. If the status remains pending beyond reasonable timelines, users may raise a grievance on the e Filing portal or contact their Jurisdictional Assessing Officer.",
+   "kind": "ACTION",
+   "subject": "challan_correction_status",
+   "object": "grievance",
+   "detail": {
+    "path": "Services → Challan Correction"
+   },
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "15. What should I do if my correction request status shows “Pending” for a long time?\nUsers can check the status under Services → Challan Correction.\nIf the status remains pending beyond reasonable timelines, users may:\n• Raise a grievance on the e Filing portal, or\n• Contact their Jurisdictional Assessing Officer.",
+   "confidence": 1
+  },
+  {
+   "claim": "A challan can be corrected multiple times as long as it remains unconsumed and the requests are made within the allowed time window.",
+   "kind": "ACTION",
+   "subject": "challan_correction",
+   "object": "multiple_times",
+   "detail": {},
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "16. Can a challan be corrected multiple times?\nYes. A challan can be corrected multiple times as long as it remains unconsumed and the requests are made within the allowed time window.",
+   "confidence": 1
+  },
+  {
+   "claim": "Name, PAN, and TAN cannot be corrected through the e Filing portal. For such corrections, users must approach their Jurisdictional Assessing Officer.",
+   "kind": "ACTION",
+   "subject": "challan_correction",
+   "object": "jurisdictional_assessing_officer",
+   "detail": {},
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "17. Can the Name, PAN, or TAN be corrected in a challan online?\nNo. Name, PAN, and TAN cannot be corrected through the e Filing portal.\nFor such corrections, users must approach their Jurisdictional Assessing Officer.",
+   "confidence": 1
+  },
+  {
+   "claim": "The challan correction functionality on the e Filing portal is available only for tax payments under Minor Heads 100, 300, and 400. TDS/TCS challans must be corrected through the TRACES portal or by contacting the Assessing Officer.",
+   "kind": "ACTION",
+   "subject": "challan_correction",
+   "object": "tds_tcs_challans",
+   "detail": {
+    "minor_heads": "100, 300, 400"
+   },
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "18. Is challan correction allowed for TDS/TCS challans?\nNo. The challan correction functionality on the e Filing portal is available only for tax payments under Minor Heads 100, 300, and 400.\nTDS/TCS challans must be corrected through the TRACES portal or by contacting the Assessing Officer.",
+   "confidence": 1
+  },
+  {
+   "claim": "Users receive email and SMS notifications on their registered email ID and mobile number once the challan correction request is processed.",
+   "kind": "ACTION",
+   "subject": "challan_correction",
+   "object": "notification",
+   "detail": {
+    "type": "email and SMS"
+   },
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "19. Will I receive any confirmation once the challan correction is processed?\nYes. Users receive email and SMS notifications on their registered email ID and mobile number once the challan correction request is processed.",
+   "confidence": 1
+  },
+  {
+   "claim": "Tax Deductors and Collectors must register on the e-Filing Portal.",
+   "kind": "ACTION",
+   "subject": "tax_deductor_collector",
+   "object": "register_e_filing_portal",
+   "detail": {},
+   "sourceId": "src:29580f620b91",
+   "evidence": "Register on the e-Filing Portal: For Tax Deductor and Collector",
+   "confidence": 1
+  },
+  {
+   "claim": "To register, the user must enter the organization's TAN and validate it.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "tax_deductor_collector",
+   "object": "tan",
+   "detail": {},
+   "sourceId": "src:29580f620b91",
+   "evidence": "Step 3: Enter the TAN of the Organization and click Validate.",
+   "confidence": 1
+  },
+  {
+   "claim": "If the TAN is available in the database and registered with TRACES, the user can proceed to the Basic Details page.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "tax_deductor_collector",
+   "object": "tan_traces_registration",
+   "detail": {},
+   "sourceId": "src:29580f620b91",
+   "evidence": "Step 4a: If TAN is available in the database, registered with TRACES and the registration request is not raised already and pending for approval: Click Continue to view the Basic Details page.",
+   "confidence": 1
+  },
+  {
+   "claim": "If the TAN is not registered with TRACES, the user must first register on TRACES before proceeding to the e-Filing portal.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "tax_deductor_collector",
+   "object": "traces_registration",
+   "detail": {},
+   "sourceId": "src:29580f620b91",
+   "evidence": "Step 4b: If TAN is available in the database, but not registered with TRACES and registration request is not raised already and pending for approval: Click Continue to view the TRACES page. Click Register with e-Filing on TRACES to view the Basic Details page.",
+   "confidence": 1
+  },
+  {
+   "claim": "If the TAN is already registered with a pending approval, the user can choose to withdraw the registration process.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "tax_deductor_collector",
+   "object": "pending_registration",
+   "detail": {},
+   "sourceId": "src:29580f620b91",
+   "evidence": "Step 4c: If TAN is available in the database, registration request is raised already and pending for approval: An error message is displayed and you can choose to withdraw the registration process.",
+   "confidence": 1
+  },
+  {
+   "claim": "The user must provide contact details including a primary mobile number, email ID, and postal address.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "tax_deductor_collector",
+   "object": "contact_details",
+   "detail": {},
+   "sourceId": "src:29580f620b91",
+   "evidence": "Step 6: Provide the contact details including Primary Mobile Number, email ID and Postal Address . Click Continue.",
+   "confidence": 1
+  },
+  {
+   "claim": "The user must enter two separate OTPs sent to the mobile number and email ID.",
+   "kind": "ACTION",
+   "subject": "tax_deductor_collector",
+   "object": "enter_otps",
+   "detail": {},
+   "sourceId": "src:29580f620b91",
+   "evidence": "Step 7: Two separate OTPs are sent to your primary mobile number and email ID as entered in Step 6. Enter the separate 6-digit OTPs and click Continue.",
+   "confidence": 1
+  },
+  {
+   "claim": "The OTP is valid for 15 minutes and the user has 3 attempts to enter it correctly.",
+   "kind": "TIMELINE",
+   "subject": "otp",
+   "object": "validity_attempts",
+   "detail": {
+    "validity": "15 minutes",
+    "attempts": "3"
+   },
+   "sourceId": "src:29580f620b91",
+   "evidence": "Note: OTP will be valid for 15 minutes only You have 3 attempts to enter the correct OTP",
+   "confidence": 1
+  },
+  {
+   "claim": "The user must verify and confirm the details before proceeding.",
+   "kind": "ACTION",
+   "subject": "tax_deductor_collector",
+   "object": "verify_details",
+   "detail": {},
+   "sourceId": "src:29580f620b91",
+   "evidence": "Step 8: On the Verify Details page, review the details provided, edit the details if necessary, then click Confirm.",
+   "confidence": 1
+  },
+  {
+   "claim": "The user must set a password that meets specific criteria.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "tax_deductor_collector",
+   "object": "set_password",
+   "detail": {
+    "length": "8 to 14 characters",
+    "uppercase": true,
+    "lowercase": true,
+    "number": true,
+    "special_character": true
+   },
+   "sourceId": "src:29580f620b91",
+   "evidence": "Note: Do not click Refresh or Back. While entering your new password, be careful of the password policy: It should be at least 8 characters and at most 14 characters It should include both uppercase & lowercase letters It should contain a number It should have a special character (e.g. @#$%)",
+   "confidence": 1
+  },
+  {
+   "claim": "After registration, a success message is displayed along with a transaction ID that should be noted for future reference.",
+   "kind": "ACTION",
+   "subject": "tax_deductor_collector",
+   "object": "note_transaction_id",
+   "detail": {},
+   "sourceId": "src:29580f620b91",
+   "evidence": "A success message is displayed along with the transaction ID. Please keep a note of the Transaction ID for future reference.",
+   "confidence": 1
+  },
+  {
+   "claim": "The registration process is complete upon receiving approval from the competent authority.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "registration_process",
+   "object": "competent_authority_approval",
+   "detail": {},
+   "sourceId": "src:29580f620b91",
+   "evidence": "The registration process is complete upon receiving approval from the competent authority.",
+   "confidence": 1
+  },
+  {
+   "claim": "The user can access the Tax Deductor and Collector portal via the provided link.",
+   "kind": "CHANNEL",
+   "subject": "tax_deductor_collector",
+   "object": "portal_link",
+   "detail": {
+    "url": "https://www.tdscpc.gov.in/app/login.xhtml"
+   },
+   "sourceId": "src:29580f620b91",
+   "evidence": "Link for Tax Deductor and Collector https://www.tdscpc.gov.in/app/login.xhtml",
+   "confidence": 1
+  },
+  {
+   "claim": "Form 10-IEA is required to be filed by individuals, HUF, AOP (other than co-operative societies), BOI & Artificial Judicial Persons (AJP) having income from business and profession to indicate preference for the old tax regime.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "form_10_iea",
+   "object": "taxpayer_with_business_income",
+   "detail": {},
+   "sourceId": "src:894f44f70a8c",
+   "evidence": "However, for Individuals, HUF, AOP (other than co-operative societies), BOI & Artificial Judicial Persons (AJP) having income from business and profession, Form 10 IEA is required to be filed to indicate the preference for the old tax regime.",
+   "confidence": 1
+  },
+  {
+   "claim": "Form 10-IEA must be submitted within the specified time frame under section 139(1) if a taxpayer wants to switch their tax regime from new to old or re-enter the new scheme.",
+   "kind": "TIMELINE",
+   "subject": "form_10_iea",
+   "object": "taxpayer_with_business_income",
+   "detail": {},
+   "sourceId": "src:894f44f70a8c",
+   "evidence": "Such persons should mandatorily submit Form 10-IEA within the specified time frame under section 139(1) if they want to switch their tax regime from new to old or if they want to re-enter in the new scheme.",
+   "confidence": 1
+  },
+  {
+   "claim": "Form 10-IEA can be filed twice in a taxpayer's lifetime: once to opt out of the new tax regime and once to re-enter the new tax regime.",
+   "kind": "ACTION",
+   "subject": "form_10_iea",
+   "object": "taxpayer_with_business_income",
+   "detail": {},
+   "sourceId": "src:894f44f70a8c",
+   "evidence": "This form can be filed twice in lifetime i.e. one for opt out of new tax regime and one for re-entering in to the new tax regime.",
+   "confidence": 1
+  },
+  {
+   "claim": "Taxpayers with business income can use Form 10-IEA to opt out or re-enter the new tax regime.",
+   "kind": "ELIGIBILITY",
+   "subject": "form_10_iea",
+   "object": "taxpayer_with_business_income",
+   "detail": {},
+   "sourceId": "src:894f44f70a8c",
+   "evidence": "Taxpayer having Business Income can use Form 10 IEA to “Opt out or Re-enter” in the New Tax Regime.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Basic Information section of Form 10-IEA will be prefilled with the taxpayer's name, PAN, AY, and status of person.",
+   "kind": "ACTION",
+   "subject": "form_10_iea",
+   "object": "taxpayer_with_business_income",
+   "detail": {},
+   "sourceId": "src:894f44f70a8c",
+   "evidence": "Part 1 is the Basic Information (Name of Asseseee, PAN, AY and status of person) which will be. prefilled in the form.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Additional Information section of Form 10-IEA is related to IFSC unit details and will be greyed off if the taxpayer is opting out of the new tax regime.",
+   "kind": "ACTION",
+   "subject": "form_10_iea",
+   "object": "taxpayer_with_business_income",
+   "detail": {},
+   "sourceId": "src:894f44f70a8c",
+   "evidence": "Part 2 is Related to Additional information where Assessee has to give Additional information related to IFSC unit (if any). Please Note: If you are opting out of new Tax regime this Additional Information panel will be greyed off",
+   "confidence": 1
+  },
+  {
+   "claim": "The Declaration and Verification section of Form 10-IEA must be completed by the taxpayer to opt out or re-enter the new tax regime.",
+   "kind": "ACTION",
+   "subject": "form_10_iea",
+   "object": "taxpayer_with_business_income",
+   "detail": {},
+   "sourceId": "src:894f44f70a8c",
+   "evidence": "Part 3 is Declaration and verification by the taxpayer for Opting out or Re-entering in to the new Tax Regime.",
+   "confidence": 1
+  },
+  {
+   "claim": "To file Form 10-IEA, taxpayers must have a valid User ID and Password and include business income in their total income.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "form_10_iea",
+   "object": "taxpayer_with_business_income",
+   "detail": {},
+   "sourceId": "src:894f44f70a8c",
+   "evidence": "Valid User ID and Password. Total Income of the Taxpayer includes Business Income.",
+   "confidence": 1
+  },
+  {
+   "claim": "Form 10-IEA can be accessed and submitted through the e-Filing portal by logging in and navigating to the Income Tax Forms section.",
+   "kind": "CHANNEL",
+   "subject": "form_10_iea",
+   "object": "e_filing_portal",
+   "detail": {},
+   "sourceId": "src:894f44f70a8c",
+   "evidence": "Step 1: Go to the e-Filing portal and click login. Step 2 : On Login Page enter your user ID and password. Step 3 : On your Dashboard , Go to e- File menu > Income Tax Forms > File Income Tax Forms. Step 4: On the page - File Income Tax Forms -‘Persons with Business/Professional Income -select the option- Form-10IEA . Alternatively, enter Form 10IEA in the search box to file the form.",
+   "confidence": 1
+  },
+  {
+   "claim": "After submitting Form 10-IEA, taxpayers can view the form and download the receipt through the e-File menu.",
+   "kind": "TRACKING",
+   "subject": "form_10_iea",
+   "object": "taxpayer_with_business_income",
+   "detail": {},
+   "sourceId": "src:894f44f70a8c",
+   "evidence": "Now, if taxpayer wants to View filed form Go to the e-file menu > View filed forms > Form 10 IEA You can download the Form and receipt. Click on View details to see the life cycle of form",
+   "confidence": 1
+  },
+  {
+   "claim": "It is mandatory to submit Form 10-IEA for opting out or re-entering the new tax regime by individuals, HUF, AOP (other than co-operative societies), BOI & AJP who have income from business or profession.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "form_10_iea",
+   "object": "taxpayer_with_business_income",
+   "detail": {},
+   "sourceId": "src:894f44f70a8c",
+   "evidence": "It is mandatory to submit Form 10-IEA for Opt out or Re-entering in to New Tax regime by Individuals, HUF, AOP (other than co-operative societies),BOI & AJP who have income from business or profession.",
+   "confidence": 1
+  },
+  {
+   "claim": "Individuals and HUF without any business or professional income can opt out of the new tax regime or re-enter the new tax regime directly when filing their income tax returns.",
+   "kind": "ACTION",
+   "subject": "taxpayer_without_business_income",
+   "object": "new_tax_regime",
+   "detail": {},
+   "sourceId": "src:894f44f70a8c",
+   "evidence": "Individuals, HUF without any business or professional income can opt out of the New Tax regime or Re-enter in to the New Tax Regime directly when they file their Income tax returns.",
+   "confidence": 1
+  },
+  {
+   "claim": "A taxpayer must provide the basic details of the person who will be making the payment or collecting the tax.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "taxpayer",
+   "object": "payment_or_collection_details",
+   "detail": {},
+   "sourceId": "src:5a938caa93ad",
+   "evidence": "चरण 5: भुगतान करने या कर संग्रह करने वाले व्यक्ति का ब्यौरा दर्ज करें और जारी रखें पर क्लिक करें।",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A taxpayer must provide contact details including a primary mobile number, email ID, and postal address.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "taxpayer",
+   "object": "contact_details",
+   "detail": {},
+   "sourceId": "src:5a938caa93ad",
+   "evidence": "चरण 6: प्राथमिक मोबाइल नंबर, ईमेल ID और डाक पता सहित संपर्क ब्यौरा प्रदान करें। जारी रखें पर क्लिक करें।",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A taxpayer must enter a 6-digit OTP received on the primary mobile number and email ID.",
+   "kind": "ACTION",
+   "subject": "taxpayer",
+   "object": "otp_entry",
+   "detail": {},
+   "sourceId": "src:5a938caa93ad",
+   "evidence": "चरण 7: चरण 6 में दर्ज किए गए प्राथमिक मोबाइल नंबर और ईमेल ID पर दो अलग OTP भेजे जाते हैं। अलग से 6-अंकों का OTPs दर्ज करें और जारी रखें पर क्लिक करें।",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The OTP is valid for 15 minutes and the taxpayer has three attempts to enter the correct OTP.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "otp",
+   "object": "validity_and_attempts",
+   "detail": {
+    "validity": "15 minutes",
+    "attempts": "3"
+   },
+   "sourceId": "src:5a938caa93ad",
+   "evidence": "OTP केवल 15 मिनट के लिए ही मान्य होगा आपके पास सही OTP दर्ज करने के 3 प्रयास हैं",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A taxpayer must review and confirm the details provided before proceeding.",
+   "kind": "ACTION",
+   "subject": "taxpayer",
+   "object": "review_and_confirmation",
+   "detail": {},
+   "sourceId": "src:5a938caa93ad",
+   "evidence": "चरण 8: सत्यापित ब्यौरा पेज पर, प्रदान किए गए ब्यौरे की समीक्षा करें, यदि आवश्यक हो तो ब्यौरा संपादित करें, फिर पुष्टि करें पर क्लिक करें।",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A taxpayer must set a password that meets specific criteria.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "taxpayer",
+   "object": "password_criteria",
+   "detail": {
+    "min_length": 8,
+    "max_length": 14,
+    "uppercase": true,
+    "lowercase": true,
+    "number": true,
+    "special_char": true
+   },
+   "sourceId": "src:5a938caa93ad",
+   "evidence": "अपना नया पासवर्ड दर्ज करते समय, पासवर्ड नीति का ध्यान रखें: यह कम से कम 8 अक्षरों और अधिक 14 वर्णों का होना चाहिए इसमें अपरकेस और लोअरकेस दोनों अक्षर सम्मिलित होने चाहिए इसमें एक संख्या होनी चाहिए इसमें एक विशेष वर्ण होना चाहिए (उदा. @#$%)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The registration process is completed after approval from the competent authority.",
+   "kind": "ACTION",
+   "subject": "registration_process",
+   "object": "completion",
+   "detail": {},
+   "sourceId": "src:5a938caa93ad",
+   "evidence": "संव्यवहार ID के साथ एक सफल संदेश प्रदर्शित किया गया है। कृपया भविष्य में संदर्भ के लिए लेन-देन आई.डी. का ध्यान रखें। सक्षम प्राधिकारी से अनुमोदन प्राप्त होने पर पंजीकरण प्रक्रिया सम्पूर्ण हो जाती है।",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The taxpayer must not click on refresh or back during the registration process.",
+   "kind": "BLOCKER",
+   "subject": "taxpayer",
+   "object": "refresh_or_back",
+   "detail": {},
+   "sourceId": "src:5a938caa93ad",
+   "evidence": "ध्यान दें: रिफ्रेश या बैक पर क्लिक न करें।",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The taxpayer must register on the TRACES portal before proceeding with e-filing registration.",
+   "kind": "DEPENDENCY",
+   "subject": "taxpayer",
+   "object": "traces_registration",
+   "detail": {
+    "url": "https://www.tdscpc.gov.in/app/login.xhtml"
+   },
+   "sourceId": "src:5a938caa93ad",
+   "evidence": "ध्यान दें: सबसे पहले आपको TRACES पर पंजीकृत करना होगा। ई-फाइलिंग के साथ पंजीकरण करें वहां से क्लिक करते ही आपको ई-फाइलिंग पंजीकरण पेज पर ले जाया जाएगा।",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Form 15CA must be submitted before making a payment to a Non-Resident or a Foreign Company.",
+   "kind": "ACTION",
+   "subject": "form_15ca_submission",
+   "object": "payment_to_non_resident_foreign_company",
+   "detail": {},
+   "sourceId": "src:d67224eb685b",
+   "evidence": "A person responsible for making such remittance (payment) has to submit the form 15CA, before remitting the payment.",
+   "confidence": 1
+  },
+  {
+   "claim": "Form 15CA can be submitted in both online and offline modes.",
+   "kind": "CHANNEL",
+   "subject": "form_15ca_submission",
+   "object": "online_offline_modes",
+   "detail": {},
+   "sourceId": "src:d67224eb685b",
+   "evidence": "This form can be submitted both online and offline mode.",
+   "confidence": 1
+  },
+  {
+   "claim": "Form 15CA can be withdrawn within 7 days from the submission date.",
+   "kind": "ACTION",
+   "subject": "form_15ca_withdrawal",
+   "object": "seven_days_submission_date",
+   "detail": {},
+   "sourceId": "src:d67224eb685b",
+   "evidence": "Yes Form 15CA can be withdrawn within 7 days from submission date.",
+   "confidence": 1
+  },
+  {
+   "claim": "Form 15CA is not required to be furnished for certain transactions, such as remittances made by an individual that do not require prior approval of RBI.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "form_15ca_furnishing",
+   "object": "certain_transactions",
+   "detail": {},
+   "sourceId": "src:d67224eb685b",
+   "evidence": "In accordance with sub-rule (3) of Rule 37BB, information in Form 15CA is not required to be furnished in case of following transactions: Remittance is made by an individual and does not require prior approval of RBI",
+   "confidence": 1
+  },
+  {
+   "claim": "Form 15CA can be e-Verified using DSC or EVC.",
+   "kind": "ACTION",
+   "subject": "form_15ca_e_verification",
+   "object": "dsc_evc",
+   "detail": {},
+   "sourceId": "src:d67224eb685b",
+   "evidence": "This form can be e-Verified using DSC or EVC.",
+   "confidence": 1
+  },
+  {
+   "claim": "Form 15CA should be filed before the remittance is made.",
+   "kind": "TIMELINE",
+   "subject": "form_15ca_filing",
+   "object": "remittance_made",
+   "detail": {},
+   "sourceId": "src:d67224eb685b",
+   "evidence": "However, it should be filed before the remittance is made.",
+   "confidence": 1
+  },
+  {
+   "claim": "Form 15CA is required to be filed by any person responsible for paying to a Non-Resident, not being a Company, or to a Foreign Company.",
+   "kind": "ELIGIBILITY",
+   "subject": "form_15ca_filing",
+   "object": "person_responsible_payment",
+   "detail": {},
+   "sourceId": "src:d67224eb685b",
+   "evidence": "As per Rule 37BB, any person responsible for paying to a Non-Resident, not being a Company, or to a Foreign Company shall furnish such information in Form 15CA.",
+   "confidence": 1
+  },
+  {
+   "claim": "Form 15CB is not mandatory to submit, but is required when the remittance or aggregate of remittance exceeds Rs 5 Lakhs during a financial year.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "form_15cb_submission",
+   "object": "remittance_exceeds_five_lakhs",
+   "detail": {},
+   "sourceId": "src:d67224eb685b",
+   "evidence": "No, it is not mandatory to submit Form 15CB. Form 15CB is an event-based form to be filled only when the remittance or aggregate of remittance amount exceeds Rs 5 Lakhs during a financial year and you are required to furnish a certificate from an accountant defined as per Section 288.",
+   "confidence": 1
+  }
+ ],
+ "notFound": []
+}

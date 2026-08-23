@@ -22,6 +22,16 @@
    "contentHash": "82f029fa604bb0e71065655a8eb01366714cc04bcad74492b1672f11d7386235"
   },
   {
+   "id": "src:9837b687d4bb",
+   "url": "https://mcjamnagar.com/Services/SelfAssessment.aspx?SID=SER",
+   "title": "Self Assessment",
+   "domain": "mcjamnagar.com",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-JAMNAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "7bb06c69f37c5ea54216b909bca40bec89fea988ae52961a77bef91013477d90"
+  },
+  {
    "id": "src:2bd753e1b32d",
    "url": "https://ahmedabad.gujarat.gov.in/land-neem",
    "title": "ગામ તળ માટે જમીન નીમ કરવા બાબત | Revenue | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
@@ -80,6 +90,36 @@
    "jurisdictionId": "IN-GJ-AHMEDABAD",
    "retrievedAt": "2026-08-23",
    "contentHash": "8f0e47687087cec73876b84e0c3ddaa2aad0763cf3e5654ef96077b1dfa93a3c"
+  },
+  {
+   "id": "src:b711a8fe0826",
+   "url": "https://anand.gujarat.gov.in/showpage.aspx?contentid=253",
+   "title": "નકલ માટેની અરજીઓ નિકાલ કરવા બાબત | Revenue | Jan Seva Kendra form | Collectorate - District Anand",
+   "domain": "anand.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-ANAND",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "6e675279d29b10fda1bbe1bddd6e73aa4a4335325845fa00eafd385f0ab04c6b"
+  },
+  {
+   "id": "src:eb941cd330fd",
+   "url": "https://bhavnagar.gujarat.gov.in/showpage.aspx?contentid=253",
+   "title": "નકલ માટેની અરજીઓ નિકાલ કરવા બાબત | Revenue | Jan Seva Kendra Form | Collectorate - District Bhavnagar",
+   "domain": "bhavnagar.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-BHAVNAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "561913d9b871921f5a5a6d92983d670fd8a6fadc5af7fb6cfe99181d07ce18f5"
+  },
+  {
+   "id": "src:bf942cad7dd5",
+   "url": "https://devbhumidwarka.gujarat.gov.in/showpage.aspx?contentid=546",
+   "title": "સક્ષમ અધિકારીશ્રીના હુકમ અન્વયે સિટી સરવેના હકપત્રકે નોંધ દાખલ કરવાની અરજીનો નમુનો | City Survey | Jan Seva Kendra form | Collectorate - District Devbhumi Dwarka",
+   "domain": "devbhumidwarka.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "99331f28704c54b42221d326c19f9f5440fe5e076c7ec51f3dc7f9622d8b2bcd"
   }
  ],
  "nodes": [
@@ -277,19 +317,153 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "document:certified_copy",
-   "type": "DOCUMENT",
-   "name": "Certified copy",
-   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "id": "helpline:0288_2550231_235",
+   "type": "HELPLINE",
+   "name": "Property Tax Calculation Helpline",
+   "jurisdictionId": "IN-GJ-JAMNAGAR",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "(0288) - 2550231 - 235"
+    ]
+   },
    "sources": [
     {
-     "sourceId": "src:2bd753e1b32d",
-     "evidence": "ગ્રામ પંચાયતના ઠરાવની નકલ",
-     "confidence": 0.9,
+     "sourceId": "src:9837b687d4bb",
+     "evidence": "Phone:\n(0288) - 2550231 - 235",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:1800_233_0131",
+   "type": "HELPLINE",
+   "name": "Property Tax Calculation Helpline",
+   "jurisdictionId": "IN-GJ-JAMNAGAR",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "1800 233 0131"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:9837b687d4bb",
+     "evidence": "Toll Free: 1800 233 0131",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "grievance:property_tax_calculation",
+   "type": "GRIEVANCE_CHANNEL",
+   "name": "Grievances about property tax calculation",
+   "jurisdictionId": "IN-GJ-JAMNAGAR",
+   "metadata": {
+    "channelType": "GRIEVANCE_PORTAL"
+   },
+   "sources": [
+    {
+     "sourceId": "src:9837b687d4bb",
+     "evidence": "For Feedback and Email : feedback.jmc@gmail.com",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:property_tax_calculation",
+   "type": "SERVICE",
+   "name": "Property Tax Calculation",
+   "officialName": "property tax calculation",
+   "description": "The Jamnagar Municipal Corporation provides a self-assessment tool for property tax calculation.",
+   "jurisdictionId": "IN-GJ-JAMNAGAR",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:9837b687d4bb",
+     "evidence": "ઓક્યુંપેન્સી ફેક્ટરની કેટેગરી\n--SELECT--\nમાલિક - OWNER\nભાડુઆત - TENANT",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9837b687d4bb",
+     "evidence": "ખુલ્લા પ્લોટવાળી મિલ્કત છે?\nNo\nYes",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9837b687d4bb",
+     "evidence": "સરકારી મિલકત છે?\n--SELECT--\nઅન્ય મિલકત - OTHER PROPERTY\nકેન્દ્ર સરકારની માલિકી - CENTRAL GOVERNMENT\nરાજ્ય સરકારની માલિકી - STATE GOVERNMENT\nઅર્ધસરકારી સંસ્થાની માલિકી - SEMI GOVERNMENT\nબોર્ડ / નિગમની માલિકી - BOARD / NIGAM\nસત્તામંડળની માલિકી - SATTA MANDAL\nઅન્ય સરકારી માલિકી - OTHER GOVERNMENT",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9837b687d4bb",
+     "evidence": "મિલકતના લોકેશન ફેક્ટરની કેટેગરી\n--SELECT--\nL1 - સમૃદ્ધ વિસ્તાર - PROSPEROUS AREA\nL2 - સારો વિસ્તાર - GOOD AREA\nL3 - ઉચ્ચો મધ્યમ વિસ્તાર - HIGH MEDIUM AREA\nL4 - મધ્યમ વિસ્તાર - MEDIUM AREA\nL5 - નબળો વિસ્તાર - WEAK / INFERIOUR AREA\nL6 - હાલ નક્કી નથી - NOT DECIDED",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9837b687d4bb",
+     "evidence": "ફ્લોર\n--SELECT--\nભોયરું - CELLAR\nભોયતળીયું - GROUND FLOOR\nપહેલો માળ - FIRST FLOOR\nબીજો માળ - SECOND FLOOR\nત્રીજો માળ - THIRD FLOOR\nચોથો માળ - FOURTH FLOOR\nપાંચમો માળ - FIFTH FLOOR\nછઠ્ઠો માળ - SIXTH FLOOR\nસાતમો માળ - SEVENTH FLOOR\nઆઠમો માળ - EIGHTH FLOOR\nનવમો માળ - NINTH FLOOR\nદશમો માળ - TENTH FLOOR\nમેજેનીન - MEZZANINE\nઅગિયારમો માળ - ELEVENTH FLOOR\nબારમો માળ - TWELTH FLOOR\nતેરમો માળ - THIRTEENTH FLOOR\nચૌદમો માળ - FORTEENTH FLOOR\nપંદરમો માળ - FIFTEENTH FLOOR",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9837b687d4bb",
+     "evidence": "રહેણાંક અથવા બિન રહેણાંક કેટેગરી\n--SELECT--\nR - રહેણાંક - RESIDENTIAL\nNR - બિન - રહેણાંક - NON-RESIDENTIAL",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9837b687d4bb",
+     "evidence": "ટાઇપ ઓફ બિલ્ડીંગ ફેક્ટરની બિન રહેણાંક કેટેગરી\n--SELECT--\nA - પાકી દીવાલો અને આર.સી.સી. છત - PUCCA WALL WITH RCC ROOF\nB - પાકી દીવાલો અને આર.સી.સી. છત સિવાયની છત - PUCCA WALL WITH ROOF OTHER THAN RCC\nC - પાકી દીવાલો અને સીટના છાપરાવાળી છત - Corrugated/Iron/Cement Sheet wall with other than RCC Roof\nD - દીવાલો વગર અને માત્ર છાપરાવાળી છત - NON ENCLOSED SHED",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9837b687d4bb",
+     "evidence": "કારપેટ એરિયા (ચો.મી)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9837b687d4bb",
+     "evidence": "બાંધકામ પૂર્ણ થયા વર્ષ",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9837b687d4bb",
+     "evidence": "Self Assessment\nHome / Services / Property Tax Calculator",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ],
    "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:mcjamnagar_com",
+   "type": "PORTAL",
+   "name": "mcjamnagar.com",
+   "jurisdictionId": "IN-GJ-JAMNAGAR",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://mcjamnagar.com/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:9837b687d4bb",
+     "evidence": "ઓક્યુંપેન્સી ફેક્ટરની કેટેગરી\n--SELECT--\nમાલિક - OWNER\nભાડુઆત - TENANT",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
   },
   {
    "id": "service:land_allocation_for_housing",
@@ -683,21 +857,6 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "document:certified_copy_of_documents",
-   "type": "DOCUMENT",
-   "name": "Certified copy of documents",
-   "jurisdictionId": "IN-GJ-AHMEDABAD",
-   "sources": [
-    {
-     "sourceId": "src:4836e2cf4ed0",
-     "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
    "id": "document:deposit_proof_copy",
    "type": "DOCUMENT",
    "name": "Deposit proof copy",
@@ -706,21 +865,6 @@
     {
      "sourceId": "src:4836e2cf4ed0",
      "evidence": "રૂા ર૦/– ડિપોઝીટ ભરેલ હોવા અંગેની પહોંચની ઝેરોક્ષ નકલ.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "document:property_ownership_proof",
-   "type": "DOCUMENT",
-   "name": "Property ownership proof",
-   "jurisdictionId": "IN-GJ-AHMEDABAD",
-   "sources": [
-    {
-     "sourceId": "src:4836e2cf4ed0",
-     "evidence": "જેની નકલ જરૂરી હોય તે મિલ્કતની માલિકીના પુરાવા.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -756,6 +900,188 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:proof_of_deposit",
+   "type": "DOCUMENT",
+   "name": "Proof of deposit",
+   "jurisdictionId": "IN-GJ-ANAND",
+   "sources": [
+    {
+     "sourceId": "src:b711a8fe0826",
+     "evidence": "રૂા ર૦/– ડિપોઝીટ ભરેલ હોવા અંગેની પહોંચની ઝેરોક્ષ નકલ.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:property_records",
+   "type": "SERVICE",
+   "name": "Property Records",
+   "officialName": "property records",
+   "description": "The service provides certified copies of property-related documents upon submission of proof of ownership and a deposit receipt.",
+   "jurisdictionId": "IN-GJ-ANAND",
+   "metadata": {
+    "machineExtracted": true,
+    "processingDays": "15"
+   },
+   "sources": [
+    {
+     "sourceId": "src:b711a8fe0826",
+     "evidence": "8:30 A.M To 5:30 A.M",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b711a8fe0826",
+     "evidence": "નિકાલની સમય મર્યાદા કુલ ૧૫ દિવસ.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:eb941cd330fd",
+     "evidence": "નિકાલની સમય મર્યાદા કુલ ૧૫ દિવસ",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:eb941cd330fd",
+     "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:eb941cd330fd",
+     "evidence": "રૂા ર૦/– ડિપોઝીટ ભરેલ હોવા અંગેની પહોંચની ઝેરોક્ષ નકલ.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:eb941cd330fd",
+     "evidence": "જેની નકલ જરૂરી હોય તે મિલ્કતની માલિકીના પુરાવા.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:eb941cd330fd",
+     "evidence": "10:30 A.M To 06:10 P.M",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:anand_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "anand.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ-ANAND",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://anand.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:b711a8fe0826",
+     "evidence": "8:30 A.M To 5:30 A.M",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "document:certified_document_copy",
+   "type": "DOCUMENT",
+   "name": "Certified document copy",
+   "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
+   "sources": [
+    {
+     "sourceId": "src:bf942cad7dd5",
+     "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:competent_officer_order",
+   "type": "DOCUMENT",
+   "name": "Competent officer order",
+   "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
+   "sources": [
+    {
+     "sourceId": "src:bf942cad7dd5",
+     "evidence": "સક્ષમ અધિકારીશ્રીના હુકમ અસલમાં",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:layout_plan",
+   "type": "DOCUMENT",
+   "name": "Layout plan",
+   "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
+   "sources": [
+    {
+     "sourceId": "src:bf942cad7dd5",
+     "evidence": "લે આઉટ/અંદાજિત પ્લાન અસલમાં",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:city_survey_title_deed_registration",
+   "type": "SERVICE",
+   "name": "City Survey title deed registration",
+   "officialName": "City Survey title deed registration",
+   "aliases": [
+    "સિટી સરવેના હકપત્રકે નોંધ દાખલ કરવાની અરજી"
+   ],
+   "description": "The service provides an application form for registering a City Survey title deed under the orders of the competent officer.",
+   "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:bf942cad7dd5",
+     "evidence": "હું કઈ રીતે સક્ષમ અધિકારીશ્રીના હુકમ અન્વયે સિટી સરવેના હકપત્રકે નોંધ દાખલ કરી શકું? સીટી સર્વે સુપ્રિટેન્ડેન્ટને,\nએપ્લીકેશન ફોર્મ\n[File Size : 62 KB] [Gujarati]",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:bf942cad7dd5",
+     "evidence": "નિકાલની સમય મર્યાદા ૭ થી ૪૫ દિવસ",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:devbhumidwarka_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "devbhumidwarka.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://devbhumidwarka.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:bf942cad7dd5",
+     "evidence": "હું કઈ રીતે સક્ષમ અધિકારીશ્રીના હુકમ અન્વયે સિટી સરવેના હકપત્રકે નોંધ દાખલ કરી શકું? સીટી સર્વે સુપ્રિટેન્ડેન્ટને,\nએપ્લીકેશન ફોર્મ\n[File Size : 62 KB] [Gujarati]",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
   }
  ],
  "edges": [
@@ -851,6 +1177,70 @@
      "sourceId": "src:3203b82bd43a",
      "evidence": "Application for allotment of properties in GIDC estates is accepted online.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_property_tax_calculation__call_if__helpline_0288_2550231_235",
+   "from": "service:property_tax_calculation",
+   "to": "helpline:0288_2550231_235",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Jamnagar Municipal Corporation can be contacted at (0288) - 2550231 - 235 for property tax-related queries.",
+   "sources": [
+    {
+     "sourceId": "src:9837b687d4bb",
+     "evidence": "Phone:\n(0288) - 2550231 - 235",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_property_tax_calculation__call_if__helpline_1800_233_0131",
+   "from": "service:property_tax_calculation",
+   "to": "helpline:1800_233_0131",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Jamnagar Municipal Corporation provides a toll-free number 1800 233 0131 for property tax-related queries.",
+   "sources": [
+    {
+     "sourceId": "src:9837b687d4bb",
+     "evidence": "Toll Free: 1800 233 0131",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_property_tax_calculation__escalate_to__grievance_property_tax_calculation",
+   "from": "service:property_tax_calculation",
+   "to": "grievance:property_tax_calculation",
+   "type": "ESCALATE_TO",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Jamnagar Municipal Corporation's email address for feedback and email communication is feedback.jmc@gmail.com.",
+   "sources": [
+    {
+     "sourceId": "src:9837b687d4bb",
+     "evidence": "For Feedback and Email : feedback.jmc@gmail.com",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_property_tax_calculation__apply_at__portal_mcjamnagar_com",
+   "from": "service:property_tax_calculation",
+   "to": "portal:mcjamnagar_com",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on mcjamnagar.com.",
+   "sources": [
+    {
+     "sourceId": "src:9837b687d4bb",
+     "evidence": "ઓક્યુંપેન્સી ફેક્ટરની કેટેગરી\n--SELECT--\nમાલિક - OWNER\nભાડુઆત - TENANT",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -1122,6 +1512,166 @@
     {
      "sourceId": "src:4836e2cf4ed0",
      "evidence": "8:30 A.M To 5:30 P.M",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_property_records__visit_at__office_jan_seva_kendra_anand",
+   "from": "service:property_records",
+   "to": "office:jan_seva_kendra_anand",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The application process for obtaining copies must be submitted to Jan Seva Kendra, Anand.",
+   "sources": [
+    {
+     "sourceId": "src:b711a8fe0826",
+     "evidence": "Application Process\nJan Seva Kendra, Anand\nDistrict Collector Office\nNear Borsad Chokdi,\nOpp. DSP Office,\nAnand,\nGujarat - 388540",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_property_records__requires__document_proof_of_deposit",
+   "from": "service:property_records",
+   "to": "document:proof_of_deposit",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A certified copy of the proof of deposit must be submitted.",
+   "sources": [
+    {
+     "sourceId": "src:b711a8fe0826",
+     "evidence": "રૂા ર૦/– ડિપોઝીટ ભરેલ હોવા અંગેની પહોંચની ઝેરોક્ષ નકલ.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_property_records__requires__document_property_ownership_proof",
+   "from": "service:property_records",
+   "to": "document:property_ownership_proof",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Proof of ownership of the property for which a copy is required must be submitted.",
+   "sources": [
+    {
+     "sourceId": "src:b711a8fe0826",
+     "evidence": "જેની નકલ જરૂરી હોય તે મિલ્કતની માલિકીના પુરાવા.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_property_records__requires__document_certified_copy_of_documents",
+   "from": "service:property_records",
+   "to": "document:certified_copy_of_documents",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A certified copy of the documents is required.",
+   "sources": [
+    {
+     "sourceId": "src:b711a8fe0826",
+     "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_property_records__visit_at__office_district_collector_office",
+   "from": "service:property_records",
+   "to": "office:district_collector_office",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The application process for obtaining copies must be submitted to the District Collector Office in Bhavnagar.",
+   "sources": [
+    {
+     "sourceId": "src:eb941cd330fd",
+     "evidence": "Application Process\nJan Seva Kendra, Bhavnagar\nDistrict Collector Office\nOpposite Galaxy Cinema,\nKalanala, Bhavnagar\nGujarat - 364001",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_property_records__apply_at__portal_anand_gujarat_gov_in",
+   "from": "service:property_records",
+   "to": "portal:anand_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on anand.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:b711a8fe0826",
+     "evidence": "8:30 A.M To 5:30 A.M",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_city_survey_title_deed_registration__requires__document_certified_document_copy",
+   "from": "service:city_survey_title_deed_registration",
+   "to": "document:certified_document_copy",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A certified copy of the documents is required.",
+   "sources": [
+    {
+     "sourceId": "src:bf942cad7dd5",
+     "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_city_survey_title_deed_registration__requires__document_competent_officer_order",
+   "from": "service:city_survey_title_deed_registration",
+   "to": "document:competent_officer_order",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The original order of the competent officer is required.",
+   "sources": [
+    {
+     "sourceId": "src:bf942cad7dd5",
+     "evidence": "સક્ષમ અધિકારીશ્રીના હુકમ અસલમાં",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_city_survey_title_deed_registration__requires__document_layout_plan",
+   "from": "service:city_survey_title_deed_registration",
+   "to": "document:layout_plan",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The original layout or estimated plan is required.",
+   "sources": [
+    {
+     "sourceId": "src:bf942cad7dd5",
+     "evidence": "લે આઉટ/અંદાજિત પ્લાન અસલમાં",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_city_survey_title_deed_registration__apply_at__portal_devbhumidwarka_gujarat_gov_in",
+   "from": "service:city_survey_title_deed_registration",
+   "to": "portal:devbhumidwarka_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on devbhumidwarka.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:bf942cad7dd5",
+     "evidence": "હું કઈ રીતે સક્ષમ અધિકારીશ્રીના હુકમ અન્વયે સિટી સરવેના હકપત્રકે નોંધ દાખલ કરી શકું? સીટી સર્વે સુપ્રિટેન્ડેન્ટને,\nએપ્લીકેશન ફોર્મ\n[File Size : 62 KB] [Gujarati]",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }

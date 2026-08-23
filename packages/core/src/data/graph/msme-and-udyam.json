@@ -1,0 +1,665 @@
+{
+ "id": "msme-and-udyam",
+ "sources": [
+  {
+   "id": "src:cef59a1e5f90",
+   "url": "https://udyamregistration.gov.in/",
+   "title": "Udyam Registration : Zero cost, No Fee and Free Registration of MSMEs. This is official website of Govt. of India, Ministry of MSME. No other website/portal/app is official. MSMEs are requested to do MSME Registration here only",
+   "domain": "udyamregistration.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ec46bd29e28061797663ccd0c6129477cb4df58847492f5220a0f3dbd7760d4d"
+  },
+  {
+   "id": "src:1c23804b3160",
+   "url": "https://udyamregistration.gov.in/UdyamRegistration.aspx",
+   "title": "UDYAM REGISTRATION FORM - For New Enterprise who are not Registered yet as MSME",
+   "domain": "udyamregistration.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "f30bd918d449bce9bc98a1cafbe3eae8db7e1c697f65a2c21f555201846e1b67"
+  },
+  {
+   "id": "src:fe4f101fbfb0",
+   "url": "https://champions.gov.in/MSME_Ministry/start-up-udyam-financing-equity_loan_schemes/new_entrepreneurs_Starters.htm",
+   "title": "SCHEMES FOR STARTERS | MSME CHAMPIONS | Our Small Hands to make you LARGE",
+   "domain": "champions.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "1530407463b6b262aba1fc54fa4c69f50c26434da4497f803839a2df2779fa83"
+  },
+  {
+   "id": "src:10b8e460fca1",
+   "url": "https://champions.gov.in/MSME_Ministry_entrepreneurs/PMEGP_bank_loan_finance/old_existing_Schemes.htm",
+   "title": "MSME CHAMPIONS | Our Small Hands to make you LARGE",
+   "domain": "champions.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "6558dba102f39ebf872f0a67567e5f2e322e573b604eef85e5ec686ab55af77b"
+  },
+  {
+   "id": "src:b9f49e2ad4a9",
+   "url": "https://e-kutir.gujarat.gov.in/SHGUserRegistration.aspx",
+   "title": "Commissioner of Cottage and Rural Industries",
+   "domain": "e-kutir.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "99e029038fdd5a375a7c1103547792e3bbca9451f357f1fa3b3a824d46983dac"
+  },
+  {
+   "id": "src:15614cce9684",
+   "url": "https://e-kutir.gujarat.gov.in/registration.aspx",
+   "title": "Commissioner of Cottage and Rural Industries",
+   "domain": "e-kutir.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "22166482957cd4d9d8d8f1d17a605deb585a7927d8ff8f0c088c1842f7e5c004"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "document:aadhaar_card",
+   "type": "DOCUMENT",
+   "name": "Aadhaar card",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "Only Adhaar Number will be enough for registration.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "office:champions_control_rooms",
+   "type": "OFFICE",
+   "name": "Champions Control Rooms",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Not specified"
+   },
+   "sources": [
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "Our single window systems at Champions Control Rooms and at DICs will help you in the process.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "grievance:udyam_registration",
+   "type": "GRIEVANCE_CHANNEL",
+   "name": "Grievances about udyam registration",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "GRIEVANCE_PORTAL"
+   },
+   "sources": [
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "Call or Whatsapp on +91 8308809334 Mon to Fri : 10:00 AM - 06:00 PM",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "office:dcmsme_office",
+   "type": "OFFICE",
+   "name": "Dcmsme_office",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Office of DCMSME, Ministry of MSME, Kartavya Bhawan 3 - New Delhi"
+   },
+   "sources": [
+    {
+     "sourceId": "src:1c23804b3160",
+     "evidence": "Address Office of DCMSME, Ministry of MSME, Kartavya Bhawan 3 - New Delhi",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:udyam_registration",
+   "type": "SERVICE",
+   "name": "Udyam Registration",
+   "officialName": "Udyam Registration",
+   "description": "Udyam Registration is a free, online, and paperless process for registering MSMEs with the Government of India.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "Udyam Registration : Zero cost, No Fee and Free Registration of MSMEs.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "This is official website of Govt. of India, Ministry of MSME. No other website/portal/app is official. MSMEs are requested to do MSME Registration here only",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "MSME registration process is fully online, paperless and based on self-declaration.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "No documents or proof are required to be uploaded for registering an MSME.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "Having PAN and GSTIN (As per applicablity of CGST Act 2017 and as notified by the ministry of MSME vide S.O. 1055(E) dated 05th March 2021 ) is required for Udyam Registration with effect from 01.04.2021.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "Those who have EM-II or UAM registration or any other registration issued by any authority under the Ministry of MSME, will have to re-register themselves.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "No enterprise shall file more than one Udyam Registration.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "A permanent registration number will be given after registration.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "After completion of the process of registration, a certificate will be issued online.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "This certificate will have a dynamic QR Code from which the web page on our Portal and details about the enterprise can be accessed.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "There will be no need for renewal of Registration.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "Our online system will be fully integrated with Income Tax and GSTIN systems.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:udyamregistration_gov_in",
+   "type": "PORTAL",
+   "name": "udyamregistration.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://udyamregistration.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "Udyam Registration : Zero cost, No Fee and Free Registration of MSMEs.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "document:edp_certificate",
+   "type": "DOCUMENT",
+   "name": "Edp certificate",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:fe4f101fbfb0",
+     "evidence": "On EDP completion, a certificate is issued to the applicant and same is to be submitted along with applicant contribution to the concerned Bank to get first instalment of the loan.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:pmegp_scheme",
+   "type": "SERVICE",
+   "name": "PMEGP scheme",
+   "officialName": "PMEGP scheme",
+   "aliases": [
+    "pmegp"
+   ],
+   "description": "The PMEGP scheme provides subsidies and loans to new entrepreneurs for setting up manufacturing, service, or trading units.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "15% to 35%"
+   },
+   "sources": [
+    {
+     "sourceId": "src:fe4f101fbfb0",
+     "evidence": "Target Beneficiary: Unemployed rural and urban youth; Eligibility Criteria: Any individual above 18 years of age, SHGs, Charitable trusts, Registered Societies etc.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fe4f101fbfb0",
+     "evidence": "Allowed Project Cost: for Manufacturing Unit: Rs. 25 lakh; Service Sector Unit: Rs. 10 lakh, Trading SectorUnit Rs. 10 lakh in North Eastern Region, LWE-affected districts and Andaman & Nicobar Islands",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fe4f101fbfb0",
+     "evidence": "Subsidy: General Category: 15% of the project cost in urban areas, 25% in rural areas;",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fe4f101fbfb0",
+     "evidence": "Contribution of the Entrepreneur: General: 10 %, Special category: 5 %.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fe4f101fbfb0",
+     "evidence": "The applicant should apply in the following Website- https://www.kviconline.gov.in/pmegpeportal The applicant to follow the guidelines of this portal.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fe4f101fbfb0",
+     "evidence": "Implementing Agency will arrange for the Entrepreneurship Development Programme (EDP) Training for the applicant, which is available on line as well;",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fe4f101fbfb0",
+     "evidence": "Eligibility & Conditions: Target beneficiary: Artisans, Unemployed Youth and Self Help Groups (SHGs)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fe4f101fbfb0",
+     "evidence": "Guarantee coverage ranges from 85% (Micro Enterprise up to Rs 5 lakh) to 75% (others);",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fe4f101fbfb0",
+     "evidence": "As per scheme guidelines, in EAP and E-SDP there should be overall 40% women participation.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:10b8e460fca1",
+     "evidence": "Bank financed subsidy program for setting up new micro-enterprises in non-farm sector. Margin Money subsidy on Bank Loan ranges from 15% to 35% for projects up to Rs. 25 lakhs in manufacturing and Rs. 10 lakhs in service sector",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:10b8e460fca1",
+     "evidence": "For beneficiaries belonging to special categories such as SC/ST/Women/PH/Minorities/Ex-Servicemen/NER, the margin money subsidy is 35% in rural areas and 25% in urban areas.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:10b8e460fca1",
+     "evidence": "Scheme applicable for Any individual above 18 years of age, SHGs, Charitable trusts, Registered Societies etc.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:champions_gov_in",
+   "type": "PORTAL",
+   "name": "champions.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://champions.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:fe4f101fbfb0",
+     "evidence": "Target Beneficiary: Unemployed rural and urban youth; Eligibility Criteria: Any individual above 18 years of age, SHGs, Charitable trusts, Registered Societies etc.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:shg_user_registration",
+   "type": "SERVICE",
+   "name": "SHG User Registration",
+   "officialName": "SHG User Registration",
+   "description": "This service allows registration for Self-Help Groups (SHG), Industrial Cooperative Societies, NGOs, Trusts, and Khadi Institutions.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:b9f49e2ad4a9",
+     "evidence": "સખી મંડળ / ઔદ્યોગિક સહકારી મંડળી / એનજીઓ/ટ્રસ્ટનું નામ / ખાદી સંસ્થા - મંડળી (અંગ્રેજીમાં) *",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b9f49e2ad4a9",
+     "evidence": "નોંધણીનો પ્રકાર * -પસંદ કરો- સખી મંડળ ઔદ્યોગિક સહકારી મંડળી એનજીઓ/ટ્રસ્ટ ખાદી સંસ્થા",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b9f49e2ad4a9",
+     "evidence": "પાન નંબર (સૂચિત નવી મંડળીના કિસ્સામાં પ્રમુખનો પાન નં. લખવો) * પાન નંબર લખો અમાન્ય પાન નંબર, પાન નંબર capital case માં લખો",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b9f49e2ad4a9",
+     "evidence": "મોબાઇલ નંબર * મોબાઇલ નંબર લખો મોબાઇલ નંબર સાચો નાખો",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b9f49e2ad4a9",
+     "evidence": "ઈમેલ * Please Enter Email ઈમેલ બરાબર લખો",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b9f49e2ad4a9",
+     "evidence": "પાસવર્ડ * પાસવર્ડ લખો પાસવર્ડ ઓછામાં ઓછો ૮ અક્ષરોનો હોવો જોઈએ અને તેમાં મોટા-નાના અક્ષરો, અંક તથા વિશેષ અક્ષર હોવા જોઈએ,પાસવર્ડમાં અક્ષરો માન્ય નથી.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b9f49e2ad4a9",
+     "evidence": "પાસવર્ડની પુષ્ટિ કરો * પાસવર્ડ સમાન હોવો જોઈએ પાસવર્ડ લખો",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b9f49e2ad4a9",
+     "evidence": "કેપ્ચા કોડ 1 + 3 =",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b9f49e2ad4a9",
+     "evidence": "કૃપા કરીને તમારી વિગતો ચકાસી લો સખી મંડળ / ઔદ્યોગિક સહકારી મંડળી / એનજીઓ/ટ્રસ્ટ / ખાદી સંસ્થા - મંડળીનું નામ : | | મોબાઇલ નંબર : | | પાન નંબર : | | રદ્દ કરો",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:e_kutir_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "e-kutir.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://e-kutir.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:b9f49e2ad4a9",
+     "evidence": "સખી મંડળ / ઔદ્યોગિક સહકારી મંડળી / એનજીઓ/ટ્રસ્ટનું નામ / ખાદી સંસ્થા - મંડળી (અંગ્રેજીમાં) *",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:cottage_and_rural_industries_registration",
+   "type": "SERVICE",
+   "name": "Cottage and Rural Industries Registration",
+   "officialName": "Cottage and Rural Industries Registration",
+   "aliases": [
+    "કૂટિર અને ગ્રામીણ ઉદ્યોગોની રજિસ્ટ્રેશન"
+   ],
+   "description": "A citizen must register for Cottage and Rural Industries by providing personal details, Aadhaar number, mobile number, and creating a password.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:15614cce9684",
+     "evidence": "પૂરું નામ (અંગ્રેજીમાં) *",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:15614cce9684",
+     "evidence": "મોબાઇલ નંબર *",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:15614cce9684",
+     "evidence": "તમે ( ) સિવાય પાસવર્ડમાં ઓછામાં ઓછો 8 અક્ષરો અને મહત્તમ 16 અક્ષરો હોવા જોઈએ, ઓછામાં ઓછું એક લોઅરકેસ કેરેક્ટર, ઓછામાં ઓછું એક અપરકેસ કેરેક્ટર, ઓછામાં ઓછું એક સ્પેશિયલ કેરેક્ટર(~!@#$%*()_+^&}{:;?.) અને ઓછામાં ઓછું એક નંબર / અંક હોવો જોઈએ.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:15614cce9684",
+     "evidence": "પાસવર્ડની પુષ્ટિ કરો *",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:15614cce9684",
+     "evidence": "કેપ્ચા કોડ *",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:15614cce9684",
+     "evidence": "કૃપા કરીને તમારી વિગતો ચકાસી લો",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e:service_udyam_registration__requires__document_aadhaar_card",
+   "from": "service:udyam_registration",
+   "to": "document:aadhaar_card",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Only an Aadhaar Number is enough for registration.",
+   "sources": [
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "Only Adhaar Number will be enough for registration.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_udyam_registration__visit_at__office_champions_control_rooms",
+   "from": "service:udyam_registration",
+   "to": "office:champions_control_rooms",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The single window systems at Champions Control Rooms and at DICs will help in the process.",
+   "sources": [
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "Our single window systems at Champions Control Rooms and at DICs will help you in the process.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_udyam_registration__escalate_to__grievance_udyam_registration",
+   "from": "service:udyam_registration",
+   "to": "grievance:udyam_registration",
+   "type": "ESCALATE_TO",
+   "verificationStatus": "EXTRACTED",
+   "note": "For grievances, call or WhatsApp on +91 8308809334 from Monday to Friday between 10:00 AM and 06:00 PM.",
+   "sources": [
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "Call or Whatsapp on +91 8308809334 Mon to Fri : 10:00 AM - 06:00 PM",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_udyam_registration__visit_at__office_dcmsme_office",
+   "from": "service:udyam_registration",
+   "to": "office:dcmsme_office",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Office of DCMSME, Ministry of MSME, Kartavya Bhawan 3 - New Delhi is the address.",
+   "sources": [
+    {
+     "sourceId": "src:1c23804b3160",
+     "evidence": "Address Office of DCMSME, Ministry of MSME, Kartavya Bhawan 3 - New Delhi",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_udyam_registration__apply_at__portal_udyamregistration_gov_in",
+   "from": "service:udyam_registration",
+   "to": "portal:udyamregistration_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on udyamregistration.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "Udyam Registration : Zero cost, No Fee and Free Registration of MSMEs.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_pmegp_scheme__requires__document_edp_certificate",
+   "from": "service:pmegp_scheme",
+   "to": "document:edp_certificate",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The PMEGP scheme requires the applicant to submit the EDP certificate along with their contribution to the bank to receive the first instalment of the loan.",
+   "sources": [
+    {
+     "sourceId": "src:fe4f101fbfb0",
+     "evidence": "On EDP completion, a certificate is issued to the applicant and same is to be submitted along with applicant contribution to the concerned Bank to get first instalment of the loan.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_pmegp_scheme__apply_at__portal_champions_gov_in",
+   "from": "service:pmegp_scheme",
+   "to": "portal:champions_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on champions.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:fe4f101fbfb0",
+     "evidence": "Target Beneficiary: Unemployed rural and urban youth; Eligibility Criteria: Any individual above 18 years of age, SHGs, Charitable trusts, Registered Societies etc.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_shg_user_registration__apply_at__portal_e_kutir_gujarat_gov_in",
+   "from": "service:shg_user_registration",
+   "to": "portal:e_kutir_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on e-kutir.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:b9f49e2ad4a9",
+     "evidence": "સખી મંડળ / ઔદ્યોગિક સહકારી મંડળી / એનજીઓ/ટ્રસ્ટનું નામ / ખાદી સંસ્થા - મંડળી (અંગ્રેજીમાં) *",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_cottage_and_rural_industries_registration__requires__document_aadhaar_card",
+   "from": "service:cottage_and_rural_industries_registration",
+   "to": "document:aadhaar_card",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A citizen must provide their Aadhaar card number in a specific format.",
+   "sources": [
+    {
+     "sourceId": "src:15614cce9684",
+     "evidence": "Please enter Aadhaar number in 4 digit space 4 digit format.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_cottage_and_rural_industries_registration__apply_at__portal_e_kutir_gujarat_gov_in",
+   "from": "service:cottage_and_rural_industries_registration",
+   "to": "portal:e_kutir_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on e-kutir.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:15614cce9684",
+     "evidence": "પૂરું નામ (અંગ્રેજીમાં) *",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  }
+ ],
+ "requirementGroups": [],
+ "questions": []
+}

@@ -1,0 +1,612 @@
+{
+ "journey": "startup",
+ "researchedAt": "2026-08-23",
+ "region": "Gujarat, India",
+ "sources": [
+  {
+   "id": "src:e44566599545",
+   "url": "https://www.startupindia.gov.in/content/sih/en/startup-scheme.html",
+   "title": "Startup India Scheme",
+   "domain": "startupindia.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "210935a98ae04bbab169709da2981709b282bea58812672bbe276cbc61c9bb71",
+   "cacheFile": ".ingest/pages/e44566599545f282ab4689795cbc804523aa54d1.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:dc0a95e4944a",
+   "url": "https://www.startupindia.gov.in/content/sih/en/startup-scheme/state-startup-policies/Haryana-state-policy.html",
+   "title": "Haryana",
+   "domain": "startupindia.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "fa93c2bab1892aacb444a54631aaa4c7dbce0e19eb4c8bd9343a0a029251d428",
+   "cacheFile": ".ingest/pages/dc0a95e4944a9f2becf907e998bd27ed2a35f97e.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:4fc361aa4ee4",
+   "url": "https://www.startupindia.gov.in/content/sih/en/startup-scheme/state-startup-policies/Rajasthan-state-policy.html",
+   "title": "Rajasthan",
+   "domain": "startupindia.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ed5aac894d24acc7a22dc30b3de9bdbf0800100a022706fed631c50fc12fd6b2",
+   "cacheFile": ".ingest/pages/4fc361aa4ee43812ab1e9139600c58ab9d88a284.md",
+   "scrapedOk": true
+  }
+ ],
+ "facts": [
+  {
+   "claim": "A company must not have been formed by splitting up or reconstructing an existing business to be eligible for DPIIT startup recognition.",
+   "kind": "ELIGIBILITY",
+   "subject": "dpiit_recognition",
+   "object": "startup_entity",
+   "detail": {},
+   "sourceId": "src:e44566599545",
+   "evidence": "The entity should not have been formed by splitting up or reconstructing an existing business.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A company must work towards the development or improvement of a product, process, or service and/or have a scalable business model with high potential for wealth and employment generation to be eligible for DPIIT startup recognition.",
+   "kind": "ELIGIBILITY",
+   "subject": "dpiit_recognition",
+   "object": "startup_entity",
+   "detail": {},
+   "sourceId": "src:e44566599545",
+   "evidence": "The entity should work towards the development or improvement of a product, process, or service and/or have a scalable business model with high potential for wealth and employment generation.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A company must be incorporated as a Private Limited Company, Registered Partnership Firm, Limited Liability Partnership, or Cooperative Society to be eligible for DPIIT startup recognition.",
+   "kind": "ELIGIBILITY",
+   "subject": "dpiit_recognition",
+   "object": "startup_entity",
+   "detail": {},
+   "sourceId": "src:e44566599545",
+   "evidence": "Incorporated as a Private Limited Company, Registered Partnership Firm, Limited Liability Partnership, or Cooperative Society.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A company must not exceed an annual turnover of Rs. 200 crore in any financial year since incorporation to be eligible for DPIIT startup recognition.",
+   "kind": "ELIGIBILITY",
+   "subject": "dpiit_recognition",
+   "object": "startup_entity",
+   "detail": {
+    "currency": "INR",
+    "amount": "200000000"
+   },
+   "sourceId": "src:e44566599545",
+   "evidence": "The annual turnover should not exceed Rs. 200 crore in any financial year since incorporation.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A company must not exceed a period of existence and operations of 10 years from the date of incorporation to be eligible for DPIIT startup recognition.",
+   "kind": "ELIGIBILITY",
+   "subject": "dpiit_recognition",
+   "object": "startup_entity",
+   "detail": {
+    "days": "3650"
+   },
+   "sourceId": "src:e44566599545",
+   "evidence": "The period of existence and operations should not exceed 10 years from the date of incorporation.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIIT recognised startups can self-certify compliance with 6 labour laws and 3 environmental laws through a simple online procedure.",
+   "kind": "ACTION",
+   "subject": "dpiit_recognised_startup",
+   "object": "compliance",
+   "detail": {},
+   "sourceId": "src:e44566599545",
+   "evidence": "Startups shall be allowed to self-certify compliance with 6 labour laws and 3 environmental laws through a simple online procedure.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIIT recognised startups within 10 years of incorporation are eligible for self-certification of compliance.",
+   "kind": "ELIGIBILITY",
+   "subject": "dpiit_recognition",
+   "object": "startup_entity",
+   "detail": {
+    "days": "3650"
+   },
+   "sourceId": "src:e44566599545",
+   "evidence": "DPIIT recognised startups that are within 10 years within date of incorporation ( 20 if deeptech recognized).",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIIT recognised startups can get tax exemption under Section 80IAC for 3 consecutive financial years out of their first ten years since incorporation.",
+   "kind": "ACTION",
+   "subject": "dpiit_recognised_startup",
+   "object": "tax_exemption",
+   "detail": {
+    "years": "3"
+   },
+   "sourceId": "src:e44566599545",
+   "evidence": "Eligible startups can be exempted from paying income tax for 3 consecutive financial years out of their first ten years since incorporation.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIIT recognised startups can register on the Government e-Marketplace (GeM) as sellers to sell their products and services directly to Government entities.",
+   "kind": "ACTION",
+   "subject": "dpiit_recognised_startup",
+   "object": "gem_registration",
+   "detail": {},
+   "sourceId": "src:e44566599545",
+   "evidence": "DPIIT Recognized Startups can register on GeM as sellers and sell their products and services directly to Government entities.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIIT recognised startups are exempted from submitting Earnest Money Deposit (EMD) or bid security while filling government tenders.",
+   "kind": "ACTION",
+   "subject": "dpiit_recognised_startup",
+   "object": "emd_exemption",
+   "detail": {},
+   "sourceId": "src:e44566599545",
+   "evidence": "DPIIT recognised startups have been exempted from submitting Earnest Money Deposit (EMD) or bid security while filling government tenders.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIIT recognised startups can access the Section 80 IAC exemption application form after registration on the Startup India portal.",
+   "kind": "ACTION",
+   "subject": "dpiit_recognised_startup",
+   "object": "tax_exemption_application",
+   "detail": {},
+   "sourceId": "src:e44566599545",
+   "evidence": "Access the Section 80 IAC exemption application form here",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIIT recognised startups can be wound up within 90 days of filing an application for insolvency under the Insolvency and Bankruptcy Code, 2016.",
+   "kind": "ACTION",
+   "subject": "dpiit_recognised_startup",
+   "object": "winding_up",
+   "detail": {
+    "days": "90"
+   },
+   "sourceId": "src:e44566599545",
+   "evidence": "startups with simple debt structures, or those meeting certain income specified criteria* can be wound up within 90 days of filing an application for insolvency.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIIT recognised startups can fast-track their patent applications for examination.",
+   "kind": "ACTION",
+   "subject": "dpiit_recognised_startup",
+   "object": "patent_application",
+   "detail": {},
+   "sourceId": "src:e44566599545",
+   "evidence": "Patent applications filed by startups shall be fast-tracked for examination so that their value can be realised sooner.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIIT recognised startups can get an 80% rebate in filing of patents vis-a-vis other companies.",
+   "kind": "ACTION",
+   "subject": "dpiit_recognised_startup",
+   "object": "patent_filing",
+   "detail": {
+    "rebate_percentage": "80"
+   },
+   "sourceId": "src:e44566599545",
+   "evidence": "Startups shall be provided an 80% rebate in filing of patents vis-a-vis other companies.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIIT recognised startups can reach out to a panel of facilitators for assistance in filing IP applications.",
+   "kind": "ACTION",
+   "subject": "dpiit_recognised_startup",
+   "object": "ip_application",
+   "detail": {},
+   "sourceId": "src:e44566599545",
+   "evidence": "For effective implementation of the scheme, a panel of “facilitators” shall be empanelled by the Controller General of Patents, Designs and Trademarks (CGPDTM), who shall also regulate their conduct and functions.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIIT recognised startups can access a list of Trademark Facilitators and Patent Facilitators for up-to-date information about the process and required documents for a patent or trademark application.",
+   "kind": "ACTION",
+   "subject": "dpiit_recognised_startup",
+   "object": "ip_application",
+   "detail": {},
+   "sourceId": "src:e44566599545",
+   "evidence": "Click here for a list of Trademark Facilitators and Patent Facilitators .",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIIT recognised startups can reach out to the contact us page for any queries or clarifications.",
+   "kind": "ACTION",
+   "subject": "dpiit_recognised_startup",
+   "object": "grievance_redressal",
+   "detail": {},
+   "sourceId": "src:e44566599545",
+   "evidence": "In case of any queries or clarifications needed,Please reach out to us through contact us page.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIIT recognised startups can register on the Shram Suvidha Portal of the Ministry of Labour and Employment to self-certify compliance with labour and environmental laws.",
+   "kind": "ACTION",
+   "subject": "dpiit_recognised_startup",
+   "object": "compliance",
+   "detail": {},
+   "sourceId": "src:e44566599545",
+   "evidence": "Click here to go to the Shram Suvidha Portal of the Ministry of Labour and Employment.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIIT recognised startups can register on the Startup India portal to apply for DPIIT recognition.",
+   "kind": "ACTION",
+   "subject": "dpiit_recognition",
+   "object": "startup_entity",
+   "detail": {},
+   "sourceId": "src:e44566599545",
+   "evidence": "Register on the Startup India portal. Click here to register",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIIT recognised startups can apply for DPIIT recognition by clicking on the 'Get Recognised' button.",
+   "kind": "ACTION",
+   "subject": "dpiit_recognition",
+   "object": "startup_entity",
+   "detail": {},
+   "sourceId": "src:e44566599545",
+   "evidence": "To apply for DPIIT recognition, click “Get Recognised” below.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIIT recognised startups can access the status of their application on the Dashboard of the Startup India Portal.",
+   "kind": "ACTION",
+   "subject": "dpiit_recognition",
+   "object": "startup_entity",
+   "detail": {},
+   "sourceId": "src:e44566599545",
+   "evidence": "Refer to your Dashboard on the Startup India Portal for the status of your application.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIIT recognised startups can edit their expired application.",
+   "kind": "ACTION",
+   "subject": "dpiit_recognition",
+   "object": "startup_entity",
+   "detail": {},
+   "sourceId": "src:e44566599545",
+   "evidence": "Edit Your Expired Application",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIIT recognised startups can access the latest information about the Startup India Scheme and DPIIT Recognition through the provided links.",
+   "kind": "ACTION",
+   "subject": "dpiit_recognition",
+   "object": "startup_entity",
+   "detail": {},
+   "sourceId": "src:e44566599545",
+   "evidence": "Access the latest information about the Startup India Scheme and DPIIT Recognition here",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The company must be registered in Haryana under the Haryana Shops and Commercial Establishment Act, 1958.",
+   "kind": "ELIGIBILITY",
+   "subject": "startup",
+   "object": "haryana_shops_commercial_establishment_act",
+   "detail": {},
+   "sourceId": "src:dc0a95e4944a",
+   "evidence": "Location: The company/entity be registered in Haryana under the Haryana Shops and Commercial Establishment Act, 1958 ; and",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The company must employ at least 50% of its total qualified workforce in Haryana, excluding contract employees.",
+   "kind": "ELIGIBILITY",
+   "subject": "startup",
+   "object": "haryana_employment",
+   "detail": {},
+   "sourceId": "src:dc0a95e4944a",
+   "evidence": "Employment: The company employs at least 50 (fifty) per cent of its total qualified workforce in Haryana, which shall not include contract employees.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The company must not have been formed by splitting up, reconstruction, demerger, or reconstitution of a business already in existence.",
+   "kind": "ELIGIBILITY",
+   "subject": "startup",
+   "object": "startup_formation",
+   "detail": {},
+   "sourceId": "src:dc0a95e4944a",
+   "evidence": "Provided that such entity is not formed by splitting up, or reconstruction, of a business already in existence and should not have been formed by the demerger or reconstitution of a business already in existence;",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The company must not be a holding company or a subsidiary of any firm already in existence, except the subsidiary of any startup.",
+   "kind": "ELIGIBILITY",
+   "subject": "startup",
+   "object": "startup_subsidiary",
+   "detail": {},
+   "sourceId": "src:dc0a95e4944a",
+   "evidence": "Provided that such entity is not a holding company and it is not a subsidiary of any firm already in existence or except the subsidiary of any startup;",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The company must be incorporated in India as a private limited company, partnership firm, or limited liability partnership.",
+   "kind": "ELIGIBILITY",
+   "subject": "startup",
+   "object": "startup_incorporation",
+   "detail": {},
+   "sourceId": "src:dc0a95e4944a",
+   "evidence": "Startup means an entity (Private, Public, Proprietary, Partnership Firm), incorporated in India: As a private limited company (as defined in the Companies Act, 2013) or registered as a Partnership firm (registered under Section 59 of the Partnership Act, 1932) or a limited liability partnership (under the Limited Liability Partnership Act, 2008) in India.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The company must not have been incorporated prior to seven years, or ten years in the case of Biotechnology Companies.",
+   "kind": "ELIGIBILITY",
+   "subject": "startup",
+   "object": "startup_age",
+   "detail": {
+    "years": "7",
+    "biotechnology_years": "10"
+   },
+   "sourceId": "src:dc0a95e4944a",
+   "evidence": "Not prior to seven years and in the case of Biotechnology Companies this period shall be up to 10 years",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The company must have an annual turnover not exceeding INR 25 crore in any preceding financial year.",
+   "kind": "ELIGIBILITY",
+   "subject": "startup",
+   "object": "startup_turnover",
+   "detail": {
+    "currency": "INR",
+    "amount": "25000000"
+   },
+   "sourceId": "src:dc0a95e4944a",
+   "evidence": "With annual turnover not exceeding INR 25 crore in any preceding financial year",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The company must be working towards innovation, development, or improvement of products, processes, or services, or have a scalable business model with high potential for employment generation or wealth creation.",
+   "kind": "ELIGIBILITY",
+   "subject": "startup",
+   "object": "startup_objective",
+   "detail": {},
+   "sourceId": "src:dc0a95e4944a",
+   "evidence": "Working towards innovation, development or improvement of products or processes or services, or if it is a scalable business model with a high potential of employment generation or wealth creation",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The nodal agency for the Haryana Entrepreneur & Startup Policy is the Department of Information Technology Electronics & Communication, Haryana.",
+   "kind": "OFFICE",
+   "subject": "haryana_startup_policy",
+   "object": "nodal_agency",
+   "detail": {
+    "office_name": "Department of Information Technology Electronics & Communication, Haryana"
+   },
+   "sourceId": "src:dc0a95e4944a",
+   "evidence": "Nodal Agency | Department of Information Technology Electronics & Communication, Haryana",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The office address for Startup Haryana is SCO 109-110, Sector 17B, Chandigarh, India.",
+   "kind": "OFFICE",
+   "subject": "startup_haryana",
+   "object": "office_address",
+   "detail": {
+    "address": "SCO 109-110, Sector 17B, Chandigarh (India)"
+   },
+   "sourceId": "src:dc0a95e4944a",
+   "evidence": "Office Address | Startup Haryana, Department of Information Technology Electronics & Communication, Haryana SCO 109-110, Sector 17B, Chandigarh (India)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The contact phone number for Startup Haryana is 18001806222.",
+   "kind": "HELPLINE",
+   "subject": "startup_haryana",
+   "object": "phone_number",
+   "detail": {
+    "phone": "18001806222"
+   },
+   "sourceId": "src:dc0a95e4944a",
+   "evidence": "Phone Number: 18001806222",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The contact email for Startup Haryana is helpdeskstartupharyana@gmail.com.",
+   "kind": "HELPLINE",
+   "subject": "startup_haryana",
+   "object": "email",
+   "detail": {
+    "email": "helpdeskstartupharyana@gmail.com"
+   },
+   "sourceId": "src:dc0a95e4944a",
+   "evidence": "Email: helpdeskstartupharyana@gmail.com",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The policy document for the Haryana Entrepreneur & Startup Policy can be downloaded from the provided link.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "haryana_startup_policy",
+   "object": "policy_document",
+   "detail": {
+    "url": "Download here"
+   },
+   "sourceId": "src:dc0a95e4944a",
+   "evidence": "Policy Document | Download here",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The official website for Startup Haryana is Startup Haryana.",
+   "kind": "CHANNEL",
+   "subject": "startup_haryana",
+   "object": "website",
+   "detail": {
+    "url": "Startup Haryana"
+   },
+   "sourceId": "src:dc0a95e4944a",
+   "evidence": "Website | Startup Haryana",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Seed Grant for startups is up to INR 3 Lakhs per startup.",
+   "kind": "FEE",
+   "subject": "startup",
+   "object": "seed_grant",
+   "detail": {
+    "currency": "INR",
+    "amount": "300000"
+   },
+   "sourceId": "src:dc0a95e4944a",
+   "evidence": "A Seed Grant up to INR 3 Lakhs per start-up shall be provided for validation of idea, prototype development, assistance towards travelling costs and carrying out field/ market research/ skill training/marketing and initial activities to setup a startup etc.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application procedure for seed funding is routed through State/Centre recognized Incubators.",
+   "kind": "ACTION",
+   "subject": "startup",
+   "object": "seed_funding_application",
+   "detail": {},
+   "sourceId": "src:dc0a95e4944a",
+   "evidence": "Seed funding to startups would be routed throughState/Centre recognized Incubators. The incubatee would apply for the grantin the incubators where it is being incubated & incubator after due diligence would forward the case to the Implementation Committee.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Rajasthan Startup Policy 2015-2020 provides a monthly sustenance allowance of Rs. 10,000 for one year to innovators at the idea or prototype stage.",
+   "kind": "FEE",
+   "subject": "rajasthan_startup_policy",
+   "object": "monthly_sustenance_allowance",
+   "detail": {
+    "amount": "10000",
+    "currency": "INR",
+    "duration": "1 year"
+   },
+   "sourceId": "src:4fc361aa4ee4",
+   "evidence": "Rs. 10,000/- per month will be provided to the innovator as sustenance allowance for one year.Startups whose project is recommended by the Nodal institution and approved by the Committee will get a sustenance allowance of Rs. 10,000 per month for a period of 1 year.",
+   "confidence": 1
+  },
+  {
+   "claim": "Startups at the pilot stage can receive marketing/commercialization assistance of up to Rs. 10 lakh.",
+   "kind": "FEE",
+   "subject": "rajasthan_startup_policy",
+   "object": "marketing_commercialization_assistance",
+   "detail": {
+    "amount": "1000000",
+    "currency": "INR"
+   },
+   "sourceId": "src:4fc361aa4ee4",
+   "evidence": "Marketing/Commercialization assistance upto a maximum of Rs. 10 lakh shall be provided to Startups to launch its products/services in the market.",
+   "confidence": 1
+  },
+  {
+   "claim": "Host institutes can receive a one-time capital grant of up to Rs. 50 lakh for entrepreneurship development and startup events.",
+   "kind": "FEE",
+   "subject": "rajasthan_startup_policy",
+   "object": "capital_grant_host_institutes",
+   "detail": {
+    "amount": "5000000",
+    "currency": "INR"
+   },
+   "sourceId": "src:4fc361aa4ee4",
+   "evidence": "A one time grant for capital items will be given to Host Institutes by the State Government for the purpose of entrepreneurship development and startup events in the region, with a maximum of Rs. 50 lakh.",
+   "confidence": 1
+  },
+  {
+   "claim": "New incubators can receive a setup grant of up to Rs. 50 lakh, with a maximum of 5 per year and 2 per district.",
+   "kind": "FEE",
+   "subject": "rajasthan_startup_policy",
+   "object": "incubator_setup_grant",
+   "detail": {
+    "amount": "5000000",
+    "currency": "INR",
+    "max_per_year": "5",
+    "max_per_district": "2"
+   },
+   "sourceId": "src:4fc361aa4ee4",
+   "evidence": "A grant of maximum 25% of the investment to be given to established and reputed Corporates, VCs and Angel Investors by the State Government for the creation of fixed assets to set up new incubation centres, with a maxium limit of Rs. 50 lakh. This grant is subject to a maxium of 5 per year and 2 per district.",
+   "confidence": 1
+  },
+  {
+   "claim": "Matching grants of up to Rs. 10 lakh will be given to institutions and individuals to run accelerator programs in Rajasthan.",
+   "kind": "FEE",
+   "subject": "rajasthan_startup_policy",
+   "object": "accelerator_program_grant",
+   "detail": {
+    "amount": "1000000",
+    "currency": "INR"
+   },
+   "sourceId": "src:4fc361aa4ee4",
+   "evidence": "A matching grant of upto Rs. 10 lakh will be given to competent institutions and individuals like Incubators, angel investors etc. to run Accelerator Programmes in Rajasthan.",
+   "confidence": 1
+  },
+  {
+   "claim": "Colleges and institutions can receive a one-time grant of Rs. 10 lakh to establish and operate an Entrepreneurship Cell (E-Cell).",
+   "kind": "FEE",
+   "subject": "rajasthan_startup_policy",
+   "object": "ecell_setup_grant",
+   "detail": {
+    "amount": "1000000",
+    "currency": "INR"
+   },
+   "sourceId": "src:4fc361aa4ee4",
+   "evidence": "The colleges will be given a one-time grant of Rs. 10 lakh to establish and operate an E-Cell.",
+   "confidence": 1
+  },
+  {
+   "claim": "The nodal agency for the Rajasthan Startup Policy is the Department of Information Technology & Communication (DoIT & C).",
+   "kind": "OFFICE",
+   "subject": "rajasthan_startup_policy",
+   "object": "nodal_agency",
+   "detail": {
+    "office_name": "Department of Information Technology & Communication (DoIT & C)"
+   },
+   "sourceId": "src:4fc361aa4ee4",
+   "evidence": "Nodal Agency | Department of Information Technology & Communication (DoIT & C)",
+   "confidence": 1
+  },
+  {
+   "claim": "The office address of the Department of Information Technology & Communication (DoIT & C) is IT Building, Yojana Bhawan, Tilak Marg, C-Scheme, Jaipur, Rajasthan, India - 302005.",
+   "kind": "OFFICE",
+   "subject": "rajasthan_startup_policy",
+   "object": "office_address",
+   "detail": {
+    "address": "IT Building,Yojana Bhawan, Tilak Marg, C-Scheme, Jaipur, Rajasthan, India - 302005"
+   },
+   "sourceId": "src:4fc361aa4ee4",
+   "evidence": "Office Address | IT Building,Yojana Bhawan, Tilak Marg, C-Scheme, Jaipur, Rajasthan, India - 302005",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact number for the Rajasthan Startup Policy is 0141-2929831 / 2922373.",
+   "kind": "HELPLINE",
+   "subject": "rajasthan_startup_policy",
+   "object": "contact_number",
+   "detail": {
+    "phone": "0141-2929831 / 2922373"
+   },
+   "sourceId": "src:4fc361aa4ee4",
+   "evidence": "Contact: 0141-2929831 / 2922373",
+   "confidence": 1
+  },
+  {
+   "claim": "The email address for the Rajasthan Startup Policy is secretary.itc@rajasthan.gov.in.",
+   "kind": "HELPLINE",
+   "subject": "rajasthan_startup_policy",
+   "object": "email_id",
+   "detail": {
+    "email": "secretary.itc@rajasthan.gov.in"
+   },
+   "sourceId": "src:4fc361aa4ee4",
+   "evidence": "Email Id: secretary.itc@rajasthan.gov.in",
+   "confidence": 1
+  },
+  {
+   "claim": "The toll-free number for Startup India is 1800 115 565, and it operates from 10:00 AM to 05:30 PM.",
+   "kind": "HELPLINE",
+   "subject": "startup_india",
+   "object": "toll_free_number",
+   "detail": {
+    "phone": "1800 115 565",
+    "working_hours": "10:00 AM to 05:30 PM"
+   },
+   "sourceId": "src:4fc361aa4ee4",
+   "evidence": "Our Toll Free Number : 1800 115 565 (10:00 AM to 05:30 PM)",
+   "confidence": 1
+  }
+ ],
+ "notFound": []
+}

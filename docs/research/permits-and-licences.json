@@ -16,6 +16,42 @@
    "scrapedOk": true
   },
   {
+   "id": "src:8f130659de66",
+   "url": "https://cot.gujarat.gov.in/vehicle-registration.htm",
+   "title": "Vehicle Registration | Services | Commissionerate of Transport, Government of Gujarat",
+   "domain": "cot.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "790b7ee6ea67c396cfa3a046d58cc9867c6eddfbafa0f05e91fbdd30bace39b1",
+   "cacheFile": ".ingest/pages/8f130659de6612a244b05185f4a65bf1806e2f4c.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:83167136359e",
+   "url": "https://boiler.gujarat.gov.in/m/faq.htm",
+   "title": "Director of Boilers | E-Citizen | FAQ",
+   "domain": "boiler.gujarat.gov.in",
+   "sourceType": "FAQ",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ffd02e3b7ed7dfd52e41322d34f011829f931460c5083db2e5f06b9b43a171a0",
+   "cacheFile": ".ingest/pages/83167136359ef4d22d693c9cc9938dd0782d7f83.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:57ed2acb0f84",
+   "url": "https://boiler.gujarat.gov.in/faq.htm",
+   "title": "Director of Boilers | E-Citizen | FAQ",
+   "domain": "boiler.gujarat.gov.in",
+   "sourceType": "FAQ",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "41a72cf65fd7cb9bbf35608c09a3606cfa9df042024056318bf7c27d733f253e",
+   "cacheFile": ".ingest/pages/57ed2acb0f84e4f924410ae991b19f0b9a21c9d4.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:e0cc234eb940",
    "url": "https://gsbb.gujarat.gov.in/access-benefit-sharing-abs.htm",
    "title": "Access & Benefit Sharing (ABS) | Activities | Gujarat Biodiversity Board",
@@ -64,6 +100,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:df77ac33eaae",
+   "url": "https://vahan.parivahan.gov.in/vahanservice/vahan/ui/appl_status/formTransactionHistory.xhtml",
+   "title": "VAHAN 4.0 (Citizen Services)",
+   "domain": "vahan.parivahan.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "3d5348daabaad49855cd8fb17c89ac7a08c23c207533cb7c6dd2376deba09817",
+   "cacheFile": ".ingest/pages/df77ac33eaae4e36b2578bfb63f033cfb46ac75d.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:d405aafc8d64",
    "url": "https://forestservices.gujarat.gov.in/eServices/Vanmahotsav/frmVanMahotsavapp.aspx",
    "title": "Gujarat Forest Department",
@@ -85,6 +133,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "30fa36cf27cd17ab94a6c546a7def72621e97bb4de7086eb475e5f94b22aa80a",
    "cacheFile": ".ingest/pages/a4264d4ffddb75a5410771d0fda9c475eb14e9ab.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:67263ea96ca1",
+   "url": "https://gpcb.gujarat.gov.in/PublicHearing/PublicHearingDetailEia/%E2%9C%A4xc%E2%9C%BFNgk%E2%9C%BFyfusnE5gvYCDug%E2%99%AC%E2%99%AC",
+   "title": "Gujarat Pollution Control Board - Official Portal",
+   "domain": "gpcb.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "1b405c1ef23ae48590e3afa5aa919700a49425a26a27ecd143f547ab2eb2ddd8",
+   "cacheFile": ".ingest/pages/67263ea96ca1f0d5b8ce1c98d594e26689fd58fe.md",
    "scrapedOk": true
   },
   {
@@ -111,6 +171,18 @@
    "cacheFile": ".ingest/pages/ddfe75bb179b1c2f573bc35e16488dc18090a7a9.md",
    "scrapedOk": true,
    "tlsVerified": false
+  },
+  {
+   "id": "src:cf088b48f3de",
+   "url": "https://col.gujarat.gov.in/e-shram.htm",
+   "title": "E-Shram Seva",
+   "domain": "col.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "5b98cc5cefe773a99e90ee43b9bad96a00571185ffa2f2ea4ddbfef66f9d527f",
+   "cacheFile": ".ingest/pages/cf088b48f3de3081b08fc0938b0430600806b7e2.md",
+   "scrapedOk": true
   },
   {
    "id": "src:a299a14d5099",
@@ -281,6 +353,30 @@
    "scrapedOk": true
   },
   {
+   "id": "src:6873645dfc69",
+   "url": "https://col.gujarat.gov.in/e-citizen-registration_of_trde_union.htm",
+   "title": "Labour Commissionerate | E-Citizen | Act & Rules | The Trade Unions Act",
+   "domain": "col.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "07c2d45c63cd900d4e8e695a4eecad50352431882aa46666da0d03a8d7276282",
+   "cacheFile": ".ingest/pages/6873645dfc692d963a83e5bb9523a6f069be266e.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:cb87993841b5",
+   "url": "https://vahan.parivahan.gov.in/vahangreensewa/vahan/application.xhtml",
+   "title": "VAHAN GREEN SEWA",
+   "domain": "vahan.parivahan.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "f32d1ed0ce35bbb36472f0d851e2105818a92d8692c425a718ba41ad163b4685",
+   "cacheFile": ".ingest/pages/cb87993841b54e050b4a46676ce1316fcd81a9b8.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:3352bf96ce66",
    "url": "https://ceiced.gujarat.gov.in/ced",
    "title": "CED | પ્રશ્નોત્તર | ઈ-નાગરિક | મુખ્ય વિદ્યુત નિરીક્ષક <br />અને<br />વિદ્યુત શુલ્ક સમાહર્તા",
@@ -317,6 +413,91 @@
    "scrapedOk": true
   },
   {
+   "id": "src:21b6ef1e1050",
+   "url": "https://suratmunicipal.gov.in/Services/Sitilink/SaralPassTravelScheme",
+   "title": "Sitilink - SARAL Pass Travel Scheme",
+   "domain": "suratmunicipal.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d22bac10f7ae0adc3d30f0f931f368ccffd54eef5e733b459d5ab0370e19fc63",
+   "cacheFile": ".ingest/pages/21b6ef1e10508811717ba5a9549b7ca533e4cbc3.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:1b512feb4f0f",
+   "url": "https://parivahan.gov.in/en/faq/learners-license-related-services",
+   "title": "LL – Learners License related services | Parivahansewa",
+   "domain": "parivahan.gov.in",
+   "sourceType": "FAQ",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "4cda211945eda2e46d47b0cbf8a6b9d274ebe2d446497a919591f4f41bf4c118",
+   "cacheFile": ".ingest/pages/1b512feb4f0f423e1b505d8cb4a79ca57275d768.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:6d9d50cb743e",
+   "url": "https://www.vahan.parivahan.gov.in/npermit/faces/welcome.jsp",
+   "title": "Online National Permit::Pay National Permit Authorization Fee Online",
+   "domain": "vahan.parivahan.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "94714f2ae5ab3e157a42dfbcbfe43fbb4e8f074833e9d488c120f5d80935dc38",
+   "cacheFile": ".ingest/pages/6d9d50cb743ecf76b60b88518e2f9989aaca399d.md",
+   "scrapedOk": true,
+   "tlsVerified": false
+  },
+  {
+   "id": "src:435ad0a265ce",
+   "url": "https://fed.gujarat.gov.in/guidelines.htm",
+   "title": "Guidelines | Forest and Environment Department, Government of Gujarat",
+   "domain": "fed.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "fcd47b123001cb188bb5efeaa4fb7de9e6543bf63cfce4d6e1ab196786043240",
+   "cacheFile": ".ingest/pages/435ad0a265cecb8e00a38e9fcbd315cbf017a004.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:9f03ddbb98ec",
+   "url": "https://srtgeda.gujarat.gov.in/developer-registration",
+   "title": "GEDA | Unified Single Window Rooftop PV Portal",
+   "domain": "srtgeda.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "b0e5cd644e509cfc928c16d76916408aa4b75772d4823c915128daf582bd79a3",
+   "cacheFile": ".ingest/pages/9f03ddbb98ecfb995f5ec65bb7fdea7a847871b2.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:63e143ef3b33",
+   "url": "https://vahan.parivahan.gov.in/puc",
+   "title": "Welcome Transport Department",
+   "domain": "vahan.parivahan.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "edfca81c8e2fa0784ee05c7727b14d8716e7825da732d3ced53801c8de6f0ff1",
+   "cacheFile": ".ingest/pages/63e143ef3b33303f266d253923ce2c5c1d98beb0.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:0a14063e7f06",
+   "url": "https://vahan.parivahan.gov.in/nrservices",
+   "title": "|| V A H A N | National Register e-Services | Ministry of Road Transport and Highways, Government of India ||",
+   "domain": "vahan.parivahan.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "e433e9d398c09ecf24955b44371380c07b10656bc8b08020346db1d5891c9b8c",
+   "cacheFile": ".ingest/pages/0a14063e7f06f411fd4d0e4d305dd293cad2fa27.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:61f17e5a5fa6",
    "url": "https://girlion.gujarat.gov.in/PermitBookingForJungleTrail.aspx",
    "title": "GSLCS",
@@ -326,6 +507,42 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "78f42a2e885ae3b0f6db6b63b33a09b5e5ca0974438ebf54047525eba7dbb5d1",
    "cacheFile": ".ingest/pages/61f17e5a5fa67de33467be0fe5ef9e6351913d8a.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:934e01778690",
+   "url": "https://parivahan.gov.in/en/content/permanent-license",
+   "title": "Permanent License | Parivahansewa",
+   "domain": "parivahan.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "7e6e2d38e40a7d4635bae5d9b28720e06a65fcbf63c2e155f82385f8add877c9",
+   "cacheFile": ".ingest/pages/934e0177869052689d2afa44183c5a737ebf2c9a.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:4f7bb61fb6cb",
+   "url": "https://srtgeda.gujarat.gov.in/installer-registration",
+   "title": "GEDA | Unified Single Window Rooftop PV Portal",
+   "domain": "srtgeda.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "59e99d257c70b58a289b1def1a71ffd484e0112f43a33794547e4d4d3968efc8",
+   "cacheFile": ".ingest/pages/4f7bb61fb6cbaacb90b6998bf839e33aa442e261.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:ebcf607d8f35",
+   "url": "https://vahan.parivahan.gov.in/vahanservice",
+   "title": "VAHAN 4.0 (Citizen Services) ~SP-MORTH-WS03~175~8012",
+   "domain": "vahan.parivahan.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "a5b95dc3573beaab596d5af91adaaebfe5fb4a993e97c00350c4174d1e4b9694",
+   "cacheFile": ".ingest/pages/ebcf607d8f3522fcfddf80859903378a3f4621ac.md",
    "scrapedOk": true
   },
   {
@@ -350,6 +567,30 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "f284dce482a94bb937a3366c08bb1212f6c7f0a6120e6c61a699a4291f30231c",
    "cacheFile": ".ingest/pages/7d05e57bbb387cb4d813d1a7a7cd66d8736be5c6.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:99aae295d09c",
+   "url": "https://geda.gujarat.gov.in/geda/2023/12/20/Application%20Form/10337",
+   "title": "Solar Energy | Gujarat Energy Development Agency",
+   "domain": "geda.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "55cc4d18ab12ec89c314adbc8cf8e77835af8ef1e4a9944cac32cd6d11b338c2",
+   "cacheFile": ".ingest/pages/99aae295d09c1f72f98f7b9b19b9d0f95c6c646c.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:0f7d9311985a",
+   "url": "https://vahan.parivahan.gov.in/aitp/faces/disposePendingTransaction.xhtml",
+   "title": "|| V A H A N | All India Tourist Permit | Ministry of Road Transport and Highways, Government of India ||",
+   "domain": "vahan.parivahan.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "8dc86191de303378eb41e8f1557a95b76dbcd6d12c0974770dad035d9a847ed6",
+   "cacheFile": ".ingest/pages/0f7d9311985ab5b9cc0bd7fd8a86f1fb30c15d90.md",
    "scrapedOk": true
   },
   {
@@ -673,6 +914,830 @@
    },
    "sourceId": "src:486c8338b1b8",
    "evidence": "The services such as the issue of duplicate permits for lost/mutilated/torn permits and bulk booking for more than six people (for Gir Jungle Trail, GIZ Devalia Gypsy Safari and Girnar Nature Safari) will not be provided.",
+   "confidence": 1
+  },
+  {
+   "claim": "Form-20 must be submitted online for registration of a new vehicle.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "form_20",
+   "object": "new_vehicle",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "Application in Form - 20 should be made for registration of a New Vehicle. It is compulsory to submit Form - 20 online on the web portal of the department.",
+   "confidence": 1
+  },
+  {
+   "claim": "A printout of Form-20 must be submitted at the concerned R.T.O. along with other necessary documents.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "form_20_printout",
+   "object": "rt_o",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "The print out of uploaded Form - 20 should be taken and should be submitted at the concerned R.T.O. along with other necessary documents.",
+   "confidence": 1
+  },
+  {
+   "claim": "A Sale Certificate in Form No.21 is required for vehicle registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "sale_certificate",
+   "object": "form_21",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "Sale Certificate in Form No.21",
+   "confidence": 1
+  },
+  {
+   "claim": "A Road worthiness certificate in Form 22 is required for vehicle registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "road_worthiness_certificate",
+   "object": "form_22",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "Road worthiness certificate in Form 22.",
+   "confidence": 1
+  },
+  {
+   "claim": "Identity proof with photographs of the applicant is required for vehicle registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "identity_proof",
+   "object": "applicant",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "Identity proof with photographs of applicant.",
+   "confidence": 1
+  },
+  {
+   "claim": "Vehicle insurance certificate is required for vehicle registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "vehicle_insurance",
+   "object": "certificate",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "Vehicle insurance certificate.",
+   "confidence": 1
+  },
+  {
+   "claim": "Proof of address is required for vehicle registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "proof_of_address",
+   "object": "registration",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "Proof of address",
+   "confidence": 1
+  },
+  {
+   "claim": "In case the vehicle is imported, a bill of entry submitted to Customs is required.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "imported_vehicle",
+   "object": "bill_of_entry",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "In case vehicle is imported, then, bill of entry submitted to Customs and in case, vehicle is not a body built vehicle, then Form No.22 Part 2 (A) should also be submitted along with the application.",
+   "confidence": 1
+  },
+  {
+   "claim": "Passport, L.I.C. Policy, Electoral Voter I-Card, Light Bill, Telephone Bill, receipt of House Tax with address, Pay Slip of Central/State/Local self Government or an Affidavit from the applicant can be submitted as proof of address and identification.",
+   "kind": "ACCEPTED_ALTERNATIVES",
+   "subject": "proof_of_address",
+   "object": "accepted_documents",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "Passport, L.I.C. Policy, Electoral Voter I-Card, Light Bill, Telephone Bill, receipt of House Tax with address, Pay Slip of Central/State/Local self Government or an Affidavit from the applicant to that effect can be submitted as a proof of address as well as proof of identification.",
+   "confidence": 1
+  },
+  {
+   "claim": "A new vehicle is registered in the R.T.O. where the vehicle owner ordinarily resides or has his place of business.",
+   "kind": "OFFICE",
+   "subject": "new_vehicle",
+   "object": "rt_o",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "A new vehicle is registered in the R.T.O. where the vehicle owner ordinarily resides or has his place of business.",
+   "confidence": 1
+  },
+  {
+   "claim": "The inspection of two wheelers and car is permitted to be done by authorized dealer in the State.",
+   "kind": "CHANNEL",
+   "subject": "vehicle_inspection",
+   "object": "authorized_dealer",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "The inspection of two wheelers and car is permitted to be done by authorized dealer in the State.",
+   "confidence": 1
+  },
+  {
+   "claim": "If the certificate is not issued by the dealer, the vehicle is required to be produced in R.T.O. for inspection.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "vehicle_inspection",
+   "object": "rt_o",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "In case, such certificate is issued by the dealer, the same should be attached with the application; otherwise the vehicle is required to be produced in R.T.O. for inspection.",
+   "confidence": 1
+  },
+  {
+   "claim": "If all papers attached to Form-20 are found correct, then a registration number is allocated to the vehicle.",
+   "kind": "ACTION",
+   "subject": "form_20",
+   "object": "registration_number",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "If, all papers attached to Form-20 are found correct, then, a registration number is allocated to the vehicle, Unless a selected number has been obtained by the owner paying appropriate fee, the vehicle registration number is allocated by computer through a random system after the registration process is completed.",
+   "confidence": 1
+  },
+  {
+   "claim": "The vehicle owner is informed about the registration number through SMS or E-Mail address submitted by them.",
+   "kind": "CHANNEL",
+   "subject": "registration_number",
+   "object": "notification",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "The vehicle owner is informed about the registration number through SMS or E-Mail address submitted by them.",
+   "confidence": 1
+  },
+  {
+   "claim": "The smart R.C. Book of the vehicle is sent by speed-post at the address indicated by the applicant in the Form.",
+   "kind": "ACTION",
+   "subject": "smart_rc_book",
+   "object": "speed_post",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "The smart R.C. Book of the vehicle is sent by speed-post at the address indicated by the applicant in the Form.",
+   "confidence": 1
+  },
+  {
+   "claim": "A fee of Rs.1000/- is required for two wheelers for choice number selection.",
+   "kind": "FEE",
+   "subject": "choice_number",
+   "object": "two_wheeler",
+   "detail": {
+    "amount": 1000,
+    "currency": "INR"
+   },
+   "sourceId": "src:8f130659de66",
+   "evidence": "After public auction, the remaining numbers can be selected as choice number by paying a fee of Rs.1000/- for two wheelers and Rs.5000/- for four wheelers.",
+   "confidence": 1
+  },
+  {
+   "claim": "A fee of Rs.5000/- is required for four wheelers for choice number selection.",
+   "kind": "FEE",
+   "subject": "choice_number",
+   "object": "four_wheeler",
+   "detail": {
+    "amount": 5000,
+    "currency": "INR"
+   },
+   "sourceId": "src:8f130659de66",
+   "evidence": "After public auction, the remaining numbers can be selected as choice number by paying a fee of Rs.1000/- for two wheelers and Rs.5000/- for four wheelers.",
+   "confidence": 1
+  },
+  {
+   "claim": "A fee of Rs.150/- is required for transfer of ownership of two wheelers.",
+   "kind": "FEE",
+   "subject": "transfer_ownership",
+   "object": "two_wheeler",
+   "detail": {
+    "amount": 150,
+    "currency": "INR"
+   },
+   "sourceId": "src:8f130659de66",
+   "evidence": "A fee of Rs.150/- in case of two wheelers and Rs.300/- in case of motor car is required to be paid as transfer fee.",
+   "confidence": 1
+  },
+  {
+   "claim": "A fee of Rs.300/- is required for transfer of ownership of motor cars.",
+   "kind": "FEE",
+   "subject": "transfer_ownership",
+   "object": "motor_car",
+   "detail": {
+    "amount": 300,
+    "currency": "INR"
+   },
+   "sourceId": "src:8f130659de66",
+   "evidence": "A fee of Rs.150/- in case of two wheelers and Rs.300/- in case of motor car is required to be paid as transfer fee.",
+   "confidence": 1
+  },
+  {
+   "claim": "A fee of Rs.200/- is required for entering or cancelling hypothecation details.",
+   "kind": "FEE",
+   "subject": "hypothecation_details",
+   "object": "fee",
+   "detail": {
+    "amount": 200,
+    "currency": "INR"
+   },
+   "sourceId": "src:8f130659de66",
+   "evidence": "A fee of Rs.200/- is required to be paid for this purpose.",
+   "confidence": 1
+  },
+  {
+   "claim": "A fee of Rs.150/- is required for a duplicate R.C. Book for motor cycles.",
+   "kind": "FEE",
+   "subject": "duplicate_rc_book",
+   "object": "motor_cycle",
+   "detail": {
+    "amount": 150,
+    "currency": "INR"
+   },
+   "sourceId": "src:8f130659de66",
+   "evidence": "A fee of Rs.150/- for motor cycle and a fee of Rs.300/- for motor car is required to be paid.",
+   "confidence": 1
+  },
+  {
+   "claim": "A fee of Rs.300/- is required for a duplicate R.C. Book for motor cars.",
+   "kind": "FEE",
+   "subject": "duplicate_rc_book",
+   "object": "motor_car",
+   "detail": {
+    "amount": 300,
+    "currency": "INR"
+   },
+   "sourceId": "src:8f130659de66",
+   "evidence": "A fee of Rs.150/- for motor cycle and a fee of Rs.300/- for motor car is required to be paid.",
+   "confidence": 1
+  },
+  {
+   "claim": "A vehicle brought from another state must be produced for compulsory inspection.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "vehicle_from_other_state",
+   "object": "inspection",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "The vehicle is required to be produced compulsorily for inspection.",
+   "confidence": 1
+  },
+  {
+   "claim": "A declaration in Form F.T. must be made within 7 days if a vehicle is brought into the State permanently.",
+   "kind": "TIMELINE",
+   "subject": "declaration_form_ft",
+   "object": "permanent_vehicle",
+   "detail": {
+    "days": 7
+   },
+   "sourceId": "src:8f130659de66",
+   "evidence": "If a vehicle is brought in the State permanently, then the declaration in Form F.T. should be made within a period of 7 days.",
+   "confidence": 1
+  },
+  {
+   "claim": "A vehicle must be produced for inspection within 14 days of approval for change in vehicle.",
+   "kind": "TIMELINE",
+   "subject": "vehicle_inspection",
+   "object": "change_in_vehicle",
+   "detail": {
+    "days": 14
+   },
+   "sourceId": "src:8f130659de66",
+   "evidence": "vehicle should be produced for inspection within 14 days of such approval being given.",
+   "confidence": 1
+  },
+  {
+   "claim": "If you purchase a secondhand boiler from Gujarat or another state, you must inform the Boiler office.",
+   "kind": "ACTION",
+   "subject": "change_in_ownership",
+   "object": "boiler_office",
+   "detail": {},
+   "sourceId": "src:83167136359e",
+   "evidence": "Do I required to inform Boiler office if I purchase secondhand boiler from Gujarat or other state ?\nA:\nYes, in case of change in ownership Boiler office shall be informed and necessary other formalities are required to be completed.",
+   "confidence": 1
+  },
+  {
+   "claim": "Buyers and sellers must submit a letter to the Director's office in Ahmedabad for change in ownership of a boiler.",
+   "kind": "ACTION",
+   "subject": "change_in_ownership",
+   "object": "directors_office_ahmedabad",
+   "detail": {},
+   "sourceId": "src:83167136359e",
+   "evidence": "what other formalities are to be carried out ?\nA:\nBuyers and sellers letter is to be submitted to Directors office at Ahemadabad.",
+   "confidence": 1
+  },
+  {
+   "claim": "To register a new boiler, an application with required fees and original maker's papers must be submitted to the concerned area office.",
+   "kind": "ACTION",
+   "subject": "boiler_registration",
+   "object": "concerned_area_office",
+   "detail": {},
+   "sourceId": "src:83167136359e",
+   "evidence": "I have purchased a new boiler what should I do ?\nA:\nAn application with required fees ( paid in Govt. treasury through Chalan) and original makers papers is to be submitted to concerned area office.",
+   "confidence": 1
+  },
+  {
+   "claim": "The boiler registration fee is based on the heating surface area of the boiler and is as per Regulation 385 of IBR 1950.",
+   "kind": "FEE",
+   "subject": "boiler_registration",
+   "object": "heating_surface_area",
+   "detail": {
+    "regulation": "385 of IBR 1950"
+   },
+   "sourceId": "src:83167136359e",
+   "evidence": "what is the Registration fee structure ?\nA:\nIt is as per Regulation 385 of IBR 1950 . It is based on Heating surface area of your boiler.",
+   "confidence": 1
+  },
+  {
+   "claim": "The boiler inspection fee is as per Regulation 395A of IBR 1950.",
+   "kind": "FEE",
+   "subject": "boiler_inspection",
+   "object": "regulation_395a",
+   "detail": {
+    "regulation": "395A of IBR 1950"
+   },
+   "sourceId": "src:83167136359e",
+   "evidence": "What is Inspection fee structure ?\nA:\nIt is as per Regulation 395A of IBR 1950.",
+   "confidence": 1
+  },
+  {
+   "claim": "The address and jurisdiction of the concerned Boiler department office can be found on the Boiler department website.",
+   "kind": "OFFICE",
+   "subject": "boiler_department_office",
+   "object": "boiler_department_website",
+   "detail": {
+    "url": "www.boiler.gujarat.gov.in"
+   },
+   "sourceId": "src:83167136359e",
+   "evidence": "How I can get information of concern Boiler department office address with its jurisdiction ?\nA:\nIt is available on Boiler department website\nwww.boiler.gujarat.gov.in",
+   "confidence": 1
+  },
+  {
+   "claim": "The procedure for steam line is available on the Boiler department website.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "steam_line_procedure",
+   "object": "boiler_department_website",
+   "detail": {
+    "url": "www.boiler.gujarat.gov.in"
+   },
+   "sourceId": "src:83167136359e",
+   "evidence": "what is the procedure about steam line ?\nA:\nIt is available on Boiler department website\nwww.boiler.gujarat.gov.in",
+   "confidence": 1
+  },
+  {
+   "claim": "To qualify as an IBR welder, one must meet the qualification and experience requirements mentioned in Regulation 608 of IBR 1950.",
+   "kind": "ELIGIBILITY",
+   "subject": "ibr_welder_qualification",
+   "object": "regulation_608",
+   "detail": {
+    "regulation": "608 of IBR 1950"
+   },
+   "sourceId": "src:83167136359e",
+   "evidence": "Who is eligible to qualify as IBR welder ?\nA:\nQualification & experience requirements is mentioned in Regulation 608 of IBR 1950. Those fulfilling these criterias are eligible to apply for welder qualification test.",
+   "confidence": 1
+  },
+  {
+   "claim": "An IBR welder can work freelance after getting the welder certificate, but must maintain records as per Regulation 615 of IBR 1950.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "ibr_welder_freelance",
+   "object": "regulation_615",
+   "detail": {
+    "regulation": "615 of IBR 1950"
+   },
+   "sourceId": "src:83167136359e",
+   "evidence": "Can a welder work fue lance after getting welder certificate. Yes, He has to maintain\nrecords as per Reg.No. 615 of IBr-1950.",
+   "confidence": 1
+  },
+  {
+   "claim": "Before offering a welder qualification test, all materials like plate, pipe, tube of IBR quality and size as mentioned in Reg. 609 (B) of IBR-1950 must be ready with relevant material test certificates.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "welder_qualification_test",
+   "object": "regulation_609b",
+   "detail": {
+    "regulation": "609 (B) of IBR-1950"
+   },
+   "sourceId": "src:83167136359e",
+   "evidence": "What Preparation is needed before offering welder qualification test ?\nA:\nAll materials like plate, pipe, tube of IBR quality &size as mentioned in Reg. 609 (B) of IBR-1950 is to be kept ready with relevant materials test certificate in original for verification.",
+   "confidence": 1
+  },
+  {
+   "claim": "There are two types of welder qualification tests: Initial welder qualification test and Welder RE-qualification test.",
+   "kind": "ACTION",
+   "subject": "welder_qualification_test",
+   "object": "test_types",
+   "detail": {
+    "types": "Initial welder qualification test, Welder RE-qualification test"
+   },
+   "sourceId": "src:83167136359e",
+   "evidence": "What Type of welder test is conducted ?\nA:\nThere is two type of welder qualification test\nInitial welder qualification test\nWelder RE-qualification test.",
+   "confidence": 1
+  },
+  {
+   "claim": "Form XII is a prescribed form as per IBR-1950 where all the details of a welder must be filled and submitted to the local IBR office.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "form_xii",
+   "object": "ibr_1950",
+   "detail": {
+    "regulation": "IBR-1950"
+   },
+   "sourceId": "src:83167136359e",
+   "evidence": "What is Form XII ?\nA:\nForm XII is prescribed form as per IBR-1950. All the Details of welder are to be filled in this form & submitted to local IBR office.",
+   "confidence": 1
+  },
+  {
+   "claim": "An IBR qualified welder from one state can work in another state after getting endorsement on the original welder certificate by the CIB of the other state and paying the endorsement fee as per Regulation 616.",
+   "kind": "ACTION",
+   "subject": "ibr_welder_inter_state",
+   "object": "cib_endorsement",
+   "detail": {
+    "regulation": "616"
+   },
+   "sourceId": "src:83167136359e",
+   "evidence": "Can a IBR qualified welder of one state, work in other state ?\nA:\nYes, This is possible after getting endorsement on original welder certificate by CIB of other state. Endorsement fees as per regulation 616 is to be paid.",
+   "confidence": 1
+  },
+  {
+   "claim": "A fee must be paid in the Government Treasury and an original challan must be submitted to the IBR office for the welder qualification test.",
+   "kind": "FEE",
+   "subject": "welder_qualification_test",
+   "object": "govt_tresary",
+   "detail": {},
+   "sourceId": "src:83167136359e",
+   "evidence": "What is the fees/charges to be paid for welder qualification test ?\nA:\nA fees of Rs. Is to be paid in Govt. Tresary and original challan is required to be submitted in IBR office.",
+   "confidence": 1
+  },
+  {
+   "claim": "A NOC for a boiler is issued by the Boiler office if the boiler meets the conditions mentioned in section 2(b) of the Boiler Act-1923.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "boiler_noc",
+   "object": "boiler_act_1923",
+   "detail": {
+    "section": "2(b)"
+   },
+   "sourceId": "src:83167136359e",
+   "evidence": "Can I get NOC of My Boiler ?\nA:\nBoiler office issues NOC of a Particular Boiler if it meets the condition as mentioned in section 2(b) of Boiler Act-1923.",
+   "confidence": 1
+  },
+  {
+   "claim": "To apply for a NOC, the following documents must be submitted: filled Annexure form, fees paid through Treasurychallan of Rs. 800/-, and three copies of boiler drawings stating its volumetric capacity, pressure, etc., signed by the owner.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "noc_application",
+   "object": "required_documents",
+   "detail": {
+    "fee": "800",
+    "currency": "Rs."
+   },
+   "sourceId": "src:83167136359e",
+   "evidence": "Which documents are required to accompany NOC application ?\nA:\nFilled Annexure form\nFees paid through Tresurychallan of Rs. 800/-\nBoiler Drawings (3 copies) stating its volumetric capacity, pressure etc. (signed by Owner)",
+   "confidence": 1
+  },
+  {
+   "claim": "A volumetric test of a boiler is conducted by a Boiler inspector to ensure the boiler's capacity is less than the limit.",
+   "kind": "ACTION",
+   "subject": "volumetric_test",
+   "object": "boiler_inspector",
+   "detail": {},
+   "sourceId": "src:83167136359e",
+   "evidence": "What is Volumetric Test ?\nA:\nVolumetric test of a Boiler is conducted by Boiler inspector to ensure that Boiler in questions capacity less than as let. It is actually conducted on Boiler.",
+   "confidence": 1
+  },
+  {
+   "claim": "NOC is not valid for life; it must be reissued after conducting a volumetric test or if the boiler pressure parts are changed, modified, or altered.",
+   "kind": "TIMELINE",
+   "subject": "noc_validity",
+   "object": "volumetric_test",
+   "detail": {},
+   "sourceId": "src:83167136359e",
+   "evidence": "Is the NOC id valid for life time ?\nA:\nNOC is required to be Re issued after conducting volumetric test of coil / or Boiler pressure parts is changed modified of altered.",
+   "confidence": 1
+  },
+  {
+   "claim": "A firm can apply for recognition as an IBR approved manufacturing unit in categories such as Boiler/pressure vessels/other pressure parts, fittings and scantling, pipe and tubes, valves including safety valves, foundry and forgings, steel plants, and laboratory.",
+   "kind": "ACTION",
+   "subject": "firm_recognition",
+   "object": "ibr_approved_unit",
+   "detail": {
+    "categories": "Boiler/pressure vessels/other pressure parts, fittings and scantling, pipe and tubes, valves including safety valves, foundry and forgings, steel plants, laboratory"
+   },
+   "sourceId": "src:83167136359e",
+   "evidence": "What are the different categories of firm recognisation as a IBR approved Manuf. Unit ?\nA:\nA film can apply for\nBoiler /pressure vessels /other pressureparts Manuf. Unit.\nfitting and scantling\nPipe & Tubes\nValves including safety valves\nFoundry & forgings\nSteel Plants\nLaboratory",
+   "confidence": 1
+  },
+  {
+   "claim": "The fees for various categories of firm approval and renewal is mentioned in Rules 30 A of Gujarat Boiler (Amendment Rules, 2007).",
+   "kind": "FEE",
+   "subject": "firm_recognition",
+   "object": "rules_30a",
+   "detail": {
+    "rules": "30 A of Gujarat Boiler (Amendment Rules, 2007)"
+   },
+   "sourceId": "src:83167136359e",
+   "evidence": "What is the fees for various categories of firm approval and Renewal ?\nA:\nIt is mentioned in Rules : 30 A of Gujarat Boiler ( Amendment Rules, 2007)",
+   "confidence": 1
+  },
+  {
+   "claim": "Various application forms for firm recognition can be downloaded from the Boiler department website.",
+   "kind": "CHANNEL",
+   "subject": "application_forms",
+   "object": "boiler_department_website",
+   "detail": {
+    "url": "www.boiler.gujarat.gov.in"
+   },
+   "sourceId": "src:83167136359e",
+   "evidence": "From Where I can get various application form ?\nA:\nVarious application forms can be download from Boiler department website\nwww.boiler.gujarat.gov.in",
+   "confidence": 1
+  },
+  {
+   "claim": "The approval process for a firm involves scrutiny of the application and on-site verification of the details provided.",
+   "kind": "ACTION",
+   "subject": "firm_recognition",
+   "object": "approval_process",
+   "detail": {},
+   "sourceId": "src:83167136359e",
+   "evidence": "What is the approval process ?\nA:\nApproval process is mainly scrutiny of application and than on site verification of details furnished in the application.",
+   "confidence": 1
+  },
+  {
+   "claim": "Application fees for firm recognition must be paid in the Government Treasury through a chalan, and the original challan must be submitted to the Boiler office.",
+   "kind": "FEE",
+   "subject": "firm_recognition",
+   "object": "govt_tresary",
+   "detail": {},
+   "sourceId": "src:83167136359e",
+   "evidence": "How the application fees can be deposited ?\nA:\nApplication fees is to be paid in Govt. treasury through chalan and original challan is to be submitted to Boiler office.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applications for firm recognition must be submitted to the Director’s office in Ahmedabad.",
+   "kind": "OFFICE",
+   "subject": "firm_recognition",
+   "object": "directors_office_ahmedabad",
+   "detail": {},
+   "sourceId": "src:83167136359e",
+   "evidence": "Where I can apply ?\nA:\nApplication can be submitted to Director’s office at Ahmedabad.",
+   "confidence": 1
+  },
+  {
+   "claim": "If you purchase a secondhand boiler, you must inform the Boiler office and complete necessary formalities.",
+   "kind": "ACTION",
+   "subject": "secondhand_boiler_purchase",
+   "object": "boiler_office",
+   "detail": {},
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "Do I required to inform Boiler office if I purchase secondhand boiler from Gujarat or other state ?\nA:\nYes, in case of change in ownership Boiler office shall be informed and necessary other formalities are required to be completed.",
+   "confidence": 1
+  },
+  {
+   "claim": "Buyers and sellers must submit a letter to the Director's office in Ahmedabad for change in ownership formalities.",
+   "kind": "ACTION",
+   "subject": "change_in_ownership_formalities",
+   "object": "directors_office_ahmedabad",
+   "detail": {},
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "what other formalities are to be carried out ?\nA:\nBuyers and sellers letter is to be submitted to Directors office at Ahemadabad.",
+   "confidence": 1
+  },
+  {
+   "claim": "To register a new boiler, an application with required fees and original maker's papers must be submitted to the concerned area office.",
+   "kind": "ACTION",
+   "subject": "new_boiler_registration",
+   "object": "concerned_area_office",
+   "detail": {},
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "I have purchased a new boiler what should I do ?\nA:\nAn application with required fees ( paid in Govt. treasury through Chalan) and original makers papers is to be submitted to concerned area office.",
+   "confidence": 1
+  },
+  {
+   "claim": "Boiler registration fees are based on the heating surface area of the boiler as per Regulation 385 of IBR 1950.",
+   "kind": "FEE",
+   "subject": "boiler_registration",
+   "object": "heating_surface_area",
+   "detail": {
+    "regulation": "385 of IBR 1950"
+   },
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "what is the Registration fee structure ?\nA:\nIt is as per Regulation 385 of IBR 1950 . It is based on Heating surface area of your boiler.",
+   "confidence": 1
+  },
+  {
+   "claim": "Boiler inspection fees are as per Regulation 395A of IBR 1950.",
+   "kind": "FEE",
+   "subject": "boiler_inspection",
+   "object": "regulation_395a",
+   "detail": {
+    "regulation": "395A of IBR 1950"
+   },
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "What is Inspection fee structure ?\nA:\nIt is as per Regulation 395A of IBR 1950.",
+   "confidence": 1
+  },
+  {
+   "claim": "Information about the concerned Boiler department office address and jurisdiction is available on the Boiler department website.",
+   "kind": "OFFICE",
+   "subject": "boiler_department_office",
+   "object": "boiler_department_website",
+   "detail": {
+    "url": "www.boiler.gujarat.gov.in"
+   },
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "How I can get information of concern Boiler department office address with its jurisdiction ?\nA:\nIt is available on Boiler department website\nwww.boiler.gujarat.gov.in",
+   "confidence": 1
+  },
+  {
+   "claim": "Information about the procedure for steam line is available on the Boiler department website.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "steam_line_procedure",
+   "object": "boiler_department_website",
+   "detail": {
+    "url": "www.boiler.gujarat.gov.in"
+   },
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "what is the procedure about steam line ?\nA:\nIt is available on Boiler department website\nwww.boiler.gujarat.gov.in",
+   "confidence": 1
+  },
+  {
+   "claim": "Eligibility for IBR welder qualification is based on criteria mentioned in Regulation 608 of IBR 1950.",
+   "kind": "ELIGIBILITY",
+   "subject": "ibr_welder_qualification",
+   "object": "regulation_608",
+   "detail": {
+    "regulation": "608 of IBR 1950"
+   },
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "Who is eligible to qualify as IBR welder ?\nA:\nQualification & experience requirements is mentioned in Regulation 608 of IBR 1950. Those fulfilling these criterias are eligible to apply for welder qualification test.",
+   "confidence": 1
+  },
+  {
+   "claim": "A welder must maintain records as per Regulation 615 of IBR 1950 to work freelance after obtaining a certificate.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "ibr_welder_freelance",
+   "object": "regulation_615",
+   "detail": {
+    "regulation": "615 of IBR 1950"
+   },
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "Can a welder work fue lance after getting welder certificate. Yes, He has to maintain\nrecords as per Reg.No. 615 of IBr-1950.",
+   "confidence": 1
+  },
+  {
+   "claim": "Before the welder qualification test, materials like plate, pipe, and tube of IBR quality and size as mentioned in Regulation 609 (B) of IBR-1950 must be ready with relevant material test certificates.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "welder_qualification_test_preparation",
+   "object": "regulation_609b",
+   "detail": {
+    "regulation": "609 (B) of IBR-1950"
+   },
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "What Preparation is needed before offering welder qualification test ?\nA:\nAll materials like plate, pipe, tube of IBR quality &size as mentioned in Reg. 609 (B) of IBR-1950 is to be kept ready with relevant materials test certificate in original for verification.",
+   "confidence": 1
+  },
+  {
+   "claim": "There are two types of welder qualification tests: Initial welder qualification test and Welder RE-qualification test.",
+   "kind": "ACTION",
+   "subject": "welder_qualification_test_types",
+   "object": "initial_and_re_qualification",
+   "detail": {},
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "What Type of welder test is conducted ?\nA:\nThere is two type of welder qualification test\nInitial welder qualification test\nWelder RE-qualification test.",
+   "confidence": 1
+  },
+  {
+   "claim": "Form XII is a prescribed form under IBR-1950 where all welder details must be filled and submitted to the local IBR office.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "form_xii",
+   "object": "local_ibr_office",
+   "detail": {
+    "form": "Form XII",
+    "regulation": "IBR-1950"
+   },
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "What is Form XII ?\nA:\nForm XII is prescribed form as per IBR-1950. All the Details of welder are to be filled in this form & submitted to local IBR office.",
+   "confidence": 1
+  },
+  {
+   "claim": "An IBR qualified welder from one state can work in another state after getting endorsement on the original welder certificate by the CIB of the other state and paying the endorsement fee as per Regulation 616.",
+   "kind": "ACTION",
+   "subject": "ibr_welder_cross_state",
+   "object": "cib_of_other_state",
+   "detail": {
+    "regulation": "616 of IBR-1950"
+   },
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "Can a IBR qualified welder of one state, work in other state ?\nA:\nYes, This is possible after getting endorsement on original welder certificate by CIB of other state. Endorsement fees as per regulation 616 is to be paid.",
+   "confidence": 1
+  },
+  {
+   "claim": "A fee must be paid in the Government Treasury and an original challan must be submitted to the IBR office for the welder qualification test.",
+   "kind": "FEE",
+   "subject": "welder_qualification_test_fee",
+   "object": "govt_tresary",
+   "detail": {},
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "What is the fees/charges to be paid for welder qualification test ?\nA:\nA fees of Rs. Is to be paid in Govt. Tresary and original challan is required to be submitted in IBR office.",
+   "confidence": 1
+  },
+  {
+   "claim": "NOC for a boiler is issued if it meets the conditions mentioned in section 2(b) of the Boiler Act-1923.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "boiler_noc",
+   "object": "boiler_act_1923",
+   "detail": {
+    "section": "2(b) of Boiler Act-1923"
+   },
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "Can I get NOC of My Boiler ?\nA:\nBoiler office issues NOC of a Particular Boiler if it meets the condition as mentioned in section 2(b) of Boiler Act-1923.",
+   "confidence": 1
+  },
+  {
+   "claim": "To apply for NOC, a filled Annexure form, a Rs. 800/- Treasury challan, and three copies of boiler drawings (signed by the owner) are required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "noc_application",
+   "object": "annexure_form",
+   "detail": {
+    "fee": "800",
+    "currency": "Rs."
+   },
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "Which documents are required to accompany NOC application ?\nA:\nFilled Annexure form\nFees paid through Tresurychallan of Rs. 800/-\nBoiler Drawings (3 copies) stating its volumetric capacity, pressure etc. (signed by Owner)",
+   "confidence": 1
+  },
+  {
+   "claim": "A volumetric test of a boiler is conducted by a boiler inspector to ensure its capacity is less than the limit.",
+   "kind": "ACTION",
+   "subject": "volumetric_test",
+   "object": "boiler_inspector",
+   "detail": {},
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "What is Volumetric Test ?\nA:\nVolumetric test of a Boiler is conducted by Boiler inspector to ensure that Boiler in questions capacity less than as let. It is actually conducted on Boiler.",
+   "confidence": 1
+  },
+  {
+   "claim": "NOC is not valid for life; it must be reissued after a volumetric test or if the boiler's pressure parts are changed, modified, or altered.",
+   "kind": "TIMELINE",
+   "subject": "noc_validity",
+   "object": "volumetric_test",
+   "detail": {},
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "Is the NOC id valid for life time ?\nA:\nNOC is required to be Re issued after conducting volumetric test of coil / or Boiler pressure parts is changed modified of altered.",
+   "confidence": 1
+  },
+  {
+   "claim": "Firms can apply for recognition as IBR approved manufacturing units in categories such as boiler/pressure vessels, fittings, pipes, valves, foundry, steel plants, and laboratories.",
+   "kind": "ACTION",
+   "subject": "firm_recognition",
+   "object": "ibr_approved_unit",
+   "detail": {
+    "categories": [
+     "Boiler /pressure vessels /other pressureparts Manuf. Unit.",
+     "fitting and scantling",
+     "Pipe & Tubes",
+     "Valves including safety valves",
+     "Foundry & forgings",
+     "Steel Plants",
+     "Laboratory"
+    ]
+   },
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "What are the different categories of firm recognisation as a IBR approved Manuf. Unit ?\nA:\nA film can apply for\nBoiler /pressure vessels /other pressureparts Manuf. Unit.\nfitting and scantling\nPipe & Tubes\nValves including safety valves\nFoundry & forgings\nSteel Plants\nLaboratory",
+   "confidence": 1
+  },
+  {
+   "claim": "Fees for firm approval and renewal are mentioned in Rule 30 A of the Gujarat Boiler (Amendment Rules, 2007).",
+   "kind": "FEE",
+   "subject": "firm_recognition_fee",
+   "object": "rule_30a",
+   "detail": {
+    "rule": "30 A of Gujarat Boiler (Amendment Rules, 2007)"
+   },
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "What is the fees for various categories of firm approval and Renewal ?\nA:\nIt is mentioned in Rules : 30 A of Gujarat Boiler ( Amendment Rules, 2007)",
+   "confidence": 1
+  },
+  {
+   "claim": "Application forms for various purposes can be downloaded from the Boiler department website.",
+   "kind": "CHANNEL",
+   "subject": "application_form_download",
+   "object": "boiler_department_website",
+   "detail": {
+    "url": "www.boiler.gujarat.gov.in"
+   },
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "From Where I can get various application form ?\nA:\nVarious application forms can be download from Boiler department website\nwww.boiler.gujarat.gov.in",
+   "confidence": 1
+  },
+  {
+   "claim": "The approval process for a firm involves scrutiny of the application and on-site verification of the details provided.",
+   "kind": "ACTION",
+   "subject": "firm_approval_process",
+   "object": "application_details",
+   "detail": {},
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "What is the approval process ?\nA:\nApproval process is mainly scrutiny of application and than on site verification of details furnished in the application.",
+   "confidence": 1
+  },
+  {
+   "claim": "Application fees must be paid in the Government Treasury through a chalan, and the original challan must be submitted to the Boiler office.",
+   "kind": "FEE",
+   "subject": "firm_application_fee",
+   "object": "govt_tresary",
+   "detail": {},
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "How the application fees can be deposited ?\nA:\nApplication fees is to be paid in Govt. treasury through chalan and original challan is to be submitted to Boiler office.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applications for firm recognition must be submitted to the Director's office in Ahmedabad.",
+   "kind": "OFFICE",
+   "subject": "firm_application_submission",
+   "object": "directors_office_ahmedabad",
+   "detail": {},
+   "sourceId": "src:57ed2acb0f84",
+   "evidence": "Where I can apply ?\nA:\nApplication can be submitted to Director’s office at Ahmedabad.",
    "confidence": 1
   },
   {
@@ -1715,6 +2780,216 @@
    "confidence": 0.9
   },
   {
+   "claim": "Before submitting a vehicle for fitness testing, the condition of tyres must comply with the Central Motor Vehicles Rules, 1989.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "vehicle_owner",
+   "object": "fitness_testing_submission",
+   "detail": {},
+   "sourceId": "src:df77ac33eaae",
+   "evidence": "The Condition Of Tyres Should Be Compliant With The Provisions Of Central Motor Vehicles Rules, 1989.",
+   "confidence": 1
+  },
+  {
+   "claim": "Fitment of bald tyres in the vehicle will be rejected.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "vehicle_owner",
+   "object": "fitness_testing_submission",
+   "detail": {},
+   "sourceId": "src:df77ac33eaae",
+   "evidence": "Fitment of Bald Tyres In Vehicle Will Be Rejected.",
+   "confidence": 1
+  },
+  {
+   "claim": "The windscreen must be in good and unbroken condition; otherwise, the vehicle will be made unfit.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "vehicle_owner",
+   "object": "fitness_testing_submission",
+   "detail": {},
+   "sourceId": "src:df77ac33eaae",
+   "evidence": "Wind Screen Must Be In Good And Unbroken Condition. Vehicle With Broken Wind Screen Will Be Made Unfit.",
+   "confidence": 0.5
+  },
+  {
+   "claim": "Retro-reflective tapes must be affixed at specified places as per the Central Motor Vehicles Rules, 1989.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "vehicle_owner",
+   "object": "fitness_testing_submission",
+   "detail": {},
+   "sourceId": "src:df77ac33eaae",
+   "evidence": "Vehicle Must Have Retro Reflective Tapes Affixed At Specified Places As Per Provisions Of Central Motor Vehicles Rules, 1989",
+   "confidence": 0.5
+  },
+  {
+   "claim": "The vehicle must comply with emission norms provided in the Central Motor Vehicles Rules, 1989.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "vehicle_owner",
+   "object": "fitness_testing_submission",
+   "detail": {},
+   "sourceId": "src:df77ac33eaae",
+   "evidence": "Vehicle Must Comply The Emission Norms Provided In The Central Motor Vehicles Rules, 1989",
+   "confidence": 0.5
+  },
+  {
+   "claim": "Reflectors must be in good and working condition.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "vehicle_owner",
+   "object": "fitness_testing_submission",
+   "detail": {},
+   "sourceId": "src:df77ac33eaae",
+   "evidence": "Reflectors Shall Be In Good and Working Condition.",
+   "confidence": 0.5
+  },
+  {
+   "claim": "Stop light, direction indicator, and other necessary lights and bulbs must be in good and working condition.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "vehicle_owner",
+   "object": "fitness_testing_submission",
+   "detail": {},
+   "sourceId": "src:df77ac33eaae",
+   "evidence": "Stop Light, Direction Indicator, Other Necessary Lights And Bulbs Fitted In The Vehicle Shall Be In Good And Working Condition",
+   "confidence": 0.5
+  },
+  {
+   "claim": "The headlight must be properly and workingly fitted; otherwise, the vehicle will be made unfit.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "vehicle_owner",
+   "object": "fitness_testing_submission",
+   "detail": {},
+   "sourceId": "src:df77ac33eaae",
+   "evidence": "Ensure Proper And Working Fitment Of Vehicle Head Light. Fuse/Missing Or Non Working Head Light In The Vehicle Shall Be Made Unfit.",
+   "confidence": 0.5
+  },
+  {
+   "claim": "There should not be any water entry in the headlamp.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "vehicle_owner",
+   "object": "fitness_testing_submission",
+   "detail": {},
+   "sourceId": "src:df77ac33eaae",
+   "evidence": "There Should Not Be Any Water Entry In Head Lamp.",
+   "confidence": 0.5
+  },
+  {
+   "claim": "The dip and high beam function of the headlight should be in proper operation; otherwise, the vehicle will be made unfit.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "vehicle_owner",
+   "object": "fitness_testing_submission",
+   "detail": {},
+   "sourceId": "src:df77ac33eaae",
+   "evidence": "The Dip And High Beam Function Of Headlight Should Be In Proper Operation; Otherwise Vehicle Shall Be Made Unfit.",
+   "confidence": 0.5
+  },
+  {
+   "claim": "Both side rear view mirrors should not be broken, lose fitted, or missing; otherwise, the vehicle will be made unfit.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "vehicle_owner",
+   "object": "fitness_testing_submission",
+   "detail": {},
+   "sourceId": "src:df77ac33eaae",
+   "evidence": "Both Side Rear View Mirrors Should Not Be Broken Or Lose Fitted Or Missing, Otherwise Vehicle Shall Be Made Unfit.",
+   "confidence": 0.5
+  },
+  {
+   "claim": "Wipers should not be broken, lose fitted, non-functional, or missing; otherwise, the vehicle will be made unfit.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "vehicle_owner",
+   "object": "fitness_testing_submission",
+   "detail": {},
+   "sourceId": "src:df77ac33eaae",
+   "evidence": "Wipers Should Not Be Broken Or Lose Fitted Or Non- Functional Or Missing, Otherwise Vehicle Shall Be Made Unfit.",
+   "confidence": 0.5
+  },
+  {
+   "claim": "The horn should be in good functional condition and should not have pressure or multi-tone horns fitted.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "vehicle_owner",
+   "object": "fitness_testing_submission",
+   "detail": {},
+   "sourceId": "src:df77ac33eaae",
+   "evidence": "Horn Should Be Good Functional Condition And There Should Not Be Any Pressure Horn Or Multi Tone Horn Fitted In The Vehicle.",
+   "confidence": 0.5
+  },
+  {
+   "claim": "The speedometer must be in proper working condition.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "vehicle_owner",
+   "object": "fitness_testing_submission",
+   "detail": {},
+   "sourceId": "src:df77ac33eaae",
+   "evidence": "Speedometer Shall Be In Proper Working Condition.",
+   "confidence": 0.5
+  },
+  {
+   "claim": "The vehicle should be fitted with a speed governor and have a valid calibration certificate.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "vehicle_owner",
+   "object": "fitness_testing_submission",
+   "detail": {},
+   "sourceId": "src:df77ac33eaae",
+   "evidence": "Vehicle Should Be Fitted With Speed Governor And Should Have Valid Calibration Certificate.",
+   "confidence": 0.5
+  },
+  {
+   "claim": "Before submitting a vehicle for hypothecation termination, the hypothecation data should be available with the system.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "vehicle_owner",
+   "object": "hypothecation_termination_submission",
+   "detail": {},
+   "sourceId": "src:df77ac33eaae",
+   "evidence": "Hypothecation data should be available with the system",
+   "confidence": 0.5
+  },
+  {
+   "claim": "The ownership type should be individual before submitting for hypothecation termination.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "vehicle_owner",
+   "object": "hypothecation_termination_submission",
+   "detail": {},
+   "sourceId": "src:df77ac33eaae",
+   "evidence": "Ownership type should be Individual",
+   "confidence": 0.5
+  },
+  {
+   "claim": "If a user is taking a combination of services (faceless and Non-faceless), the application will go in Non-faceless mode.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "vehicle_owner",
+   "object": "application_submission",
+   "detail": {},
+   "sourceId": "src:df77ac33eaae",
+   "evidence": "In case this user is taking combination of services (faceless and Non-faceless) then application will go in Non-faceless mode.",
+   "confidence": 0.5
+  },
+  {
+   "claim": "The transfer of ownership application must be initiated by the seller of the vehicle using the TO option.",
+   "kind": "ACTION",
+   "subject": "vehicle_seller",
+   "object": "transfer_of_ownership",
+   "detail": {},
+   "sourceId": "src:df77ac33eaae",
+   "evidence": "Transfer of Ownership application has to be initiated by the seller of the vehicle using TO option.",
+   "confidence": 0.5
+  },
+  {
+   "claim": "After the seller initiates the transfer of ownership, the buyer can process further using the TO option.",
+   "kind": "ACTION",
+   "subject": "vehicle_buyer",
+   "object": "transfer_of_ownership",
+   "detail": {},
+   "sourceId": "src:df77ac33eaae",
+   "evidence": "After that buyer process further using TO option.",
+   "confidence": 0.5
+  },
+  {
+   "claim": "If the application is not initiated by the seller, the buyer must initiate the application using the TO option first.",
+   "kind": "ACTION",
+   "subject": "vehicle_buyer",
+   "object": "transfer_of_ownership",
+   "detail": {},
+   "sourceId": "src:df77ac33eaae",
+   "evidence": "If the application is not initiated by the seller, please initiate the application using TO option first before proceeding further.",
+   "confidence": 0.5
+  },
+  {
    "claim": "The applicant must select a district from a dropdown list.",
    "kind": "ACTION",
    "subject": "applicant",
@@ -2108,6 +3383,198 @@
    "confidence": 1
   },
   {
+   "claim": "A draft EIA document is available for download.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "public_hearing",
+   "object": "draft_eia",
+   "detail": {
+    "url": "https://gpcb.gujarat.gov.in/PublicHearing/PublicHearingDetailEia/%E2%9C%A4xc%E2%9C%BFNgk%E2%9C%BFyfusnE5gvYCDug%E2%99%AC%E2%99%AC"
+   },
+   "sourceId": "src:67263ea96ca1",
+   "evidence": "2 Draft EIA |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A NABL Certificate is available for download.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "public_hearing",
+   "object": "nabl_certificate",
+   "detail": {
+    "url": "https://gpcb.gujarat.gov.in/PublicHearing/PublicHearingDetailEia/%E2%9C%A4xc%E2%9C%BFNgk%E2%9C%BFyfusnE5gvYCDug%E2%99%AC%E2%99%AC"
+   },
+   "sourceId": "src:67263ea96ca1",
+   "evidence": "2 NABL Certificate |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "An Ultratech NABET Certificate is available for download.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "public_hearing",
+   "object": "ultratech_nabet_certificate",
+   "detail": {
+    "url": "https://gpcb.gujarat.gov.in/PublicHearing/PublicHearingDetailEia/%E2%9C%A4xc%E2%9C%BFNgk%E2%9C%BFyfusnE5gvYCDug%E2%99%AC%E2%99%AC"
+   },
+   "sourceId": "src:67263ea96ca1",
+   "evidence": "2 Ultratech NABET Certificate |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Annexure I LOI is available for download.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "public_hearing",
+   "object": "annexure_i_loi",
+   "detail": {
+    "url": "https://gpcb.gujarat.gov.in/PublicHearing/PublicHearingDetailEia/%E2%9C%A4xc%E2%9C%BFNgk%E2%9C%BFyfusnE5gvYCDug%E2%99%AC%E2%99%AC"
+   },
+   "sourceId": "src:67263ea96ca1",
+   "evidence": "3 Annexure I LOI |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Annexure II Mining Plan Part 1 is available for download.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "public_hearing",
+   "object": "annexure_ii_mining_plan_part_1",
+   "detail": {
+    "url": "https://gpcb.gujarat.gov.in/PublicHearing/PublicHearingDetailEia/%E2%9C%A4xc%E2%9C%BFNgk%E2%9C%BFyfusnE5gvYCDug%E2%99%AC%E2%99%AC"
+   },
+   "sourceId": "src:67263ea96ca1",
+   "evidence": "4 Annexure II Mining Plan PART 1 |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Annexure II Mining Plan Part 2 is available for download.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "public_hearing",
+   "object": "annexure_ii_mining_plan_part_2",
+   "detail": {
+    "url": "https://gpcb.gujarat.gov.in/PublicHearing/PublicHearingDetailEia/%E2%9C%A4xc%E2%9C%BFNgk%E2%9C%BFyfusnE5gvYCDug%E2%99%AC%E2%99%AC"
+   },
+   "sourceId": "src:67263ea96ca1",
+   "evidence": "4 Annexure II Mining Plan PART 2 |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Annexure III Approved Mining Plan is available for download.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "public_hearing",
+   "object": "annexure_iii_approved_mining_plan",
+   "detail": {
+    "url": "https://gpcb.gujarat.gov.in/PublicHearing/PublicHearingDetailEia/%E2%9C%A4xc%E2%9C%BFNgk%E2%9C%BFyfusnE5gvYCDug%E2%99%AC%E2%99%AC"
+   },
+   "sourceId": "src:67263ea96ca1",
+   "evidence": "5 Annexure III Approved Mining Plan |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Annexure IV Cluster Map is available for download.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "public_hearing",
+   "object": "annexure_iv_cluster_map",
+   "detail": {
+    "url": "https://gpcb.gujarat.gov.in/PublicHearing/PublicHearingDetailEia/%E2%9C%A4xc%E2%9C%BFNgk%E2%9C%BFyfusnE5gvYCDug%E2%99%AC%E2%99%AC"
+   },
+   "sourceId": "src:67263ea96ca1",
+   "evidence": "6 Annexure IV Cluster Map |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Annexure V ToR is available for download.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "public_hearing",
+   "object": "annexure_v_tor",
+   "detail": {
+    "url": "https://gpcb.gujarat.gov.in/PublicHearing/PublicHearingDetailEia/%E2%9C%A4xc%E2%9C%BFNgk%E2%9C%BFyfusnE5gvYCDug%E2%99%AC%E2%99%AC"
+   },
+   "sourceId": "src:67263ea96ca1",
+   "evidence": "7 Annexure V ToR |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Annexure VI Baseline Monitoring Report Part 1 is available for download.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "public_hearing",
+   "object": "annexure_vi_baseline_monitoring_report_part_1",
+   "detail": {
+    "url": "https://gpcb.gujarat.gov.in/PublicHearing/PublicHearingDetailEia/%E2%9C%A4xc%E2%9C%BFNgk%E2%9C%BFyfusnE5gvYCDug%E2%99%AC%E2%99%AC"
+   },
+   "sourceId": "src:67263ea96ca1",
+   "evidence": "8 Annexure VI Baseline Monitoring Report PART 1 |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Annexure VI Baseline Monitoring Report Part 2 is available for download.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "public_hearing",
+   "object": "annexure_vi_baseline_monitoring_report_part_2",
+   "detail": {
+    "url": "https://gpcb.gujarat.gov.in/PublicHearing/PublicHearingDetailEia/%E2%9C%A4xc%E2%9C%BFNgk%E2%9C%BFyfusnE5gvYCDug%E2%99%AC%E2%99%AC"
+   },
+   "sourceId": "src:67263ea96ca1",
+   "evidence": "8 Annexure VI Baseline Monitoring Report PART 2 |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Annexure VI Baseline Monitoring Report Part 3 is available for download.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "public_hearing",
+   "object": "annexure_vi_baseline_monitoring_report_part_3",
+   "detail": {
+    "url": "https://gpcb.gujarat.gov.in/PublicHearing/PublicHearingDetailEia/%E2%9C%A4xc%E2%9C%BFNgk%E2%9C%BFyfusnE5gvYCDug%E2%99%AC%E2%99%AC"
+   },
+   "sourceId": "src:67263ea96ca1",
+   "evidence": "8 Annexure VI Baseline Monitoring Report PART 3 |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Annexure VI Baseline Monitoring Report Part 4 is available for download.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "public_hearing",
+   "object": "annexure_vi_baseline_monitoring_report_part_4",
+   "detail": {
+    "url": "https://gpcb.gujarat.gov.in/PublicHearing/PublicHearingDetailEia/%E2%9C%A4xc%E2%9C%BFNgk%E2%9C%BFyfusnE5gvYCDug%E2%99%AC%E2%99%AC"
+   },
+   "sourceId": "src:67263ea96ca1",
+   "evidence": "8 Annexure VI Baseline Monitoring Report PART 4 |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Annexure VII PDR is available for download.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "public_hearing",
+   "object": "annexure_vii_pdr",
+   "detail": {
+    "url": "https://gpcb.gujarat.gov.in/PublicHearing/PublicHearingDetailEia/%E2%9C%A4xc%E2%9C%BFNgk%E2%9C%BFyfusnE5gvYCDug%E2%99%AC%E2%99%AC"
+   },
+   "sourceId": "src:67263ea96ca1",
+   "evidence": "9 Annexure VII PDR |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "An English Summary is available for download.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "public_hearing",
+   "object": "english_summary",
+   "detail": {
+    "url": "https://gpcb.gujarat.gov.in/PublicHearing/PublicHearingDetailEia/%E2%9C%A4xc%E2%9C%BFNgk%E2%9C%BFyfusnE5gvYCDug%E2%99%AC%E2%99%AC"
+   },
+   "sourceId": "src:67263ea96ca1",
+   "evidence": "12 English Summary |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A Gujarati Summary is available for download.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "public_hearing",
+   "object": "gujarati_summary",
+   "detail": {
+    "url": "https://gpcb.gujarat.gov.in/PublicHearing/PublicHearingDetailEia/%E2%9C%A4xc%E2%9C%BFNgk%E2%9C%BFyfusnE5gvYCDug%E2%99%AC%E2%99%AC"
+   },
+   "sourceId": "src:67263ea96ca1",
+   "evidence": "13 Gujarati Summary |",
+   "confidence": 0.9
+  },
+  {
    "claim": "The applicant must provide their name.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "applicant",
@@ -2425,6 +3892,194 @@
    "detail": {},
    "sourceId": "src:ddfe75bb179b",
    "evidence": "The Corporation provides facility of water supply in certain estates only. Please confirm with respective GIDC field office for availability of infrastructure.",
+   "confidence": 1
+  },
+  {
+   "claim": "The website will be down on 13/06/2019 and 14/06/2019 due to technical maintenance.",
+   "kind": "TIMELINE",
+   "subject": "website_maintenance",
+   "object": "website",
+   "detail": {
+    "date": "13/06/2019 and 14/06/2019"
+   },
+   "sourceId": "src:cf088b48f3de",
+   "evidence": "website will be down on 13/06/2019 and 14/06/2019 due to technical maintenace!",
+   "confidence": 1
+  },
+  {
+   "claim": "The website will be down on Tuesday, 30-APR-2019 due to technical maintenance.",
+   "kind": "TIMELINE",
+   "subject": "website_maintenance",
+   "object": "website",
+   "detail": {
+    "date": "30-APR-2019"
+   },
+   "sourceId": "src:cf088b48f3de",
+   "evidence": "Website will be down on Tuesday, 30-APR-2019 due to Technical Maintenance!",
+   "confidence": 1
+  },
+  {
+   "claim": "For payment-related matters on IFP, users should write to investorfacilitationcell@gmail.com.",
+   "kind": "CHANNEL",
+   "subject": "payment_inquiries",
+   "object": "investorfacilitationcell",
+   "detail": {
+    "email": "investorfacilitationcell@gmail.com"
+   },
+   "sourceId": "src:cf088b48f3de",
+   "evidence": "On IFP for payment related matter, write to investorfacilitationcell@gmail.com",
+   "confidence": 1
+  },
+  {
+   "claim": "The page provides access to various application forms under the Contract Labour Act and the Interstate Migrant Workers Act.",
+   "kind": "ACTION",
+   "subject": "application_forms",
+   "object": "citizen",
+   "detail": {
+    "acts": [
+     "Contract Labour Act",
+     "Interstate Migrant Workers Act"
+    ]
+   },
+   "sourceId": "src:cf088b48f3de",
+   "evidence": "Applications Under Contract Labour Act\nRegistration Application\nLicense Application\nLicense Renew Application\nApplication for amendment in registration\nApplication for amendment in license\nApplications Under Interstate Migrant Workers Act.\nRegistration Application\nLicense Application\nLicense Renew Application\nApplication for amendment in registration\nApplication for amendment in license",
+   "confidence": 1
+  },
+  {
+   "claim": "The page provides access to application forms for registration under the Motor Transport Workers Act.",
+   "kind": "ACTION",
+   "subject": "application_forms",
+   "object": "citizen",
+   "detail": {
+    "act": "Motor Transport Workers Act"
+   },
+   "sourceId": "src:cf088b48f3de",
+   "evidence": "Registration Applications\nMotor Transport Workers Act",
+   "confidence": 1
+  },
+  {
+   "claim": "The page provides access to a Self Certification Scheme application.",
+   "kind": "ACTION",
+   "subject": "application_forms",
+   "object": "citizen",
+   "detail": {
+    "scheme": "Self Certification Scheme"
+   },
+   "sourceId": "src:cf088b48f3de",
+   "evidence": "Self Certification Scheme\nApplication for amendment in registration",
+   "confidence": 1
+  },
+  {
+   "claim": "The page provides access to other applications such as Notice for Closure, Conciliation cases, and Reinstatement.",
+   "kind": "ACTION",
+   "subject": "application_forms",
+   "object": "citizen",
+   "detail": {
+    "applications": [
+     "Notice for Closure Under Section 25-FFA(1) of IDA",
+     "Conciliation cases - IDA",
+     "Reinstatement 10(1)"
+    ]
+   },
+   "sourceId": "src:cf088b48f3de",
+   "evidence": "Other Applications\nNotice for Closure Under Section 25-FFA(1) of IDA\nConciliation cases - IDA\nReinstatement 10(1)",
+   "confidence": 1
+  },
+  {
+   "claim": "The page provides access to consolidated annual return and application for Trade Union.",
+   "kind": "ACTION",
+   "subject": "application_forms",
+   "object": "citizen",
+   "detail": {
+    "applications": [
+     "Consolidated Annual Return",
+     "Application for Trade Union"
+    ]
+   },
+   "sourceId": "src:cf088b48f3de",
+   "evidence": "Consolidated Annual Return\nApplication for Trade Union",
+   "confidence": 1
+  },
+  {
+   "claim": "The page allows users to view inspection reports.",
+   "kind": "ACTION",
+   "subject": "inspection_reports",
+   "object": "citizen",
+   "detail": {},
+   "sourceId": "src:cf088b48f3de",
+   "evidence": "View Inspection Report",
+   "confidence": 1
+  },
+  {
+   "claim": "The page allows users to search for establishment registrations from 1-Oct-2015 till date.",
+   "kind": "ACTION",
+   "subject": "registration_search",
+   "object": "citizen",
+   "detail": {
+    "date_range": "1-Oct-2015 till date"
+   },
+   "sourceId": "src:cf088b48f3de",
+   "evidence": "Establishment Registration from 1-Oct-2015 till date",
+   "confidence": 1
+  },
+  {
+   "claim": "The page allows users to search for contractor licenses from 1-Oct-2015 till date.",
+   "kind": "ACTION",
+   "subject": "license_search",
+   "object": "citizen",
+   "detail": {
+    "date_range": "1-Oct-2015 till date"
+   },
+   "sourceId": "src:cf088b48f3de",
+   "evidence": "Contractor License from 1-Oct-2015 till date",
+   "confidence": 1
+  },
+  {
+   "claim": "The page allows users to search for registrations between 1-Jan-2015 and 30-Sep-2015.",
+   "kind": "ACTION",
+   "subject": "registration_search",
+   "object": "citizen",
+   "detail": {
+    "date_range": "1-Jan-2015 and 30-Sep-2015"
+   },
+   "sourceId": "src:cf088b48f3de",
+   "evidence": "Registration search between 1-Jan-2015 and 30-Sep-2015",
+   "confidence": 1
+  },
+  {
+   "claim": "The page allows users to search for contractor licenses between 1-Jan-2015 and 30-Sep-2015.",
+   "kind": "ACTION",
+   "subject": "license_search",
+   "object": "citizen",
+   "detail": {
+    "date_range": "1-Jan-2015 and 30-Sep-2015"
+   },
+   "sourceId": "src:cf088b48f3de",
+   "evidence": "Contractor License Search between 1-Jan-2015 and 30-Sep-2015",
+   "confidence": 1
+  },
+  {
+   "claim": "The page allows users to view inspection reports before 1-Oct-2015.",
+   "kind": "ACTION",
+   "subject": "inspection_reports",
+   "object": "citizen",
+   "detail": {
+    "date": "before 1-Oct-2015"
+   },
+   "sourceId": "src:cf088b48f3de",
+   "evidence": "View Inspection Before 1-Oct-2015",
+   "confidence": 1
+  },
+  {
+   "claim": "The page was last updated on 16/10/2023.",
+   "kind": "TIMELINE",
+   "subject": "page_update",
+   "object": "page",
+   "detail": {
+    "date": "16/10/2023"
+   },
+   "sourceId": "src:cf088b48f3de",
+   "evidence": "Page last updated on: 16/10/2023",
    "confidence": 1
   },
   {
@@ -4190,6 +5845,256 @@
    "confidence": 1
   },
   {
+   "claim": "A trade union must have a name that is not the same or similar to a previously registered union.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "trade_union_registration",
+   "object": "union_name",
+   "detail": {},
+   "sourceId": "src:6873645dfc69",
+   "evidence": ". | (a) Name of the union which should not be the same or similar to the union previously registered.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A trade union must appoint office bearers.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "trade_union_registration",
+   "object": "office_bearers",
+   "detail": {},
+   "sourceId": "src:6873645dfc69",
+   "evidence": ". | (b) Appointment of office bearers of the trade union.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A trade union must appoint applicants authorized to apply for registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "trade_union_registration",
+   "object": "authorized_applicants",
+   "detail": {},
+   "sourceId": "src:6873645dfc69",
+   "evidence": ". | (c) Appointment of the applicants who are authorized to apply for registration of the applicant trade union.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A trade union must appoint at least 7 executive members.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "trade_union_registration",
+   "object": "executive_members",
+   "detail": {},
+   "sourceId": "src:6873645dfc69",
+   "evidence": ". | (d) Appointment of executive members of the trade union not less than 7.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A trade union must have a code of conduct that is binding on the union.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "trade_union_registration",
+   "object": "code_of_conduct",
+   "detail": {},
+   "sourceId": "src:6873645dfc69",
+   "evidence": ". | (e) The code of conduct will be binding to the union.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A trade union must identify a person authorized to make additions, alterations, or omissions in the application form, constitution, and resolutions.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "trade_union_registration",
+   "object": "authorized_person",
+   "detail": {},
+   "sourceId": "src:6873645dfc69",
+   "evidence": ". | (f) Name & designation of the person who are authorized to make necessary addition/ alteration & omissions in the application form, constitution and copies of resolutions.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A trade union must provide a copy of an intimation letter stating the time and place of the meeting where resolutions are passed.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "trade_union_registration",
+   "object": "intimation_letter",
+   "detail": {},
+   "sourceId": "src:6873645dfc69",
+   "evidence": ". | (g) A copy of intimation letter, intimates the time & place of the meeting wherein the said resolutions are to be passed.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The registration fee for a trade union with members not exceeding 1000 is Rs.50/-, and for a union with more than 1000 members, it is Rs.100/-, to be paid at the time of registration.",
+   "kind": "FEE",
+   "subject": "trade_union_registration",
+   "object": "registration_fee",
+   "detail": {
+    "amount": "50",
+    "currency": "INR",
+    "members_threshold": "1000",
+    "higher_amount": "100",
+    "higher_currency": "INR"
+   },
+   "sourceId": "src:6873645dfc69",
+   "evidence": "If the members of union are not exceed 1000 the registration fee is Rs.50/- (Rupees fifty only) and Rs.100/-(Rupees one hundred only) if the members are more than 1000. It is to be paid only at the time of registration.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Any addition, omission, or alteration in the constitution of a registered trade union must be passed by a majority of the members in a meeting and intimated to the registrar within 15 days.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "trade_union_amendment",
+   "object": "amendment_notification",
+   "detail": {
+    "days": "15"
+   },
+   "sourceId": "src:6873645dfc69",
+   "evidence": "If any registered union wants to make any addition, omission, alteration in the constitution of the union, the office bearers have to pass a resolution in the constitution of the trade union, the office bearers have to pass a resolution in the meeting of the trade union at least by a majority of the members and they are to be intimated within 15 days from the date of the said meeting wherein these amends were made to the registrar of trade union along with a fee of Rs.25/-(Twenty five) payable either in cash or by M.O.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A fee of Rs.25/- is payable for amendments in the constitution of a registered trade union, either in cash or by money order.",
+   "kind": "FEE",
+   "subject": "trade_union_amendment",
+   "object": "amendment_fee",
+   "detail": {
+    "amount": "25",
+    "currency": "INR",
+    "payment_methods": [
+     "cash",
+     "money_order"
+    ]
+   },
+   "sourceId": "src:6873645dfc69",
+   "evidence": "If any registered union wants to make any addition, omission, alteration in the constitution of the union, the office bearers have to pass a resolution in the constitution of the trade union, the office bearers have to pass a resolution in the meeting of the trade union at least by a majority of the members and they are to be intimated within 15 days from the date of the said meeting wherein these amends were made to the registrar of trade union along with a fee of Rs.25/-(Twenty five) payable either in cash or by M.O.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Every registered trade union must submit an annual return in the prescribed form before 31st March to the registrar.",
+   "kind": "TIMELINE",
+   "subject": "trade_union_annual_return",
+   "object": "annual_return_submission",
+   "detail": {
+    "deadline": "31st March",
+    "form": "prescribed"
+   },
+   "sourceId": "src:6873645dfc69",
+   "evidence": "Every registered trade union is required to submit an annual return before 31st March, in the prescribed performa to the registrar.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Failure to submit the annual return in the prescribed form may lead to the cancellation of the trade union.",
+   "kind": "BLOCKER",
+   "subject": "trade_union_annual_return",
+   "object": "cancellation_risk",
+   "detail": {},
+   "sourceId": "src:6873645dfc69",
+   "evidence": "Failure to submit such a return under prescribed form may lead to cancellation of the defaulter trade union.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Applicants must fill the User ID creation form.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "user_id_creation_form",
+   "detail": {},
+   "sourceId": "src:cb87993841b5",
+   "evidence": "1- Applicant may fill the User ID creation form. Click here to download the prescribed form.",
+   "confidence": 1
+  },
+  {
+   "claim": "A request letter to JS(MVL) on official letterhead is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant",
+   "object": "request_letter_js_mvl",
+   "detail": {},
+   "sourceId": "src:cb87993841b5",
+   "evidence": "i. Request letter to JS(MVL) on official letterhead.",
+   "confidence": 1
+  },
+  {
+   "claim": "An Application Form is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:cb87993841b5",
+   "evidence": "ii. Application Form",
+   "confidence": 1
+  },
+  {
+   "claim": "A Type Approval certificate is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant",
+   "object": "type_approval_certificate",
+   "detail": {},
+   "sourceId": "src:cb87993841b5",
+   "evidence": "iii. Type Approval certificate",
+   "confidence": 1
+  },
+  {
+   "claim": "A GST Certificate is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant",
+   "object": "gst_certificate",
+   "detail": {},
+   "sourceId": "src:cb87993841b5",
+   "evidence": "iv. GST Certificate",
+   "confidence": 1
+  },
+  {
+   "claim": "A Certificate of Incorporation or MSME Certificate is required if applicable.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "applicant",
+   "object": "certificate_of_incorporation_or_msme_certificate",
+   "detail": {},
+   "sourceId": "src:cb87993841b5",
+   "evidence": "v. Certificate of Incorporation or MSME Certificate if applicable",
+   "confidence": 1
+  },
+  {
+   "claim": "Scanned copies of the documents must be sent to cngmaker-vahan[at]gov[dot]in.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "document_submission",
+   "detail": {
+    "email": "cngmaker-vahan[at]gov[dot]in"
+   },
+   "sourceId": "src:cb87993841b5",
+   "evidence": "2- Send the scan copy of the following documents to cngmaker-vahan[at]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "After verification and approval, a user-id will be created and communicated to the applicant.",
+   "kind": "ACTION",
+   "subject": "authority",
+   "object": "user_id_creation",
+   "detail": {},
+   "sourceId": "src:cb87993841b5",
+   "evidence": "3- After verification and approval of the submitted application, user-id will be created and information will be communicated to the applicant.",
+   "confidence": 1
+  },
+  {
+   "claim": "The password must be changed immediately by the user organization.",
+   "kind": "ACTION",
+   "subject": "user_organization",
+   "object": "password_change",
+   "detail": {},
+   "sourceId": "src:cb87993841b5",
+   "evidence": "4- The password need to be changed immediately by the user organization.",
+   "confidence": 1
+  },
+  {
+   "claim": "Only one user id/password will be issued to an organization.",
+   "kind": "ACTION",
+   "subject": "authority",
+   "object": "user_id_issue",
+   "detail": {},
+   "sourceId": "src:cb87993841b5",
+   "evidence": "5- Only one user id/ password will be issued to an organization.",
+   "confidence": 1
+  },
+  {
+   "claim": "The organization may create sub-user ids and passwords for its constituents/branches if required.",
+   "kind": "ACTION",
+   "subject": "user_organization",
+   "object": "sub_user_id_creation",
+   "detail": {},
+   "sourceId": "src:cb87993841b5",
+   "evidence": "The organization may, in turn, create sub-user ids and passwords, if required, for its constituents/branches etc.",
+   "confidence": 1
+  },
+  {
    "claim": "To apply for electricity tax exemption or relief, the applicant must submit the required application form with a signed and stamped letter pad.",
    "kind": "ACTION",
    "subject": "electricity_tax_exemption_application",
@@ -4560,6 +6465,729 @@
    "confidence": 0.95
   },
   {
+   "claim": "SARAL Pass is an annual prepaid unlimited travel scheme in Surat Sitilink Ltd.",
+   "kind": "ACTION",
+   "subject": "saral_pass",
+   "object": "surat_sitilink",
+   "detail": {},
+   "sourceId": "src:21b6ef1e1050",
+   "evidence": "SARAL pass is an annual prepaid unlimited travel scheme in Surat Sitilink Ltd.",
+   "confidence": 1
+  },
+  {
+   "claim": "The charges for a yearly SARAL Pass for a student or woman is 1000.",
+   "kind": "FEE",
+   "subject": "saral_pass_yearly",
+   "object": "student_women",
+   "detail": {
+    "amount": "1000"
+   },
+   "sourceId": "src:21b6ef1e1050",
+   "evidence": "Student / Women\nYearly: 1000",
+   "confidence": 1
+  },
+  {
+   "claim": "The charges for a yearly SARAL Pass for institutional and other categories is 7000.",
+   "kind": "FEE",
+   "subject": "saral_pass_yearly",
+   "object": "institutional_other",
+   "detail": {
+    "amount": "7000"
+   },
+   "sourceId": "src:21b6ef1e1050",
+   "evidence": "Institutional and Other Categories\nYearly: 7000",
+   "confidence": 1
+  },
+  {
+   "claim": "A bonafide certificate from a government-approved educational institution is required for the student category.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "student_category",
+   "object": "bonafide_certificate",
+   "detail": {},
+   "sourceId": "src:21b6ef1e1050",
+   "evidence": "Student\nCategory Proof\nBonafide certificate from Government approved Educational Institution, Passport size photo.",
+   "confidence": 1
+  },
+  {
+   "claim": "A disability certificate of a general physician (40% or higher disability required) is required for the physically challenged category.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "physically_challenged_category",
+   "object": "disability_certificate",
+   "detail": {},
+   "sourceId": "src:21b6ef1e1050",
+   "evidence": "Physically Challenged\nCategory Proof\nDisability Certificate of General physician (40 % or higher disability required)",
+   "confidence": 1
+  },
+  {
+   "claim": "A senior citizen card issued by the government is required for the senior citizen category.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "senior_citizen_category",
+   "object": "senior_citizen_card",
+   "detail": {},
+   "sourceId": "src:21b6ef1e1050",
+   "evidence": "Senior Citizen\nCategory Proof\nSenior citizen card issued by Government.",
+   "confidence": 1
+  },
+  {
+   "claim": "A labour registration card issued by the Government of Gujarat and a passport size photo are required for the Shramik Pass Travel Scheme.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "shramik_pass",
+   "object": "labour_registration_card",
+   "detail": {},
+   "sourceId": "src:21b6ef1e1050",
+   "evidence": "Additional Document Proof\nLabour registration card issued by Government of Gujarat, Passport size photo.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Shramik Pass Travel Scheme is a free travel scheme for registered construction workers to and from construction sites within city areas using city public transport.",
+   "kind": "ACTION",
+   "subject": "shramik_pass",
+   "object": "construction_workers",
+   "detail": {},
+   "sourceId": "src:21b6ef1e1050",
+   "evidence": "Gujarat Labour Welfare Board, Government of Gujarat have started free travel scheme for registered construction worker with Building & Other Construction Workers to/from construction site within city areas using city public transport.",
+   "confidence": 1
+  },
+  {
+   "claim": "The charges for the Shramik Pass Travel Scheme will be borne by the Gujarat state government and Corporation.",
+   "kind": "FEE",
+   "subject": "shramik_pass",
+   "object": "government_corporation",
+   "detail": {},
+   "sourceId": "src:21b6ef1e1050",
+   "evidence": "Charges for this travel pass will be borne by the Gujarat state government and Corporation.",
+   "confidence": 1
+  },
+  {
+   "claim": "The main objective of the Shramik Pass Travel Scheme is to ensure that labourers can avail bus passes for traveling within the city absolutely free.",
+   "kind": "ACTION",
+   "subject": "shramik_pass",
+   "object": "labourers",
+   "detail": {},
+   "sourceId": "src:21b6ef1e1050",
+   "evidence": "The main objective is to ensure that labourers will be able to avail bus passes for traveling within the city absolutely free.",
+   "confidence": 1
+  },
+  {
+   "claim": "If you are absent or fail on the day of the Learner License Test, you have to pay a retest fee and book a fresh appointment.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "learner_license_test_absent_or_failed",
+   "object": "retest_fee_and_appointment",
+   "detail": {
+    "url": "https://sarathi.parivahan.gov.in/"
+   },
+   "sourceId": "src:1b512feb4f0f",
+   "evidence": "What happens if I am absent/ failed on the day of the Learner License Test? You have to pay Retest fee and book fresh appointment.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "To pay the retest fee, you must visit the specified website and follow the steps.",
+   "kind": "CHANNEL",
+   "subject": "retest_fee_payment",
+   "object": "sarathi_website",
+   "detail": {
+    "url": "https://sarathi.parivahan.gov.in/"
+   },
+   "sourceId": "src:1b512feb4f0f",
+   "evidence": "For Retest payment visit https://sarathi.parivahan.gov.in/ >> Select State >> and Click on Fee Payments >> Fee Payments.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "To re-schedule the Learner License test appointment, you must do so through the website, subject to availability of slots.",
+   "kind": "ACTION",
+   "subject": "reschedule_learner_license_test",
+   "object": "sarathi_website",
+   "detail": {
+    "url": "https://sarathi.parivahan.gov.in/"
+   },
+   "sourceId": "src:1b512feb4f0f",
+   "evidence": "I did not attend Learner License test on the scheduled date of appointment? Re-schedule the appointment, subject to availability of slots.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "You must carry specific documents to the RTO office, including the application status, Form 1, Form 1A, and the fee receipt.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "rto_office_visit",
+   "object": "required_documents",
+   "detail": {},
+   "sourceId": "src:1b512feb4f0f",
+   "evidence": "What are the documents required to be carried to the RTO office? 1. Check the application status and click on print acknowledgment which shows required documents. 2. Click on print Form 1 & can download application form & Form 1A 3. Click on Appointment letter from the same application status. 4. Fee receipt.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A Learner's License cannot be renewed; a new Learner's License must be issued.",
+   "kind": "BLOCKER",
+   "subject": "renew_learner_license",
+   "object": "new_learner_license",
+   "detail": {},
+   "sourceId": "src:1b512feb4f0f",
+   "evidence": "How to renew of Learner's License Learners' License cannot be renewed and New Learners' License shall be issued.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "To print a Learner's License, you must visit the specified website and follow the steps.",
+   "kind": "ACTION",
+   "subject": "print_learner_license",
+   "object": "sarathi_website",
+   "detail": {
+    "url": "https://sarathi.parivahan.gov.in/"
+   },
+   "sourceId": "src:1b512feb4f0f",
+   "evidence": "I have passed Learners License test and application has been approved, how can I download the print out? Steps to Print Learner's License:- 1. Visit https://sarathi.parivahan.gov.in/ 2. Select concerned state 3. Click on \"Learner License\" menu 4. Click on print Learners License (FORM3) 5. Fill Application number & Date of Birth AND Submit.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A Learner's License is valid throughout India.",
+   "kind": "ELIGIBILITY",
+   "subject": "learner_license",
+   "object": "valid_in_india",
+   "detail": {},
+   "sourceId": "src:1b512feb4f0f",
+   "evidence": "Is Learner's License valid throughout India? Yes, its valid throughout India",
+   "confidence": 0.95
+  },
+  {
+   "claim": "To update your Learner's License mobile number, you must visit the specified website and follow the steps.",
+   "kind": "ACTION",
+   "subject": "update_mobile_number",
+   "object": "sarathi_website",
+   "detail": {
+    "url": "https://sarathi.parivahan.gov.in/"
+   },
+   "sourceId": "src:1b512feb4f0f",
+   "evidence": "How can I update my Learners' License mobile number? Steps follow for Mobile number update in License:- 1. Visit https://sarathi.parivahan.gov.in/ 2. Select concerned state 3. Click on \"Mobile Number Update\" from \"Others\" menu",
+   "confidence": 0.9
+  },
+  {
+   "claim": "You must visit the RTO office even after successful submission of the application with the required documents and a copy of the fee receipt.",
+   "kind": "ACTION",
+   "subject": "post_submission_rto_visit",
+   "object": "required_documents_and_fee_receipt",
+   "detail": {},
+   "sourceId": "src:1b512feb4f0f",
+   "evidence": "Why should I visit RTO even after successful submission of application? After completing online procedure for further processing of application you should visit the concerned RTO office with the required documents as shown on the acknowledgement slip. You should also carry a copy of the fee receipt",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The National Permit is an e-Governance application under the National Transport Project.",
+   "kind": "ACTION",
+   "subject": "national_permit",
+   "object": "national_transport_project",
+   "detail": {
+    "description": "flagship e-Governance application"
+   },
+   "sourceId": "src:6d9d50cb743e",
+   "evidence": "National Permit is the flagship e-Governance application under National Transport Project",
+   "confidence": 1
+  },
+  {
+   "claim": "Users are advised to remove previously saved passwords from their browsers by clearing browser history.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "user_browser",
+   "object": "password_clearance",
+   "detail": {
+    "action": "clear browser history"
+   },
+   "sourceId": "src:6d9d50cb743e",
+   "evidence": "Remove previously saved passwords from their browsers by clearing browser history.",
+   "confidence": 1
+  },
+  {
+   "claim": "The total number of National Permit authorizations issued in India between 01-04-2025 and 22-08-2026 is 21,57,792.",
+   "kind": "TIMELINE",
+   "subject": "national_permit_authorization",
+   "object": "issuance_count",
+   "detail": {
+    "start_date": "01-04-2025",
+    "end_date": "22-08-2026",
+    "total_count": "21,57,792"
+   },
+   "sourceId": "src:6d9d50cb743e",
+   "evidence": "Issued (All Over India)between (01-04-2025 and 22-08-2026)\nTotal Permit Count\n21,57,792",
+   "confidence": 1
+  },
+  {
+   "claim": "The total amount collected for National Permit authorizations in India between 01-04-2025 and 22-08-2026 is 35,60,35,68,000/-.",
+   "kind": "FEE",
+   "subject": "national_permit_authorization",
+   "object": "total_amount_collected",
+   "detail": {
+    "start_date": "01-04-2025",
+    "end_date": "22-08-2026",
+    "total_amount": "35,60,35,68,000/-"
+   },
+   "sourceId": "src:6d9d50cb743e",
+   "evidence": "Total Permit Amount\n35,60,35,68,000/-",
+   "confidence": 1
+  },
+  {
+   "claim": "Users can check the status of their National Permit transactions online.",
+   "kind": "TRACKING",
+   "subject": "national_permit_transaction",
+   "object": "status_check",
+   "detail": {
+    "method": "online"
+   },
+   "sourceId": "src:6d9d50cb743e",
+   "evidence": "Check Transaction / Vehicle No/ Bank Ref No Status",
+   "confidence": 1
+  },
+  {
+   "claim": "Users can print the receipt for their National Permit Authorization online.",
+   "kind": "ACTION",
+   "subject": "national_permit_authorization",
+   "object": "receipt_print",
+   "detail": {
+    "method": "online"
+   },
+   "sourceId": "src:6d9d50cb743e",
+   "evidence": "Print Receipt",
+   "confidence": 1
+  },
+  {
+   "claim": "Users can dispose of pending National Permit transactions online.",
+   "kind": "ACTION",
+   "subject": "national_permit_transaction",
+   "object": "pending_dispose",
+   "detail": {
+    "method": "online"
+   },
+   "sourceId": "src:6d9d50cb743e",
+   "evidence": "Dispose Pending Transaction",
+   "confidence": 1
+  },
+  {
+   "claim": "The website is maintained by the Ministry of Road Transport & Highways, Government of India.",
+   "kind": "OFFICE",
+   "subject": "website",
+   "object": "ministry_of_road_transport_and_highways",
+   "detail": {
+    "description": "maintained by"
+   },
+   "sourceId": "src:6d9d50cb743e",
+   "evidence": "This Website belongs to Ministry of Road Transport &\nHighways (MoRTH)\nGovernment of India",
+   "confidence": 1
+  },
+  {
+   "claim": "The website is powered by the National Informatics Centre.",
+   "kind": "OFFICE",
+   "subject": "website",
+   "object": "national_informatics_centre",
+   "detail": {
+    "description": "powered by"
+   },
+   "sourceId": "src:6d9d50cb743e",
+   "evidence": "Powered by National Informatics\nCentre. All Rights Reserved.",
+   "confidence": 1
+  },
+  {
+   "claim": "A proposal must be submitted to obtain approval for the diversion of entire forest land located within a mining lease.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "diversion_proposal",
+   "object": "mining_lease_forest_diversion",
+   "detail": {
+    "document_number": "11-599/2014-FC",
+    "date": "01/04/2015"
+   },
+   "sourceId": "src:435ad0a265ce",
+   "evidence": "Guidelines for diversion of forest land for non-forest purpose under the Forest (Conservation) Act 1980- Submission of Proposals to obtain approval for diversion of entire forest land located within a Mining Lease.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "General approval under Section-2 of the Forest (Conservation) Act, 1980 is given for the diversion of forest land for construction and widening of two-lane roads for Indo-Tibet Border Police in areas within 100 km aerial distance from the Line of Actual Control.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "construction_road_diversion",
+   "object": "border_police_road",
+   "detail": {
+    "document_number": "11-246/2014-FC",
+    "date": "29/01/2015"
+   },
+   "sourceId": "src:435ad0a265ce",
+   "evidence": "General approval under section-2 of the Forest (Conservation) Act, 1980 for diversion of forest land for construction and widening of two lane roads for INDO-TIBET Border Police in the areas falling within 100 Km. aerial distance from the Line of Actual Control- reg.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "General approval under Section-2 of the Forest (Conservation) Act, 1980 is given for the diversion of forest land for border security infrastructure within five kilometers aerial distance from the International Border by Paramilitary organizations.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "border_security_infrastructure",
+   "object": "paramilitary_diversion",
+   "detail": {
+    "document_number": "11-246/2014-FC",
+    "date": "29/01/2015"
+   },
+   "sourceId": "src:435ad0a265ce",
+   "evidence": "General approval under Section-2 of the Forest (Conservation) Act, 1980 for diversion of forest land required for creation of border security related infrastructure within five kilometers aerial distance from the International Border by Paramilitary organizations of the Ministry of Home affairs- reg.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A simplified procedure is provided for granting permission for felling of trees on forest land to be diverted for execution of linear projects.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "linear_project_felling",
+   "object": "forest_land_diversion",
+   "detail": {
+    "document_number": "11-306/2014-FC",
+    "date": "15/01/2015"
+   },
+   "sourceId": "src:435ad0a265ce",
+   "evidence": "Guidelines for diversion of forest land for non-forest purpose under the Forest(Conservation) Act, 1980- Simplified procedure for grant of permission for felling of trees standing on forest land to be diverted for execution of linear projects:reg.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Guidelines are provided for the management of a safety zone in the mining lease.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "safety_zone_guidelines",
+   "object": "mining_lease",
+   "detail": {
+    "document_number": "11-125/2014-FC",
+    "date": "09/01/2015"
+   },
+   "sourceId": "src:435ad0a265ce",
+   "evidence": "Diversion of forest land for non-forest purpose under the Forest(Conservation) Act, 1980- Guidelines regarding management of safety zone in the mining lease - reg.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Guidelines are provided for laying transmission lines through forest areas.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "transmission_line_guidelines",
+   "object": "forest_area_transmission",
+   "detail": {
+    "document_number": "7-25/2012-FC",
+    "date": "19/11/2014"
+   },
+   "sourceId": "src:435ad0a265ce",
+   "evidence": "Guidelines for diversion of forest land for non-forest purposes under the Forest (Conservation) Act,1980-Guidelines for laying transmission lines through forest areas-reg.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Guidelines are provided for the non-availability of non-forest land for creation of compensatory afforestation.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "compensatory_afforestation",
+   "object": "non_forest_land",
+   "detail": {
+    "document_number": "11-317/2014-FC",
+    "date": "07/11/2014"
+   },
+   "sourceId": "src:435ad0a265ce",
+   "evidence": "Guidelines for diversion of forest land for non-forest purposes under the Forest (Conservation) Act,1980 -Non-availability of non-forest land for creation of compensatory afforestation.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Guidelines are provided for the underground laying of optical fibre cables, telephone lines, and drinking water supply pipelines.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "underground_infrastructure",
+   "object": "optical_fibre_telephone_water",
+   "detail": {
+    "document_number": "11-09/98-FC",
+    "date": "07/11/2014"
+   },
+   "sourceId": "src:435ad0a265ce",
+   "evidence": "Guidelines for diversion of forest land for non-forest purpose under the Forest (Conservation) ACt,1980-Guidelines related general approval under Section-2 of the Forest (Conservation) Act,1980 for under ground laying of optical fibre cables, telephone lines and drinking water supply pipelines-reg.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Compliance with the Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006 is ensured for the diversion of forest land for non-forest purposes.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "forest_rights_compliance",
+   "object": "diversion_compliance",
+   "detail": {
+    "document_number": "11-09/98-FC",
+    "date": "28/10/2014"
+   },
+   "sourceId": "src:435ad0a265ce",
+   "evidence": "Diversion of forest land for non-forest purposes under the Forest (Conservation) Act,1980-ensuring compliance of the Scheduled Tribes and Other Traditional Forest Dwellers(Recognition of Forest Rights)Act,2006",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The login will be generated and emailed to the registered email ID after approval from the GEDA Office.",
+   "kind": "ACTION",
+   "subject": "developer_login",
+   "object": "geda_office",
+   "detail": {},
+   "sourceId": "src:9f03ddbb98ec",
+   "evidence": "The login shall be generated and emailed to you on your registered email ID upon the approval from GEDA Office.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The total processing fees including GST is 11,800.00 rupees.",
+   "kind": "FEE",
+   "subject": "developer_registration",
+   "object": "processing_fees",
+   "detail": {
+    "amount": "11,800.00",
+    "currency": "₹"
+   },
+   "sourceId": "src:9f03ddbb98ec",
+   "evidence": "Total Processing Fees including GST (in ₹) 11,800.00",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The GST number cannot be changed once the application is processed.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "gst_number",
+   "object": "developer_application",
+   "detail": {},
+   "sourceId": "src:9f03ddbb98ec",
+   "evidence": "It is suggested to kindly check the GST number twice before entering. The same will not be changed once the application is processed.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The email ID and mobile number provided in the form will be used for all further communication.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "developer_form",
+   "object": "communication_details",
+   "detail": {},
+   "sourceId": "src:9f03ddbb98ec",
+   "evidence": "The email ID and mobile no. mentioned here in the form shall be used for all further communication related to this Portal.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Documents uploaded must be of maximum 1 MB size.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "document_upload",
+   "object": "file_size_limit",
+   "detail": {
+    "size_limit": "1 MB"
+   },
+   "sourceId": "src:9f03ddbb98ec",
+   "evidence": "The documents to be uploaded shall be of max. 1 MB.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "To edit the Login Form, the mandatory fields are E-mail, Mobile, and PAN.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "login_form_edit",
+   "object": "mandatory_fields",
+   "detail": {
+    "fields": [
+     "E-mail",
+     "Mobile",
+     "PAN"
+    ]
+   },
+   "sourceId": "src:9f03ddbb98ec",
+   "evidence": "1) To edit your Login Form, kindly enter the Mandatory Fields - E-mail, Mobile, and PAN",
+   "confidence": 0.95
+  },
+  {
+   "claim": "To pay the fees, the mandatory fields are E-mail, Mobile, and PAN to open the saved Login Form.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "fee_payment",
+   "object": "mandatory_fields",
+   "detail": {
+    "fields": [
+     "E-mail",
+     "Mobile",
+     "PAN"
+    ]
+   },
+   "sourceId": "src:9f03ddbb98ec",
+   "evidence": "2) To Pay the fees kindly enter the Mandatory Fields - E-mail, Mobile, and PAN to open your saved Login Form",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Gujarat Energy Development Agency is located at 4th Floor, Block No. 11-12, Udyog Bhawan, Gandhinagar - 382 017, Gujarat.",
+   "kind": "OFFICE",
+   "subject": "geda_office",
+   "object": "address",
+   "detail": {
+    "address": "4th Floor, Block No. 11-12, Udyog Bhawan, Gandhinagar - 382 017, Gujarat"
+   },
+   "sourceId": "src:9f03ddbb98ec",
+   "evidence": "Gujarat Energy Development Agency,\n4th Floor, Block No. 11-12, Udyog Bhawan,\nGandhinagar - 382 017, Gujarat",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The contact email for the Gujarat Energy Development Agency is info.geda@ahasolar.in.",
+   "kind": "OFFICE",
+   "subject": "geda_office",
+   "object": "email",
+   "detail": {
+    "email": "info.geda@ahasolar.in"
+   },
+   "sourceId": "src:9f03ddbb98ec",
+   "evidence": "Email:\ninfo.geda@ahasolar.in",
+   "confidence": 0.95
+  },
+  {
+   "claim": "PUC centres must display their name and code at the testing location.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "puc_centre",
+   "object": "display_centre_info",
+   "detail": {
+    "information": "PUC Centre Name, PUC Centre Code"
+   },
+   "sourceId": "src:63e143ef3b33",
+   "evidence": "The PUC Centre shall prominently display the following information at the testing location in a clearly visible manner: a. PUC Centre Name b. PUC Centre Code",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The video during PUC testing must show the vehicle's registration number.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "puc_testing",
+   "object": "video_recording",
+   "detail": {
+    "information": "Vehicle Registration Number"
+   },
+   "sourceId": "src:63e143ef3b33",
+   "evidence": "b. Vehicle Registration Number of the vehicle undergoing the emission test.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The video during PUC testing must show the proper insertion of the emission testing probe into the vehicle's exhaust pipe.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "puc_testing",
+   "object": "video_recording",
+   "detail": {
+    "information": "Proper insertion of the emission testing probe into the vehicle's exhaust pipe"
+   },
+   "sourceId": "src:63e143ef3b33",
+   "evidence": "c. Proper insertion of the emission testing probe into the vehicle's exhaust pipe throughout the testing process.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The video during PUC testing must show the complete testing area, including the PUC Centre premises and its surroundings.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "puc_testing",
+   "object": "video_recording",
+   "detail": {
+    "information": "Complete testing area, PUC Centre premises, and surroundings"
+   },
+   "sourceId": "src:63e143ef3b33",
+   "evidence": "d. A clear view of the complete testing area, including the PUC Centre premises and its surroundings/background.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The video during PUC testing must show a full view of the vehicle with the PUC Centre and its identification visible in the background.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "puc_testing",
+   "object": "video_recording",
+   "detail": {
+    "information": "Full view of the vehicle with PUC Centre and identification visible"
+   },
+   "sourceId": "src:63e143ef3b33",
+   "evidence": "e. A full view of the vehicle, with the PUC Centre and its displayed identification visible in the background.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Failure to comply with the video recording requirements may result in rejection of the video and re-initiation of the PUC test process.",
+   "kind": "BLOCKER",
+   "subject": "puc_testing",
+   "object": "video_recording",
+   "detail": {
+    "consequence": "Rejection of the video and re-initiation of the PUC test process"
+   },
+   "sourceId": "src:63e143ef3b33",
+   "evidence": "Failure to comply with any of the above requirements, or submission of a video that does not clearly capture the mandatory details, may result in rejection of the video recording . In such cases, the PUC testing process may be required to be re-initiated from the beginning, and a fresh video recording shall be captured in accordance with the prescribed guidelines.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "PUC centres must ensure strict adherence to the video capture guidelines to avoid rejection of the PUC test process.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "puc_centre",
+   "object": "adherence_guidelines",
+   "detail": {
+    "guidelines": "Mandatory guidelines for video capture during PUC testing"
+   },
+   "sourceId": "src:63e143ef3b33",
+   "evidence": "All PUC Centres are advised to ensure strict adherence to these instructions to avoid rejection of the PUC test process and inconvenience to vehicle owners.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Users must confirm that they have read and understood the video capture instructions for PUC testing.",
+   "kind": "ACTION",
+   "subject": "user",
+   "object": "user_consent",
+   "detail": {
+    "confirmation": "Understood & Agreed"
+   },
+   "sourceId": "src:63e143ef3b33",
+   "evidence": "USER CONSENT I hereby confirm that I have read and understood the above instructions and undertake to comply with all the prescribed requirements for video capture during the PUC testing process. I understand that non-compliance may lead to rejection of the video and re-initiation of the PUC test process.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Citizens must migrate to the new platform before September 15, 2026, to avoid disruption in services.",
+   "kind": "ACTION",
+   "subject": "migration_to_new_platform",
+   "object": "services_continuity",
+   "detail": {
+    "url": "https://services.parivahan.gov.in/ntr/",
+    "date": "September 15,2026"
+   },
+   "sourceId": "src:0a14063e7f06",
+   "evidence": "All users are requested to migrate to the new platform at https://services.parivahan.gov.in/ntr/ . The existing portal will be discontinued on September 15,2026. Kindly complete the migration process at the earliest to avoid any disruption in services.",
+   "confidence": 1
+  },
+  {
+   "claim": "Users must send an approval letter from the concerned department on letter head along with the application to NIC(HQ) for activation of newly created users.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "approval_letter",
+   "object": "nic_hq_activation",
+   "detail": {},
+   "sourceId": "src:0a14063e7f06",
+   "evidence": "Note: Kindly send approval letter from the concerned department on letter head along with this application to NIC(HQ) for activation of newly created user.",
+   "confidence": 1
+  },
+  {
+   "claim": "Vehicle search is available for digitized data of registered vehicles based on certain parameters.",
+   "kind": "ACTION",
+   "subject": "vehicle_search",
+   "object": "registered_vehicles_data",
+   "detail": {},
+   "sourceId": "src:0a14063e7f06",
+   "evidence": "Vehicle Search -\nIt provides a nationwide search over the digitized data of Registered Vehicles. Stake holders may view the details of Registered Vehicles online based on the certain parameters viz.",
+   "confidence": 1
+  },
+  {
+   "claim": "Authorized users can view full details of registered vehicles using registration number, chassis number, or engine number.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "authorized_users",
+   "object": "view_full_vehicle_details",
+   "detail": {},
+   "sourceId": "src:0a14063e7f06",
+   "evidence": "Registration No (Partial information will be display to citizen and authorized users can see full details)\nChassis No (only for authorized users)\nEngine No (only for authorized users)",
+   "confidence": 1
+  },
+  {
+   "claim": "VAHAN provides integrated solutions for vehicle registration, fitness, taxes, permits, and enforcement.",
+   "kind": "ACTION",
+   "subject": "vahan_services",
+   "object": "vehicle_registration_processes",
+   "detail": {},
+   "sourceId": "src:0a14063e7f06",
+   "evidence": "VAHAN is a highly flexible and comprehensive system that takes care of all the burdensome activities of Vehicle Registration, leaving the Transport Department to deal with more important business issues. The software enables the processes at RTO/DTO/MLO/SDM involving Vehicle Registration, Fitness, Taxes, Permits & Enforcement to get computerized.",
+   "confidence": 1
+  },
+  {
+   "claim": "Users must verify their identity using OTP sent to their mobile number and email address before logging in.",
+   "kind": "ACTION",
+   "subject": "otp_verification",
+   "object": "login_security",
+   "detail": {},
+   "sourceId": "src:0a14063e7f06",
+   "evidence": "For your security, we need to verify your identify before you log in\nOTP is sent to your mobile number and email address",
+   "confidence": 1
+  },
+  {
+   "claim": "OTP will expire after a certain number of hours.",
+   "kind": "TIMELINE",
+   "subject": "otp_expiration",
+   "object": "login_process",
+   "detail": {},
+   "sourceId": "src:0a14063e7f06",
+   "evidence": "OTP will be expired after hours.",
+   "confidence": 1
+  },
+  {
+   "claim": "Users having trouble logging in can register themselves by clicking the provided link.",
+   "kind": "ACTION",
+   "subject": "troubled_login_users",
+   "object": "self_registration",
+   "detail": {},
+   "sourceId": "src:0a14063e7f06",
+   "evidence": "Having trouble logging in?\nClick here to Registered yourself.",
+   "confidence": 1
+  },
+  {
    "claim": "The camera fee for amateur photography is Rs. 200 for Indian nationals.",
    "kind": "FEE",
    "subject": "camera_fee",
@@ -4643,6 +7271,232 @@
    "sourceId": "src:61f17e5a5fa6",
    "evidence": "Once you click the payment button, you are agreed to mentioned terms and conditions to make payment with GSLCS .",
    "confidence": 1
+  },
+  {
+   "claim": "An appointment for the test of competence must be scheduled online or at an RTO office.",
+   "kind": "ACTION",
+   "subject": "permanent_license",
+   "object": "appointment_booking",
+   "detail": {},
+   "sourceId": "src:934e01778690",
+   "evidence": "Schedule an appointment for the test of competence online by visiting the website or any RTO office where such facility exists. In other cases schedule an appointment directly at the Office Concerned.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An application in Form 4 must be submitted along with the Learner's Licence for a permanent driving licence.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "permanent_license",
+   "object": "form_4",
+   "detail": {},
+   "sourceId": "src:934e01778690",
+   "evidence": "An application in Form 4, for a permanent driving licence shall be made along with the Learners' Licence obtained for such class of vehicle.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A valid Learner's Licence must be held for at least 30 days before appearing for the test of competence.",
+   "kind": "ELIGIBILITY",
+   "subject": "permanent_license",
+   "object": "learner_license",
+   "detail": {
+    "days": "30"
+   },
+   "sourceId": "src:934e01778690",
+   "evidence": "The applicant who has held a valid Learners' Licence, for a period of at least 30 days, shall be competent to appear for the test of competence.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must bring a vehicle of the type to which the application relates for the test of competence.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "permanent_license",
+   "object": "vehicle_for_test",
+   "detail": {},
+   "sourceId": "src:934e01778690",
+   "evidence": "The applicant should bring a vehicle of the type to which the application relates.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must demonstrate capability to drive the vehicle and perform tasks specified in Rule-15(2) of the CMVR.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "permanent_license",
+   "object": "driving_competence",
+   "detail": {
+    "rule": "Rule-15(2) of the CMVR"
+   },
+   "sourceId": "src:934e01778690",
+   "evidence": "The applicant should satisfy the officer conducting the test regarding his capability to drive the vehicle and his ability to perform the tasks specified in Rule-15(2) of the CMVR.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Fees as prescribed along with user charges must be paid for the permanent license.",
+   "kind": "FEE",
+   "subject": "permanent_license",
+   "object": "fees",
+   "detail": {},
+   "sourceId": "src:934e01778690",
+   "evidence": "Fees as prescribed along with user charges",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A successful candidate will be issued a driving licence and it will be sent through speed post to the address provided.",
+   "kind": "ACTION",
+   "subject": "permanent_license",
+   "object": "issuance_of_license",
+   "detail": {
+    "delivery_method": "speed post"
+   },
+   "sourceId": "src:934e01778690",
+   "evidence": "The candidate who passes the test of competence successfully will be issued with a driving licence and sent through speed post to the address furnished.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The GST number must be entered correctly as it cannot be changed once the application is processed.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "gst_number",
+   "object": "installer_application",
+   "detail": {},
+   "sourceId": "src:4f7bb61fb6cb",
+   "evidence": "It is suggested to kindly check the GST number twice before entering. The same will not be changed once the application is processed. GST credit will not be passed on to those who have not entered the correct GST number.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The email ID and mobile number provided in the form will be used for all further communication related to the portal.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "installer_form",
+   "object": "communication_details",
+   "detail": {},
+   "sourceId": "src:4f7bb61fb6cb",
+   "evidence": "It is in the interest of the Solar PV Installer to provide as much details as possible. The email ID and mobile no. mentioned here in the form shall be used for all further communication related to this Portal.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Documents uploaded must be of maximum 1 MB in size.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "installer_form",
+   "object": "document_upload",
+   "detail": {
+    "size_limit": "1 MB"
+   },
+   "sourceId": "src:4f7bb61fb6cb",
+   "evidence": "The documents to be uploaded shall be of max. 1 MB.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The login will be generated and emailed to the registered email ID upon approval from the GEDA Office.",
+   "kind": "ACTION",
+   "subject": "installer_login",
+   "object": "geda_office",
+   "detail": {},
+   "sourceId": "src:4f7bb61fb6cb",
+   "evidence": "The login shall be generated and emailed to you on your registered email ID upon the approval from GEDA Office.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The total processing fees including GST is 11,800 rupees.",
+   "kind": "FEE",
+   "subject": "installer_form",
+   "object": "processing_fees",
+   "detail": {
+    "amount": "11,800.00",
+    "currency": "₹"
+   },
+   "sourceId": "src:4f7bb61fb6cb",
+   "evidence": "Total Processing Fees including GST (in ₹) 11,800.00",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Gujarat Energy Development Agency is located at 4th Floor, Block No. 11-12, Udyog Bhawan, Gandhinagar - 382 017, Gujarat.",
+   "kind": "OFFICE",
+   "subject": "geda_office",
+   "object": "address",
+   "detail": {
+    "office_name": "Gujarat Energy Development Agency",
+    "address": "4th Floor, Block No. 11-12, Udyog Bhawan, Gandhinagar - 382 017, Gujarat"
+   },
+   "sourceId": "src:4f7bb61fb6cb",
+   "evidence": "Gujarat Energy Development Agency,\n4th Floor, Block No. 11-12, Udyog Bhawan,\nGandhinagar - 382 017, Gujarat",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The contact email for the Gujarat Energy Development Agency is info.geda@ahasolar.in.",
+   "kind": "HELPLINE",
+   "subject": "geda_office",
+   "object": "email",
+   "detail": {
+    "email": "info.geda@ahasolar.in"
+   },
+   "sourceId": "src:4f7bb61fb6cb",
+   "evidence": "Email:\ninfo.geda@ahasolar.in",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Citizens must update their mobile number in the Vahan and Sarathi portal to ensure details are complete, accurate, and up to date.",
+   "kind": "ACTION",
+   "subject": "citizen",
+   "object": "update_mobile_number",
+   "detail": {},
+   "sourceId": "src:ebcf607d8f35",
+   "evidence": "Driving license holders and registered Vehicle owners are urged to ensure that their mobile number is updated in the Vahan and Sarathi portal. This will help them in ensuring that the details are complete, accurate, and up to date. Online facility has been provided to update mobile number in the portal without visiting RTOs.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "If a transaction is pending at the bank side, it must be cleared before applying for any fresh application or payment.",
+   "kind": "BLOCKER",
+   "subject": "citizen",
+   "object": "apply_for_service",
+   "detail": {},
+   "sourceId": "src:ebcf607d8f35",
+   "evidence": "Following transactions are pending at bank side. Kindly clear the transaction before applying for any fresh application Fees",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Authentication modes for availing services on the Vahan Portal are as per directions from respective states.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "citizen",
+   "object": "authentication_mode",
+   "detail": {},
+   "sourceId": "src:ebcf607d8f35",
+   "evidence": "1.Authentication modes for availing any service on Vahan Portal is as per directions from respective state and accordingly authentication modes are enabled or disabled.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "If Aadhaar biometric authentication is the only available mode, applicants may visit the nearest CSC or attach a biometric device to the laptop/desktop to get authenticated.",
+   "kind": "ACCEPTED_ALTERNATIVES",
+   "subject": "citizen",
+   "object": "aadhaar_authentication",
+   "detail": {},
+   "sourceId": "src:ebcf607d8f35",
+   "evidence": "2.So while availing any service wherever Aadhaar biometric authentication is only available mode then applicant may visit the nearest CSC or attach a biometric device to the laptop/ desktop to get authenticated.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "If an applicant uses an Aadhaar number of a person other than the registered owner for authentication, the application will be rejected and fees will not be refundable.",
+   "kind": "BLOCKER",
+   "subject": "citizen",
+   "object": "submit_application",
+   "detail": {},
+   "sourceId": "src:ebcf607d8f35",
+   "evidence": "3.If applicant does Aadhaar Authentication with Aadhaar number of a person other than registered owner then his/her application will be rejected and fees shall not be refundable.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "For contactless (eKYC) services, if applying through Aadhaar authentication, the applicant does not need to visit the RTO office for verification of uploaded documents.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "citizen",
+   "object": "visit_rto_office",
+   "detail": {},
+   "sourceId": "src:ebcf607d8f35",
+   "evidence": "4.For Services in the Contactless (eKyc) Services, if you apply through aadhar authentication then you do not need to visit RTO office for verification of uploaded documents.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "For non-contactless (eKYC) services, after submitting the application, depositing the fee, and uploading required documents, the applicant must compulsorily visit the RTO along with the vehicle (if required) for verification of documents/vehicle.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "citizen",
+   "object": "visit_rto_office",
+   "detail": {},
+   "sourceId": "src:ebcf607d8f35",
+   "evidence": "5.For Services not in the contactless (eKyc) Services list, after submitting application, depositing fee and uploading required documents as per Motor Vehicle Act/Rules and booking a slot on a required date, you have to compulsorily visit the RTO along with the vehicle( if required) for verification of documents/vehicle.",
+   "confidence": 0.95
   },
   {
    "claim": "A citizen must download Annexure 2 (DL) for the Drug Manufacturing Licence System - Ayurvedic.",
@@ -4745,6 +7599,116 @@
    "confidence": 0.9
   },
   {
+   "claim": "A citizen must download Annexure - 2 Final Registration Form for Solar Power Project from the provided link.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "solar_power_project",
+   "object": "annexure_2_form",
+   "detail": {
+    "url": "https://geda.gujarat.gov.in/Gallery/Media_Gallery/Annexure_2_Final_Registration_Form_Solar_Power_Project.pdf"
+   },
+   "sourceId": "src:99aae295d09c",
+   "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/Media_Gallery/Annexure_2_Final_Registration_Form_Solar_Power_Project.pdf\" target=\"_blank\">Annexure - 2 Final Registration Form_Solar Power Project</a></p>",
+   "confidence": 1
+  },
+  {
+   "claim": "A citizen must download the Undertaking for Newness from the provided link.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "solar_power_project",
+   "object": "undertaking_newness",
+   "detail": {
+    "url": "https://geda.gujarat.gov.in/Gallery/Media_Gallery/Undertaking_for_Newness.pdf"
+   },
+   "sourceId": "src:99aae295d09c",
+   "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/Media_Gallery/Undertaking_for_Newness.pdf\" target=\"_blank\">Undertaking for Newness</a></p>",
+   "confidence": 1
+  },
+  {
+   "claim": "A citizen must download the Undertaking for CGP criteria from the provided link.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "solar_power_project",
+   "object": "undertaking_cgp_criteria",
+   "detail": {
+    "url": "https://geda.gujarat.gov.in/Gallery/Media_Gallery/Group_Captive_Undertaking.pdf"
+   },
+   "sourceId": "src:99aae295d09c",
+   "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/Media_Gallery/Group_Captive_Undertaking.pdf\" target=\"_blank\">Undertaking for CGP criteria</a></p>",
+   "confidence": 1
+  },
+  {
+   "claim": "A citizen must download Annexure - 4 Commissioning request form for Solar Power Project from the provided link.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "solar_power_project",
+   "object": "annexure_4_form",
+   "detail": {
+    "url": "https://geda.gujarat.gov.in/Gallery/Media_Gallery/3Commissioning_request_form___Solar_PV_Poject.pdf"
+   },
+   "sourceId": "src:99aae295d09c",
+   "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/Media_Gallery/3Commissioning_request_form___Solar_PV_Poject.pdf\" target=\"_blank\">Annexure - 4 Commissioning request form for Solar Power Project</a></p>",
+   "confidence": 1
+  },
+  {
+   "claim": "A citizen must download the Undertaking Solar Rooftop on Government Building from the provided link.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "solar_power_project",
+   "object": "undertaking_solar_rooftop_govt_building",
+   "detail": {
+    "url": "https://geda.gujarat.gov.in/Gallery/Media_Gallery/Undertaking_Solar_Rooftop_on_Government_Building.pdf"
+   },
+   "sourceId": "src:99aae295d09c",
+   "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/Media_Gallery/Undertaking_Solar_Rooftop_on_Government_Building.pdf\" target=\"_blank\">Undertaking Solar Rooftop on Government Building</a></p>",
+   "confidence": 1
+  },
+  {
+   "claim": "A transaction is pending if no confirmation has been received from the payment gateway or bank.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "transaction",
+   "object": "payment_gateway_or_bank_confirmation",
+   "detail": {},
+   "sourceId": "src:0f7d9311985a",
+   "evidence": "The transaction is pending as no confirmation has been received from the payment gateway/Bank..",
+   "confidence": 1
+  },
+  {
+   "claim": "The final transaction status has not been received from the payment gateway or aggregator.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "transaction_status",
+   "object": "payment_gateway_or_aggregator",
+   "detail": {},
+   "sourceId": "src:0f7d9311985a",
+   "evidence": "The final transaction status has not yet been received from payment gateway/aggregator.",
+   "confidence": 1
+  },
+  {
+   "claim": "A user may terminate the transaction and go for a fresh payment.",
+   "kind": "ACTION",
+   "subject": "user",
+   "object": "transaction_termination",
+   "detail": {},
+   "sourceId": "src:0f7d9311985a",
+   "evidence": "However if the user wants he/she may terminate the transaction and go for fresh payment.",
+   "confidence": 1
+  },
+  {
+   "claim": "If the original transaction becomes successful and payment is already made, a refund will not be possible.",
+   "kind": "BLOCKER",
+   "subject": "refund",
+   "object": "successful_transaction",
+   "detail": {},
+   "sourceId": "src:0f7d9311985a",
+   "evidence": "However in case the original transaction becomes success and payment is already made then Refund will not be possible.",
+   "confidence": 1
+  },
+  {
+   "claim": "The user must accept the above condition and relinquish the right for a refund claim from the department, payment gateway, or bank.",
+   "kind": "ELIGIBILITY",
+   "subject": "user",
+   "object": "refund_claim_relinquishment",
+   "detail": {},
+   "sourceId": "src:0f7d9311985a",
+   "evidence": "User hereby accepts the above condition and relinquishes Not the right for refund claim from the department/payment gateway/bank.",
+   "confidence": 1
+  },
+  {
    "claim": "A merchant or trader must provide their name for registration.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "merchant_registration",
@@ -4834,6 +7798,8 @@
   }
  ],
  "notFound": [
-  "Drug Manufacturing Licence System - Ayurvedic: no quotable requirement, fee or timeline survived, so no service node was written for it."
+  "Driving Licence: the hand written graph already answers to service:driving_licence, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
+  "Drug Manufacturing Licence System - Ayurvedic: no quotable requirement, fee or timeline survived, so no service node was written for it.",
+  "Learner's License: the hand written graph already answers to service:learner_license, so the pages found for it were not merged in. Reconciling the two is a job for a person."
  ]
 }
