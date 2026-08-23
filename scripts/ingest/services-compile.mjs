@@ -798,7 +798,18 @@ for (const f of readJsonl(".ingest/facts.jsonl")) {
   byUrl.get(f.url).push(f);
 }
 
-const MIN_HARD = Number(value("min", 3));
+/**
+ * How many facts a page has to carry about documents, money, time or who
+ * qualifies before it is worth identifying.
+ *
+ * Was three, which was a bill limiter back when identifying a page cost a model
+ * call every run. It cost 70 services: a page that lists a helpline, an office
+ * and where to apply has zero hard facts by this count and was thrown away
+ * whole, including the helpline. Identification is cached now, so the same
+ * corpus at one is free, and the pages it lets in are the ones that answer the
+ * two thinnest columns in the depth table.
+ */
+const MIN_HARD = Number(value("min", 1));
 const candidates = [...byUrl.entries()]
   .map(([url, facts]) => ({ url, facts, page: pages.get(url) }))
   .filter((c) => c.page && c.facts.filter((f) => HARD.includes(f.kind)).length >= MIN_HARD)
