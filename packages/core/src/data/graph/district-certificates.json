@@ -660,9 +660,27 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "office:jan_seva_kendra_kheda",
+   "type": "OFFICE",
+   "name": "Jan_seva_kendra_kheda",
+   "jurisdictionId": "IN-GJ-KHEDA",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Ayojan Bhavan Building, Subhash Nagar, Nadiad, Dist : Kheda, Gujarat - 387001"
+   },
+   "sources": [
+    {
+     "sourceId": "src:02558b8797df",
+     "evidence": "Jan Seva Kendra, Kheda District Collector Office Ayojan Bhavan Building, Subhash Nagar, Nadiad, Dist : Kheda, Gujarat - 387001 8:30 A.M To 5:30 A.M",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "service:varshai",
    "type": "SERVICE",
-   "name": "varshai",
+   "name": "Varshai",
    "officialName": "varshai",
    "aliases": [
     "વારસાઈ પ્રમાણપત્ર"
@@ -733,6 +751,24 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "office:collector_office",
+   "type": "OFFICE",
+   "name": "Collector_office",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Office of The Collector & District Magistrate, Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027"
+   },
+   "sources": [
+    {
+     "sourceId": "src:75df169cf632",
+     "evidence": "Application Process Jan Seva Kendra Ahmedabad Office of The Collector & District Magistrate Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
   },
   {
    "id": "service:unreserved_class_certificate",
@@ -841,6 +877,24 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "office:jan_seva_kendra",
+   "type": "OFFICE",
+   "name": "Jan_seva_kendra",
+   "jurisdictionId": "IN-GJ-GANDHINAGAR",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "District Collector Office, District Collector & Jilla Seva Sadan Kacheri, Near Pathika Ashram, GH Road, Sector 11, Gandhinagar, Gujarat - 382017"
+   },
+   "sources": [
+    {
+     "sourceId": "src:5c9f24f67a98",
+     "evidence": "Application Process\nJan Seva Kendra, Gandhinagar\nDistrict Collector Office\nDistrict Collector & Jilla Seva Sadan Kacheri,\nNear Pathika Ashram,\nGH Road, Sector 11,\nGandhinagar,\nGujarat - 382017",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
   },
   {
    "id": "service:salary_certificate",
@@ -1014,6 +1068,24 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "office:district_collector_office",
+   "type": "OFFICE",
+   "name": "District_collector_office",
+   "jurisdictionId": "IN-GJ-JAMNAGAR",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Jilla Seva Sadan, Sharu Section Road, Jamnagar, Gujarat - 361002"
+   },
+   "sources": [
+    {
+     "sourceId": "src:517e00ce5909",
+     "evidence": "Application Process\nDistrict Collector Office\nJilla Seva Sadan,\nSharu Section Road,\nJamnagar,\nGujarat - 361002",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "document:birth_or_domicile_or_passport",
    "type": "DOCUMENT",
    "name": "Birth or domicile or passport",
@@ -1091,7 +1163,7 @@
   {
    "id": "service:education_purpose_nationality_certificate",
    "type": "SERVICE",
-   "name": "education purpose nationality certificate",
+   "name": "Education Purpose Nationality Certificate",
    "officialName": "education purpose nationality certificate",
    "aliases": [
     "શૈક્ષણિક હેતુ માટે નેશનાલીટી સર્ટીફીકેટ"
@@ -1191,6 +1263,24 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "office:jan_seva_kendra_ahmedabad",
+   "type": "OFFICE",
+   "name": "Jan_seva_kendra_ahmedabad",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Office of The Collector & District Magistrate, Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027"
+   },
+   "sources": [
+    {
+     "sourceId": "src:fa4073ea12cb",
+     "evidence": "Application Process Jan Seva Kendra Ahmedabad Office of The Collector & District Magistrate Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027 8:30 A.M To 5:30 P.M",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "service:residential_certificate",
    "type": "SERVICE",
    "name": "Residential Certificate",
@@ -1268,7 +1358,7 @@
   {
    "id": "service:farmer_account_holder_certificate",
    "type": "SERVICE",
-   "name": "farmer account holder certificate",
+   "name": "Farmer Account Holder Certificate",
    "officialName": "farmer account holder certificate",
    "aliases": [
     "ખેડુત ખાતેદાર હોવા અંગેનો દાખલો"
@@ -1885,6 +1975,22 @@
    ]
   },
   {
+   "id": "e:service_varshai__visit_at__office_jan_seva_kendra_kheda",
+   "from": "service:varshai",
+   "to": "office:jan_seva_kendra_kheda",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The application can be submitted at the Jan Seva Kendra, Kheda.",
+   "sources": [
+    {
+     "sourceId": "src:02558b8797df",
+     "evidence": "Jan Seva Kendra, Kheda District Collector Office Ayojan Bhavan Building, Subhash Nagar, Nadiad, Dist : Kheda, Gujarat - 387001 8:30 A.M To 5:30 A.M",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_varshai__apply_at__portal_collectorkheda_gujarat_gov_in",
    "from": "service:varshai",
    "to": "portal:collectorkheda_gujarat_gov_in",
@@ -1911,6 +2017,22 @@
     {
      "sourceId": "src:75df169cf632",
      "evidence": "એપ્લીકેશન ફોર્મ [File Size : 2149 KB] [Gujarati]",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_unreserved_class_certificate__visit_at__office_collector_office",
+   "from": "service:unreserved_class_certificate",
+   "to": "office:collector_office",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Applications can be submitted at the Office of the Collector & District Magistrate in Ahmedabad.",
+   "sources": [
+    {
+     "sourceId": "src:75df169cf632",
+     "evidence": "Application Process Jan Seva Kendra Ahmedabad Office of The Collector & District Magistrate Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027",
      "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
@@ -2029,6 +2151,22 @@
    ]
   },
   {
+   "id": "e:service_salary_certificate__visit_at__office_jan_seva_kendra",
+   "from": "service:salary_certificate",
+   "to": "office:jan_seva_kendra",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The application must be submitted at Jan Seva Kendra, Gandhinagar.",
+   "sources": [
+    {
+     "sourceId": "src:5c9f24f67a98",
+     "evidence": "Application Process\nJan Seva Kendra, Gandhinagar\nDistrict Collector Office\nDistrict Collector & Jilla Seva Sadan Kacheri,\nNear Pathika Ashram,\nGH Road, Sector 11,\nGandhinagar,\nGujarat - 382017",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_salary_certificate__apply_at__portal_collectorgandhinagar_gujarat_gov_in",
    "from": "service:salary_certificate",
    "to": "portal:collectorgandhinagar_gujarat_gov_in",
@@ -2125,6 +2263,22 @@
    ]
   },
   {
+   "id": "e:service_religious_and_linguistic_minority_certificate__visit_at__office_jan_seva_kendra",
+   "from": "service:religious_and_linguistic_minority_certificate",
+   "to": "office:jan_seva_kendra",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The application must be submitted at the Jan Seva Kendra Ahmedabad.",
+   "sources": [
+    {
+     "sourceId": "src:119c5e4a63b6",
+     "evidence": "Application Process\nJan Seva Kendra Ahmedabad\nOffice of The Collector & District Magistrate\nNear Subhash Bridge Circle,\nR.T.O Ashram Rd, Hridaya Kunj,\nOld Wadaj, Ahmedabad,\nGujarat - 380027",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_religious_and_linguistic_minority_certificate__apply_at__portal_ahmedabad_gujarat_gov_in",
    "from": "service:religious_and_linguistic_minority_certificate",
    "to": "portal:ahmedabad_gujarat_gov_in",
@@ -2135,6 +2289,22 @@
     {
      "sourceId": "src:119c5e4a63b6",
      "evidence": "નિકાલની સમય મર્યાદા કુલ ૧ દિવસ.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_education_purpose_nationality_certificate__visit_at__office_district_collector_office",
+   "from": "service:education_purpose_nationality_certificate",
+   "to": "office:district_collector_office",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The application process for an education purpose nationality certificate must be submitted to the District Collector Office.",
+   "sources": [
+    {
+     "sourceId": "src:517e00ce5909",
+     "evidence": "Application Process\nDistrict Collector Office\nJilla Seva Sadan,\nSharu Section Road,\nJamnagar,\nGujarat - 361002",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -2333,6 +2503,22 @@
    ]
   },
   {
+   "id": "e:service_residential_certificate__visit_at__office_jan_seva_kendra_ahmedabad",
+   "from": "service:residential_certificate",
+   "to": "office:jan_seva_kendra_ahmedabad",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The application for the residential certificate must be submitted at the Jan Seva Kendra Ahmedabad.",
+   "sources": [
+    {
+     "sourceId": "src:fa4073ea12cb",
+     "evidence": "Application Process Jan Seva Kendra Ahmedabad Office of The Collector & District Magistrate Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027 8:30 A.M To 5:30 P.M",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_residential_certificate__apply_at__portal_ahmedabad_gujarat_gov_in",
    "from": "service:residential_certificate",
    "to": "portal:ahmedabad_gujarat_gov_in",
@@ -2413,6 +2599,22 @@
    ]
   },
   {
+   "id": "e:service_farmer_account_holder_certificate__visit_at__office_jan_seva_kendra_ahmedabad",
+   "from": "service:farmer_account_holder_certificate",
+   "to": "office:jan_seva_kendra_ahmedabad",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The application process for a farmer account holder certificate is handled at the Jan Seva Kendra Ahmedabad office.",
+   "sources": [
+    {
+     "sourceId": "src:b55b2acd832b",
+     "evidence": "Jan Seva Kendra Ahmedabad Office of The Collector & District Magistrate Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_farmer_account_holder_certificate__apply_at__portal_ahmedabad_gujarat_gov_in",
    "from": "service:farmer_account_holder_certificate",
    "to": "portal:ahmedabad_gujarat_gov_in",
@@ -2471,6 +2673,22 @@
     {
      "sourceId": "src:0543004fcb52",
      "evidence": "સાક્ષીનું અસલ ઓળખપત્ર",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_affidavit__visit_at__office_district_collector_office",
+   "from": "service:affidavit",
+   "to": "office:district_collector_office",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The affidavit can be obtained at the District Collector Office.",
+   "sources": [
+    {
+     "sourceId": "src:0543004fcb52",
+     "evidence": "Application Process\nDistrict Collector Office\nJilla Seva Sadan,\nSharu Section Road,\nJamnagar,\nGujarat - 361002",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }

@@ -379,11 +379,13 @@
   {
    "id": "helpline:02877_285621",
    "type": "HELPLINE",
-   "name": "02877-285621",
+   "name": "Gir Online Permit helpline",
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "channelType": "PHONE",
-    "phone": "02877-285621"
+    "phoneNumbers": [
+     "02877-285621"
+    ]
    },
    "sources": [
     {
@@ -636,11 +638,13 @@
   {
    "id": "helpline:079_23257950",
    "type": "HELPLINE",
-   "name": "079-23257950",
+   "name": "Access to Biological Resources helpline",
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "channelType": "PHONE",
-    "phone": "079-23257950"
+    "phoneNumbers": [
+     "079-23257950"
+    ]
    },
    "sources": [
     {
@@ -750,7 +754,7 @@
   {
    "id": "service:electrical_contractor_license",
    "type": "SERVICE",
-   "name": "electrical contractor license",
+   "name": "Electrical Contractor License",
    "officialName": "electrical contractor license",
    "description": "A person can obtain an electrical contractor license if they have an electrical supervisor permit or employ someone with such a permit.",
    "jurisdictionId": "IN-GJ",
@@ -1748,13 +1752,33 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "office:gidc_office",
+   "type": "OFFICE",
+   "name": "Gidc_office",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Block 3,4,5, Udhyog Bhavan, Sector-11, Gandhinagar 382 011, Gujarat, India."
+   },
+   "sources": [
+    {
+     "sourceId": "src:ddfe75bb179b",
+     "evidence": "Our Address\nBlock 3,4,5, Udhyog Bhavan, Sector-11,\nGandhinagar 382 011,\nGujarat, India.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "helpline:91_79_23250636",
    "type": "HELPLINE",
-   "name": "+91 79 23250636",
+   "name": "Water Connection helpline",
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "channelType": "PHONE",
-    "phone": "+91 79 23250636"
+    "phoneNumbers": [
+     "+91 79 23250636"
+    ]
    },
    "sources": [
     {
@@ -2125,9 +2149,27 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "office:electricity_revenue_collector_office",
+   "type": "OFFICE",
+   "name": "Electricity_revenue_collector_office",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Block No.18, 7th Floor, Sector-11, Industry Bhavan, Gandhinagar"
+   },
+   "sources": [
+    {
+     "sourceId": "src:3352bf96ce66",
+     "evidence": "અરજી કરવા માટેની સંપર્ક માહિતી : વિદ્યુત શુલ્ક સમાહર્તાની કચેરી બ્લોકનં.૧૮, ૭મો માળ, સેકટર-૧૧, ઉધોગ ભવન. ગાંધીનગર.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "service:electricity_tax_exemption_or_relief",
    "type": "SERVICE",
-   "name": "electricity tax exemption or relief",
+   "name": "Electricity Tax Exemption Or Relief",
    "officialName": "electricity tax exemption or relief",
    "aliases": [
     "વિદ્યુત શુલ્ક મુક્તિ અથવા માફી"
@@ -3659,6 +3701,22 @@
    ]
   },
   {
+   "id": "e:service_water_connection__visit_at__office_gidc_office",
+   "from": "service:water_connection",
+   "to": "office:gidc_office",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The GIDC office is located at Block 3,4,5, Udhyog Bhavan, Sector-11, Gandhinagar 382 011, Gujarat, India.",
+   "sources": [
+    {
+     "sourceId": "src:ddfe75bb179b",
+     "evidence": "Our Address\nBlock 3,4,5, Udhyog Bhavan, Sector-11,\nGandhinagar 382 011,\nGujarat, India.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_water_connection__call_if__helpline_91_79_23250636",
    "from": "service:water_connection",
    "to": "helpline:91_79_23250636",
@@ -3878,6 +3936,22 @@
      "sourceId": "src:276afc4b2b42",
      "evidence": "The Permit charges don't include eco-guide charges (INR 400/-) and safari gypsy charges (INR 2000/-), which must be paid separately to the respective eco-guide and safari gypsy owner.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_electricity_tax_exemption_or_relief__visit_at__office_electricity_revenue_collector_office",
+   "from": "service:electricity_tax_exemption_or_relief",
+   "to": "office:electricity_revenue_collector_office",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The application for electricity tax exemption or relief must be submitted to the office of the Electricity Revenue Collector at Block No.18, 7th Floor, Sector-11, Industry Bhavan, Gandhinagar.",
+   "sources": [
+    {
+     "sourceId": "src:3352bf96ce66",
+     "evidence": "અરજી કરવા માટેની સંપર્ક માહિતી : વિદ્યુત શુલ્ક સમાહર્તાની કચેરી બ્લોકનં.૧૮, ૭મો માળ, સેકટર-૧૧, ઉધોગ ભવન. ગાંધીનગર.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]

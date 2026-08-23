@@ -204,7 +204,7 @@
   {
    "id": "service:application_for_allotment_of_properties",
    "type": "SERVICE",
-   "name": "application for allotment of properties",
+   "name": "Application For Allotment Of Properties",
    "officialName": "application for allotment of properties",
    "aliases": [
     "gidc application for allotment",
@@ -339,7 +339,7 @@
   {
    "id": "service:land_allocation_for_housing",
    "type": "SERVICE",
-   "name": "land allocation for housing",
+   "name": "Land Allocation For Housing",
    "officialName": "land allocation for housing",
    "aliases": [
     "ગામ તળ માટે જમીન નીમ કરવા બાબત"
@@ -383,6 +383,27 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "office:contact_info",
+   "type": "OFFICE",
+   "name": "Contact_info",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Stamp & Registration Bhavan, KH-5, Sector-14, Gandhinagar, Gujarat - 382016",
+    "phoneNumbers": [
+     "(079) 23288575"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:4b89c4b38ed9",
+     "evidence": "Contact Info Stamp & Registration Bhavan KH-5, Sector-14, Gandhinagar, Gujarat - 382016 Phone: (079) 23288575",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
   },
   {
    "id": "service:garvi",
@@ -599,7 +620,7 @@
   {
    "id": "service:property_card",
    "type": "SERVICE",
-   "name": "property card",
+   "name": "Property Card",
    "officialName": "property card",
    "description": "The service provides a property card with details like area and fee, issued upon confirmation of the application.",
    "jurisdictionId": "IN-GJ",
@@ -708,24 +729,6 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "office:jan_seva_kendra_ahmedabad",
-   "type": "OFFICE",
-   "name": "Jan Seva Kendra Ahmedabad",
-   "jurisdictionId": "IN-GJ-AHMEDABAD",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "address": "Office of The Collector & District Magistrate, Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027"
-   },
-   "sources": [
-    {
-     "sourceId": "src:4836e2cf4ed0",
-     "evidence": "Application Process\nJan Seva Kendra Ahmedabad\nOffice of The Collector & District Magistrate\nNear Subhash Bridge Circle,\nR.T.O Ashram Rd, Hridaya Kunj,\nOld Wadaj, Ahmedabad,\nGujarat - 380027",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
   },
   {
    "id": "document:certified_copy_of_documents",
@@ -869,6 +872,22 @@
    ]
   },
   {
+   "id": "e:service_application_for_allotment_of_properties__visit_at__office_gidc_office",
+   "from": "service:application_for_allotment_of_properties",
+   "to": "office:gidc_office",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The GIDC office is located at Block 3,4,5, Udhyog Bhavan, Sector-11, Gandhinagar 382 011, Gujarat, India.",
+   "sources": [
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "Our Address\nBlock 3,4,5, Udhyog Bhavan, Sector-11,\nGandhinagar 382 011,\nGujarat, India.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_application_for_allotment_of_properties__call_if__helpline_91_79_23250636",
    "from": "service:application_for_allotment_of_properties",
    "to": "helpline:91_79_23250636",
@@ -965,6 +984,22 @@
    ]
   },
   {
+   "id": "e:service_land_allocation_for_housing__visit_at__office_jan_seva_kendra_ahmedabad",
+   "from": "service:land_allocation_for_housing",
+   "to": "office:jan_seva_kendra_ahmedabad",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The application process is handled at the Jan Seva Kendra Ahmedabad.",
+   "sources": [
+    {
+     "sourceId": "src:2bd753e1b32d",
+     "evidence": "Jan Seva Kendra Ahmedabad Office of The Collector & District Magistrate Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027 8:30 A.M To 5:30 P.M",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_land_allocation_for_housing__apply_at__portal_ahmedabad_gujarat_gov_in",
    "from": "service:land_allocation_for_housing",
    "to": "portal:ahmedabad_gujarat_gov_in",
@@ -975,6 +1010,22 @@
     {
      "sourceId": "src:2bd753e1b32d",
      "evidence": "હું કઈ રીતે ગામ તળ માટે જમીન નીમ કરાવી શકું? પ્રાંત અધિકારીશ્રી ને, પરિશિષ્ટ-૧/૧ મુજબ અરજી કરવી.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi__visit_at__office_contact_info",
+   "from": "service:garvi",
+   "to": "office:contact_info",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The contact information for the GARVI 2.0 website is at Stamp & Registration Bhavan, KH-5, Sector-14, Gandhinagar, Gujarat - 382016.",
+   "sources": [
+    {
+     "sourceId": "src:4b89c4b38ed9",
+     "evidence": "Contact Info Stamp & Registration Bhavan KH-5, Sector-14, Gandhinagar, Gujarat - 382016 Phone: (079) 23288575",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -1008,6 +1059,22 @@
      "sourceId": "src:00c45e7162f4",
      "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_government_office_land_request__visit_at__office_jan_seva_kendra",
+   "from": "service:government_office_land_request",
+   "to": "office:jan_seva_kendra",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The application process is handled at the Jan Seva Kendra, Gandhinagar.",
+   "sources": [
+    {
+     "sourceId": "src:00c45e7162f4",
+     "evidence": "Application Process Jan Seva Kendra, Gandhinagar District Collector Office District Collector & Jilla Seva Sadan Kacheri, Near Pathika Ashram, GH Road, Sector 11, Gandhinagar, Gujarat - 382017 10:30 A.M To 6:10 P.M",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]

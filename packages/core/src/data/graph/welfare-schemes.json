@@ -926,11 +926,13 @@
   {
    "id": "helpline:079_232_57942",
    "type": "HELPLINE",
-   "name": "079-232-57942",
+   "name": "Chief Minister Matru Shakti Yojana helpline",
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "channelType": "PHONE",
-    "phone": "079-232-57942"
+    "phoneNumbers": [
+     "079-232-57942"
+    ]
    },
    "sources": [
     {
@@ -1700,11 +1702,13 @@
   {
    "id": "helpline:079_23258688_079_23258684",
    "type": "HELPLINE",
-   "name": "079-23258688, 079-23258684",
+   "name": "Self-Employment Scheme helpline",
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "channelType": "PHONE",
-    "phone": "079-23258688, 079-23258684"
+    "phoneNumbers": [
+     "079-23258688, 079-23258684"
+    ]
    },
    "sources": [
     {
@@ -1718,11 +1722,13 @@
   {
    "id": "helpline:91_079_232_58647",
    "type": "HELPLINE",
-   "name": "+91 079 232 58647",
+   "name": "Self-Employment Scheme helpline",
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "channelType": "PHONE",
-    "phone": "+91 079 232 58647"
+    "phoneNumbers": [
+     "+91 079 232 58647"
+    ]
    },
    "sources": [
     {
@@ -1855,6 +1861,24 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "office:gandhinagar",
+   "type": "OFFICE",
+   "name": "Gandhinagar",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Block No. 9, 8th Floor, New Sachivalaya, Gandhinagar."
+   },
+   "sources": [
+    {
+     "sourceId": "src:79fdc662dbe8",
+     "evidence": "Women & Child Development Department (WCD)\nBlock No. 9, 8th Floor, New Sachivalaya, Gandhinagar.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
   },
   {
    "id": "service:chief_minister_s_matru_shakti_yojana",
@@ -2105,6 +2129,26 @@
    ]
   },
   {
+   "id": "office:11_12",
+   "type": "OFFICE",
+   "name": "નાયબ નિયામક અનુસૂચિત જાતિ કલ્યાણ જિ.દેવભૂમિ દ્વારકા રૂમ નં. સી/જી/11/12 ગ્રાઉંડ ફલોર, જિલ્લા સેવા સદન",
+   "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "phoneNumbers": [
+     "02833234602"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:22f2869e784c",
+     "evidence": "નાયબ નિયામક અનુસૂચિત જાતિ કલ્યાણ જિ.દેવભૂમિ દ્વારકા રૂમ નં. સી/જી/૧૧/૧૨ ગ્રાઉંડ ફલોર, જિલ્લા સેવા સદન, (ઇ-મેઇલ dddevbhumi@gmail.com સંપર્ક નં. ૦૨૮૩૩૨૩૪૬૦૨",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "document:bank_passbook_canceled_check",
    "type": "DOCUMENT",
    "name": "Bank passbook canceled check",
@@ -2317,7 +2361,7 @@
   {
    "id": "service:small_savings",
    "type": "SERVICE",
-   "name": "small savings",
+   "name": "Small Savings",
    "officialName": "small savings",
    "aliases": [
     "નાની બચત યોજના"
@@ -2647,11 +2691,13 @@
   {
    "id": "helpline:079_232_58398",
    "type": "HELPLINE",
-   "name": "079-232-58398",
+   "name": "IT/ITeS Incentive Management helpline",
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "channelType": "PHONE",
-    "phone": "079-232-58398"
+    "phoneNumbers": [
+     "079-232-58398"
+    ]
    },
    "sources": [
     {
@@ -3560,11 +3606,13 @@
   {
    "id": "helpline:23258378",
    "type": "HELPLINE",
-   "name": "23258378",
+   "name": "Incentive Schemes helpline",
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "channelType": "PHONE",
-    "phone": "23258378"
+    "phoneNumbers": [
+     "23258378"
+    ]
    },
    "sources": [
     {
@@ -3578,11 +3626,13 @@
   {
    "id": "helpline:23258379",
    "type": "HELPLINE",
-   "name": "23258379",
+   "name": "Incentive Schemes helpline",
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "channelType": "PHONE",
-    "phone": "23258379"
+    "phoneNumbers": [
+     "23258379"
+    ]
    },
    "sources": [
     {
@@ -4078,7 +4128,7 @@
   {
    "id": "service:law_advocate_loan_help",
    "type": "SERVICE",
-   "name": "law-advocate-loan-help",
+   "name": "Law-Advocate-Loan-Help",
    "officialName": "law-advocate-loan-help",
    "aliases": [
     "અનુસુચિત જનજાતિના કાયદાના સ્નાતકોને વકીલાતના ધંધા માટે સહાય"
@@ -4679,7 +4729,7 @@
   {
    "id": "service:interest_subsidy_on_loans",
    "type": "SERVICE",
-   "name": "interest subsidy on loans",
+   "name": "Interest Subsidy On Loans",
    "officialName": "interest subsidy on loans",
    "description": "The service provides interest subsidies on specific bank loans for vehicle purchase, overseas studies, and machinery or vehicle purchases in construction and agriculture sectors.",
    "jurisdictionId": "IN-GJ",
@@ -5672,6 +5722,22 @@
    ]
   },
   {
+   "id": "e:service_chief_minister_s_matru_shakti_yojana__visit_at__office_gandhinagar",
+   "from": "service:chief_minister_s_matru_shakti_yojana",
+   "to": "office:gandhinagar",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Women & Child Development Department is located at Block No. 9, 8th Floor, New Sachivalaya, Gandhinagar.",
+   "sources": [
+    {
+     "sourceId": "src:79fdc662dbe8",
+     "evidence": "Women & Child Development Department (WCD)\nBlock No. 9, 8th Floor, New Sachivalaya, Gandhinagar.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_chief_minister_s_matru_shakti_yojana__call_if__helpline_079_232_57942",
    "from": "service:chief_minister_s_matru_shakti_yojana",
    "to": "helpline:079_232_57942",
@@ -5730,6 +5796,22 @@
     {
      "sourceId": "src:2d345548b3a3",
      "evidence": "Eligible CAPEX>INR 1000 Cr. – Up to 15% on the incremental Eligible CAPEX.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_kunvarbai_mamera_scheme__visit_at__office_11_12",
+   "from": "service:kunvarbai_mamera_scheme",
+   "to": "office:11_12",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The application must be submitted to the Deputy Commissioner of Scheduled Caste Welfare in Devbhumi Dwarka.",
+   "sources": [
+    {
+     "sourceId": "src:22f2869e784c",
+     "evidence": "નાયબ નિયામક અનુસૂચિત જાતિ કલ્યાણ જિ.દેવભૂમિ દ્વારકા રૂમ નં. સી/જી/૧૧/૧૨ ગ્રાઉંડ ફલોર, જિલ્લા સેવા સદન, (ઇ-મેઇલ dddevbhumi@gmail.com સંપર્ક નં. ૦૨૮૩૩૨૩૪૬૦૨",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -5986,6 +6068,22 @@
     {
      "sourceId": "src:91a620ee733a",
      "evidence": "પાસપોર્ટ સાઈઝના બે ફોટા",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_small_savings__visit_at__office_district_collector_office",
+   "from": "service:small_savings",
+   "to": "office:district_collector_office",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The office for application submission is the District Collector Office, Jilla Seva Sadan, Sharu Section Road, Jamnagar, Gujarat - 361002.",
+   "sources": [
+    {
+     "sourceId": "src:91a620ee733a",
+     "evidence": "District Collector Office\nJilla Seva Sadan,\nSharu Section Road,\nJamnagar,\nGujarat - 361002",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }

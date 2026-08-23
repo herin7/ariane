@@ -104,11 +104,19 @@ const JOURNEYS = {
   gst: "GST registration, returns or cancellation",
 };
 
-/** Bundles that already exist and were written by a person. Never overwritten. */
+/**
+ * Bundles that already exist and were written by a person. Never overwritten.
+ *
+ * A journey in JOURNEYS is excluded even though its file is sitting right there,
+ * because that file is last run's output and not a person's work. Counting it as
+ * a hand written bundle is how the second run refuses to write anything: every
+ * journey it is about to emit already exists, and it says so and stops.
+ */
 const EXISTING = new Set(
   readdirSync(at("packages/core/src/data/graph/"))
     .filter((f) => f.endsWith(".json"))
-    .map((f) => f.replace(/\.json$/, "")),
+    .map((f) => f.replace(/\.json$/, ""))
+    .filter((name) => !Object.hasOwn(JOURNEYS, name)),
 );
 
 const DISTRICTS = [
@@ -201,6 +209,21 @@ export function absorbs(shortId, longId) {
     .every((w) => FILLER.has(w));
 }
 
+const title = (s) =>
+  String(s ?? "")
+    .replace(/_/g, " ")
+    .replace(/^\w/, (c) => c.toUpperCase());
+
+/**
+ * A name the model returned in lower case, capitalised for a human to read.
+ *
+ * Some pages say "varshai" in a url slug and nowhere else, so that is what comes
+ * back, and "varshai" is what a citizen would then see on their screen. Only
+ * applied when there is no capital anywhere: a name that already has one was
+ * copied off the page and its capitalisation is the page's, not ours to improve.
+ */
+const display = (s) => (/[A-Z]/.test(s) ? s : s.replace(/\b[a-z]/g, (c) => c.toUpperCase()));
+
 // ----------------------------------------------------------------- self test
 
 if (flag("selftest")) {
@@ -229,9 +252,23 @@ if (flag("selftest")) {
   assert.ok(!absorbs("ews_certificate", "ews_certificate"), "a name does not absorb itself");
   assert.ok(!absorbs("permit", "gir_permit"), "a suffix match is not a prefix match");
 
+  assert.equal(officeName({ object: "jan_seva_kendra", detail: { address: "Near Subhash Bridge Circle" } }), "jan_seva_kendra");
+  assert.equal(officeName({ object: "contact_email", detail: { email: "x@gujarat.gov.in" } }), null);
+  assert.equal(officeName({ object: "office_address", detail: { address: "L. D. College" } }), null, "the page's label for the address is not the office");
+  assert.equal(officeName({ object: "anything", detail: { officeName: "District Collector Office" } }), "District Collector Office");
+  assert.equal(officeName({ object: "anything", detail: { office_name: "Mamlatdar Office" } }), "Mamlatdar Office", "the extractor uses both spellings of the key");
+  assert.equal(officeName({ object: "name", detail: {} }), null, "a form field is never an office");
+
+  assert.equal(display("varshai"), "Varshai");
+  assert.equal(display("EWS Certificate"), "EWS Certificate", "a name copied off the page keeps the page's capitals");
+
   // The generated bundles must never be able to land on a hand written name.
+  // Checked against the hand built five by name and not against EXISTING,
+  // because after the first run EXISTING contains our own output and the
+  // assertion would fail on exactly the thing it is meant to allow.
+  const HERO = new Set(["driving-licence", "certificates", "scholarship", "pf", "pension"]);
   for (const name of Object.keys(JOURNEYS)) {
-    assert.ok(!EXISTING.has(name) || name === "__never__", `journey "${name}" would overwrite an existing bundle`);
+    assert.ok(!HERO.has(name), `journey "${name}" would overwrite a hand written bundle`);
   }
 
   console.log("services-compile: ok");
@@ -390,10 +427,6 @@ if (merged) console.log(`${merged} service(s) folded into a longer name for the 
 const taken = new Set();
 for (const name of EXISTING) {
   if (name === "jurisdictions" || name === "manifest") continue;
-  // A journey we generate is not evidence about who owns a node, it is last
-  // run's output. Reading it back would let the second run believe every node it
-  // is about to write already belongs to somebody, and emit nothing.
-  if (Object.hasOwn(JOURNEYS, name)) continue;
   let bundle;
   try {
     bundle = JSON.parse(readFileSync(at(`packages/core/src/data/graph/${name}.json`), "utf8"));
@@ -406,6 +439,33 @@ for (const name of EXISTING) {
 // -------------------------------------------------------------------- build
 
 const ref = (sourceId, fact) => ({ sourceId, evidence: fact.evidence, confidence: fact.confidence, verificationStatus: "EXTRACTED" });
+
+/**
+ * What to call an office, or null if the fact never says.
+ *
+ * The extractor writes the name under whichever key the page suggested, so
+ * `officeName`, `office_name` and `name` are all in use, and often there is no
+ * key at all and the name is the fact's own object: "The application must be
+ * submitted at the Jan Seva Kendra Ahmedabad" arrives as
+ * `object: jan_seva_kendra` with the full address in `detail`.
+ *
+ * Requiring `officeName` alone threw all of those away, which is how four
+ * generated journeys ended up with one office between them. Requiring nothing
+ * gives you `office:address`, a node named after a form label. So: take a real
+ * name where there is one, fall back to the object where it reads like a place,
+ * and refuse where it reads like a field.
+ */
+export function officeName(fact) {
+  const d = fact.detail ?? {};
+  const explicit = d.officeName || d.office_name || d.name || d.institute_name || d.institute;
+  if (typeof explicit === "string" && explicit.trim().length > 3) return explicit.trim();
+  const object = String(fact.object ?? "");
+  if (!object || object.length < 5 || FIELDS.has(object)) return null;
+  // "office_address", "contact_email", "office_no" name a field on a page about
+  // an office, not the office.
+  if (/^(office_)?(address|email|contact|phone|number|no|url|website|location|hours)$|_(address|email|no|number|url)$/.test(object)) return null;
+  return object;
+}
 
 function build(journey, services) {
   const sources = [];
@@ -468,20 +528,29 @@ function build(journey, services) {
           const docId = `document:${f.object}`;
           put({ id: docId, type: "DOCUMENT", name: title(f.object), jurisdictionId, sources: r, lastVerifiedAt: today() });
           link(serviceNodeId, docId, "REQUIRES", f.claim, r);
-        } else if (f.kind === "OFFICE" && f.detail.officeName) {
-          const officeId = `office:${slug(f.detail.officeName)}`;
+        } else if (f.kind === "OFFICE" && officeName(f) && (f.detail.address || f.detail.phone)) {
+          const named = officeName(f);
+          const officeId = `office:${slug(named)}`;
           put({
             id: officeId,
             type: "OFFICE",
-            name: f.detail.officeName,
+            name: display(named),
             jurisdictionId,
-            metadata: { channelType: "PHYSICAL_OFFICE", ...(f.detail.address ? { address: f.detail.address } : {}) },
+            metadata: {
+              channelType: "PHYSICAL_OFFICE",
+              ...(f.detail.address ? { address: f.detail.address } : {}),
+              ...(f.detail.phone ? { phoneNumbers: [String(f.detail.phone)] } : {}),
+            },
             sources: r,
           });
           link(serviceNodeId, officeId, "VISIT_AT", f.claim, r);
         } else if (f.kind === "HELPLINE" && f.detail.phone) {
+          // Keyed on the number because that is the thing that is unique and
+          // stable. Named for what it is *for*, because "+91-8031338686" is not
+          // an answer to "who do I call".
           const helpId = `helpline:${slug(f.detail.phone)}`;
-          put({ id: helpId, type: "HELPLINE", name: f.detail.phone, jurisdictionId, metadata: { channelType: "PHONE", phone: f.detail.phone }, sources: r });
+          const named = f.detail.name || f.detail.title || `${service.name} helpline`;
+          put({ id: helpId, type: "HELPLINE", name: display(String(named)), jurisdictionId, metadata: { channelType: "PHONE", phoneNumbers: [String(f.detail.phone)] }, sources: r });
           link(serviceNodeId, helpId, "CALL_IF", f.claim, r);
         } else if (f.kind === "GRIEVANCE") {
           const gId = `grievance:${slug(service.id)}`;
@@ -506,7 +575,7 @@ function build(journey, services) {
     put({
       id: serviceNodeId,
       type: "SERVICE",
-      name: service.name,
+      name: display(service.name),
       officialName: service.name,
       // Omitted rather than empty. Postgres has no way to tell an empty array
       // from an absent one, so writing `[]` here is a round trip that never
@@ -551,11 +620,6 @@ function build(journey, services) {
     research: { journey, researchedAt: today(), region: "Gujarat, India", sources, facts, notFound },
   };
 }
-
-const title = (s) =>
-  String(s ?? "")
-    .replace(/_/g, " ")
-    .replace(/^\w/, (c) => c.toUpperCase());
 
 // --------------------------------------------------------------------- write
 
