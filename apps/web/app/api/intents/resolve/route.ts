@@ -36,7 +36,7 @@ export async function POST(request: Request) {
 
   const graph = await loadLiveGraph();
   const direct = resolveIntent(graph, text);
-  if (direct.length) return NextResponse.json({ query: text, matches: direct });
+  if (direct.some((m) => m.confidence >= CONFIDENT)) return NextResponse.json({ query: text, matches: direct });
 
   const understood = await understand(text);
   const spoken = understood.translated
@@ -44,7 +44,7 @@ export async function POST(request: Request) {
     : {};
 
   const translated = understood.translated ? resolveIntent(graph, understood.english) : [];
-  if (translated.length) return NextResponse.json({ query: text, matches: translated, ...spoken });
+  if (translated.some((m) => m.confidence >= CONFIDENT)) return NextResponse.json({ query: text, matches: translated, ...spoken });
 
   const picked = await pickService(understood.english, services(graph));
   const node = picked ? graph.nodes.find((n) => n.id === picked) : undefined;
@@ -65,10 +65,26 @@ export async function POST(request: Request) {
             matched: [],
           },
         ]
-      : [],
+      : (translated.length ? translated : direct),
     ...(node ? { inferred: true } : {}),
   });
 }
+
+/**
+ * How sure pass 1 has to be before the later passes are skipped.
+ *
+ * `resolveIntent` already refuses anything under 0.3, so everything it returns
+ * is worth showing. But at a hundred services a single shared noun clears that
+ * bar: "ration card" comes back as Property Card at 0.5, matched on the word
+ * card, and there is no ration card service in the graph at all. Returning that
+ * as the answer is how the model that could have read the sentence never gets
+ * asked, which is the exact dead code this file already has a paragraph about.
+ *
+ * So a weak match no longer stops the chain, it only survives it: if Sarvam and
+ * Bedrock both come back with nothing, the weak matches are still what we
+ * return, because a labelled guess beats an empty page.
+ */
+const CONFIDENT = 0.6;
 
 function services(graph: GraphData) {
   return graph.nodes
