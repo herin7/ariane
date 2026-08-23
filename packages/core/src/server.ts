@@ -27,7 +27,17 @@ export {
   type ServiceChoice,
 } from "./lang/bedrock";
 
-let live: Promise<GraphData> | undefined;
+let live: { at: number; graph: Promise<GraphData> } | undefined;
+
+/**
+ * How long a loaded graph is trusted before we ask Postgres again.
+ *
+ * Matches the `revalidate` on the pages. Reading the whole graph is one round
+ * trip of a few hundred rows, so this is about not doing it per request, not
+ * about it being expensive. Anything longer and "an edit, not a deploy" stops
+ * being true, which is most of the argument for having a database at all.
+ */
+const TTL_MS = 60_000;
 
 /**
  * The database when there is one, the seed when there is not.
@@ -42,20 +52,24 @@ export async function loadLiveGraph(): Promise<GraphData> {
   const config = supabaseConfigFromEnv();
   if (!config) return loadGraph();
 
-  // Only a success is cached. Caching the fallback meant one transient error on
-  // the first request after boot pinned the whole process to the seed until
-  // somebody restarted it, and nothing said so except a single old log line.
-  live ??= (async () => {
-    const { bundles, jurisdictions } = await loadFromSupabase(supabaseClient(config));
-    if (!bundles.length) throw new Error("Supabase answered with an empty graph");
-    return loadGraphFrom(bundles, jurisdictions);
-  })().catch((error) => {
-    live = undefined;
-    throw error;
-  });
+  if (!live || Date.now() - live.at > TTL_MS) {
+    const graph = (async () => {
+      const { bundles, jurisdictions } = await loadFromSupabase(supabaseClient(config));
+      if (!bundles.length) throw new Error("Supabase answered with an empty graph");
+      return loadGraphFrom(bundles, jurisdictions);
+    })();
+
+    // Only a success is cached. Caching the fallback meant one transient error
+    // on the first request after boot pinned the whole process to the seed
+    // until somebody restarted it, and nothing said so except one log line.
+    live = { at: Date.now(), graph };
+    graph.catch(() => {
+      if (live?.graph === graph) live = undefined;
+    });
+  }
 
   try {
-    return await live;
+    return await live.graph;
   } catch (error) {
     console.error("Supabase unreachable, serving the checked in seed for this request.", error);
     return loadGraph();
