@@ -26,9 +26,29 @@ export interface SupabaseConfig {
  * normal state, not an error: the seed is a working fallback.
  */
 export function supabaseConfigFromEnv(env: Record<string, string | undefined> = process.env): SupabaseConfig | undefined {
-  const url = env.SUPABASE_URL;
-  const key = env.SUPABASE_SERVICE_ROLE_KEY ?? env.SUPABASE_ANON_KEY;
+  const key =
+    // New style keys first: sb_secret_ writes, sb_publishable_ reads.
+    env.SUPABASE_API_SECRET_KEY ??
+    env.SUPABASE_API_KEY ??
+    // Legacy JWT keys, still what most Supabase docs show.
+    env.SUPABASE_SERVICE_ROLE_KEY ??
+    env.SUPABASE_ANON_KEY;
+
+  const url = restUrl(env.SUPABASE_URL) ?? restUrl(env.SUPABASE_DB_URL);
   return url && key ? { url, key } : undefined;
+}
+
+/**
+ * The dashboard hands out two different things called a URL: the REST endpoint
+ * the JS client wants, and a `postgres://...` connection string that only psql
+ * can use. Pasting the second one into the first one's slot fails at request
+ * time with a confusing error, so recognise it and pull the project ref out.
+ */
+function restUrl(value: string | undefined): string | undefined {
+  if (!value) return undefined;
+  if (value.startsWith("http")) return value.replace(/\/+$/, "");
+  const ref = /(?:@|\/\/)(?:db\.)?([a-z0-9]{20})\.supabase\.co/.exec(value)?.[1];
+  return ref ? `https://${ref}.supabase.co` : undefined;
 }
 
 export function supabaseClient(config: SupabaseConfig): SupabaseClient {
@@ -42,11 +62,17 @@ export function supabaseClient(config: SupabaseConfig): SupabaseClient {
  */
 const PAGE = 1000;
 
-async function readAll(db: SupabaseClient, table: string): Promise<Record<string, unknown>[]> {
+/**
+ * Ordered by key so a journey's rows come back the same way every time, and so
+ * paging is stable. `questions` is keyed by `field`, not `id`, which is why the
+ * column is a parameter: ordering every table by `id` is a 400 from PostgREST
+ * on that one table, and no amount of round tripping the seed in memory finds
+ * it.
+ */
+async function readAll(db: SupabaseClient, table: string, key = "id"): Promise<Record<string, unknown>[]> {
   const all: Record<string, unknown>[] = [];
   for (let from = 0; ; from += PAGE) {
-    // Ordered by id so a journey's rows come back the same way every time.
-    const { data, error } = await db.from(table).select("*").order("id").range(from, from + PAGE - 1);
+    const { data, error } = await db.from(table).select("*").order(key).range(from, from + PAGE - 1);
     if (error) throw new Error(`reading ${table}: ${error.message}`);
     all.push(...(data ?? []));
     if (!data || data.length < PAGE) return all;
@@ -63,7 +89,7 @@ export async function loadFromSupabase(
       readAll(db, "nodes"),
       readAll(db, "edges"),
       readAll(db, "requirement_groups"),
-      readAll(db, "questions"),
+      readAll(db, "questions", "field"),
       readAll(db, "escalation_templates"),
       readAll(db, "jurisdictions"),
     ]);

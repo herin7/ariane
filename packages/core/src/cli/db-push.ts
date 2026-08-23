@@ -49,12 +49,56 @@ const sortBundles = (list: typeof bundles) =>
     questions: [...b.questions].sort((x, y) => x.field.localeCompare(y.field)),
   }));
 
-const expected = JSON.stringify(sortBundles(seedBundles));
-const actual = JSON.stringify(sortBundles(bundles));
+/**
+ * Key order is not a fact. Postgres hands back columns in its own order and
+ * jsonb reorders object keys by design, so comparing raw JSON strings fails on
+ * a database that is perfectly correct. Sort the keys, then compare.
+ */
+const stable = (value: unknown): string =>
+  JSON.stringify(value, (_, v) =>
+    v && typeof v === "object" && !Array.isArray(v)
+      ? Object.fromEntries(Object.entries(v).sort(([a], [b]) => a.localeCompare(b)))
+      : v,
+  );
+
+/** First real difference, with a path, because "it differs" is not actionable. */
+function firstDifference(a: unknown, b: unknown, path = ""): string | undefined {
+  if (a === b) return undefined;
+  if (Array.isArray(a) && Array.isArray(b)) {
+    if (a.length !== b.length) return `${path}: ${a.length} item(s) went in, ${b.length} came back`;
+    for (const [i, item] of a.entries()) {
+      const found = firstDifference(item, b[i], `${path}[${i}]`);
+      if (found) return found;
+    }
+    return undefined;
+  }
+  if (a && b && typeof a === "object" && typeof b === "object") {
+    for (const key of new Set([...Object.keys(a), ...Object.keys(b)])) {
+      const found = firstDifference((a as never)[key], (b as never)[key], `${path}.${key}`);
+      if (found) return found;
+    }
+    return undefined;
+  }
+  return `${path}: ${JSON.stringify(a)} went in, ${JSON.stringify(b)} came back`;
+}
+
+const expectedBundles = sortBundles(seedBundles);
+const actualBundles = sortBundles(bundles);
+const sortJurisdictions = (list: typeof jurisdictions) => [...list].sort((a, b) => a.id.localeCompare(b.id));
 
 console.log(`read back ${bundles.length} bundle(s), ${jurisdictions.length} jurisdiction(s)`);
-if (expected !== actual) {
+
+const mismatch =
+  stable(expectedBundles) !== stable(actualBundles)
+    ? (firstDifference(expectedBundles, actualBundles, "bundles") ?? "bundles differ")
+    : stable(sortJurisdictions(seedJurisdictions)) !== stable(sortJurisdictions(jurisdictions))
+      ? (firstDifference(sortJurisdictions(seedJurisdictions), sortJurisdictions(jurisdictions), "jurisdictions") ??
+        "jurisdictions differ")
+      : undefined;
+
+if (mismatch) {
   console.error("What came back is not what went in. Do not point the app at this yet.");
+  console.error(`  ${mismatch}`);
   process.exit(1);
 }
 
