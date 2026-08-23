@@ -90,7 +90,7 @@ export const NEGATIVE = INGEST + "negative.jsonl";
  * timeout gets a day, because sites come back and we are not going to spend a
  * hundred retries finding out which kind of failure this was.
  */
-const BACKOFF_HOURS = { HTTP_404: 24 * 365, HTTP_410: 24 * 365, SOFT_404: 24 * 365, BLOCKED_BY_SITE: 24, TIMEOUT: 24, TLS_FAIL: 24, DNS_FAIL: 24 * 7, HTTP_ERROR: 24 };
+const BACKOFF_HOURS = { HTTP_404: 24 * 365, HTTP_410: 24 * 365, SOFT_404: 24 * 365, BLOCKED_BY_SITE: 24, TIMEOUT: 24, TLS_FAIL: 24, DNS_FAIL: 24 * 7, HTTP_ERROR: 24, TOO_THIN: 24 * 30, NOT_TEXT: 24 * 365 };
 
 export function loadNegative(now) {
   const blocked = new Map();
