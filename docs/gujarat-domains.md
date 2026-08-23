@@ -12,33 +12,42 @@ evidence and must never be cited to a citizen: a claim about a fee, a document
 or an eligibility rule needs a verbatim quote and a retrieval date in the
 research JSON, which is a different file for a reason.
 
-667 hosts, 269 of them named by the government itself.
+667 hosts, 384 of them named by the government itself.
 
 | Category | Hosts |
 | --- | ---: |
-| Departments, directorates, boards and corporations | 162 |
-| Transactional service portals | 6 |
-| District collectorates | 65 |
-| District panchayats | 33 |
+| Departments, directorates, boards and corporations | 248 |
+| Transactional service portals | 25 |
+| District collectorates | 67 |
+| District panchayats | 34 |
 | Municipal corporations | 8 |
-| Police and home | 37 |
-| Transport offices | 28 |
-| Named but unclassified | 285 |
-| Infrastructure and non public hosts | 43 |
+| Police and home | 44 |
+| Transport offices | 29 |
+| Universities, boards and institutes | 7 |
+| Courts and tribunals | 6 |
+| Named but unclassified | 62 |
+| Infrastructure and non public hosts | 56 |
+| Hosts that no longer resolve | 81 |
 | **Total** | **667** |
 
 ## Departments, directorates, boards and corporations
 
 | Host | What it is | Department | Basis |
 | --- | --- | --- | --- |
+| `1000d.gujarat.gov.in` | Women and Child Development Department | - | tier 2 qwen.qwen3-32b, page said "હોમ - મુખ્યમંત્રી માતૃશક્તિ યોજના" |
 | `abhilekhagar.gujarat.gov.in` | Gujarat State Abhilekhagar | Sports, Youth & Cultural Activities | GSWAN directory |
 | `adijatinigam.gujarat.gov.in` | Gujarat Tribal Development Corporation | Tribal Development | GSWAN directory |
 | `agri.gujarat.gov.in` | Agriculture & Co-operation Department (+1 sections) | Agriculture & Co-Operation | GSWAN directory |
 | `anubandham.gujarat.gov.in` | Directorate of Employment & Training / Commissioner Employment & Training | Labour, Skill Development and Employment | GSWAN directory |
+| `anyror.gujarat.gov.in` | Revenue Department | - | tier 2 qwen.qwen3-32b, page said "-: Any RoR @ Anywhere :- 10" |
 | `archaeologymuseum.gujarat.gov.in` | Director of Archaelogy and Museums (+1 sections) | Sports, Youth & Cultural Activities | GSWAN directory |
+| `areaenumeration.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said "GIS Agriculture : Login" |
+| `arogyasathi.gujarat.gov.in` | -::-National Health Mission :: Govt. Of Gujarat | - | tier 1 fetch, page said "-::-National Health Mission :: Govt. Of Gujarat" |
 | `artd.gujarat.gov.in` | Administrative Reforms & Training Division | General Administration | GSWAN directory |
 | `atma.gujarat.gov.in` | ATMA Directorate & SAMETI | Agriculture & Co-Operation | GSWAN directory |
+| `ayudmla.gujarat.gov.in` | Food and Drugs Control Administration Health & Family Welfare Department Government of Gujarat | - | tier 1 fetch, page said "FDCA" |
 | `ayush.gujarat.gov.in` | Indian Systems of Medicine & Homeopathy (AYUSH) | Health & Family Welfare | GSWAN directory |
+| `betivadhaao.gujarat.gov.in` | Betivadhaao, Health and Family welfare department | - | tier 1 fetch, page said "Home|Betivadhaao, Health and Family welfare department" |
 | `bisag.gujarat.gov.in` | Bhaskaracharya Institute for Space Applications & Geo Informatics (BISAG) | Science & Technology | GSWAN directory |
 | `bocwwb.gujarat.gov.in` | Building and Other Construction Worker's Welfare Board | Labour, Skill Development and Employment | GSWAN directory |
 | `boiler.gujarat.gov.in` | Director of Boilers (Wing of Commissioner of Labour) | Labour, Skill Development and Employment | GSWAN directory |
@@ -46,26 +55,40 @@ research JSON, which is a different file for a reason.
 | `cad.gujarat.gov.in` | Director of Civil Aviation (CAD) | Industries & Mines | GSWAN directory |
 | `ccd.gujarat.gov.in` | Climate Change Department | Climate Change | GSWAN directory |
 | `cdrc.gujarat.gov.in` | State Consumer Disputes Redressal Commission | Food, Civil Supplies & Consumer Affairs | GSWAN directory |
+| `ced.gujarat.gov.in` | The Centre for Entrepreneurship Development | - | tier 2 qwen.qwen3-32b, page said "CED, Gujarat - CED – Centre for Entrepreneurship Development, Gujarat" |
+| `cedmis.gujarat.gov.in` | The Centre For Entrepreneurship Development | - | tier 2 qwen.qwen3-32b, page said "Home Page" |
+| `ceiced.gujarat.gov.in` | મુખ્ય વિદ્યુત નિરીક્ષક | - | tier 2 qwen.qwen3-32b, page said "મુખ્ય વિદ્યુત નિરીક્ષક <br />અને<br />વિદ્યુત શુલ્ક સમાહર્તા" |
 | `censusgujarat.gov.in` | Directorate of Census Operations | General Administration | GSWAN directory, not in host capture |
 | `ceo.gujarat.gov.in` | Chief Electoral Officer, Gujarat | General Administration | GSWAN directory |
 | `ceoaudit.gujarat.gov.in` | Chief Executive Officer Supervision & Audit Committee | Agriculture & Co-Operation | GSWAN directory |
+| `cgm.gujarat.gov.in` | Commissioner of Geology and Mining | - | tier 1 fetch, page said "Commissioner of Geology and Mining" |
+| `charitycommissioner.gujarat.gov.in` | Office of the Charity Commissioner | - | tier 1 fetch, page said "Charity Commissioner" |
+| `charityonline.gujarat.gov.in` | Office of Charity Commissioner | - | tier 1 fetch, page said "Office of Charity Commissioner" |
 | `che.gujarat.gov.in` | Commissionerate of Higher Education | Education | GSWAN directory, not in host capture |
+| `civildefence.gujarat.gov.in` | નિયામક, નાગરિક સંરક્ષણ તંત્ર | - | tier 2 qwen.qwen3-32b, page said "નિયામક, નાગરિક સંરક્ષણ તંત્ર" |
+| `civilhospitalahd.gujarat.gov.in` | Civil Hospital, Ahmedabad | - | tier 2 qwen.qwen3-32b, page said "Civil Hospital, Ahmedabad" |
 | `cof.gujarat.gov.in` | Commissioner of Fisheries | Agriculture & Co-Operation | GSWAN directory |
 | `col.gujarat.gov.in` | Commissioner of Labour | Labour, Skill Development and Employment | GSWAN directory |
 | `comm-tribal.gujarat.gov.in` | Commissionerate of Tribal Development | Tribal Development | GSWAN directory |
+| `commercialtax.gujarat.gov.in` | Gujarat Commercial Tax | - | tier 2 qwen.qwen3-32b, page said "Gujarat Commercial Tax" |
 | `commi-synca.gujarat.gov.in` | Commissioner of Youth Services and Cultural Activities | Sports, Youth & Cultural Activities | GSWAN directory |
+| `commissionertourism.gujarat.gov.in` | Commissioner of Tourism | - | tier 1 fetch, page said "Commissioner of Tourism" |
+| `communi.gujarat.gov.in` | Commissioner of Municipalities Administration Urban Development & Urban Housing DepartmentGovt.of Gujarat | - | tier 1 fetch, page said "Commissioner of Municipalities Administration Urban Development & Urban Housing DepartmentGovt.of Gujarat" |
 | `cos.gujarat.gov.in` | Commissionnerate of Schools | Education | GSWAN directory |
 | `cottage.gujarat.gov.in` | Commissioner, Cottage & Rural Industries | Industries & Mines | GSWAN directory |
+| `craftofgujarat.gujarat.gov.in` | iNDEXT-c | Industrial Extension Cottage | - | tier 2 qwen.qwen3-32b, page said "iNDEXT-c | Industrial Extension Cottage" |
 | `dag.gujarat.gov.in` | Directorate of Agriculture | Agriculture & Co-Operation | GSWAN directory |
 | `dat.gujarat.gov.in` | Directorate of Accounts & Treasuries | Finance | GSWAN directory |
 | `dcoffice.gujarat.gov.in` | Development Commissioner Office | Panchayat, Rural Housing & Rural Development | GSWAN directory, not in host capture |
 | `dcs-dof.gujarat.gov.in` | Director of Food and Civil Supplies (+1 sections) | Food, Civil Supplies & Consumer Affairs | GSWAN directory |
 | `deendayalinstitute.gujarat.gov.in` | Deendayal Institute of Land & Survey | Revenue | GSWAN directory |
 | `dgps.gujarat.gov.in` | Director of Government ing and Stationery | Industries & Mines | GSWAN directory |
+| `directorateofrelief.gujarat.gov.in` | Commissioner of relief | - | tier 1 fetch, page said "Commissioner of Relief" |
 | `directorit.gujarat.gov.in` | Directorate of ICT & e-Governance | Science & Technology | GSWAN directory |
 | `discussionboard.gujarat.gov.in` | Discussion Board | Science & Technology | GSWAN directory |
 | `dish.gujarat.gov.in` | Director Industrial Safety and Health | Labour, Skill Development and Employment | GSWAN directory |
 | `dlce.gujarat.gov.in` | Director of Literacy & Continuing Education | Education | GSWAN directory, not in host capture |
+| `dmf.gujarat.gov.in` | District Mineral Foundation | - | tier 2 qwen.qwen3-32b, page said "Home | DMF" |
 | `doah.gujarat.gov.in` | Directorate of Animal Husbandry | Agriculture & Co-Operation | GSWAN directory |
 | `doamrf.gujarat.gov.in` | Director of Agriculture Marketing & Rural Finance | Agriculture & Co-Operation | GSWAN directory |
 | `doh.gujarat.gov.in` | Director of Horticulture | Agriculture & Co-Operation | GSWAN directory |
@@ -75,50 +98,97 @@ research JSON, which is a different file for a reason.
 | `dpe.gujarat.gov.in` | Directorate of Primary Education | Education | GSWAN directory, not in host capture |
 | `dppf.gujarat.gov.in` | Directorate of Pension & Provident Fund | Finance | GSWAN directory |
 | `dsag.gujarat.gov.in` | Development Support Agency of Gujarat | Tribal Development | GSWAN directory |
+| `dsagsahay.gujarat.gov.in` | Tribal Developement | Department | GoG | - | tier 1 fetch, page said "Home | Tribal Developement | Department | GoG" |
 | `dst.gujarat.gov.in` | Department of Science & Technology | Science & Technology | GSWAN directory |
 | `dte.gujarat.gov.in` | Department of Technical Education | Education | GSWAN directory |
+| `e-kutir.gujarat.gov.in` | Commissioner of Cottage and Rural Industries | - | tier 1 fetch, page said "Commissioner of Cottage and Rural Industries" |
+| `e-milkat.gujarat.gov.in` | e-Milkat Settlement Commissioner & Director of Land Records, Government Of Gujarat | - | tier 1 fetch, page said "e-Milkat-189" |
+| `e-trams.gujarat.gov.in` | E-trams Directorate of Employment and Training | - | tier 1 fetch, page said "E-trams Directorate of Employment and Training" |
 | `education.gujarat.gov.in` | Education Department | Education | GSWAN directory, not in host capture |
+| `efps.gujarat.gov.in` | Gujarat PDS Shop | - | tier 2 qwen.qwen3-32b, page said "Gujarat PDS Shop - Online Billing Software - T7" |
 | `egazette.gujarat.gov.in` | Director of Government ing and Stationery | Industries & Mines | GSWAN directory, not in host capture |
 | `eklavya-education.gujarat.gov.in` | Gujarat State Tribal Education Society | Tribal Development | GSWAN directory |
+| `empower.gujarat.gov.in` | Empowering Youth | - | tier 2 qwen.qwen3-32b, page said "Empowering Youth" |
+| `enirmanbocw.gujarat.gov.in` | Building & Other Construction Worker's Welfare Board | - | tier 1 fetch, page said "Building & Other Construction Worker's Welfare Board" |
+| `eolakh.gujarat.gov.in` | ::-Gujarat civil registration system :: Govt. Of Gujarat | - | tier 1 fetch, page said "::-Gujarat civil registration system :: Govt. Of Gujarat" |
+| `esamajkalyan.gujarat.gov.in` | SJED | - | tier 1 fetch, page said "SJED" |
 | `examiner.gujarat.gov.in` | Examiner, Local Fund Account | Finance | GSWAN directory |
+| `fasgwssb.gujarat.gov.in` | Gujarat Water Supply & Sewage Board | - | tier 2 qwen.qwen3-32b, page said "GWSSB FAS" |
 | `fcsca.gujarat.gov.in` | Food, Civil Supplies & Consumer Affairs Dept. | Food, Civil Supplies & Consumer Affairs | GSWAN directory |
 | `fed.gujarat.gov.in` | Forest & Environment Department | Forest & Environment | GSWAN directory |
 | `financedepartment.gujarat.gov.in` | Finance Department | Finance | GSWAN directory |
 | `foodcommission.gujarat.gov.in` | Gujarat State Food Commission | Food, Civil Supplies & Consumer Affairs | GSWAN directory |
 | `forests.gujarat.gov.in` | Principal Chief Conservator of Forest & Head of the Forest Force (HoFF) | Forest & Environment | GSWAN directory |
+| `forestservices.gujarat.gov.in` | Principal Chief Conservator of Forest & Head of the Forest Force (HoFF) | - | tier 1 redirect, page said "forests.gujarat.gov.in" |
 | `gad.gujarat.gov.in` | General Administration Department (+2 sections) | General Administration | GSWAN directory |
+| `gaic.gujarat.gov.in` | Gujarat Agro Industries Corporation | - | tier 1 fetch, page said "Gujarat Agro Industries Corporation" |
+| `garvi.gujarat.gov.in` | ગુજરાત સરકાર | - | tier 2 qwen.qwen3-32b, page said "Home | Garvi" |
+| `garvigurjari.gujarat.gov.in` | Handloom E-commerce | - | tier 2 qwen.qwen3-32b, page said "Home | Handloom E-commerce" |
 | `gauseva.gujarat.gov.in` | Gauseva and Gauchar Vikas Board | Agriculture & Co-Operation | GSWAN directory |
 | `gazetteer.gujarat.gov.in` | Gujarat State Gazetteer(core group) | Sports, Youth & Cultural Activities | GSWAN directory |
+| `gbcdconline.gujarat.gov.in` | Page - સામાજિક ન્યાય અને અધિકારીતા વિભાગ | - | tier 1 fetch, page said "Home Page - સામાજિક ન્યાય અને અધિકારીતા વિભાગ" |
+| `gbrc.gujarat.gov.in` | Gujarat Biotechnology Research Centre | - | tier 2 qwen.qwen3-32b, page said "Home - Gujarat Biotechnology Research Centre" |
 | `gcert.gujarat.gov.in` | Gujarat Council of Educational Research and Training, Gandhinagar | Education | GSWAN directory |
+| `gcvt.gujarat.gov.in` | Gujarat Council of Vocation Training | - | tier 2 qwen.qwen3-32b, page said "Show the image on page load using jQuery" |
 | `gec.gujarat.gov.in` | Gujarat Ecology Commission | Forest & Environment | GSWAN directory |
 | `geda.gujarat.gov.in` | Gujarat Energy Developement Agency | Climate Change | GSWAN directory |
 | `geerfoundation.gujarat.gov.in` | GEER Ecological Education and Research Foundation | Forest & Environment | GSWAN directory |
+| `gemhe.gujarat.gov.in` | Geographic Education Mapping of Higher Education | - | tier 2 qwen.qwen3-32b, page said "Geographic Education Mapping of Higher Education" |
 | `gemi.gujarat.gov.in` | Gujarat Environment Management Institute (GEMI) | Forest & Environment | GSWAN directory |
 | `geomining.gujarat.gov.in` | Commissioner of Geology & Mining | Industries & Mines | GSWAN directory |
 | `gfcca.gujarat.gov.in` | Gujarat Fisheries Central Co-operative Association Limited | Agriculture & Co-Operation | GSWAN directory |
+| `gfrf.gujarat.gov.in` | Gujarat Forestry Research Foundation | - | tier 2 qwen.qwen3-32b, page said "Gujarat Forestry Research Foundation" |
 | `ggrc.co.in` | Gujarat Green Revolution Company | Narmada, Water Resources and Water Supply | GSWAN directory, not in host capture |
+| `gic.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said "" |
 | `gidc.gov.in` | Gujarat Industrial Development Corporation | Industries & Mines | GSWAN directory, not in host capture |
 | `gidc.gujarat.gov.in` | Gujarat Industrial Development Corporation | Industries & Mines | same body, second address |
+| `gidm.gujarat.gov.in` | GIDM | - | tier 1 fetch, page said "Home | Gujarat Institute of Disaster Management, Government of Gujarat" |
 | `giet.gujarat.gov.in` | Gujarat Institute of Educational Technology | Education | GSWAN directory, not in host capture |
 | `giic.gujarat.gov.in` | Gujarat Industrial Investment Corporation Limited | Industries & Mines | GSWAN directory |
 | `gil.gujarat.gov.in` | Gujarat Informatics Ltd | Science & Technology | GSWAN directory |
+| `girlion.gujarat.gov.in` | Only Official Booking Website for Gir Online Permit Booking System :: GSLCS | - | tier 1 fetch, page said "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS" |
+| `giss.gujarat.gov.in` | Directorate of Econmics & Statistics - Gujarat | - | tier 1 fetch, page said "Directorate of Econmics & Statistics - Gujarat" |
 | `glwb.gujarat.gov.in` | Gujarat Labour Welfare Board | Labour, Skill Development and Employment | GSWAN directory |
 | `gmbports.org` | Gujarat Maritime Board | Ports & Transport | GSWAN directory, not in host capture |
+| `gmers.gujarat.gov.in` | GMERS | - | tier 2 qwen.qwen3-32b, page said "GMERS" |
+| `gmpb.gujarat.gov.in` | Gujarat Medicinal Plants Board | - | tier 2 qwen.qwen3-32b, page said "Introduction | GMPB" |
+| `gmrds.gujarat.gov.in` | At Your Service | - | tier 1 fetch, page said "GMRDS (Gujarat State)" |
 | `gmscl.gujarat.gov.in` | Gujarat Medical Services Corporation Limited | Health & Family Welfare | GSWAN directory |
 | `gpcb.gov.in` | Gujarat Pollution Control Board | Forest & Environment | GSWAN directory, not in host capture |
 | `gpcb.gujarat.gov.in` | Gujarat Pollution Control Board | Forest & Environment | same body, second address |
+| `gpcbvlts.gujarat.gov.in` | Gujarat Pollution Control Board | - | tier 2 qwen.qwen3-32b, page said "GPCB - Hazardous Waste Real Time Vehicle Location Tracking System" |
+| `gpcbxgn.gujarat.gov.in` | GUJARAT POLLUTION CONTROL BOARD | - | tier 1 fetch, page said "GUJARAT POLLUTION CONTROL BOARD" |
+| `gpcl.gujarat.gov.in` | Gujarat Power Corporation Limited | - | tier 1 fetch, page said "Gujarat Power Corporation Limited" |
+| `gpsc.gujarat.gov.in` | Gujarat Public Service Commission | - | tier 1 fetch, page said "Home" |
+| `gpssb.gujarat.gov.in` | Gujarat Panchayat Service Selection Board, Government Of Gujarat. | - | tier 1 fetch, page said "Home | Gujarat Panchayat Service Selection Board, Government Of Gujarat." |
 | `grwwb.gujarat.gov.in` | Gujarat Rural Worker's Welfare Board | Labour, Skill Development and Employment | GSWAN directory |
 | `gsamb.gujarat.gov.in` | Gujarat State Agricultural Marketing Board | Agriculture & Co-Operation | GSWAN directory |
+| `gsawb.gujarat.gov.in` | ગુજરાત પ્રાણી કલ્યાણ બોર્ડ, ગુજરાત રાજ્ય | GSAWB | Gujarat State Animal Welfare Board, Gujarat State | - | tier 1 fetch, page said "ગુજરાત પ્રાણી કલ્યાણ બોર્ડ, ગુજરાત રાજ્ય | GSAWB | Gujarat State Animal Welfare Board, Gujarat State" |
+| `gsbb.gujarat.gov.in` | Gujarat Biodiversity Board, Government of Gujarat | - | tier 1 fetch, page said "Gujarat Biodiversity Board, Government of Gujarat" |
+| `gscdconline.gujarat.gov.in` | Login - સામાજિક ન્યાય અને અધિકારીતા વિભાગ | - | tier 1 fetch, page said "Login - સામાજિક ન્યાય અને અધિકારીતા વિભાગ" |
 | `gscot.gujarat.gov.in` | Gujarat State Co-operative Tribunal | Agriculture & Co-Operation | GSWAN directory |
+| `gscps.gujarat.gov.in` | Gujarat State Child Protection Society | - | tier 1 fetch, page said "Gujarat State Child Protection Society" |
 | `gscscl.gujarat.gov.in` | Gujarat State Civil Supplies Corporation Ltd. | Food, Civil Supplies & Consumer Affairs | GSWAN directory |
+| `gscuc.gujarat.gov.in` | Gujarat State Commission for Unreserved Classes | - | tier 1 fetch, page said "Gujarat State Commission for Unreserved Classes" |
+| `gsem.gujarat.gov.in` | Gujarat State Electronics Mission | - | tier 1 fetch, page said "Gujarat State Electronics Mission" |
+| `gsfc.gujarat.gov.in` | Gujarat State Financial Corporation | - | tier 1 fetch, page said "Official Website of Gujarat State Financial Corporation, Government Of Gujarat, India" |
+| `gsgkkb.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said "મુખ્ય પૃષ્ઠ | ગુજરાત અસંગઠિત ગ્રામ કામદાર કલ્‍યાણ બોર્ડ" |
 | `gshrc.gujarat.gov.in` | Gujarat State Human Right Commission | Home | GSWAN directory |
+| `gsjjavy.gujarat.gov.in` | Finance Department | - | tier 1 fetch, page said "Gujarat Aksmat Vima Yojana" |
 | `gssca.gujarat.gov.in` | Gujarat State Seed Certification Agency | Agriculture & Co-Operation | GSWAN directory |
+| `gsssb.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said "ગુજરાત ગૌણ સેવા પસંદગી મંડળ" |
 | `gsstb.gujarat.gov.in` | Gujarat State School Textbook Board | Education | GSWAN directory, not in host capture |
 | `gswan.gov.in` | Gujarat State Wide Area Network | Science & Technology | GSWAN directory, not in host capture |
 | `gswan.gujarat.gov.in` | Gujarat State Wide Area Network | Science & Technology | same body, second address |
 | `gswc.gujarat.gov.in` | Gujarat State Warehousing Corporation | Agriculture & Co-Operation | GSWAN directory |
+| `gtkdconline.gujarat.gov.in` | Page - Gujarat Thakor and Koli Vikas Nigam | - | tier 1 fetch, page said "Home Page - Gujarat Thakor and Koli Vikas Nigam" |
+| `guda.gujarat.gov.in` | Gandhinagar Urban Development Authority | - | tier 1 fetch, page said "Welcome to Gandhinagar Urban Development Authority" |
+| `gudm.gujarat.gov.in` | Gujarat Urban Development Mission, Gujarat State. | - | tier 1 fetch, page said "Home | Gujarat Urban Development Mission, Gujarat State." |
+| `gueedc.gujarat.gov.in` | GUJARAT UNRESERVED EDUCATION & ECONOMIC DEVELOPMENT CORPORATION (GUEEDC) | - | tier 1 fetch, page said "GUEEDC" |
+| `gueedconline.gujarat.gov.in` | Login - GUJARAT UNRESERVED EDUCATION & ECONOMIC DEVELOPMENT CORPORATION | - | tier 1 fetch, page said "Login - GUJARAT UNRESERVED EDUCATION & ECONOMIC DEVELOPMENT CORPORATION" |
 | `guj-epd.gujarat.gov.in` | Energy & Petrochemicals Department | Energy & Petrochemicals | GSWAN directory |
 | `guj-nwrws.gujarat.gov.in` | Narmada Deparment (+4 sections) | Narmada, Water Resources and Water Supply | GSWAN directory |
+| `gujaratbhawan.gujarat.gov.in` | Gujarat Bhawan and Office of the Resident Commissioner, Government of Gujarat | - | tier 1 fetch, page said "Gujarat Bhawan and Office of the Resident Commissioner, Government of Gujarat" |
 | `gujaratindia.com` | Gujarat State Portal | General Administration | GSWAN directory, not in host capture |
 | `gujaratindia.gov.in` | Gujarat State Portal | General Administration | same body, second address |
 | `gujaratinformation.gujarat.gov.in` | Directorate of Information | Information & Broadcasting | GSWAN directory |
@@ -126,8 +196,10 @@ research JSON, which is a different file for a reason.
 | `gujarattourism.com` | Tourism Corporation of Gujarat Limited | Industries & Mines | GSWAN directory, not in host capture |
 | `gujcost.gujarat.gov.in` | Gujarat Council on Science and Technology | Science & Technology | GSWAN directory |
 | `gujecostat.gujarat.gov.in` | Directorate of Economics & Statistics | General Administration | GSWAN directory |
+| `gujhd.gujarat.gov.in` | Director, Gujarat Social Infrastructure Development Society (GSIDS) Government of Gujarat | - | tier 1 fetch, page said "Gujarat Social Infrastructure Development Society" |
 | `gujhealth.gujarat.gov.in` | Health & Family Welfare Department (+1 sections) | Health & Family Welfare | GSWAN directory |
 | `gujsail.gujarat.gov.in` | Gujarat State Aviation Infrastructure Company Limited | Industries & Mines | GSWAN directory |
+| `gunotsav.gujarat.gov.in` | Gunotsav | - | tier 2 qwen.qwen3-32b, page said "GUNOTSAV-GUJARAT" |
 | `gurjari.co.in` | Gujarat State Handloom & Handicrafts Developement Corporation Ltd. | Industries & Mines | GSWAN directory, not in host capture |
 | `gurjari.gujarat.gov.in` | Gujarat State Handloom & Handicrafts Developement Corporation Ltd. | Industries & Mines | same body, second address |
 | `gusheel.gujarat.gov.in` | Gujarat Sheep & Wool Development Corporation Limited | Agriculture & Co-Operation | GSWAN directory |
@@ -141,8 +213,10 @@ research JSON, which is a different file for a reason.
 | `indextb.com` | Industrial Extension Bureau | Industries & Mines | GSWAN directory, not in host capture |
 | `insurance.gujarat.gov.in` | Directorate of Insurance | Finance | GSWAN directory |
 | `isr.gujarat.gov.in` | Institute of Seismological Research | Science & Technology | GSWAN directory |
+| `itiadmission.gujarat.gov.in` | :: ITI Admission, Directorate of Employment and Training, Government of Gujarat :: | - | tier 1 fetch, page said ":: ITI Admission, Directorate of Employment and Training, Government of Gujarat ::" |
 | `kalpasar.gujarat.gov.in` | Kalpasar Department | Narmada, Water Resources and Water Supply | GSWAN directory |
 | `kaushalyaskilluniversity.ac.in` | Kaushalya - the Skill University | Labour, Skill Development and Employment | GSWAN directory, not in host capture |
+| `khelmahakumbh.gujarat.gov.in` | Khel Mahakumbh | Sports Authority of Gujarat | - | tier 1 fetch, page said "Khel Mahakumbh | Sports Authority of Gujarat | Government of Gujarat" |
 | `labour.gujarat.gov.in` | Labour, Skill Development and Employment Department | Labour, Skill Development and Employment | GSWAN directory |
 | `lalitkalaacademy.gujarat.gov.in` | Gujarat State Lalit Kala Academy | Sports, Youth & Cultural Activities | GSWAN directory |
 | `landrecords.gujarat.gov.in` | Settlement Commissioner & Superintendent of Land Records | Revenue | GSWAN directory |
@@ -150,6 +224,11 @@ research JSON, which is a different file for a reason.
 | `lmdca.gujarat.gov.in` | Controller, Legal Metrology & Director, Consumer Affairs | Food, Civil Supplies & Consumer Affairs | GSWAN directory |
 | `lokbhavan.gujarat.gov.in` | Lok Bhavan | General Administration | GSWAN directory, not in host capture |
 | `lpd.gujarat.gov.in` | Legeslative & Parliamentary Department | Legislative & Parliamentary | GSWAN directory |
+| `ma.gujarat.gov.in` | Mukhyamantri Amrutum | An Initiative of Health and Family Welfare Department Gujarat | - | tier 1 fetch, page said "Mukhyamantri Amrutum | An Initiative of Health and Family Welfare Department Gujarat" |
+| `mdm.gujarat.gov.in` | Pradhan Mantri Poshan Shakti Nirman | - | tier 2 qwen.qwen3-32b, page said "Pradhan Mantri Poshan Shakti Nirman" |
+| `mgli.gujarat.gov.in` | Mahatma Gandhi Labour Institute | - | tier 2 qwen.qwen3-32b, page said "Mahatma Gandhi Labour Institute" |
+| `misbocwwb.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said "ગુજરાત મકાન અને અન્ય બાંધકામ શ્રમયોગી કલ્યાણ બોર્ડ" |
+| `msmec.gujarat.gov.in` | MSME Gujarat | Ministry of Micro, Small and Medium Enterprises | - | tier 1 fetch, page said "MSME Gujarat | Ministry of Micro, Small and Medium Enterprises" |
 | `ncc.gujarat.gov.in` | National Cadet Corps | Education | GSWAN directory, not in host capture |
 | `newsletter.gujarat.gov.in` | An E-Governance Bulletin from Gujarat Informatics Ltd | Science & Technology | GSWAN directory |
 | `nhm.gujarat.gov.in` | National Health Mission | Health & Family Welfare | GSWAN directory |
@@ -164,9 +243,13 @@ research JSON, which is a different file for a reason.
 | `revenueinspection.gujarat.gov.in` | Revenue Inspection Commissioner | Revenue | GSWAN directory |
 | `revenuetribunal.gujarat.gov.in` | Gujarat Revenue Tribuna | Revenue | GSWAN directory |
 | `rnb.gujarat.gov.in` | Road & Building Department | Road & Building | GSWAN directory, not in host capture |
+| `rti-ar.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said "" |
 | `ruraldev.gujarat.gov.in` | Commissionerate of Rural Development Office | Panchayat, Rural Housing & Rural Development | GSWAN directory |
 | `sahityaacademy.gujarat.gov.in` | Gujarat Sahitya Academy | Sports, Youth & Cultural Activities | GSWAN directory |
+| `sainikwelfare.gujarat.gov.in` | સૈનિક કલ્યાણ અને પુનર્વસવાટ | - | tier 2 qwen.qwen3-32b, page said "સૈનિક કલ્યાણ અને પુનર્વસવાટ" |
+| `samras.gujarat.gov.in` | SAMRAS HOSTEL | - | tier 2 qwen.qwen3-32b, page said "SAMRAS HOSTEL- Govt. Of Gujarat" |
 | `sangeetnatak.gujarat.gov.in` | Gujarat State Sangeet Natak Academy | Sports, Youth & Cultural Activities | GSWAN directory |
+| `sanman.gujarat.gov.in` | Page - LabourCommissioner | - | tier 1 fetch, page said "Home Page - LabourCommissioner" |
 | `sciencecity.gujarat.gov.in` | Gujarat Science City Council | Science & Technology | GSWAN directory |
 | `sec.gujarat.gov.in` | State Election Commission, Gujarat | General Administration | GSWAN directory |
 | `seiaa.gujarat.gov.in` | State Environment Impact Assessment Authority | Forest & Environment | GSWAN directory |
@@ -177,12 +260,15 @@ research JSON, which is a different file for a reason.
 | `ssnnl.gujarat.gov.in` | Sardar Sarovar Narmada Nigam Ltd. | Narmada, Water Resources and Water Supply | GSWAN directory, not in host capture |
 | `sspa.gujarat.gov.in` | Sardar Sarovar Punarvasvat Agency | Narmada, Water Resources and Water Supply | GSWAN directory |
 | `stampsregistration.gujarat.gov.in` | Suendent Of Stamps and Inspector General of Registration | Revenue | GSWAN directory |
+| `startup.gujarat.gov.in` | Startup Gujarat | - | tier 2 qwen.qwen3-32b, page said "Startup Gujarat" |
 | `statueofunity.in` | Statue of Unity | Narmada, Water Resources and Water Supply | GSWAN directory, not in host capture |
+| `stbi.gujarat.gov.in` | Savli Incubator | - | tier 2 qwen.qwen3-32b, page said "Home | Savli Incubator" |
 | `suratmunicipal.gov.in` | Surat Muncipal Corporation | Urban Development & Urban Housing | GSWAN directory, not in host capture |
 | `swhydrology.gujarat.gov.in` | State Water Data Centre | Narmada, Water Resources and Water Supply | GSWAN directory |
 | `sycd.gujarat.gov.in` | Sports, Youth & Cultural Activities Department | Sports, Youth & Cultural Activities | GSWAN directory |
 | `talimrojgar.gujarat.gov.in` | Directorate of Employment & Training / Commissioner Employment & Training | Labour, Skill Development and Employment | GSWAN directory |
 | `teb.gujarat.gov.in` | Technical Examinations Board (TEB) | Education | GSWAN directory |
+| `townplanning.gujarat.gov.in` | Town Planning and Valuation Department | - | tier 2 qwen.qwen3-32b, page said "Home Page - Town Planning" |
 | `tribal.gujarat.gov.in` | Tribal Development Department | Tribal Development | GSWAN directory |
 | `tribalmis.gujarat.gov.in` | Commissionerate of Tribal Development | Tribal Development | GSWAN directory |
 | `trti.gujarat.gov.in` | Tribal Research & Training Institute | Tribal Development | GSWAN directory |
@@ -190,20 +276,42 @@ research JSON, which is a different file for a reason.
 | `vattribunal.gujarat.gov.in` | Gujarat Value Added Tax Tribunal | Finance | GSWAN directory |
 | `vibrantgujarat.com` | Vibrant Gujarat Summit 2015 | Industries & Mines | GSWAN directory, not in host capture |
 | `vky.gujarat.gov.in` | Vanbandhu Kalyan Yojana | Tribal Development | GSWAN directory |
+| `wasmows.gujarat.gov.in` | Water and Sanitation Management Organisation | - | tier 2 qwen.qwen3-32b, page said "WASMO Home | Water and Sanitation Management Organisation" |
 | `watersupply.gujarat.gov.in` | Gujarat Water Supply and Sewerage Board | Narmada, Water Resources and Water Supply | GSWAN directory |
 | `wcd.gujarat.gov.in` | Women & Child Development Department | Women & Child Development | GSWAN directory |
+| `ws.gujarat.gov.in` | GWSSB | - | tier 1 fetch, page said "GWSSB" |
+| `xln.gujarat.gov.in` | Food & Drugs Control Administration, Gujarat | - | tier 2 qwen.qwen3-32b, page said "XLN Gujarat" |
 | `yatradham.gujarat.gov.in` | Gujarat Pavitra Yatradham Vikas Board | Industries & Mines | GSWAN directory |
 
 ## Transactional service portals
 
 | Host | What it is | Department | Basis |
 | --- | --- | --- | --- |
+| `acpdc.gujarat.gov.in` | ACPDC - Diploma Admissions | - | tier 1 fetch, page said "ACPDC Gujarat | Diploma Admissions Portal" |
+| `blp.gujarat.gov.in` | Finance Department | - | tier 1 fetch, page said "Bankable Loan Portal" |
 | `digitalgujarat.gov.in` | _not yet identified_ | - | naming convention |
+| `digitalsevasetu.gujarat.gov.in` | What's New | - | tier 1 fetch, page said "Digital SevaSetu" |
+| `dstpolicy.gujarat.gov.in` | DST Incentive Management Portal | - | tier 1 fetch, page said "Home | DST Incentive Management Portal" |
+| `ecooperative.gujarat.gov.in` | Registrar of the Co-operative Portal | - | tier 1 fetch, page said "Registrar of the Co-operative Portal - Government of Gujarat" |
+| `gpsc-iass.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said ":: iNTEGRATED APPLICATION SCRUTINY SYSTEM ::" |
+| `gpsc-ojas.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said ":: Online Job Application System ::" |
+| `gssp.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said "Digital Gujarat" |
+| `iass.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said ":: iNTEGRATED APPLICATION SCRUTINY SYSTEM ::" |
+| `idmla.gujarat.gov.in` | IDMLA - Industry Portal for Drugs Manufacturing Licence (Allopathic) | - | tier 1 fetch, page said "IDMLA - Industry Portal for Drugs Manufacturing Licence (Allopathic)" |
+| `ifp.gujarat.gov.in` | Investor Facilitation Portal | - | tier 1 fetch, page said "Investor Facilitation Portal" |
+| `ikhedutservice.gujarat.gov.in` | i-ખેડૂત - Web Portal for Agriculture, Farmers Welfare & Co-operation Department, Government of Gujarat @ | - | tier 1 fetch, page said "i-ખેડૂત - Web Portal for Agriculture, Farmers Welfare & Co-operation Department, Government of Gujarat @" |
+| `iora.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said ": iORA - Integrated Online Revenue Applications :" |
+| `ipds.gujarat.gov.in` | web portal | - | tier 1 fetch, page said "iPDS - FCSCAD Gujarat - CLD3 Server" |
+| `kcc.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said ":: KISAN CREDIT CARD :: 6" |
 | `ojas.gujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `ojas2.gujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `ojasadmin.gujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `onlinerevenue.gujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `portal.gujarat.gov.in` | _not yet identified_ | - | naming convention |
+| `rahat.gujarat.gov.in` | : Rahat Portal : | - | tier 1 fetch, page said ": Rahat Portal :" |
+| `srtgeda.gujarat.gov.in` | GEDA | Unified Single Window Rooftop PV Portal | - | tier 1 fetch, page said "GEDA | Unified Single Window Rooftop PV Portal" |
+| `swagat.gujarat.gov.in` | Grievance Portal | - | tier 1 fetch, page said "Grievance Portal" |
+| `udhyog.gujarat.gov.in` | Industries Commissionerate Portal (GOVERNMENT OF GUJARAT) | - | tier 1 fetch, page said "Industries Commissionerate Portal (GOVERNMENT OF GUJARAT)" |
 
 ## District collectorates
 
@@ -252,7 +360,9 @@ research JSON, which is a different file for a reason.
 | `collectorvadodara.gujarat.gov.in` | Collector Office Vadodara | Revenue | GSWAN directory |
 | `collectorvalsad.gujarat.gov.in` | Collector Office Valsad | Revenue | GSWAN directory |
 | `dahod.gujarat.gov.in` | Collector Office Dahod | Revenue | GSWAN directory |
+| `dangs.gujarat.gov.in` | Office Bearers | - | tier 1 fetch, page said "Collectorate - District Dang" |
 | `devbhumidwarka.gujarat.gov.in` | Collector Office Devbhumi Dwaraka | Revenue | GSWAN directory |
+| `disasterresponse-vadodara.gujarat.gov.in` | Flood & Relief Management System,Collectorate Vadodara | - | tier 1 fetch, page said "Flood & Relief Management System,Collectorate Vadodara" |
 | `gandhinagar.gujarat.gov.in` | Collector Office Gandhinagar | Revenue | GSWAN directory |
 | `girsomnath.gujarat.gov.in` | _not yet identified_ | Revenue | district name from directory |
 | `jamnagar.gujarat.gov.in` | Collector Office Jamnagar | Revenue | GSWAN directory |
@@ -291,6 +401,7 @@ research JSON, which is a different file for a reason.
 | `dahoddp.gujarat.gov.in` | Dahod District Panchayat | Panchayat, Rural Housing & Rural Development | GSWAN directory |
 | `dangdp.gujarat.gov.in` | Dang District Panchayat | Panchayat, Rural Housing & Rural Development | GSWAN directory |
 | `devbhumidwarkadp.gujarat.gov.in` | Dev Bhumi Dwarka District Panchayat | Panchayat, Rural Housing & Rural Development | GSWAN directory |
+| `egram.gujarat.gov.in` | eGram Vishwagram Society | - | tier 2 qwen.qwen3-32b, page said "e-Gram" |
 | `gandhinagardp.gujarat.gov.in` | Gandhinagar District Panchayat | Panchayat, Rural Housing & Rural Development | GSWAN directory |
 | `girsomnathdp.gujarat.gov.in` | Girsomnath District Panchayat | Panchayat, Rural Housing & Rural Development | GSWAN directory |
 | `jamnagardp.gujarat.gov.in` | Jamnagar District Panchayat | Panchayat, Rural Housing & Rural Development | GSWAN directory |
@@ -331,12 +442,19 @@ research JSON, which is a different file for a reason.
 | Host | What it is | Department | Basis |
 | --- | --- | --- | --- |
 | `acb.gujarat.gov.in` | Anti Curruption Bureau | Home | GSWAN directory |
+| `armedunit.gujarat.gov.in` | અધિક પોલીસ મહાનિદેશકશ્રી, હથિયારી એકમ | - | tier 1 fetch, page said "અધિક પોલીસ મહાનિદેશકશ્રી, હથિયારી એકમ" |
+| `cidcrime.gujarat.gov.in` | અધિક પોલીસ મહાનિદેશકશ્રી,સીઆઇડી ક્રાઇમ,રેલ્‍વે | - | tier 1 fetch, page said "અધિક પોલીસ મહાનિદેશકશ્રી,સીઆઇડી ક્રાઇમ,રેલ્‍વે" |
 | `cpahmedabad.gujarat.gov.in` | Commissioner Of Police Ahmedabad | Home | GSWAN directory |
 | `cprajkot.gujarat.gov.in` | Commissioner Of Police Rajkot | Home | GSWAN directory |
 | `cpsurat.gujarat.gov.in` | Commissioner Of Police Surat | Home | GSWAN directory |
 | `cpvadodara.gujarat.gov.in` | Commissioner Of Police Vadodara | Home | GSWAN directory |
 | `dop.gujarat.gov.in` | Directorate of Prosecution | Home | GSWAN directory, not in host capture |
+| `gspca.gujarat.gov.in` | Gujarat State Police Complaints Authority (GSPCA) | - | tier 1 fetch, page said "Index | Gujarat State Police Complaints Authority (GSPCA)" |
+| `gsphc.gujarat.gov.in` | Gujarat State Police Housing Corporation Ltd. | - | tier 1 fetch, page said "Gujarat State Police Housing Corporation Ltd. | Government of Gujarat" |
+| `gujaratpoliceacademy.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said "Registration Closed" |
 | `gvc.gujarat.gov.in` | Gujarat Vigilance Commission | Home | GSWAN directory |
+| `homeguards.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said "કમાન્ડન્ટ જનરલ હોમગાર્ડઝ" |
+| `humanrights.gujarat.gov.in` | અધિક પોલીસ મહાનિર્દેશક, માનવ અધિકાર | - | tier 1 fetch, page said "અધિક પોલીસ મહાનિર્દેશક, માનવ અધિકાર" |
 | `policetraining.gujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `prisons.gujarat.gov.in` | DGP Prison | Home | GSWAN directory |
 | `spahmedabad.gujarat.gov.in` | Police Superintendent Office Ahmedabad | Home | GSWAN directory |
@@ -400,6 +518,30 @@ research JSON, which is a different file for a reason.
 | `rtosurat.gujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `rtovadodara.gujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `rtovalsad.gujarat.gov.in` | _not yet identified_ | - | naming convention |
+| `vtmscgm.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said "CGM - VTMS" |
+
+## Universities, boards and institutes
+
+| Host | What it is | Department | Basis |
+| --- | --- | --- | --- |
+| `acpc.gujarat.gov.in` | Admission Committee for Professional Courses (ACPC), Gujarat - jacpcldce.ac.in/ | - | tier 1 fetch, page said "Admission Committee for Professional Courses (ACPC), Gujarat - jacpcldce.ac.in/" |
+| `gasc.gujarat.gov.in` | Dear Parents/Students, | - | tier 1 fetch, page said "Official Website of Gujarat Arts and Science College, Government of Gujarat, India" |
+| `kcg.gujarat.gov.in` | Knowledge Consortium Of Gujarat | - | tier 2 qwen.qwen3-32b, page said "The Official Website of Knowledge Consortium Of Gujarat, Gujarat Government, India. |" |
+| `sapti.gujarat.gov.in` | Sapti Stone Artisan Park Training Institute | - | tier 2 qwen.qwen3-32b, page said "Sapti Stone Artisan Park Training Institute" |
+| `scholarships.gujarat.gov.in` | Hon. Chief Minister Scholarship Scheme | - | tier 2 qwen.qwen3-32b, page said "Home" |
+| `ssg-ss.gujarat.gov.in` | Saksham Shala | - | tier 2 qwen.qwen3-32b, page said "" |
+| `vande.gujarat.gov.in` | Vande Gujarat | - | tier 2 qwen.qwen3-32b, page said "Vande Gujarat" |
+
+## Courts and tribunals
+
+| Host | What it is | Department | Basis |
+| --- | --- | --- | --- |
+| `arbitrationgujhc.gujarat.gov.in` | Gujarat High Court Arbitration Centre (Domestic and International) | - | tier 1 fetch, page said "Arbitration Centre (Domestic & International) - High Court of Gujarat" |
+| `dfs.gujarat.gov.in` | ન્યાય સહાયક વિજ્ઞાનની કચેરી | - | tier 2 qwen.qwen3-32b, page said "ન્યાય સહાયક વિજ્ઞાનની કચેરી" |
+| `hc-ojas.gujarat.gov.in` | Gujarat High Court (OJAS) | - | tier 1 fetch, page said "Gujarat High Court (OJAS)" |
+| `ircms.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said "iRCMS-eFiling :" |
+| `lokayukta.gujarat.gov.in` | Gujarat Lokayukta | - | tier 2 qwen.qwen3-32b, page said "Gujarat Lokayukta" |
+| `sec-poll.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said "Select Election" |
 
 ## Named but unclassified
 
@@ -409,291 +551,68 @@ one line added to the TSV, not a scrape.
 
 | Host | What it is | Department | Basis |
 | --- | --- | --- | --- |
-| `1000d.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `ability.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `acpc.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `acpdc.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `acsys.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `anyror.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `api-anubandham.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `arbitrationgujhc.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `areaenumeration.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `armedunit.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `arogyasathi.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `attendance-ss.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `atvt.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `ayudmla.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `betivadhaao.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `bharatnet.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `bisagservice.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `blp.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `ced.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `cedmis.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `ceiced.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `ceicedeservice.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `cet.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `cgm.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `charitycommissioner.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `charityonline.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `chiefsecretary.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `chunavsetu-lms.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `chunavsetu.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `cidcrime.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `civildefence.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `civilhospitalahd.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `cmdashboard.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `cmo.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `cmslb.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `commercialtax.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `commissionertourism.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `communi.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `coop.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `cos-mdm.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `covid19.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `craftofgujarat.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `csis.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `cts-ss.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `cybernodal.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `cybertreasury.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `dangs.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `desgujva.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `dfs.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `dholera.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `dicdl.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `digitalsevasetu.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `directorateofrelief.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `disasterresponse-vadodara.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `dmf.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `dmsws.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `dom.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `dsagsahay.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `dstpolicy.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `e-dhara.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `e-hrms.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `e-kutir.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `e-mamta.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `e-milkat.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `e-trams.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `ecooperative.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `educationinwardoutward.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `efps.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `egram.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `egujcop.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `ekalyan.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `elas.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `employment.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `empower.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `enagar.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `enirmanbocw.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `eol.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `eolakh.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `erms.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `esamajkalyan.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `esarkar.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `eshramseva.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `fasgwssb.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `fir.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `forestservices.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `fpp.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gadplanning.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gaic.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gam.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `garv.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `garvi.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `garvigurjari.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gasc.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gbcdconline.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gbrc.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `gbu.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `gcertportal.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `gcst.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gcvt.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gecbhuj.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gemhe.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `germis.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `gfdservices.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gfrf.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gic.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gidm.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `girlion.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `giss.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gist-sgsu.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gldb.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gmers.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gmpb.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gmrds.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gogaua.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `gogkua.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gogsrdh.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gpcbvlts.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gpcbxgn.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gpcl.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gpsc-iass.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gpsc-ojas.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gpsc.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gpssb.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gram.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gsawb.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gsbb.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gscdconline.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gscpcr.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gscps.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gscuc.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gsem.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gsfc.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gsgkkb.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gshp.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gsinc.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gsjjavy.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gsldc.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gslsa.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gspca.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gsphc.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `gssdi.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gssp.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gsssb.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gstfc.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gswma.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gtkdconline.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `guda.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gudm.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gueedc.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gueedconline.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gujaratbhavan.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gujaratbhawan.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gujaratpoliceacademy.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gujcovid19.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gujhd.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `gujhome.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gujposhanabhiyan.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `gujrera.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gujrerar1.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `gujseva.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `gulm.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gunotsav.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gwssb.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `gyankunj.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `hc-ojas.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `homeadmin.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `homeapps.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `homeguards.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `hospitalappointment.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `hrmsbo.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `hrmslearning.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `hrmsmobi.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `humanrights.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `iass.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `idmla.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `ifp.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `ikhedut.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `ikhedutservice.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `ikisan.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `iora.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `ipds.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `ircms.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `iris.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `itiadmission.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `itiagasi.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `itirajkot.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `itisaraspur.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `kayakalp.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `kcc.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `kcg.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `khelmahakumbh.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `klis.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `kyps.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `lisgujarat.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `lokayukta.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `m.digitalgujarat.gov.in` | _not yet identified_ | - | unknown |
-| `ma.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `mdm.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `mgli.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `misbocwwb.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `mms-ss.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `mmuy.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `msmec.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `narmadamahotsav.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `nfsa.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `nregagis.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `nrhm.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `ns.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `nsit.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `panchmahals.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `patantourism.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `pds-geo.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `pds.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `pdsservice.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `pharmacycouncil.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `polytechnicgnr.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `poms.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `postmaster1.bharatnet.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `postmaster1.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `ptlas.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `rahat.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `rajbhavan.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `ras.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `registry-min.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `resurvey.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `riotcell2002.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `rlc.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `rnbrap.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `rpo-guj.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `rti-ar.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `saarc-sdmc.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `sainikwelfare.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `samras.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `sanman.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `sapti.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `sathi.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `scholarships.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `scity.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `scndlr.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `sdrn.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `sec-poll.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `secsearch.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `shc.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `shop.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `sickle-cell.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `srtgeda.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `ssavts.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `ssg-ss.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `ssgwssb.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `sso.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `ssoadmin.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `stagingefps.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `stagingipds.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `startup.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `statetenders.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `stbi.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `stc.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `stemquiz.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `study.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `suvas-rto.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `swagat.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `tams-lne.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `tapal.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `teacherportal.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `techo.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `testdigitalgujarat.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `townplanning.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `tsc.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `udhyog.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `uid.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `upload.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `vanbandhukalyanyojana.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `vande.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `vanspativan.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `vc.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `villageprofile.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `vivekananda.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `vtmscgm.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `wasmo.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `wasmows.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `wrdguj-edocs.gujarat.gov.in` | _not yet identified_ | - | unknown |
 | `wridrg1.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `ws.gujarat.gov.in` | _not yet identified_ | - | unknown |
-| `xln.gujarat.gov.in` | _not yet identified_ | - | unknown |
 
 ## Infrastructure and non public hosts
 
@@ -706,12 +625,16 @@ spends an afternoon working out whether `ns2` is a citizen service.
 | `auatest.gujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `autodiscover.gujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `beta.gujarat.gov.in` | _not yet identified_ | - | naming convention |
+| `bharatnet.gujarat.gov.in` | Gujarat Fibre Grid Network Limited | - | tier 2 qwen.qwen3-32b, page said "Home | GFGNL" |
 | `cybertreasuryuat.gujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `dev.digitalgujarat.gov.in` | _not yet identified_ | - | naming convention |
+| `dholera.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said "Home | Dholera" |
+| `e-hrms.gujarat.gov.in` | eHRMS | - | tier 2 qwen.qwen3-32b, page said "eHRMS" |
 | `edge.digitalgujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `enagaruat.gujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `garvibeta.gujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `git.digitalgujarat.gov.in` | _not yet identified_ | - | naming convention |
+| `gogaua.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said "Aadhaar Authentication Server" |
 | `grafana.gujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `gswan-vc-expe01.gujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `gswanuat.gujarat.gov.in` | _not yet identified_ | - | naming convention |
@@ -733,6 +656,8 @@ spends an afternoon working out whether `ns2` is a citizen service.
 | `postmaster.gujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `postmaster.polytechnicgnr.gujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `private.digitalgujarat.gov.in` | _not yet identified_ | - | naming convention |
+| `scndlr.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said "IGiS Widget Gujarat_Cadastral_Map" |
+| `secsearch.gujarat.gov.in` | IIS Windows Server | - | tier 1 fetch, page said "IIS Windows Server" |
 | `srdhtest.gujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `ssoadmintest.gujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `ssotest.gujarat.gov.in` | _not yet identified_ | - | naming convention |
@@ -742,6 +667,103 @@ spends an afternoon working out whether `ns2` is a citizen service.
 | `staging2.gujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `staging3.gujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `staging4.gujarat.gov.in` | _not yet identified_ | - | naming convention |
+| `stagingefps.gujarat.gov.in` | _not yet identified_ | - | naming convention |
+| `stagingipds.gujarat.gov.in` | _not yet identified_ | - | naming convention |
+| `techo.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said "" |
+| `testdigitalgujarat.gujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `v1.digitalgujarat.gov.in` | _not yet identified_ | - | naming convention |
+| `vc.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said "Login" |
+| `villageprofile.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said "Home" |
 | `webmail.digitalgujarat.gov.in` | _not yet identified_ | - | naming convention |
 | `webmail.gujarat.gov.in` | _not yet identified_ | - | naming convention |
+| `wrdguj-edocs.gujarat.gov.in` | _not yet identified_ | - | tier 2 qwen.qwen3-32b, page said "DMS" |
+
+## Hosts that no longer resolve
+
+Enumerated once, no longer resolving. Kept rather than deleted: a host that
+stopped answering is a fact about the estate, and dropping it from the file
+just means the next capture rediscovers it and someone checks it again.
+
+| Host | What it is | Department | Basis |
+| --- | --- | --- | --- |
+| `acsys.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `attendance-ss.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `atvt.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `bisagservice.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `cet.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `chiefsecretary.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `cmslb.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `coop.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `cos-mdm.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `covid19.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `cts-ss.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `cybernodal.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `dicdl.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `dom.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `elas.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `employment.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `eol.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `gadplanning.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `gam.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `gecbhuj.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `gist-sgsu.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `gldb.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `gogsrdh.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `gram.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `gscpcr.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `gshp.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `gsinc.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `gsldc.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `gslsa.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `gstfc.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `gswma.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `gujaratbhavan.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `gujcovid19.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `gujposhanabhiyan.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `gujrerar1.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `gwssb.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `gyankunj.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `homeapps.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `hospitalappointment.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `ikisan.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `itiagasi.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `itirajkot.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `itisaraspur.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `kayakalp.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `klis.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `kyps.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `lisgujarat.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `m.digitalgujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `mms-ss.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `mmuy.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `narmadamahotsav.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `nregagis.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `nrhm.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `ns.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `nsit.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `panchmahals.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `patantourism.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `polytechnicgnr.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `poms.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `rajbhavan.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `riotcell2002.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `rlc.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `rnbrap.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `saarc-sdmc.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `scity.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `sdrn.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `shc.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `shop.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `ssavts.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `stc.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `study.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `suvas-rto.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `tams-lne.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `tapal.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `teacherportal.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `tsc.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `upload.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `vanbandhukalyanyojana.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `vanspativan.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `vivekananda.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
+| `wasmo.gujarat.gov.in` | _not yet identified_ | - | tier 0.5 dns, page said "" |
