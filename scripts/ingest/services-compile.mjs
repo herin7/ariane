@@ -215,6 +215,43 @@ export function absorbs(shortId, longId) {
     .every((w) => FILLER.has(w));
 }
 
+/**
+ * True if this name is the journey's heading rather than one of its services.
+ *
+ * Listing pages are titled with the category they list, and the model names the
+ * service off the page it read, so a Jan Seva Kendra index became a service
+ * called "Certificate". It has real quotes on a real page. It is still not a
+ * thing a citizen can apply for, and it outranked "Income Certificate" in
+ * search for the query "income certificate" because a shorter name is a fuller
+ * match of itself.
+ *
+ * The test is not a stoplist of generic words. That list is endless, different
+ * in every state, and "certificate" is only generic here because a dozen
+ * services in this journey are one. So ask the journey. A name the page wrote
+ * as a single word, which two or more longer names in the same journey qualify,
+ * is the heading above them.
+ *
+ * Deliberately shy on both counts. The word has to be alone on the page and not
+ * merely alone after filler is stripped, or "Vehicle Registration" becomes
+ * "vehicle" and gets deleted for sitting above vehicle fitness testing, which
+ * is a service people actually need. And two qualifiers, not one, because one
+ * badly titled page is a naming accident and not a category. The cost is that
+ * "Registration Certificate Services" survives as a mediocre catalogue row.
+ * That is the cheaper mistake: a bad row is noise, a deleted service is a
+ * citizen with no answer.
+ *
+ * "Varshai", "Apostille" and "PUC" stand alone in their journeys and stay.
+ */
+export function isHeading(id, ids) {
+  if (id.includes("_")) return false;
+  const under = ids.filter((other) => {
+    if (other === id) return false;
+    const rest = other.split("_").filter((w) => !FILLER.has(w));
+    return rest.length > 1 && rest.includes(id);
+  });
+  return under.length >= 2;
+}
+
 const title = (s) =>
   String(s ?? "")
     .replace(/_/g, " ")
@@ -258,6 +295,18 @@ if (flag("selftest")) {
   assert.ok(!absorbs("water_connection", "water_connection_for_industrial_use"), "different applications, and a prefix is not evidence they are one");
   assert.ok(!absorbs("ews_certificate", "ews_certificate"), "a name does not absorb itself");
   assert.ok(!absorbs("permit", "gir_permit"), "a suffix match is not a prefix match");
+
+  const CERTS = ["certificate", "salary_certificate", "residence_certificate", "varshai", "apostille", "certified_copies"];
+  assert.ok(isHeading("certificate", CERTS), "a bare Certificate sits above the certificates");
+  assert.ok(!isHeading("varshai", CERTS), "a name nothing else qualifies is a service");
+  assert.ok(!isHeading("apostille", CERTS));
+  assert.ok(!isHeading("salary_certificate", CERTS), "two words is a name, never a heading");
+  assert.ok(!isHeading("certificate", ["certificate", "salary_certificate", "varshai"]), "one longer name is a naming accident, not a category");
+  assert.ok(
+    !isHeading("vehicle_registration", ["vehicle_registration", "vehicle_fitness_testing", "vehicle_registration_and_license"]),
+    "the page said two words, so it is not a bare category however much filler we strip",
+  );
+  assert.ok(!isHeading("chiranjeevi_scheme", ["chiranjeevi_scheme", "chiranjeevi_yojana"]), "the same scheme spelt twice is a merge problem, not a heading");
 
   assert.equal(officeName({ object: "jan_seva_kendra", detail: { address: "Near Subhash Bridge Circle" } }), "jan_seva_kendra");
   assert.equal(officeName({ object: "contact_email", detail: { email: "x@gujarat.gov.in" } }), null);
@@ -424,6 +473,21 @@ for (const services of journeys.values()) {
 }
 if (merged) console.log(`${merged} service(s) folded into a longer name for the same thing`);
 
+/** journey -> the index pages we named a service after. Written to notFound. */
+const headings = new Map();
+for (const [journey, services] of journeys) {
+  const ids = [...services.keys()];
+  for (const id of ids) {
+    if (!isHeading(id, ids)) continue;
+    const dropped = headings.get(journey) ?? [];
+    dropped.push(`${services.get(id).name}: a page listing ${ids.length - 1} other services in this journey, not a service itself, so it was read for its links and not kept as somewhere to apply. Its pages: ${services.get(id).pages.map((p) => p.url).join(", ")}`);
+    headings.set(journey, dropped);
+    services.delete(id);
+  }
+}
+const headingCount = [...headings.values()].reduce((n, d) => n + d.length, 0);
+if (headingCount) console.log(`${headingCount} name(s) were the heading over a journey, not a service in it`);
+
 /**
  * Node ids the hand written bundles already own.
  *
@@ -443,7 +507,22 @@ for (const name of EXISTING) {
   } catch {
     continue;
   }
-  for (const n of bundle.nodes ?? []) taken.add(n.id);
+  for (const n of bundle.nodes ?? []) {
+    taken.add(n.id);
+    // Also every id `resolveGoal` would build out of a hand written service's
+    // own words. `scholarship.json` has no node called `service:scholarship`;
+    // it answers to that because "scholarship" is an alias of
+    // `service:nsp_scholarship`, and resolveGoal tries `service:<slug>` before
+    // it scans aliases. So a generated service named "Scholarship" off a Rajkot
+    // listing page minted `service:scholarship`, won the earlier candidate, and
+    // the whole hero journey compiled to one step. An id nobody declared was
+    // still load bearing, which is why reserving declared ids was not enough.
+    if (n.type !== "SERVICE") continue;
+    for (const phrase of [n.name, n.officialName, ...(n.aliases ?? [])]) {
+      const id = slug(phrase);
+      if (id) taken.add(`service:${id}`);
+    }
+  }
 }
 
 // ---------------------------------------------------- documents, not fields
@@ -580,7 +659,7 @@ function build(journey, services) {
   const edges = [];
   const declared = new Set();
   const facts = [];
-  const notFound = [];
+  const notFound = [...(headings.get(journey) ?? [])];
 
   /** One graph node, unless somebody already owns that id. */
   const put = (node) => {
@@ -600,7 +679,7 @@ function build(journey, services) {
     // A hand written service wins. Its pages are still worth nothing to us here,
     // because whatever we would add, somebody already wrote better.
     if (taken.has(serviceNodeId)) {
-      notFound.push(`${service.name}: already in the hand written graph as ${serviceNodeId}, so the pages found for it were not merged in. Reconciling the two is a job for a person.`);
+      notFound.push(`${service.name}: the hand written graph already answers to ${serviceNodeId}, so the pages found for it were not merged in. Reconciling the two is a job for a person.`);
       continue;
     }
 
