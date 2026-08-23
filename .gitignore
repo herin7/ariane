@@ -1,5 +1,15 @@
-# never publish the internal build spec
+# never publish anything internal: the build spec, the milestone log, the board,
+# the goal doc, or any scratch note we write to think out loud. None of it goes
+# to the remote without being asked for by name.
 plan.md
+log.md
+docs/BUILD_PLAN.md
+docs/GOAL.md
+NOTES.md
+SCRATCH.md
+TODO.md
+*.notes.md
+*.plan.md
 .claude/
 
 # raw scrape cache. per docs/research/README.md raw pages are not graph data,

@@ -47,9 +47,7 @@ packages/
   core/src/data/graph/  the government facts, as rows. no scheme is in code
   core/src/db/          the same rows in Postgres, and the mapping between
 docs/
-  GOAL.md         current definition of done
-  BUILD_PLAN.md   day by day execution log
-log.md            milestone log
+  research/   the extracted source material every graph fact was read off
 ```
 
 ## Getting started
@@ -91,5 +89,7 @@ The rules that hold whichever side it is loaded from:
 
 ## Status
 
-Early. See `log.md` for what actually works right now, and `docs/GOAL.md` for the
-definition of done we are shipping against.
+Early, and honest about it. Five journeys are seeded and tested: driving licence,
+income / caste / domicile certificates, scholarships, PF withdrawal, and widow
+and old age pensions. `pnpm test` and `pnpm quotes:audit` are the two commands
+that tell you what actually holds right now.
