@@ -43,6 +43,21 @@ const CONCURRENCY = 8;
 const HARD = ["DOCUMENT_REQUIREMENT", "ELIGIBILITY", "FEE", "TIMELINE", "CONDITIONAL_REQUIREMENT"];
 
 /**
+ * A fact with somewhere to go in the graph, as opposed to one we log and drop.
+ *
+ * The detail checks are not decoration. A HELPLINE fact with no number is a
+ * page saying "call us", and the branch below writes nothing for it, so it is
+ * not a reason to spend a model call working out what the page is about.
+ */
+export function placeable(f) {
+  if (HARD.includes(f.kind)) return true;
+  if (f.kind === "HELPLINE") return Boolean(f.detail?.phone || f.detail?.number);
+  if (f.kind === "OFFICE") return Boolean(f.detail?.address);
+  if (f.kind === "CHANNEL" || f.kind === "TRACKING") return Boolean(f.detail?.url);
+  return f.kind === "GRIEVANCE";
+}
+
+/**
  * Form fields the extractor reported as documents, because the page listed them
  * under the same heading.
  *
@@ -723,6 +738,13 @@ if (flag("selftest")) {
     "a numbered table of what a scheme pays for is not a numbered process",
   );
 
+  assert.equal(placeable({ kind: "FEE", detail: {} }), true, "a fee is why we are here");
+  assert.equal(placeable({ kind: "HELPLINE", detail: { phone: "1800 233 5500" } }), true);
+  assert.equal(placeable({ kind: "HELPLINE", detail: { number: "1800 233 5500" } }), true, "the extractor uses both keys for the same thing");
+  assert.equal(placeable({ kind: "HELPLINE", detail: {} }), false, "a page saying call us with no number is not a helpline");
+  assert.equal(placeable({ kind: "OFFICE", detail: { email: "x@gujarat.gov.in" } }), false, "an office with no address is not somewhere to go");
+  assert.equal(placeable({ kind: "APP", detail: { name: "Digital Gujarat" } }), false, "§41: we do not write a mobile app we cannot find a listing for");
+
   // ------------------------------------------------- the page read directly
 
   const HOW = "How to apply for Renewal License?\n\n1) Login to the system and find the Renewal submenu.\n2) Upload the attachment and add the payment detail.\n3) Submit the application and print the receipt.\n";
@@ -799,23 +821,28 @@ for (const f of readJsonl(".ingest/facts.jsonl")) {
 }
 
 /**
- * How many facts a page has to carry about documents, money, time or who
- * qualifies before it is worth identifying.
+ * How many facts this compiler can place have to be on a page before it is
+ * worth asking which service the page is about.
  *
- * Was three, which was a bill limiter back when identifying a page cost a model
- * call every run. It cost 70 services: a page that lists a helpline, an office
- * and where to apply has zero hard facts by this count and was thrown away
- * whole, including the helpline. Identification is cached now, so the same
- * corpus at one is free, and the pages it lets in are the ones that answer the
- * two thinnest columns in the depth table.
+ * Was three hard facts, which was a bill limiter back when identifying a page
+ * cost a model call every run. It cost 70 services: a page that lists a
+ * helpline, an office and where to apply has zero *hard* facts and was thrown
+ * away whole, helpline included. Identification is cached now, so the same
+ * corpus at one is free.
+ *
+ * Then the count itself was wrong. 376 urls carry a phone number we could
+ * publish and 246 of them were never sent to identification at all, because a
+ * contact page has no document list. A fact we know how to turn into a node is
+ * a reason to read the page, whatever kind it is.
  */
 const MIN_HARD = Number(value("min", 1));
+
 const candidates = [...byUrl.entries()]
   .map(([url, facts]) => ({ url, facts, page: pages.get(url) }))
-  .filter((c) => c.page && c.facts.filter((f) => HARD.includes(f.kind)).length >= MIN_HARD)
+  .filter((c) => c.page && c.facts.filter(placeable).length >= MIN_HARD)
   .sort((a, b) => b.facts.length - a.facts.length);
 
-console.log(`${byUrl.size} pages with facts, ${candidates.length} with at least ${MIN_HARD} hard facts`);
+console.log(`${byUrl.size} pages with facts, ${candidates.length} with at least ${MIN_HARD} fact(s) we could place`);
 
 // ----------------------------------------------------------------- identify
 
@@ -1234,13 +1261,16 @@ function build(journey, services) {
             sources: r,
           });
           link(serviceNodeId, officeId, "VISIT_AT", f.claim, r);
-        } else if (f.kind === "HELPLINE" && f.detail.phone) {
+        } else if (f.kind === "HELPLINE" && (f.detail.phone || f.detail.number)) {
           // Keyed on the number because that is the thing that is unique and
           // stable. Named for what it is *for*, because "+91-8031338686" is not
-          // an answer to "who do I call".
-          const helpId = `helpline:${slug(f.detail.phone)}`;
+          // an answer to "who do I call". The extractor writes the number under
+          // `phone` or under `number` depending on what the page called it, and
+          // reading only one of the two threw away 28 published numbers.
+          const line = String(f.detail.phone || f.detail.number);
+          const helpId = `helpline:${slug(line)}`;
           const named = f.detail.name || f.detail.title || `${service.name} helpline`;
-          put({ id: helpId, type: "HELPLINE", name: display(String(named)), jurisdictionId, metadata: { channelType: "PHONE", phoneNumbers: [String(f.detail.phone)] }, sources: r });
+          put({ id: helpId, type: "HELPLINE", name: display(String(named)), jurisdictionId, metadata: { channelType: "PHONE", phoneNumbers: [line] }, sources: r });
           link(serviceNodeId, helpId, "CALL_IF", f.claim, r);
         } else if ((f.kind === "CHANNEL" || f.kind === "TRACKING") && govUrl(f.detail.url)) {
           // Where you actually go, which is often not the site that told us.

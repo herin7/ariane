@@ -16,6 +16,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:63934b07211d",
+   "url": "https://fcsca.gujarat.gov.in/en/Contacts",
+   "title": "Contact Us",
+   "domain": "fcsca.gujarat.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "487b2fb12948ca7ade08f8980906766c89e8c654275c6fb4b0fdc275cd9ca169",
+   "cacheFile": ".ingest/pages/63934b07211d99bb034303a10c43f2c0a83b905f.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:487d4a702330",
    "url": "https://fcsca.gujarat.gov.in/en/phh-schemenew1",
    "title": "Skip Navigation Links Standards for Identifying Priority Families (PHH).",
@@ -37,6 +49,30 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "f1a91ee6eb188213aa4935570fd158da8c0aa24739cc1e60389971a07c373637",
    "cacheFile": ".ingest/pages/6c58f85643b14284beecddb777790fa3e077d963.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:51cbf0bb7ef0",
+   "url": "https://www.nfsa.gov.in/State/KL",
+   "title": "NFSA",
+   "domain": "nfsa.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d564624b3d037ddcd1cc5b48efd314180511cf8396f3f6396343b7eb4d909197",
+   "cacheFile": ".ingest/pages/51cbf0bb7ef073893802085751ebac9c8dfc6ec7.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:4d01f6c2b156",
+   "url": "https://dcs-dof.gujarat.gov.in/en/contact",
+   "title": "Contact",
+   "domain": "dcs-dof.gujarat.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "90b1875fc08ba77a0bb8d0964ddcee20146ad84ece3ba3679e3bb4c0973e6a5a",
+   "cacheFile": ".ingest/pages/4d01f6c2b15635c4c69f755fabed7199a6f3fa4d.md",
    "scrapedOk": true
   },
   {
@@ -73,6 +109,102 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "fdc0757ac5e5939991a29988ddecfd16fb01b26652096eea8ac448b4afcc9430",
    "cacheFile": ".ingest/pages/382646d73ae7cdfb50ec5add04baebd0335b7fd8.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:1ee7c5fd9ac8",
+   "url": "https://dcs-dof.gujarat.gov.in/en/contact-main-eng-new",
+   "title": "Head Office",
+   "domain": "dcs-dof.gujarat.gov.in",
+   "sourceType": "HELPLINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d63bc34ff4249d72fe15510498bd4bd8bb201472163a0c5ff244dc4584865554",
+   "cacheFile": ".ingest/pages/1ee7c5fd9ac884fbcf12eb39eeb2b9edd9f9eec7.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:afddebe16bc3",
+   "url": "https://cdrc.gujarat.gov.in/en/df-navsari",
+   "title": "Navsari",
+   "domain": "cdrc.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "eb244ef94f3e818d8fc0f2660a88786ecc55bb3fe9d6fe2fc0414a5b57fbf0f6",
+   "cacheFile": ".ingest/pages/afddebe16bc35947c58d17f85db35901a1c71401.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:8d504690f57c",
+   "url": "https://cdrc.gujarat.gov.in/en/df-banaskantha",
+   "title": "Banaskantha (Palanpur)",
+   "domain": "cdrc.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "7b313f1c0272d1f7f4656f612ad903dc7e57f72b0fcaafbf7dadc2fb4900d2ce",
+   "cacheFile": ".ingest/pages/8d504690f57c5f7e70d4929997ed3a6099e592b4.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:9f5cd471077c",
+   "url": "https://dcs-dof.gujarat.gov.in/en/officers-list",
+   "title": "List of Nodal Officer",
+   "domain": "dcs-dof.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "84d01c1009ebbcb60a9310aab191c3ca868686bac3ecfc10d31e69dd3463c96e",
+   "cacheFile": ".ingest/pages/9f5cd471077c739cac239badc7c1d0acac24a56e.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:e4cf5402b426",
+   "url": "https://foodcommission.gujarat.gov.in/en/contact-detail",
+   "title": "Contact Detail",
+   "domain": "foodcommission.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "dea64e7d70bbbc49bc044128dccd09d97d2202937fa15d6f84b1422c533a3983",
+   "cacheFile": ".ingest/pages/e4cf5402b42644ed9f7bd25f26d4597c11e2fe13.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:1dde020898e3",
+   "url": "https://dcs-dof.gujarat.gov.in/gu/contact-main-eng-new",
+   "title": "Head Office",
+   "domain": "dcs-dof.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "93f1ac3c55714d21115846c774a320b5253aae56c180bb6b12de9396644793eb",
+   "cacheFile": ".ingest/pages/1dde020898e33a41383afbc554293e57211a0f34.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:37793c1cd574",
+   "url": "https://foodcommission.gujarat.gov.in/gu/department-address",
+   "title": "વિભાગનું સરનામું",
+   "domain": "foodcommission.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "6c03c9c2a28ff2332274c6605a0ea0dd8e5b27acb8bd70894471a5d8874df121",
+   "cacheFile": ".ingest/pages/37793c1cd5747b494434a1adf99eacbdaa6a7815.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:e55ecc0b536d",
+   "url": "https://fcsca.gujarat.gov.in/gu/pds-modernization",
+   "title": "સ્માર્ટ રેશન કાર્ડ",
+   "domain": "fcsca.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "a1ca0b759f0ce68cbd75340b0c7d2ee95e3b8847e07ac5625892d632b5a709e6",
+   "cacheFile": ".ingest/pages/e55ecc0b536d74a35038350ba5bb70f700ea47c3.md",
    "scrapedOk": true
   }
  ],
@@ -387,6 +519,323 @@
    },
    "sourceId": "src:189778a54c94",
    "evidence": "3. More than 60 age",
+   "confidence": 1
+  },
+  {
+   "claim": "The Food Ration Card Helpline toll free number is 1800-233-5500.",
+   "kind": "HELPLINE",
+   "subject": "food_ration_card_helpline",
+   "object": "toll_free_number",
+   "detail": {
+    "phone": "1800-233-5500"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
+   "confidence": 1
+  },
+  {
+   "claim": "The Gujarat State Consumer Helpline toll free number is 1800-233-0222.",
+   "kind": "HELPLINE",
+   "subject": "gujarat_state_consumer_helpline",
+   "object": "toll_free_number",
+   "detail": {
+    "phone": "1800-233-0222"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
+   "confidence": 1
+  },
+  {
+   "claim": "The Principal Secretary Mr. Mohammed Shahid, IAS can be contacted at phone number +91-79-23251163 or +91-79-23251165.",
+   "kind": "OFFICE",
+   "subject": "principal_secretary",
+   "object": "contact_phone",
+   "detail": {
+    "phone": "+91-79-23251163 / +91-79-23251165",
+    "officeName": "Principal Secretary",
+    "name": "Mr. Mohammed Shahid, IAS"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Mr. Mohammed Shahid, IAS\nPrincipal Secretary\nPhone : +91-79-23251163 / +91-79-23251165",
+   "confidence": 1
+  },
+  {
+   "claim": "The Principal Secretary Mr. Mohammed Shahid, IAS can be contacted at email secfcs@gujarat.gov.in.",
+   "kind": "OFFICE",
+   "subject": "principal_secretary",
+   "object": "contact_email",
+   "detail": {
+    "email": "secfcs@gujarat.gov.in",
+    "officeName": "Principal Secretary",
+    "name": "Mr. Mohammed Shahid, IAS"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Mr. Mohammed Shahid, IAS\nPrincipal Secretary\nPhone : +91-79-23251163 / +91-79-23251165\nE-Mail : secfcs[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The Additional Secretary Dr. Saurabh Pardhi, IAS can be contacted at phone number +91-79-23251170.",
+   "kind": "OFFICE",
+   "subject": "additional_secretary",
+   "object": "contact_phone",
+   "detail": {
+    "phone": "+91-79-23251170",
+    "officeName": "Additional Secretary",
+    "name": "Dr. Saurabh Pardhi, IAS"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Dr. Saurabh Pardhi, IAS\nAdditional Secretary\nPhone : +91-79-23251170",
+   "confidence": 1
+  },
+  {
+   "claim": "The Additional Secretary Dr. Saurabh Pardhi, IAS can be contacted at email dire-cs-fcs@gujarat.gov.in.",
+   "kind": "OFFICE",
+   "subject": "additional_secretary",
+   "object": "contact_email",
+   "detail": {
+    "email": "dire-cs-fcs@gujarat.gov.in",
+    "officeName": "Additional Secretary",
+    "name": "Dr. Saurabh Pardhi, IAS"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Dr. Saurabh Pardhi, IAS\nAdditional Secretary\nPhone : +91-79-23251170\nE-Mail : dire-cs-fcs[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The Deputy Secretary (PDS) Shri Ronak Modi can be contacted at phone number +91-79-23251167.",
+   "kind": "OFFICE",
+   "subject": "deputy_secretary_pds",
+   "object": "contact_phone",
+   "detail": {
+    "phone": "+91-79-23251167",
+    "officeName": "Deputy Secretary (PDS)",
+    "name": "Shri Ronak Modi"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Shri Ronak Modi\nDeputy Secretary (PDS)\nPhone : +91-79-23251167",
+   "confidence": 1
+  },
+  {
+   "claim": "The Deputy Secretary (PDS) Shri Ronak Modi can be contacted at email ds-pds-fcs@gujarat.gov.in.",
+   "kind": "OFFICE",
+   "subject": "deputy_secretary_pds",
+   "object": "contact_email",
+   "detail": {
+    "email": "ds-pds-fcs@gujarat.gov.in",
+    "officeName": "Deputy Secretary (PDS)",
+    "name": "Shri Ronak Modi"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Shri Ronak Modi\nDeputy Secretary (PDS)\nPhone : +91-79-23251167\nE-Mail : ds-pds-fcs[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The Deputy Secretary (Appeals) (In-charge) Shri Ronak Modi can be contacted at phone number +91-79-23251167.",
+   "kind": "OFFICE",
+   "subject": "deputy_secretary_appeals",
+   "object": "contact_phone",
+   "detail": {
+    "phone": "+91-79-23251167",
+    "officeName": "Deputy Secretary (Appeals) (In-charge)",
+    "name": "Shri Ronak Modi"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Shri Ronak Modi\nDeputy Secretary (Appeals) (In-charge)\nPhone : +91-79-23251167",
+   "confidence": 1
+  },
+  {
+   "claim": "The Deputy Secretary (Appeals) (In-charge) Shri Ronak Modi can be contacted at email ds-appeal-fcs@gujarat.gov.in.",
+   "kind": "OFFICE",
+   "subject": "deputy_secretary_appeals",
+   "object": "contact_email",
+   "detail": {
+    "email": "ds-appeal-fcs@gujarat.gov.in",
+    "officeName": "Deputy Secretary (Appeals) (In-charge)",
+    "name": "Shri Ronak Modi"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Shri Ronak Modi\nDeputy Secretary (Appeals) (In-charge)\nPhone : +91-79-23251167\nE-Mail : ds-appeal-fcs[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The Deputy Secretary (Consumer Affairs) Shri Harisingh Sodha can be contacted at phone number +91-79-23251171.",
+   "kind": "OFFICE",
+   "subject": "deputy_secretary_consumer_affairs",
+   "object": "contact_phone",
+   "detail": {
+    "phone": "+91-79-23251171",
+    "officeName": "Deputy Secretary (Consumer Affairs)",
+    "name": "Shri Harisingh Sodha"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Shri Harisingh Sodha\nDeputy Secretary (Consumer Affairs)\nPhone : +91-79-23251171",
+   "confidence": 1
+  },
+  {
+   "claim": "The Deputy Secretary (Consumer Affairs) Shri Harisingh Sodha can be contacted at email ds-ca-fcs@gujarat.gov.in.",
+   "kind": "OFFICE",
+   "subject": "deputy_secretary_consumer_affairs",
+   "object": "contact_email",
+   "detail": {
+    "email": "ds-ca-fcs@gujarat.gov.in",
+    "officeName": "Deputy Secretary (Consumer Affairs)",
+    "name": "Shri Harisingh Sodha"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Shri Harisingh Sodha\nDeputy Secretary (Consumer Affairs)\nPhone : +91-79-23251171\nE-Mail : ds-ca-fcs[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The Under Secretary (Consumer Affairs) Ms. Kinjal Thorat can be contacted at phone number +91-79-23251175.",
+   "kind": "OFFICE",
+   "subject": "under_secretary_consumer_affairs",
+   "object": "contact_phone",
+   "detail": {
+    "phone": "+91-79-23251175",
+    "officeName": "Under Secretary (Consumer Affairs)",
+    "name": "Ms. Kinjal Thorat"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Ms. Kinjal Thorat\nUnder Secretary (Consumer Affairs)\nPhone : +91-79-23251175",
+   "confidence": 1
+  },
+  {
+   "claim": "The Under Secretary (Consumer Affairs) Ms. Kinjal Thorat can be contacted at email us-ca-fcs@gujarat.gov.in.",
+   "kind": "OFFICE",
+   "subject": "under_secretary_consumer_affairs",
+   "object": "contact_email",
+   "detail": {
+    "email": "us-ca-fcs@gujarat.gov.in",
+    "officeName": "Under Secretary (Consumer Affairs)",
+    "name": "Ms. Kinjal Thorat"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Ms. Kinjal Thorat\nUnder Secretary (Consumer Affairs)\nPhone : +91-79-23251175\nE-Mail : us-ca-fcs[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The Under Secretary (Services) Shri Amit Sangada can be contacted at phone number +91-79-23251179.",
+   "kind": "OFFICE",
+   "subject": "under_secretary_services",
+   "object": "contact_phone",
+   "detail": {
+    "phone": "+91-79-23251179",
+    "officeName": "Under Secretary (Services)",
+    "name": "Shri Amit Sangada"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Shri Amit Sangada\nUnder Secretary (Services)\nPhone : +91-79-23251179",
+   "confidence": 1
+  },
+  {
+   "claim": "The Under Secretary (Services) Shri Amit Sangada can be contacted at email us-ser-fcs@gujarat.gov.in.",
+   "kind": "OFFICE",
+   "subject": "under_secretary_services",
+   "object": "contact_email",
+   "detail": {
+    "email": "us-ser-fcs@gujarat.gov.in",
+    "officeName": "Under Secretary (Services)",
+    "name": "Shri Amit Sangada"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Shri Amit Sangada\nUnder Secretary (Services)\nPhone : +91-79-23251179\nE-Mail : us-ser-fcs[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The Under Secretary (Budget) Shri Abhesangbhai Chauhan can be contacted at phone number +91-79-23251191.",
+   "kind": "OFFICE",
+   "subject": "under_secretary_budget",
+   "object": "contact_phone",
+   "detail": {
+    "phone": "+91-79-23251191",
+    "officeName": "Under Secretary (Budget)",
+    "name": "Shri Abhesangbhai Chauhan"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Shri Abhesangbhai Chauhan\nUnder Secretary (Budget)\nPhone : +91-79-23251191",
+   "confidence": 1
+  },
+  {
+   "claim": "The Under Secretary (Budget) Shri Abhesangbhai Chauhan can be contacted at email us-budget-fcs@gujarat.gov.in.",
+   "kind": "OFFICE",
+   "subject": "under_secretary_budget",
+   "object": "contact_email",
+   "detail": {
+    "email": "us-budget-fcs@gujarat.gov.in",
+    "officeName": "Under Secretary (Budget)",
+    "name": "Shri Abhesangbhai Chauhan"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Shri Abhesangbhai Chauhan\nUnder Secretary (Budget)\nPhone : +91-79-23251191\nE-Mail : us-budget-fcs[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The Under Secretary (Food Safety) Shri Paresh Patel can be contacted at phone number +91-79-23251174.",
+   "kind": "OFFICE",
+   "subject": "under_secretary_food_safety",
+   "object": "contact_phone",
+   "detail": {
+    "phone": "+91-79-23251174",
+    "officeName": "Under Secretary (Food Safety)",
+    "name": "Shri Paresh Patel"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Shri Paresh Patel\nUnder Secretary (Food Safety)\nPhone : +91-79-23251174",
+   "confidence": 1
+  },
+  {
+   "claim": "The Under Secretary (Food Safety) Shri Paresh Patel can be contacted at email us-pds-fcs@gujarat.gov.in.",
+   "kind": "OFFICE",
+   "subject": "under_secretary_food_safety",
+   "object": "contact_email",
+   "detail": {
+    "email": "us-pds-fcs@gujarat.gov.in",
+    "officeName": "Under Secretary (Food Safety)",
+    "name": "Shri Paresh Patel"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Shri Paresh Patel\nUnder Secretary (Food Safety)\nPhone : +91-79-23251174\nE-Mail : us-pds-fcs[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The Deputy Director (IT) Shri Manish Nayak can be contacted at phone number +91-79-23254809.",
+   "kind": "OFFICE",
+   "subject": "deputy_director_it",
+   "object": "contact_phone",
+   "detail": {
+    "phone": "+91-79-23254809",
+    "officeName": "Deputy Director (IT)",
+    "name": "Shri Manish Nayak"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Shri Manish Nayak\nDeputy Director (IT)\nPhone : +91-79-23254809",
+   "confidence": 1
+  },
+  {
+   "claim": "The Deputy Director (IT) Shri Manish Nayak can be contacted at email adit-fcsca@gujarat.gov.in.",
+   "kind": "OFFICE",
+   "subject": "deputy_director_it",
+   "object": "contact_email",
+   "detail": {
+    "email": "adit-fcsca@gujarat.gov.in",
+    "officeName": "Deputy Director (IT)",
+    "name": "Shri Manish Nayak"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Shri Manish Nayak\nDeputy Director (IT)\nPhone : +91-79-23254809\nE-Mail : adit-fcsca[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The Department address is Food, Civil Supplies & Consumer Affairs Department, Block No. 14, Fifth Floor, New Secretariat, Gandhinagar – 382010 Gujarat, India.",
+   "kind": "OFFICE",
+   "subject": "food_civil_supplies_consumer_affairs_department",
+   "object": "head_office_address",
+   "detail": {
+    "address": "Block No. 14, Fifth Floor, New Secretariat, Gandhinagar – 382010 Gujarat, India",
+    "officeName": "Food, Civil Supplies & Consumer Affairs Department"
+   },
+   "sourceId": "src:63934b07211d",
+   "evidence": "Department Address\nFood, Civil Supplies & Consumer Affairs Department,\nBlock No. 14, Fifth Floor, New Secretariat,\nGandhinagar – 382010 Gujarat, India",
    "confidence": 1
   },
   {
@@ -752,6 +1201,187 @@
    "confidence": 1
   },
   {
+   "claim": "The toll-free helpdesk number for the Department of Food, Civil Supplies and Consumer Affairs and Legal Metrology in Kerala is 1967.",
+   "kind": "HELPLINE",
+   "subject": "kerala_food_department",
+   "object": "helpdesk_number",
+   "detail": {
+    "helpdesk_number": "1967"
+   },
+   "sourceId": "src:51cbf0bb7ef0",
+   "evidence": "Helpdesk No. : 1967",
+   "confidence": 1
+  },
+  {
+   "claim": "The toll-free helpdesk number for the Department of Food, Civil Supplies and Consumer Affairs and Legal Metrology in Kerala is 18004251550.",
+   "kind": "HELPLINE",
+   "subject": "kerala_food_department",
+   "object": "helpdesk_number",
+   "detail": {
+    "helpdesk_number": "18004251550"
+   },
+   "sourceId": "src:51cbf0bb7ef0",
+   "evidence": "Helpdesk No. : 1967\n18004251550",
+   "confidence": 1
+  },
+  {
+   "claim": "The official website for the State Food Department in Kerala is http://civilsupplieskerala.gov.in/.",
+   "kind": "OFFICE",
+   "subject": "kerala_food_department",
+   "object": "website",
+   "detail": {
+    "url": "http://civilsupplieskerala.gov.in/"
+   },
+   "sourceId": "src:51cbf0bb7ef0",
+   "evidence": "Website : State Food Department Website http://civilsupplieskerala.gov.in/",
+   "confidence": 1
+  },
+  {
+   "claim": "The official website for FPS Automation in Kerala is http://epos.kerala.gov.in/.",
+   "kind": "OFFICE",
+   "subject": "kerala_food_department",
+   "object": "fps_automation_website",
+   "detail": {
+    "url": "http://epos.kerala.gov.in/"
+   },
+   "sourceId": "src:51cbf0bb7ef0",
+   "evidence": "FPS Automation Aepds http://epos.kerala.gov.in/",
+   "confidence": 1
+  },
+  {
+   "claim": "The Grievance Redressal System for E2E PDS in Kerala is available at http://pg.civilsupplieskerala.gov.in/.",
+   "kind": "GRIEVANCE",
+   "subject": "kerala_food_department",
+   "object": "grievance_redressal_system",
+   "detail": {
+    "url": "http://pg.civilsupplieskerala.gov.in/"
+   },
+   "sourceId": "src:51cbf0bb7ef0",
+   "evidence": "Grievance Redressal System for E2E PDS http://pg.civilsupplieskerala.gov.in/",
+   "confidence": 1
+  },
+  {
+   "claim": "The office address of the Food and Civil Supplies Controller in Ahmedabad is C-block, Ground Floor, Bahumali Building, Lal Darwaja, Ahmedabad-380001.",
+   "kind": "OFFICE",
+   "subject": "food_and_civil_supplies_controller",
+   "object": "office_address",
+   "detail": {
+    "address": "C-block, Ground Floor, Bahumali Building, Lal Darwaja, Ahmedabad-380001"
+   },
+   "sourceId": "src:4d01f6c2b156",
+   "evidence": "Office address\nOffice of Food and Civil Supplies Controller,\nC-block, Ground Floor,\nBahumali Building, Lal Darwaja,\nAhmedabad-380001,\nGujarat, India.",
+   "confidence": 1
+  },
+  {
+   "claim": "The phone numbers for the Food and Civil Supplies Controller office in Ahmedabad are +91-79-26582570, 26584736, and 26589489.",
+   "kind": "OFFICE",
+   "subject": "food_and_civil_supplies_controller",
+   "object": "phone_numbers",
+   "detail": {
+    "phone_numbers": "+91-79-26582570, 26584736, 26589489"
+   },
+   "sourceId": "src:4d01f6c2b156",
+   "evidence": "Phone : +91-79-26582570, 26584736, 26589489",
+   "confidence": 1
+  },
+  {
+   "claim": "The fax number for the Food and Civil Supplies Controller office in Ahmedabad is +91-79-26582093.",
+   "kind": "OFFICE",
+   "subject": "food_and_civil_supplies_controller",
+   "object": "fax_number",
+   "detail": {
+    "fax_number": "+91-79-26582093"
+   },
+   "sourceId": "src:4d01f6c2b156",
+   "evidence": "Fax : +91-79-26582093",
+   "confidence": 1
+  },
+  {
+   "claim": "For complaints or queries related to the supply system, inspection, or ration card in Ahmedabad City, citizens can contact the office on telephone number 079-25500081 or email fncsupplies-ahd[at]gujarat[dot]gov[dot]in.",
+   "kind": "GRIEVANCE",
+   "subject": "citizen",
+   "object": "contact_for_complaints",
+   "detail": {
+    "phone_number": "079-25500081",
+    "email": "fncsupplies-ahd[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:4d01f6c2b156",
+   "evidence": "Note :-\nFor any Complain/Query related to supply system/inspection/ Ration Card in Ahmedabad City you can Contact Following Officers of Our Office. You can also contact in Office time on our office telephone No.079-25500081 or You can sent E-mail on : fncsupplies-ahd[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The Food Ration Card Helpline number is toll-free 1800-233-5500.",
+   "kind": "HELPLINE",
+   "subject": "food_ration_card",
+   "object": "helpline_number",
+   "detail": {
+    "helpline_number": "1800-233-5500"
+   },
+   "sourceId": "src:4d01f6c2b156",
+   "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
+   "confidence": 1
+  },
+  {
+   "claim": "The Gujarat State Consumer Helpline number is toll-free 1800-233-0222.",
+   "kind": "HELPLINE",
+   "subject": "gujarat_state_consumer",
+   "object": "helpline_number",
+   "detail": {
+    "helpline_number": "1800-233-0222"
+   },
+   "sourceId": "src:4d01f6c2b156",
+   "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
+   "confidence": 1
+  },
+  {
+   "claim": "The office address of the Directorate of Food and Civil Supplies, Gujarat State, is Block No. 14, 6th Floor, Sardar Bhavan, New Sachivalya, Gandhinagar - 382 010, Gujarat, India.",
+   "kind": "OFFICE",
+   "subject": "directorate_of_food_and_civil_supplies",
+   "object": "office_address",
+   "detail": {
+    "address": "Block No. 14, 6th Floor, Sardar Bhavan, New Sachivalya, Gandhinagar - 382 010, Gujarat, India"
+   },
+   "sourceId": "src:4d01f6c2b156",
+   "evidence": "Directorate of Food and Civil Supplies, Gujarat State\nDirector of Food and Civil Supplies\nBlock No. 14, 6th Floor, Sardar Bhavan,\nNew Sachivalya,\nGandhinagar - 382 010\nGujarat, India",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact phone number for the Directorate of Food and Civil Supplies, Gujarat State, is 079-23251170.",
+   "kind": "OFFICE",
+   "subject": "directorate_of_food_and_civil_supplies",
+   "object": "phone_number",
+   "detail": {
+    "phone_number": "079-23251170"
+   },
+   "sourceId": "src:4d01f6c2b156",
+   "evidence": "079-23251170",
+   "confidence": 1
+  },
+  {
+   "claim": "The email address for the Directorate of Food and Civil Supplies, Gujarat State, is dire-cs-fcs[at]gujarat[dot]gov[dot]in.",
+   "kind": "OFFICE",
+   "subject": "directorate_of_food_and_civil_supplies",
+   "object": "email_address",
+   "detail": {
+    "email_address": "dire-cs-fcs[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:4d01f6c2b156",
+   "evidence": "dire-cs-fcs[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The official website of the Directorate of Food and Civil Supplies, Gujarat State, is www.dcs-dof.gujarat.gov.in.",
+   "kind": "OFFICE",
+   "subject": "directorate_of_food_and_civil_supplies",
+   "object": "website",
+   "detail": {
+    "website": "www.dcs-dof.gujarat.gov.in"
+   },
+   "sourceId": "src:4d01f6c2b156",
+   "evidence": "www.dcs-dof.gujarat.gov.in",
+   "confidence": 1
+  },
+  {
    "claim": "Families under all Primitive Groups are eligible for the Antyodaya Anna Yojana (AAY) ration card.",
    "kind": "ELIGIBILITY",
    "subject": "primitive_groups",
@@ -1036,10 +1666,525 @@
    "sourceId": "src:382646d73ae7",
    "evidence": "Application Process Jan Seva Kendra, Gir Somnath District Collector Office Veraval, Dist : Somnath, Gujarat - 360024 10:30 A.M To 6:10 P.M",
    "confidence": 0.95
+  },
+  {
+   "claim": "The office address of the Director of Food and Civil Supplies is in Gandhinagar.",
+   "kind": "OFFICE",
+   "subject": "director_food_and_civil_supplies",
+   "object": "office_address",
+   "detail": {
+    "address": "Director of Food and Civil Supplies Block No. 14, 6th Floor, Sardar Bhavan, New Sachivalya, Gandhinagar - 382 010 Gujarat, India"
+   },
+   "sourceId": "src:1ee7c5fd9ac8",
+   "evidence": "Office Address\nDirector of Food and Civil Supplies Block No. 14, 6th Floor,\nSardar Bhavan,\nNew Sachivalya,\nGandhinagar - 382 010\nGujarat, India",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact phone number for the Director of Food and Civil Supplies is 079-23251170.",
+   "kind": "HELPLINE",
+   "subject": "director_food_and_civil_supplies",
+   "object": "phone_number",
+   "detail": {
+    "phone": "079-23251170"
+   },
+   "sourceId": "src:1ee7c5fd9ac8",
+   "evidence": "Dr. Saurabh Pardhi\nDirector\nPhone : 079-23251170",
+   "confidence": 1
+  },
+  {
+   "claim": "The email address for the Director of Food and Civil Supplies is dire-cs-fcs[at]gujarat[dot]gov[dot]in.",
+   "kind": "HELPLINE",
+   "subject": "director_food_and_civil_supplies",
+   "object": "email_address",
+   "detail": {
+    "email": "dire-cs-fcs[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:1ee7c5fd9ac8",
+   "evidence": "Email : dire-cs-fcs[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact phone number for the Joint Director is 079-23251168.",
+   "kind": "HELPLINE",
+   "subject": "joint_director",
+   "object": "phone_number",
+   "detail": {
+    "phone": "079-23251168"
+   },
+   "sourceId": "src:1ee7c5fd9ac8",
+   "evidence": "Shri Chetan A. Gandhi,\nJoint Director\nPhone : 079-23251168",
+   "confidence": 1
+  },
+  {
+   "claim": "The email address for the Joint Director is jd-dfcs-gnr[at]gujarat[dot]gov[dot]in.",
+   "kind": "HELPLINE",
+   "subject": "joint_director",
+   "object": "email_address",
+   "detail": {
+    "email": "jd-dfcs-gnr[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:1ee7c5fd9ac8",
+   "evidence": "Email : jd-dfcs-gnr[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The Food Ration Card Helpline number is toll-free at 1800-233-5500.",
+   "kind": "HELPLINE",
+   "subject": "food_ration_card",
+   "object": "helpline_number",
+   "detail": {
+    "phone": "1800-233-5500"
+   },
+   "sourceId": "src:1ee7c5fd9ac8",
+   "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
+   "confidence": 1
+  },
+  {
+   "claim": "The Gujarat State Consumer Helpline number is toll-free at 1800-233-0222.",
+   "kind": "HELPLINE",
+   "subject": "gujarat_state_consumer",
+   "object": "helpline_number",
+   "detail": {
+    "phone": "1800-233-0222"
+   },
+   "sourceId": "src:1ee7c5fd9ac8",
+   "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Consumer Disputes Redressal Commission in Navsari can be contacted at the phone number 02637-286251.",
+   "kind": "OFFICE",
+   "subject": "navsari_district_commission",
+   "object": "office_phone",
+   "detail": {
+    "phone": "02637-286251"
+   },
+   "sourceId": "src:afddebe16bc3",
+   "evidence": "Office : 02637-286251",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The District Consumer Disputes Redressal Commission in Navsari is located at Near Gujarat State Civil Supply Cooperation Ltd. Godawn, Limdachowk, Jallalpore Station Road, Navsari-396 445.",
+   "kind": "OFFICE",
+   "subject": "navsari_district_commission",
+   "object": "address",
+   "detail": {
+    "address": "Near Gujarat State Civil Supply Cooperation Ltd. Godawn, Limdachowk, Jallalpore Station Road, Navsari-396 445."
+   },
+   "sourceId": "src:afddebe16bc3",
+   "evidence": "District Consumer Disputes RedressalCommission, Navsari, Near Gujarat State Civil Supply Cooperation Ltd.Godawn, Limdachowk, Jallalpore Station Road, Navsari-396 445.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The email address for the District Consumer Disputes Redressal Commission in Navsari is nav-dcdrc[at]gujarat[dot]gov[dot]in.",
+   "kind": "OFFICE",
+   "subject": "navsari_district_commission",
+   "object": "email",
+   "detail": {
+    "email": "nav-dcdrc[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:afddebe16bc3",
+   "evidence": "nav-dcdrc[at]gujarat[dot]gov[dot]in",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Food Ration Card Helpline number is 1800-233-5500.",
+   "kind": "HELPLINE",
+   "subject": "food_ration_card",
+   "object": "helpline",
+   "detail": {
+    "phone": "1800-233-5500"
+   },
+   "sourceId": "src:afddebe16bc3",
+   "evidence": "Food Ration Card Helpline Toll Free - 1800-233-5500",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Gujarat State Consumer Helpline number is 1800-233-0222.",
+   "kind": "HELPLINE",
+   "subject": "gujarat_state_consumer",
+   "object": "helpline",
+   "detail": {
+    "phone": "1800-233-0222"
+   },
+   "sourceId": "src:afddebe16bc3",
+   "evidence": "Gujarat State Consumer Helpline Toll Free - 1800-233-0222",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The office of the District Commission in Banaskantha (Palanpur) is located near the Collector Office, Joravar Palace, Palanpur, District Banaskantha - 385001.",
+   "kind": "OFFICE",
+   "subject": "district_commission_banaskantha",
+   "object": "office_location",
+   "detail": {
+    "address": "Near to Collector Office, Joravar Palace, Palanpur, Dis. Banakantha - 385001."
+   },
+   "sourceId": "src:8d504690f57c",
+   "evidence": "Near to Collector Office, Joravar Palace, Palanpur,\nDis. Banakantha - 385001.",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact email for the District Commission in Banaskantha (Palanpur) is bk-dcdrc[at]gujarat[dot]gov[dot]in.",
+   "kind": "OFFICE",
+   "subject": "district_commission_banaskantha",
+   "object": "contact_email",
+   "detail": {
+    "email": "bk-dcdrc[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:8d504690f57c",
+   "evidence": "bk-dcdrc[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The office contact number for the District Commission in Banaskantha (Palanpur) is 02742-254138.",
+   "kind": "OFFICE",
+   "subject": "district_commission_banaskantha",
+   "object": "office_phone",
+   "detail": {
+    "phone": "02742-254138"
+   },
+   "sourceId": "src:8d504690f57c",
+   "evidence": "Office : 02742-254138",
+   "confidence": 1
+  },
+  {
+   "claim": "The Food Ration Card Helpline number is 1800-233-5500.",
+   "kind": "HELPLINE",
+   "subject": "food_ration_card",
+   "object": "helpline_number",
+   "detail": {
+    "phone": "1800-233-5500"
+   },
+   "sourceId": "src:8d504690f57c",
+   "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
+   "confidence": 1
+  },
+  {
+   "claim": "The Gujarat State Consumer Helpline number is 1800-233-0222.",
+   "kind": "HELPLINE",
+   "subject": "gujarat_state_consumer",
+   "object": "helpline_number",
+   "detail": {
+    "phone": "1800-233-0222"
+   },
+   "sourceId": "src:8d504690f57c",
+   "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
+   "confidence": 1
+  },
+  {
+   "claim": "The Food Commission has been designated under section-14 of the NFSA-2013.",
+   "kind": "OFFICE",
+   "subject": "food_commission",
+   "object": "nfsa_2013_section_14_designation",
+   "detail": {},
+   "sourceId": "src:9f5cd471077c",
+   "evidence": "Food Commission has Been Designated (NFSA‐2013))",
+   "confidence": 1
+  },
+  {
+   "claim": "The Food Ration Card Helpline is a toll-free number: 1800-233-5500.",
+   "kind": "HELPLINE",
+   "subject": "food_ration_card",
+   "object": "helpline",
+   "detail": {
+    "number": "1800-233-5500"
+   },
+   "sourceId": "src:9f5cd471077c",
+   "evidence": "Food Ration Card Helpline Toll Free - 1800-233-5500",
+   "confidence": 1
+  },
+  {
+   "claim": "The Gujarat State Consumer Helpline is a toll-free number: 1800-233-0222.",
+   "kind": "HELPLINE",
+   "subject": "gujarat_state_consumer",
+   "object": "helpline",
+   "detail": {
+    "number": "1800-233-0222"
+   },
+   "sourceId": "src:9f5cd471077c",
+   "evidence": "Gujarat State Consumer Helpline Toll Free - 1800-233-0222",
+   "confidence": 1
+  },
+  {
+   "claim": "The Directorate of Food and Civil Supplies is located at Block No. 14, 6th Floor, Sardar Bhavan, New Sachivalya, Gandhinagar - 382 010, Gujarat, India.",
+   "kind": "OFFICE",
+   "subject": "directorate_of_food_and_civil_supplies",
+   "object": "head_office_address",
+   "detail": {
+    "address": "Block No. 14, 6th Floor, Sardar Bhavan, New Sachivalya, Gandhinagar - 382 010, Gujarat, India"
+   },
+   "sourceId": "src:9f5cd471077c",
+   "evidence": "Directorate of Food and Civil Supplies, Gujarat State Director of Food and Civil Supplies Block No. 14, 6th Floor, Sardar Bhavan, New Sachivalya, Gandhinagar - 382 010 Gujarat, India",
+   "confidence": 1
+  },
+  {
+   "claim": "The Directorate of Food and Civil Supplies can be contacted via email at dire-cs-fcs[at]gujarat[dot]gov[dot]in.",
+   "kind": "OFFICE",
+   "subject": "directorate_of_food_and_civil_supplies",
+   "object": "email_address",
+   "detail": {
+    "email": "dire-cs-fcs[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:9f5cd471077c",
+   "evidence": "079-23251170 dire-cs-fcs[at]gujarat[dot]gov[dot]in www.dcs-dof.gujarat.gov.in",
+   "confidence": 1
+  },
+  {
+   "claim": "The Gujarat State Food Commission can be contacted at the address 'Ann Bhavan, Near Town Hall, Sector-17, Gandhinagar, Gujarat'.",
+   "kind": "OFFICE",
+   "subject": "gujarat_state_food_commission",
+   "object": "office_address",
+   "detail": {
+    "address": "Ann Bhavan, Near Town Hall, Sector-17, Gandhinagar, Gujarat"
+   },
+   "sourceId": "src:e4cf5402b426",
+   "evidence": "Gujarat State Food Commission\n\"Ann Bhavan\" Near Town Hall,\nSector-17, Gandhinagar, Gujarat",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Gujarat State Food Commission can be contacted via phone at 079-232-58485.",
+   "kind": "HELPLINE",
+   "subject": "gujarat_state_food_commission",
+   "object": "phone_number",
+   "detail": {
+    "phone": "079-232-58485"
+   },
+   "sourceId": "src:e4cf5402b426",
+   "evidence": "Phone: 079-232-58485",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Gujarat State Food Commission can be contacted via email at sfc-gujarat[at]gujarat[dot]gov[dot]in.",
+   "kind": "CHANNEL",
+   "subject": "gujarat_state_food_commission",
+   "object": "email_address",
+   "detail": {
+    "email": "sfc-gujarat[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:e4cf5402b426",
+   "evidence": "E-mail: sfc-gujarat[at]gujarat[dot]gov[dot]in",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Food Ration Card Helpline can be contacted via toll-free number 1800-233-5500.",
+   "kind": "HELPLINE",
+   "subject": "food_ration_card",
+   "object": "toll_free_number",
+   "detail": {
+    "phone": "1800-233-5500"
+   },
+   "sourceId": "src:e4cf5402b426",
+   "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Gujarat State Consumer Helpline can be contacted via toll-free number 1800-233-0222.",
+   "kind": "HELPLINE",
+   "subject": "gujarat_state_consumer",
+   "object": "toll_free_number",
+   "detail": {
+    "phone": "1800-233-0222"
+   },
+   "sourceId": "src:e4cf5402b426",
+   "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The main office of the Department of Food and Civil Supplies is located at Block No. 14/6th Floor, Sardar Bhavan, New Secretariat, Gandhinagar-382010, Gujarat, India.",
+   "kind": "OFFICE",
+   "subject": "main_office",
+   "object": "department_of_food_and_civil_supplies",
+   "detail": {
+    "address": "Block No. 14/6th Floor, Sardar Bhavan, New Secretariat, Gandhinagar-382010, Gujarat, India"
+   },
+   "sourceId": "src:1dde020898e3",
+   "evidence": "કચેરીનું સરનામું\nનિયામક અન્‍ન અને નાગરિક પુરવઠા કચેરી, બ્લોક નં. ૧૪/૬ઠ્ઠો માળ,\nસરદાર ભવન,\nનવા સચિવાલય,\nગાંધીનગર-૩૮૨૦૧૦\nગુજરાત, ભારત",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact number for the Director of the Department of Food and Civil Supplies is 079-23251170.",
+   "kind": "HELPLINE",
+   "subject": "director",
+   "object": "department_of_food_and_civil_supplies",
+   "detail": {
+    "phone": "079-23251170"
+   },
+   "sourceId": "src:1dde020898e3",
+   "evidence": "ડૉ. સૌરભ પારધી\nડાયરેક્ટર​\nફોન : ૦૭૯-૨૩૨૫૧૧૭૦",
+   "confidence": 1
+  },
+  {
+   "claim": "The email address for the Director of the Department of Food and Civil Supplies is dire-cs-fcs[at]gujarat[dot]gov[dot]in.",
+   "kind": "CHANNEL",
+   "subject": "director",
+   "object": "department_of_food_and_civil_supplies",
+   "detail": {
+    "email": "dire-cs-fcs[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:1dde020898e3",
+   "evidence": "ઇમેઇલ : dire-cs-fcs[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact number for the Joint Director of the Department of Food and Civil Supplies is 079-23251168.",
+   "kind": "HELPLINE",
+   "subject": "joint_director",
+   "object": "department_of_food_and_civil_supplies",
+   "detail": {
+    "phone": "079-23251168"
+   },
+   "sourceId": "src:1dde020898e3",
+   "evidence": "શ્રી ચેતન એ. ગાંધી\nસંયુક્ત નિયામક\nફોન : ૦૭૯-૨૩૨૫૧૧૬૮",
+   "confidence": 1
+  },
+  {
+   "claim": "The email address for the Joint Director of the Department of Food and Civil Supplies is jd-dfcs-gnr[at]gujarat[dot]gov[dot]in.",
+   "kind": "CHANNEL",
+   "subject": "joint_director",
+   "object": "department_of_food_and_civil_supplies",
+   "detail": {
+    "email": "jd-dfcs-gnr[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:1dde020898e3",
+   "evidence": "ઇમેઇલ : jd-dfcs-gnr[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The toll-free helpline number for the Food and Ration Card Department is 1800-233-5500.",
+   "kind": "HELPLINE",
+   "subject": "food_and_ration_card_department",
+   "object": "helpline",
+   "detail": {
+    "phone": "1800-233-5500"
+   },
+   "sourceId": "src:1dde020898e3",
+   "evidence": "ટોલ ફ્રી - ૧૮૦૦-૨૩૩-૫૫૦૦",
+   "confidence": 1
+  },
+  {
+   "claim": "The toll-free helpline number for the Gujarat State Consumer Help Line is 1800-233-0222.",
+   "kind": "HELPLINE",
+   "subject": "gujarat_state_consumer_help_line",
+   "object": "helpline",
+   "detail": {
+    "phone": "1800-233-0222"
+   },
+   "sourceId": "src:1dde020898e3",
+   "evidence": "ગુજરાત રાજ્ય ગ્રાહક હેલ્પલાઇન\nટોલ ફ્રી - ૧૮૦૦-૨૩૩-૦૨૨૨",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact number for the Food and Ration Card Helpline is 1800-233-5500.",
+   "kind": "HELPLINE",
+   "subject": "food_and_ration_card_helpline",
+   "object": "helpline",
+   "detail": {
+    "phone": "1800-233-5500"
+   },
+   "sourceId": "src:37793c1cd574",
+   "evidence": "અન્‍ન અને રેશન કાર્ડ હેલ્પલાઇન\nટોલ ફ્રી - ૧૮૦૦-૨૩૩-૫૫૦૦",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact number for the Gujarat State Customer Helpline is 1800-233-0222.",
+   "kind": "HELPLINE",
+   "subject": "gujarat_state_customer_helpline",
+   "object": "helpline",
+   "detail": {
+    "phone": "1800-233-0222"
+   },
+   "sourceId": "src:37793c1cd574",
+   "evidence": "ગુજરાત રાજ્ય ગ્રાહક હેલ્પલાઇન\nટોલ ફ્રી - ૧૮૦૦-૨૩૩-૦૨૨૨",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact phone number for the Gujarat State Food Commission is 079-232-58485.",
+   "kind": "OFFICE",
+   "subject": "gujarat_state_food_commission_phone",
+   "object": "food_commission",
+   "detail": {
+    "phone": "079-232-58485"
+   },
+   "sourceId": "src:37793c1cd574",
+   "evidence": "079-232-58485",
+   "confidence": 1
+  },
+  {
+   "claim": "The email address for the Gujarat State Food Commission is sfc-gujarat[at]gujarat[dot]gov[dot]in.",
+   "kind": "OFFICE",
+   "subject": "gujarat_state_food_commission_email",
+   "object": "food_commission",
+   "detail": {
+    "email": "sfc-gujarat[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:37793c1cd574",
+   "evidence": "sfc-gujarat[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The website URL for the Gujarat State Food Commission is foodcommission.gujarat.gov.in.",
+   "kind": "OFFICE",
+   "subject": "gujarat_state_food_commission_website",
+   "object": "food_commission",
+   "detail": {
+    "url": "foodcommission.gujarat.gov.in"
+   },
+   "sourceId": "src:37793c1cd574",
+   "evidence": "foodcommission.gujarat.gov.in",
+   "confidence": 1
+  },
+  {
+   "claim": "The state government has launched a digital ration card scheme called 'Smart Ration Card' starting from the financial year 2024-25.",
+   "kind": "ACTION",
+   "subject": "smart_ration_card",
+   "object": "state_government",
+   "detail": {
+    "financial_year": "2024-25"
+   },
+   "sourceId": "src:e55ecc0b536d",
+   "evidence": "સદર યોજના નાણાકીય વર્ષ ૨૦૨૪-૨૫ થી શરૂ કરવામાં આવેલ છે.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Smart Ration Card is a digitized card that is durable and can be stored for a long time.",
+   "kind": "ACTION",
+   "subject": "smart_ration_card",
+   "object": "citizen",
+   "detail": {},
+   "sourceId": "src:e55ecc0b536d",
+   "evidence": "ડિજિટાઇઝ્ડ રેશનકાર્ડ એટલે કે સ્માર્ટ રેશનકાર્ડ ટકાઉ હોવાથી તેને લાંબા સમય સુધી સાચવી શકાશે.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Food and Civil Supplies Department provides a toll-free helpline for ration card-related queries.",
+   "kind": "HELPLINE",
+   "subject": "food_civil_supplies_department",
+   "object": "citizen",
+   "detail": {
+    "phone": "1800-233-5500"
+   },
+   "sourceId": "src:e55ecc0b536d",
+   "evidence": "ટોલ ફ્રી - ૧૮૦૦-૨૩૩-૫૫૦૦",
+   "confidence": 1
+  },
+  {
+   "claim": "The State Government provides a toll-free helpline for consumer-related queries.",
+   "kind": "HELPLINE",
+   "subject": "state_government",
+   "object": "citizen",
+   "detail": {
+    "phone": "1800-233-0222"
+   },
+   "sourceId": "src:e55ecc0b536d",
+   "evidence": "ગુજરાત રાજ્ય ગ્રાહક હેલ્પલાઇન ટોલ ફ્રી - ૧૮૦૦-૨૩૩-૦૨૨૨",
+   "confidence": 1
   }
  ],
  "notFound": [
+  "Food Ration Card Helpline: no quotable requirement, fee or timeline survived, so no service node was written for it.",
   "Priority Households (PHH) Scheme: https://fcsca.gujarat.gov.in/en/phh-schemenew1 offers a choice under \"Family having deprivation/insecurity of any of the following shall be included for food security.\" but fewer than two of the lines under it are documents, so no group was written.",
-  "NFSA: https://nfsa.gov.in/Default.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page."
+  "NFSA: https://nfsa.gov.in/Default.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Food and Civil Supplies: no quotable requirement, fee or timeline survived, so no service node was written for it.",
+  "Food and Ration Card Helpline: no quotable requirement, fee or timeline survived, so no service node was written for it."
  ]
 }

@@ -102,6 +102,16 @@
    "contentHash": "7caad8dea1900260efb6557d05759a34265c466167920a54770d5b2e41d724cc"
   },
   {
+   "id": "src:449ac59ef784",
+   "url": "https://suratmunicipal.gov.in/",
+   "title": "Surat Municipal Corporation",
+   "domain": "suratmunicipal.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "47137b014ff3692d47cb503157f78abe9f15b414941a73e90876e00df97b0edc"
+  },
+  {
    "id": "src:02558b8797df",
    "url": "https://collectorkheda.gujarat.gov.in/varshai-app-form-47",
    "title": "વારસાઈ પ્રમાણપત્ર આપવા બાબત | Certificate | Jan Seva Kendra form | Collectorate - District Kheda",
@@ -132,6 +142,26 @@
    "contentHash": "4a61485c8a0b9464c07aded85a6f8993d8d4a662ca86d158bf0c84fa3437c840"
   },
   {
+   "id": "src:36207e7ebef6",
+   "url": "https://surat.gujarat.gov.in/",
+   "title": "Collectorate - District Surat",
+   "domain": "surat.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "96b4a8a2f25092dfe08800611dd5260caaa86a86aa54ed58ebdd92afd203b08e"
+  },
+  {
+   "id": "src:d8f5a80aaa80",
+   "url": "https://vadodara.gujarat.gov.in/",
+   "title": "Collectorate - District Vadodara",
+   "domain": "vadodara.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-VADODARA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "4163e06735834dd34e31ea3da3d368279d8451a952b4f5c85aec2ac328e5372f"
+  },
+  {
    "id": "src:024267061148",
    "url": "https://arvalli.gujarat.gov.in/",
    "title": "Collectorate - District Arvalli",
@@ -140,6 +170,76 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "d58b4c732fb0d659c509f09e133bd0cd1efdc4af7e0eed844329d2d4bdf51cb8"
+  },
+  {
+   "id": "src:648db15140f5",
+   "url": "https://banaskantha.gujarat.gov.in/",
+   "title": "Collectorate - District Banaskantha",
+   "domain": "banaskantha.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-BANASKANTHA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "b36d10a3f49c4191c359ec7d04ebea434e7a19d54895ca031a2401ae8866e735"
+  },
+  {
+   "id": "src:051fe6be50de",
+   "url": "https://dangs.gujarat.gov.in/",
+   "title": "Collectorate - District Dang",
+   "domain": "dangs.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-DANG",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "64a658a45615d728efd5175ed88d4364b3ca8c7be4e5d5079a8ecde5eeb0c99a"
+  },
+  {
+   "id": "src:d0924c737d11",
+   "url": "https://kheda.gujarat.gov.in/",
+   "title": "Collectorate - District Kheda",
+   "domain": "kheda.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-KHEDA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d5b2eb9f1e702b80eddca72701f27684438430502825ef4a4a6b3a81837c9b12"
+  },
+  {
+   "id": "src:60e53d585639",
+   "url": "https://mehsana.gujarat.gov.in/",
+   "title": "Collectorate - District Mehsana",
+   "domain": "mehsana.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-MEHSANA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "f53da5e6e26c221e5e3d944cba892ff8d89d9513a390bb6953ea789962ff4e8e"
+  },
+  {
+   "id": "src:9e3f2bafa37a",
+   "url": "https://rajkot.gujarat.gov.in/",
+   "title": "Collectorate - District Rajkot",
+   "domain": "rajkot.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-RAJKOT",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "38dae75867bb28deac2002acadfa26185022b276639976eccfe750c92b778a9f"
+  },
+  {
+   "id": "src:641e9f089b51",
+   "url": "https://bhavnagar.gujarat.gov.in/",
+   "title": "Collectorate - District Bhavnagar",
+   "domain": "bhavnagar.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-BHAVNAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "139154b92d1e11917b17c06e31e3395c863097a4fe20a8ceb41728b15109ac79"
+  },
+  {
+   "id": "src:66188c3e9cca",
+   "url": "https://collectorahmedabad.gujarat.gov.in/showpage.aspx",
+   "title": "Collectorate - District Ahmedabad",
+   "domain": "collectorahmedabad.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "13e4ef3602cbb561e30605b3b8455a951135d4b5361053dbceda9ab2b3bdee1d"
   },
   {
    "id": "src:7c2d451dfe95",
@@ -152,6 +252,26 @@
    "contentHash": "bac31c3be120f92fdef47423bc5fe1dc8ff7c229628bb963765a7f9c6c5c414d"
   },
   {
+   "id": "src:c3c9fd2764ed",
+   "url": "https://sabarkantha.gujarat.gov.in/",
+   "title": "Collectorate - District Sabarkantha",
+   "domain": "sabarkantha.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-SABARKANTHA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "b49f3e7ddc942342cdc00b77dc10d5bcf1188ef435a8b9dda8010939ad90a284"
+  },
+  {
+   "id": "src:15de7da3d122",
+   "url": "https://tapi.gujarat.gov.in/",
+   "title": "Collectorate - District Tapi",
+   "domain": "tapi.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-TAPI",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "3b8d9dc1bfb1f5e254740a0a6f8eacd769022352dedfdb4614ffecbded23e275"
+  },
+  {
    "id": "src:173f71fd267e",
    "url": "https://gil.gujarat.gov.in/pdf/vol2/newslettermar04.pdf#page=4",
    "title": "newslettermar04 (page 4 of 8)",
@@ -160,6 +280,56 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "a2da09f8cab1b88d8739094caa930e35e1926f3d64b8d3fbfd0ef55f72b4502b"
+  },
+  {
+   "id": "src:8ec67122a7ee",
+   "url": "https://mahisagar.gujarat.gov.in/",
+   "title": "Collectorate - District Mahisagar",
+   "domain": "mahisagar.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-MAHISAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d35508a4b723645f4522fc83a85611625bfcf73e9af4248cded7eafddcfe7b25"
+  },
+  {
+   "id": "src:6012e6a8f156",
+   "url": "https://valsad.gujarat.gov.in/",
+   "title": "Collectorate - District Valsad",
+   "domain": "valsad.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-VALSAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "05a091b0859b8793fea4885ff9e7fab68b19727ac7adc45a8862e5ffec3b757c"
+  },
+  {
+   "id": "src:a668b1cd99aa",
+   "url": "https://kutch.gujarat.gov.in/",
+   "title": "Collectorate - District Kutch",
+   "domain": "kutch.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-KUTCH",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "60666435625d27ed7150cc7d57a99253736b4a4b3d30058780aff1f8ab83daf5"
+  },
+  {
+   "id": "src:8d4a20ae6688",
+   "url": "https://morbi.gujarat.gov.in/",
+   "title": "Collectorate - District Morbi",
+   "domain": "morbi.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-MORBI",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "44c4e5fd2df33ae7e40830c006a4f3f3e02cb26b98b7bdb34af72c4ca3b83aba"
+  },
+  {
+   "id": "src:18eda4a671a4",
+   "url": "https://botad.gujarat.gov.in/",
+   "title": "Collectorate - District Botad",
+   "domain": "botad.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-BOTAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "3f2de0bedce6cfb7e7d7ceb0a999fe1c25ea13c7147a77275a5d65370a8cd92a"
   },
   {
    "id": "src:1072e2dbfef9",
@@ -502,6 +672,46 @@
    "contentHash": "a1b47b9232326406ab4ccd974d5dca86d2ed3486480e428931d798c4e785df9b"
   },
   {
+   "id": "src:e8b2f0130818",
+   "url": "https://collectormehsana.gujarat.gov.in/contacts",
+   "title": "Contacts | Collectorate - District Mehsana",
+   "domain": "collectormehsana.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-MEHSANA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "856ff9c72a5e71f3307241bcafc6bd06dd07ba0c772be12876fb60a3763ab4a8"
+  },
+  {
+   "id": "src:f4fa34090a66",
+   "url": "https://collectorpatan.gujarat.gov.in/contacts",
+   "title": "Contacts | Collectorate - District Patan",
+   "domain": "collectorpatan.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-PATAN",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "bdb0e0560bd4b690bbb385937d9a1e1af472b308ff354d8a6e593b359151dc83"
+  },
+  {
+   "id": "src:892ce8fb705b",
+   "url": "https://devbhumidwarka.gujarat.gov.in/contacts",
+   "title": "Contacts | Collectorate - District Devbhumi Dwarka",
+   "domain": "devbhumidwarka.gujarat.gov.in",
+   "sourceType": "HELPLINE",
+   "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "a389a49e5dcedc58490f917ecf4f86ccb7e8c53a332a49d7e50fd60968178cca"
+  },
+  {
+   "id": "src:3efbc1120113",
+   "url": "https://botad.gujarat.gov.in/contacts",
+   "title": "Contacts | Collectorate - District Botad",
+   "domain": "botad.gujarat.gov.in",
+   "sourceType": "HELPLINE",
+   "jurisdictionId": "IN-GJ-BOTAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "8175401646e0d3797c8210464f4246d547bf2f297acdad0d15301bffb132d90c"
+  },
+  {
    "id": "src:096c6d3cc33f",
    "url": "https://dpe.gujarat.gov.in/Home/primary/CentralizeTechbasedTeacherTransferProcess",
    "title": "Directorate of Primary Education",
@@ -612,6 +822,16 @@
    "contentHash": "eb7c48ed6c08425374751d414cd7c58516c48dad4bf93b076423d999549ce1e1"
   },
   {
+   "id": "src:041e18ca9c00",
+   "url": "https://gscuc.gujarat.gov.in/Pages/Contents/faq",
+   "title": "FAQ | Gujarat State Commission for Unreserved Classes",
+   "domain": "gscuc.gujarat.gov.in",
+   "sourceType": "FAQ",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "13a778eb2dbc20acab6621053bb381626484fe10c0fd65aff99072b197ea9402"
+  },
+  {
    "id": "src:da85effbdf4d",
    "url": "https://collectorvadodara.gujarat.gov.in/showpage.aspx?contentid=488",
    "title": "સક્ષમ અધિકારીશ્રીના હુકમ અન્વયે સિટી સરવેના હકપત્રકે નોંધ દાખલ કરવાની અરજીનો નમુનો | City Survey | Jan Seva Kendra form | Collectorate - District Vadodara",
@@ -662,6 +882,16 @@
    "contentHash": "70c869faeecd1d729cc5afbb3a241f061352662b60b1cc79f2b68e1df5c410c1"
   },
   {
+   "id": "src:e9f390b32eed",
+   "url": "https://spsurendranagar.gujarat.gov.in/",
+   "title": "પોલીસ અધીક્ષકશ્રીની કચેરી, સુરેન્દ્રનગર",
+   "domain": "spsurendranagar.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-SURENDRANAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "9873a67e31a799e95e57d6edf77ac80d823e8eb040f5c93e7dfe35ca0b9a80f4"
+  },
+  {
    "id": "src:0262aac5f33a",
    "url": "https://gscuc.gujarat.gov.in/DownloadData",
    "title": "Download | Gujarat State Commission for Unreserved Classes",
@@ -690,6 +920,26 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "52a6b933b44ad54fd94a48dc353623762415ffabbe3cb824b114291e16087815"
+  },
+  {
+   "id": "src:72cbddd6cfa6",
+   "url": "https://gssca.gujarat.gov.in/",
+   "title": "Gujarat State Seed Certificate Agency",
+   "domain": "gssca.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "9bf3448a0d6c673ecc794f6de703682a2467c0146ca4305637e5d61ad7807f31"
+  },
+  {
+   "id": "src:09970aee86f9",
+   "url": "https://ma.gujarat.gov.in/G_Certificate%20For%20Keen%20Replacement%20Under%20MA%20and%20PMAJY.html",
+   "title": "Enrollment Guidelines",
+   "domain": "ma.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "b66eba37862b677e736940f43f5275119c773254c45f96e1efd851ff16a8bc0e"
   },
   {
    "id": "src:3e9caf77dc5a",
@@ -2370,6 +2620,132 @@
    ]
   },
   {
+   "id": "helpline:1800_123_8000",
+   "type": "HELPLINE",
+   "name": "Virtual Civic Center helpline",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "1800 123 8000"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:449ac59ef784",
+     "evidence": "Toll Free Number 1800 123 8000",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:63599_30020",
+   "type": "HELPLINE",
+   "name": "Virtual Civic Center helpline",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "63599 30020"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:449ac59ef784",
+     "evidence": "WhatsApp 63599 30020",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:virtual_civic_center",
+   "type": "SERVICE",
+   "name": "Virtual Civic Center",
+   "officialName": "Virtual Civic Center",
+   "description": "The Virtual Civic Center allows citizens to access various online services, including paying taxes and obtaining birth and death certificates.",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:449ac59ef784",
+     "evidence": "Virtual Civic Center provides simple and convenient way for citizens to access various services from anywhere at anytime.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:449ac59ef784",
+     "evidence": "Citizens can use Virtual Civic Center to pay Property Tax, Profession Tax, Water Meter Bills; obtain Birth and Death Certificate; etc.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:449ac59ef784",
+     "evidence": "Citizens can use Virtual Civic Center to pay Property Tax, Profession Tax, Water Meter Bills; obtain Birth and Death Certificate; etc.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:449ac59ef784",
+     "evidence": "Surat Municipal Institute of Medical Education & Research (SMIMER) has been established by the Surat Municipal Corporation. It provides tertiary level health care to its citizens and quality medical education to the student.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:449ac59ef784",
+     "evidence": "Science Centre premises consists of the Museum, Planetarium, Art Gallery and Science Center.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:449ac59ef784",
+     "evidence": "Museum showcases the rich heritage and history of Surat, while the Science Centre has Fun Science Gallery, 3D theater, Diamond Gallery.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:449ac59ef784",
+     "evidence": "Museum showcases the rich heritage and history of Surat, while the Science Centre has Fun Science Gallery, 3D theater, Diamond Gallery.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:449ac59ef784",
+     "evidence": "SMC's GIS portal depicts spatial information visually and allows citizens to get useful information pertaining to Town Planning, Development Permission, Property Tax, etc. on map.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:449ac59ef784",
+     "evidence": "SMC has taken an initiative to make various downloaded forms available at free of cost. Citizens can download and it will be accepted at concern offices of Surat Municipal Corporation without paying prescribed form fee.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:449ac59ef784",
+     "evidence": "The section on RTI provides details of the Public Information Officer, Assistant Public Information Officer, Proactive Disclosures, application forms and other important details.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:449ac59ef784",
+     "evidence": "Under the PMAY/MMGY scheme, government intends to provide the affordable housing under different categories.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:449ac59ef784",
+     "evidence": "Citizens can register their complaints very easily using various channels like website, mobile app, helpline and whatsapp.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
    "id": "document:certified_copies",
    "type": "DOCUMENT",
    "name": "Certified copies",
@@ -2665,6 +3041,86 @@
    ]
   },
   {
+   "id": "helpline:91_261_2663200_2664800",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 261 2663200, 2664800"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:36207e7ebef6",
+     "evidence": "District Emergency Response Center\nCall +91 261 2663200, 2664800",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:1070",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "1070"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:36207e7ebef6",
+     "evidence": "Commissioner of Rescue & Relief\nCall 1070",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:1077",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "1077"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:36207e7ebef6",
+     "evidence": "Disaster Helpline No.\nCall 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:91_265_1077",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 265 1077"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:d8f5a80aaa80",
+     "evidence": "District Emergency Response Center\nCall +91 265 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "document:application_forms",
    "type": "DOCUMENT",
    "name": "Application forms",
@@ -2700,21 +3156,141 @@
    ]
   },
   {
-   "id": "helpline:1077",
+   "id": "helpline:91_2742_1077",
    "type": "HELPLINE",
    "name": "Jan Seva Kendra helpline",
    "jurisdictionId": "IN-GJ-PANCHMAHAL",
    "metadata": {
     "channelType": "PHONE",
     "phoneNumbers": [
-     "1077"
+     "+91 2742 1077"
     ]
    },
    "sources": [
     {
-     "sourceId": "src:024267061148",
-     "evidence": "Commissioner of Rescue & Relief Call 1077",
+     "sourceId": "src:648db15140f5",
+     "evidence": "District Emergency Response Center\nCall +91 2742 1077",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:91_2631_243222",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 2631 243222"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:051fe6be50de",
+     "evidence": "District Emergency Response Center  Call +91 2631 243222",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:91_268_1077",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 268 1077"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:d0924c737d11",
+     "evidence": "District Emergency Response Center Call +91 268 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:91_2762_1077",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 2762 1077"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:60e53d585639",
+     "evidence": "District Emergency Response Center Call +91 2762 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:14567",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "14567"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:60e53d585639",
+     "evidence": "Publicize the Senior Citizen helpline Call 14567",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:91_278_1077",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 278 1077"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:641e9f089b51",
+     "evidence": "District Emergency Response Center Call +91 278 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:91_79_1077",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 79 1077"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:66188c3e9cca",
+     "evidence": "District Emergency Response Center \r\nCall \r\n+91 79 1077",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -2758,21 +3334,78 @@
    ]
   },
   {
-   "id": "helpline:1070",
+   "id": "helpline:91_2772_1077",
    "type": "HELPLINE",
    "name": "Jan Seva Kendra helpline",
    "jurisdictionId": "IN-GJ-PANCHMAHAL",
    "metadata": {
     "channelType": "PHONE",
     "phoneNumbers": [
-     "1070"
+     "+91 2772 1077"
     ]
    },
    "sources": [
     {
-     "sourceId": "src:7c2d451dfe95",
-     "evidence": "Commissioner of Rescue & Relief Call 1070",
-     "confidence": 0.95,
+     "sourceId": "src:c3c9fd2764ed",
+     "evidence": "District Emergency Response Center\nCall +91 2772 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "grievance:jan_seva_kendra",
+   "type": "GRIEVANCE_CHANNEL",
+   "name": "Grievances about jan seva kendra",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "GRIEVANCE_PORTAL"
+   },
+   "sources": [
+    {
+     "sourceId": "src:c3c9fd2764ed",
+     "evidence": "Grievance Redressal",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:91_2626_1071",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 2626 1071"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:15de7da3d122",
+     "evidence": "District Emergency Response Center\nCall +91 2626 1071",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:02626_223332",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "02626 223332"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:15de7da3d122",
+     "evidence": "District EOCs Helpline & No.\nCall : 02626 223332",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -2793,10 +3426,153 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "helpline:1950",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "1950"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:8ec67122a7ee",
+     "evidence": "District Control Room Helpline Number - 1950",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:1800_2331014",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "1800 2331014"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:8ec67122a7ee",
+     "evidence": "State Control Room Helpline Number - 1800 2331014",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:91_2674_1077",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 2674 1077"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:8ec67122a7ee",
+     "evidence": "District Emergency Response Center\nCall +91 2674 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:91_2632_1077",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 2632 1077"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:6012e6a8f156",
+     "evidence": "District Emergency Response Center\nCall +91 2632 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:91_2832_1077",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 2832 1077"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:a668b1cd99aa",
+     "evidence": "District Emergency Response Center Call +91 2832 1077",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:1800_233_24160",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "1800 233 24160"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:8d4a20ae6688",
+     "evidence": "District Emergency Response Center\nCall 1800 233 24160",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:91_2849_1077",
+   "type": "HELPLINE",
+   "name": "Jan Seva Kendra helpline",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 2849 1077"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:18eda4a671a4",
+     "evidence": "District Emergency Response Center\nCall +91 2849 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "service:jan_seva_kendra",
    "type": "SERVICE",
    "name": "Jan Seva Kendra",
    "officialName": "Jan Seva Kendra",
+   "aliases": [
+    "ઝન સેવા કેન્દ્ર"
+   ],
    "description": "The Jan Seva Kendra in Panchmahal provides one-stop solutions for 102 public services.",
    "jurisdictionId": "IN-GJ-PANCHMAHAL",
    "metadata": {
@@ -2870,7 +3646,7 @@
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:024267061148",
+     "sourceId": "src:36207e7ebef6",
      "evidence": "Jan Seva Kendra provides one stop solutions for 102 public services.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
@@ -4409,6 +5185,284 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "helpline:91_2766_1077",
+   "type": "HELPLINE",
+   "name": "District Collector Office helpline",
+   "jurisdictionId": "IN-GJ-MEHSANA",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 2766 1077"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:f4fa34090a66",
+     "evidence": "District Helpline\nCall : +91 2766 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:91_2766",
+   "type": "HELPLINE",
+   "name": "District Collector Office helpline",
+   "jurisdictionId": "IN-GJ-MEHSANA",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 2766"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:f4fa34090a66",
+     "evidence": "District EOCs Helpline No.\nCall : +91 2766",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "office:dr_prashant_jilova_ias",
+   "type": "OFFICE",
+   "name": "Dr. Prashant Jilova, IAS",
+   "jurisdictionId": "IN-GJ-MEHSANA",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "phoneNumbers": [
+     "+91 2766 233400"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:f4fa34090a66",
+     "evidence": "Dr. Prashant Jilova, IAS | Collector Patan | +91 2766 233400\ncollector-pat[at]gujarat[dot]gov[dot]in |",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "office:shri_v_c_bodana",
+   "type": "OFFICE",
+   "name": "Shri V. C. Bodana",
+   "jurisdictionId": "IN-GJ-MEHSANA",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "phoneNumbers": [
+     "+91 2766 233400"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:f4fa34090a66",
+     "evidence": "Shri V. C. Bodana | Resident Addl. Collector | +91 2766 233400\nadd-collector-pat[at]gujarat[dot]gov[dot]in |",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:91_2833_232805",
+   "type": "HELPLINE",
+   "name": "District Collector Office helpline",
+   "jurisdictionId": "IN-GJ-MEHSANA",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 2833 232805"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:892ce8fb705b",
+     "evidence": "District Collector Office\n1st Floor, Lalpur Bypass Road, Dharampur,\nKhambhalia,\nGujarat - 361305\n+91 2833 232805\n+91 2833 232102",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:91_2833_1077",
+   "type": "HELPLINE",
+   "name": "District Collector Office helpline",
+   "jurisdictionId": "IN-GJ-MEHSANA",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 2833 1077"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:892ce8fb705b",
+     "evidence": "District Helpline\nCall : +91 2833 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:91_2833_232125",
+   "type": "HELPLINE",
+   "name": "District Collector Office helpline",
+   "jurisdictionId": "IN-GJ-MEHSANA",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 2833 232125"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:892ce8fb705b",
+     "evidence": "District EOCs Helpline No.\nCall : +91 2833 232125",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:91_2833_232620",
+   "type": "HELPLINE",
+   "name": "District Collector Office helpline",
+   "jurisdictionId": "IN-GJ-MEHSANA",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 2833 232620"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:892ce8fb705b",
+     "evidence": "Shri M. V. Desai | Resident Additional Collector | +91 2833 232620\naddl-collector-dev[at]gujarat[dot]gov[dot]in |",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "office:botad",
+   "type": "OFFICE",
+   "name": "Botad",
+   "jurisdictionId": "IN-GJ-MEHSANA",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Jilla Seva Sadan, 1st Floor, Khas Road, Botad - 364710, Gujarat"
+   },
+   "sources": [
+    {
+     "sourceId": "src:3efbc1120113",
+     "evidence": "Botad\nDistrict Collector Office\nJilla Seva Sadan,\n1st Floor, Khas Road,\nBotad - 364710\nGujarat",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:91_2849_271305",
+   "type": "HELPLINE",
+   "name": "District Collector Office helpline",
+   "jurisdictionId": "IN-GJ-MEHSANA",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 2849 271305"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:3efbc1120113",
+     "evidence": "+91 2849 271305\n+91 2849 271304",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:district_collector_office",
+   "type": "SERVICE",
+   "name": "District Collector Office",
+   "officialName": "District Collector Office",
+   "description": "The page provides contact information for the District Collector Office in Mehsana, including addresses, phone numbers, and email.",
+   "jurisdictionId": "IN-GJ-MEHSANA",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:e8b2f0130818",
+     "evidence": "+91 2762 222203\n+91 2762 222202",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e8b2f0130818",
+     "evidence": "collector-meh[at]gujarat[dot]gov[dot]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f4fa34090a66",
+     "evidence": "+91 2766 233301",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f4fa34090a66",
+     "evidence": "+91 2766 233055",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f4fa34090a66",
+     "evidence": "collector-pat[at]gujarat[dot]gov[dot]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:892ce8fb705b",
+     "evidence": "Shri R. M. Tanna, IAS | Collector, Devbhumi Dwarka | +91 2833 232804/05\ncollector-devbdwarka[at]gujarat[dot]gov[dot]in |",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:892ce8fb705b",
+     "evidence": "Shri M. V. Desai | Resident Additional Collector | +91 2833 232620\naddl-collector-dev[at]gujarat[dot]gov[dot]in |",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3efbc1120113",
+     "evidence": "collector-botad[at]gujarat[dot]gov[dot]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:collectormehsana_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "collectormehsana.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ-MEHSANA",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://collectormehsana.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:e8b2f0130818",
+     "evidence": "+91 2762 222203\n+91 2762 222202",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "service:teacher_transfer",
    "type": "SERVICE",
    "name": "Teacher Transfer",
@@ -5102,24 +6156,6 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "portal:mea_gov_in",
-   "type": "PORTAL",
-   "name": "mea.gov.in",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "WEB",
-    "url": "https://mea.gov.in/"
-   },
-   "sources": [
-    {
-     "sourceId": "src:3e35b27b1ef0",
-     "evidence": "MEA: A fee of Rs 50 is payable for Apostille of document. (W.e.f 21 December 2016, payment by means of postal orders has been discontinued.) Normal Attestation is done free of cost.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "document:deposit_receipt_copy",
    "type": "DOCUMENT",
    "name": "Deposit receipt copy",
@@ -5215,6 +6251,86 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "helpline:079_23258647",
+   "type": "HELPLINE",
+   "name": "Certificate For Non-Reserved Classes Helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "079 23258647"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:041e18ca9c00",
+     "evidence": "ગુજરાત રાજ્ય બિન અનામત વર્ગોના આયોગનું (GSCUC) સરનામું અને સંપર્ક નંબર શું છે?\nબ્લોક નંબર 1, 6ઠ્ઠો માળ, કર્મયોગી ભવન, સેક્ટર 10, ગાંધીનગર, ગુજરાત - 382010\nફોન નંબર: 079 23258647",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "portal:gueedc_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "gueedc.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://gueedc.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:041e18ca9c00",
+     "evidence": "ગુજરાત બિન અનામત શૈક્ષણિક અને આર્થિક વિકાસ નિગમની (GUEEDC) વેબસાઇટનુ સરનામું શું છે??\nવેબસાઇટનુ સરનામું : https://gueedc.gujarat.gov.in/",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:certificate_for_non_reserved_classes",
+   "type": "SERVICE",
+   "name": "Certificate For Non-Reserved Classes",
+   "officialName": "certificate for non-reserved classes",
+   "aliases": [
+    "ગુજરાત રાજ્ય બિન અનામત વર્ગોના આયોગ",
+    "gscuc"
+   ],
+   "description": "The service provides a certificate for non-reserved classes to citizens.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:041e18ca9c00",
+     "evidence": "ગુજરાત બિન અનામત શૈક્ષણિક અને આર્થિક વિકાસ નિગમની (GUEEDC) વેબસાઇટનુ સરનામું શું છે??\nવેબસાઇટનુ સરનામું : https://gueedc.gujarat.gov.in/",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:gscuc_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "gscuc.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://gscuc.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:041e18ca9c00",
+     "evidence": "ગુજરાત બિન અનામત શૈક્ષણિક અને આર્થિક વિકાસ નિગમની (GUEEDC) વેબસાઇટનુ સરનામું શું છે??\nવેબસાઇટનુ સરનામું : https://gueedc.gujarat.gov.in/",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
   },
   {
    "id": "office:jan_seva_kendra_vadodara",
@@ -5486,6 +6602,56 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "portal:spsurendranagar_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "spsurendranagar.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ-SURENDRANAGAR",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://spsurendranagar.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:e9f390b32eed",
+     "evidence": "ઓનલાઈન સેવાઓ | | | | | ખોવાયેલ વ્‍યક્તિ/વસ્‍તુની વ્‍યક્તિ મોબાઇલ પાસપોર્ટ વાહનો અન્‍ય Search1",
+     "confidence": 0.8,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:police_clearance_certificates",
+   "type": "SERVICE",
+   "name": "Police Clearance Certificates",
+   "officialName": "police clearance certificates",
+   "description": "Citizens can access police services online, including police clearance certificates and passport-related services.",
+   "jurisdictionId": "IN-GJ-SURENDRANAGAR",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:e9f390b32eed",
+     "evidence": "આ વેબસાઈટ જિલ્લા પોલીસ અને નાગરિકોને પરસ્પરની નજીક લાવવાનો એક સંનિષ્ઠ પ્રયાસ છે.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e9f390b32eed",
+     "evidence": "ખોવાયેલ/ચોરાયેલ વાહનો શોધો",
+     "confidence": 0.85,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e9f390b32eed",
+     "evidence": "ઓનલાઈન સેવાઓ | | | | | ખોવાયેલ વ્‍યક્તિ/વસ્‍તુની વ્‍યક્તિ મોબાઇલ પાસપોર્ટ વાહનો અન્‍ય Search1",
+     "confidence": 0.8,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
    "id": "portal:gscuc_gujarat_gov_in_0262aa",
    "type": "PORTAL",
    "name": "gscuc.gujarat.gov.in/DownloadData",
@@ -5572,24 +6738,6 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "portal:gscuc_gujarat_gov_in",
-   "type": "PORTAL",
-   "name": "gscuc.gujarat.gov.in",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "WEB",
-    "url": "https://gscuc.gujarat.gov.in/"
-   },
-   "sources": [
-    {
-     "sourceId": "src:0262aac5f33a",
-     "evidence": "Application Form for Certificate of Unreserved Classes Download",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
   },
   {
    "id": "service:utilization_certificate",
@@ -5699,6 +6847,84 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "helpline:91_079_26734116",
+   "type": "HELPLINE",
+   "name": "Gujarat State Seed Certificate Agency helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91 079-26734116"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:72cbddd6cfa6",
+     "evidence": "+91 079-26734116",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:1800_233_1022",
+   "type": "HELPLINE",
+   "name": "Certificate For Knee Replacement helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "1800-233-1022"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:09970aee86f9",
+     "evidence": "Toll Free : 1800-233-1022",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:certificate_for_knee_replacement",
+   "type": "SERVICE",
+   "name": "Certificate For Knee Replacement",
+   "officialName": "Certificate For Knee Replacement",
+   "description": "A certificate for knee replacement under MA and PMAJY is available.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:09970aee86f9",
+     "evidence": "Certificate For Knee Replacement Under MA & PMAJY",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:ma_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "ma.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://ma.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:09970aee86f9",
+     "evidence": "Certificate For Knee Replacement Under MA & PMAJY",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
   },
   {
    "id": "document:opal_green_label",
@@ -6837,6 +8063,54 @@
    ]
   },
   {
+   "id": "e:service_virtual_civic_center__call_if__helpline_1800_123_8000",
+   "from": "service:virtual_civic_center",
+   "to": "helpline:1800_123_8000",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The toll-free number for Surat Municipal Corporation is 1800 123 8000.",
+   "sources": [
+    {
+     "sourceId": "src:449ac59ef784",
+     "evidence": "Toll Free Number 1800 123 8000",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_virtual_civic_center__call_if__helpline_63599_30020",
+   "from": "service:virtual_civic_center",
+   "to": "helpline:63599_30020",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The WhatsApp number for Surat Municipal Corporation is 63599 30020.",
+   "sources": [
+    {
+     "sourceId": "src:449ac59ef784",
+     "evidence": "WhatsApp 63599 30020",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_virtual_civic_center__apply_at__portal_suratmunicipal_gov_in",
+   "from": "service:virtual_civic_center",
+   "to": "portal:suratmunicipal_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on suratmunicipal.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:449ac59ef784",
+     "evidence": "Virtual Civic Center provides simple and convenient way for citizens to access various services from anywhere at anytime.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_varshai__requires__document_certified_copies",
    "from": "service:varshai",
    "to": "document:certified_copies",
@@ -7029,6 +8303,70 @@
    ]
   },
   {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_91_261_2663200_2664800",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:91_261_2663200_2664800",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Emergency Response Center can be contacted at +91 261 2663200 or 2664800 for emergencies.",
+   "sources": [
+    {
+     "sourceId": "src:36207e7ebef6",
+     "evidence": "District Emergency Response Center\nCall +91 261 2663200, 2664800",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_1070",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:1070",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Commissioner of Rescue & Relief can be contacted at 1070 for emergencies.",
+   "sources": [
+    {
+     "sourceId": "src:36207e7ebef6",
+     "evidence": "Commissioner of Rescue & Relief\nCall 1070",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_1077",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:1077",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Disaster Helpline Number is 1077 for emergencies.",
+   "sources": [
+    {
+     "sourceId": "src:36207e7ebef6",
+     "evidence": "Disaster Helpline No.\nCall 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_91_265_1077",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:91_265_1077",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "District Emergency Response Center can be reached at +91 265 1077",
+   "sources": [
+    {
+     "sourceId": "src:d8f5a80aaa80",
+     "evidence": "District Emergency Response Center\nCall +91 265 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_jan_seva_kendra__requires__document_application_forms",
    "from": "service:jan_seva_kendra",
    "to": "document:application_forms",
@@ -7061,17 +8399,113 @@
    ]
   },
   {
-   "id": "e:service_jan_seva_kendra__call_if__helpline_1077",
+   "id": "e:service_jan_seva_kendra__call_if__helpline_91_2742_1077",
    "from": "service:jan_seva_kendra",
-   "to": "helpline:1077",
+   "to": "helpline:91_2742_1077",
    "type": "CALL_IF",
    "verificationStatus": "EXTRACTED",
-   "note": "The Commissioner of Rescue & Relief can be contacted at 1077.",
+   "note": "District Emergency Response Center can be reached at +91 2742 1077",
    "sources": [
     {
-     "sourceId": "src:024267061148",
-     "evidence": "Commissioner of Rescue & Relief Call 1077",
+     "sourceId": "src:648db15140f5",
+     "evidence": "District Emergency Response Center\nCall +91 2742 1077",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_91_2631_243222",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:91_2631_243222",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Emergency Response Center can be contacted at +91 2631 243222.",
+   "sources": [
+    {
+     "sourceId": "src:051fe6be50de",
+     "evidence": "District Emergency Response Center  Call +91 2631 243222",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_91_268_1077",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:91_268_1077",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Emergency Response Center can be contacted at +91 268 1077.",
+   "sources": [
+    {
+     "sourceId": "src:d0924c737d11",
+     "evidence": "District Emergency Response Center Call +91 268 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_91_2762_1077",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:91_2762_1077",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Emergency Response Center can be contacted at +91 2762 1077.",
+   "sources": [
+    {
+     "sourceId": "src:60e53d585639",
+     "evidence": "District Emergency Response Center Call +91 2762 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_14567",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:14567",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Senior Citizen helpline can be contacted at 14567.",
+   "sources": [
+    {
+     "sourceId": "src:60e53d585639",
+     "evidence": "Publicize the Senior Citizen helpline Call 14567",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_91_278_1077",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:91_278_1077",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Emergency Response Center can be contacted at +91 278 1077.",
+   "sources": [
+    {
+     "sourceId": "src:641e9f089b51",
+     "evidence": "District Emergency Response Center Call +91 278 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_91_79_1077",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:91_79_1077",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "District Emergency Response Center can be reached at +91 79 1077",
+   "sources": [
+    {
+     "sourceId": "src:66188c3e9cca",
+     "evidence": "District Emergency Response Center \r\nCall \r\n+91 79 1077",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -7109,17 +8543,65 @@
    ]
   },
   {
-   "id": "e:service_jan_seva_kendra__call_if__helpline_1070",
+   "id": "e:service_jan_seva_kendra__call_if__helpline_91_2772_1077",
    "from": "service:jan_seva_kendra",
-   "to": "helpline:1070",
+   "to": "helpline:91_2772_1077",
    "type": "CALL_IF",
    "verificationStatus": "EXTRACTED",
-   "note": "The Commissioner of Rescue & Relief in Gandhinagar can be contacted at 1070.",
+   "note": "District Emergency Response Center can be reached at +91 2772 1077",
    "sources": [
     {
-     "sourceId": "src:7c2d451dfe95",
-     "evidence": "Commissioner of Rescue & Relief Call 1070",
-     "confidence": 0.95,
+     "sourceId": "src:c3c9fd2764ed",
+     "evidence": "District Emergency Response Center\nCall +91 2772 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__escalate_to__grievance_jan_seva_kendra",
+   "from": "service:jan_seva_kendra",
+   "to": "grievance:jan_seva_kendra",
+   "type": "ESCALATE_TO",
+   "verificationStatus": "EXTRACTED",
+   "note": "Grievance Redressal is available as a branch service",
+   "sources": [
+    {
+     "sourceId": "src:c3c9fd2764ed",
+     "evidence": "Grievance Redressal",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_91_2626_1071",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:91_2626_1071",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Emergency Response Center can be contacted at +91 2626 1071.",
+   "sources": [
+    {
+     "sourceId": "src:15de7da3d122",
+     "evidence": "District Emergency Response Center\nCall +91 2626 1071",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_02626_223332",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:02626_223332",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District EOCs Helpline can be contacted at 02626 223332.",
+   "sources": [
+    {
+     "sourceId": "src:15de7da3d122",
+     "evidence": "District EOCs Helpline & No.\nCall : 02626 223332",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -7136,6 +8618,118 @@
      "sourceId": "src:173f71fd267e",
      "evidence": "The standard formats have been made available over the Internet.",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_1950",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:1950",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Control Room Helpline Number is 1950.",
+   "sources": [
+    {
+     "sourceId": "src:8ec67122a7ee",
+     "evidence": "District Control Room Helpline Number - 1950",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_1800_2331014",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:1800_2331014",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The State Control Room Helpline Number is 1800 2331014.",
+   "sources": [
+    {
+     "sourceId": "src:8ec67122a7ee",
+     "evidence": "State Control Room Helpline Number - 1800 2331014",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_91_2674_1077",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:91_2674_1077",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Emergency Response Center can be contacted at +91 2674 1077.",
+   "sources": [
+    {
+     "sourceId": "src:8ec67122a7ee",
+     "evidence": "District Emergency Response Center\nCall +91 2674 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_91_2632_1077",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:91_2632_1077",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Emergency Response Center can be contacted at +91 2632 1077.",
+   "sources": [
+    {
+     "sourceId": "src:6012e6a8f156",
+     "evidence": "District Emergency Response Center\nCall +91 2632 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_91_2832_1077",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:91_2832_1077",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Emergency Response Center can be contacted at +91 2832 1077 for emergencies.",
+   "sources": [
+    {
+     "sourceId": "src:a668b1cd99aa",
+     "evidence": "District Emergency Response Center Call +91 2832 1077",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_1800_233_24160",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:1800_233_24160",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Emergency Response Center can be contacted at 1800 233 24160.",
+   "sources": [
+    {
+     "sourceId": "src:8d4a20ae6688",
+     "evidence": "District Emergency Response Center\nCall 1800 233 24160",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_jan_seva_kendra__call_if__helpline_91_2849_1077",
+   "from": "service:jan_seva_kendra",
+   "to": "helpline:91_2849_1077",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Emergency Response Center can be contacted at +91 2849 1077.",
+   "sources": [
+    {
+     "sourceId": "src:18eda4a671a4",
+     "evidence": "District Emergency Response Center\nCall +91 2849 1077",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -8421,6 +10015,214 @@
    ]
   },
   {
+   "id": "e:service_district_collector_office__call_if__helpline_91_2766_1077",
+   "from": "service:district_collector_office",
+   "to": "helpline:91_2766_1077",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Helpline number is +91 2766 1077.",
+   "sources": [
+    {
+     "sourceId": "src:f4fa34090a66",
+     "evidence": "District Helpline\nCall : +91 2766 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_district_collector_office__call_if__helpline_91_2766",
+   "from": "service:district_collector_office",
+   "to": "helpline:91_2766",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District EOCs Helpline number is +91 2766.",
+   "sources": [
+    {
+     "sourceId": "src:f4fa34090a66",
+     "evidence": "District EOCs Helpline No.\nCall : +91 2766",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_district_collector_office__call_if__helpline_1070",
+   "from": "service:district_collector_office",
+   "to": "helpline:1070",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Commissioner of Rescue & Relief can be contacted at 1070.",
+   "sources": [
+    {
+     "sourceId": "src:f4fa34090a66",
+     "evidence": "Commissioner of Rescue & Relief\nCall : 1070",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_district_collector_office__visit_at__office_dr_prashant_jilova_ias",
+   "from": "service:district_collector_office",
+   "to": "office:dr_prashant_jilova_ias",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Dr. Prashant Jilova, IAS, is the Collector of Patan and can be contacted at +91 2766 233400.",
+   "sources": [
+    {
+     "sourceId": "src:f4fa34090a66",
+     "evidence": "Dr. Prashant Jilova, IAS | Collector Patan | +91 2766 233400\ncollector-pat[at]gujarat[dot]gov[dot]in |",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_district_collector_office__visit_at__office_shri_v_c_bodana",
+   "from": "service:district_collector_office",
+   "to": "office:shri_v_c_bodana",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Shri V. C. Bodana is the Resident Addl. Collector and can be contacted at +91 2766 233400.",
+   "sources": [
+    {
+     "sourceId": "src:f4fa34090a66",
+     "evidence": "Shri V. C. Bodana | Resident Addl. Collector | +91 2766 233400\nadd-collector-pat[at]gujarat[dot]gov[dot]in |",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_district_collector_office__call_if__helpline_91_2833_232805",
+   "from": "service:district_collector_office",
+   "to": "helpline:91_2833_232805",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Collector Office can be contacted at +91 2833 232805.",
+   "sources": [
+    {
+     "sourceId": "src:892ce8fb705b",
+     "evidence": "District Collector Office\n1st Floor, Lalpur Bypass Road, Dharampur,\nKhambhalia,\nGujarat - 361305\n+91 2833 232805\n+91 2833 232102",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_district_collector_office__call_if__helpline_91_2833_1077",
+   "from": "service:district_collector_office",
+   "to": "helpline:91_2833_1077",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Helpline can be contacted at +91 2833 1077.",
+   "sources": [
+    {
+     "sourceId": "src:892ce8fb705b",
+     "evidence": "District Helpline\nCall : +91 2833 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_district_collector_office__call_if__helpline_91_2833_232125",
+   "from": "service:district_collector_office",
+   "to": "helpline:91_2833_232125",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District EOCs Helpline can be contacted at +91 2833 232125.",
+   "sources": [
+    {
+     "sourceId": "src:892ce8fb705b",
+     "evidence": "District EOCs Helpline No.\nCall : +91 2833 232125",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_district_collector_office__call_if__helpline_91_2833_232620",
+   "from": "service:district_collector_office",
+   "to": "helpline:91_2833_232620",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Deputy Collector can be contacted at +91 2833 232620.",
+   "sources": [
+    {
+     "sourceId": "src:892ce8fb705b",
+     "evidence": "Shri M. V. Desai | Resident Additional Collector | +91 2833 232620\naddl-collector-dev[at]gujarat[dot]gov[dot]in |",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_district_collector_office__visit_at__office_botad",
+   "from": "service:district_collector_office",
+   "to": "office:botad",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Collector Office is located at Jilla Seva Sadan, 1st Floor, Khas Road, Botad - 364710, Gujarat.",
+   "sources": [
+    {
+     "sourceId": "src:3efbc1120113",
+     "evidence": "Botad\nDistrict Collector Office\nJilla Seva Sadan,\n1st Floor, Khas Road,\nBotad - 364710\nGujarat",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_district_collector_office__call_if__helpline_91_2849_271305",
+   "from": "service:district_collector_office",
+   "to": "helpline:91_2849_271305",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The contact number for the District Collector Office is +91 2849 271305.",
+   "sources": [
+    {
+     "sourceId": "src:3efbc1120113",
+     "evidence": "+91 2849 271305\n+91 2849 271304",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_district_collector_office__call_if__helpline_91_2849_1077",
+   "from": "service:district_collector_office",
+   "to": "helpline:91_2849_1077",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Helpline number is +91 2849 1077.",
+   "sources": [
+    {
+     "sourceId": "src:3efbc1120113",
+     "evidence": "District Helpline\nCall : +91 2849 1077",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_district_collector_office__apply_at__portal_collectormehsana_gujarat_gov_in",
+   "from": "service:district_collector_office",
+   "to": "portal:collectormehsana_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on collectormehsana.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:e8b2f0130818",
+     "evidence": "+91 2762 222203\n+91 2762 222202",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_teacher_transfer__apply_at__portal_dpe_gujarat_gov_in",
    "from": "service:teacher_transfer",
    "to": "portal:dpe_gujarat_gov_in",
@@ -9077,6 +10879,70 @@
    ]
   },
   {
+   "id": "e:service_certificate_for_non_reserved_classes__visit_at__office_gandhinagar",
+   "from": "service:certificate_for_non_reserved_classes",
+   "to": "office:gandhinagar",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gujarat State Commission for Unreserved Classes (GSCUC) is located at Block Number 1, 6th floor, Karmayogi Bhavan, Sector 10, Gandhinagar, Gujarat - 382010.",
+   "sources": [
+    {
+     "sourceId": "src:041e18ca9c00",
+     "evidence": "ગુજરાત રાજ્ય બિન અનામત વર્ગોના આયોગનું (GSCUC) સરનામું અને સંપર્ક નંબર શું છે?\nબ્લોક નંબર 1, 6ઠ્ઠો માળ, કર્મયોગી ભવન, સેક્ટર 10, ગાંધીનગર, ગુજરાત - 382010",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_certificate_for_non_reserved_classes__call_if__helpline_079_23258647",
+   "from": "service:certificate_for_non_reserved_classes",
+   "to": "helpline:079_23258647",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The contact number for the Gujarat State Commission for Unreserved Classes (GSCUC) is 079 23258647.",
+   "sources": [
+    {
+     "sourceId": "src:041e18ca9c00",
+     "evidence": "ગુજરાત રાજ્ય બિન અનામત વર્ગોના આયોગનું (GSCUC) સરનામું અને સંપર્ક નંબર શું છે?\nબ્લોક નંબર 1, 6ઠ્ઠો માળ, કર્મયોગી ભવન, સેક્ટર 10, ગાંધીનગર, ગુજરાત - 382010\nફોન નંબર: 079 23258647",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_certificate_for_non_reserved_classes__apply_at__portal_gueedc_gujarat_gov_in",
+   "from": "service:certificate_for_non_reserved_classes",
+   "to": "portal:gueedc_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The website address for the Gujarat Unreserved Educational and Economic Development Corporation (GUEEDC) is https://gueedc.gujarat.gov.in/.",
+   "sources": [
+    {
+     "sourceId": "src:041e18ca9c00",
+     "evidence": "ગુજરાત બિન અનામત શૈક્ષણિક અને આર્થિક વિકાસ નિગમની (GUEEDC) વેબસાઇટનુ સરનામું શું છે??\nવેબસાઇટનુ સરનામું : https://gueedc.gujarat.gov.in/",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_certificate_for_non_reserved_classes__apply_at__portal_gscuc_gujarat_gov_in",
+   "from": "service:certificate_for_non_reserved_classes",
+   "to": "portal:gscuc_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on gscuc.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:041e18ca9c00",
+     "evidence": "ગુજરાત બિન અનામત શૈક્ષણિક અને આર્થિક વિકાસ નિગમની (GUEEDC) વેબસાઇટનુ સરનામું શું છે??\nવેબસાઇટનુ સરનામું : https://gueedc.gujarat.gov.in/",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_city_survey_certificate__requires__document_certified_copy",
    "from": "service:city_survey_certificate",
    "to": "document:certified_copy",
@@ -9168,6 +11034,22 @@
      "sourceId": "src:7122f7b1b29d",
      "evidence": "૧. આ ડેટા એન્ટ્રી ફોર્મની પ્રિન્ટ ચાલશે નહિ. મુખ્ય પેજ પરથી Print Registration Form Click કરીને બારકોડ વાળી પ્રિન્ટ કોઇ પણ સરકારી ITI માં જમા કરાવવી.",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_police_clearance_certificates__apply_at__portal_spsurendranagar_gujarat_gov_in",
+   "from": "service:police_clearance_certificates",
+   "to": "portal:spsurendranagar_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Citizens can access various police services online, including police clearance certificates and passport-related services.",
+   "sources": [
+    {
+     "sourceId": "src:e9f390b32eed",
+     "evidence": "ઓનલાઈન સેવાઓ | | | | | ખોવાયેલ વ્‍યક્તિ/વસ્‍તુની વ્‍યક્તિ મોબાઇલ પાસપોર્ટ વાહનો અન્‍ય Search1",
+     "confidence": 0.8,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -9295,6 +11177,38 @@
     {
      "sourceId": "src:6b7dd4f0c210",
      "evidence": "જો નનયત સટીફીકેટ નહી ધરાવતા હોય તો અરજી પત્રક રદ કરવામાં આવશે .",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_certificate_for_knee_replacement__call_if__helpline_1800_233_1022",
+   "from": "service:certificate_for_knee_replacement",
+   "to": "helpline:1800_233_1022",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page provides toll-free contact for assistance.",
+   "sources": [
+    {
+     "sourceId": "src:09970aee86f9",
+     "evidence": "Toll Free : 1800-233-1022",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_certificate_for_knee_replacement__apply_at__portal_ma_gujarat_gov_in",
+   "from": "service:certificate_for_knee_replacement",
+   "to": "portal:ma_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ma.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:09970aee86f9",
+     "evidence": "Certificate For Knee Replacement Under MA & PMAJY",
      "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }

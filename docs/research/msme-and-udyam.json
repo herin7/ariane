@@ -196,6 +196,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:e1346f9389e4",
+   "url": "https://ic.gujarat.gov.in/dic-office.aspx",
+   "title": "DIC Office | IC",
+   "domain": "ic.gujarat.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "6fd294ef119b65fee4bbc9b709512a0ad7a9af61c303f173e054fcf8927d257f",
+   "cacheFile": ".ingest/pages/e1346f9389e424e6815e6e50ae6175e8d31df25b.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:d7ef3a2f3e92",
    "url": "https://ced.gujarat.gov.in/assets/downloads/gr-mis-10-03-2015-CH.pdf#page=2",
    "title": "gr-mis-10-03-2015-CH (page 2 of 5)",
@@ -253,6 +265,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "381f5a97809dbe6a8aeb075d102a0967c9f699c987ec6706589daf799d2cede8",
    "cacheFile": ".ingest/pages/c462f68c4585738b1d0b476f94698de80648aef9.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:ed6493195eca",
+   "url": "https://msmec.gujarat.gov.in/contactus",
+   "title": "Contact Us | MSME Gujarat",
+   "domain": "msmec.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "3747aff8c4acda44651ab4548775b730a248ef5c9953d92c2c124b5bc59e1058",
+   "cacheFile": ".ingest/pages/ed6493195eca24532437340dae7901af9d8b267c.md",
    "scrapedOk": true
   },
   {
@@ -1987,6 +2011,126 @@
    "confidence": 0.95
   },
   {
+   "claim": "The District Industries Centre (DIC) provides all services and support required by MSME units under one roof.",
+   "kind": "OFFICE",
+   "subject": "district_industries_centre",
+   "object": "msme_units",
+   "detail": {
+    "officeName": "District Industries Centre (DIC)"
+   },
+   "sourceId": "src:e1346f9389e4",
+   "evidence": "All the services and support required by for MSME units under the single roof of the District Industries Centre.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The General Manager is the head of the District Industries Centre (DIC) and is at the level of Joint / Deputy Commissioner.",
+   "kind": "OFFICE",
+   "subject": "district_industries_centre",
+   "object": "general_manager",
+   "detail": {
+    "officeName": "General Manager"
+   },
+   "sourceId": "src:e1346f9389e4",
+   "evidence": "General Manager is the head of the District Industries Centre. The post of General Manager is of Joint / Deputy Commissioner level.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The District Industrial Executive Committee (DIEC) is formed to solve industry-related problems and promote industrial growth, with the District Collector as its Chairman.",
+   "kind": "OFFICE",
+   "subject": "district_industrial_executive_committee",
+   "object": "district_collector",
+   "detail": {
+    "officeName": "District Industrial Executive Committee (DIEC)"
+   },
+   "sourceId": "src:e1346f9389e4",
+   "evidence": "DIEC is constituted for solving industry related problems And promoting industrtial growth. District Colector is the Chairman of this Committee",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The General Manager of the District Industries Centre (DIC) serves as the Member Secretary of the District Industrial Executive Committee (DIEC).",
+   "kind": "OFFICE",
+   "subject": "district_industrial_executive_committee",
+   "object": "general_manager",
+   "detail": {
+    "officeName": "General Manager"
+   },
+   "sourceId": "src:e1346f9389e4",
+   "evidence": "General Manager of DIC is the Member Secretary.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Single Window Industrial Follow up Team (SWIFT) helps entrepreneurs by guiding and solving their problems at a single spot.",
+   "kind": "OFFICE",
+   "subject": "single_window_industrial_follow_up_team",
+   "object": "entrepreneurs",
+   "detail": {
+    "officeName": "Single Window Industrial Follow up Team (SWIFT)"
+   },
+   "sourceId": "src:e1346f9389e4",
+   "evidence": "SWIFT helps them in guiding solving their problems at a single spot.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The General Manager of the District Industries Centre (DIC) serves as the Member Secretary of the Single Window Industrial Follow up Team (SWIFT).",
+   "kind": "OFFICE",
+   "subject": "single_window_industrial_follow_up_team",
+   "object": "general_manager",
+   "detail": {
+    "officeName": "General Manager"
+   },
+   "sourceId": "src:e1346f9389e4",
+   "evidence": "General Manager of DIC is the Member Secretary",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The District Development Officer is the Vice President of the Single Window Industrial Follow up Team (SWIFT).",
+   "kind": "OFFICE",
+   "subject": "single_window_industrial_follow_up_team",
+   "object": "district_development_officer",
+   "detail": {
+    "officeName": "District Development Officer"
+   },
+   "sourceId": "src:e1346f9389e4",
+   "evidence": "District Development Officer is Vice President of SWIFT.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The District Industries Centre (DIC) is located at Block No. 1, 2nd Floor, Udyog Bhavan, Gandhinagar 382 010, Gujarat, India.",
+   "kind": "OFFICE",
+   "subject": "district_industries_centre",
+   "object": "address",
+   "detail": {
+    "address": "Block No. 1, 2nd Floor, Udyog Bhavan, Gandhinagar 382 010. Gujarat. INDIA"
+   },
+   "sourceId": "src:e1346f9389e4",
+   "evidence": "Office of The Industries Commissionerate\nBlock No. 1, 2nd Floor, Udyog Bhavan,\nGandhinagar 382 010. Gujarat. INDIA",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The contact number for the Office of The Industries Commissionerate is 23252683/23252617.",
+   "kind": "HELPLINE",
+   "subject": "industries_commissionerate",
+   "object": "phone",
+   "detail": {
+    "phone": "23252683/23252617"
+   },
+   "sourceId": "src:e1346f9389e4",
+   "evidence": "Ph. : 23252683/23252617",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The email address for the Office of The Industries Commissionerate is iccord@gujarat.gov.in.",
+   "kind": "HELPLINE",
+   "subject": "industries_commissionerate",
+   "object": "email",
+   "detail": {
+    "email": "iccord@gujarat.gov.in"
+   },
+   "sourceId": "src:e1346f9389e4",
+   "evidence": "Email ID : iccord[at]gujarat[dot]gov[]in",
+   "confidence": 0.95
+  },
+  {
    "claim": "Private Developer refers to registered companies, industrial associations, individual industries, or groups of industries.",
    "kind": "ELIGIBILITY",
    "subject": "private_developer",
@@ -2451,6 +2595,66 @@
    "confidence": 1
   },
   {
+   "claim": "The MSME Commissioner's office is located at Block No. 1, 4th Floor, Udyog Bhavan, Gandhinagar 382 010, Gujarat, India.",
+   "kind": "OFFICE",
+   "subject": "msme_commissioner_office",
+   "object": "block_1_4th_floor_udayog_bhavan_gandhinagar",
+   "detail": {
+    "address": "Block No. 1, 4th Floor, Udyog Bhavan, Gandhinagar 382 010. Gujarat. INDIA"
+   },
+   "sourceId": "src:ed6493195eca",
+   "evidence": "Office of the MSME Coommissionerate, Block No. 1, 4th Floor, Udyog Bhavan, Gandhinagar 382 010. Gujarat. INDIA",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact number for the MSME-D Branch is 23258378.",
+   "kind": "HELPLINE",
+   "subject": "msme_d_branch",
+   "object": "23258378",
+   "detail": {
+    "phone": "23258378"
+   },
+   "sourceId": "src:ed6493195eca",
+   "evidence": "MSME-D Branch No. - 23258378 , LEGAL Expert No.-23258379",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact number for the Legal Expert is 23258379.",
+   "kind": "HELPLINE",
+   "subject": "legal_expert",
+   "object": "23258379",
+   "detail": {
+    "phone": "23258379"
+   },
+   "sourceId": "src:ed6493195eca",
+   "evidence": "MSME-D Branch No. - 23258378 , LEGAL Expert No.-23258379",
+   "confidence": 1
+  },
+  {
+   "claim": "The email address for the MSME Commissioner's office is comm-msme@gujarat.gov.in.",
+   "kind": "CHANNEL",
+   "subject": "msme_commissioner_office",
+   "object": "email",
+   "detail": {
+    "email": "comm-msme[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:ed6493195eca",
+   "evidence": "comm-msme[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The official website URL for the MSME Commissioner's office is https://msmec.gujarat.gov.in.",
+   "kind": "CHANNEL",
+   "subject": "msme_commissioner_office",
+   "object": "website",
+   "detail": {
+    "url": "https://msmec.gujarat.gov.in"
+   },
+   "sourceId": "src:ed6493195eca",
+   "evidence": "https://msmec.gujarat.gov.in",
+   "confidence": 1
+  },
+  {
    "claim": "Business registration information is collected every 3 months.",
    "kind": "TIMELINE",
    "subject": "business_registration",
@@ -2483,6 +2687,7 @@
   "ONDC Initiative for MSEs: https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/ONDC/MSME/Guidelines.pdf#page=15 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "MSME Special category award: https://ic.gujarat.gov.in/documents/commondoc/2025/MSME%20Special%20category%20award%20form.pdf#page=4 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "MSME Scheme for Up-scaling Enterprises: https://ced.gujarat.gov.in/assets/downloads/BASPGUIDELINES.pdf#page=4 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
-  "PMEGP scheme: https://champions.gov.in/MSME_Ministry_entrepreneurs/PMEGP_bank_loan_finance/old_existing_Schemes.htm lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page."
+  "PMEGP scheme: https://champions.gov.in/MSME_Ministry_entrepreneurs/PMEGP_bank_loan_finance/old_existing_Schemes.htm lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "District Industries Centre: no quotable requirement, fee or timeline survived, so no service node was written for it."
  ]
 }

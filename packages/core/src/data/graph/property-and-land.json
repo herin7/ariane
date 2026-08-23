@@ -22,6 +22,76 @@
    "contentHash": "82f029fa604bb0e71065655a8eb01366714cc04bcad74492b1672f11d7386235"
   },
   {
+   "id": "src:b28223f1098a",
+   "url": "https://garvi.gujarat.gov.in/",
+   "title": "Home | Garvi",
+   "domain": "garvi.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "bf47e4c54e8f980b718309eba3abb51b157842cd40e15f7aaa8067379c34e78c"
+  },
+  {
+   "id": "src:17fa5d9e6b48",
+   "url": "https://garvi.gujarat.gov.in/FrmViewUploadedScanDocumentsforCitizen_New.aspx",
+   "title": "Garvi",
+   "domain": "garvi.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "f234a9f78afd29edffaa5404b21debe3265b140a0278f3b32ca133052b2a89cf"
+  },
+  {
+   "id": "src:4b89c4b38ed9",
+   "url": "https://garvi.gujarat.gov.in/FrmViewAppointment_New.aspx",
+   "title": "Garvi",
+   "domain": "garvi.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "43d3d3179fae9d7563bccb347f3f49cad4960060340bd4b051f60e3c04ebd4d9"
+  },
+  {
+   "id": "src:9e79ead531ad",
+   "url": "https://garvi.gujarat.gov.in/Contactus_New.aspx",
+   "title": "Garvi",
+   "domain": "garvi.gujarat.gov.in",
+   "sourceType": "HELPLINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "6e0e365629c3703797f70076f122686716088a489a8334e0a51c2f5130725ae2"
+  },
+  {
+   "id": "src:69a5cfe257e5",
+   "url": "https://garvi.gujarat.gov.in/citizenapp/Registration/FrmCitizenLogin_New.aspx",
+   "title": "Garvi",
+   "domain": "garvi.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "b46a64300c5ad30f772c412736a947e5f706b60cd80d8e6d030a200f7d650078"
+  },
+  {
+   "id": "src:bb6ec79b6cc8",
+   "url": "https://garvi.gujarat.gov.in/ModelDraft.aspx",
+   "title": "Garvi",
+   "domain": "garvi.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "b7dc1f269be6626c201dde89994538ce2ac5d19c9e605f2f8e02db52c82d7213"
+  },
+  {
+   "id": "src:475740ce025b",
+   "url": "https://garvi.gujarat.gov.in/ViewJantri_New.aspx",
+   "title": "Garvi",
+   "domain": "garvi.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "cd3ad72e2df71bfc68b0b2f2f1003063c7c646e05d0abe956a282c45b37e091f"
+  },
+  {
    "id": "src:73a57c3a2874",
    "url": "https://garvi.gujarat.gov.in/frmIndex2_New.aspx",
    "title": "Garvi",
@@ -50,26 +120,6 @@
    "jurisdictionId": "IN-GJ-AHMEDABAD",
    "retrievedAt": "2026-08-23",
    "contentHash": "560bf55ce50856256c01393b71d1c90cb127c97883320537745994a7167e156d"
-  },
-  {
-   "id": "src:17fa5d9e6b48",
-   "url": "https://garvi.gujarat.gov.in/FrmViewUploadedScanDocumentsforCitizen_New.aspx",
-   "title": "Garvi",
-   "domain": "garvi.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "f234a9f78afd29edffaa5404b21debe3265b140a0278f3b32ca133052b2a89cf"
-  },
-  {
-   "id": "src:4b89c4b38ed9",
-   "url": "https://garvi.gujarat.gov.in/FrmViewAppointment_New.aspx",
-   "title": "Garvi",
-   "domain": "garvi.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "43d3d3179fae9d7563bccb347f3f49cad4960060340bd4b051f60e3c04ebd4d9"
   },
   {
    "id": "src:8576e6ac3622",
@@ -102,6 +152,36 @@
    "contentHash": "567d4630f1fbf9a3a5ae25cd6a6b3aae25ccc42fa567a514510d7a7ca4802a9e"
   },
   {
+   "id": "src:1c59c37f8298",
+   "url": "https://landrecords.gujarat.gov.in/",
+   "title": "સેટલમેન્ટ કમિશનર અને જમીન રેકર્ડ નિયામક",
+   "domain": "landrecords.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "bff271ba24a99f5011e0445c6450bd3e780d96b58719f1cb71843eb93d276414"
+  },
+  {
+   "id": "src:63cc0b03222e",
+   "url": "https://mcjamnagar.com/Services/Survey_Notice.aspx?SID=SER",
+   "title": "Jamnagar Municipal Corporation",
+   "domain": "mcjamnagar.com",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-JAMNAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "b4b2e5ff53f569e764bae2d85fe949d60e484a2280c904190ee97fa98c539644"
+  },
+  {
+   "id": "src:9fe2e97b9d97",
+   "url": "https://mcjamnagar.com/Services/Propertytax_bill.aspx?SID=SER",
+   "title": "Property Tax Bill",
+   "domain": "mcjamnagar.com",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-JAMNAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "3370dd489a59f21f8e2badd3a3d1e82b6d2bdab2a70dbebb92c015d6f5c29287"
+  },
+  {
    "id": "src:f822111ca37c",
    "url": "https://ahmedabad.gujarat.gov.in/legal",
    "title": "Legal | Branches | Collectorate - District Ahmedabad",
@@ -112,6 +192,17 @@
    "contentHash": "d4cdfccf00d2d17ec5e3035d3907c898b4db3c8f1af05eb07bec22009bb65665"
   },
   {
+   "id": "src:b051d72e5b23",
+   "url": "https://dilrmp.gov.in/dilrmpold/PhyscialComponent/mapDigitization/digitizedtehsilstatusreport/68",
+   "title": "map digitized tehsil status",
+   "domain": "dilrmp.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "91ce1b70cbe3401fa80d067b5c513d79f3bb6eec70e797652a819540c5b2ce37",
+   "tlsVerified": false
+  },
+  {
    "id": "src:4836e2cf4ed0",
    "url": "https://ahmedabad.gujarat.gov.in/nakal-application",
    "title": "નકલ માટેની અરજીઓ નિકાલ કરવા બાબત | Revenue | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
@@ -120,6 +211,26 @@
    "jurisdictionId": "IN-GJ-AHMEDABAD",
    "retrievedAt": "2026-08-23",
    "contentHash": "8f0e47687087cec73876b84e0c3ddaa2aad0763cf3e5654ef96077b1dfa93a3c"
+  },
+  {
+   "id": "src:66859eeeeb2b",
+   "url": "https://garvi.gujarat.gov.in/FrmWhatsNew_New.aspx",
+   "title": "Garvi",
+   "domain": "garvi.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "0f8c6863cf33f65576aa77d96b68b885cc8ade655cd7e24e13765ffa51bb2557"
+  },
+  {
+   "id": "src:4e7524970b8d",
+   "url": "https://mcjamnagar.com/Home.aspx",
+   "title": "Jamnagar Municipal Corporation",
+   "domain": "mcjamnagar.com",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-JAMNAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "23e4782357502f2ced805bd5f3e89ed57366e28caaaa545dc23c9bb5433cdcc5"
   },
   {
    "id": "src:b711a8fe0826",
@@ -162,6 +273,16 @@
    "contentHash": "1521c053e2f7b25da5f7d6843ab63dd6979f6161618458cf4c856c31ebe82c72"
   },
   {
+   "id": "src:4f0533ae601d",
+   "url": "https://revenueappeals.gujarat.gov.in/",
+   "title": "મુખ્ય પૃષ્ઠ | ખાસ સચિવશ્રી મહેસૂલ વિભાગ",
+   "domain": "revenueappeals.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "3f7da6556e9e331f0942db8fa72014f2e51521b8656d69b924aed8e2f2002eef"
+  },
+  {
    "id": "src:c009bc2c7448",
    "url": "https://ircms.gujarat.gov.in/downloads",
    "title": "iRCMS-eFiling : File Case",
@@ -170,6 +291,16 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "6fdad6bea7cf147f2a177f83188cc811f7ff21f01e0b2428a6a00e873b973c64"
+  },
+  {
+   "id": "src:15c0077c7bf7",
+   "url": "https://e-milkat.gujarat.gov.in/ContactUs_CommOffice.aspx",
+   "title": "e-Milkat-189",
+   "domain": "e-milkat.gujarat.gov.in",
+   "sourceType": "HELPLINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "93558a0a8a73a5a2df7f91404d9c4c399192d248c97558b3ce4dfc612f788ba8"
   },
   {
    "id": "src:960f5b2acadf",
@@ -377,6 +508,81 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "office:stamp_registration_bhavan",
+   "type": "OFFICE",
+   "name": "Stamp_registration_bhavan",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Stamp & Registration Bhavan, KH-5, Sector-14, Gandhinagar, Gujarat - 382016"
+   },
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Stamp & Registration Bhavan KH-5, Sector-14, Gandhinagar, Gujarat - 382016",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:079_23288575",
+   "type": "HELPLINE",
+   "name": "Garvi helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "(079) 23288575"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Phone: (079) 23288575",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:079_23277200",
+   "type": "HELPLINE",
+   "name": "Garvi helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "(079) 23277200"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Help Desk: (079) 23277200",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "grievance:garvi",
+   "type": "GRIEVANCE_CHANNEL",
+   "name": "Grievances about garvi",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "GRIEVANCE_PORTAL"
+   },
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "helpdesk-igr[at]gujarat[dot]gov[dot]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "office:contact_info",
    "type": "OFFICE",
    "name": "Contact_info",
@@ -390,9 +596,198 @@
    },
    "sources": [
     {
-     "sourceId": "src:73a57c3a2874",
-     "evidence": "Contact Info\nStamp & Registration Bhavan\nKH-5, Sector-14,\nGandhinagar, Gujarat - 382016\nPhone:\n(079) 23288575",
+     "sourceId": "src:4b89c4b38ed9",
+     "evidence": "Contact Info Stamp & Registration Bhavan KH-5, Sector-14, Gandhinagar, Gujarat - 382016 Phone: (079) 23288575",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:07923277200",
+   "type": "HELPLINE",
+   "name": "Garvi helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "07923277200"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:9e79ead531ad",
+     "evidence": "Garvi Help Desk\nFor all Garvi-related issues and queries\n📞\n07923277200\n✉️\nhelpdesk-igr[at]gujarat[dot]gov[dot]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:07923288264",
+   "type": "HELPLINE",
+   "name": "Garvi helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "07923288264"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:9e79ead531ad",
+     "evidence": "Refund Branch\nFor refund-related issues and queries\n📞\n07923288264\n✉️\nstamps-refund[at]gujarat[dot]gov[dot]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:07923256342",
+   "type": "HELPLINE",
+   "name": "Garvi helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "07923256342"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:9e79ead531ad",
+     "evidence": "EDP Cell\nFor Cyber Treasury payment issues\n📞\n07923256342\n✉️\nedpcell-dat[at]gujarat[dot]gov[dot]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "office:igr_department",
+   "type": "OFFICE",
+   "name": "IGR Department",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Government of Gujarat"
+   },
+   "sources": [
+    {
+     "sourceId": "src:475740ce025b",
+     "evidence": "Website Content Managed by IGR Department, Government of Gujarat Designed, Developed and Hosted by National Informatics Centre ( NIC )",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:garvi",
+   "type": "SERVICE",
+   "name": "Garvi",
+   "officialName": "Garvi",
+   "aliases": [
+    "garvi portal",
+    "automation of administration of registration, valuation & indexing in gujarat",
+    "garvi",
+    "garvi 2.0",
+    "garvi (automation of administration of registration, valuation & indexing in gujarat)"
+   ],
+   "description": "The Garvi portal provides online services for the registration of documents, payment of Stamp Duty and Registration Fee, and property-related information.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Garvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides the services to the citizen to submit the details regarding the document for registration of Document and online facility to pay the Stamp Duty and Registration Fee.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Online facility of P.D.E (Public Data Entry) using which party can submit the details (Party Names, Property Details, Stamp Duty paid etc.) regarding the document to Sub Registrar Office for registration of Document.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "E-Payment System is facility to provide online pay the Stamp Duty and Registration Fee.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Online Facility of Appointment Scheduler to provide available time slot for Registration Document to the parties.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Application provide facility to search property, get index2copy & document copy and find Jantri rate.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Online Facility of Information regarding Rate of Stamp Duty and Registration Fees and find Approximate Market Value of the property.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Online service for purchasing stamp papers. Get digital stamps with secure online payment.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Property Valuation Calculate property rates and valuation. Get jantri rates and location-based information.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Slot Availability Check available time slots for registration. Select your preferred date and time easily.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:17fa5d9e6b48",
+     "evidence": "Enter Mobile No(મોબાઇલ નંબર દાખલ કરો) :",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:17fa5d9e6b48",
+     "evidence": "Wait till Verification Code Receive In Your Mobile No.(તમારા મોબાઇલ નંબર પર ચકાસણી કોડ પ્રાપ્ત ન થાય ત્યાં સુધી રાહ જુઓ).",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:17fa5d9e6b48",
+     "evidence": "Enter Document Number (દસ્તાવેજ નંબર દાખલ કરો) :",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:garvi_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "garvi.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://garvi.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Garvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides the services to the citizen to submit the details regarding the document for registration of Document and online facility to pay the Stamp Duty and Registration Fee.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -458,24 +853,6 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "portal:garvi_gujarat_gov_in",
-   "type": "PORTAL",
-   "name": "garvi.gujarat.gov.in",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "WEB",
-    "url": "https://garvi.gujarat.gov.in/"
-   },
-   "sources": [
-    {
-     "sourceId": "src:73a57c3a2874",
-     "evidence": "District (જીલ્લો પસંદ કરો) :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
   },
   {
    "id": "helpline:1800_233_0131",
@@ -652,96 +1029,6 @@
      "sourceId": "src:2bd753e1b32d",
      "evidence": "રેશનકાર્ડની નકલ",
      "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "service:garvi",
-   "type": "SERVICE",
-   "name": "Garvi",
-   "officialName": "Garvi",
-   "aliases": [
-    "garvi",
-    "garvi 2.0"
-   ],
-   "description": "A service for citizens to view uploaded documents by entering details such as mobile number, document number, district, and sub-registrar office.",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "machineExtracted": true
-   },
-   "sources": [
-    {
-     "sourceId": "src:17fa5d9e6b48",
-     "evidence": "Enter Mobile No(મોબાઇલ નંબર દાખલ કરો) :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:17fa5d9e6b48",
-     "evidence": "Wait till Verification Code Receive In Your Mobile No.(તમારા મોબાઇલ નંબર પર ચકાસણી કોડ પ્રાપ્ત ન થાય ત્યાં સુધી રાહ જુઓ).",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:17fa5d9e6b48",
-     "evidence": "Enter Document Number (દસ્તાવેજ નંબર દાખલ કરો) :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:17fa5d9e6b48",
-     "evidence": "District (જીલ્લો પસંદ કરો) :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:17fa5d9e6b48",
-     "evidence": "Document Year (દસ્તાવેજ વર્ષ પસંદ કરો) :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:17fa5d9e6b48",
-     "evidence": "Sub-Registrar Office (સબ-રજીસ્ટ્રાર ઓફીસ પસંદ કરો) :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:17fa5d9e6b48",
-     "evidence": "Enter Party Name(દસ્તાવેજ રજુ કરનારનુ નામ) :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:17fa5d9e6b48",
-     "evidence": "*Only Alphabets and space.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:17fa5d9e6b48",
-     "evidence": "Use NIC's SANDES messaging mobile app for getting Alert/OTP SMSes related to your login from Garvi Portal.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:17fa5d9e6b48",
-     "evidence": "Click to get \"Android Play Store\" or \"iOS App Store\" links.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:17fa5d9e6b48",
-     "evidence": "કોમ્પ્યુટર પ્રિન્ટ ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:4b89c4b38ed9",
-     "evidence": "District (જીલ્લો પસંદ કરો) : ---Select District--- AHMEDABAD AMRELI ANAND ARVALLI BANASKANTHA BHARUCH BHAVNAGAR BOTAD CHHOTAUDEPUR DAHOD DANG DEV BHUMI-DWARKA GANDHINAGAR GIR SOMNATH JAMNAGAR JUNAGADH KACHCHH KHEDA MAHESANA MAHISAGAR MORBI NARMADA NAVSARI PANCHMAHAL PATAN PORBANDAR RAJKOT SABARKANTHA SURAT SURENDRANAGAR TAPI VADODARA VALSAD VAV-THARAD",
-     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -985,6 +1272,111 @@
    ]
   },
   {
+   "id": "service:assessment_notice",
+   "type": "SERVICE",
+   "name": "Assessment Notice",
+   "officialName": "assessment notice",
+   "description": "A citizen can download or search for an assessment notice from the Jamnagar Municipal Corporation.",
+   "jurisdictionId": "IN-GJ-JAMNAGAR",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:63cc0b03222e",
+     "evidence": "Download Assessment Notice for the year 2018-22",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:63cc0b03222e",
+     "evidence": "Download Assessment Notice for the year 2023-27",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:63cc0b03222e",
+     "evidence": "Download Assessment Notice",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:63cc0b03222e",
+     "evidence": "Search Assessment Notice",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "grievance:property_tax_bill",
+   "type": "GRIEVANCE_CHANNEL",
+   "name": "Grievances about property tax bill",
+   "jurisdictionId": "IN-GJ-JAMNAGAR",
+   "metadata": {
+    "channelType": "GRIEVANCE_PORTAL"
+   },
+   "sources": [
+    {
+     "sourceId": "src:9fe2e97b9d97",
+     "evidence": "For Feedback and Email : feedback.jmc@gmail.com",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:property_tax_bill",
+   "type": "SERVICE",
+   "name": "Property Tax Bill",
+   "officialName": "Property Tax Bill",
+   "description": "A citizen can download property tax bills, receipts, and assessment notices, and calculate property tax online through the Jamnagar Municipal Corporation website.",
+   "jurisdictionId": "IN-GJ-JAMNAGAR",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:9fe2e97b9d97",
+     "evidence": "Property Tax Bill Download",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9fe2e97b9d97",
+     "evidence": "Property Tax Calculator",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9fe2e97b9d97",
+     "evidence": "Search Assessment No",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9fe2e97b9d97",
+     "evidence": "Property Tax Receipt",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9fe2e97b9d97",
+     "evidence": "Property Tax OLD Bill Download",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9fe2e97b9d97",
+     "evidence": "Download Assessment Notice for the year 2018-22\nDownload Assessment Notice for the year 2023-27",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
    "id": "document:certified_copy_lower_court_order",
    "type": "DOCUMENT",
    "name": "Certified copy lower court order",
@@ -1041,6 +1433,44 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "office:department_of_land_resources",
+   "type": "OFFICE",
+   "name": "Department_of_land_resources",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "NBO Building, G-Wings, Nirman Bhawan, Maulana Azad Road, New Delhi-110011"
+   },
+   "sources": [
+    {
+     "sourceId": "src:b051d72e5b23",
+     "evidence": "Department of Land Resources Ministry of Rural Development NBO Building,G-Wings, Nirman Bhawan Maulana Azad Road, New Delhi-110011",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:011_23063224",
+   "type": "HELPLINE",
+   "name": "Map Digitized Tehsil Status Helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "011-23063224"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:b051d72e5b23",
+     "evidence": "Phone-011-23063224,",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "document:deposit_proof_copy",
    "type": "DOCUMENT",
    "name": "Deposit proof copy",
@@ -1084,6 +1514,43 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:garvi_2_0",
+   "type": "SERVICE",
+   "name": "GARVI 2.0",
+   "officialName": "GARVI 2.0",
+   "description": "GARVI 2.0 is a web-based application that provides services related to the automation of registration, valuation, and indexing in Gujarat.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:66859eeeeb2b",
+     "evidence": "GARVI 2.0\nIGR Department\nGovernment of Gujarat\nGarvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides services to citizens to submit document details for registration and online facility to pay Stamp Duty and Registration Fee.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "grievance:jamnagar_municipal_corporation",
+   "type": "GRIEVANCE_CHANNEL",
+   "name": "Grievances about jamnagar municipal corporation",
+   "jurisdictionId": "IN-GJ-JAMNAGAR",
+   "metadata": {
+    "channelType": "GRIEVANCE_PORTAL"
+   },
+   "sources": [
+    {
+     "sourceId": "src:4e7524970b8d",
+     "evidence": "Email : mcjamnagar@gmail.com\nFor Feedback and Email : feedback.jmc@gmail.com",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
   },
   {
    "id": "document:proof_of_deposit",
@@ -1326,6 +1793,48 @@
    ]
   },
   {
+   "id": "service:special_secretary_dispute_office",
+   "type": "SERVICE",
+   "name": "Special Secretary (Dispute) Office",
+   "officialName": "Special Secretary (Dispute) Office",
+   "aliases": [
+    "ખાસ સચિવ મહેસુલ વિભાગ(વિવાદ)",
+    "સરદાર વલ્લભભાઈ પટેલ મહેસૂલી અપીલ અને રિવીઝન ભવન"
+   ],
+   "description": "The office handles appeals and revisions against orders/decisions made by revenue officers at the district level.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:4f0533ae601d",
+     "evidence": "જીલ્લા કક્ષાએ મહેસુલી અધિકારીઓ દ્વારા કરવામાં આવેલ હુકમો/નિર્ણયો સામે કાયદાકીય રીતે આ કચેરી અપીલ/રિવિઝનનું કામ કરે છે.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:revenueappeals_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "revenueappeals.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://revenueappeals.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:4f0533ae601d",
+     "evidence": "જીલ્લા કક્ષાએ મહેસુલી અધિકારીઓ દ્વારા કરવામાં આવેલ હુકમો/નિર્ણયો સામે કાયદાકીય રીતે આ કચેરી અપીલ/રિવિઝનનું કામ કરે છે.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "document:checklist_declaration",
    "type": "DOCUMENT",
    "name": "Checklist declaration",
@@ -1386,6 +1895,46 @@
      "sourceId": "src:c009bc2c7448",
      "evidence": "સ્ટેમ્પ ડ્યુટી સંબંધિત કેસો (Filed Under Sec-31 અને Sec-33) - Process Flow",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:079_23256895_96_98_99",
+   "type": "HELPLINE",
+   "name": "e-Milkat helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "079-23256895/96/98/99"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:15c0077c7bf7",
+     "evidence": "ફોન : ૦૭૯ - ૨૩૨૫૬૮૯૫/૯૬/૯૮/૯૯",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:23257644",
+   "type": "HELPLINE",
+   "name": "e-Milkat helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "23257644"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:15c0077c7bf7",
+     "evidence": "ફેક્સ : ૨૩૨૫૭૬૪૪",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -1509,6 +2058,166 @@
     {
      "sourceId": "src:3203b82bd43a",
      "evidence": "Application for allotment of properties in GIDC estates is accepted online.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi__visit_at__office_stamp_registration_bhavan",
+   "from": "service:garvi",
+   "to": "office:stamp_registration_bhavan",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The contact information for the IGR Department is Stamp & Registration Bhavan, KH-5, Sector-14, Gandhinagar, Gujarat - 382016.",
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Stamp & Registration Bhavan KH-5, Sector-14, Gandhinagar, Gujarat - 382016",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi__call_if__helpline_079_23288575",
+   "from": "service:garvi",
+   "to": "helpline:079_23288575",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The contact phone number for the IGR Department is (079) 23288575.",
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Phone: (079) 23288575",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi__call_if__helpline_079_23277200",
+   "from": "service:garvi",
+   "to": "helpline:079_23277200",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The help desk contact number for the Garvi portal is (079) 23277200.",
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Help Desk: (079) 23277200",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi__escalate_to__grievance_garvi",
+   "from": "service:garvi",
+   "to": "grievance:garvi",
+   "type": "ESCALATE_TO",
+   "verificationStatus": "EXTRACTED",
+   "note": "The help desk email for the Garvi portal is helpdesk-igr[at]gujarat[dot]gov[dot]in.",
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "helpdesk-igr[at]gujarat[dot]gov[dot]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi__visit_at__office_contact_info",
+   "from": "service:garvi",
+   "to": "office:contact_info",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The contact information for the GARVI 2.0 website is at Stamp & Registration Bhavan, KH-5, Sector-14, Gandhinagar, Gujarat - 382016.",
+   "sources": [
+    {
+     "sourceId": "src:4b89c4b38ed9",
+     "evidence": "Contact Info Stamp & Registration Bhavan KH-5, Sector-14, Gandhinagar, Gujarat - 382016 Phone: (079) 23288575",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi__call_if__helpline_07923277200",
+   "from": "service:garvi",
+   "to": "helpline:07923277200",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Garvi Help Desk can be contacted at phone number 07923277200 for all Garvi-related issues and queries.",
+   "sources": [
+    {
+     "sourceId": "src:9e79ead531ad",
+     "evidence": "Garvi Help Desk\nFor all Garvi-related issues and queries\n📞\n07923277200\n✉️\nhelpdesk-igr[at]gujarat[dot]gov[dot]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi__call_if__helpline_07923288264",
+   "from": "service:garvi",
+   "to": "helpline:07923288264",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Refund Branch can be contacted at phone number 07923288264 for refund-related issues and queries.",
+   "sources": [
+    {
+     "sourceId": "src:9e79ead531ad",
+     "evidence": "Refund Branch\nFor refund-related issues and queries\n📞\n07923288264\n✉️\nstamps-refund[at]gujarat[dot]gov[dot]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi__call_if__helpline_07923256342",
+   "from": "service:garvi",
+   "to": "helpline:07923256342",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The EDP Cell can be contacted at phone number 07923256342 for Cyber Treasury payment issues.",
+   "sources": [
+    {
+     "sourceId": "src:9e79ead531ad",
+     "evidence": "EDP Cell\nFor Cyber Treasury payment issues\n📞\n07923256342\n✉️\nedpcell-dat[at]gujarat[dot]gov[dot]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi__visit_at__office_igr_department",
+   "from": "service:garvi",
+   "to": "office:igr_department",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The GARVI 2.0 application is managed by the IGR Department of the Government of Gujarat.",
+   "sources": [
+    {
+     "sourceId": "src:475740ce025b",
+     "evidence": "Website Content Managed by IGR Department, Government of Gujarat Designed, Developed and Hosted by National Informatics Centre ( NIC )",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi__apply_at__portal_garvi_gujarat_gov_in",
+   "from": "service:garvi",
+   "to": "portal:garvi_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on garvi.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Garvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides the services to the citizen to submit the details regarding the document for registration of Document and online facility to pay the Stamp Duty and Registration Fee.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -1659,38 +2368,6 @@
    ]
   },
   {
-   "id": "e:service_garvi__visit_at__office_contact_info",
-   "from": "service:garvi",
-   "to": "office:contact_info",
-   "type": "VISIT_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "The contact information for the GARVI 2.0 website is at Stamp & Registration Bhavan, KH-5, Sector-14, Gandhinagar, Gujarat - 382016.",
-   "sources": [
-    {
-     "sourceId": "src:4b89c4b38ed9",
-     "evidence": "Contact Info Stamp & Registration Bhavan KH-5, Sector-14, Gandhinagar, Gujarat - 382016 Phone: (079) 23288575",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_garvi__apply_at__portal_garvi_gujarat_gov_in",
-   "from": "service:garvi",
-   "to": "portal:garvi_gujarat_gov_in",
-   "type": "APPLY_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "Published on garvi.gujarat.gov.in.",
-   "sources": [
-    {
-     "sourceId": "src:17fa5d9e6b48",
-     "evidence": "Enter Mobile No(મોબાઇલ નંબર દાખલ કરો) :",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "e:service_plot_or_shed_allotment__apply_at__portal_ced_gujarat_gov_in",
    "from": "service:plot_or_shed_allotment",
    "to": "portal:ced_gujarat_gov_in",
@@ -1766,6 +2443,70 @@
      "sourceId": "src:b29f2940bcec",
      "evidence": "અરજદારનું નામ *",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_assessment_notice__apply_at__portal_mcjamnagar_com",
+   "from": "service:assessment_notice",
+   "to": "portal:mcjamnagar_com",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on mcjamnagar.com.",
+   "sources": [
+    {
+     "sourceId": "src:63cc0b03222e",
+     "evidence": "Download Assessment Notice for the year 2018-22",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_property_tax_bill__visit_at__office_jamnagar_municipal_corporation",
+   "from": "service:property_tax_bill",
+   "to": "office:jamnagar_municipal_corporation",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "A citizen can contact the Jamnagar Municipal Corporation by phone at (0288) - 2550231 - 235 or via email at mcjamnagar@gmail.com.",
+   "sources": [
+    {
+     "sourceId": "src:9fe2e97b9d97",
+     "evidence": "Address:\nJamnagar Municipal Corporation,\nJubilee Garden, Jamnagar |\nPhone:\n(0288) - 2550231 - 235\nToll Free: 1800 233 0131\nEmail : mcjamnagar@gmail.com",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_property_tax_bill__escalate_to__grievance_property_tax_bill",
+   "from": "service:property_tax_bill",
+   "to": "grievance:property_tax_bill",
+   "type": "ESCALATE_TO",
+   "verificationStatus": "EXTRACTED",
+   "note": "A citizen can provide feedback or send emails to the Jamnagar Municipal Corporation at feedback.jmc@gmail.com.",
+   "sources": [
+    {
+     "sourceId": "src:9fe2e97b9d97",
+     "evidence": "For Feedback and Email : feedback.jmc@gmail.com",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_property_tax_bill__apply_at__portal_mcjamnagar_com",
+   "from": "service:property_tax_bill",
+   "to": "portal:mcjamnagar_com",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on mcjamnagar.com.",
+   "sources": [
+    {
+     "sourceId": "src:9fe2e97b9d97",
+     "evidence": "Property Tax Bill Download",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -1894,6 +2635,54 @@
      "sourceId": "src:4836e2cf4ed0",
      "evidence": "8:30 A.M To 5:30 P.M",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi_2_0__call_if__helpline_079_23277200",
+   "from": "service:garvi_2_0",
+   "to": "helpline:079_23277200",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The citizen must know the helpline number for assistance.",
+   "sources": [
+    {
+     "sourceId": "src:66859eeeeb2b",
+     "evidence": "Help Desk:\n(079) 23277200\nhelpdesk-igr[at]gujarat[dot]gov[dot]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi_2_0__visit_at__office_stamp_registration_bhavan",
+   "from": "service:garvi_2_0",
+   "to": "office:stamp_registration_bhavan",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The citizen must know the address of the Stamp & Registration Bhavan.",
+   "sources": [
+    {
+     "sourceId": "src:66859eeeeb2b",
+     "evidence": "Stamp & Registration Bhavan\nKH-5, Sector-14,\nGandhinagar, Gujarat - 382016",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi_2_0__apply_at__portal_garvi_gujarat_gov_in",
+   "from": "service:garvi_2_0",
+   "to": "portal:garvi_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on garvi.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:66859eeeeb2b",
+     "evidence": "GARVI 2.0\nIGR Department\nGovernment of Gujarat\nGarvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides services to citizens to submit document details for registration and online facility to pay Stamp Duty and Registration Fee.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -2086,6 +2875,22 @@
      "sourceId": "src:05fe99b18fe2",
      "evidence": "With regard to the documents specified in the Constitution of India Seventh Schedule Entry No. 91 (A bill of exchange, cheque, promissory note, bill of lading, letter of credit, policy of insurance, transfer of share, debenture, proxy and receipt) other then the same the State Government is bound to amend the Stamp and Stamp Duty Act.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_special_secretary_dispute_office__apply_at__portal_revenueappeals_gujarat_gov_in",
+   "from": "service:special_secretary_dispute_office",
+   "to": "portal:revenueappeals_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on revenueappeals.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:4f0533ae601d",
+     "evidence": "જીલ્લા કક્ષાએ મહેસુલી અધિકારીઓ દ્વારા કરવામાં આવેલ હુકમો/નિર્ણયો સામે કાયદાકીય રીતે આ કચેરી અપીલ/રિવિઝનનું કામ કરે છે.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]

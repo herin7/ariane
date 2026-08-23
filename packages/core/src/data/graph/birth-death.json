@@ -1,0 +1,315 @@
+{
+ "id": "birth-death",
+ "sources": [
+  {
+   "id": "src:1cc4a3d9a83b",
+   "url": "https://gandhinagarmunicipal.com/mp_info_post/birth-death-certificate",
+   "title": "Birth & Death Certificate – Gandhinagar Municipal Corporation",
+   "domain": "gandhinagarmunicipal.com",
+   "sourceType": "HELPLINE",
+   "jurisdictionId": "IN-GJ-GANDHINAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "0ba38ae8bba977acd79cf4fabf5ed932e89796b4a74382f24a788e689b1a00b2"
+  },
+  {
+   "id": "src:8915c5e8100c",
+   "url": "https://suratmunicipal.gov.in/OnlineServices/DeathCertificate/Enroll",
+   "title": "Enroll Death Certificate - Virtual Civic Center (Online Services) :: Surat Municipal Corporation",
+   "domain": "suratmunicipal.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "365c8f1ca9d9e386c46fae6adcd9fac3f9587b45141f3dd1698e4fab985f98da"
+  },
+  {
+   "id": "src:0f952f9e3227",
+   "url": "https://www.mea.gov.in/birth-certificate",
+   "title": "Birth Certificate | Ministry of External Affairs , Government of India",
+   "domain": "mea.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "8b11c48a1f2fd96935a282a9ec7eef84d55bdd63168605694fd62d5087062e05"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "helpline:18001081818",
+   "type": "HELPLINE",
+   "name": "Birth & Death Certificate helpline",
+   "jurisdictionId": "IN-GJ-GANDHINAGAR",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "18001081818"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:1cc4a3d9a83b",
+     "evidence": "Toll Free - 18001081818",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:079_23284150",
+   "type": "HELPLINE",
+   "name": "Birth & Death Certificate helpline",
+   "jurisdictionId": "IN-GJ-GANDHINAGAR",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "(079) 23284150"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:1cc4a3d9a83b",
+     "evidence": "Phone No. - (079) 23284150",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:birth_death_certificate",
+   "type": "SERVICE",
+   "name": "Birth & Death Certificate",
+   "officialName": "Birth & Death Certificate",
+   "description": "The Gandhinagar Municipal Corporation provides services for Birth & Death Certificates.",
+   "jurisdictionId": "IN-GJ-GANDHINAGAR",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:1cc4a3d9a83b",
+     "evidence": "Birth & Death Certificate – Gandhinagar Municipal Corporation",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:gandhinagarmunicipal_com",
+   "type": "PORTAL",
+   "name": "gandhinagarmunicipal.com",
+   "jurisdictionId": "IN-GJ-GANDHINAGAR",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://gandhinagarmunicipal.com/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:1cc4a3d9a83b",
+     "evidence": "Birth & Death Certificate – Gandhinagar Municipal Corporation",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "portal:eolakh_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "eolakh.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://eolakh.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:8915c5e8100c",
+     "evidence": "Surat Municipal Corporation is using Government of Gujarat's eOlakh Application ( https://eolakh.gujarat.gov.in/ ) for death registration from 01/04/2020, hence online death certificate for death registered on or after this date will not be available.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:death_certificate",
+   "type": "SERVICE",
+   "name": "Death Certificate",
+   "officialName": "Death Certificate",
+   "description": "Registration of death through the Government of Gujarat's eOlakh Application.",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:8915c5e8100c",
+     "evidence": "Surat Municipal Corporation is using Government of Gujarat's eOlakh Application ( https://eolakh.gujarat.gov.in/ ) for death registration from 01/04/2020, hence online death certificate for death registered on or after this date will not be available.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:suratmunicipal_gov_in",
+   "type": "PORTAL",
+   "name": "suratmunicipal.gov.in",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://suratmunicipal.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:8915c5e8100c",
+     "evidence": "Surat Municipal Corporation is using Government of Gujarat's eOlakh Application ( https://eolakh.gujarat.gov.in/ ) for death registration from 01/04/2020, hence online death certificate for death registered on or after this date will not be available.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:birth_certificate",
+   "type": "SERVICE",
+   "name": "Birth Certificate",
+   "officialName": "birth certificate",
+   "description": "Registering a child's birth for Indian citizenship when born to Indian parents abroad, or attesting a birth certificate issued by Indian authorities.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:0f952f9e3227",
+     "evidence": "In order to get Indian citizenship for a child born to Indian parent(s) in a foreign country, the birth of the child is to be registered at the nearest Indian Embassy/Consulate and thereafter (or at the same time) the parents can apply for issue of an Indian passport for the child.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0f952f9e3227",
+     "evidence": "Yes, provided the birth certificate issued by the competent authorities has been authenticated by the Home Department of the concerned State/Union Territory in India and then by the Attestation Section of the Ministry of External Affairs (MEA), New Delhi or the MEA Branch Secretariats in Chennai, Hyderabad, Kolkata and Guwahati.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:mea_gov_in",
+   "type": "PORTAL",
+   "name": "mea.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://mea.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:0f952f9e3227",
+     "evidence": "In order to get Indian citizenship for a child born to Indian parent(s) in a foreign country, the birth of the child is to be registered at the nearest Indian Embassy/Consulate and thereafter (or at the same time) the parents can apply for issue of an Indian passport for the child.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "id": "e:service_birth_death_certificate__call_if__helpline_18001081818",
+   "from": "service:birth_death_certificate",
+   "to": "helpline:18001081818",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gandhinagar Municipal Corporation can be contacted via a toll-free number for Birth & Death Certificate services.",
+   "sources": [
+    {
+     "sourceId": "src:1cc4a3d9a83b",
+     "evidence": "Toll Free - 18001081818",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_birth_death_certificate__call_if__helpline_079_23284150",
+   "from": "service:birth_death_certificate",
+   "to": "helpline:079_23284150",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gandhinagar Municipal Corporation can be contacted via a direct phone number for Birth & Death Certificate services.",
+   "sources": [
+    {
+     "sourceId": "src:1cc4a3d9a83b",
+     "evidence": "Phone No. - (079) 23284150",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_birth_death_certificate__apply_at__portal_gandhinagarmunicipal_com",
+   "from": "service:birth_death_certificate",
+   "to": "portal:gandhinagarmunicipal_com",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on gandhinagarmunicipal.com.",
+   "sources": [
+    {
+     "sourceId": "src:1cc4a3d9a83b",
+     "evidence": "Birth & Death Certificate – Gandhinagar Municipal Corporation",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_death_certificate__apply_at__portal_eolakh_gujarat_gov_in",
+   "from": "service:death_certificate",
+   "to": "portal:eolakh_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Death registration in Surat Municipal Corporation is done through the Government of Gujarat's eOlakh Application since April 1, 2020.",
+   "sources": [
+    {
+     "sourceId": "src:8915c5e8100c",
+     "evidence": "Surat Municipal Corporation is using Government of Gujarat's eOlakh Application ( https://eolakh.gujarat.gov.in/ ) for death registration from 01/04/2020, hence online death certificate for death registered on or after this date will not be available.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_death_certificate__apply_at__portal_suratmunicipal_gov_in",
+   "from": "service:death_certificate",
+   "to": "portal:suratmunicipal_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on suratmunicipal.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:8915c5e8100c",
+     "evidence": "Surat Municipal Corporation is using Government of Gujarat's eOlakh Application ( https://eolakh.gujarat.gov.in/ ) for death registration from 01/04/2020, hence online death certificate for death registered on or after this date will not be available.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_birth_certificate__apply_at__portal_mea_gov_in",
+   "from": "service:birth_certificate",
+   "to": "portal:mea_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on mea.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:0f952f9e3227",
+     "evidence": "In order to get Indian citizenship for a child born to Indian parent(s) in a foreign country, the birth of the child is to be registered at the nearest Indian Embassy/Consulate and thereafter (or at the same time) the parents can apply for issue of an Indian passport for the child.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  }
+ ],
+ "requirementGroups": [],
+ "questions": []
+}

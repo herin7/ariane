@@ -162,6 +162,16 @@
    "contentHash": "6558dba102f39ebf872f0a67567e5f2e322e573b604eef85e5ec686ab55af77b"
   },
   {
+   "id": "src:e1346f9389e4",
+   "url": "https://ic.gujarat.gov.in/dic-office.aspx",
+   "title": "DIC Office | IC",
+   "domain": "ic.gujarat.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "6fd294ef119b65fee4bbc9b709512a0ad7a9af61c303f173e054fcf8927d257f"
+  },
+  {
    "id": "src:d7ef3a2f3e92",
    "url": "https://ced.gujarat.gov.in/assets/downloads/gr-mis-10-03-2015-CH.pdf#page=2",
    "title": "gr-mis-10-03-2015-CH (page 2 of 5)",
@@ -210,6 +220,16 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "381f5a97809dbe6a8aeb075d102a0967c9f699c987ec6706589daf799d2cede8"
+  },
+  {
+   "id": "src:ed6493195eca",
+   "url": "https://msmec.gujarat.gov.in/contactus",
+   "title": "Contact Us | MSME Gujarat",
+   "domain": "msmec.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "3747aff8c4acda44651ab4548775b730a248ef5c9953d92c2c124b5bc59e1058"
   },
   {
    "id": "src:fef9370769e6",
@@ -1278,6 +1298,26 @@
    ]
   },
   {
+   "id": "helpline:23252683_23252617",
+   "type": "HELPLINE",
+   "name": "District Industries Centre helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "23252683/23252617"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:e1346f9389e4",
+     "evidence": "Ph. : 23252683/23252617",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "service:scheme_l",
    "type": "SERVICE",
    "name": "Scheme-l",
@@ -1573,6 +1613,108 @@
     {
      "sourceId": "src:c462f68c4585",
      "evidence": "12.7. The total amount of assistance shall not exceed 50% of total eligible project cost in case of assistance claimed from both central & state Government.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "office:block_1_4th_floor_udayog_bhavan_gandhinagar",
+   "type": "OFFICE",
+   "name": "Block_1_4th_floor_udayog_bhavan_gandhinagar",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Block No. 1, 4th Floor, Udyog Bhavan, Gandhinagar 382 010. Gujarat. INDIA"
+   },
+   "sources": [
+    {
+     "sourceId": "src:ed6493195eca",
+     "evidence": "Office of the MSME Coommissionerate, Block No. 1, 4th Floor, Udyog Bhavan, Gandhinagar 382 010. Gujarat. INDIA",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:23258378",
+   "type": "HELPLINE",
+   "name": "MSME Commissioner's Office helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "23258378"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:ed6493195eca",
+     "evidence": "MSME-D Branch No. - 23258378 , LEGAL Expert No.-23258379",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:23258379",
+   "type": "HELPLINE",
+   "name": "MSME Commissioner's Office helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "23258379"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:ed6493195eca",
+     "evidence": "MSME-D Branch No. - 23258378 , LEGAL Expert No.-23258379",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "portal:msmec_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "msmec.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://msmec.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:ed6493195eca",
+     "evidence": "https://msmec.gujarat.gov.in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:msme_commissioner_office",
+   "type": "SERVICE",
+   "name": "MSME Commissioner's Office",
+   "officialName": "MSME Commissioner's Office",
+   "description": "The page provides contact information for the MSME Commissioner's office in Gujarat.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:ed6493195eca",
+     "evidence": "comm-msme[at]gujarat[dot]gov[dot]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:ed6493195eca",
+     "evidence": "https://msmec.gujarat.gov.in",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -2102,6 +2244,70 @@
     {
      "sourceId": "src:c462f68c4585",
      "evidence": "12.1. The project should complete in all respects within three years from the date of in principle Approval.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_msme_commissioner_office__visit_at__office_block_1_4th_floor_udayog_bhavan_gandhinagar",
+   "from": "service:msme_commissioner_office",
+   "to": "office:block_1_4th_floor_udayog_bhavan_gandhinagar",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The MSME Commissioner's office is located at Block No. 1, 4th Floor, Udyog Bhavan, Gandhinagar 382 010, Gujarat, India.",
+   "sources": [
+    {
+     "sourceId": "src:ed6493195eca",
+     "evidence": "Office of the MSME Coommissionerate, Block No. 1, 4th Floor, Udyog Bhavan, Gandhinagar 382 010. Gujarat. INDIA",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_msme_commissioner_office__call_if__helpline_23258378",
+   "from": "service:msme_commissioner_office",
+   "to": "helpline:23258378",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The contact number for the MSME-D Branch is 23258378.",
+   "sources": [
+    {
+     "sourceId": "src:ed6493195eca",
+     "evidence": "MSME-D Branch No. - 23258378 , LEGAL Expert No.-23258379",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_msme_commissioner_office__call_if__helpline_23258379",
+   "from": "service:msme_commissioner_office",
+   "to": "helpline:23258379",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The contact number for the Legal Expert is 23258379.",
+   "sources": [
+    {
+     "sourceId": "src:ed6493195eca",
+     "evidence": "MSME-D Branch No. - 23258378 , LEGAL Expert No.-23258379",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_msme_commissioner_office__apply_at__portal_msmec_gujarat_gov_in",
+   "from": "service:msme_commissioner_office",
+   "to": "portal:msmec_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The official website URL for the MSME Commissioner's office is https://msmec.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:ed6493195eca",
+     "evidence": "https://msmec.gujarat.gov.in",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }

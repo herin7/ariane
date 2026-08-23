@@ -1,0 +1,168 @@
+{
+ "journey": "birth-death",
+ "researchedAt": "2026-08-23",
+ "region": "Gujarat, India",
+ "sources": [
+  {
+   "id": "src:1cc4a3d9a83b",
+   "url": "https://gandhinagarmunicipal.com/mp_info_post/birth-death-certificate",
+   "title": "Birth & Death Certificate – Gandhinagar Municipal Corporation",
+   "domain": "gandhinagarmunicipal.com",
+   "sourceType": "HELPLINE",
+   "jurisdictionId": "IN-GJ-GANDHINAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "0ba38ae8bba977acd79cf4fabf5ed932e89796b4a74382f24a788e689b1a00b2",
+   "cacheFile": ".ingest/pages/1cc4a3d9a83b9ca57378b4949dea8113d42a78ca.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:8915c5e8100c",
+   "url": "https://suratmunicipal.gov.in/OnlineServices/DeathCertificate/Enroll",
+   "title": "Enroll Death Certificate - Virtual Civic Center (Online Services) :: Surat Municipal Corporation",
+   "domain": "suratmunicipal.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "365c8f1ca9d9e386c46fae6adcd9fac3f9587b45141f3dd1698e4fab985f98da",
+   "cacheFile": ".ingest/pages/8915c5e8100c2ac23a890b52bd2aea08defca07f.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:0f952f9e3227",
+   "url": "https://www.mea.gov.in/birth-certificate",
+   "title": "Birth Certificate | Ministry of External Affairs , Government of India",
+   "domain": "mea.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "8b11c48a1f2fd96935a282a9ec7eef84d55bdd63168605694fd62d5087062e05",
+   "cacheFile": ".ingest/pages/0f952f9e322723af51dcb8d011e42dd9df77c3e6.md",
+   "scrapedOk": true
+  }
+ ],
+ "facts": [
+  {
+   "claim": "The Gandhinagar Municipal Corporation provides services for Birth & Death Certificates.",
+   "kind": "ACTION",
+   "subject": "gandhinagar_municipal_corporation",
+   "object": "birth_death_certificate_service",
+   "detail": {},
+   "sourceId": "src:1cc4a3d9a83b",
+   "evidence": "Birth & Death Certificate – Gandhinagar Municipal Corporation",
+   "confidence": 1
+  },
+  {
+   "claim": "The Gandhinagar Municipal Corporation can be contacted via a toll-free number for Birth & Death Certificate services.",
+   "kind": "HELPLINE",
+   "subject": "gandhinagar_municipal_corporation",
+   "object": "toll_free_number",
+   "detail": {
+    "phone": "18001081818"
+   },
+   "sourceId": "src:1cc4a3d9a83b",
+   "evidence": "Toll Free - 18001081818",
+   "confidence": 1
+  },
+  {
+   "claim": "The Gandhinagar Municipal Corporation's office address is Pandit Dindayal Upadhyay Bhavan, Behind Fire Station, Sector-17, Gandhinagar-382016.",
+   "kind": "OFFICE",
+   "subject": "gandhinagar_municipal_corporation",
+   "object": "office_address",
+   "detail": {
+    "address": "Pandit Dindayal Upadhyay Bhavan, Behind Fire Station, Sector-17, Gandhinagar-382016"
+   },
+   "sourceId": "src:1cc4a3d9a83b",
+   "evidence": "Gandhinagar Municipal Corporation\nPandit Dindayal Upadhyay Bhavan,\nBehind Fire Station,\nSector-17, Gandhinagar-382016",
+   "confidence": 1
+  },
+  {
+   "claim": "The Gandhinagar Municipal Corporation can be contacted via a direct phone number for Birth & Death Certificate services.",
+   "kind": "HELPLINE",
+   "subject": "gandhinagar_municipal_corporation",
+   "object": "direct_phone_number",
+   "detail": {
+    "phone": "(079) 23284150"
+   },
+   "sourceId": "src:1cc4a3d9a83b",
+   "evidence": "Phone No. - (079) 23284150",
+   "confidence": 1
+  },
+  {
+   "claim": "The Gandhinagar Municipal Corporation can be contacted via email for Birth & Death Certificate services.",
+   "kind": "HELPLINE",
+   "subject": "gandhinagar_municipal_corporation",
+   "object": "email_address",
+   "detail": {
+    "email": "gmc8gandhinagar@gmail.com"
+   },
+   "sourceId": "src:1cc4a3d9a83b",
+   "evidence": "E-mail - gmc8gandhinagar[at]gmail[dot]com",
+   "confidence": 1
+  },
+  {
+   "claim": "The Mayor's office of the Gandhinagar Municipal Corporation can be contacted via email for Birth & Death Certificate services.",
+   "kind": "HELPLINE",
+   "subject": "gandhinagar_municipal_corporation",
+   "object": "mayor_office_email",
+   "detail": {
+    "email": "gmc.gandhinagar@gmail.com"
+   },
+   "sourceId": "src:1cc4a3d9a83b",
+   "evidence": "Mayor Office -gmc[dot]gandhinagar[at]gmail[dot]com",
+   "confidence": 1
+  },
+  {
+   "claim": "Death registration in Surat Municipal Corporation is done through the Government of Gujarat's eOlakh Application since April 1, 2020.",
+   "kind": "CHANNEL",
+   "subject": "death_registration",
+   "object": "eolakh_application",
+   "detail": {
+    "url": "https://eolakh.gujarat.gov.in/"
+   },
+   "sourceId": "src:8915c5e8100c",
+   "evidence": "Surat Municipal Corporation is using Government of Gujarat's eOlakh Application ( https://eolakh.gujarat.gov.in/ ) for death registration from 01/04/2020, hence online death certificate for death registered on or after this date will not be available.",
+   "confidence": 1
+  },
+  {
+   "claim": "Online death certificates for deaths registered on or after April 1, 2020, are not available through Surat Municipal Corporation's online services.",
+   "kind": "BLOCKER",
+   "subject": "death_certificate",
+   "object": "online_service",
+   "detail": {
+    "date": "01/04/2020"
+   },
+   "sourceId": "src:8915c5e8100c",
+   "evidence": "hence online death certificate for death registered on or after this date will not be available.",
+   "confidence": 1
+  },
+  {
+   "claim": "To get Indian citizenship for a child born to Indian parents in a foreign country, the child's birth must be registered at the nearest Indian Embassy/Consulate.",
+   "kind": "ACTION",
+   "subject": "indian_citizenship_child",
+   "object": "indian_embassy_consulate",
+   "detail": {},
+   "sourceId": "src:0f952f9e3227",
+   "evidence": "In order to get Indian citizenship for a child born to Indian parent(s) in a foreign country, the birth of the child is to be registered at the nearest Indian Embassy/Consulate and thereafter (or at the same time) the parents can apply for issue of an Indian passport for the child.",
+   "confidence": 1
+  },
+  {
+   "claim": "Indian Missions/Posts can attest a birth certificate issued by Indian authorities if it is first authenticated by the Home Department of the concerned State/Union Territory and then by the Attestation Section of the Ministry of External Affairs (MEA) in New Delhi or the MEA Branch Secretariats in Chennai, Hyderabad, Kolkata, and Guwahati.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "birth_certificate_attestation",
+   "object": "indian_mission_post",
+   "detail": {
+    "locations": [
+     "New Delhi",
+     "Chennai",
+     "Hyderabad",
+     "Kolkata",
+     "Guwahati"
+    ]
+   },
+   "sourceId": "src:0f952f9e3227",
+   "evidence": "Yes, provided the birth certificate issued by the competent authorities has been authenticated by the Home Department of the concerned State/Union Territory in India and then by the Attestation Section of the Ministry of External Affairs (MEA), New Delhi or the MEA Branch Secretariats in Chennai, Hyderabad, Kolkata and Guwahati.",
+   "confidence": 1
+  }
+ ],
+ "notFound": []
+}

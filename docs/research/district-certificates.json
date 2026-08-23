@@ -124,6 +124,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:449ac59ef784",
+   "url": "https://suratmunicipal.gov.in/",
+   "title": "Surat Municipal Corporation",
+   "domain": "suratmunicipal.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "47137b014ff3692d47cb503157f78abe9f15b414941a73e90876e00df97b0edc",
+   "cacheFile": ".ingest/pages/449ac59ef7842344e1e654219726d69d2c11c2a7.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:02558b8797df",
    "url": "https://collectorkheda.gujarat.gov.in/varshai-app-form-47",
    "title": "વારસાઈ પ્રમાણપત્ર આપવા બાબત | Certificate | Jan Seva Kendra form | Collectorate - District Kheda",
@@ -160,6 +172,30 @@
    "scrapedOk": true
   },
   {
+   "id": "src:36207e7ebef6",
+   "url": "https://surat.gujarat.gov.in/",
+   "title": "Collectorate - District Surat",
+   "domain": "surat.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "96b4a8a2f25092dfe08800611dd5260caaa86a86aa54ed58ebdd92afd203b08e",
+   "cacheFile": ".ingest/pages/36207e7ebef68a3b75bb980aca18bf90797706a8.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:d8f5a80aaa80",
+   "url": "https://vadodara.gujarat.gov.in/",
+   "title": "Collectorate - District Vadodara",
+   "domain": "vadodara.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-VADODARA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "4163e06735834dd34e31ea3da3d368279d8451a952b4f5c85aec2ac328e5372f",
+   "cacheFile": ".ingest/pages/d8f5a80aaa80d72290876b628109779df2235b28.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:024267061148",
    "url": "https://arvalli.gujarat.gov.in/",
    "title": "Collectorate - District Arvalli",
@@ -169,6 +205,90 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "d58b4c732fb0d659c509f09e133bd0cd1efdc4af7e0eed844329d2d4bdf51cb8",
    "cacheFile": ".ingest/pages/024267061148493dd5b58aa55dc4a4027ef900a4.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:648db15140f5",
+   "url": "https://banaskantha.gujarat.gov.in/",
+   "title": "Collectorate - District Banaskantha",
+   "domain": "banaskantha.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-BANASKANTHA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "b36d10a3f49c4191c359ec7d04ebea434e7a19d54895ca031a2401ae8866e735",
+   "cacheFile": ".ingest/pages/648db15140f5b99a942f1aa9fcd6790768b13239.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:051fe6be50de",
+   "url": "https://dangs.gujarat.gov.in/",
+   "title": "Collectorate - District Dang",
+   "domain": "dangs.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-DANG",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "64a658a45615d728efd5175ed88d4364b3ca8c7be4e5d5079a8ecde5eeb0c99a",
+   "cacheFile": ".ingest/pages/051fe6be50de435337dcb2fa51a4d453ff9e3c2c.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:d0924c737d11",
+   "url": "https://kheda.gujarat.gov.in/",
+   "title": "Collectorate - District Kheda",
+   "domain": "kheda.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-KHEDA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d5b2eb9f1e702b80eddca72701f27684438430502825ef4a4a6b3a81837c9b12",
+   "cacheFile": ".ingest/pages/d0924c737d11b36cf1830454497eff7305306ddd.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:60e53d585639",
+   "url": "https://mehsana.gujarat.gov.in/",
+   "title": "Collectorate - District Mehsana",
+   "domain": "mehsana.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-MEHSANA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "f53da5e6e26c221e5e3d944cba892ff8d89d9513a390bb6953ea789962ff4e8e",
+   "cacheFile": ".ingest/pages/60e53d585639f918cd4b5b62dcccc65b92f7af00.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:9e3f2bafa37a",
+   "url": "https://rajkot.gujarat.gov.in/",
+   "title": "Collectorate - District Rajkot",
+   "domain": "rajkot.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-RAJKOT",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "38dae75867bb28deac2002acadfa26185022b276639976eccfe750c92b778a9f",
+   "cacheFile": ".ingest/pages/9e3f2bafa37a6c2d4458eba58ba56e3dc84ecab0.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:641e9f089b51",
+   "url": "https://bhavnagar.gujarat.gov.in/",
+   "title": "Collectorate - District Bhavnagar",
+   "domain": "bhavnagar.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-BHAVNAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "139154b92d1e11917b17c06e31e3395c863097a4fe20a8ceb41728b15109ac79",
+   "cacheFile": ".ingest/pages/641e9f089b5102021874e3a437c1f44fa36cb33f.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:66188c3e9cca",
+   "url": "https://collectorahmedabad.gujarat.gov.in/showpage.aspx",
+   "title": "Collectorate - District Ahmedabad",
+   "domain": "collectorahmedabad.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "13e4ef3602cbb561e30605b3b8455a951135d4b5361053dbceda9ab2b3bdee1d",
+   "cacheFile": ".ingest/pages/66188c3e9cca3cdd85f6196db19837425e1d4940.md",
    "scrapedOk": true
   },
   {
@@ -184,6 +304,30 @@
    "scrapedOk": true
   },
   {
+   "id": "src:c3c9fd2764ed",
+   "url": "https://sabarkantha.gujarat.gov.in/",
+   "title": "Collectorate - District Sabarkantha",
+   "domain": "sabarkantha.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-SABARKANTHA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "b49f3e7ddc942342cdc00b77dc10d5bcf1188ef435a8b9dda8010939ad90a284",
+   "cacheFile": ".ingest/pages/c3c9fd2764ed585829140e74c63aafb7bc39840d.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:15de7da3d122",
+   "url": "https://tapi.gujarat.gov.in/",
+   "title": "Collectorate - District Tapi",
+   "domain": "tapi.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-TAPI",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "3b8d9dc1bfb1f5e254740a0a6f8eacd769022352dedfdb4614ffecbded23e275",
+   "cacheFile": ".ingest/pages/15de7da3d1228e0ed4577d0686c00a41b5a086ce.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:173f71fd267e",
    "url": "https://gil.gujarat.gov.in/pdf/vol2/newslettermar04.pdf#page=4",
    "title": "newslettermar04 (page 4 of 8)",
@@ -193,6 +337,66 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "a2da09f8cab1b88d8739094caa930e35e1926f3d64b8d3fbfd0ef55f72b4502b",
    "cacheFile": ".ingest/pages/173f71fd267eaa799b0b5ff116026f33639aba4f.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:8ec67122a7ee",
+   "url": "https://mahisagar.gujarat.gov.in/",
+   "title": "Collectorate - District Mahisagar",
+   "domain": "mahisagar.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-MAHISAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d35508a4b723645f4522fc83a85611625bfcf73e9af4248cded7eafddcfe7b25",
+   "cacheFile": ".ingest/pages/8ec67122a7eef45baf8d64e1a1a8c28b6f567e71.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:6012e6a8f156",
+   "url": "https://valsad.gujarat.gov.in/",
+   "title": "Collectorate - District Valsad",
+   "domain": "valsad.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-VALSAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "05a091b0859b8793fea4885ff9e7fab68b19727ac7adc45a8862e5ffec3b757c",
+   "cacheFile": ".ingest/pages/6012e6a8f156e08c44bf6059413ee73e797d1b8b.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:a668b1cd99aa",
+   "url": "https://kutch.gujarat.gov.in/",
+   "title": "Collectorate - District Kutch",
+   "domain": "kutch.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-KUTCH",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "60666435625d27ed7150cc7d57a99253736b4a4b3d30058780aff1f8ab83daf5",
+   "cacheFile": ".ingest/pages/a668b1cd99aa62ebde4e223ecace02e8121a9af8.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:8d4a20ae6688",
+   "url": "https://morbi.gujarat.gov.in/",
+   "title": "Collectorate - District Morbi",
+   "domain": "morbi.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-MORBI",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "44c4e5fd2df33ae7e40830c006a4f3f3e02cb26b98b7bdb34af72c4ca3b83aba",
+   "cacheFile": ".ingest/pages/8d4a20ae668815672d27936d5b135b50dcfcb784.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:18eda4a671a4",
+   "url": "https://botad.gujarat.gov.in/",
+   "title": "Collectorate - District Botad",
+   "domain": "botad.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-BOTAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "3f2de0bedce6cfb7e7d7ceb0a999fe1c25ea13c7147a77275a5d65370a8cd92a",
+   "cacheFile": ".ingest/pages/18eda4a671a43fdf0fc94461d1028dee0bde87e2.md",
    "scrapedOk": true
   },
   {
@@ -604,6 +808,54 @@
    "scrapedOk": true
   },
   {
+   "id": "src:e8b2f0130818",
+   "url": "https://collectormehsana.gujarat.gov.in/contacts",
+   "title": "Contacts | Collectorate - District Mehsana",
+   "domain": "collectormehsana.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-MEHSANA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "856ff9c72a5e71f3307241bcafc6bd06dd07ba0c772be12876fb60a3763ab4a8",
+   "cacheFile": ".ingest/pages/e8b2f0130818d7c903e2bdb9de46aa04ff0aa9ee.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:f4fa34090a66",
+   "url": "https://collectorpatan.gujarat.gov.in/contacts",
+   "title": "Contacts | Collectorate - District Patan",
+   "domain": "collectorpatan.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-PATAN",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "bdb0e0560bd4b690bbb385937d9a1e1af472b308ff354d8a6e593b359151dc83",
+   "cacheFile": ".ingest/pages/f4fa34090a66b013ab06e99dd30e507ffed2cb4a.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:892ce8fb705b",
+   "url": "https://devbhumidwarka.gujarat.gov.in/contacts",
+   "title": "Contacts | Collectorate - District Devbhumi Dwarka",
+   "domain": "devbhumidwarka.gujarat.gov.in",
+   "sourceType": "HELPLINE",
+   "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "a389a49e5dcedc58490f917ecf4f86ccb7e8c53a332a49d7e50fd60968178cca",
+   "cacheFile": ".ingest/pages/892ce8fb705b290dc7006f7c47ea13c461a16229.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:3efbc1120113",
+   "url": "https://botad.gujarat.gov.in/contacts",
+   "title": "Contacts | Collectorate - District Botad",
+   "domain": "botad.gujarat.gov.in",
+   "sourceType": "HELPLINE",
+   "jurisdictionId": "IN-GJ-BOTAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "8175401646e0d3797c8210464f4246d547bf2f297acdad0d15301bffb132d90c",
+   "cacheFile": ".ingest/pages/3efbc11201131ff67b05e444084b60f80659868d.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:096c6d3cc33f",
    "url": "https://dpe.gujarat.gov.in/Home/primary/CentralizeTechbasedTeacherTransferProcess",
    "title": "Directorate of Primary Education",
@@ -736,6 +988,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:041e18ca9c00",
+   "url": "https://gscuc.gujarat.gov.in/Pages/Contents/faq",
+   "title": "FAQ | Gujarat State Commission for Unreserved Classes",
+   "domain": "gscuc.gujarat.gov.in",
+   "sourceType": "FAQ",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "13a778eb2dbc20acab6621053bb381626484fe10c0fd65aff99072b197ea9402",
+   "cacheFile": ".ingest/pages/041e18ca9c00ab8db93910af8c1b6e3d37411b2b.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:da85effbdf4d",
    "url": "https://collectorvadodara.gujarat.gov.in/showpage.aspx?contentid=488",
    "title": "સક્ષમ અધિકારીશ્રીના હુકમ અન્વયે સિટી સરવેના હકપત્રકે નોંધ દાખલ કરવાની અરજીનો નમુનો | City Survey | Jan Seva Kendra form | Collectorate - District Vadodara",
@@ -796,6 +1060,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:e9f390b32eed",
+   "url": "https://spsurendranagar.gujarat.gov.in/",
+   "title": "પોલીસ અધીક્ષકશ્રીની કચેરી, સુરેન્દ્રનગર",
+   "domain": "spsurendranagar.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-SURENDRANAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "9873a67e31a799e95e57d6edf77ac80d823e8eb040f5c93e7dfe35ca0b9a80f4",
+   "cacheFile": ".ingest/pages/e9f390b32eedcc00873a7822aa81563b8e705265.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:0262aac5f33a",
    "url": "https://gscuc.gujarat.gov.in/DownloadData",
    "title": "Download | Gujarat State Commission for Unreserved Classes",
@@ -829,6 +1105,30 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "52a6b933b44ad54fd94a48dc353623762415ffabbe3cb824b114291e16087815",
    "cacheFile": ".ingest/pages/6b7dd4f0c2109ecb88365e706078a3fecd3c276d.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:72cbddd6cfa6",
+   "url": "https://gssca.gujarat.gov.in/",
+   "title": "Gujarat State Seed Certificate Agency",
+   "domain": "gssca.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "9bf3448a0d6c673ecc794f6de703682a2467c0146ca4305637e5d61ad7807f31",
+   "cacheFile": ".ingest/pages/72cbddd6cfa6943f26722471621d27151f96469a.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:09970aee86f9",
+   "url": "https://ma.gujarat.gov.in/G_Certificate%20For%20Keen%20Replacement%20Under%20MA%20and%20PMAJY.html",
+   "title": "Enrollment Guidelines",
+   "domain": "ma.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "b66eba37862b677e736940f43f5275119c773254c45f96e1efd851ff16a8bc0e",
+   "cacheFile": ".ingest/pages/09970aee86f962f0d2cf5ac885e190f231dc35fa.md",
    "scrapedOk": true
   },
   {
@@ -2898,6 +3198,160 @@
    "confidence": 0.95
   },
   {
+   "claim": "Citizens can access various online services from anywhere at any time through the Virtual Civic Center.",
+   "kind": "CHANNEL",
+   "subject": "virtual_civic_center",
+   "object": "citizen_services",
+   "detail": {},
+   "sourceId": "src:449ac59ef784",
+   "evidence": "Virtual Civic Center provides simple and convenient way for citizens to access various services from anywhere at anytime.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Citizens can pay Property Tax, Profession Tax, and Water Meter Bills through the Virtual Civic Center.",
+   "kind": "ACTION",
+   "subject": "virtual_civic_center",
+   "object": "tax_payment",
+   "detail": {},
+   "sourceId": "src:449ac59ef784",
+   "evidence": "Citizens can use Virtual Civic Center to pay Property Tax, Profession Tax, Water Meter Bills; obtain Birth and Death Certificate; etc.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Citizens can obtain Birth and Death Certificates through the Virtual Civic Center.",
+   "kind": "ACTION",
+   "subject": "virtual_civic_center",
+   "object": "birth_death_certificate",
+   "detail": {},
+   "sourceId": "src:449ac59ef784",
+   "evidence": "Citizens can use Virtual Civic Center to pay Property Tax, Profession Tax, Water Meter Bills; obtain Birth and Death Certificate; etc.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "SMIMER College provides tertiary level health care and quality medical education.",
+   "kind": "ACTION",
+   "subject": "smimer_college",
+   "object": "health_care_medical_education",
+   "detail": {},
+   "sourceId": "src:449ac59ef784",
+   "evidence": "Surat Municipal Institute of Medical Education & Research (SMIMER) has been established by the Surat Municipal Corporation. It provides tertiary level health care to its citizens and quality medical education to the student.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Science Center premises includes a Museum, Planetarium, Art Gallery, and Science Center.",
+   "kind": "ACTION",
+   "subject": "science_center",
+   "object": "museum_planetarium_art_gallery_science_center",
+   "detail": {},
+   "sourceId": "src:449ac59ef784",
+   "evidence": "Science Centre premises consists of the Museum, Planetarium, Art Gallery and Science Center.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Museum showcases the rich heritage and history of Surat.",
+   "kind": "ACTION",
+   "subject": "museum",
+   "object": "heritage_history",
+   "detail": {},
+   "sourceId": "src:449ac59ef784",
+   "evidence": "Museum showcases the rich heritage and history of Surat, while the Science Centre has Fun Science Gallery, 3D theater, Diamond Gallery.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Science Centre has a Fun Science Gallery, 3D theater, and Diamond Gallery.",
+   "kind": "ACTION",
+   "subject": "science_center",
+   "object": "fun_science_gallery_3d_theater_diamond_gallery",
+   "detail": {},
+   "sourceId": "src:449ac59ef784",
+   "evidence": "Museum showcases the rich heritage and history of Surat, while the Science Centre has Fun Science Gallery, 3D theater, Diamond Gallery.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "SMC's GIS portal provides spatial information and allows citizens to get information about Town Planning, Development Permission, and Property Tax on a map.",
+   "kind": "ACTION",
+   "subject": "gis_portal",
+   "object": "spatial_information",
+   "detail": {},
+   "sourceId": "src:449ac59ef784",
+   "evidence": "SMC's GIS portal depicts spatial information visually and allows citizens to get useful information pertaining to Town Planning, Development Permission, Property Tax, etc. on map.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "SMC provides various downloaded forms at no cost, and they are accepted at the concerned offices without paying the prescribed form fee.",
+   "kind": "ACTION",
+   "subject": "online_forms",
+   "object": "free_forms",
+   "detail": {},
+   "sourceId": "src:449ac59ef784",
+   "evidence": "SMC has taken an initiative to make various downloaded forms available at free of cost. Citizens can download and it will be accepted at concern offices of Surat Municipal Corporation without paying prescribed form fee.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The RTI section provides details of the Public Information Officer, Assistant Public Information Officer, Proactive Disclosures, application forms, and other important details.",
+   "kind": "ACTION",
+   "subject": "rti_section",
+   "object": "information_officers_disclosures",
+   "detail": {},
+   "sourceId": "src:449ac59ef784",
+   "evidence": "The section on RTI provides details of the Public Information Officer, Assistant Public Information Officer, Proactive Disclosures, application forms and other important details.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Under the PMAY/MMGY scheme, the government intends to provide affordable housing under different categories.",
+   "kind": "ACTION",
+   "subject": "pmay_mmgay_scheme",
+   "object": "affordable_housing",
+   "detail": {},
+   "sourceId": "src:449ac59ef784",
+   "evidence": "Under the PMAY/MMGY scheme, government intends to provide the affordable housing under different categories.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Citizens can register their complaints using various channels like website, mobile app, helpline, and WhatsApp.",
+   "kind": "ACTION",
+   "subject": "complaint_registration",
+   "object": "complaint_channels",
+   "detail": {},
+   "sourceId": "src:449ac59ef784",
+   "evidence": "Citizens can register their complaints very easily using various channels like website, mobile app, helpline and whatsapp.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A Complaint Ticket is provided for tracking the status of complaints.",
+   "kind": "ACTION",
+   "subject": "complaint_ticket",
+   "object": "tracking",
+   "detail": {},
+   "sourceId": "src:449ac59ef784",
+   "evidence": "A Complaint Ticket is provided for tracking purpose.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The toll-free number for Surat Municipal Corporation is 1800 123 8000.",
+   "kind": "HELPLINE",
+   "subject": "toll_free_number",
+   "object": "surat_municipal_corporation",
+   "detail": {
+    "phone": "1800 123 8000"
+   },
+   "sourceId": "src:449ac59ef784",
+   "evidence": "Toll Free Number 1800 123 8000",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The WhatsApp number for Surat Municipal Corporation is 63599 30020.",
+   "kind": "HELPLINE",
+   "subject": "whatsapp_number",
+   "object": "surat_municipal_corporation",
+   "detail": {
+    "phone": "63599 30020"
+   },
+   "sourceId": "src:449ac59ef784",
+   "evidence": "WhatsApp 63599 30020",
+   "confidence": 0.95
+  },
+  {
    "claim": "The application must be submitted by the legal lineal heir of the deceased pensioner.",
    "kind": "ELIGIBILITY",
    "subject": "application_submission",
@@ -3333,6 +3787,304 @@
    "confidence": 0.95
   },
   {
+   "claim": "A citizen can access 102 government services under one roof at the Jan Seva Kendra in District Surat.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "citizen",
+   "detail": {
+    "services": 102
+   },
+   "sourceId": "src:36207e7ebef6",
+   "evidence": "Jan Seva Kendra provides one stop solutions for 102 public services.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers certificate-related services, including caste and income certificates.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "certificate_services",
+   "detail": {
+    "services": "Certificate"
+   },
+   "sourceId": "src:36207e7ebef6",
+   "evidence": "Certificate\nMagisterial\nMiscellaneous\nRevenue\nRTI\nSocial Security\nSupply",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers magisterial-related services, including licenses for arms and entertainment.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "magisterial_services",
+   "detail": {
+    "services": "Magisterial"
+   },
+   "sourceId": "src:36207e7ebef6",
+   "evidence": "Magisterial\nTwenty six services offered in Magisterial.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers miscellaneous services, including affidavits and senior citizen certificates.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "miscellaneous_services",
+   "detail": {
+    "services": "Miscellaneous"
+   },
+   "sourceId": "src:36207e7ebef6",
+   "evidence": "Miscellaneous\nFive services offered in Miscellaneous.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers revenue-related services, including land allocation and land use permissions.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "revenue_services",
+   "detail": {
+    "services": "Revenue"
+   },
+   "sourceId": "src:36207e7ebef6",
+   "evidence": "Revenue\nThirty one services offered in Revenue.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers supply-related services, including ration card applications and modifications.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "supply_services",
+   "detail": {
+    "services": "Supply"
+   },
+   "sourceId": "src:36207e7ebef6",
+   "evidence": "Supply\nThirteen services offered in Supply.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers social security services, including widow assistance.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "social_security_services",
+   "detail": {
+    "services": "Social Security"
+   },
+   "sourceId": "src:36207e7ebef6",
+   "evidence": "Social Security\nOne service offered in Social Security.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers Right to Information (RTI) services.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "rti_services",
+   "detail": {
+    "services": "RTI"
+   },
+   "sourceId": "src:36207e7ebef6",
+   "evidence": "RTI\nOne service offered in RTI.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Mamlatdar Office is one of the offices listed under the Surat District Collectorate.",
+   "kind": "OFFICE",
+   "subject": "surat_district_collectorate",
+   "object": "mamlatdar_office",
+   "detail": {
+    "office_name": "Mamlatdar Office"
+   },
+   "sourceId": "src:36207e7ebef6",
+   "evidence": "Offices  \n  \nMamlatdar Office\nPrant Office",
+   "confidence": 1
+  },
+  {
+   "claim": "The Prant Office is one of the offices listed under the Surat District Collectorate.",
+   "kind": "OFFICE",
+   "subject": "surat_district_collectorate",
+   "object": "prant_office",
+   "detail": {
+    "office_name": "Prant Office"
+   },
+   "sourceId": "src:36207e7ebef6",
+   "evidence": "Offices  \n  \nMamlatdar Office\nPrant Office",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Emergency Response Center can be contacted at +91 261 2663200 or 2664800 for emergencies.",
+   "kind": "HELPLINE",
+   "subject": "district_emergency_response_center",
+   "object": "citizen",
+   "detail": {
+    "phone": "+91 261 2663200, 2664800"
+   },
+   "sourceId": "src:36207e7ebef6",
+   "evidence": "District Emergency Response Center\nCall +91 261 2663200, 2664800",
+   "confidence": 1
+  },
+  {
+   "claim": "The Commissioner of Rescue & Relief can be contacted at 1070 for emergencies.",
+   "kind": "HELPLINE",
+   "subject": "commissioner_of_rescue_and_relief",
+   "object": "citizen",
+   "detail": {
+    "phone": "1070"
+   },
+   "sourceId": "src:36207e7ebef6",
+   "evidence": "Commissioner of Rescue & Relief\nCall 1070",
+   "confidence": 1
+  },
+  {
+   "claim": "The Disaster Helpline Number is 1077 for emergencies.",
+   "kind": "HELPLINE",
+   "subject": "disaster_helpline",
+   "object": "citizen",
+   "detail": {
+    "phone": "1077"
+   },
+   "sourceId": "src:36207e7ebef6",
+   "evidence": "Disaster Helpline No.\nCall 1077",
+   "confidence": 1
+  },
+  {
+   "claim": "Jan Seva Kendra provides 102 government services under one roof",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "government_services",
+   "detail": {
+    "service_count": 102
+   },
+   "sourceId": "src:d8f5a80aaa80",
+   "evidence": "Jan Seva Kendra\n102 Government Services Under One Roof\nJan Seva Kendra provides one stop solutions for 102 public services.",
+   "confidence": 1
+  },
+  {
+   "claim": "Jan Seva Kendra provides information about documents required and downloadable application forms for each service",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "service_information",
+   "detail": {},
+   "sourceId": "src:d8f5a80aaa80",
+   "evidence": "Following section will let you understand documents required and downloadable application form for each service.",
+   "confidence": 1
+  },
+  {
+   "claim": "Ten certificate services are offered at Jan Seva Kendra",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "certificate_services",
+   "detail": {
+    "service_count": 10
+   },
+   "sourceId": "src:d8f5a80aaa80",
+   "evidence": "Certificate\nTen services offered in Certificate. Click on the service of your choice to know application details.",
+   "confidence": 1
+  },
+  {
+   "claim": "Twenty six magisterial services are offered at Jan Seva Kendra",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "magisterial_services",
+   "detail": {
+    "service_count": 26
+   },
+   "sourceId": "src:d8f5a80aaa80",
+   "evidence": "Magisterial\nTwenty six services offered in Magisterial. Click on the service of your choice to know application details.",
+   "confidence": 1
+  },
+  {
+   "claim": "Five miscellaneous services are offered at Jan Seva Kendra",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "miscellaneous_services",
+   "detail": {
+    "service_count": 5
+   },
+   "sourceId": "src:d8f5a80aaa80",
+   "evidence": "Miscellaneous\nFive services offered in Miscellaneous. Click on the service of your choice to know application details.",
+   "confidence": 1
+  },
+  {
+   "claim": "Thirty one revenue services are offered at Jan Seva Kendra",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "revenue_services",
+   "detail": {
+    "service_count": 31
+   },
+   "sourceId": "src:d8f5a80aaa80",
+   "evidence": "Revenue\nThirty one services offered in Revenue. Click on the service of your choice to know application details.",
+   "confidence": 1
+  },
+  {
+   "claim": "One RTI service is offered at Jan Seva Kendra",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "rti_services",
+   "detail": {
+    "service_count": 1
+   },
+   "sourceId": "src:d8f5a80aaa80",
+   "evidence": "RTI\nOne service offered in RTI. Click on the service of your choice to know application details.",
+   "confidence": 1
+  },
+  {
+   "claim": "One social security service is offered at Jan Seva Kendra",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "social_security_services",
+   "detail": {
+    "service_count": 1
+   },
+   "sourceId": "src:d8f5a80aaa80",
+   "evidence": "Social Security\nOne service offered in Social Security. Click on the service of your choice to know application details.",
+   "confidence": 1
+  },
+  {
+   "claim": "Thirteen supply services are offered at Jan Seva Kendra",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "supply_services",
+   "detail": {
+    "service_count": 13
+   },
+   "sourceId": "src:d8f5a80aaa80",
+   "evidence": "Supply\nThirteen services offered in Supply. Click on the service of your choice to know application details.",
+   "confidence": 1
+  },
+  {
+   "claim": "Eight city survey services are offered at Jan Seva Kendra",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "city_survey_services",
+   "detail": {
+    "service_count": 8
+   },
+   "sourceId": "src:d8f5a80aaa80",
+   "evidence": "City Survey\nEight services offered in City Survey. Click on the service of your choice to know application details.",
+   "confidence": 1
+  },
+  {
+   "claim": "District Emergency Response Center can be reached at +91 265 1077",
+   "kind": "HELPLINE",
+   "subject": "district_emergency_response_center",
+   "object": "emergency_contact",
+   "detail": {
+    "phone": "+91 265 1077"
+   },
+   "sourceId": "src:d8f5a80aaa80",
+   "evidence": "District Emergency Response Center\nCall +91 265 1077",
+   "confidence": 1
+  },
+  {
+   "claim": "Commissioner of Rescue and Relief can be reached at 1070",
+   "kind": "HELPLINE",
+   "subject": "commissioner_of_rescue_relief",
+   "object": "emergency_contact",
+   "detail": {
+    "phone": "1070"
+   },
+   "sourceId": "src:d8f5a80aaa80",
+   "evidence": "Commissioner of Rescue & Relief\nCall 1070",
+   "confidence": 1
+  },
+  {
    "claim": "The Jan Seva Kendra provides one-stop solutions for 102 public services.",
    "kind": "ACTION",
    "subject": "jan_seva_kendra",
@@ -3463,6 +4215,882 @@
    "confidence": 1
   },
   {
+   "claim": "Jan Seva Kendra provides one stop solutions for 102 public services",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "public_services",
+   "detail": {
+    "service_count": 102
+   },
+   "sourceId": "src:648db15140f5",
+   "evidence": "Jan Seva Kendra provides one stop solutions for 102 public services.",
+   "confidence": 1
+  },
+  {
+   "claim": "Jan Seva Kendra is located at District Collectorate",
+   "kind": "OFFICE",
+   "subject": "jan_seva_kendra",
+   "object": "district_collectorate",
+   "detail": {
+    "office_name": "District Collectorate"
+   },
+   "sourceId": "src:648db15140f5",
+   "evidence": "Jan Seva Kendra, District Collectorate is the outcome of the strategic union of technology and positive governance.",
+   "confidence": 1
+  },
+  {
+   "claim": "Ten services are offered under Certificate category",
+   "kind": "CHANNEL",
+   "subject": "certificate_category",
+   "object": "services",
+   "detail": {
+    "service_count": 10
+   },
+   "sourceId": "src:648db15140f5",
+   "evidence": "Ten services offered in Certificate.",
+   "confidence": 1
+  },
+  {
+   "claim": "Twenty six services are offered under Magisterial category",
+   "kind": "CHANNEL",
+   "subject": "magisterial_category",
+   "object": "services",
+   "detail": {
+    "service_count": 26
+   },
+   "sourceId": "src:648db15140f5",
+   "evidence": "Twenty six services offered in Magisterial.",
+   "confidence": 1
+  },
+  {
+   "claim": "Five services are offered under Miscellaneous category",
+   "kind": "CHANNEL",
+   "subject": "miscellaneous_category",
+   "object": "services",
+   "detail": {
+    "service_count": 5
+   },
+   "sourceId": "src:648db15140f5",
+   "evidence": "Five services offered in Miscellaneous.",
+   "confidence": 1
+  },
+  {
+   "claim": "Thirty one services are offered under Revenue category",
+   "kind": "CHANNEL",
+   "subject": "revenue_category",
+   "object": "services",
+   "detail": {
+    "service_count": 31
+   },
+   "sourceId": "src:648db15140f5",
+   "evidence": "Thirty one services offered in Revenue.",
+   "confidence": 1
+  },
+  {
+   "claim": "One service is offered under RTI category",
+   "kind": "CHANNEL",
+   "subject": "rti_category",
+   "object": "services",
+   "detail": {
+    "service_count": 1
+   },
+   "sourceId": "src:648db15140f5",
+   "evidence": "One service offered in RTI.",
+   "confidence": 1
+  },
+  {
+   "claim": "One service is offered under Social Security category",
+   "kind": "CHANNEL",
+   "subject": "social_security_category",
+   "object": "services",
+   "detail": {
+    "service_count": 1
+   },
+   "sourceId": "src:648db15140f5",
+   "evidence": "One service offered in Social Security.",
+   "confidence": 1
+  },
+  {
+   "claim": "Thirteen services are offered under Supply category",
+   "kind": "CHANNEL",
+   "subject": "supply_category",
+   "object": "services",
+   "detail": {
+    "service_count": 13
+   },
+   "sourceId": "src:648db15140f5",
+   "evidence": "Thirteen services offered in Supply.",
+   "confidence": 1
+  },
+  {
+   "claim": "District Emergency Response Center can be reached at +91 2742 1077",
+   "kind": "HELPLINE",
+   "subject": "district_emergency_response_center",
+   "object": "emergency_contact",
+   "detail": {
+    "phone": "+91 2742 1077"
+   },
+   "sourceId": "src:648db15140f5",
+   "evidence": "District Emergency Response Center\nCall +91 2742 1077",
+   "confidence": 1
+  },
+  {
+   "claim": "Commissioner of Rescue and Relief can be reached at 1070",
+   "kind": "HELPLINE",
+   "subject": "commissioner_of_rescue_relief",
+   "object": "emergency_contact",
+   "detail": {
+    "phone": "1070"
+   },
+   "sourceId": "src:648db15140f5",
+   "evidence": "Commissioner of Rescue & Relief\nCall 1070",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra provides 102 public services under one roof.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "public_services",
+   "detail": {
+    "count": 102
+   },
+   "sourceId": "src:051fe6be50de",
+   "evidence": "Jan Seva Kendra provides one stop solutions for 102 public services.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra provides certificates, magisterial, miscellaneous, revenue, RTI, social security, and supply services.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "services",
+   "detail": {
+    "categories": [
+     "Certificate",
+     "Magisterial",
+     "Miscellaneous",
+     "Revenue",
+     "RTI",
+     "Social Security",
+     "Supply"
+    ]
+   },
+   "sourceId": "src:051fe6be50de",
+   "evidence": "Certificate\nMagisterial\nMiscellaneous\nRevenue\nRTI\nSocial Security\nSupply",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra provides ten certificate-related services.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "certificate_services",
+   "detail": {
+    "count": 10
+   },
+   "sourceId": "src:051fe6be50de",
+   "evidence": "Ten services offered in Certificate.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra provides twenty-six magisterial services.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "magisterial_services",
+   "detail": {
+    "count": 26
+   },
+   "sourceId": "src:051fe6be50de",
+   "evidence": "Twenty six services offered in Magisterial.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra provides five miscellaneous services.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "miscellaneous_services",
+   "detail": {
+    "count": 5
+   },
+   "sourceId": "src:051fe6be50de",
+   "evidence": "Five services offered in Miscellaneous.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra provides thirty-one revenue-related services.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "revenue_services",
+   "detail": {
+    "count": 31
+   },
+   "sourceId": "src:051fe6be50de",
+   "evidence": "Thirty one services offered in Revenue.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra provides one RTI-related service.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "rti_service",
+   "detail": {
+    "count": 1
+   },
+   "sourceId": "src:051fe6be50de",
+   "evidence": "One service offered in RTI.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra provides one social security-related service.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "social_security_service",
+   "detail": {
+    "count": 1
+   },
+   "sourceId": "src:051fe6be50de",
+   "evidence": "One service offered in Social Security.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra provides thirteen supply-related services.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "supply_services",
+   "detail": {
+    "count": 13
+   },
+   "sourceId": "src:051fe6be50de",
+   "evidence": "Thirteen services offered in Supply.",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Emergency Response Center can be contacted at +91 2631 243222.",
+   "kind": "HELPLINE",
+   "subject": "district_emergency_response_center",
+   "object": "contact",
+   "detail": {
+    "phone": "+91 2631 243222"
+   },
+   "sourceId": "src:051fe6be50de",
+   "evidence": "District Emergency Response Center  Call +91 2631 243222",
+   "confidence": 1
+  },
+  {
+   "claim": "The Commissioner of Rescue & Relief can be contacted at 1070.",
+   "kind": "HELPLINE",
+   "subject": "commissioner_of_rescue_and_relief",
+   "object": "contact",
+   "detail": {
+    "phone": "1070"
+   },
+   "sourceId": "src:051fe6be50de",
+   "evidence": "Commisioner of Rescue & Relief Call 1070",
+   "confidence": 1
+  },
+  {
+   "claim": "Jan Seva Kendra provides 102 public services under one roof.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "public_services",
+   "detail": {
+    "amount": "102"
+   },
+   "sourceId": "src:d0924c737d11",
+   "evidence": "Jan Seva Kendra provides one stop solutions for 102 public services.",
+   "confidence": 1
+  },
+  {
+   "claim": "Ten services are offered in the Certificate category at Jan Seva Kendra.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "certificate_services",
+   "detail": {
+    "amount": "10"
+   },
+   "sourceId": "src:d0924c737d11",
+   "evidence": "Ten services offered in Certificate. Click on the service of your choice to know application details.",
+   "confidence": 1
+  },
+  {
+   "claim": "Twenty-six services are offered in the Magisterial category at Jan Seva Kendra.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "magisterial_services",
+   "detail": {
+    "amount": "26"
+   },
+   "sourceId": "src:d0924c737d11",
+   "evidence": "Twenty six services offered in Magisterial. Click on the service of your choice to know application details.",
+   "confidence": 1
+  },
+  {
+   "claim": "Five services are offered in the Miscellaneous category at Jan Seva Kendra.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "miscellaneous_services",
+   "detail": {
+    "amount": "5"
+   },
+   "sourceId": "src:d0924c737d11",
+   "evidence": "Five services offered in Miscellaneous. Click on the service of your choice to know application details.",
+   "confidence": 1
+  },
+  {
+   "claim": "Thirty-one services are offered in the Revenue category at Jan Seva Kendra.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "revenue_services",
+   "detail": {
+    "amount": "31"
+   },
+   "sourceId": "src:d0924c737d11",
+   "evidence": "Thirty one services offered in Revenue. Click on the service of your choice to know application details.",
+   "confidence": 1
+  },
+  {
+   "claim": "One service is offered in the RTI category at Jan Seva Kendra.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "rti_service",
+   "detail": {
+    "amount": "1"
+   },
+   "sourceId": "src:d0924c737d11",
+   "evidence": "One service offered in RTI. Click on the service of your choice to know application details.",
+   "confidence": 1
+  },
+  {
+   "claim": "One service is offered in the Social Security category at Jan Seva Kendra.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "social_security_service",
+   "detail": {
+    "amount": "1"
+   },
+   "sourceId": "src:d0924c737d11",
+   "evidence": "One service offered in Social Security. Click on the service of your choice to know application details.",
+   "confidence": 1
+  },
+  {
+   "claim": "Thirteen services are offered in the Supply category at Jan Seva Kendra.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "supply_services",
+   "detail": {
+    "amount": "13"
+   },
+   "sourceId": "src:d0924c737d11",
+   "evidence": "Thirteen services offered in Supply. Click on the service of your choice to know application details.",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Collector of Kheda is Shri N. V. Upadhyay, IAS.",
+   "kind": "OFFICE",
+   "subject": "district_collector",
+   "object": "kheda",
+   "detail": {
+    "office_name": "Collector, Kheda",
+    "name": "Shri N. V. Upadhyay, IAS"
+   },
+   "sourceId": "src:d0924c737d11",
+   "evidence": "Shri N. V. Upadhyay, IAS Collector, Kheda",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Emergency Response Center can be contacted at +91 268 1077.",
+   "kind": "HELPLINE",
+   "subject": "district_emergency_response_center",
+   "object": "kheda",
+   "detail": {
+    "phone": "+91 268 1077"
+   },
+   "sourceId": "src:d0924c737d11",
+   "evidence": "District Emergency Response Center Call +91 268 1077",
+   "confidence": 1
+  },
+  {
+   "claim": "The Commissioner of Rescue & Relief can be contacted at 1070.",
+   "kind": "HELPLINE",
+   "subject": "commissioner_of_rescue_and_relief",
+   "object": "kheda",
+   "detail": {
+    "phone": "1070"
+   },
+   "sourceId": "src:d0924c737d11",
+   "evidence": "Commissioner of Rescue & Relief Call 1070",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra provides 102 government services under one roof.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "government_services",
+   "detail": {
+    "services_count": 102
+   },
+   "sourceId": "src:60e53d585639",
+   "evidence": "Jan Seva Kendra provides one stop solutions for 102 public services.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers certificate-related services.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "certificate_services",
+   "detail": {
+    "services_count": 10
+   },
+   "sourceId": "src:60e53d585639",
+   "evidence": "Certificate Ten services offered in Certificate.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers magisterial-related services.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "magisterial_services",
+   "detail": {
+    "services_count": 26
+   },
+   "sourceId": "src:60e53d585639",
+   "evidence": "Magisterial Twenty six services offered in Magisterial.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers miscellaneous-related services.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "miscellaneous_services",
+   "detail": {
+    "services_count": 5
+   },
+   "sourceId": "src:60e53d585639",
+   "evidence": "Miscellaneous Five services offered in Miscellaneous.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers revenue-related services.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "revenue_services",
+   "detail": {
+    "services_count": 31
+   },
+   "sourceId": "src:60e53d585639",
+   "evidence": "Revenue Thirty one services offered in Revenue.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers RTI-related services.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "rti_services",
+   "detail": {
+    "services_count": 1
+   },
+   "sourceId": "src:60e53d585639",
+   "evidence": "RTI One service offered in RTI.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers social security-related services.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "social_security_services",
+   "detail": {
+    "services_count": 1
+   },
+   "sourceId": "src:60e53d585639",
+   "evidence": "Social Security One service offered in Social Security.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers supply-related services.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "supply_services",
+   "detail": {
+    "services_count": 13
+   },
+   "sourceId": "src:60e53d585639",
+   "evidence": "Supply Thirteen services offered in Supply.",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Emergency Response Center can be contacted at +91 2762 1077.",
+   "kind": "HELPLINE",
+   "subject": "district_emergency_response_center",
+   "object": "contact",
+   "detail": {
+    "phone": "+91 2762 1077"
+   },
+   "sourceId": "src:60e53d585639",
+   "evidence": "District Emergency Response Center Call +91 2762 1077",
+   "confidence": 1
+  },
+  {
+   "claim": "The Commissioner of Rescue & Relief can be contacted at 1070.",
+   "kind": "HELPLINE",
+   "subject": "commissioner_of_rescue_and_relief",
+   "object": "contact",
+   "detail": {
+    "phone": "1070"
+   },
+   "sourceId": "src:60e53d585639",
+   "evidence": "Commissioner of Rescue & Relief Call 1070",
+   "confidence": 1
+  },
+  {
+   "claim": "The Senior Citizen helpline can be contacted at 14567.",
+   "kind": "HELPLINE",
+   "subject": "senior_citizen_helpline",
+   "object": "contact",
+   "detail": {
+    "phone": "14567"
+   },
+   "sourceId": "src:60e53d585639",
+   "evidence": "Publicize the Senior Citizen helpline Call 14567",
+   "confidence": 1
+  },
+  {
+   "claim": "A citizen can apply for 102 government services under one roof at Jan Seva Kendra, District Collectorate.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "government_services",
+   "detail": {
+    "services_count": 102
+   },
+   "sourceId": "src:9e3f2bafa37a",
+   "evidence": "Jan Seva Kendra provides one stop solutions for 102 public services.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen can apply for thirteen certificate-related services at Jan Seva Kendra.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "certificate_services",
+   "detail": {
+    "services_count": 13
+   },
+   "sourceId": "src:9e3f2bafa37a",
+   "evidence": "Thirteen services offered in Certificate.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen can apply for twenty-six magisterial services at Jan Seva Kendra.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "magisterial_services",
+   "detail": {
+    "services_count": 26
+   },
+   "sourceId": "src:9e3f2bafa37a",
+   "evidence": "Twenty six services offered in Magisterial.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen can apply for five miscellaneous services at Jan Seva Kendra.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "miscellaneous_services",
+   "detail": {
+    "services_count": 5
+   },
+   "sourceId": "src:9e3f2bafa37a",
+   "evidence": "Five services offered in Miscellaneous.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen can apply for thirty-one revenue-related services at Jan Seva Kendra.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "revenue_services",
+   "detail": {
+    "services_count": 31
+   },
+   "sourceId": "src:9e3f2bafa37a",
+   "evidence": "Thirty one services offered in Revenue.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen can apply for one RTI-related service at Jan Seva Kendra.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "rti_service",
+   "detail": {
+    "services_count": 1
+   },
+   "sourceId": "src:9e3f2bafa37a",
+   "evidence": "One service offered in RTI.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen can apply for one social security-related service at Jan Seva Kendra.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "social_security_service",
+   "detail": {
+    "services_count": 1
+   },
+   "sourceId": "src:9e3f2bafa37a",
+   "evidence": "One service offered in Social Security.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen can apply for thirteen supply-related services at Jan Seva Kendra.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "supply_services",
+   "detail": {
+    "services_count": 13
+   },
+   "sourceId": "src:9e3f2bafa37a",
+   "evidence": "Thirteen services offered in Supply.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen can apply for online services through the Digital Gujarat portal.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "digital_gujarat_portal",
+   "detail": {
+    "url": "Digital Gujarat"
+   },
+   "sourceId": "src:9e3f2bafa37a",
+   "evidence": "Click here for online application on Digital Gujarat",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen can apply for online services through the iORA portal for revenue-related services.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "i_ora_portal",
+   "detail": {
+    "url": "iORA"
+   },
+   "sourceId": "src:9e3f2bafa37a",
+   "evidence": "Click here for online application on iORA",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen can apply for online services through the NDAL-ALIS portal for magisterial-related services.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "ndal_alis_portal",
+   "detail": {
+    "url": "NDAL-ALIS"
+   },
+   "sourceId": "src:9e3f2bafa37a",
+   "evidence": "Click here for online application on NDAL-ALIS",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Jan Seva Kendra provides 102 public services under one roof.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "public_services",
+   "detail": {
+    "amount": "102"
+   },
+   "sourceId": "src:641e9f089b51",
+   "evidence": "Jan Seva Kendra provides one stop solutions for 102 public services.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers certificate-related services.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "certificate_services",
+   "detail": {},
+   "sourceId": "src:641e9f089b51",
+   "evidence": "Certificate Twelve services offered in Certificate.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers magisterial-related services.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "magisterial_services",
+   "detail": {},
+   "sourceId": "src:641e9f089b51",
+   "evidence": "Magisterial Twenty six services offered in Magisterial.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers miscellaneous-related services.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "miscellaneous_services",
+   "detail": {},
+   "sourceId": "src:641e9f089b51",
+   "evidence": "Miscellaneous Five services offered in Miscellaneous.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers revenue-related services.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "revenue_services",
+   "detail": {},
+   "sourceId": "src:641e9f089b51",
+   "evidence": "Revenue Thirty one services offered in Revenue.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers RTI-related services.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "rti_services",
+   "detail": {},
+   "sourceId": "src:641e9f089b51",
+   "evidence": "RTI One service offered in RTI.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers social security-related services.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "social_security_services",
+   "detail": {},
+   "sourceId": "src:641e9f089b51",
+   "evidence": "Social Security One service offered in Social Security.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra offers supply-related services.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "supply_services",
+   "detail": {},
+   "sourceId": "src:641e9f089b51",
+   "evidence": "Supply Thirteen services offered in Supply.",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Emergency Response Center can be contacted at +91 278 1077.",
+   "kind": "HELPLINE",
+   "subject": "district_emergency_response_center",
+   "object": "contact_number",
+   "detail": {
+    "phone": "+91 278 1077"
+   },
+   "sourceId": "src:641e9f089b51",
+   "evidence": "District Emergency Response Center Call +91 278 1077",
+   "confidence": 1
+  },
+  {
+   "claim": "The Commissioner of Rescue & Relief can be contacted at 1070.",
+   "kind": "HELPLINE",
+   "subject": "commissioner_of_rescue_and_relief",
+   "object": "contact_number",
+   "detail": {
+    "phone": "1070"
+   },
+   "sourceId": "src:641e9f089b51",
+   "evidence": "Commissioner of Rescue & Relief Call 1070",
+   "confidence": 1
+  },
+  {
+   "claim": "Jan Seva Kendra provides 102 government services under one roof",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "government_services",
+   "detail": {
+    "services_count": 102,
+    "description": "one stop solutions for public services"
+   },
+   "sourceId": "src:66188c3e9cca",
+   "evidence": "Jan Seva Kendra provides one stop solutions for 102 public services.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Jan Seva Kendra is located at District Collectorate Ahmedabad",
+   "kind": "OFFICE",
+   "subject": "jan_seva_kendra",
+   "object": "district_collectorate_ahmedabad",
+   "detail": {
+    "office_name": "District Collectorate",
+    "location": "Ahmedabad"
+   },
+   "sourceId": "src:66188c3e9cca",
+   "evidence": "Jan Seva Kendra, District Collectorate is the outcome of the strategic union of technology and positive governance.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "District Emergency Response Center can be reached at +91 79 1077",
+   "kind": "HELPLINE",
+   "subject": "district_emergency_response_center",
+   "object": "emergency_contact",
+   "detail": {
+    "phone": "+91 79 1077",
+    "purpose": "emergencies"
+   },
+   "sourceId": "src:66188c3e9cca",
+   "evidence": "District Emergency Response Center \r\nCall \r\n+91 79 1077",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Commissioner of Rescue & Relief can be reached at 1070",
+   "kind": "HELPLINE",
+   "subject": "commissioner_of_rescue_relief",
+   "object": "emergency_contact",
+   "detail": {
+    "phone": "1070",
+    "purpose": "rescue and relief"
+   },
+   "sourceId": "src:66188c3e9cca",
+   "evidence": "Commissioner of Rescue & Relief\r\nCall 1070",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Online applications can be submitted through Digital Gujarat portal",
+   "kind": "CHANNEL",
+   "subject": "citizen",
+   "object": "digital_gujarat_portal",
+   "detail": {
+    "url": "Digital Gujarat",
+    "purpose": "online application for services"
+   },
+   "sourceId": "src:66188c3e9cca",
+   "evidence": "ડિજિટલ ગુજરાત પર ઓનલાઇન અરજી માટે અહીં ક્લિક કરો",
+   "confidence": 0.9
+  },
+  {
+   "claim": "File tracking service is available through a link on the website",
+   "kind": "TRACKING",
+   "subject": "citizen",
+   "object": "file_tracking_system",
+   "detail": {
+    "access_method": "Click here : File Tracking"
+   },
+   "sourceId": "src:66188c3e9cca",
+   "evidence": "Click here : File Tracking",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Mamlatdar Office is a subordinate office under the Collectorate",
+   "kind": "OFFICE",
+   "subject": "mamlatdar_office",
+   "object": "collectorate_ahmedabad",
+   "detail": {
+    "office_type": "subordinate office"
+   },
+   "sourceId": "src:66188c3e9cca",
+   "evidence": "Mamlatdar Office",
+   "confidence": 0.8
+  },
+  {
+   "claim": "Prant Office is a subordinate office under the Collectorate",
+   "kind": "OFFICE",
+   "subject": "prant_office",
+   "object": "collectorate_ahmedabad",
+   "detail": {
+    "office_type": "subordinate office"
+   },
+   "sourceId": "src:66188c3e9cca",
+   "evidence": "Prant Office",
+   "confidence": 0.8
+  },
+  {
    "claim": "A citizen can access 102 government services under one roof at the Jan Seva Kendra, District Collectorate.",
    "kind": "CHANNEL",
    "subject": "jan_seva_kendra",
@@ -3557,6 +5185,175 @@
    "confidence": 0.95
   },
   {
+   "claim": "Jan Seva Kendra provides 102 government services under one roof",
+   "kind": "OFFICE",
+   "subject": "jan_seva_kendra",
+   "object": "government_services",
+   "detail": {
+    "serviceCount": 102,
+    "description": "one stop solutions for public services"
+   },
+   "sourceId": "src:c3c9fd2764ed",
+   "evidence": "Jan Seva Kendra provides one stop solutions for 102 public services.",
+   "confidence": 1
+  },
+  {
+   "claim": "Jan Seva Kendra is located at District Collectorate Sabarkantha",
+   "kind": "OFFICE",
+   "subject": "jan_seva_kendra",
+   "object": "district_collectorate_sabarkantha",
+   "detail": {
+    "location": "District Collectorate"
+   },
+   "sourceId": "src:c3c9fd2764ed",
+   "evidence": "Jan Seva Kendra, District Collectorate is the outcome of the strategic union of technology and positive governance.",
+   "confidence": 1
+  },
+  {
+   "claim": "District Emergency Response Center can be reached at +91 2772 1077",
+   "kind": "HELPLINE",
+   "subject": "district_emergency_response_center",
+   "object": "emergency_contact",
+   "detail": {
+    "phone": "+91 2772 1077"
+   },
+   "sourceId": "src:c3c9fd2764ed",
+   "evidence": "District Emergency Response Center\nCall +91 2772 1077",
+   "confidence": 1
+  },
+  {
+   "claim": "Commissioner of Rescue & Relief can be reached at 1070",
+   "kind": "HELPLINE",
+   "subject": "commissioner_of_rescue_relief",
+   "object": "emergency_contact",
+   "detail": {
+    "phone": "1070"
+   },
+   "sourceId": "src:c3c9fd2764ed",
+   "evidence": "Commissioner of Rescue & Relief\nCall 1070",
+   "confidence": 1
+  },
+  {
+   "claim": "The Collector of Sabarkantha is Shri Lalit Narayan Singh Sandu, IAS",
+   "kind": "OFFICE",
+   "subject": "collector_sabarkantha",
+   "object": "office_bearer",
+   "detail": {
+    "name": "Shri Lalit Narayan Singh Sandu, IAS"
+   },
+   "sourceId": "src:c3c9fd2764ed",
+   "evidence": "Shri Lalit Narayan Singh Sandu, IAS\nCollector, Sabarkantha",
+   "confidence": 1
+  },
+  {
+   "claim": "Mamlatdar Office is a sub-office under the Collectorate",
+   "kind": "OFFICE",
+   "subject": "mamlatdar_office",
+   "object": "collectorate_structure",
+   "detail": {},
+   "sourceId": "src:c3c9fd2764ed",
+   "evidence": "Offices  Mamlatdar Office",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Grievance Redressal is available as a branch service",
+   "kind": "GRIEVANCE",
+   "subject": "grievance_redressal",
+   "object": "branch_service",
+   "detail": {},
+   "sourceId": "src:c3c9fd2764ed",
+   "evidence": "Grievance Redressal",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Jan Seva Kendra provides one-stop solutions for 102 public services.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "public_services",
+   "detail": {
+    "amount": 102
+   },
+   "sourceId": "src:15de7da3d122",
+   "evidence": "Jan Seva Kendra provides one stop solutions for 102 public services.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra is located at the District Collectorate.",
+   "kind": "OFFICE",
+   "subject": "jan_seva_kendra",
+   "object": "district_collectorate",
+   "detail": {},
+   "sourceId": "src:15de7da3d122",
+   "evidence": "Jan Seva Kendra, District Collectorate is the outcome of the strategic union of technology and positive governance.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra provides downloadable application forms for each service.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:15de7da3d122",
+   "evidence": "Following section will let you understand documents required and downloadable application form for each service.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra provides services in Certificate, Magisterial, Miscellaneous, Revenue, RTI, Social Security, and Supply categories.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "service_categories",
+   "detail": {
+    "categories": [
+     "Certificate",
+     "Magisterial",
+     "Miscellaneous",
+     "Revenue",
+     "RTI",
+     "Social Security",
+     "Supply"
+    ]
+   },
+   "sourceId": "src:15de7da3d122",
+   "evidence": "Certificate\nMagisterial\nMiscellaneous\nRevenue\nRTI\nSocial Security\nSupply",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Emergency Response Center can be contacted at +91 2626 1071.",
+   "kind": "HELPLINE",
+   "subject": "district_emergency_response_center",
+   "object": "phone",
+   "detail": {
+    "phone": "+91 2626 1071"
+   },
+   "sourceId": "src:15de7da3d122",
+   "evidence": "District Emergency Response Center\nCall +91 2626 1071",
+   "confidence": 1
+  },
+  {
+   "claim": "The Commissioner of Rescue & Relief can be contacted at 1070.",
+   "kind": "HELPLINE",
+   "subject": "commissioner_of_rescue_and_relief",
+   "object": "phone",
+   "detail": {
+    "phone": "1070"
+   },
+   "sourceId": "src:15de7da3d122",
+   "evidence": "Commissioner of Rescue & Relief\nCall 1070",
+   "confidence": 1
+  },
+  {
+   "claim": "The District EOCs Helpline can be contacted at 02626 223332.",
+   "kind": "HELPLINE",
+   "subject": "district_eocs_helpline",
+   "object": "phone",
+   "detail": {
+    "phone": "02626 223332"
+   },
+   "sourceId": "src:15de7da3d122",
+   "evidence": "District EOCs Helpline & No.\nCall : 02626 223332",
+   "confidence": 1
+  },
+  {
    "claim": "The Jan Seva Kendra has 20 computers and a state-of-the-art server.",
    "kind": "OFFICE",
    "subject": "jan_seva_kendra",
@@ -3634,6 +5431,329 @@
    "sourceId": "src:173f71fd267e",
    "evidence": "For the first time in India all issues of the citizens charter are now arranged in a concise and simple application format mentioning legal provisions, officers responsible for taking decisions, enclosures and annexure expected from the citizens, number of days required for disposal at each stage in the Collectorate and its subordinate offices etc.",
    "confidence": 0.9
+  },
+  {
+   "claim": "The Jan Seva Kendra provides one-stop solutions for 102 public services.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "public_services",
+   "detail": {
+    "amount": 102
+   },
+   "sourceId": "src:8ec67122a7ee",
+   "evidence": "Jan Seva Kendra provides one stop solutions for 102 public services.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra is located at the District Collectorate.",
+   "kind": "OFFICE",
+   "subject": "jan_seva_kendra",
+   "object": "district_collectorate",
+   "detail": {},
+   "sourceId": "src:8ec67122a7ee",
+   "evidence": "Jan Seva Kendra, District Collectorate is the outcome of the strategic union of technology and positive governance.",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Control Room Helpline Number is 1950.",
+   "kind": "HELPLINE",
+   "subject": "district_control_room",
+   "object": "helpline_number",
+   "detail": {
+    "phone": "1950"
+   },
+   "sourceId": "src:8ec67122a7ee",
+   "evidence": "District Control Room Helpline Number - 1950",
+   "confidence": 1
+  },
+  {
+   "claim": "The State Control Room Helpline Number is 1800 2331014.",
+   "kind": "HELPLINE",
+   "subject": "state_control_room",
+   "object": "helpline_number",
+   "detail": {
+    "phone": "1800 2331014"
+   },
+   "sourceId": "src:8ec67122a7ee",
+   "evidence": "State Control Room Helpline Number - 1800 2331014",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Emergency Response Center can be contacted at +91 2674 1077.",
+   "kind": "HELPLINE",
+   "subject": "district_emergency_response_center",
+   "object": "helpline_number",
+   "detail": {
+    "phone": "+91 2674 1077"
+   },
+   "sourceId": "src:8ec67122a7ee",
+   "evidence": "District Emergency Response Center\nCall +91 2674 1077",
+   "confidence": 1
+  },
+  {
+   "claim": "The Commissioner of Rescue & Relief can be contacted at 1070.",
+   "kind": "HELPLINE",
+   "subject": "commissioner_of_rescue_and_relief",
+   "object": "helpline_number",
+   "detail": {
+    "phone": "1070"
+   },
+   "sourceId": "src:8ec67122a7ee",
+   "evidence": "Commissioner of Rescue & Relief\nCall 1070",
+   "confidence": 1
+  },
+  {
+   "claim": "Jan Seva Kendra provides 102 public services under one roof.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "public_services",
+   "detail": {
+    "count": 102
+   },
+   "sourceId": "src:6012e6a8f156",
+   "evidence": "Jan Seva Kendra provides one stop solutions for 102 public services.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra is located at the District Collectorate.",
+   "kind": "OFFICE",
+   "subject": "jan_seva_kendra",
+   "object": "district_collectorate",
+   "detail": {},
+   "sourceId": "src:6012e6a8f156",
+   "evidence": "Jan Seva Kendra, District Collectorate is the outcome of the strategic union of technology and positive governance.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra aims to provide paperless and place-independent governance services.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "governance_services",
+   "detail": {
+    "type": "paperless_place_independent"
+   },
+   "sourceId": "src:6012e6a8f156",
+   "evidence": "The initiative is aimed towards bringing effective e-Governance at the district level, while introducing the transition from traditional governance to paperless, place-independent governance services.",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Emergency Response Center can be contacted at +91 2632 1077.",
+   "kind": "HELPLINE",
+   "subject": "district_emergency_response_center",
+   "object": "contact",
+   "detail": {
+    "phone": "+91 2632 1077"
+   },
+   "sourceId": "src:6012e6a8f156",
+   "evidence": "District Emergency Response Center\nCall +91 2632 1077",
+   "confidence": 1
+  },
+  {
+   "claim": "The Voter Help Line Number is 1950.",
+   "kind": "HELPLINE",
+   "subject": "voter_help_line",
+   "object": "contact",
+   "detail": {
+    "phone": "1950"
+   },
+   "sourceId": "src:6012e6a8f156",
+   "evidence": "Voter Help line No\nCall 1950",
+   "confidence": 1
+  },
+  {
+   "claim": "The Commissioner of Rescue & Relief can be contacted at 1070.",
+   "kind": "HELPLINE",
+   "subject": "commissioner_of_rescue_and_relief",
+   "object": "contact",
+   "detail": {
+    "phone": "1070"
+   },
+   "sourceId": "src:6012e6a8f156",
+   "evidence": "Commissioner of Rescue & Relief\nCall 1070",
+   "confidence": 1
+  },
+  {
+   "claim": "The Jan Seva Kendra in District Kutch provides 102 government services under one roof.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "services",
+   "detail": {
+    "amount": "102"
+   },
+   "sourceId": "src:a668b1cd99aa",
+   "evidence": "Jan Seva Kendra provides one stop solutions for 102 public services.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Jan Seva Kendra provides revenue-related services, including land allocation for farming and non-farming purposes.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "revenue_services",
+   "detail": {
+    "services": [
+     "land allocation for farming",
+     "land allocation for non-farming"
+    ]
+   },
+   "sourceId": "src:a668b1cd99aa",
+   "evidence": "Revenue Thirty one services offered in Revenue. Click on the service of your choice to know application details. ગામ તળ માટે જમીન નીમ કરવા બાબત સરકારી ખાતા / કચેરીઓને જમીનની માંગણી બાબત",
+   "confidence": 0.85
+  },
+  {
+   "claim": "The Jan Seva Kendra provides supply-related services, including new ration card applications and modifications to existing ration cards.",
+   "kind": "ACTION",
+   "subject": "jan_seva_kendra",
+   "object": "supply_services",
+   "detail": {
+    "services": [
+     "new ration card",
+     "ration card modification"
+    ]
+   },
+   "sourceId": "src:a668b1cd99aa",
+   "evidence": "Supply Thirteen services offered in Supply. Click on the service of your choice to know application details. નવું રેશન કાર્ડ મેળવવા બાબત અલગ રેશન કાર્ડ મેળવવા બાબત",
+   "confidence": 0.85
+  },
+  {
+   "claim": "The District Emergency Response Center can be contacted at +91 2832 1077 for emergencies.",
+   "kind": "HELPLINE",
+   "subject": "district_emergency_response_center",
+   "object": "contact",
+   "detail": {
+    "phone": "+91 2832 1077"
+   },
+   "sourceId": "src:a668b1cd99aa",
+   "evidence": "District Emergency Response Center Call +91 2832 1077",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Commissioner of Rescue & Relief can be contacted at 1070 for emergencies.",
+   "kind": "HELPLINE",
+   "subject": "commissioner_of_rescue_and_relief",
+   "object": "contact",
+   "detail": {
+    "phone": "1070"
+   },
+   "sourceId": "src:a668b1cd99aa",
+   "evidence": "Commissioner of Rescue & Relief Call 1070",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Jan Seva Kendra provides one stop solutions for 102 public services.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "public_services",
+   "detail": {
+    "services_count": 102
+   },
+   "sourceId": "src:8d4a20ae6688",
+   "evidence": "Jan Seva Kendra provides one stop solutions for 102 public services.",
+   "confidence": 1
+  },
+  {
+   "claim": "Jan Seva Kendra is located at the District Collectorate.",
+   "kind": "OFFICE",
+   "subject": "jan_seva_kendra",
+   "object": "district_collectorate",
+   "detail": {
+    "location": "District Collectorate"
+   },
+   "sourceId": "src:8d4a20ae6688",
+   "evidence": "Jan Seva Kendra, District Collectorate is the outcome of the strategic union of technology and positive governance.",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Emergency Response Center can be contacted at 1800 233 24160.",
+   "kind": "HELPLINE",
+   "subject": "district_emergency_response_center",
+   "object": "emergency",
+   "detail": {
+    "phone": "1800 233 24160"
+   },
+   "sourceId": "src:8d4a20ae6688",
+   "evidence": "District Emergency Response Center\nCall 1800 233 24160",
+   "confidence": 1
+  },
+  {
+   "claim": "The National Helpline for Senior Citizens (Elder Line) can be contacted at 14567.",
+   "kind": "HELPLINE",
+   "subject": "national_helpline_for_senior_citizens",
+   "object": "senior_citizens",
+   "detail": {
+    "phone": "14567"
+   },
+   "sourceId": "src:8d4a20ae6688",
+   "evidence": "National Helpline for Senior Citizens\n(Elder Line)\nCall 14567",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Election Helpline Number is 1950.",
+   "kind": "HELPLINE",
+   "subject": "district_election_helpline",
+   "object": "election",
+   "detail": {
+    "phone": "1950"
+   },
+   "sourceId": "src:8d4a20ae6688",
+   "evidence": "District Election Helpline Number\nCall 1950",
+   "confidence": 1
+  },
+  {
+   "claim": "Jan Seva Kendra provides one stop solutions for 102 public services.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "public_services",
+   "detail": {
+    "services_count": 102
+   },
+   "sourceId": "src:18eda4a671a4",
+   "evidence": "Jan Seva Kendra provides one stop solutions for 102 public services.",
+   "confidence": 1
+  },
+  {
+   "claim": "Jan Seva Kendra provides services in Certificate, Magisterial, Miscellaneous, Revenue, RTI, Social Security, Supply, and Tenancy categories.",
+   "kind": "CHANNEL",
+   "subject": "jan_seva_kendra",
+   "object": "service_categories",
+   "detail": {
+    "categories": [
+     "Certificate",
+     "Magisterial",
+     "Miscellaneous",
+     "Revenue",
+     "RTI",
+     "Social Security",
+     "Supply",
+     "Tenancy"
+    ]
+   },
+   "sourceId": "src:18eda4a671a4",
+   "evidence": "Certificate\nMagisterial\nMiscellaneous\nRevenue\nRTI\nSocial Security\nSupply\nCertificate\nTen services offered in Certificate. Click on the service of your choice to know application details.",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Emergency Response Center can be contacted at +91 2849 1077.",
+   "kind": "HELPLINE",
+   "subject": "district_emergency_response_center",
+   "object": "contact_number",
+   "detail": {
+    "phone": "+91 2849 1077"
+   },
+   "sourceId": "src:18eda4a671a4",
+   "evidence": "District Emergency Response Center\nCall +91 2849 1077",
+   "confidence": 1
+  },
+  {
+   "claim": "The Commissioner of Rescue & Relief can be contacted at 1070.",
+   "kind": "HELPLINE",
+   "subject": "commissioner_of_rescue_and_relief",
+   "object": "contact_number",
+   "detail": {
+    "phone": "1070"
+   },
+   "sourceId": "src:18eda4a671a4",
+   "evidence": "Commissioner of Rescue & Relief\nCall 1070",
+   "confidence": 1
   },
   {
    "claim": "A merit list of all applicants who pass the entrance test will be prepared based on aggregated marks.",
@@ -7356,6 +9476,441 @@
    "confidence": 0.95
   },
   {
+   "claim": "The District Collector Office is located at Block No.3, MS Building, Rajmahal road, Mehsana, Gujarat - 384001.",
+   "kind": "OFFICE",
+   "subject": "district_collector_office",
+   "object": "address",
+   "detail": {
+    "address": "Block No.3, MS Building, Rajmahal road, Mehsana, Gujarat - 384001"
+   },
+   "sourceId": "src:e8b2f0130818",
+   "evidence": "District Collector Office\nBlock No.3, MS Building,\nRajmahal road,\nMehsana,\nGujarat - 384001",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Collector Office can be contacted at +91 2762 222203 and +91 2762 222202.",
+   "kind": "CHANNEL",
+   "subject": "district_collector_office",
+   "object": "phone_numbers",
+   "detail": {
+    "phone_numbers": [
+     "+91 2762 222203",
+     "+91 2762 222202"
+    ]
+   },
+   "sourceId": "src:e8b2f0130818",
+   "evidence": "+91 2762 222203\n+91 2762 222202",
+   "confidence": 1
+  },
+  {
+   "claim": "The email address for the District Collector Office is collector-meh[at]gujarat[dot]gov[dot]in.",
+   "kind": "CHANNEL",
+   "subject": "district_collector_office",
+   "object": "email",
+   "detail": {
+    "email": "collector-meh[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:e8b2f0130818",
+   "evidence": "collector-meh[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Helpline number is +91 2762 1077.",
+   "kind": "HELPLINE",
+   "subject": "district_helpline",
+   "object": "phone_number",
+   "detail": {
+    "phone_number": "+91 2762 1077"
+   },
+   "sourceId": "src:e8b2f0130818",
+   "evidence": "District Helpline\nCall : +91 2762 1077",
+   "confidence": 1
+  },
+  {
+   "claim": "The District EOCs Helpline number is +91 2762.",
+   "kind": "HELPLINE",
+   "subject": "district_eocs_helpline",
+   "object": "phone_number",
+   "detail": {
+    "phone_number": "+91 2762"
+   },
+   "sourceId": "src:e8b2f0130818",
+   "evidence": "District EOCs Helpline No.\nCall : +91 2762",
+   "confidence": 1
+  },
+  {
+   "claim": "The Commissioner of Rescue & Relief can be contacted at 1070.",
+   "kind": "HELPLINE",
+   "subject": "commissioner_of_rescue_and_relief",
+   "object": "phone_number",
+   "detail": {
+    "phone_number": "1070"
+   },
+   "sourceId": "src:e8b2f0130818",
+   "evidence": "Commissioner of Rescue & Relief\nCall : 1070",
+   "confidence": 1
+  },
+  {
+   "claim": "The Senior Citizen helpline number is 14567.",
+   "kind": "HELPLINE",
+   "subject": "senior_citizen_helpline",
+   "object": "phone_number",
+   "detail": {
+    "phone_number": "14567"
+   },
+   "sourceId": "src:e8b2f0130818",
+   "evidence": "Publicize the Senior Citizen helpline\nCall : 14567",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Emergency Response Center can be contacted at +91 2762 1077.",
+   "kind": "HELPLINE",
+   "subject": "district_emergency_response_center",
+   "object": "phone_number",
+   "detail": {
+    "phone_number": "+91 2762 1077"
+   },
+   "sourceId": "src:e8b2f0130818",
+   "evidence": "District Emergency Response Center\nCall\n+91 2762 1077",
+   "confidence": 1
+  },
+  {
+   "claim": "The Collector of Mehsana is Shri S. K. Prajapati, IAS, and can be contacted at +91 2762 222200 and collector-meh[at]gujarat[dot]gov[dot]in.",
+   "kind": "OFFICE",
+   "subject": "collector_mehsana",
+   "object": "contact_details",
+   "detail": {
+    "name": "Shri S. K. Prajapati, IAS",
+    "designation": "Collector, Mehsana",
+    "phone_number": "+91 2762 222200",
+    "email": "collector-meh[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:e8b2f0130818",
+   "evidence": "Shri S. K. Prajapati, IAS | Collector, Mehsana | +91 2762 222200\ncollector-meh[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The Resident Additional Collector is Shri J. K. Jegoda and can be contacted at +91 2762 222203 and Add-collector-meh[at]gujarat[dot]gov[dot]in.",
+   "kind": "OFFICE",
+   "subject": "resident_addi_collector",
+   "object": "contact_details",
+   "detail": {
+    "name": "Shri J. K. Jegoda",
+    "designation": "Resident Addi. Collector",
+    "phone_number": "+91 2762 222203",
+    "email": "Add-collector-meh[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:e8b2f0130818",
+   "evidence": "Shri J. K. Jegoda | Resident Addi. Collector | +91 2762 222203\nAdd-collector-meh[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Collector Office is located near North Gujarat University in Patan, Gujarat - 384265.",
+   "kind": "OFFICE",
+   "subject": "district_collector_office",
+   "object": "location",
+   "detail": {
+    "address": "Near North Gujarat University, Patan, Gujarat - 384265"
+   },
+   "sourceId": "src:f4fa34090a66",
+   "evidence": "District Collector Office\nNear North Gujarat University,\nPatan,\nGujarat - 384265",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact number for the District Collector Office is +91 2766 233301.",
+   "kind": "CHANNEL",
+   "subject": "district_collector_office",
+   "object": "phone",
+   "detail": {
+    "phone": "+91 2766 233301"
+   },
+   "sourceId": "src:f4fa34090a66",
+   "evidence": "+91 2766 233301",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact number for the District Collector Office is +91 2766 233055.",
+   "kind": "CHANNEL",
+   "subject": "district_collector_office",
+   "object": "phone",
+   "detail": {
+    "phone": "+91 2766 233055"
+   },
+   "sourceId": "src:f4fa34090a66",
+   "evidence": "+91 2766 233055",
+   "confidence": 1
+  },
+  {
+   "claim": "The email address for the District Collector Office is collector-pat[at]gujarat[dot]gov[dot]in.",
+   "kind": "CHANNEL",
+   "subject": "district_collector_office",
+   "object": "email",
+   "detail": {
+    "email": "collector-pat[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:f4fa34090a66",
+   "evidence": "collector-pat[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Helpline number is +91 2766 1077.",
+   "kind": "HELPLINE",
+   "subject": "district_helpline",
+   "object": "phone",
+   "detail": {
+    "phone": "+91 2766 1077"
+   },
+   "sourceId": "src:f4fa34090a66",
+   "evidence": "District Helpline\nCall : +91 2766 1077",
+   "confidence": 1
+  },
+  {
+   "claim": "The District EOCs Helpline number is +91 2766.",
+   "kind": "HELPLINE",
+   "subject": "district_eocs_helpline",
+   "object": "phone",
+   "detail": {
+    "phone": "+91 2766"
+   },
+   "sourceId": "src:f4fa34090a66",
+   "evidence": "District EOCs Helpline No.\nCall : +91 2766",
+   "confidence": 1
+  },
+  {
+   "claim": "The Commissioner of Rescue & Relief can be contacted at 1070.",
+   "kind": "HELPLINE",
+   "subject": "commissioner_of_rescue_and_relief",
+   "object": "phone",
+   "detail": {
+    "phone": "1070"
+   },
+   "sourceId": "src:f4fa34090a66",
+   "evidence": "Commissioner of Rescue & Relief\nCall : 1070",
+   "confidence": 1
+  },
+  {
+   "claim": "Dr. Prashant Jilova, IAS, is the Collector of Patan and can be contacted at +91 2766 233400.",
+   "kind": "OFFICE",
+   "subject": "collector_patan",
+   "object": "contact",
+   "detail": {
+    "name": "Dr. Prashant Jilova, IAS",
+    "designation": "Collector Patan",
+    "phone": "+91 2766 233400",
+    "email": "collector-pat[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:f4fa34090a66",
+   "evidence": "Dr. Prashant Jilova, IAS | Collector Patan | +91 2766 233400\ncollector-pat[at]gujarat[dot]gov[dot]in |",
+   "confidence": 1
+  },
+  {
+   "claim": "Shri V. C. Bodana is the Resident Addl. Collector and can be contacted at +91 2766 233400.",
+   "kind": "OFFICE",
+   "subject": "resident_addl_collector",
+   "object": "contact",
+   "detail": {
+    "name": "Shri V. C. Bodana",
+    "designation": "Resident Addl. Collector",
+    "phone": "+91 2766 233400",
+    "email": "add-collector-pat[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:f4fa34090a66",
+   "evidence": "Shri V. C. Bodana | Resident Addl. Collector | +91 2766 233400\nadd-collector-pat[at]gujarat[dot]gov[dot]in |",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Collector Office is located at 1st Floor, Lalpur Bypass Road, Dharampur, Khambhalia, Gujarat - 361305.",
+   "kind": "OFFICE",
+   "subject": "district_collector_office",
+   "object": "address",
+   "detail": {
+    "address": "1st Floor, Lalpur Bypass Road, Dharampur, Khambhalia, Gujarat - 361305"
+   },
+   "sourceId": "src:892ce8fb705b",
+   "evidence": "Contact\nDwarka\nDistrict Collector Office\n1st Floor, Lalpur Bypass Road, Dharampur,\nKhambhalia,\nGujarat - 361305",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Collector Office can be contacted at +91 2833 232805.",
+   "kind": "HELPLINE",
+   "subject": "district_collector_office",
+   "object": "phone",
+   "detail": {
+    "phone": "+91 2833 232805"
+   },
+   "sourceId": "src:892ce8fb705b",
+   "evidence": "District Collector Office\n1st Floor, Lalpur Bypass Road, Dharampur,\nKhambhalia,\nGujarat - 361305\n+91 2833 232805\n+91 2833 232102",
+   "confidence": 1
+  },
+  {
+   "claim": "The email address for the District Collector Office is collector-devbdwarka[at]gujarat[dot]gov[dot]in.",
+   "kind": "CHANNEL",
+   "subject": "district_collector_office",
+   "object": "email",
+   "detail": {
+    "email": "collector-devbdwarka[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:892ce8fb705b",
+   "evidence": "Shri R. M. Tanna, IAS | Collector, Devbhumi Dwarka | +91 2833 232804/05\ncollector-devbdwarka[at]gujarat[dot]gov[dot]in |",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Helpline can be contacted at +91 2833 1077.",
+   "kind": "HELPLINE",
+   "subject": "district_helpline",
+   "object": "phone",
+   "detail": {
+    "phone": "+91 2833 1077"
+   },
+   "sourceId": "src:892ce8fb705b",
+   "evidence": "District Helpline\nCall : +91 2833 1077",
+   "confidence": 1
+  },
+  {
+   "claim": "The District EOCs Helpline can be contacted at +91 2833 232125.",
+   "kind": "HELPLINE",
+   "subject": "district_eocs_helpline",
+   "object": "phone",
+   "detail": {
+    "phone": "+91 2833 232125"
+   },
+   "sourceId": "src:892ce8fb705b",
+   "evidence": "District EOCs Helpline No.\nCall : +91 2833 232125",
+   "confidence": 1
+  },
+  {
+   "claim": "The Commissioner of Rescue & Relief can be contacted at 1070.",
+   "kind": "HELPLINE",
+   "subject": "commissioner_of_rescue_and_relief",
+   "object": "phone",
+   "detail": {
+    "phone": "1070"
+   },
+   "sourceId": "src:892ce8fb705b",
+   "evidence": "Commissioner of Rescue & Relief\nCall : 1070",
+   "confidence": 1
+  },
+  {
+   "claim": "The Deputy Collector can be contacted at +91 2833 232620.",
+   "kind": "HELPLINE",
+   "subject": "deputy_collector",
+   "object": "phone",
+   "detail": {
+    "phone": "+91 2833 232620"
+   },
+   "sourceId": "src:892ce8fb705b",
+   "evidence": "Shri M. V. Desai | Resident Additional Collector | +91 2833 232620\naddl-collector-dev[at]gujarat[dot]gov[dot]in |",
+   "confidence": 1
+  },
+  {
+   "claim": "The email address for the Resident Additional Collector is addl-collector-dev[at]gujarat[dot]gov[dot]in.",
+   "kind": "CHANNEL",
+   "subject": "resident_additional_collector",
+   "object": "email",
+   "detail": {
+    "email": "addl-collector-dev[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:892ce8fb705b",
+   "evidence": "Shri M. V. Desai | Resident Additional Collector | +91 2833 232620\naddl-collector-dev[at]gujarat[dot]gov[dot]in |",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Emergency Response Center can be contacted at +91 2833 1077.",
+   "kind": "HELPLINE",
+   "subject": "district_emergency_response_center",
+   "object": "phone",
+   "detail": {
+    "phone": "+91 2833 1077"
+   },
+   "sourceId": "src:892ce8fb705b",
+   "evidence": "District Emergency Response Center\nCall +91 2833 1077",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Collector Office is located at Jilla Seva Sadan, 1st Floor, Khas Road, Botad - 364710, Gujarat.",
+   "kind": "OFFICE",
+   "subject": "district_collector_office",
+   "object": "botad",
+   "detail": {
+    "address": "Jilla Seva Sadan, 1st Floor, Khas Road, Botad - 364710, Gujarat"
+   },
+   "sourceId": "src:3efbc1120113",
+   "evidence": "Botad\nDistrict Collector Office\nJilla Seva Sadan,\n1st Floor, Khas Road,\nBotad - 364710\nGujarat",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact number for the District Collector Office is +91 2849 271305.",
+   "kind": "HELPLINE",
+   "subject": "district_collector_office",
+   "object": "botad",
+   "detail": {
+    "phone": "+91 2849 271305"
+   },
+   "sourceId": "src:3efbc1120113",
+   "evidence": "+91 2849 271305\n+91 2849 271304",
+   "confidence": 1
+  },
+  {
+   "claim": "The email address for the District Collector Office is collector-botad[at]gujarat[dot]gov[dot]in.",
+   "kind": "CHANNEL",
+   "subject": "district_collector_office",
+   "object": "botad",
+   "detail": {
+    "email": "collector-botad[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:3efbc1120113",
+   "evidence": "collector-botad[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Helpline number is +91 2849 1077.",
+   "kind": "HELPLINE",
+   "subject": "district_helpline",
+   "object": "botad",
+   "detail": {
+    "phone": "+91 2849 1077"
+   },
+   "sourceId": "src:3efbc1120113",
+   "evidence": "District Helpline\nCall : +91 2849 1077",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Emergency Response Center can be contacted at +91 2849 1077.",
+   "kind": "HELPLINE",
+   "subject": "district_emergency_response_center",
+   "object": "botad",
+   "detail": {
+    "phone": "+91 2849 1077"
+   },
+   "sourceId": "src:3efbc1120113",
+   "evidence": "District Emergency Response Center\nCall +91 2849 1077",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact number for the District Collector, Shri H. M. Vora, IAS, is +91 2849 271305.",
+   "kind": "HELPLINE",
+   "subject": "district_collector",
+   "object": "shri_h_m_vora",
+   "detail": {
+    "phone": "+91 2849 271305"
+   },
+   "sourceId": "src:3efbc1120113",
+   "evidence": "Shri H. M. Vora, IAS | District Collector & District Magistrate, Botad | +91 2849 271305\n+91 2849 271304\ncollector-botad[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact number for the Resi. Addi. Coll. & Addi. Dist. Magistrate, Shri P. L. Zankat, is +91 2849 271305.",
+   "kind": "HELPLINE",
+   "subject": "resi_addi_coll_addi_dist_magistrate",
+   "object": "shri_p_l_zankat",
+   "detail": {
+    "phone": "+91 2849 271305"
+   },
+   "sourceId": "src:3efbc1120113",
+   "evidence": "Shri P. L. Zankat | Resi. Addi. Coll. & Addi. Dist. Magistrate, Botad | +91 2849 271305\ncollector-botad[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
    "claim": "Teachers must have completed three years of service in their current school to participate in intra-district transfer camps.",
    "kind": "ELIGIBILITY",
    "subject": "intra_district_transfer",
@@ -8456,6 +11011,90 @@
    "confidence": 1
   },
   {
+   "claim": "The Gujarat State Commission for Unreserved Classes (GSCUC) is located at Block Number 1, 6th floor, Karmayogi Bhavan, Sector 10, Gandhinagar, Gujarat - 382010.",
+   "kind": "OFFICE",
+   "subject": "gscuc_office",
+   "object": "gandhinagar",
+   "detail": {
+    "address": "Block Number 1, 6th floor, Karmayogi Bhavan, Sector 10, Gandhinagar, Gujarat - 382010"
+   },
+   "sourceId": "src:041e18ca9c00",
+   "evidence": "ગુજરાત રાજ્ય બિન અનામત વર્ગોના આયોગનું (GSCUC) સરનામું અને સંપર્ક નંબર શું છે?\nબ્લોક નંબર 1, 6ઠ્ઠો માળ, કર્મયોગી ભવન, સેક્ટર 10, ગાંધીનગર, ગુજરાત - 382010",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact number for the Gujarat State Commission for Unreserved Classes (GSCUC) is 079 23258647.",
+   "kind": "HELPLINE",
+   "subject": "gscuc_office",
+   "object": "helpline",
+   "detail": {
+    "phone": "079 23258647"
+   },
+   "sourceId": "src:041e18ca9c00",
+   "evidence": "ગુજરાત રાજ્ય બિન અનામત વર્ગોના આયોગનું (GSCUC) સરનામું અને સંપર્ક નંબર શું છે?\nબ્લોક નંબર 1, 6ઠ્ઠો માળ, કર્મયોગી ભવન, સેક્ટર 10, ગાંધીનગર, ગુજરાત - 382010\nફોન નંબર: 079 23258647",
+   "confidence": 1
+  },
+  {
+   "claim": "The website address for the Gujarat Unreserved Educational and Economic Development Corporation (GUEEDC) is https://gueedc.gujarat.gov.in/.",
+   "kind": "CHANNEL",
+   "subject": "gueedc_website",
+   "object": "website",
+   "detail": {
+    "url": "https://gueedc.gujarat.gov.in/"
+   },
+   "sourceId": "src:041e18ca9c00",
+   "evidence": "ગુજરાત બિન અનામત શૈક્ષણિક અને આર્થિક વિકાસ નિગમની (GUEEDC) વેબસાઇટનુ સરનામું શું છે??\nવેબસાઇટનુ સરનામું : https://gueedc.gujarat.gov.in/",
+   "confidence": 1
+  },
+  {
+   "claim": "The Gujarat Unreserved Educational and Economic Development Corporation (GUEEDC) is located at Block Number 2, 7th floor, Karmayogi Bhavan, Sector 10, Gandhinagar, Gujarat - 382010.",
+   "kind": "OFFICE",
+   "subject": "gueedc_office",
+   "object": "gandhinagar",
+   "detail": {
+    "address": "Block Number 2, 7th floor, Karmayogi Bhavan, Sector 10, Gandhinagar, Gujarat - 382010"
+   },
+   "sourceId": "src:041e18ca9c00",
+   "evidence": "ગુજરાત બિન અનામત શૈક્ષણિક અને આર્થિક વિકાસ નિગમનું સરનામું અને સંપર્ક નંબર શું છે?\nસરનામું :બ્લોક નંબર 2, 7મો માળ, કર્મયોગી ભવન, સેક્ટર 10, ગાંધીનગર, ગુજરાત - 382010",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact number for the Gujarat Unreserved Educational and Economic Development Corporation (GUEEDC) is 079 23258647.",
+   "kind": "HELPLINE",
+   "subject": "gueedc_office",
+   "object": "helpline",
+   "detail": {
+    "phone": "079 23258647"
+   },
+   "sourceId": "src:041e18ca9c00",
+   "evidence": "ગુજરાત બિન અનામત શૈક્ષણિક અને આર્થિક વિકાસ નિગમનું સરનામું અને સંપર્ક નંબર શું છે?\nસરનામું :બ્લોક નંબર 2, 7મો માળ, કર્મયોગી ભવન, સેક્ટર 10, ગાંધીનગર, ગુજરાત - 382010\nફોન નંબર: 079 23258647",
+   "confidence": 1
+  },
+  {
+   "claim": "The competent authorities for issuing a certificate for non-reserved classes include Collector / Assistant Collector / Deputy Collector, District Development Officer / Deputy District Development Officer, Mamlatdar, Taluka Development Officer, District Deputy Controller (SC/ST) and District Social Welfare Officer (SC/ST).",
+   "kind": "OFFICE",
+   "subject": "non_reserved_certificate_authorities",
+   "object": "authorities",
+   "detail": {
+    "authorities": "Collector / Assistant Collector / Deputy Collector, District Development Officer / Deputy District Development Officer, Mamlatdar, Taluka Development Officer, District Deputy Controller (SC/ST) and District Social Welfare Officer (SC/ST)"
+   },
+   "sourceId": "src:041e18ca9c00",
+   "evidence": "બિનઅનામત વર્ગોનું પ્રમાણપત્ર આપવા માટે સક્ષમ સત્તાધિકારીઓ જણાવો ?\nકલેકટર / મદદનીશ કલેકટર / નાયબ કલેકટર,\nજિલ્લા વિકાસ અધિકારી / નાયબ જિલ્લા વિકાસ અધિકારી,\nમામલતદાર\nતાલુકા વિકાસ અધિકારી,\nજિલ્લા નાયબ નિયામક (વિ.જા) અને જિલ્લા સમાજ કલ્યાણ અધિકારી (વિ.જા.)",
+   "confidence": 1
+  },
+  {
+   "claim": "The competent authorities for issuing an income certificate for economically weaker sections (10% reservation) include District Magistrate / Additional District Magistrate / Collector / Additional Collector / Assistant Collector / Deputy Collector, Revenue Officers not below the level of Mamlatdar / Tehsildar, Taluka Development Officer, District Deputy Controller (SC/ST) and District Social Welfa",
+   "kind": "OFFICE",
+   "subject": "economically_weaker_income_certificate_authorities",
+   "object": "authorities",
+   "detail": {
+    "authorities": "District Magistrate / Additional District Magistrate / Collector / Additional Collector / Assistant Collector / Deputy Collector, Revenue Officers not below the level of Mamlatdar / Tehsildar, Taluka Development Officer, District Deputy Controller (SC/ST) and District Social Welfare Officer (SC/ST)"
+   },
+   "sourceId": "src:041e18ca9c00",
+   "evidence": "આર્થિક રીતે નબળા વર્ગો (10% અનામત) માટે આવક પ્રમાણપત્ર માટે સક્ષમ સત્તાધિકારીઓ જણાવો ?\nજિલ્લા મેજીસ્ટ્રેટ / અધિક જિલ્લા મેજીસ્ટ્રેટ / કલેકટર / અધિક કલેકટર / આસી. કલેકટર/ નાયબ કલેકટર,\nમામલતદાર / તહેશીલદારની કક્ષાથી નીચેની કક્ષાના ન હોય તેવા રેવન્યુ અધિકારીઓ\nતાલુકા વિકાસ અધિકારી\nજિલ્લા નાયબ નિયામક (વિ.જા) અને જિલ્લા સમાજ કલ્યાણ અધિકારી (વિ.જા.)",
+   "confidence": 1
+  },
+  {
    "claim": "The application must be submitted to the City Survey Superintendent.",
    "kind": "ACTION",
    "subject": "application_submission",
@@ -8822,6 +11461,64 @@
    "confidence": 0.9
   },
   {
+   "claim": "The police headquarters in Surendranagar is responsible for the safety and law and order in the district.",
+   "kind": "OFFICE",
+   "subject": "surendranagar_police_headquarters",
+   "object": "district_safety_law_order",
+   "detail": {
+    "officeName": "પોલીસ અધીક્ષકશ્રીની કચેરી, સુરેન્દ્રનગર"
+   },
+   "sourceId": "src:e9f390b32eed",
+   "evidence": "સુરેન્દ્રનગર જિલ્લા પોલીસ આપની સલામતી અને જિલ્લામાં કાયદા અને વ્યવસ્થાની જાળવણી માટે સતત સક્રિય છે.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The website aims to bring the district police and citizens closer to each other.",
+   "kind": "ACTION",
+   "subject": "surendranagar_police_website",
+   "object": "citizen_police_connectivity",
+   "detail": {},
+   "sourceId": "src:e9f390b32eed",
+   "evidence": "આ વેબસાઈટ જિલ્લા પોલીસ અને નાગરિકોને પરસ્પરની નજીક લાવવાનો એક સંનિષ્ઠ પ્રયાસ છે.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Citizens can search for lost or stolen vehicles through the police website.",
+   "kind": "ACTION",
+   "subject": "citizen",
+   "object": "search_lost_stolen_vehicles",
+   "detail": {
+    "url": "https://spsurendranagar.gujarat.gov.in/"
+   },
+   "sourceId": "src:e9f390b32eed",
+   "evidence": "ખોવાયેલ/ચોરાયેલ વાહનો શોધો",
+   "confidence": 0.85
+  },
+  {
+   "claim": "The police headquarters in Surendranagar is led by Mr. Prem Sukh Delu, IPS.",
+   "kind": "OFFICE",
+   "subject": "surendranagar_police_headquarters",
+   "object": "police_superintendent",
+   "detail": {
+    "name": "શ્રી પ્રેમસુખ ડેલૂ (આઇ.પી.એસ.)"
+   },
+   "sourceId": "src:e9f390b32eed",
+   "evidence": "પોલીસ અધીક્ષકશ્રી, સુરેન્દ્રનગર | | શ્રી પ્રેમસુખ ડેલૂ (આઇ.પી.એસ.)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Citizens can access various police services online, including police clearance certificates and passport-related services.",
+   "kind": "CHANNEL",
+   "subject": "citizen",
+   "object": "online_police_services",
+   "detail": {
+    "url": "https://spsurendranagar.gujarat.gov.in/"
+   },
+   "sourceId": "src:e9f390b32eed",
+   "evidence": "ઓનલાઈન સેવાઓ | | | | | ખોવાયેલ વ્‍યક્તિ/વસ્‍તુની વ્‍યક્તિ મોબાઇલ પાસપોર્ટ વાહનો અન્‍ય Search1",
+   "confidence": 0.8
+  },
+  {
    "claim": "The application form for the Certificate of Unreserved Classes can be downloaded.",
    "kind": "CHANNEL",
    "subject": "unreserved_classes_certificate",
@@ -8984,6 +11681,89 @@
    "confidence": 0.9
   },
   {
+   "claim": "The Gujarat State Seed Certificate Agency was established in 1969 under the Seed Act, 1966.",
+   "kind": "OFFICE",
+   "subject": "gujarat_state_seed_certificate_agency",
+   "object": "establishment",
+   "detail": {
+    "year": "1969",
+    "act": "Seed Act, 1966"
+   },
+   "sourceId": "src:72cbddd6cfa6",
+   "evidence": "બીજ અધિનિયમ, 1966 ની જોગવાઈ કલમ-8 મુજબ બીજ પ્રમાણન એજન્સીની સ્થાપના વર્ષ 1969 માં ગુજરાત રાજ્ય સરકાર દ્વારા રાજ્યના કૃષિ વિભાગમાં અલગ પાંખ તરીકે કરવામાં આવી હતી. -07-1969",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Gujarat State Seed Certificate Agency is located at Manek Bagh-Shyamal Road, Shyamal Ro-Haus, Sector-5, Satellite, Ahmedabad-380015.",
+   "kind": "OFFICE",
+   "subject": "gujarat_state_seed_certificate_agency",
+   "object": "address",
+   "detail": {
+    "address": "ગુજરાત રાજ્ય બીજ પ્રમાણન એજન્સી, માણેક બાગ-શ્યામલ રોડ, શ્યામલ રો-હાઉસ, વિભાગ - 5 બસ સ્ટોપ પાસે, સેટેલાઇટ, અમદાવાદ-380015."
+   },
+   "sourceId": "src:72cbddd6cfa6",
+   "evidence": "ગુજરાત રાજ્ય બીજ પ્રમાણન એજન્સી, માણેક બાગ-શ્યામલ રોડ, શ્યામલ રો-હાઉસ, વિભાગ - 5 બસ સ્ટોપ પાસે, સેટેલાઇટ, અમદાવાદ-380015.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Gujarat State Seed Certificate Agency can be contacted via email at gssca80[at]gmail[dot]com.",
+   "kind": "HELPLINE",
+   "subject": "gujarat_state_seed_certificate_agency",
+   "object": "email",
+   "detail": {
+    "email": "gssca80[at]gmail[dot]com"
+   },
+   "sourceId": "src:72cbddd6cfa6",
+   "evidence": "gssca80[at]gmail[dot]com",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Gujarat State Seed Certificate Agency can be contacted via phone at +91 079-26734116.",
+   "kind": "HELPLINE",
+   "subject": "gujarat_state_seed_certificate_agency",
+   "object": "phone",
+   "detail": {
+    "phone": "+91 079-26734116"
+   },
+   "sourceId": "src:72cbddd6cfa6",
+   "evidence": "+91 079-26734116",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A certificate for knee replacement under MA and PMAJY is available.",
+   "kind": "ACTION",
+   "subject": "knee_replacement",
+   "object": "certificate",
+   "detail": {},
+   "sourceId": "src:09970aee86f9",
+   "evidence": "Certificate For Knee Replacement Under MA & PMAJY",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A citizen can download the policy and guidelines for knee replacement certificate in PDF format.",
+   "kind": "CHANNEL",
+   "subject": "policy_guidelines",
+   "object": "pdf_download",
+   "detail": {
+    "url": "Click here for PDF Download"
+   },
+   "sourceId": "src:09970aee86f9",
+   "evidence": "Click here for PDF Download",
+   "confidence": 0.8
+  },
+  {
+   "claim": "The page provides toll-free contact for assistance.",
+   "kind": "HELPLINE",
+   "subject": "toll_free",
+   "object": "contact",
+   "detail": {
+    "phone": "1800-233-1022"
+   },
+   "sourceId": "src:09970aee86f9",
+   "evidence": "Toll Free : 1800-233-1022",
+   "confidence": 0.9
+  },
+  {
    "claim": "Each seed producer must attach their own opal green label with full details on the tag of the bag at the time of packing.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "seed_producer",
@@ -9009,20 +11789,31 @@
   }
  ],
  "notFound": [
-  "certificate: a page listing 44 other services in this journey, not a service itself, so it was read for its links and not kept as somewhere to apply. Its pages: https://collectorpanchmahal.gujarat.gov.in/showpage.aspx?contentid=344, https://botad.gujarat.gov.in/certificate-truecopy, https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201819_124.pdf#page=13, https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/GSSSB_202526_312.pdf#page=6, https://ma.gujarat.gov.in/documents/new%20CB%20Guideline.pdf#page=36",
+  "certificate: a page listing 50 other services in this journey, not a service itself, so it was read for its links and not kept as somewhere to apply. Its pages: https://collectorpanchmahal.gujarat.gov.in/showpage.aspx?contentid=344, https://botad.gujarat.gov.in/certificate-truecopy, https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201819_124.pdf#page=13, https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/GSSSB_202526_312.pdf#page=6, https://ma.gujarat.gov.in/documents/new%20CB%20Guideline.pdf#page=36",
   "Registration Certificate Services: https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "E-Gram Panchayat: https://devbhumidwarkadp.gujarat.gov.in/gu/E-gram-Vishvagram-Yojana lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "EWS Certificate: the hand written graph already answers to service:ews_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "Domicile Certificate: the hand written graph already answers to service:domicile_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
+  "Virtual Civic Center: https://suratmunicipal.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "varshai: the page names \"Digital Gujarat\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
   "Saksham Shala: https://ssg-ss.gujarat.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "income certificate: the hand written graph already answers to service:income_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "Non-Creamy Layer certificate: the hand written graph already answers to service:non_creamy_layer_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
+  "Jan Seva Kendra: https://surat.gujarat.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Jan Seva Kendra: https://arvalli.gujarat.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Jan Seva Kendra: https://dangs.gujarat.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Jan Seva Kendra: https://kheda.gujarat.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Jan Seva Kendra: the page names \"Digital Gujarat\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
+  "Jan Seva Kendra: the page names \"iORA\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
+  "Jan Seva Kendra: the page names \"NDAL-ALIS\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
+  "Jan Seva Kendra: https://tapi.gujarat.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Jan Seva Kendra: https://kutch.gujarat.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Tourist Guide Certificate: https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "residence certificate: the hand written graph already answers to service:residence_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "Certificate of Fitness: https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/GSSSB_202526_312.pdf#page=4 offers a choice under \"B. Candidates having any of the following physical defects shall be\" but fewer than two of the lines under it are documents, so no group was written.",
   "Registration of Cooperative Society: no quotable requirement, fee or timeline survived, so no service node was written for it.",
+  "Gujarat State Seed Certificate Agency: no quotable requirement, fee or timeline survived, so no service node was written for it.",
+  "Certificate For Knee Replacement: the page names \"Click here for PDF Download\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
   "Caste Certificate: the hand written graph already answers to service:caste_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "Seed Certificate: no quotable requirement, fee or timeline survived, so no service node was written for it.",
   "EWS: the hand written graph already answers to service:ews, so the pages found for it were not merged in. Reconciling the two is a job for a person.",

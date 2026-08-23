@@ -23,6 +23,16 @@
    "tlsVerified": false
   },
   {
+   "id": "src:4eb57f220787",
+   "url": "https://www.startupindia.gov.in/content/sih/en/startup-scheme/international.html",
+   "title": "International",
+   "domain": "startupindia.gov.in",
+   "sourceType": "HELPLINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "22d7fd1c776bc756ad20f70f9d09f9f678897344d54cd3a2d9a8f6d5e641f46a"
+  },
+  {
    "id": "src:dc0a95e4944a",
    "url": "https://www.startupindia.gov.in/content/sih/en/startup-scheme/state-startup-policies/Haryana-state-policy.html",
    "title": "Haryana",
@@ -123,6 +133,46 @@
    "contentHash": "eaeed7a62d282778c886d84796dca0c9c03a6a88260ca23080ab515f2187a1ad"
   },
   {
+   "id": "src:1ec574161939",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/Entrepreneurship-SOURCE-check.pdf#page=177",
+   "title": "Entrepreneurship-SOURCE-check (page 177 of 184)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "46cdf65d242c1a46117fb5d9bb701ebda3cdb73ea80b0d82948d8657f25aea92"
+  },
+  {
+   "id": "src:ef1d0775243d",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/Entrepreneurship-SOURCE-check.pdf#page=86",
+   "title": "Entrepreneurship-SOURCE-check (page 86 of 184)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "9850fcd26747541f4f6955e75233e936e8eece731ea1c14d05817c3d77f80fea"
+  },
+  {
+   "id": "src:08c53b66cba7",
+   "url": "https://ced.gujarat.gov.in/",
+   "title": "CED, Gujarat - CED – Centre for Entrepreneurship Development, Gujarat",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "de595ec45d6d623fbfa4563525de2ef77f5e525f125583808ab6d2cf8f8864f2"
+  },
+  {
+   "id": "src:c53e608dc05a",
+   "url": "https://empower.gujarat.gov.in/",
+   "title": "Empowering Youth",
+   "domain": "empower.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "44c83d7299e0274d1276ce3418c2abc0ca710a785ee0f52555a9c19a3ac3d0aa"
+  },
+  {
    "id": "src:fbd13164f1d9",
    "url": "https://ic.gujarat.gov.in/Default.aspx",
    "title": "IC Website",
@@ -131,6 +181,16 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "67013bd5b9c3b3bbf0650e587991d42c8b504a24cbdfa3dbc98b1841915380b3"
+  },
+  {
+   "id": "src:904141d55348",
+   "url": "https://stbi.gujarat.gov.in/Default.aspx",
+   "title": "Home | Savli Incubator",
+   "domain": "stbi.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "4a58631554678069aa858067843662cd0c6e07a708b503db8b947a876c0595c0"
   },
   {
    "id": "src:4236ac0c3e16",
@@ -151,19 +211,29 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "734ba11e22da12fda8224d7b4dde93677deaed07e114e7b6dcaf4094f4505409"
-  },
-  {
-   "id": "src:ef1d0775243d",
-   "url": "https://ced.gujarat.gov.in/assets/downloads/Entrepreneurship-SOURCE-check.pdf#page=86",
-   "title": "Entrepreneurship-SOURCE-check (page 86 of 184)",
-   "domain": "ced.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "9850fcd26747541f4f6955e75233e936e8eece731ea1c14d05817c3d77f80fea"
   }
  ],
  "nodes": [
+  {
+   "id": "helpline:1800_115_565",
+   "type": "HELPLINE",
+   "name": "Startup India Scheme helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "1800 115 565"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:4eb57f220787",
+     "evidence": "Our Toll Free Number : 1800 115 565 (10:00 AM to 05:30 PM)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
   {
    "id": "service:startup_india_scheme",
    "type": "SERVICE",
@@ -624,26 +694,6 @@
    ]
   },
   {
-   "id": "helpline:1800_115_565",
-   "type": "HELPLINE",
-   "name": "Rajasthan Startup Policy helpline",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHONE",
-    "phoneNumbers": [
-     "1800 115 565"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:4fc361aa4ee4",
-     "evidence": "Our Toll Free Number : 1800 115 565 (10:00 AM to 05:30 PM)",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "service:rajasthan_startup_policy",
    "type": "SERVICE",
    "name": "Rajasthan Startup Policy",
@@ -789,24 +839,362 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "helpline:23252683_23252617",
-   "type": "HELPLINE",
-   "name": "Startup Cell helpline",
+   "id": "portal:dst_gov_in_30e192",
+   "type": "PORTAL",
+   "name": "dst.gov.in/scientific-programme/t-d-tdb.htm",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "channelType": "PHONE",
-    "phoneNumbers": [
-     "23252683/23252617"
-    ]
+    "channelType": "WEB",
+    "url": "https://dst.gov.in/scientific-programme/t-d-tdb.htm"
    },
    "sources": [
     {
-     "sourceId": "src:fbd13164f1d9",
-     "evidence": "Ph. : 23252683/23252617",
+     "sourceId": "src:1ec574161939",
+     "evidence": "4. http://dst.gov.in/scientific-programme/t-d-tdb.htm - The Technology Development Board aims at accelerating the development and commercialisation of indigenous technology or adapting imported technology to wider domestic application. The board provides financial assistance in the form of equity, soft loans or grants.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
+  },
+  {
+   "id": "portal:dsir_nic_in_60bcb5",
+   "type": "PORTAL",
+   "name": "dsir.nic.in/tpdup/tepp/tepp.htm",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://www.dsir.nic.in/tpdup/tepp/tepp.htm"
+   },
+   "sources": [
+    {
+     "sourceId": "src:1ec574161939",
+     "evidence": "5. http://www.dsir.nic.in/tpdup/tepp/tepp.htm - The Technopreneur Promotion Programme is run by Department of Scientific & Industrial Research.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:entrepreneurship_source_check",
+   "type": "SERVICE",
+   "name": "Entrepreneurship-SOURCE-check",
+   "officialName": "Entrepreneurship-SOURCE-check",
+   "description": "The page lists various government and private resources for entrepreneurs, including schemes, funding options, and support services.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:1ec574161939",
+     "evidence": "4. http://dst.gov.in/scientific-programme/t-d-tdb.htm - The Technology Development Board aims at accelerating the development and commercialisation of indigenous technology or adapting imported technology to wider domestic application. The board provides financial assistance in the form of equity, soft loans or grants.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:1ec574161939",
+     "evidence": "5. http://www.dsir.nic.in/tpdup/tepp/tepp.htm - The Technopreneur Promotion Programme is run by Department of Scientific & Industrial Research.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:ef1d0775243d",
+     "evidence": "The official costs of starting a business are high and the process quite complex, involving no less than 13 procedures.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "office:block_no_1_9th_floor_udhyogbhavan_sector_11_gandhinagar",
+   "type": "OFFICE",
+   "name": "Block_no_1_9th_floor_udhyogbhavan_sector_11_gandhinagar",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Block No. 1, 9th Floor, Udhyogbhavan, Sector 11, Gandhinagar - 382 017 (Gujarat) India"
+   },
+   "sources": [
+    {
+     "sourceId": "src:08c53b66cba7",
+     "evidence": "The Centre for Entrepreneurship Development (CED) Block No. 1, 9th Floor, Udhyogbhavan, Sector 11, Gandhinagar - 382 017 (Gujarat) India",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:centre_for_entrepreneurship_development",
+   "type": "SERVICE",
+   "name": "Centre for Entrepreneurship Development",
+   "officialName": "Centre for Entrepreneurship Development",
+   "description": "The Centre for Entrepreneurship Development (CED) promotes entrepreneurship and skill development in Gujarat through various programs and training.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:08c53b66cba7",
+     "evidence": "CED has Conducted Entrepreneurship and Development Related Program",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:08c53b66cba7",
+     "evidence": "CED has Conducted Yoga progrma",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:08c53b66cba7",
+     "evidence": "180021222021 +91 79 23243847 +91 79 232 43706 +91 79 23256671 +91 79 23256679",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:08c53b66cba7",
+     "evidence": "dir-ced[at]gujarat[dot]gov[dot]in cor-ced[at]gujarat[dot]gov[dot]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:08c53b66cba7",
+     "evidence": "6000+ Trained in Skill Development",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:08c53b66cba7",
+     "evidence": "15,000+ 15,000+ beneficiaries benefited from CED Entrepreneurship Development activities which include Entrepreneurship Development Programs, Entrepreneurship Awareness Programs, Second Generation Entrepreneurship Development Programs and Human Resources Development Programs",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "helpline:079_22822426",
+   "type": "HELPLINE",
+   "name": "Short-Term Courses And Summer Skill Workshops Helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "079-22822426"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "અમદાવાદ પ્રાદેશિક કચેરી 079-22822426",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:0265_2438477",
+   "type": "HELPLINE",
+   "name": "Short-Term Courses And Summer Skill Workshops Helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "0265-2438477"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "વડોદરા પ્રાદેશિક કચેરી 0265-2438477",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:0281_2458488",
+   "type": "HELPLINE",
+   "name": "Short-Term Courses And Summer Skill Workshops Helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "0281-2458488"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "રાજકોટ પ્રાદેશિક કચેરી 0281-2458488",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "helpline:0261_2665195",
+   "type": "HELPLINE",
+   "name": "Short-Term Courses And Summer Skill Workshops Helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "0261-2665195"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "સુરત પ્રાદેશિક કચેરી 0261-2665195",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "action:short_term_courses_and_summer_skill_workshops_1_register_online",
+   "type": "ACTION",
+   "name": "Register Online (સમર સ્કીલ વર્કશોપ / શોર્ટ-ટર્મ કોર્ષ)",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Citizens can register online for short-term courses and summer skill workshops.",
+    "stepNumber": 1,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "1. Register Online (સમર સ્કીલ વર્કશોપ / શોર્ટ-ટર્મ કોર્ષ)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:short_term_courses_and_summer_skill_workshops_2_edit_registration_form",
+   "type": "ACTION",
+   "name": "Edit Registration Form (રજીસ્ટ્રેશન ફોર્મ સુધારવા)",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Citizens can edit their registration form after submitting it.",
+    "stepNumber": 2,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "2. Edit Registration Form (રજીસ્ટ્રેશન ફોર્મ સુધારવા)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:short_term_courses_and_summer_skill_workshops_3_print_registration_form",
+   "type": "ACTION",
+   "name": "Print Registration Form (પ્રિંટ રજીસ્ટ્રેશન ફોર્મ)",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Citizens can print their registration form.",
+    "stepNumber": 3,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "3. Print Registration Form (પ્રિંટ રજીસ્ટ્રેશન ફોર્મ)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:short_term_courses_and_summer_skill_workshops_4_print_admit_card",
+   "type": "ACTION",
+   "name": "Print Admit Card (એડમિટ કાર્ડ પ્રિંટ કરવા)",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Citizens can print their admit card.",
+    "stepNumber": 4,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "4. Print Admit Card (એડમિટ કાર્ડ પ્રિંટ કરવા)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:short_term_courses_and_summer_skill_workshops",
+   "type": "SERVICE",
+   "name": "Short-Term Courses And Summer Skill Workshops",
+   "officialName": "short-term courses and summer skill workshops",
+   "description": "The service allows citizens to register for short-term courses and summer skill workshops, edit their registration form, print it, and print an admit card.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "1. Register Online (સમર સ્કીલ વર્કશોપ / શોર્ટ-ટર્મ કોર્ષ)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "2. Edit Registration Form (રજીસ્ટ્રેશન ફોર્મ સુધારવા)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "3. Print Registration Form (પ્રિંટ રજીસ્ટ્રેશન ફોર્મ)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "4. Print Admit Card (એડમિટ કાર્ડ પ્રિંટ કરવા)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "1. Register Online (સમર સ્કીલ વર્કશોપ / શોર્ટ-ટર્મ કોર્ષ)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "2. Edit Registration Form (રજીસ્ટ્રેશન ફોર્મ સુધારવા)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "3. Print Registration Form (પ્રિંટ રજીસ્ટ્રેશન ફોર્મ)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "4. Print Admit Card (એડમિટ કાર્ડ પ્રિંટ કરવા)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
   },
   {
    "id": "grievance:startup_cell",
@@ -862,6 +1250,86 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "helpline:91_2667_266007",
+   "type": "HELPLINE",
+   "name": "Savli Incubator helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "+91-2667-266007"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:904141d55348",
+     "evidence": "+91-2667-266007",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:savli_incubator",
+   "type": "SERVICE",
+   "name": "Savli Incubator",
+   "officialName": "Savli Incubator",
+   "aliases": [
+    "stbi",
+    "savli technology business incubator"
+   ],
+   "description": "A service for expressing interest in incubation, mentoring startups, and checking current openings at the Savli Incubator.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:904141d55348",
+     "evidence": "Expression of Interest for Incubation at STBI please email us about your idea (initially non-confidential information only) on SavliBioIncubator@gmail.com",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:904141d55348",
+     "evidence": "Join as a Mentor for Startups of STBI (please hyperlink: https://forms.gle/XDDkHrt95SsaDQsQ6 )",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:904141d55348",
+     "evidence": "Current Openings :- Please Visit :- https://stbi.gujarat.gov.in/Index.aspx?MenuId=83&Redirect=37&Languages=1",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:904141d55348",
+     "evidence": "info-stbi-vdr[at]gujarat[dot]gov[dot]in",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:stbi_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "stbi.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://stbi.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:904141d55348",
+     "evidence": "Expression of Interest for Incubation at STBI please email us about your idea (initially non-confidential information only) on SavliBioIncubator@gmail.com",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
   },
   {
    "id": "service:start_ups_innovation_assistance_scheme",
@@ -923,29 +1391,25 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "service:entrepreneurship_source_check",
-   "type": "SERVICE",
-   "name": "Entrepreneurship-SOURCE-check",
-   "officialName": "Entrepreneurship-SOURCE-check",
-   "description": "It provides information about the procedures involved in starting a business in India.",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "machineExtracted": true
-   },
-   "sources": [
-    {
-     "sourceId": "src:ef1d0775243d",
-     "evidence": "The official costs of starting a business are high and the process quite complex, involving no less than 13 procedures.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
   }
  ],
  "edges": [
+  {
+   "id": "e:service_startup_india_scheme__call_if__helpline_1800_115_565",
+   "from": "service:startup_india_scheme",
+   "to": "helpline:1800_115_565",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The toll-free number for Startup India is 1800 115 565.",
+   "sources": [
+    {
+     "sourceId": "src:4eb57f220787",
+     "evidence": "Our Toll Free Number : 1800 115 565 (10:00 AM to 05:30 PM)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
   {
    "id": "e:service_startup_india_scheme__apply_at__portal_startupindia_gov_in",
    "from": "service:startup_india_scheme",
@@ -1139,6 +1603,230 @@
    ]
   },
   {
+   "id": "e:service_entrepreneurship_source_check__apply_at__portal_dst_gov_in_30e192",
+   "from": "service:entrepreneurship_source_check",
+   "to": "portal:dst_gov_in_30e192",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Technology Development Board provides financial assistance in the form of equity, soft loans or grants on its website.",
+   "sources": [
+    {
+     "sourceId": "src:1ec574161939",
+     "evidence": "4. http://dst.gov.in/scientific-programme/t-d-tdb.htm - The Technology Development Board aims at accelerating the development and commercialisation of indigenous technology or adapting imported technology to wider domestic application. The board provides financial assistance in the form of equity, soft loans or grants.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_entrepreneurship_source_check__apply_at__portal_dsir_nic_in_60bcb5",
+   "from": "service:entrepreneurship_source_check",
+   "to": "portal:dsir_nic_in_60bcb5",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Technopreneur Promotion Programme is run by Department of Scientific & Industrial Research on its website.",
+   "sources": [
+    {
+     "sourceId": "src:1ec574161939",
+     "evidence": "5. http://www.dsir.nic.in/tpdup/tepp/tepp.htm - The Technopreneur Promotion Programme is run by Department of Scientific & Industrial Research.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_entrepreneurship_source_check__apply_at__portal_ced_gujarat_gov_in",
+   "from": "service:entrepreneurship_source_check",
+   "to": "portal:ced_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ced.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:1ec574161939",
+     "evidence": "4. http://dst.gov.in/scientific-programme/t-d-tdb.htm - The Technology Development Board aims at accelerating the development and commercialisation of indigenous technology or adapting imported technology to wider domestic application. The board provides financial assistance in the form of equity, soft loans or grants.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_centre_for_entrepreneurship_development__visit_at__office_block_no_1_9th_floor_udhyogbhavan_sector_11_gandhina",
+   "from": "service:centre_for_entrepreneurship_development",
+   "to": "office:block_no_1_9th_floor_udhyogbhavan_sector_11_gandhinagar",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The CED's head office is located at Block No. 1, 9th Floor, Udhyogbhavan, Sector 11, Gandhinagar, Gujarat.",
+   "sources": [
+    {
+     "sourceId": "src:08c53b66cba7",
+     "evidence": "The Centre for Entrepreneurship Development (CED) Block No. 1, 9th Floor, Udhyogbhavan, Sector 11, Gandhinagar - 382 017 (Gujarat) India",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_centre_for_entrepreneurship_development__apply_at__portal_ced_gujarat_gov_in",
+   "from": "service:centre_for_entrepreneurship_development",
+   "to": "portal:ced_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ced.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:08c53b66cba7",
+     "evidence": "CED has Conducted Entrepreneurship and Development Related Program",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_short_term_courses_and_summer_skill_workshops__call_if__helpline_079_22822426",
+   "from": "service:short_term_courses_and_summer_skill_workshops",
+   "to": "helpline:079_22822426",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The helpline number for the Ahmedabad regional office is 079-22822426.",
+   "sources": [
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "અમદાવાદ પ્રાદેશિક કચેરી 079-22822426",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_short_term_courses_and_summer_skill_workshops__call_if__helpline_0265_2438477",
+   "from": "service:short_term_courses_and_summer_skill_workshops",
+   "to": "helpline:0265_2438477",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The helpline number for the Vadodara regional office is 0265-2438477.",
+   "sources": [
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "વડોદરા પ્રાદેશિક કચેરી 0265-2438477",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_short_term_courses_and_summer_skill_workshops__call_if__helpline_0281_2458488",
+   "from": "service:short_term_courses_and_summer_skill_workshops",
+   "to": "helpline:0281_2458488",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The helpline number for the Rajkot regional office is 0281-2458488.",
+   "sources": [
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "રાજકોટ પ્રાદેશિક કચેરી 0281-2458488",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_short_term_courses_and_summer_skill_workshops__call_if__helpline_0261_2665195",
+   "from": "service:short_term_courses_and_summer_skill_workshops",
+   "to": "helpline:0261_2665195",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The helpline number for the Surat regional office is 0261-2665195.",
+   "sources": [
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "સુરત પ્રાદેશિક કચેરી 0261-2665195",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_short_term_courses_and_summer_skill_workshops__requires__action_short_term_courses_and_summer_skill_workshops_",
+   "from": "service:short_term_courses_and_summer_skill_workshops",
+   "to": "action:short_term_courses_and_summer_skill_workshops_1_register_online",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 1 of 4 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "1. Register Online (સમર સ્કીલ વર્કશોપ / શોર્ટ-ટર્મ કોર્ષ)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_short_term_courses_and_summer_skill_workshops_2_edit___depends_on__action_short_term_courses_and_summer_skill_w",
+   "from": "action:short_term_courses_and_summer_skill_workshops_2_edit_registration_form",
+   "to": "action:short_term_courses_and_summer_skill_workshops_1_register_online",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "2. Edit Registration Form (રજીસ્ટ્રેશન ફોર્મ સુધારવા)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_short_term_courses_and_summer_skill_workshops_3_print__depends_on__action_short_term_courses_and_summer_skill_w",
+   "from": "action:short_term_courses_and_summer_skill_workshops_3_print_registration_form",
+   "to": "action:short_term_courses_and_summer_skill_workshops_2_edit_registration_form",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "3. Print Registration Form (પ્રિંટ રજીસ્ટ્રેશન ફોર્મ)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_short_term_courses_and_summer_skill_workshops_4_print__depends_on__action_short_term_courses_and_summer_skill_w",
+   "from": "action:short_term_courses_and_summer_skill_workshops_4_print_admit_card",
+   "to": "action:short_term_courses_and_summer_skill_workshops_3_print_registration_form",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "4. Print Admit Card (એડમિટ કાર્ડ પ્રિંટ કરવા)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_short_term_courses_and_summer_skill_workshops__apply_at__portal_empower_gujarat_gov_in",
+   "from": "service:short_term_courses_and_summer_skill_workshops",
+   "to": "portal:empower_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on empower.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:c53e608dc05a",
+     "evidence": "1. Register Online (સમર સ્કીલ વર્કશોપ / શોર્ટ-ટર્મ કોર્ષ)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_startup_cell__call_if__helpline_23252683_23252617",
    "from": "service:startup_cell",
    "to": "helpline:23252683_23252617",
@@ -1187,6 +1875,38 @@
    ]
   },
   {
+   "id": "e:service_savli_incubator__call_if__helpline_91_2667_266007",
+   "from": "service:savli_incubator",
+   "to": "helpline:91_2667_266007",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The contact phone number for STBI is +91-2667-266007.",
+   "sources": [
+    {
+     "sourceId": "src:904141d55348",
+     "evidence": "+91-2667-266007",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_savli_incubator__apply_at__portal_stbi_gujarat_gov_in",
+   "from": "service:savli_incubator",
+   "to": "portal:stbi_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on stbi.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:904141d55348",
+     "evidence": "Expression of Interest for Incubation at STBI please email us about your idea (initially non-confidential information only) on SavliBioIncubator@gmail.com",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_start_ups_innovation_assistance_scheme__apply_at__portal_ced_gujarat_gov_in",
    "from": "service:start_ups_innovation_assistance_scheme",
    "to": "portal:ced_gujarat_gov_in",
@@ -1213,22 +1933,6 @@
     {
      "sourceId": "src:c9ed963f9aaf",
      "evidence": "Application Form for Entrepreneurship Development Programme\nSr No | Details | Download |\n1 | Entrepreneurship Development Programme | Download\n[Gujarati] [112 KB]",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_entrepreneurship_source_check__apply_at__portal_ced_gujarat_gov_in",
-   "from": "service:entrepreneurship_source_check",
-   "to": "portal:ced_gujarat_gov_in",
-   "type": "APPLY_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "Published on ced.gujarat.gov.in.",
-   "sources": [
-    {
-     "sourceId": "src:ef1d0775243d",
-     "evidence": "The official costs of starting a business are high and the process quite complex, involving no less than 13 procedures.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
