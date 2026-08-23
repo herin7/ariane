@@ -312,6 +312,12 @@ function Step({
       {step.officialName && step.officialName !== step.title ? (
         <Text style={styles.muted}>Officially: {step.officialName}</Text>
       ) : null}
+      {step.machineExtracted ? (
+        <Text style={styles.warn}>
+          No person has checked this one. Every line below is quoted from the government page it links
+          to, but a machine did the reading.
+        </Text>
+      ) : null}
       {step.description ? <Text style={styles.body}>{step.description}</Text> : null}
       {step.whyRequired ? <Text style={styles.body}>{step.whyRequired}</Text> : null}
       {step.whatToDo ? <Text style={styles.body}>Do this: {step.whatToDo}</Text> : null}

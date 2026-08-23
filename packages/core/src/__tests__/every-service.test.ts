@@ -54,6 +54,16 @@ describe("every service compiles into something a citizen can act on", () => {
         expect(question.label).toBeTruthy();
         if (question.inputType === "SINGLE_SELECT") expect(question.options?.length).toBeGreaterThan(0);
       }
+
+      // Whether a person read the page has to survive the compile.
+      //
+      // It did not. The compiler wrote `machineExtracted` onto 189 of 217
+      // service nodes, `db:push` carried it, and no screen ever asked for it,
+      // so a machine's reading and a researcher's reading arrived in the same
+      // typeface. A field written by one side and read by nobody is how that
+      // happens, and this is the line that notices next time.
+      const step = journey.orderedSteps.find((s) => s.nodeId === service.id);
+      if (step) expect(Boolean(step.machineExtracted)).toBe(Boolean(service.metadata?.machineExtracted));
     });
   }
 });
