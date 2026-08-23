@@ -267,6 +267,51 @@ const title = (s) =>
  */
 const display = (s) => (/[A-Z]/.test(s) ? s : s.replace(/\b[a-z]/g, (c) => c.toUpperCase()));
 
+/**
+ * Hosts we are willing to send a citizen to, recognised from the name alone.
+ *
+ * Not a whitelist of sites we trust. A whitelist of sites whose name is
+ * evidence. `.gov.in` and `.nic.in` are registry controlled and nobody outside
+ * Indian government can hold one, so the hostname is the proof.
+ */
+const GOV_HOST = /(^|\.)(gov\.in|nic\.in)$/;
+
+/**
+ * The url a CHANNEL or TRACKING fact points at, if it is a government one.
+ *
+ * 342 facts carry a url and 302 of them parse. 239 are on a government host and
+ * the rest are facebook, twitter, gmail and a payment gateway, which is exactly
+ * why this gate exists: an APPLY_AT edge is us telling a citizen where to go.
+ *
+ * What it costs is real and worth saying. gujarattourism.com and mcjamnagar.com
+ * are the genuine Gujarat tourism and Jamnagar municipal sites and both are
+ * dropped, because "we recognise the brand" is not proof and the day it becomes
+ * proof is the day somebody registers gujarat-tourism.com.
+ */
+export function govUrl(value) {
+  const raw = String(value ?? "").trim();
+  if (!raw || !raw.includes(".") || /\s/.test(raw)) return null;
+  let url;
+  try {
+    url = new URL(/^https?:\/\//i.test(raw) ? raw : `https://${raw}`);
+  } catch {
+    return null;
+  }
+  const host = url.hostname.toLowerCase().replace(/^www\./, "");
+  if (!GOV_HOST.test(host)) return null;
+  // Keyed on the host without www, linked to the hostname the page wrote,
+  // because dropping www is right for an id and sometimes a 404 for a request.
+  return { host, url: `https://${url.hostname}${url.pathname}${url.search}`, root: url.pathname === "/" && !url.search };
+}
+
+/** A government email address, or null. Same proof as the hostname. */
+export function govEmail(value) {
+  const raw = String(value ?? "").trim().toLowerCase();
+  const at = raw.lastIndexOf("@");
+  if (at < 1 || /\s/.test(raw)) return null;
+  return GOV_HOST.test(raw.slice(at + 1)) ? raw : null;
+}
+
 // ----------------------------------------------------------------- self test
 
 if (flag("selftest")) {
@@ -307,6 +352,18 @@ if (flag("selftest")) {
     "the page said two words, so it is not a bare category however much filler we strip",
   );
   assert.ok(!isHeading("chiranjeevi_scheme", ["chiranjeevi_scheme", "chiranjeevi_yojana"]), "the same scheme spelt twice is a merge problem, not a heading");
+
+  assert.equal(govUrl("https://acpc.gujarat.gov.in/").host, "acpc.gujarat.gov.in");
+  assert.equal(govUrl("1000d.gujarat.gov.in").url, "https://1000d.gujarat.gov.in/", "a bare hostname is still a url");
+  assert.equal(govUrl("https://www.digitalgujarat.gov.in/x.aspx?id=1").host, "digitalgujarat.gov.in");
+  assert.equal(govUrl("https://www.digitalgujarat.gov.in/x.aspx?id=1").url, "https://www.digitalgujarat.gov.in/x.aspx?id=1", "www goes from the id, never from the link");
+  assert.equal(govUrl("https://acpc.gujarat.gov.in/").root, true);
+  assert.equal(govUrl("Digital Gujarat"), null, "the name of a portal is not a link to it");
+  assert.equal(govUrl("https://facebook.com/collector"), null);
+  assert.equal(govUrl("https://gujarattourism.com"), null, "genuinely official, and we still cannot prove it from the name");
+  assert.equal(govUrl("https://notgov.in.example.com/"), null, "gov.in has to end the hostname, not appear in it");
+  assert.equal(govEmail("mam-mehsana@gujarat.gov.in"), "mam-mehsana@gujarat.gov.in");
+  assert.equal(govEmail("collector.ahd@gmail.com"), null, "a collector using gmail is real and is still not a channel we can verify");
 
   assert.equal(officeName({ object: "jan_seva_kendra", detail: { address: "Near Subhash Bridge Circle" } }), "jan_seva_kendra");
   assert.equal(officeName({ object: "contact_email", detail: { email: "x@gujarat.gov.in" } }), null);
@@ -685,6 +742,8 @@ function build(journey, services) {
 
     const jurisdictionId = districtOf(service.pages[0].page.host);
     const serviceRefs = [];
+    /** What this service's pages said that we read and then refused to write. */
+    const gaps = [];
 
     for (const c of service.pages) {
       const sourceId = `src:${sha1(c.url).slice(0, 12)}`;
@@ -738,6 +797,49 @@ function build(journey, services) {
           const named = f.detail.name || f.detail.title || `${service.name} helpline`;
           put({ id: helpId, type: "HELPLINE", name: display(String(named)), jurisdictionId, metadata: { channelType: "PHONE", phoneNumbers: [String(f.detail.phone)] }, sources: r });
           link(serviceNodeId, helpId, "CALL_IF", f.claim, r);
+        } else if ((f.kind === "CHANNEL" || f.kind === "TRACKING") && govUrl(f.detail.url)) {
+          // Where you actually go, which is often not the site that told us.
+          // "The application for the Domicile Certificate can be submitted
+          // online via Digital Gujarat" was read off a collectorate page, and
+          // without this the only APPLY_AT we wrote pointed at the collectorate.
+          const g = govUrl(f.detail.url);
+          const portalId = `portal:${slug(g.host)}${g.root ? "" : `_${sha1(g.url).slice(0, 6)}`}`;
+          put({
+            id: portalId,
+            type: "PORTAL",
+            name: g.root ? g.host : `${g.host}${new URL(g.url).pathname}`,
+            jurisdictionId,
+            metadata: { channelType: "WEB", url: g.url },
+            sources: r,
+          });
+          link(serviceNodeId, portalId, f.kind === "TRACKING" ? "TRACK_AT" : "APPLY_AT", f.claim, r);
+          if (serviceRefs.length < 12) serviceRefs.push(ref(sourceId, f));
+        } else if (f.kind === "CHANNEL" && govEmail(f.detail.email)) {
+          const address = govEmail(f.detail.email);
+          const mailId = `helpline:${slug(address)}`;
+          put({
+            id: mailId,
+            type: "HELPLINE",
+            name: `${display(service.name)} by email`,
+            jurisdictionId,
+            metadata: { channelType: "EMAIL", emails: [address] },
+            sources: r,
+          });
+          link(serviceNodeId, mailId, "CALL_IF", f.claim, r);
+          if (serviceRefs.length < 12) serviceRefs.push(ref(sourceId, f));
+        } else if (f.kind === "APP") {
+          // §41 forbids inventing an official mobile application, and a page
+          // saying "download our app" is not a store listing. 46 APP facts in
+          // the whole corpus and 2 of them name a package. So no MOBILE_APP
+          // node, ever, from this: the citizen is told the page mentions one
+          // and that we could not find where it lives.
+          gaps.push(`${service.name}: a page mentions a mobile app ("${f.claim}") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.`);
+        } else if ((f.kind === "CHANNEL" || f.kind === "TRACKING") && f.detail.url) {
+          // Not a gov.in or nic.in host, so the hostname is not proof of who
+          // owns it. gujarattourism.com and mcjamnagar.com are genuinely
+          // official and are dropped here anyway, because "we recognise the
+          // brand" stops being a test the day somebody registers a lookalike.
+          gaps.push(`${service.name}: the page points at ${f.detail.url}, which is not on a gov.in or nic.in host, so we could not prove from the name alone that government owns it and did not send anyone there.`);
         } else if (f.kind === "GRIEVANCE") {
           const gId = `grievance:${slug(service.id)}`;
           put({ id: gId, type: "GRIEVANCE_CHANNEL", name: `Grievances about ${service.name.toLowerCase()}`, jurisdictionId, metadata: { channelType: "GRIEVANCE_PORTAL" }, sources: r });
@@ -754,6 +856,9 @@ function build(journey, services) {
       notFound.push(`${service.name}: no quotable requirement, fee or timeline survived, so no service node was written for it.`);
       continue;
     }
+    // Deduped: one service quoting the same off-government portal on nine pages
+    // is one gap, not nine.
+    notFound.push(...new Set(gaps));
 
     const fees = service.pages.flatMap((c) => c.facts.filter((f) => f.kind === "FEE" && f.detail.amount));
     const times = service.pages.flatMap((c) => c.facts.filter((f) => f.kind === "TIMELINE" && f.detail.days));
