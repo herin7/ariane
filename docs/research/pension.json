@@ -105,7 +105,7 @@
       "domain": "digitalgujarat.gov.in",
       "sourceType": "PORTAL_HOME",
       "retrievedAt": "2026-08-23T00:00:00.000Z",
-      "cacheFile": ".firecrawl/pension/dg-home.md",
+      "cacheFile": null,
       "scrapedOk": false,
       "note": "Two scrape attempts failed with ERR_TUNNEL_CONNECTION_FAILED. The portal is referenced only through the official SJE page quoted below; no content from it is asserted here."
     }

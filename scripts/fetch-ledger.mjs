@@ -29,14 +29,15 @@ const at = (p) => fileURLToPath(new URL(p, root));
 
 // ------------------------------------------------------------- what we cited
 
-/** url -> { url, journeys[], cacheFile, retrievedAt, title, sourceType } */
+/** url -> { url, journeys[], cacheFile, retrievedAt, title, sourceType, fetchFailed } */
 const cited = new Map();
 const researchDir = at("docs/research/");
 for (const file of readdirSync(researchDir).filter((f) => f.endsWith(".json"))) {
   const bundle = JSON.parse(readFileSync(researchDir + file, "utf8"));
+  const quotedIds = new Set((bundle.facts ?? []).map((f) => f.sourceId));
   for (const source of bundle.sources ?? []) {
     const key = normalise(source.url);
-    const entry = cited.get(key) ?? { url: key, journeys: [], cacheFile: null, retrievedAt: null, title: null, sourceType: null };
+    const entry = cited.get(key) ?? { url: key, journeys: [], cacheFile: null, retrievedAt: null, title: null, sourceType: null, fetchFailed: false, quoted: false };
     // This is the whole point of keying by URL. Two journeys citing one page is
     // one fetch, and the ledger is where that becomes visible.
     if (!entry.journeys.includes(bundle.journey)) entry.journeys.push(bundle.journey);
@@ -44,6 +45,12 @@ for (const file of readdirSync(researchDir).filter((f) => f.endsWith(".json"))) 
     entry.retrievedAt ??= source.retrievedAt ?? null;
     entry.title ??= source.title ?? null;
     entry.sourceType ??= source.sourceType ?? null;
+    // A page we tried to fetch and could not. Recorded, not hidden: the whole
+    // digitalgujarat portal answers ERR_TUNNEL_CONNECTION_FAILED, and pretending
+    // that is the same as "somebody forgot to save the file" is how a known
+    // blocked host turns into a permanent red build nobody reads any more.
+    if (source.scrapedOk === false) entry.fetchFailed = true;
+    if (quotedIds.has(source.id)) entry.quoted = true;
     cited.set(key, entry);
   }
 }
@@ -97,8 +104,12 @@ const entries = [...cited.values()]
       cacheFile: e.cacheFile,
       // Present means a clone can read the page without a network call. Missing
       // means somebody would have to refetch, which is the thing we are here to
-      // stop, so it is a failure and not a warning.
-      status: !e.cacheFile ? "NO_CACHE_FILE" : file ? "CACHED" : "MISSING",
+      // stop, so it is a failure and not a warning. FETCH_FAILED is the fourth
+      // answer and the honest one: there is no page to cache because nobody was
+      // ever served one. A source in that state is a lead and a recorded gap,
+      // never a citation, which is enforced by there being no quote to cite.
+      status: e.cacheFile ? (file ? "CACHED" : "MISSING") : e.fetchFailed ? "FETCH_FAILED" : "NO_CACHE_FILE",
+      quoted: e.quoted,
       bytes: file?.bytes ?? null,
       sha256: file?.sha256 ?? null,
       retrievedAt: e.retrievedAt,
@@ -116,6 +127,10 @@ const ledger = {
   cached: entries.filter((e) => e.status === "CACHED").length,
   missing: entries.filter((e) => e.status === "MISSING").length,
   noCacheFile: entries.filter((e) => e.status === "NO_CACHE_FILE").length,
+  // Pages that answered with a block or an error rather than content. Kept in
+  // the ledger on purpose: a known gap somebody already burned two attempts on
+  // is worth more than a blank space that invites a third.
+  fetchFailed: entries.filter((e) => e.status === "FETCH_FAILED").length,
   // Raw pages nobody cites. Not deleted: an uncited page is a page whose facts
   // have not been extracted yet, which is a lead, not litter.
   orphanedCacheFiles: orphans,
@@ -157,16 +172,20 @@ if (args.includes("--check")) {
   for (const e of entries) {
     if (e.status === "MISSING") problems.push(`cache file missing, a clone would refetch: ${e.cacheFile}  (${e.url})`);
     if (e.status === "NO_CACHE_FILE") problems.push(`cited with no cache file, unreproducible: ${e.url}`);
+    // The one that actually matters. A page nobody was ever served cannot have
+    // produced a verbatim quote, so a fact hanging off it was typed from
+    // somewhere else, and "somewhere else" is the thing this repo exists to stop.
+    if (e.status === "FETCH_FAILED" && e.quoted) problems.push(`quoted a page that was never fetched: ${e.url}`);
   }
   for (const p of problems) console.error(`  ${p}`);
-  console.log(`${entries.length} urls, ${ledger.cached} cached, ${orphans.length} orphaned raw pages`);
+  console.log(`${entries.length} urls, ${ledger.cached} cached, ${ledger.fetchFailed} unfetchable, ${orphans.length} orphaned raw pages`);
   process.exit(problems.length ? 1 : 0);
 }
 
 writeFileSync(target, rendered);
 console.log(`docs/research/fetch-ledger.json written`);
 console.log(`  ${entries.length} unique urls across ${new Set(entries.flatMap((e) => e.journeys)).size} journeys`);
-console.log(`  ${ledger.cached} cached, ${ledger.missing} missing, ${ledger.noCacheFile} with no cache file`);
+console.log(`  ${ledger.cached} cached, ${ledger.missing} missing, ${ledger.noCacheFile} with no cache file, ${ledger.fetchFailed} unfetchable`);
 console.log(`  ${orphans.length} raw pages nobody cites yet`);
 const shared = entries.filter((e) => e.journeys.length > 1);
 if (shared.length) console.log(`  ${shared.length} url(s) shared between journeys, fetched once`);

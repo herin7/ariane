@@ -2,8 +2,9 @@
   "generatedBy": "scripts/fetch-ledger.mjs",
   "urls": 66,
   "cached": 61,
-  "missing": 1,
-  "noCacheFile": 4,
+  "missing": 0,
+  "noCacheFile": 0,
+  "fetchFailed": 5,
   "orphanedCacheFiles": [
     ".firecrawl/gj-85bd4a.md",
     ".firecrawl/gj-dl.txt",
@@ -51,6 +52,7 @@
       ],
       "cacheFile": ".firecrawl/research/ahd-income.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 8493,
       "sha256": "6ed4bbbaf412dbea7f180c02300a114534dfab40736649574901c4af56b50975",
       "retrievedAt": "2026-08-23T02:27:00Z"
@@ -64,6 +66,7 @@
       ],
       "cacheFile": ".firecrawl/research/ahd-ncl-guj.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 972,
       "sha256": "d4ba88e202c18c46cc694bfc2b37a71291a5e245210a31c76b5d890624773233",
       "retrievedAt": "2026-08-23T02:50:00Z"
@@ -77,6 +80,7 @@
       ],
       "cacheFile": ".firecrawl/research/ahd-sebc.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 762,
       "sha256": "d5cd6f62ca7f1ff98b64537d5c0fdec5918c6a37212fd4701864e0fbe26c8f57",
       "retrievedAt": "2026-08-23T02:50:00Z"
@@ -90,6 +94,7 @@
       ],
       "cacheFile": ".firecrawl/pension/anand-ignoaps.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 1606,
       "sha256": "adeed98dba6f29458bd16e1c36f15b863ca49d3fad3223c96ce2c708c9409a87",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -103,6 +108,7 @@
       ],
       "cacheFile": ".firecrawl/pension/anand-ignwps.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 3792,
       "sha256": "c6b54af91bd4b6484c5945a29dad10d885f4c80c8c5eedde385e9cce68f86705",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -116,6 +122,7 @@
       ],
       "cacheFile": ".firecrawl/research/bk-certs.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 1316,
       "sha256": "f03053fe2f167929ce288ae419eb77797a89b49ad165ac0402caec9897dc45e4",
       "retrievedAt": "2026-08-23T02:50:00Z"
@@ -129,6 +136,7 @@
       ],
       "cacheFile": ".firecrawl/gj-dl.html",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 58383,
       "sha256": "48d2f331bff4d88e1550a4fabeac17a9c3a830387d0b6c1e564182b668033e1f",
       "retrievedAt": "2026-08-23T11:19:00+05:30"
@@ -142,6 +150,7 @@
       ],
       "cacheFile": ".firecrawl/gj-helpline.html",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 44906,
       "sha256": "989f5a05a4933228a61594fb5be145276ada193d7510481851e5ab55c7e0229b",
       "retrievedAt": "2026-08-23T11:19:00+05:30"
@@ -155,6 +164,7 @@
       ],
       "cacheFile": ".firecrawl/gj-rto.html",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 61824,
       "sha256": "56f311010cbc162e0c528eabcc4488bd7afe7690401661545d71585aceeb64f5",
       "retrievedAt": "2026-08-23T11:17:00+05:30"
@@ -168,6 +178,7 @@
       ],
       "cacheFile": ".firecrawl/research/dwarka-certs.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 1230,
       "sha256": "abb52a1b7a3ea9fd40f6bb9a1f527b8046f49d9eb98786e90f82f6665619f20b",
       "retrievedAt": "2026-08-23T02:45:00Z"
@@ -181,6 +192,7 @@
       ],
       "cacheFile": ".firecrawl/pf/epfigms-home.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 3167,
       "sha256": "b05b38f7662ecd8dc1a891c7a762bb1a51e6b1e5efb9a22eaa5a4b9e679c38cd",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -194,6 +206,7 @@
       ],
       "cacheFile": ".firecrawl/pf/epfigms-register.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 981,
       "sha256": "3a5e0fde110b5c440f5c73cbedafde45c7ef4644afb10c8bb09b4d1cef6702ff",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -206,7 +219,8 @@
         "scholarship"
       ],
       "cacheFile": null,
-      "status": "NO_CACHE_FILE",
+      "status": "FETCH_FAILED",
+      "quoted": false,
       "bytes": null,
       "sha256": null,
       "retrievedAt": "2026-08-23T02:58:00+05:30"
@@ -220,6 +234,7 @@
       ],
       "cacheFile": ".firecrawl/research/mahesana-income.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 1553,
       "sha256": "c6d669099e7bbd677f23591b40d37e4e835e7058f20dcca194b44d74a55b8c51",
       "retrievedAt": "2026-08-23T02:45:00Z"
@@ -233,6 +248,7 @@
       ],
       "cacheFile": ".firecrawl/research/morbi-certcat.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 734,
       "sha256": "dcbfb6c5449849fed59fc1177b49a49ec919fec1dbc20890144739a7426f62ac",
       "retrievedAt": "2026-08-23T02:55:00Z"
@@ -246,6 +262,7 @@
       ],
       "cacheFile": ".firecrawl/research/morbi-caste.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 1623,
       "sha256": "b2e8ff0977f81be26a63b1632c0e84db121c94df8c1a978e93c68bdf6733b869",
       "retrievedAt": "2026-08-23T02:45:00Z"
@@ -259,6 +276,7 @@
       ],
       "cacheFile": ".firecrawl/research/morbi-domicile.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 935,
       "sha256": "735bc38a085f60e20eb43644045d7e94005bb3f7e9ac94cb5eafd4029311719d",
       "retrievedAt": "2026-08-23T02:45:00Z"
@@ -272,6 +290,7 @@
       ],
       "cacheFile": ".firecrawl/pension/wb-nsap-about.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 19841,
       "sha256": "3941cd0f064caf49bd945c58e4804fb9d74cc1fb673e6e798b498b54bae400b7",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -285,6 +304,7 @@
       ],
       "cacheFile": ".firecrawl/contact.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 13314,
       "sha256": "9ad06f564bbe2b45823794b52a37c05eb9811fcc2e73e2dfcf72d2ff44fe4d18",
       "retrievedAt": "2026-08-23T02:26:00+05:30"
@@ -298,6 +318,7 @@
       ],
       "cacheFile": ".firecrawl/faq.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 86323,
       "sha256": "dbe7b36f082fe7f1f7dba09c867e01d35fabd1d21ea03b0e705f5459ba322bb9",
       "retrievedAt": "2026-08-23T02:26:00+05:30"
@@ -311,6 +332,7 @@
       ],
       "cacheFile": ".firecrawl/ll.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 13609,
       "sha256": "be00de2fe883cefefa531590cd188f94f54ac3151563b90af4bb52280becc89b",
       "retrievedAt": "2026-08-23T02:25:00+05:30"
@@ -324,6 +346,7 @@
       ],
       "cacheFile": ".firecrawl/fees.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 14245,
       "sha256": "b21b6278152e210b00d3b4058087551f31c5071a491b4cd6acfd2e701cde16e2",
       "retrievedAt": "2026-08-23T02:26:00+05:30"
@@ -337,6 +360,7 @@
       ],
       "cacheFile": ".firecrawl/dl.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 13797,
       "sha256": "b9e0756a32a2d073b15010983bd25c3a1c5b1e170c80efefb5b65cf0e3537872",
       "retrievedAt": "2026-08-23T02:25:00+05:30"
@@ -350,6 +374,7 @@
       ],
       "cacheFile": ".firecrawl/pv-ll.md",
       "status": "CACHED",
+      "quoted": false,
       "bytes": 12584,
       "sha256": "dfc7e8985d008876f154d5c58ec0feaaadf4b019cac1e1ece409934a2da5360b",
       "retrievedAt": "2026-08-23T02:25:00+05:30"
@@ -363,6 +388,7 @@
       ],
       "cacheFile": ".firecrawl/pv-dl.md",
       "status": "CACHED",
+      "quoted": false,
       "bytes": 12845,
       "sha256": "6a2fae0f3a170e8ca105300632d7f035c2a09108ba72f247d5545e9cc9de8c4a",
       "retrievedAt": "2026-08-23T02:25:00+05:30"
@@ -376,6 +402,7 @@
       ],
       "cacheFile": ".firecrawl/form2.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 9662,
       "sha256": "71b2cb5334febe2e4c53f1a14e487c65ccaea07636967a25735edd1cc83704a1",
       "retrievedAt": "2026-08-23T11:11:00+05:30"
@@ -389,6 +416,7 @@
       ],
       "cacheFile": ".firecrawl/pf/passbook.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 687,
       "sha256": "82d286263a919940d05c906a938524cbad19f77e8eb0a75d35b262d4c1ea9234",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -402,6 +430,7 @@
       ],
       "cacheFile": ".firecrawl/pf/pgportal.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 4822,
       "sha256": "3f5ffad697d5caeef08ee5c79d591b4dc76a6ac329b885cba2d691ed906fc1ca",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -415,6 +444,7 @@
       ],
       "cacheFile": ".firecrawl/mparivahan-play.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 12917,
       "sha256": "23e1ae79af47d2c8ab06d667800880a485f31589395c52622c3c8fcdea6f5a68",
       "retrievedAt": "2026-08-23T11:16:00+05:30"
@@ -428,6 +458,7 @@
       ],
       "cacheFile": ".firecrawl/sarathi-ll-faq.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 7232,
       "sha256": "8b8dcb5e55bd4c1e63cdf1efb4db6a51d5d515e6d969f67ee83a21e47fd6e1a1",
       "retrievedAt": "2026-08-23T11:14:00+05:30"
@@ -441,6 +472,7 @@
       ],
       "cacheFile": ".firecrawl/sarathi-status.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 2288,
       "sha256": "03c565daca9fd39fb3e81d0764a97528b82f4a5825a6cf0dc0285ddd7ae90ae7",
       "retrievedAt": "2026-08-23T11:18:00+05:30"
@@ -454,6 +486,7 @@
       ],
       "cacheFile": ".firecrawl/sarathi-state.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 4967,
       "sha256": "227533d2ab76ce083907e1bdaf04528bb67b234609b1d836bac3666233099704",
       "retrievedAt": "2026-08-23T02:27:00+05:30"
@@ -467,6 +500,7 @@
       ],
       "cacheFile": ".firecrawl/research/nsp-csss-faq.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 20618,
       "sha256": "0c7c024edf85c559b1ca473841f77423cfa8ef89f42df24a0dee1bbcbec28e17",
       "retrievedAt": "2026-08-23T02:52:00+05:30"
@@ -480,6 +514,7 @@
       ],
       "cacheFile": ".firecrawl/research/nsp-topclass-faq.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 4764,
       "sha256": "f5032885ea2e9d866a11ac223512dd59c496071e0ac25ce2381daa908ce23aa3",
       "retrievedAt": "2026-08-23T02:52:00+05:30"
@@ -493,6 +528,7 @@
       ],
       "cacheFile": ".firecrawl/research/nsp-annex2-faq.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 34700,
       "sha256": "5a6033b266e5bb8397cc9523421263b665e7f5464edeb3f4372d112a6f044fe1",
       "retrievedAt": "2026-08-23T02:52:00+05:30"
@@ -506,6 +542,7 @@
       ],
       "cacheFile": ".firecrawl/research/nsp-eligibility.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 3307,
       "sha256": "d7b0e0ad21bb4b74db984f3db0766f6533299aa3f21b0fcbc0077111af4bf47f",
       "retrievedAt": "2026-08-23T02:52:00+05:30"
@@ -519,6 +556,7 @@
       ],
       "cacheFile": ".firecrawl/research/nsp-students.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 6423,
       "sha256": "780127d6dd01a2263474087a09198295d51c28629c3883820dc335157f8f0f67",
       "retrievedAt": "2026-08-23T02:52:00+05:30"
@@ -532,6 +570,7 @@
       ],
       "cacheFile": ".firecrawl/research/sje-1482.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 10686,
       "sha256": "5a3efb434e03c3b1a85b2258b61894089ba6ae0a628fd2730753c8e7d15333c3",
       "retrievedAt": "2026-08-23T02:56:00+05:30"
@@ -545,6 +584,7 @@
       ],
       "cacheFile": ".firecrawl/research/sje-mcm.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 11077,
       "sha256": "9d751fb85d162c0a66f78328335849515d437d39b2cecec14a5bd434fa2db3bd",
       "retrievedAt": "2026-08-23T02:56:00+05:30"
@@ -558,6 +598,7 @@
       ],
       "cacheFile": ".firecrawl/research/sje-2226.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 10772,
       "sha256": "03d0ca4453114d35d278e47f23e3cd7e945d7858f63dce4cdb3a1fbcd8e5dde5",
       "retrievedAt": "2026-08-23T02:56:00+05:30"
@@ -571,6 +612,7 @@
       ],
       "cacheFile": ".firecrawl/research/sje-bck61.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 14408,
       "sha256": "f69050d35c0dfb06eb00832c066a7b4ef0e4e1643af3bd7bab486742bae6051d",
       "retrievedAt": "2026-08-23T02:56:00+05:30"
@@ -584,6 +626,7 @@
       ],
       "cacheFile": ".firecrawl/pension/sje-vrudh-2212.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 9324,
       "sha256": "b5a57c46ed237ed0b8c2d3630c9ab32b982d0b63eeaf0c39852aef33055937b7",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -597,6 +640,7 @@
       ],
       "cacheFile": ".firecrawl/pension/sje-ignoaps-2208.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 6007,
       "sha256": "87bec4e9f9487f849b59d369bf061eb407e30d0bb9314e046eee531ce3b82746",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -610,6 +654,7 @@
       ],
       "cacheFile": ".firecrawl/research/surat-form36.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 889,
       "sha256": "7a75d2b4bb7a92d31301099ff658f17c910811a9b94a13743c2b9465efe2b822",
       "retrievedAt": "2026-08-23T03:02:00Z"
@@ -623,6 +668,7 @@
       ],
       "cacheFile": ".firecrawl/research/surat-caste.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 994,
       "sha256": "0838ddc398cd0e648f7d10876aaa13cdf34a4eb3aa7597c57565dcbddf8fccad",
       "retrievedAt": "2026-08-23T03:00:00Z"
@@ -636,6 +682,7 @@
       ],
       "cacheFile": ".firecrawl/research/sng-caste.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 1023,
       "sha256": "99e1cf50a6e115f97d77098367e72693b5b7079407bae47b1f5f4d365f760ea5",
       "retrievedAt": "2026-08-23T02:50:00Z"
@@ -649,6 +696,7 @@
       ],
       "cacheFile": ".firecrawl/pf/unifiedportal-mem.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 2013,
       "sha256": "43e5c2aed987b8bbbf5fda14986121d318e3a8a6c90e7b148bbc506a745b92e6",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -662,6 +710,7 @@
       ],
       "cacheFile": ".firecrawl/research/vad-residence.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 753,
       "sha256": "3495f2ac7efd7ba29e0ba42dba82c4486315ea91a052accde868e8ea2d5542d1",
       "retrievedAt": "2026-08-23T03:00:00Z"
@@ -675,6 +724,7 @@
       ],
       "cacheFile": ".firecrawl/pension/wcd-contact.md",
       "status": "CACHED",
+      "quoted": false,
       "bytes": 2784,
       "sha256": "0fafe370efb73ee669ec61b10cf7cb2f5b1e684a8fe830ccda19ee2b15007d79",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -688,6 +738,7 @@
       ],
       "cacheFile": ".firecrawl/pension/wcd-ganga-swarupa.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 3508,
       "sha256": "12a6a0ecc5b1e0592a5aaf141e69d3f1542926207e0883fa9223e357b7dbbbef",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -701,6 +752,7 @@
       ],
       "cacheFile": ".firecrawl/pf/umang-epfo.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 13066,
       "sha256": "7db85b5cee5b4506be49c51520eae98ff2326a887bd5c610bf96478e9c965dc3",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -714,6 +766,7 @@
       ],
       "cacheFile": ".firecrawl/digilocker-installapp.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 9339,
       "sha256": "d5c8f2cb9ee8e7995fdd1742922c6bec08a484aca5227d9db5a075729ac40b3e",
       "retrievedAt": "2026-08-23T11:18:00+05:30"
@@ -725,8 +778,9 @@
       "journeys": [
         "pension"
       ],
-      "cacheFile": ".firecrawl/pension/dg-home.md",
-      "status": "MISSING",
+      "cacheFile": null,
+      "status": "FETCH_FAILED",
+      "quoted": false,
       "bytes": null,
       "sha256": null,
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -739,7 +793,8 @@
         "certificates"
       ],
       "cacheFile": null,
-      "status": "NO_CACHE_FILE",
+      "status": "FETCH_FAILED",
+      "quoted": false,
       "bytes": null,
       "sha256": null,
       "retrievedAt": "2026-08-23T02:35:00Z"
@@ -752,7 +807,8 @@
         "certificates"
       ],
       "cacheFile": null,
-      "status": "NO_CACHE_FILE",
+      "status": "FETCH_FAILED",
+      "quoted": false,
       "bytes": null,
       "sha256": null,
       "retrievedAt": "2026-08-23T03:05:00Z"
@@ -765,7 +821,8 @@
         "scholarship"
       ],
       "cacheFile": null,
-      "status": "NO_CACHE_FILE",
+      "status": "FETCH_FAILED",
+      "quoted": false,
       "bytes": null,
       "sha256": null,
       "retrievedAt": "2026-08-23T02:58:00+05:30"
@@ -779,6 +836,7 @@
       ],
       "cacheFile": ".firecrawl/pf/wb-pr-profile.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 3199,
       "sha256": "18b4e8acbd969a2a708d768fc0f2d46984c109bafa8bdbd42c0589e39a966a50",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -792,6 +850,7 @@
       ],
       "cacheFile": ".firecrawl/pf/wb-citizencharter.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 8144,
       "sha256": "a622f3d2745c7d37bd099baec5491177f393364cf43cbac81aef4a8b373ee78b",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -805,6 +864,7 @@
       ],
       "cacheFile": ".firecrawl/pf/wb-ocs-faq.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 5546,
       "sha256": "342b180dd254233f35d4db3442e6feb231e4e70b595f26759303373ea575d8b8",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -818,6 +878,7 @@
       ],
       "cacheFile": ".firecrawl/pf/wb-members-faq.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 10520,
       "sha256": "f53c24ee7788dd4035ef7a789a2aa392cdff12981ef732858b2b21bedb08b69b",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -831,6 +892,7 @@
       ],
       "cacheFile": ".firecrawl/pf/wb-contact.md",
       "status": "CACHED",
+      "quoted": false,
       "bytes": 14566,
       "sha256": "83e3887dbd84c671416b6ceac5d4540507fa83dbee05529045ad7cafa715fa52",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -844,6 +906,7 @@
       ],
       "cacheFile": ".firecrawl/pf/wb-faq.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 217300,
       "sha256": "459698838d3fb8e5253be64cf64a66dbddbee8954d68f704e2a746e3db9478da",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -857,6 +920,7 @@
       ],
       "cacheFile": ".firecrawl/pf/wb-whichclaimform.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 38428,
       "sha256": "0cec4ead88c9ee1a8c9b4025a3e1574a0aaf91001ef73b4f6a18bba49abf4303",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -870,6 +934,7 @@
       ],
       "cacheFile": ".firecrawl/pension/myscheme-gspsg.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 14636,
       "sha256": "dcc4005f56ad53e74279aae963150dd29f33c9468f247aa5420079856afa347d",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -883,6 +948,7 @@
       ],
       "cacheFile": ".firecrawl/pension/myscheme-ignwps.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 15724,
       "sha256": "9bd66c194d03a50541bd927998f781f24852690846100f36886902ef42aefd54",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
@@ -897,6 +963,7 @@
       ],
       "cacheFile": ".firecrawl/research/mysy-myscheme.md",
       "status": "CACHED",
+      "quoted": true,
       "bytes": 20684,
       "sha256": "067ecc4bd64233901a73507e269e9c2a60efb6090d499e8aa204338bd2bb657f",
       "retrievedAt": "2026-08-23T02:58:00Z"
