@@ -22,6 +22,66 @@
    "contentHash": "fa93c2bab1892aacb444a54631aaa4c7dbce0e19eb4c8bd9343a0a029251d428"
   },
   {
+   "id": "src:23196e8aed35",
+   "url": "https://directorit.gujarat.gov.in/Content/Scheme_for_Startup_Policy.pdf#page=6",
+   "title": "Scheme_for_Startup_Policy (page 6 of 29)",
+   "domain": "directorit.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "33d4c9a5b59a88dbd7e288a516c89918efdaef4851759b5d9f7bac398c02be8b"
+  },
+  {
+   "id": "src:5f7ce4399a12",
+   "url": "https://directorit.gujarat.gov.in/Content/Scheme_for_Startup_Policy.pdf#page=2",
+   "title": "Scheme_for_Startup_Policy (page 2 of 29)",
+   "domain": "directorit.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "f747d373dd3ff893c6d676c84b3c2720478c245763c7f947ed1b9c49543427cc"
+  },
+  {
+   "id": "src:c333723c348e",
+   "url": "https://directorit.gujarat.gov.in/Content/Scheme_for_Startup_Policy.pdf#page=26",
+   "title": "Scheme_for_Startup_Policy (page 26 of 29)",
+   "domain": "directorit.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ba83ca4eaf270d0671f6fd567cf3e6e871803b2a49b22730048e2a992ddaf1db"
+  },
+  {
+   "id": "src:c761470017ef",
+   "url": "https://directorit.gujarat.gov.in/Content/Scheme_for_Startup_Policy.pdf#page=9",
+   "title": "Scheme_for_Startup_Policy (page 9 of 29)",
+   "domain": "directorit.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "6eb1d9a7e65f374e4d1de81d2fbf124d6c48bab95e99242edd5e12b0ddbc4ba0"
+  },
+  {
+   "id": "src:989056742874",
+   "url": "https://directorit.gujarat.gov.in/Content/Scheme_for_Startup_Policy.pdf#page=7",
+   "title": "Scheme_for_Startup_Policy (page 7 of 29)",
+   "domain": "directorit.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "86733c6c96d0965a5b2497218675ec2f371fe09f4016ee3aa5c35fee34fae85a"
+  },
+  {
+   "id": "src:6d4e07e3a146",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/Entrepreneurship-SOURCE-check.pdf#page=78",
+   "title": "Entrepreneurship-SOURCE-check (page 78 of 184)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "810fc2c48b53ede25d956ee45c037418c3207d749b5e0c1e80e42737d9e9c6fe"
+  },
+  {
    "id": "src:4fc361aa4ee4",
    "url": "https://www.startupindia.gov.in/content/sih/en/startup-scheme/state-startup-policies/Rajasthan-state-policy.html",
    "title": "Rajasthan",
@@ -30,6 +90,36 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "ed5aac894d24acc7a22dc30b3de9bdbf0800100a022706fed631c50fc12fd6b2"
+  },
+  {
+   "id": "src:88768d7d5b2d",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/start_up/Guidelines_for_Funding_support_to_startups.pdf#page=9",
+   "title": "Guidelines_for_Funding_support_to_startups (page 9 of 42)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "a8f51f4c3ead4419fd87f5a9fc3c61c8c22304bc1f8bc1d010c0dca8f4b2e66f"
+  },
+  {
+   "id": "src:38b1ddfb482f",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/form-A-citizen-charter-sla.pdf#page=1",
+   "title": "form-A-citizen-charter-sla (page 1 of 3)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "eaeed7a62d282778c886d84796dca0c9c03a6a88260ca23080ab515f2187a1ad"
+  },
+  {
+   "id": "src:4236ac0c3e16",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/gr-27-01-2015-I.pdf#page=1",
+   "title": "gr-27-01-2015-I (page 1 of 5)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "9c72a71a9063c07a703abf35093f7e0350d0cca0a042e3d6115ddd4b3e019685"
   }
  ],
  "nodes": [
@@ -254,6 +344,342 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "document:certificate_of_eligible_business",
+   "type": "DOCUMENT",
+   "name": "Certificate of eligible business",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:5f7ce4399a12",
+     "evidence": "Provided further that in order to obtain tax benefits a startup so identified under the above definition shall be required to obtain a certificate of an eligible business from the Inter-Ministerial Board of Certification consisting of:",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:startup_policy_scheme_1_capital_assistance_in_3_tranches_reimbur",
+   "type": "ACTION",
+   "name": "Capital Assistance In 3 tranches Reimbursement as per approval",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Capital assistance is provided in 3 tranches and is reimbursed as per approval.",
+    "stepNumber": 1,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:c333723c348e",
+     "evidence": "1. Capital Assistance In 3 tranches Reimbursement as per approval",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:startup_policy_scheme_2_mentoring_assistance_on_submission_of_pr",
+   "type": "ACTION",
+   "name": "Mentoring Assistance On Submission of Proof of eligible expenditure Reimbursement on actua",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Mentoring assistance is reimbursed on actuals upon submission of proof of eligible expenditure.",
+    "stepNumber": 2,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:c333723c348e",
+     "evidence": "2. Mentoring Assistance On Submission of Proof of eligible expenditure Reimbursement on actuals",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:startup_policy_scheme_3_operating_assistance_on_submission_of_au",
+   "type": "ACTION",
+   "name": "Operating Assistance On Submission of Audited Accounts Reimbursement subject to ceiling",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Operating assistance is reimbursed upon submission of audited accounts.",
+    "stepNumber": 3,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:c333723c348e",
+     "evidence": "3. Operating Assistance On Submission of Audited Accounts Reimbursement subject to ceiling",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:startup_policy_scheme_4_assistance_for_procurement_of_enterprise",
+   "type": "ACTION",
+   "name": "Assistance for Procurement of Enterprise Software On submission of proof of expenditure Su",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Assistance for procurement of enterprise software is reimbursed upon submission of proof of expenditure.",
+    "stepNumber": 4,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:c333723c348e",
+     "evidence": "4. Assistance for Procurement of Enterprise Software On submission of proof of expenditure Subject to ceiling",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:startup_policy_scheme_5_stamp_duty_registration_fee_on_submissio",
+   "type": "ACTION",
+   "name": "Stamp Duty & Registration Fee On submission of Proof Reimbursement as per actuals",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Stamp duty and registration fee are reimbursed as per actuals upon submission of proof.",
+    "stepNumber": 5,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:c333723c348e",
+     "evidence": "5. Stamp Duty & Registration Fee On submission of Proof Reimbursement as per actuals",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "action:startup_policy_scheme_6_incentive_on_power_tariff_and_electricit",
+   "type": "ACTION",
+   "name": "Incentive on Power Tariff and Electricity Duty On submission of proof of payment Reimburse",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Incentive on power tariff and electricity duty is reimbursed upon submission of proof of payment.",
+    "stepNumber": 6,
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:c333723c348e",
+     "evidence": "6. Incentive on Power Tariff and Electricity Duty On submission of proof of payment Reimbursement subject to ceiling",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:startup_policy_scheme",
+   "type": "SERVICE",
+   "name": "Startup Policy Scheme",
+   "officialName": "Startup Policy Scheme",
+   "aliases": [
+    "startup policy"
+   ],
+   "description": "The scheme provides financial assistance and support to eligible start-ups for patents, product development, marketing, and skill certification, among other benefits.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:23196e8aed35",
+     "evidence": "(ii) Total quantum of assistance for obtaining such patents shall be limited to Rs. 10 lakh for international and Rs. 4 lakh for domestic patents per start-up.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:23196e8aed35",
+     "evidence": "(ii) Total quantum of assistance for obtaining such patents shall be limited to Rs. 10 lakh for international and Rs. 4 lakh for domestic patents per start-up.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:23196e8aed35",
+     "evidence": "(iii) Fees paid to patent attorney and patent service centre will also be considered eligible expenditure towards cost for computing assistance.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:23196e8aed35",
+     "evidence": "(iv) The assistance will be in the nature of reimbursement.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:23196e8aed35",
+     "evidence": "3.5. Bandwidth Subsidy: Eligible start-ups will be provided bandwidth subsidy at the rate of 70% of annual bandwidth charges subject to a ceiling of Rs. 20000 for 2 years.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:23196e8aed35",
+     "evidence": "3.6. Skill Certification Grant: Eligible start-ups will be provided skill certification grant at the rate of Rs.5000 per skill certification per person subject to overall ceiling of Rs. 1 lakh per annum per start-up for a period of two years.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:23196e8aed35",
+     "evidence": "3.7. Marketing & Product Development Assistance: A onetime assistance of Rs. 1 lakh will be provided to eligible start-ups for prototype/product development and additional assistance of Rs. 1 lakh will be provided for marketing.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:23196e8aed35",
+     "evidence": "3.7. Marketing & Product Development Assistance: A onetime assistance of Rs. 1 lakh will be provided to eligible start-ups for prototype/product development and additional assistance of Rs. 1 lakh will be provided for marketing.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:23196e8aed35",
+     "evidence": "3.8. Matching Equity Support: An eligible start-up which has raised equity capital from registered venture capital funds will be entitled to, at its option, avail additional 25% of such capital from Gujarat Venture Finance Limited (GVFL), without additional scrutiny, on same terms at which the capital was raised within 6 months of such raising subject to a ceiling of Rs. 5 crores.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:23196e8aed35",
+     "evidence": "3.9. In e-Governance projects undertaken by Government Departments or its Boards, Corporations or parastatal bodies getting budgetary support, a provision will be made for outsourcing of 5 % to 10 % of the contract value either as outsourcing of service or as job work to the eligible start-ups and to students of shortlisted Technical Colleges in Gujarat under this policy.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:23196e8aed35",
+     "evidence": "The Director of Information and Technology shall publish the list of eligible startups on 1st of every month on its website.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:23196e8aed35",
+     "evidence": "The solution provider or system integrator shall select startups or institutes out of the list so published for outsourcing part contract or for job work.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:directorit_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "directorit.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://directorit.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:23196e8aed35",
+     "evidence": "(ii) Total quantum of assistance for obtaining such patents shall be limited to Rs. 10 lakh for international and Rs. 4 lakh for domestic patents per start-up.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:incubation",
+   "type": "SERVICE",
+   "name": "Incubation",
+   "officialName": "incubation",
+   "description": "The page provides information about eligibility and entry points for incubation at various institutions for individuals and specific groups like faculty, students, and alumni.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "eligibility": [
+     "Eligible applicants for incubation at NSRCEL, IIM-B include all individuals.",
+     "Eligible applicants for incubation at TeNeT, IIT-M include all individuals.",
+     "Eligible applicants for incubation at SINE, IIT-B include faculty, students, and alumni.",
+     "Eligible applicants for incubation at TBI, IIT-D include faculty, students, and alumni.",
+     "Eligible applicants for incubation at TREC-STEP include all individuals.",
+     "Eligible applicants for incubation at Nirma Labs include all individuals."
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:6d4e07e3a146",
+     "evidence": "NSRCEL, IIM-B 2001 Mixed All Idea stage 6",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6d4e07e3a146",
+     "evidence": "NSRCEL, IIM-B 2001 Mixed All Idea stage 6",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6d4e07e3a146",
+     "evidence": "TeNeT, IIT-M139 Hi- Tech All Pre-idea 20",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6d4e07e3a146",
+     "evidence": "TeNeT, IIT-M139 Hi- Tech All Pre-idea 20",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6d4e07e3a146",
+     "evidence": "SINE, IIT-B 2004 Hi-Tech Faculty/\nStudents/\nAlumni\nPost-idea 26",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6d4e07e3a146",
+     "evidence": "SINE, IIT-B 2004 Hi-Tech Faculty/\nStudents/\nAlumni\nPost-idea 26",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6d4e07e3a146",
+     "evidence": "TBI, IIT-D 2000 Hi-Tech Faculty/\nStudents/\nAlumni\nPost-idea 19",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6d4e07e3a146",
+     "evidence": "TBI, IIT-D 2000 Hi-Tech Faculty/\nStudents/\nAlumni\nPost-idea 19",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6d4e07e3a146",
+     "evidence": "TREC-STEP 1986 Hi-Tech All Pre-idea 182",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6d4e07e3a146",
+     "evidence": "TREC-STEP 1986 Hi-Tech All Pre-idea 182",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6d4e07e3a146",
+     "evidence": "Nirma Labs 2004 Hi-Tech All Pre/Post\nIdea-stage\n5.7.5",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6d4e07e3a146",
+     "evidence": "Nirma Labs 2004 Hi-Tech All Pre/Post\nIdea-stage\n5.7.5",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
    "id": "helpline:0141_2929831_2922373",
    "type": "HELPLINE",
    "name": "Rajasthan Startup Policy helpline",
@@ -342,6 +768,151 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:startup_funding_support",
+   "type": "SERVICE",
+   "name": "Startup Funding Support",
+   "officialName": "Startup Funding Support",
+   "description": "This service provides funding support to startups in the form of Seed Support and Sustenance allowance.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "There is no application fee for this scheme."
+   },
+   "sources": [
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "There is no application fee for this scheme.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "The Start-ups will apply to Nodal Institution with requisites (Application form, Supporting Documents and Undertaking) in prescribed format.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "Nodal Institution will have to examine the case of Startups thoroughly from the viewpoint of evaluation parameters. After exercising due diligence, Nodal Institution will take decision and recommend (in prescribed format) the startup project proposal to the office of the Industries Commissioner within 15 working days from the submission of application.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "The Startup Gujarat Cell will scrutinize each application against the basic eligibility criteria and verify the submission of all required documents from the checklist. Complete proposals received from Nodal Institutions will be forwarded to iCreate, while incomplete proposals will be returned to the Nodal Institutions within 15 working days.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "iCreate will conduct a detailed evaluation through an Expert screening committee, comprised of domain experts, and submit their recommendations to the Startup Gujarat Cell within 20 working days.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "After exercising due diligence, the Startup applications will be placed before the State Level Empowered Committee (SLEC) within 30 days from the recommendation of Expert Screening Committee.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "Startup Gujarat Cell will communicate the decision of SLEC to the Nodal Institutions within 10 working days.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "Note: In essence, Eligible Startups gets approval for Seed Support and Sustenance allowance within 90 working days from the submission of their application at Nodal Institution.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "office:gandhinagar",
+   "type": "OFFICE",
+   "name": "Gandhinagar",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "9th Floor, 1st Block, Udyog Bhavan, Gandhinagar"
+   },
+   "sources": [
+    {
+     "sourceId": "src:38b1ddfb482f",
+     "evidence": "Name of Village/ Taluka/ District : Head Office at Gandhinagar",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:entrepreneurship_development_programs",
+   "type": "SERVICE",
+   "name": "Entrepreneurship Development Programs",
+   "officialName": "Entrepreneurship Development Programs",
+   "description": "The service provides Entrepreneurship Development Programs for individual citizens and a scheme for enhancing technical competence and manpower.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:38b1ddfb482f",
+     "evidence": "G.R., Application Forms/ Expression of Interest- EoI, Proposal",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:38b1ddfb482f",
+     "evidence": "Application Form",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:38b1ddfb482f",
+     "evidence": "As per Training calendar",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:start_ups_innovation_assistance_scheme",
+   "type": "SERVICE",
+   "name": "Start Ups/Innovation assistance scheme",
+   "officialName": "Start Ups/Innovation assistance scheme",
+   "description": "The scheme provides assistance for Start Ups/Innovation and will support 2500 persons over a period of 5 years.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:4236ac0c3e16",
+     "evidence": "which will come into force from the date 1.1.2015 and will remain in operation for a period of five years.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4236ac0c3e16",
+     "evidence": "which will come into force from the date 1.1.2015 and will remain in operation for a period of five years.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4236ac0c3e16",
+     "evidence": "2500 persons will be supported for the period of 5 years",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
   }
  ],
  "edges": [
@@ -394,6 +965,230 @@
    ]
   },
   {
+   "id": "e:service_startup_policy_scheme__requires__document_certificate_of_eligible_business",
+   "from": "service:startup_policy_scheme",
+   "to": "document:certificate_of_eligible_business",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "To obtain tax benefits, a start-up must obtain a certificate of an eligible business from the Inter-Ministerial Board of Certification.",
+   "sources": [
+    {
+     "sourceId": "src:5f7ce4399a12",
+     "evidence": "Provided further that in order to obtain tax benefits a startup so identified under the above definition shall be required to obtain a certificate of an eligible business from the Inter-Ministerial Board of Certification consisting of:",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_policy_scheme__requires__action_startup_policy_scheme_1_capital_assistance_in_3_tranc",
+   "from": "service:startup_policy_scheme",
+   "to": "action:startup_policy_scheme_1_capital_assistance_in_3_tranches_reimbur",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 1 of 6 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:c333723c348e",
+     "evidence": "1. Capital Assistance In 3 tranches Reimbursement as per approval",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_policy_scheme__requires__action_startup_policy_scheme_2_mentoring_assistance_on_submi",
+   "from": "service:startup_policy_scheme",
+   "to": "action:startup_policy_scheme_2_mentoring_assistance_on_submission_of_pr",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 2 of 6 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:c333723c348e",
+     "evidence": "2. Mentoring Assistance On Submission of Proof of eligible expenditure Reimbursement on actuals",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_startup_policy_scheme_2_mentoring_assistance_on_submi__depends_on__action_startup_policy_scheme_1_capital_assis",
+   "from": "action:startup_policy_scheme_2_mentoring_assistance_on_submission_of_pr",
+   "to": "action:startup_policy_scheme_1_capital_assistance_in_3_tranches_reimbur",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:c333723c348e",
+     "evidence": "2. Mentoring Assistance On Submission of Proof of eligible expenditure Reimbursement on actuals",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_policy_scheme__requires__action_startup_policy_scheme_3_operating_assistance_on_submi",
+   "from": "service:startup_policy_scheme",
+   "to": "action:startup_policy_scheme_3_operating_assistance_on_submission_of_au",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 3 of 6 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:c333723c348e",
+     "evidence": "3. Operating Assistance On Submission of Audited Accounts Reimbursement subject to ceiling",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_startup_policy_scheme_3_operating_assistance_on_submi__depends_on__action_startup_policy_scheme_2_mentoring_ass",
+   "from": "action:startup_policy_scheme_3_operating_assistance_on_submission_of_au",
+   "to": "action:startup_policy_scheme_2_mentoring_assistance_on_submission_of_pr",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:c333723c348e",
+     "evidence": "3. Operating Assistance On Submission of Audited Accounts Reimbursement subject to ceiling",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_policy_scheme__requires__action_startup_policy_scheme_4_assistance_for_procurement_of",
+   "from": "service:startup_policy_scheme",
+   "to": "action:startup_policy_scheme_4_assistance_for_procurement_of_enterprise",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 4 of 6 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:c333723c348e",
+     "evidence": "4. Assistance for Procurement of Enterprise Software On submission of proof of expenditure Subject to ceiling",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_startup_policy_scheme_4_assistance_for_procurement_of__depends_on__action_startup_policy_scheme_3_operating_ass",
+   "from": "action:startup_policy_scheme_4_assistance_for_procurement_of_enterprise",
+   "to": "action:startup_policy_scheme_3_operating_assistance_on_submission_of_au",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:c333723c348e",
+     "evidence": "4. Assistance for Procurement of Enterprise Software On submission of proof of expenditure Subject to ceiling",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_policy_scheme__requires__action_startup_policy_scheme_5_stamp_duty_registration_fee_o",
+   "from": "service:startup_policy_scheme",
+   "to": "action:startup_policy_scheme_5_stamp_duty_registration_fee_on_submissio",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 5 of 6 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:c333723c348e",
+     "evidence": "5. Stamp Duty & Registration Fee On submission of Proof Reimbursement as per actuals",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_startup_policy_scheme_5_stamp_duty_registration_fee_o__depends_on__action_startup_policy_scheme_4_assistance_fo",
+   "from": "action:startup_policy_scheme_5_stamp_duty_registration_fee_on_submissio",
+   "to": "action:startup_policy_scheme_4_assistance_for_procurement_of_enterprise",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:c333723c348e",
+     "evidence": "5. Stamp Duty & Registration Fee On submission of Proof Reimbursement as per actuals",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_policy_scheme__requires__action_startup_policy_scheme_6_incentive_on_power_tariff_and",
+   "from": "service:startup_policy_scheme",
+   "to": "action:startup_policy_scheme_6_incentive_on_power_tariff_and_electricit",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Step 6 of 6 as the page numbers them.",
+   "sources": [
+    {
+     "sourceId": "src:c333723c348e",
+     "evidence": "6. Incentive on Power Tariff and Electricity Duty On submission of proof of payment Reimbursement subject to ceiling",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:action_startup_policy_scheme_6_incentive_on_power_tariff_and__depends_on__action_startup_policy_scheme_5_stamp_duty_re",
+   "from": "action:startup_policy_scheme_6_incentive_on_power_tariff_and_electricit",
+   "to": "action:startup_policy_scheme_5_stamp_duty_registration_fee_on_submissio",
+   "type": "DEPENDS_ON",
+   "verificationStatus": "EXTRACTED",
+   "note": "The page puts this step after that one.",
+   "sources": [
+    {
+     "sourceId": "src:c333723c348e",
+     "evidence": "6. Incentive on Power Tariff and Electricity Duty On submission of proof of payment Reimbursement subject to ceiling",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_policy_scheme__apply_at__portal_directorit_gujarat_gov_in",
+   "from": "service:startup_policy_scheme",
+   "to": "portal:directorit_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on directorit.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:23196e8aed35",
+     "evidence": "(ii) Total quantum of assistance for obtaining such patents shall be limited to Rs. 10 lakh for international and Rs. 4 lakh for domestic patents per start-up.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_incubation__apply_at__portal_ced_gujarat_gov_in",
+   "from": "service:incubation",
+   "to": "portal:ced_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ced.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:6d4e07e3a146",
+     "evidence": "NSRCEL, IIM-B 2001 Mixed All Idea stage 6",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_rajasthan_startup_policy__call_if__helpline_0141_2929831_2922373",
    "from": "service:rajasthan_startup_policy",
    "to": "helpline:0141_2929831_2922373",
@@ -437,6 +1232,70 @@
      "sourceId": "src:4fc361aa4ee4",
      "evidence": "Rs. 10,000/- per month will be provided to the innovator as sustenance allowance for one year.Startups whose project is recommended by the Nodal institution and approved by the Committee will get a sustenance allowance of Rs. 10,000 per month for a period of 1 year.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_funding_support__apply_at__portal_ifp_gujarat_gov_in",
+   "from": "service:startup_funding_support",
+   "to": "portal:ifp_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ifp.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "There is no application fee for this scheme.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_entrepreneurship_development_programs__visit_at__office_gandhinagar",
+   "from": "service:entrepreneurship_development_programs",
+   "to": "office:gandhinagar",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The head office is located at Gandhinagar",
+   "sources": [
+    {
+     "sourceId": "src:38b1ddfb482f",
+     "evidence": "Name of Village/ Taluka/ District : Head Office at Gandhinagar",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_entrepreneurship_development_programs__apply_at__portal_ced_gujarat_gov_in",
+   "from": "service:entrepreneurship_development_programs",
+   "to": "portal:ced_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ced.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:38b1ddfb482f",
+     "evidence": "G.R., Application Forms/ Expression of Interest- EoI, Proposal",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_start_ups_innovation_assistance_scheme__apply_at__portal_ced_gujarat_gov_in",
+   "from": "service:start_ups_innovation_assistance_scheme",
+   "to": "portal:ced_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ced.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:4236ac0c3e16",
+     "evidence": "which will come into force from the date 1.1.2015 and will remain in operation for a period of five years.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]

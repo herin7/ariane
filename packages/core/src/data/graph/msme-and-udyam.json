@@ -2,6 +2,36 @@
  "id": "msme-and-udyam",
  "sources": [
   {
+   "id": "src:145ff3dc7868",
+   "url": "https://amrelidp.gujarat.gov.in/amreli/documents/028.pdf#page=1",
+   "title": "028 (page 1 of 3)",
+   "domain": "amrelidp.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-AMRELI",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "7209cd84f674ea1f5bffd8e53304dfcca0b00dae8eda1691cfa02b9a709ae3ff"
+  },
+  {
+   "id": "src:e2d5b5629abd",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/BASPGUIDELINES.pdf#page=3",
+   "title": "BASPGUIDELINES (page 3 of 13)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "1c2d9925b11aaeb11f544e064f1062f2e0201a59a368616d7e1f1273cc026bf3"
+  },
+  {
+   "id": "src:f565384b5d84",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/ONDC/MSME/Guidelines.pdf#page=11",
+   "title": "Guidelines (page 11 of 15)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "f95059228e08b133f69beac80528122b29929847d8da71a4a4ac41bc38d6e92f"
+  },
+  {
    "id": "src:cef59a1e5f90",
    "url": "https://udyamregistration.gov.in/",
    "title": "Udyam Registration : Zero cost, No Fee and Free Registration of MSMEs. This is official website of Govt. of India, Ministry of MSME. No other website/portal/app is official. MSMEs are requested to do MSME Registration here only",
@@ -20,6 +50,36 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "f30bd918d449bce9bc98a1cafbe3eae8db7e1c697f65a2c21f555201846e1b67"
+  },
+  {
+   "id": "src:2a571cf99014",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/ONDC/MSME/Guidelines.pdf#page=12",
+   "title": "Guidelines (page 12 of 15)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "e71d27240a4c31d51be60f44713ae320a70f76c8109cb2022ccae7ee81288e38"
+  },
+  {
+   "id": "src:f11e2f4d794c",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/gr-10-03-2015-CH.pdf#page=2",
+   "title": "gr-10-03-2015-CH (page 2 of 4)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "87b2c74553bd5a74cad175f6b188d914d4e2039c54ef1730cacb9bfcfffd833d"
+  },
+  {
+   "id": "src:575622b1525b",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/BASPGUIDELINES.pdf#page=4",
+   "title": "BASPGUIDELINES (page 4 of 13)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "1a3401d2357965201d17bd0a68bcf59ea27f0e5294f35bde8c98c76d186a03a9"
   },
   {
    "id": "src:fe4f101fbfb0",
@@ -42,6 +102,16 @@
    "contentHash": "6558dba102f39ebf872f0a67567e5f2e322e573b604eef85e5ec686ab55af77b"
   },
   {
+   "id": "src:d7ef3a2f3e92",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/gr-mis-10-03-2015-CH.pdf#page=2",
+   "title": "gr-mis-10-03-2015-CH (page 2 of 5)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "20f14f15f9c9218afa1f126bf879befb57501bd0402a52dfde4936cc434c35d7"
+  },
+  {
    "id": "src:b9f49e2ad4a9",
    "url": "https://e-kutir.gujarat.gov.in/SHGUserRegistration.aspx",
    "title": "Commissioner of Cottage and Rural Industries",
@@ -52,6 +122,26 @@
    "contentHash": "99e029038fdd5a375a7c1103547792e3bbca9451f357f1fa3b3a824d46983dac"
   },
   {
+   "id": "src:fd300053dde4",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/elec_policy_guj_2014.pdf#page=10",
+   "title": "elec_policy_guj_2014 (page 10 of 16)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "281c812ebf5172f6018e1503c584385f04c8bcc26260843e4651b5b9b5a6f148"
+  },
+  {
+   "id": "src:609a55d95471",
+   "url": "https://ic.gujarat.gov.in/documents/commondoc/2025/MSME%20Special%20category%20award%20form.pdf#page=1",
+   "title": "MSME%20Special%20category%20award%20form (page 1 of 4)",
+   "domain": "ic.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ffbe78d95dc23f2a437e8909b0252413d8e5d542c8adf2657848cea54333a1ee"
+  },
+  {
    "id": "src:15614cce9684",
    "url": "https://e-kutir.gujarat.gov.in/registration.aspx",
    "title": "Commissioner of Cottage and Rural Industries",
@@ -60,9 +150,177 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "22166482957cd4d9d8d8f1d17a605deb585a7927d8ff8f0c088c1842f7e5c004"
+  },
+  {
+   "id": "src:c462f68c4585",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/user_manual/Garment_Policy_guidelines.pdf#page=20",
+   "title": "Garment_Policy_guidelines (page 20 of 22)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "381f5a97809dbe6a8aeb075d102a0967c9f699c987ec6706589daf799d2cede8"
   }
  ],
  "nodes": [
+  {
+   "id": "document:small_scale_industry_registration",
+   "type": "DOCUMENT",
+   "name": "Small scale industry registration",
+   "jurisdictionId": "IN-GJ-AMRELI",
+   "sources": [
+    {
+     "sourceId": "src:145ff3dc7868",
+     "evidence": "(a) Small Scale Industry registration No. :\nand date",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:iso_9000_registration",
+   "type": "DOCUMENT",
+   "name": "Iso 9000 registration",
+   "jurisdictionId": "IN-GJ-AMRELI",
+   "sources": [
+    {
+     "sourceId": "src:145ff3dc7868",
+     "evidence": "(b) I.S.O.-9000 registration No. & date :",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:other_registrations",
+   "type": "DOCUMENT",
+   "name": "Other registrations",
+   "jurisdictionId": "IN-GJ-AMRELI",
+   "sources": [
+    {
+     "sourceId": "src:145ff3dc7868",
+     "evidence": "(c) Any other registration No. & Date(ISI):",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:msme_registration",
+   "type": "SERVICE",
+   "name": "MSME registration",
+   "officialName": "MSME registration",
+   "aliases": [
+    "msme"
+   ],
+   "description": "The service provides registration for a unit, including details of the business, registration numbers, and investment.",
+   "jurisdictionId": "IN-GJ-AMRELI",
+   "metadata": {
+    "machineExtracted": true,
+    "eligibility": [
+     "Mentors must have at least 5 years of experience in the MSME sector.",
+     "Mentors must have a natural linkage with industry.",
+     "Mentors must have experience of mentoring existing or startup MSME units.",
+     "Trainees under EDP/ESDP passing out under the ATI Scheme of the Ministry of MSME and interested in self-employment are eligible."
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:145ff3dc7868",
+     "evidence": "1. Name & address of the applicant unit :",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:145ff3dc7868",
+     "evidence": "(a) Director / Partners / Propritor's name:",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:145ff3dc7868",
+     "evidence": "(b) Office address",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:145ff3dc7868",
+     "evidence": "Telephone No. &\nFax No.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:145ff3dc7868",
+     "evidence": "2. Brief History of the project :",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:145ff3dc7868",
+     "evidence": "3. Details of Registration obtained :",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:145ff3dc7868",
+     "evidence": "4. Name of the product :\n(a) Existing\n(b) Proposed",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:145ff3dc7868",
+     "evidence": "5. Capital Investment :\n(a) Land :\n(b) Building :\n(c) Plant & Machinery :\n(Details may be attached separately)\n(d) Others :",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:145ff3dc7868",
+     "evidence": "(e) Working capital margin :",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:145ff3dc7868",
+     "evidence": "6. Cost of Testing facilitiies / R&D facilitiies :",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:145ff3dc7868",
+     "evidence": "(a) Cost of equipments required for :\ntesting and R & D\n(Pl. attach separate list of the\nequipments and its individual cost)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:145ff3dc7868",
+     "evidence": "(b) Consultancy fee paid, if any :",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:amrelidp_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "amrelidp.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ-AMRELI",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://amrelidp.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:145ff3dc7868",
+     "evidence": "1. Name & address of the applicant unit :",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
   {
    "id": "portal:udyamregistration_gov_in",
    "type": "PORTAL",
@@ -154,10 +412,16 @@
    "type": "SERVICE",
    "name": "Udyam Registration",
    "officialName": "Udyam Registration",
+   "aliases": [
+    "udyam"
+   ],
    "description": "Udyam Registration is a free, online, and paperless process for registering MSMEs with the Government of India.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true
+    "machineExtracted": true,
+    "eligibility": [
+     "Only Udyam registered Micro and Small Enterprises (MSEs) under manufacturing and services sectors are eligible for benefits under the Initiative."
+    ]
    },
    "sources": [
     {
@@ -229,6 +493,191 @@
     {
      "sourceId": "src:cef59a1e5f90",
      "evidence": "Our online system will be fully integrated with Income Tax and GSTIN systems.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:mse_estate_development",
+   "type": "SERVICE",
+   "name": "MSE Estate Development",
+   "officialName": "MSE Estate Development",
+   "description": "The service involves the development of estates for Micro, Small, and Medium Enterprises (MSEs) by GIDC, including identifying locations, acquiring land, and providing infrastructure.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:f11e2f4d794c",
+     "evidence": "The eligible fixed capital investment of the project will be decided on the basis of following criteria.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f11e2f4d794c",
+     "evidence": "Cost of Land: The cost of land will be decided on the basis of prevailing policy of (:~!DC in unsaturated estates.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f11e2f4d794c",
+     "evidence": "Cost of Building: The cost of building shall be fixed up by SLAG for the lndustri::}l Building based on prevailingSOR of the Road and Building department.",
+     "confidence": 0.85,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f11e2f4d794c",
+     "evidence": "Other lnfrastr~cture Facilities: The cost of other infrastructure facilities will be as decided by SLEC, based on relevant available SOR if any or any other agency as approved by SLEC.",
+     "confidence": 0.85,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f11e2f4d794c",
+     "evidence": "GIDC will identify potential area I locations in the state where MSEs can be set up.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f11e2f4d794c",
+     "evidence": "GIDC may purchase/acquirenew land for development of estates.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f11e2f4d794c",
+     "evidence": "GIDC will prepare a development plan for infrastructure facilities needed for the MSEs for the estate and work out the project cost.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f11e2f4d794c",
+     "evidence": "GIDC will submit detailed proposal to Industries Commissioner.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f11e2f4d794c",
+     "evidence": "Industries Commissioner will scrutinize the proposal and submit the proposal to the State Level Empowered Committee (SLEC).",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f11e2f4d794c",
+     "evidence": "SLEC will sanction the proposal.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f11e2f4d794c",
+     "evidence": "The assistance up to 50% of allotment price fixed by SLEC will be given directly to GIDC.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f11e2f4d794c",
+     "evidence": "GIDC will subsequently pass on such concession/assistance to MSEs.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:ced_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "ced.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://ced.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:f11e2f4d794c",
+     "evidence": "The eligible fixed capital investment of the project will be decided on the basis of following criteria.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:msme_scheme_for_up_scaling_enterprises",
+   "type": "SERVICE",
+   "name": "MSME Scheme for Up-scaling Enterprises",
+   "officialName": "MSME Scheme for Up-scaling Enterprises",
+   "description": "The service provides assistance to eligible Micro/Small enterprises for up-scaling their operations through mentorship and support from Implementing Agencies.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "eligibility": [
+     "An existing enterprise must be a Micro/Small enterprise engaged in manufacturing or services activities to be eligible under the Scheme.",
+     "An existing enterprise must have been in operations for the last three or more years to be eligible under the Scheme.",
+     "An existing enterprise must not be a sick unit or a loan defaulter as of the date of application to be eligible under the Scheme.",
+     "An existing enterprise must be rated and assigned with High or Moderate Ratings to be eligible under the Scheme.",
+     "Units engaged in „Trading‟ activities are not eligible under the Scheme."
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:575622b1525b",
+     "evidence": "An existing enterprise to be eligible for being a „target beneficiary‟ under the Scheme should be:- a) A Micro/Small enterprises (having filed EM-I) engaged in manufacturing or services activities;",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:575622b1525b",
+     "evidence": "b) In operations for the last three or more years,",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:575622b1525b",
+     "evidence": "c) Not a sick unit or a loan defaulter as on the date of application",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:575622b1525b",
+     "evidence": "d) Rated (including under Performance and Credit Rating Scheme of the Ministry of MSME) and assigned with High or Moderate Ratings.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:575622b1525b",
+     "evidence": "Units engaged in „Trading‟ activities shall not be entertained.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:575622b1525b",
+     "evidence": "The rated unit(s) desirous of up-scaling their performance can either approach the: a) Implementing Agency requesting for a mentor who can do its hand-holding and carry it through the up-scaling process;",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:575622b1525b",
+     "evidence": "b) The mentor, directly (after ensuring that the mentor meets with eligibility conditions) requesting it for the hand-holding it for the up-scaling process.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:575622b1525b",
+     "evidence": "With the consent of the mentor and along with the proposal for up-scaling as prepared by the mentor, approach the Implementing Agency for assistance under the Scheme;",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:575622b1525b",
+     "evidence": "All proposals for empanelment of IAs found suitable by the Screening Committee as per specified eligibility criteria would be recommended for empanelment as IAs to Secretary (MSME).",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:575622b1525b",
+     "evidence": "The empanelments out of such IAs will be made with the approval of Secretary (MSME).",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -379,6 +828,74 @@
    ]
   },
   {
+   "id": "service:scheme_l",
+   "type": "SERVICE",
+   "name": "Scheme-l",
+   "officialName": "Scheme-l",
+   "description": "Scheme-l provides assistance to private developers for developing readymade sheds in Mini Estate to provide basic infrastructure for MSEs.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d7ef3a2f3e92",
+     "evidence": "Private Developer means any registered Private/ Public Limited Company ~mel I or Industrial Association, Individual industries, Group of industries/ Cluster.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d7ef3a2f3e92",
+     "evidence": "Mini Estate is an industrial estae having basic infrastructure facilities like developed plot, internal roads, water distribution facilities, power distribution and such o!ber facilities/ services as may be required developed for the establishment of MSEs tn manufacture any product.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d7ef3a2f3e92",
+     "evidence": "Infrastructure Facilities mean bare minimum facilities required to set up MSEs and approved by implementation committee. 1. Asphalt Road/ Cement Concrete Road. 2. Storm Water Drainage System. 3. Domestic Sewerage Collection, treatment and Disposal System. 4. Streetlights. 5. Open & Green Spaces. 6. Water & Power Supply & distribution network at door setup of the shed. 7. Street light. 8. Pipe- racks 9. Steam. 10. Connectivity for communication",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d7ef3a2f3e92",
+     "evidence": "Cost of Land: The cost of land will be decided on the basis of prevailing jantri price of · the area or the actual price paid by private developer including the stamp duty and registration charges.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d7ef3a2f3e92",
+     "evidence": "Cost of Building: The cost of the building is fixed up by SLEC for the industrial building or/and SOR of the Roads and Building Department.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d7ef3a2f3e92",
+     "evidence": "Other Infrastructure Facilities: The cost of other infrastructure facilities will be as decided by the SLEC.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d7ef3a2f3e92",
+     "evidence": "Architect I Consultancy fees/ TPQA charges: The fees and charges paid for the services for development of Mini estate would h.~ up to 5% of the project cost or Rs.20.00 lacs whichever is less will be considered as an eligible investment.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d7ef3a2f3e92",
+     "evidence": "4.0 Scheme-l Assistance to private developer for developing readymade sheds in Mini Estate.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d7ef3a2f3e92",
+     "evidence": "State Government has felt that there is a need of small estates ha\"ing a small row house type (Gala type) shed for MSEs which will provide basis infrastructerc to set up MSEs. This type of mini estate can be developed by private developer for",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
    "id": "service:shg_user_registration",
    "type": "SERVICE",
    "name": "SHG User Registration",
@@ -465,6 +982,160 @@
    ]
   },
   {
+   "id": "service:interest_subsidy_for_industries",
+   "type": "SERVICE",
+   "name": "Interest Subsidy For Industries",
+   "officialName": "interest subsidy for industries",
+   "description": "Eligible units can avail an interest subsidy of 7% for MSMEs and 2% for large industries for five years, with additional benefits for certain groups.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:fd300053dde4",
+     "evidence": " 100% of EPF amount paid in case of female employees",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fd300053dde4",
+     "evidence": " 75% of EPF amount paid in case of male employees",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fd300053dde4",
+     "evidence": "An empowered ‘Single Window Clearance Committee’ will be set up and operationalized for granting approvals and clearances for setting up New Units in the State.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fd300053dde4",
+     "evidence": "It would be supported by a ‘state-of-the-art centralized help desk call centre’ on 24x7 basis.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fd300053dde4",
+     "evidence": "10.1. Interest subsidy for five years @ 7% for MSMEs and 2% for large Industries having an actual investment up to Rs. 100 Crores.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fd300053dde4",
+     "evidence": "10.2. 1% additional interest subsidy to the youth less than 35 years of age in case of the first project or to the SC/ST/Women/Differently-abled persons.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:fd300053dde4",
+     "evidence": "10.3. Maximum amount of interest subsidy per annum shall be Rs. 25 lakhs (Twenty Five Lakhs only) for MSMEs and Rs. 50 lakhs (Fifty Lakhs only) for large units.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:high_resolution_photo",
+   "type": "DOCUMENT",
+   "name": "High resolution photo",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:609a55d95471",
+     "evidence": "Please affix one high resolution photo (size 8cmx5cm)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "document:udyam_registration",
+   "type": "DOCUMENT",
+   "name": "Udyam registration",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:609a55d95471",
+     "evidence": "4 Udyam registration: Tick Appropriately (Micro/ Small/ Medium) Udyam Registration Number:",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:msme_special_category_award",
+   "type": "SERVICE",
+   "name": "MSME Special category award",
+   "officialName": "MSME Special category award",
+   "description": "An application form for an award under the MSME Special category, requiring details like Udyam registration, enterprise information, and personal details of the business owners.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:609a55d95471",
+     "evidence": "Note: - To be printed on light cream color paper",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:609a55d95471",
+     "evidence": "Application to be submitted in duplicate",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:609a55d95471",
+     "evidence": "3 Name and address of Enterprise (English)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:609a55d95471",
+     "evidence": "5 Constitution of the Unit (Proprietorship/partnership/ company/society/LLP/others, Proof may be submitted)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:609a55d95471",
+     "evidence": "6 Name, address & contact details of the Proprietor/ Partners/ Directors.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:609a55d95471",
+     "evidence": "7 Date of Birth of Proprietor/ All Partners/ All Directors",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:ic_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "ic.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://ic.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:609a55d95471",
+     "evidence": "Note: - To be printed on light cream color paper",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "service:cottage_and_rural_industries_registration",
    "type": "SERVICE",
    "name": "Cottage and Rural Industries Registration",
@@ -516,9 +1187,130 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "service:slac",
+   "type": "SERVICE",
+   "name": "SLAC",
+   "officialName": "SLAC",
+   "description": "The State Level Approval Committee sanctions garment industry projects with specific conditions and timelines.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "timeline": "The project must be completed within three years from the date of in principle Approval."
+   },
+   "sources": [
+    {
+     "sourceId": "src:c462f68c4585",
+     "evidence": "12.1. The project should complete in all respects within three years from the date of in principle Approval.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:c462f68c4585",
+     "evidence": "12.2. The SLAC may extend the project completion period by one year on submission of valid reason by the developer",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:c462f68c4585",
+     "evidence": "12.5. 60% of the land should be utilize for the Industrial purpose and other 40 % should be allotted for the infrastructure as per GR including Residential, Medical Facility, Gardens, Open space & green belt and other recreation facilities like club, training center, canteen etc.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:c462f68c4585",
+     "evidence": "12.7. The total amount of assistance shall not exceed 50% of total eligible project cost in case of assistance claimed from both central & state Government.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "portal:ifp_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "ifp.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://ifp.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:c462f68c4585",
+     "evidence": "12.1. The project should complete in all respects within three years from the date of in principle Approval.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
   }
  ],
  "edges": [
+  {
+   "id": "e:service_msme_registration__requires__document_small_scale_industry_registration",
+   "from": "service:msme_registration",
+   "to": "document:small_scale_industry_registration",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must provide the Small Scale Industry registration number and date.",
+   "sources": [
+    {
+     "sourceId": "src:145ff3dc7868",
+     "evidence": "(a) Small Scale Industry registration No. :\nand date",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_msme_registration__requires__document_iso_9000_registration",
+   "from": "service:msme_registration",
+   "to": "document:iso_9000_registration",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must provide the ISO-9000 registration number and date.",
+   "sources": [
+    {
+     "sourceId": "src:145ff3dc7868",
+     "evidence": "(b) I.S.O.-9000 registration No. & date :",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_msme_registration__requires__document_other_registrations",
+   "from": "service:msme_registration",
+   "to": "document:other_registrations",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must provide any other registration number and date (such as ISI).",
+   "sources": [
+    {
+     "sourceId": "src:145ff3dc7868",
+     "evidence": "(c) Any other registration No. & Date(ISI):",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_msme_registration__apply_at__portal_amrelidp_gujarat_gov_in",
+   "from": "service:msme_registration",
+   "to": "portal:amrelidp_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on amrelidp.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:145ff3dc7868",
+     "evidence": "1. Name & address of the applicant unit :",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
   {
    "id": "e:service_udyam_registration__apply_at__portal_udyamregistration_gov_in",
    "from": "service:udyam_registration",
@@ -600,6 +1392,38 @@
    ]
   },
   {
+   "id": "e:service_mse_estate_development__apply_at__portal_ced_gujarat_gov_in",
+   "from": "service:mse_estate_development",
+   "to": "portal:ced_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ced.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:f11e2f4d794c",
+     "evidence": "The eligible fixed capital investment of the project will be decided on the basis of following criteria.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_msme_scheme_for_up_scaling_enterprises__apply_at__portal_ced_gujarat_gov_in",
+   "from": "service:msme_scheme_for_up_scaling_enterprises",
+   "to": "portal:ced_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ced.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:575622b1525b",
+     "evidence": "An existing enterprise to be eligible for being a „target beneficiary‟ under the Scheme should be:- a) A Micro/Small enterprises (having filed EM-I) engaged in manufacturing or services activities;",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_pmegp_scheme__apply_at__portal_kviconline_gov_in_b72394",
    "from": "service:pmegp_scheme",
    "to": "portal:kviconline_gov_in_b72394",
@@ -648,6 +1472,22 @@
    ]
   },
   {
+   "id": "e:service_scheme_l__apply_at__portal_ced_gujarat_gov_in",
+   "from": "service:scheme_l",
+   "to": "portal:ced_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ced.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:d7ef3a2f3e92",
+     "evidence": "Private Developer means any registered Private/ Public Limited Company ~mel I or Industrial Association, Individual industries, Group of industries/ Cluster.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_shg_user_registration__apply_at__portal_e_kutir_gujarat_gov_in",
    "from": "service:shg_user_registration",
    "to": "portal:e_kutir_gujarat_gov_in",
@@ -658,6 +1498,70 @@
     {
      "sourceId": "src:b9f49e2ad4a9",
      "evidence": "સખી મંડળ / ઔદ્યોગિક સહકારી મંડળી / એનજીઓ/ટ્રસ્ટનું નામ / ખાદી સંસ્થા - મંડળી (અંગ્રેજીમાં) *",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_interest_subsidy_for_industries__apply_at__portal_ced_gujarat_gov_in",
+   "from": "service:interest_subsidy_for_industries",
+   "to": "portal:ced_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ced.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:fd300053dde4",
+     "evidence": " 100% of EPF amount paid in case of female employees",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_msme_special_category_award__requires__document_high_resolution_photo",
+   "from": "service:msme_special_category_award",
+   "to": "document:high_resolution_photo",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A high resolution photo of size 8cmx5cm must be affixed.",
+   "sources": [
+    {
+     "sourceId": "src:609a55d95471",
+     "evidence": "Please affix one high resolution photo (size 8cmx5cm)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_msme_special_category_award__requires__document_udyam_registration",
+   "from": "service:msme_special_category_award",
+   "to": "document:udyam_registration",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The application must include the Udyam registration number and indicate if it is Micro, Small, or Medium.",
+   "sources": [
+    {
+     "sourceId": "src:609a55d95471",
+     "evidence": "4 Udyam registration: Tick Appropriately (Micro/ Small/ Medium) Udyam Registration Number:",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_msme_special_category_award__apply_at__portal_ic_gujarat_gov_in",
+   "from": "service:msme_special_category_award",
+   "to": "portal:ic_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ic.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:609a55d95471",
+     "evidence": "Note: - To be printed on light cream color paper",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -691,6 +1595,22 @@
      "sourceId": "src:15614cce9684",
      "evidence": "પૂરું નામ (અંગ્રેજીમાં) *",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_slac__apply_at__portal_ifp_gujarat_gov_in",
+   "from": "service:slac",
+   "to": "portal:ifp_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ifp.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:c462f68c4585",
+     "evidence": "12.1. The project should complete in all respects within three years from the date of in principle Approval.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]

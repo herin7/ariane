@@ -4,6 +4,42 @@
  "region": "Gujarat, India",
  "sources": [
   {
+   "id": "src:145ff3dc7868",
+   "url": "https://amrelidp.gujarat.gov.in/amreli/documents/028.pdf#page=1",
+   "title": "028 (page 1 of 3)",
+   "domain": "amrelidp.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-AMRELI",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "7209cd84f674ea1f5bffd8e53304dfcca0b00dae8eda1691cfa02b9a709ae3ff",
+   "cacheFile": ".ingest/pages/145ff3dc7868b9ae8ab644b03f6466cb40c0ed04.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:e2d5b5629abd",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/BASPGUIDELINES.pdf#page=3",
+   "title": "BASPGUIDELINES (page 3 of 13)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "1c2d9925b11aaeb11f544e064f1062f2e0201a59a368616d7e1f1273cc026bf3",
+   "cacheFile": ".ingest/pages/e2d5b5629abd4ff9debe546f8dbfc8377ca46f5c.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:f565384b5d84",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/ONDC/MSME/Guidelines.pdf#page=11",
+   "title": "Guidelines (page 11 of 15)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "f95059228e08b133f69beac80528122b29929847d8da71a4a4ac41bc38d6e92f",
+   "cacheFile": ".ingest/pages/f565384b5d845aa97c6d019467b35181b9811a11.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:cef59a1e5f90",
    "url": "https://udyamregistration.gov.in/",
    "title": "Udyam Registration : Zero cost, No Fee and Free Registration of MSMEs. This is official website of Govt. of India, Ministry of MSME. No other website/portal/app is official. MSMEs are requested to do MSME Registration here only",
@@ -25,6 +61,42 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "f30bd918d449bce9bc98a1cafbe3eae8db7e1c697f65a2c21f555201846e1b67",
    "cacheFile": ".ingest/pages/1c23804b31607338864fc6478c98289beb6e84b7.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:2a571cf99014",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/ONDC/MSME/Guidelines.pdf#page=12",
+   "title": "Guidelines (page 12 of 15)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "e71d27240a4c31d51be60f44713ae320a70f76c8109cb2022ccae7ee81288e38",
+   "cacheFile": ".ingest/pages/2a571cf99014e1dfbdb1f680d79d763eff40d150.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:f11e2f4d794c",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/gr-10-03-2015-CH.pdf#page=2",
+   "title": "gr-10-03-2015-CH (page 2 of 4)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "87b2c74553bd5a74cad175f6b188d914d4e2039c54ef1730cacb9bfcfffd833d",
+   "cacheFile": ".ingest/pages/f11e2f4d794c0702c9f212c7f1519cff727ec278.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:575622b1525b",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/BASPGUIDELINES.pdf#page=4",
+   "title": "BASPGUIDELINES (page 4 of 13)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "1a3401d2357965201d17bd0a68bcf59ea27f0e5294f35bde8c98c76d186a03a9",
+   "cacheFile": ".ingest/pages/575622b1525b5749d3effd617de186014228c950.md",
    "scrapedOk": true
   },
   {
@@ -52,6 +124,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:d7ef3a2f3e92",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/gr-mis-10-03-2015-CH.pdf#page=2",
+   "title": "gr-mis-10-03-2015-CH (page 2 of 5)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "20f14f15f9c9218afa1f126bf879befb57501bd0402a52dfde4936cc434c35d7",
+   "cacheFile": ".ingest/pages/d7ef3a2f3e92eeb971f9aef00381b9d9a443154d.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:b9f49e2ad4a9",
    "url": "https://e-kutir.gujarat.gov.in/SHGUserRegistration.aspx",
    "title": "Commissioner of Cottage and Rural Industries",
@@ -61,6 +145,30 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "99e029038fdd5a375a7c1103547792e3bbca9451f357f1fa3b3a824d46983dac",
    "cacheFile": ".ingest/pages/b9f49e2ad4a9cbb4396b499be2714c1b2392a066.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:fd300053dde4",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/elec_policy_guj_2014.pdf#page=10",
+   "title": "elec_policy_guj_2014 (page 10 of 16)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "281c812ebf5172f6018e1503c584385f04c8bcc26260843e4651b5b9b5a6f148",
+   "cacheFile": ".ingest/pages/fd300053dde438f3851430342892e5ee532e42f9.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:609a55d95471",
+   "url": "https://ic.gujarat.gov.in/documents/commondoc/2025/MSME%20Special%20category%20award%20form.pdf#page=1",
+   "title": "MSME%20Special%20category%20award%20form (page 1 of 4)",
+   "domain": "ic.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ffbe78d95dc23f2a437e8909b0252413d8e5d542c8adf2657848cea54333a1ee",
+   "cacheFile": ".ingest/pages/609a55d9547192732434e72432cd90b5e6d6428d.md",
    "scrapedOk": true
   },
   {
@@ -74,9 +182,336 @@
    "contentHash": "22166482957cd4d9d8d8f1d17a605deb585a7927d8ff8f0c088c1842f7e5c004",
    "cacheFile": ".ingest/pages/15614cce96849ff011b713343e82de8030623092.md",
    "scrapedOk": true
+  },
+  {
+   "id": "src:c462f68c4585",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/user_manual/Garment_Policy_guidelines.pdf#page=20",
+   "title": "Garment_Policy_guidelines (page 20 of 22)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "381f5a97809dbe6a8aeb075d102a0967c9f699c987ec6706589daf799d2cede8",
+   "cacheFile": ".ingest/pages/c462f68c4585738b1d0b476f94698de80648aef9.md",
+   "scrapedOk": true
   }
  ],
  "facts": [
+  {
+   "claim": "The applicant must provide the name and address of the applicant unit.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "applicant_unit_details",
+   "detail": {},
+   "sourceId": "src:145ff3dc7868",
+   "evidence": "1. Name & address of the applicant unit :",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide the name of the director, partners, or proprietor.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "director_partners_proprietor_name",
+   "detail": {},
+   "sourceId": "src:145ff3dc7868",
+   "evidence": "(a) Director / Partners / Propritor's name:",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide the office address.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "office_address",
+   "detail": {},
+   "sourceId": "src:145ff3dc7868",
+   "evidence": "(b) Office address",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide the telephone and fax numbers of the office.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "office_telephone_fax",
+   "detail": {},
+   "sourceId": "src:145ff3dc7868",
+   "evidence": "Telephone No. &\nFax No.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide a brief history of the project.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "project_history",
+   "detail": {},
+   "sourceId": "src:145ff3dc7868",
+   "evidence": "2. Brief History of the project :",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide details of the registration obtained.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "registration_details",
+   "detail": {},
+   "sourceId": "src:145ff3dc7868",
+   "evidence": "3. Details of Registration obtained :",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide the Small Scale Industry registration number and date.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "small_scale_industry_registration",
+   "detail": {},
+   "sourceId": "src:145ff3dc7868",
+   "evidence": "(a) Small Scale Industry registration No. :\nand date",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide the ISO-9000 registration number and date.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "iso_9000_registration",
+   "detail": {},
+   "sourceId": "src:145ff3dc7868",
+   "evidence": "(b) I.S.O.-9000 registration No. & date :",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide any other registration number and date (such as ISI).",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "other_registrations",
+   "detail": {},
+   "sourceId": "src:145ff3dc7868",
+   "evidence": "(c) Any other registration No. & Date(ISI):",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide the name of the product, both existing and proposed.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "product_name",
+   "detail": {},
+   "sourceId": "src:145ff3dc7868",
+   "evidence": "4. Name of the product :\n(a) Existing\n(b) Proposed",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide details of the capital investment, including land, building, plant and machinery, and others.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "capital_investment_details",
+   "detail": {},
+   "sourceId": "src:145ff3dc7868",
+   "evidence": "5. Capital Investment :\n(a) Land :\n(b) Building :\n(c) Plant & Machinery :\n(Details may be attached separately)\n(d) Others :",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide the working capital margin.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "working_capital_margin",
+   "detail": {},
+   "sourceId": "src:145ff3dc7868",
+   "evidence": "(e) Working capital margin :",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide the cost of testing facilities or R&D facilities.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "testing_rnd_facilities_cost",
+   "detail": {},
+   "sourceId": "src:145ff3dc7868",
+   "evidence": "6. Cost of Testing facilitiies / R&D facilitiies :",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide the cost of equipment required for testing and R&D, including a separate list of the equipment and its individual cost.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "testing_rnd_equipment_cost",
+   "detail": {},
+   "sourceId": "src:145ff3dc7868",
+   "evidence": "(a) Cost of equipments required for :\ntesting and R & D\n(Pl. attach separate list of the\nequipments and its individual cost)",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide the consultancy fee paid, if any.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "consultancy_fee",
+   "detail": {},
+   "sourceId": "src:145ff3dc7868",
+   "evidence": "(b) Consultancy fee paid, if any :",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide the name of the R&D consultancy institution or firm.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "rnd_consultancy_name",
+   "detail": {},
+   "sourceId": "src:145ff3dc7868",
+   "evidence": "(c) Name of R & D Consultancy :\nInstitution or Firm",
+   "confidence": 1
+  },
+  {
+   "claim": "Mentors must have at least 5 years of experience in the MSME sector.",
+   "kind": "ELIGIBILITY",
+   "subject": "mentor",
+   "object": "experience",
+   "detail": {
+    "years": "5"
+   },
+   "sourceId": "src:e2d5b5629abd",
+   "evidence": "a) The mentors will be entrepreneurs/industrialists who has at least 5 years of experience in running an enterprise, or b) Experienced Professionals or group of professionals like Chartered Engineers, Chartered/Cost Accountants, retired Bank officials, Management consultants and other professionals having experience of at least 5 years in the MSME sector and desirous of providing mentorship with the ability to bring in interventions in the areas of technology/marketing/finance/information support.",
+   "confidence": 1
+  },
+  {
+   "claim": "Mentors must have a bank account and funds to bear upfront expenses.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "mentor",
+   "object": "bank_account",
+   "detail": {},
+   "sourceId": "src:e2d5b5629abd",
+   "evidence": "b) Bank account and funds to bear upfront expenses,",
+   "confidence": 1
+  },
+  {
+   "claim": "Mentors must have infrastructural facilities to carry out the program.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "mentor",
+   "object": "infrastructure",
+   "detail": {
+    "facilities": "office space, computer, fax, telephone, internet connection and secretarial help etc."
+   },
+   "sourceId": "src:e2d5b5629abd",
+   "evidence": "c) Infrastructural facilities to carry out the program like office space, computer, fax, telephone, internet connection and secretarial help etc.",
+   "confidence": 1
+  },
+  {
+   "claim": "Mentors must have a natural linkage with industry.",
+   "kind": "ELIGIBILITY",
+   "subject": "mentor",
+   "object": "industry_linkage",
+   "detail": {},
+   "sourceId": "src:e2d5b5629abd",
+   "evidence": "d) Natural linkage with industry.",
+   "confidence": 1
+  },
+  {
+   "claim": "Mentors must have experience of mentoring existing or startup MSME units.",
+   "kind": "ELIGIBILITY",
+   "subject": "mentor",
+   "object": "mentoring_experience",
+   "detail": {},
+   "sourceId": "src:e2d5b5629abd",
+   "evidence": "e) Experience of mentoring the existing/startup MSME units.",
+   "confidence": 1
+  },
+  {
+   "claim": "The list of empanelled mentors will be available on the scheme portal.",
+   "kind": "TRACKING",
+   "subject": "mentor_list",
+   "object": "scheme_portal",
+   "detail": {
+    "url": "scheme portal"
+   },
+   "sourceId": "src:e2d5b5629abd",
+   "evidence": "The list of Mentors empanelled with various IAs will be available on the scheme portal.",
+   "confidence": 1
+  },
+  {
+   "claim": "New enterprises must have a minimum proposed investment of Rs.1,00,000/- in plant & machinery.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "new_enterprise",
+   "object": "investment",
+   "detail": {
+    "amount": "1,00,000",
+    "currency": "Rs."
+   },
+   "sourceId": "src:e2d5b5629abd",
+   "evidence": "subject to a minimum proposed investment of Rs.1,00,000/- in the plant & machinery by the applicant beneficiary.",
+   "confidence": 1
+  },
+  {
+   "claim": "Units engaged in trading activities are not eligible for the scheme.",
+   "kind": "BLOCKER",
+   "subject": "trading_unit",
+   "object": "scheme_eligibility",
+   "detail": {},
+   "sourceId": "src:e2d5b5629abd",
+   "evidence": "Units engaged in „Trading‟ activities shall not be entertained.",
+   "confidence": 1
+  },
+  {
+   "claim": "Trainees under EDP/ESDP passing out under the ATI Scheme of the Ministry of MSME and interested in self-employment are eligible.",
+   "kind": "ELIGIBILITY",
+   "subject": "trainee",
+   "object": "self_employment",
+   "detail": {
+    "scheme": "ATI Scheme of the Ministry of MSME"
+   },
+   "sourceId": "src:e2d5b5629abd",
+   "evidence": "c) Trainees under EDP/ ESDP passing out under the ATI Scheme of the Ministry of MSME and having shown interest in “Self Employment” shall also be eligible.",
+   "confidence": 1
+  },
+  {
+   "claim": "Benefits for activities 3, 4 and 5 must be availed within the first 6 months of the 1st transaction done on ONDC.",
+   "kind": "TIMELINE",
+   "subject": "benefits_activities_3_4_5",
+   "object": "first_6_months",
+   "detail": {
+    "days": 180
+   },
+   "sourceId": "src:f565384b5d84",
+   "evidence": "1) For activities 3, 4 and 5 the benefits must be availed within first 6 months of the 1st transaction done on ONDC",
+   "confidence": 1
+  },
+  {
+   "claim": "Benefits for activities 2, 3, 4 and 5 for an MSE can be claimed only by one SNP.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "benefits_activities_2_3_4_5",
+   "object": "single_snp",
+   "detail": {},
+   "sourceId": "src:f565384b5d84",
+   "evidence": "2) The benefits for activities 2, 3, 4 and 5 for an MSE can be claimed only by one SNP. The benefits under activity 6 would be payable directly to IIP through the IA.",
+   "confidence": 1
+  },
+  {
+   "claim": "For an MSE using AI cataloguing on MSMEmart portal, the SNP will not be eligible to claim support for cataloguing (Activity no. 2).",
+   "kind": "BLOCKER",
+   "subject": "mse_ai_cataloguing",
+   "object": "support_cataloguing",
+   "detail": {},
+   "sourceId": "src:f565384b5d84",
+   "evidence": "3) For an MSE utilizing the AI cataloguing on MSMEmart portal, the SNP will not be eligible to claim support for cataloguing. (Activity no. 2)",
+   "confidence": 1
+  },
+  {
+   "claim": "No single SNP can claim benefits of more than 20% of the budget allocated for any of the activities listed in section 4.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "snp_benefit_limit",
+   "object": "20_percent_budget",
+   "detail": {
+    "percentage": 20
+   },
+   "sourceId": "src:f565384b5d84",
+   "evidence": "4) No single SNP shall be allowed to claim benefits of more than 20% of budget allocated for any of the activities listed at 2-5 in section 4 of the Operating Guidelines of this initiative.",
+   "confidence": 1
+  },
+  {
+   "claim": "MSEs joining the network for B2B archetype are encouraged to bring their existing buyer base online.",
+   "kind": "ACTION",
+   "subject": "mse_b2b_participation",
+   "object": "existing_buyer_base_online",
+   "detail": {},
+   "sourceId": "src:f565384b5d84",
+   "evidence": "5) The B2B transactions require a certain level of trust and association which takes time and transactions to develop. Hence, MSEs that join the network for the B2B archetype, will be encouraged to bring a set of their existing buyer base online as far as a possible as it will help drive initial volume and also help the sellers build their reputation on the network.",
+   "confidence": 1
+  },
   {
    "claim": "Udyam Registration is free of cost and paperless.",
    "kind": "FEE",
@@ -302,6 +737,321 @@
    },
    "sourceId": "src:1c23804b3160",
    "evidence": "Address Office of DCMSME, Ministry of MSME, Kartavya Bhawan 3 - New Delhi",
+   "confidence": 1
+  },
+  {
+   "claim": "Only Udyam registered Micro and Small Enterprises (MSEs) under manufacturing and services sectors are eligible for benefits under the Initiative.",
+   "kind": "ELIGIBILITY",
+   "subject": "udyam_registered_mses",
+   "object": "benefits_under_initiative",
+   "detail": {},
+   "sourceId": "src:2a571cf99014",
+   "evidence": "All the Udyam registered Micro and Small Enterprises (MSEs) under manufacturing and services sectors will be eligible for benefits under the Initiative.",
+   "confidence": 1
+  },
+  {
+   "claim": "Udyam registered MSEs without GST can only do intra-state online business.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "udyam_registered_mses_without_gst",
+   "object": "online_business",
+   "detail": {},
+   "sourceId": "src:2a571cf99014",
+   "evidence": "The MSEs who have Udyam Registration certificate without a GST will only be able to do intra-state online business as per applicable laws.",
+   "confidence": 1
+  },
+  {
+   "claim": "MSEs must not have been onboarded on any SNP as of the date of operationalisation of the Initiative.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "mses",
+   "object": "onboarding_on_snp",
+   "detail": {},
+   "sourceId": "src:2a571cf99014",
+   "evidence": "The MSE should not have been onboarded on any SNP as on the date of operationalisation of the Initiative.",
+   "confidence": 1
+  },
+  {
+   "claim": "MSE units must not have taken similar assistance from any other Central or State Government schemes or programmes.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "mse_units",
+   "object": "assistance_from_other_schemes",
+   "detail": {},
+   "sourceId": "src:2a571cf99014",
+   "evidence": "The MSE unit should not have taken similar assistance from any other Central / State Government schemes / programmes.",
+   "confidence": 1
+  },
+  {
+   "claim": "MSEs must authorize ONDC to share their relevant details, including transactions on the ONDC Network, with the Implementing Agency (NSIC).",
+   "kind": "ACTION",
+   "subject": "mses",
+   "object": "authorize_ondc",
+   "detail": {},
+   "sourceId": "src:2a571cf99014",
+   "evidence": "The MSEs who want to avail benefits under this Initiative shall authorize ONDC to share their relevant details, including transactions on the ONDC Network, with the Implementing Agency (NSIC) for the purpose of scheme administration and support, in compliance with applicable laws.",
+   "confidence": 1
+  },
+  {
+   "claim": "The eligible fixed capital investment of the project is decided based on specific criteria.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "eligible_fixed_capital_investment",
+   "object": "criteria",
+   "detail": {},
+   "sourceId": "src:f11e2f4d794c",
+   "evidence": "The eligible fixed capital investment of the project will be decided on the basis of following criteria.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The cost of land is decided based on the prevailing policy of GIDC in unsaturated estates.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "cost_of_land",
+   "object": "g_idc_policy",
+   "detail": {},
+   "sourceId": "src:f11e2f4d794c",
+   "evidence": "Cost of Land: The cost of land will be decided on the basis of prevailing policy of (:~!DC in unsaturated estates.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The cost of building is fixed by SLAG for the industrial building based on the prevailing SOR of the Road and Building department.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "cost_of_building",
+   "object": "s_lag",
+   "detail": {},
+   "sourceId": "src:f11e2f4d794c",
+   "evidence": "Cost of Building: The cost of building shall be fixed up by SLAG for the lndustri::}l Building based on prevailingSOR of the Road and Building department.",
+   "confidence": 0.85
+  },
+  {
+   "claim": "The cost of other infrastructure facilities is decided by SLEC based on relevant available SOR or any other agency as approved by SLEC.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "cost_of_infrastructure",
+   "object": "s_l_e_c",
+   "detail": {},
+   "sourceId": "src:f11e2f4d794c",
+   "evidence": "Other lnfrastr~cture Facilities: The cost of other infrastructure facilities will be as decided by SLEC, based on relevant available SOR if any or any other agency as approved by SLEC.",
+   "confidence": 0.85
+  },
+  {
+   "claim": "GIDC will identify potential areas or locations in the state where MSEs can be set up.",
+   "kind": "ACTION",
+   "subject": "g_idc",
+   "object": "identify_areas",
+   "detail": {},
+   "sourceId": "src:f11e2f4d794c",
+   "evidence": "GIDC will identify potential area I locations in the state where MSEs can be set up.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "GIDC may purchase or acquire new land for the development of estates.",
+   "kind": "ACTION",
+   "subject": "g_idc",
+   "object": "acquire_land",
+   "detail": {},
+   "sourceId": "src:f11e2f4d794c",
+   "evidence": "GIDC may purchase/acquirenew land for development of estates.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "GIDC will prepare a development plan for infrastructure facilities needed for the MSEs for the estate and work out the project cost.",
+   "kind": "ACTION",
+   "subject": "g_idc",
+   "object": "prepare_development_plan",
+   "detail": {},
+   "sourceId": "src:f11e2f4d794c",
+   "evidence": "GIDC will prepare a development plan for infrastructure facilities needed for the MSEs for the estate and work out the project cost.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "GIDC will submit a detailed proposal to the Industries Commissioner.",
+   "kind": "ACTION",
+   "subject": "g_idc",
+   "object": "submit_proposal",
+   "detail": {},
+   "sourceId": "src:f11e2f4d794c",
+   "evidence": "GIDC will submit detailed proposal to Industries Commissioner.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Industries Commissioner will scrutinize the proposal and submit it to the State Level Empowered Committee (SLEC).",
+   "kind": "ACTION",
+   "subject": "industries_commissioner",
+   "object": "scrutinize_proposal",
+   "detail": {},
+   "sourceId": "src:f11e2f4d794c",
+   "evidence": "Industries Commissioner will scrutinize the proposal and submit the proposal to the State Level Empowered Committee (SLEC).",
+   "confidence": 0.95
+  },
+  {
+   "claim": "SLEC will sanction the proposal.",
+   "kind": "ACTION",
+   "subject": "s_l_e_c",
+   "object": "sanction_proposal",
+   "detail": {},
+   "sourceId": "src:f11e2f4d794c",
+   "evidence": "SLEC will sanction the proposal.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The assistance up to 50% of the allotment price fixed by SLEC will be given directly to GIDC.",
+   "kind": "FEE",
+   "subject": "assistance",
+   "object": "g_idc",
+   "detail": {
+    "amount": "50%",
+    "currency": "percent"
+   },
+   "sourceId": "src:f11e2f4d794c",
+   "evidence": "The assistance up to 50% of allotment price fixed by SLEC will be given directly to GIDC.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "GIDC will pass on the concession or assistance to MSEs.",
+   "kind": "ACTION",
+   "subject": "g_idc",
+   "object": "pass_on_assistance",
+   "detail": {},
+   "sourceId": "src:f11e2f4d794c",
+   "evidence": "GIDC will subsequently pass on such concession/assistance to MSEs.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The plot size shall be approximately 500 Sq.Mts. to 1000 Sq. Mts.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "plot_size",
+   "object": "size_range",
+   "detail": {
+    "minimum": "500",
+    "maximum": "1000",
+    "unit": "Sq.Mts."
+   },
+   "sourceId": "src:f11e2f4d794c",
+   "evidence": "1. The plot size shall be approximately of 500 Sq.Mts. to 1000 Sq. Mts.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "GIDC must develop the estate within three years from the date of sanction or procurement of land, whichever is earlier.",
+   "kind": "TIMELINE",
+   "subject": "g_idc",
+   "object": "develop_estate",
+   "detail": {
+    "days": "1095"
+   },
+   "sourceId": "src:f11e2f4d794c",
+   "evidence": "2. GIDC shall have to develop the estate within three years from the date o: sanction or procurement of land whichever is earlier.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "An existing enterprise must be a Micro/Small enterprise engaged in manufacturing or services activities to be eligible under the Scheme.",
+   "kind": "ELIGIBILITY",
+   "subject": "existing_enterprise",
+   "object": "micro_small_enterprise",
+   "detail": {},
+   "sourceId": "src:575622b1525b",
+   "evidence": "An existing enterprise to be eligible for being a „target beneficiary‟ under the Scheme should be:- a) A Micro/Small enterprises (having filed EM-I) engaged in manufacturing or services activities;",
+   "confidence": 1
+  },
+  {
+   "claim": "An existing enterprise must have been in operations for the last three or more years to be eligible under the Scheme.",
+   "kind": "ELIGIBILITY",
+   "subject": "existing_enterprise",
+   "object": "in_operations",
+   "detail": {
+    "years": "3"
+   },
+   "sourceId": "src:575622b1525b",
+   "evidence": "b) In operations for the last three or more years,",
+   "confidence": 1
+  },
+  {
+   "claim": "An existing enterprise must not be a sick unit or a loan defaulter as of the date of application to be eligible under the Scheme.",
+   "kind": "ELIGIBILITY",
+   "subject": "existing_enterprise",
+   "object": "not_sick_or_defaulter",
+   "detail": {},
+   "sourceId": "src:575622b1525b",
+   "evidence": "c) Not a sick unit or a loan defaulter as on the date of application",
+   "confidence": 1
+  },
+  {
+   "claim": "An existing enterprise must be rated and assigned with High or Moderate Ratings to be eligible under the Scheme.",
+   "kind": "ELIGIBILITY",
+   "subject": "existing_enterprise",
+   "object": "rated_high_or_moderate",
+   "detail": {},
+   "sourceId": "src:575622b1525b",
+   "evidence": "d) Rated (including under Performance and Credit Rating Scheme of the Ministry of MSME) and assigned with High or Moderate Ratings.",
+   "confidence": 1
+  },
+  {
+   "claim": "Units engaged in „Trading‟ activities are not eligible under the Scheme.",
+   "kind": "ELIGIBILITY",
+   "subject": "trading_units",
+   "object": "not_eligible",
+   "detail": {},
+   "sourceId": "src:575622b1525b",
+   "evidence": "Units engaged in „Trading‟ activities shall not be entertained.",
+   "confidence": 1
+  },
+  {
+   "claim": "An existing enterprise can approach the Implementing Agency to request a mentor for up-scaling.",
+   "kind": "ACTION",
+   "subject": "existing_enterprise",
+   "object": "approach_implementing_agency",
+   "detail": {},
+   "sourceId": "src:575622b1525b",
+   "evidence": "The rated unit(s) desirous of up-scaling their performance can either approach the: a) Implementing Agency requesting for a mentor who can do its hand-holding and carry it through the up-scaling process;",
+   "confidence": 1
+  },
+  {
+   "claim": "An existing enterprise can directly approach a mentor (after ensuring eligibility) for up-scaling assistance.",
+   "kind": "ACTION",
+   "subject": "existing_enterprise",
+   "object": "approach_mentor",
+   "detail": {},
+   "sourceId": "src:575622b1525b",
+   "evidence": "b) The mentor, directly (after ensuring that the mentor meets with eligibility conditions) requesting it for the hand-holding it for the up-scaling process.",
+   "confidence": 1
+  },
+  {
+   "claim": "With the mentor's consent and proposal, an existing enterprise can approach the Implementing Agency for assistance under the Scheme.",
+   "kind": "ACTION",
+   "subject": "existing_enterprise",
+   "object": "approach_implementing_agency_with_proposal",
+   "detail": {},
+   "sourceId": "src:575622b1525b",
+   "evidence": "With the consent of the mentor and along with the proposal for up-scaling as prepared by the mentor, approach the Implementing Agency for assistance under the Scheme;",
+   "confidence": 1
+  },
+  {
+   "claim": "The process for start-up units is the same as for existing enterprises as explained in para 3.5.1.",
+   "kind": "DEPENDENCY",
+   "subject": "startup_unit",
+   "object": "process_same_as_existing",
+   "detail": {},
+   "sourceId": "src:575622b1525b",
+   "evidence": "The process as explained for existing enterprises in para 3.5.1 above can also be implemented in case of start-up units.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Screening Committee recommends suitable proposals for empanelment of Implementing Agencies (IAs) to the Secretary (MSME).",
+   "kind": "ACTION",
+   "subject": "screening_committee",
+   "object": "recommend_proposals",
+   "detail": {
+    "to": "secretary_msme"
+   },
+   "sourceId": "src:575622b1525b",
+   "evidence": "All proposals for empanelment of IAs found suitable by the Screening Committee as per specified eligibility criteria would be recommended for empanelment as IAs to Secretary (MSME).",
+   "confidence": 1
+  },
+  {
+   "claim": "Empanelment of Implementing Agencies (IAs) is made with the approval of the Secretary (MSME).",
+   "kind": "ACTION",
+   "subject": "empanelment",
+   "object": "requires_secretary_approval",
+   "detail": {
+    "by": "secretary_msme"
+   },
+   "sourceId": "src:575622b1525b",
+   "evidence": "The empanelments out of such IAs will be made with the approval of Secretary (MSME).",
    "confidence": 1
   },
   {
@@ -579,6 +1329,106 @@
    "confidence": 0.95
   },
   {
+   "claim": "Private Developer refers to registered companies, industrial associations, individual industries, or groups of industries.",
+   "kind": "ELIGIBILITY",
+   "subject": "private_developer",
+   "object": "registered_entities",
+   "detail": {},
+   "sourceId": "src:d7ef3a2f3e92",
+   "evidence": "Private Developer means any registered Private/ Public Limited Company ~mel I or Industrial Association, Individual industries, Group of industries/ Cluster.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Mini Estate is an industrial estate with basic infrastructure for MSEs.",
+   "kind": "ELIGIBILITY",
+   "subject": "mini_estate",
+   "object": "industrial_estate",
+   "detail": {},
+   "sourceId": "src:d7ef3a2f3e92",
+   "evidence": "Mini Estate is an industrial estae having basic infrastructure facilities like developed plot, internal roads, water distribution facilities, power distribution and such o!ber facilities/ services as may be required developed for the establishment of MSEs tn manufacture any product.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Infrastructure Facilities include asphalt roads, storm water drainage, sewerage systems, and more.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "infrastructure_facilities",
+   "object": "basic_infrastructure",
+   "detail": {},
+   "sourceId": "src:d7ef3a2f3e92",
+   "evidence": "Infrastructure Facilities mean bare minimum facilities required to set up MSEs and approved by implementation committee. 1. Asphalt Road/ Cement Concrete Road. 2. Storm Water Drainage System. 3. Domestic Sewerage Collection, treatment and Disposal System. 4. Streetlights. 5. Open & Green Spaces. 6. Water & Power Supply & distribution network at door setup of the shed. 7. Street light. 8. Pipe- racks 9. Steam. 10. Connectivity for communication",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Eligible fixed capital investment includes land cost based on prevailing jantri price or actual price paid.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "eligible_fixed_capital",
+   "object": "land_cost",
+   "detail": {},
+   "sourceId": "src:d7ef3a2f3e92",
+   "evidence": "Cost of Land: The cost of land will be decided on the basis of prevailing jantri price of · the area or the actual price paid by private developer including the stamp duty and registration charges.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Eligible fixed capital investment includes building cost fixed by SLEC or SOR of the Roads and Building Department.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "eligible_fixed_capital",
+   "object": "building_cost",
+   "detail": {},
+   "sourceId": "src:d7ef3a2f3e92",
+   "evidence": "Cost of Building: The cost of the building is fixed up by SLEC for the industrial building or/and SOR of the Roads and Building Department.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Eligible fixed capital investment includes infrastructure cost decided by SLEC.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "eligible_fixed_capital",
+   "object": "infrastructure_cost",
+   "detail": {},
+   "sourceId": "src:d7ef3a2f3e92",
+   "evidence": "Other Infrastructure Facilities: The cost of other infrastructure facilities will be as decided by the SLEC.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Eligible fixed capital investment includes architect or consultancy fees up to 5% of the project cost or Rs.20.00 lacs, whichever is less.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "eligible_fixed_capital",
+   "object": "consultancy_fees",
+   "detail": {},
+   "sourceId": "src:d7ef3a2f3e92",
+   "evidence": "Architect I Consultancy fees/ TPQA charges: The fees and charges paid for the services for development of Mini estate would h.~ up to 5% of the project cost or Rs.20.00 lacs whichever is less will be considered as an eligible investment.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Ineligible fixed capital investment includes land development, preliminary expenses, interest, recurring expenses, and working capital.",
+   "kind": "BLOCKER",
+   "subject": "ineligible_fixed_capital",
+   "object": "expenditures",
+   "detail": {},
+   "sourceId": "src:d7ef3a2f3e92",
+   "evidence": "Ineligible Fixed Capital Investment: Expenditure incurred towards land development, preliminary and pre-operative expenses, interest capitalized, recurring expenses, working capital and other expenditures as decided by the State Level Approval Committee (SLEC)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Scheme-l provides assistance to private developers for developing readymade sheds in Mini Estate.",
+   "kind": "ACTION",
+   "subject": "scheme_l",
+   "object": "assistance_to_developers",
+   "detail": {},
+   "sourceId": "src:d7ef3a2f3e92",
+   "evidence": "4.0 Scheme-l Assistance to private developer for developing readymade sheds in Mini Estate.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The purpose of Scheme-l is to provide basic infrastructure for MSEs in small row house type sheds.",
+   "kind": "ACTION",
+   "subject": "scheme_l",
+   "object": "basic_infrastructure",
+   "detail": {},
+   "sourceId": "src:d7ef3a2f3e92",
+   "evidence": "State Government has felt that there is a need of small estates ha\"ing a small row house type (Gala type) shed for MSEs which will provide basis infrastructerc to set up MSEs. This type of mini estate can be developed by private developer for",
+   "confidence": 0.95
+  },
+  {
    "claim": "The name of the SHG/Industrial Cooperative Society/NGO/Trust/Khadi Institution must be written in English.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "shg_or_cooperative_or_ngo_or_trust_or_khadi_institution",
@@ -673,6 +1523,190 @@
    "confidence": 0.95
   },
   {
+   "claim": "Female employees receive 100% of the EPF amount.",
+   "kind": "ELIGIBILITY",
+   "subject": "female_employees",
+   "object": "epf_amount",
+   "detail": {
+    "percentage": "100%"
+   },
+   "sourceId": "src:fd300053dde4",
+   "evidence": " 100% of EPF amount paid in case of female employees",
+   "confidence": 1
+  },
+  {
+   "claim": "Male employees receive 75% of the EPF amount.",
+   "kind": "ELIGIBILITY",
+   "subject": "male_employees",
+   "object": "epf_amount",
+   "detail": {
+    "percentage": "75%"
+   },
+   "sourceId": "src:fd300053dde4",
+   "evidence": " 75% of EPF amount paid in case of male employees",
+   "confidence": 1
+  },
+  {
+   "claim": "An empowered 'Single Window Clearance Committee' will be set up for granting approvals and clearances for new units.",
+   "kind": "ACTION",
+   "subject": "single_window_clearance_committee",
+   "object": "approvals_and_clearances",
+   "detail": {
+    "purpose": "granting approvals and clearances for setting up New Units in the State"
+   },
+   "sourceId": "src:fd300053dde4",
+   "evidence": "An empowered ‘Single Window Clearance Committee’ will be set up and operationalized for granting approvals and clearances for setting up New Units in the State.",
+   "confidence": 1
+  },
+  {
+   "claim": "A 'state-of-the-art centralized help desk call centre' will be supported on a 24x7 basis.",
+   "kind": "CHANNEL",
+   "subject": "centralized_help_desk_call_centre",
+   "object": "support",
+   "detail": {
+    "availability": "24x7"
+   },
+   "sourceId": "src:fd300053dde4",
+   "evidence": "It would be supported by a ‘state-of-the-art centralized help desk call centre’ on 24x7 basis.",
+   "confidence": 1
+  },
+  {
+   "claim": "Eligible units can avail an interest subsidy of 7% for MSMEs and 2% for large industries for five years.",
+   "kind": "FEE",
+   "subject": "eligible_units",
+   "object": "interest_subsidy",
+   "detail": {
+    "rate_msme": "7%",
+    "rate_large_industries": "2%",
+    "duration": "five years"
+   },
+   "sourceId": "src:fd300053dde4",
+   "evidence": "10.1. Interest subsidy for five years @ 7% for MSMEs and 2% for large Industries having an actual investment up to Rs. 100 Crores.",
+   "confidence": 1
+  },
+  {
+   "claim": "Youth under 35 years of age, or SC/ST/Women/Differently-abled persons, are eligible for an additional 1% interest subsidy.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "youth_sc_st_women_differently_abled",
+   "object": "additional_interest_subsidy",
+   "detail": {
+    "rate": "1%",
+    "condition": "first project or SC/ST/Women/Differently-abled persons"
+   },
+   "sourceId": "src:fd300053dde4",
+   "evidence": "10.2. 1% additional interest subsidy to the youth less than 35 years of age in case of the first project or to the SC/ST/Women/Differently-abled persons.",
+   "confidence": 1
+  },
+  {
+   "claim": "The maximum annual interest subsidy is Rs. 25 lakhs for MSMEs and Rs. 50 lakhs for large units.",
+   "kind": "FEE",
+   "subject": "eligible_units",
+   "object": "maximum_interest_subsidy",
+   "detail": {
+    "msme_amount": "25 lakhs",
+    "large_units_amount": "50 lakhs"
+   },
+   "sourceId": "src:fd300053dde4",
+   "evidence": "10.3. Maximum amount of interest subsidy per annum shall be Rs. 25 lakhs (Twenty Five Lakhs only) for MSMEs and Rs. 50 lakhs (Fifty Lakhs only) for large units.",
+   "confidence": 1
+  },
+  {
+   "claim": "Other conditions for the interest subsidy will be in accordance with the Scheme for Assistance to Manufacturing Sector as per Government Resolution of Industries and Mines Department No. BJT-102012-92765-I dated 26-02-2013 as amended and/or revised.",
+   "kind": "DEPENDENCY",
+   "subject": "interest_subsidy",
+   "object": "scheme_conditions",
+   "detail": {
+    "scheme": "Scheme for Assistance to Manufacturing Sector",
+    "resolution": "BJT-102012-92765-I",
+    "date": "26-02-2013"
+   },
+   "sourceId": "src:fd300053dde4",
+   "evidence": "10.4. Other conditions shall be applicable in accordance with the Scheme for Assistance to Manufacturing Sector as per Government Resolution of Industries and Mines Department No. BJT-102012-92765-I dated 26-02-2013 as amended and/or revised",
+   "confidence": 1
+  },
+  {
+   "claim": "The application must be printed on light cream color paper.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "application_form",
+   "object": "light_cream_color_paper",
+   "detail": {},
+   "sourceId": "src:609a55d95471",
+   "evidence": "Note: - To be printed on light cream color paper",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application must be submitted in duplicate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "duplicate_submission",
+   "detail": {},
+   "sourceId": "src:609a55d95471",
+   "evidence": "Application to be submitted in duplicate",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A high resolution photo of size 8cmx5cm must be affixed.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "high_resolution_photo",
+   "detail": {
+    "size": "8cmx5cm"
+   },
+   "sourceId": "src:609a55d95471",
+   "evidence": "Please affix one high resolution photo (size 8cmx5cm)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application must include the name and address of the enterprise in English.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "enterprise_details",
+   "detail": {},
+   "sourceId": "src:609a55d95471",
+   "evidence": "3 Name and address of Enterprise (English)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application must include the Udyam registration number and indicate if it is Micro, Small, or Medium.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "udyam_registration",
+   "detail": {},
+   "sourceId": "src:609a55d95471",
+   "evidence": "4 Udyam registration: Tick Appropriately (Micro/ Small/ Medium) Udyam Registration Number:",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application must include the constitution of the unit (e.g., proprietorship, partnership, company, etc.).",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "unit_constitution",
+   "detail": {},
+   "sourceId": "src:609a55d95471",
+   "evidence": "5 Constitution of the Unit (Proprietorship/partnership/ company/society/LLP/others, Proof may be submitted)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application must include the name, address, and contact details of the proprietor, partners, or directors.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "proprietor_details",
+   "detail": {},
+   "sourceId": "src:609a55d95471",
+   "evidence": "6 Name, address & contact details of the Proprietor/ Partners/ Directors.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application must include the date of birth of the proprietor, all partners, and all directors.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "date_of_birth_details",
+   "detail": {},
+   "sourceId": "src:609a55d95471",
+   "evidence": "7 Date of Birth of Proprietor/ All Partners/ All Directors",
+   "confidence": 0.95
+  },
+  {
    "claim": "A citizen must provide their full name in English.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "registration",
@@ -752,7 +1786,100 @@
    "sourceId": "src:15614cce9684",
    "evidence": "કૃપા કરીને તમારી વિગતો ચકાસી લો",
    "confidence": 0.95
+  },
+  {
+   "claim": "The project must be completed within three years from the date of in principle Approval.",
+   "kind": "TIMELINE",
+   "subject": "garment_project",
+   "object": "project_completion",
+   "detail": {
+    "days": 1095
+   },
+   "sourceId": "src:c462f68c4585",
+   "evidence": "12.1. The project should complete in all respects within three years from the date of in principle Approval.",
+   "confidence": 1
+  },
+  {
+   "claim": "The SLAC may extend the project completion period by one year if the developer submits a valid reason.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "slac",
+   "object": "project_extension",
+   "detail": {
+    "days": 365
+   },
+   "sourceId": "src:c462f68c4585",
+   "evidence": "12.2. The SLAC may extend the project completion period by one year on submission of valid reason by the developer",
+   "confidence": 1
+  },
+  {
+   "claim": "60% of the land should be used for industrial purposes, and 40% should be allocated for infrastructure as per GR.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "land_allocation",
+   "object": "infrastructure_development",
+   "detail": {
+    "industrial_percentage": 60,
+    "infrastructure_percentage": 40
+   },
+   "sourceId": "src:c462f68c4585",
+   "evidence": "12.5. 60% of the land should be utilize for the Industrial purpose and other 40 % should be allotted for the infrastructure as per GR including Residential, Medical Facility, Gardens, Open space & green belt and other recreation facilities like club, training center, canteen etc.",
+   "confidence": 1
+  },
+  {
+   "claim": "The total amount of assistance shall not exceed 50% of the total eligible project cost if the assistance is claimed from both the central and state governments.",
+   "kind": "FEE",
+   "subject": "assistance_amount",
+   "object": "project_cost",
+   "detail": {
+    "percentage": 50
+   },
+   "sourceId": "src:c462f68c4585",
+   "evidence": "12.7. The total amount of assistance shall not exceed 50% of total eligible project cost in case of assistance claimed from both central & state Government.",
+   "confidence": 1
+  },
+  {
+   "claim": "All MSMEs projects will be sanctioned by the DIC.",
+   "kind": "OFFICE",
+   "subject": "msmes_projects",
+   "object": "sanctioning_authority",
+   "detail": {
+    "office_name": "DIC"
+   },
+   "sourceId": "src:c462f68c4585",
+   "evidence": " All MSMEs Projects will be sanctioned by DIC.",
+   "confidence": 1
+  },
+  {
+   "claim": "Projects above MSMEs and with a project cost up to Rs. 100 crores will be sanctioned by the Industries Commissioner, Gujarat.",
+   "kind": "OFFICE",
+   "subject": "industries_commissioner",
+   "object": "sanctioning_authority",
+   "detail": {
+    "office_name": "Industries Commissioner, Gujarat",
+    "project_cost_limit": "100 crores"
+   },
+   "sourceId": "src:c462f68c4585",
+   "evidence": " The projects above MSMEs and project cost up to Rs. 100 crores will be sanctioned by Industries Commissioner, Gujarat.",
+   "confidence": 1
+  },
+  {
+   "claim": "Projects with a project cost more than Rs. 100 crores and parks will be sanctioned by the State Level Approval Committee (SLAC).",
+   "kind": "OFFICE",
+   "subject": "slac",
+   "object": "sanctioning_authority",
+   "detail": {
+    "office_name": "State Level Approval Committee (SLAC)",
+    "project_cost_limit": "100 crores"
+   },
+   "sourceId": "src:c462f68c4585",
+   "evidence": " The projects having project cost more than Rs. 100 crores and parks, a committee, State Level Approval Committee (SLAC), will be set up with the following members:",
+   "confidence": 1
   }
  ],
- "notFound": []
+ "notFound": [
+  "MSME registration: the page names \"scheme portal\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
+  "Udyam Registration: https://udyamregistration.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "MSE Estate Development: https://ced.gujarat.gov.in/assets/downloads/gr-10-03-2015-CH.pdf#page=2 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "MSME Scheme for Up-scaling Enterprises: https://ced.gujarat.gov.in/assets/downloads/BASPGUIDELINES.pdf#page=4 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "PMEGP scheme: https://champions.gov.in/MSME_Ministry_entrepreneurs/PMEGP_bank_loan_finance/old_existing_Schemes.htm lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page."
+ ]
 }

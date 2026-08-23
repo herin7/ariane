@@ -64,6 +64,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:8576e6ac3622",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/gr-10-03-2015-CH.pdf#page=3",
+   "title": "gr-10-03-2015-CH (page 3 of 4)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "fe0dca6f2ba7eb18ab317a2f386e870ffbdd5e82547d5df9c1c0574520614336",
+   "cacheFile": ".ingest/pages/8576e6ac362206672906269cab96aff48070684e.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:00c45e7162f4",
    "url": "https://collectorgandhinagar.gujarat.gov.in/govt-office-land",
    "title": "સરકારી ખાતા / કચેરીઓને જમીનની માંગણી બાબત | Revenue | Jan Seva Kendra form | Collectorate - District Gandhinagar",
@@ -1003,6 +1015,122 @@
    "confidence": 0.95
   },
   {
+   "claim": "Applications for plot or shed are invited from MSEs through advertisements in newspapers and on the websites of IC and GIDC.",
+   "kind": "ACTION",
+   "subject": "mse_applications",
+   "object": "advertisement",
+   "detail": {
+    "source": "newspaper and website of IC and GIDC"
+   },
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "1. The applications are invited for plot /shed from MSEs by advertisement published in newspaper and on web site of IC and GIDC.",
+   "confidence": 1
+  },
+  {
+   "claim": "MSE units must apply online with EM part 1, a brief project report, and details of the promoter's family background, educational qualifications, and age.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "mse_application",
+   "object": "em_part_1",
+   "detail": {},
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "2. The MSEs units will apply on line along with EM part 1, brief project report, mentioning family back ground, details of educational qualification and age of promoter/s etc.to the concerned District Industries Centre.",
+   "confidence": 1
+  },
+  {
+   "claim": "Priority in allotment is given to first generation, women, local persons, SC/ST, and SEBC candidates.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "allotment_priority",
+   "object": "priority_candidates",
+   "detail": {
+    "categories": "first generation, women, local person, SC/ST, SEBC"
+   },
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "3. The first generation/women/local person/SC/ST/SEBC Candidates will be given priority in allotment.",
+   "confidence": 1
+  },
+  {
+   "claim": "DIC will scrutinize the application as per the guidelines issued by SLEC and prepare a priority list.",
+   "kind": "ACTION",
+   "subject": "application_scrutiny",
+   "object": "priority_list",
+   "detail": {
+    "authority": "DIC"
+   },
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "4. DIC will scrutinize the application as per the guidelines issued by SLEC and priority list will be prepared.",
+   "confidence": 1
+  },
+  {
+   "claim": "DIC will send the priority list and a copy of the application to the concerned Regional Manager of GIDC.",
+   "kind": "ACTION",
+   "subject": "priority_list_submission",
+   "object": "regional_manager_gidc",
+   "detail": {},
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "5. DIG will send a priority list along with a copy of application to concerned regional Manager, GIDC.",
+   "confidence": 1
+  },
+  {
+   "claim": "The screening committee of GIDC will call the person for a personal interview and finalize the allotment and waiting lists.",
+   "kind": "ACTION",
+   "subject": "screening_committee",
+   "object": "allotment_list",
+   "detail": {
+    "process": "personal interview"
+   },
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "6. The screening committee of GIDC will call the person for personal interview. The committee will finalize the allotment list and waiting list.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must deposit the amount as per the rules and regulations framed by GIDC for the normal allotment of land.",
+   "kind": "FEE",
+   "subject": "allotment_deposit",
+   "object": "governing_rules",
+   "detail": {
+    "authority": "GIDC"
+   },
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "7. The applicant have to deposit the amount as per the rules and regulation framed by GIDC for normal allotment of land in GIDC.",
+   "confidence": 1
+  },
+  {
+   "claim": "If the MSE does not start commercial production within one year for a multi-storeyed shed, GIDC shall resume the shed.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "shed_production",
+   "object": "commercial_production",
+   "detail": {
+    "timeframe": "1 year"
+   },
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "8. In case of multi-storeyed shed, if the MSE does not start commercial production within one year, after issuing notice, GIDC shall resume back such shed.",
+   "confidence": 1
+  },
+  {
+   "claim": "If the MSE does not start commercial production within two years for a plot, GIDC shall resume the plot or shed.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "plot_production",
+   "object": "commercial_production",
+   "detail": {
+    "timeframe": "2 years"
+   },
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "In case of plot, if the MSE does not start commercial production within two years, after issuing notice, GIDC shall resume back such plot/Shed without any payment to the allotted.",
+   "confidence": 1
+  },
+  {
+   "claim": "MSEs must continue production for five years from the date of production.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "mse_production",
+   "object": "five_year_continuity",
+   "detail": {
+    "timeframe": "5 years"
+   },
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "9. The MSEs shall have to continue its production for five years from the date of production.",
+   "confidence": 1
+  },
+  {
    "claim": "The application must be submitted to the District Collector, following Appendix-1/2.",
    "kind": "ACTION",
    "subject": "application_submission",
@@ -1530,6 +1658,9 @@
   "DigiLocker: the page names \"To access FAQ before using DigiLocker, Click here.\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
   "DigiLocker: a page mentions a mobile app (\"The GIDC Setu Mobile Application can be downloaded from the page.\") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.",
   "application for allotment of properties: a page mentions a mobile app (\"Applicants can download the GIDC Setu Mobile Application.\") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.",
+  "application for allotment of properties: https://gidc.gujarat.gov.in/Pages/Contents/application-for-allotment lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "GARVI: https://garvi.gujarat.gov.in/FrmViewAppointment_New.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "plot-or-shed-allotment: https://ced.gujarat.gov.in/assets/downloads/gr-10-03-2015-CH.pdf#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "certified copies: the hand written graph already answers to service:certified_copies, so the pages found for it were not merged in. Reconciling the two is a job for a person."
  ]
 }

@@ -1892,6 +1892,16 @@
       "contentHash": "f2cc26f1707e8938911bf4e680f537ee84b4d7f2b6dc784feab7091e3a2a19ca"
     },
     {
+      "id": "src:office_5c2158ab3a",
+      "url": "https://ced.gujarat.gov.in/assets/downloads/isds-form-2015.pdf#page=1",
+      "title": "isds-form-2015 (page 1 of 6)",
+      "domain": "ced.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "cccc86b28c2cb26dd4f6ac1e384836b36649363dfb3a9780405af3a3b5fd4564"
+    },
+    {
       "id": "src:office_9bd3c8963a",
       "url": "https://tribal.gujarat.gov.in/notification",
       "title": "Notification | Policies | Tribal Development Department",
@@ -6326,6 +6336,29 @@
         {
           "sourceId": "src:office_69aa55dfc5",
           "evidence": "અ.નં. | અધિકારીશ્રીનું નામ | તાલુકો | હોદ્દો | સરનામું | મોબાઈલ નં. | ૧ | ડો.રાહુલ સિંગ | સાવલી | તાલુકા હેલ્થ ઓફિસર | તાલુકા હેલ્થ ઓફિસ,તા.સાવલી,જિલ્લો-વડોદરા | ૮૯૮૦૦૩૯૧૨૨ |",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "office:the_centre_for_entrepreneurship_development_45b397",
+      "type": "OFFICE",
+      "name": "The Centre For Entrepreneurship Development",
+      "jurisdictionId": "IN-GJ-GANDHINAGAR",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "address": "1st Block, 9th Floor, Udhyog Bhavan, Gandhinagar – 382017",
+        "emails": [
+          "cor-ced@gujarat.gov.in"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_5c2158ab3a",
+          "evidence": "Implementation Agency :\nThe Centre For Entrepreneurship Development\n1st Block, 9th Floor, Udhyog Bhavan,\nGandhinagar – 382017\nWebsite :www.ced.gujarat.gov.in\nemail : cor-ced@gujarat.gov.in\nPhone : 079-23247366, 23240253\nFax : 079-23256679",
           "confidence": 1,
           "verificationStatus": "EXTRACTED"
         }

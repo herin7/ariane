@@ -4,6 +4,18 @@
  "region": "Gujarat, India",
  "sources": [
   {
+   "id": "src:189778a54c94",
+   "url": "https://ma.gujarat.gov.in/documents/PMJAY%20CARD%20PROCESS.pdf#page=1",
+   "title": "PMJAY%20CARD%20PROCESS (page 1 of 5)",
+   "domain": "ma.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "1985bab3c9701ea860de1d3d2363b01c994e5e21dd98d509e1483fd880bfed3e",
+   "cacheFile": ".ingest/pages/189778a54c94ef687dfa6684f19bb8b9f72045cd.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:487d4a702330",
    "url": "https://fcsca.gujarat.gov.in/en/phh-schemenew1",
    "title": "Skip Navigation Links Standards for Identifying Priority Families (PHH).",
@@ -53,6 +65,318 @@
   }
  ],
  "facts": [
+  {
+   "claim": "ASHA workers need a Ration Card.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "asha_worker",
+   "object": "ration_card",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "1 NHA ASHA All Urban & Rural ‘ASHA’. 1. Ration Card",
+   "confidence": 1
+  },
+  {
+   "claim": "ASHA workers need a certificate from an authorized officer.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "asha_worker",
+   "object": "authorized_officer_certificate",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "2. Certificate from authorized oƯicer",
+   "confidence": 1
+  },
+  {
+   "claim": "Aganwadi Helpers need a Ration Card.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "aganwadi_helper",
+   "object": "ration_card",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "1. Ration Card",
+   "confidence": 1
+  },
+  {
+   "claim": "Aganwadi Helpers do not need a certificate because they are in a fixed category.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "aganwadi_helper",
+   "object": "certificate",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "2. Fix category so not require certificate",
+   "confidence": 1
+  },
+  {
+   "claim": "Aganwadi Workers need a Ration Card.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "aganwadi_worker",
+   "object": "ration_card",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "1. Ration Card",
+   "confidence": 1
+  },
+  {
+   "claim": "Aganwadi Workers do not need a certificate because they are in a fixed category.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "aganwadi_worker",
+   "object": "certificate",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "2. Fix category so not require certificate",
+   "confidence": 1
+  },
+  {
+   "claim": "Particularly Vulnerable Tribal Groups need a Ration Card.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "particularly_vulnerable_tribal_groups",
+   "object": "ration_card",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "1. Ration Card",
+   "confidence": 1
+  },
+  {
+   "claim": "Particularly Vulnerable Tribal Groups need a certificate from the Tribal Department.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "particularly_vulnerable_tribal_groups",
+   "object": "tribal_department_certificate",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "2. Certificate from Tribal Department",
+   "confidence": 1
+  },
+  {
+   "claim": "SECC-2011 families (both rural and urban) need a Ration Card for residence and family details.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "secc_2011_families",
+   "object": "ration_card",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "1. Ration Card (for residence and family details)",
+   "confidence": 1
+  },
+  {
+   "claim": "SECC-2011 families (both rural and urban) need an HHID Letter or to have their name available in the SECC list.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "secc_2011_families",
+   "object": "hhid_letter_or_secc_list",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "2. HHID Letter / Name must be available in SECC list",
+   "confidence": 1
+  },
+  {
+   "claim": "Building and Other Construction Workers need a Ration Card.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "building_other_construction_workers",
+   "object": "ration_card",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "1. Ration Card",
+   "confidence": 1
+  },
+  {
+   "claim": "Building and Other Construction Workers do not need a certificate because they are in a fixed category.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "building_other_construction_workers",
+   "object": "certificate",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "2. Fix category not require certificate",
+   "confidence": 1
+  },
+  {
+   "claim": "Sarkari Adhyaksh & Upadhyaksh need a Ration Card.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "sarkari_adhyaksh_upadhyaksh",
+   "object": "ration_card",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "1. Ration Card",
+   "confidence": 1
+  },
+  {
+   "claim": "Sarkari Adhyaksh & Upadhyaksh need an Appointment or Authorization Letter.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "sarkari_adhyaksh_upadhyaksh",
+   "object": "appointment_authorization_letter",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "2. Appointment/authorization letter",
+   "confidence": 1
+  },
+  {
+   "claim": "Corona Warriors' families need a Ration Card.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "corona_warriors_family",
+   "object": "ration_card",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "1. Ration Card",
+   "confidence": 1
+  },
+  {
+   "claim": "Corona Warriors' families need an Authorized Certificate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "corona_warriors_family",
+   "object": "authorized_certificate",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "2. Authorized Certificate",
+   "confidence": 1
+  },
+  {
+   "claim": "Corona Warriors' families need a Death Certificate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "corona_warriors_family",
+   "object": "death_certificate",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "3. Death Certificate",
+   "confidence": 1
+  },
+  {
+   "claim": "Karmayogi (Class-3 & 4 employees) need a Ration Card.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "karmayogi_class_3_4_employees",
+   "object": "ration_card",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "1. Ration Card",
+   "confidence": 1
+  },
+  {
+   "claim": "Karmayogi (Class-3 & 4 employees) need an Appointment or Employment Certificate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "karmayogi_class_3_4_employees",
+   "object": "appointment_employment_certificate",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "2. Appointment/Employment Certificate",
+   "confidence": 1
+  },
+  {
+   "claim": "BPL Families need a Ration Card.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "bpl_families",
+   "object": "ration_card",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "1. Ration Card,",
+   "confidence": 1
+  },
+  {
+   "claim": "BPL Families need a BPL Certificate with the name present in the approved list.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "bpl_families",
+   "object": "bpl_certificate",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "2. BPL Certificate (Name must be present in the approved list)",
+   "confidence": 1
+  },
+  {
+   "claim": "Middle-class families with an annual income up to ₹4 Lakhs need a Ration Card.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "middle_class_families_income_4_lakhs",
+   "object": "ration_card",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "1. Ration Card,",
+   "confidence": 1
+  },
+  {
+   "claim": "Middle-class families with an annual income up to ₹4 Lakhs need an Income Certificate issued by an authorized officer.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "middle_class_families_income_4_lakhs",
+   "object": "income_certificate",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "2. Income Certificate (Issued by the authorized oƯicer)",
+   "confidence": 1
+  },
+  {
+   "claim": "NFSA/PMJAY beneficiaries need a Ration Card.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "nfsa_pmjay_beneficiaries",
+   "object": "ration_card",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "1. Ration Card",
+   "confidence": 1
+  },
+  {
+   "claim": "Orphaned children during the COVID-19 epidemic need a Ration Card.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "orphaned_children_covid_19",
+   "object": "ration_card",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "1. Ration Card",
+   "confidence": 1
+  },
+  {
+   "claim": "Orphaned children during the COVID-19 epidemic need a certificate from the Nodal Department.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "orphaned_children_covid_19",
+   "object": "nodal_department_certificate",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "2. Certificate from Nodal Department",
+   "confidence": 1
+  },
+  {
+   "claim": "Accredited Journalists need a Ration Card.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "accredited_journalists",
+   "object": "ration_card",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "1. Ration Card",
+   "confidence": 1
+  },
+  {
+   "claim": "Accredited Journalists need a Journalist Accreditation ID.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "accredited_journalists",
+   "object": "journalist_accreditation_id",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "2. Journalist Accreditation ID",
+   "confidence": 1
+  },
+  {
+   "claim": "Senior Citizens with an annual family income up to ₹6 Lakhs need a Ration Card.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "senior_citizens_income_6_lakhs",
+   "object": "ration_card",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "1. Ration Card",
+   "confidence": 1
+  },
+  {
+   "claim": "Senior Citizens with an annual family income up to ₹6 Lakhs need an Income Certificate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "senior_citizens_income_6_lakhs",
+   "object": "income_certificate",
+   "detail": {},
+   "sourceId": "src:189778a54c94",
+   "evidence": "2. Income Certificate",
+   "confidence": 1
+  },
+  {
+   "claim": "Senior Citizens with an annual family income up to ₹6 Lakhs must be over 60 years of age.",
+   "kind": "ELIGIBILITY",
+   "subject": "senior_citizens_income_6_lakhs",
+   "object": "age",
+   "detail": {
+    "minimum_age": "60"
+   },
+   "sourceId": "src:189778a54c94",
+   "evidence": "3. More than 60 age",
+   "confidence": 1
+  },
   {
    "claim": "Families with a mechanically propelled 4 wheeler vehicle or mechanical fishing boat are excluded from being identified as 'Priority Households' in rural areas.",
    "kind": "ELIGIBILITY",
@@ -570,5 +894,7 @@
    "confidence": 0.95
   }
  ],
- "notFound": []
+ "notFound": [
+  "Priority Households (PHH) Scheme: https://fcsca.gujarat.gov.in/en/phh-schemenew1 offers a choice under \"Family having deprivation/insecurity of any of the following shall be included for food security.\" but fewer than two of the lines under it are documents, so no group was written."
+ ]
 }
