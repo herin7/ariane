@@ -54,9 +54,15 @@ log.md            milestone log
 
 ```bash
 pnpm install
-pnpm test        # graph + compiler unit and integration tests
-pnpm dev         # http://localhost:3000
+pnpm test             # graph + compiler unit and integration tests
+pnpm graph:validate   # source integrity. must be zero errors, zero warnings
+pnpm journey:test     # compile a journey in the terminal, no browser needed
+pnpm dev              # http://localhost:3000
 ```
+
+No credentials are needed for any of the above. Copy `.env.example` to
+`.env.local` when you want Supabase, Bedrock, Sarvam or voice. Everything has a
+deterministic fallback, so a missing key degrades one feature and never the path.
 
 ## Status
 
