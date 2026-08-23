@@ -33,7 +33,7 @@
  */
 
 import { at, chat, jsonArray, pool, readJsonl, sha1 } from "./lib.mjs";
-import { display, districtOf, slug, title } from "./places.mjs";
+import { display, districtOf, isPerson, slug, title } from "./places.mjs";
 import { appendFileSync, existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 
 const IDENTIFY = ".ingest/identify/";
@@ -77,6 +77,92 @@ const FIELDS = new Set([
   "bank_name", "bank_account_number", "ifsc_code", "account_number", "format", "documents", "document",
   "details", "information", "signature", "declaration", "application_form", "form", "fee", "amount",
 ]);
+/**
+ * What to call an office, or null if the fact never says.
+ *
+ * The extractor writes the name under whichever key the page suggested, so
+ * `officeName`, `office_name` and `name` are all in use, and often there is no
+ * key at all and the name is the fact's own object: "The application must be
+ * submitted at the Jan Seva Kendra Ahmedabad" arrives as
+ * `object: jan_seva_kendra` with the full address in `detail`.
+ *
+ * Requiring `officeName` alone threw all of those away, which is how four
+ * generated journeys ended up with one office between them. Requiring nothing
+ * gives you `office:address`, a node named after a form label. So: take a real
+ * name where there is one, fall back to the object where it reads like a place,
+ * and refuse where it reads like a field.
+ */
+export function officeName(fact) {
+  const d = fact.detail ?? {};
+  const explicit = d.officeName || d.office_name || d.name || d.institute_name || d.institute;
+  // A directory page prints the officer beside the office and the extractor
+  // writes both into `name`. He gets transferred; the Collectorate does not.
+  if (typeof explicit === "string" && explicit.trim().length > 3 && !isPerson(explicit)) return explicit.trim();
+  const object = String(fact.object ?? "");
+  // "office_address", "contact_email", "office_no" name a field on a page about
+  // an office, not the office.
+  const fieldish =
+    !object ||
+    object.length < 5 ||
+    FIELDS.has(object) ||
+    /^(office_)?(address|email|contact|phone|number|no|url|website|location|hours)$|_(address|email|no|number|url)$/.test(object);
+  return fieldish ? officeFromClaim(fact.claim) : object;
+}
+
+/**
+ * Whose office the address is, taken out of the sentence that gave the address.
+ *
+ * 201 office facts carry a real address and no name for it, because the page
+ * printed the address under a heading and the extractor put the heading's words
+ * in `claim` and the address in `detail`. Dropping them cost 107 services an
+ * office they had one for, and the alternative people reach for first is worse:
+ * naming the node after the building. Six departments answer at Udyog Bhavan,
+ * so `office:udyog_bhavan` would merge six offices into one and then send a
+ * citizen to whichever won.
+ *
+ * The sentence already says it. "The Gujarat Biodiversity Board office is
+ * located at Aranya Bhavan B Wing" names the office in front of the verb, and
+ * "The application must be submitted at the Jan Seva Kendra Ahmedabad" names it
+ * after the preposition. So read it off the claim, which is a substring of the
+ * page, and refuse anything that does not read like an office: the same two
+ * patterns also match "The contact information for the GARVI 2.0 website is at
+ * ...", and a website is not somewhere to go.
+ *
+ * ponytail: over splits. "Jan Seva Kendra in Junagadh" and "Jan Seva Kendra
+ * Junagadh office" become two nodes with the same address. Two true offices is
+ * a cosmetic problem; one office made of two is a wrong direction, so the merge
+ * waits for someone who can check the addresses match.
+ */
+const OFFICE_LOCATED =
+  /^(?:the\s+)?(.{4,90}?)\s+(?:is|are)\s+(?:located|situated|based)\s+(?:at|in)\b|^(?:the\s+)?(.{4,90}?)(?:'s)?\s+(?:office\s+)?address\s+is\b|^(?:the\s+)?(.{4,90}?)\s+is\s+at\b/i;
+const OFFICE_SUBMIT =
+  /\b(?:submitted|submit|apply|applied|obtained|available|contact)\s+(?:at|to|from)\s+(?:the\s+)?([^.,;()]{4,80})/i;
+
+/** Words that make a phrase a place a citizen can walk into rather than a thing. */
+const OFFICE_WORD =
+  /\b(department|directorate|commission|commissioner|commissionerate|corporation|board|office|kendra|kacheri|bhavan|bhawan|sadan|sachivalaya|collector|mamlatdar|rto|council|authority|agency|campus|institute|centre|center|magistrate|municipal|panchayat|nagarpalika|taluka|headquarters|prant|કચેરી|ભવન|કેન્દ્ર)\b/i;
+
+export function officeFromClaim(claim) {
+  const text = String(claim ?? "").trim();
+  const m = OFFICE_LOCATED.exec(text) ?? OFFICE_SUBMIT.exec(text);
+  if (!m) return null;
+  const raw = (m[1] ?? m[2] ?? m[3] ?? m[4] ?? "").trim();
+  if (!OFFICE_WORD.test(raw)) return null;
+
+  const name = raw
+    // "The application must be submitted to the office of the Electricity
+    // Revenue Collector at Block No. 3" hands back the address with the name.
+    .replace(/\s+at\s+(?:block|plot|room|floor|near|opp\b|\d).*$/i, "")
+    // A qualifier in front of "office of" is not part of the office's name, and
+    // keeping it is how one municipal corporation became three nodes.
+    .replace(/^(?:main|head|administrative|registration|regional|central|corporate)\s+office\s+(?:of|for)\s+(?:the\s+)?/i, "")
+    .replace(/^(?:contact\s+information|address)\s+(?:for|of)\s+(?:the\s+)?/i, "")
+    .replace(/'s\s+(?:head|main|administrative)?\s*office$/i, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+  return name.length > 3 ? name : null;
+}
+
 /** Below this a bundle is a stub pretending to be a journey. */
 const MIN_SERVICES = 3;
 
@@ -671,6 +757,49 @@ if (flag("selftest")) {
   assert.equal(officeName({ object: "anything", detail: { officeName: "District Collector Office" } }), "District Collector Office");
   assert.equal(officeName({ object: "anything", detail: { office_name: "Mamlatdar Office" } }), "Mamlatdar Office", "the extractor uses both spellings of the key");
   assert.equal(officeName({ object: "name", detail: {} }), null, "a form field is never an office");
+  assert.equal(
+    officeName({ object: "collector", detail: { name: "Dr. Prashant Jilova, IAS", address: "Collectorate, Sector 11" } }),
+    "collector",
+    "the officer on the directory page is not the office, but the office is still there",
+  );
+
+  // ------------------------------------------- whose address the page printed
+
+  assert.equal(
+    officeName({ object: "office_address", claim: "The Gujarat Biodiversity Board office is located at Aranya Bhavan B Wing, 5th Floor.", detail: { address: "Aranya Bhavan B Wing" } }),
+    "Gujarat Biodiversity Board office",
+    "the sentence that gave the address also says whose it is",
+  );
+  assert.equal(
+    officeFromClaim("The application must be submitted at the Jan Seva Kendra Ahmedabad."),
+    "Jan Seva Kendra Ahmedabad",
+    "named after the preposition instead of before the verb, and still named",
+  );
+  assert.equal(
+    officeFromClaim("The contact information for the GARVI 2.0 website is at Stamp & Registration Bhavan, KH-5."),
+    null,
+    "a website is not somewhere a citizen can go, whatever address it prints",
+  );
+  assert.equal(
+    officeFromClaim("The application must be submitted to the office of the Electricity Revenue Collector at Block No. 3, Udyog Bhavan."),
+    "office of the Electricity Revenue Collector",
+    "the address is not part of the name of the office it belongs to",
+  );
+  assert.equal(
+    officeFromClaim("The main office of Gandhinagar Municipal Corporation is located at Pandit Dindayal Upadhyay Bhavan."),
+    "Gandhinagar Municipal Corporation",
+    "same office as the one two sentences up, so it has to reach the same id",
+  );
+  assert.equal(
+    officeFromClaim("The Gandhinagar Municipal Corporation's office is located at Pandit Dindayal Upadhyay Bhavan."),
+    "Gandhinagar Municipal Corporation",
+  );
+  assert.equal(officeFromClaim("Applications are processed within 15 days."), null, "a timeline sentence names no office");
+  assert.equal(
+    officeFromClaim("The tablets are supplied at the two companies Acer and Lenovo."),
+    null,
+    "a supplier is not an office, and nothing in that sentence claims it is",
+  );
 
   assert.equal(display("varshai"), "Varshai");
   assert.equal(display("EWS Certificate"), "EWS Certificate", "a name copied off the page keeps the page's capitals");
@@ -1152,32 +1281,6 @@ const isDocument = (object) => known.get(title(object)) === true;
 
 const ref = (sourceId, fact) => ({ sourceId, evidence: fact.evidence, confidence: fact.confidence, verificationStatus: "EXTRACTED" });
 
-/**
- * What to call an office, or null if the fact never says.
- *
- * The extractor writes the name under whichever key the page suggested, so
- * `officeName`, `office_name` and `name` are all in use, and often there is no
- * key at all and the name is the fact's own object: "The application must be
- * submitted at the Jan Seva Kendra Ahmedabad" arrives as
- * `object: jan_seva_kendra` with the full address in `detail`.
- *
- * Requiring `officeName` alone threw all of those away, which is how four
- * generated journeys ended up with one office between them. Requiring nothing
- * gives you `office:address`, a node named after a form label. So: take a real
- * name where there is one, fall back to the object where it reads like a place,
- * and refuse where it reads like a field.
- */
-export function officeName(fact) {
-  const d = fact.detail ?? {};
-  const explicit = d.officeName || d.office_name || d.name || d.institute_name || d.institute;
-  if (typeof explicit === "string" && explicit.trim().length > 3) return explicit.trim();
-  const object = String(fact.object ?? "");
-  if (!object || object.length < 5 || FIELDS.has(object)) return null;
-  // "office_address", "contact_email", "office_no" name a field on a page about
-  // an office, not the office.
-  if (/^(office_)?(address|email|contact|phone|number|no|url|website|location|hours)$|_(address|email|no|number|url)$/.test(object)) return null;
-  return object;
-}
 
 function build(journey, services) {
   const sources = [];

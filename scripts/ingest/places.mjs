@@ -95,3 +95,24 @@ export const title = (s) =>
  * copied off the page and its capitalisation is the page's, not ours to improve.
  */
 export const display = (s) => (/[A-Z]/.test(s) ? s : s.replace(/\b[a-z]/g, (c) => c.toUpperCase()));
+
+/**
+ * True if this is the name of a person rather than of a place.
+ *
+ * Directory pages list the officer next to the office, and the extractor
+ * dutifully wrote both into `detail.name`. That is how the graph came to hold
+ * `office:dr_prashant_jilova_ias` with a Collectorate address, which tells a
+ * citizen to go and visit a man. He will be transferred; the office will not.
+ *
+ * Honorifics and service suffixes only, both of which are printed on Indian
+ * government pages as a matter of form. No attempt to recognise a name as a
+ * name: "Anand Nandurbarkar" is indistinguishable from a place by spelling and
+ * we would rather keep a stray person than drop a real office.
+ */
+const HONORIFIC = /^\s*(dr|shri|shree|smt|shrimati|mr|mrs|ms|prof|sri|kum|thiru|હો?ન|શ્રી|શ્રીમતી|ડૉ|ડો)\b\.?\s/i;
+const SERVICE_CADRE = /[,(]\s*(i\.?a\.?s|i\.?p\.?s|i\.?f\.?s|g\.?a\.?s|g\.?p\.?s|r\.?a\.?s)\.?\s*[).]?\s*$/i;
+
+export const isPerson = (name) => {
+  const s = String(name ?? "").trim();
+  return HONORIFIC.test(s) || SERVICE_CADRE.test(s);
+};

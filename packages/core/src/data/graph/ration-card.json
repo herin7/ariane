@@ -1069,6 +1069,42 @@
    ]
   },
   {
+   "id": "office:district_consumer_disputes_redressal_commission_in_navsari",
+   "type": "OFFICE",
+   "name": "District Consumer Disputes Redressal Commission in Navsari",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Near Gujarat State Civil Supply Cooperation Ltd. Godawn, Limdachowk, Jallalpore Station Road, Navsari-396 445."
+   },
+   "sources": [
+    {
+     "sourceId": "src:afddebe16bc3",
+     "evidence": "District Consumer Disputes RedressalCommission, Navsari, Near Gujarat State Civil Supply Cooperation Ltd.Godawn, Limdachowk, Jallalpore Station Road, Navsari-396 445.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "office:directorate_of_food_and_civil_supplies",
+   "type": "OFFICE",
+   "name": "Directorate of Food and Civil Supplies",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Block No. 14, 6th Floor, Sardar Bhavan, New Sachivalya, Gandhinagar - 382 010, Gujarat, India"
+   },
+   "sources": [
+    {
+     "sourceId": "src:9f5cd471077c",
+     "evidence": "Directorate of Food and Civil Supplies, Gujarat State Director of Food and Civil Supplies Block No. 14, 6th Floor, Sardar Bhavan, New Sachivalya, Gandhinagar - 382 010 Gujarat, India",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "helpline:079_232_58485",
    "type": "HELPLINE",
    "name": "Food Ration Card helpline",
@@ -1710,6 +1746,38 @@
     {
      "sourceId": "src:1ee7c5fd9ac8",
      "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_food_ration_card__visit_at__office_district_consumer_disputes_redressal_commission_in_na",
+   "from": "service:food_ration_card",
+   "to": "office:district_consumer_disputes_redressal_commission_in_navsari",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Consumer Disputes Redressal Commission in Navsari is located at Near Gujarat State Civil Supply Cooperation Ltd. Godawn, Limdachowk, Jallalpore Station Road, Navsari-396 445.",
+   "sources": [
+    {
+     "sourceId": "src:afddebe16bc3",
+     "evidence": "District Consumer Disputes RedressalCommission, Navsari, Near Gujarat State Civil Supply Cooperation Ltd.Godawn, Limdachowk, Jallalpore Station Road, Navsari-396 445.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_food_ration_card__visit_at__office_directorate_of_food_and_civil_supplies",
+   "from": "service:food_ration_card",
+   "to": "office:directorate_of_food_and_civil_supplies",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Directorate of Food and Civil Supplies is located at Block No. 14, 6th Floor, Sardar Bhavan, New Sachivalya, Gandhinagar - 382 010, Gujarat, India.",
+   "sources": [
+    {
+     "sourceId": "src:9f5cd471077c",
+     "evidence": "Directorate of Food and Civil Supplies, Gujarat State Director of Food and Civil Supplies Block No. 14, 6th Floor, Sardar Bhavan, New Sachivalya, Gandhinagar - 382 010 Gujarat, India",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }

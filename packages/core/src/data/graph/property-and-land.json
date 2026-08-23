@@ -1793,6 +1793,24 @@
    ]
   },
   {
+   "id": "office:office_of_the_special_secretary_dispute",
+   "type": "OFFICE",
+   "name": "office of the Special Secretary (Dispute)",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "સરદાર વલ્લભભાઈ પટેલ મહેસૂલી અપીલ અને રિવીઝન ભવન, સોલા ભાગવત વિધાપીઠની સામે, સોલા પોલીસ સ્ટેશનની પાછળ, નારાયણ બંગ્લોઝની સામે, ગોતા, અમદાવાદ"
+   },
+   "sources": [
+    {
+     "sourceId": "src:4f0533ae601d",
+     "evidence": "સરદાર વલ્લભભાઈ પટેલ મહેસૂલી અપીલ અને રિવીઝન ભવન, સોલા ભાગવત વિધાપીઠની સામે, સોલા પોલીસ સ્ટેશનની પાછળ, નારાયણ બંગ્લોઝની સામે, ગોતા, અમદાવાદ",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "service:special_secretary_dispute_office",
    "type": "SERVICE",
    "name": "Special Secretary (Dispute) Office",
@@ -1967,6 +1985,22 @@
   }
  ],
  "edges": [
+  {
+   "id": "e:service_digilocker__visit_at__office_gidc_office",
+   "from": "service:digilocker",
+   "to": "office:gidc_office",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The GIDC office is located at Block 3,4,5, Udhyog Bhavan, Sector-11, Gandhinagar 382 011, Gujarat, India.",
+   "sources": [
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "Our Address\nBlock 3,4,5, Udhyog Bhavan, Sector-11,\nGandhinagar 382 011,\nGujarat, India.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
   {
    "id": "e:service_digilocker__call_if__helpline_91_79_23250636",
    "from": "service:digilocker",
@@ -2448,6 +2482,22 @@
    ]
   },
   {
+   "id": "e:service_assessment_notice__visit_at__office_jamnagar_municipal_corporation",
+   "from": "service:assessment_notice",
+   "to": "office:jamnagar_municipal_corporation",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Jamnagar Municipal Corporation is located at Jubilee Garden, Jamnagar.",
+   "sources": [
+    {
+     "sourceId": "src:63cc0b03222e",
+     "evidence": "Address:\nJamnagar Municipal Corporation,\nJubilee Garden, Jamnagar",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_assessment_notice__apply_at__portal_mcjamnagar_com",
    "from": "service:assessment_notice",
    "to": "portal:mcjamnagar_com",
@@ -2875,6 +2925,22 @@
      "sourceId": "src:05fe99b18fe2",
      "evidence": "With regard to the documents specified in the Constitution of India Seventh Schedule Entry No. 91 (A bill of exchange, cheque, promissory note, bill of lading, letter of credit, policy of insurance, transfer of share, debenture, proxy and receipt) other then the same the State Government is bound to amend the Stamp and Stamp Duty Act.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_special_secretary_dispute_office__visit_at__office_office_of_the_special_secretary_dispute",
+   "from": "service:special_secretary_dispute_office",
+   "to": "office:office_of_the_special_secretary_dispute",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The office of the Special Secretary (Dispute) is located at Sola, Ahmedabad.",
+   "sources": [
+    {
+     "sourceId": "src:4f0533ae601d",
+     "evidence": "સરદાર વલ્લભભાઈ પટેલ મહેસૂલી અપીલ અને રિવીઝન ભવન, સોલા ભાગવત વિધાપીઠની સામે, સોલા પોલીસ સ્ટેશનની પાછળ, નારાયણ બંગ્લોઝની સામે, ગોતા, અમદાવાદ",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]

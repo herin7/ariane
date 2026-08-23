@@ -132,6 +132,16 @@
       "contentHash": "3eec21e0616e2911f0f79342e272d8d5254f24370372cb0a0f29d19529eea6e1"
     },
     {
+      "id": "src:office_9b851e392f",
+      "url": "https://www.nhb.org.in/contact-us",
+      "title": "Contact Us - National Housing Bank",
+      "domain": "nhb.org.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "d26cf78384cceae036e178d8f5059f8fc582fb745e4a752ed0b42b0c39e4a851"
+    },
+    {
       "id": "src:office_7cf1b55c01",
       "url": "https://bmcgujarat.com/guj/e-services/professional-tax",
       "title": "Professional Tax | BMC",
@@ -152,54 +162,14 @@
       "contentHash": "d58a1a48bddd4dbbe50df137eed8d9c0867cda720d6c34294855f05f93dcbd41"
     },
     {
-      "id": "src:office_762ee0db36",
-      "url": "https://gandhinagar.gujarat.gov.in/showpage.aspx?contentid=390",
-      "title": "નોન ક્રીમીલેયર પ્રમાણપત્ર મેળવવા અંગે અરજી | Certificate | Jan Seva Kendra form | Collectorate - District Gandhinagar",
-      "domain": "gandhinagar.gujarat.gov.in",
+      "id": "src:office_bfa90e6648",
+      "url": "https://ccd.gujarat.gov.in/contactus-guj.htm",
+      "title": "સંપર્ક | આબોહવા પરિવર્તન વિભાગ, ગુજરાત સરકાર",
+      "domain": "ccd.gujarat.gov.in",
       "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ-GANDHINAGAR",
+      "jurisdictionId": "IN-GJ",
       "retrievedAt": "2026-08-23",
-      "contentHash": "424a92a7358dc5e8411df41a2d7fb4655de29fd43f44197c9c4dfc156af27a3e"
-    },
-    {
-      "id": "src:office_debe1fb428",
-      "url": "https://collectorsurendranagar.gujarat.gov.in/showpage.aspx?contentid=390",
-      "title": "નોન ક્રીમીલેયર પ્રમાણપત્ર મેળવવા અંગે અરજી | Certificate | Jan Seva Kendra Form | Collectorate - District Surendranagar",
-      "domain": "collectorsurendranagar.gujarat.gov.in",
-      "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ-SURENDRANAGAR",
-      "retrievedAt": "2026-08-23",
-      "contentHash": "dc328517d2d4c16fb3ae999df655402ce9861a46bf3642430fec8060bab9f4a0"
-    },
-    {
-      "id": "src:office_c192f973a3",
-      "url": "https://collectorpatan.gujarat.gov.in/showpage.aspx?contentid=390",
-      "title": "નોન ક્રીમીલેયર પ્રમાણપત્ર મેળવવા અંગે અરજી | Certificate | Jan Seva Kendra form | Collectorate - District Patan",
-      "domain": "collectorpatan.gujarat.gov.in",
-      "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ-PATAN",
-      "retrievedAt": "2026-08-23",
-      "contentHash": "b72591a1fe01f2aa9a533525eccc7d683a16e8002bacc57280c1f0ce0c93edae"
-    },
-    {
-      "id": "src:office_82f6ec9ce6",
-      "url": "https://kheda.gujarat.gov.in/showpage.aspx?contentid=249",
-      "title": "રહેઠાણ અંગેનું પ્રમાણપત્ર મેળવવા બાબત | Certificate | Jan Seva Kendra form | Collectorate - District Kheda",
-      "domain": "kheda.gujarat.gov.in",
-      "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ-KHEDA",
-      "retrievedAt": "2026-08-23",
-      "contentHash": "e1fc6ce1caf70dc27d6cbc009660fb4b49e67f54038b1d3bbf506677fc819625"
-    },
-    {
-      "id": "src:office_f7f3256f90",
-      "url": "https://jamnagar.gujarat.gov.in/showpage.aspx?contentid=390",
-      "title": "નોન ક્રીમીલેયર પ્રમાણપત્ર મેળવવા અંગે અરજી | Certificate | Jan Seva Kendra Form | Collectorate - District Jamnagar",
-      "domain": "jamnagar.gujarat.gov.in",
-      "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ-JAMNAGAR",
-      "retrievedAt": "2026-08-23",
-      "contentHash": "2111d580da4a24277a987481e2c7cd12b4313668d4caa65d10a7a2669d8f975c"
+      "contentHash": "044ce31aaac2035cc068de1c95a43ccccd7cc65261f8b7328b081be5f444f80d"
     },
     {
       "id": "src:office_451dba3497",
@@ -242,94 +212,34 @@
       "contentHash": "1b986637c66c410a5bcaebe5b3cc261986f99062a7518a905adc2a5c2eabc1d4"
     },
     {
-      "id": "src:office_e9420311e7",
-      "url": "https://amreli.gujarat.gov.in/",
-      "title": "Collectorate - District Amreli",
-      "domain": "amreli.gujarat.gov.in",
+      "id": "src:office_b80293b381",
+      "url": "https://vattribunal.gujarat.gov.in/contact",
+      "title": "Gujarat Value Added Tax Tribunal",
+      "domain": "vattribunal.gujarat.gov.in",
       "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ-AMRELI",
+      "jurisdictionId": "IN-GJ",
       "retrievedAt": "2026-08-23",
-      "contentHash": "9958b8147a759d605596894b36ba8707dc217b68e5885f5e818f6bc76f94797c"
+      "contentHash": "790e73c537b37269d0de78f771a2181e3c52b538d941ec79a0d3a9f514cad6c9"
     },
     {
-      "id": "src:office_7c2d451dfe",
-      "url": "https://gandhinagar.gujarat.gov.in/",
-      "title": "Collectorate - District Gandhinagar",
-      "domain": "gandhinagar.gujarat.gov.in",
+      "id": "src:office_8b7f56a4e5",
+      "url": "https://vattribunal.gujarat.gov.in/tribunaladdress",
+      "title": "Gujarat Value Added Tax Tribunal",
+      "domain": "vattribunal.gujarat.gov.in",
       "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ-GANDHINAGAR",
+      "jurisdictionId": "IN-GJ",
       "retrievedAt": "2026-08-23",
-      "contentHash": "bac31c3be120f92fdef47423bc5fe1dc8ff7c229628bb963765a7f9c6c5c414d"
+      "contentHash": "1bb96d0e22fd5e5326b83cca441e6a6661ef7305a24bf37674360ee7afcca86e"
     },
     {
-      "id": "src:office_f4fa34090a",
-      "url": "https://collectorpatan.gujarat.gov.in/contacts",
-      "title": "Contacts | Collectorate - District Patan",
-      "domain": "collectorpatan.gujarat.gov.in",
+      "id": "src:office_76f446a80c",
+      "url": "https://hc-ojas.gujarat.gov.in/ContactUs.aspx",
+      "title": "Gujarat High Court (OJAS)",
+      "domain": "hc-ojas.gujarat.gov.in",
       "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ-PATAN",
+      "jurisdictionId": "IN-GJ",
       "retrievedAt": "2026-08-23",
-      "contentHash": "bdb0e0560bd4b690bbb385937d9a1e1af472b308ff354d8a6e593b359151dc83"
-    },
-    {
-      "id": "src:office_e8b2f01308",
-      "url": "https://collectormehsana.gujarat.gov.in/contacts",
-      "title": "Contacts | Collectorate - District Mehsana",
-      "domain": "collectormehsana.gujarat.gov.in",
-      "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ-MEHSANA",
-      "retrievedAt": "2026-08-23",
-      "contentHash": "856ff9c72a5e71f3307241bcafc6bd06dd07ba0c772be12876fb60a3763ab4a8"
-    },
-    {
-      "id": "src:office_892ce8fb70",
-      "url": "https://devbhumidwarka.gujarat.gov.in/contacts",
-      "title": "Contacts | Collectorate - District Devbhumi Dwarka",
-      "domain": "devbhumidwarka.gujarat.gov.in",
-      "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
-      "retrievedAt": "2026-08-23",
-      "contentHash": "a389a49e5dcedc58490f917ecf4f86ccb7e8c53a332a49d7e50fd60968178cca"
-    },
-    {
-      "id": "src:office_3fd040de2e",
-      "url": "https://collectornarmada.gujarat.gov.in/contacts",
-      "title": "Contacts | Collectorate - District Narmada",
-      "domain": "collectornarmada.gujarat.gov.in",
-      "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ-NARMADA",
-      "retrievedAt": "2026-08-23",
-      "contentHash": "c3c47e1279fb1c5b5d72d3b968689ad6c815ba1e06400d6652e33d8789aff260"
-    },
-    {
-      "id": "src:office_3efbc11201",
-      "url": "https://botad.gujarat.gov.in/contacts",
-      "title": "Contacts | Collectorate - District Botad",
-      "domain": "botad.gujarat.gov.in",
-      "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ-BOTAD",
-      "retrievedAt": "2026-08-23",
-      "contentHash": "8175401646e0d3797c8210464f4246d547bf2f297acdad0d15301bffb132d90c"
-    },
-    {
-      "id": "src:office_d3945db8e7",
-      "url": "https://anand.gujarat.gov.in/contacts",
-      "title": "Contacts | Collectorate - District Anand",
-      "domain": "anand.gujarat.gov.in",
-      "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ-ANAND",
-      "retrievedAt": "2026-08-23",
-      "contentHash": "9fed6b064605d42ada87ce834d72692344faf13518f7f1482a4d48fdb9d0d355"
-    },
-    {
-      "id": "src:office_6b8abf52fa",
-      "url": "https://collectorkutch.gujarat.gov.in/contacts",
-      "title": "Contacts | Collectorate - District Kutch",
-      "domain": "collectorkutch.gujarat.gov.in",
-      "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ-KUTCH",
-      "retrievedAt": "2026-08-23",
-      "contentHash": "ea535234ede45a01be314ef1a2c183306fd33c2eced1ab777ebd4524f8c5c2e4"
+      "contentHash": "5f88c45839a1e29caec15a1be3d2126c1798cd09b32952dff49a0fa7baffc995"
     },
     {
       "id": "src:office_1dde020898",
@@ -370,16 +280,6 @@
       "jurisdictionId": "IN-GJ",
       "retrievedAt": "2026-08-23",
       "contentHash": "e3c21086da6706f7b1f3c707ac069c07c5762cec24fc637f4dff0a7c3f588830"
-    },
-    {
-      "id": "src:office_958a3f7e1c",
-      "url": "https://dppf.gujarat.gov.in/contact",
-      "title": "Directorate of pension and Provident Fund",
-      "domain": "dppf.gujarat.gov.in",
-      "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ",
-      "retrievedAt": "2026-08-23",
-      "contentHash": "d2e81b9eac9d2969151a4796260d6f664f9d2e487e51e35366aa115bdd14c563"
     },
     {
       "id": "src:office_565bb1b1d9",
@@ -482,6 +382,26 @@
       "contentHash": "1401e97fabbcb1b89511577d296d673dd9343138271a0a4582beddd44e77354d"
     },
     {
+      "id": "src:office_3efbc11201",
+      "url": "https://botad.gujarat.gov.in/contacts",
+      "title": "Contacts | Collectorate - District Botad",
+      "domain": "botad.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-BOTAD",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "8175401646e0d3797c8210464f4246d547bf2f297acdad0d15301bffb132d90c"
+    },
+    {
+      "id": "src:office_75ff5acc4e",
+      "url": "https://collectorjamnagar.gujarat.gov.in/web-information-manager",
+      "title": "Web Information Manager | Collectorate - District Jamnagar",
+      "domain": "collectorjamnagar.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-JAMNAGAR",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "87cc6cc2ef71cc9f00a521bbb053b03143aad59afa910a521a47fc48980def2a"
+    },
+    {
       "id": "src:office_8d4a20ae66",
       "url": "https://morbi.gujarat.gov.in/",
       "title": "Collectorate - District Morbi",
@@ -490,6 +410,86 @@
       "jurisdictionId": "IN-GJ-MORBI",
       "retrievedAt": "2026-08-23",
       "contentHash": "44c4e5fd2df33ae7e40830c006a4f3f3e02cb26b98b7bdb34af72c4ca3b83aba"
+    },
+    {
+      "id": "src:office_d3945db8e7",
+      "url": "https://anand.gujarat.gov.in/contacts",
+      "title": "Contacts | Collectorate - District Anand",
+      "domain": "anand.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-ANAND",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "9fed6b064605d42ada87ce834d72692344faf13518f7f1482a4d48fdb9d0d355"
+    },
+    {
+      "id": "src:office_f4fa34090a",
+      "url": "https://collectorpatan.gujarat.gov.in/contacts",
+      "title": "Contacts | Collectorate - District Patan",
+      "domain": "collectorpatan.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-PATAN",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "bdb0e0560bd4b690bbb385937d9a1e1af472b308ff354d8a6e593b359151dc83"
+    },
+    {
+      "id": "src:office_892ce8fb70",
+      "url": "https://devbhumidwarka.gujarat.gov.in/contacts",
+      "title": "Contacts | Collectorate - District Devbhumi Dwarka",
+      "domain": "devbhumidwarka.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "a389a49e5dcedc58490f917ecf4f86ccb7e8c53a332a49d7e50fd60968178cca"
+    },
+    {
+      "id": "src:office_3fd040de2e",
+      "url": "https://collectornarmada.gujarat.gov.in/contacts",
+      "title": "Contacts | Collectorate - District Narmada",
+      "domain": "collectornarmada.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-NARMADA",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "c3c47e1279fb1c5b5d72d3b968689ad6c815ba1e06400d6652e33d8789aff260"
+    },
+    {
+      "id": "src:office_e8b2f01308",
+      "url": "https://collectormehsana.gujarat.gov.in/contacts",
+      "title": "Contacts | Collectorate - District Mehsana",
+      "domain": "collectormehsana.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-MEHSANA",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "856ff9c72a5e71f3307241bcafc6bd06dd07ba0c772be12876fb60a3763ab4a8"
+    },
+    {
+      "id": "src:office_6b8abf52fa",
+      "url": "https://collectorkutch.gujarat.gov.in/contacts",
+      "title": "Contacts | Collectorate - District Kutch",
+      "domain": "collectorkutch.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-KUTCH",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "ea535234ede45a01be314ef1a2c183306fd33c2eced1ab777ebd4524f8c5c2e4"
+    },
+    {
+      "id": "src:office_e9420311e7",
+      "url": "https://amreli.gujarat.gov.in/",
+      "title": "Collectorate - District Amreli",
+      "domain": "amreli.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-AMRELI",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "9958b8147a759d605596894b36ba8707dc217b68e5885f5e818f6bc76f94797c"
+    },
+    {
+      "id": "src:office_7c2d451dfe",
+      "url": "https://gandhinagar.gujarat.gov.in/",
+      "title": "Collectorate - District Gandhinagar",
+      "domain": "gandhinagar.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-GANDHINAGAR",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "bac31c3be120f92fdef47423bc5fe1dc8ff7c229628bb963765a7f9c6c5c414d"
     },
     {
       "id": "src:office_c3c9fd2764",
@@ -512,36 +512,6 @@
       "contentHash": "952c81b24b70cfd9fff202215ef660b72d41784c7982070b77a07b419873da25"
     },
     {
-      "id": "src:office_aee688b6da",
-      "url": "https://gsawb.gujarat.gov.in/bhavnagar-district-committee-guj.htm",
-      "title": "ભાવનગર જીલ્લા સમિતિ | જીલ્લા સમિતિ | ગુજરાત રાજ્ય પ્રાણી કલ્યાણ બોર્ડ, ગુજરાત રાજ્ય",
-      "domain": "gsawb.gujarat.gov.in",
-      "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ",
-      "retrievedAt": "2026-08-23",
-      "contentHash": "51aa75257725372779c9aba69f5a51b71cf4868b3cb248ba0a3fd95e43b5a991"
-    },
-    {
-      "id": "src:office_ad8dc02dd3",
-      "url": "https://yatradham.gujarat.gov.in/ContactUS",
-      "title": "ContactUS",
-      "domain": "yatradham.gujarat.gov.in",
-      "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ",
-      "retrievedAt": "2026-08-23",
-      "contentHash": "f34d0ea33ab45c72089cb379a7f9f5d0e5cf69f6834498899f64740dc2251f3b"
-    },
-    {
-      "id": "src:office_33a0726ccd",
-      "url": "https://gsawb.gujarat.gov.in/officers-detail-guj.htm",
-      "title": "અધિકારીઓની વિગતો | ગુજરાત રાજ્ય પ્રાણી કલ્યાણ બોર્ડ, ગુજરાત રાજ્ય",
-      "domain": "gsawb.gujarat.gov.in",
-      "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ",
-      "retrievedAt": "2026-08-23",
-      "contentHash": "50f5ca82ff879e0d4a78f4aefac3d52752d9a8287e7f88f689c9546dc8dde396"
-    },
-    {
       "id": "src:office_3352bf96ce",
       "url": "https://ceiced.gujarat.gov.in/ced",
       "title": "CED | પ્રશ્નોત્તર | ઈ-નાગરિક | મુખ્ય વિદ્યુત નિરીક્ષક <br />અને<br />વિદ્યુત શુલ્ક સમાહર્તા",
@@ -552,14 +522,14 @@
       "contentHash": "643e20574b35dd3df2740008e045322d0fc6c43b7bd04d9941b7ac798307b650"
     },
     {
-      "id": "src:office_f9516e7f1d",
-      "url": "https://gandhinagarmunicipal.com/",
-      "title": "Gandhinagar Municipal Corporation",
-      "domain": "gandhinagarmunicipal.com",
+      "id": "src:office_958a3f7e1c",
+      "url": "https://dppf.gujarat.gov.in/contact",
+      "title": "Directorate of pension and Provident Fund",
+      "domain": "dppf.gujarat.gov.in",
       "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ-GANDHINAGAR",
+      "jurisdictionId": "IN-GJ",
       "retrievedAt": "2026-08-23",
-      "contentHash": "75b7e0aa6dd99115f9e64f3962c79842d34c043e72605751d84473fe28ac42db"
+      "contentHash": "d2e81b9eac9d2969151a4796260d6f664f9d2e487e51e35366aa115bdd14c563"
     },
     {
       "id": "src:office_9e5d76167d",
@@ -602,34 +572,14 @@
       "contentHash": "96285ff75ddae1b3f692594106e5c3ccae61f88aa3e28a0d2ba061e249c993af"
     },
     {
-      "id": "src:office_76f446a80c",
-      "url": "https://hc-ojas.gujarat.gov.in/ContactUs.aspx",
-      "title": "Gujarat High Court (OJAS)",
-      "domain": "hc-ojas.gujarat.gov.in",
+      "id": "src:office_ad8dc02dd3",
+      "url": "https://yatradham.gujarat.gov.in/ContactUS",
+      "title": "ContactUS",
+      "domain": "yatradham.gujarat.gov.in",
       "sourceType": "OFFICE_DIRECTORY",
       "jurisdictionId": "IN-GJ",
       "retrievedAt": "2026-08-23",
-      "contentHash": "5f88c45839a1e29caec15a1be3d2126c1798cd09b32952dff49a0fa7baffc995"
-    },
-    {
-      "id": "src:office_b80293b381",
-      "url": "https://vattribunal.gujarat.gov.in/contact",
-      "title": "Gujarat Value Added Tax Tribunal",
-      "domain": "vattribunal.gujarat.gov.in",
-      "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ",
-      "retrievedAt": "2026-08-23",
-      "contentHash": "790e73c537b37269d0de78f771a2181e3c52b538d941ec79a0d3a9f514cad6c9"
-    },
-    {
-      "id": "src:office_8b7f56a4e5",
-      "url": "https://vattribunal.gujarat.gov.in/tribunaladdress",
-      "title": "Gujarat Value Added Tax Tribunal",
-      "domain": "vattribunal.gujarat.gov.in",
-      "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ",
-      "retrievedAt": "2026-08-23",
-      "contentHash": "1bb96d0e22fd5e5326b83cca441e6a6661ef7305a24bf37674360ee7afcca86e"
+      "contentHash": "f34d0ea33ab45c72089cb379a7f9f5d0e5cf69f6834498899f64740dc2251f3b"
     },
     {
       "id": "src:office_f1258285e7",
@@ -640,6 +590,36 @@
       "jurisdictionId": "IN-GJ",
       "retrievedAt": "2026-08-23",
       "contentHash": "353c9fec33041d4b721da2733a1750d1dd11ce5613e3d976d2e000b171a4cd96"
+    },
+    {
+      "id": "src:office_aabeb54dbe",
+      "url": "https://civilhospitalahd.gujarat.gov.in/administration-services.htm",
+      "title": "Administration Services | Civil Hospital Amdavad",
+      "domain": "civilhospitalahd.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "96677aa350f936c4582dd9c2620882509daa138c5400cf264a7ffaffc26f9b7f"
+    },
+    {
+      "id": "src:office_d537976dd8",
+      "url": "https://civilhospitalahd.gujarat.gov.in/schemes-index.htm",
+      "title": "Schemes | Civil Hospital, Amdavad",
+      "domain": "civilhospitalahd.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "3560c04e59081089d42441c390a5757a8e8b1369389a21f820cfbea6bdc46850"
+    },
+    {
+      "id": "src:office_9616a519a5",
+      "url": "https://civilhospitalahd.gujarat.gov.in/postal-address.htm",
+      "title": "Postal Address | Contact Us | Civil Hospitals, Amdavad",
+      "domain": "civilhospitalahd.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "6d5e32ebf2ad78ad13a03d9fe3939a224211d4de0477fa65559f4393b9edd23f"
     },
     {
       "id": "src:office_5c09d8ef25",
@@ -682,16 +662,6 @@
       "contentHash": "0e99d7de681217e8c99d95207eb0a751e8fd1600057cba8b75028f6049d46e7d"
     },
     {
-      "id": "src:office_41793b6748",
-      "url": "https://mcjamnagar.com/Vendor/Vendor_Registration.aspx",
-      "title": "Jamnagar Municipal Corporation",
-      "domain": "mcjamnagar.com",
-      "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ-JAMNAGAR",
-      "retrievedAt": "2026-08-23",
-      "contentHash": "65cdb02319568fab8ccf74a0e217d4ad85ef1ac0cc7895a5a79ac3c23d70a03d"
-    },
-    {
       "id": "src:office_aaceafe8ef",
       "url": "https://mcjamnagar.com/OnlineServices/pf_certificate.aspx?SID=OSER",
       "title": "Professional Tax",
@@ -712,14 +682,14 @@
       "contentHash": "3370dd489a59f21f8e2badd3a3d1e82b6d2bdab2a70dbebb92c015d6f5c29287"
     },
     {
-      "id": "src:office_63cc0b0322",
-      "url": "https://mcjamnagar.com/Services/Survey_Notice.aspx?SID=SER",
-      "title": "Jamnagar Municipal Corporation",
-      "domain": "mcjamnagar.com",
+      "id": "src:office_f7f3256f90",
+      "url": "https://jamnagar.gujarat.gov.in/showpage.aspx?contentid=390",
+      "title": "નોન ક્રીમીલેયર પ્રમાણપત્ર મેળવવા અંગે અરજી | Certificate | Jan Seva Kendra Form | Collectorate - District Jamnagar",
+      "domain": "jamnagar.gujarat.gov.in",
       "sourceType": "OFFICE_DIRECTORY",
       "jurisdictionId": "IN-GJ-JAMNAGAR",
       "retrievedAt": "2026-08-23",
-      "contentHash": "b4b2e5ff53f569e764bae2d85fe949d60e484a2280c904190ee97fa98c539644"
+      "contentHash": "2111d580da4a24277a987481e2c7cd12b4313668d4caa65d10a7a2669d8f975c"
     },
     {
       "id": "src:office_bf84704556",
@@ -742,6 +712,36 @@
       "contentHash": "4445fd23fb2a35cd23aacb13a4551eeb3fea9508fedd35e1ce38d90ab19a8b62"
     },
     {
+      "id": "src:office_93583ecd39",
+      "url": "https://ahmedabad.gujarat.gov.in/EWS-Certificate-GOG",
+      "title": "આર્થિક રીતે નબળા વર્ગના (EWS) અનામતનો લાભ લેવા માટે પ્રમાણપત્ર મેળવવા બાબત – ગુજરાત સરકાર | Certificate | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
+      "domain": "ahmedabad.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-AHMEDABAD",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "c4fe04481ed680b89ad16377e13d3cd4207371e747111565569542cdd002b362"
+    },
+    {
+      "id": "src:office_195acc27d7",
+      "url": "https://collectorahmedabad.gujarat.gov.in/EWS-Certificate-GOG",
+      "title": "આર્થિક રીતે નબળા વર્ગના (EWS) અનામતનો લાભ લેવા માટે પ્રમાણપત્ર મેળવવા બાબત – ગુજરાત સરકાર | Certificate | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
+      "domain": "collectorahmedabad.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-AHMEDABAD",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "5474be4947a4b49454fc9d0631c29e5947c0dba3e56b5bfc9c002ac0229e1765"
+    },
+    {
+      "id": "src:office_c192f973a3",
+      "url": "https://collectorpatan.gujarat.gov.in/showpage.aspx?contentid=390",
+      "title": "નોન ક્રીમીલેયર પ્રમાણપત્ર મેળવવા અંગે અરજી | Certificate | Jan Seva Kendra form | Collectorate - District Patan",
+      "domain": "collectorpatan.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-PATAN",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "b72591a1fe01f2aa9a533525eccc7d683a16e8002bacc57280c1f0ce0c93edae"
+    },
+    {
       "id": "src:office_98f800794d",
       "url": "https://collectorpanchmahal.gujarat.gov.in/showpage.aspx?contentid=249",
       "title": "રહેઠાણ અંગેનું પ્રમાણપત્ર મેળવવા બાબત | Certificate | Jan Seva Kendra form | Collectorate - District Panchmahal",
@@ -752,6 +752,16 @@
       "contentHash": "d082b44b9b0d9834e78bd28b160d1e6ab11cd0e639c1f132e11e13c45e046a07"
     },
     {
+      "id": "src:office_82f6ec9ce6",
+      "url": "https://kheda.gujarat.gov.in/showpage.aspx?contentid=249",
+      "title": "રહેઠાણ અંગેનું પ્રમાણપત્ર મેળવવા બાબત | Certificate | Jan Seva Kendra form | Collectorate - District Kheda",
+      "domain": "kheda.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-KHEDA",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "e1fc6ce1caf70dc27d6cbc009660fb4b49e67f54038b1d3bbf506677fc819625"
+    },
+    {
       "id": "src:office_4c8bf226b6",
       "url": "https://banaskantha.gujarat.gov.in/showpage.aspx?contentid=253",
       "title": "નકલ માટેની અરજીઓ નિકાલ કરવા બાબત | Revenue | Jan Seva Kendra form | Collectorate - District Banaskantha",
@@ -760,6 +770,16 @@
       "jurisdictionId": "IN-GJ-BANASKANTHA",
       "retrievedAt": "2026-08-23",
       "contentHash": "69e08e6531ea758d8d078d8eaced8b62277268d08a02a83fb4ac8c46d32fcf98"
+    },
+    {
+      "id": "src:office_debe1fb428",
+      "url": "https://collectorsurendranagar.gujarat.gov.in/showpage.aspx?contentid=390",
+      "title": "નોન ક્રીમીલેયર પ્રમાણપત્ર મેળવવા અંગે અરજી | Certificate | Jan Seva Kendra Form | Collectorate - District Surendranagar",
+      "domain": "collectorsurendranagar.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-SURENDRANAGAR",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "dc328517d2d4c16fb3ae999df655402ce9861a46bf3642430fec8060bab9f4a0"
     },
     {
       "id": "src:office_5c9f24f67a",
@@ -780,6 +800,16 @@
       "jurisdictionId": "IN-GJ-GANDHINAGAR",
       "retrievedAt": "2026-08-23",
       "contentHash": "e0c3cf8a748347a3ade93667699b376b3bd1720dfcd6cc49da53642435cdd7dc"
+    },
+    {
+      "id": "src:office_762ee0db36",
+      "url": "https://gandhinagar.gujarat.gov.in/showpage.aspx?contentid=390",
+      "title": "નોન ક્રીમીલેયર પ્રમાણપત્ર મેળવવા અંગે અરજી | Certificate | Jan Seva Kendra form | Collectorate - District Gandhinagar",
+      "domain": "gandhinagar.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-GANDHINAGAR",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "424a92a7358dc5e8411df41a2d7fb4655de29fd43f44197c9c4dfc156af27a3e"
     },
     {
       "id": "src:office_574349fc3d",
@@ -1762,6 +1792,166 @@
       "contentHash": "0d08e9431cca362f31e1cbe0bc7f6e62c96670619dfa1d67dde4f3a7fdebf5b9"
     },
     {
+      "id": "src:office_0cb7294b69",
+      "url": "https://sanman.gujarat.gov.in/EmployeeHome/ViewApplicantionStatus",
+      "title": "Registered Applicant Details - LabourCommissioner",
+      "domain": "sanman.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "37653e8b82bf7fa4ebfd855590435c91a93fe1a0b57b4f16c91967ea4d5d5028"
+    },
+    {
+      "id": "src:office_ad4e223cf7",
+      "url": "https://suratmunicipal.gov.in/Services/ScienceCentre/ScienceCentreHome",
+      "title": "Surat Municipal Corporation - Science Centre",
+      "domain": "suratmunicipal.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-SURAT",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "cc28659d501d4fbe03f7e6b55da71f0d13c107837f35d4dd4b92ee4567c8f30c"
+    },
+    {
+      "id": "src:office_573a226d8b",
+      "url": "https://vmc.gov.in/",
+      "title": "Vadodara Municipal Corporation",
+      "domain": "vmc.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "1ac70682259b712d55ea9770c1d9f312582941a2f7d4881387c81fc267fa0819"
+    },
+    {
+      "id": "src:office_a299a14d50",
+      "url": "https://vmc.gov.in/faqs.aspx",
+      "title": "Vadodara Municipal Corporation",
+      "domain": "vmc.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "ce8a259fd30547263a96c0639d750eb6dd4df1e1872ce73393047cba12071ace"
+    },
+    {
+      "id": "src:office_f9516e7f1d",
+      "url": "https://gandhinagarmunicipal.com/",
+      "title": "Gandhinagar Municipal Corporation",
+      "domain": "gandhinagarmunicipal.com",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-GANDHINAGAR",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "75b7e0aa6dd99115f9e64f3962c79842d34c043e72605751d84473fe28ac42db"
+    },
+    {
+      "id": "src:office_a7adeb5d5f",
+      "url": "https://gandhinagarmunicipal.com/marriage-registration-form",
+      "title": "Marriage Registration Form – Gandhinagar Municipal Corporation",
+      "domain": "gandhinagarmunicipal.com",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-GANDHINAGAR",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "1505f3de57bac295b18e39374d6b0ecb64b3ef9620acb31c688991d0d2eaa4d6"
+    },
+    {
+      "id": "src:office_b896583183",
+      "url": "https://gandhinagarmunicipal.com/birth-death-registration",
+      "title": "Birth & Death Registration – Gandhinagar Municipal Corporation",
+      "domain": "gandhinagarmunicipal.com",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-GANDHINAGAR",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "ed6bc82ee025feb339176b8474b6c5d0ae36d711bd55df94e5f9c46023969d42"
+    },
+    {
+      "id": "src:office_e3e3c3a620",
+      "url": "https://gandhinagarmunicipal.com/contact-form-7-test",
+      "title": "Contact Form 7 Test – Gandhinagar Municipal Corporation",
+      "domain": "gandhinagarmunicipal.com",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-GANDHINAGAR",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "f6e93bac773d7e4fbae8130a4fa974378231ef1193e9db9407b00d394dd69a53"
+    },
+    {
+      "id": "src:office_6f1cc0fbb6",
+      "url": "https://gandhinagarmunicipal.com/marriage-registration",
+      "title": "Marriage Registration – Gandhinagar Municipal Corporation",
+      "domain": "gandhinagarmunicipal.com",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-GANDHINAGAR",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "3c24f80a36e92a5c23db9f1babe03b2feff6a0fdfdc35966f0bdca65727b54f1"
+    },
+    {
+      "id": "src:office_1cc4a3d9a8",
+      "url": "https://gandhinagarmunicipal.com/mp_info_post/birth-death-certificate",
+      "title": "Birth & Death Certificate – Gandhinagar Municipal Corporation",
+      "domain": "gandhinagarmunicipal.com",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-GANDHINAGAR",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "0ba38ae8bba977acd79cf4fabf5ed932e89796b4a74382f24a788e689b1a00b2"
+    },
+    {
+      "id": "src:office_10f2dc2796",
+      "url": "https://bmcgujarat.com/en/external-services/gujarat-gas",
+      "title": "Gujarat Gas | BMC",
+      "domain": "bmcgujarat.com",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "3bac32ea5c812f4080a4d06cf6851cc9c78a613fb1d9d172c2207e51f499f992"
+    },
+    {
+      "id": "src:office_e18a117cb8",
+      "url": "https://bmcgujarat.com/en/external-services/pgvcl",
+      "title": "PGVCL | BMC",
+      "domain": "bmcgujarat.com",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "9663bf8962ba8af467ba6708f8f7f002aaad2af742c759631d19a1c1d40f2952"
+    },
+    {
+      "id": "src:office_f5c067c63c",
+      "url": "https://bmcgujarat.com/guj/external-services/gujarat-gas",
+      "title": "Gujarat Gas | BMC",
+      "domain": "bmcgujarat.com",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "09a779acf6d247752042c24aa0ed146c1e9f3f0bd8c3e586723dc4696c965611"
+    },
+    {
+      "id": "src:office_d12493b4f4",
+      "url": "https://bmcgujarat.com/guj/external-services/pgvcl",
+      "title": "PGVCL | BMC",
+      "domain": "bmcgujarat.com",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "a04374732804b162276f2bba5b3d9f3c4eef4202df5da946c5a729340a76bd48"
+    },
+    {
+      "id": "src:office_41793b6748",
+      "url": "https://mcjamnagar.com/Vendor/Vendor_Registration.aspx",
+      "title": "Jamnagar Municipal Corporation",
+      "domain": "mcjamnagar.com",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-JAMNAGAR",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "65cdb02319568fab8ccf74a0e217d4ad85ef1ac0cc7895a5a79ac3c23d70a03d"
+    },
+    {
+      "id": "src:office_63cc0b0322",
+      "url": "https://mcjamnagar.com/Services/Survey_Notice.aspx?SID=SER",
+      "title": "Jamnagar Municipal Corporation",
+      "domain": "mcjamnagar.com",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ-JAMNAGAR",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "b4b2e5ff53f569e764bae2d85fe949d60e484a2280c904190ee97fa98c539644"
+    },
+    {
       "id": "src:office_8dfb03e8c4",
       "url": "https://www.nhb.org.in/pradhan-mantri-awas-yojana",
       "title": "Pradhan Mantri Awas Yojana - National Housing Bank",
@@ -1812,24 +2002,14 @@
       "contentHash": "6e2b727a11af9e2d43ed487c76192b1fc025648307f700d8a400404ca1089269"
     },
     {
-      "id": "src:office_ad1989e0b0",
-      "url": "https://www.suratmunicipal.gov.in/Corporation/OfficeBearers",
-      "title": "Office Bearers",
-      "domain": "suratmunicipal.gov.in",
+      "id": "src:office_aee688b6da",
+      "url": "https://gsawb.gujarat.gov.in/bhavnagar-district-committee-guj.htm",
+      "title": "ભાવનગર જીલ્લા સમિતિ | જીલ્લા સમિતિ | ગુજરાત રાજ્ય પ્રાણી કલ્યાણ બોર્ડ, ગુજરાત રાજ્ય",
+      "domain": "gsawb.gujarat.gov.in",
       "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ-SURAT",
+      "jurisdictionId": "IN-GJ",
       "retrievedAt": "2026-08-23",
-      "contentHash": "edd1a85d233eff547614b75ccd6ae40e0152eca7582504001191857c85d98756"
-    },
-    {
-      "id": "src:office_4f1c38bae3",
-      "url": "https://vadodaradp.gujarat.gov.in/gu/Family-Welfare-Scheme-Contact-Information",
-      "title": "સંપર્ક ની માહિતી | વડોદરા જિલ્લા પંચાયત",
-      "domain": "vadodaradp.gujarat.gov.in",
-      "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ-VADODARA",
-      "retrievedAt": "2026-08-23",
-      "contentHash": "b0d6c4b48e151a0cf8208e3ddb3984cb2c6c9c55d59d4147cb6495351c12aebe"
+      "contentHash": "51aa75257725372779c9aba69f5a51b71cf4868b3cb248ba0a3fd95e43b5a991"
     },
     {
       "id": "src:office_8f0df12817",
@@ -1842,14 +2022,74 @@
       "contentHash": "508b57e3025672f7c253f948581a305756a5947d8d3fe05bc0798f5aad77c120"
     },
     {
-      "id": "src:office_bfa90e6648",
-      "url": "https://ccd.gujarat.gov.in/contactus-guj.htm",
-      "title": "સંપર્ક | આબોહવા પરિવર્તન વિભાગ, ગુજરાત સરકાર",
-      "domain": "ccd.gujarat.gov.in",
+      "id": "src:office_f022e5a987",
+      "url": "https://comm-tribal.gujarat.gov.in/manav-garima",
+      "title": "Manav Garima | Economic Development | State Level Schemes | Programs and Schemes | Commissionerate of Tribal Development",
+      "domain": "comm-tribal.gujarat.gov.in",
       "sourceType": "OFFICE_DIRECTORY",
       "jurisdictionId": "IN-GJ",
       "retrievedAt": "2026-08-23",
-      "contentHash": "044ce31aaac2035cc068de1c95a43ccccd7cc65261f8b7328b081be5f444f80d"
+      "contentHash": "d61c0b97d4ab6464d631ad310b41bd301b40633127e5b9608e7ae997829c5dfe"
+    },
+    {
+      "id": "src:office_afbf5baccb",
+      "url": "https://tribal.gujarat.gov.in/vanbandhu-kalyan-yojana",
+      "title": "State Initiative | Vanbandhu Kalyan Yojana | Program & Schemes | Tribal Development Department",
+      "domain": "tribal.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "415b0421f88b6674771ca40a699d2e1e3ac595b1bb1071be2253e04009781ad8"
+    },
+    {
+      "id": "src:office_be5bba0be2",
+      "url": "https://adijatinigam.gujarat.gov.in/gtdcloan/Signup/Manage",
+      "title": "Signup | Gujarat Tribal Development Corporation",
+      "domain": "adijatinigam.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "4580ed6e0229c0e0104a404d9fe3c4a0744c79a952ba751813aba9e7cc230c41"
+    },
+    {
+      "id": "src:office_a111acc2c9",
+      "url": "https://comm-tribal.gujarat.gov.in/branches-offices",
+      "title": "Branches & Offices | About Us | Commissionerate of Tribal Development",
+      "domain": "comm-tribal.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "c70cf16a3898914afe02a7afdf146cfee9a87ca88708da73d8fb769c0620c6e1"
+    },
+    {
+      "id": "src:office_31a2bd28e5",
+      "url": "https://comm-tribal.gujarat.gov.in/contact",
+      "title": "Contact | eCitizen | Commissionerate of Tribal Development",
+      "domain": "comm-tribal.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "4b3e01a263bcf348f54c510bc9662d99b88bde608d3d7f3b0286066f887e0b90"
+    },
+    {
+      "id": "src:office_4b793bd825",
+      "url": "https://comm-tribal.gujarat.gov.in/status-of-implementation",
+      "title": "Status of Implementation | Forest Rights Act-2006 | About Us | Commissionerate of Tribal Development",
+      "domain": "comm-tribal.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "b622d6cc8306ac13c4d7a30cc5b24985053cfa58588f2610a5a664802f17055f"
+    },
+    {
+      "id": "src:office_3fda7c81ed",
+      "url": "https://comm-tribal.gujarat.gov.in/sca-to-tsp",
+      "title": "SCA to TSP | Central Government Schemes | Programs and Schemes | Commissionerate of Tribal Development",
+      "domain": "comm-tribal.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "e7bd48ed454feaeb2e995eb038d223006c784c5dd25e5400bfa69a0d3b041526"
     },
     {
       "id": "src:office_cd546491c4",
@@ -1862,14 +2102,14 @@
       "contentHash": "5bc3ac214de6d17ccf2e31dd29796258e04e1f2dc7476d7a26de7bc81b4b449c"
     },
     {
-      "id": "src:office_ad4e223cf7",
-      "url": "https://suratmunicipal.gov.in/Services/ScienceCentre/ScienceCentreHome",
-      "title": "Surat Municipal Corporation - Science Centre",
+      "id": "src:office_ad1989e0b0",
+      "url": "https://www.suratmunicipal.gov.in/Corporation/OfficeBearers",
+      "title": "Office Bearers",
       "domain": "suratmunicipal.gov.in",
       "sourceType": "OFFICE_DIRECTORY",
       "jurisdictionId": "IN-GJ-SURAT",
       "retrievedAt": "2026-08-23",
-      "contentHash": "cc28659d501d4fbe03f7e6b55da71f0d13c107837f35d4dd4b92ee4567c8f30c"
+      "contentHash": "edd1a85d233eff547614b75ccd6ae40e0152eca7582504001191857c85d98756"
     },
     {
       "id": "src:office_86304af7d2",
@@ -1910,36 +2150,6 @@
       "jurisdictionId": "IN-GJ",
       "retrievedAt": "2026-08-23",
       "contentHash": "240627549caeea4ba3032f9d9bd54f3f3d23523a581d55424734cb7a95f305b7"
-    },
-    {
-      "id": "src:office_573a226d8b",
-      "url": "https://vmc.gov.in/",
-      "title": "Vadodara Municipal Corporation",
-      "domain": "vmc.gov.in",
-      "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ",
-      "retrievedAt": "2026-08-23",
-      "contentHash": "1ac70682259b712d55ea9770c1d9f312582941a2f7d4881387c81fc267fa0819"
-    },
-    {
-      "id": "src:office_a299a14d50",
-      "url": "https://vmc.gov.in/faqs.aspx",
-      "title": "Vadodara Municipal Corporation",
-      "domain": "vmc.gov.in",
-      "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ",
-      "retrievedAt": "2026-08-23",
-      "contentHash": "ce8a259fd30547263a96c0639d750eb6dd4df1e1872ce73393047cba12071ace"
-    },
-    {
-      "id": "src:office_75ff5acc4e",
-      "url": "https://collectorjamnagar.gujarat.gov.in/web-information-manager",
-      "title": "Web Information Manager | Collectorate - District Jamnagar",
-      "domain": "collectorjamnagar.gujarat.gov.in",
-      "sourceType": "OFFICE_DIRECTORY",
-      "jurisdictionId": "IN-GJ-JAMNAGAR",
-      "retrievedAt": "2026-08-23",
-      "contentHash": "87cc6cc2ef71cc9f00a521bbb053b03143aad59afa910a521a47fc48980def2a"
     }
   ],
   "nodes": [
@@ -2209,6 +2419,27 @@
       "lastVerifiedAt": "2026-08-23"
     },
     {
+      "id": "office:bank_branch_a317c8",
+      "type": "OFFICE",
+      "name": "Bank Branch",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "officeType": "Bank Branch",
+        "address": "Core 5-A, India Habitat Centre, Lodhi Road, New Delhi-110003"
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_9b851e392f",
+          "evidence": "National Housing Bank,\nCore 5-A, India Habitat Centre,\nLodhi Road, New Delhi-110003",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
       "id": "office:bmc_main_office_635a15",
       "type": "OFFICE",
       "name": "Bmc main office",
@@ -2256,113 +2487,6 @@
       "lastVerifiedAt": "2026-08-23"
     },
     {
-      "id": "office:certificate_jan_seva_kendra_form_collectorate_3411d4",
-      "type": "OFFICE",
-      "name": "નોન ક્રીમીલેયર પ્રમાણપત્ર મેળવવા અંગે અરજી | Certificate | Jan Seva Kendra form | Collectorate",
-      "jurisdictionId": "IN-GJ-GANDHINAGAR",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "officeType": "Jan Seva Kendra",
-        "address": "District Collector & Jilla Seva Sadan Kacheri, Near Pathika Ashram, GH Road, Sector 11, Gandhinagar, Gujarat - 382017"
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_762ee0db36",
-          "evidence": "District Collector Office\nDistrict Collector & Jilla Seva Sadan Kacheri,\nNear Pathika Ashram,\nGH Road, Sector 11,\nGandhinagar,\nGujarat - 382017",
-          "confidence": 0.9,
-          "verificationStatus": "NORMALIZED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:certificate_jan_seva_kendra_form_collectorate_68c0f8",
-      "type": "OFFICE",
-      "name": "નોન ક્રીમીલેયર પ્રમાણપત્ર મેળવવા અંગે અરજી | Certificate | Jan Seva Kendra Form | Collectorate",
-      "jurisdictionId": "IN-GJ-SURENDRANAGAR",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "officeType": "Jan Seva Kendra",
-        "address": "Jan Seva Kendra, Surendranagar Office of The Collector & District Magistrate Police Colony, Surendranagar, Gujarat - 363040"
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_debe1fb428",
-          "evidence": "Application Process Jan Seva Kendra, Surendranagar Office of The Collector & District Magistrate Police Colony, Surendranagar, Gujarat - 363040",
-          "confidence": 0.95,
-          "verificationStatus": "NORMALIZED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:certificate_jan_seva_kendra_form_collectorate_76d8cd",
-      "type": "OFFICE",
-      "name": "નોન ક્રીમીલેયર પ્રમાણપત્ર મેળવવા અંગે અરજી | Certificate | Jan Seva Kendra form | Collectorate",
-      "jurisdictionId": "IN-GJ-PATAN",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "officeType": "Jan Seva Kendra",
-        "address": "District Collector Office, Near North Gujarat University, Patan, Gujarat - 384265",
-        "hours": "8:30 A.M To 5:30 P.M"
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_c192f973a3",
-          "evidence": "Application Process Jan Seva Kendra, Patan District Collector Office Near North Gujarat University, Patan Gujarat - 384265 8:30 A.M To 5:30 P.M",
-          "confidence": 0.95,
-          "verificationStatus": "NORMALIZED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:certificate_jan_seva_kendra_form_collectorate_a08368",
-      "type": "OFFICE",
-      "name": "રહેઠાણ અંગેનું પ્રમાણપત્ર મેળવવા બાબત | Certificate | Jan Seva Kendra form | Collectorate",
-      "jurisdictionId": "IN-GJ-KHEDA",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "officeType": "Jan Seva Kendra",
-        "address": "Ayojan Bhavan Building, Subhash Nagar, Nadiad, Dist : Kheda, Gujarat - 387001"
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_82f6ec9ce6",
-          "evidence": "Jan Seva Kendra, Kheda District Collector Office Ayojan Bhavan Building, Subhash Nagar, Nadiad, Dist : Kheda, Gujarat - 387001",
-          "confidence": 0.95,
-          "verificationStatus": "NORMALIZED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:certificate_jan_seva_kendra_form_collectorate_d13e0c",
-      "type": "OFFICE",
-      "name": "નોન ક્રીમીલેયર પ્રમાણપત્ર મેળવવા અંગે અરજી | Certificate | Jan Seva Kendra Form | Collectorate",
-      "jurisdictionId": "IN-GJ-JAMNAGAR",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "officeType": "Jan Seva Kendra",
-        "address": "Jilla Seva Sadan, Sharu Section Road, Jamnagar, Gujarat - 361002",
-        "hours": "8:30 A.M To 5:30 P.M"
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_f7f3256f90",
-          "evidence": "Application Process\nDistrict Collector Office\nJilla Seva Sadan,\nSharu Section Road,\nJamnagar,\nGujarat - 361002\n8:30 A.M To 5:30 P.M",
-          "confidence": 0.9,
-          "verificationStatus": "NORMALIZED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
       "id": "office:chairman_e79428",
       "type": "OFFICE",
       "name": "Chairman",
@@ -2376,6 +2500,31 @@
         {
           "sourceId": "src:office_775b2a20ef",
           "evidence": "Chairman\nDr. Vinod R. Rao, IAS\n“B” Wing, 5th Floor, Sector 10A, Aranya Bhavan, Gandhinagar",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "office:chief_secretary_e9e28b",
+      "type": "OFFICE",
+      "name": "Chief Secretary",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "phoneNumbers": [
+          "079-23257378"
+        ],
+        "emails": [
+          "secccd@gujarat.gov.in"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_bfa90e6648",
+          "evidence": "સંપર્ક વ્યક્તિ\nશ્રી એસ. જે. હૈદર, આઈએએસ\nમુખ્ય સચિવ\nફોન: ૦૭૯-૨૩૨૫૭૩૭૮\nફેક્સ: ૦૭૯-૨૩૨૫૭૩૭૦\nઇમેઇલ: secccd@gujarat.gov.in",
           "confidence": 1,
           "verificationStatus": "EXTRACTED"
         }
@@ -2467,191 +2616,37 @@
       "lastVerifiedAt": "2026-08-23"
     },
     {
-      "id": "office:collectorate_14f4b7",
+      "id": "office:court_ade411",
       "type": "OFFICE",
-      "name": "Collectorate",
-      "jurisdictionId": "IN-GJ-AMRELI",
+      "name": "Court",
+      "jurisdictionId": "IN-GJ-AHMEDABAD",
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "officeType": "District Collectorate",
-        "phoneNumbers": [
-          "+91 02792 230735",
-          "+91 2792 1077"
+        "officeType": "Court",
+        "address": "2nd Floor, ‘D’ Block, M.S.Building, Lal Darwaja, Ahmedabad-1",
+        "conflictingAddresses": [
+          "21, Shangrila A-2, Nr. Hebtpur Cross Road, Thaltej, Ahmedabad-380059",
+          "C-502, Dev Sangam Apartment, Bhat- Koteshwar Road, Koteshwar, Motera, Ahmedabad",
+          "C-405, Premier Appartment, Opp. Jivabhai Tower, Sandesh Press Road, Lad Society , Bodakdev, Ahmedabad, (M) 9825909348"
         ]
       },
       "sources": [
         {
-          "sourceId": "src:office_e9420311e7",
-          "evidence": "District Emergency Operation Center\nCall +91 02792 230735",
+          "sourceId": "src:office_b80293b381",
+          "evidence": "Gujarat Value Added Tax Tribunal, 2nd Floor, ‘D’ Block, M.S.Building, Lal Darwaja, Ahmedabad-1",
           "confidence": 1,
           "verificationStatus": "NORMALIZED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:collectorate_ed6cba",
-      "type": "OFFICE",
-      "name": "Collectorate",
-      "jurisdictionId": "IN-GJ-GANDHINAGAR",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "officeType": "District Collectorate",
-        "address": "Akshardham Temple, Gandhinagar"
-      },
-      "sources": [
+        },
         {
-          "sourceId": "src:office_7c2d451dfe",
-          "evidence": "District Collector Office, Gandhinagar Akshardham Temple, Gandhinagar",
-          "confidence": 0.95,
-          "verificationStatus": "NORMALIZED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:contacts_collectorate_0c347d",
-      "type": "OFFICE",
-      "name": "Contacts | Collectorate",
-      "jurisdictionId": "IN-GJ-PATAN",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "officeType": "District Collectorate",
-        "address": "Near North Gujarat University, Patan, Gujarat - 384265"
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_f4fa34090a",
-          "evidence": "District Collector Office\nNear North Gujarat University,\nPatan,\nGujarat - 384265",
+          "sourceId": "src:office_8b7f56a4e5",
+          "evidence": "Tribunal Address Gujarat Value Added Tax Tribunal, Multi Storeyed Bldg., 2nd Floor, ‘D’ Block, LalDarwaja, Ahmedabad-1. Gujarat, India.",
           "confidence": 1,
           "verificationStatus": "NORMALIZED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:contacts_collectorate_28ea6a",
-      "type": "OFFICE",
-      "name": "Contacts | Collectorate",
-      "jurisdictionId": "IN-GJ-MEHSANA",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "officeType": "District Collectorate",
-        "address": "Block No.3, MS Building, Rajmahal road, Mehsana, Gujarat - 384001"
-      },
-      "sources": [
+        },
         {
-          "sourceId": "src:office_e8b2f01308",
-          "evidence": "District Collector Office\nBlock No.3, MS Building,\nRajmahal road,\nMehsana,\nGujarat - 384001",
-          "confidence": 1,
-          "verificationStatus": "NORMALIZED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:contacts_collectorate_580467",
-      "type": "OFFICE",
-      "name": "Contacts | Collectorate",
-      "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "officeType": "District Collectorate",
-        "address": "1st Floor, Lalpur Bypass Road, Dharampur, Khambhalia, Gujarat - 361305"
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_892ce8fb70",
-          "evidence": "Contact\nDwarka\nDistrict Collector Office\n1st Floor, Lalpur Bypass Road, Dharampur,\nKhambhalia,\nGujarat - 361305",
-          "confidence": 1,
-          "verificationStatus": "NORMALIZED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:contacts_collectorate_5bd170",
-      "type": "OFFICE",
-      "name": "Contacts | Collectorate",
-      "jurisdictionId": "IN-GJ-NARMADA",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "officeType": "District Collectorate",
-        "address": "Opp. ITI, Kaliya Bhut Temple Road, Rajpipla, Narmada, Gujarat - 393145"
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_3fd040de2e",
-          "evidence": "District Collector Office\nOpp. ITI,\nKaliya Bhut Temple Road,\nRajpipla, Narmada,\nGujarat - 393145",
-          "confidence": 1,
-          "verificationStatus": "NORMALIZED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:contacts_collectorate_9f8373",
-      "type": "OFFICE",
-      "name": "Contacts | Collectorate",
-      "jurisdictionId": "IN-GJ-BOTAD",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "officeType": "District Collectorate",
-        "address": "Jilla Seva Sadan, 1st Floor, Khas Road, Botad - 364710, Gujarat"
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_3efbc11201",
-          "evidence": "Botad\nDistrict Collector Office\nJilla Seva Sadan,\n1st Floor, Khas Road,\nBotad - 364710\nGujarat",
-          "confidence": 1,
-          "verificationStatus": "NORMALIZED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:contacts_collectorate_ad4f53",
-      "type": "OFFICE",
-      "name": "Contacts | Collectorate",
-      "jurisdictionId": "IN-GJ-ANAND",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "officeType": "District Collectorate",
-        "address": "District Seva Sadan, Near Ganesh Chokadi, Anand, Gujarat - 388001"
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_d3945db8e7",
-          "evidence": "Contact\nanand\nDistrict Collector Office\nDistrict Seva Sadan,\nNear Ganesh Chokadi,\nAnand, Gujarat - 388001",
-          "confidence": 1,
-          "verificationStatus": "NORMALIZED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:contacts_collectorate_b70c95",
-      "type": "OFFICE",
-      "name": "Contacts | Collectorate",
-      "jurisdictionId": "IN-GJ-KUTCH",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "officeType": "District Collectorate",
-        "address": "Near Circuit House, Mandvi Road, Nr. Mota Bandh, Bhuj, Gujarat - 370001"
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_6b8abf52fa",
-          "evidence": "District Collector Office\nNear Circuit House, Mandvi Road,\nNr. Mota Bandh,\nBhuj,\nGujarat - 370001",
+          "sourceId": "src:office_76f446a80c",
+          "evidence": "Registrar (Recruitment)\nHigh Court of Gujarat,\nSola, Ahmedabad",
           "confidence": 1,
           "verificationStatus": "NORMALIZED"
         }
@@ -2924,27 +2919,6 @@
       "lastVerifiedAt": "2026-08-23"
     },
     {
-      "id": "office:directorate_of_pension_and_provident_fund_a462b9",
-      "type": "OFFICE",
-      "name": "Directorate of pension and Provident Fund",
-      "jurisdictionId": "IN-GJ-GANDHINAGAR",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "officeType": "EPFO Office",
-        "address": "Block No.18, Dr.Jivraj Mehta Bhavan, Gandhinagar-382010, Gujarat"
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_958a3f7e1c",
-          "evidence": "Directorate of Pension & Provident Fund, Gujarat State\nBlock No.18, Dr.Jivraj Mehta Bhavan, Gandhinagar-382010, Gujarat",
-          "confidence": 1,
-          "verificationStatus": "NORMALIZED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
       "id": "office:directorate_of_tribal_development_f78512",
       "type": "OFFICE",
       "name": "Directorate of tribal development",
@@ -3069,6 +3043,51 @@
       "lastVerifiedAt": "2026-08-23"
     },
     {
+      "id": "office:district_collectorate_4070b5",
+      "type": "OFFICE",
+      "name": "District Collectorate",
+      "jurisdictionId": "IN-GJ-BOTAD",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "officeType": "District Collectorate",
+        "address": "Jilla Seva Sadan, 1st Floor, Khas Road, Botad - 364710, Gujarat"
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_3efbc11201",
+          "evidence": "Botad\nDistrict Collector Office\nJilla Seva Sadan,\n1st Floor, Khas Road,\nBotad - 364710\nGujarat",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "office:district_collectorate_4f6dd5",
+      "type": "OFFICE",
+      "name": "District Collectorate",
+      "jurisdictionId": "IN-GJ-JAMNAGAR",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "officeType": "District Collectorate",
+        "address": "Jilla Seva Sadan, Sharu Section Road, Jamnagar - 361002, Gujarat",
+        "phoneNumbers": [
+          "+91 288 2555869"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_75ff5acc4e",
+          "evidence": "Address : District Collector Office,\nJilla Seva Sadan,\nSharu Section Road,\nJamnagar - 361002, Gujarat",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
       "id": "office:district_collectorate_59e6fe",
       "type": "OFFICE",
       "name": "District collectorate",
@@ -3085,6 +3104,187 @@
           "evidence": "Jan Seva Kendra, District Collectorate is the outcome of the strategic union of technology and positive governance.",
           "confidence": 1,
           "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "office:district_collectorate_6ae253",
+      "type": "OFFICE",
+      "name": "District Collectorate",
+      "jurisdictionId": "IN-GJ-ANAND",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "officeType": "District Collectorate",
+        "address": "District Seva Sadan, Near Ganesh Chokadi, Anand, Gujarat - 388001",
+        "phoneNumbers": [
+          "+91 2692 262271"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_d3945db8e7",
+          "evidence": "Contact\nanand\nDistrict Collector Office\nDistrict Seva Sadan,\nNear Ganesh Chokadi,\nAnand, Gujarat - 388001",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "office:district_collectorate_71b444",
+      "type": "OFFICE",
+      "name": "District Collectorate",
+      "jurisdictionId": "IN-GJ-PATAN",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "officeType": "District Collectorate",
+        "address": "Near North Gujarat University, Patan, Gujarat - 384265",
+        "phoneNumbers": [
+          "+91 2766 233400"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_f4fa34090a",
+          "evidence": "District Collector Office\nNear North Gujarat University,\nPatan,\nGujarat - 384265",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "office:district_collectorate_7d71c4",
+      "type": "OFFICE",
+      "name": "District Collectorate",
+      "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "officeType": "District Collectorate",
+        "address": "1st Floor, Lalpur Bypass Road, Dharampur, Khambhalia, Gujarat - 361305"
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_892ce8fb70",
+          "evidence": "Contact\nDwarka\nDistrict Collector Office\n1st Floor, Lalpur Bypass Road, Dharampur,\nKhambhalia,\nGujarat - 361305",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "office:district_collectorate_bb79be",
+      "type": "OFFICE",
+      "name": "District Collectorate",
+      "jurisdictionId": "IN-GJ-NARMADA",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "officeType": "District Collectorate",
+        "address": "Opp. ITI, Kaliya Bhut Temple Road, Rajpipla, Narmada, Gujarat - 393145"
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_3fd040de2e",
+          "evidence": "District Collector Office\nOpp. ITI,\nKaliya Bhut Temple Road,\nRajpipla, Narmada,\nGujarat - 393145",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "office:district_collectorate_c2d6ed",
+      "type": "OFFICE",
+      "name": "District Collectorate",
+      "jurisdictionId": "IN-GJ-MEHSANA",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "officeType": "District Collectorate",
+        "address": "Block No.3, MS Building, Rajmahal road, Mehsana, Gujarat - 384001",
+        "phoneNumbers": [
+          "+91 2762 222200",
+          "+91 2762 222203"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_e8b2f01308",
+          "evidence": "District Collector Office\nBlock No.3, MS Building,\nRajmahal road,\nMehsana,\nGujarat - 384001",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "office:district_collectorate_dc2ac5",
+      "type": "OFFICE",
+      "name": "District Collectorate",
+      "jurisdictionId": "IN-GJ-KUTCH",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "officeType": "District Collectorate",
+        "address": "Near Circuit House, Mandvi Road, Nr. Mota Bandh, Bhuj, Gujarat - 370001"
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_6b8abf52fa",
+          "evidence": "District Collector Office\nNear Circuit House, Mandvi Road,\nNr. Mota Bandh,\nBhuj,\nGujarat - 370001",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "office:district_collectorate_ec3ecb",
+      "type": "OFFICE",
+      "name": "District Collectorate",
+      "jurisdictionId": "IN-GJ-AMRELI",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "officeType": "District Collectorate",
+        "phoneNumbers": [
+          "+91 02792 230735",
+          "+91 2792 1077"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_e9420311e7",
+          "evidence": "District Emergency Operation Center\nCall +91 02792 230735",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "office:district_collectorate_f0bb33",
+      "type": "OFFICE",
+      "name": "District Collectorate",
+      "jurisdictionId": "IN-GJ-GANDHINAGAR",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "officeType": "District Collectorate",
+        "address": "Akshardham Temple, Gandhinagar"
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_7c2d451dfe",
+          "evidence": "District Collector Office, Gandhinagar Akshardham Temple, Gandhinagar",
+          "confidence": 0.95,
+          "verificationStatus": "NORMALIZED"
         }
       ],
       "lastVerifiedAt": "2026-08-23"
@@ -3125,529 +3325,6 @@
         {
           "sourceId": "src:office_9102a0a8bb",
           "evidence": "નાયબ પશુપાલન નિયામકશ્રીની કચેરી, પશુપાલન શાખા, જિલ્લા પંચાયત, જામનગર",
-          "confidence": 0.95,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_ankitkumar_kiritkumar_patel_d3ea66",
-      "type": "OFFICE",
-      "name": "Dr. Ankitkumar Kiritkumar Patel",
-      "jurisdictionId": "IN-GJ-JAMNAGAR",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "address": "Animal Hospital, near Bus Station, Lalpur, Taluka Lalpur",
-        "phoneNumbers": [
-          "2895-272249"
-        ],
-        "emails": [
-          "vdlalpurvo@gmail.com"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_9102a0a8bb",
-          "evidence": "૭ | ડૉ. અંકિતકુમાર કિરીટકુમાર પટેલ | પશુચિકિત્સા અધિકારી | પશુદવાખાનું, બસ સ્ટેશન પાસે, લાલપુર, તા. લાલપુર | 2895-272249 | vdlalpurvo@gmail.com | 9409346542",
-          "confidence": 0.95,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_atul_bachubhai_patel_8f813c",
-      "type": "OFFICE",
-      "name": "Dr. Atul Bachubhai Patel",
-      "jurisdictionId": "IN-GJ-JAMNAGAR",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "address": "District Panchayat, Cricket Bungalow, Jamnagar",
-        "phoneNumbers": [
-          "0288-2678424"
-        ],
-        "emails": [
-          "dahojamnagar@gmail.com"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_9102a0a8bb",
-          "evidence": "૨ | ડૉ. અતુલ બચુભાઈ પટેલ | મદદનીશ પશુપાલન નિયામક | જિલ્લા પંચાયત, ક્રિકેટ બંગલાની સામે, જામનગર | 0288-2678424 | dahojamnagar@gmail.com | 6351112690",
-          "confidence": 0.95,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_dashrath_bababhai_gurgar_285b5a",
-      "type": "OFFICE",
-      "name": "Dr. Dashrath Bababhai Gurgar",
-      "jurisdictionId": "IN-GJ-JAMNAGAR",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "address": "Animal Hospital, Ashapura Hotel, Sharad Section Road, Jamnagar",
-        "phoneNumbers": [
-          "0288-2552975"
-        ],
-        "emails": [
-          "vetdispensaryjamnagar@gmail.com"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_9102a0a8bb",
-          "evidence": "3 | ડૉ. દશરથ બાબાભાઈ ગુર્જર | પશુચિકિત્સા અધિકારી | પશુદવાખાનું, આશાપુરા હોટલની સામે, શરૂ સેક્શન રોડ, જામનગર | 0288-2552975 | vetdispensaryjamnagar@gmail.com | 9428947237",
-          "confidence": 0.95,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_dhruvulkumar_bhartibhai_patel_829d1a",
-      "type": "OFFICE",
-      "name": "Dr. Dhruvulkumar Bhartibhai Patel",
-      "jurisdictionId": "IN-GJ-JAMNAGAR",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "address": "Animal Hospital, Dhol, Taluka Dhol",
-        "phoneNumbers": [
-          "2897-222129"
-        ],
-        "emails": [
-          "vddhrol@gmail.com"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_9102a0a8bb",
-          "evidence": "૪ | ડૉ. ધ્રુપલકુમાર ભરતભાઈ પટેલ | પશુચિકિત્સા અધિકારી | પશુદવાખાનું, ધ્રોલ, તા. ધ્રોલ | 2897-222129 | vddhrol@gmail.com | 7990388790",
-          "confidence": 0.95,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_girish_goswami_8f326b",
-      "type": "OFFICE",
-      "name": "Dr. Girish Goswami",
-      "jurisdictionId": "IN-GJ",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "emails": [
-          "pd-rsm-bhavnagar@gujarat.gov.in"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_f053cb058a",
-          "evidence": "6 | Dr. Girish Goswami | Project Director, Regional Science Museum, Bhavnagar | pd-rsm-bhavnagar[at]gujarat[dot]gov[dot]in | - |",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_iqbal_mohammadbhai_bhati_b63dc7",
-      "type": "OFFICE",
-      "name": "Dr. Iqbal Mohammadbhai Bhati",
-      "jurisdictionId": "IN-GJ-JAMNAGAR",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "address": "Animal Hospital, opposite Railway Station, Jamjodhpur, Taluka Jamjodhpur",
-        "phoneNumbers": [
-          "2898-220297"
-        ],
-        "emails": [
-          "vdjamjodhpur1@gmail.com"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_9102a0a8bb",
-          "evidence": "૮ | ડૉ. ઇક્બાલ મોહમ્મદભાઈ ભટ્ટી | પશુચિકિત્સા અધિકારી | પશુદવાખાનું, રેલ્વે સ્ટેશનની સામે, જામજોધપુર, તા. જામજોધપુર | 2898-220297 | vdjamjodhpur1@gmail.com | 9624232044",
-          "confidence": 0.95,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_j_v_vasava_30d709",
-      "type": "OFFICE",
-      "name": "Dr. J. V. Vasava",
-      "jurisdictionId": "IN-GJ",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "phoneNumbers": [
-          "02633-260055"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_f40e869ff3",
-          "evidence": "માન સચિવ ( હોદ્દાની રૂએ )\nનામ: ડૉ. જે. વી. વસાવા\nનંબર: ૦૨૬૩૩-૨૬૦૦૫૫",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_kanhaiyalal_nagdhanbhai_khiyaniya_6d8f5b",
-      "type": "OFFICE",
-      "name": "Dr. Kanhaiyalal Nagdhanbhai Khiyaniya",
-      "jurisdictionId": "IN-GJ-JAMNAGAR",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "address": "Animal Hospital, Taluka Panchayat Compound, Jodiya, Taluka Jodiya",
-        "phoneNumbers": [
-          "2893-222077"
-        ],
-        "emails": [
-          "vd.jodiya@gmail.com"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_9102a0a8bb",
-          "evidence": "૫ | ડૉ. કન્હૈયાલાલ નાગદાનભાઈ ખીમાણીયા | પશુચિકિત્સા અધિકારી | પશુદવાખાનું, તાલુકા પંચાયત કમ્પાઉન્ડ, જોડિયા, તા. જોડિયા | 2893-222077 | vd.jodiya@gmail.com | 9277770333",
-          "confidence": 0.95,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_kh_bariya_d5628d",
-      "type": "OFFICE",
-      "name": "Dr. KH Bariya",
-      "jurisdictionId": "IN-GJ",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "phoneNumbers": [
-          "02782-524376"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_aee688b6da",
-          "evidence": "માન સચિવ ( હોદ્દાની રૂએ )\nનામ: ડૉ. કે. એચ. બારીયા\nનંબર: ૦૨૭૮૨-૫૨૪૩૭૬",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_kuldeep_arya_ias_secretary_tourism_fe8e86",
-      "type": "OFFICE",
-      "name": "Dr. Kuldeep Arya, IAS, Secretary (Tourism)",
-      "jurisdictionId": "IN-GJ-GANDHINAGAR",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "address": "Block 5/4, New Sachivalaya, Gandhinagar"
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_ad8dc02dd3",
-          "evidence": "Dr. Kuldeep Arya, IAS\nSecretary\n(Tourism)\nIndustries & Mines Department,\nBlock 5/4,\nNew Sachivalaya,\nGandhinagar.",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_n_b_prajapati_a9d727",
-      "type": "OFFICE",
-      "name": "Dr. N.B. Prajapati",
-      "jurisdictionId": "IN-GJ",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "phoneNumbers": [
-          "079-29651680"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_33a0726ccd",
-          "evidence": "ડૉ.એન.બી.પ્રજાપતિ\nહોદ્દો સંયુક્ત પશુપાલન નિયામક\nફોન નં. ૦૭૯-૨૯૬૫૧૬૮૦\nઇ-મેઇલ jd-gsawb-gnr[at]gujarat[dot]gov[dot]in",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_nehaben_himatlal_bariya_6b96be",
-      "type": "OFFICE",
-      "name": "Dr. Nehaben Himatlal Bariya",
-      "jurisdictionId": "IN-GJ",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "phoneNumbers": [
-          "78198 37006"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_aee688b6da",
-          "evidence": "વેટરનરી ઓફીસર\nનામ: ડૉ. નેહાબેન હિમતલાલ બારિયા\nનંબર: ૭૮૧૯૮ ૩૭૦૦૬",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_payal_pandit_9cc614",
-      "type": "OFFICE",
-      "name": "Dr. Payal Pandit",
-      "jurisdictionId": "IN-GJ",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "phoneNumbers": [
-          "079-23259363"
-        ],
-        "emails": [
-          "so-rd-gujcost@gujarat.gov.in"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_f053cb058a",
-          "evidence": "10 | Dr. Payal Pandit | Scientific Officer (R&D) | so-rd-gujcost[at]gujarat[dot]gov[dot]in | 079-23259363 |",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_poonam_bhargava_302033",
-      "type": "OFFICE",
-      "name": "Dr. Poonam Bhargava",
-      "jurisdictionId": "IN-GJ",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "phoneNumbers": [
-          "079-23259367"
-        ],
-        "emails": [
-          "pso-gujcost@gujarat.gov.in"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_f053cb058a",
-          "evidence": "3 | Dr. Poonam Bhargava | Principal Scientific Officer | pso-gujcost[at]gujarat[dot]gov[dot]in | 079-23259367 |",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_prakashbhai_amritbhai_limbachiya_4d76c0",
-      "type": "OFFICE",
-      "name": "Dr. Prakashbhai Amritbhai Limbachiya",
-      "jurisdictionId": "IN-GJ-JAMNAGAR",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "address": "Animal Hospital, Balambhadi Naka, Kalavad, Taluka Kalavad",
-        "emails": [
-          "vdkalavad@gmail.com"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_9102a0a8bb",
-          "evidence": "૬ | ડૉ. પ્રકાશભાઈ અમૃતભાઈ લિમ્બાચિયા | પશુચિકિત્સા અધિકારી | પશુદવાખાનું, બાલંભડી નાકા, કાલાવડ, તા. કાલાવડ | - | vdkalavad@gmail.com | 9725079289",
-          "confidence": 0.95,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_prashant_jilova_ias_694ae1",
-      "type": "OFFICE",
-      "name": "Dr. Prashant Jilova, IAS",
-      "jurisdictionId": "IN-GJ-PATAN",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "phoneNumbers": [
-          "+91 2766 233400"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_f4fa34090a",
-          "evidence": "Dr. Prashant Jilova, IAS | Collector Patan | +91 2766 233400\ncollector-pat[at]gujarat[dot]gov[dot]in |",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_r_c_parikh_213800",
-      "type": "OFFICE",
-      "name": "Dr. R.C. Parikh",
-      "jurisdictionId": "IN-GJ",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "phoneNumbers": [
-          "079-29651680"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_33a0726ccd",
-          "evidence": "ડૉ.આર.સી.પરીખ\nહોદ્દો પશુચિકિત્સા અધિકારી\nફોન નં. ૦૭૯-૨૯૬૫૧૬૮૦\nઇ-મેઇલ jd-gsawb-gnr[at]gujarat[dot]gov[dot]in",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_s_u_patel_ff7887",
-      "type": "OFFICE",
-      "name": "Dr. S.U. Patel",
-      "jurisdictionId": "IN-GJ",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "phoneNumbers": [
-          "079-29651680"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_33a0726ccd",
-          "evidence": "ડૉ.એસ.યુ.પટેલ\nહોદ્દો મદદનીશ પશુપાલન નિયામક\nફોન નં. ૦૭૯-૨૯૬૫૧૬૮૦\nઇ-મેઇલ jd-gsawb-gnr[at]gujarat[dot]gov[dot]in",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_sumit_vyas_69c4ba",
-      "type": "OFFICE",
-      "name": "Dr. Sumit Vyas",
-      "jurisdictionId": "IN-GJ",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "phoneNumbers": [
-          "0281-2992025"
-        ],
-        "emails": [
-          "pd-rsm-rajkot@gujarat.gov.in"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_f053cb058a",
-          "evidence": "5 | Dr. Sumit Vyas | Project Director, Regional Science Museum, Rajkot | pd-rsm-rajkot[at]gujarat[dot]gov[dot]in | 0281-2992025 |",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_sumitkumar_shashtri_b71553",
-      "type": "OFFICE",
-      "name": "Dr. Sumitkumar Shashtri",
-      "jurisdictionId": "IN-GJ",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "phoneNumbers": [
-          "02766-299200"
-        ],
-        "emails": [
-          "pd-rsm-patan@gujarat.gov.in"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_f053cb058a",
-          "evidence": "7 | Dr. Sumitkumar Shashtri | Project Director, Regional Science Museum, Patan | pd-rsm-patan[at]gujarat[dot]gov[dot]in | 02766-299200 |",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_tanvi_ankurkumar_patel_31e330",
-      "type": "OFFICE",
-      "name": "Dr. Tanvi Ankurkumar Patel",
-      "jurisdictionId": "IN-GJ",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "phoneNumbers": [
-          "97127 25293"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_f40e869ff3",
-          "evidence": "વેટરનરી ઓફીસર\nનામ: ડૉ. તન્વી અંકુરકુમાર પટેલ\nનંબર: ૯૭૧૨૭ ૨૫૨૯૩",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:dr_tejas_bhartibhai_shukla_e4d8b1",
-      "type": "OFFICE",
-      "name": "Dr. Tejas Bhartibhai Shukla",
-      "jurisdictionId": "IN-GJ-JAMNAGAR",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "address": "District Panchayat, Cricket Bungalow, Jamnagar",
-        "phoneNumbers": [
-          "0288-2678424"
-        ],
-        "emails": [
-          "dahojamnagar@gmail.com"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_9102a0a8bb",
-          "evidence": "૧ | ડૉ. તેજસ ભરતભાઈ શુક્લ | નાયબ પશુપાલન નિયામક | જિલ્લા પંચાયત, ક્રિકેટ બંગલાની સામે, જામનગર | 0288-2678424 | dahojamnagar@gmail.com | 9601295016",
           "confidence": 0.95,
           "verificationStatus": "EXTRACTED"
         }
@@ -3717,6 +3394,27 @@
       "lastVerifiedAt": "2026-08-23"
     },
     {
+      "id": "office:epfo_office_2c82f1",
+      "type": "OFFICE",
+      "name": "EPFO Office",
+      "jurisdictionId": "IN-GJ-GANDHINAGAR",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "officeType": "EPFO Office",
+        "address": "Block No.18, Dr.Jivraj Mehta Bhavan, Gandhinagar-382010, Gujarat"
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_958a3f7e1c",
+          "evidence": "Directorate of Pension & Provident Fund, Gujarat State\nBlock No.18, Dr.Jivraj Mehta Bhavan, Gandhinagar-382010, Gujarat",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
       "id": "office:food_civil_supplies_consumer_affairs_department_749833",
       "type": "OFFICE",
       "name": "Food, Civil Supplies & Consumer Affairs Department",
@@ -3745,26 +3443,9 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Municipal Corporation",
-        "address": "Pandit Dindayal Upadhyay Bhavan, Behind Fire Station, Sector-17, Gandhinagar-382016",
-        "phoneNumbers": [
-          "(079) 23284150",
-          "(079) 23221419"
-        ],
-        "emails": [
-          "gmc8gandhinagar@gmail.com",
-          "gmc.gandhinagar@gmail.com"
-        ],
-        "conflictingAddresses": [
-          "Aadhaar Kendra, 2nd Floor, Gandhinagar Municipal Corporation, Opp. Civil Hospital., Gandhinagar, Gujarat - 382007"
-        ]
+        "address": "Aadhaar Kendra, 2nd Floor, Gandhinagar Municipal Corporation, Opp. Civil Hospital., Gandhinagar, Gujarat - 382007"
       },
       "sources": [
-        {
-          "sourceId": "src:office_f9516e7f1d",
-          "evidence": "Phone No. - (079) 23284150",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        },
         {
           "sourceId": "src:office_9e5d76167d",
           "evidence": "SR. NO | ADDRESS | CONTACT PERSON | MOBILE NO. | OPEN TIME | CLOSING TIME | HOLIDAYS | 1 | Aadhaar Kendra, 2nd Floor, Gandhinagar Municipal Corporation, Opp. Civil Hospital., Gandhinagar, Gujarat - 382007",
@@ -3844,27 +3525,6 @@
       "lastVerifiedAt": "2026-08-23"
     },
     {
-      "id": "office:gujarat_high_court_ojas_cb7ddb",
-      "type": "OFFICE",
-      "name": "Gujarat High Court (OJAS)",
-      "jurisdictionId": "IN-GJ-AHMEDABAD",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "officeType": "Court",
-        "address": "High Court of Gujarat, Sola, Ahmedabad"
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_76f446a80c",
-          "evidence": "Registrar (Recruitment)\nHigh Court of Gujarat,\nSola, Ahmedabad",
-          "confidence": 1,
-          "verificationStatus": "NORMALIZED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
       "id": "office:gujarat_labour_welfare_board_3f49b2",
       "type": "OFFICE",
       "name": "Gujarat Labour Welfare Board",
@@ -3928,38 +3588,6 @@
       "lastVerifiedAt": "2026-08-23"
     },
     {
-      "id": "office:gujarat_value_added_tax_tribunal_e7b2b7",
-      "type": "OFFICE",
-      "name": "Gujarat Value Added Tax Tribunal",
-      "jurisdictionId": "IN-GJ-AHMEDABAD",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "officeType": "Court",
-        "address": "2nd Floor, ‘D’ Block, M.S.Building, Lal Darwaja, Ahmedabad-1",
-        "conflictingAddresses": [
-          "21, Shangrila A-2, Nr. Hebtpur Cross Road, Thaltej, Ahmedabad-380059",
-          "C-502, Dev Sangam Apartment, Bhat- Koteshwar Road, Koteshwar, Motera, Ahmedabad",
-          "C-405, Premier Appartment, Opp. Jivabhai Tower, Sandesh Press Road, Lad Society , Bodakdev, Ahmedabad, (M) 9825909348"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_b80293b381",
-          "evidence": "Gujarat Value Added Tax Tribunal, 2nd Floor, ‘D’ Block, M.S.Building, Lal Darwaja, Ahmedabad-1",
-          "confidence": 1,
-          "verificationStatus": "NORMALIZED"
-        },
-        {
-          "sourceId": "src:office_8b7f56a4e5",
-          "evidence": "Tribunal Address Gujarat Value Added Tax Tribunal, Multi Storeyed Bldg., 2nd Floor, ‘D’ Block, LalDarwaja, Ahmedabad-1. Gujarat, India.",
-          "confidence": 1,
-          "verificationStatus": "NORMALIZED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
       "id": "office:gujarat_water_infrastructure_limited_ab95b2",
       "type": "OFFICE",
       "name": "Gujarat Water Infrastructure Limited",
@@ -3975,6 +3603,63 @@
           "evidence": "Gujarat Water Infrastructure Limited (GWIL) is a registered company of Govt. of Gujarat. The registered office is situated in Gandhinagar in the state of Gujarat.",
           "confidence": 1,
           "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "office:health_facility_8fb530",
+      "type": "OFFICE",
+      "name": "Health Facility",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "emails": [
+          "ms.health.ahmedabad.civil@gmail.com"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_aabeb54dbe",
+          "evidence": "ms[dot]health[dot]ahmedabad[dot]civil[at]gmail[dot]com",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "office:health_facility_d8bb59",
+      "type": "OFFICE",
+      "name": "Health Facility",
+      "jurisdictionId": "IN-GJ-AHMEDABAD",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "address": "“O” block, 1st Floor, Office of the Medical Superintendent, WCSH Building, Civil Hospital, Asarwa, Ahmedabad-380016.",
+        "conflictingAddresses": [
+          "'O' block, 1st Floor, Office of the Medical Superintendent, WCSH Building, Civil Hospital, Asarwa, Ahmedabad-380016."
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_aabeb54dbe",
+          "evidence": "“O” block, 1st Floor, Office of the Medical Superintendent, WCSH Building, Civil Hospital, Asarwa, Ahmedabad-380016.",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        },
+        {
+          "sourceId": "src:office_d537976dd8",
+          "evidence": "“O” block, 1st Floor, Office of the Medical Superintendent, WCSH Building, Civil Hospital, Asarwa, Ahmedabad-380016.",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        },
+        {
+          "sourceId": "src:office_9616a519a5",
+          "evidence": "Civil Hospital Ahmedabad\n“O” block, 1st Floor, Office of the Medical Superintendent, WCSH Building, Civil Hospital, Asarwa, Ahmedabad-380016.",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
         }
       ],
       "lastVerifiedAt": "2026-08-23"
@@ -4186,26 +3871,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Municipal Corporation",
-        "address": "Jamnagar Municipal Corporation, Jubilee Garden, Jamnagar",
+        "address": "Jubilee Garden, Jamnagar",
         "phoneNumbers": [
-          "(0288) - 2550231 - 235",
-          "1800 233 0131"
+          "(0288) - 2550231 - 235"
         ],
         "emails": [
           "mcjamnagar@gmail.com",
           "feedback.jmc@gmail.com"
         ],
         "conflictingAddresses": [
-          "Jubilee Garden, Jamnagar"
+          "Jamnagar Municipal Corporation, Jubilee Garden, Jamnagar"
         ]
       },
       "sources": [
-        {
-          "sourceId": "src:office_41793b6748",
-          "evidence": "Email : mcjamnagar@gmail.com",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        },
         {
           "sourceId": "src:office_aaceafe8ef",
           "evidence": "Email : mcjamnagar@gmail.com",
@@ -4217,12 +3895,28 @@
           "evidence": "Address:\nJamnagar Municipal Corporation,\nJubilee Garden, Jamnagar |\nPhone:\n(0288) - 2550231 - 235\nToll Free: 1800 233 0131\nEmail : mcjamnagar@gmail.com",
           "confidence": 0.95,
           "verificationStatus": "EXTRACTED"
-        },
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "office:jan_seva_kendra_11081a",
+      "type": "OFFICE",
+      "name": "Jan Seva Kendra",
+      "jurisdictionId": "IN-GJ-JAMNAGAR",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "officeType": "Jan Seva Kendra",
+        "address": "Jilla Seva Sadan, Sharu Section Road, Jamnagar, Gujarat - 361002",
+        "hours": "8:30 A.M To 5:30 P.M"
+      },
+      "sources": [
         {
-          "sourceId": "src:office_63cc0b0322",
-          "evidence": "Phone:\n(0288) - 2550231 - 235",
-          "confidence": 0.95,
-          "verificationStatus": "EXTRACTED"
+          "sourceId": "src:office_f7f3256f90",
+          "evidence": "Application Process\nDistrict Collector Office\nJilla Seva Sadan,\nSharu Section Road,\nJamnagar,\nGujarat - 361002\n8:30 A.M To 5:30 P.M",
+          "confidence": 0.9,
+          "verificationStatus": "NORMALIZED"
         }
       ],
       "lastVerifiedAt": "2026-08-23"
@@ -4257,7 +3951,10 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
-        "address": "Office of The Collector & District Magistrate, Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027"
+        "address": "Office of The Collector & District Magistrate, Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027",
+        "conflictingAddresses": [
+          "Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027"
+        ]
       },
       "sources": [
         {
@@ -4265,6 +3962,40 @@
           "evidence": "Application Process\nJan Seva Kendra Ahmedabad\nOffice of The Collector & District Magistrate\nNear Subhash Bridge Circle,\nR.T.O Ashram Rd, Hridaya Kunj,\nOld Wadaj, Ahmedabad,\nGujarat - 380027",
           "confidence": 0.95,
           "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:office_93583ecd39",
+          "evidence": "Office of The Collector & District Magistrate\nNear Subhash Bridge Circle,\nR.T.O Ashram Rd, Hridaya Kunj,\nOld Wadaj, Ahmedabad,\nGujarat - 380027",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:office_195acc27d7",
+          "evidence": "Jan Seva Kendra Ahmedabad Office of The Collector & District Magistrate Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "office:jan_seva_kendra_454ac7",
+      "type": "OFFICE",
+      "name": "Jan Seva Kendra",
+      "jurisdictionId": "IN-GJ-PATAN",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "officeType": "Jan Seva Kendra",
+        "address": "District Collector Office, Near North Gujarat University, Patan, Gujarat - 384265",
+        "hours": "8:30 A.M To 5:30 P.M"
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_c192f973a3",
+          "evidence": "Application Process Jan Seva Kendra, Patan District Collector Office Near North Gujarat University, Patan Gujarat - 384265 8:30 A.M To 5:30 P.M",
+          "confidence": 0.95,
+          "verificationStatus": "NORMALIZED"
         }
       ],
       "lastVerifiedAt": "2026-08-23"
@@ -4292,6 +4023,27 @@
       "lastVerifiedAt": "2026-08-23"
     },
     {
+      "id": "office:jan_seva_kendra_71a56e",
+      "type": "OFFICE",
+      "name": "Jan Seva Kendra",
+      "jurisdictionId": "IN-GJ-KHEDA",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "officeType": "Jan Seva Kendra",
+        "address": "Ayojan Bhavan Building, Subhash Nagar, Nadiad, Dist : Kheda, Gujarat - 387001"
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_82f6ec9ce6",
+          "evidence": "Jan Seva Kendra, Kheda District Collector Office Ayojan Bhavan Building, Subhash Nagar, Nadiad, Dist : Kheda, Gujarat - 387001",
+          "confidence": 0.95,
+          "verificationStatus": "NORMALIZED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
       "id": "office:jan_seva_kendra_72704f",
       "type": "OFFICE",
       "name": "Jan seva kendra",
@@ -4314,6 +4066,27 @@
       "lastVerifiedAt": "2026-08-23"
     },
     {
+      "id": "office:jan_seva_kendra_72f4ef",
+      "type": "OFFICE",
+      "name": "Jan Seva Kendra",
+      "jurisdictionId": "IN-GJ-SURENDRANAGAR",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "officeType": "Jan Seva Kendra",
+        "address": "Jan Seva Kendra, Surendranagar Office of The Collector & District Magistrate Police Colony, Surendranagar, Gujarat - 363040"
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_debe1fb428",
+          "evidence": "Application Process Jan Seva Kendra, Surendranagar Office of The Collector & District Magistrate Police Colony, Surendranagar, Gujarat - 363040",
+          "confidence": 0.95,
+          "verificationStatus": "NORMALIZED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
       "id": "office:jan_seva_kendra_7954c4",
       "type": "OFFICE",
       "name": "Jan seva kendra",
@@ -4323,7 +4096,10 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, District Collector & Jilla Seva Sadan Kacheri, Near Pathika Ashram, GH Road, Sector 11, Gandhinagar, Gujarat - 382017",
-        "hours": "10:30 A.M To 6:10 P.M"
+        "hours": "10:30 A.M To 6:10 P.M",
+        "conflictingAddresses": [
+          "District Collector & Jilla Seva Sadan Kacheri, Near Pathika Ashram, GH Road, Sector 11, Gandhinagar, Gujarat - 382017"
+        ]
       },
       "sources": [
         {
@@ -4336,6 +4112,12 @@
           "sourceId": "src:office_00c45e7162",
           "evidence": "Application Process Jan Seva Kendra, Gandhinagar District Collector Office District Collector & Jilla Seva Sadan Kacheri, Near Pathika Ashram, GH Road, Sector 11, Gandhinagar, Gujarat - 382017 10:30 A.M To 6:10 P.M",
           "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:office_762ee0db36",
+          "evidence": "District Collector Office\nDistrict Collector & Jilla Seva Sadan Kacheri,\nNear Pathika Ashram,\nGH Road, Sector 11,\nGandhinagar,\nGujarat - 382017",
+          "confidence": 0.9,
           "verificationStatus": "EXTRACTED"
         }
       ],
@@ -5576,6 +5358,31 @@
       "lastVerifiedAt": "2026-08-23"
     },
     {
+      "id": "office:joint_secretary_i_58f5b5",
+      "type": "OFFICE",
+      "name": "Joint Secretary (I)",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "phoneNumbers": [
+          "079-23257373"
+        ],
+        "emails": [
+          "ds-ccd@gujarat.gov.in"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_bfa90e6648",
+          "evidence": "શ્રી મુકેશ જે. શાહ\nસંયુક્ત સચિવ (ઇ)\nફોનઃ ૦૭૯-૨૩૨૫૭૩૭૩\nફેકસઃ ૦૭૯-૨૩૨૫૭૩૭૪\nઇમેઇલ: ds-ccd@gujarat.gov.in",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
       "id": "office:jt_director_industrial_safety_and_health_vadodara_region_366983",
       "type": "OFFICE",
       "name": "Jt. Director Industrial Safety And Health Vadodara Region",
@@ -5618,6 +5425,33 @@
       "lastVerifiedAt": "2026-08-23"
     },
     {
+      "id": "office:labour_office_851120",
+      "type": "OFFICE",
+      "name": "Labour Office",
+      "jurisdictionId": "IN-GJ-GANDHINAGAR",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "officeType": "Labour Office",
+        "address": "2nd Floor , Block-15, Udhyog Bhavan , Sector - 11, Gandhinagar – 382011",
+        "phoneNumbers": [
+          "+1 5589 55488 55"
+        ],
+        "emails": [
+          "info@example.com"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_0cb7294b69",
+          "evidence": "2nd Floor , Block-15,\nUdhyog Bhavan , Sector - 11,\nGandhinagar – 382011\nPhone: +1 5589 55488 55\nEmail: info@example.com",
+          "confidence": 0.95,
+          "verificationStatus": "NORMALIZED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
       "id": "office:member_secretary_d41e48",
       "type": "OFFICE",
       "name": "Member Secretary",
@@ -5638,159 +5472,204 @@
       "lastVerifiedAt": "2026-08-23"
     },
     {
-      "id": "office:mr_k_h_vaghela_c853bc",
+      "id": "office:municipal_corporation_163dd9",
       "type": "OFFICE",
-      "name": "Mr. K.H. Vaghela",
-      "jurisdictionId": "IN-GJ",
+      "name": "Municipal Corporation",
+      "jurisdictionId": "IN-GJ-SURAT",
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "phoneNumbers": [
-          "079-29651680"
-        ]
+        "officeType": "Municipal Corporation",
+        "address": "City Light Road, Surat – 395 007"
       },
       "sources": [
         {
-          "sourceId": "src:office_33a0726ccd",
-          "evidence": "શ્રી કે.એચ.વાઘેલા\nહોદ્દો પશુધન નિરીક્ષક (આંતરિક વ્યવસ્થા)\nફોન નં. ૦૭૯-૨૯૬૫૧૬૮૦\nઇ-મેઇલ jd-gsawb-gnr[at]gujarat[dot]gov[dot]in",
+          "sourceId": "src:office_ad4e223cf7",
+          "evidence": "Science centre, City Light Road, Surat – 395 007",
           "confidence": 1,
-          "verificationStatus": "EXTRACTED"
+          "verificationStatus": "NORMALIZED"
         }
       ],
       "lastVerifiedAt": "2026-08-23"
     },
     {
-      "id": "office:mr_m_n_viratiya_8d731a",
+      "id": "office:municipal_corporation_3154f5",
       "type": "OFFICE",
-      "name": "Mr. M.N. Viratiya",
-      "jurisdictionId": "IN-GJ",
+      "name": "Municipal Corporation",
+      "jurisdictionId": "IN-GJ-VADODARA",
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
+        "officeType": "Municipal Corporation",
+        "address": "Khanderao Market, Vadodara-390001.",
         "phoneNumbers": [
-          "079-29651680"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_33a0726ccd",
-          "evidence": "શ્રી એમ.એન.વિરતીયા\nહોદ્દો જુનિ. કારકુન\nફોન નં. ૦૭૯-૨૯૬૫૧૬૮૦\nઇ-મેઇલ jd-gsawb-gnr[at]gujarat[dot]gov[dot]in",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:mr_nilesh_harilal_raychura_366b46",
-      "type": "OFFICE",
-      "name": "Mr. Nilesh Harilal Raychura",
-      "jurisdictionId": "IN-GJ",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "phoneNumbers": [
-          "98250 55221"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_f40e869ff3",
-          "evidence": "ઓથોરાઇઝ પર્સન\nનામ: શ્રી નિલેશ હરીલાલ રાયચુરા\nનંબર: ૯૮૨૫૦ ૫૫૨૨૧",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:mr_pavit_bhaveshkumar_shah_19bd86",
-      "type": "OFFICE",
-      "name": "Mr. Pavit Bhaveshkumar Shah",
-      "jurisdictionId": "IN-GJ",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "phoneNumbers": [
-          "079-23259364"
+          "1800-233-0265"
         ],
         "emails": [
-          "so-sp-gujcost@gujarat.gov.in"
+          "notification@vmc.gov.in"
+        ],
+        "conflictingAddresses": [
+          "Vadodara Municipal Corporation, Khanderao Market, Vadodara-390001."
         ]
       },
       "sources": [
         {
-          "sourceId": "src:office_f053cb058a",
-          "evidence": "11 | Mr. Pavit Bhaveshkumar Shah | Scientific Officer (SP) | so-sp-gujcost[at]gujarat[dot]gov[dot]in | 079-23259364 |",
+          "sourceId": "src:office_573a226d8b",
+          "evidence": "Vadodara Municipal Corporation,\nKhanderao Market, Vadodara-390001.",
           "confidence": 1,
-          "verificationStatus": "EXTRACTED"
+          "verificationStatus": "NORMALIZED"
+        },
+        {
+          "sourceId": "src:office_a299a14d50",
+          "evidence": "1800-233-0265 WhatsApp No. +91 99131-66666 Vadodara Municipal Corporation, Khanderao Market, Vadodara-390001. notification@vmc.gov.in",
+          "confidence": 0.95,
+          "verificationStatus": "NORMALIZED"
         }
       ],
       "lastVerifiedAt": "2026-08-23"
     },
     {
-      "id": "office:mr_ramesh_merja_ias_r_member_secretary_gujarat_pavitra_yatra_f1ad64",
+      "id": "office:municipal_corporation_a74e90",
       "type": "OFFICE",
-      "name": "Mr. Ramesh Merja, IAS (R), Member Secretary (Gujarat Pavitra Yatradham Vikas Board)",
+      "name": "Municipal Corporation",
       "jurisdictionId": "IN-GJ-GANDHINAGAR",
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "address": "Block 3/1, Dr Jivraj Mehta Bhavan, Gandhinagar"
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_ad8dc02dd3",
-          "evidence": "Mr. Ramesh Merja, IAS (R)\nMember Secretary\n(Gujarat Pavitra Yatradham Vikas Board)\nBlock 3/1,\nDr Jivraj Mehta Bhavan,\nGandhinagar.",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:mr_vatsal_tanna_29498b",
-      "type": "OFFICE",
-      "name": "Mr. Vatsal Tanna",
-      "jurisdictionId": "IN-GJ",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
+        "officeType": "Municipal Corporation",
+        "address": "Pandit Dindayal Upadhyay Bhavan, Behind Fire Station, Sector-17, Gandhinagar-382016",
         "phoneNumbers": [
-          "079-23259366"
+          "(079) 23284150",
+          "(079) 23221419"
         ],
         "emails": [
-          "ao-gujcost-gnr@gujarat.gov.in"
+          "gmc8gandhinagar@gmail.com",
+          "gmc.gandhinagar@gmail.com",
+          "municomm-gmc-gnr@gujarat.gov.in",
+          "dycommi-gmc-gnr@gujarat.gov.in"
+        ],
+        "conflictingAddresses": [
+          "Ma Amrutam Yojana,Ground floor,Gandhinagar Municipal Corporation,Opp.Civil Hospital,Gandhinagar,Gujarat-382007",
+          "Pandit Dindayal Upadhyay Bhavan, Behind Fire Station, Sector- 17, Gandhinagar Pincode – 382016."
         ]
       },
       "sources": [
         {
-          "sourceId": "src:office_f053cb058a",
-          "evidence": "9 | Mr. Vatsal Tanna | Administrative Officer | ao-gujcost-gnr[at]gujarat[dot]gov[dot]in | 079-23259366 |",
+          "sourceId": "src:office_f9516e7f1d",
+          "evidence": "Phone No. - (079) 23284150",
           "confidence": 1,
-          "verificationStatus": "EXTRACTED"
+          "verificationStatus": "NORMALIZED"
+        },
+        {
+          "sourceId": "src:office_a7adeb5d5f",
+          "evidence": "E-mail - gmc8gandhinagar[at]gmail[dot]com",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        },
+        {
+          "sourceId": "src:office_b896583183",
+          "evidence": "Gandhinagar Municipal Corporation\nPandit Dindayal Upadhyay Bhavan,\nBehind Fire Station,\nSector-17, Gandhinagar-382016",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        },
+        {
+          "sourceId": "src:office_e3e3c3a620",
+          "evidence": "Gandhinagar Municipal Corporation\nPandit Dindayal Upadhyay Bhavan,\nBehind Fire Station,\nSector-17, Gandhinagar-382016",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        },
+        {
+          "sourceId": "src:office_6f1cc0fbb6",
+          "evidence": "E-mail - gmc8gandhinagar[at]gmail[dot]com",
+          "confidence": 0.9,
+          "verificationStatus": "NORMALIZED"
+        },
+        {
+          "sourceId": "src:office_1cc4a3d9a8",
+          "evidence": "Gandhinagar Municipal Corporation\nPandit Dindayal Upadhyay Bhavan,\nBehind Fire Station,\nSector-17, Gandhinagar-382016",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
         }
       ],
       "lastVerifiedAt": "2026-08-23"
     },
     {
-      "id": "office:mr_vipul_d_parmar_cb5350",
+      "id": "office:municipal_corporation_cbc55b",
       "type": "OFFICE",
-      "name": "Mr. Vipul D Parmar",
-      "jurisdictionId": "IN-GJ",
+      "name": "Municipal Corporation",
+      "jurisdictionId": "IN-GJ-BHAVNAGAR",
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "emails": [
-          "pd-rsm-bhuj@gujarat.gov.in"
+        "officeType": "Municipal Corporation",
+        "address": "Bhavnagar Mahanagar Seva Sadan, Sir Mangal Sinhji Road, Near Kalanala, Bhavnagar, Gujarat - 364001",
+        "conflictingAddresses": [
+          "Bhavnagar Mahanagar Sewa Sadan, Sir Mangal Singhji Road, near Kallanala, Bhavnagar, Gujarat - 364001",
+          "Bhavnagar Mahanagar Sewa Sadan, Sir Mangal Singhji Road, near Kalanala, Bhavnagar, Gujarat - 364001"
         ]
       },
       "sources": [
         {
-          "sourceId": "src:office_f053cb058a",
-          "evidence": "8 | Mr. VIRAL D PARMAR | Project Director,Regional Science Centre,Bhuj | pd-rsm-bhuj[at]gujarat[dot]gov[dot]in | --- |",
+          "sourceId": "src:office_10f2dc2796",
+          "evidence": "Head Office\nBhavnagar Mahanagar Seva Sadan, Sir Mangal Sinhji Road, Near Kalanala, Bhavnagar, Gujarat - 364001",
           "confidence": 1,
-          "verificationStatus": "EXTRACTED"
+          "verificationStatus": "NORMALIZED"
+        },
+        {
+          "sourceId": "src:office_e18a117cb8",
+          "evidence": "Head Office\nBhavnagar Mahanagar Seva Sadan, Sir Mangal Sinhji Road, Near Kalanala, Bhavnagar, Gujarat - 364001",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        },
+        {
+          "sourceId": "src:office_f5c067c63c",
+          "evidence": "મુખ્ય કાર્યાલય\nભાવનગર મહાનગર સેવા સદન, સર મંગલ સિંહજી રોડ, કલાનાલા પાસે, ભાવનગર, ગુજરાત - ૩૬૪૦૦૧",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        },
+        {
+          "sourceId": "src:office_d12493b4f4",
+          "evidence": "મુખ્ય કાર્યાલય\nભાવનગર મહાનગર સેવા સદન, સર મંગલ સિંહજી રોડ, કલાનાલા પાસે, ભાવનગર, ગુજરાત - ૩૬૪૦૦૧",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "office:municipal_corporation_e423a6",
+      "type": "OFFICE",
+      "name": "Municipal Corporation",
+      "jurisdictionId": "IN-GJ-JAMNAGAR",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "machineExtracted": true,
+        "officeType": "Municipal Corporation",
+        "address": "Jamnagar Municipal Corporation, Jubilee Garden, Jamnagar",
+        "phoneNumbers": [
+          "(0288) - 2550231 - 235",
+          "1800 233 0131"
+        ],
+        "emails": [
+          "mcjamnagar@gmail.com",
+          "feedback.jmc@gmail.com"
+        ],
+        "conflictingAddresses": [
+          "Jubilee Garden, Jamnagar"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:office_41793b6748",
+          "evidence": "Email : mcjamnagar@gmail.com",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        },
+        {
+          "sourceId": "src:office_63cc0b0322",
+          "evidence": "Phone:\n(0288) - 2550231 - 235",
+          "confidence": 0.95,
+          "verificationStatus": "NORMALIZED"
         }
       ],
       "lastVerifiedAt": "2026-08-23"
@@ -5953,185 +5832,6 @@
       "lastVerifiedAt": "2026-08-23"
     },
     {
-      "id": "office:shri_digvijaysinh_jadeja_ias_5a3c2d",
-      "type": "OFFICE",
-      "name": "Shri Digvijaysinh Jadeja, IAS",
-      "jurisdictionId": "IN-GJ",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "phoneNumbers": [
-          "079-23259368"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_f053cb058a",
-          "evidence": "1 | Shri Digvijaysinh Jadeja, IAS | Director General | - | 079-23259368 |",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:shri_j_k_jegoda_349ca5",
-      "type": "OFFICE",
-      "name": "Shri J. K. Jegoda",
-      "jurisdictionId": "IN-GJ-MEHSANA",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "phoneNumbers": [
-          "+91 2762 222203"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_e8b2f01308",
-          "evidence": "Shri J. K. Jegoda | Resident Addi. Collector | +91 2762 222203\nAdd-collector-meh[at]gujarat[dot]gov[dot]in",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:shri_praveen_chaudhary_ias_dc1f0d",
-      "type": "OFFICE",
-      "name": "Shri Praveen Chaudhary, IAS",
-      "jurisdictionId": "IN-GJ-ANAND",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "phoneNumbers": [
-          "+91 2692 262271"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_d3945db8e7",
-          "evidence": "Name | Designation | Contact |\nShri Praveen Chaudhary, IAS | Collector Anand | +91 2692 262271\ncollector-and[at]gujarat[dot]gov[dot]in |",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:shri_rajan_bakulbhai_patel_b3c863",
-      "type": "OFFICE",
-      "name": "Shri Rajan Bakulbhai Patel",
-      "jurisdictionId": "IN-GJ-SURAT",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "address": "3-56, Ambaji Chakla, Rander Village, Surat.",
-        "phoneNumbers": [
-          "9825534488"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_ad1989e0b0",
-          "evidence": "Standing Committee Chairman\nShri Rajan Bakulbhai Patel\nWard: Rander-Jahangirabad-Palanpur\nResidential Address: 3-56, Ambaji Chakla, Rander Village, Surat.\nMobile: 9825534488",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:shri_s_k_prajapati_ias_593bb6",
-      "type": "OFFICE",
-      "name": "Shri S. K. Prajapati, IAS",
-      "jurisdictionId": "IN-GJ-MEHSANA",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "phoneNumbers": [
-          "+91 2762 222200"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_e8b2f01308",
-          "evidence": "Shri S. K. Prajapati, IAS | Collector, Mehsana | +91 2762 222200\ncollector-meh[at]gujarat[dot]gov[dot]in",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:shri_sudhakar_lotanbhai_chaudhari_9b1535",
-      "type": "OFFICE",
-      "name": "Shri Sudhakar Lotanbhai Chaudhari",
-      "jurisdictionId": "IN-GJ-SURAT",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "address": "Plot No.23, Govardhan Nagar-2, Navagam-Dindoli Road, Surat- 394210.",
-        "phoneNumbers": [
-          "9879043175"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_ad1989e0b0",
-          "evidence": "Deputy Mayor\nShri Sudhakar Lotanbhai Chaudhari\nWard: Dindoli(South)\nResidential Address: Plot No.23, Govardhan Nagar-2, Navagam-Dindoli Road, Surat- 394210.\nMobile: 9879043175",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:shri_u_v_tilawat_58962c",
-      "type": "OFFICE",
-      "name": "Shri U.V. Tilawat",
-      "jurisdictionId": "IN-GJ-VADODARA",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "address": "District Panchayat, Vadodara",
-        "phoneNumbers": [
-          "0265 2434457"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_4f1c38bae3",
-          "evidence": "અ.નં. | નામ | હોદો | સરનામું | ફોન નંબર | (૧) | શ્રી યુ.વી.ટીલાવત | અધિક જીલ્લા આરોગ્ય અધિકારીશ્રી | જિલ્લા પંચાયત-વડોદરા | ૦૨૬૫ ૨૪૩૪૪૫૭ |",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:shri_v_c_bodana_418bbf",
-      "type": "OFFICE",
-      "name": "Shri V. C. Bodana",
-      "jurisdictionId": "IN-GJ-PATAN",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "phoneNumbers": [
-          "+91 2766 233400"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_f4fa34090a",
-          "evidence": "Shri V. C. Bodana | Resident Addl. Collector | +91 2766 233400\nadd-collector-pat[at]gujarat[dot]gov[dot]in |",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
       "id": "office:slr_supt_of_land_records_office_19423c",
       "type": "OFFICE",
       "name": "SLR (Supt of Land Records) Office અમદાવાદ",
@@ -6160,100 +5860,110 @@
       "lastVerifiedAt": "2026-08-23"
     },
     {
-      "id": "office:smt_alpa_jiteshbhai_mehta_4bfe0e",
+      "id": "office:social_welfare_office_0ab62f",
       "type": "OFFICE",
-      "name": "Smt. Alpa Jiteshbhai Mehta",
-      "jurisdictionId": "IN-GJ-SURAT",
+      "name": "Social Welfare Office",
+      "jurisdictionId": "IN-GJ-GANDHINAGAR",
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "address": "22, Shrenikpark Society, Behind Navayug College, Tadwadi, Rander Road, Surat.",
+        "officeType": "Social Welfare Office",
+        "address": "Sector 10/A, Birsa Munda Bhavan, Gandhinagar.",
         "phoneNumbers": [
-          "9726276656"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_ad1989e0b0",
-          "evidence": "Leader - Ruling Party\nSmt. Alpa Jiteshbhai Mehta\nWard: Adajan-Gorat\nResidential Address: 22, Shrenikpark Society, Behind Navayug College, Tadwadi, Rander Road, Surat.\nMobile: 9726276656",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:smt_mayaben_dharmendrabhai_mavani_e6616e",
-      "type": "OFFICE",
-      "name": "Smt. Mayaben Dharmendrabhai Mavani",
-      "jurisdictionId": "IN-GJ-SURAT",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "address": "29/ Bhavani Nagar Society, Lambe Hanuman Road, Surat-395006.",
-        "phoneNumbers": [
-          "9913828003"
+          "+91 79 23257703"
         ],
-        "emails": [
-          "mayor@suratmunicipal.org"
+        "conflictingAddresses": [
+          "Block No:2 , 5th Floor, New Sachivalaya ,Gandhinagar, Gujarat 382010",
+          "Birsa Munda Bhavan, Sector 10-A, Gandhinagar, Gujarat.",
+          "1st Floor, Birsa Munda Bhavan, Sector-10/A, Gandhinagar"
         ]
       },
       "sources": [
         {
-          "sourceId": "src:office_ad1989e0b0",
-          "evidence": "Mayor\nSmt. Mayaben Dharmendrabhai Mavani\nWard: Umarwada-Matawadi\nResidential Address: 29/ Bhavani Nagar Society, Lambe Hanuman Road, Surat-395006.\nMobile: 9913828003\nEmail: mayor[at]suratmunicipal[dot]org",
+          "sourceId": "src:office_f022e5a987",
+          "evidence": "DIRECTORATE OF TRIBAL DEVELOPMENT\nSector 10/A, Birsa Munda\nBhavan, Gandhinagar.",
+          "confidence": 0.95,
+          "verificationStatus": "NORMALIZED"
+        },
+        {
+          "sourceId": "src:office_afbf5baccb",
+          "evidence": "Tribal Development Department Block No:2 , 5th Floor, New Sachivalaya ,Gandhinagar Gujarat 382010 Tel. No : +91 79 23257703",
           "confidence": 1,
-          "verificationStatus": "EXTRACTED"
+          "verificationStatus": "NORMALIZED"
+        },
+        {
+          "sourceId": "src:office_be5bba0be2",
+          "evidence": "નોંધણી ઓફિસ\nGujarat Tribal Development Corporation\nBirsa Munda Bhavan, Sector 10-A,\nGandhinagar, Gujarat.",
+          "confidence": 0.95,
+          "verificationStatus": "NORMALIZED"
+        },
+        {
+          "sourceId": "src:office_a111acc2c9",
+          "evidence": "DIRECTORATE OF TRIBAL DEVELOPMENT\nSector 10/A, Birsa Munda\nBhavan, Gandhinagar.",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        },
+        {
+          "sourceId": "src:office_31a2bd28e5",
+          "evidence": "ADDRESS\nDirectorate, Tribal Development Department\n1st Floor, Birsa Munda Bhavan,\nSector-10/A, Gandhinagar",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        },
+        {
+          "sourceId": "src:office_4b793bd825",
+          "evidence": "DIRECTORATE OF TRIBAL DEVELOPMENT\nSector 10/A, Birsa Munda\nBhavan, Gandhinagar.",
+          "confidence": 0.95,
+          "verificationStatus": "NORMALIZED"
         }
       ],
       "lastVerifiedAt": "2026-08-23"
     },
     {
-      "id": "office:sri_mukesh_j_shah_f30342",
+      "id": "office:social_welfare_office_e18274",
       "type": "OFFICE",
-      "name": "Sri Mukesh J. Shah",
+      "name": "Social Welfare Office",
       "jurisdictionId": "IN-GJ",
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
+        "officeType": "Social Welfare Office",
         "phoneNumbers": [
-          "079-23257373"
+          "+91 79 232 57703",
+          "+91 79 23257703",
+          "7923253614",
+          "7923253618",
+          "+91 79 232 53263",
+          "+91 79 232 54183"
         ],
         "emails": [
-          "ds-ccd@gujarat.gov.in"
+          "gog.gtdc@gmail.com",
+          "ctdgujarat@gujarat.gov.in"
         ]
       },
       "sources": [
         {
-          "sourceId": "src:office_bfa90e6648",
-          "evidence": "શ્રી મુકેશ જે. શાહ\nસંયુક્ત સચિવ (ઇ)\nફોનઃ ૦૭૯-૨૩૨૫૭૩૭૩\nફેકસઃ ૦૭૯-૨૩૨૫૭૩૭૪\nઇમેઇલ: ds-ccd@gujarat.gov.in",
-          "confidence": 1,
-          "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:sri_s_j_haidar_ias_35c16e",
-      "type": "OFFICE",
-      "name": "Sri S. J. Haidar, IAS",
-      "jurisdictionId": "IN-GJ",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "phoneNumbers": [
-          "079-23257378"
-        ],
-        "emails": [
-          "secccd@gujarat.gov.in"
-        ]
-      },
-      "sources": [
+          "sourceId": "src:office_be5bba0be2",
+          "evidence": "ઇમેઇલ\ngog.gtdc@gmail.com",
+          "confidence": 0.95,
+          "verificationStatus": "NORMALIZED"
+        },
         {
-          "sourceId": "src:office_bfa90e6648",
-          "evidence": "સંપર્ક વ્યક્તિ\nશ્રી એસ. જે. હૈદર, આઈએએસ\nમુખ્ય સચિવ\nફોન: ૦૭૯-૨૩૨૫૭૩૭૮\nફેક્સ: ૦૭૯-૨૩૨૫૭૩૭૦\nઇમેઇલ: secccd@gujarat.gov.in",
+          "sourceId": "src:office_3fda7c81ed",
+          "evidence": "Call Us +91 79 232 57703 DIRECTORATE OF TRIBAL DEVELOPMENT Sector 10/A, Birsa Munda Bhavan, Gandhinagar. Tel No : +91 79 232 57703",
           "confidence": 1,
-          "verificationStatus": "EXTRACTED"
+          "verificationStatus": "NORMALIZED"
+        },
+        {
+          "sourceId": "src:office_a111acc2c9",
+          "evidence": "Call Us\n+91 79 232 57703\nDIRECTORATE OF TRIBAL DEVELOPMENT\nSector 10/A, Birsa Munda\nBhavan, Gandhinagar.\nTel No : +91 79 232 57703",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
+        },
+        {
+          "sourceId": "src:office_31a2bd28e5",
+          "evidence": "EMAIL\nctdgujarat[at]gujarat[dot]gov[dot]in",
+          "confidence": 1,
+          "verificationStatus": "NORMALIZED"
         }
       ],
       "lastVerifiedAt": "2026-08-23"
@@ -6287,16 +5997,28 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Municipal Corporation",
-        "address": "City Light Road, Surat – 395 007",
+        "address": "29/ Bhavani Nagar Society, Lambe Hanuman Road, Surat-395006.",
         "phoneNumbers": [
+          "9913828003",
+          "9879043175",
+          "9825534488",
+          "9726276656",
           "+91-6359905032",
           "+91-6359905033"
+        ],
+        "emails": [
+          "mayor@suratmunicipal.org"
+        ],
+        "conflictingAddresses": [
+          "Plot No.23, Govardhan Nagar-2, Navagam-Dindoli Road, Surat- 394210.",
+          "3-56, Ambaji Chakla, Rander Village, Surat.",
+          "22, Shrenikpark Society, Behind Navayug College, Tadwadi, Rander Road, Surat."
         ]
       },
       "sources": [
         {
-          "sourceId": "src:office_ad4e223cf7",
-          "evidence": "Science centre, City Light Road, Surat – 395 007",
+          "sourceId": "src:office_ad1989e0b0",
+          "evidence": "Mayor\nSmt. Mayaben Dharmendrabhai Mavani\nWard: Umarwada-Matawadi\nResidential Address: 29/ Bhavani Nagar Society, Lambe Hanuman Road, Surat-395006.\nMobile: 9913828003\nEmail: mayor[at]suratmunicipal[dot]org",
           "confidence": 1,
           "verificationStatus": "EXTRACTED"
         },
@@ -6494,66 +6216,6 @@
           "evidence": "Shri Amit Sangada\nUnder Secretary (Services)\nPhone : +91-79-23251179",
           "confidence": 1,
           "verificationStatus": "EXTRACTED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:vadodara_municipal_corporation_d1a2c0",
-      "type": "OFFICE",
-      "name": "Vadodara Municipal Corporation",
-      "jurisdictionId": "IN-GJ-VADODARA",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "officeType": "Municipal Corporation",
-        "address": "Khanderao Market, Vadodara-390001.",
-        "phoneNumbers": [
-          "1800-233-0265"
-        ],
-        "emails": [
-          "notification@vmc.gov.in"
-        ],
-        "conflictingAddresses": [
-          "Vadodara Municipal Corporation, Khanderao Market, Vadodara-390001."
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_573a226d8b",
-          "evidence": "Vadodara Municipal Corporation,\nKhanderao Market, Vadodara-390001.",
-          "confidence": 1,
-          "verificationStatus": "NORMALIZED"
-        },
-        {
-          "sourceId": "src:office_a299a14d50",
-          "evidence": "1800-233-0265 WhatsApp No. +91 99131-66666 Vadodara Municipal Corporation, Khanderao Market, Vadodara-390001. notification@vmc.gov.in",
-          "confidence": 0.95,
-          "verificationStatus": "NORMALIZED"
-        }
-      ],
-      "lastVerifiedAt": "2026-08-23"
-    },
-    {
-      "id": "office:web_information_manager_collectorate_268ad2",
-      "type": "OFFICE",
-      "name": "Web Information Manager | Collectorate",
-      "jurisdictionId": "IN-GJ-JAMNAGAR",
-      "metadata": {
-        "channelType": "PHYSICAL_OFFICE",
-        "machineExtracted": true,
-        "officeType": "District Collectorate",
-        "address": "Jilla Seva Sadan, Sharu Section Road, Jamnagar - 361002, Gujarat",
-        "phoneNumbers": [
-          "+91 288 2555869"
-        ]
-      },
-      "sources": [
-        {
-          "sourceId": "src:office_75ff5acc4e",
-          "evidence": "Address : District Collector Office,\nJilla Seva Sadan,\nSharu Section Road,\nJamnagar - 361002, Gujarat",
-          "confidence": 1,
-          "verificationStatus": "NORMALIZED"
         }
       ],
       "lastVerifiedAt": "2026-08-23"

@@ -1197,6 +1197,24 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "office:office_of_the_industries_commissionerate",
+   "type": "OFFICE",
+   "name": "office of the Industries Commissionerate",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Block No. 1, 2nd Floor, Udyog Bhavan, Gandhinagar, 382 010. Gujarat. INDIA"
+   },
+   "sources": [
+    {
+     "sourceId": "src:fbd13164f1d9",
+     "evidence": "Office of The Industries Commissionerate Block No. 1, 2nd Floor, Udyog Bhavan, Gandhinagar\n382 010. Gujarat. INDIA",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "grievance:startup_cell",
    "type": "GRIEVANCE_CHANNEL",
    "name": "Grievances about startup cell",
@@ -1822,6 +1840,22 @@
      "sourceId": "src:c53e608dc05a",
      "evidence": "1. Register Online (સમર સ્કીલ વર્કશોપ / શોર્ટ-ટર્મ કોર્ષ)",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_cell__visit_at__office_office_of_the_industries_commissionerate",
+   "from": "service:startup_cell",
+   "to": "office:office_of_the_industries_commissionerate",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The office of the Industries Commissionerate is located at Block No. 1, 2nd Floor, Udyog Bhavan, Gandhinagar, 382 010, Gujarat, INDIA.",
+   "sources": [
+    {
+     "sourceId": "src:fbd13164f1d9",
+     "evidence": "Office of The Industries Commissionerate Block No. 1, 2nd Floor, Udyog Bhavan, Gandhinagar\n382 010. Gujarat. INDIA",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]

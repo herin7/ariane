@@ -5593,6 +5593,24 @@
    ]
   },
   {
+   "id": "office:women_and_child_development_department",
+   "type": "OFFICE",
+   "name": "Women and Child Development Department",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Block No. 9, 8th Floor, New Sachivalaya, Gandhinagar."
+   },
+   "sources": [
+    {
+     "sourceId": "src:04364ee1275e",
+     "evidence": "Women & Child Development Department (WCD)\nBlock No. 9, 8th Floor, New Sachivalaya, Gandhinagar.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "service:chief_minister_matru_shakti_yojana",
    "type": "SERVICE",
    "name": "Chief Minister Matru Shakti Yojana",
@@ -6921,6 +6939,24 @@
    ]
   },
   {
+   "id": "office:gujarat_state_commission_for_unreserved_classes",
+   "type": "OFFICE",
+   "name": "Gujarat State Commission for Unreserved Classes",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Block No. 1, 6th floor, Karmayogi Bhavan, Sector - 10, Gandhinagar, Gujarat – 382010."
+   },
+   "sources": [
+    {
+     "sourceId": "src:fefe6bbbe272",
+     "evidence": "GUJARAT STATE COMMISSION FOR UNRESERVED CLASSES\nBlock No. 1, 6th floor,\nKarmayogi Bhavan,Sector - 10,\nGandhinagar, Gujarat – 382010.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "service:self_employment_scheme",
    "type": "SERVICE",
    "name": "Self-Employment Scheme",
@@ -7564,6 +7600,24 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "office:office_of_the_director_food_and_civil_supplies",
+   "type": "OFFICE",
+   "name": "office of the Director, Food and Civil Supplies,",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Block No. 14/6th Floor, Sardar Bhavan, New Secretariat, Gandhinagar-382010, Gujarat, India"
+   },
+   "sources": [
+    {
+     "sourceId": "src:33480c35d9e8",
+     "evidence": "નિયામક અન્ન અને નાગરિક પુરવઠા કચેરી, બ્લોક નં. ૧૪/૬ઠ્ઠો માળ, સરદાર ભવન, નવા સચિવાલય, ગાંધીનગર-૩૮૨૦૧૦ ગુજરાત, ભારત",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
   },
   {
    "id": "service:state_sponsored_schemes",
@@ -10895,6 +10949,24 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "office:industries_commissionerate_office",
+   "type": "OFFICE",
+   "name": "Industries Commissionerate office",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Block No. 1, 2nd Floor, Udyog Bhavan, Gandhinagar 382 010. Gujarat. INDIA"
+   },
+   "sources": [
+    {
+     "sourceId": "src:0a160040f731",
+     "evidence": "Office of The Industries Commissionerate\nBlock No. 1, 2nd Floor, Udyog Bhavan,\nGandhinagar 382 010. Gujarat. INDIA",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "service:incentive_schemes",
    "type": "SERVICE",
    "name": "Incentive Schemes",
@@ -11184,6 +11256,24 @@
     }
    ],
    "lastVerifiedAt": "2026-08-23"
+  },
+  {
+   "id": "office:gujarat_pavitra_yatradham_vikas_board",
+   "type": "OFFICE",
+   "name": "Gujarat Pavitra Yatradham Vikas Board",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Block 2 & 3, 1st floor, Dr. Jivraj Mehta Bhavan Gandhinagar"
+   },
+   "sources": [
+    {
+     "sourceId": "src:9890b2765189",
+     "evidence": "Gujarat Pavitra Yatradham Vikas Board , Block 2 &3, 1st floor, Dr. Jivraj Mehta Bhavan Gandhinagar,",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
   },
   {
    "id": "helpline:91_79_23252459_23252468_91_79_23252458",
@@ -13807,6 +13897,24 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "office:gujarat_state_civil_supplies_corporation_limited_head_office",
+   "type": "OFFICE",
+   "name": "Gujarat State Civil Supplies Corporation Limited head office",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "સેકટર-10/એ, \"\"ચ\"\" રોડ,\nનવા સચિવાલય પાસે,\nગાંધીનગર - 382010\nગુજરાત, ભારત"
+   },
+   "sources": [
+    {
+     "sourceId": "src:7823727b3d6a",
+     "evidence": "ગુજરાત રાજ્ય નાગરિક પુરવઠા નિગમ લી.\nસેકટર-૧૦/એ, \"\"ચ\"\" રોડ,\nનવા સચિવાલય પાસે,\nગાંધીનગર - ૩૮૨૦૧૦\nગુજરાત, ભારત",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "helpline:91_79_23221037",
    "type": "HELPLINE",
    "name": "Integrated Child Development Services helpline",
@@ -14059,6 +14167,24 @@
      "sourceId": "src:f33b5b87b1a1",
      "evidence": "To lodge your complaint/query/clarification/ grievance/feedback Click here",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "office:pmay_urban_office",
+   "type": "OFFICE",
+   "name": "PMAY (Urban) office",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Sankalp Bhawan, 3rd Floor, Kasturba Gandhi Marg, New Delhi - 110001"
+   },
+   "sources": [
+    {
+     "sourceId": "src:0fbbced07587",
+     "evidence": "Address\nPradhan Mantri Awas Yojana (Urban) Ministry of Housing and Urban Affairs\nSankalp Bhawan\n3 rd Floor, Kasturba Gandhi Marg\nNew Delhi - 110001",
+     "confidence": 0.98,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -16185,6 +16311,24 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "office:climate_change_department",
+   "type": "OFFICE",
+   "name": "Climate Change Department",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "11/1 Sardar Bhavan, Sachivalaya, Gandhinagar - 382 010 Gujarat, India"
+   },
+   "sources": [
+    {
+     "sourceId": "src:e7a91049f4af",
+     "evidence": "Climate Change Department\n11/1 Sardar Bhavan, Sachivalaya, Gandhinagar - 382 010 Gujarat, India",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "helpline:079_23257369_23257378_079_23257373_23257374",
    "type": "HELPLINE",
    "name": "Climate Change Awards Scheme 2024-25 helpline",
@@ -17173,6 +17317,24 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "office:women_child_development_department",
+   "type": "OFFICE",
+   "name": "Women & Child Development Department",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Block No. 9, 8th Floor, New Sachivalaya, Gandhinagar."
+   },
+   "sources": [
+    {
+     "sourceId": "src:0eb82df01683",
+     "evidence": "Women & Child Development Department (WCD)\nBlock No. 9, 8th Floor, New Sachivalaya, Gandhinagar.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "document:government_resolution_19_6_20",
    "type": "DOCUMENT",
    "name": "Government resolution 19 6 20",
@@ -17633,6 +17795,24 @@
    ]
   },
   {
+   "id": "office:gujarat_unorganized_gram_karmachari_kalyan_board",
+   "type": "OFFICE",
+   "name": "Gujarat Unorganized Gram Karmachari Kalyan Board",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Block No. 11-12-14, Second Floor, Sector-17, Industry Bhavan, Gandhinagar"
+   },
+   "sources": [
+    {
+     "sourceId": "src:ce00308af0b5",
+     "evidence": "ગુજરાત અસંગઠિત કામદાર કલ્‍યાણ બોર્ડ બ્‍લોક નં. ૧૧-૧૨-૧૪ બીજો માળ, સેકટર-૧૭, ઉદ્યોગ ભવન, ગાંધીનગર",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "portal:gazetteer_gujarat_gov_in",
    "type": "PORTAL",
    "name": "gazetteer.gujarat.gov.in",
@@ -17645,6 +17825,24 @@
     {
      "sourceId": "src:3dc507a4dfe7",
      "evidence": "જીલ્લા સર્વસંગ્રહ, ગેઝેટિયર કોર ગ્રુપ : રમતગમત, યુવા અને સાંસ્કૃતિક પ્રવૃતિઓ વિભાગ, ગુજરાત સરકાર",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "office:department",
+   "type": "OFFICE",
+   "name": "Department",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Block Number 3, 2nd Floor, Dr. Jivraj Mehta Bhavan, Sector - 10, Gandhi Nagar - 382 010, Gujarat"
+   },
+   "sources": [
+    {
+     "sourceId": "src:3dc507a4dfe7",
+     "evidence": "રાજ્ય​ સંર્વસંગ્રહ, (કોર ગ્રુપ)\nબ્લોક નંબર ૩, ૨જો માળ,\nડો. જીવરાજ મહેતા ભવન,\nસેક્ટર - ૧૦ ગાંધીનગર - ૩૮૨ ૦૧૦, ગુજરાત",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -18301,6 +18499,24 @@
    ]
   },
   {
+   "id": "office:gujarat_rural_workers_welfare_board_office",
+   "type": "OFFICE",
+   "name": "Gujarat Rural Workers Welfare Board office",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Block No. 6, 3rd floor, Dr. Jivraj Mehta Bhavan, Gandhinagar, Gujarat."
+   },
+   "sources": [
+    {
+     "sourceId": "src:24d553116588",
+     "evidence": "Gujarat Rural Workers Welfare Board\nBlock No. 6, 3rd floor\nDr. Jivraj Mehta Bhavan\nGandhinagar,\nGujarat.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "helpline:079_232_53682",
    "type": "HELPLINE",
    "name": "Gujarat Rural Workers Welfare Board schemes helpline",
@@ -18637,9 +18853,9 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "office:shri_u_v_tilawat",
+   "id": "office:contact_information",
    "type": "OFFICE",
-   "name": "Shri U.V. Tilawat",
+   "name": "Contact_information",
    "jurisdictionId": "IN-GJ-JAMNAGAR",
    "metadata": {
     "channelType": "PHYSICAL_OFFICE",
@@ -21765,6 +21981,22 @@
    ]
   },
   {
+   "id": "e:service_chief_minister_matru_shakti_yojana__visit_at__office_women_and_child_development_department",
+   "from": "service:chief_minister_matru_shakti_yojana",
+   "to": "office:women_and_child_development_department",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Women and Child Development Department is located at Block No. 9, 8th Floor, New Sachivalaya, Gandhinagar.",
+   "sources": [
+    {
+     "sourceId": "src:04364ee1275e",
+     "evidence": "Women & Child Development Department (WCD)\nBlock No. 9, 8th Floor, New Sachivalaya, Gandhinagar.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_energy_saving_equipments__apply_at__portal_forestservices_gujarat_gov_in",
    "from": "service:energy_saving_equipments",
    "to": "portal:forestservices_gujarat_gov_in",
@@ -22149,6 +22381,22 @@
    ]
   },
   {
+   "id": "e:service_self_employment_scheme__visit_at__office_gujarat_state_commission_for_unreserved_classes",
+   "from": "service:self_employment_scheme",
+   "to": "office:gujarat_state_commission_for_unreserved_classes",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gujarat State Commission for Unreserved Classes is located at Block No. 1, 6th floor, Karmayogi Bhavan, Sector - 10, Gandhinagar, Gujarat – 382010.",
+   "sources": [
+    {
+     "sourceId": "src:fefe6bbbe272",
+     "evidence": "GUJARAT STATE COMMISSION FOR UNRESERVED CLASSES\nBlock No. 1, 6th floor,\nKarmayogi Bhavan,Sector - 10,\nGandhinagar, Gujarat – 382010.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_self_employment_scheme__call_if__helpline_91_079_232_58647",
    "from": "service:self_employment_scheme",
    "to": "helpline:91_079_232_58647",
@@ -22447,6 +22695,22 @@
     {
      "sourceId": "src:33480c35d9e8",
      "evidence": "ગુજરાત રાજ્ય ગ્રાહક હેલ્પલાઇન ટોલ ફ્રી - ૧૮૦૦-૨૩૩-૦૨૨૨",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_state_sponsored_schemes__visit_at__office_office_of_the_director_food_and_civil_supplies",
+   "from": "service:state_sponsored_schemes",
+   "to": "office:office_of_the_director_food_and_civil_supplies",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The office of the Director, Food and Civil Supplies, is located at Block No. 14/6th Floor, Sardar Bhavan, New Secretariat, Gandhinagar-382010, Gujarat, India.",
+   "sources": [
+    {
+     "sourceId": "src:33480c35d9e8",
+     "evidence": "નિયામક અન્ન અને નાગરિક પુરવઠા કચેરી, બ્લોક નં. ૧૪/૬ઠ્ઠો માળ, સરદાર ભવન, નવા સચિવાલય, ગાંધીનગર-૩૮૨૦૧૦ ગુજરાત, ભારત",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -24389,6 +24653,22 @@
    ]
   },
   {
+   "id": "e:service_incentive_schemes__visit_at__office_industries_commissionerate_office",
+   "from": "service:incentive_schemes",
+   "to": "office:industries_commissionerate_office",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Industries Commissionerate office is located at Block No. 1, 2nd Floor, Udyog Bhavan, Gandhinagar 382 010, Gujarat, INDIA.",
+   "sources": [
+    {
+     "sourceId": "src:0a160040f731",
+     "evidence": "Office of The Industries Commissionerate\nBlock No. 1, 2nd Floor, Udyog Bhavan,\nGandhinagar 382 010. Gujarat. INDIA",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_incentive_schemes__call_if__helpline_23252683_23252617",
    "from": "service:incentive_schemes",
    "to": "helpline:23252683_23252617",
@@ -24447,6 +24727,22 @@
     {
      "sourceId": "src:56f63548a6b0",
      "evidence": "૦-૬ વર્ષના બાળકો, ૧૧-૧૮ વર્ષની કીશોરીઓને, સગર્ભા અને પ્રસુતા માતાઓને આ લાભ મળી શકે. તાલુકા કક્ષાએ બાળ વિકાસ યોજના અધિકારીશ્રીને મળવું તેમજ જિલ્&zwj;લા કક્ષાએ પ્રોગ્રામ ઓફીસર શ્રીને મળવું.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_schemes__visit_at__office_gujarat_pavitra_yatradham_vikas_board",
+   "from": "service:schemes",
+   "to": "office:gujarat_pavitra_yatradham_vikas_board",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gujarat Pavitra Yatradham Vikas Board is located at Block 2 & 3, 1st floor, Dr. Jivraj Mehta Bhavan, Gandhinagar.",
+   "sources": [
+    {
+     "sourceId": "src:9890b2765189",
+     "evidence": "Gujarat Pavitra Yatradham Vikas Board , Block 2 &3, 1st floor, Dr. Jivraj Mehta Bhavan Gandhinagar,",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -24784,6 +25080,22 @@
      "sourceId": "src:519cf6979a7f",
      "evidence": "Data Must Be Enter in English Language Only.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_tution_help_scheme__visit_at__office_gujarat_state_commission_for_unreserved_classes",
+   "from": "service:tution_help_scheme",
+   "to": "office:gujarat_state_commission_for_unreserved_classes",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gujarat State Commission for Unreserved Classes is located at Block No. 1, 6th floor, Karmayogi Bhavan, Sector - 10, Gandhinagar, Gujarat – 382010.",
+   "sources": [
+    {
+     "sourceId": "src:917bfed1a27e",
+     "evidence": "GUJARAT STATE COMMISSION FOR UNRESERVED CLASSES\nBlock No. 1, 6th floor,\nKarmayogi Bhavan,Sector - 10,\nGandhinagar, Gujarat – 382010.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -25541,6 +25853,22 @@
    ]
   },
   {
+   "id": "e:service_integrated_child_development_services__visit_at__office_gujarat_state_civil_supplies_corporation_limited_head",
+   "from": "service:integrated_child_development_services",
+   "to": "office:gujarat_state_civil_supplies_corporation_limited_head_office",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gujarat State Civil Supplies Corporation Limited head office is located at Sector-10/A, \"C\" Road, near New Secretariat, Gandhinagar-382010, Gujarat, India.",
+   "sources": [
+    {
+     "sourceId": "src:7823727b3d6a",
+     "evidence": "ગુજરાત રાજ્ય નાગરિક પુરવઠા નિગમ લી.\nસેકટર-૧૦/એ, \"\"ચ\"\" રોડ,\nનવા સચિવાલય પાસે,\nગાંધીનગર - ૩૮૨૦૧૦\nગુજરાત, ભારત",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_integrated_child_development_services__call_if__helpline_91_79_23221037",
    "from": "service:integrated_child_development_services",
    "to": "helpline:91_79_23221037",
@@ -25680,6 +26008,22 @@
      "sourceId": "src:f33b5b87b1a1",
      "evidence": "To lodge your complaint/query/clarification/ grievance/feedback Click here",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_pmay_urban__visit_at__office_pmay_urban_office",
+   "from": "service:pmay_urban",
+   "to": "office:pmay_urban_office",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The PMAY (Urban) office is located at Sankalp Bhawan, 3rd Floor, Kasturba Gandhi Marg, New Delhi - 110001.",
+   "sources": [
+    {
+     "sourceId": "src:0fbbced07587",
+     "evidence": "Address\nPradhan Mantri Awas Yojana (Urban) Ministry of Housing and Urban Affairs\nSankalp Bhawan\n3 rd Floor, Kasturba Gandhi Marg\nNew Delhi - 110001",
+     "confidence": 0.98,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -26469,6 +26813,22 @@
    ]
   },
   {
+   "id": "e:service_climate_change_awards_scheme_2024_25__visit_at__office_climate_change_department",
+   "from": "service:climate_change_awards_scheme_2024_25",
+   "to": "office:climate_change_department",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Climate Change Department is located at 11/1 Sardar Bhavan, Sachivalaya, Gandhinagar - 382 010 Gujarat, India.",
+   "sources": [
+    {
+     "sourceId": "src:e7a91049f4af",
+     "evidence": "Climate Change Department\n11/1 Sardar Bhavan, Sachivalaya, Gandhinagar - 382 010 Gujarat, India",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_climate_change_awards_scheme_2024_25__call_if__helpline_079_23257369_23257378_079_23257373_23257374",
    "from": "service:climate_change_awards_scheme_2024_25",
    "to": "helpline:079_23257369_23257378_079_23257373_23257374",
@@ -27173,6 +27533,22 @@
    ]
   },
   {
+   "id": "e:service_atal_swantah_sukhay_yojana__visit_at__office_gujarat_unorganized_gram_karmachari_kalyan_board",
+   "from": "service:atal_swantah_sukhay_yojana",
+   "to": "office:gujarat_unorganized_gram_karmachari_kalyan_board",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gujarat Unorganized Gram Karmachari Kalyan Board is located at a specific address in Gandhinagar.",
+   "sources": [
+    {
+     "sourceId": "src:ce00308af0b5",
+     "evidence": "ગુજરાત અસંગઠિત કામદાર કલ્‍યાણ બોર્ડ બ્‍લોક નં. ૧૧-૧૨-૧૪ બીજો માળ, સેકટર-૧૭, ઉદ્યોગ ભવન, ગાંધીનગર",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_atal_swantah_sukhay_yojana__apply_at__portal_gazetteer_gujarat_gov_in",
    "from": "service:atal_swantah_sukhay_yojana",
    "to": "portal:gazetteer_gujarat_gov_in",
@@ -27183,6 +27559,22 @@
     {
      "sourceId": "src:3dc507a4dfe7",
      "evidence": "જીલ્લા સર્વસંગ્રહ, ગેઝેટિયર કોર ગ્રુપ : રમતગમત, યુવા અને સાંસ્કૃતિક પ્રવૃતિઓ વિભાગ, ગુજરાત સરકાર",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_atal_swantah_sukhay_yojana__visit_at__office_department",
+   "from": "service:atal_swantah_sukhay_yojana",
+   "to": "office:department",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The department's address is Block Number 3, 2nd Floor, Dr. Jivraj Mehta Bhavan, Sector - 10, Gandhi Nagar - 382 010, Gujarat.",
+   "sources": [
+    {
+     "sourceId": "src:3dc507a4dfe7",
+     "evidence": "રાજ્ય​ સંર્વસંગ્રહ, (કોર ગ્રુપ)\nબ્લોક નંબર ૩, ૨જો માળ,\nડો. જીવરાજ મહેતા ભવન,\nસેક્ટર - ૧૦ ગાંધીનગર - ૩૮૨ ૦૧૦, ગુજરાત",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -27429,6 +27821,22 @@
    ]
   },
   {
+   "id": "e:service_gujarat_rural_workers_welfare_board_schemes__visit_at__office_gujarat_rural_workers_welfare_board_office",
+   "from": "service:gujarat_rural_workers_welfare_board_schemes",
+   "to": "office:gujarat_rural_workers_welfare_board_office",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gujarat Rural Workers Welfare Board office is located at Block No. 6, 3rd floor, Dr. Jivraj Mehta Bhavan, Gandhinagar, Gujarat.",
+   "sources": [
+    {
+     "sourceId": "src:24d553116588",
+     "evidence": "Gujarat Rural Workers Welfare Board\nBlock No. 6, 3rd floor\nDr. Jivraj Mehta Bhavan\nGandhinagar,\nGujarat.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_gujarat_rural_workers_welfare_board_schemes__call_if__helpline_079_232_53682",
    "from": "service:gujarat_rural_workers_welfare_board_schemes",
    "to": "helpline:079_232_53682",
@@ -27471,6 +27879,22 @@
     {
      "sourceId": "src:5cc3da285d54",
      "evidence": "એમ.બી.બી.એસ. માં પ્રવેશ મેળવનાર વિદ્યાર્થીને રૂ. ૨૦,૦૦૦",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_food_bill_scheme__visit_at__office_gujarat_state_commission_for_unreserved_classes",
+   "from": "service:food_bill_scheme",
+   "to": "office:gujarat_state_commission_for_unreserved_classes",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gujarat State Commission for Unreserved Classes is located at Block No. 1, 6th floor, Karmayogi Bhavan, Sector - 10, Gandhinagar, Gujarat – 382010.",
+   "sources": [
+    {
+     "sourceId": "src:56697f2fff9b",
+     "evidence": "GUJARAT STATE COMMISSION FOR UNRESERVED CLASSES\nBlock No. 1, 6th floor,\nKarmayogi Bhavan,Sector - 10,\nGandhinagar, Gujarat – 382010.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -27653,6 +28077,22 @@
    ]
   },
   {
+   "id": "e:service_schemes_for_new_industrial_policy__visit_at__office_office_of_the_industries_commissionerate",
+   "from": "service:schemes_for_new_industrial_policy",
+   "to": "office:office_of_the_industries_commissionerate",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The office of the Industries Commissionerate is located at Block No. 1, 2nd Floor, Udyog Bhavan, Gandhinagar 382 010, Gujarat, INDIA.",
+   "sources": [
+    {
+     "sourceId": "src:a0509ef74725",
+     "evidence": "Office of The Industries Commissionerate\nBlock No. 1, 2nd Floor, Udyog Bhavan,\nGandhinagar 382 010. Gujarat. INDIA",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_schemes_for_new_industrial_policy__call_if__helpline_23252683_23252617",
    "from": "service:schemes_for_new_industrial_policy",
    "to": "helpline:23252683_23252617",
@@ -27685,9 +28125,9 @@
    ]
   },
   {
-   "id": "e:service_family_welfare_scheme__visit_at__office_shri_u_v_tilawat",
+   "id": "e:service_family_welfare_scheme__visit_at__office_contact_information",
    "from": "service:family_welfare_scheme",
-   "to": "office:shri_u_v_tilawat",
+   "to": "office:contact_information",
    "type": "VISIT_AT",
    "verificationStatus": "EXTRACTED",
    "note": "The contact information for the Family Welfare Department is provided.",

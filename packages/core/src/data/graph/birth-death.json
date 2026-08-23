@@ -54,6 +54,24 @@
    ]
   },
   {
+   "id": "office:gandhinagar_municipal_corporation",
+   "type": "OFFICE",
+   "name": "Gandhinagar Municipal Corporation",
+   "jurisdictionId": "IN-GJ-GANDHINAGAR",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Pandit Dindayal Upadhyay Bhavan, Behind Fire Station, Sector-17, Gandhinagar-382016"
+   },
+   "sources": [
+    {
+     "sourceId": "src:1cc4a3d9a83b",
+     "evidence": "Gandhinagar Municipal Corporation\nPandit Dindayal Upadhyay Bhavan,\nBehind Fire Station,\nSector-17, Gandhinagar-382016",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "helpline:079_23284150",
    "type": "HELPLINE",
    "name": "Birth & Death Certificate helpline",
@@ -224,6 +242,22 @@
     {
      "sourceId": "src:1cc4a3d9a83b",
      "evidence": "Toll Free - 18001081818",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_birth_death_certificate__visit_at__office_gandhinagar_municipal_corporation",
+   "from": "service:birth_death_certificate",
+   "to": "office:gandhinagar_municipal_corporation",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gandhinagar Municipal Corporation's office address is Pandit Dindayal Upadhyay Bhavan, Behind Fire Station, Sector-17, Gandhinagar-382016.",
+   "sources": [
+    {
+     "sourceId": "src:1cc4a3d9a83b",
+     "evidence": "Gandhinagar Municipal Corporation\nPandit Dindayal Upadhyay Bhavan,\nBehind Fire Station,\nSector-17, Gandhinagar-382016",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }

@@ -2242,6 +2242,24 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "office:gujarat_biodiversity_board_office",
+   "type": "OFFICE",
+   "name": "Gujarat Biodiversity Board office",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Aranya Bhavan B Wing, 5th Floor, Sector 10 A, Ch -3, Gandhinagar – 382 010, Gujarat, India"
+   },
+   "sources": [
+    {
+     "sourceId": "src:e0cc234eb940",
+     "evidence": "Office Address | Gujarat Biodiversity Board Aranya Bhavan B Wing 5th Floor, Sector 10 A, Ch -3, Gandhinagar – 382 010 Gujarat, India",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "helpline:079_23257950",
    "type": "HELPLINE",
    "name": "Access to Biological Resources helpline",
@@ -7428,6 +7446,24 @@
    ]
   },
   {
+   "id": "office:gujarat_energy_development_agency",
+   "type": "OFFICE",
+   "name": "Gujarat Energy Development Agency",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "4th Floor, Block No. 11-12, Udyog Bhawan, Gandhinagar - 382 017, Gujarat"
+   },
+   "sources": [
+    {
+     "sourceId": "src:9f03ddbb98ec",
+     "evidence": "Gujarat Energy Development Agency,\n4th Floor, Block No. 11-12, Udyog Bhawan,\nGandhinagar - 382 017, Gujarat",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "service:rooftop_pv_portal_registration",
    "type": "SERVICE",
    "name": "Rooftop PV Portal Registration",
@@ -8476,24 +8512,6 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
-   "id": "office:gujarat_energy_development_agency",
-   "type": "OFFICE",
-   "name": "Gujarat Energy Development Agency",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "address": "4th Floor, Block No. 11-12, Udyog Bhawan, Gandhinagar - 382 017, Gujarat"
-   },
-   "sources": [
-    {
-     "sourceId": "src:4f7bb61fb6cb",
-     "evidence": "Gujarat Energy Development Agency,\n4th Floor, Block No. 11-12, Udyog Bhawan,\nGandhinagar - 382 017, Gujarat",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "service:rooftop_pv_installer_registration",
    "type": "SERVICE",
    "name": "Rooftop PV Installer Registration",
@@ -8625,6 +8643,24 @@
     {
      "sourceId": "src:93151adc976a",
      "evidence": "GUJARAT POLLUTION CONTROL BOARD e-Xtended Green Node",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "office:jamnagar_municipal_corporation",
+   "type": "OFFICE",
+   "name": "Jamnagar Municipal Corporation",
+   "jurisdictionId": "IN-GJ-JAMNAGAR",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Jubilee Garden, Jamnagar"
+   },
+   "sources": [
+    {
+     "sourceId": "src:6394a1a9e364",
+     "evidence": "Address:\nJamnagar Municipal Corporation,\nJubilee Garden, Jamnagar",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -8983,24 +9019,6 @@
     {
      "sourceId": "src:aaceafe8ef20",
      "evidence": "Phone:\n(0288) - 2550231 - 235",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "office:jamnagar_municipal_corporation",
-   "type": "OFFICE",
-   "name": "Jamnagar_municipal_corporation",
-   "jurisdictionId": "IN-GJ-JAMNAGAR",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "address": "Jubilee Garden, Jamnagar"
-   },
-   "sources": [
-    {
-     "sourceId": "src:aaceafe8ef20",
-     "evidence": "Address:\nJamnagar Municipal Corporation,\nJubilee Garden, Jamnagar",
      "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
@@ -10875,6 +10893,22 @@
    ]
   },
   {
+   "id": "e:service_access_to_biological_resources__visit_at__office_gujarat_biodiversity_board_office",
+   "from": "service:access_to_biological_resources",
+   "to": "office:gujarat_biodiversity_board_office",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gujarat Biodiversity Board office is located at Aranya Bhavan B Wing, 5th Floor, Sector 10 A, Ch -3, Gandhinagar – 382 010, Gujarat, India.",
+   "sources": [
+    {
+     "sourceId": "src:e0cc234eb940",
+     "evidence": "Office Address | Gujarat Biodiversity Board Aranya Bhavan B Wing 5th Floor, Sector 10 A, Ch -3, Gandhinagar – 382 010 Gujarat, India",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_access_to_biological_resources__call_if__helpline_079_23257950",
    "from": "service:access_to_biological_resources",
    "to": "helpline:079_23257950",
@@ -11109,6 +11143,22 @@
     {
      "sourceId": "src:16b5f493e686",
      "evidence": "Veterinarian's Oath",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gujarat_veterinary_council_registration_and_renewal__visit_at__office_gujarat_veterinary_council",
+   "from": "service:gujarat_veterinary_council_registration_and_renewal",
+   "to": "office:gujarat_veterinary_council",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gujarat Veterinary Council is located at Block No. 14/1, Jivraj Mehta Bhavan, Sector 10/B, Gandhinagar, Gujarat-382010.",
+   "sources": [
+    {
+     "sourceId": "src:16b5f493e686",
+     "evidence": "GUJARAT VETERINARY COUNCIL BLOCK NO. 14/1, JIVRAJ MEHTA BHAVAN, SECTOR 10/B, GANDHINAGAR, GUJARAT-382010.",
      "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
@@ -13627,6 +13677,22 @@
    ]
   },
   {
+   "id": "e:service_rooftop_pv_portal_registration__visit_at__office_gujarat_energy_development_agency",
+   "from": "service:rooftop_pv_portal_registration",
+   "to": "office:gujarat_energy_development_agency",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gujarat Energy Development Agency is located at 4th Floor, Block No. 11-12, Udyog Bhawan, Gandhinagar - 382 017, Gujarat.",
+   "sources": [
+    {
+     "sourceId": "src:9f03ddbb98ec",
+     "evidence": "Gujarat Energy Development Agency,\n4th Floor, Block No. 11-12, Udyog Bhawan,\nGandhinagar - 382 017, Gujarat",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_rooftop_pv_portal_registration__apply_at__portal_srtgeda_gujarat_gov_in",
    "from": "service:rooftop_pv_portal_registration",
    "to": "portal:srtgeda_gujarat_gov_in",
@@ -14101,6 +14167,22 @@
     {
      "sourceId": "src:93151adc976a",
      "evidence": "GUJARAT POLLUTION CONTROL BOARD e-Xtended Green Node",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_food_registration_license__visit_at__office_jamnagar_municipal_corporation",
+   "from": "service:food_registration_license",
+   "to": "office:jamnagar_municipal_corporation",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Jamnagar Municipal Corporation's address is Jubilee Garden, Jamnagar.",
+   "sources": [
+    {
+     "sourceId": "src:6394a1a9e364",
+     "evidence": "Address:\nJamnagar Municipal Corporation,\nJubilee Garden, Jamnagar",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }

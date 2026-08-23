@@ -2040,6 +2040,24 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "office:gujarat_veterinary_council",
+   "type": "OFFICE",
+   "name": "Gujarat Veterinary Council",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Block No. 14/1, Jivraj Mehta Bhavan, Sector 10/B, Gandhinagar, Gujarat-382010."
+   },
+   "sources": [
+    {
+     "sourceId": "src:b95bad3f5be2",
+     "evidence": "GUJARAT VETERINARY COUNCIL BLOCK NO. 14/1, JIVRAJ MEHTA BHAVAN, SECTOR 10/B, GANDHINAGAR, GUJARAT-382010.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "service:veterinary_registration",
    "type": "SERVICE",
    "name": "Veterinary Registration",
@@ -5225,46 +5243,6 @@
    ]
   },
   {
-   "id": "office:dr_prashant_jilova_ias",
-   "type": "OFFICE",
-   "name": "Dr. Prashant Jilova, IAS",
-   "jurisdictionId": "IN-GJ-MEHSANA",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "phoneNumbers": [
-     "+91 2766 233400"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:f4fa34090a66",
-     "evidence": "Dr. Prashant Jilova, IAS | Collector Patan | +91 2766 233400\ncollector-pat[at]gujarat[dot]gov[dot]in |",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "office:shri_v_c_bodana",
-   "type": "OFFICE",
-   "name": "Shri V. C. Bodana",
-   "jurisdictionId": "IN-GJ-MEHSANA",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "phoneNumbers": [
-     "+91 2766 233400"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:f4fa34090a66",
-     "evidence": "Shri V. C. Bodana | Resident Addl. Collector | +91 2766 233400\nadd-collector-pat[at]gujarat[dot]gov[dot]in |",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "helpline:91_2833_232805",
    "type": "HELPLINE",
    "name": "District Collector Office helpline",
@@ -6849,6 +6827,24 @@
    "lastVerifiedAt": "2026-08-23"
   },
   {
+   "id": "office:gujarat_state_seed_certificate_agency",
+   "type": "OFFICE",
+   "name": "Gujarat State Seed Certificate Agency",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "ગુજરાત રાજ્ય બીજ પ્રમાણન એજન્સી, માણેક બાગ-શ્યામલ રોડ, શ્યામલ રો-હાઉસ, વિભાગ - 5 બસ સ્ટોપ પાસે, સેટેલાઇટ, અમદાવાદ-380015."
+   },
+   "sources": [
+    {
+     "sourceId": "src:72cbddd6cfa6",
+     "evidence": "ગુજરાત રાજ્ય બીજ પ્રમાણન એજન્સી, માણેક બાગ-શ્યામલ રોડ, શ્યામલ રો-હાઉસ, વિભાગ - 5 બસ સ્ટોપ પાસે, સેટેલાઇટ, અમદાવાદ-380015.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "helpline:91_079_26734116",
    "type": "HELPLINE",
    "name": "Gujarat State Seed Certificate Agency helpline",
@@ -7695,6 +7691,22 @@
    ]
   },
   {
+   "id": "e:service_veterinary_registration__visit_at__office_gujarat_veterinary_council",
+   "from": "service:veterinary_registration",
+   "to": "office:gujarat_veterinary_council",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gujarat Veterinary Council is located at Block No. 14/1, Jivraj Mehta Bhavan, Sector 10/B, Gandhinagar, Gujarat-382010.",
+   "sources": [
+    {
+     "sourceId": "src:b95bad3f5be2",
+     "evidence": "GUJARAT VETERINARY COUNCIL BLOCK NO. 14/1, JIVRAJ MEHTA BHAVAN, SECTOR 10/B, GANDHINAGAR, GUJARAT-382010.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_veterinary_registration__apply_at__portal_gvc_org_in",
    "from": "service:veterinary_registration",
    "to": "portal:gvc_org_in",
@@ -7850,6 +7862,22 @@
      "sourceId": "src:268c6a48bdd4",
      "evidence": "Veterinarian's Oath",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gujarat_veterinary_council_registration__visit_at__office_gujarat_veterinary_council",
+   "from": "service:gujarat_veterinary_council_registration",
+   "to": "office:gujarat_veterinary_council",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gujarat Veterinary Council is located at Block No. 14/1, Jivraj Mehta Bhavan, Sector 10/B, Gandhinagar, Gujarat-382010.",
+   "sources": [
+    {
+     "sourceId": "src:268c6a48bdd4",
+     "evidence": "GUJARAT VETERINARY COUNCIL BLOCK NO. 14/1, JIVRAJ MEHTA BHAVAN, SECTOR 10/B, GANDHINAGAR, GUJARAT-382010.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -10015,6 +10043,22 @@
    ]
   },
   {
+   "id": "e:service_district_collector_office__visit_at__office_district_collector_office",
+   "from": "service:district_collector_office",
+   "to": "office:district_collector_office",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Collector Office is located at Block No.3, MS Building, Rajmahal road, Mehsana, Gujarat - 384001.",
+   "sources": [
+    {
+     "sourceId": "src:e8b2f0130818",
+     "evidence": "District Collector Office\nBlock No.3, MS Building,\nRajmahal road,\nMehsana,\nGujarat - 384001",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_district_collector_office__call_if__helpline_91_2766_1077",
    "from": "service:district_collector_office",
    "to": "helpline:91_2766_1077",
@@ -10057,38 +10101,6 @@
     {
      "sourceId": "src:f4fa34090a66",
      "evidence": "Commissioner of Rescue & Relief\nCall : 1070",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_district_collector_office__visit_at__office_dr_prashant_jilova_ias",
-   "from": "service:district_collector_office",
-   "to": "office:dr_prashant_jilova_ias",
-   "type": "VISIT_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "Dr. Prashant Jilova, IAS, is the Collector of Patan and can be contacted at +91 2766 233400.",
-   "sources": [
-    {
-     "sourceId": "src:f4fa34090a66",
-     "evidence": "Dr. Prashant Jilova, IAS | Collector Patan | +91 2766 233400\ncollector-pat[at]gujarat[dot]gov[dot]in |",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_district_collector_office__visit_at__office_shri_v_c_bodana",
-   "from": "service:district_collector_office",
-   "to": "office:shri_v_c_bodana",
-   "type": "VISIT_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "Shri V. C. Bodana is the Resident Addl. Collector and can be contacted at +91 2766 233400.",
-   "sources": [
-    {
-     "sourceId": "src:f4fa34090a66",
-     "evidence": "Shri V. C. Bodana | Resident Addl. Collector | +91 2766 233400\nadd-collector-pat[at]gujarat[dot]gov[dot]in |",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }

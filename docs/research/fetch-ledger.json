@@ -1,7 +1,7 @@
 {
   "generatedBy": "scripts/fetch-ledger.mjs",
-  "urls": 758,
-  "cached": 754,
+  "urls": 775,
+  "cached": 771,
   "missing": 0,
   "noCacheFile": 0,
   "fetchFailed": 4,
@@ -42,7 +42,7 @@
     ".firecrawl/sarathi-ll-map.json",
     ".firecrawl/sarathi-map.json"
   ],
-  "uncitedIngestPages": 1731,
+  "uncitedIngestPages": 1714,
   "entries": [
     {
       "url": "http://ggrc.co.in/webui/Content.aspx",
@@ -201,8 +201,9 @@
     {
       "url": "https://adijatinigam.gujarat.gov.in/gtdcloan/Signup/Manage",
       "title": "Signup | Gujarat Tribal Development Corporation",
-      "sourceType": "SERVICE_PAGE",
+      "sourceType": "OFFICE_DIRECTORY",
       "journeys": [
+        "offices",
         "welfare-schemes"
       ],
       "cacheFile": ".ingest/pages/be5bba0be25659d3011d3adeb73a5e1c48642afa.md",
@@ -252,6 +253,20 @@
       "quoted": true,
       "bytes": 875,
       "sha256": "e3c21086da6706f7b1f3c707ac069c07c5762cec24fc637f4dff0a7c3f588830",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://ahmedabad.gujarat.gov.in/EWS-Certificate-GOG",
+      "title": "આર્થિક રીતે નબળા વર્ગના (EWS) અનામતનો લાભ લેવા માટે પ્રમાણપત્ર મેળવવા બાબત – ગુજરાત સરકાર | Certificate | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "offices"
+      ],
+      "cacheFile": ".ingest/pages/93583ecd39dca69283fde01a91001551fff34877.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 10623,
+      "sha256": "c4fe04481ed680b89ad16377e13d3cd4207371e747111565569542cdd002b362",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -1179,6 +1194,34 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://bmcgujarat.com/en/external-services/gujarat-gas",
+      "title": "Gujarat Gas | BMC",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "offices"
+      ],
+      "cacheFile": ".ingest/pages/10f2dc2796ff622f76182f6278895b3add25a8b3.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 3564,
+      "sha256": "3bac32ea5c812f4080a4d06cf6851cc9c78a613fb1d9d172c2207e51f499f992",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://bmcgujarat.com/en/external-services/pgvcl",
+      "title": "PGVCL | BMC",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "offices"
+      ],
+      "cacheFile": ".ingest/pages/e18a117cb83c83b1c035de3bb2a90385b57d5f96.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 3541,
+      "sha256": "9663bf8962ba8af467ba6708f8f7f002aaad2af742c759631d19a1c1d40f2952",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://bmcgujarat.com/guj/e-services/professional-tax",
       "title": "Professional Tax | BMC",
       "sourceType": "OFFICE_DIRECTORY",
@@ -1191,6 +1234,34 @@
       "quoted": true,
       "bytes": 7693,
       "sha256": "37726f9e7cf9ab534415bf9377a570772710d1fe9c1027e9dfab0cdc32be75fa",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://bmcgujarat.com/guj/external-services/gujarat-gas",
+      "title": "Gujarat Gas | BMC",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "offices"
+      ],
+      "cacheFile": ".ingest/pages/f5c067c63cbb3512e2fff82eebd965011eb8040d.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 7714,
+      "sha256": "09a779acf6d247752042c24aa0ed146c1e9f3f0bd8c3e586723dc4696c965611",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://bmcgujarat.com/guj/external-services/pgvcl",
+      "title": "PGVCL | BMC",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "offices"
+      ],
+      "cacheFile": ".ingest/pages/d12493b4f40b51220cbad2b1cc507e95164970c5.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 7657,
+      "sha256": "a04374732804b162276f2bba5b3d9f3c4eef4202df5da946c5a729340a76bd48",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -1966,6 +2037,48 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://civilhospitalahd.gujarat.gov.in/administration-services.htm",
+      "title": "Administration Services | Civil Hospital Amdavad",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "offices"
+      ],
+      "cacheFile": ".ingest/pages/aabeb54dbef89129248280a88b617cb7e18b47c1.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2511,
+      "sha256": "96677aa350f936c4582dd9c2620882509daa138c5400cf264a7ffaffc26f9b7f",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://civilhospitalahd.gujarat.gov.in/postal-address.htm",
+      "title": "Postal Address | Contact Us | Civil Hospitals, Amdavad",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "offices"
+      ],
+      "cacheFile": ".ingest/pages/9616a519a5719e598b17f29813eb319d0094c17a.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2337,
+      "sha256": "6d5e32ebf2ad78ad13a03d9fe3939a224211d4de0477fa65559f4393b9edd23f",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://civilhospitalahd.gujarat.gov.in/schemes-index.htm",
+      "title": "Schemes | Civil Hospital, Amdavad",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "offices"
+      ],
+      "cacheFile": ".ingest/pages/d537976dd89ac47130cb608bc47eba49051cc827.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2210,
+      "sha256": "3560c04e59081089d42441c390a5757a8e8b1369389a21f820cfbea6bdc46850",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://cof.gujarat.gov.in/Home/guideline",
       "title": "Commissioner of Fisheries",
       "sourceType": "GUIDELINE",
@@ -2019,6 +2132,20 @@
       "quoted": true,
       "bytes": 2461,
       "sha256": "5b98cc5cefe773a99e90ee43b9bad96a00571185ffa2f2ea4ddbfef66f9d527f",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://collectorahmedabad.gujarat.gov.in/EWS-Certificate-GOG",
+      "title": "આર્થિક રીતે નબળા વર્ગના (EWS) અનામતનો લાભ લેવા માટે પ્રમાણપત્ર મેળવવા બાબત – ગુજરાત સરકાર | Certificate | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "offices"
+      ],
+      "cacheFile": ".ingest/pages/195acc27d71340b1d6f5f79ae0b6975e417635f2.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 10623,
+      "sha256": "5474be4947a4b49454fc9d0631c29e5947c0dba3e56b5bfc9c002ac0229e1765",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -3110,10 +3237,39 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://comm-tribal.gujarat.gov.in/branches-offices",
+      "title": "Branches & Offices | About Us | Commissionerate of Tribal Development",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "offices"
+      ],
+      "cacheFile": ".ingest/pages/a111acc2c9ee59cfb490333241dc8467951f7f75.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 6233,
+      "sha256": "c70cf16a3898914afe02a7afdf146cfee9a87ca88708da73d8fb769c0620c6e1",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://comm-tribal.gujarat.gov.in/contact",
+      "title": "Contact | eCitizen | Commissionerate of Tribal Development",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "offices"
+      ],
+      "cacheFile": ".ingest/pages/31a2bd28e533c2e7c8a478c1908e2af8ad02e61b.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 6110,
+      "sha256": "4b3e01a263bcf348f54c510bc9662d99b88bde608d3d7f3b0286066f887e0b90",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://comm-tribal.gujarat.gov.in/manav-garima",
       "title": "Manav Garima | Economic Development | State Level Schemes | Programs and Schemes | Commissionerate of Tribal Development",
-      "sourceType": "SERVICE_PAGE",
+      "sourceType": "OFFICE_DIRECTORY",
       "journeys": [
+        "offices",
         "welfare-schemes"
       ],
       "cacheFile": ".ingest/pages/f022e5a9870a0d6394932fed390d4b0c53e9f079.md",
@@ -3140,8 +3296,9 @@
     {
       "url": "https://comm-tribal.gujarat.gov.in/sca-to-tsp",
       "title": "SCA to TSP | Central Government Schemes | Programs and Schemes | Commissionerate of Tribal Development",
-      "sourceType": "SERVICE_PAGE",
+      "sourceType": "OFFICE_DIRECTORY",
       "journeys": [
+        "offices",
         "welfare-schemes"
       ],
       "cacheFile": ".ingest/pages/3fda7c81ed41e0a766fba3241bfc559d344bd362.md",
@@ -3149,6 +3306,20 @@
       "quoted": true,
       "bytes": 5386,
       "sha256": "e7bd48ed454feaeb2e995eb038d223006c784c5dd25e5400bfa69a0d3b041526",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://comm-tribal.gujarat.gov.in/status-of-implementation",
+      "title": "Status of Implementation | Forest Rights Act-2006 | About Us | Commissionerate of Tribal Development",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "offices"
+      ],
+      "cacheFile": ".ingest/pages/4b793bd82509b54d3ad0e832530f200e06fa0ef3.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 3772,
+      "sha256": "b622d6cc8306ac13c4d7a30cc5b24985053cfa58588f2610a5a664802f17055f",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -4561,6 +4732,34 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://gandhinagarmunicipal.com/birth-death-registration",
+      "title": "Birth & Death Registration – Gandhinagar Municipal Corporation",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "offices"
+      ],
+      "cacheFile": ".ingest/pages/b8965831839cf4cc224b3f95a8466b8dbb6a57b4.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 4480,
+      "sha256": "ed6bc82ee025feb339176b8474b6c5d0ae36d711bd55df94e5f9c46023969d42",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://gandhinagarmunicipal.com/contact-form-7-test",
+      "title": "Contact Form 7 Test – Gandhinagar Municipal Corporation",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "offices"
+      ],
+      "cacheFile": ".ingest/pages/e3e3c3a6208892591ce7d88a44cb3edcbcaf9104.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 4518,
+      "sha256": "f6e93bac773d7e4fbae8130a4fa974378231ef1193e9db9407b00d394dd69a53",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://gandhinagarmunicipal.com/ma-amrutam-yojana",
       "title": "Pradhanmantri Jan Aarogya Yojna – Gandhinagar Municipal Corporation",
       "sourceType": "OFFICE_DIRECTORY",
@@ -4575,11 +4774,40 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://gandhinagarmunicipal.com/marriage-registration",
+      "title": "Marriage Registration – Gandhinagar Municipal Corporation",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "offices"
+      ],
+      "cacheFile": ".ingest/pages/6f1cc0fbb64bc489f897edf3925bf7211b2368c3.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 4516,
+      "sha256": "3c24f80a36e92a5c23db9f1babe03b2feff6a0fdfdc35966f0bdca65727b54f1",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://gandhinagarmunicipal.com/marriage-registration-form",
+      "title": "Marriage Registration Form – Gandhinagar Municipal Corporation",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "offices"
+      ],
+      "cacheFile": ".ingest/pages/a7adeb5d5fb8a1653713abe4e8fa3071ed78a09b.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 4467,
+      "sha256": "1505f3de57bac295b18e39374d6b0ecb64b3ef9620acb31c688991d0d2eaa4d6",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://gandhinagarmunicipal.com/mp_info_post/birth-death-certificate",
       "title": "Birth & Death Certificate – Gandhinagar Municipal Corporation",
       "sourceType": "HELPLINE",
       "journeys": [
-        "birth-death"
+        "birth-death",
+        "offices"
       ],
       "cacheFile": ".ingest/pages/1cc4a3d9a83b9ca57378b4949dea8113d42a78ca.md",
       "status": "CACHED",
@@ -5638,20 +5866,6 @@
       "quoted": true,
       "bytes": 6906,
       "sha256": "5cce24d18abff652c2ed200450c64446c6c683f61f15a43f8bdfcc9f4846cdd7",
-      "retrievedAt": "2026-08-23"
-    },
-    {
-      "url": "https://gsawb.gujarat.gov.in/officers-detail-guj.htm",
-      "title": "અધિકારીઓની વિગતો | ગુજરાત રાજ્ય પ્રાણી કલ્યાણ બોર્ડ, ગુજરાત રાજ્ય",
-      "sourceType": "OFFICE_DIRECTORY",
-      "journeys": [
-        "offices"
-      ],
-      "cacheFile": ".ingest/pages/33a0726ccd580de88b429beb0e5f46c6278b3828.md",
-      "status": "CACHED",
-      "quoted": true,
-      "bytes": 3553,
-      "sha256": "50f5ca82ff879e0d4a78f4aefac3d52752d9a8287e7f88f689c9546dc8dde396",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -8793,6 +9007,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://sanman.gujarat.gov.in/EmployeeHome/ViewApplicantionStatus",
+      "title": "Registered Applicant Details - LabourCommissioner",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "offices"
+      ],
+      "cacheFile": ".ingest/pages/0cb7294b698ef7fd996690810e5570dabb4965e4.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 61171,
+      "sha256": "37653e8b82bf7fa4ebfd855590435c91a93fe1a0b57b4f16c91967ea4d5d5028",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://sanman.gujarat.gov.in/Home/ContactUs",
       "title": "Contact Us - LabourCommissioner",
       "sourceType": "OFFICE_DIRECTORY",
@@ -9398,8 +9626,9 @@
     {
       "url": "https://tribal.gujarat.gov.in/vanbandhu-kalyan-yojana",
       "title": "State Initiative | Vanbandhu Kalyan Yojana | Program & Schemes | Tribal Development Department",
-      "sourceType": "SERVICE_PAGE",
+      "sourceType": "OFFICE_DIRECTORY",
       "journeys": [
+        "offices",
         "welfare-schemes"
       ],
       "cacheFile": ".ingest/pages/afbf5baccb1effdd529aa62b9fec52b1c8a55154.md",
@@ -9540,7 +9769,6 @@
       "title": "સંપર્ક ની માહિતી | વડોદરા જિલ્લા પંચાયત",
       "sourceType": "OFFICE_DIRECTORY",
       "journeys": [
-        "offices",
         "welfare-schemes"
       ],
       "cacheFile": ".ingest/pages/4f1c38bae344ef6449e6d01eb94d7f5322157c25.md",
@@ -10572,6 +10800,20 @@
       "quoted": true,
       "bytes": 9647,
       "sha256": "d564624b3d037ddcd1cc5b48efd314180511cf8396f3f6396343b7eb4d909197",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.nhb.org.in/contact-us",
+      "title": "Contact Us - National Housing Bank",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "offices"
+      ],
+      "cacheFile": ".ingest/pages/9b851e392f4574790221132eecb5c46fc1c191d1.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 4751,
+      "sha256": "d26cf78384cceae036e178d8f5059f8fc582fb745e4a752ed0b42b0c39e4a851",
       "retrievedAt": "2026-08-23"
     },
     {

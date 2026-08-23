@@ -1298,6 +1298,24 @@
    ]
   },
   {
+   "id": "office:district_industries_centre_dic",
+   "type": "OFFICE",
+   "name": "District Industries Centre (DIC)",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Block No. 1, 2nd Floor, Udyog Bhavan, Gandhinagar 382 010. Gujarat. INDIA"
+   },
+   "sources": [
+    {
+     "sourceId": "src:e1346f9389e4",
+     "evidence": "Office of The Industries Commissionerate\nBlock No. 1, 2nd Floor, Udyog Bhavan,\nGandhinagar 382 010. Gujarat. INDIA",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "helpline:23252683_23252617",
    "type": "HELPLINE",
    "name": "District Industries Centre helpline",
