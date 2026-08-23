@@ -33,7 +33,7 @@
  */
 
 import { at, readJsonl, sha1 } from "./lib.mjs";
-import { display, districtIn, districtOf, slug, title } from "./places.mjs";
+import { display, districtIn, districtOf, isPerson, slug, title } from "./places.mjs";
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 
 const FACTS = ".ingest/facts.jsonl";
@@ -159,13 +159,18 @@ export function nameOf(fact, pageTitle) {
   const detail = fact.detail ?? {};
   for (const k of NAME_KEYS) {
     const v = String(detail[k] ?? "").replace(/\s+/g, " ").trim();
-    if (v.length > 3 && v.length < 120 && !FIELD_LABEL.test(v)) return { name: v, status: "EXTRACTED" };
+    if (v.length > 3 && v.length < 120 && !FIELD_LABEL.test(v) && !isPerson(v)) return { name: v, status: "EXTRACTED" };
   }
   const object = title(String(fact.object ?? "")).trim();
   if (object.length > 4 && !FIELD_LABEL.test(object) && officeType(object)) return { name: object, status: "EXTRACTED" };
-  const t = String(pageTitle ?? "").replace(/\s*[|·—–-]\s*[^|·—–-]*$/, "").replace(/\s+/g, " ").trim();
-  if (t.length > 4 && t.length < 120 && officeType(t)) return { name: t, status: "NORMALIZED" };
-  return null;
+  // The type, not the title it was found in. A form download page is titled
+  // "નોન ક્રીમીલેયર પ્રમાણપત્ર મેળવવા અંગે અરજી | Certificate | Jan Seva Kendra
+  // form | Collectorate", and the office on it is a Jan Seva Kendra. The id
+  // already hashes in the jurisdiction, so fifteen districts keep fifteen
+  // offices; what they stop having is fifteen names nobody could read.
+  const t = String(pageTitle ?? "").replace(/\s+/g, " ").trim();
+  const type = t.length > 4 && t.length < 200 ? officeType(t) : null;
+  return type ? { name: type, status: "NORMALIZED" } : null;
 }
 
 // ------------------------------------------------------------------ selftest
@@ -197,6 +202,16 @@ if (flag("selftest")) {
   assert.equal(t({ officeName: "Regional Transport Office Rajkot" }).name, "Regional Transport Office Rajkot");
   assert.equal(t({ officeName: "Regional Transport Office Rajkot" }).status, "EXTRACTED");
   assert.equal(t({ name: "Contact Number" }), null, "a form label never becomes an office");
+  assert.equal(t({ name: "Shri V. C. Bodana" }), null, "the officer is not the office");
+  assert.equal(t({ name: "Dr. Prashant Jilova, IAS" }), null);
+  // The known ceiling, asserted so it is a decision and not a surprise: a bare
+  // name has nothing in it that says person, and guessing would cost us offices.
+  assert.equal(t({ name: "Anand Nandurbarkar" }, "Photo Gallery").name, "Anand Nandurbarkar");
+  assert.equal(
+    t({ address: "..." }, "નોન ક્રીમીલેયર પ્રમાણપત્ર મેળવવા અંગે અરજી | Certificate | Jan Seva Kendra form | Collectorate").name,
+    "Jan Seva Kendra",
+    "the office on a form page is the office, not the form's title",
+  );
   assert.equal(t({ address: "..." }, "Mamlatdar Office | Kheda District").status, "NORMALIZED", "the page title is us reading, not the page saying");
   assert.equal(t({ address: "..." }, "Mamlatdar Office | Kheda District").name, "Mamlatdar Office");
   assert.equal(t({ address: "..." }, "Photo Gallery"), null, "a page title that is not an office does not become one");
