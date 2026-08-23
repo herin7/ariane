@@ -62,3 +62,77 @@ describe("bad rows do not load quietly", () => {
     expect(errors(data)).toEqual([]);
   });
 });
+
+/**
+ * Requirement groups are the one place the graph tells a citizen "you may bring
+ * this OR that", so a group that is wrong does not merely fail to help, it sends
+ * somebody to a counter with the wrong paper. The compiler now generates these
+ * from page text, so every way a generated group can be malformed gets a check.
+ */
+describe("a malformed choice does not reach a citizen", () => {
+  const group = (data: GraphData) => data.requirementGroups.find((g) => g.mode === "ANY_OF")!;
+
+  it("catches a choice with nothing to choose", () => {
+    const data = clone();
+    group(data).members = [];
+    expect(errors(data)).toContain("EMPTY_GROUP");
+  });
+
+  it("catches a choice of one", () => {
+    const data = clone();
+    group(data).members = [group(data).members[0]!];
+    expect(errors(data)).toContain("SINGLE_MEMBER_CHOICE");
+  });
+
+  it("catches asking for more members than the group has", () => {
+    const data = clone();
+    const g = group(data);
+    g.mode = "AT_LEAST_N";
+    g.minimumRequired = g.members.length + 1;
+    expect(errors(data)).toContain("IMPOSSIBLE_MINIMUM");
+  });
+
+  it("catches AT_LEAST_N that never says N", () => {
+    const data = clone();
+    group(data).mode = "AT_LEAST_N";
+    expect(errors(data)).toContain("MISSING_MINIMUM");
+  });
+
+  it("catches the same document listed twice as two alternatives", () => {
+    const data = clone();
+    const g = group(data);
+    g.members = [...g.members, { nodeId: g.members[0]!.nodeId }];
+    expect(errors(data)).toContain("DUPLICATE_MEMBER");
+  });
+
+  it("catches a group that offers itself", () => {
+    const data = clone();
+    const g = group(data);
+    g.members = [...g.members, { nodeId: g.ownerNodeId }];
+    expect(errors(data)).toContain("SELF_REFERENTIAL_GROUP");
+  });
+
+  it("catches an alternative nobody can prove is an alternative", () => {
+    const data = clone();
+    delete group(data).sources;
+    expect(errors(data)).toContain("UNSOURCED_GROUP");
+  });
+
+  it("catches a mode that is not a mode", () => {
+    const data = clone();
+    group(data).mode = "ANY_TWO" as never;
+    expect(errors(data)).toContain("UNKNOWN_ENUM");
+  });
+
+  it("catches a member node that does not exist", () => {
+    const data = clone();
+    group(data).members = [{ nodeId: "document:invented" }, { nodeId: "document:also_invented" }];
+    expect(errors(data)).toContain("DANGLING_MEMBER");
+  });
+
+  it("catches an owner node that does not exist", () => {
+    const data = clone();
+    group(data).ownerNodeId = "document_group:invented";
+    expect(errors(data)).toContain("DANGLING_GROUP_OWNER");
+  });
+});

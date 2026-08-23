@@ -142,6 +142,31 @@ export function validateGraph(data: GraphData): GraphIssue[] {
     if (group.mode === "AT_LEAST_N" && !group.minimumRequired) {
       error("MISSING_MINIMUM", `Group ${group.id} is AT_LEAST_N but does not say N`, group.id);
     }
+    // "Bring any two of these two" is not a choice, it is both of them, and the
+    // engine would hold the journey forever waiting for a third.
+    if (group.mode === "AT_LEAST_N" && group.minimumRequired && group.minimumRequired > group.members.length) {
+      error(
+        "IMPOSSIBLE_MINIMUM",
+        `Group ${group.id} asks for ${group.minimumRequired} of ${group.members.length} member(s), which can never be satisfied`,
+        group.id,
+      );
+    }
+    // One alternative is not an alternative. Almost always a list we misread,
+    // and it renders as a choice with nothing to choose.
+    if (group.mode !== "ALL_OF" && group.members.length === 1) {
+      error("SINGLE_MEMBER_CHOICE", `Group ${group.id} is ${group.mode} but offers only one member`, group.id);
+    }
+    duplicates(group.members.map((m) => m.nodeId)).forEach((id) =>
+      error("DUPLICATE_MEMBER", `Group ${group.id} lists ${id} more than once`, group.id),
+    );
+    if (group.members.some((m) => m.nodeId === group.ownerNodeId)) {
+      error("SELF_REFERENTIAL_GROUP", `Group ${group.id} lists its own owner ${group.ownerNodeId} as a member`, group.id);
+    }
+    // The whole point of the graph. A choice nobody can trace to a page is a
+    // choice somebody made up.
+    if (!group.sources?.length) {
+      error("UNSOURCED_GROUP", `Group ${group.id} cites no source, so nothing proves these are alternatives`, group.id);
+    }
     if (group.mode !== "ALL_OF" && owner && owner.type !== "DOCUMENT_GROUP") {
       warn(
         "ALTERNATIVES_WITHOUT_GROUP_NODE",
