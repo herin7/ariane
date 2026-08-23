@@ -25,10 +25,15 @@ const STOPWORDS = new Set([
   "is", "of", "in", "on", "at", "apply", "new", "make", "want to", "please", "help",
 ]);
 
+/**
+ * Unicode aware on purpose. Splitting on `[^a-z0-9]` quietly deleted every
+ * Gujarati character, so "આવકનો દાખલો" tokenised to nothing and the citizen who
+ * typed their own language got an empty page.
+ */
 function tokenise(text: string): string[] {
   return text
     .toLowerCase()
-    .split(/[^a-z0-9']+/)
+    .split(/[^\p{L}\p{N}']+/u)
     .filter((t) => t.length > 1 && !STOPWORDS.has(t));
 }
 
