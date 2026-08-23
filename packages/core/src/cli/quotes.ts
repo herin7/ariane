@@ -1,12 +1,13 @@
 import { readFileSync } from "node:fs";
-import type { GraphEdge, GraphNode, RequirementGroup, Source, SourceRef } from "../types";
+import type { GraphBundle } from "../data/index";
+import type { SourceRef } from "../types";
 
 /**
  * The anti hallucination gate.
  *
- * A seeded journey file is only trustworthy if every quote in it was actually
+ * A journey's rows are only trustworthy if every quote in them was actually
  * read off a government page. The research files under docs/research are the
- * record of what was read. This walks every SourceRef in a journey module and
+ * record of what was read. This walks every SourceRef in a journey bundle and
  * checks its evidence string appears in the matching research file, and that
  * every source URL it cites was one the researcher actually fetched.
  *
@@ -21,25 +22,19 @@ import type { GraphEdge, GraphNode, RequirementGroup, Source, SourceRef } from "
  * paraphrase does not, and that is the line worth drawing.
  */
 
-interface JourneyModule {
-  sources: Source[];
-  nodes: GraphNode[];
-  edges: GraphEdge[];
-  requirementGroups: RequirementGroup[];
-}
-
 const ALL = ["driving-licence", "certificates", "scholarship", "pf", "pension"];
 
+const read = (url: URL) => JSON.parse(readFileSync(url, "utf8"));
 const norm = (s: string) => s.replace(/\s+/g, " ").trim().toLowerCase();
 
-async function auditOne(name: string): Promise<number> {
-  const journey: JourneyModule = await import(`../data/journeys/${name}`);
+function auditOne(name: string): number {
+  const journey: GraphBundle = read(new URL(`../data/graph/${name}.json`, import.meta.url));
   if (!journey.nodes.length) {
     console.log(`${name}: not seeded yet, skipped`);
     return 0;
   }
 
-  const research = JSON.parse(readFileSync(new URL(`../../../../docs/research/${name}.json`, import.meta.url), "utf8"));
+  const research = read(new URL(`../../../../docs/research/${name}.json`, import.meta.url));
 
   const quotes = new Set<string>();
   for (const fact of research.facts) if (fact.evidence) quotes.add(norm(fact.evidence));
@@ -80,7 +75,7 @@ async function auditOne(name: string): Promise<number> {
 
 const wanted = process.argv.slice(2);
 let failures = 0;
-for (const name of wanted.length ? wanted : ALL) failures += await auditOne(name);
+for (const name of wanted.length ? wanted : ALL) failures += auditOne(name);
 
 console.log(failures ? `\n${failures} unsourced claim(s). Fix the file or the research, not the check.` : "\nEvery quote traces back to a page somebody actually read.");
 process.exit(failures ? 1 : 0);
