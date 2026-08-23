@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "pnpm --filter @ariane/web dev",
+    "mobile": "pnpm --filter @ariane/mobile start",
     "build": "pnpm -r build",
     "test": "pnpm -r test",
     "typecheck": "pnpm -r typecheck",
