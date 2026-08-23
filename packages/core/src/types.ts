@@ -103,6 +103,15 @@ export interface NodeMetadata {
   whyRequired?: string;
   whatToDo?: string;
   expectedOutput?: string;
+  /**
+   * What quietly stops this from working, in the researcher's words or as the
+   * id of the thing that does it.
+   *
+   * Not a `BLOCKER` node. A blocker is somebody else holding your application;
+   * these are the things nobody tells you until the money does not arrive. "An
+   * institute whose AISHE status is INACTIVE stops the payment." A step reads
+   * as done without them and is not.
+   */
   couldBlock?: string[];
   fee?: string;
   timeline?: string;
@@ -443,6 +452,11 @@ export interface JourneyStep {
   formNumber?: string;
   /** Who qualifies, quoted from the page. See `NodeMetadata.eligibility`. */
   eligibility?: string[];
+  /**
+   * What quietly stops this working. Node ids resolved to names by the
+   * compiler. See `NodeMetadata.couldBlock`.
+   */
+  couldBlock?: string[];
   /**
    * Nobody has read this page. A machine found it, quoted it and checked the
    * quote, and that is a different thing from a person having looked.

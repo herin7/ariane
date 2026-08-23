@@ -69,6 +69,7 @@ function print(j: CompiledJourney): void {
     if (step.whatToDo) console.log(`     do: ${step.whatToDo}`);
     if (step.expectedOutput) console.log(`     you get: ${step.expectedOutput}`);
     for (const rule of step.eligibility ?? []) console.log(`     who: ${rule}`);
+    for (const risk of step.couldBlock ?? []) console.log(`     watch: ${risk}`);
     if (step.fee) console.log(`     fee: ${step.fee}`);
     if (step.timeline) console.log(`     takes: ${step.timeline}`);
     if (step.formNumber) console.log(`     form: ${step.formNumber}`);
