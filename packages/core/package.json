@@ -19,7 +19,7 @@
     "graph:validate": "tsx src/cli/validate.ts",
     "journey:test": "tsx src/cli/journey.ts",
     "quotes:audit": "tsx src/cli/quotes.ts",
-    "db:push": "tsx src/cli/db-push.ts"
+    "db:push": "tsx --env-file-if-exists=../../.env src/cli/db-push.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.112.3",
