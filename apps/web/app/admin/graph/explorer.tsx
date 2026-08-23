@@ -34,6 +34,7 @@ const TONE: Record<string, string> = {
 
 export function GraphExplorer({ goals }: { goals: GoalOption[] }) {
   const [goal, setGoal] = useState(goals[0]?.id ?? "");
+  const [filter, setFilter] = useState("");
   const [journey, setJourney] = useState<CompiledJourney | null>(null);
   const [selected, setSelected] = useState<{ kind: "node" | "edge"; id: string } | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -97,6 +98,16 @@ export function GraphExplorer({ goals }: { goals: GoalOption[] }) {
     return { nodes, edges };
   }, [journey]);
 
+  // A dropdown of every service was fine at twenty eight and is a scroll at a
+  // hundred. Typing narrows it; the service currently drawn is never filtered
+  // away, or the picker would name one thing while the graph shows another.
+  const shown = useMemo(() => {
+    const query = filter.trim().toLowerCase();
+    if (!query) return goals;
+    const hit = goals.filter((g) => g.name.toLowerCase().includes(query));
+    return hit.some((g) => g.id === goal) ? hit : [...goals.filter((g) => g.id === goal), ...hit];
+  }, [goals, filter, goal]);
+
   if (error) return <p><Link href="/">Back</Link><br />{error}</p>;
   if (!journey) return <p className="muted">Compiling</p>;
 
@@ -104,8 +115,14 @@ export function GraphExplorer({ goals }: { goals: GoalOption[] }) {
     <>
       <div className="row" style={{ marginBottom: 10 }}>
         <Link href="/" className="small">Back</Link>
+        <input
+          value={filter}
+          onChange={(e) => setFilter(e.target.value)}
+          placeholder={`filter ${goals.length} services`}
+          style={{ width: 160 }}
+        />
         <select value={goal} onChange={(e) => setGoal(e.target.value)}>
-          {goals.map((g) => <option key={g.id} value={g.id}>{g.name}</option>)}
+          {shown.map((g) => <option key={g.id} value={g.id}>{g.name}</option>)}
         </select>
         <span className="small muted">
           {journey.graph.nodes.length} nodes, {journey.graph.edges.length} edges, {journey.orderedSteps.length} steps
