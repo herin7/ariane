@@ -77,13 +77,41 @@ export class JurisdictionNotFoundError extends Error {
 // Compiler
 // ---------------------------------------------------------------------------
 
+/**
+ * One index per graph, not one per request.
+ *
+ * Every compile used to rebuild the whole index: 1011 nodes, 1320 edges, four
+ * maps. Measured at that size it is 0.19ms of a 1.16ms compile, so this is not
+ * a fix for a fire, it is the sixth of the work that never had to happen and
+ * the share that grows as the corpus does.
+ *
+ * Keyed on the object, not on a fingerprint of it. A content hash over a
+ * thousand nodes costs more than the rebuild it would be saving, and a WeakMap
+ * cannot go stale: `loadLiveGraph` hands out a new object when the rows change,
+ * and the old index is collected with the old graph. Nothing to invalidate,
+ * nothing to configure, no Redis.
+ *
+ * Safe to share because GraphIndex is frozen in practice: every map is filled
+ * in the constructor and `addEdge` is private, so no caller can reach in and
+ * change one request's view of the graph under another's.
+ */
+const indexes = new WeakMap<object, GraphIndex>();
+
+export function graphIndexFor(data: Pick<GraphData, "nodes" | "edges" | "requirementGroups" | "sources">): GraphIndex {
+  const hit = indexes.get(data);
+  if (hit) return hit;
+  const built = new GraphIndex(data);
+  indexes.set(data, built);
+  return built;
+}
+
 export class JourneyCompiler {
   private readonly index: GraphIndex;
   private readonly jurisdictions: JurisdictionIndex;
   private readonly questions: Map<string, QuestionDefinition>;
 
   constructor(private readonly data: GraphData) {
-    this.index = new GraphIndex(data);
+    this.index = graphIndexFor(data);
     this.jurisdictions = new JurisdictionIndex(data.jurisdictions);
     this.questions = new Map(data.questions.map((q) => [q.field, q]));
   }
