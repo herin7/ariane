@@ -385,6 +385,14 @@ function Step({ step, held, onHave }: { step: JourneyStep; held: string[]; onHav
                     <br />
                     <a href={s.source.url} target="_blank" rel="noreferrer" className="small">{s.source.title}</a>{" "}
                     <span className="muted small">retrieved {s.source.retrievedAt}</span>
+                    {s.source.tlsVerified === false ? (
+                      <>
+                        {" "}
+                        <span className="tag warn" title="This government site served a certificate we could not verify. The quote is what the page said; nothing proved the page was who it claimed to be.">
+                          unverified certificate
+                        </span>
+                      </>
+                    ) : null}
                   </div>
                 ))}
               </details>

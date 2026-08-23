@@ -41,8 +41,17 @@ create table if not exists sources (
                     'MOBILE_APP_INFO', 'TRACKING_PAGE', 'GRIEVANCE_PAGE', 'PDF', 'PORTAL_HOME')),
   jurisdiction_id text references jurisdictions (id),
   retrieved_at    date not null,
-  content_hash    text
+  content_hash    text,
+  -- Null is the ordinary case: the certificate chain verified. False means we
+  -- fetched anyway, because some real Gujarat portals serve broken chains and
+  -- refusing them means refusing the services behind them. The product shows
+  -- the caveat next to every quote from such a page.
+  tls_verified    boolean
 );
+
+-- `create table if not exists` above does nothing to a table that already
+-- exists, so the column is added separately for databases seeded before it.
+alter table sources add column if not exists tls_verified boolean;
 
 create table if not exists nodes (
   id              text primary key,

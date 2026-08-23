@@ -228,6 +228,18 @@ export interface Source {
   jurisdictionId?: string;
   retrievedAt: string;
   contentHash?: string;
+  /**
+   * False when the page was served over a certificate chain we could not
+   * verify. Several real Gujarat portals are in this state, including
+   * digitalgujarat.gov.in, which is the largest citizen service portal in the
+   * state and cannot simply be dropped.
+   *
+   * So we fetch them and say so. A quote from such a page is still a quote from
+   * that page, but nothing proved the host was who it claimed to be, and a
+   * citizen deserves to know which of those two things they are looking at.
+   * Absent means the ordinary case: the chain verified.
+   */
+  tlsVerified?: boolean;
 }
 
 /** A pointer from a graph fact back to the page that justifies it. */

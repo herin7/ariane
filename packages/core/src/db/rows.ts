@@ -56,6 +56,7 @@ export function toRows(bundles: GraphBundle[]): GraphRows {
         jurisdiction_id: s.jurisdictionId,
         retrieved_at: s.retrievedAt,
         content_hash: s.contentHash,
+        tls_verified: s.tlsVerified,
       }));
     }
 
@@ -165,6 +166,7 @@ export function toBundles(rows: GraphRows): GraphBundle[] {
       jurisdictionId: r.jurisdiction_id,
       retrievedAt: r.retrieved_at,
       contentHash: r.content_hash,
+      tlsVerified: r.tls_verified,
     }) as unknown as Source);
   }
 
