@@ -317,6 +317,165 @@ export function govUrl(value) {
   return { host, url: `https://${url.hostname}${url.pathname}${url.search}`, root: url.pathname === "/" && !url.search };
 }
 
+// ------------------------------------------------------------ ordered actions
+
+/**
+ * The number this line calls itself, or null if it does not call itself one.
+ *
+ * "Step 3:" and "3)" are the two ways this estate writes a process. The second
+ * is also how it writes an FAQ, a list of court orders and a table of contents,
+ * so a bare number is a candidate and never an answer on its own: `orderedSteps`
+ * below throws away the whole run unless the numbers form a clean 1..N and the
+ * lines read as instructions rather than questions.
+ */
+export function stepMarker(text) {
+  const line = String(text ?? "").trimStart().split("\n")[0] ?? "";
+  const explicit = /^(?:step|stage|પગલું|તબક્કો)\s*[-:.]?\s*(\d{1,2})\b/i.exec(line);
+  if (explicit) return { n: Number(explicit[1]), explicit: true, rest: line.slice(explicit[0].length).replace(/^[\s:.\-)]+/, "") };
+  const bare = /^\(?(\d{1,2})\)?\s*[).:\-]\s*(?=\S)/.exec(line);
+  if (bare) return { n: Number(bare[1]), explicit: false, rest: line.slice(bare[0].length) };
+  return null;
+}
+
+/**
+ * A question wearing a number.
+ *
+ * incometax.gov.in publishes its help as "1. What is Challan Correction?",
+ * "2. Which attributes are available?", numbered 1 to 15, in perfect order. It
+ * is not a process and turning it into one would hand a citizen fifteen steps
+ * that are not steps. Same for a page of dated tribunal orders.
+ */
+export function readsAsAQuestion(text) {
+  const s = String(text ?? "").trim();
+  if (s.includes("?")) return true;
+  if (/^(what|which|how|why|when|where|who|can|will|does|do|is|are|should|may|if)\b/i.test(s)) return true;
+  // "21-Mar-2025 | NCLT | ..." is a row in a register, not an instruction.
+  if (/^\d{1,2}[-/][A-Za-z0-9]{2,4}[-/]\d{2,4}\b/.test(s)) return true;
+  return false;
+}
+
+/** How many of a page's ACTION facts have to be numbered before it is a process. */
+const MIN_STEPS = 3;
+
+/**
+ * The ordered process a page states, or an empty array.
+ *
+ * §9, mechanically. A page that lists "upload documents, pay fee, visit office"
+ * without saying which comes first gets nothing from this, because inventing
+ * that sequence is inventing a government fact, and the invented one reads
+ * exactly as authoritative as a real one.
+ *
+ * The run has to be clean to survive: distinct numbers, starting at 1, no gaps,
+ * and not one of them a question. A page whose numbers are 1, 2, 4 is a page we
+ * have misread or a page with a step we did not extract, and both mean the
+ * ordering we would print is wrong. Everything rejected here is written into
+ * `notFound` so the count of processes we did not build is visible.
+ */
+export function orderedSteps(facts) {
+  const marked = [];
+  for (const f of facts) {
+    if (f.kind !== "ACTION") continue;
+    const m = stepMarker(f.evidence);
+    if (!m) continue;
+    marked.push({ ...m, fact: f, label: (m.rest || f.claim).trim() });
+  }
+  if (marked.length < MIN_STEPS) return [];
+  if (marked.some((m) => readsAsAQuestion(m.rest || m.fact.claim))) return [];
+
+  // First writing of each number wins. A page that repeats "Step 1" for three
+  // separate procedures is three processes and we cannot tell which is which,
+  // which the gap check below turns into no process at all.
+  const byNumber = new Map();
+  for (const m of marked) if (!byNumber.has(m.n)) byNumber.set(m.n, m);
+
+  const run = [...byNumber.keys()].sort((a, b) => a - b);
+  if (run.length < MIN_STEPS) return [];
+  if (run[0] !== 1) return [];
+  if (run.some((n, i) => n !== i + 1)) return [];
+  // A bare numbered list has to be unanimous. One "Step 4:" among "1) 2) 3)" is
+  // two lists interleaved and neither of them is the one we would print.
+  const explicit = marked.filter((m) => m.explicit).length;
+  if (explicit && explicit !== marked.length) return [];
+
+  return run.map((n) => byNumber.get(n));
+}
+
+/** A short human label for a step, taken off the page and never written for it. */
+export const stepLabel = (text) =>
+  String(text ?? "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .replace(/[.;:,]\s*$/, "")
+    .slice(0, 90);
+
+// -------------------------------------------------------- requirement groups
+
+/**
+ * Grouping language, and what it means. Nothing else counts.
+ *
+ * §14: a list is only alternatives when the page says it is. Two documents that
+ * look alike under one heading are not an ANY_OF, they are two documents, and
+ * guessing otherwise tells a citizen they can skip one of the two things they
+ * actually need.
+ */
+const GROUP_HEADS = [
+  [/\b(any\s+one\s+of\s+the\s+following|any\s+of\s+the\s+following|one\s+of\s+the\s+following|either\s+of\s+the\s+following)\b/i, "ANY_OF", 1],
+  [/\b(નીચેના\s*પૈકી\s*(?:કોઈ|કોઇ)?\s*એક|પૈકી\s*(?:કોઈ|કોઇ)\s*એક)\b/, "ANY_OF", 1],
+  [/\bany\s+two\s+of\s+the\s+following\b/i, "AT_LEAST_N", 2],
+  [/\bat\s+least\s+two\s+of\s+the\s+following\b/i, "AT_LEAST_N", 2],
+  [/\b(all\s+of\s+the\s+following|following\s+documents?\s+(?:are\s+)?(?:is\s+)?(?:required|to\s+be\s+submitted|should\s+be\s+submitted|must\s+be\s+submitted|are\s+needed))\b/i, "ALL_OF", 0],
+  [/\b(જરૂરી\s*દસ્તાવેજો?\s*નીચે\s*મુજબ|નીચે\s*મુજબના\s*દસ્તાવેજો)\b/, "ALL_OF", 0],
+];
+
+/** Lines that are the site around the list rather than a member of it. */
+const NOT_A_MEMBER = /^(ans\s*:|answer\s*:|note\s*:|home|back|next|click here|read more|know more|online services|contact us|sitemap|disclaimer|\W*$)/i;
+
+/**
+ * Every explicitly grouped list of documents on a page.
+ *
+ * Deterministic, no model. Finds the header, takes the lines under it until the
+ * list stops looking like a list, and returns the block with the header quoted
+ * verbatim so the group can carry the sentence that made it a group.
+ *
+ * ponytail: line based, so a list laid out across table cells on one line is
+ * missed. The alternative is a DOM and a model, and this is the half that is
+ * safe to get wrong: a missed group is two documents both shown as required,
+ * which is a citizen bringing one more paper than they needed to.
+ */
+export function groupBlocks(text) {
+  const lines = String(text ?? "").split("\n");
+  const out = [];
+  for (let i = 0; i < lines.length; i++) {
+    const head = lines[i] ?? "";
+    if (head.length > 160) continue;
+    const hit = GROUP_HEADS.find(([re]) => re.test(head));
+    if (!hit) continue;
+    const members = [];
+    let last = i;
+    for (let j = i + 1; j < Math.min(i + 16, lines.length); j++) {
+      const line = (lines[j] ?? "").replace(/^[\s•\-*·–—o]+/, "").replace(/^\(?[a-z0-9]{1,3}[).]\s*/i, "").trim();
+      if (!line || line.length > 120) break;
+      if (NOT_A_MEMBER.test(line)) break;
+      // A second header means the previous list ended, whatever it looked like.
+      if (GROUP_HEADS.some(([re]) => re.test(line))) break;
+      members.push(line);
+      last = j;
+    }
+    // Two is the smallest thing that is a choice. One member under an "any one
+    // of" header is a page we misread, and the validator would reject it anyway.
+    //
+    // `evidence` is the untouched slice of the page from the header to the last
+    // member, not the tidied members joined back up. The bullets and the
+    // indentation have to still be there or the substring gate in quotes:audit
+    // rejects the quote, and it is right to: a quote you had to reassemble is
+    // not a quote.
+    if (members.length >= 2) {
+      out.push({ head: head.trim(), mode: hit[1], minimum: hit[2], members, evidence: lines.slice(i, last + 1).join("\n").trim() });
+    }
+  }
+  return out;
+}
+
 /** A government email address, or null. Same proof as the hostname. */
 export function govEmail(value) {
   const raw = String(value ?? "").trim().toLowerCase();
@@ -495,6 +654,81 @@ if (flag("selftest")) {
   for (const name of Object.keys(JOURNEYS)) {
     assert.ok(!HERO.has(name), `journey "${name}" would overwrite a hand written bundle`);
   }
+
+  // ---------------------------------------------------------- ordered actions
+
+  const action = (evidence, claim = evidence) => ({ kind: "ACTION", evidence, claim });
+
+  assert.deepEqual(stepMarker("Step 3: Click on the Apply button"), { n: 3, explicit: true, rest: "Click on the Apply button" });
+  assert.deepEqual(stepMarker("  4) Upload the documents"), { n: 4, explicit: false, rest: "Upload the documents" });
+  assert.deepEqual(stepMarker("(2) Pay the fee"), { n: 2, explicit: false, rest: "Pay the fee" });
+  assert.equal(stepMarker("Visit the Mamlatdar office"), null, "an instruction with no number is not a step");
+  assert.equal(stepMarker("2024 was the year of the scheme"), null, "a year is not a step number");
+
+  assert.equal(readsAsAQuestion("What is Challan Correction?"), true);
+  assert.equal(readsAsAQuestion("Which attributes are available"), true, "a question keeps being one without its mark");
+  assert.equal(readsAsAQuestion("21-Mar-2025 | NCLT | In the matter of"), true, "a dated register row is not an instruction");
+  assert.equal(readsAsAQuestion("Login to the system and find Renewal Application"), false);
+
+  const process3 = [
+    action("1) Login to the system and find Renewal Application submenu."),
+    action("2) Click on + icon which you find on top right."),
+    action("3) Then upload attachment and add payment detail."),
+  ];
+  assert.deepEqual(orderedSteps(process3).map((s) => s.n), [1, 2, 3], "a clean run is a process");
+  assert.deepEqual(
+    orderedSteps([...process3, action("Visit the office with the fee slip")]).map((s) => s.n),
+    [1, 2, 3],
+    "an unnumbered instruction alongside a clean run is left out, not slotted in",
+  );
+
+  // §9, the whole reason this exists. Every one of these is a page that names
+  // the things to do and never says in what order.
+  assert.deepEqual(orderedSteps([action("Upload documents"), action("Pay the fee"), action("Visit the office")]), [], "an unordered list gets no order invented for it");
+  assert.deepEqual(orderedSteps([action("2) Pay the fee"), action("3) Visit"), action("4) Collect")]), [], "a run that does not start at one is a run we have misread");
+  assert.deepEqual(orderedSteps([action("1) Apply"), action("2) Pay"), action("4) Collect")]), [], "a gap means a step we did not extract");
+  assert.deepEqual(orderedSteps([action("1) Apply"), action("2) Pay")]), [], `under ${MIN_STEPS} numbered lines is not a process`);
+  assert.deepEqual(
+    orderedSteps([action("1. What is Challan Correction?"), action("2. Which attributes are available"), action("3. Where can a user raise a request")]),
+    [],
+    "a numbered FAQ is not a numbered process",
+  );
+  assert.deepEqual(
+    orderedSteps([action("1) Apply online"), action("2) Pay the fee"), action("Step 3: Collect it")]),
+    [],
+    "one Step 3 among bare numbers is two interleaved lists",
+  );
+  assert.deepEqual(
+    orderedSteps([action("1) Apply online"), action("1) Apply online again"), action("2) Pay"), action("3) Collect")]).map((s) => s.n),
+    [1, 2, 3],
+    "the first writing of a number wins",
+  );
+
+  assert.equal(stepLabel("  Click on the Apply  button.  "), "Click on the Apply button");
+
+  // -------------------------------------------------------- requirement groups
+
+  const anyOne = groupBlocks("Identity proof, any one of the following:\n- Aadhaar card\n- Passport\n- Election ID card\n\nNext section");
+  assert.equal(anyOne.length, 1);
+  assert.equal(anyOne[0].mode, "ANY_OF");
+  assert.deepEqual(anyOne[0].members, ["Aadhaar card", "Passport", "Election ID card"], "bullets and numbering stripped, the blank line ends it");
+  assert.ok(anyOne[0].head.includes("any one of the following"), "the group carries the sentence that made it a group");
+
+  const all = groupBlocks("Following documents should be submitted for license renewal\nAn application in form No. 3\nTreasury receipt of necessary fees\nOriginal License.");
+  assert.equal(all[0]?.mode, "ALL_OF");
+  assert.equal(all[0]?.members.length, 3);
+
+  assert.equal(groupBlocks("Any two of the following:\na) Ration card\nb) Light bill")[0]?.minimum, 2);
+
+  // The line §14 draws. A heading over a list is not the page saying "any one".
+  assert.deepEqual(groupBlocks("Identity Proof:\n- Aadhaar card\n- Passport"), [], "a bare heading over a list is not grouping language");
+  assert.deepEqual(groupBlocks("Any one of the following:\n- Aadhaar card"), [], "one member is not a choice");
+  assert.deepEqual(groupBlocks("Any one of the following:\nAns :\nAadhaar card\nPassport"), [], "the site's own furniture ends the list");
+  assert.deepEqual(
+    groupBlocks("Any one of the following:\nAadhaar card\nPassport\nAny two of the following:\nRation card\nLight bill").map((g) => g.mode),
+    ["ANY_OF", "AT_LEAST_N"],
+    "a second header ends the first list and starts its own",
+  );
 
   console.log("services-compile: ok");
   process.exit(0);
@@ -736,6 +970,33 @@ const DOC_SYSTEM = [
 /** phrase as shown to the model -> true if it is a document */
 const known = new Map(readJsonl(DOCUMENTS).filter((r) => r.promptVersion === DOC_VERSION).map((r) => [r.phrase, r.document]));
 
+/**
+ * The cached page, and the grouped lists on it.
+ *
+ * Grouping language ("any one of the following") almost never survives into a
+ * fact's own evidence quote, because the extractor quotes the requirement and
+ * not the sentence above it. Measured: 7 facts in the whole corpus carry
+ * at-least-n language, 3 either/or, 1 one-of-following. The sentence that makes
+ * a list a choice lives on the page, so this reads the page.
+ *
+ * Both memoised on sha1: one service can be built from nine pages and every
+ * page is read twice, once to ask the classifier about its members and once to
+ * write the group.
+ */
+const textOf = memo((sha1) => {
+  const file = at(`.ingest/pages/${sha1}.md`);
+  return existsSync(file) ? readFileSync(file, "utf8") : "";
+});
+const blocksOf = memo((sha1) => groupBlocks(textOf(sha1)));
+
+function memo(fn) {
+  const seen = new Map();
+  return (key) => {
+    if (!seen.has(key)) seen.set(key, fn(key));
+    return seen.get(key);
+  };
+}
+
 const wanted = new Set();
 for (const services of journeys.values()) {
   for (const service of services.values()) {
@@ -743,6 +1004,9 @@ for (const services of journeys.values()) {
       for (const f of page.facts) {
         if (f.kind === "DOCUMENT_REQUIREMENT" && f.object && !FIELDS.has(f.object)) wanted.add(f.object);
       }
+      // A group member goes through the same classifier as everything else. A
+      // list under "any one of the following" is still full of form fields.
+      for (const b of blocksOf(page.page.sha1)) for (const m of b.members) wanted.add(m);
     }
   }
 }
@@ -828,6 +1092,7 @@ function build(journey, services) {
   const edges = [];
   const declared = new Set();
   const facts = [];
+  const requirementGroups = [];
   const notFound = [...(headings.get(journey) ?? [])];
 
   /** One graph node, unless somebody already owns that id. */
@@ -856,6 +1121,8 @@ function build(journey, services) {
     const serviceRefs = [];
     /** What this service's pages said that we read and then refused to write. */
     const gaps = [];
+    /** One numbered process per service. Nine pages do not make nine processes. */
+    let steps = 0;
 
     for (const c of service.pages) {
       const sourceId = `src:${sha1(c.url).slice(0, 12)}`;
@@ -967,6 +1234,81 @@ function build(journey, services) {
           if (serviceRefs.length < 12) serviceRefs.push(ref(sourceId, f));
         }
       }
+
+      // ------------------------------------------------------ ordered actions
+      //
+      // Only where the page numbered them itself. `orderedSteps` returns a run
+      // or nothing, and nothing is the common answer: 2521 ACTION facts across
+      // the corpus and most of them are a Mamlatdar's job description or a
+      // dropdown label. §9: an ambiguous sequence never becomes a citizen path.
+      const run = steps ? [] : orderedSteps(c.facts);
+      if (run.length) {
+        let previous = null;
+        for (const m of run) {
+          const label = stepLabel(m.label);
+          // Scoped to the service. Two services that both say "Pay the fee" are
+          // two steps, because the fee, the counter and the receipt differ.
+          const actionId = `action:${service.id}_${m.n}_${slug(label).slice(0, 40)}`;
+          const r = [ref(sourceId, m.fact)];
+          put({
+            id: actionId,
+            type: "ACTION",
+            name: display(label),
+            jurisdictionId,
+            metadata: { whatToDo: m.fact.claim, stepNumber: m.n, machineExtracted: true },
+            sources: r,
+            lastVerifiedAt: today(),
+          });
+          link(serviceNodeId, actionId, "REQUIRES", `Step ${m.n} of ${run.length} as the page numbers them.`, r);
+          if (previous) link(actionId, previous, "DEPENDS_ON", "The page puts this step after that one.", r);
+          previous = actionId;
+          if (serviceRefs.length < 12) serviceRefs.push(ref(sourceId, m.fact));
+        }
+        steps = run.length;
+      } else if (!steps && c.facts.filter((f) => f.kind === "ACTION").length >= MIN_STEPS) {
+        gaps.push(
+          `${service.name}: ${c.url} lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.`,
+        );
+      }
+
+      // --------------------------------------------------- requirement groups
+      for (const b of blocksOf(c.page.sha1)) {
+        // Deduped on the id, not the phrase: "Aadhaar Card" and "Aadhaar card"
+        // are one member, and a group listing the same node twice is a defect
+        // the validator is right to reject.
+        const members = [...new Map(b.members.filter((m) => isDocument(m) && slug(m)).map((m) => [slug(m), m])).values()];
+        if (members.length < 2) {
+          if (b.members.length >= 2) {
+            gaps.push(`${service.name}: ${c.url} offers a choice under "${b.head}" but fewer than two of the lines under it are documents, so no group was written.`);
+          }
+          continue;
+        }
+        // Keyed on the choice itself. The same ten proofs listed on four pages
+        // is one group, and the fourth page finding it again is a no-op.
+        const key = sha1(`${b.mode}|${members.map((m) => title(m)).sort().join("|")}`).slice(0, 10);
+        const groupId = `document_group:g_${key}`;
+        const r = [{ sourceId, evidence: b.evidence, confidence: 0.6, verificationStatus: "EXTRACTED" }];
+        // Same id shape as the DOCUMENT_REQUIREMENT branch above, so "Aadhaar
+        // card" read off a list and `aadhaar_card` read out of a fact land on
+        // one node instead of two.
+        const memberIds = members.map((m) => `document:${slug(m)}`);
+        for (const [i, m] of members.entries()) {
+          put({ id: memberIds[i], type: "DOCUMENT", name: display(title(m)), jurisdictionId, sources: r, lastVerifiedAt: today() });
+        }
+        if (put({ id: groupId, type: "DOCUMENT_GROUP", name: display(stepLabel(b.head)), officialName: b.head, jurisdictionId, sources: r, lastVerifiedAt: today() })) {
+          requirementGroups.push({
+            id: `rg:g_${key}`,
+            ownerNodeId: groupId,
+            mode: b.mode,
+            ...(b.mode === "AT_LEAST_N" ? { minimumRequired: b.minimum } : {}),
+            jurisdictionId,
+            members: memberIds.map((nodeId) => ({ nodeId })),
+            sources: r,
+          });
+        }
+        link(serviceNodeId, groupId, "REQUIRES", b.head, r);
+        if (serviceRefs.length < 12) serviceRefs.push(r[0]);
+      }
     }
 
     if (!serviceRefs.length) {
@@ -1046,7 +1388,17 @@ function build(journey, services) {
   const forGraph = sources.map(({ cacheFile, scrapedOk, ...rest }) => rest);
 
   return {
-    graph: { id: journey, sources: forGraph, nodes, edges: kept, requirementGroups: [], questions: [] },
+    // A group whose owner never made it into `nodes` is the same dangling
+    // reference as a dangling edge, and both happen for the same reason: the
+    // service it hung off had nothing quotable and was dropped.
+    graph: {
+      id: journey,
+      sources: forGraph,
+      nodes,
+      edges: kept,
+      requirementGroups: requirementGroups.filter((g) => live.has(g.ownerNodeId) && g.members.every((m) => live.has(m.nodeId))),
+      questions: [],
+    },
     research: { journey, researchedAt: today(), region: "Gujarat, India", sources, facts, notFound },
   };
 }
