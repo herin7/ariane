@@ -121,8 +121,19 @@ describe("questions collapse as they are answered", () => {
     expect(form1a, "the conflicting source must not be silently dropped").toBeDefined();
     expect(form1a?.note).toMatch(/conflict/i);
 
+    // Four official pages disagree about when Form 1A is needed. Every one of
+    // them that applies to this citizen has to survive compilation with its
+    // quote intact. The count is whatever the sources say, not a magic number.
     const conflicting = young.graph.edges.filter((e) => e.verificationStatus === "CONFLICTING");
-    expect(conflicting).toHaveLength(1);
+    expect(conflicting.map((e) => e.id).sort()).toEqual([
+      "e:ll_requires_form_1a_always",
+      "e:ll_requires_form_1a_gujarat",
+    ]);
+    for (const edge of conflicting) {
+      expect(edge.to).toBe("document:form_1a_medical");
+      expect(edge.note).toBeTruthy();
+      for (const source of edge.sources ?? []) expect(source.evidence?.length ?? 0).toBeGreaterThan(0);
+    }
   });
 });
 
@@ -216,7 +227,19 @@ describe("satisfaction pruning", () => {
     const proof = compile().documentsNeeded.find((d) => d.nodeId === "document_group:address_and_age_proof");
     expect(proof?.mode).toBe("ANY_OF");
     expect(proof?.minimumRequired).toBe(1);
-    expect(proof?.alternatives?.map((a) => a.nodeId)).toEqual(["document:passport", "document:birth_certificate"]);
+    // The full Form 2 annexure, in the order the annexure numbers them.
+    expect(proof?.alternatives?.map((a) => a.nodeId)).toEqual([
+      "document:aadhaar",
+      "document:electoral_roll",
+      "document:life_insurance_policy",
+      "document:passport",
+      "document:school_certificate",
+      "document:birth_certificate",
+      "document:government_pay_slip",
+      "document:sworn_affidavit",
+      "document:civil_surgeon_age_certificate",
+      "document:state_specified_proof",
+    ]);
   });
 });
 
