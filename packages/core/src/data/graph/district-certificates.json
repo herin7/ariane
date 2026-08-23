@@ -1104,8 +1104,7 @@
    "description": "This service provides the process for registering a new cooperative society and amending its bye-laws, including required documents and eligibility criteria.",
    "jurisdictionId": "IN-GJ-JAMNAGAR",
    "metadata": {
-    "machineExtracted": true,
-    "processingDays": "60"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -1283,7 +1282,7 @@
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "machineExtracted": true,
-    "fee": "115"
+    "fee": "A certificate of registration is issued on payment of a fee not exceeding 115 rupees."
    },
    "sources": [
     {
@@ -1703,7 +1702,7 @@
    "jurisdictionId": "IN-GJ-KHEDA",
    "metadata": {
     "machineExtracted": true,
-    "processingDays": "60"
+    "timeline": "The processing time for the application is 60 days."
    },
    "sources": [
     {
@@ -1888,7 +1887,7 @@
    "jurisdictionId": "IN-GJ-AHMEDABAD",
    "metadata": {
     "machineExtracted": true,
-    "processingDays": "1"
+    "timeline": "The processing time for the certificate is 1 day."
    },
    "sources": [
     {
@@ -1999,7 +1998,7 @@
    "jurisdictionId": "IN-GJ-GANDHINAGAR",
    "metadata": {
     "machineExtracted": true,
-    "processingDays": "1"
+    "timeline": "The processing time for the certificate is a total of 1 day."
    },
    "sources": [
     {
@@ -2086,7 +2085,7 @@
    "jurisdictionId": "IN-GJ-BHAVNAGAR",
    "metadata": {
     "machineExtracted": true,
-    "processingDays": "21"
+    "timeline": "The total time limit for processing the application is 21 days."
    },
    "sources": [
     {
@@ -2452,7 +2451,7 @@
    "jurisdictionId": "IN-GJ-AMRELI",
    "metadata": {
     "machineExtracted": true,
-    "processingDays": "21"
+    "timeline": "The processing time for the application is 21 days."
    },
    "sources": [
     {
@@ -2837,7 +2836,7 @@
    "jurisdictionId": "IN-GJ-VALSAD",
    "metadata": {
     "machineExtracted": true,
-    "processingDays": "21"
+    "timeline": "The processing time for the application is 21 days."
    },
    "sources": [
     {
@@ -2945,7 +2944,7 @@
    "jurisdictionId": "IN-GJ-AHMEDABAD",
    "metadata": {
     "machineExtracted": true,
-    "processingDays": "1"
+    "timeline": "The total processing time for the certificate is 1 day."
    },
    "sources": [
     {
@@ -3047,7 +3046,7 @@
    "jurisdictionId": "IN-GJ-BHAVNAGAR",
    "metadata": {
     "machineExtracted": true,
-    "processingDays": "21"
+    "timeline": "The processing time for the application is 21 days."
    },
    "sources": [
     {
@@ -3135,7 +3134,7 @@
    "jurisdictionId": "IN-GJ-GIR_SOMNATH",
    "metadata": {
     "machineExtracted": true,
-    "processingDays": "21"
+    "timeline": "The application process for certifying birth/marriage/death/police clearance certificate/school leaving certificate/affidavit/trade/commerce/export-related certificates takes a maximum of 21 days."
    },
    "sources": [
     {
@@ -3385,7 +3384,7 @@
    "jurisdictionId": "IN-GJ-JAMNAGAR",
    "metadata": {
     "machineExtracted": true,
-    "processingDays": "21"
+    "timeline": "The processing time for an education purpose nationality certificate is 21 days."
    },
    "sources": [
     {
@@ -3454,7 +3453,7 @@
    "jurisdictionId": "IN-GJ-PORBANDAR",
    "metadata": {
     "machineExtracted": true,
-    "processingDays": "21"
+    "timeline": "The processing time for the application is a maximum of 21 days."
    },
    "sources": [
     {
@@ -3646,7 +3645,7 @@
    "jurisdictionId": "IN-GJ-AHMEDABAD",
    "metadata": {
     "machineExtracted": true,
-    "processingDays": "1"
+    "timeline": "The processing time for the residential certificate is a total of 1 day."
    },
    "sources": [
     {
@@ -3763,7 +3762,7 @@
    "jurisdictionId": "IN-GJ-AHMEDABAD",
    "metadata": {
     "machineExtracted": true,
-    "processingDays": "15"
+    "timeline": "The application process for a farmer account holder certificate takes a total of 15 days."
    },
    "sources": [
     {
@@ -3816,7 +3815,7 @@
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "machineExtracted": true,
-    "fee": "50"
+    "fee": "A fee of Rs 50 is payable for Apostille of a document."
    },
    "sources": [
     {
@@ -3975,7 +3974,7 @@
    "jurisdictionId": "IN-GJ-AMRELI",
    "metadata": {
     "machineExtracted": true,
-    "processingDays": "15"
+    "timeline": "The application process for obtaining certified copies must be completed within a total of 15 days."
    },
    "sources": [
     {

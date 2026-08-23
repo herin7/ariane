@@ -190,8 +190,7 @@
    "description": "Challan Correction allows taxpayers to rectify errors made while depositing tax using a challan for specific tax heads.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "processingDays": "7"
+    "machineExtracted": true
    },
    "sources": [
     {

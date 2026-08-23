@@ -256,8 +256,7 @@
    "description": "The Sugar Distribution Scheme provides sugar and other subsidized items to AAY, BPL, and NFSA ration card holders under the Public Distribution System.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "15"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -380,7 +379,7 @@
    "jurisdictionId": "IN-GJ-GIR_SOMNATH",
    "metadata": {
     "machineExtracted": true,
-    "processingDays": "1"
+    "timeline": "The processing time for a duplicate ration card is 1 day."
    },
    "sources": [
     {

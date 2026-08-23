@@ -147,8 +147,7 @@
    "description": "A service allowing taxpayers to request corrections to their challans for specific tax payments.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "processingDays": "30"
+    "machineExtracted": true
    },
    "sources": [
     {

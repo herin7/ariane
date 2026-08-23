@@ -477,7 +477,7 @@
    "jurisdictionId": "IN-GJ-AHMEDABAD",
    "metadata": {
     "machineExtracted": true,
-    "processingDays": "75"
+    "timeline": "The processing time for the application is 75 days."
    },
    "sources": [
     {
@@ -648,7 +648,7 @@
    "jurisdictionId": "IN-GJ-GANDHINAGAR",
    "metadata": {
     "machineExtracted": true,
-    "processingDays": "40"
+    "timeline": "The total processing time for the application is 40 days."
    },
    "sources": [
     {
@@ -837,8 +837,7 @@
    "description": "The page provides information on the requirements and timelines for filing appeals and revision applications under various legal provisions.",
    "jurisdictionId": "IN-GJ-AHMEDABAD",
    "metadata": {
-    "machineExtracted": true,
-    "processingDays": "60"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -883,7 +882,7 @@
    "jurisdictionId": "IN-GJ-AHMEDABAD",
    "metadata": {
     "machineExtracted": true,
-    "processingDays": "15"
+    "timeline": "The total time limit for the process of obtaining a copy is 15 days."
    },
    "sources": [
     {
@@ -925,7 +924,7 @@
    "jurisdictionId": "IN-GJ-ANAND",
    "metadata": {
     "machineExtracted": true,
-    "processingDays": "15"
+    "timeline": "The total time limit for processing the application is 15 days."
    },
    "sources": [
     {

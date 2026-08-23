@@ -2114,8 +2114,7 @@
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "machineExtracted": true,
-    "fee": "400000",
-    "processingDays": "120"
+    "timeline": "Application must be submitted within 90 days time limit to the Assistant Government Labour Officer."
    },
    "sources": [
     {
@@ -2223,7 +2222,7 @@
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "machineExtracted": true,
-    "fee": "380000"
+    "fee": "The package cost for 100 deliveries under the Chiranjeevi Yojana is Rs. 3,80,000."
    },
    "sources": [
     {
@@ -2493,7 +2492,7 @@
    "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
    "metadata": {
     "machineExtracted": true,
-    "fee": "36000"
+    "fee": "The total cost of one housing unit is Rs. 43,000."
    },
    "sources": [
     {
@@ -2674,8 +2673,7 @@
    "description": "Financial assistance for pilgrimage to religious sites, including Kailash Mansarovar, Shravan Tirth, Sindhu Darshan, and Shree Ram Janmabhoomi.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "50000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -2889,8 +2887,7 @@
    "description": "The Tirth Gram Yojana provides an incentive grant of one lakh rupees to selected villages that meet certain social, educational, and developmental criteria.",
    "jurisdictionId": "IN-GJ-NAVSARI",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "100000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -3373,8 +3370,7 @@
    "description": "The Shaktidoot Scheme provides financial assistance to talented sports players for equipment, coaching, and competition expenses to help them win medals at national and international levels.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "15.66"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -3597,8 +3593,7 @@
    "description": "The Tirth Gram scheme provides a grant of one lakh rupees to selected villages that meet specific social, educational, and developmental criteria.",
    "jurisdictionId": "IN-GJ-JAMNAGAR",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "100000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -3687,8 +3682,7 @@
    "description": "OTS Scheme 2023-I provides financial relief to eligible companies with non-performing accounts and negative net worth.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "10%"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -3835,8 +3829,7 @@
    "description": "The Self-Employment Scheme provides loans for starting small businesses or transport-related ventures to eligible Gujarat residents.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "10.00"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -4201,8 +4194,7 @@
    "description": "The Shakti Doot scheme provides financial assistance and insurance to young athletes based on their sports achievements.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "2500000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -4288,8 +4280,7 @@
    "description": "The Gujarat State Electronics Mission provides financial incentives and support for electronics manufacturing, including subsidies, reimbursements, and training programs.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "15%"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -4413,8 +4404,7 @@
    "description": "The Education Assistance Scheme provides financial assistance for education from primary school to Ph.D. for two children of registered construction workers and for the worker's wife up to age 30.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "processingDays": "90"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -4685,8 +4675,7 @@
    "description": "Selected artists who win awards in the Drawing and Painting category of the State Art Competition can participate in the Contemporary Artists Camp, where they receive art materials, accommodation, meals, travel expenses, and a certificate.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "15000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -4873,8 +4862,7 @@
    "description": "The scheme provides financial assistance of 12,000 rupees to girls from scheduled castes at the time of their marriage.",
    "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "12000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -4978,8 +4966,7 @@
    "description": "The service provides a small savings scheme agency application process.",
    "jurisdictionId": "IN-GJ-JAMNAGAR",
    "metadata": {
-    "machineExtracted": true,
-    "processingDays": "15"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -5071,9 +5058,7 @@
    "description": "The scheme provides insurance cover of Rs.1,00,000 in case of accidental death or permanent disablement and Rs.50,000 for partial disablement.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "100000",
-    "processingDays": "90"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -5129,8 +5114,7 @@
    "description": "The service provides educational loans to non-reserved category students in Gujarat for recognized professional courses with a 4% annual simple interest rate.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "10.00"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -5578,7 +5562,7 @@
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "machineExtracted": true,
-    "fee": "2.50"
+    "fee": "The maximum eligible project cost for diagnostic study is Rs. 2.50 lakhs."
    },
    "sources": [
     {
@@ -6505,8 +6489,7 @@
    "description": "The Balika Samridhi Yojana provides financial assistance and scholarships to girls from families below the poverty line to improve school enrollment and prevent early marriage.",
    "jurisdictionId": "IN-GJ-JAMNAGAR",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "500"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -6672,8 +6655,7 @@
    "description": "The service provides financial assistance for training programs based on their duration and the candidate's category.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "15000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -6828,8 +6810,7 @@
    "description": "The Tution Help Scheme provides an annual financial assistance of 15,000 rupees directly to eligible students through DBT.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "15000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -6944,8 +6925,7 @@
    "description": "The scheme provides incentive grants to villages for promoting cleanliness and hygiene, with a 110% grant for villages collecting 100% of the sanitation tax.",
    "jurisdictionId": "IN-GJ-NAVSARI",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "110"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -7047,8 +7027,7 @@
    "description": "The Dikri Yojana provides financial certificates to families with daughters who undergo sterilization, and the Green Card Yojana provides benefits to individuals with two children who undergo sterilization.",
    "jurisdictionId": "IN-GJ-VADODARA",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "6000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -7120,8 +7099,7 @@
    "description": "The Samras Gram Yojana provides incentive grants to gram panchayats for village development, including clean water, roads, healthcare, and education.",
    "jurisdictionId": "IN-GJ-VADODARA",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "60000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -7362,8 +7340,7 @@
    "description": "The Sardar Awas Yojana provides free land plots and financial assistance for house construction to eligible families, including landless farmers, rural artisans, and those with dilapidated homes.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "45000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -7551,8 +7528,7 @@
    "description": "The Chiranjeevi Scheme provides free delivery at private hospitals and travel expenses for pregnant women from families below the poverty line.",
    "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "200"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -7638,8 +7614,7 @@
    "description": "Apprentice trainees are trained in various trades at Government Presses under the Apprentice Act-1961.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "6,800"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -7713,8 +7688,7 @@
    "description": "The scheme provides free admission to 25% of the seats in unaided private primary schools for children from disadvantaged and marginalized groups, along with financial assistance and reimbursement to schools.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "3000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -7767,8 +7741,7 @@
    "description": "The Rogi Kalyan Samiti scheme provides medical benefits up to 15,000 per patient for various major illnesses.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "15000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -8054,8 +8027,7 @@
    "description": "Provides eligible students in Gujarat with tablets for educational purposes.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "1000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -8305,8 +8277,7 @@
    "description": "Eligible beneficiaries receive two free LPG refills per year, with a subsidy of ₹300 per refill.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "300"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -8534,8 +8505,7 @@
    "description": "The scheme provides financial assistance of ₹50,000 to the parents of a child who dies accidentally while studying in a government school.",
    "jurisdictionId": "IN-GJ-SABARKANTHA",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "50000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -8903,8 +8873,7 @@
    "description": "Financial assistance is provided to workers who suffer accidents at the workplace and become disabled.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "25000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -9077,8 +9046,7 @@
    "description": "The Antyeshti Aid Scheme provides financial assistance of ₹5000 to the legal heir of a registered construction worker who dies while their membership is active.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "5000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -9170,7 +9138,7 @@
    "jurisdictionId": "IN-GJ-BANASKANTHA",
    "metadata": {
     "machineExtracted": true,
-    "fee": "200"
+    "fee": "A mother will receive 200 rupees for the cost of transportation to and from the hospital during pregnancy."
    },
    "sources": [
     {
@@ -9274,8 +9242,7 @@
    "description": "The Antyesthi Aid Scheme provides ₹5000 financial assistance to the legal heir of a registered construction worker who dies while their membership is active.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "5000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -9371,8 +9338,7 @@
    "description": "The service provides a monthly fellowship of ₹5000 for one year to retired artists aged 60 or above in the field of plastic arts with national recognition.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "5000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -9522,8 +9488,7 @@
    "description": "The Higher Education Assistance Scheme provides financial assistance to children of laborers to reduce the burden of higher education expenses.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "20000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -9559,8 +9524,7 @@
    "description": "The page provides updated contribution rates for the Labour Welfare Fund for employees and employers effective from December 2016.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "6"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -9644,8 +9608,7 @@
    "description": "The Gujarat State Lalit Kala Academy provides financial assistance of up to 50% of the printing cost or a maximum of 20,000 rupees for book publication by artists or art institutions.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "20000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -9812,8 +9775,7 @@
    "description": "The service provides interest subsidies on specific bank loans for vehicle purchase, overseas studies, and machinery or vehicle purchases in construction and agriculture sectors.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "6%"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -9848,8 +9810,7 @@
    "description": "Families with only daughters can receive a national savings certificate if they undergo family planning operations.",
    "jurisdictionId": "IN-GJ-BANASKANTHA",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "6000"
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -9935,8 +9896,7 @@
    "description": "The service provides financial grants to municipalities for constructing new office buildings or renovating old ones that are more than 30 years old.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "200"
+    "machineExtracted": true
    },
    "sources": [
     {
