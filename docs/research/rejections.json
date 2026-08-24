@@ -1,0 +1,760 @@
+{
+ "runId": "compile-2026-08-24T19:23:46.106Z",
+ "compiledAt": "2026-08-24",
+ "total": 7296,
+ "reasons": [
+  {
+   "stage": "compile",
+   "reason": "TRUNCATED_BY_CAP",
+   "count": 1877,
+   "examples": [
+    {
+     "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
+     "claim": "The eligible unit shall manufacture the goods in its own unit for which it is eligible for incentives.",
+     "note": "past the 12 quotes a service node shows"
+    },
+    {
+     "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
+     "claim": "The eligible unit shall not transfer its business during the incentive period, nor assign its rights and responsibilities to any other agency.",
+     "note": "past the 12 quotes a service node shows"
+    },
+    {
+     "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
+     "claim": "The eligible unit shall remain in production during the incentive period.",
+     "note": "past the 12 quotes a service node shows"
+    },
+    {
+     "url": "https://devbhumidwarkadp.gujarat.gov.in/gu/E-gram-Vishvagram-Yojana",
+     "claim": "E-Gram Panchayat provides name change in property records.",
+     "note": "past the 12 quotes a service node shows"
+    },
+    {
+     "url": "https://devbhumidwarkadp.gujarat.gov.in/gu/E-gram-Vishvagram-Yojana",
+     "claim": "E-Gram Panchayat provides agricultural market linkage for agricultural products.",
+     "note": "past the 12 quotes a service node shows"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "NO_EXPLICIT_ORDER",
+   "count": 943,
+   "examples": [
+    {
+     "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
+     "claim": "The enterprise will apply to the Industries Commissioner in a prescribed format along with a detailed project report.",
+     "note": null
+    },
+    {
+     "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
+     "claim": "The application will be scrutinized and put up before the Committee for approval.",
+     "note": null
+    },
+    {
+     "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
+     "claim": "On approval of the Committee, a registration certificate will be issued.",
+     "note": null
+    },
+    {
+     "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
+     "claim": "On commencement of commercial production, the enterprise will apply to the Industries Commissioner for assistance under the scheme.",
+     "note": null
+    },
+    {
+     "url": "https://devbhumidwarkadp.gujarat.gov.in/gu/E-gram-Vishvagram-Yojana",
+     "claim": "E-Gram Panchayat provides birth and death certificates, income certificates, caste certificates, character certificates, and residence certificates.",
+     "note": null
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "NOT_A_SERVICE_PAGE",
+   "count": 941,
+   "examples": [
+    {
+     "url": "https://www.nhb.org.in/regulation_post/guidelines-on-fair-practices-code-for-hfcs",
+     "claim": "GUIDELINES ON FAIR PRACTICES CODE FOR HFCs - National Housing Bank",
+     "note": "no service name came back"
+    },
+    {
+     "url": "https://sarathi.parivahan.gov.in/paymentscov/HELP.htm",
+     "claim": "COV payments",
+     "note": "identified, and nobody applies for it"
+    },
+    {
+     "url": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/itr%204-faqs",
+     "claim": "File ITR-4 (Sugam) Online FAQs | Income Tax Department",
+     "note": "no service name came back"
+    },
+    {
+     "url": "https://sciencecity.gujarat.gov.in/fees-timing",
+     "claim": "Gujarat Science City Entry",
+     "note": "identified, and nobody applies for it"
+    },
+    {
+     "url": "https://pan.utiitsl.com/downloadFile?FileName=PBV_Approved_category.pdf#page=1",
+     "claim": "PAN",
+     "note": "identified, and nobody applies for it"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "NOT_A_DOCUMENT",
+   "count": 867,
+   "examples": [
+    {
+     "url": "https://jamnagardp.gujarat.gov.in/gu/Registration-of-co-operatives-and-sub-rule-amendments",
+     "claim": "Application in prescribed form must be submitted in 4 copies for new cooperative society registration",
+     "note": "prescribed_form_application"
+    },
+    {
+     "url": "https://jamnagardp.gujarat.gov.in/gu/Registration-of-co-operatives-and-sub-rule-amendments",
+     "claim": "Necessary affidavits/guarantee letters/certificates/proof of residence and identity of promoters must be submitted",
+     "note": "promoter_documents"
+    },
+    {
+     "url": "https://jamnagardp.gujarat.gov.in/gu/Registration-of-co-operatives-and-sub-rule-amendments",
+     "claim": "Prescribed forms 1 to 5 for bye-law amendment must be completely filled with signatures and seals of office bearers, with form 4 in 4 copies",
+     "note": "prescribed_forms_1_to_5"
+    },
+    {
+     "url": "https://jamnagardp.gujarat.gov.in/gu/Registration-of-co-operatives-and-sub-rule-amendments",
+     "claim": "Total number of members in current situation must be shown for bye-law amendment",
+     "note": "current_member_count"
+    },
+    {
+     "url": "https://gvc.org.in/webcontroller/clickmenu/MTYyMDU3OTYw",
+     "claim": "An application form or printout from an online filled application is required for registration.",
+     "note": "application_form is a form field"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "NOT_A_CITIZEN_FEE",
+   "count": 554,
+   "examples": [
+    {
+     "url": "https://vahan.parivahan.gov.in/vahanservice/vahan/ui/miscellaneous/Instructions.xhtml",
+     "claim": "Prescribed fee is required for transfer of ownership on Registration Certificate.",
+     "note": null
+    },
+    {
+     "url": "https://vahan.parivahan.gov.in/vahanservice/vahan/ui/miscellaneous/Instructions.xhtml",
+     "claim": "Prescribed fee is required for issue of duplicate registration certificate.",
+     "note": null
+    },
+    {
+     "url": "https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201617_120.pdf#page=15",
+     "claim": "Reserved category candidates from Gujarat do not need to pay the application fee.",
+     "note": null
+    },
+    {
+     "url": "https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201617_120.pdf#page=15",
+     "claim": "Candidates from other states must pay the reserved category fee plus postal service charges.",
+     "note": null
+    },
+    {
+     "url": "https://www.myscheme.gov.in/schemes/lcrlc",
+     "claim": "For every renewal cycle of three years, the construction worker is required to deposit a contribution of ₹100/-.",
+     "note": null
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "NOT_A_CRITERION",
+   "count": 378,
+   "examples": [
+    {
+     "url": "https://jamnagardp.gujarat.gov.in/gu/Registration-of-co-operatives-and-sub-rule-amendments",
+     "claim": "11 promoters are required to propose formation of new society - 10 from different families and 1 chief promoter",
+     "note": null
+    },
+    {
+     "url": "https://jamnagardp.gujarat.gov.in/gu/Registration-of-co-operatives-and-sub-rule-amendments",
+     "claim": "Prescribed number of members as per Cooperative Act required for registration of different types of cooperative societies",
+     "note": null
+    },
+    {
+     "url": "https://devbhumidwarkadp.gujarat.gov.in/gu/E-gram-Vishvagram-Yojana",
+     "claim": "All 13693 Gram Panchayats in Gujarat have been provided computer hardware and software.",
+     "note": null
+    },
+    {
+     "url": "https://devbhumidwarkadp.gujarat.gov.in/gu/E-gram-Vishvagram-Yojana",
+     "claim": "All Talati-cum-Secretaries have been trained in E-Gram software.",
+     "note": null
+    },
+    {
+     "url": "https://gvc.org.in/webcontroller/clickmenu/MTYyMDU3OTYw",
+     "claim": "Provisional registration is issued to graduates who have completed their academic requirements for the degree course.",
+     "note": null
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "NOT_A_PROCESSING_TIME",
+   "count": 367,
+   "examples": [
+    {
+     "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
+     "claim": "The reimbursement will be available for a period of five years from the date of production or the completion of 70%, whichever is earlier.",
+     "note": null
+    },
+    {
+     "url": "https://jamnagardp.gujarat.gov.in/gu/Registration-of-co-operatives-and-sub-rule-amendments",
+     "claim": "Application for bye-law amendment must be submitted within 60 days",
+     "note": null
+    },
+    {
+     "url": "https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201617_120.pdf#page=15",
+     "claim": "Candidates must submit the application within the specified time frame.",
+     "note": null
+    },
+    {
+     "url": "https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201617_127.pdf#page=17",
+     "claim": "Application must be submitted to Commission within time limit of last date, otherwise candidature will be cancelled",
+     "note": null
+    },
+    {
+     "url": "https://ahmedabad.gujarat.gov.in/Unreserved-Class-Certificate",
+     "claim": "The office hours for the Jan Seva Kendra Ahmedabad are from 8:30 A.M. to 5:30 P.M.",
+     "note": null
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "PAGE_NOT_ADMISSIBLE",
+   "count": 343,
+   "examples": [
+    {
+     "url": "https://dish.gujarat.gov.in/schemes-winners-new-guj.htm",
+     "claim": null,
+     "note": "1 fact(s), none of a kind this compiler places"
+    },
+    {
+     "url": "https://betivadhaao.gujarat.gov.in/dwnld/certificate.html",
+     "claim": null,
+     "note": "8 fact(s), none of a kind this compiler places"
+    },
+    {
+     "url": "https://garvi.gujarat.gov.in/CitizenApp/Registration/FrmRegistration_New.aspx",
+     "claim": null,
+     "note": "11 fact(s), none of a kind this compiler places"
+    },
+    {
+     "url": "https://haj.gujarat.gov.in/online-services.htm",
+     "claim": null,
+     "note": "3 fact(s), none of a kind this compiler places"
+    },
+    {
+     "url": "https://arogyasathi.gujarat.gov.in/CandiRegistration.aspx",
+     "claim": null,
+     "note": "19 fact(s), none of a kind this compiler places"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "NO_LOCATION",
+   "count": 279,
+   "examples": [
+    {
+     "url": "https://ahmedabad.gujarat.gov.in/Unreserved-Class-Certificate",
+     "claim": "The application form for the Unreserved Class Certificate can be submitted to the Collector, Deputy Collector, Assistant Collector, Sub Collector, District Development Officer, Sub District Developmen",
+     "note": null
+    },
+    {
+     "url": "https://panchmahal.gujarat.gov.in/",
+     "claim": "The page provides a list of offices, including Mamlatdar Office and Prant Office.",
+     "note": null
+    },
+    {
+     "url": "https://surat.gujarat.gov.in/",
+     "claim": "The Mamlatdar Office is one of the offices listed under the Surat District Collectorate.",
+     "note": null
+    },
+    {
+     "url": "https://surat.gujarat.gov.in/",
+     "claim": "The Prant Office is one of the offices listed under the Surat District Collectorate.",
+     "note": null
+    },
+    {
+     "url": "https://banaskantha.gujarat.gov.in/",
+     "claim": "Jan Seva Kendra is located at District Collectorate",
+     "note": null
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "NO_REASON",
+   "count": 146,
+   "examples": [
+    {
+     "url": "https://suratmunicipal.gov.in/OnlineServices/DeathCertificate/Enroll",
+     "claim": "Online death certificates for deaths registered on or after April 1, 2020, are not available through Surat Municipal Corporation's online services.",
+     "note": null
+    },
+    {
+     "url": "https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201617_120.pdf#page=11",
+     "claim": "Applications will be rejected if not submitted as per the Commission's online proforma",
+     "note": null
+    },
+    {
+     "url": "https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201617_120.pdf#page=11",
+     "claim": "Applications will be rejected if details are incomplete or incorrect",
+     "note": null
+    },
+    {
+     "url": "https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201617_120.pdf#page=11",
+     "claim": "Applications will be rejected if not signed by the candidate",
+     "note": null
+    },
+    {
+     "url": "https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201617_120.pdf#page=11",
+     "claim": "Applications sent by fax or email will be rejected",
+     "note": null
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "OUT_OF_JURISDICTION",
+   "count": 132,
+   "examples": [
+    {
+     "url": "https://vahan.parivahan.gov.in/vahantc",
+     "claim": null,
+     "note": "Andhra Pradesh"
+    },
+    {
+     "url": "https://nfsa.gov.in/",
+     "claim": null,
+     "note": "Uttar Pradesh"
+    },
+    {
+     "url": "https://nfsa.gov.in/Default.aspx",
+     "claim": null,
+     "note": "Uttar Pradesh"
+    },
+    {
+     "url": "https://nhb.org.in/",
+     "claim": null,
+     "note": "Odisha"
+    },
+    {
+     "url": "https://uidai.gov.in/",
+     "claim": null,
+     "note": "Assam"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "FAILED_NORMALIZATION",
+   "count": 81,
+   "examples": [
+    {
+     "url": "https://collectorkheda.gujarat.gov.in/varshai-app-form-47",
+     "claim": "An online application can be submitted through Digital Gujarat.",
+     "note": "Digital Gujarat"
+    },
+    {
+     "url": "https://ssg-ss.gujarat.gov.in/",
+     "claim": "Users can view their score two weeks after the last date of completing the survey, and it will also be visible on their mobile app.",
+     "note": null
+    },
+    {
+     "url": "https://rajkot.gujarat.gov.in/",
+     "claim": "A citizen can apply for online services through the Digital Gujarat portal.",
+     "note": "Digital Gujarat"
+    },
+    {
+     "url": "https://rajkot.gujarat.gov.in/",
+     "claim": "A citizen can apply for online services through the iORA portal for revenue-related services.",
+     "note": "iORA"
+    },
+    {
+     "url": "https://rajkot.gujarat.gov.in/",
+     "claim": "A citizen can apply for online services through the NDAL-ALIS portal for magisterial-related services.",
+     "note": "NDAL-ALIS"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "NO_CONTACT_VALUE",
+   "count": 71,
+   "examples": [
+    {
+     "url": "https://gandhinagarmunicipal.com/mp_info_post/birth-death-certificate",
+     "claim": "The Gandhinagar Municipal Corporation can be contacted via email for Birth & Death Certificate services.",
+     "note": null
+    },
+    {
+     "url": "https://gandhinagarmunicipal.com/mp_info_post/birth-death-certificate",
+     "claim": "The Mayor's office of the Gandhinagar Municipal Corporation can be contacted via email for Birth & Death Certificate services.",
+     "note": null
+    },
+    {
+     "url": "https://gvc.org.in/webcontroller/clickmenu/MTYyMDU3OTYw",
+     "claim": "The contact email for the Gujarat Veterinary Council is registrar@gvc.org.in.",
+     "note": null
+    },
+    {
+     "url": "https://gvc.org.in/webcontroller/members/710",
+     "claim": "The contact email for the Gujarat Veterinary Council is registrar@gvc.org.in.",
+     "note": null
+    },
+    {
+     "url": "https://panchmahal.gujarat.gov.in/",
+     "claim": "The page provides a list of contact numbers for emergency services, including the District Emergency Response Center and the Commissioner of Rescue & Relief.",
+     "note": null
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "AMBIGUOUS_RELATION",
+   "count": 70,
+   "examples": [
+    {
+     "url": "https://jamnagardp.gujarat.gov.in/gu/Registration-of-co-operatives-and-sub-rule-amendments",
+     "claim": "Application for new society registration must be forwarded to Assistant District Registrar with verification report and opinion of Taluka Development Officer and Extension Officer (Cooperation)",
+     "note": null
+    },
+    {
+     "url": "https://jamnagardp.gujarat.gov.in/gu/Registration-of-co-operatives-and-sub-rule-amendments",
+     "claim": "Application for bye-law amendment must be forwarded to Assistant District Registrar with verification report and opinion of Taluka Development Officer and Extension Officer (Cooperation) for approval",
+     "note": null
+    },
+    {
+     "url": "http://www.incometax.gov.in/iec/foportal/help/tin.2.0.registration",
+     "claim": "TIN 2.0 stakeholders must wait for approval from the Registrar and competent Income Tax Authority.",
+     "note": null
+    },
+    {
+     "url": "http://www.incometax.gov.in/iec/foportal/help/tin.2.0.registration",
+     "claim": "TIN 2.0 stakeholders must wait for approval from the competent Income Tax Authority to enable production environment access.",
+     "note": null
+    },
+    {
+     "url": "http://www.incometax.gov.in/iec/foportal/hi/help/taxdeductor/registration",
+     "claim": "The taxpayer must register on the TRACES portal before proceeding with e-filing registration.",
+     "note": null
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "UNKNOWN_CANONICAL_ENTITY",
+   "count": 69,
+   "examples": [
+    {
+     "url": "https://collectormehsana.gujarat.gov.in/contacts",
+     "claim": "The Collector of Mehsana is Shri S. K. Prajapati, IAS, and can be contacted at +91 2762 222200 and collector-meh[at]gujarat[dot]gov[dot]in.",
+     "note": null
+    },
+    {
+     "url": "https://collectormehsana.gujarat.gov.in/contacts",
+     "claim": "The Resident Additional Collector is Shri J. K. Jegoda and can be contacted at +91 2762 222203 and Add-collector-meh[at]gujarat[dot]gov[dot]in.",
+     "note": null
+    },
+    {
+     "url": "https://collectorpatan.gujarat.gov.in/contacts",
+     "claim": "The District Collector Office is located near North Gujarat University in Patan, Gujarat - 384265.",
+     "note": null
+    },
+    {
+     "url": "https://collectorpatan.gujarat.gov.in/contacts",
+     "claim": "Dr. Prashant Jilova, IAS, is the Collector of Patan and can be contacted at +91 2766 233400.",
+     "note": null
+    },
+    {
+     "url": "https://collectorpatan.gujarat.gov.in/contacts",
+     "claim": "Shri V. C. Bodana is the Resident Addl. Collector and can be contacted at +91 2766 233400.",
+     "note": null
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "DANGLING_REFERENCE",
+   "count": 61,
+   "examples": [
+    {
+     "url": "district-certificates",
+     "claim": "e:service_registration_of_cooperative_society__requires__document_cooperative_society_records",
+     "note": "service:registration_of_cooperative_society was never written"
+    },
+    {
+     "url": "district-certificates",
+     "claim": "e:service_gujarat_state_seed_certificate_agency__visit_at__office_gujarat_state_seed_certificate_agency",
+     "note": "service:gujarat_state_seed_certificate_agency was never written"
+    },
+    {
+     "url": "district-certificates",
+     "claim": "e:service_gujarat_state_seed_certificate_agency__call_if__helpline_91_079_26734116",
+     "note": "service:gujarat_state_seed_certificate_agency was never written"
+    },
+    {
+     "url": "district-certificates",
+     "claim": "e:service_seed_certificate__requires__document_opal_green_label",
+     "note": "service:seed_certificate was never written"
+    },
+    {
+     "url": "district-certificates",
+     "claim": "e:service_seed_certificate__requires__document_agency_seal",
+     "note": "service:seed_certificate was never written"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "NO_QUOTABLE_EVIDENCE",
+   "count": 27,
+   "examples": [
+    {
+     "url": "https://sabarkanthadp.gujarat.gov.in/gu/Registration-of-Co-Operative-society",
+     "claim": "Registration of Cooperative Society",
+     "note": "6 fact(s) and not one of them load bearing"
+    },
+    {
+     "url": "https://gssca.gujarat.gov.in/",
+     "claim": "Gujarat State Seed Certificate Agency",
+     "note": "4 fact(s) and not one of them load bearing"
+    },
+    {
+     "url": "https://gssca.gujarat.gov.in/ImportantActivites/BiyarananuCertificate",
+     "claim": "Seed Certificate",
+     "note": "2 fact(s) and not one of them load bearing"
+    },
+    {
+     "url": "https://ic.gujarat.gov.in/dic-office.aspx",
+     "claim": "District Industries Centre",
+     "note": "10 fact(s) and not one of them load bearing"
+    },
+    {
+     "url": "https://ceiced.gujarat.gov.in/contact",
+     "claim": "Chief Electrical Inspector",
+     "note": "7 fact(s) and not one of them load bearing"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "UNTRUSTED_HOST",
+   "count": 25,
+   "examples": [
+    {
+     "url": "https://mcjamnagar.com/OnlineServices/foodLicense.aspx?SID=OSER",
+     "claim": "The Jamnagar Municipal Corporation provides online services for food registration and license.",
+     "note": "mcjamnagar.com"
+    },
+    {
+     "url": "https://mcjamnagar.com/OnlineServices/facLicense.aspx?SID=OSER",
+     "claim": "A citizen can access factory license services through the Jamnagar Municipal Corporation's website.",
+     "note": "mcjamnagar.com"
+    },
+    {
+     "url": "https://bmcgujarat.com/guj/e-services/professional-tax",
+     "claim": "The Professional Tax service is available on the BMC website.",
+     "note": "bmcgujarat.com"
+    },
+    {
+     "url": "https://mcjamnagar.com/Home.aspx",
+     "claim": "The Jamnagar Municipal Corporation provides online payment services for Property Tax and Water Charges.",
+     "note": "mcjamnagar.com"
+    },
+    {
+     "url": "https://mcjamnagar.com/Home.aspx",
+     "claim": "The Jamnagar Municipal Corporation provides online certificate services for Birth, Death, and Marriage.",
+     "note": "mcjamnagar.com"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "UNSUPPORTED_KIND",
+   "count": 23,
+   "examples": [
+    {
+     "url": "https://ahmedabad.gujarat.gov.in/Unreserved-Class-Certificate",
+     "claim": "The application form for the Unreserved Class Certificate is available for download in Gujarati.",
+     "note": "APP never becomes a node, by policy"
+    },
+    {
+     "url": "https://ahmedabad.gujarat.gov.in/Unreserved-Class-Certificate",
+     "claim": "An online application can be submitted for the Unreserved Class Certificate.",
+     "note": "APP never becomes a node, by policy"
+    },
+    {
+     "url": "https://www.gidc.gujarat.gov.in/Pages/Contents/application-for-water-connection",
+     "claim": "The GIDC Setu Mobile Application is available for download.",
+     "note": "APP never becomes a node, by policy"
+    },
+    {
+     "url": "https://garvi.gujarat.gov.in/",
+     "claim": "Citizens must use NIC's SANDES messaging mobile app for receiving Alert/OTP SMS related to their login from the Garvi Portal.",
+     "note": "APP never becomes a node, by policy"
+    },
+    {
+     "url": "https://garvi.gujarat.gov.in/",
+     "claim": "Citizens can download the NIC's SANDES app from the Google Play Store or iOS App Store.",
+     "note": "APP never becomes a node, by policy"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "ALREADY_OWNED",
+   "count": 15,
+   "examples": [
+    {
+     "url": "https://collectorahmedabad.gujarat.gov.in/EWS-Certificate-GOG",
+     "claim": "EWS Certificate",
+     "note": "64 fact(s) across 4 page(s) not merged into service:ews_certificate"
+    },
+    {
+     "url": "https://collectorkheda.gujarat.gov.in/domicil-certificate-issue",
+     "claim": "Domicile Certificate",
+     "note": "15 fact(s) across 1 page(s) not merged into service:domicile_certificate"
+    },
+    {
+     "url": "https://gandhinagar.gujarat.gov.in/showpage.aspx?contentid=390",
+     "claim": "Non-Creamy Layer certificate",
+     "note": "307 fact(s) across 34 page(s) not merged into service:non_creamy_layer_certificate"
+    },
+    {
+     "url": "https://collectorbhavnagar.gujarat.gov.in/salary-certificate",
+     "claim": "income certificate",
+     "note": "37 fact(s) across 4 page(s) not merged into service:income_certificate"
+    },
+    {
+     "url": "https://kheda.gujarat.gov.in/showpage.aspx?contentid=249",
+     "claim": "residence certificate",
+     "note": "264 fact(s) across 32 page(s) not merged into service:residence_certificate"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "NO_ACTOR",
+   "count": 15,
+   "examples": [
+    {
+     "url": "https://empower.gujarat.gov.in/KVK/Registration.aspx",
+     "claim": "The form will only be considered valid after verification by the KVK under the authority of the Commissionerate of Employment and Training.",
+     "note": "a sentence about who does it that names nobody"
+    },
+    {
+     "url": "https://empower.gujarat.gov.in/Registration.aspx",
+     "claim": "The form will be considered valid only after verification by the government ITI under the jurisdiction of the Commissionerate of Employment and Training.",
+     "note": "a sentence about who does it that names nobody"
+    },
+    {
+     "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/user_manual/Garment_Policy_guidelines.pdf#page=20",
+     "claim": "All MSMEs projects will be sanctioned by the DIC.",
+     "note": "a sentence about who does it that names nobody"
+    },
+    {
+     "url": "https://townplanning.gujarat.gov.in/DPIFC",
+     "claim": "DPIFC does not grant statutory approvals or development permissions; these are issued by the respective Competent Authorities.",
+     "note": "a sentence about who does it that names nobody"
+    },
+    {
+     "url": "https://ced.gujarat.gov.in/assets/downloads/shrihariagri512015.pdf#page=55",
+     "claim": "ISI certification is required and is issued by the Bureau of Indian Standards.",
+     "note": "a sentence about who does it that names nobody"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "HEADING_NOT_SERVICE",
+   "count": 5,
+   "examples": [
+    {
+     "url": "https://gtkdconline.gujarat.gov.in/",
+     "claim": "loan",
+     "note": "sits above 336 other names in welfare-schemes"
+    },
+    {
+     "url": "https://gssp.gujarat.gov.in/LoginApp/DownLoad/Guideline%20for%20ST%20Students%20(DGP)%202025-26%20final.pdf#page=4",
+     "claim": "scholarship",
+     "note": "sits above 336 other names in welfare-schemes"
+    },
+    {
+     "url": "https://dppf.gujarat.gov.in/",
+     "claim": "Pension",
+     "note": "sits above 336 other names in welfare-schemes"
+    },
+    {
+     "url": "https://cpvadodara.gujarat.gov.in/Upload/PBNPB_1_home_140916.pdf#page=2",
+     "claim": "licence",
+     "note": "sits above 100 other names in permits-and-licences"
+    },
+    {
+     "url": "https://collectorpanchmahal.gujarat.gov.in/showpage.aspx?contentid=344",
+     "claim": "certificate",
+     "note": "sits above 51 other names in district-certificates"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "GROUP_TOO_FEW_MEMBERS",
+   "count": 5,
+   "examples": [
+    {
+     "url": "https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/GSSSB_202526_312.pdf#page=4",
+     "claim": "B. Candidates having any of the following physical defects shall be",
+     "note": "15 line(s), 0 of them a known document"
+    },
+    {
+     "url": "https://fcsca.gujarat.gov.in/en/phh-schemenew1",
+     "claim": "Family having deprivation/insecurity of any of the following shall be included for food security.",
+     "note": "3 line(s), 0 of them a known document"
+    },
+    {
+     "url": "https://directorit.gujarat.gov.in/Content/Scheme_for_Startup_Policy.pdf#page=7",
+     "claim": "they cross any of the following milestones, whichever is earlier:",
+     "note": "15 line(s), 0 of them a known document"
+    },
+    {
+     "url": "https://directorit.gujarat.gov.in/Content/Scheme_for_Startup_Policy.pdf#page=7",
+     "claim": "they cross any of the following milestones, whichever is earlier:",
+     "note": "15 line(s), 0 of them a known document"
+    },
+    {
+     "url": "https://web.umang.gov.in/landing/scheme/detail/chief-ministergi-shotharabasingi-tengbang_cmst.html",
+     "claim": "The following documents are required mandatorily in order to apply to this scheme -",
+     "note": "3 line(s), 0 of them a known document"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "JOURNEY_TOO_SMALL",
+   "count": 2,
+   "examples": [
+    {
+     "url": "https://gandhinagarmunicipal.com/marriage-registration",
+     "claim": "Marriage Registration",
+     "note": "marriage had 1, needs 3"
+    },
+    {
+     "url": "https://www.passportindia.gov.in/psp/contactUs",
+     "claim": "Passport Seva",
+     "note": "passport had 1, needs 3"
+    }
+   ]
+  }
+ ]
+}

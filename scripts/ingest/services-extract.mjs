@@ -509,14 +509,39 @@ async function extract(page, text, model) {
   const raw = replies.some(Boolean) ? replies.flatMap((r) => (r ? (jsonArray(r.text) ?? []) : [])) : null;
   const facts = [];
   const seen = new Set();
-  let dropped = 0;
+  /**
+   * What the gate threw away, and why, in the words the model used.
+   *
+   * This was a counter. 2,309 facts had been rejected corpus wide and not one of
+   * them could be looked at again without paying for the model a second time,
+   * which means the single gate the entire product rests on was being trusted on
+   * faith. It lives in the cache file rather than a ledger of its own because
+   * the cache key already says exactly which extractor and which gate produced
+   * it, so a re-read replaces the drops along with the facts and the two can
+   * never describe different runs.
+   */
+  const dropped = [];
+  const drop = (reason, f, note) =>
+    dropped.push({ reason, kind: typeof f?.kind === "string" ? f.kind.slice(0, 40) : null, claim: String(f?.claim ?? "").slice(0, 200), evidence: String(f?.evidence ?? "").slice(0, 200), ...(note ? { note } : {}) });
+
   for (const f of raw ?? []) {
-    if (!f || typeof f !== "object") continue;
+    if (!f || typeof f !== "object") {
+      drop("INVALID_SCHEMA", f, "not an object");
+      continue;
+    }
     const kind = typeof f.kind === "string" ? f.kind.toUpperCase().trim() : "";
     // The two gates, in order of how much they matter. A kind we do not have is
     // a schema the model invented; evidence not on the page is a fact it did.
-    if (!KINDS.includes(kind) || !grounded(f.evidence, text)) {
-      dropped++;
+    if (!KINDS.includes(kind)) {
+      drop("UNSUPPORTED_KIND", f);
+      continue;
+    }
+    if (!grounded(f.evidence, text)) {
+      // The two ways a quote fails are not the same mistake and were counted as
+      // one. Too short is a model answering with a word; not found is a model
+      // writing a sentence the page never printed, and only the second is the
+      // fabrication this gate exists to stop.
+      drop("EVIDENCE_NOT_VERBATIM", f, norm(String(f.evidence ?? "")).length < 12 ? "shorter than a quote" : "not on the page");
       continue;
     }
     const id = (s) => String(s ?? "").toLowerCase().replace(/[^a-z0-9_]+/g, "_").replace(/^_+|_+$/g, "").slice(0, 60) || null;
@@ -535,7 +560,7 @@ async function extract(page, text, model) {
     // duplicated step in a citizen's checklist.
     const key = `${kind}|${row.subject}|${row.object}|${norm(row.evidence)}`;
     if (seen.has(key)) {
-      dropped++;
+      drop("DUPLICATE", row);
       continue;
     }
     seen.add(key);
@@ -579,14 +604,24 @@ const toExtract = [...pages.values()]
   .slice(0, Number(value("limit", Infinity)));
 console.log(`\n${toExtract.length} cached pages to extract from`);
 
-const stats = { cached: 0, calls: 0, dropped: 0, escalated: 0, unreachable: 0 };
+/**
+ * How many candidates a cached extraction threw away.
+ *
+ * Entries written before the drops were kept hold a number here instead of the
+ * rows. Both are counted, so the totals stay comparable across a mixed cache,
+ * and `rejections:stats` is the one that says how much of it is auditable.
+ */
+export const droppedCount = (r) => (Array.isArray(r?.dropped) ? r.dropped.length : Number(r?.dropped ?? 0));
+
+const stats = { cached: 0, calls: 0, dropped: 0, unaudited: 0, escalated: 0, unreachable: 0 };
 const results = await pool(toExtract, MODEL_CONCURRENCY, async (page) => {
   const text = readFileSync(at(PAGES + page.sha1 + ".md"), "utf8");
   let out = await extract(page, text, MODELS.tier1);
   if (out.cached) stats.cached++;
   else stats.calls++;
   if (!out.reachedModel) stats.unreachable++;
-  stats.dropped += out.dropped;
+  stats.dropped += droppedCount(out);
+  if (!Array.isArray(out.dropped)) stats.unaudited++;
 
   // Tier 2, once, and only for a page that scored well and gave Tier 1 nothing
   // it could ground. Never a blind rerun: a page that genuinely states no facts
@@ -594,7 +629,8 @@ const results = await pool(toExtract, MODEL_CONCURRENCY, async (page) => {
   if (out.reachedModel && !out.facts.length && page.score >= ESCALATE_ABOVE) {
     const strong = await extract(page, text, MODELS.tier2);
     if (!strong.cached) stats.calls++;
-    stats.dropped += strong.dropped;
+    stats.dropped += droppedCount(strong);
+    if (!Array.isArray(strong.dropped)) stats.unaudited++;
     if (strong.facts.length) {
       stats.escalated++;
       out = strong;
@@ -621,11 +657,12 @@ for (const r of results.filter(Boolean)) {
 }
 const facts = [...byUrl.values()].flat();
 writeJsonl(FACTS, facts);
-appendJsonl(".ingest/runs.jsonl", [{ run: "services:extract", at: now, fetched: ok, pages: toExtract.length, modelCalls: stats.calls, cacheHits: stats.cached, facts: facts.length, droppedUngrounded: stats.dropped, escalatedToTier2: stats.escalated }]);
+appendJsonl(".ingest/runs.jsonl", [{ run: "services:extract", at: now, fetched: ok, pages: toExtract.length, modelCalls: stats.calls, cacheHits: stats.cached, facts: facts.length, droppedCandidates: stats.dropped, escalatedToTier2: stats.escalated }]);
 
 const withFacts = results.filter((r) => r?.facts.length).length;
 console.log(`\n${stats.calls} model calls, ${stats.cached} cache hits, ${stats.escalated} escalated to ${MODELS.tier2}`);
 if (stats.unreachable) console.log(`  ${stats.unreachable} page(s) the model never answered for`);
 console.log(`${facts.length} grounded facts from ${withFacts} of ${toExtract.length} pages`);
-console.log(`${stats.dropped} fact(s) dropped for not being verbatim on the page. That number going to zero would be more worrying than it going up.`);
+console.log(`${stats.dropped} candidate(s) dropped. That number going to zero would be more worrying than it going up.`);
+if (stats.unaudited) console.log(`  ${stats.unaudited} page(s) were read before the drops were kept, so theirs are a count and nothing else. Run: pnpm rejections:stats`);
 console.log(`\n.ingest/facts.jsonl written.`);

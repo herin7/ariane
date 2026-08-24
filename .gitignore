@@ -41,6 +41,12 @@ TODO.md
 # single GET nobody will ever need to make.
 .ingest/pdf/
 
+# rejections.jsonl is urls.jsonl's case again: every row rebuilds from the
+# committed facts, offline, with no model call, because identification is
+# cached. What belongs in a diff is the count per reason, and that lives in
+# docs/research/rejections.json, which is committed and small.
+.ingest/rejections.jsonl
+
 # deps
 node_modules/
 .pnpm-store/
