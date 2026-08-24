@@ -256,7 +256,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "document:iso_9000_registration",
@@ -271,7 +271,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "document:other_registrations",
@@ -286,7 +286,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "service:msme_registration",
@@ -381,7 +381,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "portal:amrelidp_gujarat_gov_in",
@@ -418,21 +418,6 @@
      "verificationStatus": "EXTRACTED"
     }
    ]
-  },
-  {
-   "id": "document:aadhaar_card",
-   "type": "DOCUMENT",
-   "name": "Aadhaar card",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:cef59a1e5f90",
-     "evidence": "Only Adhaar Number will be enough for registration.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
   },
   {
    "id": "office:champions_control_rooms",
@@ -596,7 +581,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "service:mse_estate_development",
@@ -682,7 +667,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "portal:ced_gujarat_gov_in",
@@ -809,7 +794,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "document:reports_and_documentation",
@@ -824,7 +809,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "document:reports_and_documents",
@@ -839,7 +824,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "service:ondc_initiative_for_mses",
@@ -919,7 +904,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "portal:ifp_gujarat_gov_in",
@@ -952,7 +937,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "document:udyam_registration",
@@ -967,7 +952,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "service:msme_special_category_award",
@@ -1053,7 +1038,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "portal:ic_gujarat_gov_in",
@@ -1152,7 +1137,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "portal:kviconline_gov_in_b72394",
@@ -1185,7 +1170,25 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
+  },
+  {
+   "id": "portal:pmegp_gov_in",
+   "type": "PORTAL",
+   "name": "pmegp.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://pmegp.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:10b8e460fca1",
+     "evidence": "Government of India has introduced online process flow of application and disbursement of Margin Money directly to financing branches.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
   },
   {
    "id": "service:pmegp_scheme",
@@ -1199,8 +1202,11 @@
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "machineExtracted": true,
+    "fee": "The maximum cost of projects under PMEGP is Rs.25.00 lakh in the manufacturing sector and Rs.10.00 lakh in the service sector.",
     "eligibility": [
-     "The applicant must be at least 18 years old to be eligible for the PMEGP scheme."
+     "The applicant must be at least 18 years old to be eligible for the PMEGP scheme.",
+     "MSEs registered with District Industries Centre (DIC) or Khadi & Village Industries Commission (KVIC) or Khadi & Industries Board (KVIB) or Coir Board or national Small Industries Commission (NSIC) or Directorate of Handicrafts and Handlooms or any other body specified by Ministry of MSME or having Udyog Aadhaar Memorandum (UAM) are eligible to avail the benefits of the policy.",
+     "To apply for the Coir Industry Technology Upgradation Scheme, entrepreneurs must be registered with the Coir Board under the Coir Industry (Registration) Rules 2008 and have an Udyog Aadhar."
     ]
    },
    "sources": [
@@ -1272,12 +1278,12 @@
     },
     {
      "sourceId": "src:10b8e460fca1",
-     "evidence": "Scheme applicable for Any individual above 18 years of age, SHGs, Charitable trusts, Registered Societies etc.",
+     "evidence": "The maximum cost of projects is Rs.25.00 lakh in the manufacturing sector and Rs.10.00 lakh in the service sector.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "portal:champions_gov_in",
@@ -1401,7 +1407,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "service:shg_user_registration",
@@ -1469,7 +1475,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "portal:e_kutir_gujarat_gov_in",
@@ -1543,7 +1549,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "service:cottage_and_rural_industries_registration",
@@ -1596,7 +1602,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "department:industries_commissioner",
@@ -1611,7 +1617,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "department:state_level_approval_committee",
@@ -1626,7 +1632,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "service:slac",
@@ -1677,7 +1683,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "office:block_1_4th_floor_udayog_bhavan_gandhinagar",
@@ -1779,7 +1785,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "portal:giss_gujarat_gov_in",
@@ -1823,7 +1829,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "portal:kutchdp_gujarat_gov_in",
@@ -2192,6 +2198,22 @@
     {
      "sourceId": "src:fe4f101fbfb0",
      "evidence": "On EDP completion, a certificate is issued to the applicant and same is to be submitted along with applicant contribution to the concerned Bank to get first instalment of the loan.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_pmegp_scheme__apply_at__portal_pmegp_gov_in",
+   "from": "service:pmegp_scheme",
+   "to": "portal:pmegp_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Government of India has introduced an online process flow for PMEGP applications and disbursement of margin money directly to financing branches.",
+   "sources": [
+    {
+     "sourceId": "src:10b8e460fca1",
+     "evidence": "Government of India has introduced online process flow of application and disbursement of Margin Money directly to financing branches.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }

@@ -1,6 +1,6 @@
 {
  "journey": "permits-and-licences",
- "researchedAt": "2026-08-23",
+ "researchedAt": "2026-08-24",
  "region": "Gujarat, India",
  "sources": [
   {
@@ -148,6 +148,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:685b1b1dfecf",
+   "url": "https://girlion.gujarat.gov.in/AboutGirNationalPark.aspx",
+   "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
+   "domain": "girlion.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "4bded46ba7562307871fb7eb6b556a377056602a4cf06fb70c931f027790d688",
+   "cacheFile": ".ingest/pages/685b1b1dfecf7b7a953f64a824333aa909ae2a7c.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:e594390b4c09",
    "url": "https://girlion.gujarat.gov.in/GIZDevaliaBusBooking.aspx/1000",
    "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
@@ -280,30 +292,6 @@
    "scrapedOk": true
   },
   {
-   "id": "src:685b1b1dfecf",
-   "url": "https://girlion.gujarat.gov.in/AboutGirNationalPark.aspx",
-   "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
-   "domain": "girlion.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "4bded46ba7562307871fb7eb6b556a377056602a4cf06fb70c931f027790d688",
-   "cacheFile": ".ingest/pages/685b1b1dfecf7b7a953f64a824333aa909ae2a7c.md",
-   "scrapedOk": true
-  },
-  {
-   "id": "src:1e60c0040810",
-   "url": "https://girlion.gujarat.gov.in/AboutGirNationalPark.aspx/1000",
-   "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
-   "domain": "girlion.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "7bc1dd56d09325282aeffe6ce8e49710348b602a177e4a83cca2b92ea480a2cb",
-   "cacheFile": ".ingest/pages/1e60c00408103a90c79d299115308f1d89e9c727.md",
-   "scrapedOk": true
-  },
-  {
    "id": "src:5dd1e4da0095",
    "url": "https://girlion.gujarat.gov.in/Rating.aspx",
    "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
@@ -325,18 +313,6 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "cddcf7b288fe740c1471d1bdb654b3ec015562aedd0a95360dbd5b521a9343e4",
    "cacheFile": ".ingest/pages/fea49844e324a7cd9e52847dbbdea2896b41def9.md",
-   "scrapedOk": true
-  },
-  {
-   "id": "src:8f130659de66",
-   "url": "https://cot.gujarat.gov.in/vehicle-registration.htm",
-   "title": "Vehicle Registration | Services | Commissionerate of Transport, Government of Gujarat",
-   "domain": "cot.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "790b7ee6ea67c396cfa3a046d58cc9867c6eddfbafa0f05e91fbdd30bace39b1",
-   "cacheFile": ".ingest/pages/8f130659de6612a244b05185f4a65bf1806e2f4c.md",
    "scrapedOk": true
   },
   {
@@ -397,18 +373,6 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "07d550b0246849997ac5a055ea272a4156c5061b65ea42c56b12bab304dfb777",
    "cacheFile": ".ingest/pages/0b7975f95c09ad729b029fa9a61dc53795a6b6e4.md",
-   "scrapedOk": true
-  },
-  {
-   "id": "src:f84364f06217",
-   "url": "https://townplanning.gujarat.gov.in/DPIFC",
-   "title": "DPIFC | Development Permission Investors Facilitation Cell — Single Page (Temporary)",
-   "domain": "townplanning.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "836066cf5df66ea7e36b9aa7fd3a62cd64364e35d6dc607751461f6ba15060e1",
-   "cacheFile": ".ingest/pages/f84364f0621709a94f6441c067c84d3fa1f3df9f.md",
    "scrapedOk": true
   },
   {
@@ -580,6 +544,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:8f130659de66",
+   "url": "https://cot.gujarat.gov.in/vehicle-registration.htm",
+   "title": "Vehicle Registration | Services | Commissionerate of Transport, Government of Gujarat",
+   "domain": "cot.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "790b7ee6ea67c396cfa3a046d58cc9867c6eddfbafa0f05e91fbdd30bace39b1",
+   "cacheFile": ".ingest/pages/8f130659de6612a244b05185f4a65bf1806e2f4c.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:52cd469e9103",
    "url": "https://forestservices.gujarat.gov.in/eServices/BarbedWireFencing/frmBarbedWireFencingApp_New.aspx",
    "title": "Gujarat Forest Department",
@@ -589,6 +565,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "681e485695d9b22b4d6a779bea0004b1c44cb18459228a12f980dadd65ba80b2",
    "cacheFile": ".ingest/pages/52cd469e91036e5469f7a761e72c39b291350eac.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:f84364f06217",
+   "url": "https://townplanning.gujarat.gov.in/DPIFC",
+   "title": "DPIFC | Development Permission Investors Facilitation Cell — Single Page (Temporary)",
+   "domain": "townplanning.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "836066cf5df66ea7e36b9aa7fd3a62cd64364e35d6dc607751461f6ba15060e1",
+   "cacheFile": ".ingest/pages/f84364f0621709a94f6441c067c84d3fa1f3df9f.md",
    "scrapedOk": true
   },
   {
@@ -759,6 +747,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "f32d1ed0ce35bbb36472f0d851e2105818a92d8692c425a718ba41ad163b4685",
    "cacheFile": ".ingest/pages/cb87993841b54e050b4a46676ce1316fcd81a9b8.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:a9c398783f0f",
+   "url": "https://gpcbxgn.gujarat.gov.in/",
+   "title": "GUJARAT POLLUTION CONTROL BOARD",
+   "domain": "gpcbxgn.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "a1e092a9c71d3c8d6a58c264ad97c3950044682c0501e0b3fbc3ba1ffbdca43e",
+   "cacheFile": ".ingest/pages/a9c398783f0ff927156f976e31c246991e64a9e7.md",
    "scrapedOk": true
   },
   {
@@ -943,6 +943,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:93151adc976a",
+   "url": "https://gpcbxgn.gujarat.gov.in/Public/ConsentRegistration",
+   "title": "GUJARAT POLLUTION CONTROL BOARD",
+   "domain": "gpcbxgn.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "e5762ce8c5a71ee079de5780a98e9ff0ef825de7e563ddf0a48b16f54289788e",
+   "cacheFile": ".ingest/pages/93151adc976a21d9b570a2ae248dd6687ed512b8.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:ff9f374b2a18",
    "url": "https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=6",
    "title": "Vessal_25102024 (page 6 of 21)",
@@ -1087,18 +1099,6 @@
    "scrapedOk": true
   },
   {
-   "id": "src:93151adc976a",
-   "url": "https://gpcbxgn.gujarat.gov.in/Public/ConsentRegistration",
-   "title": "GUJARAT POLLUTION CONTROL BOARD",
-   "domain": "gpcbxgn.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "e5762ce8c5a71ee079de5780a98e9ff0ef825de7e563ddf0a48b16f54289788e",
-   "cacheFile": ".ingest/pages/93151adc976a21d9b570a2ae248dd6687ed512b8.md",
-   "scrapedOk": true
-  },
-  {
    "id": "src:6394a1a9e364",
    "url": "https://mcjamnagar.com/OnlineServices/foodLicense.aspx?SID=OSER",
    "title": "FOOD Registration / License",
@@ -1156,18 +1156,6 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "0a0a750fdd64fbdb4711a7a64042083d7f2660513acae1eb06214a370d9342fe",
    "cacheFile": ".ingest/pages/9ea0fe15958687a16ce547545d29cd4d83a2cdc3.md",
-   "scrapedOk": true
-  },
-  {
-   "id": "src:a9c398783f0f",
-   "url": "https://gpcbxgn.gujarat.gov.in/",
-   "title": "GUJARAT POLLUTION CONTROL BOARD",
-   "domain": "gpcbxgn.gujarat.gov.in",
-   "sourceType": "PORTAL_HOME",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "a1e092a9c71d3c8d6a58c264ad97c3950044682c0501e0b3fbc3ba1ffbdca43e",
-   "cacheFile": ".ingest/pages/a9c398783f0ff927156f976e31c246991e64a9e7.md",
    "scrapedOk": true
   },
   {
@@ -1608,7 +1596,7 @@
    "claim": "It is compulsory to carry the 'e-Permit' during reporting and entry time.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "e_permit",
-   "object": "entry",
+   "object": "reporting_and_entry",
    "detail": {},
    "sourceId": "src:486c8338b1b8",
    "evidence": "It is compulsory to carry the 'e-Permit' during reporting and entry time.",
@@ -1617,7 +1605,7 @@
   {
    "claim": "All visitors must carry their original photo identity proof (Aadhar Card/PAN Card/Driving Licence/Voter ID Card).",
    "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "visitor",
+   "subject": "visitors",
    "object": "original_photo_identity_proof",
    "detail": {},
    "sourceId": "src:486c8338b1b8",
@@ -1627,7 +1615,7 @@
   {
    "claim": "Foreigners must carry their original passport as the photo identity proof.",
    "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "foreigner",
+   "subject": "foreigners",
    "object": "original_passport",
    "detail": {},
    "sourceId": "src:486c8338b1b8",
@@ -1647,8 +1635,8 @@
   {
    "claim": "During the reporting time, the presence of each person is compulsory.",
    "kind": "ACTION",
-   "subject": "person",
-   "object": "presence",
+   "subject": "visitors",
+   "object": "presence_during_reporting",
    "detail": {},
    "sourceId": "src:486c8338b1b8",
    "evidence": "During the reporting time, the presence of each person is compulsory.",
@@ -1658,20 +1646,20 @@
    "claim": "One 'e-Permit' allows entry of a maximum of 6 adults + 1 child (3-12 years) to visit 'Gir Jungle Safari', 'GIZ Devalia Safari', 'Ambardi Safari Park', and 'Girnar Nature Safari' within the selected time slot on a particular route only.",
    "kind": "CONDITIONAL_REQUIREMENT",
    "subject": "e_permit",
-   "object": "entry",
+   "object": "entry_capacity",
    "detail": {
-    "max_adults": 6,
-    "max_children": 1
+    "adults": 6,
+    "children": 1
    },
    "sourceId": "src:486c8338b1b8",
-   "evidence": "One 'e-Permit' allows entry of a maximum of 6 adults + 1 child* (3-12 years) to visit 'Gir Jungle Safari', 'GIZ Devalia Safari', 'Ambardi Safari Park' and 'Girnar Nature Safari' within the selected time slot on a particular route only.",
+   "evidence": "One 'e-Permit' allows entry of a maximum of 6 adults + 1 child (3-12 years) to visit 'Gir Jungle Safari', 'GIZ Devalia Safari', 'Ambardi Safari Park' and 'Girnar Nature Safari' within the selected time slot on a particular route only.",
    "confidence": 1
   },
   {
    "claim": "For Gir Jungle Safari and Girnar Nature Safari, one person can get only one 'e-Permit' per slot per day.",
    "kind": "CONDITIONAL_REQUIREMENT",
-   "subject": "person",
-   "object": "e_permit",
+   "subject": "e_permit",
+   "object": "gir_jungle_safari_girnar_nature_safari",
    "detail": {
     "max_per_person_per_day": 1
    },
@@ -1695,9 +1683,9 @@
    "claim": "The e-permit does not include the Guide and Safari vehicle charge, which must be paid separately to respective Guides and Safari vehicle owners.",
    "kind": "FEE",
    "subject": "e_permit",
-   "object": "guide_safari_vehicle_charge",
+   "object": "guide_and_safari_vehicle_charge",
    "detail": {
-    "payment_method": "separately"
+    "inclusion": "not_included"
    },
    "sourceId": "src:486c8338b1b8",
    "evidence": "The e-permit doesn't includes the Guide and Safari vehicle charge,which must be paid separatley to respective Guides and Safari vehicle owners.",
@@ -1707,7 +1695,7 @@
    "claim": "The Forest Department's concerned authorities reserve the full rights to change the time slot timings as per the weather/seasonal conditions or due to sudden, unavoidable circumstances.",
    "kind": "CONDITIONAL_REQUIREMENT",
    "subject": "forest_department",
-   "object": "time_slot_timings",
+   "object": "time_slot_changes",
    "detail": {},
    "sourceId": "src:486c8338b1b8",
    "evidence": "The Forest Department's concerned authorities reserve the full rights to change the time slot timings as per the weather/seasonal conditions or due to sudden, unavoidable circumstances.",
@@ -1719,20 +1707,21 @@
    "subject": "booking",
    "object": "gir_jungle_trail_girnar_nature_safari_giz_devalia_gypsy_safa",
    "detail": {
-    "method": "online_booking_system_current_booking"
+    "method": "online_booking_system",
+    "additional_method": "current_booking"
    },
    "sourceId": "src:486c8338b1b8",
    "evidence": "'Gir Jungle Trail' and 'Girnar Nature Safari' can be booked only through the online booking system, and 'GIZ Devalia Gypsy Safari can be booked online as well as current booking if the permits are available.",
    "confidence": 1
   },
   {
-   "claim": "For Gir Jungle Trail, GIZ Devalia Gypsy Safari, 'Ambardi Safari Park' and Girnar Nature Safari, online booking opens three months before the date and closes down two hours before the date.",
+   "claim": "For Gir Jungle Trail, GIZ Devalia Gypsy Safari, 'Ambardi Safari Park', and Girnar Nature Safari, online booking opens three months before the date and closes down two hours before the date.",
    "kind": "TIMELINE",
    "subject": "online_booking",
    "object": "gir_jungle_trail_giz_devalia_gypsy_safari_ambardi_safari_par",
    "detail": {
-    "open_before": "3 months",
-    "close_before": "2 hours"
+    "open_before": 3,
+    "close_before": 2
    },
    "sourceId": "src:486c8338b1b8",
    "evidence": "For Gir Jungle Trail, GIZ Devalia Gypsy Safari, 'Ambardi Safari Park' and Girnar Nature Safari, online booking opens three months before the date. It closes down two hours before the date.",
@@ -1741,8 +1730,8 @@
   {
    "claim": "If one does not receive an e-Permit despite the successful financial transaction due to technical errors, a refund will be done in 15-20 working days.",
    "kind": "GRIEVANCE",
-   "subject": "e_permit",
-   "object": "refund",
+   "subject": "refund",
+   "object": "e_permit",
    "detail": {
     "days": "15-20"
    },
@@ -1752,9 +1741,9 @@
   },
   {
    "claim": "For such issues, kindly send an email to gslcsgir@yahoo.com or call us on 02877-285621.",
-   "kind": "HELPLINE",
-   "subject": "gslcsgir",
-   "object": "email_call",
+   "kind": "GRIEVANCE",
+   "subject": "contact",
+   "object": "gslcsgir",
    "detail": {
     "email": "gslcsgir@yahoo.com",
     "phone": "02877-285621"
@@ -1764,10 +1753,10 @@
    "confidence": 1
   },
   {
-   "claim": "Gir Jungle Trail, GIZ Devalia Gypsy Safari, 'Ambardi Safari Park' and Girnar Nature Safari visitors are requested to arrive at the respective reception centres (boarding point) 30 minutes before the scheduled time mentioned in the e-Permit.",
+   "claim": "Gir Jungle Trail, GIZ Devalia Gypsy Safari, 'Ambardi Safari Park', and Girnar Nature Safari visitors are requested to arrive at the respective reception centres (boarding point) 30 minutes before the scheduled time mentioned in the e-Permit.",
    "kind": "ACTION",
-   "subject": "visitor",
-   "object": "arrival",
+   "subject": "visitors",
+   "object": "arrival_before_scheduled_time",
    "detail": {
     "minutes_before": 30
    },
@@ -1779,8 +1768,10 @@
    "claim": "If the late reporting at the boarding point, e-Permit will get cancelled, and no refund can be claimed.",
    "kind": "CONDITIONAL_REQUIREMENT",
    "subject": "e_permit",
-   "object": "cancellation",
-   "detail": {},
+   "object": "late_reporting",
+   "detail": {
+    "consequence": "cancelled"
+   },
    "sourceId": "src:486c8338b1b8",
    "evidence": "If the late reporting at the boarding point, e-Permit will get cancelled, and no refund can be claimed.",
    "confidence": 1
@@ -1812,9 +1803,11 @@
   {
    "claim": "For the safari, each visitor's name, his/her identity card number and type of identity card should be mentioned during the online booking.",
    "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "visitor",
-   "object": "identity_card_details",
-   "detail": {},
+   "subject": "online_booking",
+   "object": "visitor_details",
+   "detail": {
+    "required_fields": "name, identity_card_number, identity_card_type"
+   },
    "sourceId": "src:486c8338b1b8",
    "evidence": "For the safari, each visitor's name, his/her identity card number and type of identity card should be mentioned during the online booking",
    "confidence": 1
@@ -1823,9 +1816,9 @@
    "claim": "No other person than the registered visitor is allowed in the safari vehicle.",
    "kind": "CONDITIONAL_REQUIREMENT",
    "subject": "safari_vehicle",
-   "object": "occupants",
+   "object": "registered_visitors",
    "detail": {
-    "allowed": "registered_visitor"
+    "allowed": "registered"
    },
    "sourceId": "src:486c8338b1b8",
    "evidence": "No other person than the registered visitor is allowed in the safari vehicle.",
@@ -1834,7 +1827,7 @@
   {
    "claim": "Bookings with incomplete or incorrect I.D. proof will be considered invalid.",
    "kind": "CONDITIONAL_REQUIREMENT",
-   "subject": "booking",
+   "subject": "bookings",
    "object": "id_proof",
    "detail": {
     "validity": "invalid"
@@ -1844,12 +1837,12 @@
    "confidence": 1
   },
   {
-   "claim": "No Gir Jungle Trail, GIZ Devalia Gypsy Safari, 'Ambardi Safari Park' and Girnar Nature Safari will be permitted against such bookings.",
+   "claim": "No Gir Jungle Trail, GIZ Devalia Gypsy Safari, 'Ambardi Safari Park', and Girnar Nature Safari will be permitted against such bookings.",
    "kind": "BLOCKER",
-   "subject": "booking",
-   "object": "permitted_safari",
+   "subject": "bookings",
+   "object": "gir_jungle_trail_giz_devalia_gypsy_safari_ambardi_safari_par",
    "detail": {
-    "permitted": false
+    "permitted": "no"
    },
    "sourceId": "src:486c8338b1b8",
    "evidence": "No Gir Jungle Trail, GIZ Devalia Gypsy Safari, 'Ambardi Safari Park' and Girnar Nature Safari will be permitted against such bookings.",
@@ -1858,10 +1851,10 @@
   {
    "claim": "No refund will be made for such cases.",
    "kind": "GRIEVANCE",
-   "subject": "booking",
-   "object": "refund",
+   "subject": "refund",
+   "object": "bookings",
    "detail": {
-    "allowed": false
+    "allowed": "no"
    },
    "sourceId": "src:486c8338b1b8",
    "evidence": "No refund will be made for such cases.",
@@ -1869,8 +1862,8 @@
   },
   {
    "claim": "All disputes and legal matters are subject to the jurisdiction of Junagadh district, Gujarat state only.",
-   "kind": "ACTION",
-   "subject": "dispute",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "disputes",
    "object": "jurisdiction",
    "detail": {
     "location": "junagadh_district_gujarat"
@@ -1882,13 +1875,125 @@
   {
    "claim": "The services such as the issue of duplicate permits for lost/mutilated/torn permits and bulk booking for more than six people (for Gir Jungle Trail, GIZ Devalia Gypsy Safari and Girnar Nature Safari) will not be provided.",
    "kind": "BLOCKER",
-   "subject": "service",
-   "object": "duplicate_permit_bulk_booking",
+   "subject": "services",
+   "object": "duplicate_permits_bulk_booking",
    "detail": {
-    "provided": false
+    "provided": "no"
    },
    "sourceId": "src:486c8338b1b8",
    "evidence": "The services such as the issue of duplicate permits for lost/mutilated/torn permits and bulk booking for more than six people (for Gir Jungle Trail, GIZ Devalia Gypsy Safari and Girnar Nature Safari) will not be provided.",
+   "confidence": 1
+  },
+  {
+   "claim": "Cancellation within less than 2 days results in no refund.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "cancellation",
+   "object": "refund",
+   "detail": {
+    "refund_amount": "0%",
+    "cancellation_period": "less than 2 Days"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "3\n|\nLess than 2 Days\n|\n0% (No Refund)",
+   "confidence": 1
+  },
+  {
+   "claim": "Cancellation before 2 days results in a 25% refund.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "cancellation",
+   "object": "refund",
+   "detail": {
+    "refund_amount": "25%",
+    "cancellation_period": "Before 2 Days"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "3\n|\nBefore 2 Days\n|\n25%",
+   "confidence": 1
+  },
+  {
+   "claim": "Cancellation before 5 days results in a 50% refund.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "cancellation",
+   "object": "refund",
+   "detail": {
+    "refund_amount": "50%",
+    "cancellation_period": "Before 5 Days"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "2\n|\nBefore 5 Days\n|\n50%",
+   "confidence": 1
+  },
+  {
+   "claim": "Cancellation before 10 days results in a 75% refund.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "cancellation",
+   "object": "refund",
+   "detail": {
+    "refund_amount": "75%",
+    "cancellation_period": "Before 10 Days"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "1\n|\nBefore 10 Days\n|\n75%",
+   "confidence": 1
+  },
+  {
+   "claim": "There is no refund for cancellation of E-permit for Devalia Park Bus Safari.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "cancellation",
+   "object": "refund",
+   "detail": {
+    "location": "Devalia Park Bus Safari"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "Note: There will be “NO REFUND” for cancellation of E-permit for Devalia Park Bus Safari.",
+   "confidence": 1
+  },
+  {
+   "claim": "Tatkal or urgent bookings are not allowed on this website.",
+   "kind": "BLOCKER",
+   "subject": "booking",
+   "object": "tatkal",
+   "detail": {
+    "booking_type": "Tatkal or urgent"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "Tatkal or urgent bookings are not allowed on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Sinh Sadan room bookings are not offered on this website.",
+   "kind": "BLOCKER",
+   "subject": "booking",
+   "object": "sinh_sadan_room",
+   "detail": {
+    "booking_type": "Sinh Sadan room"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "Kindly note that sinh sadan room bookings are not offered on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "This is the only official website for Gir Online Permit Booking System.",
+   "kind": "OFFICE",
+   "subject": "booking",
+   "object": "official_website",
+   "detail": {
+    "url": "https://girlion.gujarat.gov.in"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "This is the only official website for Gir Online Permit Booking System.",
+   "confidence": 1
+  },
+  {
+   "claim": "Users should use only official and authorized platforms for bookings.",
+   "kind": "ACTION",
+   "subject": "booking",
+   "object": "platform",
+   "detail": {
+    "platform_type": "official and authorized"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "Please use only official and authorized platforms for bookings.",
    "confidence": 1
   },
   {
@@ -3368,6 +3473,70 @@
    "confidence": 1
   },
   {
+   "claim": "This is the only official booking website for Gir Online Permit Booking System.",
+   "kind": "CHANNEL",
+   "subject": "gir_permit_booking",
+   "object": "official_website",
+   "detail": {
+    "url": "https://girlion.gujarat.gov.in/AboutGirNationalPark.aspx"
+   },
+   "sourceId": "src:685b1b1dfecf",
+   "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
+   "confidence": 1
+  },
+  {
+   "claim": "The only official website for Gir Online Permit Booking System is this one.",
+   "kind": "OFFICE",
+   "subject": "gir_online_permit_booking_system",
+   "object": "official_website",
+   "detail": {
+    "url": "https://girlion.gujarat.gov.in/AboutGirNationalPark.aspx"
+   },
+   "sourceId": "src:685b1b1dfecf",
+   "evidence": "This is the only official website for Gir Online Permit Booking System.",
+   "confidence": 1
+  },
+  {
+   "claim": "Citizens should be wary of fraudulent websites that claim to provide confirmed permit bookings at premium rates.",
+   "kind": "BLOCKER",
+   "subject": "fraudulent_websites",
+   "object": "confirmed_permit_bookings",
+   "detail": {},
+   "sourceId": "src:685b1b1dfecf",
+   "evidence": "Beware of fraudulant websites claiming to provide confirmed Permit booking services at premium rates.",
+   "confidence": 1
+  },
+  {
+   "claim": "Tatkal or urgent bookings are not allowed on the official website.",
+   "kind": "BLOCKER",
+   "subject": "tatkal_urgent_bookings",
+   "object": "official_website",
+   "detail": {},
+   "sourceId": "src:685b1b1dfecf",
+   "evidence": "Tatkal or urgent bookings are not allowed on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Sinh Sadan room bookings are not offered on the official website.",
+   "kind": "BLOCKER",
+   "subject": "sinh_sadan_room_bookings",
+   "object": "official_website",
+   "detail": {},
+   "sourceId": "src:685b1b1dfecf",
+   "evidence": "Kindly note that sinh sadan room bookings are not offered on this website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Citizens should use only official and authorized platforms for bookings.",
+   "kind": "CHANNEL",
+   "subject": "bookings",
+   "object": "official_authorized_platforms",
+   "detail": {},
+   "sourceId": "src:685b1b1dfecf",
+   "evidence": "Please use only official and authorized platforms for bookings.",
+   "confidence": 1
+  },
+  {
    "claim": "The website is the only official booking website for Gir Online Permit Booking System.",
    "kind": "CHANNEL",
    "subject": "booking_website",
@@ -3893,30 +4062,6 @@
    "confidence": 1
   },
   {
-   "claim": "This is the only official booking website for Gir Online Permit Booking System.",
-   "kind": "CHANNEL",
-   "subject": "gir_permit_booking",
-   "object": "official_website",
-   "detail": {
-    "url": "https://girlion.gujarat.gov.in/AboutGirNationalPark.aspx"
-   },
-   "sourceId": "src:685b1b1dfecf",
-   "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
-   "confidence": 1
-  },
-  {
-   "claim": "This is the only official booking website for Gir Online Permit Booking System.",
-   "kind": "CHANNEL",
-   "subject": "gir_permit_booking",
-   "object": "official_website",
-   "detail": {
-    "url": "https://girlion.gujarat.gov.in/AboutGirNationalPark.aspx/1000"
-   },
-   "sourceId": "src:1e60c0040810",
-   "evidence": "This is the only official booking website for Gir Online Permit Booking System.",
-   "confidence": 1
-  },
-  {
    "claim": "OTP is valid only for 30 minutes.",
    "kind": "TIMELINE",
    "subject": "otp",
@@ -4290,281 +4435,6 @@
    },
    "sourceId": "src:fea49844e324",
    "evidence": "Safari Vehicle | Saturday/Sunday/ Festival Days | Extra Child | 125 | 2375",
-   "confidence": 1
-  },
-  {
-   "claim": "Form-20 must be submitted online for registration of a new vehicle.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "form_20",
-   "object": "new_vehicle",
-   "detail": {},
-   "sourceId": "src:8f130659de66",
-   "evidence": "Application in Form - 20 should be made for registration of a New Vehicle. It is compulsory to submit Form - 20 online on the web portal of the department.",
-   "confidence": 1
-  },
-  {
-   "claim": "A printout of Form-20 must be submitted at the concerned R.T.O. along with other necessary documents.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "form_20_printout",
-   "object": "rt_o",
-   "detail": {},
-   "sourceId": "src:8f130659de66",
-   "evidence": "The print out of uploaded Form - 20 should be taken and should be submitted at the concerned R.T.O. along with other necessary documents.",
-   "confidence": 1
-  },
-  {
-   "claim": "A Sale Certificate in Form No.21 is required for vehicle registration.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "sale_certificate",
-   "object": "form_21",
-   "detail": {},
-   "sourceId": "src:8f130659de66",
-   "evidence": "Sale Certificate in Form No.21",
-   "confidence": 1
-  },
-  {
-   "claim": "A Road worthiness certificate in Form 22 is required for vehicle registration.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "road_worthiness_certificate",
-   "object": "form_22",
-   "detail": {},
-   "sourceId": "src:8f130659de66",
-   "evidence": "Road worthiness certificate in Form 22.",
-   "confidence": 1
-  },
-  {
-   "claim": "Identity proof with photographs of the applicant is required for vehicle registration.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "identity_proof",
-   "object": "applicant",
-   "detail": {},
-   "sourceId": "src:8f130659de66",
-   "evidence": "Identity proof with photographs of applicant.",
-   "confidence": 1
-  },
-  {
-   "claim": "Vehicle insurance certificate is required for vehicle registration.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "vehicle_insurance",
-   "object": "certificate",
-   "detail": {},
-   "sourceId": "src:8f130659de66",
-   "evidence": "Vehicle insurance certificate.",
-   "confidence": 1
-  },
-  {
-   "claim": "Proof of address is required for vehicle registration.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "proof_of_address",
-   "object": "registration",
-   "detail": {},
-   "sourceId": "src:8f130659de66",
-   "evidence": "Proof of address",
-   "confidence": 1
-  },
-  {
-   "claim": "In case the vehicle is imported, a bill of entry submitted to Customs is required.",
-   "kind": "CONDITIONAL_REQUIREMENT",
-   "subject": "imported_vehicle",
-   "object": "bill_of_entry",
-   "detail": {},
-   "sourceId": "src:8f130659de66",
-   "evidence": "In case vehicle is imported, then, bill of entry submitted to Customs and in case, vehicle is not a body built vehicle, then Form No.22 Part 2 (A) should also be submitted along with the application.",
-   "confidence": 1
-  },
-  {
-   "claim": "Passport, L.I.C. Policy, Electoral Voter I-Card, Light Bill, Telephone Bill, receipt of House Tax with address, Pay Slip of Central/State/Local self Government or an Affidavit from the applicant can be submitted as proof of address and identification.",
-   "kind": "ACCEPTED_ALTERNATIVES",
-   "subject": "proof_of_address",
-   "object": "accepted_documents",
-   "detail": {},
-   "sourceId": "src:8f130659de66",
-   "evidence": "Passport, L.I.C. Policy, Electoral Voter I-Card, Light Bill, Telephone Bill, receipt of House Tax with address, Pay Slip of Central/State/Local self Government or an Affidavit from the applicant to that effect can be submitted as a proof of address as well as proof of identification.",
-   "confidence": 1
-  },
-  {
-   "claim": "A new vehicle is registered in the R.T.O. where the vehicle owner ordinarily resides or has his place of business.",
-   "kind": "OFFICE",
-   "subject": "new_vehicle",
-   "object": "rt_o",
-   "detail": {},
-   "sourceId": "src:8f130659de66",
-   "evidence": "A new vehicle is registered in the R.T.O. where the vehicle owner ordinarily resides or has his place of business.",
-   "confidence": 1
-  },
-  {
-   "claim": "The inspection of two wheelers and car is permitted to be done by authorized dealer in the State.",
-   "kind": "CHANNEL",
-   "subject": "vehicle_inspection",
-   "object": "authorized_dealer",
-   "detail": {},
-   "sourceId": "src:8f130659de66",
-   "evidence": "The inspection of two wheelers and car is permitted to be done by authorized dealer in the State.",
-   "confidence": 1
-  },
-  {
-   "claim": "If the certificate is not issued by the dealer, the vehicle is required to be produced in R.T.O. for inspection.",
-   "kind": "CONDITIONAL_REQUIREMENT",
-   "subject": "vehicle_inspection",
-   "object": "rt_o",
-   "detail": {},
-   "sourceId": "src:8f130659de66",
-   "evidence": "In case, such certificate is issued by the dealer, the same should be attached with the application; otherwise the vehicle is required to be produced in R.T.O. for inspection.",
-   "confidence": 1
-  },
-  {
-   "claim": "If all papers attached to Form-20 are found correct, then a registration number is allocated to the vehicle.",
-   "kind": "ACTION",
-   "subject": "form_20",
-   "object": "registration_number",
-   "detail": {},
-   "sourceId": "src:8f130659de66",
-   "evidence": "If, all papers attached to Form-20 are found correct, then, a registration number is allocated to the vehicle, Unless a selected number has been obtained by the owner paying appropriate fee, the vehicle registration number is allocated by computer through a random system after the registration process is completed.",
-   "confidence": 1
-  },
-  {
-   "claim": "The vehicle owner is informed about the registration number through SMS or E-Mail address submitted by them.",
-   "kind": "CHANNEL",
-   "subject": "registration_number",
-   "object": "notification",
-   "detail": {},
-   "sourceId": "src:8f130659de66",
-   "evidence": "The vehicle owner is informed about the registration number through SMS or E-Mail address submitted by them.",
-   "confidence": 1
-  },
-  {
-   "claim": "The smart R.C. Book of the vehicle is sent by speed-post at the address indicated by the applicant in the Form.",
-   "kind": "ACTION",
-   "subject": "smart_rc_book",
-   "object": "speed_post",
-   "detail": {},
-   "sourceId": "src:8f130659de66",
-   "evidence": "The smart R.C. Book of the vehicle is sent by speed-post at the address indicated by the applicant in the Form.",
-   "confidence": 1
-  },
-  {
-   "claim": "A fee of Rs.1000/- is required for two wheelers for choice number selection.",
-   "kind": "FEE",
-   "subject": "choice_number",
-   "object": "two_wheeler",
-   "detail": {
-    "amount": 1000,
-    "currency": "INR"
-   },
-   "sourceId": "src:8f130659de66",
-   "evidence": "After public auction, the remaining numbers can be selected as choice number by paying a fee of Rs.1000/- for two wheelers and Rs.5000/- for four wheelers.",
-   "confidence": 1
-  },
-  {
-   "claim": "A fee of Rs.5000/- is required for four wheelers for choice number selection.",
-   "kind": "FEE",
-   "subject": "choice_number",
-   "object": "four_wheeler",
-   "detail": {
-    "amount": 5000,
-    "currency": "INR"
-   },
-   "sourceId": "src:8f130659de66",
-   "evidence": "After public auction, the remaining numbers can be selected as choice number by paying a fee of Rs.1000/- for two wheelers and Rs.5000/- for four wheelers.",
-   "confidence": 1
-  },
-  {
-   "claim": "A fee of Rs.150/- is required for transfer of ownership of two wheelers.",
-   "kind": "FEE",
-   "subject": "transfer_ownership",
-   "object": "two_wheeler",
-   "detail": {
-    "amount": 150,
-    "currency": "INR"
-   },
-   "sourceId": "src:8f130659de66",
-   "evidence": "A fee of Rs.150/- in case of two wheelers and Rs.300/- in case of motor car is required to be paid as transfer fee.",
-   "confidence": 1
-  },
-  {
-   "claim": "A fee of Rs.300/- is required for transfer of ownership of motor cars.",
-   "kind": "FEE",
-   "subject": "transfer_ownership",
-   "object": "motor_car",
-   "detail": {
-    "amount": 300,
-    "currency": "INR"
-   },
-   "sourceId": "src:8f130659de66",
-   "evidence": "A fee of Rs.150/- in case of two wheelers and Rs.300/- in case of motor car is required to be paid as transfer fee.",
-   "confidence": 1
-  },
-  {
-   "claim": "A fee of Rs.200/- is required for entering or cancelling hypothecation details.",
-   "kind": "FEE",
-   "subject": "hypothecation_details",
-   "object": "fee",
-   "detail": {
-    "amount": 200,
-    "currency": "INR"
-   },
-   "sourceId": "src:8f130659de66",
-   "evidence": "A fee of Rs.200/- is required to be paid for this purpose.",
-   "confidence": 1
-  },
-  {
-   "claim": "A fee of Rs.150/- is required for a duplicate R.C. Book for motor cycles.",
-   "kind": "FEE",
-   "subject": "duplicate_rc_book",
-   "object": "motor_cycle",
-   "detail": {
-    "amount": 150,
-    "currency": "INR"
-   },
-   "sourceId": "src:8f130659de66",
-   "evidence": "A fee of Rs.150/- for motor cycle and a fee of Rs.300/- for motor car is required to be paid.",
-   "confidence": 1
-  },
-  {
-   "claim": "A fee of Rs.300/- is required for a duplicate R.C. Book for motor cars.",
-   "kind": "FEE",
-   "subject": "duplicate_rc_book",
-   "object": "motor_car",
-   "detail": {
-    "amount": 300,
-    "currency": "INR"
-   },
-   "sourceId": "src:8f130659de66",
-   "evidence": "A fee of Rs.150/- for motor cycle and a fee of Rs.300/- for motor car is required to be paid.",
-   "confidence": 1
-  },
-  {
-   "claim": "A vehicle brought from another state must be produced for compulsory inspection.",
-   "kind": "CONDITIONAL_REQUIREMENT",
-   "subject": "vehicle_from_other_state",
-   "object": "inspection",
-   "detail": {},
-   "sourceId": "src:8f130659de66",
-   "evidence": "The vehicle is required to be produced compulsorily for inspection.",
-   "confidence": 1
-  },
-  {
-   "claim": "A declaration in Form F.T. must be made within 7 days if a vehicle is brought into the State permanently.",
-   "kind": "TIMELINE",
-   "subject": "declaration_form_ft",
-   "object": "permanent_vehicle",
-   "detail": {
-    "days": 7
-   },
-   "sourceId": "src:8f130659de66",
-   "evidence": "If a vehicle is brought in the State permanently, then the declaration in Form F.T. should be made within a period of 7 days.",
-   "confidence": 1
-  },
-  {
-   "claim": "A vehicle must be produced for inspection within 14 days of approval for change in vehicle.",
-   "kind": "TIMELINE",
-   "subject": "vehicle_inspection",
-   "object": "change_in_vehicle",
-   "detail": {
-    "days": 14
-   },
-   "sourceId": "src:8f130659de66",
-   "evidence": "vehicle should be produced for inspection within 14 days of such approval being given.",
    "confidence": 1
   },
   {
@@ -5946,285 +5816,6 @@
    },
    "sourceId": "src:0b7975f95c09",
    "evidence": "9. VII-B Manufacture of replica of firearms including of antique\nmuzzle loading weapons and air weapons including air\nrifles/ air guns(as per the licensed capacity)\nRs. 200 per arm\n•\nN/A",
-   "confidence": 0.95
-  },
-  {
-   "claim": "DPIFC provides facilitation for industrial projects with an investment of ₹100 crore or more.",
-   "kind": "ELIGIBILITY",
-   "subject": "dpifc_eligibility",
-   "object": "industrial_projects",
-   "detail": {
-    "amount": "100",
-    "currency": "₹",
-    "threshold_type": "investment"
-   },
-   "sourceId": "src:f84364f06217",
-   "evidence": "Industrial Projects\nInvestors with a signed MoU with the Government of Gujarat for an industrial project investment (excluding land cost) of ₹100 crore or above.\n₹100 Cr+",
-   "confidence": 0.95
-  },
-  {
-   "claim": "DPIFC provides facilitation for residential or commercial projects with an investment of ₹500 crore or more.",
-   "kind": "ELIGIBILITY",
-   "subject": "dpifc_eligibility",
-   "object": "residential_commercial_projects",
-   "detail": {
-    "amount": "500",
-    "currency": "₹",
-    "threshold_type": "investment"
-   },
-   "sourceId": "src:f84364f06217",
-   "evidence": "Residential & Commercial\nInvestors with a signed MoU with the Government of Gujarat for a residential or commercial project investment (excluding land cost) of ₹500 crore or above.\n₹500 Cr+",
-   "confidence": 0.95
-  },
-  {
-   "claim": "DPIFC facilitates projects under the Regulations for Corporate Office, Hotel & Mixed-Use Development – 2024.",
-   "kind": "ELIGIBILITY",
-   "subject": "dpifc_eligibility",
-   "object": "corporate_hotel_mixed_use_projects",
-   "detail": {},
-   "sourceId": "src:f84364f06217",
-   "evidence": "Corporate Office, Hotel & Mixed-Use\nProjects proposed under the Regulations for Corporate Office, Hotel & Mixed-Use Development &ndash; 2024.",
-   "confidence": 0.9
-  },
-  {
-   "claim": "DPIFC facilitates hospital projects under the Regulations for Hospital – 2011.",
-   "kind": "ELIGIBILITY",
-   "subject": "dpifc_eligibility",
-   "object": "hospital_projects",
-   "detail": {},
-   "sourceId": "src:f84364f06217",
-   "evidence": "Hospital Projects\nProjects proposed under the Regulations for Hospital &ndash; 2011.",
-   "confidence": 0.9
-  },
-  {
-   "claim": "DPIFC facilitates projects within the jurisdiction of Urban Development Authorities, Area Development Authorities, Municipal Corporations, and Municipalities.",
-   "kind": "ELIGIBILITY",
-   "subject": "dpifc_eligibility",
-   "object": "jurisdiction",
-   "detail": {
-    "jurisdictions": [
-     "Urban Development Authorities",
-     "Area Development Authorities",
-     "Municipal Corporations",
-     "Municipalities"
-    ]
-   },
-   "sourceId": "src:f84364f06217",
-   "evidence": "Jurisdiction Covered\nProjects within Urban Development Authorities, Area Development Authorities, Municipal Corporations and Municipalities in Gujarat.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "DPIFC facilitates projects promoted by investors from within Gujarat, other States of India, and overseas.",
-   "kind": "ELIGIBILITY",
-   "subject": "dpifc_eligibility",
-   "object": "investor_origin",
-   "detail": {
-    "origin": [
-     "within Gujarat",
-     "other States of India",
-     "overseas"
-    ]
-   },
-   "sourceId": "src:f84364f06217",
-   "evidence": "Investors From Anywhere\nDPIFC facilitates eligible investment projects promoted by investors from within Gujarat, other States of India, and overseas.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "DPIFC does not grant statutory approvals or development permissions.",
-   "kind": "ACTION",
-   "subject": "dpifc_action",
-   "object": "statutory_approvals",
-   "detail": {
-    "action": "does not grant"
-   },
-   "sourceId": "src:f84364f06217",
-   "evidence": "Please note: DPIFC functions solely as a facilitation cell. It does not grant statutory approvals or permissions &mdash; these continue to remain within the jurisdiction of the respective Competent Authorities under the applicable Acts, Rules, Regulations, Government Resolutions and policies.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "DPIFC provides guidance on the development permission process.",
-   "kind": "ACTION",
-   "subject": "dpifc_action",
-   "object": "guidance_development_permission",
-   "detail": {},
-   "sourceId": "src:f84364f06217",
-   "evidence": "2 Provide end-to-end guidance on the development permission application process.",
-   "confidence": 0.9
-  },
-  {
-   "claim": "DPIFC assists investors in understanding statutory requirements, including all necessary No Objection Certificates (NoCs).",
-   "kind": "ACTION",
-   "subject": "dpifc_action",
-   "object": "statutory_requirements",
-   "detail": {
-    "requirements": [
-     "No Objection Certificates (NoCs)"
-    ]
-   },
-   "sourceId": "src:f84364f06217",
-   "evidence": "3 Assist investors in understanding statutory requirements, including all necessary No Objection Certificates (NoCs).",
-   "confidence": 0.9
-  },
-  {
-   "claim": "DPIFC coordinates with State Government departments and competent authorities to facilitate timely processing of approvals and NoCs.",
-   "kind": "ACTION",
-   "subject": "dpifc_action",
-   "object": "coordination_processing",
-   "detail": {
-    "departments": [
-     "State Government departments",
-     "competent authorities"
-    ]
-   },
-   "sourceId": "src:f84364f06217",
-   "evidence": "5 Coordinate with State Government departments and competent authorities to facilitate timely processing of approvals and NoCs.",
-   "confidence": 0.9
-  },
-  {
-   "claim": "DPIFC provides handholding support to investors throughout the permission process until statutory clearances are obtained.",
-   "kind": "ACTION",
-   "subject": "dpifc_action",
-   "object": "handholding_support",
-   "detail": {
-    "support_type": "handholding"
-   },
-   "sourceId": "src:f84364f06217",
-   "evidence": "6 Provide handholding support to investors throughout the permission process until statutory clearances are obtained.",
-   "confidence": 0.9
-  },
-  {
-   "claim": "DPIFC facilitates investment projects proposed within the jurisdiction of Urban Development Authorities, Area Development Authorities, Municipal Corporations, and Municipalities.",
-   "kind": "ACTION",
-   "subject": "dpifc_action",
-   "object": "facilitate_projects",
-   "detail": {
-    "jurisdictions": [
-     "Urban Development Authorities",
-     "Area Development Authorities",
-     "Municipal Corporations",
-     "Municipalities"
-    ]
-   },
-   "sourceId": "src:f84364f06217",
-   "evidence": "7 Facilitate investment projects proposed within the jurisdiction of Urban Development Authorities, Area Development Authorities, Municipal Corporations, and Municipalities.",
-   "confidence": 0.9
-  },
-  {
-   "claim": "DPIFC improves the ease, transparency, and efficiency of Gujarat's development permission ecosystem in support of investment promotion.",
-   "kind": "ACTION",
-   "subject": "dpifc_action",
-   "object": "improve_permission_ecosystem",
-   "detail": {
-    "improvements": [
-     "ease",
-     "transparency",
-     "efficiency"
-    ]
-   },
-   "sourceId": "src:f84364f06217",
-   "evidence": "8 Improve the ease, transparency, and efficiency of Gujarat's development permission ecosystem in support of investment promotion.",
-   "confidence": 0.9
-  },
-  {
-   "claim": "DPIFC engages professional agencies, where necessary and with Government approval, to provide specialized facilitation services.",
-   "kind": "ACTION",
-   "subject": "dpifc_action",
-   "object": "engage_professional_agencies",
-   "detail": {
-    "condition": "with Government approval"
-   },
-   "sourceId": "src:f84364f06217",
-   "evidence": "10 Engage professional agencies, where necessary and with Government approval, to provide specialized facilitation services.",
-   "confidence": 0.9
-  },
-  {
-   "claim": "DPIFC functions under the Additional Chief Town Planner (Research), within the Town Planning & Valuation Department, under the Urban Development & Urban Housing Department.",
-   "kind": "OFFICE",
-   "subject": "dpifc_office",
-   "object": "additional_chief_town_planner_research",
-   "detail": {
-    "department": "Town Planning & Valuation Department",
-    "ministry": "Urban Development & Urban Housing Department"
-   },
-   "sourceId": "src:f84364f06217",
-   "evidence": "DPIFC functions under the Additional Chief Town Planner (Research), within the Town Planning & Valuation Department, under the Urban Development & Urban Housing Department &mdash; and is guided at the highest levels of government.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "DPIFC provides an online Request for Assistance through the DPIFC Portal.",
-   "kind": "CHANNEL",
-   "subject": "dpifc_assistance",
-   "object": "online_request",
-   "detail": {
-    "portal": "DPIFC Portal"
-   },
-   "sourceId": "src:f84364f06217",
-   "evidence": "7. How can I request facilitation from DPIFC?\nEligible applicants may submit an online Request for Assistance through the DPIFC Portal by providing the required project details and supporting documents.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "Upon successful submission of the request, the system shall generate an Acknowledgement ID for future reference and correspondence.",
-   "kind": "TRACKING",
-   "subject": "dpifc_submission",
-   "object": "acknowledgement_id",
-   "detail": {
-    "purpose": "future reference and correspondence"
-   },
-   "sourceId": "src:f84364f06217",
-   "evidence": "Submission & Acknowledgement\nUpon successful submission of the request, the system shall generate an Acknowledgement ID for future reference and correspondence.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The Acknowledgement ID shall also be sent to the registered email address (where possible).",
-   "kind": "TRACKING",
-   "subject": "dpifc_submission",
-   "object": "acknowledgement_email",
-   "detail": {
-    "method": "registered email address"
-   },
-   "sourceId": "src:f84364f06217",
-   "evidence": "The Acknowledgement ID shall also be sent to the registered email address (where possible).",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The Acknowledgement ID is to be used for tracking and future communications.",
-   "kind": "TRACKING",
-   "subject": "dpifc_submission",
-   "object": "tracking_future_communications",
-   "detail": {
-    "tool": "Acknowledgement ID"
-   },
-   "sourceId": "src:f84364f06217",
-   "evidence": "The Acknowledgement ID is to be used for tracking and future communications.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "Eligible applicants may request a Consultation through the Contact Us section in DPIFC Portal.",
-   "kind": "CHANNEL",
-   "subject": "dpifc_consultation",
-   "object": "contact_us_section",
-   "detail": {
-    "portal": "DPIFC Portal"
-   },
-   "sourceId": "src:f84364f06217",
-   "evidence": "10. Can I schedule a consultation with DPIFC?\nYes. Eligible applicants may request a Consultation through the Contact Us section in DPIFC Portal. Consultations are scheduled subject to availability.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "DPIFC provides guidance on development permission procedures, applicable planning regulations, required statutory approvals and NoCs, and identification of Competent Authorities.",
-   "kind": "ACTION",
-   "subject": "dpifc_consultation",
-   "object": "guidance_provided",
-   "detail": {
-    "guidance_topics": [
-     "development permission procedures",
-     "applicable planning regulations",
-     "required statutory approvals and NoCs",
-     "identification of Competent Authorities"
-    ]
-   },
-   "sourceId": "src:f84364f06217",
-   "evidence": "11. What type of facilitation does DPIFC provide during the consultation?\nDPIFC provides guidance on:\nDevelopment permission procedures\nApplicable planning regulations\nRequired statutory approvals and NoCs\nIdentification of Competent Authorities",
    "confidence": 0.95
   },
   {
@@ -8183,7 +7774,7 @@
    "confidence": 0.9
   },
   {
-   "claim": "Hotel/Resort projects are only eligible for financial benefits if set up in identified High Priority Tourism Destinations in Gujarat.",
+   "claim": "Hotel/Resort projects are eligible for financial benefits only if they are set up in identified High Priority Tourism Destinations in Gujarat.",
    "kind": "ELIGIBILITY",
    "subject": "hotel_resort_projects",
    "object": "high_priority_tourism_destinations",
@@ -8193,8 +7784,8 @@
    "confidence": 1
   },
   {
-   "claim": "Tourism units must register online at https://tourism.gujarat.gov.in/ to apply for incentives or benefits under the policy.",
-   "kind": "ACTION",
+   "claim": "Tourism units must register online on https://tourism.gujarat.gov.in/ to apply under the policy.",
+   "kind": "CHANNEL",
    "subject": "tourism_units",
    "object": "online_registration",
    "detail": {
@@ -8205,7 +7796,7 @@
    "confidence": 1
   },
   {
-   "claim": "An undertaking from the applicant must accompany the application with the required documents.",
+   "claim": "Applicants must submit an undertaking along with the application.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "application",
    "object": "undertaking",
@@ -8215,97 +7806,91 @@
    "confidence": 1
   },
   {
-   "claim": "GST Registration or Udyam Registration is required for registration.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "registration",
-   "object": "gst_or_udyam_registration",
-   "detail": {},
-   "sourceId": "src:d15b348053e1",
-   "evidence": "o GST Registration/ Udyam Registration, Self-Certification where said certificates are not applicable",
-   "confidence": 1
-  },
-  {
-   "claim": "An authorization letter in the organization’s letterhead is required for registration.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "registration",
-   "object": "authorization_letter",
-   "detail": {},
-   "sourceId": "src:d15b348053e1",
-   "evidence": "o Details of Authorized Representative of the applicant - Authorization in organization’s letterhead to represent on behalf of the applicant",
-   "confidence": 1
-  },
-  {
-   "claim": "A Development Permission Certificate is mandatory for Hotel/Resort, Apartment Hotels, Tented Accommodation, Motel, and Convention Centre projects.",
+   "claim": "Development Permission Certificate is mandatory for Hotel/Resort, Apartment Hotels, Tented Accommodation, Motel, and Convention Centre projects.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "hotel_resort_projects",
    "object": "development_permission_certificate",
    "detail": {},
    "sourceId": "src:d15b348053e1",
-   "evidence": "2. Development Permission Certificate(Municipal Corp/ Urban Local Bodies/ Municipality/ Gram Panchayat)",
+   "evidence": "Development Permission Certificate(Municipal Corp/ Urban Local Bodies/ Municipality/ Gram Panchayat)",
    "confidence": 1
   },
   {
-   "claim": "A MoT certificate is required for Hotel/Resort, Apartment Hotels, Tented Accommodation, Motel, and Convention Centre projects.",
+   "claim": "MoT certificate is mandatory for Hotel/Resort, Apartment Hotels, Tented Accommodation, Motel, and Convention Centre projects.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "hotel_resort_projects",
    "object": "mot_certificate",
    "detail": {},
    "sourceId": "src:d15b348053e1",
-   "evidence": "3. MoT certificate for Hotel/ Resort, Apartment Hotels, Tented Accommodation, Motel, and Convention Centre",
+   "evidence": "MoT certificate for Hotel/ Resort, Apartment Hotels, Tented Accommodation, Motel, and Convention Centre",
    "confidence": 1
   },
   {
-   "claim": "A Chartered Engineer or Valuer Certificate is required for Tourism Projects to certify present value and residual life of the construction.",
+   "claim": "Building Utilization Permission is mandatory for all cases.",
    "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "tourism_projects",
-   "object": "chartered_engineer_certificate",
+   "subject": "all_projects",
+   "object": "building_utilization_permission",
    "detail": {},
    "sourceId": "src:d15b348053e1",
-   "evidence": "5. Chartered Engineer / Valuer Certificate for Project Cost for Tourism Project certifying its present value and residual life of the said construction.",
+   "evidence": "Building Utilization Permission",
    "confidence": 1
   },
   {
-   "claim": "A Performance Certificate from the District Collector is required for Theme/Amusement Park projects.",
+   "claim": "Chartered Engineer/Valuer Certificate for Project Cost is mandatory for Tourism Projects.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "tourism_projects",
+   "object": "chartered_engineer_valuer_certificate",
+   "detail": {},
+   "sourceId": "src:d15b348053e1",
+   "evidence": "Chartered Engineer / Valuer Certificate for Project Cost for Tourism Project certifying its present value and residual life of the said construction.",
+   "confidence": 1
+  },
+  {
+   "claim": "Performance Certificate from District Collector is required for Theme/Water/Amusement Parks.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "theme_park_projects",
-   "object": "district_collector_certificate",
-   "detail": {},
+   "object": "performance_certificate",
+   "detail": {
+    "authority": "District Collector"
+   },
    "sourceId": "src:d15b348053e1",
    "evidence": "1. Performance Certificate from District Collector (for Theme / Water / Amusement Park)",
    "confidence": 1
   },
   {
-   "claim": "A CA certificate stating investments for the purchase of rides and a copy of original invoices is required for Theme/Amusement Park projects.",
+   "claim": "CA certificate stating the investments for the purchase of rides along with a copy of original invoices is required for Theme/Water/Amusement Parks.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "theme_park_projects",
-   "object": "ca_certificate_and_invoices",
+   "object": "ca_certificate",
    "detail": {},
    "sourceId": "src:d15b348053e1",
    "evidence": "2. CA certificate stating the investments for the purchase of rides along with a copy of original invoices",
    "confidence": 1
   },
   {
-   "claim": "A DPR is required for D8 and D10 categories of Development Permission.",
+   "claim": "DPR is required for D8 & D10 Categories (Development Permission).",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "d8_d10_projects",
    "object": "dpr",
-   "detail": {},
+   "detail": {
+    "annexure": "Annexure: D"
+   },
    "sourceId": "src:d15b348053e1",
    "evidence": "1. DPR (For D8 & D10 Categories (Development Permission)) (Annexure: D)",
    "confidence": 1
   },
   {
-   "claim": "A registered Chartered Mechanical Engineer must certify the value and residual life of self-fabricated machinery or equipment.",
+   "claim": "Value and residual life by a registered Chartered Mechanical Engineer is required for self-fabricated machinery and equipment.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "self_fabricated_machinery",
-   "object": "chartered_engineer_certificate",
+   "object": "chartered_mechanical_engineer_certificate",
    "detail": {},
    "sourceId": "src:d15b348053e1",
    "evidence": "2. Value and residual life by a registered Chartered Mechanical Engineer in case of self-fabricated machinery, equipment",
    "confidence": 1
   },
   {
-   "claim": "A copy of the first Electricity Bill is required for exemption from electricity duty.",
+   "claim": "Copy of the first Electricity Bill is required for exemption from electricity duty.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "electricity_duty_exemption",
    "object": "electricity_bill",
@@ -8315,33 +7900,49 @@
    "confidence": 1
   },
   {
-   "claim": "Proof of successful payment of Stamp Duty and Registration Fee is required for reimbursement.",
+   "claim": "Document showing successful payment of Stamp Duty and Registration Fee is required for reimbursement.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "stamp_duty_reimbursement",
-   "object": "payment_proof",
+   "object": "stamp_duty_payment_document",
    "detail": {},
    "sourceId": "src:d15b348053e1",
    "evidence": "1. Document showing successful payment of Stamp Duty and Registration Fee",
    "confidence": 1
   },
   {
-   "claim": "A self-certification or undertaking in organization’s letterhead is required for availing financial benefits.",
+   "claim": "Self-Certification/Undertaking in organization’s letterhead is required for the application of financial benefits.",
    "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "financial_benefits",
+   "subject": "financial_benefits_application",
    "object": "self_certification",
-   "detail": {},
+   "detail": {
+    "annexure": "Annexure: C"
+   },
    "sourceId": "src:d15b348053e1",
    "evidence": "1. Self-Certification/Undertaking in organization’s letterhead (Annexure: C)",
    "confidence": 1
   },
   {
-   "claim": "Proof of bank details, such as a cancelled cheque, is required for availing financial benefits.",
+   "claim": "Proof of Bank Details (Cancelled Cheque/ any other means of proof) is required for availing financial benefits.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "financial_benefits",
-   "object": "bank_details",
+   "object": "bank_details_proof",
    "detail": {},
    "sourceId": "src:d15b348053e1",
    "evidence": "2. Proof of Bank Details (Cancelled Cheque/ any other means of proof) for availing financial benefits",
+   "confidence": 1
+  },
+  {
+   "claim": "Tourism Hospitality and Training Institute projects are eligible for a 25% or INR 10 Lakhs per PCS, whichever is lower, as a percentage of the eligible capital investment.",
+   "kind": "FEE",
+   "subject": "tourism_hospitality_training_institute_projects",
+   "object": "incentive",
+   "detail": {
+    "percentage": "25%",
+    "maximum_amount": "1000000",
+    "currency": "INR"
+   },
+   "sourceId": "src:d15b348053e1",
+   "evidence": "25% or INR 10 Lakhs per PCS, whichever is lower",
    "confidence": 1
   },
   {
@@ -8771,6 +8372,184 @@
    "confidence": 0.95
   },
   {
+   "claim": "Form-20 must be submitted online for registration of a new vehicle.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "form_20",
+   "object": "vehicle_registration",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "Application in Form - 20 should be made for registration of a New Vehicle. It is compulsory to submit Form - 20 online on the web portal of the department.",
+   "confidence": 1
+  },
+  {
+   "claim": "Form-20 must be submitted along with other necessary documents at the concerned R.T.O.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "form_20",
+   "object": "vehicle_registration",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "The print out of uploaded Form - 20 should be taken and should be submitted at the concerned R.T.O. along with other necessary documents.",
+   "confidence": 1
+  },
+  {
+   "claim": "Sale Certificate in Form No.21 is required for vehicle registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "sale_certificate_form_21",
+   "object": "vehicle_registration",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "Following documents are required to be submitted at concerned R.T.O. with Form-20. Sale Certificate in Form No.21",
+   "confidence": 1
+  },
+  {
+   "claim": "Road worthiness certificate in Form 22 is required for vehicle registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "road_worthiness_certificate_form_22",
+   "object": "vehicle_registration",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "Road worthiness certificate in Form 22.",
+   "confidence": 1
+  },
+  {
+   "claim": "Identity proof with photographs of the applicant is required for vehicle registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "identity_proof_with_photos",
+   "object": "vehicle_registration",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "Identity proof with photographs of applicant.",
+   "confidence": 1
+  },
+  {
+   "claim": "Vehicle insurance certificate is required for vehicle registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "vehicle_insurance_certificate",
+   "object": "vehicle_registration",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "Vehicle insurance certificate.",
+   "confidence": 1
+  },
+  {
+   "claim": "Proof of address is required for vehicle registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "proof_of_address",
+   "object": "vehicle_registration",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "Proof of address",
+   "confidence": 1
+  },
+  {
+   "claim": "In case the vehicle is imported, the bill of entry submitted to Customs is required.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "imported_vehicle",
+   "object": "vehicle_registration",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "In case vehicle is imported, then, bill of entry submitted to Customs and in case, vehicle is not a body built vehicle, then Form No.22 Part 2 (A) should also be submitted along with the application.",
+   "confidence": 1
+  },
+  {
+   "claim": "A fee of Rs.1000/- is required for a choice number for two wheelers.",
+   "kind": "FEE",
+   "subject": "choice_number_fee",
+   "object": "two_wheelers",
+   "detail": {
+    "amount": "1000",
+    "currency": "INR"
+   },
+   "sourceId": "src:8f130659de66",
+   "evidence": "After public auction, the remaining numbers can be selected as choice number by paying a fee of Rs.1000/- for two wheelers and Rs.5000/- for four wheelers.",
+   "confidence": 1
+  },
+  {
+   "claim": "A fee of Rs.5000/- is required for a choice number for four wheelers.",
+   "kind": "FEE",
+   "subject": "choice_number_fee",
+   "object": "four_wheelers",
+   "detail": {
+    "amount": "5000",
+    "currency": "INR"
+   },
+   "sourceId": "src:8f130659de66",
+   "evidence": "After public auction, the remaining numbers can be selected as choice number by paying a fee of Rs.1000/- for two wheelers and Rs.5000/- for four wheelers.",
+   "confidence": 1
+  },
+  {
+   "claim": "A fee of Rs.150/- is required for transfer of ownership of two wheelers.",
+   "kind": "FEE",
+   "subject": "transfer_fee",
+   "object": "two_wheelers",
+   "detail": {
+    "amount": "150",
+    "currency": "INR"
+   },
+   "sourceId": "src:8f130659de66",
+   "evidence": "A fee of Rs.150/- in case of two wheelers and Rs.300/- in case of motor car is required to be paid as transfer fee.",
+   "confidence": 1
+  },
+  {
+   "claim": "A fee of Rs.300/- is required for transfer of ownership of motor cars.",
+   "kind": "FEE",
+   "subject": "transfer_fee",
+   "object": "motor_cars",
+   "detail": {
+    "amount": "300",
+    "currency": "INR"
+   },
+   "sourceId": "src:8f130659de66",
+   "evidence": "A fee of Rs.150/- in case of two wheelers and Rs.300/- in case of motor car is required to be paid as transfer fee.",
+   "confidence": 1
+  },
+  {
+   "claim": "A fee of Rs.150/- is required for a duplicate RC book for motor cycles.",
+   "kind": "FEE",
+   "subject": "duplicate_rc_fee",
+   "object": "motor_cycles",
+   "detail": {
+    "amount": "150",
+    "currency": "INR"
+   },
+   "sourceId": "src:8f130659de66",
+   "evidence": "A fee of Rs.150/- for motor cycle and a fee of Rs.300/- for motor car is required to be paid.",
+   "confidence": 1
+  },
+  {
+   "claim": "A fee of Rs.300/- is required for a duplicate RC book for motor cars.",
+   "kind": "FEE",
+   "subject": "duplicate_rc_fee",
+   "object": "motor_cars",
+   "detail": {
+    "amount": "300",
+    "currency": "INR"
+   },
+   "sourceId": "src:8f130659de66",
+   "evidence": "A fee of Rs.150/- for motor cycle and a fee of Rs.300/- for motor car is required to be paid.",
+   "confidence": 1
+  },
+  {
+   "claim": "A vehicle is registered in the R.T.O. where the vehicle owner ordinarily resides or has his place of business.",
+   "kind": "OFFICE",
+   "subject": "vehicle_registration",
+   "object": "rto_office",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "A new vehicle is registered in the R.T.O. where the vehicle owner ordinarily resides or has his place of business.",
+   "confidence": 1
+  },
+  {
+   "claim": "The smart R.C. Book of the vehicle is sent by speed-post at the address indicated by the applicant in the Form.",
+   "kind": "TRACKING",
+   "subject": "rc_book_delivery",
+   "object": "vehicle_owner",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "The smart R.C. Book of the vehicle is sent by speed-post at the address indicated by the applicant in the Form.",
+   "confidence": 1
+  },
+  {
    "claim": "The applicant must provide their name.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "applicant",
@@ -8921,6 +8700,190 @@
    "sourceId": "src:52cd469e9103",
    "evidence": "આથી અમો બાહેધરી આપીએ છીએ કે ઉપર જણાવેલ માહિતી સાચી છે અને પ્રવર્તમાન શરતો, નિયમો તથા/અથવા અન્ય જોગવાઈઓ મને માન્ય છે અને બંધન કર્તા રહેશે.",
    "confidence": 0.95
+  },
+  {
+   "claim": "Industrial projects with an investment of ₹100 crore or more (excluding land cost) are eligible for DPIFC facilitation.",
+   "kind": "ELIGIBILITY",
+   "subject": "dpifc_eligibility",
+   "object": "industrial_projects",
+   "detail": {
+    "amount": "100",
+    "currency": "₹",
+    "threshold_type": "investment"
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "Industrial Projects\nInvestors with a signed MoU with the Government of Gujarat for an industrial project investment (excluding land cost) of ₹100 crore or above.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Residential or commercial projects with an investment of ₹500 crore or more (excluding land cost) are eligible for DPIFC facilitation.",
+   "kind": "ELIGIBILITY",
+   "subject": "dpifc_eligibility",
+   "object": "residential_commercial_projects",
+   "detail": {
+    "amount": "500",
+    "currency": "₹",
+    "threshold_type": "investment"
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "Residential & Commercial\nInvestors with a signed MoU with the Government of Gujarat for a residential or commercial project investment (excluding land cost) of ₹500 crore or above.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Projects under the Regulations for Corporate Office, Hotel & Mixed-Use Development – 2024 are eligible for DPIFC facilitation.",
+   "kind": "ELIGIBILITY",
+   "subject": "dpifc_eligibility",
+   "object": "corporate_hotel_mixed_use_projects",
+   "detail": {},
+   "sourceId": "src:f84364f06217",
+   "evidence": "Corporate Office, Hotel & Mixed-Use\nProjects proposed under the Regulations for Corporate Office, Hotel & Mixed-Use Development &ndash; 2024.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Hospital projects under the Regulations for Hospital – 2011 are eligible for DPIFC facilitation.",
+   "kind": "ELIGIBILITY",
+   "subject": "dpifc_eligibility",
+   "object": "hospital_projects",
+   "detail": {},
+   "sourceId": "src:f84364f06217",
+   "evidence": "Hospital Projects\nProjects proposed under the Regulations for Hospital &ndash; 2011.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIFC facilitates projects within the jurisdiction of Urban Development Authorities, Area Development Authorities, Municipal Corporations, and Municipalities in Gujarat.",
+   "kind": "ELIGIBILITY",
+   "subject": "dpifc_eligibility",
+   "object": "jurisdiction",
+   "detail": {
+    "jurisdictions": [
+     "Urban Development Authorities",
+     "Area Development Authorities",
+     "Municipal Corporations",
+     "Municipalities"
+    ]
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "Jurisdiction Covered\nProjects within Urban Development Authorities, Area Development Authorities, Municipal Corporations and Municipalities in Gujarat.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIFC facilitates eligible investment projects promoted by investors from within Gujarat, other States of India, and overseas.",
+   "kind": "ELIGIBILITY",
+   "subject": "dpifc_eligibility",
+   "object": "investor_origin",
+   "detail": {
+    "origin": [
+     "within Gujarat",
+     "other States of India",
+     "overseas"
+    ]
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "Investors From Anywhere\nDPIFC facilitates eligible investment projects promoted by investors from within Gujarat, other States of India, and overseas.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIFC does not grant statutory approvals or development permissions; these are issued by the respective Competent Authorities.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "dpifc_function",
+   "object": "statutory_approvals",
+   "detail": {
+    "authority": "Competent Authorities"
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "Please note: DPIFC functions solely as a facilitation cell. It does not grant statutory approvals or permissions &mdash; these continue to remain within the jurisdiction of the respective Competent Authorities under the applicable Acts, Rules, Regulations, Government Resolutions and policies.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An Acknowledgement ID is generated upon successful submission of a DPIFC request for future reference and tracking.",
+   "kind": "ACTION",
+   "subject": "dpifc_submission",
+   "object": "acknowledgement_id",
+   "detail": {
+    "purpose": "future reference and tracking"
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "Upon successful submission of the request, the system shall generate an Acknowledgement ID for future reference and correspondence.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The DPIFC Portal provides an Eligibility Checker to assess whether a project is eligible for DPIFC facilitation.",
+   "kind": "ACTION",
+   "subject": "dpifc_portal",
+   "object": "eligibility_checker",
+   "detail": {
+    "tool": "Eligibility Checker"
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "How can I check whether my project is eligible?\nApplicants may use the Eligibility Checker available on the DPIFC Portal. The tool provides a preliminary assessment based on the applicable eligibility criteria.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIFC provides guidance on development permission procedures, applicable planning regulations, and required statutory approvals and NoCs.",
+   "kind": "ACTION",
+   "subject": "dpifc_support",
+   "object": "guidance",
+   "detail": {
+    "topics": [
+     "development permission procedures",
+     "planning regulations",
+     "statutory approvals",
+     "NoCs"
+    ]
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "10. Can I schedule a consultation with DPIFC?\nYes. Eligible applicants may request a Consultation through the Contact Us section in DPIFC Portal. Consultations are scheduled subject to availability.\n11. What type of facilitation does DPIFC provide during the consultation?\nDPIFC provides guidance on:\nDevelopment permission procedures\nApplicable planning regulations\nRequired statutory approvals and NoCs",
+   "confidence": 0.95
+  },
+  {
+   "claim": "DPIFC does not charge a fee for submitting a request for facilitation.",
+   "kind": "FEE",
+   "subject": "dpifc_fee",
+   "object": "none",
+   "detail": {},
+   "sourceId": "src:f84364f06217",
+   "evidence": "At present, no fee is prescribed for submitting a request for facilitation through the DPIFC Portal.",
+   "confidence": 1
+  },
+  {
+   "claim": "Statutory fees, scrutiny fees, premiums, or other charges are payable to the respective Competent Authorities.",
+   "kind": "FEE",
+   "subject": "competent_authorities_fees",
+   "object": "varies",
+   "detail": {},
+   "sourceId": "src:f84364f06217",
+   "evidence": "However, statutory fees, scrutiny fees, premiums, or other charges payable to the respective Competent Authorities shall be governed by the applicable Acts, Rules, Regulations, and Government policies.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants can contact DPIFC for further assistance through the DPIFC Portal.",
+   "kind": "CHANNEL",
+   "subject": "contact_dpifc",
+   "object": "dpifc_portal",
+   "detail": {},
+   "sourceId": "src:f84364f06217",
+   "evidence": "For any clarification or assistance, applicants may contact the Development Permission Investor Facilitation Cell (DPIFC), Office of the Chief Town Planner, through the contact details available on the DPIFC Portal.",
+   "confidence": 1
+  },
+  {
+   "claim": "DPIFC coordinates with other Government departments to facilitate the development permission process for eligible projects.",
+   "kind": "ACTION",
+   "subject": "dpifc_coordination",
+   "object": "government_departments",
+   "detail": {},
+   "sourceId": "src:f84364f06217",
+   "evidence": "Yes. As part of its facilitation role, DPIFC coordinates with the concerned Government departments and Competent Authorities to facilitate the development permission process for eligible projects.",
+   "confidence": 1
+  },
+  {
+   "claim": "DPIFC is a facilitation cell and does not grant statutory approvals.",
+   "kind": "OFFICE",
+   "subject": "dpifc_office",
+   "object": "facilitation_cell",
+   "detail": {},
+   "sourceId": "src:f84364f06217",
+   "evidence": "DPIFC is a facilitation cell and does not grant statutory approvals.",
+   "confidence": 1
   },
   {
    "claim": "An editable application form with an adhesive stamp of Rs. 300 is required.",
@@ -10919,79 +10882,79 @@
    "detail": {},
    "sourceId": "src:cb87993841b5",
    "evidence": "1- Applicant may fill the User ID creation form. Click here to download the prescribed form.",
-   "confidence": 1
+   "confidence": 0.95
   },
   {
-   "claim": "A request letter to JS(MVL) on official letterhead is required.",
+   "claim": "Applicants must send a scanned copy of the Request letter to JS(MVL) on official letterhead.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "applicant",
    "object": "request_letter_js_mvl",
    "detail": {},
    "sourceId": "src:cb87993841b5",
-   "evidence": "i. Request letter to JS(MVL) on official letterhead.",
-   "confidence": 1
+   "evidence": "2- Send the scan copy of the following documents to cngmaker-vahan[at]gov[dot]in\ni. Request letter to JS(MVL) on official letterhead.",
+   "confidence": 0.95
   },
   {
-   "claim": "An Application Form is required.",
+   "claim": "Applicants must send a scanned copy of the Application Form.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "applicant",
    "object": "application_form",
    "detail": {},
    "sourceId": "src:cb87993841b5",
    "evidence": "ii. Application Form",
-   "confidence": 1
+   "confidence": 0.95
   },
   {
-   "claim": "A Type Approval certificate is required.",
+   "claim": "Applicants must send a scanned copy of the Type Approval certificate.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "applicant",
    "object": "type_approval_certificate",
    "detail": {},
    "sourceId": "src:cb87993841b5",
    "evidence": "iii. Type Approval certificate",
-   "confidence": 1
+   "confidence": 0.95
   },
   {
-   "claim": "A GST Certificate is required.",
+   "claim": "Applicants must send a scanned copy of the GST Certificate.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "applicant",
    "object": "gst_certificate",
    "detail": {},
    "sourceId": "src:cb87993841b5",
    "evidence": "iv. GST Certificate",
-   "confidence": 1
+   "confidence": 0.95
   },
   {
-   "claim": "A Certificate of Incorporation or MSME Certificate is required if applicable.",
-   "kind": "CONDITIONAL_REQUIREMENT",
+   "claim": "Applicants must send a scanned copy of the Certificate of Incorporation or MSME Certificate if applicable.",
+   "kind": "DOCUMENT_REQUIREMENT",
    "subject": "applicant",
-   "object": "certificate_of_incorporation_or_msme_certificate",
+   "object": "certificate_incorporation_msme",
    "detail": {},
    "sourceId": "src:cb87993841b5",
    "evidence": "v. Certificate of Incorporation or MSME Certificate if applicable",
-   "confidence": 1
+   "confidence": 0.95
   },
   {
-   "claim": "Scanned copies of the documents must be sent to cngmaker-vahan[at]gov[dot]in.",
-   "kind": "ACTION",
+   "claim": "Applicants must send the scanned documents to the email address cngmaker-vahan[at]gov[dot]in.",
+   "kind": "CHANNEL",
    "subject": "applicant",
-   "object": "document_submission",
+   "object": "email_cngmaker_vahan_gov_in",
    "detail": {
     "email": "cngmaker-vahan[at]gov[dot]in"
    },
    "sourceId": "src:cb87993841b5",
    "evidence": "2- Send the scan copy of the following documents to cngmaker-vahan[at]gov[dot]in",
-   "confidence": 1
+   "confidence": 0.95
   },
   {
    "claim": "After verification and approval, a user-id will be created and communicated to the applicant.",
    "kind": "ACTION",
-   "subject": "authority",
+   "subject": "ministry",
    "object": "user_id_creation",
    "detail": {},
    "sourceId": "src:cb87993841b5",
    "evidence": "3- After verification and approval of the submitted application, user-id will be created and information will be communicated to the applicant.",
-   "confidence": 1
+   "confidence": 0.95
   },
   {
    "claim": "The password must be changed immediately by the user organization.",
@@ -11001,27 +10964,27 @@
    "detail": {},
    "sourceId": "src:cb87993841b5",
    "evidence": "4- The password need to be changed immediately by the user organization.",
-   "confidence": 1
+   "confidence": 0.95
   },
   {
    "claim": "Only one user id/password will be issued to an organization.",
-   "kind": "ACTION",
-   "subject": "authority",
-   "object": "user_id_issue",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "organization",
+   "object": "user_id_password",
    "detail": {},
    "sourceId": "src:cb87993841b5",
    "evidence": "5- Only one user id/ password will be issued to an organization.",
-   "confidence": 1
+   "confidence": 0.95
   },
   {
    "claim": "The organization may create sub-user ids and passwords for its constituents/branches if required.",
    "kind": "ACTION",
-   "subject": "user_organization",
-   "object": "sub_user_id_creation",
+   "subject": "organization",
+   "object": "sub_user_ids_passwords",
    "detail": {},
    "sourceId": "src:cb87993841b5",
-   "evidence": "The organization may, in turn, create sub-user ids and passwords, if required, for its constituents/branches etc.",
-   "confidence": 1
+   "evidence": "5- Only one user id/ password will be issued to an organization. The organization may, in turn, create sub-user ids and passwords, if required, for its constituents/branches etc.",
+   "confidence": 0.95
   },
   {
    "claim": "Applicant may fill the User ID creation form. Click here to download the prescribed form.",
@@ -11082,6 +11045,125 @@
    "sourceId": "src:cb87993841b5",
    "evidence": "5- Only one user id/ password will be issued to an organization. The organization may, in turn, create sub-user ids and passwords, if required, for its constituents/branches etc.",
    "confidence": 0.55
+  },
+  {
+   "claim": "New industries must register through the Investor Facilitation Portal (IFP) at www.ifp.gujarat.gov.in.",
+   "kind": "ACTION",
+   "subject": "new_industry",
+   "object": "investor_facilitation_portal",
+   "detail": {
+    "url": "www.ifp.gujarat.gov.in"
+   },
+   "sourceId": "src:a9c398783f0f",
+   "evidence": "Hence, you are requested to register through the Investor Facilitation Portal (IFP) at www.ifp.gujarat.gov.in and register the new Industry to GPCB from that portal through facility and links on IFP.",
+   "confidence": 1
+  },
+  {
+   "claim": "Industries previously registered through XGN can continue using XGN for the time being.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "industry",
+   "object": "xgn_portal",
+   "detail": {},
+   "sourceId": "src:a9c398783f0f",
+   "evidence": "All CTE and CCA applications of GPCB will be accepted through IFP for the industries registered through IFP while the Industries previously registered through XGN can continue using XGN through XGN ID and Password for the time being.",
+   "confidence": 1
+  },
+  {
+   "claim": "Users can contact the respective Help Desk of GPCB Regional Office for further assistance.",
+   "kind": "HELPLINE",
+   "subject": "user",
+   "object": "gpcb_regional_office",
+   "detail": {},
+   "sourceId": "src:a9c398783f0f",
+   "evidence": "Kindly contact the respective Help Desk of GPCB Regional Office of your area for further assistance or the Toll Free IFP Help Desk 1800 233 1847.",
+   "confidence": 1
+  },
+  {
+   "claim": "Users can contact the Toll Free IFP Help Desk at 1800 233 1847 for assistance.",
+   "kind": "HELPLINE",
+   "subject": "user",
+   "object": "ifp_help_desk",
+   "detail": {
+    "phone": "1800 233 1847"
+   },
+   "sourceId": "src:a9c398783f0f",
+   "evidence": "Kindly contact the respective Help Desk of GPCB Regional Office of your area for further assistance or the Toll Free IFP Help Desk 1800 233 1847.",
+   "confidence": 1
+  },
+  {
+   "claim": "Users may use the help provided on the IFP website for procedures regarding registration and using the IFP website.",
+   "kind": "CHANNEL",
+   "subject": "user",
+   "object": "ifp_website",
+   "detail": {
+    "url": "www.ifp.gujarat.gov.in"
+   },
+   "sourceId": "src:a9c398783f0f",
+   "evidence": "You may use the help provided on the IFP website for procedures regarding registration and using the IFP website.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Gujarat Pollution Control Board website is not responsible for any mistakes in the information or documents provided.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "website_information",
+   "object": "mistakes",
+   "detail": {},
+   "sourceId": "src:a9c398783f0f",
+   "evidence": "e taken care of this websites information is for benefit of general public. And in it any legal right or responsibility presence is not there. For reality of information and work method complete care will be taken. Inspite of that due to oversight or typing any mistake this department is not responsible.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Adobe Acrobat Reader is required to view PDF content on the Gujarat Pollution Control Board website.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "pdf_content",
+   "object": "adobe_acrobat_reader",
+   "detail": {},
+   "sourceId": "src:a9c398783f0f",
+   "evidence": "Acrobat Reader software is required to view Adobe Acrobat PDF files. If you do not have this software installed on your computer, you can download it for free.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Gujarat Pollution Control Board website provides a Feedback form for users to submit comments, feedback, suggestions, and ideas for improvements.",
+   "kind": "CHANNEL",
+   "subject": "feedback",
+   "object": "feedback_form",
+   "detail": {},
+   "sourceId": "src:a9c398783f0f",
+   "evidence": "You can use the Feedback form to submit your comments, feedback, suggestions and ideas for improvements to Gujarat Pollution Control Board, Government of Gujarat.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Gujarat Pollution Control Board website provides a Sitemap page for an overall view of the site's contents.",
+   "kind": "CHANNEL",
+   "subject": "sitemap",
+   "object": "site_contents",
+   "detail": {},
+   "sourceId": "src:a9c398783f0f",
+   "evidence": "You can visit Sitemap page to get an overall view of the contents of this site.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Gujarat Pollution Control Board website provides a Search facility to search for content using a word or phrase in the site Title or URL.",
+   "kind": "CHANNEL",
+   "subject": "search",
+   "object": "site_search",
+   "detail": {},
+   "sourceId": "src:a9c398783f0f",
+   "evidence": "The Search facility is located at the top right hand corner of all the pages. The Basic Search enables you to search for a website using word OR phrase in site Title OR URL.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Gujarat Pollution Control Board website provides contact information for the Head Office at Paryavaran Bhavan, Sector-10A, Gandhinagar-382010.",
+   "kind": "OFFICE",
+   "subject": "head_office",
+   "object": "gandhinagar",
+   "detail": {
+    "address": "Paryavaran Bhavan, Sector-10A, Gandhinagar-382010",
+    "phone": "079 2323 2152"
+   },
+   "sourceId": "src:a9c398783f0f",
+   "evidence": "Department : Gujarat Pollution Control Board,Paryavaran Bhavan, Sector-10A,Gandhinagar-382010. Phone : 079 2323 2152",
+   "confidence": 0.95
   },
   {
    "claim": "The adventure tourism operator must have a printed brochure or website describing its activities, area of operation, and commitment to eco-tourism guidelines.",
@@ -12402,104 +12484,104 @@
    "confidence": 1
   },
   {
-   "claim": "If you are absent or fail on the day of the Learner License Test, you have to pay a retest fee and book a fresh appointment.",
-   "kind": "CONDITIONAL_REQUIREMENT",
-   "subject": "learner_license_test_absent_or_failed",
-   "object": "retest_fee_and_appointment",
-   "detail": {
-    "url": "https://sarathi.parivahan.gov.in/"
-   },
-   "sourceId": "src:1b512feb4f0f",
-   "evidence": "What happens if I am absent/ failed on the day of the Learner License Test? You have to pay Retest fee and book fresh appointment.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "To pay the retest fee, you must visit the specified website and follow the steps.",
-   "kind": "CHANNEL",
-   "subject": "retest_fee_payment",
-   "object": "sarathi_website",
-   "detail": {
-    "url": "https://sarathi.parivahan.gov.in/"
-   },
-   "sourceId": "src:1b512feb4f0f",
-   "evidence": "For Retest payment visit https://sarathi.parivahan.gov.in/ >> Select State >> and Click on Fee Payments >> Fee Payments.",
-   "confidence": 0.9
-  },
-  {
-   "claim": "To re-schedule the Learner License test appointment, you must do so through the website, subject to availability of slots.",
+   "claim": "If you do not attend the Learner License test on the scheduled date, you can re-schedule the appointment.",
    "kind": "ACTION",
-   "subject": "reschedule_learner_license_test",
-   "object": "sarathi_website",
-   "detail": {
-    "url": "https://sarathi.parivahan.gov.in/"
-   },
-   "sourceId": "src:1b512feb4f0f",
-   "evidence": "I did not attend Learner License test on the scheduled date of appointment? Re-schedule the appointment, subject to availability of slots.",
-   "confidence": 0.9
-  },
-  {
-   "claim": "You must carry specific documents to the RTO office, including the application status, Form 1, Form 1A, and the fee receipt.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "rto_office_visit",
-   "object": "required_documents",
+   "subject": "learner_license_test",
+   "object": "re_schedule_appointment",
    "detail": {},
    "sourceId": "src:1b512feb4f0f",
-   "evidence": "What are the documents required to be carried to the RTO office? 1. Check the application status and click on print acknowledgment which shows required documents. 2. Click on print Form 1 & can download application form & Form 1A 3. Click on Appointment letter from the same application status. 4. Fee receipt.",
-   "confidence": 0.95
+   "evidence": "I did not attend Learner License test on the scheduled date of appointment? Read more about I did not attend Learner License test on the scheduled date of appointment? Re-schedule the appointment, subject to availability of slots.",
+   "confidence": 1
+  },
+  {
+   "claim": "If you are absent or fail the Learner License Test, you must pay a retest fee and book a fresh appointment.",
+   "kind": "ACTION",
+   "subject": "learner_license_test",
+   "object": "retest",
+   "detail": {
+    "retest_fee_payment_url": "https://sarathi.parivahan.gov.in/"
+   },
+   "sourceId": "src:1b512feb4f0f",
+   "evidence": "What happens if I am absent/ failed on the day of the Learner License Test? Read more about What happens if I am absent/ failed on the day of the Learner License Test? You have to pay Retest fee and book fresh appointment. For Retest payment visit https://sarathi.parivahan.gov.in/ >> Select State >> and Click on Fee Payments >> Fee Payments. For Re-appointment through visit https://sarathi.parivahan.gov.in/ >> Select State >> Click on \"Appointments\" >> Slot booking Learner's License Test.",
+   "confidence": 1
+  },
+  {
+   "claim": "To take a re-appointment for the Learner License Test, visit the Sarathi website and book a slot.",
+   "kind": "ACTION",
+   "subject": "learner_license_test",
+   "object": "re_appointment",
+   "detail": {
+    "re_appointment_url": "https://sarathi.parivahan.gov.in/"
+   },
+   "sourceId": "src:1b512feb4f0f",
+   "evidence": "How can I take re-appointment for Learner License Test? Read more about How can I take re-appointment for Learner License Test? Take re-appointment through visit https://sarathi.parivahan.gov.in/ >> Select State >> Click on \"Appointments\" >> Slot booking Learners' License Test.",
+   "confidence": 1
+  },
+  {
+   "claim": "You must carry specific documents to the RTO office for the Learner License process.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "rto_office_visit",
+   "object": "documents",
+   "detail": {},
+   "sourceId": "src:1b512feb4f0f",
+   "evidence": "What are the documents required to be carried to the RTO office? Read more about What are the documents required to be carried to the RTO office? 1. Check the application status and click on print acknowledgment which shows required documents. 2. Click on print Form 1 & can download application form & Form 1A 3. Click on Appointment letter from the same application status. 4. Fee receipt.",
+   "confidence": 1
   },
   {
    "claim": "A Learner's License cannot be renewed; a new Learner's License must be issued.",
-   "kind": "BLOCKER",
-   "subject": "renew_learner_license",
-   "object": "new_learner_license",
-   "detail": {},
-   "sourceId": "src:1b512feb4f0f",
-   "evidence": "How to renew of Learner's License Learners' License cannot be renewed and New Learners' License shall be issued.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "To print a Learner's License, you must visit the specified website and follow the steps.",
    "kind": "ACTION",
-   "subject": "print_learner_license",
-   "object": "sarathi_website",
+   "subject": "learner_license",
+   "object": "renewal",
    "detail": {
-    "url": "https://sarathi.parivahan.gov.in/"
+    "renewal_url": "https://sarathi.parivahan.gov.in/"
    },
    "sourceId": "src:1b512feb4f0f",
-   "evidence": "I have passed Learners License test and application has been approved, how can I download the print out? Steps to Print Learner's License:- 1. Visit https://sarathi.parivahan.gov.in/ 2. Select concerned state 3. Click on \"Learner License\" menu 4. Click on print Learners License (FORM3) 5. Fill Application number & Date of Birth AND Submit.",
-   "confidence": 0.9
+   "evidence": "How to renew of Learner's License Read more about How to renew of Learner's License Learners' License cannot be renewed and New Learners' License shall be issued. Applicants can visit 1. https://sarathi.parivahan.gov.in/ 2. Select concerned state 3. Click on \"Expired Learner License Issue Again\" from \"Learner's License\" menu",
+   "confidence": 1
+  },
+  {
+   "claim": "To print a Learner's License, visit the Sarathi website and follow the steps.",
+   "kind": "ACTION",
+   "subject": "learner_license",
+   "object": "print",
+   "detail": {
+    "print_url": "https://sarathi.parivahan.gov.in/"
+   },
+   "sourceId": "src:1b512feb4f0f",
+   "evidence": "I have passed Learners License test and application has been approved, how can I download the print out? Read more about I have passed Learners License test and application has been approved, how can I download the print out? Steps to Print Learner's License:- 1. Visit https://sarathi.parivahan.gov.in/ 2. Select concerned state 3. Click on \"Learner License\" menu 4. Click on print Learners License (FORM3) 5. Fill Application number & Date of Birth AND Submit. Note: This Service is Applicable only in some states.",
+   "confidence": 1
   },
   {
    "claim": "A Learner's License is valid throughout India.",
-   "kind": "ELIGIBILITY",
+   "kind": "CONDITIONAL_REQUIREMENT",
    "subject": "learner_license",
-   "object": "valid_in_india",
+   "object": "validity",
    "detail": {},
    "sourceId": "src:1b512feb4f0f",
-   "evidence": "Is Learner's License valid throughout India? Yes, its valid throughout India",
-   "confidence": 0.95
+   "evidence": "Is Learner's License valid throughout India? Read more about Is Learner's License valid throughout India? Yes, its valid throughout India",
+   "confidence": 1
   },
   {
-   "claim": "To update your Learner's License mobile number, you must visit the specified website and follow the steps.",
+   "claim": "To update the mobile number on a Learner's License, visit the Sarathi website and follow the steps.",
    "kind": "ACTION",
-   "subject": "update_mobile_number",
-   "object": "sarathi_website",
+   "subject": "learner_license",
+   "object": "mobile_number_update",
    "detail": {
-    "url": "https://sarathi.parivahan.gov.in/"
+    "update_url": "https://sarathi.parivahan.gov.in/"
    },
    "sourceId": "src:1b512feb4f0f",
-   "evidence": "How can I update my Learners' License mobile number? Steps follow for Mobile number update in License:- 1. Visit https://sarathi.parivahan.gov.in/ 2. Select concerned state 3. Click on \"Mobile Number Update\" from \"Others\" menu",
-   "confidence": 0.9
+   "evidence": "How can I update my Learners' License mobile number? Read more about How can I update my Learners' License mobile number? Steps follow for Mobile number update in License:- 1. Visit https://sarathi.parivahan.gov.in/ 2. Select concerned state 3. Click on \"Mobile Number Update\" from \"Others\" menu",
+   "confidence": 1
   },
   {
-   "claim": "You must visit the RTO office even after successful submission of the application with the required documents and a copy of the fee receipt.",
+   "claim": "You must visit the RTO office with required documents and a fee receipt after submitting the application online.",
    "kind": "ACTION",
-   "subject": "post_submission_rto_visit",
-   "object": "required_documents_and_fee_receipt",
+   "subject": "application_submission",
+   "object": "rto_visit",
    "detail": {},
    "sourceId": "src:1b512feb4f0f",
-   "evidence": "Why should I visit RTO even after successful submission of application? After completing online procedure for further processing of application you should visit the concerned RTO office with the required documents as shown on the acknowledgement slip. You should also carry a copy of the fee receipt",
-   "confidence": 0.9
+   "evidence": "Why should I visit RTO even after successful submission of application? Read more about Why should I visit RTO even after successful submission of application? After completing online procedure for further processing of application you should visit the concerned RTO office with the required documents as shown on the acknowledgement slip. You should also carry a copy of the fee receipt",
+   "confidence": 1
   },
   {
    "claim": "Visit https://sarathi.parivahan.gov.in/",
@@ -12900,6 +12982,113 @@
    "sourceId": "src:9f03ddbb98ec",
    "evidence": "Email:\ninfo.geda@ahasolar.in",
    "confidence": 0.95
+  },
+  {
+   "claim": "The Gujarat Pollution Control Board provides an online platform for NOC / CCA Consents Orders / Rejections.",
+   "kind": "CHANNEL",
+   "subject": "gujarat_pollution_control_board",
+   "object": "online_platform",
+   "detail": {
+    "url": "https://gpcbxgn.gujarat.gov.in/Public/ConsentRegistration"
+   },
+   "sourceId": "src:93151adc976a",
+   "evidence": "GUJARAT POLLUTION CONTROL BOARD e-Xtended Green Node",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Gujarat Pollution Control Board's online platform allows users to view details of NOC / CCA Consents Orders / Rejections from a specified date range.",
+   "kind": "ACTION",
+   "subject": "gujarat_pollution_control_board",
+   "object": "view_consent_details",
+   "detail": {
+    "from_date": "From Date :",
+    "to_date": "To Date :"
+   },
+   "sourceId": "src:93151adc976a",
+   "evidence": "From Date : To Date : GO",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Pollution Control Board's online platform displays a list of industries and their consent details.",
+   "kind": "ACTION",
+   "subject": "gujarat_pollution_control_board",
+   "object": "display_industry_consent_details",
+   "detail": {
+    "example_industries": "Angel Extrusion Pvt.Ltd, AUM IMPEX, BALAJI INFRASTRUCTURE"
+   },
+   "sourceId": "src:93151adc976a",
+   "evidence": "1 | Angel Extrusion Pvt.Ltd | CCA-Renewal | GRT | 23/08/2026 | AWH-102965 | Surat |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Gujarat Pollution Control Board's online platform shows the grant date of consents for industries.",
+   "kind": "ACTION",
+   "subject": "gujarat_pollution_control_board",
+   "object": "show_consent_grant_date",
+   "detail": {
+    "example_date": "23/08/2026"
+   },
+   "sourceId": "src:93151adc976a",
+   "evidence": "Grant Date |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Pollution Control Board's online platform shows the consent number for industries.",
+   "kind": "ACTION",
+   "subject": "gujarat_pollution_control_board",
+   "object": "show_consent_number",
+   "detail": {
+    "example_number": "AWH-102965"
+   },
+   "sourceId": "src:93151adc976a",
+   "evidence": "Consent No |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Pollution Control Board's online platform shows the circle name where the industry is located.",
+   "kind": "ACTION",
+   "subject": "gujarat_pollution_control_board",
+   "object": "show_circle_name",
+   "detail": {
+    "example_circle": "Surat"
+   },
+   "sourceId": "src:93151adc976a",
+   "evidence": "Circle Name |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Pollution Control Board's online platform shows the inward type of consent for industries.",
+   "kind": "ACTION",
+   "subject": "gujarat_pollution_control_board",
+   "object": "show_inward_type",
+   "detail": {
+    "example_type": "CCA-Renewal"
+   },
+   "sourceId": "src:93151adc976a",
+   "evidence": "Inward Type |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Gujarat Pollution Control Board's online platform shows the inward status of consents for industries.",
+   "kind": "ACTION",
+   "subject": "gujarat_pollution_control_board",
+   "object": "show_inward_status",
+   "detail": {
+    "example_status": "GRT"
+   },
+   "sourceId": "src:93151adc976a",
+   "evidence": "Inward Status |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Jay Textile Industries must apply for reconsideration of their CTE.",
+   "kind": "ACTION",
+   "subject": "jay_textile_industries",
+   "object": "cte_reconsider",
+   "detail": {},
+   "sourceId": "src:93151adc976a",
+   "evidence": "Jay Textile Industries | CCA-Re Apply | GRT | 17/08/2026 | AWH-160570 | Jetpur |",
+   "confidence": 0.9
   },
   {
    "claim": "An appeal must be decided within 180 days from the date of filing.",
@@ -13966,93 +14155,6 @@
    "confidence": 0.95
   },
   {
-   "claim": "The Gujarat Pollution Control Board provides an online portal for NOC/CCA consents, orders, and rejections.",
-   "kind": "CHANNEL",
-   "subject": "gujarat_pollution_control_board",
-   "object": "online_portal",
-   "detail": {
-    "url": "https://gpcbxgn.gujarat.gov.in/Public/ConsentRegistration"
-   },
-   "sourceId": "src:93151adc976a",
-   "evidence": "GUJARAT POLLUTION CONTROL BOARD e-Xtended Green Node",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The portal allows users to view details of NOC/CCA consents, orders, and rejections from a specified date range.",
-   "kind": "ACTION",
-   "subject": "online_portal",
-   "object": "view_consent_details",
-   "detail": {
-    "from_date": "From Date :",
-    "to_date": "To Date :",
-    "action": "GO"
-   },
-   "sourceId": "src:93151adc976a",
-   "evidence": "From Date : To Date : GO",
-   "confidence": 0.9
-  },
-  {
-   "claim": "The portal displays a list of industries with their consent details, including industry name, inward type, status, grant date, consent number, and circle name.",
-   "kind": "ACTION",
-   "subject": "online_portal",
-   "object": "display_consent_list",
-   "detail": {
-    "columns": "Sr No., Industry Name, Inward Type, Inward Status, Grant Date, Consent No, Circle Name"
-   },
-   "sourceId": "src:93151adc976a",
-   "evidence": "Sr No. | Industry Name | Inward Type | Inward Status | Grant Date | Consent No | Circle Name |",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The portal supports multiple languages, including Gujarati and English.",
-   "kind": "ACTION",
-   "subject": "online_portal",
-   "object": "language_support",
-   "detail": {
-    "languages": "ગુજરાતી, English"
-   },
-   "sourceId": "src:93151adc976a",
-   "evidence": "ગુજરાતી English",
-   "confidence": 0.9
-  },
-  {
-   "claim": "The portal displays the session time remaining for the user.",
-   "kind": "ACTION",
-   "subject": "online_portal",
-   "object": "display_session_time",
-   "detail": {
-    "time": "20:00"
-   },
-   "sourceId": "src:93151adc976a",
-   "evidence": "Session Time: 20:00",
-   "confidence": 0.9
-  },
-  {
-   "claim": "The portal shows the user's login ID and the last login time.",
-   "kind": "ACTION",
-   "subject": "online_portal",
-   "object": "display_login_info",
-   "detail": {
-    "login_id": "Login Id:",
-    "last_logged_in": "Last Logged In:"
-   },
-   "sourceId": "src:93151adc976a",
-   "evidence": "Login Id: Last Logged In:",
-   "confidence": 0.9
-  },
-  {
-   "claim": "The portal indicates the user's office or circle.",
-   "kind": "ACTION",
-   "subject": "online_portal",
-   "object": "display_office_circle",
-   "detail": {
-    "label": "Office/Circle:"
-   },
-   "sourceId": "src:93151adc976a",
-   "evidence": "Office/Circle:",
-   "confidence": 0.85
-  },
-  {
    "claim": "A citizen must select the type of food service as either 'LICENSE' or 'REGISTRATION'.",
    "kind": "ACTION",
    "subject": "food_service",
@@ -14429,74 +14531,6 @@
    "sourceId": "src:9ea0fe159586",
    "evidence": "Date of Notice Issued",
    "confidence": 0.9
-  },
-  {
-   "claim": "New industries must register through the Investor Facilitation Portal (IFP) at www.ifp.gujarat.gov.in.",
-   "kind": "ACTION",
-   "subject": "new_industry",
-   "object": "investor_facilitation_portal",
-   "detail": {
-    "url": "www.ifp.gujarat.gov.in"
-   },
-   "sourceId": "src:a9c398783f0f",
-   "evidence": "Hence, you are requested to register through the Investor Facilitation Portal (IFP) at www.ifp.gujarat.gov.in and register the new Industry to GPCB from that portal through facility and links on IFP.",
-   "confidence": 1
-  },
-  {
-   "claim": "Industries previously registered through XGN can continue using XGN for the time being.",
-   "kind": "CONDITIONAL_REQUIREMENT",
-   "subject": "industry",
-   "object": "xgn_portal",
-   "detail": {},
-   "sourceId": "src:a9c398783f0f",
-   "evidence": "All CTE and CCA applications of GPCB will be accepted through IFP for the industries registered through IFP while the Industries previously registered through XGN can continue using XGN through XGN ID and Password for the time being.",
-   "confidence": 1
-  },
-  {
-   "claim": "Users can contact the respective Help Desk of GPCB Regional Office for further assistance.",
-   "kind": "HELPLINE",
-   "subject": "user",
-   "object": "gpcb_help_desk",
-   "detail": {},
-   "sourceId": "src:a9c398783f0f",
-   "evidence": "Kindly contact the respective Help Desk of GPCB Regional Office of your area for further assistance or the Toll Free IFP Help Desk 1800 233 1847.",
-   "confidence": 1
-  },
-  {
-   "claim": "Users can contact the Toll Free IFP Help Desk at 1800 233 1847 for assistance.",
-   "kind": "HELPLINE",
-   "subject": "user",
-   "object": "ifp_help_desk",
-   "detail": {
-    "phone": "1800 233 1847"
-   },
-   "sourceId": "src:a9c398783f0f",
-   "evidence": "Kindly contact the respective Help Desk of GPCB Regional Office of your area for further assistance or the Toll Free IFP Help Desk 1800 233 1847.",
-   "confidence": 1
-  },
-  {
-   "claim": "Users can use the help provided on the IFP website for procedures regarding registration and using the IFP website.",
-   "kind": "CHANNEL",
-   "subject": "user",
-   "object": "ifp_website_help",
-   "detail": {
-    "url": "www.ifp.gujarat.gov.in"
-   },
-   "sourceId": "src:a9c398783f0f",
-   "evidence": "You may use the help provided on the IFP website for procedures regarding registration and using the IFP website.",
-   "confidence": 1
-  },
-  {
-   "claim": "The Gujarat Pollution Control Board (GPCB) was established on 15.10.1974 under the Water (Prevention and Control of Pollution) Act, 1974.",
-   "kind": "OFFICE",
-   "subject": "gpcb",
-   "object": "establishment",
-   "detail": {
-    "date": "15.10.1974"
-   },
-   "sourceId": "src:a9c398783f0f",
-   "evidence": "Welcome to the official website of the Gujarat Pollution Control Board (GPCB), a dedicated institution established by the Government of Gujarat on 15.10.1974, in accordance with the Water (Prevention and Control of Pollution) Act, 1974.",
-   "confidence": 1
   },
   {
    "claim": "Citizens can register for a Professional Tax License (Business PEC & Employer PRC) online.",
@@ -14942,64 +14976,64 @@
    "confidence": 0.9
   },
   {
-   "claim": "A citizen must download Annexure - 2 Final Registration Form for Solar Power Project from the provided link.",
+   "claim": "An annexure form is required for the final registration of a solar power project.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "solar_power_project",
    "object": "annexure_2_form",
    "detail": {
-    "url": "https://geda.gujarat.gov.in/Gallery/Media_Gallery/Annexure_2_Final_Registration_Form_Solar_Power_Project.pdf"
+    "url": "https://geda.gujarat.gov.in/Gallery/MediaGallery/Annexure2FinalRegistrationFormSolarPowerProject.pdf"
    },
    "sourceId": "src:99aae295d09c",
-   "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/Media_Gallery/Annexure_2_Final_Registration_Form_Solar_Power_Project.pdf\" target=\"_blank\">Annexure - 2 Final Registration Form_Solar Power Project</a></p>",
-   "confidence": 1
+   "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/MediaGallery/Annexure2FinalRegistrationFormSolarPowerProject.pdf\" target=\"blank\">Annexure - 2 Final Registration FormSolar Power Project</a></p>",
+   "confidence": 0.95
   },
   {
-   "claim": "A citizen must download the Undertaking for Newness from the provided link.",
+   "claim": "An undertaking is required to confirm the newness of a solar power project.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "solar_power_project",
    "object": "undertaking_newness",
    "detail": {
-    "url": "https://geda.gujarat.gov.in/Gallery/Media_Gallery/Undertaking_for_Newness.pdf"
+    "url": "https://geda.gujarat.gov.in/Gallery/MediaGallery/UndertakingforNewness.pdf"
    },
    "sourceId": "src:99aae295d09c",
-   "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/Media_Gallery/Undertaking_for_Newness.pdf\" target=\"_blank\">Undertaking for Newness</a></p>",
-   "confidence": 1
+   "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/MediaGallery/UndertakingforNewness.pdf\" target=\"blank\">Undertaking for Newness</a></p>",
+   "confidence": 0.95
   },
   {
-   "claim": "A citizen must download the Undertaking for CGP criteria from the provided link.",
+   "claim": "An undertaking is required to confirm compliance with CGP criteria for a solar power project.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "solar_power_project",
    "object": "undertaking_cgp_criteria",
    "detail": {
-    "url": "https://geda.gujarat.gov.in/Gallery/Media_Gallery/Group_Captive_Undertaking.pdf"
+    "url": "https://geda.gujarat.gov.in/Gallery/MediaGallery/GroupCaptiveUndertaking.pdf"
    },
    "sourceId": "src:99aae295d09c",
-   "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/Media_Gallery/Group_Captive_Undertaking.pdf\" target=\"_blank\">Undertaking for CGP criteria</a></p>",
-   "confidence": 1
+   "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/MediaGallery/GroupCaptiveUndertaking.pdf\" target=\"blank\">Undertaking for CGP criteria</a></p>",
+   "confidence": 0.95
   },
   {
-   "claim": "A citizen must download Annexure - 4 Commissioning request form for Solar Power Project from the provided link.",
+   "claim": "An annexure form is required for the commissioning request of a solar power project.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "solar_power_project",
    "object": "annexure_4_form",
    "detail": {
-    "url": "https://geda.gujarat.gov.in/Gallery/Media_Gallery/3Commissioning_request_form___Solar_PV_Poject.pdf"
+    "url": "https://geda.gujarat.gov.in/Gallery/MediaGallery/3CommissioningrequestformSolarPVPoject.pdf"
    },
    "sourceId": "src:99aae295d09c",
-   "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/Media_Gallery/3Commissioning_request_form___Solar_PV_Poject.pdf\" target=\"_blank\">Annexure - 4 Commissioning request form for Solar Power Project</a></p>",
-   "confidence": 1
+   "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/MediaGallery/3CommissioningrequestformSolarPVPoject.pdf\" target=\"blank\">Annexure - 4 Commissioning request form for Solar Power Project</a></p>",
+   "confidence": 0.95
   },
   {
-   "claim": "A citizen must download the Undertaking Solar Rooftop on Government Building from the provided link.",
+   "claim": "An undertaking is required for a solar rooftop project on a government building.",
    "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "solar_power_project",
-   "object": "undertaking_solar_rooftop_govt_building",
+   "subject": "solar_rooftop_project",
+   "object": "undertaking_government_building",
    "detail": {
-    "url": "https://geda.gujarat.gov.in/Gallery/Media_Gallery/Undertaking_Solar_Rooftop_on_Government_Building.pdf"
+    "url": "https://geda.gujarat.gov.in/Gallery/MediaGallery/UndertakingSolarRooftoponGovernmentBuilding.pdf"
    },
    "sourceId": "src:99aae295d09c",
-   "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/Media_Gallery/Undertaking_Solar_Rooftop_on_Government_Building.pdf\" target=\"_blank\">Undertaking Solar Rooftop on Government Building</a></p>",
-   "confidence": 1
+   "evidence": "<a href=\"https://geda.gujarat.gov.in/Gallery/MediaGallery/UndertakingSolarRooftoponGovernmentBuilding.pdf\" target=\"blank\">Undertaking Solar Rooftop on Government Building</a></p>",
+   "confidence": 0.95
   },
   {
    "claim": "A citizen must provide a registration number in the format 'FR' followed by a 4-digit year and a 5-digit registration number for a factory license.",
@@ -16038,7 +16072,6 @@
   "Gir Online Permit Booking System: https://girlion.gujarat.gov.in/Dos.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Boiler Registration and Inspection: https://boiler.gujarat.gov.in/m/faq.htm lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Boiler Registration and Inspection: https://boiler.gujarat.gov.in/faq.htm lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
-  "DPIFC: https://townplanning.gujarat.gov.in/DPIFC lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "vehicle fitness testing: https://vahan.parivahan.gov.in/vahanservice/vahan/ui/appl_status/formTransactionHistory.xhtml lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Van Mahotsav sapling application: https://forestservices.gujarat.gov.in/eServices/Vanmahotsav/frmVanMahotsavapp.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Gujarat Veterinary Council registration: the hand written graph already answers to service:gujarat_veterinary_council_registration, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
@@ -16046,6 +16079,7 @@
   "Smashaan Saggadi: https://forestservices.gujarat.gov.in/eServices/Smashaan/frmSmashaanSagadiApp.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "guide license: https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=4 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "guide license: https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=6 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "DPIFC: https://townplanning.gujarat.gov.in/DPIFC lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Water Connection: a page mentions a mobile app (\"The GIDC Setu Mobile Application is available for download.\") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.",
   "E-Shram Seva: https://col.gujarat.gov.in/e-shram.htm lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Building Development Permission: https://vmc.gov.in/faqs.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
@@ -16057,11 +16091,11 @@
   "SARAL Pass Travel Scheme: https://suratmunicipal.gov.in/Services/Sitilink/SaralPassTravelScheme lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Pleasure Craft/Boat Operation Permission: https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=4 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "National Permit: https://www.vahan.parivahan.gov.in/npermit/faces/welcome.jsp lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "NOC/CCA consents: https://gpcbxgn.gujarat.gov.in/Public/ConsentRegistration lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "VAHAN: https://vahan.parivahan.gov.in/nrservices lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "license renewal: https://ayudmla.gujarat.gov.in/documents/renewal.pdf#page=1 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Chief Electrical Inspector: no quotable requirement, fee or timeline survived, so no service node was written for it.",
   "GSLCS: https://girlion.gujarat.gov.in/PermitBookingForJungleTrail.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
-  "NOC/CCA consents: https://gpcbxgn.gujarat.gov.in/Public/ConsentRegistration lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "FOOD Registration / License: the page links to mcjamnagar.com, which is not a gov.in or nic.in host, so we could not prove from the name alone that government owns it and did not send anyone there.",
   "Cost Auditor Appointment and Remuneration Approval: https://gpcl.gujarat.gov.in/assets/downloads/annual_report_2015_16.pdf#page=4 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Agri.Business Registration Number: the page names \"website of GAIC\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",

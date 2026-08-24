@@ -1,30 +1,30 @@
 {
  "journey": "property-and-land",
- "researchedAt": "2026-08-23",
+ "researchedAt": "2026-08-24",
  "region": "Gujarat, India",
  "sources": [
   {
-   "id": "src:e567da21d421",
-   "url": "https://gidc.gujarat.gov.in/Pages/Contents/digilocker",
-   "title": "GIDC",
-   "domain": "gidc.gujarat.gov.in",
+   "id": "src:f5495cb6866c",
+   "url": "https://garvi.gujarat.gov.in/FrmStampDutyCalculation_New.aspx",
+   "title": "Garvi",
+   "domain": "garvi.gujarat.gov.in",
    "sourceType": "SERVICE_PAGE",
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
-   "contentHash": "368fc0ca50c1d888400be40f0f399c0c59c4c00b5ca11eeb44146223b29192d0",
-   "cacheFile": ".ingest/pages/e567da21d42110f58819ee4f5dc79cc21a868523.md",
+   "contentHash": "ab94f964c0f3d7477361885e6181511ffeeec4ad75b620cb624bec64ff65655f",
+   "cacheFile": ".ingest/pages/f5495cb6866cec92914ccdabbc8826099d924a59.md",
    "scrapedOk": true
   },
   {
-   "id": "src:3203b82bd43a",
-   "url": "https://gidc.gujarat.gov.in/Pages/Contents/application-for-allotment",
-   "title": "GIDC",
-   "domain": "gidc.gujarat.gov.in",
+   "id": "src:8dfcd1797be4",
+   "url": "https://garvi.gujarat.gov.in/FrmRegistrationfeeCalculation_New.aspx",
+   "title": "Garvi",
+   "domain": "garvi.gujarat.gov.in",
    "sourceType": "SERVICE_PAGE",
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
-   "contentHash": "82f029fa604bb0e71065655a8eb01366714cc04bcad74492b1672f11d7386235",
-   "cacheFile": ".ingest/pages/3203b82bd43ab615062117233c1cca15b9a6db00.md",
+   "contentHash": "8ae89232eb03a522ce502af2a62ae2fcb9970c157f0e4d5630ce644d179cb77f",
+   "cacheFile": ".ingest/pages/8dfcd1797be479ad0d2480d8c1f26052bb89242c.md",
    "scrapedOk": true
   },
   {
@@ -109,6 +109,42 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "cd3ad72e2df71bfc68b0b2f2f1003063c7c646e05d0abe956a282c45b37e091f",
    "cacheFile": ".ingest/pages/475740ce025b04ab65ffc1c051ac9654a49d34cf.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:e567da21d421",
+   "url": "https://gidc.gujarat.gov.in/Pages/Contents/digilocker",
+   "title": "GIDC",
+   "domain": "gidc.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "368fc0ca50c1d888400be40f0f399c0c59c4c00b5ca11eeb44146223b29192d0",
+   "cacheFile": ".ingest/pages/e567da21d42110f58819ee4f5dc79cc21a868523.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:3203b82bd43a",
+   "url": "https://gidc.gujarat.gov.in/Pages/Contents/application-for-allotment",
+   "title": "GIDC",
+   "domain": "gidc.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "82f029fa604bb0e71065655a8eb01366714cc04bcad74492b1672f11d7386235",
+   "cacheFile": ".ingest/pages/3203b82bd43ab615062117233c1cca15b9a6db00.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:cba67fd37013",
+   "url": "https://vadodaradp.gujarat.gov.in/gu/E-Gram-Vishvagram-Yojana",
+   "title": "ઇ-ગ્રામ વિશ્‍વગ્રામ યોજના | વડોદરા જિલ્લા પંચાયત",
+   "domain": "vadodaradp.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-VADODARA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "dfddc841a5e80825aa9af7702a2cd87160358358de2bd38e0328b28c9abecadb",
+   "cacheFile": ".ingest/pages/cba67fd37013bdbcadaf6bdfd590140e65150a64.md",
    "scrapedOk": true
   },
   {
@@ -366,466 +402,445 @@
  ],
  "facts": [
   {
-   "claim": "To access and obtain different documents/certificates in their DigiLocker account, applicants need their Party Code.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "applicant",
-   "object": "party_code",
+   "claim": "A citizen must select the district to calculate stamp duty.",
+   "kind": "ACTION",
+   "subject": "stamp_duty_calculation",
+   "object": "district_selection",
    "detail": {},
-   "sourceId": "src:e567da21d421",
-   "evidence": "Applicant will require following details to access and obtain different documents/certificates in their DigiLocker account:\n1) Party Code (Can be accessed from GG user login in ‘My Property’ Section)",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The document 'Mortgage Permission' will be available in DigiLocker from 27/08/2019.",
-   "kind": "TIMELINE",
-   "subject": "mortgage_permission",
-   "object": "digilocker_availability",
-   "detail": {
-    "date_from": "27/08/2019"
-   },
-   "sourceId": "src:e567da21d421",
-   "evidence": "1 |\n2R Permission (Mortgage) Order |\nMortgage Permission |\n27/08/2019 |",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The document 'Transfer Certificate / Order' for Provisional Transfer Order will be available in DigiLocker from 20/12/2019.",
-   "kind": "TIMELINE",
-   "subject": "provisional_transfer_order",
-   "object": "digilocker_availability",
-   "detail": {
-    "date_from": "20/12/2019"
-   },
-   "sourceId": "src:e567da21d421",
-   "evidence": "2 |\nProvisional Transfer Order |\nTransfer Certificate / Order |\n20/12/2019 |",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The document 'Transfer Certificate / Order' for Final Transfer Order will be available in DigiLocker from 20/12/2019.",
-   "kind": "TIMELINE",
-   "subject": "final_transfer_order",
-   "object": "digilocker_availability",
-   "detail": {
-    "date_from": "20/12/2019"
-   },
-   "sourceId": "src:e567da21d421",
-   "evidence": "3 |\nFinal Transfer Order |\nTransfer Certificate / Order |\n20/12/2019 |",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The document 'Rights of Use Permission' for Rights of Use (PTO) will be available in DigiLocker from 27/08/2019.",
-   "kind": "TIMELINE",
-   "subject": "rights_of_use_pto",
-   "object": "digilocker_availability",
-   "detail": {
-    "date_from": "27/08/2019"
-   },
-   "sourceId": "src:e567da21d421",
-   "evidence": "4 |\nRights of Use (PTO) |\nRights of Use Permission |\n27/08/2019 |",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The document 'Rights of Use Permission' for Rights of Use (FTO) will be available in DigiLocker from 27/08/2019.",
-   "kind": "TIMELINE",
-   "subject": "rights_of_use_fto",
-   "object": "digilocker_availability",
-   "detail": {
-    "date_from": "27/08/2019"
-   },
-   "sourceId": "src:e567da21d421",
-   "evidence": "5 |\nRights of Use (FTO) |\nRights of Use Permission |\n27/08/2019 |",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The document 'Surrender Order' for Surrender (Rescindment Order) will be available in DigiLocker from 28/01/2020.",
-   "kind": "TIMELINE",
-   "subject": "surrender_rescindment_order",
-   "object": "digilocker_availability",
-   "detail": {
-    "date_from": "28/01/2020"
-   },
-   "sourceId": "src:e567da21d421",
-   "evidence": "6 |\nSurrender (Rescindment Order) |\nSurrender Order |\n28/01/2020 |",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The document 'Surrender Order' for Surrender (Refund Order) will be available in DigiLocker from 28/01/2020.",
-   "kind": "TIMELINE",
-   "subject": "surrender_refund_order",
-   "object": "digilocker_availability",
-   "detail": {
-    "date_from": "28/01/2020"
-   },
-   "sourceId": "src:e567da21d421",
-   "evidence": "7 |\nSurrender (Refund Order) |\nSurrender Order |\n28/01/2020 |",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The document 'Sub Division Permission Order' for Sub Division (PSO) will be available in DigiLocker from 25/08/2019.",
-   "kind": "TIMELINE",
-   "subject": "sub_division_pso",
-   "object": "digilocker_availability",
-   "detail": {
-    "date_from": "25/08/2019"
-   },
-   "sourceId": "src:e567da21d421",
-   "evidence": "8 |\nSub Division (PSO) |\nSub Division Permission Order |\n25/08/2019 |",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The document 'Sub Division Permission Order' for Sub Division (FSO) will be available in DigiLocker from 25/08/2019.",
-   "kind": "TIMELINE",
-   "subject": "sub_division_fso",
-   "object": "digilocker_availability",
-   "detail": {
-    "date_from": "25/08/2019"
-   },
-   "sourceId": "src:e567da21d421",
-   "evidence": "9 |\nSub Division (FSO) |\nSub Division Permission Order |\n25/08/2019 |",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The document 'Amalgamation Order' for Amalgamation (PAO) will be available in DigiLocker from 08/01/2020.",
-   "kind": "TIMELINE",
-   "subject": "amalgamation_pao",
-   "object": "digilocker_availability",
-   "detail": {
-    "date_from": "08/01/2020"
-   },
-   "sourceId": "src:e567da21d421",
-   "evidence": "10 |\nAmalgamation (PAO) |\nAmalgamation Order |\n08/01/2020 |",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The document 'Amalgamation Order' for Amalgamation (FAO) will be available in DigiLocker from 08/01/2020.",
-   "kind": "TIMELINE",
-   "subject": "amalgamation_fao",
-   "object": "digilocker_availability",
-   "detail": {
-    "date_from": "08/01/2020"
-   },
-   "sourceId": "src:e567da21d421",
-   "evidence": "11 |\nAmalgamation (FAO) |\nAmalgamation Order |\n08/01/2020 |",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The document 'Extension Order' for Final Time Limit Extension Order will be available in DigiLocker from 08/07/2020.",
-   "kind": "TIMELINE",
-   "subject": "final_time_limit_extension_order",
-   "object": "digilocker_availability",
-   "detail": {
-    "date_from": "08/07/2020"
-   },
-   "sourceId": "src:e567da21d421",
-   "evidence": "12 |\nFinal Time Limit Extension Order |\nExtension Order |\n08/07/2020 |",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The document 'Subletting Order' for Subletting (PSLO) will be available in DigiLocker from 01/01/2020.",
-   "kind": "TIMELINE",
-   "subject": "subletting_pslo",
-   "object": "digilocker_availability",
-   "detail": {
-    "date_from": "01/01/2020"
-   },
-   "sourceId": "src:e567da21d421",
-   "evidence": "13 |\nSubletting (PSLO) |\nSubletting Order |\n01/01/2020 |",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The document 'Subletting Order' for Subletting (FSLO) will be available in DigiLocker from 01/01/2020.",
-   "kind": "TIMELINE",
-   "subject": "subletting_fslo",
-   "object": "digilocker_availability",
-   "detail": {
-    "date_from": "01/01/2020"
-   },
-   "sourceId": "src:e567da21d421",
-   "evidence": "14 |\nSubletting (FSLO) |\nSubletting Order |\n01/01/2020 |",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The document 'Plan Approval Order' will be available in DigiLocker from 14/07/2020.",
-   "kind": "TIMELINE",
-   "subject": "plan_approval",
-   "object": "digilocker_availability",
-   "detail": {
-    "date_from": "14/07/2020"
-   },
-   "sourceId": "src:e567da21d421",
-   "evidence": "15 |\nPlan Approval |\nPlan Approval Order |\n14/07/2020 |",
-   "confidence": 0.95
-  },
-  {
-   "claim": "To view your document on DigiLocker, a link is provided on the page.",
-   "kind": "CHANNEL",
-   "subject": "digilocker",
-   "object": "document_view_link",
-   "detail": {
-    "url": "To view your document on DigiLocker, Click here."
-   },
-   "sourceId": "src:e567da21d421",
-   "evidence": "To view your document on DigiLocker, Click here.",
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "District (જીલ્લો પસંદ કરો)\n|\n---Select District---",
    "confidence": 0.9
   },
   {
-   "claim": "To access FAQ before using DigiLocker, a link is provided on the page.",
-   "kind": "CHANNEL",
-   "subject": "digilocker",
-   "object": "faq_link",
-   "detail": {
-    "url": "To access FAQ before using DigiLocker, Click here."
-   },
-   "sourceId": "src:e567da21d421",
-   "evidence": "To access FAQ before using DigiLocker, Click here.",
+   "claim": "A citizen must select the taluka to calculate stamp duty.",
+   "kind": "ACTION",
+   "subject": "stamp_duty_calculation",
+   "object": "taluka_selection",
+   "detail": {},
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "Taluka (તાલુકો પસંદ કરો)\n|\n|",
    "confidence": 0.9
   },
   {
-   "claim": "The GIDC Setu Mobile Application can be downloaded from the page.",
-   "kind": "APP",
-   "subject": "gidc_setu_app",
-   "object": "download_link",
-   "detail": {
-    "url": "Download GIDC Setu Mobile Application"
-   },
-   "sourceId": "src:e567da21d421",
-   "evidence": "Download GIDC Setu Mobile Application",
+   "claim": "A citizen must select the village to calculate stamp duty.",
+   "kind": "ACTION",
+   "subject": "stamp_duty_calculation",
+   "object": "village_selection",
+   "detail": {},
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "Village (ગામ પસંદ કરો)\n|\n|",
    "confidence": 0.9
   },
   {
-   "claim": "The GIDC office is located at Block 3,4,5, Udhyog Bhavan, Sector-11, Gandhinagar 382 011, Gujarat, India.",
+   "claim": "A citizen must select the property type to calculate stamp duty.",
+   "kind": "ACTION",
+   "subject": "stamp_duty_calculation",
+   "object": "property_type_selection",
+   "detail": {},
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "Select Property Type(પ્રકાર)\n|\n---Select Type---\nT.P/F.P-URBAN(ટી.પી./એફ.પી.-શહેરી)\nCity Survey-URBAN(શહેર સર્વે)\nSurvey-URBAN(સર્વે)\nBlock-URBAN(વિભાગ)\nRURAL(ગ્રામીણ)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A citizen must select the type of property to calculate stamp duty.",
+   "kind": "ACTION",
+   "subject": "stamp_duty_calculation",
+   "object": "property_type_selection",
+   "detail": {},
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "Property Type(સંપત્તિનો પ્રકાર)\n|\n== Select ==\nNon-Agriculture Land (Open Plot)\nResidential - Flat / Apartment\nResidential -Tenement / Row - House / Bunglows\nCommercial - Shop\nCommercial - Offices\nIndustry - SSI\nIndustry - LSI\nAgriculture (Open Land Farm )\nAgriculture (Open Land Farm ) Bin Piyat",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A citizen must enter the survey number to calculate stamp duty.",
+   "kind": "ACTION",
+   "subject": "stamp_duty_calculation",
+   "object": "survey_number_entry",
+   "detail": {},
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "Survey Number(સર્વે નંબર)\n|",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A citizen must enter the construction rate to calculate stamp duty.",
+   "kind": "ACTION",
+   "subject": "stamp_duty_calculation",
+   "object": "construction_rate_entry",
+   "detail": {},
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "Construction Rate(બાંધકામ દર)\n|",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A citizen must enter the construction type to calculate stamp duty.",
+   "kind": "ACTION",
+   "subject": "stamp_duty_calculation",
+   "object": "construction_type_entry",
+   "detail": {},
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "Construction Type(બાંધકામનો પ્રકાર)\n|",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A citizen must select the level type to calculate stamp duty.",
+   "kind": "ACTION",
+   "subject": "stamp_duty_calculation",
+   "object": "level_type_selection",
+   "detail": {},
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "Level Type(સ્તરનો પ્રકાર)\n|\n== Select ==\nFINISHED Construction\nWITH SLAB - InComplete Consturction\nWITHOUT SLAB - InComplete Consturction",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A citizen must select the type of commercial property to calculate stamp duty.",
+   "kind": "ACTION",
+   "subject": "stamp_duty_calculation",
+   "object": "commercial_property_type_selection",
+   "detail": {},
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "For Commercial Shop Only(ફક્ત વાણિજ્યિક દુકાન માટે)\n|\nNA\nShops having Frontage of Road\nShops not having Frontage of Road",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A citizen must select the type of commercial property for general purposes to calculate stamp duty.",
+   "kind": "ACTION",
+   "subject": "stamp_duty_calculation",
+   "object": "commercial_property_type_selection",
+   "detail": {},
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "For Commercial Only(ફક્ત વાણિજ્યિક માટે)\n|\nNA\nBank,Hospital,Nursing Home, Coaching Class, Library\nOther",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A citizen must select the type of residential property to calculate stamp duty.",
+   "kind": "ACTION",
+   "subject": "stamp_duty_calculation",
+   "object": "residential_property_type_selection",
+   "detail": {},
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "For Residential-Flat/Apartment(રહેણાંક-ફ્લેટ/એપાર્ટમેન્ટ માટે)\n|\nNA\nWith Lift\nWithout lift",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A citizen must select the floor type to calculate stamp duty.",
+   "kind": "ACTION",
+   "subject": "stamp_duty_calculation",
+   "object": "floor_type_selection",
+   "detail": {},
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "For Floor(માળ માટે)\n|\nNA\nTop Floor\nNot a Top Floor",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A citizen must enter the land area to calculate stamp duty.",
+   "kind": "ACTION",
+   "subject": "stamp_duty_calculation",
+   "object": "land_area_entry",
+   "detail": {},
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "Land Area(જમીનનું ક્ષેત્રફળ)\n|\nArea(Sq. Mt.)\n|",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A citizen must enter the land cost to calculate stamp duty.",
+   "kind": "ACTION",
+   "subject": "stamp_duty_calculation",
+   "object": "land_cost_entry",
+   "detail": {},
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "Land Cost(જમીન ખર્ચ)\n|\n|",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A citizen must enter the depreciation percentage to calculate stamp duty.",
+   "kind": "ACTION",
+   "subject": "stamp_duty_calculation",
+   "object": "depreciation_percentage_entry",
+   "detail": {},
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "Depriciation(%)\n|",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A citizen must enter the depreciation amount to calculate stamp duty.",
+   "kind": "ACTION",
+   "subject": "stamp_duty_calculation",
+   "object": "depreciation_amount_entry",
+   "detail": {},
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "Depriciation(Rs.)\n|",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Citizens can submit document details for registration and pay Stamp Duty and Registration Fee online through the GARVI 2.0 web-based application.",
+   "kind": "ACTION",
+   "subject": "citizen",
+   "object": "garvi_2_0_application",
+   "detail": {
+    "action": "submit document details for registration and pay Stamp Duty and Registration Fee online"
+   },
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "Garvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides services to citizens to submit document details for registration and online facility to pay Stamp Duty and Registration Fee.",
+   "confidence": 1
+  },
+  {
+   "claim": "For additional information regarding the details on this page, citizens should contact the respective Sub-Registrar Office.",
    "kind": "OFFICE",
-   "subject": "gidc_office",
+   "subject": "citizen",
+   "object": "sub_registrar_office",
+   "detail": {},
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે સબ-રજીસ્ટ્રાર ઑફિસનો સંપર્ક કરવો.",
+   "confidence": 1
+  },
+  {
+   "claim": "The GARVI 2.0 application is managed by the IGR Department of the Government of Gujarat.",
+   "kind": "OFFICE",
+   "subject": "garvi_2_0_application",
+   "object": "igr_department",
+   "detail": {
+    "office_name": "IGR Department"
+   },
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "Website Content Managed by IGR Department, Government of Gujarat",
+   "confidence": 1
+  },
+  {
+   "claim": "The GARVI 2.0 application is designed, developed, and hosted by the National Informatics Centre (NIC).",
+   "kind": "OFFICE",
+   "subject": "garvi_2_0_application",
+   "object": "nic",
+   "detail": {
+    "office_name": "National Informatics Centre (NIC)"
+   },
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "Designed, Developed and Hosted by National Informatics Centre ( NIC )",
+   "confidence": 1
+  },
+  {
+   "claim": "The contact address for the Stamp & Registration Bhavan is KH-5, Sector-14, Gandhinagar, Gujarat - 382016.",
+   "kind": "OFFICE",
+   "subject": "stamp_and_registration_bhavan",
    "object": "address",
    "detail": {
-    "address": "Block 3,4,5, Udhyog Bhavan, Sector-11, Gandhinagar 382 011, Gujarat, India."
+    "address": "KH-5, Sector-14, Gandhinagar, Gujarat - 382016"
    },
-   "sourceId": "src:e567da21d421",
-   "evidence": "Our Address\nBlock 3,4,5, Udhyog Bhavan, Sector-11,\nGandhinagar 382 011,\nGujarat, India.",
-   "confidence": 0.95
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "Stamp & Registration Bhavan\nKH-5, Sector-14,\nGandhinagar, Gujarat - 382016",
+   "confidence": 1
   },
   {
-   "claim": "The GIDC office can be contacted at +91 79 23250636.",
+   "claim": "The contact phone number for the Stamp & Registration Bhavan is (079) 23288575.",
    "kind": "HELPLINE",
-   "subject": "gidc_office",
+   "subject": "stamp_and_registration_bhavan",
    "object": "phone",
    "detail": {
-    "phone": "+91 79 23250636"
+    "phone": "(079) 23288575"
    },
-   "sourceId": "src:e567da21d421",
-   "evidence": "Phone: +91 79 23250636",
-   "confidence": 0.95
+   "sourceId": "src:f5495cb6866c",
+   "evidence": "Phone:\n(079) 23288575",
+   "confidence": 1
   },
   {
-   "claim": "The GIDC office can be contacted via email at gidc@gujarat.gov.in and gidc@gidcgujarat.org.",
-   "kind": "HELPLINE",
-   "subject": "gidc_office",
-   "object": "email",
+   "claim": "The user must select an article to calculate the registration fee.",
+   "kind": "ACTION",
+   "subject": "registration_fee_calculation",
+   "object": "article_selection",
+   "detail": {},
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "Select Article (લેખ પસંદ કરો)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The user must select a district to calculate the registration fee.",
+   "kind": "ACTION",
+   "subject": "registration_fee_calculation",
+   "object": "district_selection",
+   "detail": {},
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "District (જીલ્લો પસંદ કરો)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The user must select a taluka to calculate the registration fee.",
+   "kind": "ACTION",
+   "subject": "registration_fee_calculation",
+   "object": "taluka_selection",
+   "detail": {},
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "Taluka (તાલુકો પસંદ કરો)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The user must select a village to calculate the registration fee.",
+   "kind": "ACTION",
+   "subject": "registration_fee_calculation",
+   "object": "village_selection",
+   "detail": {},
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "Village (ગામ પસંદ કરો)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The user must select a property type to calculate the registration fee.",
+   "kind": "ACTION",
+   "subject": "registration_fee_calculation",
+   "object": "property_type_selection",
+   "detail": {},
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "Select Property Type(પ્રકાર)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The user must select the type of property to calculate the registration fee.",
+   "kind": "ACTION",
+   "subject": "registration_fee_calculation",
+   "object": "property_type_selection",
+   "detail": {},
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "Property Type(સંપત્તિનો પ્રકાર)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The user must enter the survey number to calculate the registration fee.",
+   "kind": "ACTION",
+   "subject": "registration_fee_calculation",
+   "object": "survey_number_entry",
+   "detail": {},
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "Survey Number(સર્વે નંબર)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The user must select the construction type to calculate the registration fee.",
+   "kind": "ACTION",
+   "subject": "registration_fee_calculation",
+   "object": "construction_type_selection",
+   "detail": {},
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "Construction Type(બાંધકામનો પ્રકાર)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The user must select the level type to calculate the registration fee.",
+   "kind": "ACTION",
+   "subject": "registration_fee_calculation",
+   "object": "level_type_selection",
+   "detail": {},
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "Level Type(સ્તરનો પ્રકાર)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The user must select the construction year to calculate the registration fee.",
+   "kind": "ACTION",
+   "subject": "registration_fee_calculation",
+   "object": "construction_year_selection",
+   "detail": {},
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "Constructions year",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The user must enter the land area to calculate the registration fee.",
+   "kind": "ACTION",
+   "subject": "registration_fee_calculation",
+   "object": "land_area_entry",
+   "detail": {},
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "Land Area(જમીનનું ક્ષેત્રફળ)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The user must enter the land cost to calculate the registration fee.",
+   "kind": "ACTION",
+   "subject": "registration_fee_calculation",
+   "object": "land_cost_entry",
+   "detail": {},
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "Land Cost(જમીન ખર્ચ)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The user must enter the construction cost to calculate the registration fee.",
+   "kind": "ACTION",
+   "subject": "registration_fee_calculation",
+   "object": "construction_cost_entry",
+   "detail": {},
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "Total ConStructions Cost(Rs.)(કુલ કન્સ્ટ્રક્શન ખર્ચ)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Citizens can submit document details for registration and pay Stamp Duty and Registration Fee online through the Garvi web application.",
+   "kind": "ACTION",
+   "subject": "citizen",
+   "object": "garvi_web_application",
    "detail": {
-    "email": "gidc@gujarat.gov.in, gidc@gidcgujarat.org"
+    "url": "https://garvi.gujarat.gov.in/FrmRegistrationfeeCalculation_New.aspx"
    },
-   "sourceId": "src:e567da21d421",
-   "evidence": "Email\ngidc@gujarat.gov.in\ngidc@gidcgujarat.org",
-   "confidence": 0.95
-  },
-  {
-   "claim": "An application for allotment of properties in GIDC estates is accepted online.",
-   "kind": "ACTION",
-   "subject": "application_for_allotment",
-   "object": "online_submission",
-   "detail": {},
-   "sourceId": "src:3203b82bd43a",
-   "evidence": "Application for allotment of properties in GIDC estates is accepted online.",
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "Garvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides services to citizens to submit document details for registration and online facility to pay Stamp Duty and Registration Fee.",
    "confidence": 1
   },
   {
-   "claim": "Applicants must submit online copies of the application and required documents, including a project presentation, for the application to be considered complete.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "application_for_allotment",
-   "object": "required_documents",
-   "detail": {},
-   "sourceId": "src:3203b82bd43a",
-   "evidence": "An application will be considered complete after the applicant submits the online copies of application and required documents (including project presentation).",
-   "confidence": 1
-  },
-  {
-   "claim": "Applicants must submit a printed copy of the system-generated application and acknowledgment receipt along with all necessary documents via Registered post (RPAD) to the office of the concerned Regional Manager within 30 days from the date of applying online.",
-   "kind": "ACTION",
-   "subject": "application_for_allotment",
-   "object": "document_submission",
-   "detail": {
-    "days": "30",
-    "method": "Registered post (RPAD)"
-   },
-   "sourceId": "src:3203b82bd43a",
-   "evidence": "The applicant has to submit the print out of the system generated application and acknowledgement receipt along with all necessary documents through Registered post (RPAD) to the office of concerned Regional Manager within 30 days from the date of applying online.",
-   "confidence": 1
-  },
-  {
-   "claim": "If the required documents are not received within the prescribed time limit, the application will be cancelled.",
-   "kind": "BLOCKER",
-   "subject": "application_for_allotment",
-   "object": "document_submission",
-   "detail": {
-    "days": "30"
-   },
-   "sourceId": "src:3203b82bd43a",
-   "evidence": "If above mentioned documents are not received within prescribed time limit then application stands cancelled.",
-   "confidence": 1
-  },
-  {
-   "claim": "Applicants are not allowed to vary from the details submitted online. No changes are allowed once the details are submitted.",
-   "kind": "CONDITIONAL_REQUIREMENT",
-   "subject": "application_for_allotment",
-   "object": "details_submission",
-   "detail": {},
-   "sourceId": "src:3203b82bd43a",
-   "evidence": "The applicants shall not be allowed to vary from the details submitted by him/her online. No change shall be allowed in the details once it is submitted online.",
-   "confidence": 1
-  },
-  {
-   "claim": "Applicants must register on the portal to make an online application.",
-   "kind": "ACTION",
-   "subject": "application_for_allotment",
-   "object": "portal_registration",
-   "detail": {},
-   "sourceId": "src:3203b82bd43a",
-   "evidence": "You will need to first register on the portal to make an Online Application.",
-   "confidence": 1
-  },
-  {
-   "claim": "Applicants must agree to the terms and conditions by clicking on the checkbox before the online application link is activated.",
-   "kind": "ACTION",
-   "subject": "application_for_allotment",
-   "object": "terms_and_conditions",
-   "detail": {},
-   "sourceId": "src:3203b82bd43a",
-   "evidence": "You will have to agree to these terms and conditions by clicking on the check box which you will find at the bottom of the page which opens with the given link. Only after you have clicked on the check box, the link for online application will activate.",
-   "confidence": 1
-  },
-  {
-   "claim": "Applicants can search for a property/properties after clicking on the online application link.",
-   "kind": "ACTION",
-   "subject": "application_for_allotment",
-   "object": "property_search",
-   "detail": {},
-   "sourceId": "src:3203b82bd43a",
-   "evidence": "After clicking on Online Application link you can Search for a property/properties.",
-   "confidence": 1
-  },
-  {
-   "claim": "GIDC field offices will evaluate the application and may request additional documents, information, or clarification from the applicant.",
-   "kind": "ACTION",
-   "subject": "application_for_allotment",
-   "object": "scrutiny_procedure",
-   "detail": {},
-   "sourceId": "src:3203b82bd43a",
-   "evidence": "GIDC field office will thoroughly evaluate/scrutinize the application along with the documents submitted and If require GIDC may ask for additional documents/ information/clarification from the applicant.",
-   "confidence": 1
-  },
-  {
-   "claim": "If all submitted documents meet the requirements, the field office will confirm the application and assign a priority number to the applicant.",
-   "kind": "ACTION",
-   "subject": "application_for_allotment",
-   "object": "confirmation_and_priority",
-   "detail": {},
-   "sourceId": "src:3203b82bd43a",
-   "evidence": "After scrutiny if all submitted documents meeting the requirements , field office will confirm the application and a priority number will be assigned to applicant",
-   "confidence": 1
-  },
-  {
-   "claim": "After confirmation, the application will be forwarded to the head office for evaluation of the submitted project report and presentation.",
-   "kind": "ACTION",
-   "subject": "application_for_allotment",
-   "object": "head_office_evaluation",
-   "detail": {},
-   "sourceId": "src:3203b82bd43a",
-   "evidence": "After confirmation of the application, it will be forwarded to head office to check/evaluate the submitted project report and presentation to determine the possibility of allotment to the applicant.",
-   "confidence": 1
-  },
-  {
-   "claim": "If any requirements in the application are unclear, GIDC may contact the applicant for clarification or request a presentation of the proposed project/unit at the GIDC head office for counseling.",
-   "kind": "ACTION",
-   "subject": "application_for_allotment",
-   "object": "clarification_or_counseling",
-   "detail": {},
-   "sourceId": "src:3203b82bd43a",
-   "evidence": "If any of the requirement mentioned in the application isn’t clear than GIDC will either contact applicant for clarification or if require GIDC will ask applicant for further information verification/ presentation of their proposed project/unit at GIDC head office for counselling before the final decision of land allotment.",
-   "confidence": 1
-  },
-  {
-   "claim": "During counseling, GIDC may suggest changes to the applicant to meet the required norms and criteria defined by the corporation.",
-   "kind": "ACTION",
-   "subject": "application_for_allotment",
-   "object": "counseling_suggestions",
-   "detail": {},
-   "sourceId": "src:3203b82bd43a",
-   "evidence": "During counselling of applicant corporation will suggest the applicant to match the required norms and criteria defined by corporation like water demand, power demand, effluent generation, solid waste generation and any other requirement needs to be corrected.",
-   "confidence": 1
-  },
-  {
-   "claim": "If everything is found to be in order, GIDC will issue an online allotment letter to the applicant.",
-   "kind": "ACTION",
-   "subject": "application_for_allotment",
-   "object": "allotment_letter",
-   "detail": {},
-   "sourceId": "src:3203b82bd43a",
-   "evidence": "If everything found to be in order by GIDC, system generated an online allotment letter will be awarded to the applicant.",
-   "confidence": 1
-  },
-  {
-   "claim": "The procedural steps for application are uniform and applicable across all types of establishments, regardless of risk category, firm size, business location, or type of investor.",
-   "kind": "CONDITIONAL_REQUIREMENT",
-   "subject": "application_for_allotment",
-   "object": "procedural_uniformity",
-   "detail": {},
-   "sourceId": "src:3203b82bd43a",
-   "evidence": "The procedural steps outlined above are uniform, consistent, and applicable across all types of establishments, regardless of their risk category, firm size/category (small, medium, large), business location (whether rural or urban), and the type of investor (whether foreign or domestic).",
-   "confidence": 1
-  },
-  {
-   "claim": "Applicants can download the GIDC Setu Mobile Application.",
-   "kind": "APP",
-   "subject": "application_for_allotment",
-   "object": "gidc_setu_app",
-   "detail": {},
-   "sourceId": "src:3203b82bd43a",
-   "evidence": "Download GIDC Setu Mobile Application",
-   "confidence": 1
-  },
-  {
-   "claim": "The GIDC office is located at Block 3,4,5, Udhyog Bhavan, Sector-11, Gandhinagar 382 011, Gujarat, India.",
+   "claim": "For additional information regarding the details on the page, citizens should contact the respective Sub-Registrar Office.",
    "kind": "OFFICE",
-   "subject": "application_for_allotment",
-   "object": "gidc_office",
-   "detail": {
-    "address": "Block 3,4,5, Udhyog Bhavan, Sector-11, Gandhinagar 382 011, Gujarat, India."
-   },
-   "sourceId": "src:3203b82bd43a",
-   "evidence": "Our Address\nBlock 3,4,5, Udhyog Bhavan, Sector-11,\nGandhinagar 382 011,\nGujarat, India.",
+   "subject": "citizen",
+   "object": "sub_registrar_office",
+   "detail": {},
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે સબ-રજીસ્ટ્રાર ઑફિસનો સંપર્ક કરવો.",
    "confidence": 1
   },
   {
-   "claim": "The GIDC office can be contacted at +91 79 23250636.",
+   "claim": "The Garvi website is managed by the IGR Department of the Government of Gujarat.",
+   "kind": "OFFICE",
+   "subject": "garvi_website",
+   "object": "igr_department",
+   "detail": {
+    "officeName": "IGR Department",
+    "address": "Stamp & Registration Bhavan, KH-5, Sector-14, Gandhinagar, Gujarat - 382016"
+   },
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "Website Content Managed by IGR Department, Government of Gujarat",
+   "confidence": 1
+  },
+  {
+   "claim": "The Garvi website can be contacted via phone at (079) 23288575.",
    "kind": "HELPLINE",
-   "subject": "application_for_allotment",
-   "object": "gidc_office",
+   "subject": "garvi_website",
+   "object": "phone_contact",
    "detail": {
-    "phone": "+91 79 23250636"
+    "phone": "(079) 23288575"
    },
-   "sourceId": "src:3203b82bd43a",
-   "evidence": "Phone: +91 79 23250636",
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "Phone: (079) 23288575",
    "confidence": 1
   },
   {
-   "claim": "The GIDC office can be contacted via email at gidc@gujarat.gov.in and gidc@gidcgujarat.org.",
-   "kind": "GRIEVANCE",
-   "subject": "application_for_allotment",
-   "object": "gidc_office",
+   "claim": "The Garvi website is designed, developed, and hosted by the National Informatics Centre (NIC).",
+   "kind": "OFFICE",
+   "subject": "garvi_website",
+   "object": "nic",
    "detail": {
-    "email": "gidc@gujarat.gov.in, gidc@gidcgujarat.org"
+    "officeName": "National Informatics Centre (NIC)"
    },
-   "sourceId": "src:3203b82bd43a",
-   "evidence": "Email\ngidc@gujarat.gov.in\ngidc@gidcgujarat.org",
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "Designed, Developed and Hosted by National Informatics Centre ( NIC )",
+   "confidence": 1
+  },
+  {
+   "claim": "The Garvi website is best viewed in Firefox 64.0 / Chrome 72.0 or above with a screen resolution of 1280x1024.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "garvi_website",
+   "object": "browser_and_resolution",
+   "detail": {
+    "site_resolution": "1280x1024",
+    "browser": "Firefox 64.0 / Chrome 72.0 or above"
+   },
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "Site Resolution : 1280x1024 | Best viewed in Firefox 64.0 / Chrome 72.0 or above",
    "confidence": 1
   },
   {
@@ -1603,6 +1618,619 @@
    },
    "sourceId": "src:475740ce025b",
    "evidence": "Help Desk:\n(079) 23277200\nhelpdesk-igr[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "To access and obtain different documents/certificates in their DigiLocker account, applicants need their Party Code.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "applicant",
+   "object": "party_code",
+   "detail": {},
+   "sourceId": "src:e567da21d421",
+   "evidence": "Applicant will require following details to access and obtain different documents/certificates in their DigiLocker account:\n1) Party Code (Can be accessed from GG user login in ‘My Property’ Section)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Mortgage Permission' will be available in DigiLocker from 27/08/2019.",
+   "kind": "TIMELINE",
+   "subject": "mortgage_permission",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "27/08/2019"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "1 |\n2R Permission (Mortgage) Order |\nMortgage Permission |\n27/08/2019 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Transfer Certificate / Order' for Provisional Transfer Order will be available in DigiLocker from 20/12/2019.",
+   "kind": "TIMELINE",
+   "subject": "provisional_transfer_order",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "20/12/2019"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "2 |\nProvisional Transfer Order |\nTransfer Certificate / Order |\n20/12/2019 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Transfer Certificate / Order' for Final Transfer Order will be available in DigiLocker from 20/12/2019.",
+   "kind": "TIMELINE",
+   "subject": "final_transfer_order",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "20/12/2019"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "3 |\nFinal Transfer Order |\nTransfer Certificate / Order |\n20/12/2019 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Rights of Use Permission' for Rights of Use (PTO) will be available in DigiLocker from 27/08/2019.",
+   "kind": "TIMELINE",
+   "subject": "rights_of_use_pto",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "27/08/2019"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "4 |\nRights of Use (PTO) |\nRights of Use Permission |\n27/08/2019 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Rights of Use Permission' for Rights of Use (FTO) will be available in DigiLocker from 27/08/2019.",
+   "kind": "TIMELINE",
+   "subject": "rights_of_use_fto",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "27/08/2019"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "5 |\nRights of Use (FTO) |\nRights of Use Permission |\n27/08/2019 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Surrender Order' for Surrender (Rescindment Order) will be available in DigiLocker from 28/01/2020.",
+   "kind": "TIMELINE",
+   "subject": "surrender_rescindment_order",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "28/01/2020"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "6 |\nSurrender (Rescindment Order) |\nSurrender Order |\n28/01/2020 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Surrender Order' for Surrender (Refund Order) will be available in DigiLocker from 28/01/2020.",
+   "kind": "TIMELINE",
+   "subject": "surrender_refund_order",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "28/01/2020"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "7 |\nSurrender (Refund Order) |\nSurrender Order |\n28/01/2020 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Sub Division Permission Order' for Sub Division (PSO) will be available in DigiLocker from 25/08/2019.",
+   "kind": "TIMELINE",
+   "subject": "sub_division_pso",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "25/08/2019"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "8 |\nSub Division (PSO) |\nSub Division Permission Order |\n25/08/2019 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Sub Division Permission Order' for Sub Division (FSO) will be available in DigiLocker from 25/08/2019.",
+   "kind": "TIMELINE",
+   "subject": "sub_division_fso",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "25/08/2019"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "9 |\nSub Division (FSO) |\nSub Division Permission Order |\n25/08/2019 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Amalgamation Order' for Amalgamation (PAO) will be available in DigiLocker from 08/01/2020.",
+   "kind": "TIMELINE",
+   "subject": "amalgamation_pao",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "08/01/2020"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "10 |\nAmalgamation (PAO) |\nAmalgamation Order |\n08/01/2020 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Amalgamation Order' for Amalgamation (FAO) will be available in DigiLocker from 08/01/2020.",
+   "kind": "TIMELINE",
+   "subject": "amalgamation_fao",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "08/01/2020"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "11 |\nAmalgamation (FAO) |\nAmalgamation Order |\n08/01/2020 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Extension Order' for Final Time Limit Extension Order will be available in DigiLocker from 08/07/2020.",
+   "kind": "TIMELINE",
+   "subject": "final_time_limit_extension_order",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "08/07/2020"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "12 |\nFinal Time Limit Extension Order |\nExtension Order |\n08/07/2020 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Subletting Order' for Subletting (PSLO) will be available in DigiLocker from 01/01/2020.",
+   "kind": "TIMELINE",
+   "subject": "subletting_pslo",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "01/01/2020"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "13 |\nSubletting (PSLO) |\nSubletting Order |\n01/01/2020 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Subletting Order' for Subletting (FSLO) will be available in DigiLocker from 01/01/2020.",
+   "kind": "TIMELINE",
+   "subject": "subletting_fslo",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "01/01/2020"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "14 |\nSubletting (FSLO) |\nSubletting Order |\n01/01/2020 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The document 'Plan Approval Order' will be available in DigiLocker from 14/07/2020.",
+   "kind": "TIMELINE",
+   "subject": "plan_approval",
+   "object": "digilocker_availability",
+   "detail": {
+    "date_from": "14/07/2020"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "15 |\nPlan Approval |\nPlan Approval Order |\n14/07/2020 |",
+   "confidence": 0.95
+  },
+  {
+   "claim": "To view your document on DigiLocker, a link is provided on the page.",
+   "kind": "CHANNEL",
+   "subject": "digilocker",
+   "object": "document_view_link",
+   "detail": {
+    "url": "To view your document on DigiLocker, Click here."
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "To view your document on DigiLocker, Click here.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "To access FAQ before using DigiLocker, a link is provided on the page.",
+   "kind": "CHANNEL",
+   "subject": "digilocker",
+   "object": "faq_link",
+   "detail": {
+    "url": "To access FAQ before using DigiLocker, Click here."
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "To access FAQ before using DigiLocker, Click here.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The GIDC Setu Mobile Application can be downloaded from the page.",
+   "kind": "APP",
+   "subject": "gidc_setu_app",
+   "object": "download_link",
+   "detail": {
+    "url": "Download GIDC Setu Mobile Application"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "Download GIDC Setu Mobile Application",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The GIDC office is located at Block 3,4,5, Udhyog Bhavan, Sector-11, Gandhinagar 382 011, Gujarat, India.",
+   "kind": "OFFICE",
+   "subject": "gidc_office",
+   "object": "address",
+   "detail": {
+    "address": "Block 3,4,5, Udhyog Bhavan, Sector-11, Gandhinagar 382 011, Gujarat, India."
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "Our Address\nBlock 3,4,5, Udhyog Bhavan, Sector-11,\nGandhinagar 382 011,\nGujarat, India.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The GIDC office can be contacted at +91 79 23250636.",
+   "kind": "HELPLINE",
+   "subject": "gidc_office",
+   "object": "phone",
+   "detail": {
+    "phone": "+91 79 23250636"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "Phone: +91 79 23250636",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The GIDC office can be contacted via email at gidc@gujarat.gov.in and gidc@gidcgujarat.org.",
+   "kind": "HELPLINE",
+   "subject": "gidc_office",
+   "object": "email",
+   "detail": {
+    "email": "gidc@gujarat.gov.in, gidc@gidcgujarat.org"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "Email\ngidc@gujarat.gov.in\ngidc@gidcgujarat.org",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An application for allotment of properties in GIDC estates is accepted online.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "online_submission",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "Application for allotment of properties in GIDC estates is accepted online.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must submit online copies of the application and required documents, including a project presentation, for the application to be considered complete.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_for_allotment",
+   "object": "required_documents",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "An application will be considered complete after the applicant submits the online copies of application and required documents (including project presentation).",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must submit a printed copy of the system-generated application and acknowledgment receipt along with all necessary documents via Registered post (RPAD) to the office of the concerned Regional Manager within 30 days from the date of applying online.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "document_submission",
+   "detail": {
+    "days": "30",
+    "method": "Registered post (RPAD)"
+   },
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "The applicant has to submit the print out of the system generated application and acknowledgement receipt along with all necessary documents through Registered post (RPAD) to the office of concerned Regional Manager within 30 days from the date of applying online.",
+   "confidence": 1
+  },
+  {
+   "claim": "If the required documents are not received within the prescribed time limit, the application will be cancelled.",
+   "kind": "BLOCKER",
+   "subject": "application_for_allotment",
+   "object": "document_submission",
+   "detail": {
+    "days": "30"
+   },
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "If above mentioned documents are not received within prescribed time limit then application stands cancelled.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants are not allowed to vary from the details submitted online. No changes are allowed once the details are submitted.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "application_for_allotment",
+   "object": "details_submission",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "The applicants shall not be allowed to vary from the details submitted by him/her online. No change shall be allowed in the details once it is submitted online.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must register on the portal to make an online application.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "portal_registration",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "You will need to first register on the portal to make an Online Application.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must agree to the terms and conditions by clicking on the checkbox before the online application link is activated.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "terms_and_conditions",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "You will have to agree to these terms and conditions by clicking on the check box which you will find at the bottom of the page which opens with the given link. Only after you have clicked on the check box, the link for online application will activate.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants can search for a property/properties after clicking on the online application link.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "property_search",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "After clicking on Online Application link you can Search for a property/properties.",
+   "confidence": 1
+  },
+  {
+   "claim": "GIDC field offices will evaluate the application and may request additional documents, information, or clarification from the applicant.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "scrutiny_procedure",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "GIDC field office will thoroughly evaluate/scrutinize the application along with the documents submitted and If require GIDC may ask for additional documents/ information/clarification from the applicant.",
+   "confidence": 1
+  },
+  {
+   "claim": "If all submitted documents meet the requirements, the field office will confirm the application and assign a priority number to the applicant.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "confirmation_and_priority",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "After scrutiny if all submitted documents meeting the requirements , field office will confirm the application and a priority number will be assigned to applicant",
+   "confidence": 1
+  },
+  {
+   "claim": "After confirmation, the application will be forwarded to the head office for evaluation of the submitted project report and presentation.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "head_office_evaluation",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "After confirmation of the application, it will be forwarded to head office to check/evaluate the submitted project report and presentation to determine the possibility of allotment to the applicant.",
+   "confidence": 1
+  },
+  {
+   "claim": "If any requirements in the application are unclear, GIDC may contact the applicant for clarification or request a presentation of the proposed project/unit at the GIDC head office for counseling.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "clarification_or_counseling",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "If any of the requirement mentioned in the application isn’t clear than GIDC will either contact applicant for clarification or if require GIDC will ask applicant for further information verification/ presentation of their proposed project/unit at GIDC head office for counselling before the final decision of land allotment.",
+   "confidence": 1
+  },
+  {
+   "claim": "During counseling, GIDC may suggest changes to the applicant to meet the required norms and criteria defined by the corporation.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "counseling_suggestions",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "During counselling of applicant corporation will suggest the applicant to match the required norms and criteria defined by corporation like water demand, power demand, effluent generation, solid waste generation and any other requirement needs to be corrected.",
+   "confidence": 1
+  },
+  {
+   "claim": "If everything is found to be in order, GIDC will issue an online allotment letter to the applicant.",
+   "kind": "ACTION",
+   "subject": "application_for_allotment",
+   "object": "allotment_letter",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "If everything found to be in order by GIDC, system generated an online allotment letter will be awarded to the applicant.",
+   "confidence": 1
+  },
+  {
+   "claim": "The procedural steps for application are uniform and applicable across all types of establishments, regardless of risk category, firm size, business location, or type of investor.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "application_for_allotment",
+   "object": "procedural_uniformity",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "The procedural steps outlined above are uniform, consistent, and applicable across all types of establishments, regardless of their risk category, firm size/category (small, medium, large), business location (whether rural or urban), and the type of investor (whether foreign or domestic).",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants can download the GIDC Setu Mobile Application.",
+   "kind": "APP",
+   "subject": "application_for_allotment",
+   "object": "gidc_setu_app",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "Download GIDC Setu Mobile Application",
+   "confidence": 1
+  },
+  {
+   "claim": "The GIDC office is located at Block 3,4,5, Udhyog Bhavan, Sector-11, Gandhinagar 382 011, Gujarat, India.",
+   "kind": "OFFICE",
+   "subject": "application_for_allotment",
+   "object": "gidc_office",
+   "detail": {
+    "address": "Block 3,4,5, Udhyog Bhavan, Sector-11, Gandhinagar 382 011, Gujarat, India."
+   },
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "Our Address\nBlock 3,4,5, Udhyog Bhavan, Sector-11,\nGandhinagar 382 011,\nGujarat, India.",
+   "confidence": 1
+  },
+  {
+   "claim": "The GIDC office can be contacted at +91 79 23250636.",
+   "kind": "HELPLINE",
+   "subject": "application_for_allotment",
+   "object": "gidc_office",
+   "detail": {
+    "phone": "+91 79 23250636"
+   },
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "Phone: +91 79 23250636",
+   "confidence": 1
+  },
+  {
+   "claim": "The GIDC office can be contacted via email at gidc@gujarat.gov.in and gidc@gidcgujarat.org.",
+   "kind": "GRIEVANCE",
+   "subject": "application_for_allotment",
+   "object": "gidc_office",
+   "detail": {
+    "email": "gidc@gujarat.gov.in, gidc@gidcgujarat.org"
+   },
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "Email\ngidc@gujarat.gov.in\ngidc@gidcgujarat.org",
+   "confidence": 1
+  },
+  {
+   "claim": "The Common Service Center provides government and private company e-services.",
+   "kind": "CHANNEL",
+   "subject": "common_service_center",
+   "object": "e_services",
+   "detail": {},
+   "sourceId": "src:cba67fd37013",
+   "evidence": "કોમન સર્વ&zwj;િસ સેન્&zwj;ટર દ્વારા આ૫વામાં આવનારી સરકારી તથા ખાનગી કં૫નીની ઇ-સેવાઓ.",
+   "confidence": 1
+  },
+  {
+   "claim": "Land record documents (7/12 and 8/A) are available.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "land_record_documents",
+   "object": "7_12_and_8_a",
+   "detail": {},
+   "sourceId": "src:cba67fd37013",
+   "evidence": "જમીન રેકોર્ડ દસ્&zwj;તાવેજો (૭/૧૨ અને ૮/અ)",
+   "confidence": 1
+  },
+  {
+   "claim": "Property tax payment collection is available.",
+   "kind": "ACTION",
+   "subject": "property_tax_payment",
+   "object": "collection",
+   "detail": {},
+   "sourceId": "src:cba67fd37013",
+   "evidence": "મિલ્&zwj;કત સબંઘી કરવેરાની ચુકવણીની વસૂલાત",
+   "confidence": 1
+  },
+  {
+   "claim": "Birth and death registration is available.",
+   "kind": "ACTION",
+   "subject": "birth_death_registration",
+   "object": "available",
+   "detail": {},
+   "sourceId": "src:cba67fd37013",
+   "evidence": "જન્&zwj;મ અને મરણની નોંધણી",
+   "confidence": 1
+  },
+  {
+   "claim": "Various customer-oriented facilities are available.",
+   "kind": "ACTION",
+   "subject": "customer_oriented_facilities",
+   "object": "available",
+   "detail": {},
+   "sourceId": "src:cba67fd37013",
+   "evidence": "વિવિધ ગ્રાહક લક્ષી સુવિધાઓ",
+   "confidence": 1
+  },
+  {
+   "claim": "Payment of electricity, telephone, mobile, etc. bills is available.",
+   "kind": "ACTION",
+   "subject": "bill_payment",
+   "object": "available",
+   "detail": {},
+   "sourceId": "src:cba67fd37013",
+   "evidence": "વીજળી, ટેલિફોન, મોબાઇલ વગેરે) ના બિલોની ચુકવણી..",
+   "confidence": 1
+  },
+  {
+   "claim": "Community certificates, certificates issued by the Mamlatdar, and affidavits are documented.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "community_certificates",
+   "object": "documentation",
+   "detail": {},
+   "sourceId": "src:cba67fd37013",
+   "evidence": "સામુદાયિક પ્રમાણ૫ત્રો, મામલતદારે કાઢી આ૫વાનાં પ્રમાણ ૫ત્રો અને સોગંદનામા માટેનું દસ્&zwj;તાવેજીકરણ.",
+   "confidence": 1
+  },
+  {
+   "claim": "Licenses, permissions, no-objection certificates, and insurance are available.",
+   "kind": "ACTION",
+   "subject": "licenses_permissions",
+   "object": "available",
+   "detail": {},
+   "sourceId": "src:cba67fd37013",
+   "evidence": "લાયસન્&zwj;સ, ૫રવાના, ના-વાંધા પ્રમાણ૫ત્ર, વિમો.",
+   "confidence": 1
+  },
+  {
+   "claim": "Documents related to various schemes and computer education are prepared.",
+   "kind": "ACTION",
+   "subject": "scheme_documents",
+   "object": "prepared",
+   "detail": {},
+   "sourceId": "src:cba67fd37013",
+   "evidence": "જુદી જુદી યોજનાઓ અંગેનાં અને કોમ્&zwj;પ્&zwj;યુટર શિક્ષણ માટેના દસ્&zwj;તાવેજો તૈયાર કરવા.",
+   "confidence": 1
+  },
+  {
+   "claim": "Telemedicine (spoken via television) is available.",
+   "kind": "ACTION",
+   "subject": "telemedicine",
+   "object": "available",
+   "detail": {},
+   "sourceId": "src:cba67fd37013",
+   "evidence": "ટેલિમેડિસીન (ટેલિવિઝનની મદદથી ઉ૫ચાર)",
+   "confidence": 1
+  },
+  {
+   "claim": "Market linkage for agricultural products is available.",
+   "kind": "ACTION",
+   "subject": "agricultural_market_linkage",
+   "object": "available",
+   "detail": {},
+   "sourceId": "src:cba67fd37013",
+   "evidence": "કૃષ&zwj;િલક્ષી ચીજવસ્&zwj;તુઓ માટે બજાર સં૫ર્ક કડીઓ.",
+   "confidence": 1
+  },
+  {
+   "claim": "System paper sales are available.",
+   "kind": "ACTION",
+   "subject": "system_paper_sales",
+   "object": "available",
+   "detail": {},
+   "sourceId": "src:cba67fd37013",
+   "evidence": "સ્&zwj;ટેમ્&zwj;૫ પે૫રનું વેચાણ",
+   "confidence": 1
+  },
+  {
+   "claim": "Name changes in certificates are available.",
+   "kind": "ACTION",
+   "subject": "certificate_name_change",
+   "object": "available",
+   "detail": {},
+   "sourceId": "src:cba67fd37013",
+   "evidence": "સં૫ત્તિઓમાં નામ ફેર.",
+   "confidence": 1
+  },
+  {
+   "claim": "RTO licenses and property cards are available.",
+   "kind": "ACTION",
+   "subject": "rto_property_services",
+   "object": "available",
+   "detail": {},
+   "sourceId": "src:cba67fd37013",
+   "evidence": "આર.ટી.ઓ. લાયસન્&zwj;સ, પ્રો૫ર્ટી કાર્ઙ",
+   "confidence": 1
+  },
+  {
+   "claim": "Railway and air reservation e-services are available.",
+   "kind": "ACTION",
+   "subject": "railway_air_reservation",
+   "object": "available",
+   "detail": {},
+   "sourceId": "src:cba67fd37013",
+   "evidence": "રેલ્&zwj;વે અને હવાઇ રીઝર્વેશન માટેની ઇ-સેવાઓ",
    "confidence": 1
   },
   {
@@ -3304,11 +3932,8 @@
   }
  ],
  "notFound": [
-  "DigiLocker: the page names \"To view your document on DigiLocker, Click here.\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
-  "DigiLocker: the page names \"To access FAQ before using DigiLocker, Click here.\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
-  "DigiLocker: a page mentions a mobile app (\"The GIDC Setu Mobile Application can be downloaded from the page.\") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.",
-  "application for allotment of properties: a page mentions a mobile app (\"Applicants can download the GIDC Setu Mobile Application.\") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.",
-  "application for allotment of properties: https://gidc.gujarat.gov.in/Pages/Contents/application-for-allotment lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Garvi: https://garvi.gujarat.gov.in/FrmStampDutyCalculation_New.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Garvi: https://garvi.gujarat.gov.in/FrmRegistrationfeeCalculation_New.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Garvi: a page mentions a mobile app (\"Citizens must use NIC's SANDES messaging mobile app for receiving Alert/OTP SMS related to their login from the Garvi Portal.\") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.",
   "Garvi: a page mentions a mobile app (\"Citizens can download the NIC's SANDES app from the Google Play Store or iOS App Store.\") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.",
   "Garvi: https://garvi.gujarat.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
@@ -3316,6 +3941,12 @@
   "Garvi: https://garvi.gujarat.gov.in/FrmViewAppointment_New.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Garvi: a page mentions a mobile app (\"A citizen can use the NIC's SANDES mobile app to receive secure login alerts and OTP notifications from the GARVI Portal.\") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.",
   "Garvi: https://garvi.gujarat.gov.in/ModelDraft.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "DigiLocker: the page names \"To view your document on DigiLocker, Click here.\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
+  "DigiLocker: the page names \"To access FAQ before using DigiLocker, Click here.\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
+  "DigiLocker: a page mentions a mobile app (\"The GIDC Setu Mobile Application can be downloaded from the page.\") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.",
+  "application for allotment of properties: a page mentions a mobile app (\"Applicants can download the GIDC Setu Mobile Application.\") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.",
+  "application for allotment of properties: https://gidc.gujarat.gov.in/Pages/Contents/application-for-allotment lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "E-Gram Vishvagram Yojana: https://vadodaradp.gujarat.gov.in/gu/E-Gram-Vishvagram-Yojana lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Index-2 details search: a page mentions a mobile app (\"A citizen can use the NIC's SANDES messaging mobile app to receive alerts and OTP SMSes related to their login on the Garvi Portal.\") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.",
   "Index-2 details search: https://garvi.gujarat.gov.in/frmIndex2_New.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "plot-or-shed-allotment: https://ced.gujarat.gov.in/assets/downloads/gr-10-03-2015-CH.pdf#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",

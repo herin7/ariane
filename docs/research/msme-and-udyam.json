@@ -1,6 +1,6 @@
 {
  "journey": "msme-and-udyam",
- "researchedAt": "2026-08-23",
+ "researchedAt": "2026-08-24",
  "region": "Gujarat, India",
  "sources": [
   {
@@ -1867,13 +1867,12 @@
    "confidence": 0.95
   },
   {
-   "claim": "The PMEGP scheme provides a higher margin money subsidy for beneficiaries from special categories such as SC/ST/Women/PH/Minorities/Ex-Servicemen/NER.",
+   "claim": "The margin money subsidy under PMEGP is 35% in rural areas and 25% in urban areas for beneficiaries belonging to special categories.",
    "kind": "FEE",
    "subject": "pmegp_scheme",
-   "object": "special_category_subsidy",
+   "object": "margin_money_subsidy_special_categories",
    "detail": {
-    "rural_subsidy": "35%",
-    "urban_subsidy": "25%",
+    "amount": "35% in rural areas, 25% in urban areas",
     "currency": "INR"
    },
    "sourceId": "src:10b8e460fca1",
@@ -1881,67 +1880,52 @@
    "confidence": 0.95
   },
   {
-   "claim": "The PMEGP scheme is applicable for individuals above 18 years of age, SHGs, Charitable trusts, and Registered Societies.",
-   "kind": "ELIGIBILITY",
+   "claim": "The maximum cost of projects under PMEGP is Rs.25.00 lakh in the manufacturing sector and Rs.10.00 lakh in the service sector.",
+   "kind": "FEE",
    "subject": "pmegp_scheme",
-   "object": "eligible_applicants",
-   "detail": {},
+   "object": "project_cost_limit",
+   "detail": {
+    "amount": "2500000 in manufacturing, 1000000 in service",
+    "currency": "INR"
+   },
    "sourceId": "src:10b8e460fca1",
-   "evidence": "Scheme applicable for Any individual above 18 years of age, SHGs, Charitable trusts, Registered Societies etc.",
+   "evidence": "The maximum cost of projects is Rs.25.00 lakh in the manufacturing sector and Rs.10.00 lakh in the service sector.",
    "confidence": 0.95
   },
   {
-   "claim": "The PMEGP scheme requires a 10% own contribution of the project cost for general category beneficiaries.",
+   "claim": "The own contribution of the beneficiary under PMEGP is 10% of the project cost for general category and 5% for reserved category beneficiaries.",
    "kind": "FEE",
    "subject": "pmegp_scheme",
    "object": "own_contribution",
    "detail": {
-    "percentage": "10%"
+    "amount": "10% for general, 5% for reserved",
+    "currency": "INR"
    },
    "sourceId": "src:10b8e460fca1",
-   "evidence": "The own contribution of the beneficiary is 10% of the project cost in case of general category",
+   "evidence": "The own contribution of the beneficiary is 10% of the project cost in case of general category and 5% of the project cost in case of reserved category (SC/ST/OBC/PH/Women/Ex Servicemen/ NER) beneficiaries.",
    "confidence": 0.95
   },
   {
-   "claim": "The PMEGP scheme requires a 5% own contribution of the project cost for reserved category beneficiaries.",
+   "claim": "If the application for a PMEGP loan is approved, banks sanction and release 90 to 95 percent of the total project cost.",
    "kind": "FEE",
    "subject": "pmegp_scheme",
-   "object": "reserved_category_contribution",
+   "object": "bank_loan_release",
    "detail": {
-    "percentage": "5%"
-   },
-   "sourceId": "src:10b8e460fca1",
-   "evidence": "and 5% of the project cost in case of reserved category (SC/ST/OBC/PH/Women/Ex Servicemen/ NER) beneficiaries.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The PMEGP scheme allows banks to sanction and release 90 to 95 percent of the total project cost after loan approval.",
-   "kind": "FEE",
-   "subject": "pmegp_scheme",
-   "object": "bank_loan_disbursement",
-   "detail": {
-    "percentage": "90 to 95%"
+    "amount": "90 to 95%",
+    "currency": "INR"
    },
    "sourceId": "src:10b8e460fca1",
    "evidence": "If the application for loan is approved, Banks sanction and release the balance amount of 90 to 95 percent of the total project cost suitably for setting up of the units by the beneficiaries.",
    "confidence": 0.95
   },
   {
-   "claim": "The PMEGP scheme provides support services like awareness camps, workshops, and EDP training for sustainability of the projects.",
-   "kind": "ACTION",
-   "subject": "pmegp_scheme",
-   "object": "support_services",
-   "detail": {},
-   "sourceId": "src:10b8e460fca1",
-   "evidence": "In order to have sustainability of the projects/units set up under the scheme, support services are also provided in the form of Backward & Forward Linkages by organizing events like awareness camps, workshops, EDP training to the beneficiaries, exhibitions, etc.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The PMEGP scheme has an online process flow for application and disbursement of margin money directly to financing branches.",
+   "claim": "The Government of India has introduced an online process flow for PMEGP applications and disbursement of margin money directly to financing branches.",
    "kind": "CHANNEL",
    "subject": "pmegp_scheme",
    "object": "online_process",
-   "detail": {},
+   "detail": {
+    "url": "https://pmegp.gov.in"
+   },
    "sourceId": "src:10b8e460fca1",
    "evidence": "Government of India has introduced online process flow of application and disbursement of Margin Money directly to financing branches.",
    "confidence": 0.95
@@ -1952,7 +1936,7 @@
    "subject": "pmegp_scheme",
    "object": "national_level_agency",
    "detail": {
-    "office_name": "Corporation Bank"
+    "officeName": "Corporation Bank"
    },
    "sourceId": "src:10b8e460fca1",
    "evidence": "Corporation Bank was engaged as a single National Level Agency for operating the online fund flow system of PMEGP.",
@@ -1963,7 +1947,9 @@
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "pmegp_scheme",
    "object": "online_application_form",
-   "detail": {},
+   "detail": {
+    "formType": "one-page online"
+   },
    "sourceId": "src:10b8e460fca1",
    "evidence": "One-page online application form is mandatory for individuals and institutional beneficiaries on the e-portal.",
    "confidence": 0.95
@@ -1972,42 +1958,337 @@
    "claim": "SMS/e-mail alerts are sent to applicants automatically by the system or by the concerned officials at each stage of the PMEGP process.",
    "kind": "TRACKING",
    "subject": "pmegp_scheme",
-   "object": "application_alerts",
-   "detail": {},
+   "object": "application_status_alerts",
+   "detail": {
+    "method": "SMS/e-mail"
+   },
    "sourceId": "src:10b8e460fca1",
    "evidence": "SMS/e-mail alerts sent to the applicant automatically by the system or by the concerned officials at the process of each stage.",
    "confidence": 0.95
   },
   {
    "claim": "Model Projects of different KVI activities are available on the PMEGP e-portal for the benefit of potential beneficiaries.",
-   "kind": "ACTION",
+   "kind": "CHANNEL",
    "subject": "pmegp_scheme",
-   "object": "model_projects",
-   "detail": {},
+   "object": "model_projects_portal",
+   "detail": {
+    "url": "https://pmegp.gov.in"
+   },
    "sourceId": "src:10b8e460fca1",
    "evidence": "Model Projects of different KVI activities have been put up on PMEGP e-portal for the benefit of potential beneficiaries.",
    "confidence": 0.95
   },
   {
-   "claim": "Model Village Industries projects prepared by NSIC are linked to the PMEGP website.",
-   "kind": "ACTION",
-   "subject": "pmegp_scheme",
-   "object": "model_village_projects",
+   "claim": "The Public Procurement Policy mandates 25% annual procurement from MSEs by Central Ministries /Departments/Public Sector Enterprises (CPSEs).",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "public_procurement_policy",
+   "object": "mse_procurement",
    "detail": {
-    "preparer": "NSIC"
+    "percentage": "25%",
+    "applicable_to": "Central Ministries /Departments/Public Sector Enterprises (CPSEs)"
    },
    "sourceId": "src:10b8e460fca1",
-   "evidence": "Model Village Industries projects prepared by NSIC have also been linked to the website.",
+   "evidence": "The Public Procurement Policy mandates 25% annual procurement from MSEs by Central Ministries /Departments/Public Sector Enterprises (CPSEs).",
+   "confidence": 1
+  },
+  {
+   "claim": "MSEs registered with District Industries Centre (DIC) or Khadi & Village Industries Commission (KVIC) or Khadi & Industries Board (KVIB) or Coir Board or national Small Industries Commission (NSIC) or Directorate of Handicrafts and Handlooms or any other body specified by Ministry of MSME or having Udyog Aadhaar Memorandum (UAM) are eligible to avail the benefits of the policy.",
+   "kind": "ELIGIBILITY",
+   "subject": "mse_eligibility",
+   "object": "public_procurement_policy",
+   "detail": {
+    "registrations": [
+     "District Industries Centre (DIC)",
+     "Khadi & Village Industries Commission (KVIC)",
+     "Khadi & Industries Board (KVIB)",
+     "Coir Board",
+     "national Small Industries Commission (NSIC)",
+     "Directorate of Handicrafts and Handlooms",
+     "any other body specified by Ministry of MSME",
+     "Udyog Aadhaar Memorandum (UAM)"
+    ]
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "MSEs registered with District Industries Centre (DIC) or Khadi & Village Industries Commission (KVIC) or Khadi & Industries Board (KVIB) or Coir Board or national Small Industries Commission (NSIC) or Directorate of Handicrafts and Handlooms or any other body specified by Ministry of MSME or having Udyog Aadhaar Memorandum (UAM) are eligible to avail the benefits of the policy.",
+   "confidence": 1
+  },
+  {
+   "claim": "Any registered MSE can register themselves at GeM Portal and avail the benefits of the Public Procurement Policy.",
+   "kind": "ACTION",
+   "subject": "mse_registration",
+   "object": "gem_portal",
+   "detail": {
+    "portal": "GeM Portal"
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "Any registered MSE can register themselves at GeM Portal and avail the benefits of the Public Procurement Policy.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Government of India provides up to 90% of the maximum Project cost of Rs. 20 crore for the creation of Common Facility Centers including Plug & Play Facilities under the Micro & Small Enterprises Cluster Development Programme (MSE – CDP).",
+   "kind": "FEE",
+   "subject": "mse_cdp",
+   "object": "common_facility_centers",
+   "detail": {
+    "percentage": "90%",
+    "maximum_project_cost": "20000000"
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "GoI Assistance: upto 90% of the maximum Project cost of Rs. 20 crore",
+   "confidence": 1
+  },
+  {
+   "claim": "The Government of India provides up to 80% of the maximum Project cost of Rs. 15 crore for Infrastructure Development in new / existing industrial (multi-product) areas / estates / Flatted Factory Complex under the Micro & Small Enterprises Cluster Development Programme (MSE – CDP).",
+   "kind": "FEE",
+   "subject": "mse_cdp",
+   "object": "infrastructure_development",
+   "detail": {
+    "percentage": "80%",
+    "maximum_project_cost": "15000000"
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "GoI Assistance: upto 80% of the maximum Project cost of Rs. 15 crore",
+   "confidence": 1
+  },
+  {
+   "claim": "The Government of India provides up to 80% of the maximum Project cost of Rs. 10 crore for Marketing Hubs / Exhibition Centres by Associations under the Micro & Small Enterprises Cluster Development Programme (MSE – CDP).",
+   "kind": "FEE",
+   "subject": "mse_cdp",
+   "object": "marketing_hubs",
+   "detail": {
+    "percentage": "80%",
+    "maximum_project_cost": "10000000"
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "GoI Assistance: upto 80% of the maximum Project cost of Rs. 10 crore",
+   "confidence": 1
+  },
+  {
+   "claim": "The Government of India provides Rs.2.00 lakh for each activity, with a maximum of Rs.10 lakh per CFC for Thematic Interventions under the Micro & Small Enterprises Cluster Development Programme (MSE – CDP).",
+   "kind": "FEE",
+   "subject": "mse_cdp",
+   "object": "thematic_interventions",
+   "detail": {
+    "per_activity": "200000",
+    "maximum_per_cfc": "1000000"
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "GoI Assistance: Rs.2.00 lakh for each activity, maximum Rs.10 lakh per CFC",
+   "confidence": 1
+  },
+  {
+   "claim": "The Government of India provides up to Rs.5.00 crore for the State Innovative Cluster Development Programme under the Micro & Small Enterprises Cluster Development Programme (MSE – CDP).",
+   "kind": "FEE",
+   "subject": "mse_cdp",
+   "object": "state_innovative_cdp",
+   "detail": {
+    "maximum_assistance": "5000000"
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "GoI Assistance: GoI fund would be limited to State Government share or Rs.5.00 crore whichever is lower",
+   "confidence": 1
+  },
+  {
+   "claim": "The Government of India provides up to Rs. 2.5 crore for clusters with up to 500 artisans and up to Rs. 5 crore for clusters with more than 500 artisans under the Scheme of Fund for Regeneration of Traditional Industries (SFURTI).",
+   "kind": "FEE",
+   "subject": "sfurti_scheme",
+   "object": "artisan_clusters",
+   "detail": {
+    "up_to_500_artisans": "2500000",
+    "more_than_500_artisans": "5000000"
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "Government of India support up to Rs. 2.5 cr. up to 500 artisans and Rs. 5 cr. for more than 500 artisans",
+   "confidence": 1
+  },
+  {
+   "claim": "The Government of India provides 90% (95% in NER, J&K and Hill Areas) of the Hard Intervention cost and the entire cost of Soft Intervention under the Scheme of Fund for Regeneration of Traditional Industries (SFURTI).",
+   "kind": "FEE",
+   "subject": "sfurti_scheme",
+   "object": "intervention_costs",
+   "detail": {
+    "hard_intervention": "90%",
+    "hard_intervention_ner_jk_hill": "95%",
+    "soft_intervention": "100%"
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "Government of India gives 90% (95% in NER, J&K and Hill Areas) of Hard Intervention cost and entire cost of Soft Intervention",
+   "confidence": 1
+  },
+  {
+   "claim": "The Coir Industry Technology Upgradation Scheme provides financial assistance of 25% of the total cost of admissible items of plant and machinery.",
+   "kind": "FEE",
+   "subject": "coir_industry_technology_upgradation_scheme",
+   "object": "financial_assistance",
+   "detail": {
+    "amount": 25,
+    "currency": "%"
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "The financial assistance provided under this scheme will be set at 25% of the total cost of admissible items of ‘plant and machinery’ that are procured by the Coir units.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The upper ceiling of financial assistance under the Coir Industry Technology Upgradation Scheme is Rs.2.50 crores.",
+   "kind": "FEE",
+   "subject": "coir_industry_technology_upgradation_scheme",
+   "object": "upper_ceiling",
+   "detail": {
+    "amount": 25000000,
+    "currency": "INR"
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "Upper ceiling of Financial assistance will be Rs.2.50 crores.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "To apply for the Coir Industry Technology Upgradation Scheme, entrepreneurs must be registered with the Coir Board under the Coir Industry (Registration) Rules 2008 and have an Udyog Aadhar.",
+   "kind": "ELIGIBILITY",
+   "subject": "coir_industry_technology_upgradation_scheme",
+   "object": "registration_requirements",
+   "detail": {
+    "registration": "Coir Board under Coir Industry (Registration) Rules 2008",
+    "udyog_aadhar": true
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "All coir production or processing units that are registered with the ‘Coir Board’ under ‘Coir Industry’ (Registration) Rules 2008 and are having ‘Udyog Aadhar’ are eligible to apply for the financial assistance available under this scheme for modernization.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Skill Upgradation and Mahila Coir Yojana provides training to personnel in the cadres of supervisors, instructors, and artisans in the coir industry.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "skill_upgradation_and_mahila_coir_yojana",
+   "object": "training_offered",
+   "detail": {
+    "training_types": [
+     "supervisors",
+     "instructors",
+     "artisans"
+    ]
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "Training to personnel in the cadres of supervisors/Instructors/ artisans in coir industry.",
+   "confidence": 0.8
+  },
+  {
+   "claim": "The Export Market Promotion scheme allows individual entrepreneurs to participate in international exhibitions as per an approved calendar.",
+   "kind": "ACTION",
+   "subject": "export_market_promotion_scheme",
+   "object": "participation_in_international_exhibitions",
+   "detail": {
+    "calendar": "approved"
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "Individual entrepreneurs can avail of EMDA scheme for participating in International exhibitions as per approved calendar.",
+   "confidence": 0.8
+  },
+  {
+   "claim": "The Domestic Market Promotion scheme allows individual suppliers of coir products to register as consigners for selling coir produce through Coir Board showrooms across the country.",
+   "kind": "ACTION",
+   "subject": "domestic_market_promotion_scheme",
+   "object": "registration_as_consigner",
+   "detail": {
+    "product_type": "coir",
+    "location": "Coir Board showrooms"
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "Any individual supplier of coir products can register to become consigner for selling coir produce through Coir Board showrooms across the country.",
+   "confidence": 0.8
+  },
+  {
+   "claim": "The Rojgar Yukt Gaon scheme is applicable for new entrepreneurs or corporate entities with a partnership with Khadi Institutions (KIs).",
+   "kind": "ELIGIBILITY",
+   "subject": "rojgar_yukt_gaon_scheme",
+   "object": "applicable_for",
+   "detail": {
+    "applicable_for": [
+     "new entrepreneur",
+     "corporate entity",
+     "partnership with KIs"
+    ]
+   },
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "Scheme applicable for New Entrepreneur or Corporate entity with partnership with KIs",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The National SC-ST Hub provides a Special Credit Linked Capital Subsidy Scheme.",
+   "kind": "ACTION",
+   "subject": "national_sc_st_hub",
+   "object": "special_credit_linked_capital_subsidy_scheme",
+   "detail": {},
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "Special Credit Linked Capital Subsidy Scheme",
    "confidence": 0.95
   },
   {
-   "claim": "The Government encourages PMEGP units to adopt the Udyog Aadhar Memorandum (UAM) to register online.",
+   "claim": "The National SC-ST Hub provides a Special Marketing Assistance Scheme.",
    "kind": "ACTION",
-   "subject": "pmegp_scheme",
-   "object": "udyog_aadhar_memorandum",
+   "subject": "national_sc_st_hub",
+   "object": "special_marketing_assistance_scheme",
    "detail": {},
    "sourceId": "src:10b8e460fca1",
-   "evidence": "To increase the registration of MSMEs in the country, the Government has undertaken measures that the PMEGP units can adopt the Udyog Aadhar Memorandum (UAM) to register online.",
+   "evidence": "Special Marketing Assistance Scheme",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The National SC-ST Hub provides a Single Point Registration Scheme.",
+   "kind": "ACTION",
+   "subject": "national_sc_st_hub",
+   "object": "single_point_registration_scheme",
+   "detail": {},
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "Single Point Registration Scheme",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The National SC-ST Hub provides a Bank Loan Processing Reimbursement Scheme.",
+   "kind": "ACTION",
+   "subject": "national_sc_st_hub",
+   "object": "bank_loan_processing_reimbursement_scheme",
+   "detail": {},
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "Bank Loan Processing Reimbursement Scheme",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The National SC-ST Hub provides a Bank Guarantee Charges Reimbursement Scheme.",
+   "kind": "ACTION",
+   "subject": "national_sc_st_hub",
+   "object": "bank_guarantee_charges_reimbursement_scheme",
+   "detail": {},
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "Bank Guarantee Charges Reimbursement Scheme",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The National SC-ST Hub provides a Testing Fee Reimbursement Scheme.",
+   "kind": "ACTION",
+   "subject": "national_sc_st_hub",
+   "object": "testing_fee_reimbursement_scheme",
+   "detail": {},
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "Testing Fee Reimbursement Scheme",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The National SC-ST Hub provides an Export Promotion Council Membership Reimbursement Scheme.",
+   "kind": "ACTION",
+   "subject": "national_sc_st_hub",
+   "object": "export_promotion_council_membership_reimbursement_scheme",
+   "detail": {},
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "Export Promotion Council Membership Reimbursement Scheme",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The National SC-ST Hub provides a Top 50 NIRF Rated Management Institution's Short-Term Training Program Fee Reimbursement Scheme.",
+   "kind": "ACTION",
+   "subject": "national_sc_st_hub",
+   "object": "top_50_nirf_rated_management_institution_short_term_training",
+   "detail": {},
+   "sourceId": "src:10b8e460fca1",
+   "evidence": "Top 50 NIRF Rated Management Institution's Short-Term Training Program Fee Reimbursement Scheme",
    "confidence": 0.95
   },
   {

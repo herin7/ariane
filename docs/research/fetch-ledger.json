@@ -1,7 +1,7 @@
 {
   "generatedBy": "scripts/fetch-ledger.mjs",
-  "urls": 771,
-  "cached": 767,
+  "urls": 888,
+  "cached": 884,
   "missing": 0,
   "noCacheFile": 0,
   "fetchFailed": 4,
@@ -42,7 +42,7 @@
     ".firecrawl/sarathi-ll-map.json",
     ".firecrawl/sarathi-map.json"
   ],
-  "uncitedIngestPages": 1721,
+  "uncitedIngestPages": 1890,
   "entries": [
     {
       "url": "http://ggrc.co.in/webui/Content.aspx",
@@ -3591,6 +3591,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://dcoffice.gujarat.gov.in/gu/Gujarat-Panchayat-Service-Selection-Board",
+      "title": "Development Commissioner",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "district-certificates"
+      ],
+      "cacheFile": ".ingest/pages/1b74c860ba97790bcd23ab2ddd4ebebec55db5cc.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 173096,
+      "sha256": "dafaff9d5c02f1a5b4cfe5b6ac3d557020644f05b2268f3c8228b69f75b63add",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://dcoffice.gujarat.gov.in/gu/Sardar-Awas-Yojana",
       "title": "Development Commissioner",
       "sourceType": "SERVICE_PAGE",
@@ -3889,12 +3903,12 @@
     },
     {
       "url": "https://directorit.gujarat.gov.in/Content/Scheme_for_Startup_Policy.pdf",
-      "title": "Scheme_for_Startup_Policy (page 6 of 29)",
+      "title": "bcb1c16b-c796-414c-995d-015a9a6b209a_1 (page 6 of 29)",
       "sourceType": "SERVICE_PAGE",
       "journeys": [
         "startup"
       ],
-      "cacheFile": ".ingest/pages/23196e8aed3582af2b6380f3c2cf482095715860.md",
+      "cacheFile": ".ingest/pages/6d45f97167320bd7a028b31df0f9cf5cd9f27f7c.md",
       "status": "CACHED",
       "quoted": true,
       "bytes": 2493,
@@ -4067,20 +4081,6 @@
       "quoted": true,
       "bytes": 3151,
       "sha256": "afd3146995e6acbdba2d192649fdeb23d79d32006f79d80424528978c1693e21",
-      "retrievedAt": "2026-08-23"
-    },
-    {
-      "url": "https://dppf.gujarat.gov.in/",
-      "title": "Directorate of Pension and Provident Fund",
-      "sourceType": "PORTAL_HOME",
-      "journeys": [
-        "welfare-schemes"
-      ],
-      "cacheFile": ".ingest/pages/6ccdb6c2aa5d260053bb604398d6be39a29bf0a1.md",
-      "status": "CACHED",
-      "quoted": true,
-      "bytes": 6243,
-      "sha256": "3045f194d6985a9331a9a16de2e995a26fed0d127c14f075970d942dfd72b8ca",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -4363,20 +4363,6 @@
       "bytes": 981,
       "sha256": "3a5e0fde110b5c440f5c73cbedafde45c7ef4644afb10c8bb09b4d1cef6702ff",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
-    },
-    {
-      "url": "https://esamajkalyan.gujarat.gov.in/index.aspx",
-      "title": "SJED",
-      "sourceType": "PORTAL_HOME",
-      "journeys": [
-        "welfare-schemes"
-      ],
-      "cacheFile": ".ingest/pages/76b774b768bd52ce208174f94eb5f8486bfaefb2.md",
-      "status": "CACHED",
-      "quoted": true,
-      "bytes": 49074,
-      "sha256": "1afe023bddcb5b5726bb42a895d56c90b22e80261c176e10f86f57ab9889c053",
-      "retrievedAt": "2026-08-23"
     },
     {
       "url": "https://fcsca.gujarat.gov.in/en/aay-scheme-add",
@@ -4859,6 +4845,34 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://garvi.gujarat.gov.in/FrmRegistrationfeeCalculation_New.aspx",
+      "title": "Garvi",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "property-and-land"
+      ],
+      "cacheFile": ".ingest/pages/8dfcd1797be479ad0d2480d8c1f26052bb89242c.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 19785,
+      "sha256": "8ae89232eb03a522ce502af2a62ae2fcb9970c157f0e4d5630ce644d179cb77f",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://garvi.gujarat.gov.in/FrmStampDutyCalculation_New.aspx",
+      "title": "Garvi",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "property-and-land"
+      ],
+      "cacheFile": ".ingest/pages/f5495cb6866cec92914ccdabbc8826099d924a59.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 21104,
+      "sha256": "ab94f964c0f3d7477361885e6181511ffeeec4ad75b620cb624bec64ff65655f",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://garvi.gujarat.gov.in/FrmViewAppointment_New.aspx",
       "title": "Garvi",
       "sourceType": "SERVICE_PAGE",
@@ -5207,20 +5221,6 @@
       "quoted": true,
       "bytes": 16311,
       "sha256": "4bded46ba7562307871fb7eb6b556a377056602a4cf06fb70c931f027790d688",
-      "retrievedAt": "2026-08-23"
-    },
-    {
-      "url": "https://girlion.gujarat.gov.in/AboutGirNationalPark.aspx/1000",
-      "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
-      "sourceType": "SERVICE_PAGE",
-      "journeys": [
-        "permits-and-licences"
-      ],
-      "cacheFile": ".ingest/pages/1e60c00408103a90c79d299115308f1d89e9c727.md",
-      "status": "CACHED",
-      "quoted": true,
-      "bytes": 16311,
-      "sha256": "7bc1dd56d09325282aeffe6ce8e49710348b602a177e4a83cca2b92ea480a2cb",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -6304,6 +6304,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://gtkdconline.gujarat.gov.in/Schemes/Parishisht",
+      "title": "Parishisht - Gujarat Thakor and Koli Vikas Nigam",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/972013d2b24d5d75b09ad3fcca70409fc206070a.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 35701,
+      "sha256": "ce461d3b518819cdf352004e55d9b947583805fe206ea026a8611bbe48bdc5fe",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://gueedc.gujarat.gov.in/organisation-structure.html",
       "title": "GUEEDC",
       "sourceType": "SERVICE_PAGE",
@@ -6979,6 +6993,20 @@
       "quoted": true,
       "bytes": 17991,
       "sha256": "b854a7e9761bcdc631122a7fd2cb382564d4b68e01a79ea57a3e61794aa04157",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://jamnagardp.gujarat.gov.in/gu/Irrigation-Scheme-Information",
+      "title": "સિંચાઈની યોજનાઓ | જામનગર જિલ્લા પંચાયત",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/ba23def55aea55dddaac57155db22bb0da85315e.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 74102,
+      "sha256": "724363cfcabbca4efc6331a64e380c6c9c2918e4e8f24aa40dd0e725550577e0",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -8318,20 +8346,6 @@
       "retrievedAt": "2026-08-23"
     },
     {
-      "url": "https://panchayat.gujarat.gov.in/panchayat/documents/Pfrda-26032014.pdf",
-      "title": "Pfrda-26032014 (page 4 of 36)",
-      "sourceType": "SERVICE_PAGE",
-      "journeys": [
-        "welfare-schemes"
-      ],
-      "cacheFile": ".ingest/pages/4f5a99ffb8e2c04f5e503d87d03b90b243450795.md",
-      "status": "CACHED",
-      "quoted": true,
-      "bytes": 469,
-      "sha256": "037a7260698d04efb612b4fb709ba32e590684db84bb8f41d45684b2df428fd5",
-      "retrievedAt": "2026-08-23"
-    },
-    {
       "url": "https://panchmahal.gujarat.gov.in/",
       "title": "Collectorate - District Panchmahal",
       "sourceType": "PORTAL_HOME",
@@ -8782,6 +8796,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://rajkotdp.gujarat.gov.in/gu/Pradhan-Mantri-Ayushman-Yojana",
+      "title": "પ્રધાનમંત્રી આયુશમાન યોજના | રાજકોટ જિલ્લા પંચાયત",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/f59ce3461b65f19bf751cc3e01e318c2e0743ea7.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 68663,
+      "sha256": "659090a550c9c966a7390b7965e9d93bbc0c9d998795db086ba08b2ca2a11f37",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://rajkotdp.gujarat.gov.in/gu/Sardar-Patel-Awas-Yojana",
       "title": "સરદાર આવાસ યોજના | રાજકોટ જિલ્લા પંચાયત",
       "sourceType": "SERVICE_PAGE",
@@ -8965,20 +8993,6 @@
       "retrievedAt": "2026-08-23"
     },
     {
-      "url": "https://sanman.gujarat.gov.in/",
-      "title": "Home Page - LabourCommissioner",
-      "sourceType": "PORTAL_HOME",
-      "journeys": [
-        "welfare-schemes"
-      ],
-      "cacheFile": ".ingest/pages/efe6f253cc90da021dc0548e5a64910d829a8ae1.md",
-      "status": "CACHED",
-      "quoted": true,
-      "bytes": 61850,
-      "sha256": "2f4f54cd9ea40876cd9986dc9b3ada2c3b8696ff0a5ef7b00e81f9b2ae3a3d3c",
-      "retrievedAt": "2026-08-23"
-    },
-    {
       "url": "https://sanman.gujarat.gov.in/EmployeeHome/ViewApplicantionStatus",
       "title": "Registered Applicant Details - LabourCommissioner",
       "sourceType": "OFFICE_DIRECTORY",
@@ -8993,6 +9007,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://sanman.gujarat.gov.in/GLWBPravasanYojana/AppPersonalDetails",
+      "title": "શ્રમયોગી પ્રવાસન યોજના - LabourCommissioner",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/d30e56845456691952887c4424d3a9e8a8397b2f.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 74033,
+      "sha256": "af2492847e773b78bb48a88b7c72f0594346834a842f64d768b055ba25a9436f",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://sanman.gujarat.gov.in/Home/ContactUs",
       "title": "Contact Us - LabourCommissioner",
       "sourceType": "OFFICE_DIRECTORY",
@@ -9004,6 +9032,34 @@
       "quoted": true,
       "bytes": 62860,
       "sha256": "d58a1a48bddd4dbbe50df137eed8d9c0867cda720d6c34294855f05f93dcbd41",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://sanman.gujarat.gov.in/Home/GLWBScheme",
+      "title": "GLWBSchemes - LabourCommissioner",
+      "sourceType": "PORTAL_HOME",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/eeeb87f07722ecf28b58c3bb6617a70e6cb19060.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 62761,
+      "sha256": "71e19873893f53a2f3ac5ade19a7f7458a810a53f7d471a40413afded1a497a6",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://sanman.gujarat.gov.in/Home/GRWWBScheme",
+      "title": "GRWWBScheme - LabourCommissioner",
+      "sourceType": "PORTAL_HOME",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/20228be5a1c8b14df97bd853dab6edf8758e7151.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 61666,
+      "sha256": "497979a68956fffc7ae05425cccc1d004a70bbcf1a378c434b9e227137c68e2d",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -9723,6 +9779,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://vadodaradp.gujarat.gov.in/gu/E-Gram-Vishvagram-Yojana",
+      "title": "ઇ-ગ્રામ વિશ્‍વગ્રામ યોજના | વડોદરા જિલ્લા પંચાયત",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "property-and-land"
+      ],
+      "cacheFile": ".ingest/pages/cba67fd37013bdbcadaf6bdfd590140e65150a64.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 37639,
+      "sha256": "dfddc841a5e80825aa9af7702a2cd87160358358de2bd38e0328b28c9abecadb",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://vadodaradp.gujarat.gov.in/gu/Family-Welfare-Scheme",
       "title": "કુટુંબ કલ્‍યાણની યોજનાઓ | વડોદરા જિલ્લા પંચાયત",
       "sourceType": "SERVICE_PAGE",
@@ -10158,6 +10228,34 @@
       "retrievedAt": "2026-08-23T00:00:00.000Z"
     },
     {
+      "url": "https://web.umang.gov.in/landing/department/atal-pension-yojana.html",
+      "title": "Atal Pension Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/79db11de44142adbcfb34f3275f097313f320d90.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 9660,
+      "sha256": "17d21ff63919495ab42966fa30945db388528d5ac9649488c6202bd64d313d3c",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/department/dr-ambedkar-central-sector-scheme-of-interest-subsidy.html",
+      "title": "Dr. Ambedkar Central Sector Scheme of Interest Subsidy",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/2fd91c2abad37cfc837f0da20429c2b38c822c6f.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 7801,
+      "sha256": "8bc96e463596dde34cf28c94aa5df459722893350c76ab2f929ccd9c482ab5f6",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://web.umang.gov.in/landing/department/epfo.html",
       "title": "EPFO - UMANG (Ministry of Electronics and Information Technology)",
       "sourceType": "MOBILE_APP_INFO",
@@ -10170,6 +10268,832 @@
       "bytes": 13066,
       "sha256": "7db85b5cee5b4506be49c51520eae98ff2326a887bd5c610bf96478e9c965dc3",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/department/national-pension-scheme-for-traders-and-self-employed-persons.html",
+      "title": "National Pension Scheme for Traders and Self-Employed Persons",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/fdc4395567ec0c84c0e25719740acd73278bcb89.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 8158,
+      "sha256": "9b13df439de313a79a55a06bbaf923f36845c057cd2e8f72208f8136a7e95110",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/department/women-scientist-scheme.html",
+      "title": "Women Scientist Scheme",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/509db1f101dfaa9c012b0902e5825c7396eb46bd.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 8217,
+      "sha256": "41eb222d043c24518237735beda48b68f78f7ee98993e6aa9b80ec1a230f0b83",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/40-subsidy-on-hank-yarn-dyes-chemicals-scheme_40shydcs.html",
+      "title": "40% Subsidy On Hank Yarn, Dyes & Chemicals Scheme",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/528f02f00ef9cae081295e78a7456f5f4ea5dac6.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15557,
+      "sha256": "d56e8e99b401a58f6597891d096c6c04e58c5351ee5b572ad3e304f0661afb7b",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/aam-aadmi-bima-yojana_aaby.html",
+      "title": "Aam Aadmi Bima Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/9b1c2b8b5b69fd21bfbcd99d82ed952e8a03f44c.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14195,
+      "sha256": "df3ca7e331419ee8bed8a585f58a3e89726c6cc8c7e7e5f1dc722534cd5aaf29",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/access-to-knowledge-for-technology-development-and-dissemination-a2k-studies_a2ks.html",
+      "title": "Access To Knowledge For Technology Development And Dissemination (A2K+) - Studies",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/89924ea6c1566faf356db24804ae1299c0b3eac4.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16795,
+      "sha256": "385ce4df9f2a08e55192bb712a249411dcfc4739c60fea0aa925034c7bf17844",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/affdffinancial-assistance-for-procuring-mobility-equipment-to-disabled-exservicemenall-ranks_affdf.html",
+      "title": "Financial Assistance For Procuring Mobility Equipment To Disabled Ex-Servicemen (All Ranks)",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/01a49db325ce84518f2c268d384d5f4d5add67a8.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14794,
+      "sha256": "74d8c0d01133267fa5d8527edabd315c6637a715f82b7eb05e67b456adf323c9",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/agnipath-yojana_ay.html",
+      "title": "Agnipath Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/c48cfe013c8141ed0d5db2832d1c75af0ecdaf8f.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 17893,
+      "sha256": "ad68ed10a2233faca33a6f14d328c06abfdc55baf9a4c37ab1b0d37ea98ef2aa",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/agr-2-farm-mechanization-scheme-of-farmers-other-than-scst_agr2fmsfotscst.html",
+      "title": "AGR 2 (Farm Mechanization) Scheme Of Farmers Other Than SC/ST",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/069ffe0326d46b451c9214fde2ca8f5e4e9567c5.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14843,
+      "sha256": "72d17adeccdaa622c49a6974468a709dcd945c4b55791fd1a4a6291e420da1f7",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/agr-3-farm-mechanization-scheme-for-st-farmers_agr3fmsstf.html",
+      "title": "AGR 3 (Farm Mechanization) Scheme For ST Farmers",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/59eb3cf587ca146093ba92cc4aaf3522fb8ca580.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15787,
+      "sha256": "73c03be2ea8d11d365f8dee060fc613e2526d4395a1af5739dd02e91ef74d17b",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/agr-4-farm-mechanization-scheme-for-sc-farmers_agr4fmsscf.html",
+      "title": "AGR 4 (Farm Mechanization) Scheme For SC Farmers",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/564cadd440d84eaaca7a9e8b6085457943b95792.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14725,
+      "sha256": "196698bff548123fa0416a261c7d2c82648fe53603e1b50d8c48fa7b2e945cd0",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/agr50-schemeassistance-to-purchase-tractors_agr50s-apt.html",
+      "title": "AGR-50 Scheme-Assistance To Purchase Tractors",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/522145153f7742768255a3027b86a810904e443d.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14555,
+      "sha256": "ad7d3c74edc5c67745aa3967c6e33b0ecb81b9070bb627c2d5b76adbe45f7355",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/agriclinics-and-agribusiness-centres-scheme_acandabc.html",
+      "title": "Agri-Clinics And Agri-Business Centres Scheme",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/93cb62034fb535607f5d6fcf7b17be92e2e1b331.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15856,
+      "sha256": "e8dbf97d3722ff09ee1bc6964a5b9b9e2fe0d2cbbc5828c918b51d201527bac6",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/agricultural-extension_ae.html",
+      "title": "Agricultural Extension",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/cfc8500f4aa6bf8773def6de5c0edb5b3f758a58.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 20941,
+      "sha256": "d1244f4a56a24b9214263d420014ae1e054b5976c664ad8d3919048c42ca6355",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/agricultural-skill-development-training-programme-for-women-farmers-and-farmers_asdtpwff.html",
+      "title": "Agricultural Skill Development Training Programme For Women Farmers And Farmers",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/17f0988e531ef8ae970777ae8bc82b7ef47bad4a.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 12524,
+      "sha256": "e9c6db2710ea2e84489c2f679533ae609011c4d7ac45339dafacafc6b534fe20",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/aicte-distinguished-chair-professor-fellowship_dcpf.html",
+      "title": "AICTE - Distinguished Chair Professor Fellowship",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/e130c7fb2e151115579f12c5cde0c6f8523181d0.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 12391,
+      "sha256": "70e885baa5d1b4f3a6256e8bbeaa8671e0dced33919ba03a8e45e9fd97914f13",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/aicte-grant-for-augmenting-infrastructure-in-north-eastern-region_a-gainer.html",
+      "title": "AICTE - Grant For Augmenting Infrastructure In North Eastern Region",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/d1c9ad61fd1b7491c9cbd6a36ad54bc94c37489a.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 17443,
+      "sha256": "2e5f1b8b138d8a4cb919526a1b3dd884de53899a72bb813202fbe0dce4d4ae0b",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/aicte-mitacs-globalink-research-internship-gri-scheme_am-gris.html",
+      "title": "AICTE – Mitacs Globalink Research Internship (GRI) Scheme",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "startup"
+      ],
+      "cacheFile": ".ingest/pages/27aabf54d894afcc87a4b2abc8e02abee0b5205a.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 11794,
+      "sha256": "7528c10c73dcf0a845fab431b922cdebd10c0b8fc5cef97e169adc6a1ed95d56",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/aicte-saksham-scholarship-scheme-for-speciallyabled-student-degree_sak-deg.html",
+      "title": "AICTE – Saksham Scholarship Scheme For Specially-Abled Student (Degree)",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/02a1a7f128e6b66b0c24d48b583d1dbd21190a9a.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15933,
+      "sha256": "20e5e8ab7516693ad6a25662f3fd3bac2a8edae2e619e9a549bd84d48a090514",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/aicte-saksham-scholarship-scheme-for-speciallyabled-student-diploma_sak-dip.html",
+      "title": "AICTE – Saksham Scholarship Scheme For Specially-Abled Student (Diploma)",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/f7a5dd63dd15b84ef69a2d130fb5cbcda2ac90c4.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16001,
+      "sha256": "b306eab1f0ef6d0863d05a8f2e0da20e897704609fa91a77eadc9866b2cdc6b3",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/aicte-scheme-for-promoting-interests-creativity-and-ethics-among-students_aicte-spices.html",
+      "title": "AICTE - Scheme For Promoting Interests, Creativity And Ethics Among Students",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/f40df4a1aec9c7c99aedcfd013698ca5705cd6b1.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 29480,
+      "sha256": "5676db214d21dece55495db469a8038cea56d6fd722c1c2e7b8f66989de161ab",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/aicte-swanath-scholarship-scheme-for-students_aicte-ssss.html",
+      "title": "AICTE-Swanath Scholarship Scheme For Students",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/a0feb2183326af288062da374dd0335e1a6f3ae2.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 17167,
+      "sha256": "0f8cfb5f1433346b292bf40e8d0c71eeacec92047f34cca537a2f2ded2aa194e",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/aicteinae-travel-grant-scheme-for-engineering-students-from-aicte-approved-engineering-collegeinstitution_ai-tgses.html",
+      "title": "AICTE-INAE Travel Grant Scheme For Engineering Students From AICTE Approved Engineering College/Institution",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/a4ac24b5aea1ca0fa770a791d7df0a0dea11bba6.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 12886,
+      "sha256": "0b72823ba1ccd77e24c788caef3fafa857edf82edff21732a5cb035bff92ba77",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/antayoshti-sahayata-yojana_asy.html",
+      "title": "Antayoshti Sahayata Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/b6da9cc02b795773873200afe06b8fb914bc97a6.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16313,
+      "sha256": "42925cf933621484c08f24201ab3c0eeb3dd724e9f823c89921e078be1a3b6a4",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/aponar-apon-ghar_aag.html",
+      "title": "Aponar Apon Ghar",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/2efbc3af5190cf71ffd340f3fbf44739051606b6.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 13520,
+      "sha256": "50df862030da5c0fb046cb4b75706e6b7e0ad9545a2416fb04327abf4bbe3977",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/atal-mission-for-rejuvenation-and-urban-transformation_amrut.html",
+      "title": "Atal Mission For Rejuvenation And Urban Transformation",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/07e101446591056290b74ee014fe7ae24e654ef6.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16297,
+      "sha256": "a70e1c888d7a199bc85b297278b0fbfba0022bc318d9bbb5e6221223e079a012",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/atal-pension-yojana_apy.html",
+      "title": "Atal Pension Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/04d6f9c94fb9aee26094c9932eab53ab8c47520f.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16174,
+      "sha256": "b399e9b3ccf085058a68ac781575c112a28012f6a747cc0281f7054915ffd710",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/atal-sneh-yojana_asyg.html",
+      "title": "Atal Sneh Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/3a2398867f2a4279712ff47b2aecce25014c0503.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 13096,
+      "sha256": "949d9db57367769ec32c982a3637de3f05aec3058137e910118d2c690d5953d3",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/award-of-scholarships-to-young-artists-in-different-cultural-fields_asyadcf.html",
+      "title": "Award Of Scholarships To Young Artists In Different Cultural Fields",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/85e0b86793b7c1db66370414f17f57f0ad9421fa.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16780,
+      "sha256": "99e45da7ecf0bad7614b2ba2ecb6715a32859f994302c5ae98cdcb11a7024344",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/bal-sakha-yojana-scheme_bsy.html",
+      "title": "Bal Sakha Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/ea8a37fe730f6c6fa9bb0a3e23e367dacd14b88e.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 13413,
+      "sha256": "da97db6146ddf7117c06aff3a07ef453125eea0eccd1c21d53941ef3d3fa0b60",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/bhagwan-budhdh-scholarship_bbs.html",
+      "title": "Bhagwan Budhdh Scholarship",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/c00aef0cc9527e0714f65d0046125eaae7217236.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 11610,
+      "sha256": "d63540d526986e5149a8c01ad4370aba86c0b451ea1e0fdfd2e3c87a53126521",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/bihar-student-credit-card-scheme_bsccs.html",
+      "title": "Bihar Student Credit Card Scheme",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/f981b318d358be2def3774d03c1f8173c9c47955.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15977,
+      "sha256": "d29eb96de8c8ae21df15d0970a598a28c4204dd5f58133f7f459d7f7d589de2e",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/biju-yuva-sashaktikaran-yojana_bysy.html",
+      "title": "Biju Yuva Sashaktikaran Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/58b9593a2ab62eb8df5f7b12d11157e6360d802a.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 13070,
+      "sha256": "3c1e570996b0c251a5c9156d0384b6ceb4c4972f5ee9d998f442aa0bdb9f1722",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/biotechnology-career-advancement-and-reorientation-biocare-programme-for-women-scientists_biocare.html",
+      "title": "Biotechnology Career Advancement And Re-orientation (BioCARe) Programme For Women Scientists",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/85b8b222d8f4e9aaec0610f2367e2878f94aa073.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 21062,
+      "sha256": "3f252a4a7012d1e599079f6e4f41291a8570149c384012888492dd0db22dc5f9",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/bsr-scheme_bsrs.html",
+      "title": "UGC-BSR Faculty Fellowship Scheme",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/ff35e576bcf2054514277176bcdaeeec356019a4.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15317,
+      "sha256": "a9cb512403099d229f547f410dd213398a4b482cfc39552e811906e40c341d1e",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/bus-traveling-facility-for-visually-impairedbus-concession_btfvibc.html",
+      "title": "Bus Traveling Facility For Visually Impaired/Bus Concession",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/60e6352e1c46f5ceec5aa0cbf3add932908d4777.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 10871,
+      "sha256": "6fc0c3345841a87bcea4bb7d8dd2023cffd41765beba618f8ccb2f80eb84321c",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/cbse-merit-scholarship-scheme-for-single-girl-child_msssgc.html",
+      "title": "CBSE Merit Scholarship Scheme For Single Girl Child",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/e21dea8d737816813bc496f818a950c292230a1d.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14209,
+      "sha256": "7d7e81e34d8029b5a0e43eaf9459e6aa2bfacf038e54f3ed32ff994fee7341fe",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/central-sector-scheme-of-scholarship-for-college-and-university-students_csss-cus.html",
+      "title": "Pradhan Mantri Uchchatar Shiksha Protsahan (PM-USP) Central Sector Scheme of Scholarship for College and University students",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/9422818574f620a33e94040edade04de0116c9df.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 21351,
+      "sha256": "a406486c9019d4f685e479006f955c0d5f6d692ebe3828dcf8159dc7e87c4322",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/centrallysponsored-scheme-of-prematric-scholarship-for-scheduled-caste-students-studying-in-classes-9th-10th_pre-sc.html",
+      "title": "Centrally-Sponsored Scheme Of Pre-Matric Scholarship For Scheduled Caste Students Studying In Classes 9th & 10th",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/0b51db55efcc89664826e3052a5fc3d651f4c91e.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 13555,
+      "sha256": "55c44e56b0baf3cbc94bdd317bf308b4f758a8dceacb0522c8135ba265a1f47e",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/centralsector-scheme-of-national-overseas-scholarship-for-st-students_css-nos-st.html",
+      "title": "National Overseas Scholarship For Scheduled Tribes (ST) Students",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/c9e596447bbf08debaa254e3520276c02a7d4649.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 27379,
+      "sha256": "0ed0d85e1dc65bd88cbeba6748df2af00aea6cb7359352de58113a4b5f433a6f",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/chief-minister-floriculture-mission_cmfm.html",
+      "title": "Chief Minister Floriculture Mission",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/9170b4065db26cc8184cbe7d3890847ca56b8a10.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 13200,
+      "sha256": "2e51c950ff790b9ec1e48c325dba841894a5bda7c0c13a6f00048c5e70bc5d02",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/chief-ministergi-artistesinggi-tengbang-cmat-artistes-pension_cmat-ap.html",
+      "title": "Chief Ministergi Artistesinggi Tengbang (CMAT) – Artiste’s Pension",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/ddf80707746615729aa15cd8b24ad1c6b8a72185.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14045,
+      "sha256": "4a068d6d8730511471e0aa16a619488fe6a155a901d63c4943380ec0fbff9297",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/chief-ministergi-artistesinggi-tengbang-cmat-scheme-for-award-to-distinguished-artistes_cmat-sada.html",
+      "title": "Chief Ministergi Artistesinggi Tengbang (CMAT) - Scheme For Award To Distinguished Artistes",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/f88ce9e710fdc4ce523826cce984d1df51978cde.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14455,
+      "sha256": "fc0cf91c20341df77280f23afda19c150c23c0d044162970bd45db26a83ce298",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/chief-ministergi-artistesinggi-tengbang-cmat-scheme-of-festival-assistance-for-participating-in-international-national-festival_cmst-sfapinf.html",
+      "title": "Chief Ministergi Artistesinggi Tengbang (CMAT) – Scheme Of Festival Assistance For Participating In International & National Festival",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/93591cd07a20b52798001bd2df9b557f978b8bf5.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15806,
+      "sha256": "680d999b51321e99bf6c6f37801a3e71392fa9b270c76475e530ca470e260a1e",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/chief-ministergi-artistesinggi-tengbang-cmat-support-for-purchase-of-instruments-equipment_cmat-spie.html",
+      "title": "Chief Ministergi Artistesinggi Tengbang (CMAT): Support For Purchase Of Instruments / Equipment",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/daa7621c09880e32499b2a21154e1cabe24b2276.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14472,
+      "sha256": "1ac6a19827802e4f40eff9f651adf59f1b7460db60e367535a5eee4f1b7379d7",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/chief-ministergi-artistessingi-tengbang-assistance-to-the-cultural-group-for-training-with-new-production_cmst-acgtnp.html",
+      "title": "Chief Ministergi Artistessingi Tengbang - Assistance To The Cultural Group For Training With New Production",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/0014d85fe32c1f6c66a25419916f43f0f3c93b14.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16942,
+      "sha256": "2374670be4ddb3d84011dac176042012cf0fe3bd81a41d6d3b14518fdbae66eb",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/chief-ministergi-shotharabasingi-tengbang_cmst.html",
+      "title": "Chief Ministergi Shotharabasingi Tengbang",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/c184adf1ee340591624d4031908cb6d591c270f6.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 12435,
+      "sha256": "b52fb370fd0da30158cdadb60ff74e3f0a106bd9ab0dc635c5774b91326a0d1c",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/chief-ministers-paryatan-siksha-yojana_cmpsy.html",
+      "title": "Chief Minister’s Paryatan Siksha Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/641343dd48890bff4dec1374811a2714d7ed1dda.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 13313,
+      "sha256": "884a84df201ec9d2a2384a0ad80d90157a306c09649dffb30952782a64d76c2d",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/coaching-assistance-scheme-for-scheduled-caste-students-for-preexam-preparation-like-neet-jee-gujcet_casscsppnjg.html",
+      "title": "Coaching Assistance Scheme For Scheduled Caste Students For Pre-Exam Preparation Like NEET, JEE, GUJCET",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/591b256934291764916210a8281174152db0b033.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 12660,
+      "sha256": "25179ac5938c32f33932e96307beee38f57014ffc30523778b5fd61b9dbe6ccd",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/coaching-schemes-for-scstobc-noncreamy-layer-minority-students-for-universities_csmsu.html",
+      "title": "Coaching Schemes For Sc/st/obc (non-creamy Layer) & Minority Students For Universities",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/ab7a16909705ae627faf5c8657050851e3bc38af.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 17057,
+      "sha256": "d750b9f6d7575d13817908f8c5243afca8b8751d571a12cd84007afd9e176d95",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/coir-udyami-yojana_cuy.html",
+      "title": "Coir Udyami Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/4e29980fb44826ca89290853c204279da78b56aa.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15107,
+      "sha256": "692f2693d9de279136ebf62d0881fdcad7f993791a1517153b68306dde7cdc1e",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/credit-based-schemes-for-sc-mahila-samriddhi-yojana_cbssc-msy.html",
+      "title": "Mahila Samriddhi Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/06c953cb05742e18f920079c68c34bc7b8367893.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 12648,
+      "sha256": "246a788b7a8f4ac6ae567eb494648d70a6cfc2af0eba44b9b3cea42778202e08",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/credit-based-schemes-for-sc-term-loan-tl_cbssc-tl.html",
+      "title": "Credit Based Schemes For SC - Term Loan (TL)",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/7ea0522d44c7f5452cd919e6d3e2c3c9eb01f348.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15019,
+      "sha256": "d409f49de0bdf10e7740684947dd977a45bd00e230b702dbbb7305c8386cd066",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/credit-enhancement-guarantee-scheme-for-the-scheduled-castes_cegssc.html",
+      "title": "Credit Enhancement Guarantee Scheme For The Scheduled Castes",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/2e0c5851b89cc1c6745bc6812129630f1cfee83c.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 18243,
+      "sha256": "2c433492e7690f0f4148dfcee536e2fd404c4e4cff590f8c8da5bf6f0a647e1b",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/crop-cluster-development-programme_ccdp.html",
+      "title": "Crop Cluster Development Programme",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/6774cfed2f93da9ce22bb046aeecf5cbe5a0bb32.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15111,
+      "sha256": "64031b9b1c9250f68b77afc4fd361c734ec4b00217a4714bd91a466c64f529fb",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/cultural-function-and-production-grant-scheme_cfpgs.html",
+      "title": "Cultural Function And Production Grant Scheme",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/e1255d5e63c500141a6385a06af1e51ed4ecd986.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 19035,
+      "sha256": "c3d1d4ff10638526c69167208b54405773d53ebec62a6d390463e7b97360c011",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/cycle-sahayata-yojana_csy-j.html",
+      "title": "Cycle Sahayata Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/63175a00dd5be0a3e3f6e6db50c48b8240c171e5.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15941,
+      "sha256": "cbfba3e661355a8f601921813da655e5bce16610f13068191ddf905e77fcab77",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/deen-dayal-upadhyay-grameen-kaushalya-yojana_ddugku.html",
+      "title": "Deen Dayal Upadhyay Grameen Kaushalya Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/91d98b1f8ed94db4dae14b1361ef75d54886634c.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15332,
+      "sha256": "2ed13ca742eef4343f417083f54f0b1394c6366928df03681deba920ea766771",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/deendayal-antyodaya-yojana-national-rural-livelihoods-mission_day-nrlm.html",
+      "title": "Deendayal Antyodaya Yojana - National Rural Livelihoods Mission",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/ba759aab60b466ab51667e27c587fff3a9105e87.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 26176,
+      "sha256": "4b9a96855fa24a0e242cfbc99a729473be3ace4aa760df60cca1bdef1c763e09",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/delhi-pension-scheme-to-women-in-distress-widow-pension_dpswdwp.html",
+      "title": "Delhi Pension Scheme To Women In Distress (Widow Pension)",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/b14c354666bd1b5bd80c64b0ccb054b87d49c510.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14106,
+      "sha256": "ae404aecf6e10b7fe47e30c59f74deb286a83ef75bfe707a357ffcde927eaa56",
+      "retrievedAt": "2026-08-23"
     },
     {
       "url": "https://www.bocwwb.gujarat.gov.in/Portal/Document/10_372_1_GO_GREEN_THREE_WHEELERS_SCHEME.pdf",
@@ -10396,20 +11320,6 @@
       "retrievedAt": "2026-08-23T00:00:00.000Z"
     },
     {
-      "url": "https://www.esamajkalyan.gujarat.gov.in/index.aspx",
-      "title": "SJED",
-      "sourceType": "PORTAL_HOME",
-      "journeys": [
-        "welfare-schemes"
-      ],
-      "cacheFile": ".ingest/pages/d4316b0201e8c5e4751deaa4c8a9b84945d79959.md",
-      "status": "CACHED",
-      "quoted": true,
-      "bytes": 49074,
-      "sha256": "82e23e90e1dda586f7f483db23103a55c95a6ec228231d10118608481dc6e853",
-      "retrievedAt": "2026-08-23"
-    },
-    {
       "url": "https://www.gemi.gujarat.gov.in/uploads/Assets/about/guidelinesforstudentstraininganddissertation12132018011514503.pdf",
       "title": "guidelinesforstudentstraininganddissertation12132018011514503 (page 7 of 12)",
       "sourceType": "GUIDELINE",
@@ -10491,6 +11401,20 @@
       "quoted": true,
       "bytes": 11825,
       "sha256": "14a94679ab84dcd21fd9a0e9f1e238cd614d86e8da02e9a0c66e85a85b4a0b7b",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/itr-2/itr-2-faqs",
+      "title": "ITR-2 FAQs | Income Tax Department",
+      "sourceType": "FAQ",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/bebc1a3c040bacabaefeec4bcc8b8f285ce47ba1.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16615,
+      "sha256": "250b3c6cab1724eda3d627abacbac64008ced89f100003cd1629ab21b9a1676e",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -10634,6 +11558,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://www.mudra.org.in/Offerings/Procedure",
+      "title": "Procedure",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/20ea33d2a1f0ea4e841f5b729ca87605b4425cc6.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 28003,
+      "sha256": "113865fd756b58e92917541cf9002dcb87b4a99e8d05b79500130d557cca7a05",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://www.mudra.org.in/track-application",
       "title": "PMMY",
       "sourceType": "SERVICE_PAGE",
@@ -10690,6 +11628,216 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://www.myscheme.gov.in/schemes/aasfsv",
+      "title": "Aushadhi Avam Sugandhit Fasal Shetra Vistar",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/08b5e38f2f1dead913c4bb5b7fbc1e5b3393c27a.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16416,
+      "sha256": "957da3f515467198e74bed19ed97008d05b48ce5fd04356d09b1f0be3e410539",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/afpdccs",
+      "title": "Assistance for Power Driven Chaff Cutter scheme",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/e12139c4f55cb50d68b7b8b05b0fee3b7a2c834a.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15676,
+      "sha256": "7ab1df2c78f5200543a40fed4ec2460166e088b6ab8c8a0d7bdad861b574d235",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/aladss",
+      "title": "Artificial Limbs and Assistive Devices Supply Scheme",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/148314d1ca37ab2ca8ff8c63533f3623f32406c3.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15874,
+      "sha256": "f7eeeeba245fb20f1d31ec11e011cf1dceac6fe8029e078a47be76acb96ad35e",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/aos",
+      "title": "Orunodoi 3.0",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/4de6b6d45e2eb290b85eacd5d8c1cd6c45a1f828.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 20561,
+      "sha256": "1c8f280b70bb004a66b8f03f07293e51e51f6bc7bc10b81ac8a95443ec079e1b",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/apfefcc",
+      "title": "Assistance Program for Expansion of Fruit Crop Cultivation",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/b597a34688a926103349a15e3aea13c68e104f95.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15896,
+      "sha256": "991ee86bc0fee27d3752e5f6070fc463853922d98ef2f10316eccfb1aedd5467",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/apvkc",
+      "title": "Anya Pichhda Varg Kalyan Chhatravaas ",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/ddf7a9c4e1b48a59f1488cae18dc248d0ecf2531.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15506,
+      "sha256": "787344c1174f3999b6fa32a15ced864593916f156c7e522acdf0250e55618a8c",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/bbs",
+      "title": "Bhagwan Budhdh Scholarship",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/c5bc719dd50b02c335e2dcbb25bdb86cf4a0fd39.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15568,
+      "sha256": "3cc37295d4488f9e1d3527c6b330a9da3b78b0429ed5a4449826a8e39d1b3640",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/bcebcgrhs",
+      "title": "BC & EBC Girls Residential +2 High School",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/281c0ab1cffefe2fc4d8a746c146accd69204235.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16891,
+      "sha256": "27a80bff52e206e2ada4623e6c809ec06bea44c95c10a22442514d4d8a4d3b88",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/cmhr",
+      "title": "Chief Ministers House Rent ",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/a2901f20f7751a7e927c1de39b0a409a75260ef2.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16375,
+      "sha256": "802440a3e60dc9cbeca5451c561f444fb59cdd395c8f4c35eb008b4f541bda8e",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/css",
+      "title": "Cancer Suraksha Scheme",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/62511c90c57b93304e40cf23345a2dcf4f129811.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 19570,
+      "sha256": "bf9d944247159bd5af7635d2e4abbcf97c935a036d96a3630c2bc2169ad522aa",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/dbabocwwb",
+      "title": "Death Benefit (A.B.O.C.W.W.B)",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/9f1c53a9c74f23af2c5530943fa0dc157e99f709.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 18217,
+      "sha256": "024ec4a9b04503ca4969e1f76f96307ae3631025f1eb898ab0d0852afe491a46",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/dcps",
+      "title": "Dependent Children Pension Scheme - Punjab",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/15f750b7c2441ce883284958066991185d5186c4.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15769,
+      "sha256": "64e99af47d6d90596413e8afb75aa3c6c4549dff0674579eb936800ff0931579",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/evrmnmasfdopwsi",
+      "title": "E.V.R. Maniammaiyar Ninaivu Marriage Assistance Scheme for Daughter’s of Poor Widows: Scheme-I",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/f1ab0855ae26c17289b0cd49a4a7c2a77c6d5779.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16554,
+      "sha256": "93fdfda03aa28cc5bfba3eb5a6e635ce7782bae2337d909ef46f95fc1d9cf644",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/faups",
+      "title": "Financial Assistance to Widower and Unmarried Persons Scheme : For Unmarried",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/98befb199a90fb886ec114f9b9a3f4fb4ceb1125.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 19961,
+      "sha256": "21e33046d244abb4883cebbe02cef89cd9ac0ccd98247a4a623dacbbb182f3c5",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/gokp",
+      "title": "Grant For Oru Kala Pooja",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/02f326331ba987f83f8131cad1c4d63160a0bd37.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 20176,
+      "sha256": "b74927e61dbb5f58107e13722b3c23dccd21d1165edbb7165f3581d4722c0553",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://www.myscheme.gov.in/schemes/gspsg",
       "title": "Ganga Swarupa Pension Scheme, Gujarat - myScheme",
       "sourceType": "SERVICE_PAGE",
@@ -10702,6 +11850,62 @@
       "bytes": 14636,
       "sha256": "dcc4005f56ad53e74279aae963150dd29f33c9468f247aa5420079856afa347d",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/gsrfas",
+      "title": "Ganga Swarupa Punah Lagna Arthik Sahay Scheme",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/a172218e72123d224c13d86a6e927b1349cde185.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15137,
+      "sha256": "f6f72ec1536ff99c0dfa51c3ec3501780ccd035c2180d43f4f86f3172bb353b8",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/gvyr",
+      "title": "Gaushala Vikas Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/057625b4f3bb574ca39e5873741a4daa19bd8f10.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16066,
+      "sha256": "5481d2e41682a2ccc687a6e8b1bac3787bfd50c2716bda29e7ac9f4fb9d2f16a",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/himayat",
+      "title": "HIMAYAT- Deen Dayal Upadhyaya-Grameen Kaushalya Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/49d9c220ee93aebb97438e2edececc86698c14ef.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 21763,
+      "sha256": "5e3683e37343c2e4a207076ef0f7e29a239704e7acbf55067b8a2ceb6c84a350",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/igndpsp",
+      "title": "Indira Gandhi National Disability Pension Scheme (Punjab)",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/ff771d7f3c86782261c416b72e8377de1d421e4f.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16069,
+      "sha256": "19afe4460bdb8ca0d3b8325a0c94b5e8a07b1905275c127c987a6ab70baca856",
+      "retrievedAt": "2026-08-23"
     },
     {
       "url": "https://www.myscheme.gov.in/schemes/ignwps",
@@ -10718,6 +11922,202 @@
       "retrievedAt": "2026-08-23T00:00:00.000Z"
     },
     {
+      "url": "https://www.myscheme.gov.in/schemes/ioap",
+      "title": "INDIRAMMA Old Age Pension (Rural)",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/bc430f702492cf748135d1d5824d5a8107ec058d.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15893,
+      "sha256": "78775536b68bbcb3844c44bea67a7a5f34c4d0975f42c7a986c1840629a154ce",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/kaabocwwb",
+      "title": "Accident Assistance (K.B.O.C.W.W.B)",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/d974fb585826328fe608ba52c7e9a1849034e3b9.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 19869,
+      "sha256": "6174cf26682949a8aa0896ebebb6467c578ed782edc4421c626645327d4cf411",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/kaay",
+      "title": "Kabir Anthyesthi Anudan Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/ae1717065c871a06fe99963bfca99af313f8f22f.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16205,
+      "sha256": "7099e58b965001e29c07d31aceb119f2a89b525e554038ed496242b5a1462231",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/kccp",
+      "title": "Kisan Credit Card (Pashupalan)",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/f902eb5c017336d1bbc53fe2c3d7a09b7b140a8c.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15875,
+      "sha256": "57a92ff2797904e7c3dc9b540652bb5671f6323ee9a00247a17a9b0ebc26a270",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/kspy",
+      "title": "Kanya Saksharta Protsahan Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/6f4365af7df07f41aa394fedfcc741f52291012e.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16225,
+      "sha256": "2b0745e1a2adb29aacd77bcad4ca49d2194e8f29d8175f4b47b2a13110d68514",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/lcrlc",
+      "title": "Labour Card and Renewal of Labour Card",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "district-certificates"
+      ],
+      "cacheFile": ".ingest/pages/a785edfb12cee1c5221d18c22245575c9bba3f8a.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 17695,
+      "sha256": "2da056837e244eafefbca3fa897708b0a0131bd28b4a24fe63d364e05e13c7ab",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/lvsh",
+      "title": "Laghu Vyavassay Scheme",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/6009d18ac8d84f12558ec8be579713d174ce8ada.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 18295,
+      "sha256": "444bc7595783fab37bb7df80ec88377d143a19d17fea3f6bda5ff719ace14bc5",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/maflap",
+      "title": "Maintenance Allowance for Leprosy Affected Persons",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/472f2571e763b3a8a3866e00ee57be576fa640c4.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16471,
+      "sha256": "e45b4fb9c226fe668355adb4ce00dbb393094bd906f2cbf117c57519b1493bf6",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/mkaps",
+      "title": "Mukhyamantri Kanya Abhibhawak Pension Scheme",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/9c00e85651e30e88fd295d595f10fbadebf3bd5c.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16403,
+      "sha256": "8fc87f1a5de51f329d8aea48fbdf5e933eaca729d230dfdcb099c584fb8529ee",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/mkkpy",
+      "title": "Mukhyamantri Kalyakani Pension  Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/08074d524221bc98fd61f695296dc3950b50cf25.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15338,
+      "sha256": "23c03b9fd8d217ec0e482147d8eb7f68ccd144551018f905277ab406be21b0fd",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/mmvy",
+      "title": "Mukhyamantri Medhavi Vidhyarti Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/e1bf0f5b86a7ac49b9e3ddc6ae1fc755ea978a11.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 25178,
+      "sha256": "20ff403af4d87d05a2600086ef92cf347daac706b9ab030029130ea443c4b7ef",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/mtp",
+      "title": "Maitri Prashikshan Karyakram - Uttarakhand Livestock Development Board",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/e069c8bee449329c822d1ee65528436ddcbbf0a9.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14392,
+      "sha256": "2bb55fa1d2cd2de8e72f885ac26679336ff8fc1428ddc6dcf4e0443992f0d89e",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/mts",
+      "title": "Motorized Tricycle Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/aee9096fb2f9c49b10191d7e670491cd5db33f61.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15218,
+      "sha256": "1b714e78b5c2cf6aea731af9319ff3c22570e9737eb4c81ebf595f825348cc6f",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/mtyy",
+      "title": "Mukhyamantri Tirth Yatra Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/bea8199da1d3ff9931a2c0c526af827acc8b986d.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 17564,
+      "sha256": "6a757116b06623ced8a52ef577e48c3d5d8b5b4accba8664a35741244869837e",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://www.myscheme.gov.in/schemes/mysy",
       "title": "Mukhyamantri Yuva Swavalamban Yojana | myScheme (National Government Services Portal)",
       "sourceType": "GUIDELINE",
@@ -10731,6 +12131,244 @@
       "bytes": 20684,
       "sha256": "067ecc4bd64233901a73507e269e9c2a60efb6090d499e8aa204338bd2bb657f",
       "retrievedAt": "2026-08-23T02:58:00Z"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/ndfadc",
+      "title": "National Disabled Finance and Development Corporation",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/8e45031357cc86b06be1ba9e2e634c09c4a3e1ae.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14240,
+      "sha256": "88813f5f4c7166c4121e5bec0aa6d2c92f5590f5393ea95ccf74265dd4442a65",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/nkymp",
+      "title": "Nalkoop Khanan Yojana- Madhya Pradesh",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/496cef207e92ab0d9986fb94e6924cacbc0d56b0.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15408,
+      "sha256": "0d6e2653b8f582800245215dd7c0d22a523de621c236959360e16222cbbd155d",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/pmssts",
+      "title": "The Post-Matric Scholarship For Scheduled Tribes Students",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/1241295166c9d5c252d5d9881284a34e96021cde.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16290,
+      "sha256": "b56fec6c14d37e22255d7ff6f385cca0d20c290fdb50c6390b2a7e35bd1a3f8c",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/saps",
+      "title": "Vishesh Yogyajan Palanhar Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/cdf83c7e7fca242498c5267a220aad9ed37483e1.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14951,
+      "sha256": "e2c314400812edb7516456c6bc78543598a64103a8cba61d727839e8ad587ebe",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/scymp",
+      "title": "Sudama Shishyavritti Scheme (Class 11th and 12th)",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/a0e25f271eab31061df7a6d199ebc0285cfe4f94.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14960,
+      "sha256": "2c0e2b6d7b19c57eaa458550c0201f2fa36f2169b421afcad7941357bfcf02f9",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/sdtk",
+      "title": "Skill Development Training Karnataka",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/2401c1aaf3eba7436353bb4232ee1ce201d5751a.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 15971,
+      "sha256": "1044ce1e49cb8a54038894da2b75774d3808966a556570737a90c971765eff92",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/sebpu",
+      "title": "Scheme for Establishment of Backyard Poultry Units",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/fb32e0ab60e4824d2d9fe4f118bca9f77a6b3f09.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 19006,
+      "sha256": "e9187e41a76f25df6b0b152ce06685cc2b86e5db3fcaf2fefe91a195063343e0",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/sehtmdu",
+      "title": "Scheme for Establishment of Hi-Tech and Mini Dairy Units",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/38bccbf6ef5f82aaa6d00d4455c95babf1f69e55.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 25452,
+      "sha256": "a3ac9e3b56e7b521c3f210c464d9b99617f5cf1a7b5af485ee8e07c9dd77d093",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/sogateakva",
+      "title": "Scheme of Giving Awards to Eminent Artists - Kalai Valarmani Award",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/4b7de1e989ee126271bc8e56b9963443f583f8b2.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 18308,
+      "sha256": "f5c79f1923203a97686a1dc3d5c504f08c449644caa315bbbcb3a772eee8e21f",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/spy",
+      "title": "Sarvajan Pension Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/cb840bef939011cabef91c5f456ddeaa3588ca5a.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14987,
+      "sha256": "f685b2b3e2c92dcf7b4a14fff452dd5c8d910da6a48707ca12fb107918855c75",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/srjssyss",
+      "title": "Sri Ram Janmabhoomi Shabari Smriti Yatra Sahay Scheme",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/86724534bfebf3c47a8f54e3165d9845a6c0eec5.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 22784,
+      "sha256": "abb540698490b273fca7e84dbd909cdfb7d5f40d99e0d7e6075c6a8a6d5f5041",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/ssmpsn",
+      "title": "Snehayanam Scheme For Mothers Of Persons With Special Needs",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/fe36fded985a1da52fe953b0cb74c722938d660d.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 17718,
+      "sha256": "2608db643ec295373395270fcb26885984dfac04650cec5edbf4a7b563e40992",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/ssntdnttv",
+      "title": "Stipends to Students of NT/DNT Caste for Technical and Vocational Courses after SSC",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/1bbbb34f68179af627c0f18079d95a673e80b801.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 17768,
+      "sha256": "d053da9ba5a3b2cf230887adae52cc571a6af13cd2ebc61b7e877841c921a096",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/sssuk",
+      "title": "Swanath Scholarship Scheme",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/af33bfcae171bdf44009c28f1039dc4837c63040.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14299,
+      "sha256": "769ea40ed903d3cde5aafc8d1ce070634ea28f568af38c521eb2d01bdb3f76d3",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/ssychh",
+      "title": "Sukhad Sahara Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/4544578cde94bb8ad5115add3a82dfe86ee2cea0.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 17150,
+      "sha256": "915ad19b3365092073608e256245e2abbe9c42245f08a2dd289a2968efe3adb1",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/stypsstdpdcs",
+      "title": "Scholarship To 2 Years Pre-Service Student Teachers Undergoing D.El.Ed Programme At DIETs And CTTC Sohra",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/35a4f793b00b4888fc3c1c7ca8af0d0f8874ba23.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 20246,
+      "sha256": "76ea258d6e015dee2ca8d7b07f9b7dc38a38b62c03b9c7020709088d1df6c90a",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/tipii",
+      "title": "Tripura Industrial Investment Promotion Incentive",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/61d6bba930fb20dacdc40c40a534b2680ef4e4e6.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 18546,
+      "sha256": "870c4566baf6543e3fdf31e0ed2417c997b3dfbfc2b2460ba09033adf8636c72",
+      "retrievedAt": "2026-08-23"
     },
     {
       "url": "https://www.nfsa.gov.in/State/KL",

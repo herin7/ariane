@@ -43,10 +43,20 @@
    "contentHash": "fa93c2bab1892aacb444a54631aaa4c7dbce0e19eb4c8bd9343a0a029251d428"
   },
   {
+   "id": "src:27aabf54d894",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/aicte-mitacs-globalink-research-internship-gri-scheme_am-gris.html",
+   "title": "AICTE – Mitacs Globalink Research Internship (GRI) Scheme",
+   "domain": "web.umang.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "7528c10c73dcf0a845fab431b922cdebd10c0b8fc5cef97e169adc6a1ed95d56"
+  },
+  {
    "id": "src:23196e8aed35",
    "url": "https://directorit.gujarat.gov.in/Content/Scheme_for_Startup_Policy.pdf#page=6",
-   "title": "Scheme_for_Startup_Policy (page 6 of 29)",
-   "domain": "directorit.gujarat.gov.in",
+   "title": "bcb1c16b-c796-414c-995d-015a9a6b209a_1 (page 6 of 29)",
+   "domain": "startup.gujarat.gov.in",
    "sourceType": "SERVICE_PAGE",
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
@@ -93,6 +103,16 @@
    "contentHash": "86733c6c96d0965a5b2497218675ec2f371fe09f4016ee3aa5c35fee34fae85a"
   },
   {
+   "id": "src:88768d7d5b2d",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/start_up/Guidelines_for_Funding_support_to_startups.pdf#page=9",
+   "title": "Guidelines_for_Funding_support_to_startups (page 9 of 42)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "a8f51f4c3ead4419fd87f5a9fc3c61c8c22304bc1f8bc1d010c0dca8f4b2e66f"
+  },
+  {
    "id": "src:6d4e07e3a146",
    "url": "https://ced.gujarat.gov.in/assets/downloads/Entrepreneurship-SOURCE-check.pdf#page=78",
    "title": "Entrepreneurship-SOURCE-check (page 78 of 184)",
@@ -111,16 +131,6 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "ed5aac894d24acc7a22dc30b3de9bdbf0800100a022706fed631c50fc12fd6b2"
-  },
-  {
-   "id": "src:88768d7d5b2d",
-   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/start_up/Guidelines_for_Funding_support_to_startups.pdf#page=9",
-   "title": "Guidelines_for_Funding_support_to_startups (page 9 of 42)",
-   "domain": "ifp.gujarat.gov.in",
-   "sourceType": "GUIDELINE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "a8f51f4c3ead4419fd87f5a9fc3c61c8c22304bc1f8bc1d010c0dca8f4b2e66f"
   },
   {
    "id": "src:38b1ddfb482f",
@@ -215,6 +225,101 @@
  ],
  "nodes": [
   {
+   "id": "document:memorandum_of_association",
+   "type": "DOCUMENT",
+   "name": "Memorandum of association",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "Memorandum of Association for Pvt. Ltd. / LLP Deed",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-24"
+  },
+  {
+   "id": "document:board_resolution",
+   "type": "DOCUMENT",
+   "name": "Board resolution",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "Board Resolution (If Any)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-24"
+  },
+  {
+   "id": "document:annual_accounts",
+   "type": "DOCUMENT",
+   "name": "Annual accounts",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "Annual Accounts of the startup for the last three financial years",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-24"
+  },
+  {
+   "id": "document:income_tax_returns",
+   "type": "DOCUMENT",
+   "name": "Income tax returns",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "Income Tax returns for the last three financial years",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-24"
+  },
+  {
+   "id": "portal:startupindia_gov_in",
+   "type": "PORTAL",
+   "name": "startupindia.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://www.startupindia.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "Refer to your Dashboard on the Startup India Portal for the status of your application. This can be found on the top right of the page after you log in.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "grievance:startup_india_scheme",
+   "type": "GRIEVANCE_CHANNEL",
+   "name": "Grievances about startup india scheme",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "GRIEVANCE_PORTAL"
+   },
+   "sources": [
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "In case of any queries or clarifications needed,Please reach out to us through contact us page.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "helpline:1800_115_565",
    "type": "HELPLINE",
    "name": "Startup India Scheme helpline",
@@ -227,9 +332,9 @@
    },
    "sources": [
     {
-     "sourceId": "src:4eb57f220787",
-     "evidence": "Our Toll Free Number : 1800 115 565 (10:00 AM to 05:30 PM)",
-     "confidence": 1,
+     "sourceId": "src:e44566599545",
+     "evidence": "Toll Free Number: 1800 115 565",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -247,103 +352,103 @@
    "metadata": {
     "machineExtracted": true,
     "eligibility": [
-     "A company must not have been formed by splitting up or reconstructing an existing business to be eligible for DPIIT startup recognition.",
-     "A company must work towards the development or improvement of a product, process, or service and/or have a scalable business model with high potential for wealth and employment generation to be eligible for DPIIT startup recognition.",
-     "A company must be incorporated as a Private Limited Company, Registered Partnership Firm, Limited Liability Partnership, or Cooperative Society to be eligible for DPIIT startup recognition.",
-     "A company must not exceed an annual turnover of Rs. 200 crore in any financial year since incorporation to be eligible for DPIIT startup recognition.",
-     "A company must not exceed a period of existence and operations of 10 years from the date of incorporation to be eligible for DPIIT startup recognition.",
-     "DPIIT recognised startups within 10 years of incorporation are eligible for self-certification of compliance."
+     "To be eligible for DPIIT startup recognition, the company's period of existence and operations should not exceed 10 years from the date of incorporation.",
+     "To be eligible for DPIIT startup recognition, the company must be incorporated as a Private Limited Company, Registered Partnership Firm, Limited Liability Partnership, or Cooperative Society.",
+     "To be eligible for DPIIT startup recognition, the annual turnover should not exceed Rs. 200 crore in any financial year since incorporation.",
+     "To be eligible for DPIIT startup recognition, the entity should not have been formed by splitting up or reconstructing an existing business.",
+     "To be eligible for DPIIT startup recognition, the entity should work towards the development or improvement of a product, process, or service and/or have a scalable business model with high potential for wealth and employment generation.",
+     "To be eligible for DPIIT startup recognition as a deeptech startup, the company's period of existence and operations should not exceed 20 years from the date of incorporation."
     ]
    },
    "sources": [
     {
      "sourceId": "src:e44566599545",
-     "evidence": "The entity should not have been formed by splitting up or reconstructing an existing business.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e44566599545",
-     "evidence": "The entity should work towards the development or improvement of a product, process, or service and/or have a scalable business model with high potential for wealth and employment generation.",
-     "confidence": 0.95,
+     "evidence": "The period of existence and operations should not exceed 10 years from the date of incorporation.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:e44566599545",
      "evidence": "Incorporated as a Private Limited Company, Registered Partnership Firm, Limited Liability Partnership, or Cooperative Society.",
-     "confidence": 0.95,
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:e44566599545",
      "evidence": "The annual turnover should not exceed Rs. 200 crore in any financial year since incorporation.",
-     "confidence": 0.95,
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
-    {
-     "sourceId": "src:e44566599545",
-     "evidence": "The period of existence and operations should not exceed 10 years from the date of incorporation.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e44566599545",
-     "evidence": "Startups shall be allowed to self-certify compliance with 6 labour laws and 3 environmental laws through a simple online procedure.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e44566599545",
-     "evidence": "DPIIT recognised startups that are within 10 years within date of incorporation ( 20 if deeptech recognized).",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e44566599545",
-     "evidence": "Eligible startups can be exempted from paying income tax for 3 consecutive financial years out of their first ten years since incorporation.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e44566599545",
-     "evidence": "DPIIT Recognized Startups can register on GeM as sellers and sell their products and services directly to Government entities.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e44566599545",
-     "evidence": "DPIIT recognised startups have been exempted from submitting Earnest Money Deposit (EMD) or bid security while filling government tenders.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e44566599545",
-     "evidence": "Access the Section 80 IAC exemption application form here",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e44566599545",
-     "evidence": "startups with simple debt structures, or those meeting certain income specified criteria* can be wound up within 90 days of filing an application for insolvency.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "portal:startupindia_gov_in",
-   "type": "PORTAL",
-   "name": "startupindia.gov.in",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "WEB",
-    "url": "https://startupindia.gov.in/"
-   },
-   "sources": [
     {
      "sourceId": "src:e44566599545",
      "evidence": "The entity should not have been formed by splitting up or reconstructing an existing business.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "The entity should work towards the development or improvement of a product, process, or service and/or have a scalable business model with high potential for wealth and employment generation.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "The period of existence and operations should not exceed 20 years from the date of incorporation.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "The annual turnover should not exceed Rs. 300 crore in any financial year since incorporation.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "The startup should have been incorporated after 1st April, 2016",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "The entity should be a DPIIT recognised startup",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "Only Private Limited Companies or Limited Liability Partnerships are eligible for tax exemption under Section 80IAC",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "Register on the Startup India portal. Click here to register",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "Post registration, apply for DPIIT (Department for Industrial Policy and Promotion) recognition. Click here for Recognition",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-24"
+  },
+  {
+   "id": "office:startup_haryana_office",
+   "type": "OFFICE",
+   "name": "Startup_haryana_office",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "SCO 109-110, Sector 17B, Chandigarh (India)"
+   },
+   "sources": [
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "Office Address | Startup Haryana, Department of Information Technology Electronics & Communication, Haryana SCO 109-110, Sector 17B, Chandigarh (India)",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -379,66 +484,30 @@
    "metadata": {
     "machineExtracted": true,
     "eligibility": [
-     "The company must be registered in Haryana under the Haryana Shops and Commercial Establishment Act, 1958.",
-     "The company must not have been formed by splitting up, reconstruction, demerger, or reconstitution of a business already in existence.",
-     "The company must not be a holding company or a subsidiary of any firm already in existence, except the subsidiary of any startup.",
-     "The company must be incorporated in India as a private limited company, partnership firm, or limited liability partnership.",
-     "The company must not have been incorporated prior to seven years, or ten years in the case of Biotechnology Companies.",
-     "The company must have an annual turnover not exceeding INR 25 crore in any preceding financial year."
+     "A startup must be incorporated in India as a private limited company, partnership firm, or limited liability partnership.",
+     "A startup must not have been incorporated more than seven years ago, except for biotechnology companies, which can be up to ten years old.",
+     "A startup must have an annual turnover not exceeding INR 25 crore in any preceding financial year.",
+     "A startup must be working towards innovation, development, or improvement of products, processes, or services, or have a scalable business model with high potential for employment generation or wealth creation.",
+     "A startup must not be formed by splitting up, reconstruction, demerger, or reconstitution of an existing business.",
+     "A startup must not be a holding company or a subsidiary of any firm already in existence, except the subsidiary of another startup."
     ]
    },
    "sources": [
     {
      "sourceId": "src:dc0a95e4944a",
-     "evidence": "Location: The company/entity be registered in Haryana under the Haryana Shops and Commercial Establishment Act, 1958 ; and",
+     "evidence": "Reimbursement of 25% of lease rental subsidy to eligible startup units established in the state, operating from Incubators/IT Parks/Industrial Clusters or any other notified location shall be eligible for a period of 1 year subject to the ceiling of INR 1lakh per annum.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:dc0a95e4944a",
-     "evidence": "Employment: The company employs at least 50 (fifty) per cent of its total qualified workforce in Haryana, which shall not include contract employees.",
+     "evidence": "Cost reimbursement for max 3 Patent/Quality certification per Unit up to a limit of INR 2 lakh for domestic & INR 5 lakh for International Patent/Quality certification upon successfully receiving them.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:dc0a95e4944a",
-     "evidence": "Provided that such entity is not formed by splitting up, or reconstruction, of a business already in existence and should not have been formed by the demerger or reconstitution of a business already in existence;",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:dc0a95e4944a",
-     "evidence": "Provided that such entity is not a holding company and it is not a subsidiary of any firm already in existence or except the subsidiary of any startup;",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:dc0a95e4944a",
-     "evidence": "Startup means an entity (Private, Public, Proprietary, Partnership Firm), incorporated in India: As a private limited company (as defined in the Companies Act, 2013) or registered as a Partnership firm (registered under Section 59 of the Partnership Act, 1932) or a limited liability partnership (under the Limited Liability Partnership Act, 2008) in India.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:dc0a95e4944a",
-     "evidence": "Not prior to seven years and in the case of Biotechnology Companies this period shall be up to 10 years",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:dc0a95e4944a",
-     "evidence": "With annual turnover not exceeding INR 25 crore in any preceding financial year",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:dc0a95e4944a",
-     "evidence": "Working towards innovation, development or improvement of products or processes or services, or if it is a scalable business model with a high potential of employment generation or wealth creation",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:dc0a95e4944a",
-     "evidence": "Policy Document | Download here",
+     "evidence": "Government will empanel software/mobile app development agencies for extending programming/app development support to eligible startups, and would reimburse development cost to the tune of 60% for application development undertaken through empaneled agencies, to the ceiling of INR 1 lakh per startup.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     },
@@ -450,12 +519,185 @@
     },
     {
      "sourceId": "src:dc0a95e4944a",
-     "evidence": "Seed funding to startups would be routed throughState/Centre recognized Incubators. The incubatee would apply for the grantin the incubators where it is being incubated & incubator after due diligence would forward the case to the Implementation Committee.",
-     "confidence": 0.95,
+     "evidence": "Startup means an entity (Private, Public, Proprietary, Partnership Firm), incorporated in India: As a private limited company (as defined in the Companies Act, 2013) or registered as a Partnership firm (registered under Section 59 of the Partnership Act, 1932) or a limited liability partnership (under the Limited Liability Partnership Act, 2008) in India;",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "Not prior to seven years and in the case of Biotechnology Companies this period shall be up to 10 years;",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "With annual turnover not exceeding INR 25 crore in any preceding financial year;",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "Working towards innovation, development or improvement of products or processes or services, or if it is a scalable business model with a high potential of employment generation or wealth creation",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "Provided that such entity is not formed by splitting up, or reconstruction, of a business already in existence and should not have been formed by the demerger or reconstitution of a business already in existence;",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "Provided that such entity is not a holding company and it is not a subsidiary of any firm already in existence or except the subsidiary of any startup;",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "Location: The company/entity be registered in Haryana under the Haryana Shops and Commercial Establishment Act, 1958 ;",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "Employment: The company employs at least 50 (fifty) per cent of its total qualified workforce in Haryana, which shall not include contract employees.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
+  },
+  {
+   "id": "document:transcripts",
+   "type": "DOCUMENT",
+   "name": "Transcripts",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "Candidates must provide the following with their application to the AICTE-GRI Program, in accordance with the instructions on the MITACS online application portal: Official yearly transcripts for all years in university;",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-24"
+  },
+  {
+   "id": "service:mitacs_globalink_research_internship",
+   "type": "SERVICE",
+   "name": "Mitacs Globalink Research Internship",
+   "officialName": "Mitacs Globalink Research Internship",
+   "aliases": [
+    "aicte–mitacs globalink research internship (gri) scheme",
+    "globalink research internships (gri)"
+   ],
+   "description": "A research internship program for third-year undergraduate students in AICTE-approved institutions to undertake a 12-week research project in Canada.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "The total cost of the program is $12,000 CAD per student.",
+    "eligibility": [
+     "The applicant must be a 3rd-year full-time student of an undergraduate program (B.E / B.Tech) in an AICTE-approved institution in the year of application.",
+     "The applicant must have a minimum CGPA / GPA of 85% in the 2nd year.",
+     "The applicant must be at least 18 years of age.",
+     "The applicant must be able to spend twelve (12) weeks between May and September at a university in Canada on a research project related to their area of interest and expertise.",
+     "The applicant must be able to demonstrate oral and written fluency in English or French, depending on the primary language of the project as indicated by the Canadian host professor."
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "The applicant must be a 3rd-year full-time student of an undergraduate program (B.E / B.Tech) in an AICTE-approved institution in the year of application.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "The applicant must have a minimum CGPA / GPA of 85% in the 2nd year.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "The applicant must be at least 18 years of age.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "The applicant must be able to spend twelve (12) weeks between May and September at a university in Canada on a research project related to their area of interest and expertise.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "The applicant must be able to demonstrate oral and written fluency in English or French, depending on the primary language of the project as indicated by the Canadian host professor.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "Upon completion of the Internships, the candidate must submit the feedback form.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "The student fulfilling the eligibility criteria shall apply directly to MITACS Canada via its portal and follow the procedure, guidelines, and terms and conditions mentioned therein;",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "All materials submitted to MITACS must be in either English or French. If materials submitted are not in one of Canada’s official languages, notarized transcripts must be submitted.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "Before leaving the country for pursuing Globalink Research Internships (GRI) in Canada, student should have a valid passport and has obtained all necessary documents and permissions including a visa, air tickets for air travel, etc.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "What is the duration of the AICTE – MITACS GLOBALINK RESEARCH INTERNSHIP? The duration of the internship is 12 weeks.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "The total cost of the program is $12,000 CAD per student.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "MITACS will contribute $9,000 CAD per student.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-24"
+  },
+  {
+   "id": "portal:web_umang_gov_in",
+   "type": "PORTAL",
+   "name": "web.umang.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://web.umang.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "The applicant must be a 3rd-year full-time student of an undergraduate program (B.E / B.Tech) in an AICTE-approved institution in the year of application.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
   },
   {
    "id": "document:certificate_of_eligible_business",
@@ -470,7 +712,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "service:startup_policy_scheme",
@@ -489,95 +731,182 @@
     {
      "sourceId": "src:23196e8aed35",
      "evidence": "(ii) Total quantum of assistance for obtaining such patents shall be limited to Rs. 10 lakh for international and Rs. 4 lakh for domestic patents per start-up.",
-     "confidence": 0.95,
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:23196e8aed35",
      "evidence": "(ii) Total quantum of assistance for obtaining such patents shall be limited to Rs. 10 lakh for international and Rs. 4 lakh for domestic patents per start-up.",
-     "confidence": 0.95,
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:23196e8aed35",
      "evidence": "(iii) Fees paid to patent attorney and patent service centre will also be considered eligible expenditure towards cost for computing assistance.",
-     "confidence": 0.95,
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:23196e8aed35",
      "evidence": "(iv) The assistance will be in the nature of reimbursement.",
-     "confidence": 0.95,
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:23196e8aed35",
      "evidence": "3.5. Bandwidth Subsidy: Eligible start-ups will be provided bandwidth subsidy at the rate of 70% of annual bandwidth charges subject to a ceiling of Rs. 20000 for 2 years.",
-     "confidence": 0.95,
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:23196e8aed35",
      "evidence": "3.6. Skill Certification Grant: Eligible start-ups will be provided skill certification grant at the rate of Rs.5000 per skill certification per person subject to overall ceiling of Rs. 1 lakh per annum per start-up for a period of two years.",
-     "confidence": 0.95,
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:23196e8aed35",
      "evidence": "3.7. Marketing & Product Development Assistance: A onetime assistance of Rs. 1 lakh will be provided to eligible start-ups for prototype/product development and additional assistance of Rs. 1 lakh will be provided for marketing.",
-     "confidence": 0.95,
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:23196e8aed35",
      "evidence": "3.7. Marketing & Product Development Assistance: A onetime assistance of Rs. 1 lakh will be provided to eligible start-ups for prototype/product development and additional assistance of Rs. 1 lakh will be provided for marketing.",
-     "confidence": 0.95,
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:23196e8aed35",
      "evidence": "3.8. Matching Equity Support: An eligible start-up which has raised equity capital from registered venture capital funds will be entitled to, at its option, avail additional 25% of such capital from Gujarat Venture Finance Limited (GVFL), without additional scrutiny, on same terms at which the capital was raised within 6 months of such raising subject to a ceiling of Rs. 5 crores.",
-     "confidence": 0.95,
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:23196e8aed35",
      "evidence": "3.9. In e-Governance projects undertaken by Government Departments or its Boards, Corporations or parastatal bodies getting budgetary support, a provision will be made for outsourcing of 5 % to 10 % of the contract value either as outsourcing of service or as job work to the eligible start-ups and to students of shortlisted Technical Colleges in Gujarat under this policy.",
-     "confidence": 0.95,
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:23196e8aed35",
      "evidence": "The Director of Information and Technology shall publish the list of eligible startups on 1st of every month on its website.",
-     "confidence": 0.95,
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
      "sourceId": "src:23196e8aed35",
-     "evidence": "The solution provider or system integrator shall select startups or institutes out of the list so published for outsourcing part contract or for job work.",
-     "confidence": 0.95,
+     "evidence": "The department of Science and Technology will evaluate the Technical Colleges and Universities and prepare a list of shortlisted colleges / institutes and will publish it on its website.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
-   "id": "portal:directorit_gujarat_gov_in",
+   "id": "portal:startup_gujarat_gov_in",
    "type": "PORTAL",
-   "name": "directorit.gujarat.gov.in",
+   "name": "startup.gujarat.gov.in",
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "channelType": "WEB",
-    "url": "https://directorit.gujarat.gov.in/"
+    "url": "https://startup.gujarat.gov.in/"
    },
    "sources": [
     {
      "sourceId": "src:23196e8aed35",
      "evidence": "(ii) Total quantum of assistance for obtaining such patents shall be limited to Rs. 10 lakh for international and Rs. 4 lakh for domestic patents per start-up.",
-     "confidence": 0.95,
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
+  },
+  {
+   "id": "service:startup_funding_support",
+   "type": "SERVICE",
+   "name": "Startup Funding Support",
+   "officialName": "Startup Funding Support",
+   "description": "This service provides funding support to startups in the form of Seed Support and Sustenance allowance.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "There is no application fee for the scheme."
+   },
+   "sources": [
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "There is no application fee for this scheme.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "Eligible Startup may get registered on the online portal (www.startup.gujarat.gov.in) to avail assistance under the scheme.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "The Start-ups will apply to Nodal Institution with requisites (Application form, Supporting Documents and Undertaking) in prescribed format.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "Nodal Institution will have to examine the case of Startups thoroughly from the viewpoint of evaluation parameters. After exercising due diligence, Nodal Institution will take decision and recommend (in prescribed format) the startup project proposal to the office of the Industries Commissioner within 15 working days from the submission of application.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "In case of unwillingness of Nodal Institution to incubate Startup, Nodal Institution shall communicate to the Startup about decision of their proposal with valid reasons within 15 days from the submission of application.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "The Startup Gujarat Cell will scrutinize each application against the basic eligibility criteria and verify the submission of all required documents from the checklist. Complete proposals received from Nodal Institutions will be forwarded to iCreate, while incomplete proposals will be returned to the Nodal Institutions within 15 working days.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "iCreate will conduct a detailed evaluation through an Expert screening committee, comprised of domain experts, and submit their recommendations to the Startup Gujarat Cell within 20 working days.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "After exercising due diligence, the Startup applications will be placed before the State Level Empowered Committee (SLEC) within 30 days from the recommendation of Expert Screening Committee.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "State Level Empowered Committee (SLEC) shall meet once a month preferably for approve (eligible assistance), reject or recall Startup project proposal.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "Startup Gujarat Cell will communicate the decision of SLEC to the Nodal Institutions within 10 working days.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "Accordingly, Nodal Institution will communicate the decision of SLEC to the respective Startups on the same day.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "Note: In essence, Eligible Startups gets approval for Seed Support and Sustenance allowance within 90 working days from the submission of their application at Nodal Institution.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "service:incubation",
@@ -671,7 +1000,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "helpline:0141_2929831_2922373",
@@ -741,70 +1070,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "service:startup_funding_support",
-   "type": "SERVICE",
-   "name": "Startup Funding Support",
-   "officialName": "Startup Funding Support",
-   "description": "This service provides funding support to startups in the form of Seed Support and Sustenance allowance.",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "machineExtracted": true,
-    "fee": "There is no application fee for this scheme."
-   },
-   "sources": [
-    {
-     "sourceId": "src:88768d7d5b2d",
-     "evidence": "There is no application fee for this scheme.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:88768d7d5b2d",
-     "evidence": "The Start-ups will apply to Nodal Institution with requisites (Application form, Supporting Documents and Undertaking) in prescribed format.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:88768d7d5b2d",
-     "evidence": "Nodal Institution will have to examine the case of Startups thoroughly from the viewpoint of evaluation parameters. After exercising due diligence, Nodal Institution will take decision and recommend (in prescribed format) the startup project proposal to the office of the Industries Commissioner within 15 working days from the submission of application.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:88768d7d5b2d",
-     "evidence": "The Startup Gujarat Cell will scrutinize each application against the basic eligibility criteria and verify the submission of all required documents from the checklist. Complete proposals received from Nodal Institutions will be forwarded to iCreate, while incomplete proposals will be returned to the Nodal Institutions within 15 working days.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:88768d7d5b2d",
-     "evidence": "iCreate will conduct a detailed evaluation through an Expert screening committee, comprised of domain experts, and submit their recommendations to the Startup Gujarat Cell within 20 working days.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:88768d7d5b2d",
-     "evidence": "After exercising due diligence, the Startup applications will be placed before the State Level Empowered Committee (SLEC) within 30 days from the recommendation of Expert Screening Committee.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:88768d7d5b2d",
-     "evidence": "Startup Gujarat Cell will communicate the decision of SLEC to the Nodal Institutions within 10 working days.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:88768d7d5b2d",
-     "evidence": "Note: In essence, Eligible Startups gets approval for Seed Support and Sustenance allowance within 90 working days from the submission of their application at Nodal Institution.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "service:entrepreneurship_development_programs",
@@ -836,7 +1102,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "portal:dst_gov_in_30e192",
@@ -904,7 +1170,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "office:block_no_1_9th_floor_udhyogbhavan_sector_11_gandhinagar",
@@ -972,7 +1238,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "helpline:079_22822426",
@@ -1072,7 +1338,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "action:short_term_courses_and_summer_skill_workshops_2_edit_registration_form",
@@ -1092,7 +1358,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "action:short_term_courses_and_summer_skill_workshops_3_print_registration_form",
@@ -1112,7 +1378,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "action:short_term_courses_and_summer_skill_workshops_4_print_admit_card",
@@ -1132,7 +1398,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "service:short_term_courses_and_summer_skill_workshops",
@@ -1194,7 +1460,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "office:office_of_the_industries_commissionerate",
@@ -1267,7 +1533,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "helpline:91_2667_266007",
@@ -1329,7 +1595,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "portal:stbi_gujarat_gov_in",
@@ -1377,9 +1643,27 @@
      "evidence": "2500 persons will be supported for the period of 5 years",
      "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4236ac0c3e16",
+     "evidence": "which will come into force from the date 1.1.2015 and will remain in operation for a period of five years.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4236ac0c3e16",
+     "evidence": "which will come into force from the date 1.1.2015 and will remain in operation for a period of five years.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4236ac0c3e16",
+     "evidence": "The recommendations have been incorporated in the New Industrial Policy 2015. 2500 persons will be supported for the period of 5 years",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "service:entrepreneurship_development_programme",
@@ -1408,22 +1692,118 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   }
  ],
  "edges": [
+  {
+   "id": "e:service_startup_india_scheme__requires__document_memorandum_of_association",
+   "from": "service:startup_india_scheme",
+   "to": "document:memorandum_of_association",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "To apply for tax exemption under Section 80IAC, the startup must upload the Memorandum of Association for Pvt. Ltd. / LLP Deed.",
+   "sources": [
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "Memorandum of Association for Pvt. Ltd. / LLP Deed",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_india_scheme__requires__document_board_resolution",
+   "from": "service:startup_india_scheme",
+   "to": "document:board_resolution",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "To apply for tax exemption under Section 80IAC, the startup must upload the Board Resolution (If Any).",
+   "sources": [
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "Board Resolution (If Any)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_india_scheme__requires__document_annual_accounts",
+   "from": "service:startup_india_scheme",
+   "to": "document:annual_accounts",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "To apply for tax exemption under Section 80IAC, the startup must upload the Annual Accounts of the startup for the last three financial years.",
+   "sources": [
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "Annual Accounts of the startup for the last three financial years",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_india_scheme__requires__document_income_tax_returns",
+   "from": "service:startup_india_scheme",
+   "to": "document:income_tax_returns",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "To apply for tax exemption under Section 80IAC, the startup must upload the Income Tax returns for the last three financial years.",
+   "sources": [
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "Income Tax returns for the last three financial years",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_india_scheme__track_at__portal_startupindia_gov_in",
+   "from": "service:startup_india_scheme",
+   "to": "portal:startupindia_gov_in",
+   "type": "TRACK_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "To track the status of the application for tax exemption under Section 80IAC, the startup must refer to the Dashboard on the Startup India Portal.",
+   "sources": [
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "Refer to your Dashboard on the Startup India Portal for the status of your application. This can be found on the top right of the page after you log in.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_india_scheme__escalate_to__grievance_startup_india_scheme",
+   "from": "service:startup_india_scheme",
+   "to": "grievance:startup_india_scheme",
+   "type": "ESCALATE_TO",
+   "verificationStatus": "EXTRACTED",
+   "note": "For any queries or clarifications regarding the Startup India Scheme, the citizen must reach out through the contact us page.",
+   "sources": [
+    {
+     "sourceId": "src:e44566599545",
+     "evidence": "In case of any queries or clarifications needed,Please reach out to us through contact us page.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
   {
    "id": "e:service_startup_india_scheme__call_if__helpline_1800_115_565",
    "from": "service:startup_india_scheme",
    "to": "helpline:1800_115_565",
    "type": "CALL_IF",
    "verificationStatus": "EXTRACTED",
-   "note": "The toll-free number for Startup India is 1800 115 565.",
+   "note": "A toll-free number is available for contacting Startup India.",
    "sources": [
     {
-     "sourceId": "src:4eb57f220787",
-     "evidence": "Our Toll Free Number : 1800 115 565 (10:00 AM to 05:30 PM)",
-     "confidence": 1,
+     "sourceId": "src:e44566599545",
+     "evidence": "Toll Free Number: 1800 115 565",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -1438,7 +1818,23 @@
    "sources": [
     {
      "sourceId": "src:e44566599545",
-     "evidence": "The entity should not have been formed by splitting up or reconstructing an existing business.",
+     "evidence": "The period of existence and operations should not exceed 10 years from the date of incorporation.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_haryana_entrepreneur_startup_policy__visit_at__office_startup_haryana_office",
+   "from": "service:haryana_entrepreneur_startup_policy",
+   "to": "office:startup_haryana_office",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The office address for Startup Haryana is SCO 109-110, Sector 17B, Chandigarh, India.",
+   "sources": [
+    {
+     "sourceId": "src:dc0a95e4944a",
+     "evidence": "Office Address | Startup Haryana, Department of Information Technology Electronics & Communication, Haryana SCO 109-110, Sector 17B, Chandigarh (India)",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -1470,8 +1866,40 @@
    "sources": [
     {
      "sourceId": "src:dc0a95e4944a",
-     "evidence": "Location: The company/entity be registered in Haryana under the Haryana Shops and Commercial Establishment Act, 1958 ; and",
+     "evidence": "Reimbursement of 25% of lease rental subsidy to eligible startup units established in the state, operating from Incubators/IT Parks/Industrial Clusters or any other notified location shall be eligible for a period of 1 year subject to the ceiling of INR 1lakh per annum.",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_mitacs_globalink_research_internship__requires__document_transcripts",
+   "from": "service:mitacs_globalink_research_internship",
+   "to": "document:transcripts",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Candidates must provide official yearly transcripts for all years in university.",
+   "sources": [
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "Candidates must provide the following with their application to the AICTE-GRI Program, in accordance with the instructions on the MITACS online application portal: Official yearly transcripts for all years in university;",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_mitacs_globalink_research_internship__apply_at__portal_web_umang_gov_in",
+   "from": "service:mitacs_globalink_research_internship",
+   "to": "portal:web_umang_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on web.umang.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "The applicant must be a 3rd-year full-time student of an undergraduate program (B.E / B.Tech) in an AICTE-approved institution in the year of application.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -1493,17 +1921,33 @@
    ]
   },
   {
-   "id": "e:service_startup_policy_scheme__apply_at__portal_directorit_gujarat_gov_in",
+   "id": "e:service_startup_policy_scheme__apply_at__portal_startup_gujarat_gov_in",
    "from": "service:startup_policy_scheme",
-   "to": "portal:directorit_gujarat_gov_in",
+   "to": "portal:startup_gujarat_gov_in",
    "type": "APPLY_AT",
    "verificationStatus": "EXTRACTED",
-   "note": "Published on directorit.gujarat.gov.in.",
+   "note": "Published on startup.gujarat.gov.in.",
    "sources": [
     {
      "sourceId": "src:23196e8aed35",
      "evidence": "(ii) Total quantum of assistance for obtaining such patents shall be limited to Rs. 10 lakh for international and Rs. 4 lakh for domestic patents per start-up.",
-     "confidence": 0.95,
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_funding_support__apply_at__portal_ifp_gujarat_gov_in",
+   "from": "service:startup_funding_support",
+   "to": "portal:ifp_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on ifp.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "There is no application fee for this scheme.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -1567,22 +2011,6 @@
     {
      "sourceId": "src:4fc361aa4ee4",
      "evidence": "Rs. 10,000/- per month will be provided to the innovator as sustenance allowance for one year.Startups whose project is recommended by the Nodal institution and approved by the Committee will get a sustenance allowance of Rs. 10,000 per month for a period of 1 year.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_startup_funding_support__apply_at__portal_ifp_gujarat_gov_in",
-   "from": "service:startup_funding_support",
-   "to": "portal:ifp_gujarat_gov_in",
-   "type": "APPLY_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "Published on ifp.gujarat.gov.in.",
-   "sources": [
-    {
-     "sourceId": "src:88768d7d5b2d",
-     "evidence": "There is no application fee for this scheme.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }

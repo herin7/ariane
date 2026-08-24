@@ -2,24 +2,24 @@
  "id": "property-and-land",
  "sources": [
   {
-   "id": "src:e567da21d421",
-   "url": "https://gidc.gujarat.gov.in/Pages/Contents/digilocker",
-   "title": "GIDC",
-   "domain": "gidc.gujarat.gov.in",
+   "id": "src:f5495cb6866c",
+   "url": "https://garvi.gujarat.gov.in/FrmStampDutyCalculation_New.aspx",
+   "title": "Garvi",
+   "domain": "garvi.gujarat.gov.in",
    "sourceType": "SERVICE_PAGE",
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
-   "contentHash": "368fc0ca50c1d888400be40f0f399c0c59c4c00b5ca11eeb44146223b29192d0"
+   "contentHash": "ab94f964c0f3d7477361885e6181511ffeeec4ad75b620cb624bec64ff65655f"
   },
   {
-   "id": "src:3203b82bd43a",
-   "url": "https://gidc.gujarat.gov.in/Pages/Contents/application-for-allotment",
-   "title": "GIDC",
-   "domain": "gidc.gujarat.gov.in",
+   "id": "src:8dfcd1797be4",
+   "url": "https://garvi.gujarat.gov.in/FrmRegistrationfeeCalculation_New.aspx",
+   "title": "Garvi",
+   "domain": "garvi.gujarat.gov.in",
    "sourceType": "SERVICE_PAGE",
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
-   "contentHash": "82f029fa604bb0e71065655a8eb01366714cc04bcad74492b1672f11d7386235"
+   "contentHash": "8ae89232eb03a522ce502af2a62ae2fcb9970c157f0e4d5630ce644d179cb77f"
   },
   {
    "id": "src:b28223f1098a",
@@ -90,6 +90,36 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "cd3ad72e2df71bfc68b0b2f2f1003063c7c646e05d0abe956a282c45b37e091f"
+  },
+  {
+   "id": "src:e567da21d421",
+   "url": "https://gidc.gujarat.gov.in/Pages/Contents/digilocker",
+   "title": "GIDC",
+   "domain": "gidc.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "368fc0ca50c1d888400be40f0f399c0c59c4c00b5ca11eeb44146223b29192d0"
+  },
+  {
+   "id": "src:3203b82bd43a",
+   "url": "https://gidc.gujarat.gov.in/Pages/Contents/application-for-allotment",
+   "title": "GIDC",
+   "domain": "gidc.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "82f029fa604bb0e71065655a8eb01366714cc04bcad74492b1672f11d7386235"
+  },
+  {
+   "id": "src:cba67fd37013",
+   "url": "https://vadodaradp.gujarat.gov.in/gu/E-Gram-Vishvagram-Yojana",
+   "title": "ઇ-ગ્રામ વિશ્‍વગ્રામ યોજના | વડોદરા જિલ્લા પંચાયત",
+   "domain": "vadodaradp.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-VADODARA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "dfddc841a5e80825aa9af7702a2cd87160358358de2bd38e0328b28c9abecadb"
   },
   {
    "id": "src:73a57c3a2874",
@@ -304,197 +334,42 @@
  ],
  "nodes": [
   {
-   "id": "service:digilocker",
-   "type": "SERVICE",
-   "name": "DigiLocker",
-   "officialName": "DigiLocker",
-   "description": "DigiLocker provides access to various property-related documents and certificates such as Mortgage Permission, Transfer Certificate, and Sub Division Permission Order.",
+   "id": "helpline:079_23288575",
+   "type": "HELPLINE",
+   "name": "Garvi helpline",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "(079) 23288575"
+    ]
    },
    "sources": [
     {
-     "sourceId": "src:e567da21d421",
-     "evidence": "Applicant will require following details to access and obtain different documents/certificates in their DigiLocker account:\n1) Party Code (Can be accessed from GG user login in ‘My Property’ Section)",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e567da21d421",
-     "evidence": "1 |\n2R Permission (Mortgage) Order |\nMortgage Permission |\n27/08/2019 |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e567da21d421",
-     "evidence": "2 |\nProvisional Transfer Order |\nTransfer Certificate / Order |\n20/12/2019 |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e567da21d421",
-     "evidence": "3 |\nFinal Transfer Order |\nTransfer Certificate / Order |\n20/12/2019 |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e567da21d421",
-     "evidence": "4 |\nRights of Use (PTO) |\nRights of Use Permission |\n27/08/2019 |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e567da21d421",
-     "evidence": "5 |\nRights of Use (FTO) |\nRights of Use Permission |\n27/08/2019 |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e567da21d421",
-     "evidence": "6 |\nSurrender (Rescindment Order) |\nSurrender Order |\n28/01/2020 |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e567da21d421",
-     "evidence": "7 |\nSurrender (Refund Order) |\nSurrender Order |\n28/01/2020 |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e567da21d421",
-     "evidence": "8 |\nSub Division (PSO) |\nSub Division Permission Order |\n25/08/2019 |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e567da21d421",
-     "evidence": "9 |\nSub Division (FSO) |\nSub Division Permission Order |\n25/08/2019 |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e567da21d421",
-     "evidence": "10 |\nAmalgamation (PAO) |\nAmalgamation Order |\n08/01/2020 |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:e567da21d421",
-     "evidence": "11 |\nAmalgamation (FAO) |\nAmalgamation Order |\n08/01/2020 |",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-23"
-  },
-  {
-   "id": "grievance:application_for_allotment_of_properties",
-   "type": "GRIEVANCE_CHANNEL",
-   "name": "Grievances about application for allotment of properties",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "GRIEVANCE_PORTAL"
-   },
-   "sources": [
-    {
-     "sourceId": "src:3203b82bd43a",
-     "evidence": "Email\ngidc@gujarat.gov.in\ngidc@gidcgujarat.org",
+     "sourceId": "src:f5495cb6866c",
+     "evidence": "Phone:\n(079) 23288575",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
   },
   {
-   "id": "service:application_for_allotment_of_properties",
-   "type": "SERVICE",
-   "name": "Application For Allotment Of Properties",
-   "officialName": "application for allotment of properties",
-   "aliases": [
-    "gidc application for allotment",
-    "gidc property allotment"
-   ],
-   "description": "The service allows applicants to apply online for the allotment of properties in GIDC estates.",
+   "id": "office:igr_department",
+   "type": "OFFICE",
+   "name": "IGR Department",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Stamp & Registration Bhavan, KH-5, Sector-14, Gandhinagar, Gujarat - 382016"
    },
    "sources": [
     {
-     "sourceId": "src:3203b82bd43a",
-     "evidence": "Application for allotment of properties in GIDC estates is accepted online.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:3203b82bd43a",
-     "evidence": "An application will be considered complete after the applicant submits the online copies of application and required documents (including project presentation).",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:3203b82bd43a",
-     "evidence": "The applicant has to submit the print out of the system generated application and acknowledgement receipt along with all necessary documents through Registered post (RPAD) to the office of concerned Regional Manager within 30 days from the date of applying online.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:3203b82bd43a",
-     "evidence": "The applicants shall not be allowed to vary from the details submitted by him/her online. No change shall be allowed in the details once it is submitted online.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:3203b82bd43a",
-     "evidence": "You will need to first register on the portal to make an Online Application.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:3203b82bd43a",
-     "evidence": "You will have to agree to these terms and conditions by clicking on the check box which you will find at the bottom of the page which opens with the given link. Only after you have clicked on the check box, the link for online application will activate.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:3203b82bd43a",
-     "evidence": "After clicking on Online Application link you can Search for a property/properties.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:3203b82bd43a",
-     "evidence": "GIDC field office will thoroughly evaluate/scrutinize the application along with the documents submitted and If require GIDC may ask for additional documents/ information/clarification from the applicant.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:3203b82bd43a",
-     "evidence": "After scrutiny if all submitted documents meeting the requirements , field office will confirm the application and a priority number will be assigned to applicant",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:3203b82bd43a",
-     "evidence": "After confirmation of the application, it will be forwarded to head office to check/evaluate the submitted project report and presentation to determine the possibility of allotment to the applicant.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:3203b82bd43a",
-     "evidence": "If any of the requirement mentioned in the application isn’t clear than GIDC will either contact applicant for clarification or if require GIDC will ask applicant for further information verification/ presentation of their proposed project/unit at GIDC head office for counselling before the final decision of land allotment.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:3203b82bd43a",
-     "evidence": "During counselling of applicant corporation will suggest the applicant to match the required norms and criteria defined by corporation like water demand, power demand, effluent generation, solid waste generation and any other requirement needs to be corrected.",
+     "sourceId": "src:8dfcd1797be4",
+     "evidence": "Website Content Managed by IGR Department, Government of Gujarat",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
-   ],
-   "lastVerifiedAt": "2026-08-23"
+   ]
   },
   {
    "id": "office:stamp_registration_bhavan",
@@ -509,26 +384,6 @@
     {
      "sourceId": "src:b28223f1098a",
      "evidence": "Stamp & Registration Bhavan KH-5, Sector-14, Gandhinagar, Gujarat - 382016",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "helpline:079_23288575",
-   "type": "HELPLINE",
-   "name": "Garvi helpline",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHONE",
-    "phoneNumbers": [
-     "(079) 23288575"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:b28223f1098a",
-     "evidence": "Phone: (079) 23288575",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -653,115 +508,98 @@
    ]
   },
   {
-   "id": "office:igr_department",
-   "type": "OFFICE",
-   "name": "IGR Department",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "address": "Government of Gujarat"
-   },
-   "sources": [
-    {
-     "sourceId": "src:475740ce025b",
-     "evidence": "Website Content Managed by IGR Department, Government of Gujarat Designed, Developed and Hosted by National Informatics Centre ( NIC )",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
    "id": "service:garvi",
    "type": "SERVICE",
    "name": "Garvi",
    "officialName": "Garvi",
    "aliases": [
+    "garvi 2.0",
+    "garvi (gujarati: ગરવી)",
     "garvi portal",
     "automation of administration of registration, valuation & indexing in gujarat",
     "garvi",
-    "garvi 2.0",
     "garvi (automation of administration of registration, valuation & indexing in gujarat)"
    ],
-   "description": "The Garvi portal provides online services for the registration of documents, payment of Stamp Duty and Registration Fee, and property-related information.",
+   "description": "Citizens can submit document details for registration and pay Stamp Duty and Registration Fee online through the GARVI 2.0 web-based application.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "machineExtracted": true
    },
    "sources": [
     {
-     "sourceId": "src:b28223f1098a",
-     "evidence": "Garvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides the services to the citizen to submit the details regarding the document for registration of Document and online facility to pay the Stamp Duty and Registration Fee.",
-     "confidence": 1,
+     "sourceId": "src:f5495cb6866c",
+     "evidence": "District (જીલ્લો પસંદ કરો)\n|\n---Select District---",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:b28223f1098a",
-     "evidence": "Online facility of P.D.E (Public Data Entry) using which party can submit the details (Party Names, Property Details, Stamp Duty paid etc.) regarding the document to Sub Registrar Office for registration of Document.",
-     "confidence": 1,
+     "sourceId": "src:f5495cb6866c",
+     "evidence": "Taluka (તાલુકો પસંદ કરો)\n|\n|",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:b28223f1098a",
-     "evidence": "E-Payment System is facility to provide online pay the Stamp Duty and Registration Fee.",
-     "confidence": 1,
+     "sourceId": "src:f5495cb6866c",
+     "evidence": "Village (ગામ પસંદ કરો)\n|\n|",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:b28223f1098a",
-     "evidence": "Online Facility of Appointment Scheduler to provide available time slot for Registration Document to the parties.",
-     "confidence": 1,
+     "sourceId": "src:f5495cb6866c",
+     "evidence": "Select Property Type(પ્રકાર)\n|\n---Select Type---\nT.P/F.P-URBAN(ટી.પી./એફ.પી.-શહેરી)\nCity Survey-URBAN(શહેર સર્વે)\nSurvey-URBAN(સર્વે)\nBlock-URBAN(વિભાગ)\nRURAL(ગ્રામીણ)",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:b28223f1098a",
-     "evidence": "Application provide facility to search property, get index2copy & document copy and find Jantri rate.",
-     "confidence": 1,
+     "sourceId": "src:f5495cb6866c",
+     "evidence": "Property Type(સંપત્તિનો પ્રકાર)\n|\n== Select ==\nNon-Agriculture Land (Open Plot)\nResidential - Flat / Apartment\nResidential -Tenement / Row - House / Bunglows\nCommercial - Shop\nCommercial - Offices\nIndustry - SSI\nIndustry - LSI\nAgriculture (Open Land Farm )\nAgriculture (Open Land Farm ) Bin Piyat",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:b28223f1098a",
-     "evidence": "Online Facility of Information regarding Rate of Stamp Duty and Registration Fees and find Approximate Market Value of the property.",
-     "confidence": 1,
+     "sourceId": "src:f5495cb6866c",
+     "evidence": "Survey Number(સર્વે નંબર)\n|",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:b28223f1098a",
-     "evidence": "Online service for purchasing stamp papers. Get digital stamps with secure online payment.",
-     "confidence": 1,
+     "sourceId": "src:f5495cb6866c",
+     "evidence": "Construction Rate(બાંધકામ દર)\n|",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:b28223f1098a",
-     "evidence": "Property Valuation Calculate property rates and valuation. Get jantri rates and location-based information.",
-     "confidence": 1,
+     "sourceId": "src:f5495cb6866c",
+     "evidence": "Construction Type(બાંધકામનો પ્રકાર)\n|",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:b28223f1098a",
-     "evidence": "Slot Availability Check available time slots for registration. Select your preferred date and time easily.",
-     "confidence": 1,
+     "sourceId": "src:f5495cb6866c",
+     "evidence": "Level Type(સ્તરનો પ્રકાર)\n|\n== Select ==\nFINISHED Construction\nWITH SLAB - InComplete Consturction\nWITHOUT SLAB - InComplete Consturction",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:17fa5d9e6b48",
-     "evidence": "Enter Mobile No(મોબાઇલ નંબર દાખલ કરો) :",
-     "confidence": 0.95,
+     "sourceId": "src:f5495cb6866c",
+     "evidence": "For Commercial Shop Only(ફક્ત વાણિજ્યિક દુકાન માટે)\n|\nNA\nShops having Frontage of Road\nShops not having Frontage of Road",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:17fa5d9e6b48",
-     "evidence": "Wait till Verification Code Receive In Your Mobile No.(તમારા મોબાઇલ નંબર પર ચકાસણી કોડ પ્રાપ્ત ન થાય ત્યાં સુધી રાહ જુઓ).",
-     "confidence": 0.95,
+     "sourceId": "src:f5495cb6866c",
+     "evidence": "For Commercial Only(ફક્ત વાણિજ્યિક માટે)\n|\nNA\nBank,Hospital,Nursing Home, Coaching Class, Library\nOther",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:17fa5d9e6b48",
-     "evidence": "Enter Document Number (દસ્તાવેજ નંબર દાખલ કરો) :",
-     "confidence": 0.95,
+     "sourceId": "src:f5495cb6866c",
+     "evidence": "For Residential-Flat/Apartment(રહેણાંક-ફ્લેટ/એપાર્ટમેન્ટ માટે)\n|\nNA\nWith Lift\nWithout lift",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "portal:garvi_gujarat_gov_in",
@@ -774,8 +612,308 @@
    },
    "sources": [
     {
-     "sourceId": "src:b28223f1098a",
-     "evidence": "Garvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides the services to the citizen to submit the details regarding the document for registration of Document and online facility to pay the Stamp Duty and Registration Fee.",
+     "sourceId": "src:f5495cb6866c",
+     "evidence": "District (જીલ્લો પસંદ કરો)\n|\n---Select District---",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:digilocker",
+   "type": "SERVICE",
+   "name": "DigiLocker",
+   "officialName": "DigiLocker",
+   "description": "DigiLocker provides access to various property-related documents and certificates such as Mortgage Permission, Transfer Certificate, and Sub Division Permission Order.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "Applicant will require following details to access and obtain different documents/certificates in their DigiLocker account:\n1) Party Code (Can be accessed from GG user login in ‘My Property’ Section)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "1 |\n2R Permission (Mortgage) Order |\nMortgage Permission |\n27/08/2019 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "2 |\nProvisional Transfer Order |\nTransfer Certificate / Order |\n20/12/2019 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "3 |\nFinal Transfer Order |\nTransfer Certificate / Order |\n20/12/2019 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "4 |\nRights of Use (PTO) |\nRights of Use Permission |\n27/08/2019 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "5 |\nRights of Use (FTO) |\nRights of Use Permission |\n27/08/2019 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "6 |\nSurrender (Rescindment Order) |\nSurrender Order |\n28/01/2020 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "7 |\nSurrender (Refund Order) |\nSurrender Order |\n28/01/2020 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "8 |\nSub Division (PSO) |\nSub Division Permission Order |\n25/08/2019 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "9 |\nSub Division (FSO) |\nSub Division Permission Order |\n25/08/2019 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "10 |\nAmalgamation (PAO) |\nAmalgamation Order |\n08/01/2020 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "11 |\nAmalgamation (FAO) |\nAmalgamation Order |\n08/01/2020 |",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-24"
+  },
+  {
+   "id": "grievance:application_for_allotment_of_properties",
+   "type": "GRIEVANCE_CHANNEL",
+   "name": "Grievances about application for allotment of properties",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "GRIEVANCE_PORTAL"
+   },
+   "sources": [
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "Email\ngidc@gujarat.gov.in\ngidc@gidcgujarat.org",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "service:application_for_allotment_of_properties",
+   "type": "SERVICE",
+   "name": "Application For Allotment Of Properties",
+   "officialName": "application for allotment of properties",
+   "aliases": [
+    "gidc application for allotment",
+    "gidc property allotment"
+   ],
+   "description": "The service allows applicants to apply online for the allotment of properties in GIDC estates.",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "Application for allotment of properties in GIDC estates is accepted online.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "An application will be considered complete after the applicant submits the online copies of application and required documents (including project presentation).",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "The applicant has to submit the print out of the system generated application and acknowledgement receipt along with all necessary documents through Registered post (RPAD) to the office of concerned Regional Manager within 30 days from the date of applying online.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "The applicants shall not be allowed to vary from the details submitted by him/her online. No change shall be allowed in the details once it is submitted online.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "You will need to first register on the portal to make an Online Application.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "You will have to agree to these terms and conditions by clicking on the check box which you will find at the bottom of the page which opens with the given link. Only after you have clicked on the check box, the link for online application will activate.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "After clicking on Online Application link you can Search for a property/properties.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "GIDC field office will thoroughly evaluate/scrutinize the application along with the documents submitted and If require GIDC may ask for additional documents/ information/clarification from the applicant.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "After scrutiny if all submitted documents meeting the requirements , field office will confirm the application and a priority number will be assigned to applicant",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "After confirmation of the application, it will be forwarded to head office to check/evaluate the submitted project report and presentation to determine the possibility of allotment to the applicant.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "If any of the requirement mentioned in the application isn’t clear than GIDC will either contact applicant for clarification or if require GIDC will ask applicant for further information verification/ presentation of their proposed project/unit at GIDC head office for counselling before the final decision of land allotment.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:3203b82bd43a",
+     "evidence": "During counselling of applicant corporation will suggest the applicant to match the required norms and criteria defined by corporation like water demand, power demand, effluent generation, solid waste generation and any other requirement needs to be corrected.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-24"
+  },
+  {
+   "id": "service:e_gram_vishvagram_yojana",
+   "type": "SERVICE",
+   "name": "E-Gram Vishvagram Yojana",
+   "officialName": "E-Gram Vishvagram Yojana",
+   "aliases": [
+    "ઇ-ગ્રામ વિશ્‍વગ્રામ યોજના"
+   ],
+   "description": "The E-Gram Vishvagram Yojana provides various e-services including property tax payments, birth and death registrations, utility bill payments, and access to licenses and certificates through Common Service Centers.",
+   "jurisdictionId": "IN-GJ-VADODARA",
+   "metadata": {
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:cba67fd37013",
+     "evidence": "કોમન સર્વ&zwj;િસ સેન્&zwj;ટર દ્વારા આ૫વામાં આવનારી સરકારી તથા ખાનગી કં૫નીની ઇ-સેવાઓ.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cba67fd37013",
+     "evidence": "જમીન રેકોર્ડ દસ્&zwj;તાવેજો (૭/૧૨ અને ૮/અ)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cba67fd37013",
+     "evidence": "મિલ્&zwj;કત સબંઘી કરવેરાની ચુકવણીની વસૂલાત",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cba67fd37013",
+     "evidence": "જન્&zwj;મ અને મરણની નોંધણી",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cba67fd37013",
+     "evidence": "વિવિધ ગ્રાહક લક્ષી સુવિધાઓ",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cba67fd37013",
+     "evidence": "વીજળી, ટેલિફોન, મોબાઇલ વગેરે) ના બિલોની ચુકવણી..",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cba67fd37013",
+     "evidence": "સામુદાયિક પ્રમાણ૫ત્રો, મામલતદારે કાઢી આ૫વાનાં પ્રમાણ ૫ત્રો અને સોગંદનામા માટેનું દસ્&zwj;તાવેજીકરણ.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cba67fd37013",
+     "evidence": "લાયસન્&zwj;સ, ૫રવાના, ના-વાંધા પ્રમાણ૫ત્ર, વિમો.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cba67fd37013",
+     "evidence": "જુદી જુદી યોજનાઓ અંગેનાં અને કોમ્&zwj;પ્&zwj;યુટર શિક્ષણ માટેના દસ્&zwj;તાવેજો તૈયાર કરવા.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cba67fd37013",
+     "evidence": "ટેલિમેડિસીન (ટેલિવિઝનની મદદથી ઉ૫ચાર)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cba67fd37013",
+     "evidence": "કૃષ&zwj;િલક્ષી ચીજવસ્&zwj;તુઓ માટે બજાર સં૫ર્ક કડીઓ.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:cba67fd37013",
+     "evidence": "સ્&zwj;ટેમ્&zwj;૫ પે૫રનું વેચાણ",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-24"
+  },
+  {
+   "id": "portal:vadodaradp_gujarat_gov_in",
+   "type": "PORTAL",
+   "name": "vadodaradp.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ-VADODARA",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://vadodaradp.gujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:cba67fd37013",
+     "evidence": "કોમન સર્વ&zwj;િસ સેન્&zwj;ટર દ્વારા આ૫વામાં આવનારી સરકારી તથા ખાનગી કં૫નીની ઇ-સેવાઓ.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -841,7 +979,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "helpline:1800_233_0131",
@@ -952,7 +1090,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "service:land_allocation_for_housing",
@@ -1021,7 +1159,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "service:plot_or_shed_allotment",
@@ -1095,7 +1233,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "service:government_office_land_request",
@@ -1161,7 +1299,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "grievance:property_card",
@@ -1240,7 +1378,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "portal:e_milkat_gujarat_gov_in",
@@ -1296,7 +1434,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "grievance:property_tax_bill",
@@ -1363,7 +1501,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "document:certified_copy_lower_court_order",
@@ -1378,7 +1516,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "document:court_fee_stamp",
@@ -1393,7 +1531,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "service:appeal_and_revision_applications",
@@ -1419,7 +1557,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "document:deposit_proof_copy",
@@ -1434,7 +1572,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "service:copy_of_documents",
@@ -1464,7 +1602,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "service:garvi_2_0",
@@ -1484,7 +1622,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "grievance:jamnagar_municipal_corporation",
@@ -1516,7 +1654,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "service:property_records",
@@ -1573,7 +1711,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "portal:anand_gujarat_gov_in",
@@ -1606,7 +1744,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "document:competent_officer_order",
@@ -1621,7 +1759,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "document:layout_plan",
@@ -1636,7 +1774,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "service:city_survey_title_deed_registration",
@@ -1665,7 +1803,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "portal:devbhumidwarka_gujarat_gov_in",
@@ -1723,7 +1861,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "portal:stampsregistration_gujarat_gov_in",
@@ -1783,7 +1921,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "portal:revenueappeals_gujarat_gov_in",
@@ -1816,7 +1954,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "service:stamp_duty",
@@ -1848,7 +1986,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   },
   {
    "id": "portal:ircms_gujarat_gov_in",
@@ -1932,10 +2070,170 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-23"
+   "lastVerifiedAt": "2026-08-24"
   }
  ],
  "edges": [
+  {
+   "id": "e:service_garvi__call_if__helpline_079_23288575",
+   "from": "service:garvi",
+   "to": "helpline:079_23288575",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The contact phone number for the Stamp & Registration Bhavan is (079) 23288575.",
+   "sources": [
+    {
+     "sourceId": "src:f5495cb6866c",
+     "evidence": "Phone:\n(079) 23288575",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi__visit_at__office_igr_department",
+   "from": "service:garvi",
+   "to": "office:igr_department",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Garvi website is managed by the IGR Department of the Government of Gujarat.",
+   "sources": [
+    {
+     "sourceId": "src:8dfcd1797be4",
+     "evidence": "Website Content Managed by IGR Department, Government of Gujarat",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi__visit_at__office_stamp_registration_bhavan",
+   "from": "service:garvi",
+   "to": "office:stamp_registration_bhavan",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The contact information for the IGR Department is Stamp & Registration Bhavan, KH-5, Sector-14, Gandhinagar, Gujarat - 382016.",
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Stamp & Registration Bhavan KH-5, Sector-14, Gandhinagar, Gujarat - 382016",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi__call_if__helpline_079_23277200",
+   "from": "service:garvi",
+   "to": "helpline:079_23277200",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The help desk contact number for the Garvi portal is (079) 23277200.",
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Help Desk: (079) 23277200",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi__escalate_to__grievance_garvi",
+   "from": "service:garvi",
+   "to": "grievance:garvi",
+   "type": "ESCALATE_TO",
+   "verificationStatus": "EXTRACTED",
+   "note": "The help desk email for the Garvi portal is helpdesk-igr[at]gujarat[dot]gov[dot]in.",
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "helpdesk-igr[at]gujarat[dot]gov[dot]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi__visit_at__office_contact_info",
+   "from": "service:garvi",
+   "to": "office:contact_info",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The contact information for the GARVI 2.0 website is at Stamp & Registration Bhavan, KH-5, Sector-14, Gandhinagar, Gujarat - 382016.",
+   "sources": [
+    {
+     "sourceId": "src:4b89c4b38ed9",
+     "evidence": "Contact Info Stamp & Registration Bhavan KH-5, Sector-14, Gandhinagar, Gujarat - 382016 Phone: (079) 23288575",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi__call_if__helpline_07923277200",
+   "from": "service:garvi",
+   "to": "helpline:07923277200",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Garvi Help Desk can be contacted at phone number 07923277200 for all Garvi-related issues and queries.",
+   "sources": [
+    {
+     "sourceId": "src:9e79ead531ad",
+     "evidence": "Garvi Help Desk\nFor all Garvi-related issues and queries\n📞\n07923277200\n✉️\nhelpdesk-igr[at]gujarat[dot]gov[dot]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi__call_if__helpline_07923288264",
+   "from": "service:garvi",
+   "to": "helpline:07923288264",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Refund Branch can be contacted at phone number 07923288264 for refund-related issues and queries.",
+   "sources": [
+    {
+     "sourceId": "src:9e79ead531ad",
+     "evidence": "Refund Branch\nFor refund-related issues and queries\n📞\n07923288264\n✉️\nstamps-refund[at]gujarat[dot]gov[dot]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi__call_if__helpline_07923256342",
+   "from": "service:garvi",
+   "to": "helpline:07923256342",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The EDP Cell can be contacted at phone number 07923256342 for Cyber Treasury payment issues.",
+   "sources": [
+    {
+     "sourceId": "src:9e79ead531ad",
+     "evidence": "EDP Cell\nFor Cyber Treasury payment issues\n📞\n07923256342\n✉️\nedpcell-dat[at]gujarat[dot]gov[dot]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garvi__apply_at__portal_garvi_gujarat_gov_in",
+   "from": "service:garvi",
+   "to": "portal:garvi_gujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "Published on garvi.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:f5495cb6866c",
+     "evidence": "District (જીલ્લો પસંદ કરો)\n|\n---Select District---",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
   {
    "id": "e:service_digilocker__visit_at__office_gidc_office",
    "from": "service:digilocker",
@@ -2049,160 +2347,16 @@
    ]
   },
   {
-   "id": "e:service_garvi__visit_at__office_stamp_registration_bhavan",
-   "from": "service:garvi",
-   "to": "office:stamp_registration_bhavan",
-   "type": "VISIT_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "The contact information for the IGR Department is Stamp & Registration Bhavan, KH-5, Sector-14, Gandhinagar, Gujarat - 382016.",
-   "sources": [
-    {
-     "sourceId": "src:b28223f1098a",
-     "evidence": "Stamp & Registration Bhavan KH-5, Sector-14, Gandhinagar, Gujarat - 382016",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_garvi__call_if__helpline_079_23288575",
-   "from": "service:garvi",
-   "to": "helpline:079_23288575",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The contact phone number for the IGR Department is (079) 23288575.",
-   "sources": [
-    {
-     "sourceId": "src:b28223f1098a",
-     "evidence": "Phone: (079) 23288575",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_garvi__call_if__helpline_079_23277200",
-   "from": "service:garvi",
-   "to": "helpline:079_23277200",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The help desk contact number for the Garvi portal is (079) 23277200.",
-   "sources": [
-    {
-     "sourceId": "src:b28223f1098a",
-     "evidence": "Help Desk: (079) 23277200",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_garvi__escalate_to__grievance_garvi",
-   "from": "service:garvi",
-   "to": "grievance:garvi",
-   "type": "ESCALATE_TO",
-   "verificationStatus": "EXTRACTED",
-   "note": "The help desk email for the Garvi portal is helpdesk-igr[at]gujarat[dot]gov[dot]in.",
-   "sources": [
-    {
-     "sourceId": "src:b28223f1098a",
-     "evidence": "helpdesk-igr[at]gujarat[dot]gov[dot]in",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_garvi__visit_at__office_contact_info",
-   "from": "service:garvi",
-   "to": "office:contact_info",
-   "type": "VISIT_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "The contact information for the GARVI 2.0 website is at Stamp & Registration Bhavan, KH-5, Sector-14, Gandhinagar, Gujarat - 382016.",
-   "sources": [
-    {
-     "sourceId": "src:4b89c4b38ed9",
-     "evidence": "Contact Info Stamp & Registration Bhavan KH-5, Sector-14, Gandhinagar, Gujarat - 382016 Phone: (079) 23288575",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_garvi__call_if__helpline_07923277200",
-   "from": "service:garvi",
-   "to": "helpline:07923277200",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Garvi Help Desk can be contacted at phone number 07923277200 for all Garvi-related issues and queries.",
-   "sources": [
-    {
-     "sourceId": "src:9e79ead531ad",
-     "evidence": "Garvi Help Desk\nFor all Garvi-related issues and queries\n📞\n07923277200\n✉️\nhelpdesk-igr[at]gujarat[dot]gov[dot]in",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_garvi__call_if__helpline_07923288264",
-   "from": "service:garvi",
-   "to": "helpline:07923288264",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Refund Branch can be contacted at phone number 07923288264 for refund-related issues and queries.",
-   "sources": [
-    {
-     "sourceId": "src:9e79ead531ad",
-     "evidence": "Refund Branch\nFor refund-related issues and queries\n📞\n07923288264\n✉️\nstamps-refund[at]gujarat[dot]gov[dot]in",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_garvi__call_if__helpline_07923256342",
-   "from": "service:garvi",
-   "to": "helpline:07923256342",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The EDP Cell can be contacted at phone number 07923256342 for Cyber Treasury payment issues.",
-   "sources": [
-    {
-     "sourceId": "src:9e79ead531ad",
-     "evidence": "EDP Cell\nFor Cyber Treasury payment issues\n📞\n07923256342\n✉️\nedpcell-dat[at]gujarat[dot]gov[dot]in",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_garvi__visit_at__office_igr_department",
-   "from": "service:garvi",
-   "to": "office:igr_department",
-   "type": "VISIT_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "The GARVI 2.0 application is managed by the IGR Department of the Government of Gujarat.",
-   "sources": [
-    {
-     "sourceId": "src:475740ce025b",
-     "evidence": "Website Content Managed by IGR Department, Government of Gujarat Designed, Developed and Hosted by National Informatics Centre ( NIC )",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_garvi__apply_at__portal_garvi_gujarat_gov_in",
-   "from": "service:garvi",
-   "to": "portal:garvi_gujarat_gov_in",
+   "id": "e:service_e_gram_vishvagram_yojana__apply_at__portal_vadodaradp_gujarat_gov_in",
+   "from": "service:e_gram_vishvagram_yojana",
+   "to": "portal:vadodaradp_gujarat_gov_in",
    "type": "APPLY_AT",
    "verificationStatus": "EXTRACTED",
-   "note": "Published on garvi.gujarat.gov.in.",
+   "note": "Published on vadodaradp.gujarat.gov.in.",
    "sources": [
     {
-     "sourceId": "src:b28223f1098a",
-     "evidence": "Garvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides the services to the citizen to submit the details regarding the document for registration of Document and online facility to pay the Stamp Duty and Registration Fee.",
+     "sourceId": "src:cba67fd37013",
+     "evidence": "કોમન સર્વ&zwj;િસ સેન્&zwj;ટર દ્વારા આ૫વામાં આવનારી સરકારી તથા ખાનગી કં૫નીની ઇ-સેવાઓ.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }

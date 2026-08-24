@@ -1,6 +1,6 @@
 {
  "journey": "district-certificates",
- "researchedAt": "2026-08-23",
+ "researchedAt": "2026-08-24",
  "region": "Gujarat, India",
  "sources": [
   {
@@ -133,6 +133,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "47137b014ff3692d47cb503157f78abe9f15b414941a73e90876e00df97b0edc",
    "cacheFile": ".ingest/pages/449ac59ef7842344e1e654219726d69d2c11c2a7.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:75df169cf632",
+   "url": "https://ahmedabad.gujarat.gov.in/Unreserved-Class-Certificate",
+   "title": "બીનઅનામત વર્ગનું જાતિનું પ્રમાણપત્ર મેળવવા બાબત | Certificate | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
+   "domain": "ahmedabad.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "1b986637c66c410a5bcaebe5b3cc261986f99062a7518a905adc2a5c2eabc1d4",
+   "cacheFile": ".ingest/pages/75df169cf632f39b743d9fd8c3ad7c0f47b33229.md",
    "scrapedOk": true
   },
   {
@@ -412,18 +424,6 @@
    "scrapedOk": true
   },
   {
-   "id": "src:75df169cf632",
-   "url": "https://ahmedabad.gujarat.gov.in/Unreserved-Class-Certificate",
-   "title": "બીનઅનામત વર્ગનું જાતિનું પ્રમાણપત્ર મેળવવા બાબત | Certificate | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
-   "domain": "ahmedabad.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ-AHMEDABAD",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "1b986637c66c410a5bcaebe5b3cc261986f99062a7518a905adc2a5c2eabc1d4",
-   "cacheFile": ".ingest/pages/75df169cf632f39b743d9fd8c3ad7c0f47b33229.md",
-   "scrapedOk": true
-  },
-  {
    "id": "src:5c9f24f67a98",
    "url": "https://collectorgandhinagar.gujarat.gov.in/salary-certificate",
    "title": "આવક અંગેનું પ્રમાણપત્ર મેળવવા બાબત | Certificate | Jan Seva Kendra form | Collectorate - District Gandhinagar",
@@ -457,6 +457,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "2eb25e50272470283efd28418fcc1ddc05035ca849aa23582efb08ad5a0369cd",
    "cacheFile": ".ingest/pages/f04a62b696254ae90531ab54a54969a9ab351703.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:a785edfb12ce",
+   "url": "https://www.myscheme.gov.in/schemes/lcrlc",
+   "title": "Labour Card and Renewal of Labour Card",
+   "domain": "myscheme.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "2da056837e244eafefbca3fa897708b0a0131bd28b4a24fe63d364e05e13c7ab",
+   "cacheFile": ".ingest/pages/a785edfb12cee1c5221d18c22245575c9bba3f8a.md",
    "scrapedOk": true
   },
   {
@@ -760,15 +772,15 @@
    "scrapedOk": true
   },
   {
-   "id": "src:119c5e4a63b6",
-   "url": "https://ahmedabad.gujarat.gov.in/religion-and-lunguages-certificate",
-   "title": "ધાર્મિક અને ભાષાકીય લઘુમતી અંગેનું પ્રમાણપત્ર મેળવવા બાબત | Certificate | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
-   "domain": "ahmedabad.gujarat.gov.in",
+   "id": "src:517e00ce5909",
+   "url": "https://collectorjamnagar.gujarat.gov.in/education-nationality-certificate",
+   "title": "શૈક્ષણિક હેતુ માટે નેશનાલીટી સર્ટીફીકેટ મેળવવા બાબત | Miscellaneous | Jan Seva Kendra Form | Collectorate - District Jamnagar",
+   "domain": "collectorjamnagar.gujarat.gov.in",
    "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "jurisdictionId": "IN-GJ-JAMNAGAR",
    "retrievedAt": "2026-08-23",
-   "contentHash": "4445fd23fb2a35cd23aacb13a4551eeb3fea9508fedd35e1ce38d90ab19a8b62",
-   "cacheFile": ".ingest/pages/119c5e4a63b601ec3d59107491ae2effb6abc0ab.md",
+   "contentHash": "d3c032698b056966244f8019996388af4c7f45bbd85ccb6b8c5d36d86b3e8207",
+   "cacheFile": ".ingest/pages/517e00ce5909be35713cecca4dd8944f81c49530.md",
    "scrapedOk": true
   },
   {
@@ -880,18 +892,6 @@
    "scrapedOk": true
   },
   {
-   "id": "src:517e00ce5909",
-   "url": "https://collectorjamnagar.gujarat.gov.in/education-nationality-certificate",
-   "title": "શૈક્ષણિક હેતુ માટે નેશનાલીટી સર્ટીફીકેટ મેળવવા બાબત | Miscellaneous | Jan Seva Kendra Form | Collectorate - District Jamnagar",
-   "domain": "collectorjamnagar.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ-JAMNAGAR",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "d3c032698b056966244f8019996388af4c7f45bbd85ccb6b8c5d36d86b3e8207",
-   "cacheFile": ".ingest/pages/517e00ce5909be35713cecca4dd8944f81c49530.md",
-   "scrapedOk": true
-  },
-  {
    "id": "src:07bb8617aff4",
    "url": "https://collectorporbandar.gujarat.gov.in/showpage.aspx?contentid=344",
    "title": "જન્મ/લગ્ન/મરણ/સ્કુલ લીવીંગ સર્ટી/એફીડેવીટ/વેપાર/નિકાસને લગતા | Miscellaneous | Jan Seva Kendra form | Collectorate - District Porbandar",
@@ -913,6 +913,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "c432dff232635fa23fd24c8c746f902ef4fc145a83cef53afe266ea6a6525469",
    "cacheFile": ".ingest/pages/ac090386fb23783904cd3186b440dee99e24bb5f.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:119c5e4a63b6",
+   "url": "https://ahmedabad.gujarat.gov.in/religion-and-lunguages-certificate",
+   "title": "ધાર્મિક અને ભાષાકીય લઘુમતી અંગેનું પ્રમાણપત્ર મેળવવા બાબત | Certificate | Jan Seva Kendra Form | Collectorate - District Ahmedabad",
+   "domain": "ahmedabad.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "4445fd23fb2a35cd23aacb13a4551eeb3fea9508fedd35e1ce38d90ab19a8b62",
+   "cacheFile": ".ingest/pages/119c5e4a63b601ec3d59107491ae2effb6abc0ab.md",
    "scrapedOk": true
   },
   {
@@ -1012,6 +1024,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:1b74c860ba97",
+   "url": "https://dcoffice.gujarat.gov.in/gu/Gujarat-Panchayat-Service-Selection-Board",
+   "title": "Development Commissioner",
+   "domain": "dcoffice.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "dafaff9d5c02f1a5b4cfe5b6ac3d557020644f05b2268f3c8228b69f75b63add",
+   "cacheFile": ".ingest/pages/1b74c860ba97790bcd23ab2ddd4ebebec55db5cc.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:a3a32e089536",
    "url": "https://empower.gujarat.gov.in/KVK/Registration.aspx",
    "title": ":: KVK, Commissionerate of Employment and Training, Government of Gujarat ::",
@@ -1072,18 +1096,6 @@
    "scrapedOk": true
   },
   {
-   "id": "src:1e206910c90b",
-   "url": "https://www.nhb.org.in/format-for-utilization-certificate",
-   "title": "Format for Utilization certificate - National Housing Bank",
-   "domain": "nhb.org.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "0dd1b03d3de4b164a0094e2bd7e78edbffaccd93b192612a4f26430c359b68c2",
-   "cacheFile": ".ingest/pages/1e206910c90be35201442cc59250979af27dc34d.md",
-   "scrapedOk": true
-  },
-  {
    "id": "src:6b7dd4f0c210",
    "url": "https://ojas.gujarat.gov.in/AdvtDetailFiles/GSRTC_201819_19.pdf#page=10",
    "title": "GSRTC_201819_19 (page 10 of 17)",
@@ -1093,6 +1105,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "52a6b933b44ad54fd94a48dc353623762415ffabbe3cb824b114291e16087815",
    "cacheFile": ".ingest/pages/6b7dd4f0c2109ecb88365e706078a3fecd3c276d.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:1e206910c90b",
+   "url": "https://www.nhb.org.in/format-for-utilization-certificate",
+   "title": "Format for Utilization certificate - National Housing Bank",
+   "domain": "nhb.org.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "0dd1b03d3de4b164a0094e2bd7e78edbffaccd93b192612a4f26430c359b68c2",
+   "cacheFile": ".ingest/pages/1e206910c90be35201442cc59250979af27dc34d.md",
    "scrapedOk": true
   },
   {
@@ -3337,6 +3361,182 @@
    },
    "sourceId": "src:449ac59ef784",
    "evidence": "WhatsApp 63599 30020",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application form for the Unreserved Class Certificate can be submitted to the Collector, Deputy Collector, Assistant Collector, Sub Collector, District Development Officer, Sub District Development Officer, Mamlatdar, Taluka Development Officer, District Sub Inspector (SC/ST), or District Social Welfare Officer (SC/ST).",
+   "kind": "OFFICE",
+   "subject": "unreserved_class_certificate",
+   "object": "application_submission_offices",
+   "detail": {
+    "offices": [
+     "Collector",
+     "Deputy Collector",
+     "Assistant Collector",
+     "Sub Collector",
+     "District Development Officer",
+     "Sub District Development Officer",
+     "Mamlatdar",
+     "Taluka Development Officer",
+     "District Sub Inspector (SC/ST)",
+     "District Social Welfare Officer (SC/ST)"
+    ]
+   },
+   "sourceId": "src:75df169cf632",
+   "evidence": "હું કઈ રીતે બીનઅનામત વર્ગનું જાતિનું પ્રમાણપત્ર મેળવી શકું? કલેક્ટરશ્રી / મદદનીશ કલેક્ટરશ્રી / નાયબ કલેક્ટરશ્રી/જીલ્લા વિકાસ અધિકારીશ્રી / નાયબ જીલ્લા વિકાસ અધિકારીશ્રી/મામલતદારશ્રી/તાલુકા વિકાસ અધિકારીશ્રી/ જીલ્લા નાયબ નિયામકશ્રી (વિ.જા.) / જીલ્લા સમાજ કલ્યાણ અધિકારીશ્રી (વિ.જા.) ને સામાજિક ન્યાય અને અધિકારીતા વિભાગના તા.૩૦/૦૫/૨૦૧૮ ના ઠરાવ ક્ર:સશપ/૧૨૨૦૧૮/૨૧૮૯૨૭/અ ના પરિશિષ્ટ-બ મુજબ અરજી કરવી.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application form for the Unreserved Class Certificate is available for download in Gujarati.",
+   "kind": "APP",
+   "subject": "unreserved_class_certificate",
+   "object": "application_form",
+   "detail": {
+    "file_size": "2149 KB",
+    "language": "Gujarati"
+   },
+   "sourceId": "src:75df169cf632",
+   "evidence": "એપ્લીકેશન ફોર્મ [File Size : 2149 KB] [Gujarati]",
+   "confidence": 0.9
+  },
+  {
+   "claim": "An online application can be submitted for the Unreserved Class Certificate.",
+   "kind": "APP",
+   "subject": "unreserved_class_certificate",
+   "object": "online_application",
+   "detail": {},
+   "sourceId": "src:75df169cf632",
+   "evidence": "ઓનલાઈન અરજી કરો",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The processing time for the Unreserved Class Certificate is a total of 1 day.",
+   "kind": "TIMELINE",
+   "subject": "unreserved_class_certificate",
+   "object": "processing_time",
+   "detail": {
+    "days": "1"
+   },
+   "sourceId": "src:75df169cf632",
+   "evidence": "નિકાલની સમય મર્યાદા કુલ ૧ દિવસ.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A certified copy of documents is required for the Unreserved Class Certificate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "unreserved_class_certificate",
+   "object": "certified_copy_of_documents",
+   "detail": {},
+   "sourceId": "src:75df169cf632",
+   "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "An original affidavit is required for the Unreserved Class Certificate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "unreserved_class_certificate",
+   "object": "original_affidavit",
+   "detail": {},
+   "sourceId": "src:75df169cf632",
+   "evidence": "સોગંદનામું (અસલ)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Proof of residence is required for the Unreserved Class Certificate, and it can be any one of the following: telephone bill, electricity bill, municipal tax bill, driving license, PAN card, or voter photo ID.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "unreserved_class_certificate",
+   "object": "proof_of_residence",
+   "detail": {
+    "documents": [
+     "telephone bill",
+     "electricity bill",
+     "municipal tax bill",
+     "driving license",
+     "PAN card",
+     "voter photo ID"
+    ]
+   },
+   "sourceId": "src:75df169cf632",
+   "evidence": "રહેઠાણનો પુરાવો (ટેલીફોન બીલ/ લાઈટબીલ/ મ્યુનિ.ટેક્ષ બીલ /ડ્રાઈવીંગ લાયસન્સ/પાન કાર્ડ / મતદાર ફોટો વગેરે ઓળખપત્ર પૈકી ગમે તે એક)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A ration card, election card, or Aadhaar card is required for the Unreserved Class Certificate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "unreserved_class_certificate",
+   "object": "ration_election_aadhaar_card",
+   "detail": {
+    "documents": [
+     "ration card",
+     "election card",
+     "Aadhaar card"
+    ]
+   },
+   "sourceId": "src:75df169cf632",
+   "evidence": "રેશનકાર્ડ / ચુંટણી કાર્ડ / આધાર કાર્ડ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A school living certificate of the applicant is required for the Unreserved Class Certificate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "unreserved_class_certificate",
+   "object": "applicant_school_certificate",
+   "detail": {},
+   "sourceId": "src:75df169cf632",
+   "evidence": "અરજદારનું સ્કુલ લિવિંગ સર્ટીફીકેટ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A school living certificate of the applicant's father is required for the Unreserved Class Certificate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "unreserved_class_certificate",
+   "object": "father_school_certificate",
+   "detail": {},
+   "sourceId": "src:75df169cf632",
+   "evidence": "અરજદારના પિતાનું સ્કુલ લિવિંગ સર્ટીફીકેટ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "If required by the competent authority, a document proving the caste of the applicant's grandfather, father, uncle, or grandmother can be requested.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "unreserved_class_certificate",
+   "object": "caste_proving_document",
+   "detail": {
+    "relatives": [
+     "grandfather",
+     "father",
+     "uncle",
+     "grandmother"
+    ]
+   },
+   "sourceId": "src:75df169cf632",
+   "evidence": "સક્ષમ અધિકારીને જરૂર જણાય ત્યાં દાદા, પિતા, કાકા, ફોઈ પૈકી કોઈ એકનો જાતી પુરવાર થાય તેવો દસ્તાવેજ માગી શકશે.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The application process for the Unreserved Class Certificate is handled at the Jan Seva Kendra Ahmedabad.",
+   "kind": "OFFICE",
+   "subject": "unreserved_class_certificate",
+   "object": "application_process_office",
+   "detail": {
+    "office_name": "Jan Seva Kendra Ahmedabad",
+    "address": "Office of The Collector & District Magistrate, Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027"
+   },
+   "sourceId": "src:75df169cf632",
+   "evidence": "Application Process Jan Seva Kendra Ahmedabad Office of The Collector & District Magistrate Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The office hours for the Jan Seva Kendra Ahmedabad are from 8:30 A.M. to 5:30 P.M.",
+   "kind": "TIMELINE",
+   "subject": "jan_seva_kendra_ahmedabad",
+   "object": "office_hours",
+   "detail": {
+    "start_time": "8:30 A.M.",
+    "end_time": "5:30 P.M."
+   },
+   "sourceId": "src:75df169cf632",
+   "evidence": "8:30 A.M To 5:30 P.M",
    "confidence": 0.95
   },
   {
@@ -5881,134 +6081,6 @@
    "confidence": 1
   },
   {
-   "claim": "The processing time for the certificate is 1 day.",
-   "kind": "TIMELINE",
-   "subject": "processing_time",
-   "object": "certificate",
-   "detail": {
-    "days": "1"
-   },
-   "sourceId": "src:75df169cf632",
-   "evidence": "નિકાલની સમય મર્યાદા કુલ ૧ દિવસ.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "An application must be submitted to the Collector, Assistant Collector, Deputy Collector, District Development Officer, Deputy District Development Officer, Mamlatdar, or Taluka Development Officer.",
-   "kind": "OFFICE",
-   "subject": "application_submission",
-   "object": "collector_office",
-   "detail": {
-    "office_name": "Collector / Assistant Collector / Deputy Collector / District Development Officer / Deputy District Development Officer / Mamlatdar / Taluka Development Officer"
-   },
-   "sourceId": "src:75df169cf632",
-   "evidence": "હું કઈ રીતે બીનઅનામત વર્ગનું જાતિનું પ્રમાણપત્ર મેળવી શકું? કલેક્ટરશ્રી / મદદનીશ કલેક્ટરશ્રી / નાયબ કલેક્ટરશ્રી/જીલ્લા વિકાસ અધિકારીશ્રી / નાયબ જીલ્લા વિકાસ અધિકારીશ્રી/મામલતદારશ્રી/તાલુકા વિકાસ અધિકારીશ્રી/ જીલ્લા નાયબ નિયામકશ્રી (વિ.જા.) / જીલ્લા સમાજ કલ્યાણ અધિકારીશ્રી (વિ.જા.) ને સામાજિક ન્યાય અને અધિકારીતા વિભાગના તા.૩૦/૦૫/૨૦૧૮ ના ઠરાવ ક્ર:સશપ/૧૨૨૦૧૮/૨૧૮૯૨૭/અ ના પરિશિષ્ટ-બ મુજબ અરજી કરવી.",
-   "confidence": 0.9
-  },
-  {
-   "claim": "An application form is available for download.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "application_form",
-   "object": "certificate",
-   "detail": {
-    "file_size": "2149 KB"
-   },
-   "sourceId": "src:75df169cf632",
-   "evidence": "એપ્લીકેશન ફોર્મ [File Size : 2149 KB] [Gujarati]",
-   "confidence": 0.9
-  },
-  {
-   "claim": "A certified copy of documents is required.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "document_copy",
-   "object": "certificate",
-   "detail": {},
-   "sourceId": "src:75df169cf632",
-   "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
-   "confidence": 0.9
-  },
-  {
-   "claim": "An affidavit (original) is required.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "affidavit",
-   "object": "certificate",
-   "detail": {},
-   "sourceId": "src:75df169cf632",
-   "evidence": "સોગંદનામું (અસલ)",
-   "confidence": 0.9
-  },
-  {
-   "claim": "Proof of residence is required, which can be a telephone bill, electricity bill, municipal tax bill, driving license, or PAN card.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "residence_proof",
-   "object": "certificate",
-   "detail": {},
-   "sourceId": "src:75df169cf632",
-   "evidence": "રહેઠાણનો પુરાવો (ટેલીફોન બીલ/ લાઈટબીલ/ મ્યુનિ.ટેક્ષ બીલ /ડ્રાઈવીંગ લાયસન્સ/પાન કાર્ડ / મતદાર ફોટો વગેરે ઓળખપત્ર પૈકી ગમે તે એક)",
-   "confidence": 0.9
-  },
-  {
-   "claim": "An Aadhaar card, ration card, or voter ID is required.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "identity_proof",
-   "object": "certificate",
-   "detail": {},
-   "sourceId": "src:75df169cf632",
-   "evidence": "રેશનકાર્ડ / ચુંટણી કાર્ડ / આધાર કાર્ડ",
-   "confidence": 0.9
-  },
-  {
-   "claim": "A school leaving certificate of the applicant is required.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "applicant_school_certificate",
-   "object": "certificate",
-   "detail": {},
-   "sourceId": "src:75df169cf632",
-   "evidence": "અરજદારનું સ્કુલ લિવિંગ સર્ટીફીકેટ",
-   "confidence": 0.9
-  },
-  {
-   "claim": "A school leaving certificate of the applicant's father is required.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "father_school_certificate",
-   "object": "certificate",
-   "detail": {},
-   "sourceId": "src:75df169cf632",
-   "evidence": "અરજદારના પિતાનું સ્કુલ લિવિંગ સર્ટીફીકેટ",
-   "confidence": 0.9
-  },
-  {
-   "claim": "A document proving the caste of the applicant's grandfather, father, or uncle may be requested if needed.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "caste_proving_document",
-   "object": "certificate",
-   "detail": {},
-   "sourceId": "src:75df169cf632",
-   "evidence": "સક્ષમ અધિકારીને જરૂર જણાય ત્યાં દાદા, પિતા, કાકા, ફોઈ પૈકી કોઈ એકનો જાતી પુરવાર થાય તેવો દસ્તાવેજ માગી શકશે.",
-   "confidence": 0.85
-  },
-  {
-   "claim": "Applications can be submitted at the Office of the Collector & District Magistrate in Ahmedabad.",
-   "kind": "OFFICE",
-   "subject": "application_submission",
-   "object": "collector_office",
-   "detail": {
-    "address": "Office of The Collector & District Magistrate, Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027"
-   },
-   "sourceId": "src:75df169cf632",
-   "evidence": "Application Process Jan Seva Kendra Ahmedabad Office of The Collector & District Magistrate Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027",
-   "confidence": 0.9
-  },
-  {
-   "claim": "Applications can be submitted online.",
-   "kind": "CHANNEL",
-   "subject": "application_submission",
-   "object": "online",
-   "detail": {},
-   "sourceId": "src:75df169cf632",
-   "evidence": "ઓનલાઈન અરજી કરો",
-   "confidence": 0.9
-  },
-  {
    "claim": "The applicant must submit a self-attested copy of the documents.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "application_form",
@@ -6364,6 +6436,160 @@
    "sourceId": "src:f04a62b69625",
    "evidence": "એફીડેવીટ પ્રમાણિત કરવાના કિસ્સામાં જે નોટરી પાસે એફીડેવીટ કરાવેલ હોય તે નોટરીનું નામ તેમનું પુરેપુરુ સરનામું અરજીમાં અલગથી દર્શાવવાનું રહેશે.",
    "confidence": 0.85
+  },
+  {
+   "claim": "The applicant must be a resident of Uttarakhand.",
+   "kind": "ELIGIBILITY",
+   "subject": "labour_card",
+   "object": "uttarakhand_resident",
+   "detail": {},
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "1. The applicant must be a resident of Uttarakhand.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must be a worker engaged in construction, repair, maintenance, or related activities involving government and non-government buildings, as well as other construction works such as bridges, roads, airstrips, irrigation projects, water drainage systems, embankments, tunnels, flood control structures, power generation, transmission and distribution, water works, oil and gas installation",
+   "kind": "ELIGIBILITY",
+   "subject": "labour_card",
+   "object": "construction_worker",
+   "detail": {},
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "2. The applicant must be a worker engaged in construction, repair, maintenance, or related activities involving government and non-government buildings, as well as other construction works such as bridges, roads, airstrips, irrigation projects, water drainage systems, embankments, tunnels, flood control structures, power generation, transmission and distribution, water works, oil and gas installations, dams, canals, reservoirs, pipelines, towers, television towers, mobile/telephone towers, etc.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must be between 18 and 60 years of age.",
+   "kind": "ELIGIBILITY",
+   "subject": "labour_card",
+   "object": "age_limit",
+   "detail": {
+    "minimum_age": 18,
+    "maximum_age": 60
+   },
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "4. The applicant must be between 18 and 60 years of age.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must possess a certificate confirming that they have worked as a construction or other related worker for at least 90 days in the previous year.",
+   "kind": "ELIGIBILITY",
+   "subject": "labour_card",
+   "object": "work_certificate",
+   "detail": {
+    "minimum_days": 90
+   },
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "5. The applicant must possess a certificate confirming that they have worked as a construction or other related worker for at least 90 days in the previous year.",
+   "confidence": 1
+  },
+  {
+   "claim": "Building and construction workers can register or renew their labour card online through the nearest Jan Suvidha Kendra or Shramik Suvidha Kendra.",
+   "kind": "CHANNEL",
+   "subject": "labour_card",
+   "object": "jan_suvidha_kendra",
+   "detail": {},
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "Online - via CSCs\n- Building and construction workers can register or renew their labour card online through the nearest Jan Suvidha Kendra or Shramik Suvidha Kendra.",
+   "confidence": 1
+  },
+  {
+   "claim": "For age verification, any one of the following documents is required: 10th certificate, birth certificate, certificate issued by a medical officer, notarized affidavit of the construction worker, voter identity card, ration card, or a certificate issued by the Village Panchayat Officer, Village Head, or Councillor.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "labour_card",
+   "object": "age_verification_documents",
+   "detail": {
+    "documents": [
+     "10th_certificate",
+     "birth_certificate",
+     "medical_officer_certificate",
+     "notarized_affidavit",
+     "voter_identity_card",
+     "ration_card",
+     "village_panchayat_certificate"
+    ]
+   },
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "For age verification, any one of the following documents is required: 10th certificate, birth certificate, certificate issued by a medical officer, notarized affidavit of the construction worker, voter identity card, ration card, or a certificate issued by the Village Panchayat Officer, Village Head, or Councillor.",
+   "confidence": 1
+  },
+  {
+   "claim": "A certificate of having worked as a construction worker for at least 90 days in the previous year must be submitted.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "labour_card",
+   "object": "work_certificate",
+   "detail": {
+    "minimum_days": 90
+   },
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "A certificate of having worked as a construction worker for at least 90 days in the previous year, along with a nomination form for nominating legal heirs, must also be submitted.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant is required to provide the Aadhaar card, ration card, Aadhaar-linked bank account details, self-certification or self-declaration form (available only at Jan Suvidha Kendra or Shramik Suvidha Kendra), and Aadhaar cards of dependents.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "labour_card",
+   "object": "aadhaar_card",
+   "detail": {
+    "additional_documents": [
+     "ration_card",
+     "aadhaar_linked_bank_account",
+     "self_certification_form",
+     "aadhaar_of_dependents"
+    ]
+   },
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "The applicant is further required to provide the Aadhaar card, ration card, Aadhaar-linked bank account details, self-certification or self-declaration form (available only at Jan Suvidha Kendra or Shramik Suvidha Kendra), and Aadhaar cards of dependents.",
+   "confidence": 1
+  },
+  {
+   "claim": "After uploading all the required documents, a registration fee of ₹100/- must be deposited.",
+   "kind": "FEE",
+   "subject": "labour_card",
+   "object": "registration_fee",
+   "detail": {
+    "amount": 100,
+    "currency": "INR"
+   },
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "After uploading all the required documents, a registration fee of ₹100/- must be deposited.",
+   "confidence": 1
+  },
+  {
+   "claim": "The application for renewal must be submitted before the completion of three years.",
+   "kind": "TIMELINE",
+   "subject": "labour_card",
+   "object": "renewal_deadline",
+   "detail": {
+    "days": 3
+   },
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "The application for renewal must be submitted before the completion of three years.",
+   "confidence": 1
+  },
+  {
+   "claim": "For every renewal cycle of three years, the construction worker is required to deposit a contribution of ₹100/-.",
+   "kind": "FEE",
+   "subject": "labour_card",
+   "object": "renewal_fee",
+   "detail": {
+    "amount": 100,
+    "currency": "INR"
+   },
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "For every renewal cycle of three years, the construction worker is required to deposit a contribution of ₹100/-.",
+   "confidence": 1
+  },
+  {
+   "claim": "The labour card is valid for three years from the date of issuance.",
+   "kind": "TIMELINE",
+   "subject": "labour_card",
+   "object": "validity_period",
+   "detail": {
+    "days": 3
+   },
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "The labour card is valid for three years from the date of issuance.",
+   "confidence": 1
   },
   {
    "claim": "The application must be submitted to Jan Seva Kendra, Amreli.",
@@ -9026,110 +9252,112 @@
    "confidence": 1
   },
   {
-   "claim": "The application form for the certificate is available in Gujarati.",
+   "claim": "The application form for the education purpose nationality certificate must be submitted to the Additional District Magistrate, as per Appendix-1/102.",
+   "kind": "ACTION",
+   "subject": "application_submission",
+   "object": "additional_district_magistrate",
+   "detail": {
+    "form_reference": "Appendix-1/102"
+   },
+   "sourceId": "src:517e00ce5909",
+   "evidence": "મંજુરી મેળવી શકું? અધિક જીલ્લા મેજીસ્ટ્રેટશ્રીને, પરિશિષ્ટ-૧/૧૦૨ મુજબ.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application form for the education purpose nationality certificate is available for download.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "application_form",
-   "object": "gujarati_language",
-   "detail": {},
-   "sourceId": "src:119c5e4a63b6",
-   "evidence": "એપ્લીકેશન ફોર્મ [File Size : 45 KB] [Gujarati]",
-   "confidence": 0.95
+   "object": "education_nationality_certificate",
+   "detail": {
+    "file_size": "31 KB"
+   },
+   "sourceId": "src:517e00ce5909",
+   "evidence": "એપ્લીકેશન ફોર્મ [File Size : 31 KB] [Gujarati]",
+   "confidence": 0.9
   },
   {
-   "claim": "The total processing time for the certificate is 1 day.",
+   "claim": "The processing time for the education purpose nationality certificate is 21 days.",
    "kind": "TIMELINE",
    "subject": "processing_time",
-   "object": "certificate_issue",
+   "object": "education_nationality_certificate",
    "detail": {
-    "days": "1"
+    "days": "21"
    },
-   "sourceId": "src:119c5e4a63b6",
-   "evidence": "નિકાલની સમય મર્યાદા કુલ ૧ દિવસ.",
+   "sourceId": "src:517e00ce5909",
+   "evidence": "નિકાલની સમય મર્યાદા કુલ ૨૧ દિવસ.",
    "confidence": 0.95
   },
   {
-   "claim": "A certified copy of documents is required for the application.",
+   "claim": "A certified copy of the birth certificate or domicile certificate or Indian passport is required for the education purpose nationality certificate.",
    "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "document_copy",
-   "object": "certified",
+   "subject": "birth_or_domicile_or_passport",
+   "object": "education_nationality_certificate",
    "detail": {},
-   "sourceId": "src:119c5e4a63b6",
-   "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+   "sourceId": "src:517e00ce5909",
+   "evidence": "જન્મના પ્રમાણપત્રની નકલ અથવા ડોમીસાઈલ સર્ટીફીકેટની નકલ અથવા ભારતીય પાસપોર્ટ ની નકલ.",
    "confidence": 0.95
   },
   {
-   "claim": "The applicant must provide a personal response from the Talati.",
+   "claim": "A certified copy of the school living certificate and the mother/father/legal guardian's school living certificate is required for the education purpose nationality certificate.",
    "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "talati_response",
-   "object": "applicant",
+   "subject": "school_living_certificate",
+   "object": "education_nationality_certificate",
    "detail": {},
-   "sourceId": "src:119c5e4a63b6",
-   "evidence": "અરજદારનો તલાટી રૂબરૂ જવાબ",
+   "sourceId": "src:517e00ce5909",
+   "evidence": "સ્કુલ લિવિંગ સર્ટીફીકેટ નકલ તેમજ માતા/પિતા/વાલીના સ્કુલ લીવીંગ સર્ટી ની નકલ",
    "confidence": 0.95
   },
   {
-   "claim": "An affidavit is required for the application.",
+   "claim": "A certified copy of the 10th or 12th standard marksheet and certificate is required for the education purpose nationality certificate.",
    "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "affidavit",
-   "object": "application",
+   "subject": "marksheet_and_certificate",
+   "object": "education_nationality_certificate",
    "detail": {},
-   "sourceId": "src:119c5e4a63b6",
-   "evidence": "પ્રતિજ્ઞાપત્ર",
+   "sourceId": "src:517e00ce5909",
+   "evidence": "ધોરણ–૧૦/ધોરણ–૧ર ની માર્કશીટ તથા સર્ટીફીકેટ ની નકલ",
    "confidence": 0.95
   },
   {
-   "claim": "A document on the school's letterhead regarding religious or linguistic minority is required.",
+   "claim": "A certified copy of a telephone bill or electricity bill or voter ID or ration card or tax demand bill is required for the education purpose nationality certificate.",
    "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "school_letterhead",
-   "object": "religious_linguistic_minority",
+   "subject": "utility_or_id_documents",
+   "object": "education_nationality_certificate",
    "detail": {},
-   "sourceId": "src:119c5e4a63b6",
-   "evidence": "ધાર્મિક/ ભાષાકીય લઘુમતી અંગેનો શાળાના લેટરપેડ ઉપર દાખલો",
+   "sourceId": "src:517e00ce5909",
+   "evidence": "ટેલીફોન બીલ અથવા લાઈટબીલની નકલ અથવા મતદાર ઓળખપત્રની નકલ અથવા રેશન કાર્ડની નકલ અથવા કરવેરા માગણી બીલ",
    "confidence": 0.95
   },
   {
-   "claim": "Proof of residence is required for the application.",
+   "claim": "A certified copy of the income tax permanent account number (PAN card) is required for the education purpose nationality certificate.",
    "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "residence_proof",
-   "object": "application",
+   "subject": "pan_card",
+   "object": "education_nationality_certificate",
    "detail": {},
-   "sourceId": "src:119c5e4a63b6",
-   "evidence": "રહેઠાણનો પુરાવો (લાઈટબીલ, મ્યુનિ.ટેક્ષબીલ, ટેલીફોન બીલ વિગેરે પૈકી એક)",
+   "sourceId": "src:517e00ce5909",
+   "evidence": "ઈન્કમટેક્ષ પરમેનેન્ટ એકાઉન્ટ નંબર (પાનકાર્ડ) ની નકલ",
    "confidence": 0.95
   },
   {
-   "claim": "Proof of leaving the school is required for the application.",
+   "claim": "A certified copy of the application for submission of nationality certificate or the admission form/receipt of the relevant institution/college is required for the education purpose nationality certificate.",
    "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "school_leaving_proof",
-   "object": "application",
+   "subject": "application_for_certificate",
+   "object": "education_nationality_certificate",
    "detail": {},
-   "sourceId": "src:119c5e4a63b6",
-   "evidence": "શાળા છોડયા અંગેનો દાખલો",
+   "sourceId": "src:517e00ce5909",
+   "evidence": "નેશનાલીટી સર્ટીફીકેટ રજુ કરવા જણાવતા માંગણી પત્ર/ સંબંધિત સંસ્થા કોલેજનુ એડમીશન ફોર્મ/રીસીપ્ટની નકલ",
    "confidence": 0.95
   },
   {
-   "claim": "The application must be submitted at the Jan Seva Kendra Ahmedabad.",
+   "claim": "The application for the education purpose nationality certificate must be submitted at the District Collector Office in Jamnagar.",
    "kind": "OFFICE",
    "subject": "application_submission",
-   "object": "jan_seva_kendra",
+   "object": "district_collector_office",
    "detail": {
-    "address": "Office of The Collector & District Magistrate, Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027"
+    "address": "Jilla Seva Sadan, Sharu Section Road, Jamnagar, Gujarat - 361002",
+    "hours": "8:30 A.M To 5:30 P.M"
    },
-   "sourceId": "src:119c5e4a63b6",
-   "evidence": "Application Process\nJan Seva Kendra Ahmedabad\nOffice of The Collector & District Magistrate\nNear Subhash Bridge Circle,\nR.T.O Ashram Rd, Hridaya Kunj,\nOld Wadaj, Ahmedabad,\nGujarat - 380027",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The office hours for the Jan Seva Kendra Ahmedabad are from 8:30 A.M. to 5:30 P.M.",
-   "kind": "TIMELINE",
-   "subject": "office_hours",
-   "object": "jan_seva_kendra",
-   "detail": {
-    "start_time": "8:30 A.M.",
-    "end_time": "5:30 P.M."
-   },
-   "sourceId": "src:119c5e4a63b6",
-   "evidence": "8:30 A.M To 5:30 P.M",
+   "sourceId": "src:517e00ce5909",
+   "evidence": "Application Process District Collector Office Jilla Seva Sadan, Sharu Section Road, Jamnagar, Gujarat - 361002 8:30 A.M To 5:30 P.M",
    "confidence": 0.95
   },
   {
@@ -10150,102 +10378,6 @@
    "confidence": 0.9
   },
   {
-   "claim": "The application process for an education purpose nationality certificate must be submitted to the District Collector Office.",
-   "kind": "OFFICE",
-   "subject": "education_nationality_certificate",
-   "object": "district_collector_office",
-   "detail": {
-    "address": "Jilla Seva Sadan, Sharu Section Road, Jamnagar, Gujarat - 361002"
-   },
-   "sourceId": "src:517e00ce5909",
-   "evidence": "Application Process\nDistrict Collector Office\nJilla Seva Sadan,\nSharu Section Road,\nJamnagar,\nGujarat - 361002",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The processing time for an education purpose nationality certificate is 21 days.",
-   "kind": "TIMELINE",
-   "subject": "education_nationality_certificate",
-   "object": "processing_time",
-   "detail": {
-    "days": "21"
-   },
-   "sourceId": "src:517e00ce5909",
-   "evidence": "નિકાલની સમય મર્યાદા કુલ ૨૧ દિવસ.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "A certified copy of a birth certificate or domicile certificate or Indian passport is required for an education purpose nationality certificate.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "education_nationality_certificate",
-   "object": "birth_or_domicile_or_passport",
-   "detail": {},
-   "sourceId": "src:517e00ce5909",
-   "evidence": "જન્મના પ્રમાણપત્રની નકલ અથવા ડોમીસાઈલ સર્ટીફીકેટની નકલ અથવા ભારતીય પાસપોર્ટ ની નકલ.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "A certified copy of a school living certificate and a parent/guardian's school living certificate is required for an education purpose nationality certificate.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "education_nationality_certificate",
-   "object": "school_living_certificate",
-   "detail": {},
-   "sourceId": "src:517e00ce5909",
-   "evidence": "સ્કુલ લિવિંગ સર્ટીફીકેટ નકલ તેમજ માતા/પિતા/વાલીના સ્કુલ લીવીંગ સર્ટી ની નકલ",
-   "confidence": 0.95
-  },
-  {
-   "claim": "A certified copy of Class 10 or Class 12 marksheet and certificate is required for an education purpose nationality certificate.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "education_nationality_certificate",
-   "object": "class_10_or_12_marksheet",
-   "detail": {},
-   "sourceId": "src:517e00ce5909",
-   "evidence": "ધોરણ–૧૦/ધોરણ–૧ર ની માર્કશીટ તથા સર્ટીફીકેટ ની નકલ",
-   "confidence": 0.95
-  },
-  {
-   "claim": "A certified copy of a telephone bill or electricity bill or voter ID or ration card or property tax bill is required for an education purpose nationality certificate.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "education_nationality_certificate",
-   "object": "utility_or_tax_or_voter_id",
-   "detail": {},
-   "sourceId": "src:517e00ce5909",
-   "evidence": "ટેલીફોન બીલ અથવા લાઈટબીલની નકલ અથવા મતદાર ઓળખપત્રની નકલ અથવા રેશન કાર્ડની નકલ અથવા કરવેરા માગણી બીલ",
-   "confidence": 0.95
-  },
-  {
-   "claim": "A certified copy of an income tax permanent account number (PAN card) is required for an education purpose nationality certificate.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "education_nationality_certificate",
-   "object": "pan_card",
-   "detail": {},
-   "sourceId": "src:517e00ce5909",
-   "evidence": "ઈન્કમટેક્ષ પરમેનેન્ટ એકાઉન્ટ નંબર (પાનકાર્ડ) ની નકલ",
-   "confidence": 0.95
-  },
-  {
-   "claim": "A certified copy of a request letter for submitting a nationality certificate or an admission form/receipt from a related college is required for an education purpose nationality certificate.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "education_nationality_certificate",
-   "object": "request_letter_or_admission_form",
-   "detail": {},
-   "sourceId": "src:517e00ce5909",
-   "evidence": "નેશનાલીટી સર્ટીફીકેટ રજુ કરવા જણાવતા માંગણી પત્ર/ સંબંધિત સંસ્થા કોલેજનુ એડમીશન ફોર્મ/રીસીપ્ટની નકલ",
-   "confidence": 0.95
-  },
-  {
-   "claim": "The District Collector Office operates from 8:30 A.M. to 5:30 P.M.",
-   "kind": "OFFICE",
-   "subject": "district_collector_office",
-   "object": "operating_hours",
-   "detail": {
-    "hours": "8:30 A.M. To 5:30 P.M."
-   },
-   "sourceId": "src:517e00ce5909",
-   "evidence": "8:30 A.M To 5:30 P.M",
-   "confidence": 0.95
-  },
-  {
    "claim": "The application process for certifying documents related to birth, marriage, death, police clearance certificate, school leaving certificate, affidavit, trade, commerce, and export is handled at Jan Seva Kendra, Porbandar.",
    "kind": "CHANNEL",
    "subject": "application_process",
@@ -10435,6 +10567,91 @@
    "sourceId": "src:ac090386fb23",
    "evidence": "એફીડેવીટ પ્રમાણિત કરવાના કિસ્સામાં જે નોટરી પાસે એફીડેવીટ કરાવેલ હોય તે નોટરીનું નામ તેમનું પુરેપુરુ સરનામું અરજીમાં અલગથી દર્શાવવાનું રહેશે.",
    "confidence": 1
+  },
+  {
+   "claim": "The application form for the certificate is available in Gujarati.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_form",
+   "object": "gujarati_language",
+   "detail": {},
+   "sourceId": "src:119c5e4a63b6",
+   "evidence": "એપ્લીકેશન ફોર્મ [File Size : 45 KB] [Gujarati]",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The processing time for the certificate is 1 day.",
+   "kind": "TIMELINE",
+   "subject": "processing_time",
+   "object": "certificate",
+   "detail": {
+    "days": "1"
+   },
+   "sourceId": "src:119c5e4a63b6",
+   "evidence": "નિકાલની સમય મર્યાદા કુલ ૧ દિવસ.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A certified copy of documents is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "certified_copy",
+   "object": "documents",
+   "detail": {},
+   "sourceId": "src:119c5e4a63b6",
+   "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "An in-person response from the applicant to the Talati is required.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "talati_response",
+   "detail": {},
+   "sourceId": "src:119c5e4a63b6",
+   "evidence": "અરજદારનો તલાટી રૂબરૂ જવાબ",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A document on school letterhead regarding religious/linguistic minority is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "school_letterhead",
+   "object": "religious_linguistic_minority",
+   "detail": {},
+   "sourceId": "src:119c5e4a63b6",
+   "evidence": "ધાર્મિક/ ભાષાકીય લઘુમતી અંગેનો શાળાના લેટરપેડ ઉપર દાખલો",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Proof of residence is required, such as a light bill, municipal tax bill, or telephone bill.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "residence_proof",
+   "object": "utility_bill",
+   "detail": {},
+   "sourceId": "src:119c5e4a63b6",
+   "evidence": "રહેઠાણનો પુરાવો (લાઈટબીલ, મ્યુનિ.ટેક્ષબીલ, ટેલીફોન બીલ વિગેરે પૈકી એક)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A document regarding leaving school is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "school_leaving_document",
+   "object": "document",
+   "detail": {},
+   "sourceId": "src:119c5e4a63b6",
+   "evidence": "શાળા છોડયા અંગેનો દાખલો",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The application process is handled at Jan Seva Kendra Ahmedabad.",
+   "kind": "OFFICE",
+   "subject": "application_process",
+   "object": "jan_seva_kendra",
+   "detail": {
+    "address": "Office of The Collector & District Magistrate, Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027",
+    "hours": "8:30 A.M To 5:30 P.M"
+   },
+   "sourceId": "src:119c5e4a63b6",
+   "evidence": "Application Process\nJan Seva Kendra Ahmedabad\nOffice of The Collector & District Magistrate\nNear Subhash Bridge Circle,\nR.T.O Ashram Rd, Hridaya Kunj,\nOld Wadaj, Ahmedabad,\nGujarat - 380027\n8:30 A.M To 5:30 P.M",
+   "confidence": 0.9
   },
   {
    "claim": "The application form for the residential certificate is available in Gujarati.",
@@ -11123,6 +11340,66 @@
    "confidence": 1
   },
   {
+   "claim": "Candidates who have been provisionally selected must submit their original certificates for verification.",
+   "kind": "ACTION",
+   "subject": "provisionally_selected_candidate",
+   "object": "submit_original_certificates",
+   "detail": {},
+   "sourceId": "src:1b74c860ba97",
+   "evidence": "પ્રોવિઝનલ મેરીટ લિસ્ટમાં પસંદગી પામેલ ઉમેદવારોના અસલ પ્રમાણપત્રોની ચકાસણીનું ચેકલીસ્ટ",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Candidates must provide a certificate of educational qualification in a specified format.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "candidate",
+   "object": "educational_qualification_certificate",
+   "detail": {},
+   "sourceId": "src:1b74c860ba97",
+   "evidence": "ઉમેદવારની શૈક્ષણિક લાયકાતની સંપૂર્ણ વિગત દર્શાવતું પત્રક નમુનો-ર",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Physically disabled candidates must submit a certificate as per the prescribed format.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "physically_disabled_candidate",
+   "object": "disability_certificate",
+   "detail": {},
+   "sourceId": "src:1b74c860ba97",
+   "evidence": "શારીરીક અશકતતા ધરાવતા ઉમેદવારોના કિસ્સામાં રજુ કરવાના પ્રમાણપત્ર અંગેના ઠરાવ તથા નિયત નમુનો",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Candidates currently employed by the state or central government must submit a 'No Objection Certificate' from the competent authority.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "government_employee_candidate",
+   "object": "no_objection_certificate",
+   "detail": {},
+   "sourceId": "src:1b74c860ba97",
+   "evidence": "રાજયસરકાર/કેન્દ્ર સરકાર/સ્થાનિક સત્તામંડળ /સરકારની માલીકીના બોર્ડ-નિગમ-કોર્પોરેટરની નોકરીમાં ચાલુ હોય તેવા ઉમેદવારના કિસ્સામાં સક્ષમ સત્તાધિકારીનું “ના-વાંધા પ્રમાણપત્ર” નો નમુનો",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Candidates must submit an attestation form in the specified format.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "candidate",
+   "object": "attestation_form",
+   "detail": {},
+   "sourceId": "src:1b74c860ba97",
+   "evidence": "ATTESTATION FORM નમુનો-૧",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Candidates must submit a certificate for participation in international/national/inter-university tournaments or national sports events in the prescribed format.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "sports_participation_candidate",
+   "object": "sports_participation_certificate",
+   "detail": {},
+   "sourceId": "src:1b74c860ba97",
+   "evidence": "આંતરરાષ્ટ્રીય/રાષ્ટ્રીય/આંતર યુનિર્વસિટી ટુર્નામેન્ટ/શાળાઓ માટેની રાષ્ટ્રીય ખેલકુદ/રમતોના ખેલાડીઓના કિસ્સામાં જાહેરાતમાં દર્શાવ્યા મુજબના નિયત નમુનાના જરુરી પ્રમાણપત્ર અંગેના ઠરાવ",
+   "confidence": 0.85
+  },
+  {
    "claim": "The registration form must be printed from the main page with a barcode and submitted to any KVK in the state.",
    "kind": "ACTION",
    "subject": "registration_form",
@@ -11453,58 +11730,6 @@
    "confidence": 0.95
   },
   {
-   "claim": "A citizen must provide a utilization certificate to confirm that the interest subsidy was used for its intended purpose.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "utilization_certificate",
-   "object": "nodal_agency",
-   "detail": {},
-   "sourceId": "src:1e206910c90b",
-   "evidence": "Certified that out of the sum of Rs. _______________ released under release reference no._______ dated _______ towards the interest subsidy in favour of ______________________________ (Name of the PLI), a sum of Rs. _________________ has been utilized for the purpose for which it was sanctioned.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "A citizen must ensure that the construction of the house is completed within one year or provide valid reasons for an extension.",
-   "kind": "CONDITIONAL_REQUIREMENT",
-   "subject": "construction_completion",
-   "object": "housing_units",
-   "detail": {
-    "time_limit": "1 year"
-   },
-   "sourceId": "src:1e206910c90b",
-   "evidence": "Regular site inspections have been conducted by the officials/authorized representatives of the PLI to monitor the progress of construction and to confirm that the construction was progressing as per the plan / has been completed within the prescribed period of one year.",
-   "confidence": 0.9
-  },
-  {
-   "claim": "A citizen must submit Form F-II to request an extension for the completion of housing units beyond one year.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "form_f_ii_submission",
-   "object": "nodal_agency",
-   "detail": {},
-   "sourceId": "src:1e206910c90b",
-   "evidence": "The extension of time, for completion of housing units financed under the Interest Subsidy Scheme for Housing the Urban Poor (ISHUP) beyond one year, is solicited for the cases as detailed at Form F – II / 1 alongwith specific reasons for delay in completion of construction.",
-   "confidence": 0.95
-  },
-  {
-   "claim": "A citizen must provide site inspection reports and photographs of the constructed or acquired houses to the nodal agency.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "site_inspection_report",
-   "object": "nodal_agency",
-   "detail": {},
-   "sourceId": "src:1e206910c90b",
-   "evidence": "Site inspections report along with photograph of the houses constructed/acquired are available with the PLI and same may be produced as and when required by the Nodal Agency or Ministry of Housing & Urban Poverty Alleviation.",
-   "confidence": 0.9
-  },
-  {
-   "claim": "A citizen must submit Form F-VI to report defaulted loan repayments to the nodal agency.",
-   "kind": "DOCUMENT_REQUIREMENT",
-   "subject": "form_f_vi_submission",
-   "object": "nodal_agency",
-   "detail": {},
-   "sourceId": "src:1e206910c90b",
-   "evidence": "The defaults in loan repayments, for housing units financed under the Interest Subsidy Scheme for Housing the Urban Poor (ISHUP) is reported for the cases as detailed at Form F – VI / 1 along with specific reasons for default in loan repayments.",
-   "confidence": 0.9
-  },
-  {
    "claim": "Candidates with 40% or more disability must submit a certificate from a government hospital or authorized medical officer.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "disability_candidate",
@@ -11553,6 +11778,54 @@
    "sourceId": "src:6b7dd4f0c210",
    "evidence": "જો દસ્તાવેજ ચકાસણી સમયે આવા પ્ર માણપત્ર રજુ નહી કરે તો અરજીપત્રક રદ કરવામાં આવશે .",
    "confidence": 0.9
+  },
+  {
+   "claim": "A citizen must provide a utilization certificate to the Nodal Agency (HUDCO / NHB) certifying that the released interest subsidy has been used for its intended purpose.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "utilization_certificate",
+   "object": "nodal_agency",
+   "detail": {
+    "form_number": "F-III"
+   },
+   "sourceId": "src:1e206910c90b",
+   "evidence": "FORMAT OF UTILIZATION CERTIFICATE UNDER INTEREST SUBSIDY SCHEME FOR HOUSING THE URBAN POOR (ISHUP) OF THE MINISTRY OF HOUSING & URBAN POVERTY ALLEVIATION, GOVERNMENT OF INDIA (To be furnished by Primary Lending Institutions i.e. Banks / Financial Institutions and submitted to the Nodal Agency (HUDCO / NHB))",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must provide a utilization certificate to the Ministry of Housing & Urban Poverty Alleviation certifying that the released interest subsidy has been used for its intended purpose.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "utilization_certificate",
+   "object": "ministry_of_housing",
+   "detail": {
+    "form_number": "F-IV"
+   },
+   "sourceId": "src:1e206910c90b",
+   "evidence": "FORMAT OF UTILIZATION CERTIFICATE UNDER INTEREST SUBSIDY SCHEME FOR HOUSING THE URBAN POOR (ISHUP) OF THE MINISTRY OF HOUSING & URBAN POVERTY ALLEVIATION, GOVERNMENT OF INDIA (To be furnished by Nodal Agency to Ministry of Housing & Urban Poverty Alleviation)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must provide a statement of deployment of subsidy received to the Ministry of Housing & Urban Poverty Alleviation.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "statement_of_deployment",
+   "object": "ministry_of_housing",
+   "detail": {
+    "form_number": "F-V"
+   },
+   "sourceId": "src:1e206910c90b",
+   "evidence": "STATEMENT OF DEPLOYMENT OF SUBSIDY RECEIVED UNDER THE INTEREST SUBSIDY SCHEME OF THE MINISTRY OF HOUSING AND URBAN POVERTY ALLEVIATION, GOVERNMENT OF INDIA (To be furnished by Nodal Agency to Ministry of Housing & Urban Poverty Alleviation)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must provide a claim for disbursement of subsidy under the Interest Subsidy Scheme for Housing the Urban Poor (ISHUP) to the Nodal Agency (HUDCO / NHB).",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "subsidy_disbursement_claim",
+   "object": "nodal_agency",
+   "detail": {
+    "form_number": "F-I"
+   },
+   "sourceId": "src:1e206910c90b",
+   "evidence": "FORMAT FOR CLAIMING DISBURSEMENT OF SUBSIDY UNDER INTEREST SUBSIDY SCHEME FOR HOUSING THE URBAN POOR (ISHUP) OF THE MINISTRY OF HOUSING & URBAN POVERTY ALLEVIATION, GOVERNMENT OF INDIA (To be furnished by Primary Lending Institutions i.e. Banks / Financial Institutions and submitted to the Nodal Agency (HUDCO / NHB))",
+   "confidence": 0.95
   },
   {
    "claim": "The Gujarat State Seed Certificate Agency was established in 1969 under the Seed Act, 1966.",
@@ -11663,15 +11936,16 @@
   }
  ],
  "notFound": [
-  "certificate: a page listing 49 other services in this journey, not a service itself, so it was read for its links and not kept as somewhere to apply. Its pages: https://collectorpanchmahal.gujarat.gov.in/showpage.aspx?contentid=344, https://botad.gujarat.gov.in/certificate-truecopy, https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201819_124.pdf#page=13, https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/GSSSB_202526_312.pdf#page=6, https://ma.gujarat.gov.in/documents/new%20CB%20Guideline.pdf#page=36",
+  "certificate: a page listing 51 other services in this journey, not a service itself, so it was read for its links and not kept as somewhere to apply. Its pages: https://collectorpanchmahal.gujarat.gov.in/showpage.aspx?contentid=344, https://botad.gujarat.gov.in/certificate-truecopy, https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201819_124.pdf#page=13, https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/GSSSB_202526_312.pdf#page=6, https://ma.gujarat.gov.in/documents/new%20CB%20Guideline.pdf#page=36",
   "Registration Certificate Services: https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "E-Gram Panchayat: https://devbhumidwarkadp.gujarat.gov.in/gu/E-gram-Vishvagram-Yojana lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "EWS Certificate: the hand written graph already answers to service:ews_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "Domicile Certificate: the hand written graph already answers to service:domicile_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "Virtual Civic Center: https://suratmunicipal.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Unreserved Class Certificate: a page mentions a mobile app (\"The application form for the Unreserved Class Certificate is available for download in Gujarati.\") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.",
+  "Unreserved Class Certificate: a page mentions a mobile app (\"An online application can be submitted for the Unreserved Class Certificate.\") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.",
   "varshai: the page names \"Digital Gujarat\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
   "Saksham Shala: https://ssg-ss.gujarat.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
-  "income certificate: the hand written graph already answers to service:income_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "Non-Creamy Layer certificate: the hand written graph already answers to service:non_creamy_layer_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "Jan Seva Kendra: https://surat.gujarat.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Jan Seva Kendra: https://arvalli.gujarat.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
@@ -11683,6 +11957,7 @@
   "Jan Seva Kendra: https://tapi.gujarat.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Jan Seva Kendra: https://kutch.gujarat.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Tourist Guide Certificate: https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "income certificate: the hand written graph already answers to service:income_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "residence certificate: the hand written graph already answers to service:residence_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "Certificate of Fitness: https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/GSSSB_202526_312.pdf#page=4 offers a choice under \"B. Candidates having any of the following physical defects shall be\" but fewer than two of the lines under it are documents, so no group was written.",
   "Registration of Cooperative Society: no quotable requirement, fee or timeline survived, so no service node was written for it.",
