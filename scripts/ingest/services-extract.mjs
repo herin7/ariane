@@ -38,7 +38,7 @@
  */
 
 import { appendJsonl, at, chat, fetchPage, hostOf, jsonArray, ledger, loadNegative, looksSoft404, MODELS, NEGATIVE, negativeRow, pool, readJsonl, renderPage, saveLedger, sha1, sha256, toText, htmlMeta, writeJsonl } from "./lib.mjs";
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const PAGES = ".ingest/pages/";
 const EXTRACT = ".ingest/extract/";
@@ -56,9 +56,6 @@ const PROMPT_VERSION = 4;
  */
 const GATE_VERSION = 2;
 
-// Eight against Bedrock, four against the state's own servers. Different
-// systems, different tolerances, and `chat` already backs off on a 429.
-const MODEL_CONCURRENCY = 8;
 /** Enough of a page for the model to see the requirements table, not the footer. */
 const MAX_CHARS = 14_000;
 /** Below this a page has navigation and nothing else. */
@@ -72,6 +69,12 @@ const value = (name, fallback) => {
   const i = args.indexOf(`--${name}`);
   return i >= 0 && args[i + 1] ? args[i + 1] : fallback;
 };
+
+// Bedrock is not the state web server and does not deserve the same manners.
+// A long page is up to four calls, so this is pages in flight and not calls,
+// and at eight the queue of 253 long pages was measured at 19.4s a page while
+// a single call comes back in well under a minute. That gap was all queue.
+const MODEL_CONCURRENCY = Number(value("model-concurrency", 20));
 
 // Eight against a state web server is polite. A render goes to Firecrawl and
 // not to the site, and `renderPage` paces itself at the plan's eleven a minute,
@@ -546,10 +549,32 @@ async function extract(page, text, model) {
   return { ...result, cached: false };
 }
 
+/**
+ * Pages no model has ever read, at any version of the prompt or the gate.
+ *
+ * Not the same question as the cache key, which asks "was this page read by
+ * *this* extractor". Bumping the gate invalidates all 2,713 by construction,
+ * which is correct and costs fourteen hours, and almost all of it buys nothing:
+ * a re-read only changes the answer for pages the old extractor could not see
+ * properly. A page that has never been read at all is the opposite case, and
+ * it is the one a fresh render pass creates by the hundred.
+ *
+ * Each cache file records the version that wrote it, so a mixed cache stays
+ * honest about what produced what.
+ */
+const everRead = new Set();
+if (flag("new-only")) {
+  for (const f of readdirSync(at(EXTRACT))) {
+    const r = JSON.parse(readFileSync(at(EXTRACT + f), "utf8"));
+    everRead.add(`${r.url}|${r.contentHash}`);
+  }
+}
+
 // `--min-chars` picks the long pages, which are a different population to the
 // high scoring ones and the only place the windowing above can show up at all.
 const toExtract = [...pages.values()]
   .filter((p) => (p.chars ?? 0) >= Number(value("min-chars", 0)))
+  .filter((p) => !flag("new-only") || !everRead.has(`${p.url}|${p.contentHash}`))
   .sort((a, b) => b.score - a.score)
   .slice(0, Number(value("limit", Infinity)));
 console.log(`\n${toExtract.length} cached pages to extract from`);
