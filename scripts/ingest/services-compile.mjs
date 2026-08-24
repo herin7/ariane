@@ -32,7 +32,7 @@
  * page, on the other hand, is reliably about one service.
  */
 
-import { at, chat, jsonArray, pool, readJsonl, sha1 } from "./lib.mjs";
+import { at, chat, jsonArray, pool, readJsonl, REJECTIONS, REJECTION_SUMMARY, rejections, sha1, writeJsonl } from "./lib.mjs";
 import { display, districtOf, isPerson, slug, title } from "./places.mjs";
 import { appendFileSync, existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 
@@ -55,6 +55,28 @@ export function placeable(f) {
   if (f.kind === "OFFICE") return Boolean(f.detail?.address);
   if (f.kind === "CHANNEL" || f.kind === "TRACKING") return Boolean(f.detail?.url);
   return f.kind === "GRIEVANCE";
+}
+
+/**
+ * Why a fact reached the bottom of the placement chain without becoming a row.
+ *
+ * The chain in `build` is a run of `else if`s, so a fact that fails every guard
+ * falls out of the end and nothing anywhere says which guard it failed. This is
+ * asked once, at the bottom, so the answer stays next to the guards rather than
+ * being duplicated into fifteen call sites.
+ *
+ * Reads as a list of near misses on purpose, because that is what it is: an
+ * OFFICE fact with a name and no address is one line of a page away from being
+ * a place a citizen could walk into, and there are hundreds of them.
+ */
+export function whyUnplaceable(f) {
+  const d = f.detail ?? {};
+  if (f.kind === "OFFICE") return officeName(f) ? "NO_LOCATION" : "UNKNOWN_CANONICAL_ENTITY";
+  if (f.kind === "HELPLINE") return "NO_CONTACT_VALUE";
+  if (f.kind === "TRACKING") return d.url ? "UNTRUSTED_HOST" : "FAILED_NORMALIZATION";
+  if (f.kind === "BLOCKER") return "NO_REASON";
+  if (f.kind === "DEPENDENCY" || f.kind === "EXTERNAL_DEPENDENCY" || f.kind === "ACCEPTED_ALTERNATIVES") return "AMBIGUOUS_RELATION";
+  return "UNSUPPORTED_KIND";
 }
 
 /**
@@ -190,6 +212,16 @@ const AUTHORITY_VERB = [
   ["VERIFIED_BY", /\b(?:is|are|was|were|will\s+be|shall\s+be)\s+(?:verified|attested|countersigned|approved|sanctioned)\s+by\s+(?:the\s+)?([^.,;()]{4,70})/i],
   ["VERIFIED_BY", /\bverification\s+by\s+(?:the\s+)?([^.,;()]{4,70})/i],
 ];
+
+/**
+ * True when a sentence named an authority in the passive and we refused it.
+ *
+ * §26 says do not guess the actor, and the refusals are the interesting half:
+ * "issued by any one of the following officers" is a page that genuinely
+ * declined to say who, and "verified by the Mamlatdar / Talati" is a page that
+ * named two. Both look identical to a counter that only records what survived.
+ */
+export const authorityRefused = (claim) => !authorityFromClaim(claim) && AUTHORITY_VERB.some(([, re]) => re.test(String(claim ?? "")));
 
 /** An officer holds an office. `OFFICE_WORD` is about buildings and misses them. */
 const AUTHORITY_WORD =
@@ -1152,12 +1184,37 @@ const textOf = memo((sha1) => {
 });
 const blocksOf = memo((sha1) => groupBlocks(textOf(sha1)));
 
-const admissible = [...byUrl.entries()]
-  .map(([url, facts]) => ({ url, facts, page: pages.get(url) }))
-  .filter((c) => c.page && c.facts.filter(placeable).length >= MIN_HARD);
+/**
+ * Everything this run threw away, and why.
+ *
+ * 19,622 facts on disk and 8,539 citations shipped, and until now the other
+ * eleven thousand left no trace at all. Not a mystery worth having: the drops
+ * are where the depth is, and a funnel you cannot see is a funnel you cannot
+ * fix. Collected in memory and written once at the end, because a compile that
+ * dies at journey nine would otherwise leave a ledger that reads as "journeys
+ * ten onward rejected nothing".
+ */
+const runId = `compile-${new Date().toISOString()}`;
+const drops = rejections("compile", runId);
+/** Shorthand, because this is about to be called from twenty places. */
+const reject = (reason, row) => drops.reject(reason, row);
+/** What a rejection says about the fact it is refusing. */
+const of = (f) => ({ url: f.url, kind: f.kind, claim: f.claim, evidence: f.evidence });
+
+const withFacts = [...byUrl.entries()].map(([url, facts]) => ({ url, facts, page: pages.get(url) }));
+const admissible = withFacts.filter((c) => c.page && c.facts.filter(placeable).length >= MIN_HARD);
+for (const c of withFacts) {
+  if (admissible.includes(c)) continue;
+  // One row per page, not per fact. A page with no source row is a bookkeeping
+  // hole; a page whose facts we cannot place is a schema hole, and conflating
+  // them would hide the first inside the second.
+  if (!c.page) reject("MISSING_SOURCE", { url: c.url, note: `${c.facts.length} fact(s) off a page with no row in pages.jsonl` });
+  else reject("PAGE_NOT_ADMISSIBLE", { url: c.url, note: `${c.facts.length} fact(s), none of a kind this compiler places` });
+}
 
 // A national portal carries every state's schemes, and this one is for Gujarat.
 const foreign = admissible.filter((c) => !isGujarat(c.page.host) && otherState(textOf(c.page.sha1)));
+for (const c of foreign) reject("OUT_OF_JURISDICTION", { url: c.url, note: otherState(textOf(c.page.sha1)) });
 const candidates = admissible
   .filter((c) => !foreign.includes(c))
   .sort((a, b) => b.facts.length - a.facts.length);
@@ -1246,7 +1303,7 @@ async function identify(c) {
 }
 
 let calls = 0;
-const identified = (await pool(candidates, CONCURRENCY, async (c) => {
+const answered = (await pool(candidates, CONCURRENCY, async (c) => {
   const id = await identify(c);
   if (!id.cached) calls++;
   if (calls && calls % 40 === 0) console.log(`  ${calls} identified`);
@@ -1254,7 +1311,11 @@ const identified = (await pool(candidates, CONCURRENCY, async (c) => {
   // become one service, so a fix to `slug` has to reach identifications that
   // were cached before it, and the cached model answer is the name, not the id.
   return { ...c, ...id, serviceId: slug(id.service) };
-})).filter((c) => c && !c.skip);
+})).filter(Boolean);
+for (const c of answered) {
+  if (c.skip) reject("NOT_A_SERVICE_PAGE", { url: c.url, claim: c.service || c.page.title, note: c.service ? "identified, and nobody applies for it" : "no service name came back" });
+}
+const identified = answered.filter((c) => !c.skip);
 
 console.log(`${calls} model calls, ${candidates.length - calls} cached`);
 console.log(`${identified.length} pages are about a service in a known journey, ${candidates.length - identified.length} skipped`);
@@ -1299,6 +1360,7 @@ for (const [journey, services] of journeys) {
   const ids = [...services.keys()];
   for (const id of ids) {
     if (!isHeading(id, ids)) continue;
+    reject("HEADING_NOT_SERVICE", { url: services.get(id).pages[0]?.url, claim: services.get(id).name, note: `sits above ${ids.length - 1} other names in ${journey}` });
     const dropped = headings.get(journey) ?? [];
     dropped.push(`${services.get(id).name}: a page listing ${ids.length - 1} other services in this journey, not a service itself, so it was read for its links and not kept as somewhere to apply. Its pages: ${services.get(id).pages.map((p) => p.url).join(", ")}`);
     headings.set(journey, dropped);
@@ -1500,11 +1562,23 @@ function build(journey, services) {
     // because whatever we would add, somebody already wrote better.
     if (taken.has(serviceNodeId)) {
       notFound.push(`${service.name}: the hand written graph already answers to ${serviceNodeId}, so the pages found for it were not merged in. Reconciling the two is a job for a person.`);
+      reject("ALREADY_OWNED", { url: service.pages[0].url, claim: service.name, note: `${service.pages.flatMap((c) => c.facts).length} fact(s) across ${service.pages.length} page(s) not merged into ${serviceNodeId}` });
       continue;
     }
 
     const jurisdictionId = districtOf(service.pages[0].page.host);
     const serviceRefs = [];
+    /**
+     * A quote hung off the service node, or a note that we ran out of room.
+     *
+     * The cap is twelve because a service page showing forty quotes is a wall
+     * nobody reads, and the thirteenth is not worse evidence than the twelfth,
+     * it is just later on the page. Worth knowing how often we hit it.
+     */
+    const cite = (r, f) => {
+      if (serviceRefs.length < 12) serviceRefs.push(r);
+      else reject("TRUNCATED_BY_CAP", { ...of(f), note: "past the 12 quotes a service node shows" });
+    };
     /** What this service's pages said that we read and then refused to write. */
     const gaps = [];
     /** One numbered process per service. Nine pages do not make nine processes. */
@@ -1533,6 +1607,18 @@ function build(journey, services) {
       for (const f of c.facts) {
         facts.push({ claim: f.claim, kind: f.kind, subject: f.subject, object: f.object, detail: f.detail, sourceId, evidence: f.evidence, confidence: f.confidence });
         const r = [ref(sourceId, f)];
+
+        // Asked before the chain, not after it. DOCUMENT_REQUIREMENT is in
+        // HARD, so a document fact that fails these three guards is caught by
+        // the HARD branch at the bottom and kept as a service quote, which is
+        // right, and it would leave the biggest single loss in the funnel with
+        // nothing recorded against it. 2,821 of these arrive and 217 services
+        // end up with documents.
+        if (f.kind === "DOCUMENT_REQUIREMENT" && !(f.object && !FIELDS.has(f.object) && isDocument(f.object))) {
+          if (!f.object) reject("INVALID_SCHEMA", { ...of(f), note: "a document requirement naming no document" });
+          else if (FIELDS.has(f.object)) reject("NOT_A_DOCUMENT", { ...of(f), note: `${f.object} is a form field` });
+          else reject(known.has(title(f.object)) ? "NOT_A_DOCUMENT" : "UNKNOWN_CANONICAL_ENTITY", { ...of(f), note: f.object });
+        }
 
         if (f.kind === "DOCUMENT_REQUIREMENT" && f.object && !FIELDS.has(f.object) && isDocument(f.object)) {
           const docId = `document:${f.object}`;
@@ -1581,7 +1667,7 @@ function build(journey, services) {
             sources: r,
           });
           link(serviceNodeId, portalId, f.kind === "TRACKING" ? "TRACK_AT" : "APPLY_AT", f.claim, r);
-          if (serviceRefs.length < 12) serviceRefs.push(ref(sourceId, f));
+          cite(ref(sourceId, f), f);
         } else if (f.kind === "CHANNEL" && govEmail(f.detail.email)) {
           const address = govEmail(f.detail.email);
           const mailId = `helpline:${slug(address)}`;
@@ -1594,7 +1680,7 @@ function build(journey, services) {
             sources: r,
           });
           link(serviceNodeId, mailId, "CALL_IF", f.claim, r);
-          if (serviceRefs.length < 12) serviceRefs.push(ref(sourceId, f));
+          cite(ref(sourceId, f), f);
         } else if (f.kind === "APP") {
           // §41 forbids inventing an official mobile application, and a page
           // saying "download our app" is not a store listing. 46 APP facts in
@@ -1602,12 +1688,14 @@ function build(journey, services) {
           // node, ever, from this: the citizen is told the page mentions one
           // and that we could not find where it lives.
           gaps.push(`${service.name}: a page mentions a mobile app ("${f.claim}") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.`);
+          reject("UNSUPPORTED_KIND", { ...of(f), note: "APP never becomes a node, by policy" });
         } else if ((f.kind === "CHANNEL" || f.kind === "TRACKING") && f.detail.url) {
           // Not a gov.in or nic.in host, so the hostname is not proof of who
           // owns it. gujarattourism.com and mcjamnagar.com are genuinely
           // official and are dropped here anyway, because "we recognise the
           // brand" stops being a test the day somebody registers a lookalike.
           const dest = urlOf(f.detail.url);
+          reject(dest ? "UNTRUSTED_HOST" : "FAILED_NORMALIZATION", { ...of(f), note: dest ? dest.hostname : String(f.detail.url).slice(0, 80) });
           gaps.push(
             dest
               ? `${service.name}: the page links to ${dest.hostname}, which is not a gov.in or nic.in host, so we could not prove from the name alone that government owns it and did not send anyone there.`
@@ -1620,7 +1708,12 @@ function build(journey, services) {
         } else if (HARD.includes(f.kind) || f.kind === "ACTION" || f.kind === "CHANNEL") {
           // Not its own node, but it is why this service node is believable, so
           // it hangs off the service with its quote intact.
-          if (serviceRefs.length < 12) serviceRefs.push(ref(sourceId, f));
+          cite(ref(sourceId, f), f);
+        } else {
+          // Off the end of the chain: quotable, on a page about a real service,
+          // and there is nowhere in the graph to put it. The near misses live
+          // here, which is why the reason is worked out rather than fixed.
+          reject(whyUnplaceable(f), of(f));
         }
 
         // ------------------------------------------------- who signs it off
@@ -1642,7 +1735,12 @@ function build(journey, services) {
           const docId = `document:${f.object}`;
           const from = authority.type === "ISSUED_BY" && declared.has(docId) ? docId : serviceNodeId;
           link(from, deptId, authority.type, f.claim, r);
-          if (serviceRefs.length < 12) serviceRefs.push(ref(sourceId, f));
+          cite(ref(sourceId, f), f);
+        } else if (authorityRefused(f.claim)) {
+          // The page used the passive and never named the officer, or named two
+          // and left the choice open. §26 says do not guess, so nothing is
+          // written, and this is how often that costs us an ISSUED_BY.
+          reject("NO_ACTOR", { ...of(f), note: "a sentence about who does it that names nobody" });
         }
       }
 
@@ -1684,10 +1782,11 @@ function build(journey, services) {
           link(serviceNodeId, actionId, "REQUIRES", `Step ${m.n} of ${run.length} as the page numbers them.`, r);
           if (previous) link(actionId, previous, "DEPENDS_ON", "The page puts this step after that one.", r);
           previous = actionId;
-          if (serviceRefs.length < 12) serviceRefs.push(ref(sourceId, m.fact));
+          cite(ref(sourceId, m.fact), m.fact);
         }
         steps = run.length;
       } else if (!steps && c.facts.filter((f) => f.kind === "ACTION").length >= MIN_STEPS) {
+        for (const f of c.facts) if (f.kind === "ACTION") reject("NO_EXPLICIT_ORDER", of(f));
         gaps.push(
           `${service.name}: ${c.url} lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.`,
         );
@@ -1701,6 +1800,7 @@ function build(journey, services) {
         const members = [...new Map(b.members.filter((m) => isDocument(m) && slug(m)).map((m) => [slug(m), m])).values()];
         if (members.length < 2) {
           if (b.members.length >= 2) {
+            reject("GROUP_TOO_FEW_MEMBERS", { url: c.url, kind: "DOCUMENT_GROUP", claim: b.head, evidence: b.evidence, note: `${b.members.length} line(s), ${members.length} of them a known document` });
             gaps.push(`${service.name}: ${c.url} offers a choice under "${b.head}" but fewer than two of the lines under it are documents, so no group was written.`);
           }
           continue;
@@ -1729,20 +1829,31 @@ function build(journey, services) {
           });
         }
         link(serviceNodeId, groupId, "REQUIRES", b.head, r);
-        if (serviceRefs.length < 12) serviceRefs.push(r[0]);
+        cite(r[0], { url: c.url, kind: "DOCUMENT_GROUP", claim: b.head, evidence: b.evidence });
       }
     }
 
     if (!serviceRefs.length) {
       notFound.push(`${service.name}: no quotable requirement, fee or timeline survived, so no service node was written for it.`);
+      reject("NO_QUOTABLE_EVIDENCE", { url: service.pages[0].url, claim: service.name, note: `${service.pages.flatMap((c) => c.facts).length} fact(s) and not one of them load bearing` });
       continue;
     }
     // Deduped: one service quoting the same off-government portal on nine pages
     // is one gap, not nine.
     notFound.push(...new Set(gaps));
 
-    const fee = service.pages.flatMap((c) => c.facts).find(isCitizenFee);
-    const timeline = service.pages.flatMap((c) => c.facts).find(isProcessingTime);
+    const all = service.pages.flatMap((c) => c.facts);
+    const fee = all.find(isCitizenFee);
+    const timeline = all.find(isProcessingTime);
+    // Three kinds that arrive under the right name and mean something else: a
+    // fee the department pays, a deadline read as a processing time, a sentence
+    // about what the scheme is for read as who it is for. Refusing them is the
+    // point; not counting them was not.
+    for (const f of all) {
+      if (f.kind === "FEE" && !isCitizenFee(f)) reject("NOT_A_CITIZEN_FEE", of(f));
+      else if (f.kind === "TIMELINE" && !isProcessingTime(f)) reject("NOT_A_PROCESSING_TIME", of(f));
+      else if (f.kind === "ELIGIBILITY" && !isQualifyingRule(f)) reject("NOT_A_CRITERION", of(f));
+    }
     // Deduped before capping, because nine pages of one scheme repeat the
     // income limit nine times and six copies of one sentence is not six criteria.
     //
@@ -1757,9 +1868,11 @@ function build(journey, services) {
     // fourteen word boilerplate tail and score 0.48 against each other. Page
     // order plus exact dedupe reads fine; revisit with sentence embeddings or
     // not at all.
-    const eligibility = [
-      ...new Set(service.pages.flatMap((c) => c.facts).filter(isQualifyingRule).map((f) => f.claim)),
-    ].slice(0, ELIGIBILITY_SHOWN);
+    const rules = [...new Set(all.filter(isQualifyingRule).map((f) => f.claim))];
+    const eligibility = rules.slice(0, ELIGIBILITY_SHOWN);
+    for (const claim of rules.slice(ELIGIBILITY_SHOWN)) {
+      reject("TRUNCATED_BY_CAP", { url: service.pages[0].url, kind: "ELIGIBILITY", claim, note: `past the ${ELIGIBILITY_SHOWN} rules a service shows` });
+    }
 
     put({
       id: serviceNodeId,
@@ -1802,6 +1915,11 @@ function build(journey, services) {
   // validator is right to refuse it.
   const live = new Set(nodes.map((n) => n.id));
   const kept = edges.filter((e) => (live.has(e.from) || taken.has(e.from)) && (live.has(e.to) || taken.has(e.to)));
+  for (const e of edges) {
+    if (kept.includes(e)) continue;
+    const missing = live.has(e.from) || taken.has(e.from) ? e.to : e.from;
+    reject("DANGLING_REFERENCE", { url: journey, kind: e.type, claim: e.id, evidence: e.sources?.[0]?.evidence, note: `${missing} was never written` });
+  }
 
   // The two layers disagree about `cacheFile` and `scrapedOk` on purpose. They
   // are facts about *our fetch*, which the ledger needs and the sources table
@@ -1833,6 +1951,7 @@ for (const [journey, services] of [...journeys.entries()].sort()) {
   const list = [...services.values()].filter((s) => s.pages.length > 0);
   if (list.length < MIN_SERVICES) {
     summary.push(`${journey}: ${list.length} service(s), below the ${MIN_SERVICES} needed to be a journey. Not written.`);
+    for (const s of list) reject("JOURNEY_TOO_SMALL", { url: s.pages[0].url, claim: s.name, note: `${journey} had ${list.length}, needs ${MIN_SERVICES}` });
     continue;
   }
   if (EXISTING.has(journey)) {
@@ -1864,4 +1983,43 @@ for (const [journey, services] of [...journeys.entries()].sort()) {
 
 console.log(`\n${written} bundle(s) ${flag("dry") ? "would be" : ""} written\n`);
 for (const s of summary) console.log("  " + s);
+
+// ---------------------------------------------------------------- rejections
+//
+// Written even on a dry run. Seeing what a compile *would* throw away, without
+// touching the bundles, is most of the point of --dry.
+writeJsonl(REJECTIONS, drops.rows);
+
+/**
+ * The committed aggregate.
+ *
+ * The rows themselves are gitignored: they rebuild from committed facts with
+ * no model call, so they are derived data and 5MB of churn per compile is 5MB
+ * of history nobody will ever read. The counts are the thing you want in a
+ * diff, because a reason that doubles between two runs is the review comment.
+ */
+const byReason = new Map();
+for (const row of drops.rows) {
+  const key = `${row.stage}|${row.reason}`;
+  const seen = byReason.get(key) ?? { stage: row.stage, reason: row.reason, count: 0, examples: [] };
+  seen.count++;
+  if (seen.examples.length < 5) seen.examples.push({ url: row.url, claim: row.claim ?? null, note: row.note ?? null });
+  byReason.set(key, seen);
+}
+writeFileSync(
+  at(REJECTION_SUMMARY),
+  JSON.stringify(
+    {
+      runId,
+      compiledAt: today(),
+      total: drops.rows.length,
+      reasons: [...byReason.values()].sort((a, b) => b.count - a.count),
+    },
+    null,
+    1,
+  ) + "\n",
+);
+console.log(`\n${drops.rows.length} candidate(s) refused, by ${byReason.size} distinct reason(s). Written to ${REJECTIONS}`);
+console.log(`Run: pnpm rejections:stats`);
+
 if (!flag("dry")) console.log(`\nNow run: pnpm bundles:build && pnpm graph:validate && pnpm quotes:audit`);

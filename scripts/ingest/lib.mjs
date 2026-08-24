@@ -105,6 +105,102 @@ export function negativeRow(url, reason, now, detail) {
   return { url, reason, detail: detail ?? null, recordedAt: now, blockedUntil: new Date(Date.parse(now) + hours * 3600_000).toISOString() };
 }
 
+// ---------------------------------------------------------------- rejections
+
+/**
+ * Why a candidate fact did not become graph data, in a fixed vocabulary.
+ *
+ * Every stage of this pipeline throws work away, and until now it threw it away
+ * silently. Extraction reported "2309 dropped" and kept none of the strings, so
+ * the one gate the whole product rests on could not be audited without paying
+ * for the model again. Compile was worse: 19,622 facts on disk and 8,539
+ * citations shipped, and no record anywhere of what happened to the other
+ * eleven thousand. A funnel you cannot see is a funnel you cannot fix, and the
+ * losses are where the depth is.
+ *
+ * So: a canonical reason per drop, recorded next to the candidate. Sorted here
+ * by the question each one answers, because a flat list of twenty five constants
+ * tells you nothing about which are the same problem.
+ *
+ * A reason with no rows is not a bug. CONFLICTING_EVIDENCE is declared and
+ * unused because nothing yet compares two pages, and naming the hole is how it
+ * stops being invisible.
+ */
+export const REJECTION_REASONS = {
+  // Did the model make it up?
+  EVIDENCE_NOT_VERBATIM: "the quote is not on the page, character for character",
+  UNSUPPORTED_KIND: "a kind that is not in the schema",
+  INVALID_SCHEMA: "missing a field the graph requires",
+  DUPLICATE: "the same fact under the same quote, already kept",
+
+  // Is the page worth reading at all?
+  PAGE_NOT_ADMISSIBLE: "the page yielded nothing this compiler knows how to place",
+  OUT_OF_JURISDICTION: "the page is about another state's scheme",
+  NOT_A_SERVICE_PAGE: "identification says nobody applies for anything here",
+  HEADING_NOT_SERVICE: "the name is the category above the services, not one of them",
+  ALREADY_OWNED: "a hand written bundle already answers to this id",
+
+  // Does the fact say enough to become a row?
+  UNKNOWN_CANONICAL_ENTITY: "nobody has classified this phrase yet",
+  NOT_A_DOCUMENT: "a form field, not something you could put in an envelope",
+  NO_LOCATION: "an office with no address and no phone is nowhere to go",
+  NO_CONTACT_VALUE: "a helpline with no number is a page saying call us",
+  UNTRUSTED_HOST: "not gov.in or nic.in, so the name is not proof of who owns it",
+  FAILED_NORMALIZATION: "a destination named with no link printed for it",
+  NO_ACTOR: "the sentence declined to name one authority",
+  NO_REASON: "a blocker with no stated cause",
+  NO_EXPLICIT_ORDER: "things to do, and the page never says which comes first",
+  GROUP_TOO_FEW_MEMBERS: "a choice with fewer than two documents under it",
+  AMBIGUOUS_RELATION: "the sentence supports more than one edge and names neither",
+
+  // Does the fact mean what its kind says?
+  NOT_A_CITIZEN_FEE: "money moving the other way, or not moving at all",
+  NOT_A_PROCESSING_TIME: "a deadline or a duration, not how long government takes",
+  NOT_A_CRITERION: "what the scheme is for, not who it is for",
+
+  // Ours, not the page's.
+  TRUNCATED_BY_CAP: "true, quotable, and past the number we agreed to show",
+  NO_QUOTABLE_EVIDENCE: "the service had nothing to stand on, so no node was written",
+  DANGLING_REFERENCE: "the node at one end of this was never written",
+  JOURNEY_TOO_SMALL: "below the services needed to be a journey",
+  MISSING_SOURCE: "no source row for the page this came off",
+  CONFLICTING_EVIDENCE: "two pages disagree and neither was picked",
+};
+
+/** Full rows, gitignored: every compile rebuilds them from committed facts. */
+export const REJECTIONS = INGEST + "rejections.jsonl";
+/** The committed aggregate. Small, diffable, and what `rejections:stats` reads. */
+export const REJECTION_SUMMARY = "docs/research/rejections.json";
+
+/**
+ * A collector for one run's rejections.
+ *
+ * Deliberately not a class and deliberately not written as it goes. A compile
+ * builds every journey before it writes any of them, and a half written
+ * rejection ledger from a run that failed at journey nine would be read as
+ * "journeys ten onward rejected nothing".
+ */
+export function rejections(stage, runId) {
+  const rows = [];
+  return {
+    rows,
+    reject(reason, row) {
+      if (!Object.hasOwn(REJECTION_REASONS, reason)) throw new Error(`unknown rejection reason ${reason}`);
+      rows.push({
+        runId,
+        stage,
+        reason,
+        ...row,
+        // Trimmed here rather than at each call site. The point of keeping these
+        // is to be able to see what we threw away, and 200 characters is enough
+        // to recognise a claim; the untrimmed original is still on the page.
+        ...(row.claim ? { claim: String(row.claim).slice(0, 200) } : {}),
+        ...(row.evidence ? { evidence: String(row.evidence).slice(0, 200) } : {}),
+      });
+    },
+  };
+}
+
 // ---------------------------------------------------------------------- dns
 
 /**
@@ -588,6 +684,16 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   );
   assert.equal(links[0].title, "Apply Online", "anchor text is the title, tags stripped");
   assert.ok(!links.some((l) => l.url.includes("fake")), "a link inside a script tag is not a link");
+
+  // A typo in a reason is a rejection that quietly stops being counted under the
+  // name anybody greps for, which is the one failure this whole ledger exists to
+  // prevent. So it throws rather than inventing a bucket.
+  const drops = rejections("compile", "r1");
+  drops.reject("NO_EXPLICIT_ORDER", { url: "https://x.gov.in/a", claim: "c".repeat(500), evidence: "e".repeat(500) });
+  assert.equal(drops.rows.length, 1);
+  assert.equal(drops.rows[0].claim.length, 200, "a kept candidate is trimmed, not stored whole");
+  assert.equal(drops.rows[0].stage, "compile");
+  assert.throws(() => drops.reject("NO_EXPLICIT_ORDERS", {}), /unknown rejection reason/, "a reason not in the table is a typo, not a new category");
 
   assert.deepEqual(jsonArray('Sure! ```json\n[{"a":1}]\n``` hope that helps'), [{ a: 1 }]);
   assert.equal(jsonArray("I could not do it"), null, "prose without an array is not an answer");
