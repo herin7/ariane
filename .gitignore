@@ -47,6 +47,12 @@ TODO.md
 # docs/research/rejections.json, which is committed and small.
 .ingest/rejections.jsonl
 
+# chunks.jsonl is the same again, and bigger: 38,000 slices of pages that are
+# already committed, rebuilt by `pnpm corpus:chunk` in seconds with no network
+# and no model. The cut is defined by chunks.mjs, which is committed, so the
+# file is a build artefact of two things already in the repo.
+.ingest/chunks.jsonl
+
 # deps
 node_modules/
 .pnpm-store/
