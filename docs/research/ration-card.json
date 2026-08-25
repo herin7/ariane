@@ -16,6 +16,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:4cdeb96c361d",
+   "url": "https://ma.gujarat.gov.in/documents/Letter%20&%20Guideline%20for%20Hospital%20Empanelment%20under%20MA%20&%20PMJAY.pdf#page=7",
+   "title": "Letter%20&%20Guideline%20for%20Hospital%20Empanelment%20under%20MA%20&%20PMJAY (page 7 of 26)",
+   "domain": "ma.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "2025f4938373ff3c97dc7888d1f5b28feeec2e9e736f6a1c5de3f6271552435e",
+   "cacheFile": ".ingest/pages/4cdeb96c361d97709da9d616257953fc466ac65b.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:63934b07211d",
    "url": "https://fcsca.gujarat.gov.in/en/Contacts",
    "title": "Contact Us",
@@ -508,6 +520,16 @@
    "sourceId": "src:189778a54c94",
    "evidence": "3. More than 60 age",
    "confidence": 1
+  },
+  {
+   "claim": "The insurance company or ISA verifies the beneficiary's details against the SECC-2011 database.",
+   "kind": "ACTION",
+   "subject": "pmjay_card",
+   "object": "insurance_company_isa",
+   "detail": {},
+   "sourceId": "src:4cdeb96c361d",
+   "evidence": "These details are verilied by the insurance company / ISA against the SECC-2Ol1 database ald if matches, an E-card (Golden Card) of PMJAY is generated & provided to the beneliciary.",
+   "confidence": 0.9
   },
   {
    "claim": "The Food Ration Card Helpline toll free number is 1800-233-5500.",

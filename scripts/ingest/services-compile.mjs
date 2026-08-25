@@ -2230,6 +2230,35 @@ function build(journey, services) {
           link(serviceNodeId, gId, "ESCALATE_TO", f.claim, r);
         } else if (f.kind === "ACTION" && f.promoted && isMicroInstruction(f.claim)) {
           reject("NOT_A_CITIZEN_STEP", { ...of(f), note: "a button, not a step" });
+        } else if (f.kind === "ACTION" && f.promoted && owned) {
+          // ------------------------------------ somebody already wrote the path
+          //
+          // Every other promoted fact is welcome on a hand written service. A
+          // fee, an office, a helpline, a produced document: each is one answer
+          // to one question, it either belongs or it does not, and a person who
+          // did not write it down was not asserting it is absent.
+          //
+          // A step is not one answer. A sequence is a claim about the shape of
+          // the whole thing, and the five that landed on driving licence say
+          // what that costs. "Take an appointment." "Fill up the Application
+          // Form." "Visit the RTO on the scheduled date with original
+          // documents", which the authored step 3 already says at length and
+          // with the four things to carry. "An online slot booking for a test
+          // of competence is required before a permanent license is ", cut off
+          // mid sentence by the id length, duplicating authored step 11.
+          // "Enter the Driver's License number and Date of birth", which is how
+          // you track an application and was filed under how you make one.
+          //
+          // Each passed every gate it met. All of them are verbatim off
+          // parivahan's own FAQ. Not one is false and not one is worth reading,
+          // and they sat in the middle of the best journey in the graph, which
+          // is the one §28 puts on a screen.
+          //
+          // The rule the rest of this file already follows, applied to steps: a
+          // page this compiler found is a guess and a person's judgement wins.
+          // Retrieval knowing the service id makes a promoted claim a better
+          // guess about the subject, not a better one about the order.
+          reject("ALREADY_OWNED", { ...of(f), note: `${serviceNodeId} has a hand written sequence, so a machine step does not join it` });
         } else if (f.kind === "ACTION" && f.promoted && stepLabel(f.claim)) {
           // ------------------------------------------------ a step, unordered
           //

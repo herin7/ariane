@@ -109,6 +109,46 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "helpline:1800_103_0025",
+   "type": "HELPLINE",
+   "name": "e-Filing (TIN 2.0) helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "1800 103 0025"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Call Us\ne-filing and Centralized Processing Center\ne-Filing of Income Tax Return or Forms and other value added services & Intimation, Rectification, Refund and other Income Tax Processing Related Queries\n1800 103 0025 (or)\n1800 419 0025\n+91-80-46122000\n+91-80-61464700\n10:00 hrs - 18:00 hrs\n(Weekends)\n(22nd and 23rd August'26)\nFrom 24th August 2026, 08:00 Hrs onwards,\nour support lines will operate 24x7 until 23:59 Hrs\non 31st August 2026.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "action:e_filing_tin_2_0_the_registration_request_is_sent_to_the_competen",
+   "type": "ACTION",
+   "name": "The registration request is sent to the competent Income Tax Authority for approval or rej",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The registration request is sent to the competent Income Tax Authority for approval or rejection.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 2: The internal SPOC will register the TIN user manually with the details provided, and will send the registration request to the competent Income Tax Authority (production environment) for approval / rejection.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "action:e_filing_tin_2_0_1_go_to_the_e_filing_homepage_and_click_re",
    "type": "ACTION",
    "name": "Go to the e-Filing homepage and click Register",
@@ -1316,6 +1356,38 @@
      "sourceId": "src:d1b6d8fe23c3",
      "evidence": "Public Certificate",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_e_filing_tin_2_0__call_if__helpline_1800_103_0025",
+   "from": "service:e_filing_tin_2_0",
+   "to": "helpline:1800_103_0025",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The phone number for e-Filing (TIN 2.0) is 1800 103 0025 or 1800 419 0025.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Call Us\ne-filing and Centralized Processing Center\ne-Filing of Income Tax Return or Forms and other value added services & Intimation, Rectification, Refund and other Income Tax Processing Related Queries\n1800 103 0025 (or)\n1800 419 0025\n+91-80-46122000\n+91-80-61464700\n10:00 hrs - 18:00 hrs\n(Weekends)\n(22nd and 23rd August'26)\nFrom 24th August 2026, 08:00 Hrs onwards,\nour support lines will operate 24x7 until 23:59 Hrs\non 31st August 2026.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_e_filing_tin_2_0__requires__action_e_filing_tin_2_0_the_registration_request_is_sent_to_",
+   "from": "service:e_filing_tin_2_0",
+   "to": "action:e_filing_tin_2_0_the_registration_request_is_sent_to_the_competen",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The registration request is sent to the competent Income Tax Authority for approval or rejection.",
+   "sources": [
+    {
+     "sourceId": "src:d1b6d8fe23c3",
+     "evidence": "Step 2: The internal SPOC will register the TIN user manually with the details provided, and will send the registration request to the competent Income Tax Authority (production environment) for approval / rejection.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]

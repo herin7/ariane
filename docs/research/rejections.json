@@ -1,12 +1,12 @@
 {
- "runId": "compile-2026-08-25T10:58:04.877Z",
+ "runId": "compile-2026-08-25T12:49:59.275Z",
  "compiledAt": "2026-08-25",
- "total": 8806,
+ "total": 10383,
  "reasons": [
   {
    "stage": "compile",
    "reason": "TRUNCATED_BY_CAP",
-   "count": 2328,
+   "count": 2743,
    "examples": [
     {
      "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
@@ -24,13 +24,13 @@
      "note": "past the 12 quotes a service node shows"
     },
     {
-     "url": "https://devbhumidwarkadp.gujarat.gov.in/gu/E-gram-Vishvagram-Yojana",
-     "claim": "E-Gram Panchayat provides name change in property records.",
+     "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
+     "claim": "The detailed procedure for sanction and disbursement will be laid down by the IC office.",
      "note": "past the 12 quotes a service node shows"
     },
     {
      "url": "https://devbhumidwarkadp.gujarat.gov.in/gu/E-gram-Vishvagram-Yojana",
-     "claim": "E-Gram Panchayat provides agricultural market linkage for agricultural products.",
+     "claim": "E-Gram Panchayat provides name change in property records.",
      "note": "past the 12 quotes a service node shows"
     }
    ]
@@ -38,7 +38,7 @@
   {
    "stage": "compile",
    "reason": "NO_EXPLICIT_ORDER",
-   "count": 1349,
+   "count": 1649,
    "examples": [
     {
      "url": "https://suratmunicipal.gov.in/OnlineServices/DeathCertificate/Enroll",
@@ -56,13 +56,13 @@
      "note": null
     },
     {
-     "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
-     "claim": "The enterprise will apply to the Industries Commissioner in a prescribed format along with a detailed project report.",
+     "url": "https://suratmunicipal.gov.in/OnlineServices/DeathCertificate/Enroll",
+     "claim": "Online death certificate for deaths registered on or after 01/04/2020 will not be available.",
      "note": null
     },
     {
      "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
-     "claim": "The application will be scrutinized and put up before the Committee for approval.",
+     "claim": "The enterprise will apply to the Industries Commissioner in a prescribed format along with a detailed project report.",
      "note": null
     }
    ]
@@ -102,7 +102,7 @@
   {
    "stage": "compile",
    "reason": "NOT_A_DOCUMENT",
-   "count": 899,
+   "count": 912,
    "examples": [
     {
      "url": "https://jamnagardp.gujarat.gov.in/gu/Registration-of-co-operatives-and-sub-rule-amendments",
@@ -133,8 +133,40 @@
   },
   {
    "stage": "compile",
+   "reason": "DUPLICATE",
+   "count": 750,
+   "examples": [
+    {
+     "url": "https://udyamregistration.gov.in/",
+     "claim": "After registration, a permanent registration number will be given to the applicant.",
+     "note": "already extracted from a page this service was built from"
+    },
+    {
+     "url": "https://udyamregistration.gov.in/",
+     "claim": "After completing the registration process, a certificate will be issued online.",
+     "note": "already extracted from a page this service was built from"
+    },
+    {
+     "url": "https://udyamregistration.gov.in/",
+     "claim": "After completion of the process of registration, a certificate will be issued online.",
+     "note": "already extracted from a page this service was built from"
+    },
+    {
+     "url": "https://udyamregistration.gov.in/",
+     "claim": "A permanent registration number will be given after registration.",
+     "note": "already extracted from a page this service was built from"
+    },
+    {
+     "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=6",
+     "claim": "Adventure Tour Operators (ATOs) must follow safety guidelines for activities like water sports, aero-sports, safaris, mountaineering, and trekking as per the Ministry of Tourism’s prevailing guideline",
+     "note": "already extracted from a page this service was built from"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
    "reason": "NOT_A_CITIZEN_FEE",
-   "count": 623,
+   "count": 652,
    "examples": [
     {
      "url": "https://vahan.parivahan.gov.in/vahanservice/vahan/ui/miscellaneous/Instructions.xhtml",
@@ -157,8 +189,8 @@
      "note": null
     },
     {
-     "url": "https://www.myscheme.gov.in/schemes/lcrlc",
-     "claim": "For every renewal cycle of three years, the construction worker is required to deposit a contribution of ₹100/-.",
+     "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=5",
+     "claim": "The fees for guide services are fixed or revised by the Commissioner of Tourism, TCGL, Guide association, or Tourist Guide Federation of India in consultation with IATO or Travel Agents Association.",
      "note": null
     }
    ]
@@ -166,7 +198,7 @@
   {
    "stage": "compile",
    "reason": "NO_LOCATION",
-   "count": 391,
+   "count": 467,
    "examples": [
     {
      "url": "https://pan.utiitsl.com/downloadFile?FileName=DocumentsForPAN.pdf#page=3",
@@ -189,8 +221,8 @@
      "note": null
     },
     {
-     "url": "https://gvc.org.in/webcontroller/contactgvc",
-     "claim": "The Gujarat Veterinary Council issues registration certificates.",
+     "url": "https://gvc.org.in/webcontroller/clickmenu/MTYyMDU3OTYw",
+     "claim": "The state Council issues provisional registration certificates to graduates.",
      "note": null
     }
    ]
@@ -198,8 +230,13 @@
   {
    "stage": "compile",
    "reason": "NOT_A_PROCESSING_TIME",
-   "count": 390,
+   "count": 424,
    "examples": [
+    {
+     "url": "https://suratmunicipal.gov.in/OnlineServices/DeathCertificate/Enroll",
+     "claim": "Online death certificate for deaths registered on or after 01/04/2020 will not be available.",
+     "note": null
+    },
     {
      "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
      "claim": "The reimbursement will be available for a period of five years from the date of production or the completion of 70%, whichever is earlier.",
@@ -216,13 +253,8 @@
      "note": null
     },
     {
-     "url": "https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201617_120.pdf#page=15",
-     "claim": "Candidates must submit the application within the specified time frame.",
-     "note": null
-    },
-    {
-     "url": "https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201617_127.pdf#page=17",
-     "claim": "Application must be submitted to Commission within time limit of last date, otherwise candidature will be cancelled",
+     "url": "https://gvc.org.in/webcontroller/clickmenu/MTYyMDU3OTYw",
+     "claim": "The provisional registration is limited only for the internship training period.",
      "note": null
     }
    ]
@@ -230,7 +262,7 @@
   {
    "stage": "compile",
    "reason": "NOT_A_CRITERION",
-   "count": 389,
+   "count": 394,
    "examples": [
     {
      "url": "https://jamnagardp.gujarat.gov.in/gu/Registration-of-co-operatives-and-sub-rule-amendments",
@@ -293,33 +325,33 @@
   },
   {
    "stage": "compile",
-   "reason": "DUPLICATE",
-   "count": 232,
+   "reason": "UNKNOWN_CANONICAL_ENTITY",
+   "count": 183,
    "examples": [
     {
-     "url": "https://udyamregistration.gov.in/",
-     "claim": "After registration, a permanent registration number will be given to the applicant.",
-     "note": "already extracted from a page this service was built from"
+     "url": "https://surat.nic.in/service/caste-certificate",
+     "claim": "An applicant visits the Digital Gujarat portal to apply for the SC/ST Caste Certificate.",
+     "note": "service:sc_st_caste_certificate is not a service this compile built"
     },
     {
-     "url": "https://udyamregistration.gov.in/",
-     "claim": "After completing the registration process, a certificate will be issued online.",
-     "note": "already extracted from a page this service was built from"
+     "url": "https://surat.nic.in/service/caste-certificate",
+     "claim": "For any query regarding the online application you can contact to Digital Gujarat Help Desk on 18002335500.",
+     "note": "service:sc_st_caste_certificate is not a service this compile built"
     },
     {
-     "url": "https://udyamregistration.gov.in/",
-     "claim": "After completion of the process of registration, a certificate will be issued online.",
-     "note": "already extracted from a page this service was built from"
+     "url": "https://surat.nic.in/service/caste-certificate",
+     "claim": "An applicant can check the status of a submitted application by visiting the Digital Gujarat portal.",
+     "note": "service:sc_st_caste_certificate is not a service this compile built"
     },
     {
-     "url": "https://udyamregistration.gov.in/",
-     "claim": "A permanent registration number will be given after registration.",
-     "note": "already extracted from a page this service was built from"
+     "url": "https://devbhumidwarka.nic.in/service/certificates",
+     "claim": "The Economically Backward Certificate (Other than Job/Education Purpose) is issued at the Taluka Mamlatdar or Panchayat Office.",
+     "note": "service:economically_backward_certificate is not a service this compile built"
     },
     {
-     "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=6",
-     "claim": "Adventure Tour Operators (ATOs) must follow safety guidelines for activities like water sports, aero-sports, safaris, mountaineering, and trekking as per the Ministry of Tourism’s prevailing guideline",
-     "note": "already extracted from a page this service was built from"
+     "url": "https://sje.gujarat.gov.in/ddcw/schemes/2226?lang=english",
+     "claim": "The maximum assistance provided is Rs. 50,000 or actual expenditure within the approved assistance.",
+     "note": "service:gujarat_nt_dnt_self_finance is not a service this compile built"
     }
    ]
   },
@@ -351,6 +383,38 @@
     {
      "url": "https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201617_120.pdf#page=11",
      "claim": "Applications sent by fax or email will be rejected",
+     "note": null
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "FAILED_NORMALIZATION",
+   "count": 134,
+   "examples": [
+    {
+     "url": "https://suratmunicipal.gov.in/OnlineServices/DeathCertificate/Enroll",
+     "claim": "An applicant can check the status of a submitted death certificate application.",
+     "note": null
+    },
+    {
+     "url": "https://www.myscheme.gov.in/schemes/aos",
+     "claim": "After submission of the Application Form, an acknowledgement slip will be given to the applicant by the PS committee or in a Gram Panchayat Office.",
+     "note": null
+    },
+    {
+     "url": "https://gvc.org.in/",
+     "claim": "An applicant can check the status of something already submitted by logging in to the Gujarat Veterinary Council website.",
+     "note": null
+    },
+    {
+     "url": "https://collectorkheda.gujarat.gov.in/varshai-app-form-47",
+     "claim": "An online application can be submitted through Digital Gujarat.",
+     "note": "Digital Gujarat"
+    },
+    {
+     "url": "https://ssg-ss.gujarat.gov.in/",
+     "claim": "Users can view their score two weeks after the last date of completing the survey, and it will also be visible on their mobile app.",
      "note": null
     }
    ]
@@ -389,72 +453,8 @@
   },
   {
    "stage": "compile",
-   "reason": "FAILED_NORMALIZATION",
-   "count": 117,
-   "examples": [
-    {
-     "url": "https://suratmunicipal.gov.in/OnlineServices/DeathCertificate/Enroll",
-     "claim": "An applicant can check the status of a submitted death certificate application.",
-     "note": null
-    },
-    {
-     "url": "https://collectorkheda.gujarat.gov.in/varshai-app-form-47",
-     "claim": "An online application can be submitted through Digital Gujarat.",
-     "note": "Digital Gujarat"
-    },
-    {
-     "url": "https://ssg-ss.gujarat.gov.in/",
-     "claim": "Users can view their score two weeks after the last date of completing the survey, and it will also be visible on their mobile app.",
-     "note": null
-    },
-    {
-     "url": "https://rajkot.gujarat.gov.in/",
-     "claim": "A citizen can apply for online services through the Digital Gujarat portal.",
-     "note": "Digital Gujarat"
-    },
-    {
-     "url": "https://rajkot.gujarat.gov.in/",
-     "claim": "A citizen can apply for online services through the iORA portal for revenue-related services.",
-     "note": "iORA"
-    }
-   ]
-  },
-  {
-   "stage": "compile",
-   "reason": "UNKNOWN_CANONICAL_ENTITY",
-   "count": 108,
-   "examples": [
-    {
-     "url": "https://surat.nic.in/service/caste-certificate",
-     "claim": "An applicant visits the Digital Gujarat portal to apply for the SC/ST Caste Certificate.",
-     "note": "service:sc_st_caste_certificate is not a service this compile built"
-    },
-    {
-     "url": "https://surat.nic.in/service/caste-certificate",
-     "claim": "For any query regarding the online application you can contact to Digital Gujarat Help Desk on 18002335500.",
-     "note": "service:sc_st_caste_certificate is not a service this compile built"
-    },
-    {
-     "url": "https://surat.nic.in/service/caste-certificate",
-     "claim": "An applicant can check the status of a submitted application by visiting the Digital Gujarat portal.",
-     "note": "service:sc_st_caste_certificate is not a service this compile built"
-    },
-    {
-     "url": "https://devbhumidwarka.nic.in/service/certificates",
-     "claim": "The Economically Backward Certificate (Other than Job/Education Purpose) is issued at the Taluka Mamlatdar or Panchayat Office.",
-     "note": "service:economically_backward_certificate is not a service this compile built"
-    },
-    {
-     "url": "https://sje.gujarat.gov.in/ddcw/schemes/2226?lang=english",
-     "claim": "The maximum assistance provided is Rs. 50,000 or actual expenditure within the approved assistance.",
-     "note": "service:gujarat_nt_dnt_self_finance is not a service this compile built"
-    }
-   ]
-  },
-  {
-   "stage": "compile",
    "reason": "NO_CONTACT_VALUE",
-   "count": 85,
+   "count": 101,
    "examples": [
     {
      "url": "https://gandhinagarmunicipal.com/mp_info_post/birth-death-certificate",
@@ -472,13 +472,45 @@
      "note": null
     },
     {
-     "url": "https://gvc.org.in/webcontroller/members/710",
-     "claim": "The contact email for the Gujarat Veterinary Council is registrar@gvc.org.in.",
+     "url": "https://gvc.org.in/webcontroller/contactgvc",
+     "claim": "An email address for contacting Gujarat Veterinary Council is registrar@gvc.org.in.",
      "note": null
     },
     {
-     "url": "https://gvc.org.in/webcontroller/contactgvc",
-     "claim": "An email address for contacting Gujarat Veterinary Council is registrar@gvc.org.in.",
+     "url": "https://gvc.org.in/webcontroller/members/710",
+     "claim": "The contact email for the Gujarat Veterinary Council is registrar@gvc.org.in.",
+     "note": null
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "NO_OUTPUT_NAMED",
+   "count": 93,
+   "examples": [
+    {
+     "url": "https://gvc.org.in/webcontroller/clickmenu/MTYyMDU3OTYw",
+     "claim": "The applicant receives a provisional registration certificate in Form-XXIV.",
+     "note": null
+    },
+    {
+     "url": "https://gvc.org.in/webcontroller/clickmenu/MTYyMDU3OTYw",
+     "claim": "The applicant receives a provisional registration certificate in Form-XXIV.",
+     "note": null
+    },
+    {
+     "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=3",
+     "claim": "The applicant receives a renewed City / Destination Level Tourist Guide or State Level Tourist Guide Certificate every 3 years.",
+     "note": null
+    },
+    {
+     "url": "https://parivahan.gov.in/sites/default/files/DownloadForm/cmvr/FORM-2.pdf",
+     "claim": "The applicant receives an affidavit sworn before an Executive Magistrate, Notary Public, or First Class Judicial Magistrate.",
+     "note": null
+    },
+    {
+     "url": "https://dpe.gujarat.gov.in/Home/primary/CentralizeTechbasedTeacherTransferProcess",
+     "claim": "The applicant gets relieved from their school after the TPEO countersigns the transfer order.",
      "note": null
     }
    ]
@@ -549,44 +581,17 @@
   },
   {
    "stage": "compile",
-   "reason": "NO_OUTPUT_NAMED",
-   "count": 50,
-   "examples": [
-    {
-     "url": "https://gvc.org.in/webcontroller/clickmenu/MTYyMDU3OTYw",
-     "claim": "The applicant receives a provisional registration certificate in Form-XXIV.",
-     "note": null
-    },
-    {
-     "url": "https://dpe.gujarat.gov.in/Home/primary/CentralizeTechbasedTeacherTransferProcess",
-     "claim": "The applicant gets relieved from their school after the TPEO countersigns the transfer order.",
-     "note": null
-    },
-    {
-     "url": "https://empower.gujarat.gov.in/KVK/Registration.aspx",
-     "claim": "The applicant receives a barcode-printed registration form to submit at any KVK in the state.",
-     "note": null
-    },
-    {
-     "url": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/challan-correction-request",
-     "claim": "The applicant receives email and SMS notifications once the challan correction is processed.",
-     "note": null
-    },
-    {
-     "url": "https://www.incometax.gov.in/iec/foportal/help/MyCAUserManual",
-     "claim": "The applicant receives a success message along with a Transaction ID after deactivating a CA.",
-     "note": null
-    }
-   ]
-  },
-  {
-   "stage": "compile",
    "reason": "NO_ACTOR",
-   "count": 41,
+   "count": 58,
    "examples": [
     {
      "url": "https://www.myscheme.gov.in/schemes/dbabocwwb",
      "claim": "The death certificate is issued by a government doctor or appropriate authority.",
+     "note": "a sentence about who does it that names nobody"
+    },
+    {
+     "url": "https://suratmunicipal.gov.in/Services/Sitilink/SaralPassTravelScheme",
+     "claim": "The Labour registration card is issued by the Government of Gujarat.",
      "note": "a sentence about who does it that names nobody"
     },
     {
@@ -603,19 +608,19 @@
      "url": "https://empower.gujarat.gov.in/Registration.aspx",
      "claim": "The data entry form's print will not be valid. A barcode print must be obtained from the main page and submitted to any government ITI.",
      "note": "a sentence about who does it that names nobody"
-    },
-    {
-     "url": "https://empower.gujarat.gov.in/Registration.aspx",
-     "claim": "The form will be considered valid only after verification by the government ITI under the jurisdiction of the Commissionerate of Employment and Training.",
-     "note": "a sentence about who does it that names nobody"
     }
    ]
   },
   {
    "stage": "compile",
    "reason": "NO_QUOTABLE_EVIDENCE",
-   "count": 27,
+   "count": 30,
    "examples": [
+    {
+     "url": "https://mahesana.nic.in/service/regarding-getting-a-widow-and-income-certificate",
+     "claim": "income certificate",
+     "note": "1 promoted claim(s) and no edge came out of them"
+    },
     {
      "url": "https://sabarkanthadp.gujarat.gov.in/gu/Registration-of-Co-Operative-society",
      "claim": "Registration of Cooperative Society",
@@ -635,18 +640,13 @@
      "url": "https://ic.gujarat.gov.in/dic-office.aspx",
      "claim": "District Industries Centre",
      "note": "10 fact(s) and not one of them load bearing"
-    },
-    {
-     "url": "https://ceiced.gujarat.gov.in/contact",
-     "claim": "Chief Electrical Inspector",
-     "note": "7 fact(s) and not one of them load bearing"
     }
    ]
   },
   {
    "stage": "compile",
    "reason": "UNTRUSTED_HOST",
-   "count": 26,
+   "count": 27,
    "examples": [
     {
      "url": "https://gvc.org.in/",
@@ -672,6 +672,38 @@
      "url": "https://mcjamnagar.com/Home.aspx",
      "claim": "The Jamnagar Municipal Corporation provides online payment services for Property Tax and Water Charges.",
      "note": "mcjamnagar.com"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "ALREADY_OWNED",
+   "count": 26,
+   "examples": [
+    {
+     "url": "https://collectorahmedabad.gujarat.gov.in/EWS-Certificate-GOG",
+     "claim": "EWS Certificate",
+     "note": "64 fact(s) across 4 page(s) not merged into service:ews_certificate"
+    },
+    {
+     "url": "https://collectorkheda.gujarat.gov.in/domicil-certificate-issue",
+     "claim": "Domicile Certificate",
+     "note": "15 fact(s) across 2 page(s) not merged into service:domicile_certificate"
+    },
+    {
+     "url": "https://morbi.nic.in/service/domicile-certificate",
+     "claim": "The applicant must collect the required proofs.",
+     "note": "service:domicile_certificate has a hand written sequence, so a machine step does not join it"
+    },
+    {
+     "url": "https://morbi.nic.in/service/domicile-certificate",
+     "claim": "The applicant must visit the Taluka Mamlatdar office.",
+     "note": "service:domicile_certificate has a hand written sequence, so a machine step does not join it"
+    },
+    {
+     "url": "https://gandhinagar.gujarat.gov.in/showpage.aspx?contentid=390",
+     "claim": "Non-Creamy Layer certificate",
+     "note": "307 fact(s) across 34 page(s) not merged into service:non_creamy_layer_certificate"
     }
    ]
   },
@@ -709,40 +741,8 @@
   },
   {
    "stage": "compile",
-   "reason": "ALREADY_OWNED",
-   "count": 15,
-   "examples": [
-    {
-     "url": "https://collectorahmedabad.gujarat.gov.in/EWS-Certificate-GOG",
-     "claim": "EWS Certificate",
-     "note": "64 fact(s) across 4 page(s) not merged into service:ews_certificate"
-    },
-    {
-     "url": "https://collectorkheda.gujarat.gov.in/domicil-certificate-issue",
-     "claim": "Domicile Certificate",
-     "note": "15 fact(s) across 2 page(s) not merged into service:domicile_certificate"
-    },
-    {
-     "url": "https://gandhinagar.gujarat.gov.in/showpage.aspx?contentid=390",
-     "claim": "Non-Creamy Layer certificate",
-     "note": "307 fact(s) across 34 page(s) not merged into service:non_creamy_layer_certificate"
-    },
-    {
-     "url": "https://collectorbhavnagar.gujarat.gov.in/salary-certificate",
-     "claim": "income certificate",
-     "note": "37 fact(s) across 4 page(s) not merged into service:income_certificate"
-    },
-    {
-     "url": "https://kheda.gujarat.gov.in/showpage.aspx?contentid=249",
-     "claim": "residence certificate",
-     "note": "264 fact(s) across 32 page(s) not merged into service:residence_certificate"
-    }
-   ]
-  },
-  {
-   "stage": "compile",
    "reason": "GROUP_TOO_FEW_MEMBERS",
-   "count": 8,
+   "count": 10,
    "examples": [
     {
      "url": "https://www.epfindia.gov.in/site_en/FAQ.php",
@@ -760,14 +760,46 @@
      "note": "3 line(s), 0 of them a known document"
     },
     {
+     "url": "https://web.umang.gov.in/landing/scheme/detail/chief-ministergi-shotharabasingi-tengbang_cmst.html",
+     "claim": "The following documents are required mandatorily in order to apply to this scheme -",
+     "note": "3 line(s), 0 of them a known document"
+    },
+    {
      "url": "https://dish.gujarat.gov.in/e-citizen-faq.htm",
      "claim": "Following documents should be submitted for license renewal",
      "note": "5 line(s), 1 of them a known document"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "NOT_A_CITIZEN_STEP",
+   "count": 7,
+   "examples": [
+    {
+     "url": "https://parivahan.gov.in/en/content/faq",
+     "claim": "Click 'continue'.",
+     "note": "a button, not a step"
     },
     {
-     "url": "https://fcsca.gujarat.gov.in/en/phh-schemenew1",
-     "claim": "Family having deprivation/insecurity of any of the following shall be included for food security.",
-     "note": "3 line(s), 0 of them a known document"
+     "url": "https://commercialtax.gujarat.gov.in/vatwebsite/download/Registration_Flow_Final_08062015.pdf#page=3",
+     "claim": "Choose either VAT Registration or CST Registration to access the registration form.",
+     "note": "a button, not a step"
+    },
+    {
+     "url": "https://parivahan.gov.in/en/content/faq",
+     "claim": "Select the concerned state on the Sarathi website.",
+     "note": "a button, not a step"
+    },
+    {
+     "url": "https://parivahan.gov.in/en/content/faq",
+     "claim": "Click on 'New Driving Licence' from the 'Driving Licence' menu on the Sarathi website.",
+     "note": "a button, not a step"
+    },
+    {
+     "url": "https://parivahan.gov.in/en/content/faq",
+     "claim": "Click on the 'Next' button to proceed with the application.",
+     "note": "a button, not a step"
     }
    ]
   },
@@ -800,38 +832,6 @@
      "url": "https://collectorpanchmahal.gujarat.gov.in/showpage.aspx?contentid=344",
      "claim": "certificate",
      "note": "sits above 51 other names in district-certificates"
-    }
-   ]
-  },
-  {
-   "stage": "compile",
-   "reason": "NOT_A_CITIZEN_STEP",
-   "count": 5,
-   "examples": [
-    {
-     "url": "https://parivahan.gov.in/en/content/faq",
-     "claim": "Click 'continue'.",
-     "note": "a button, not a step"
-    },
-    {
-     "url": "https://commercialtax.gujarat.gov.in/vatwebsite/download/Registration_Flow_Final_08062015.pdf#page=3",
-     "claim": "Choose either VAT Registration or CST Registration to access the registration form.",
-     "note": "a button, not a step"
-    },
-    {
-     "url": "https://parivahan.gov.in/en/content/faq",
-     "claim": "Select the concerned state on the Sarathi website.",
-     "note": "a button, not a step"
-    },
-    {
-     "url": "https://parivahan.gov.in/en/content/faq",
-     "claim": "Click on 'New Driving Licence' from the 'Driving Licence' menu on the Sarathi website.",
-     "note": "a button, not a step"
-    },
-    {
-     "url": "https://parivahan.gov.in/en/content/faq",
-     "claim": "Click on the 'Next' button to proceed with the application.",
-     "note": "a button, not a step"
     }
    ]
   },

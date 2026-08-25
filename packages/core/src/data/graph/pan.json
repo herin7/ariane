@@ -513,6 +513,26 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:challan_correction_request_the_applicant_can_download_the_corrected_challan",
+   "type": "ACTION",
+   "name": "The applicant can download the corrected challan details after the correction has been pro",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant can download the corrected challan details after the correction has been processed.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:5b01f9f92250",
+     "evidence": "You can download the corrected challan details using the following path: Path: Post Login → Services → Challan Correction → Download Corrected Details",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:challan_correction_request",
    "type": "SERVICE",
    "name": "Challan Correction Request",
@@ -849,6 +869,46 @@
     {
      "sourceId": "src:d043f7ad5e63",
      "evidence": "Refund processing by the tax department starts only after the return is e-verified by the taxpayer.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:refund_status_check_the_taxpayer_can_check_refund_status_on_the_e_fi",
+   "type": "ACTION",
+   "name": "The taxpayer can check refund status on the e-filing as per the process detailed hereunder",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The taxpayer can check refund status on the e-filing as per the process detailed hereunder.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "The taxpayer can also check refund status on the e-filing as per the process detailed hereunder.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:refund_status_check_the_income_tax_department_initiates_the_refund_p",
+   "type": "ACTION",
+   "name": "The income tax department initiates the refund process",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The income tax department initiates the refund process.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Income tax refund means a refund amount that is initiated by the income tax department if the amount paid in taxes exceeds the actual amount due (either by way of TDS or TCS or Advance Tax or Self-Assessment Tax).",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -1699,6 +1759,22 @@
    ]
   },
   {
+   "id": "e:service_challan_correction_request__requires__action_challan_correction_request_the_applicant_can_download",
+   "from": "service:challan_correction_request",
+   "to": "action:challan_correction_request_the_applicant_can_download_the_corrected_challan",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant can download the corrected challan details after the correction has been processed.",
+   "sources": [
+    {
+     "sourceId": "src:5b01f9f92250",
+     "evidence": "You can download the corrected challan details using the following path: Path: Post Login → Services → Challan Correction → Download Corrected Details",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_challan_correction_request__apply_at__portal_incometax_gov_in",
    "from": "service:challan_correction_request",
    "to": "portal:incometax_gov_in",
@@ -1917,6 +1993,38 @@
     {
      "sourceId": "src:d043f7ad5e63",
      "evidence": "Refund processing by the tax department starts only after the return is e-verified by the taxpayer.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_refund_status_check__requires__action_refund_status_check_the_taxpayer_can_check_refund_sta",
+   "from": "service:refund_status_check",
+   "to": "action:refund_status_check_the_taxpayer_can_check_refund_status_on_the_e_fi",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The taxpayer can check refund status on the e-filing as per the process detailed hereunder.",
+   "sources": [
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "The taxpayer can also check refund status on the e-filing as per the process detailed hereunder.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_refund_status_check__requires__action_refund_status_check_the_income_tax_department_initiat",
+   "from": "service:refund_status_check",
+   "to": "action:refund_status_check_the_income_tax_department_initiates_the_refund_p",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The income tax department initiates the refund process.",
+   "sources": [
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Income tax refund means a refund amount that is initiated by the income tax department if the amount paid in taxes exceeds the actual amount due (either by way of TDS or TCS or Advance Tax or Self-Assessment Tax).",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }

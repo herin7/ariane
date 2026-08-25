@@ -328,6 +328,59 @@
    "confidence": 0.9
   },
   {
+   "claim": "TIN 2.0 stakeholders include authorized banks, RBI, and Pr. CCA - CBDT (PRAKALP).",
+   "kind": "ELIGIBILITY",
+   "subject": "e_filing_tin_2_0",
+   "object": "stakeholders",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "TIN 2.0 stakeholders include:\nAuthorized Banks,\nRBI, and\nPr. CCA - CBDT (PRAKALP)",
+   "confidence": 1
+  },
+  {
+   "claim": "The phone number for e-Filing (TIN 2.0) is 1800 103 0025 or 1800 419 0025.",
+   "kind": "HELPLINE",
+   "subject": "e_filing_tin_2_0",
+   "object": "helpline",
+   "detail": {
+    "phone": "1800 103 0025",
+    "phone2": "1800 419 0025"
+   },
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "Call Us\ne-filing and Centralized Processing Center\ne-Filing of Income Tax Return or Forms and other value added services & Intimation, Rectification, Refund and other Income Tax Processing Related Queries\n1800 103 0025 (or)\n1800 419 0025\n+91-80-46122000\n+91-80-61464700\n10:00 hrs - 18:00 hrs\n(Weekends)\n(22nd and 23rd August'26)\nFrom 24th August 2026, 08:00 Hrs onwards,\nour support lines will operate 24x7 until 23:59 Hrs\non 31st August 2026.",
+   "confidence": 1
+  },
+  {
+   "claim": "The competent Income Tax Authority approves or rejects the registration request for TIN 2.0.",
+   "kind": "OFFICE",
+   "subject": "competent_income_tax_authority",
+   "object": "registration_request",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "Step 2: The internal SPOC will register the TIN user manually with the details provided, and will send the registration request to the competent Income Tax Authority (production environment) for approval / rejection.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The competent Income Tax Authority approves or rejects the production environment access request for TIN 2.0.",
+   "kind": "OFFICE",
+   "subject": "competent_income_tax_authority",
+   "object": "production_environment_access",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "Step 7: On approval by competent Income Tax Authority, the production environment access can be enabled for the approved tested service APIs for TIN user in the production environment.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The registration request is sent to the competent Income Tax Authority for approval or rejection.",
+   "kind": "ACTION",
+   "subject": "tin_user",
+   "object": "income_tax_authority",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "Step 2: The internal SPOC will register the TIN user manually with the details provided, and will send the registration request to the competent Income Tax Authority (production environment) for approval / rejection.",
+   "confidence": 0.95
+  },
+  {
    "claim": "Go to the e-Filing homepage and click Register.",
    "kind": "ACTION",
    "subject": "e_filing_tin_2_0",
@@ -1210,6 +1263,38 @@
    "confidence": 1
   },
   {
+   "claim": "Form 10-IEA can be filed by individuals, HUFs, AOPs, BOIs, and AJP with income from business or profession.",
+   "kind": "ELIGIBILITY",
+   "subject": "form_10_iea",
+   "object": "taxpayer_with_business_income",
+   "detail": {},
+   "sourceId": "src:f6fdb701300e",
+   "evidence": "The Form can be filed by Individual, Hindu Undivided Family (HUF), Association of persons (other than a co-operative society), Body of individuals (BOI), Artificial juridical person referred u/s 2(31)(vii) (AJP) having Income from Business or Profession.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant can check the status of Form 10-IEA after filing by logging into the Income Tax e-Filing portal.",
+   "kind": "TRACKING",
+   "subject": "form_10_iea",
+   "object": "status_check",
+   "detail": {
+    "method": "login_to_income_tax_e_filing_portal",
+    "steps": [
+     "e-file tab",
+     "Income Tax Forms",
+     "View filed forms",
+     "search for Form 10-IEA"
+    ],
+    "status_types": [
+     "valid",
+     "invalid"
+    ]
+   },
+   "sourceId": "src:f6fdb701300e",
+   "evidence": "19. How can I check the status of Form 10-IEA after filing?\nYou can check the filing status of Form 10-IEA by logging into the Income Tax e-Filing portal. Filed form details can be viewed under e-file tab----> Income Tax Forms---->View filed forms---->search for Form 10-IEA and check the status whether it is valid or invalid",
+   "confidence": 1
+  },
+  {
    "claim": "A taxpayer must provide the basic details of the person who will be making the payment or collecting the tax.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "taxpayer",
@@ -1320,6 +1405,26 @@
    "sourceId": "src:f34b63e80482",
    "evidence": "The Registration service enables the user to access requested webservices post ITD approval and to allow login to e-filing portal as external agency user.",
    "confidence": 0.9
+  },
+  {
+   "claim": "The competent authority in the Income Tax Department approves the e-filing registration.",
+   "kind": "OFFICE",
+   "subject": "income_tax_department",
+   "object": "competent_authority",
+   "detail": {},
+   "sourceId": "src:f34b63e80482",
+   "evidence": "Step 4: Only after approval by the competent authority in Income Tax Department, API Gateway authentication credentials of the e-Filing portal will be shared with you.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Income Tax Department (ITD) approves the e-filing registration for external agencies.",
+   "kind": "OFFICE",
+   "subject": "income_tax_department",
+   "object": "itd_authority",
+   "detail": {},
+   "sourceId": "src:f34b63e80482",
+   "evidence": "Step 9 : Upon approval from ITD, you will receive an email containing the External Agency user ID of format (EXTPXXXXXX) on your primary email ID registered on the e-Filing Portal.",
+   "confidence": 1
   },
   {
    "claim": "Form 15CA must be submitted before making a payment to a Non-Resident or a Foreign Company.",

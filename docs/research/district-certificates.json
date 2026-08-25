@@ -100,6 +100,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:7e6056c2df60",
+   "url": "https://gvc.org.in/webcontroller/contactgvc",
+   "title": "Gujarat Veterinary Council",
+   "domain": "gvc.org.in",
+   "sourceType": "HELPLINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "cb9275c4dd98f25ea12837f6c914ee05a15c02d940b4fe42becb333316b913f9",
+   "cacheFile": ".ingest/pages/7e6056c2df60119dba9f23f64c8c9919a8717715.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:268c6a48bdd4",
    "url": "https://gvc.org.in/webcontroller/members/710",
    "title": "Gujarat Veterinary Council",
@@ -124,15 +136,15 @@
    "scrapedOk": true
   },
   {
-   "id": "src:7e6056c2df60",
-   "url": "https://gvc.org.in/webcontroller/contactgvc",
+   "id": "src:3c2c2faf7bd7",
+   "url": "https://gvc.org.in/webcontroller/onlineregistation",
    "title": "Gujarat Veterinary Council",
    "domain": "gvc.org.in",
-   "sourceType": "HELPLINE",
+   "sourceType": "SERVICE_PAGE",
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
-   "contentHash": "cb9275c4dd98f25ea12837f6c914ee05a15c02d940b4fe42becb333316b913f9",
-   "cacheFile": ".ingest/pages/7e6056c2df60119dba9f23f64c8c9919a8717715.md",
+   "contentHash": "341f057e8ec88fda179d0e54ffa9f715143dfd8fc645743d7f589a88efd19009",
+   "cacheFile": ".ingest/pages/3c2c2faf7bd7c7f1de4b3a1e75a8ee9ae4831018.md",
    "scrapedOk": true
   },
   {
@@ -193,6 +205,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "2e1eaabb618121a7dbd7bdd3e0cf3655b7321b21ea1034af222f803ef663e527",
    "cacheFile": ".ingest/pages/76a97eb43e255624f19b18b284a345cc7627812b.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:eac6c8ec512d",
+   "url": "https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_202425_49.pdf#page=11",
+   "title": "GPSC_202425_49 (page 11 of 21)",
+   "domain": "ojas.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "7d2b0749f93c25a4a21ac4620c3871991e47bf9400411dbf52740bdaa6b3ffaa",
+   "cacheFile": ".ingest/pages/eac6c8ec512db8895264c76c3a310d4e5ed76262.md",
    "scrapedOk": true
   },
   {
@@ -544,6 +568,30 @@
    "scrapedOk": true
   },
   {
+   "id": "src:11941ab5f533",
+   "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=5",
+   "title": "englishGuideline (page 5 of 10)",
+   "domain": "gujarattourism.com",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "8727d669db3e8078d918ab4218b28c058075846cc4f989738ccec41759124ff1",
+   "cacheFile": ".ingest/pages/11941ab5f533d3a699f06f204f74f99dd29c9d80.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:034502a4a95b",
+   "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=4",
+   "title": "englishGuideline (page 4 of 10)",
+   "domain": "gujarattourism.com",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "22e522adfcdc40f528a41700905624b4a2ea41e8e04d57aa78f8549c3db9d229",
+   "cacheFile": ".ingest/pages/034502a4a95bd20631e4025ccdb598d58fe4e845.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:5c9f24f67a98",
    "url": "https://collectorgandhinagar.gujarat.gov.in/salary-certificate",
    "title": "આવક અંગેનું પ્રમાણપત્ર મેળવવા બાબત | Certificate | Jan Seva Kendra form | Collectorate - District Gandhinagar",
@@ -553,6 +601,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "fd9de7bc8c478222b445fb9b3b57b025c4a432b5d4fcd517d4165304f6f1c3a4",
    "cacheFile": ".ingest/pages/5c9f24f67a9867e17c2bcf0b6d4accdda052c704.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:550bab8ee943",
+   "url": "https://mahesana.nic.in/service/regarding-getting-a-widow-and-income-certificate",
+   "title": "Regarding obtaining widow and income certificates | District Mahesana",
+   "domain": "mahesana.nic.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "c6d669099e7bbd677f23591b40d37e4e835e7058f20dcca194b44d74a55b8c51",
+   "cacheFile": ".firecrawl/research/mahesana-income.md",
    "scrapedOk": true
   },
   {
@@ -589,6 +649,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "2da056837e244eafefbca3fa897708b0a0131bd28b4a24fe63d364e05e13c7ab",
    "cacheFile": ".ingest/pages/a785edfb12cee1c5221d18c22245575c9bba3f8a.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:21b6ef1e1050",
+   "url": "https://suratmunicipal.gov.in/Services/Sitilink/SaralPassTravelScheme",
+   "title": "Sitilink - SARAL Pass Travel Scheme",
+   "domain": "suratmunicipal.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d22bac10f7ae0adc3d30f0f931f368ccffd54eef5e733b459d5ab0370e19fc63",
+   "cacheFile": ".ingest/pages/21b6ef1e10508811717ba5a9549b7ca533e4cbc3.md",
    "scrapedOk": true
   },
   {
@@ -697,6 +769,30 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "1401e97fabbcb1b89511577d296d673dd9343138271a0a4582beddd44e77354d",
    "cacheFile": ".ingest/pages/9b863c23edcab622a15282e8f018f74f9ee58694.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:024138648137",
+   "url": "https://anand.gujarat.gov.in/mamlatdar-office",
+   "title": "Mamlatdar Office | Offices | Collectorate - District Anand",
+   "domain": "anand.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-ANAND",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "85d745a88cd2a7bb4831978541a11e75ee91e83779e6d88271cffc39f056e2b5",
+   "cacheFile": ".ingest/pages/0241386481370ae4bf48ccce08590404ae664f61.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:e9420311e74c",
+   "url": "https://amreli.gujarat.gov.in/",
+   "title": "Collectorate - District Amreli",
+   "domain": "amreli.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ-AMRELI",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "9958b8147a759d605596894b36ba8707dc217b68e5885f5e818f6bc76f94797c",
+   "cacheFile": ".ingest/pages/e9420311e74c54564f47e4d227e938b15e99c7ba.md",
    "scrapedOk": true
   },
   {
@@ -892,6 +988,30 @@
    "scrapedOk": true
   },
   {
+   "id": "src:1afe53dc8e3f",
+   "url": "https://parivahan.gov.in/sites/default/files/DownloadForm/cmvr/FORM-2.pdf",
+   "title": "FORM 2 [Refer Rules 10, 14, 17 and 18] - Form of application for Learner's Licence or Driving Licence",
+   "domain": "parivahan.gov.in",
+   "sourceType": "PDF",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "71b2cb5334febe2e4c53f1a14e487c65ccaea07636967a25735edd1cc83704a1",
+   "cacheFile": ".firecrawl/form2.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:27b7e748143e",
+   "url": "https://cot.gujarat.gov.in/writereaddata/Portal/Images/pdf/form-20-31012020.pdf#page=1",
+   "title": "form-20-31012020 (page 1 of 4)",
+   "domain": "cot.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "3076462507bcfb658e67d1b2b39fd6ce239065431ba74b77e2660862b8648fa7",
+   "cacheFile": ".ingest/pages/27b7e748143eed446cdf363ab083ff208b7c6f5d.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:517e00ce5909",
    "url": "https://collectorjamnagar.gujarat.gov.in/education-nationality-certificate",
    "title": "શૈક્ષણિક હેતુ માટે નેશનાલીટી સર્ટીફીકેટ મેળવવા બાબત | Miscellaneous | Jan Seva Kendra Form | Collectorate - District Jamnagar",
@@ -1045,6 +1165,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "8175401646e0d3797c8210464f4246d547bf2f297acdad0d15301bffb132d90c",
    "cacheFile": ".ingest/pages/3efbc11201131ff67b05e444084b60f80659868d.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:9c2de249c83e",
+   "url": "https://collectormehsana.gujarat.gov.in/mamlatdar-office",
+   "title": "Mamlatdar Office | Offices | Collectorate - District Mehsana",
+   "domain": "collectormehsana.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-MEHSANA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "66ea43de9add7ba2a93fb2ab15eff7161c0ae2b00f046c01e3a1ce818577b4a3",
+   "cacheFile": ".ingest/pages/9c2de249c83e1c34011c9b0169f172e3b870893e.md",
    "scrapedOk": true
   },
   {
@@ -1384,6 +1516,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:63dbec5f3a82",
+   "url": "https://scholarships.gov.in/public/schemeGuidelines/FAQ_DOHE_CSSS.pdf",
+   "title": "PM-USP Central Sector Scheme of Scholarship for College and University Students (CSSS) - FAQs 2025-26, Ministry of Education, Department of Higher Education",
+   "domain": "scholarships.gov.in",
+   "sourceType": "PDF",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "0c7c024edf85c559b1ca473841f77423cfa8ef89f42df24a0dee1bbcbec28e17",
+   "cacheFile": ".firecrawl/research/nsp-csss-faq.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:3e9caf77dc5a",
    "url": "https://gssca.gujarat.gov.in/ImportantActivites/BiyarananuCertificate",
    "title": "Gujarat State Seed Certificate Agency",
@@ -1405,6 +1549,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "d5cd6f62ca7f1ff98b64537d5c0fdec5918c6a37212fd4701864e0fbe26c8f57",
    "cacheFile": ".firecrawl/research/ahd-sebc.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:3d56b0a39b77",
+   "url": "https://devbhumidwarka.gujarat.gov.in/mamlatdar-office",
+   "title": "Mamlatdar Office | Offices | Collectorate - District Devbhumi Dwarka",
+   "domain": "devbhumidwarka.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "f97efa8199e3ba13a23ae454d46fe9251291ea5340eee78942eb8124fd0e506e",
+   "cacheFile": ".ingest/pages/3d56b0a39b774ee1cc110a8d717133f09848cfde.md",
    "scrapedOk": true
   }
  ],
@@ -1888,6 +2044,16 @@
    "detail": {},
    "sourceId": "src:77907664a41f",
    "evidence": "The eligible unit shall remain in production during the incentive period.",
+   "confidence": 1
+  },
+  {
+   "claim": "The detailed procedure for sanction and disbursement will be laid down by the IC office.",
+   "kind": "ACTION",
+   "subject": "ic_office",
+   "object": "procedure",
+   "detail": {},
+   "sourceId": "src:77907664a41f",
+   "evidence": "V. The detailed procedure for sanction and disbursement will be laid down by IC office.",
    "confidence": 1
   },
   {
@@ -2420,6 +2586,16 @@
    "confidence": 0.95
   },
   {
+   "claim": "After submission of the Application Form, an acknowledgement slip will be given to the applicant by the PS committee or in a Gram Panchayat Office.",
+   "kind": "TRACKING",
+   "subject": "application_form_submission",
+   "object": "acknowledgement_slip",
+   "detail": {},
+   "sourceId": "src:4de6b6d45e2e",
+   "evidence": "Step 05: After submission of the Application Form, an acknowledgement slip will be given to the applicant by the PS committee or in a Gram Panchayat Office.",
+   "confidence": 1
+  },
+  {
    "claim": "Eligible citizens are identified during Gram Sabhas by their respective Gram Panchayat.",
    "kind": "ACTION",
    "subject": "gram_panchayat",
@@ -2734,6 +2910,100 @@
    "confidence": 0.95
   },
   {
+   "claim": "Every graduate must apply for provisional registration on the prescribed Form-XXII through the Dean/Principal of the Veterinary College from which they completed their academic course.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "veterinary_registration",
+   "object": "provisional_registration_form",
+   "detail": {
+    "form_number": "Form-XXII",
+    "application_channel": "Dean/Principal of Veterinary College"
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Every Graduate shall be required to apply for the provisional registration on the prescribed Form-XXII through the Dean/Principal of the Veterinary College concerned from where he/she completed academic course.",
+   "confidence": 1
+  },
+  {
+   "claim": "On completion of internship training, every graduate must apply for permanent registration and surrender the provisional certificate along with the application.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "veterinary_registration",
+   "object": "permanent_registration_process",
+   "detail": {
+    "required_after": "internship training",
+    "required_action": "submit provisional certificate with application"
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "On completion of internship training, every graduate shall apply for permanent registration and shall surrender his/her provisional certificate along with application for registration to the State Council.",
+   "confidence": 1
+  },
+  {
+   "claim": "Application for registration requires a fee of Rupees One Hundred Fifty, including administrative charges of Rs.100 and I-card charge of Rs.25.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "veterinary_registration",
+   "object": "registration_fee",
+   "detail": {
+    "total_fee": "150",
+    "administrative_charges": "100",
+    "i_card_charge": "25"
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Application on payment of fees of Rupees One Hundred Fifty only (i.e. included administrative charges of Rs.100/- and I-card Charge Rs.25/-) with any other dues i.e. Renewal Fees only.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives a certificate of registration after completing the internship and paying the required fees.",
+   "kind": "ACTION",
+   "subject": "veterinary_registration",
+   "object": "certificate_of_registration",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "The Registrar in accordance with the decision taken under sub-sections (2), (3) and (4) of section 45 shall enter the name of such veterinary practitioner in the Register and shall there upon issue a certificate of registration.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The state Council issues provisional registration certificates to graduates.",
+   "kind": "OFFICE",
+   "subject": "veterinary_registration",
+   "object": "state_council",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "The state Council shall issue provisional registration certificate in Form-XXIV to such graduates who have completed their academic requirements for the degree course.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Registrar issues the final certificate of registration to veterinarians.",
+   "kind": "OFFICE",
+   "subject": "veterinary_registration",
+   "object": "registrar",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "The Registrar in accordance with the decision taken under sub-sections (2), (3) and (4) of section 45 shall enter the name of such veterinary practitioner in the Register and shall there upon issue a certificate of registration.",
+   "confidence": 1
+  },
+  {
+   "claim": "A phone number for contacting Gujarat Veterinary Council is 079-23244197.",
+   "kind": "HELPLINE",
+   "subject": "veterinary_registration",
+   "object": "gujarat_veterinary_council",
+   "detail": {
+    "phone": "079-23244197"
+   },
+   "sourceId": "src:7e6056c2df60",
+   "evidence": "For any information or support please call 079-23244197 .",
+   "confidence": 1
+  },
+  {
+   "claim": "An email address for contacting Gujarat Veterinary Council is registrar@gvc.org.in.",
+   "kind": "HELPLINE",
+   "subject": "veterinary_registration",
+   "object": "gujarat_veterinary_council",
+   "detail": {
+    "email": "registrar@gvc.org.in"
+   },
+   "sourceId": "src:7e6056c2df60",
+   "evidence": "Email\nregistrar@gvc.org.in\nasstregistrar@gvc.org.in",
+   "confidence": 1
+  },
+  {
    "claim": "Members of the Gujarat Veterinary Council must pay for renewal to maintain their registration status.",
    "kind": "ACTION",
    "subject": "gvc_member",
@@ -2992,6 +3262,16 @@
    "confidence": 0.95
   },
   {
+   "claim": "An applicant can check the status of something already submitted by logging in to the Gujarat Veterinary Council website.",
+   "kind": "TRACKING",
+   "subject": "applicant",
+   "object": "gvc_website",
+   "detail": {},
+   "sourceId": "src:f6b2e8c4abe1",
+   "evidence": "Please login to verify/ update your details in “VCI draft electoral roll (Gujarat) 2020” published on www.gvc.org.in",
+   "confidence": 0.9
+  },
+  {
    "claim": "A phone number for contacting Gujarat Veterinary Council is 079-23244197.",
    "kind": "HELPLINE",
    "subject": "gujarat_veterinary_council",
@@ -3024,6 +3304,159 @@
    "sourceId": "src:7e6056c2df60",
    "evidence": "Circular of GVC Regarding Publish of Regi. Certificate, Dated: 3-2-2015",
    "confidence": 0.95
+  },
+  {
+   "claim": "Graduates who have completed their academic requirements for the degree course are eligible for provisional registration.",
+   "kind": "ELIGIBILITY",
+   "subject": "veterinary_graduate",
+   "object": "provisional_registration",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "The state Council shall issue provisional registration certificate in Form-XXIV to such graduates who have completed their academic requirements for the degree course.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Provisional registration is required before undergoing internship training.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "veterinary_graduate",
+   "object": "internship_training",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Every graduate is required to get himself/herself registered provisionally before being allowed to undergo internship training for the prescribed period.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Provisional registration is limited only for the internship training.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "provisional_registration",
+   "object": "internship_training",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "The provisional registration shall be limited only for the internship training.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Graduates must apply for provisional registration on the prescribed Form-XXII through the Dean/Principal of the Veterinary College concerned.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "veterinary_graduate",
+   "object": "provisional_registration",
+   "detail": {
+    "form": "Form-XXII"
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Every Graduate shall be required to apply for the provisional registration on the prescribed Form-XXII through the Dean/Principal of the Veterinary College concerned from where he/she completed academic course.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "On completion of internship training, graduates must apply for permanent registration and surrender their provisional certificate.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "veterinary_graduate",
+   "object": "permanent_registration",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "On completion of internship training, every graduate shall apply for permanent registration and shall surrender his/her provisional certificate along with application for registration to the State Council.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An applicant must apply for provisional registration on the prescribed Form-XXII through the Dean/Principal of the Veterinary College.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "provisional_registration",
+   "detail": {
+    "form": "Form-XXII"
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Every Graduate shall be required to apply for the provisional registration on the prescribed Form-XXII through the Dean/Principal of the Veterinary College concerned from where he/she completed academic course.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must complete internship training after provisional registration.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "internship_training",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Every graduate is required to get himself/herself registered provisionally before being allowed to undergo internship training for the prescribed period.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must apply for permanent registration after completing internship training.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "permanent_registration",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "On completion of internship training, every graduate shall apply for permanent registration and shall surrender his/her provisional certificate along with application for registration to the State Council.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must pay a fee of Rupees One Hundred Fifty for registration.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "registration_fee",
+   "detail": {
+    "amount": "150",
+    "currency": "Rupees"
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Application on payment of fees of Rupees One Hundred Fifty only (i.e. included administrative charges of Rs.100/- and I-card Charge Rs.25/-) with any other dues i.e. Renewal Fees only.",
+   "confidence": 1
+  },
+  {
+   "claim": "The fee for registration with the Gujarat Veterinary Council is not exceeding One Hundred fifteen rupees.",
+   "kind": "FEE",
+   "subject": "gujarat_veterinary_council",
+   "object": "registration_fee",
+   "detail": {
+    "amount": "115",
+    "currency": "INR"
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "This behalf in such form and in such manner and on payment of such fees, not exceeding One Hundred fifteen rupees",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The fee for a duplicate certificate of registration is not exceeding One Hundred ten rupees.",
+   "kind": "FEE",
+   "subject": "gujarat_veterinary_council",
+   "object": "duplicate_certificate_fee",
+   "detail": {
+    "amount": "110",
+    "currency": "INR"
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "the Secretary may, on payment of such fees, not exceeding One Hundred ten rupees (i.e. included administrative charges of Rs.100/-), as may be specified by regulations, issue a duplicate certificate in such form as may be specified in the regulations.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant receives a provisional registration certificate in Form-XXIV.",
+   "kind": "ACTION",
+   "subject": "gujarat_veterinary_council",
+   "object": "provisional_registration_certificate",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "The state Council shall issue provisional registration certificate in Form-XXIV to such graduates who have completed their academic requirements for the degree course.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The provisional registration is limited only for the internship training period.",
+   "kind": "TIMELINE",
+   "subject": "provisional_registration",
+   "object": "internship_training",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "The provisional registration shall be limited only for the internship training.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An applicant can use the online registration channel to apply for registration.",
+   "kind": "CHANNEL",
+   "subject": "applicant",
+   "object": "online_registration",
+   "detail": {},
+   "sourceId": "src:3c2c2faf7bd7",
+   "evidence": "Application Form for LOS/ Bonafied",
+   "confidence": 1
   },
   {
    "claim": "Candidates must submit original certificates on the day of the interview",
@@ -3834,6 +4267,18 @@
    "sourceId": "src:76a97eb43e25",
    "evidence": "(૮) Additional Information પર“click” કરી ત્ યાાં મારહતી ભરવી.",
    "confidence": 1
+  },
+  {
+   "claim": "Candidates who qualify the preliminary examination must upload required documents online to the GPSC website.",
+   "kind": "ACTION",
+   "subject": "gpsc_recruitment",
+   "object": "candidate",
+   "detail": {
+    "url": "https://gpsc-iass.gujarat.gov.in"
+   },
+   "sourceId": "src:eac6c8ec512d",
+   "evidence": "પર્ ાથિમક કસોટીના પ�રણામના આધારે જે ઉમેદવારો અર� ચકાસણીને પાતર્ થતા હોય , તેમણે આયોગ જણાવે ત્ યારે જરૂરી પર્\nામાણપતર્ો/ દસ્તાવે� સ્ કે ન (Scan) કરીને આયોગની વેબસાઇટ https://gpsc-iass.gujarat.gov.in પર ઓન લાઇન\nઅપલોડ કરવાના રહેશે.",
+   "confidence": 0.95
   },
   {
    "claim": "The applicant must collect the required proofs.",
@@ -6811,6 +7256,28 @@
    "confidence": 0.95
   },
   {
+   "claim": "The applicant receives a renewed City / Destination Level Tourist Guide or State Level Tourist Guide Certificate every 3 years.",
+   "kind": "ACTION",
+   "subject": "tourist_guide_certificate",
+   "object": "renewal",
+   "detail": {
+    "duration": "3 years"
+   },
+   "sourceId": "src:1072e2dbfef9",
+   "evidence": "The City / Destination Level Tourist Guide or State Level Tourist Guide Certificate would be renewed every 3 years and subject to the performance of guide and passing one Refresher",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Commissioner of Tourism issues the Tourist Guide Certificate.",
+   "kind": "OFFICE",
+   "subject": "tourist_guide_certificate",
+   "object": "commissioner_of_tourism",
+   "detail": {},
+   "sourceId": "src:1072e2dbfef9",
+   "evidence": "6.1 On successful completion of their guide training course, the successful candidates would be issued Certificate / ID Card by Commissioner of Tourism in City / Destination Level Tourist Guide or State Level tourist Guide whichever they qualify in.",
+   "confidence": 0.95
+  },
+  {
    "claim": "Applicants must submit their applications online through the Gujarat Tourism website.",
    "kind": "ACTION",
    "subject": "applicant",
@@ -6851,6 +7318,38 @@
    "sourceId": "src:3772e9d020d4",
    "evidence": "Candidates will have to submit a Police Clearance Certificate from the local issuing authority for verification of non existence of any previous criminal record/cases for the safety of the tourist.",
    "confidence": 1
+  },
+  {
+   "claim": "Applicants must submit original documents for verification as part of the selection process.",
+   "kind": "ACTION",
+   "subject": "tourist_guide_certificate",
+   "object": "document_verification",
+   "detail": {},
+   "sourceId": "src:3772e9d020d4",
+   "evidence": "4.4 The applicants shall submit all original documents for verification. Failure to produce original documents would lead to rejection of candidature.",
+   "confidence": 1
+  },
+  {
+   "claim": "The fees for guide services are fixed or revised by the Commissioner of Tourism, TCGL, Guide association, or Tourist Guide Federation of India in consultation with IATO or Travel Agents Association.",
+   "kind": "FEE",
+   "subject": "tourist_guide_service",
+   "object": "commissioner_of_tourism",
+   "detail": {},
+   "sourceId": "src:11941ab5f533",
+   "evidence": "The fees to be charged by the guides would be fixed / revised from time to time by Commissioner of Tourism/TCGL/Guide association/Tourist Guide Federation of India in consultation with Indian Association of Tour Operators(IATO) / TRAVEL AGENTS ASSOCIATION",
+   "confidence": 0.8
+  },
+  {
+   "claim": "The guide must submit the certificate for renewal 45 days prior to the expiry date.",
+   "kind": "TIMELINE",
+   "subject": "tourist_guide_certificate",
+   "object": "renewal_submission",
+   "detail": {
+    "days_before_expiry": "45"
+   },
+   "sourceId": "src:034502a4a95b",
+   "evidence": "The guide must submit the guide Certificate / ID-Card for renewal 45 days prior to date of expiry of its validity along with certificate of successful completion of Refresher Course.",
+   "confidence": 0.95
   },
   {
    "claim": "The applicant must submit a self-attested copy of the documents.",
@@ -6978,6 +7477,19 @@
    "sourceId": "src:5c9f24f67a98",
    "evidence": "10:30 A.M To 6:10 P.M",
    "confidence": 0.9
+  },
+  {
+   "claim": "The fee for the Income Certificate is Rs. 20.",
+   "kind": "FEE",
+   "subject": "income_certificate",
+   "object": "fee",
+   "detail": {
+    "amount": 20,
+    "currency": "Rs"
+   },
+   "sourceId": "src:550bab8ee943",
+   "evidence": "Fee Rs. 20/-",
+   "confidence": 1
   },
   {
    "claim": "The application form for certifying documents related to birth, marriage, death, police clearance certificate, school living certificate, affidavit, trade, commerce, and export is available as a file on the page.",
@@ -7454,6 +7966,49 @@
    "sourceId": "src:a785edfb12ce",
    "evidence": "The application is then forwarded to the concerned department. If the documents are verified and found correct, the worker’s details will be entered in the Labour Register, and the registration number assigned will serve as the worker’s official registration number.",
    "confidence": 0.95
+  },
+  {
+   "claim": "The applicant receives a Photo Identity Card after approval.",
+   "kind": "ACTION",
+   "subject": "labour_card",
+   "object": "photo_identity_card",
+   "detail": {},
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "Once the registration is approved, the Registration Officer will issue a Photo Identity Card, which the worker can collect from the Public Service Centre of the concerned department or from the office of the Labour Department. This card is valid for three years.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must pay a registration fee of ₹100/-.",
+   "kind": "ACTION",
+   "subject": "labour_card",
+   "object": "registration_fee",
+   "detail": {
+    "amount": "100",
+    "currency": "INR"
+   },
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "After uploading all the required documents, a registration fee of ₹100/- must be deposited.",
+   "confidence": 1
+  },
+  {
+   "claim": "The application is processed after the documents are verified and found correct.",
+   "kind": "TIMELINE",
+   "subject": "labour_card",
+   "object": "document_verification",
+   "detail": {},
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "If the documents are verified and found correct, the worker’s details will be entered in the Labour Register, and the registration number assigned will serve as the worker’s official registration number.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Labour registration card is issued by the Government of Gujarat.",
+   "kind": "OFFICE",
+   "subject": "labour_card",
+   "object": "government_of_gujarat",
+   "detail": {},
+   "sourceId": "src:21b6ef1e1050",
+   "evidence": "Labour registration card issued by Government of Gujarat",
+   "confidence": 1
   },
   {
    "claim": "The application must be submitted to Jan Seva Kendra, Amreli.",
@@ -8449,6 +9004,60 @@
    "sourceId": "src:9b863c23edca",
    "evidence": "એફીડેવીટ પ્રમાણિત કરવાના કિસ્સામાં જે નોટરી પાસે એફીડેવીટ કરાવેલ હોય તે નોટરીનું નામ તેમનું પુરેપુરુ સરનામું અરજીમાં અલગથી દર્શાવવાનું રહેશે.",
    "confidence": 0.95
+  },
+  {
+   "claim": "Farmers, land holders, and small and marginal farmers are eligible for income certificates.",
+   "kind": "ELIGIBILITY",
+   "subject": "miscellaneous_certificates",
+   "object": "farmer_income_certificate",
+   "detail": {
+    "categories": [
+     "farmer",
+     "land_holders",
+     "small_and_marginal_farmer"
+    ]
+   },
+   "sourceId": "src:024138648137",
+   "evidence": "Income, farmer, land holders, small and marginal farmer, heirship, immovable property, character.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Individuals seeking solvency certificates must be residents of 3 years.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "miscellaneous_certificates",
+   "object": "solvency_certificate",
+   "detail": {
+    "residency_years": 3
+   },
+   "sourceId": "src:024138648137",
+   "evidence": "Solvency certificate, age, domicile, general resident, resident of 3 yrs.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Widows, divorcees, and dependents are eligible for miscellaneous certificates.",
+   "kind": "ELIGIBILITY",
+   "subject": "miscellaneous_certificates",
+   "object": "widow_divorcee_dependent",
+   "detail": {
+    "categories": [
+     "widow",
+     "divorcee",
+     "dependent"
+    ]
+   },
+   "sourceId": "src:024138648137",
+   "evidence": "Widow/ divorcee/ dependent, religious and linguistic minority.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Individuals seeking income certificates must provide proof of income.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "miscellaneous_certificates",
+   "object": "income_certificate",
+   "detail": {},
+   "sourceId": "src:e9420311e74c",
+   "evidence": "આવક અંગેનું પ્રમાણપત્ર મેળવવા બાબત",
+   "confidence": 0.8
   },
   {
    "claim": "The application must be submitted to Jan Seva Kendra, Valsad.",
@@ -10116,6 +10725,56 @@
    "confidence": 1
   },
   {
+   "claim": "The applicant receives an affidavit sworn before an Executive Magistrate, Notary Public, or First Class Judicial Magistrate.",
+   "kind": "ACTION",
+   "subject": "affidavit",
+   "object": "executive_magistrate_notary_public_judicial_magistrate",
+   "detail": {},
+   "sourceId": "src:1afe53dc8e3f",
+   "evidence": "8. Affidavit sworn before an Executive Magistrate or Notary Public or First Class Judicial Magistrate",
+   "confidence": 1
+  },
+  {
+   "claim": "An affidavit is sworn before an Executive Magistrate or Notary Public or First Class Judicial Magistrate.",
+   "kind": "OFFICE",
+   "subject": "affidavit",
+   "object": "executive_magistrate",
+   "detail": {},
+   "sourceId": "src:1afe53dc8e3f",
+   "evidence": "8. Affidavit sworn before an Executive Magistrate or Notary Public or First Class Judicial Magistrate",
+   "confidence": 1
+  },
+  {
+   "claim": "An affidavit for a name change must be sworn before a First Class Judicial Magistrate or a Notary Public.",
+   "kind": "ACTION",
+   "subject": "affidavit_for_name_change",
+   "object": "first_class_judicial_magistrate_notary_public",
+   "detail": {},
+   "sourceId": "src:1afe53dc8e3f",
+   "evidence": "(i) Affidavit sworn before a First Class Judicial Magistrate or a Notary Public",
+   "confidence": 1
+  },
+  {
+   "claim": "An affidavit is sworn before an Executive Magistrate or a First Class Judicial Magistrate or a Notary Public.",
+   "kind": "OFFICE",
+   "subject": "affidavit",
+   "object": "executive_magistrate",
+   "detail": {},
+   "sourceId": "src:27b7e748143e",
+   "evidence": "Affidavit sworn before an Executive Magistrate or a First Class Judicial Magistrate or a Notary Public to be enclosed)",
+   "confidence": 1
+  },
+  {
+   "claim": "An affidavit must be sworn before an Executive Magistrate, First Class Judicial Magistrate, or Notary Public.",
+   "kind": "ACTION",
+   "subject": "affidavit",
+   "object": "executive_magistrate_first_class_judicial_magistrate_notary_",
+   "detail": {},
+   "sourceId": "src:27b7e748143e",
+   "evidence": "Affidavit sworn before an Executive Magistrate or a First Class Judicial Magistrate or a Notary Public to be enclosed",
+   "confidence": 1
+  },
+  {
    "claim": "The application form for the education purpose nationality certificate must be submitted to the Additional District Magistrate, as per Appendix-1/102.",
    "kind": "ACTION",
    "subject": "application_submission",
@@ -10333,6 +10992,28 @@
    "confidence": 0.95
   },
   {
+   "claim": "The applicant visits the Collectorate - District Bhavnagar office.",
+   "kind": "OFFICE",
+   "subject": "nationality_certificate",
+   "object": "collectorate_district_bhavnagar",
+   "detail": {},
+   "sourceId": "src:503e603714bb",
+   "evidence": "Collectorate - District Bhavnagar",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives a nationality certificate for educational purposes.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "nationality_certificate",
+   "detail": {
+    "purpose": "educational"
+   },
+   "sourceId": "src:503e603714bb",
+   "evidence": "શૈક્ષણિક હેતુ માટે નેશનાલીટી સર્ટીફીકેટ મેળવવા બાબત",
+   "confidence": 0.9
+  },
+  {
    "claim": "The application process for certifying birth/marriage/death/police clearance certificate/school leaving certificate/affidavit/trade/commerce/export-related certificates takes a maximum of 21 days.",
    "kind": "TIMELINE",
    "subject": "certification_process",
@@ -10456,6 +11137,16 @@
    "confidence": 0.95
   },
   {
+   "claim": "The applicant receives a certificate after the process.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "certification",
+   "detail": {},
+   "sourceId": "src:383e87e3135c",
+   "evidence": "લગતા પ્રમાણપત્ર પ્રમાણિત કરવા બાબત વિષે મંજુરી",
+   "confidence": 0.9
+  },
+  {
    "claim": "The certifying agency issues the Fitness Certificate and Builder’s Certification for pleasure craft or boats.",
    "kind": "OFFICE",
    "subject": "certifying_agency",
@@ -10483,6 +11174,30 @@
    "detail": {},
    "sourceId": "src:d65892a6e72a",
    "evidence": "5. Inspection and submitting the inspection report to the certification department",
+   "confidence": 1
+  },
+  {
+   "claim": "A citizen can contact the email address office.india@ecocert.com for certification.",
+   "kind": "HELPLINE",
+   "subject": "certification",
+   "object": "email",
+   "detail": {
+    "email": "office.india@ecocert.com"
+   },
+   "sourceId": "src:d65892a6e72a",
+   "evidence": "Address for Submission of application (Email : office.india@ecocert.com)",
+   "confidence": 1
+  },
+  {
+   "claim": "One annual inspection is compulsory for all clients according to the organic regulations.",
+   "kind": "TIMELINE",
+   "subject": "certification",
+   "object": "annual_inspection",
+   "detail": {
+    "frequency": "annual"
+   },
+   "sourceId": "src:d65892a6e72a",
+   "evidence": "According to the organic regulations, one annual inspection is compulsory for all the clients.",
    "confidence": 1
   },
   {
@@ -11061,6 +11776,19 @@
    "confidence": 1
   },
   {
+   "claim": "The Mid day meal scheme involves inspection of at least 10 centers every month.",
+   "kind": "ACTION",
+   "subject": "mid_day_meal_scheme",
+   "object": "inspection",
+   "detail": {
+    "quantity": "10",
+    "frequency": "monthly"
+   },
+   "sourceId": "src:9c2de249c83e",
+   "evidence": "Inspection of at least 10 centers every month.",
+   "confidence": 1
+  },
+  {
    "claim": "Teachers must have completed three years of service in their current school to participate in intra-district transfer camps.",
    "kind": "ELIGIBILITY",
    "subject": "intra_district_transfer",
@@ -11444,6 +12172,28 @@
    "sourceId": "src:8f130659de66",
    "evidence": "A renewal fee and vehicle test fee is required to be paid along with the application.",
    "confidence": 0.9
+  },
+  {
+   "claim": "A vehicle must be produced for inspection to obtain a Fitness Certificate.",
+   "kind": "ACTION",
+   "subject": "certificate_of_fitness",
+   "object": "vehicle_inspection",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "A vehicle is required to be produced for obtaining Fitness Certificate, C.P.I. or getting re-registration.",
+   "confidence": 1
+  },
+  {
+   "claim": "If a vehicle is found to be fit mechanically, new vehicles receive a certificate for two years.",
+   "kind": "TIMELINE",
+   "subject": "certificate_of_fitness",
+   "object": "new_vehicle",
+   "detail": {
+    "duration": "2 years"
+   },
+   "sourceId": "src:8f130659de66",
+   "evidence": "If a vehicle found to be fit mechanically, then new vehicle is given certificate for two years, whereas, old vehicles are given certificate for a year.",
+   "confidence": 1
   },
   {
    "claim": "Following documents are required to be submitted at concerned R.T.O. with Form-20.",
@@ -12614,6 +13364,26 @@
    "confidence": 0.95
   },
   {
+   "claim": "The KVK registration process requires the form to be verified by the KVK after submission.",
+   "kind": "ACTION",
+   "subject": "kvik_registration",
+   "object": "verification_by_kvik",
+   "detail": {},
+   "sourceId": "src:a3a32e089536",
+   "evidence": "આ ફોર્મ નિયામકશ્રી રોજગાર અને તાલીમના તાબા હેઠળની KVK દ્વારા ચકાસણી બાદ જ લાયક ગણાશે.",
+   "confidence": 0.8
+  },
+  {
+   "claim": "The KVK registration form must be submitted to any KVK in the state after verification.",
+   "kind": "ACTION",
+   "subject": "kvik_registration_form",
+   "object": "kvik",
+   "detail": {},
+   "sourceId": "src:a3a32e089536",
+   "evidence": "Click કરીને બારકોડ વાળી પ્રિન્ટ રાજ્યની કોઇ પણ કેવીકે (KVK) માં જમા કરાવવી.",
+   "confidence": 0.95
+  },
+  {
    "claim": "The data entry form's print will not be valid. A barcode print must be obtained from the main page and submitted to any government ITI.",
    "kind": "ACTION",
    "subject": "registration_form",
@@ -13106,6 +13876,16 @@
    "confidence": 1
   },
   {
+   "claim": "The applicant must provide a Category/caste Certification for reserved category students during verification.",
+   "kind": "ACTION",
+   "subject": "caste_certificate",
+   "object": "verification",
+   "detail": {},
+   "sourceId": "src:63dbec5f3a82",
+   "evidence": "a. FRESH: 12th Mark Sheet, Family Income Certificate, Category/ caste Certification for reserved category students, **Disability Certificate (**if applicable**)**",
+   "confidence": 0.9
+  },
+  {
    "claim": "Each seed producer must attach their own opal green label with full details on the tag of the bag at the time of packing.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "seed_producer",
@@ -13174,6 +13954,58 @@
    "sourceId": "src:8f7de45e2fb0",
    "evidence": "## Mamlatdar Office\n\nOffice of the Collector & District Magistrate, Near R.T.O, Ashram Rd, Ahmedabad, Gujarat.",
    "confidence": 1
+  },
+  {
+   "claim": "Eligibility for SEBC Certificate requires being a resident of Gujarat for 3 years.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "sebc_certificate",
+   "object": "residency",
+   "detail": {
+    "days": 1095
+   },
+   "sourceId": "src:3d56b0a39b77",
+   "evidence": "resident of 3 yrs.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Eligibility for SEBC Certificate requires proof of land holdings or being a small and marginal farmer.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "sebc_certificate",
+   "object": "land_holding",
+   "detail": {},
+   "sourceId": "src:3d56b0a39b77",
+   "evidence": "farmer, land holders, small and marginal farmer",
+   "confidence": 0.8
+  },
+  {
+   "claim": "Eligibility for SEBC Certificate requires proof of heirship and immovable property.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "sebc_certificate",
+   "object": "heirship",
+   "detail": {},
+   "sourceId": "src:3d56b0a39b77",
+   "evidence": "heirship, immovable property",
+   "confidence": 0.8
+  },
+  {
+   "claim": "Eligibility for SEBC Certificate includes being a widow, divorcee, or dependent.",
+   "kind": "ELIGIBILITY",
+   "subject": "sebc_certificate",
+   "object": "widow_divorcee_dependent",
+   "detail": {},
+   "sourceId": "src:3d56b0a39b77",
+   "evidence": "Widow/ divorcee/ dependent",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Eligibility for SEBC Certificate includes being a religious or linguistic minority.",
+   "kind": "ELIGIBILITY",
+   "subject": "sebc_certificate",
+   "object": "religious_linguistic_minority",
+   "detail": {},
+   "sourceId": "src:3d56b0a39b77",
+   "evidence": "religious and linguistic minority",
+   "confidence": 0.9
   }
  ],
  "notFound": [
@@ -13183,6 +14015,7 @@
   "EWS Certificate: the hand written graph already answers to service:ews_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "Veterinary Registration: https://gvc.org.in/webcontroller/clickmenu/MTYyMDU3OTYw lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Gujarat Veterinary Council registration: the page links to www.gvc.org.in, which is not a gov.in or nic.in host, so we could not prove from the name alone that government owns it and did not send anyone there.",
+  "Gujarat Veterinary Council registration: https://gvc.org.in/webcontroller/clickmenu/MTYyMDU3OTYw lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "GPSC Recruitment: https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201617_120.pdf#page=13 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Domicile Certificate: the hand written graph already answers to service:domicile_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "Virtual Civic Center: https://suratmunicipal.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",

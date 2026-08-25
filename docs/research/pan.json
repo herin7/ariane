@@ -714,6 +714,18 @@
    "confidence": 1
   },
   {
+   "claim": "The applicant can download the corrected challan details after the correction has been processed.",
+   "kind": "ACTION",
+   "subject": "challan_correction_request",
+   "object": "corrected_challan",
+   "detail": {
+    "path": "Post Login → Services → Challan Correction → Download Corrected Details"
+   },
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "You can download the corrected challan details using the following path: Path: Post Login → Services → Challan Correction → Download Corrected Details",
+   "confidence": 0.95
+  },
+  {
    "claim": "A citizen must be a registered user of the e-Filing portal to use the My CA service.",
    "kind": "ELIGIBILITY",
    "subject": "my_ca_service",
@@ -1082,6 +1094,48 @@
    "detail": {},
    "sourceId": "src:d043f7ad5e63",
    "evidence": "Refund processing by the tax department starts only after the return is e-verified by the taxpayer.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant can check the status of a submitted refund application on the e-filing portal.",
+   "kind": "TRACKING",
+   "subject": "refund_status_check",
+   "object": "e_filing_portal",
+   "detail": {},
+   "sourceId": "src:d043f7ad5e63",
+   "evidence": "The taxpayer can also check refund status on the e-filing as per the process detailed hereunder.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The taxpayer can check refund status on the e-filing as per the process detailed hereunder.",
+   "kind": "ACTION",
+   "subject": "taxpayer",
+   "object": "check_refund_status",
+   "detail": {},
+   "sourceId": "src:d043f7ad5e63",
+   "evidence": "The taxpayer can also check refund status on the e-filing as per the process detailed hereunder.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Usually, it takes 4-5 weeks for the refund to be credited to the account of the taxpayer.",
+   "kind": "TIMELINE",
+   "subject": "refund",
+   "object": "credited_to_account",
+   "detail": {
+    "days": "28-35"
+   },
+   "sourceId": "src:d043f7ad5e63",
+   "evidence": "Usually, it takes 4-5 weeks for the refund to be credited to the account of the taxpayer.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The income tax department initiates the refund process.",
+   "kind": "ACTION",
+   "subject": "income_tax_department",
+   "object": "refund_initiation",
+   "detail": {},
+   "sourceId": "src:d043f7ad5e63",
+   "evidence": "Income tax refund means a refund amount that is initiated by the income tax department if the amount paid in taxes exceeds the actual amount due (either by way of TDS or TCS or Advance Tax or Self-Assessment Tax).",
    "confidence": 1
   },
   {

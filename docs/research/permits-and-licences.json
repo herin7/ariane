@@ -16,6 +16,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:30678b3df319",
+   "url": "https://girlion.gujarat.gov.in/PermitBookingForDevaliyaBus.aspx",
+   "title": "GSLCS",
+   "domain": "girlion.gujarat.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "de36fd470c390a39c424e27637ee7dac974bfa437b4da456a9bdedea384f13e7",
+   "cacheFile": ".ingest/pages/30678b3df3197cc70858813899eb8dee1c3451e7.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:79218d3e3549",
    "url": "https://girlion.gujarat.gov.in/Dos.aspx",
    "title": "Only Official Booking Website for Gir Online Permit Booking System :: GSLCS",
@@ -364,6 +376,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:7ef48154fb52",
+   "url": "https://ceiced.gujarat.gov.in/contact",
+   "title": "સંપર્ક | મુખ્ય વિદ્યુત નિરીક્ષક <br />અને<br />વિદ્યુત શુલ્ક સમાહર્તા",
+   "domain": "ceiced.gujarat.gov.in",
+   "sourceType": "HELPLINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "8c14cc0535f42f89044b6fbd13ec153fd331be8017f274dc237772b55da2df43",
+   "cacheFile": ".ingest/pages/7ef48154fb52d0e16d628cce46c98c13bd74baee.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:0b7975f95c09",
    "url": "https://cpvadodara.gujarat.gov.in/Upload/PBNPB_1_home_140916.pdf#page=3",
    "title": "PBNPB_1_home_140916 (page 3 of 6)",
@@ -385,6 +409,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "46379e63cc97b8c061f84952f0be82d4941520a6f071e20903e68ab6cf374ec5",
    "cacheFile": ".ingest/pages/dfcb084922678cd8070e71599cb2a3258acfd35f.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:d50e51e38c37",
+   "url": "https://cpvadodara.gujarat.gov.in/Upload/PBNPB_1_home_140916.pdf#page=2",
+   "title": "PBNPB_1_home_140916 (page 2 of 6)",
+   "domain": "cpvadodara.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-VADODARA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d4618d6b0000898220f74b36f085decbac138a82445c5aef2d22dbc2a8abc9c5",
+   "cacheFile": ".ingest/pages/d50e51e38c37adbb89cdcc59d4e73fa16a61e3e3.md",
    "scrapedOk": true
   },
   {
@@ -421,6 +457,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "cb9275c4dd98f25ea12837f6c914ee05a15c02d940b4fe42becb333316b913f9",
    "cacheFile": ".ingest/pages/7e6056c2df60119dba9f23f64c8c9919a8717715.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:b95bad3f5be2",
+   "url": "https://gvc.org.in/webcontroller/clickmenu/MTYyMDU3OTYw",
+   "title": "Gujarat Veterinary Council",
+   "domain": "gvc.org.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "56a88513ddc850e8c48752ccaca91ec048e4dc02268bf203e8157837182c4f23",
+   "cacheFile": ".ingest/pages/b95bad3f5be2e576e7e3596be3a49062b2d9efb2.md",
    "scrapedOk": true
   },
   {
@@ -604,6 +652,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:82b14db365b2",
+   "url": "https://gujarattourism.com/content/dam/gujrattourism/images/document/INVESTOR_APPLICATION_GUIDELINE.pdf#page=9",
+   "title": "INVESTOR_APPLICATION_GUIDELINE (page 9 of 20)",
+   "domain": "gujarattourism.com",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "07e3c7574154aea7ca8b4f89db19eb36b814ea0c2d661958af9e102b30d9dbe9",
+   "cacheFile": ".ingest/pages/82b14db365b20d64bb388a30d31d9795d20c18f8.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:9334ddc47128",
    "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=7",
    "title": "englishGuideline (page 7 of 10)",
@@ -680,7 +740,7 @@
    "url": "https://cot.gujarat.gov.in/writereaddata/Portal/Images/pdf/form-20-31012020.pdf#page=1",
    "title": "form-20-31012020 (page 1 of 4)",
    "domain": "cot.gujarat.gov.in",
-   "sourceType": "OFFICE_DIRECTORY",
+   "sourceType": "SERVICE_PAGE",
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "3076462507bcfb658e67d1b2b39fd6ce239065431ba74b77e2660862b8648fa7",
@@ -821,6 +881,30 @@
    "scrapedOk": true
   },
   {
+   "id": "src:7eec7f519267",
+   "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=3",
+   "title": "Adventure%20Tourism%20Guidelines%20V6.3%204.4.20 (page 3 of 16)",
+   "domain": "gujarattourism.com",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d7bce9f81155d3929aa1837f4eb2aff6033fbd858424814c50df3d740170704f",
+   "cacheFile": ".ingest/pages/7eec7f519267b5c98cedd850fc17aa3eca868f3d.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:3848973b8836",
+   "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=2",
+   "title": "Adventure%20Tourism%20Guidelines%20V6.3%204.4.20 (page 2 of 16)",
+   "domain": "gujarattourism.com",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "2a0d815362d0c46a0744fd1ee16a54de34bd686145d10453941fdc5b15ae19d8",
+   "cacheFile": ".ingest/pages/3848973b88362f19aeb9b7f449a6096e0a81de2e.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:e1e013fc4259",
    "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/user_manual/Garment_Policy_guidelines.pdf#page=7",
    "title": "Garment_Policy_guidelines (page 7 of 22)",
@@ -857,6 +941,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:934e01778690",
+   "url": "https://parivahan.gov.in/en/content/permanent-license",
+   "title": "Permanent License | Parivahansewa",
+   "domain": "parivahan.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "7e6e2d38e40a7d4635bae5d9b28720e06a65fcbf63c2e155f82385f8add877c9",
+   "cacheFile": ".ingest/pages/934e0177869052689d2afa44183c5a737ebf2c9a.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:31139eefc21e",
    "url": "https://cpsurat.gujarat.gov.in/Upload/FORM%20A-3.pdf#page=1",
    "title": "FORM%20A-3 (page 1 of 2)",
@@ -866,18 +962,6 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "6fac51453e14073dbc02abc7e656cd4dc1fcea410972cd14627b864ea04b96e7",
    "cacheFile": ".ingest/pages/31139eefc21e2b745f8fbf17207236117f63e12b.md",
-   "scrapedOk": true
-  },
-  {
-   "id": "src:d50e51e38c37",
-   "url": "https://cpvadodara.gujarat.gov.in/Upload/PBNPB_1_home_140916.pdf#page=2",
-   "title": "PBNPB_1_home_140916 (page 2 of 6)",
-   "domain": "cpvadodara.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ-VADODARA",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "d4618d6b0000898220f74b36f085decbac138a82445c5aef2d22dbc2a8abc9c5",
-   "cacheFile": ".ingest/pages/d50e51e38c37adbb89cdcc59d4e73fa16a61e3e3.md",
    "scrapedOk": true
   },
   {
@@ -905,6 +989,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:7cf9b8e687f7",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/user_manual/Garment_Policy_guidelines.pdf#page=9",
+   "title": "Garment_Policy_guidelines (page 9 of 22)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "2226bfab7eeccfe62fe0459e10644ca68a32778a2a0ab4fbfd46114f81344985",
+   "cacheFile": ".ingest/pages/7cf9b8e687f7ea0bf9a27004ad45a4f2fd6106f3.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:d332e55d39a6",
    "url": "https://commercialtax.gujarat.gov.in/vatwebsite/download/Registration_Flow_Final_08062015.pdf#page=3",
    "title": "Registration_Flow_Final_08062015 (page 3 of 5)",
@@ -914,6 +1010,19 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "ebdbb9f1eecf384853bf17938b4664a1ae8ce2b832a4eed82c4412ebf1a38727",
    "cacheFile": ".ingest/pages/d332e55d39a6f836b06a47755b980e50a42b0a19.md",
+   "scrapedOk": true,
+   "tlsVerified": false
+  },
+  {
+   "id": "src:b23c06cad858",
+   "url": "https://commercialtax.gujarat.gov.in/vatwebsite/form/formMain.jsp",
+   "title": "Commercial Tax",
+   "domain": "commercialtax.gujarat.gov.in",
+   "sourceType": "TRACKING_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "775a9ef3555fe58c259cfc748504e1bc0ceba15663bb690d0d6b241f3fbe15ec",
+   "cacheFile": ".ingest/pages/b23c06cad85807cd352b1b65c49b59d9579af784.md",
    "scrapedOk": true,
    "tlsVerified": false
   },
@@ -954,6 +1063,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:ac7daef86cfc",
+   "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=4",
+   "title": "Adventure%20Tourism%20Guidelines%20V6.3%204.4.20 (page 4 of 16)",
+   "domain": "gujarattourism.com",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "bc317f1dbcdd51fe04b2d03707704d493f99301c63a551815e710dab08d738cf",
+   "cacheFile": ".ingest/pages/ac7daef86cfcfacfaf654deb2ec5042cbe884f72.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:11941ab5f533",
    "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=5",
    "title": "englishGuideline (page 5 of 10)",
@@ -978,6 +1099,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:3772e9d020d4",
+   "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=2",
+   "title": "englishGuideline (page 2 of 10)",
+   "domain": "gujarattourism.com",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "2793d76ed0824319ee7d044c264f4c1e5773db25100c726e10bcba89c77a8660",
+   "cacheFile": ".ingest/pages/3772e9d020d4d2af7326e81f8889988c7efc1e98.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:646e727a9abf",
    "url": "https://ma.gujarat.gov.in/documents/Revised%20HEM%20Guidelines%20for%20Stand%20Alone%20Dialysis%2001.06.2026%20final.pdf#page=3",
    "title": "Revised%20HEM%20Guidelines%20for%20Stand%20Alone%20Dialysis%2001.06.2026%20final (page 3 of 7)",
@@ -999,6 +1132,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "ef8e4389bb08026e266f031313bd2f8d689d20631235011d3d4da767d9415203",
    "cacheFile": ".ingest/pages/bf723df831da40ffb45e5a4867842df8a0195e16.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:d65892a6e72a",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/shrihariagri512015.pdf#page=27",
+   "title": "shrihariagri512015 (page 27 of 78)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "cbfcbb10594b773bcfeab9a886c54e1be507f33240b947c121ff5ed502c2acc8",
+   "cacheFile": ".ingest/pages/d65892a6e72a1abc317f1e255a0c011c4b40e976.md",
    "scrapedOk": true
   },
   {
@@ -1062,11 +1207,23 @@
    "scrapedOk": true
   },
   {
+   "id": "src:2da79b27e47b",
+   "url": "https://parivahan.gov.in/en/content/learners-license",
+   "title": "Learner's License | Parivahansewa",
+   "domain": "parivahan.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "70d0f2586b185ac364cff22549fde5d09a79772f9f56445be09c5e38d6332700",
+   "cacheFile": ".ingest/pages/2da79b27e47bd2ed3e41b7156a678244f0e0b597.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:21b6ef1e1050",
    "url": "https://suratmunicipal.gov.in/Services/Sitilink/SaralPassTravelScheme",
    "title": "Sitilink - SARAL Pass Travel Scheme",
    "domain": "suratmunicipal.gov.in",
-   "sourceType": "SERVICE_PAGE",
+   "sourceType": "OFFICE_DIRECTORY",
    "jurisdictionId": "IN-GJ-SURAT",
    "retrievedAt": "2026-08-23",
    "contentHash": "d22bac10f7ae0adc3d30f0f931f368ccffd54eef5e733b459d5ab0370e19fc63",
@@ -1083,6 +1240,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "9f4a674fbdb5ed95794798a9457121836a4dd7a999fe84d54212535daba79d2f",
    "cacheFile": ".ingest/pages/19a8bc5fc95a7c2d852ff02b265fc25abddd2735.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:88b9f241701b",
+   "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=12",
+   "title": "Adventure%20Tourism%20Guidelines%20V6.3%204.4.20 (page 12 of 16)",
+   "domain": "gujarattourism.com",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "3efb4dba0e4dea6d1c5e295fcbdf052733538e28fa3c9b1db66ed1b4d46fca5b",
+   "cacheFile": ".ingest/pages/88b9f241701b1e96b17123f9b84532285c4ac9f5.md",
    "scrapedOk": true
   },
   {
@@ -1107,18 +1276,6 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "4cda211945eda2e46d47b0cbf8a6b9d274ebe2d446497a919591f4f41bf4c118",
    "cacheFile": ".ingest/pages/1b512feb4f0f423e1b505d8cb4a79ca57275d768.md",
-   "scrapedOk": true
-  },
-  {
-   "id": "src:2da79b27e47b",
-   "url": "https://parivahan.gov.in/en/content/learners-license",
-   "title": "Learner's License | Parivahansewa",
-   "domain": "parivahan.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "70d0f2586b185ac364cff22549fde5d09a79772f9f56445be09c5e38d6332700",
-   "cacheFile": ".ingest/pages/2da79b27e47bd2ed3e41b7156a678244f0e0b597.md",
    "scrapedOk": true
   },
   {
@@ -1207,6 +1364,30 @@
    "scrapedOk": true
   },
   {
+   "id": "src:960f5b2acadf",
+   "url": "https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=8",
+   "title": "Vessal_25102024 (page 8 of 21)",
+   "domain": "pnt.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "efdb89153916226310585a622c42296b84dc7712834bd43fb03060917ab279fe",
+   "cacheFile": ".ingest/pages/960f5b2acadf0ee87b42a307b0293c80a38baade.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:cb49e99c4d4f",
+   "url": "https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=7",
+   "title": "Vessal_25102024 (page 7 of 21)",
+   "domain": "pnt.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "adddac4611f59d8ff8147d965cbba0ec179f8123b813a45381ea05d260eec916",
+   "cacheFile": ".ingest/pages/cb49e99c4d4f2ad961c56e716bebd7033762c7b8.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:8ddcf2264246",
    "url": "https://ced.gujarat.gov.in/assets/downloads/E-waste%20Management_2013.pdf#page=9",
    "title": "E-waste%20Management_2013 (page 9 of 10)",
@@ -1243,6 +1424,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:2d3f15b67b83",
+   "url": "https://vahan.parivahan.gov.in/aitp/faces/contact.xhtml",
+   "title": "|| V A H A N | All India Tourist Permit | Ministry of Road Transport and Highways, Government of India ||",
+   "domain": "vahan.parivahan.gov.in",
+   "sourceType": "HELPLINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "36531303bb7a7bc31a3d69bc6b06cb83bb008705f548e21fdf613264c270d05c",
+   "cacheFile": ".ingest/pages/2d3f15b67b830c442f44e82fe5bd106b36ea2abb.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:c678228354a5",
    "url": "https://ced.gujarat.gov.in/assets/downloads/it_policy_guj_2014.pdf#page=8",
    "title": "it_policy_guj_2014 (page 8 of 15)",
@@ -1267,18 +1460,6 @@
    "scrapedOk": true
   },
   {
-   "id": "src:7ef48154fb52",
-   "url": "https://ceiced.gujarat.gov.in/contact",
-   "title": "સંપર્ક | મુખ્ય વિદ્યુત નિરીક્ષક <br />અને<br />વિદ્યુત શુલ્ક સમાહર્તા",
-   "domain": "ceiced.gujarat.gov.in",
-   "sourceType": "HELPLINE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "8c14cc0535f42f89044b6fbd13ec153fd331be8017f274dc237772b55da2df43",
-   "cacheFile": ".ingest/pages/7ef48154fb52d0e16d628cce46c98c13bd74baee.md",
-   "scrapedOk": true
-  },
-  {
    "id": "src:61f17e5a5fa6",
    "url": "https://girlion.gujarat.gov.in/PermitBookingForJungleTrail.aspx",
    "title": "GSLCS",
@@ -1291,15 +1472,15 @@
    "scrapedOk": true
   },
   {
-   "id": "src:934e01778690",
-   "url": "https://parivahan.gov.in/en/content/permanent-license",
-   "title": "Permanent License | Parivahansewa",
+   "id": "src:887832485fd3",
+   "url": "https://parivahan.gov.in/en/content/licensing-related-fees-charges",
+   "title": "Licensing Related fees and Charges | Parivahansewa",
    "domain": "parivahan.gov.in",
    "sourceType": "SERVICE_PAGE",
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
-   "contentHash": "7e6e2d38e40a7d4635bae5d9b28720e06a65fcbf63c2e155f82385f8add877c9",
-   "cacheFile": ".ingest/pages/934e0177869052689d2afa44183c5a737ebf2c9a.md",
+   "contentHash": "0c317d32e185beb5d63e100d8998d05e50924769fff6268222fb152596509d60",
+   "cacheFile": ".ingest/pages/887832485fd349d90d4dfd0a354f8eb9e06d3b0e.md",
    "scrapedOk": true
   },
   {
@@ -1375,6 +1556,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:7d6a6cddeffa",
+   "url": "https://www.gpcb.gov.in/payroll/FORMS_FOR_OFFICE_ADMINISTRATION.PDF#page=7",
+   "title": "FORMS_FOR_OFFICE_ADMINISTRATION (page 7 of 40)",
+   "domain": "gpcb.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "953dd4d8427803e49553b0d168d9ad15b05439126249f00bc253b13fff6de446",
+   "cacheFile": ".ingest/pages/7d6a6cddeffa8de55f2beba1b19fd7c2e2824807.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:aaceafe8ef20",
    "url": "https://mcjamnagar.com/OnlineServices/pf_certificate.aspx?SID=OSER",
    "title": "Professional Tax",
@@ -1420,6 +1613,30 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "03cac051ca5057d58e34f40665c0fc5d5cc3aa3179c7d5ab780e687ca62ed415",
    "cacheFile": ".ingest/pages/89802adda88724c39535aad8d2d7a0358f35a034.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:2a9afda9a6fa",
+   "url": "https://ma.gujarat.gov.in/documents/Guidelines%20for%20Hospital%20Empanelment%20%20De%20Empanelment_July%202026.pdf#page=25",
+   "title": "Guidelines%20for%20Hospital%20Empanelment%20%20De%20Empanelment_July%202026 (page 25 of 54)",
+   "domain": "ma.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "4798ded25501df65799c65196b08fde3c96f74e721c2499c2fed9705f15a2183",
+   "cacheFile": ".ingest/pages/2a9afda9a6fa89ff93a96b1b90a5506aa6d1ddd4.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:39d25ed91a7b",
+   "url": "https://ma.gujarat.gov.in/documents/Letter%20&%20Guideline%20for%20Hospital%20Empanelment%20under%20MA%20&%20PMJAY.pdf#page=10",
+   "title": "Letter%20&%20Guideline%20for%20Hospital%20Empanelment%20under%20MA%20&%20PMJAY (page 10 of 26)",
+   "domain": "ma.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "b8b734d1f2329259577a9af4d04e806115055c0ec03206abdd22e37e6d6b3b4a",
+   "cacheFile": ".ingest/pages/39d25ed91a7b75adb8ed7a6c8bf59c7ec34bb883.md",
    "scrapedOk": true
   },
   {
@@ -1556,18 +1773,6 @@
    "scrapedOk": true
   },
   {
-   "id": "src:2d3f15b67b83",
-   "url": "https://vahan.parivahan.gov.in/aitp/faces/contact.xhtml",
-   "title": "|| V A H A N | All India Tourist Permit | Ministry of Road Transport and Highways, Government of India ||",
-   "domain": "vahan.parivahan.gov.in",
-   "sourceType": "HELPLINE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "36531303bb7a7bc31a3d69bc6b06cb83bb008705f548e21fdf613264c270d05c",
-   "cacheFile": ".ingest/pages/2d3f15b67b830c442f44e82fe5bd106b36ea2abb.md",
-   "scrapedOk": true
-  },
-  {
    "id": "src:d712fc59acc7",
    "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/CIS/CIS_Information_Sheet_Procedure.pdf#page=10",
    "title": "CIS_Information_Sheet_Procedure (page 10 of 10)",
@@ -1589,30 +1794,6 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "9eb6e6d38bc31e4f3717a942bf1b2c25c0ca2b7e4c652265e82d4b13125111d6",
    "cacheFile": ".ingest/pages/89c8bab391c5018aca671f8e7175ee298bc0a9e6.md",
-   "scrapedOk": true
-  },
-  {
-   "id": "src:7eec7f519267",
-   "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=3",
-   "title": "Adventure%20Tourism%20Guidelines%20V6.3%204.4.20 (page 3 of 16)",
-   "domain": "gujarattourism.com",
-   "sourceType": "GUIDELINE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "d7bce9f81155d3929aa1837f4eb2aff6033fbd858424814c50df3d740170704f",
-   "cacheFile": ".ingest/pages/7eec7f519267b5c98cedd850fc17aa3eca868f3d.md",
-   "scrapedOk": true
-  },
-  {
-   "id": "src:ac7daef86cfc",
-   "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=4",
-   "title": "Adventure%20Tourism%20Guidelines%20V6.3%204.4.20 (page 4 of 16)",
-   "domain": "gujarattourism.com",
-   "sourceType": "GUIDELINE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "bc317f1dbcdd51fe04b2d03707704d493f99301c63a551815e710dab08d738cf",
-   "cacheFile": ".ingest/pages/ac7daef86cfcfacfaf654deb2ec5042cbe884f72.md",
    "scrapedOk": true
   },
   {
@@ -1652,6 +1833,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:08998f5020a1",
+   "url": "https://vahan.parivahan.gov.in/vahantc",
+   "title": "VAHAN4(Trade Citizen Services)",
+   "domain": "vahan.parivahan.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ff721b10714eaf01ac4a46601d710566aab4726d055ec10e3778de0f11704b70",
+   "cacheFile": ".ingest/pages/08998f5020a1d60ee352b2d49b122f8c858f1be0.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:9bd8507d75e7",
    "url": "https://commercialtax.gujarat.gov.in/vatwebsite/download/rule/Ptact.pdf#page=8",
    "title": "Ptact (page 8 of 43)",
@@ -1674,18 +1867,6 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "08a0027074b71fb3e6e8d445dcf35185f150a26eb4ca87397e87142fcf4a18aa",
    "cacheFile": ".ingest/pages/ddcada61ade478530035d9c07abcdaefd45b63b7.md",
-   "scrapedOk": true
-  },
-  {
-   "id": "src:30678b3df319",
-   "url": "https://girlion.gujarat.gov.in/PermitBookingForDevaliyaBus.aspx",
-   "title": "GSLCS",
-   "domain": "girlion.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "de36fd470c390a39c424e27637ee7dac974bfa437b4da456a9bdedea384f13e7",
-   "cacheFile": ".ingest/pages/30678b3df3197cc70858813899eb8dee1c3451e7.md",
    "scrapedOk": true
   },
   {
@@ -1761,30 +1942,6 @@
    "scrapedOk": true
   },
   {
-   "id": "src:88b9f241701b",
-   "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=12",
-   "title": "Adventure%20Tourism%20Guidelines%20V6.3%204.4.20 (page 12 of 16)",
-   "domain": "gujarattourism.com",
-   "sourceType": "GUIDELINE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "3efb4dba0e4dea6d1c5e295fcbdf052733538e28fa3c9b1db66ed1b4d46fca5b",
-   "cacheFile": ".ingest/pages/88b9f241701b1e96b17123f9b84532285c4ac9f5.md",
-   "scrapedOk": true
-  },
-  {
-   "id": "src:3848973b8836",
-   "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=2",
-   "title": "Adventure%20Tourism%20Guidelines%20V6.3%204.4.20 (page 2 of 16)",
-   "domain": "gujarattourism.com",
-   "sourceType": "GUIDELINE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "2a0d815362d0c46a0744fd1ee16a54de34bd686145d10453941fdc5b15ae19d8",
-   "cacheFile": ".ingest/pages/3848973b88362f19aeb9b7f449a6096e0a81de2e.md",
-   "scrapedOk": true
-  },
-  {
    "id": "src:7034b3cae700",
    "url": "https://forestservices.gujarat.gov.in/eServices/Sawmill/frmSawmillRenewAppNew.aspx",
    "title": "Gujarat Forest Department",
@@ -1809,28 +1966,17 @@
    "scrapedOk": true
   },
   {
-   "id": "src:d65892a6e72a",
-   "url": "https://ced.gujarat.gov.in/assets/downloads/shrihariagri512015.pdf#page=27",
-   "title": "shrihariagri512015 (page 27 of 78)",
-   "domain": "ced.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
+   "id": "src:7039944d7a5d",
+   "url": "https://commercialtax.gujarat.gov.in/vatwebsite/download/rule/Ptact.pdf#page=7",
+   "title": "Ptact (page 7 of 43)",
+   "domain": "commercialtax.gujarat.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
-   "contentHash": "cbfcbb10594b773bcfeab9a886c54e1be507f33240b947c121ff5ed502c2acc8",
-   "cacheFile": ".ingest/pages/d65892a6e72a1abc317f1e255a0c011c4b40e976.md",
-   "scrapedOk": true
-  },
-  {
-   "id": "src:cb49e99c4d4f",
-   "url": "https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=7",
-   "title": "Vessal_25102024 (page 7 of 21)",
-   "domain": "pnt.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "adddac4611f59d8ff8147d965cbba0ec179f8123b813a45381ea05d260eec916",
-   "cacheFile": ".ingest/pages/cb49e99c4d4f2ad961c56e716bebd7033762c7b8.md",
-   "scrapedOk": true
+   "contentHash": "95387f340ecc3bf89b76812411af0f58356f7b3a8798f68322e716c35a32e133",
+   "cacheFile": ".ingest/pages/7039944d7a5d1d4986b97e6f34711b3a1ca493ce.md",
+   "scrapedOk": true,
+   "tlsVerified": false
   }
  ],
  "facts": [
@@ -2289,6 +2435,26 @@
    "sourceId": "src:486c8338b1b8",
    "evidence": "'GIZ Devalia Safari Park' remain closed every Wednesday.",
    "confidence": 1
+  },
+  {
+   "claim": "The applicant receives an 'e-Permit' at the end.",
+   "kind": "ACTION",
+   "subject": "gir_online_permit",
+   "object": "e_permit",
+   "detail": {},
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "The 'e-Permit' is for a visit to 'Gir Jungle Safari', 'GIZ Devalia Safari', 'Ambardi Safari Park' and 'Girnar Nature Safari' only.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The authority may make slight changes in visit time due to weather or seasonal changes.",
+   "kind": "OFFICE",
+   "subject": "gir_online_permit",
+   "object": "authority",
+   "detail": {},
+   "sourceId": "src:30678b3df319",
+   "evidence": "Slight changes in visit time may be done by authority due to Weather/Seasonal changes.",
+   "confidence": 0.8
   },
   {
    "claim": "Report at the reception centre at least 15 minutes before your departure time.",
@@ -4767,6 +4933,40 @@
    "confidence": 1
   },
   {
+   "claim": "Applicants receive an e-Permit after successful booking.",
+   "kind": "ACTION",
+   "subject": "gir_online_permit_booking_system",
+   "object": "applicant",
+   "detail": {},
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "If one does not receive an e-Permit despite the successful financial transaction due to technical errors, a refund will be done in 15-20 working days.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The e-Permit is issued after the online booking opens three months before the date.",
+   "kind": "TIMELINE",
+   "subject": "gir_online_permit_booking_system",
+   "object": "e_permit",
+   "detail": {
+    "days": "90"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "For Gir Jungle Trail, GIZ Devalia Gypsy Safari, 'Ambardi Safari Park' and Girnar Nature Safari, online booking opens three months before the date.",
+   "confidence": 0.8
+  },
+  {
+   "claim": "If there is a technical error, the refund for the e-Permit takes 15-20 working days.",
+   "kind": "TIMELINE",
+   "subject": "gir_online_permit_booking_system",
+   "object": "refund",
+   "detail": {
+    "days": "15-20"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "If one does not receive an e-Permit despite the successful financial transaction due to technical errors, a refund will be done in 15-20 working days.",
+   "confidence": 0.9
+  },
+  {
    "claim": "If you purchase a secondhand boiler from Gujarat or another state, you must inform the Boiler office.",
    "kind": "ACTION",
    "subject": "change_in_ownership",
@@ -5081,6 +5281,39 @@
    "sourceId": "src:83167136359e",
    "evidence": "An application with required fees ( paid in Govt. treasury through Chalan) and original makers papers is to be submitted to concerned area office.",
    "confidence": 0.95
+  },
+  {
+   "claim": "An applicant must submit an application with required fees and original makers papers to the concerned area office.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "boiler_registration",
+   "object": "application",
+   "detail": {
+    "fees": "required",
+    "payment_method": "paid in Govt. treasury through Chalan"
+   },
+   "sourceId": "src:83167136359e",
+   "evidence": "An application with required fees ( paid in Govt. treasury through Chalan) and original makers papers is to be submitted to concerned area office.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must submit the application for scrutiny and then undergo on-site verification of the details provided.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "approval_process",
+   "detail": {},
+   "sourceId": "src:83167136359e",
+   "evidence": "Approval process is mainly scrutiny of application and than on site verification of details furnished in the application.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must pay the application fees to the government treasury through a chalan and submit the original chalan to the Boiler office.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "application_fees",
+   "detail": {},
+   "sourceId": "src:83167136359e",
+   "evidence": "Application fees is to be paid in Govt. treasury through chalan and original challan is to be submitted to Boiler office.",
+   "confidence": 1
   },
   {
    "claim": "If you purchase a secondhand boiler, you must inform the Boiler office and complete necessary formalities.",
@@ -5654,6 +5887,16 @@
    "confidence": 1
   },
   {
+   "claim": "Prior intimation to the state biodiversity board is required for obtaining biological resources for certain purposes.",
+   "kind": "ACTION",
+   "subject": "prior_intimation",
+   "object": "state_biodiversity_board",
+   "detail": {},
+   "sourceId": "src:e0cc234eb940",
+   "evidence": "Prior intimation to state biodiversity board for obtaining biological resource for certain purposes",
+   "confidence": 1
+  },
+  {
    "claim": "A person must have one year of experience under a certified electrician or engineer to appear in the wireman examination.",
    "kind": "ELIGIBILITY",
    "subject": "wireman_examination",
@@ -5960,6 +6203,42 @@
    "confidence": 1
   },
   {
+   "claim": "The office an applicant visits is the Office of the Chief Electrical Inspector.",
+   "kind": "OFFICE",
+   "subject": "electrical_contractor_license",
+   "object": "chief_electrical_inspector_office",
+   "detail": {
+    "address": "Block No-18, 6th Floor, Udyog Bhavan, Sector 11, Gandhinagar, Gujarat"
+   },
+   "sourceId": "src:7ef48154fb52",
+   "evidence": "Office of the Chief Electrical Inspector\nBlock No-18, 6th Floor, Udyog Bhavan, Sector 11,\nGandhinagar, Gujarat",
+   "confidence": 1
+  },
+  {
+   "claim": "The Technical Online Support Helpline for the Office of the Chief Electrical Inspector is +91 79 23256655/45.",
+   "kind": "HELPLINE",
+   "subject": "technical_online_support_helpline",
+   "object": "office_of_chief_electrical_inspector",
+   "detail": {
+    "phone": "+91 79 23256655/45"
+   },
+   "sourceId": "src:7ef48154fb52",
+   "evidence": "Technical Online Support Helpline\n+91 79 23256655/45",
+   "confidence": 1
+  },
+  {
+   "claim": "The email address for the Office of the Chief Electrical Inspector is help-ceiced[at]gujarat[dot]gov[dot]in.",
+   "kind": "HELPLINE",
+   "subject": "email_contact",
+   "object": "office_of_chief_electrical_inspector",
+   "detail": {
+    "email": "help-ceiced[at]gujarat[dot]gov[dot]in"
+   },
+   "sourceId": "src:7ef48154fb52",
+   "evidence": "help-ceiced[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
    "claim": "The fee for a licence for handguns – revolvers/pistols (both restricted or permissible) is 1000 rupees at the time of grant.",
    "kind": "FEE",
    "subject": "handgun_licence",
@@ -6256,6 +6535,16 @@
    },
    "sourceId": "src:dfcb08492267",
    "evidence": "Arms and ammunition (for individuals) 500 N/A",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The licensing authority may require the licensee to produce the firearm for inspection at a specified time and place.",
+   "kind": "ACTION",
+   "subject": "licensing_authority",
+   "object": "firearm_licence",
+   "detail": {},
+   "sourceId": "src:d50e51e38c37",
+   "evidence": "The authority by whom any licence in Form II, Form 111, Form IV or Form V has been granted or renewed, may, for the purpose of satisfying itself that any arms covered by such licence are still in the possession of the licensee at the time of renewal or at any time while the licence is in force, by order in writing require the licensee to produce the arm or arms at such time and place for inspection of such officer as may be specified in the order.",
    "confidence": 0.95
   },
   {
@@ -6559,6 +6848,97 @@
    "confidence": 1
   },
   {
+   "claim": "Graduates who have completed their academic requirements for the degree course are eligible for provisional registration.",
+   "kind": "ELIGIBILITY",
+   "subject": "provisional_registration",
+   "object": "graduates",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "The state Council shall issue provisional registration certificate in Form-XXIV to such graduates who have completed their academic requirements for the degree course.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Graduates must apply for provisional registration through the Dean/Principal of the Veterinary College from which they completed their academic course.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "provisional_registration",
+   "object": "application",
+   "detail": {
+    "form": "Form-XXII"
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Every Graduate shall be required to apply for the provisional registration on the prescribed Form-XXII through the Dean/Principal of the Veterinary College concerned from where he/she completed academic course.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Provisional registration is limited only for the internship training.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "provisional_registration",
+   "object": "internship_training",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "The provisional registration shall be limited only for the internship training.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Graduates must complete their internship training before applying for permanent registration.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "permanent_registration",
+   "object": "internship_training",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "On completion of internship training, every graduate shall apply for permanent registration and shall surrender his/her provisional certificate along with application for registration to the State Council.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The fee for registration is not exceeding One Hundred fifteen rupees.",
+   "kind": "FEE",
+   "subject": "gujarat_veterinary_council",
+   "object": "registration",
+   "detail": {
+    "amount": "115",
+    "currency": "INR"
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "This behalf in such form and in such manner and on payment of such fees, not exceeding One Hundred fifteen rupees",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The fee for a duplicate certificate is not exceeding One Hundred ten rupees.",
+   "kind": "FEE",
+   "subject": "gujarat_veterinary_council",
+   "object": "duplicate_certificate",
+   "detail": {
+    "amount": "110",
+    "currency": "INR"
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Where it is shown to the satisfaction of the Secretary of the Council that a certificate of registration has been lost or destroyed,the Secretary may, on payment of such fees, not exceeding One Hundred ten rupees (i.e. included administrative charges of Rs.100/-), as may be specified by regulations, issue a duplicate certificate in such form as may be specified in the regulations.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant receives a certificate of registration upon approval.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "certificate_of_registration",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "On receipt of an application under sub-section (1), the Council shall grant to the applicant a certificate of registration in such form as may be provided by regulations",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Renewal of registration is compulsory every five years.",
+   "kind": "TIMELINE",
+   "subject": "registration",
+   "object": "renewal",
+   "detail": {
+    "duration": "5",
+    "unit": "years"
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "As per the provisions of IVC Act. 1984 renewal of registration every five years is compulsory; otherwise registration is liable for cancellation.",
+   "confidence": 0.95
+  },
+  {
    "claim": "Before submitting a vehicle for fitness testing, the condition of tyres must comply with the Central Motor Vehicles Rules, 1989.",
    "kind": "CONDITIONAL_REQUIREMENT",
    "subject": "vehicle_owner",
@@ -6777,6 +7157,16 @@
    "sourceId": "src:991e98954af3",
    "evidence": "MANDATORY PRE-CHECKS FOR VEHICLE OWNERS BEFORE SUBMISSION OF VEHICLE FOR FITNESS TESTING",
    "confidence": 1
+  },
+  {
+   "claim": "Before submitting a vehicle for fitness testing, mandatory pre-checks must be completed to avoid inconvenience.",
+   "kind": "ACTION",
+   "subject": "vehicle_fitness_testing",
+   "object": "mandatory_pre_checks",
+   "detail": {},
+   "sourceId": "src:991e98954af3",
+   "evidence": "MANDATORY PRE-CHECKS FOR VEHICLE OWNERS BEFORE SUBMISSION OF VEHICLE FOR FITNESS TESTING Please ensure the following check points before submission of vehicle for fitness at Fitness Testing Center/Ground to avoid any kind of inconvenience-",
+   "confidence": 0.9
   },
   {
    "claim": "The applicant must select a district from a dropdown list.",
@@ -7484,6 +7874,60 @@
    "confidence": 1
   },
   {
+   "claim": "The applicant must submit the required documents along with the application.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "registrar",
+   "detail": {},
+   "sourceId": "src:48ecc2904bee",
+   "evidence": "The Applicant shall be required to furnish the following documents along with the application:",
+   "confidence": 1
+  },
+  {
+   "claim": "A citizen pays a Registration and Survey Fee for the Certificate of Registration for Pleasure Craft or Boat.",
+   "kind": "FEE",
+   "subject": "certificate_of_registration_for_pleasure_craft_or_boat",
+   "object": "registration_and_survey_fee",
+   "detail": {
+    "amount": "prescribed",
+    "currency": "INR",
+    "method": "payment"
+   },
+   "sourceId": "src:48ecc2904bee",
+   "evidence": "The application shall be made in FORM 1 along survey application in FORM 2 with payment of a Registration and Survey Fee as prescribed in SCHEDULE B.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application is transferred for scrutiny to the Surveyor and subjected to a detailed survey.",
+   "kind": "ACTION",
+   "subject": "registrar",
+   "object": "surveyor",
+   "detail": {},
+   "sourceId": "src:48ecc2904bee",
+   "evidence": "The Registrar shall be entitled to call for such other documents / records, as may be deemed fit and proper.\n(5) If the Registrar finds the application in order, it shall be transferred for onward scrutiny to the Surveyor; and shall be subjected to a detailed survey.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Surveyor inspects the pleasure craft/boat afresh after compliance is rectified.",
+   "kind": "ACTION",
+   "subject": "surveyor",
+   "object": "pleasure_craft_or_boat",
+   "detail": {},
+   "sourceId": "src:48ecc2904bee",
+   "evidence": "The Applicant shall be required to co-operate with the Surveyor in all respects; and shall comply with\nwritten directions requisitions and compliances, as may be issued by the Surveyor from time to time. After\ncompliance is rectified, the Surveyor shall inspect the pleasure craft/boat afresh.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Registrar issues the Certificate of Registration after further verification or compliance.",
+   "kind": "ACTION",
+   "subject": "registrar",
+   "object": "certificate_of_registration",
+   "detail": {},
+   "sourceId": "src:48ecc2904bee",
+   "evidence": "The Registrar shall on further verification or compliance, as may be required, issue a pleasure\ncraft-specific/boat specific, non-transferrable Certificate of Registration in FORM 6 to the applicant under\nthese rules.",
+   "confidence": 0.95
+  },
+  {
    "claim": "A hotel or resort must be set up at identified high priority tourism destinations in Gujarat.",
    "kind": "CONDITIONAL_REQUIREMENT",
    "subject": "hotel_resort",
@@ -7831,6 +8275,16 @@
    "detail": {},
    "sourceId": "src:d3c8fd171e86",
    "evidence": "o Details of Authorized Representative of the applicant - Authorization in organization’s letterhead to represent on behalf of the applicant",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must provide a Self-Certification or Undertaking in the organization’s letterhead (Annexure: C).",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "tourism_project_approval",
+   "object": "self_certification_letterhead",
+   "detail": {},
+   "sourceId": "src:d3c8fd171e86",
+   "evidence": "3. Self-Certification/Undertaking in organization’s letterhead (Annexure: C)",
    "confidence": 1
   },
   {
@@ -8625,6 +9079,16 @@
    "confidence": 1
   },
   {
+   "claim": "A citizen must provide a document showing successful payment of Stamp Duty and Registration Fee.",
+   "kind": "FEE",
+   "subject": "tourism_unit_registration",
+   "object": "stamp_duty_and_registration_fee",
+   "detail": {},
+   "sourceId": "src:d15b348053e1",
+   "evidence": "Document showing successful payment of Stamp Duty and Registration Fee",
+   "confidence": 0.9
+  },
+  {
    "claim": "The applicant should refer to Section 1.1 of the Operational Guideline for Tourism Policy 2021-25 for the required documents.",
    "kind": "ACTION",
    "subject": "applicant",
@@ -8634,6 +9098,104 @@
    },
    "sourceId": "src:42db51a9fd51",
    "evidence": "Please refer to Section 1.1 of Operational Guideline for Tourism Policy 2021 -25",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must submit specific documents for online registration and incentive application for a new or expansion of a tourism unit.",
+   "kind": "ACTION",
+   "subject": "tourism_unit_registration",
+   "object": "document_submission",
+   "detail": {},
+   "sourceId": "src:42db51a9fd51",
+   "evidence": "17. Which documents to submit for online registration and incentive application for New/Expansion of Tourism Unit to avail Capital Subsidy? Please refer to Section 1.1 of Operational Guideline for Tourism Policy 2021 -25",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must register online on the portal https://tourism.gujarat.gov.in/.",
+   "kind": "ACTION",
+   "subject": "tourism_unit_registration",
+   "object": "online_portal",
+   "detail": {
+    "url": "https://tourism.gujarat.gov.in/"
+   },
+   "sourceId": "src:82b14db365b2",
+   "evidence": "Tourism units who wish to apply under the Policy shall be required to register online only on https://tourism.gujarat.gov.in/",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must submit a presentation in front of the SLEC at least 15 working days before the scheduled SLEC meeting.",
+   "kind": "ACTION",
+   "subject": "tourism_unit_registration",
+   "object": "slec_presentation",
+   "detail": {
+    "days": 15
+   },
+   "sourceId": "src:82b14db365b2",
+   "evidence": "The applicant will need to present the case Infront of the SLEC, and the presentation must cover the suggested points as mentioned in Annexure B. It is suggested to submit the presentation on online portal at least 15 working days before of the scheduled SLEC meeting.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must submit an application for project registration.",
+   "kind": "ACTION",
+   "subject": "tourism_unit_registration",
+   "object": "project_registration",
+   "detail": {},
+   "sourceId": "src:d3c8fd171e86",
+   "evidence": "Application for Project Registration",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must submit an application for financial benefit.",
+   "kind": "ACTION",
+   "subject": "tourism_unit_registration",
+   "object": "financial_benefit_application",
+   "detail": {},
+   "sourceId": "src:d3c8fd171e86",
+   "evidence": "Application for Financial Benet",
+   "confidence": 1
+  },
+  {
+   "claim": "The application and submitted documents will be reviewed by the Commissioner of Tourism (CoT).",
+   "kind": "ACTION",
+   "subject": "tourism_unit_registration",
+   "object": "cot_review",
+   "detail": {},
+   "sourceId": "src:d3c8fd171e86",
+   "evidence": "Review of the application and submitted documents by CoT",
+   "confidence": 1
+  },
+  {
+   "claim": "The financials will be calculated after the review process.",
+   "kind": "ACTION",
+   "subject": "tourism_unit_registration",
+   "object": "financials_calculation",
+   "detail": {},
+   "sourceId": "src:d3c8fd171e86",
+   "evidence": "Calculation of Financials",
+   "confidence": 1
+  },
+  {
+   "claim": "The Commissioner of Tourism issues the Sanction Letter for Tourism Unit Registration.",
+   "kind": "OFFICE",
+   "subject": "tourism_unit_registration",
+   "object": "commissioner_of_tourism",
+   "detail": {
+    "action": "issues_sanction_letter"
+   },
+   "sourceId": "src:2bbeb37d6994",
+   "evidence": "Approval from\nCommissioner of Tourism\nIssuance of\nSanction Letter",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Commissioner of Tourism sanctions financial benefits for Tourism Unit Registration.",
+   "kind": "OFFICE",
+   "subject": "tourism_unit_registration",
+   "object": "commissioner_of_tourism",
+   "detail": {
+    "action": "sanctions_financial_benefits"
+   },
+   "sourceId": "src:2bbeb37d6994",
+   "evidence": "The authority of disbursement of the financial benefit lies with the Commissioner of Tourism, Govt of Gujarat.",
    "confidence": 0.95
   },
   {
@@ -9101,6 +9663,26 @@
    "confidence": 0.95
   },
   {
+   "claim": "The Commissioner of Tourism issues the laminated guide license.",
+   "kind": "OFFICE",
+   "subject": "guide_license",
+   "object": "commissioner_of_tourism",
+   "detail": {},
+   "sourceId": "src:783393c3b969",
+   "evidence": "Annexure – I\n\nTerms and conditions regulating the conduct and performance of licensed Tourist Guides\n1. The licensed guide, when on duty, shall; always wear the laminated guide license issued by\nCommissioner of Tourism and also wear the name tag while accompanying tourists.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Commissioner of Tourism issues the guide license.",
+   "kind": "OFFICE",
+   "subject": "guide_license",
+   "object": "commissioner_of_tourism",
+   "detail": {},
+   "sourceId": "src:783393c3b969",
+   "evidence": "2. The guide license is strictly non – transferable and the licensed guide would not lend his /\nher guide license or any other document which may have been issued to him / her by\nCommissioner of Tourism to any other person(s). Any violation of this rule would make\nhim / her liable to disciplinary action and withdrawal of the guide license granted to him /\nher.",
+   "confidence": 0.95
+  },
+  {
    "claim": "The Commissioner of Tourism, Government of Gujarat issues a guide license.",
    "kind": "OFFICE",
    "subject": "guide_license",
@@ -9373,6 +9955,48 @@
    },
    "sourceId": "src:8f130659de66",
    "evidence": "If a vehicle found to be fit mechanically, then new vehicle is given certificate for two years, whereas, old vehicles are given certificate for a year.",
+   "confidence": 1
+  },
+  {
+   "claim": "The registration process takes time for the smart R.C. Book to be sent by speed-post.",
+   "kind": "TIMELINE",
+   "subject": "vehicle_registration",
+   "object": "smart_rc_book_delivery",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "The smart R.C. Book of the vehicle is sent by speed-post at the address indicated by the applicant in the Form.",
+   "confidence": 0.8
+  },
+  {
+   "claim": "The R.T.O. is responsible for inspecting the vehicle if the certificate is not issued by an authorized dealer.",
+   "kind": "ACTION",
+   "subject": "vehicle_inspection",
+   "object": "rto_office",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "In case, such certificate is issued by the dealer, the same should be attached with the application; otherwise the vehicle is required to be produced in R.T.O. for inspection.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A vehicle should be produced for inspection within 14 days of approval for a change in the vehicle.",
+   "kind": "ACTION",
+   "subject": "vehicle_change",
+   "object": "inspection",
+   "detail": {
+    "days": "14"
+   },
+   "sourceId": "src:8f130659de66",
+   "evidence": "Fee should be paid for this purpose, and vehicle should be produced for inspection within 14 days of such approval being given.",
+   "confidence": 1
+  },
+  {
+   "claim": "Any dues against the vehicle for violation of the Motor Vehicle Act must be cleared before the renewal of the Fitness Certificate.",
+   "kind": "ACTION",
+   "subject": "fitness_certificate_renewal",
+   "object": "clear_dues",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "Any due against of the vehicle for violation of Motor Vehicle Act are also required to be cleared.",
    "confidence": 1
   },
   {
@@ -9857,6 +10481,60 @@
    "confidence": 0.9
   },
   {
+   "claim": "The DPIFC office can be contacted at the phone number 079-23257394.",
+   "kind": "HELPLINE",
+   "subject": "dpifc_office",
+   "object": "contact",
+   "detail": {
+    "phone": "079-23257394"
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "079-23257394",
+   "confidence": 1
+  },
+  {
+   "claim": "The DPIFC office can be contacted via email at tpvd-dpifc@gujarat.gov.in.",
+   "kind": "HELPLINE",
+   "subject": "dpifc_office",
+   "object": "contact",
+   "detail": {
+    "email": "tpvd-dpifc@gujarat.gov.in"
+   },
+   "sourceId": "src:f84364f06217",
+   "evidence": "tpvd-dpifc@gujarat.gov.in",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant can check the status of a submitted request using the Acknowledgement ID.",
+   "kind": "TRACKING",
+   "subject": "dpifc_service",
+   "object": "acknowledgement_id",
+   "detail": {},
+   "sourceId": "src:f84364f06217",
+   "evidence": "The Acknowledgement ID is to be used for tracking and future communications.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant can download the submitted response along with the Acknowledgement ID.",
+   "kind": "ACTION",
+   "subject": "dpifc_applicant",
+   "object": "submitted_response",
+   "detail": {},
+   "sourceId": "src:f84364f06217",
+   "evidence": "The applicant shall also have the option to download the submitted response along with the Acknowledgement ID for future reference.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Acknowledgement ID is sent to the registered email address of the applicant.",
+   "kind": "ACTION",
+   "subject": "dpifc_system",
+   "object": "registered_email",
+   "detail": {},
+   "sourceId": "src:f84364f06217",
+   "evidence": "The Acknowledgement ID shall also be sent to the registered email address (where possible).",
+   "confidence": 1
+  },
+  {
    "claim": "An editable application form with an adhesive stamp of Rs. 300 is required.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "application_form",
@@ -10162,6 +10840,18 @@
    "sourceId": "src:ddfe75bb179b",
    "evidence": "Ideal time for processing a Water Connection application without any queries post physical submission of application form and required documents at respective DEE office is as below.\nNo. | Process | Ideal time |\n1 |\nProviding approval for connection |\n10 days from date of application |",
    "confidence": 1
+  },
+  {
+   "claim": "The ideal time for processing a Water Connection application without any queries is 10 days from the date of application.",
+   "kind": "TIMELINE",
+   "subject": "water_connection_application",
+   "object": "ideal_10_days",
+   "detail": {
+    "days": "10"
+   },
+   "sourceId": "src:ddfe75bb179b",
+   "evidence": "1 | Providing approval for connection | 10 days from date of application |",
+   "confidence": 0.9
   },
   {
    "claim": "The website will be down on 13/06/2019 and 14/06/2019 due to technical maintenance.",
@@ -10798,6 +11488,112 @@
    "confidence": 0.8
   },
   {
+   "claim": "Ownership Document is required, such as 7/12, 8A, 6/ property card/sanad/ Registered Sale deed with Index, Power of Attorney/ lease deed/ project.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "building_development_permission",
+   "object": "ownership_document",
+   "detail": {
+    "documents": "7/12, 8A, 6/ property card/sanad/ Registered Sale deed with Index, Power of Attorney/ lease deed/ project"
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "Owener ship Document:- 7/12,8A,6/ property card/sanad/ Ragistered Sale did with Index, Power of Attorny/ lease deed/ project",
+   "confidence": 1
+  },
+  {
+   "claim": "Area-related documents are required, such as DILR measurement sheet, city survey tippan/tracing/sand, T.P.Site plan/ old approved drawings in case of revise permission.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "building_development_permission",
+   "object": "area_related_documents",
+   "detail": {
+    "documents": "DILR measurement sheet, city survey tippan/tracing/sand, T.P.Site plan/ old approved drawings in case of revise permission"
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "Area Releted Documents:- DILR measurement sheet, city survey tippan/ tracing/ sand, T.P.Site plan/ old approved drowings in case of revise permission.",
+   "confidence": 1
+  },
+  {
+   "claim": "Zoning Certificate and Zone plan (B or F form) are required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "building_development_permission",
+   "object": "zoning_certificate",
+   "detail": {
+    "form": "B or F form"
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "Zoning Certificate and Zone plan:- B or F form.",
+   "confidence": 1
+  },
+  {
+   "claim": "An affidavit for parking, common plot, ULC, and Indemnity Bond is required.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "building_development_permission",
+   "object": "affidavit",
+   "detail": {
+    "purpose": "parking, common plot, ULC, Indemnity Bond"
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "Effidivate for parking, common plot, ULC, Indemnity Bond.",
+   "confidence": 1
+  },
+  {
+   "claim": "A House Tax clearance certificate is required if the property is redeveloped.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "building_development_permission",
+   "object": "house_tax_clearance_certificate",
+   "detail": {
+    "condition": "if redeveloped the old property"
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "House Tax clearance certificate if redeveloped the old property.",
+   "confidence": 1
+  },
+  {
+   "claim": "An opinion of T.P.O is required if the property is in a draft T.P.Scheme.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "building_development_permission",
+   "object": "opinion_of_tpo",
+   "detail": {
+    "condition": "if property is in draft T.P.Scheme"
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "Opinion of T.P.O in case property is in draft T.P.Scheme.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives a Building Use Permission (occupancy permit) after a necessary inspection.",
+   "kind": "ACTION",
+   "subject": "building_development_permission",
+   "object": "building_use_permission",
+   "detail": {},
+   "sourceId": "src:a299a14d5099",
+   "evidence": "Vadodara Municipal Corporation should be grant the Building Use Permission (occupancy permit) after a necessary inspection within 21 days of receipt of the completion report. Before issuing the occupancy certificate.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The process takes 21 days from the receipt of the completion report.",
+   "kind": "TIMELINE",
+   "subject": "building_development_permission",
+   "object": "building_use_permission",
+   "detail": {
+    "days": "21"
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "Vadodara Municipal Corporation should be grant the Building Use Permission (occupancy permit) after a necessary inspection within 21 days of receipt of the completion report. Before issuing the occupancy certificate.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "To obtain a new building development permission from VMC, one can approach the corporation's website or registered architects and engineers.",
+   "kind": "ACTION",
+   "subject": "building_development_permission",
+   "object": "vmc_corporation_website",
+   "detail": {
+    "url": "www.vmc.gov.in"
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "How to Obtain new building development permission Form vmc?\nAns : Open the website of corporation . www.vmc.gov.in\n, also approach the lissence holder architects, engineer, structural engineer registered\nwith corporation.",
+   "confidence": 0.9
+  },
+  {
    "claim": "A copy of a valid CTE/CCA of the actual user is required.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "actual_user",
@@ -11340,6 +12136,26 @@
    "confidence": 0.95
   },
   {
+   "claim": "The recognition/registration as an approved ATO is granted based on the Inspection Report/Recommendations of a Committee.",
+   "kind": "ACTION",
+   "subject": "gujarat_tourism_commissioner",
+   "object": "aero_sports_registration",
+   "detail": {},
+   "sourceId": "src:7eec7f519267",
+   "evidence": "7. The recognition/registration as an approved ATO shall be granted by the Commissioner of Tourism, Government of Gujarat initially, for five years, based on the Inspection Report/Recommendations of a Committee comprising the following members:",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The renewal/extension of recognition/registration is granted after an inspection conducted by the same Committee.",
+   "kind": "ACTION",
+   "subject": "aero_sports_operator",
+   "object": "aero_sports_registration",
+   "detail": {},
+   "sourceId": "src:3848973b8836",
+   "evidence": "6. The renewal / extension thereafter shall be granted for five years after Inspection conducted by the same Committee mentioned below, on an application made by the ATO along with the requisite fee / documents.",
+   "confidence": 0.95
+  },
+  {
    "claim": "Re-employed persons who were relieved by the enterprise within one year before the production of expansion starts are not eligible for payroll assistance.",
    "kind": "ELIGIBILITY",
    "subject": "re_employed_persons",
@@ -11520,6 +12336,26 @@
    },
    "sourceId": "src:e1e013fc4259",
    "evidence": "The State Government operating through GIDC shall make readymade sheds available for apparel factories in selected locations which will be provided either on long term lease or rental basis.",
+   "confidence": 1
+  },
+  {
+   "claim": "GIDC will submit an application on IFP with project details and prescribed documents.",
+   "kind": "ACTION",
+   "subject": "gidc",
+   "object": "ifp",
+   "detail": {},
+   "sourceId": "src:e1e013fc4259",
+   "evidence": "GIDC will submit an application on IFP furnishing details regarding the project along with prescribed documents. (Application Form) (Checklist)",
+   "confidence": 1
+  },
+  {
+   "claim": "After submitting an application, there is a scrutiny and clarification process before the application is forwarded to the sanctioning authority.",
+   "kind": "ACTION",
+   "subject": "application_scrutiny",
+   "object": "sanctioning_authority",
+   "detail": {},
+   "sourceId": "src:e1e013fc4259",
+   "evidence": " After Scrutiny and clarifications on all queries, application will be forwarded to the sanctioning authority.",
    "confidence": 1
   },
   {
@@ -11837,6 +12673,16 @@
    "confidence": 0.95
   },
   {
+   "claim": "The Gujarat Pollution Control Board verifies records and compliance of SOP/guidelines for recycling and utilization of hazardous waste.",
+   "kind": "ACTION",
+   "subject": "gpcb_authorization",
+   "object": "compliance_verification",
+   "detail": {},
+   "sourceId": "src:76a02dac042c",
+   "evidence": " To verify records , compliance of SOP/guideline/specific conditions for recycling, recovery, processing, co-processing, utilization of hazardous and other waste",
+   "confidence": 0.95
+  },
+  {
    "claim": "A compliance report must be submitted to show whether the facility has been set up as per CPCB SOP/guideline.",
    "kind": "ACTION",
    "subject": "hazardous_waste_authorization",
@@ -11845,6 +12691,172 @@
    "sourceId": "src:a067164dd721",
    "evidence": " Whether the facility has been set up as per CPCB SOP/guideline? Submit the compliance report.",
    "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide a list of products to be manufactured and their quantity from the utilization of hazardous waste.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "products_to_be_manufactured",
+   "detail": {
+    "unit": "MT/Day"
+   },
+   "sourceId": "src:a067164dd721",
+   "evidence": " Products to be manufactured and quantity from utilization of hazardous waste (MT/Day).",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide the name, type, and quantity of the proposed hazardous wastes to be utilized, including their category as per Schedule I.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "hazardous_wastes_to_be_utilized",
+   "detail": {
+    "unit": "MTA"
+   },
+   "sourceId": "src:a067164dd721",
+   "evidence": " Name/Type & quantity (in MTA) of the proposed hazardous wastes to be utilized including category (as per the Schedule I) intended for utilization.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must submit a copy of a valid CTE/CCA of the actual user.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "cte_cca_of_actual_user",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Copy of valid CTE/CCA of the actual user.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide detailed waste-specific characteristics of the hazardous waste proposed for utilization, including purity and contents of impurities.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "waste_characteristics",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Detailed wastes specific characteristics of hazardous waste proposed for utilization including purity & contents of impurities.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide process details for the utilization of hazardous waste and its flow diagram.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "process_details",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Process details for utilization of hazardous waste and its Flow Diagram.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide a material balance with and without the utilization of hazardous wastes.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "material_balance",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Material Balance with and without utilizing hazardous wastes.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide equipment layout along with their capacity for the utilization of hazardous wastes.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "equipment_layout",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Equipment layout along with their capacity for the utilization of hazardous wastes.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide details of the hazardous waste storage facility and process area facility.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "storage_and_process_facility_details",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Details of hazardous waste storage facility and process area facility.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide the quantity of fuel and/or raw material that are expected to be conserved (in % of raw material replaced) from the proposed utilization.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "conservation_details",
+   "detail": {
+    "unit": "% of raw material replaced"
+   },
+   "sourceId": "src:a067164dd721",
+   "evidence": " Quantity of fuel and/or raw material that are expected to be conserve (in % of raw material replaced) from the proposed utilization.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide characteristics of air emissions, waste water generation, and other solid wastes including hazardous waste expected to be generated during utilization.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "emissions_and_waste_characteristics",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Characteristics of air emissions, waste water generation and other solid wastes including hazardous waste expected to be generated during utilization of hazardous wastes.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide details of the authorized vehicle for the transportation of hazardous waste.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "transportation_vehicle_details",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Details of authorized vehicle for transportation of hazardous waste.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide details of the Environmental Management System with a flow diagram.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "environmental_management_system",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Details of Environmental Management System with flow diagram.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide details of occupational health and safety measures.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "health_and_safety_measures",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Details of occupational health and safety measures",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide the installed capacity as per registration issued by DIC or any other authorized government agency.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "installed_capacity",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Installed capacity as per registration issued by DIC or any other authorized govt. agency. (Provide copy)",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide details of member units from which hazardous waste is procured.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "member_units_details",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Details of member units from which hazardous waste is procured.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Gujarat Pollution Control Board grants authorization for the utilization of hazardous and other waste under Rule 9 if standard operating procedures (SOPs) or guidelines are developed by the CPCB.",
+   "kind": "OFFICE",
+   "subject": "guzarat_pollution_control_board",
+   "object": "authorization_for_hazardous_waste_utilization",
+   "detail": {},
+   "sourceId": "src:2ac3346afa00",
+   "evidence": "As per the Hazardous and Other Waste (M&TM) Rules – 2016, CPCB has delegated the powers to SPCBs to grant authorization for utilization of Hazardous and other waste under Rule 9, if the standard operating procedures (SOPs) or guidelines developed by CPCB.",
+   "confidence": 0.95
   },
   {
    "claim": "Click 'continue'.",
@@ -11904,6 +12916,16 @@
    "detail": {},
    "sourceId": "src:40dcf1b8c789",
    "evidence": "You need to contact your Zonal Office/Transport Department, while carrying the original document(s)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An online slot booking for a test of competence is required before a permanent license is granted.",
+   "kind": "ACTION",
+   "subject": "permanent_license",
+   "object": "online_slot_booking",
+   "detail": {},
+   "sourceId": "src:934e01778690",
+   "evidence": "The Facility of online slot booking for test of completence of driving licence has been provided. Please visit the website for scheduling an appointment.",
    "confidence": 0.95
   },
   {
@@ -12161,6 +13183,50 @@
    "confidence": 1
   },
   {
+   "claim": "An applicant must provide their present address, including telephone, mobile number, email, and nearest police station.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "arms_licence",
+   "object": "present_address_details",
+   "detail": {
+    "fields": [
+     "telephone",
+     "mobile_number",
+     "email",
+     "nearest_police_station"
+    ]
+   },
+   "sourceId": "src:31139eefc21e",
+   "evidence": "5 Present Address (a) Telephone (Office/Residence (b) Mobile No. (d) E-mail (e) Nearest Police Station",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must provide their occupation and office/business address.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "arms_licence",
+   "object": "occupation_and_office_address",
+   "detail": {},
+   "sourceId": "src:31139eefc21e",
+   "evidence": "6 Occupation 7 Office/Business Address",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must provide their UIN (16-digit), name, parent/spouse name, and date of birth in Christian era (in figures and in words).",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "arms_licence",
+   "object": "personal_details",
+   "detail": {
+    "fields": [
+     "uin",
+     "name",
+     "parent_spouse_name",
+     "date_of_birth_christian_era"
+    ]
+   },
+   "sourceId": "src:31139eefc21e",
+   "evidence": "1 UIN (16 digit) 2 Name 3 Parent/Spouse Name 4 Date of birth in Christian era (a) in figures DD/MM/YYYY (b) in words",
+   "confidence": 1
+  },
+  {
    "claim": "The authority that grants or renews a license issues the arms license.",
    "kind": "OFFICE",
    "subject": "arms_licence",
@@ -12179,6 +13245,16 @@
    "sourceId": "src:d50e51e38c37",
    "evidence": "The authority by whom any licence in Form II, Form 111, Form IV or Form V has been granted or renewed, may, for the purpose of satisfying itself that any arms covered by such licence are still in the possession of the licensee at the time of renewal or at any time while the licence is in force, by order in writing require the licensee to produce the arm or arms at such time and place for inspection of such officer as may be specified in the order.",
    "confidence": 0.95
+  },
+  {
+   "claim": "The licensing authority may require the licensee to produce the arm or arms for inspection at a specified time and place.",
+   "kind": "ACTION",
+   "subject": "arms_licence",
+   "object": "licensing_authority",
+   "detail": {},
+   "sourceId": "src:d50e51e38c37",
+   "evidence": "30. Inspection of arms by the licensing authority.-- The authority by whom any licence in Form II, Form 111, Form IV or Form V has been granted or renewed, may, for the purpose of satisfying itself that any arms covered by such licence are still in the possession of the licensee at the time of renewal or at any time while the licence is in force, by order in writing require the licensee to produce the arm or arms at such time and place for inspection of such officer as may be specified in the order.",
+   "confidence": 1
   },
   {
    "claim": "A trade union must have a name that is not the same or similar to a previously registered union.",
@@ -12759,6 +13835,51 @@
    "confidence": 1
   },
   {
+   "claim": "The SLAC sanctions the reimbursement claim after satisfactory scrutiny and inspection.",
+   "kind": "ACTION",
+   "subject": "slac",
+   "object": "reimbursement_claim",
+   "detail": {},
+   "sourceId": "src:305e064b82f8",
+   "evidence": "Based on satisfactory claim application and inspection report, claim will be disbursed upon\navailability of funds.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A physical inspection is carried out by the GM of the respective DIC to verify if the Industrial park has minimum 20 Apparel units with 150 machines each and if the Park provides the proposed eligible infrastructure facilities as per the technical sanction.",
+   "kind": "ACTION",
+   "subject": "apparel_park_inspection",
+   "object": "gm_of_dic",
+   "detail": {
+    "purpose": "verify_apparel_units_and_infrastructure"
+   },
+   "sourceId": "src:305e064b82f8",
+   "evidence": "Once the claim application is duly scrutinized and is approved, a physical inspection headed by the GM of the respective DIC will be carried out for following purposes:\no Whether the Industrial park has minimum 20 Apparel units with 150 machines each\no Whether the Park provides the proposed eligible infrastructure facilities as per the technical sanction.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Individual Apparel Units or Parks are eligible for assistance.",
+   "kind": "ELIGIBILITY",
+   "subject": "apparel_units_parks",
+   "object": "eligible",
+   "detail": {},
+   "sourceId": "src:7cf9b8e687f7",
+   "evidence": "Who are eligible?\nIndividual Apparel Units or Park",
+   "confidence": 1
+  },
+  {
+   "claim": "The assistance provided is 50% of the project cost (excluding land), with a ceiling of Rs.5 crores per entity.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "assistance_amount",
+   "object": "project_cost",
+   "detail": {
+    "amount": "50%",
+    "ceiling": "5 crores"
+   },
+   "sourceId": "src:7cf9b8e687f7",
+   "evidence": "Enterprise will be provided 50% of the project Cost (excluding land) with a ceiling of\nRs.5 crores per entity",
+   "confidence": 1
+  },
+  {
    "claim": "A dealer must click on the link 'e-services-> e-Registration Sign-up (Regular)' to start the VAT/CST registration process.",
    "kind": "ACTION",
    "subject": "dealer",
@@ -13018,6 +14139,40 @@
    "detail": {},
    "sourceId": "src:d332e55d39a6",
    "evidence": "Automatic Task gets Generated in concern Assistant Commissioner Log-in in SRU.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The process takes one working day to generate a provisional TIN after document verification.",
+   "kind": "TIMELINE",
+   "subject": "vat_cst_registration",
+   "object": "processing_time",
+   "detail": {
+    "days": "1"
+   },
+   "sourceId": "src:d332e55d39a6",
+   "evidence": "After Complete Document Verification, Acknowledgement gets generated. Provisional TIN gets generated in one working day.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Assistant Commissioner issues or sanctions VAT/CST registration.",
+   "kind": "OFFICE",
+   "subject": "vat_cst_registration",
+   "object": "assistant_commissioner_office",
+   "detail": {},
+   "sourceId": "src:d332e55d39a6",
+   "evidence": "Automatic Task gets Generated in concern Assistant Commissioner Log-in in SRU.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "An applicant can track the status of their TDN registration application.",
+   "kind": "TRACKING",
+   "subject": "vat_cst_registration",
+   "object": "tdn_application_status",
+   "detail": {
+    "url": "https://commercialtax.gujarat.gov.in/vatwebsite/form/formMain.jsp"
+   },
+   "sourceId": "src:b23c06cad858",
+   "evidence": "Track Status of your Application\nTrack TDN Status",
    "confidence": 0.95
   },
   {
@@ -13459,6 +14614,58 @@
    "confidence": 1
   },
   {
+   "claim": "The applicant must have a printed brochure or website describing its present activities, area of operation, and commitment to follow Eco-Tourism guidelines.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "brochure_or_website",
+   "detail": {},
+   "sourceId": "src:8bbd476f353a",
+   "evidence": "n. The party must have printed brochure or website clearly describing its (i) present activities (ii) Its area of operation (iii) its commitment to follow Eco - Tourism guidelines.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must clearly indicate the area of specialization in all their promotional and display material.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "specialization_indication",
+   "detail": {},
+   "sourceId": "src:8bbd476f353a",
+   "evidence": "o. The firm should clearly indicate the area of specialization in all their promotional and display material.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must have filed the Income Tax Return for the current assessment year.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "income_tax_return",
+   "detail": {},
+   "sourceId": "src:8bbd476f353a",
+   "evidence": "p. ATO should have filed Income Tax Return for the current assessment year.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must have been in operation for a minimum period of one year before the date of application.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "operation_period",
+   "detail": {
+    "days": "365"
+   },
+   "sourceId": "src:8bbd476f353a",
+   "evidence": "q. ATO should have been in operation for a minimum period of one year before the date of application.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Tourism Department, Government of Gujarat makes the final decision on recognition, renewal, or extension of Adventure Tourism Operators.",
+   "kind": "ACTION",
+   "subject": "tourism_department_government_of_gujarat",
+   "object": "adventure_tourism_operator_recognition",
+   "detail": {},
+   "sourceId": "src:8bbd476f353a",
+   "evidence": "The decision of Tourism Department, Government of Gujarat in the matter of recognition / renewal or extension shall be final.",
+   "confidence": 1
+  },
+  {
    "claim": "The Commissioner of Tourism, Government of Gujarat issues recognition for Adventure Tourism Operators.",
    "kind": "OFFICE",
    "subject": "adventure_tourism_operator_recognition",
@@ -13466,6 +14673,117 @@
    "detail": {},
    "sourceId": "src:09c8473762a3",
    "evidence": "“Such Adventure Tour Operator shall obtain recognition/approval from Ministry of Tourism, Government of India or Commissioner of Tourism, Government of Gujarat as per Guidelines issued from time to time.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application for grant of recognition/registration/renewal or extension must be submitted in the prescribed form online along with the required documents.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "application_submission",
+   "detail": {},
+   "sourceId": "src:ac7daef86cfc",
+   "evidence": "a. The application for grant of recognition/registration/renewal or extension shall be in the prescribed form and submitted online along with the required documents.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must have a minimum Paid up Capital of Rs. 3.00 lakhs, supported by the latest audited Balance Sheet or firm’s Statutory Auditor’s certificate.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "capital_requirement",
+   "detail": {
+    "amount": "3.00",
+    "currency": "lakhs"
+   },
+   "sourceId": "src:ac7daef86cfc",
+   "evidence": "b. ATO should have a minimum Paid up Capital (Capital employed) of Rs. 3.00 lakhs duly supported by the latest audited Balance Sheet / firm’s Statutory Auditor’s certificate.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must have a minimum turnover of Rs.10.00 lakh from Adventure Tourism & Adventure Sports related activities in the preceding financial year, supported by a certificate from the firm’s Statutory Auditor.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "turnover_requirement",
+   "detail": {
+    "amount": "10.00",
+    "currency": "lakhs"
+   },
+   "sourceId": "src:ac7daef86cfc",
+   "evidence": "c. The turnover by the firm from Adventure Tourism & Adventure Sports related activities only should be a minimum of Rs.10.00 lakh during the preceding financial year duly supported by a certificate issued by Statutory Auditor of the firm.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must submit a copy of a valid certificate of Safety Standards as per prevailing guidelines.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "safety_certificate",
+   "detail": {},
+   "sourceId": "src:64129a64c0b8",
+   "evidence": "4. Copy of valid certificate of Safety Standards as per prevailing guidelines.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must submit an undertaking as per Annexure II, signed by the Adventure Tour Operator.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "undertaking_submission",
+   "detail": {},
+   "sourceId": "src:64129a64c0b8",
+   "evidence": "5. Undertaking as per Annexure II in original to be signed by the Adventure Tour Operator.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must submit a signed copy of the Pledge of Commitment towards “Safe & Honorable Tourism” from the Ministry of Tourism, Government of India.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "pledge_submission",
+   "detail": {},
+   "sourceId": "src:64129a64c0b8",
+   "evidence": "6. A signed copy of the Pledge of Commitment towards “Safe &Honorable Tourism” of Ministry of Tourism, Government of India. The pledge may be downloaded from Incredible India website.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide details of staff employed, including names, educational qualifications, and experience in tourism, if any, along with copies of certificates.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "staff_details_submission",
+   "detail": {},
+   "sourceId": "src:64129a64c0b8",
+   "evidence": "12. Details of staff employed giving names, educational qualification & experience if any in tourism field and length of service in your organization (copies of certificates to be enclosed):",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must have a minimum of four qualified staff, with at least one having a Diploma/Degree in Tourism & Travel Management from a recognized institution or training from a reputed specialized institute.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "staff_qualification",
+   "detail": {
+    "minimum_staff": "4",
+    "qualified_staff": "1"
+   },
+   "sourceId": "src:64129a64c0b8",
+   "evidence": "a) The Adventure Tour operator should have a minimum of four qualified staff out of which at least one should have Diploma / Degree in Tourism & Travel Management from a recognized University, IITTM, and any institution approved by AICTE or should be trained from reputed specialized Institutes in Private / Public Sector.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant’s owner or operations chief must be well qualified in the activity the adventure operator wants to pursue, either through certification by a national or international institute or through a minimum of eight years of practical experience.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "owner_or_operations_qualification",
+   "detail": {
+    "experience_years": "8"
+   },
+   "sourceId": "src:64129a64c0b8",
+   "evidence": "Either, the Owner / Director himself or their Operations - Chief employed should be well qualified in the activity the adventure operator wants to pursue, which is determined by certification by any national or international institute in the activity or minimum of eight years of practical experience.",
+   "confidence": 1
+  },
+  {
+   "claim": "The recognition/registration as an approved Adventure Tourism Operator (ATO) is granted based on the Inspection Report/Recommendations of a Committee.",
+   "kind": "ACTION",
+   "subject": "adventure_tourism_operator_recognition",
+   "object": "committee_inspection_report",
+   "detail": {},
+   "sourceId": "src:7eec7f519267",
+   "evidence": "7. The recognition/registration as an approved ATO shall be granted by the Commissioner of Tourism, Government of Gujarat initially, for five years, based on the Inspection Report/Recommendations of a Committee comprising the following members:",
    "confidence": 0.95
   },
   {
@@ -13639,6 +14957,26 @@
    "detail": {},
    "sourceId": "src:783393c3b969",
    "evidence": "Annexure – I\n\nTerms and conditions regulating the conduct and performance of licensed Tourist Guides\n1. The licensed guide, when on duty, shall; always wear the laminated guide license issued by\nCommissioner of Tourism and also wear the name tag while accompanying tourists.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Candidates must submit original documents for verification as part of the process.",
+   "kind": "ACTION",
+   "subject": "tourist_guide_license",
+   "object": "document_verification",
+   "detail": {},
+   "sourceId": "src:3772e9d020d4",
+   "evidence": "The applicants shall submit all original documents for verification. Failure to produce original documents would lead to rejection of candidature.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Candidates must submit a Police Clearance Certificate for verification of non-existence of any previous criminal record or cases.",
+   "kind": "ACTION",
+   "subject": "tourist_guide_license",
+   "object": "police_clearance_verification",
+   "detail": {},
+   "sourceId": "src:3772e9d020d4",
+   "evidence": "Candidates will have to submit a Police Clearance Certificate from the local issuing authority for verification of non existence of any previous criminal record/cases for the safety of the tourist.",
    "confidence": 0.95
   },
   {
@@ -13955,6 +15293,16 @@
    "detail": {},
    "sourceId": "src:bf723df831da",
    "evidence": " HACCP : The Hazard Analysis Critical Control Points (This is essential for the product which is to be exported.)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An inspection is conducted before HACCP certification is granted.",
+   "kind": "ACTION",
+   "subject": "haccp_certification",
+   "object": "inspection",
+   "detail": {},
+   "sourceId": "src:d65892a6e72a",
+   "evidence": "5. Inspection and submitting the inspection report to the certification department",
    "confidence": 0.95
   },
   {
@@ -14589,6 +15937,26 @@
    "confidence": 1
   },
   {
+   "claim": "No other person than the registered visitor is allowed in the safari vehicle for the Girnar Nature Safari.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "girnar_nature_safari_permit",
+   "object": "vehicle_occupancy_rule",
+   "detail": {},
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "No other person than the registered visitor is allowed in the safari vehicle.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Bookings with incomplete or incorrect I.D. proof for the Girnar Nature Safari will be considered invalid and no permit will be issued.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "girnar_nature_safari_permit",
+   "object": "booking_invalidity_condition",
+   "detail": {},
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "Bookings with incomplete or incorrect I.D. proof will be considered invalid. No Gir Jungle Trail, GIZ Devalia Gypsy Safari, 'Ambardi Safari Park' and Girnar Nature Safari will be permitted against such bookings.",
+   "confidence": 0.95
+  },
+  {
    "claim": "An applicant can check the status of a submitted permit using the permit number.",
    "kind": "TRACKING",
    "subject": "girnar_nature_safari_permit",
@@ -14599,6 +15967,45 @@
    "sourceId": "src:5dd1e4da0095",
    "evidence": "Permit Number: |",
    "confidence": 0.9
+  },
+  {
+   "claim": "The office an applicant visits for Girnar Nature Safari Permit is Girnar Nature Safari, located at Indreshwar Thana, Dolatpara, Junagadh-Gujarat (India) - 362004.",
+   "kind": "OFFICE",
+   "subject": "girnar_nature_safari_permit",
+   "object": "girnar_nature_safari_office",
+   "detail": {
+    "address": "Indreshwar Thana, Dolatpara, Junagadh-Gujarat (India) - 362004"
+   },
+   "sourceId": "src:2bf6f853854d",
+   "evidence": "Girnar Nature Safari, Indreshwar Thana, Dolatpara, Junagadh-Gujarat (India) - 362004.",
+   "confidence": 1
+  },
+  {
+   "claim": "The phone number for Girnar Nature Safari is 0285-2651763 and 6359950387.",
+   "kind": "HELPLINE",
+   "subject": "girnar_nature_safari",
+   "object": "phone_number",
+   "detail": {
+    "numbers": [
+     "0285-2651763",
+     "6359950387"
+    ]
+   },
+   "sourceId": "src:2498d639162e",
+   "evidence": "PHONE\n0285-2651763,6359950387",
+   "confidence": 1
+  },
+  {
+   "claim": "The email address for Girnar Nature Safari is girnar[dot]safari[at]gmail[dot]com.",
+   "kind": "HELPLINE",
+   "subject": "girnar_nature_safari",
+   "object": "email_address",
+   "detail": {
+    "email": "girnar.safari@gmail.com"
+   },
+   "sourceId": "src:2498d639162e",
+   "evidence": "E-MAIL\ngirnar[dot]safari[at]gmail[dot]com",
+   "confidence": 1
   },
   {
    "claim": "To reprint an appointment or acknowledgment form, visit the Sarathi website and select the concerned state.",
@@ -14870,6 +16277,50 @@
    "confidence": 1
   },
   {
+   "claim": "A helpline number for driver's license is +91-120-2459169.",
+   "kind": "HELPLINE",
+   "subject": "driver_license",
+   "object": "helpline_number",
+   "detail": {
+    "phone": "+91-120-2459169"
+   },
+   "sourceId": "src:40dcf1b8c789",
+   "evidence": "You can call us on our Helpline number: +91-120-2459169 (Timings: 06:00AM - 10:00PM)",
+   "confidence": 1
+  },
+  {
+   "claim": "An email address for driver's license is helpdesk-sarathi@gov.in.",
+   "kind": "HELPLINE",
+   "subject": "driver_license",
+   "object": "email_address",
+   "detail": {
+    "email": "helpdesk-sarathi@gov.in"
+   },
+   "sourceId": "src:40dcf1b8c789",
+   "evidence": "Email: helpdesk-sarathi@gov.in(link sends e-mail)",
+   "confidence": 1
+  },
+  {
+   "claim": "Form 1 is a self-declaration medical form for driver's license.",
+   "kind": "ACTION",
+   "subject": "driver_license",
+   "object": "form_1_medical_declaration",
+   "detail": {},
+   "sourceId": "src:40dcf1b8c789",
+   "evidence": "Yes, Form 1 is self declaration medical",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Licensing Authority issues a driving licence.",
+   "kind": "OFFICE",
+   "subject": "driver_license",
+   "object": "licensing_authority",
+   "detail": {},
+   "sourceId": "src:2da79b27e47b",
+   "evidence": "No person shall drive a motor vehicle in any public place unless he holds an effective driving licence issued to him by the Licensing Authority, authorising him to drive the vehicle.",
+   "confidence": 0.95
+  },
+  {
    "claim": "SARAL Pass is an annual prepaid unlimited travel scheme in Surat Sitilink Ltd.",
    "kind": "ACTION",
    "subject": "saral_pass",
@@ -15136,6 +16587,108 @@
    "confidence": 1
   },
   {
+   "claim": "Adventure Tourism Operators (ATOs) must ensure that Sub-Agents provide proper equipment and follow all safety measures.",
+   "kind": "ACTION",
+   "subject": "adventure_tourism_operator",
+   "object": "ensure_sub_agent_safety",
+   "detail": {},
+   "sourceId": "src:8bbd476f353a",
+   "evidence": "In case the ATO is making arrangements through Sub - Agents, it would be the responsibility of the Principal Tour Operator to ensure that Sub - Agents provide proper equipment to clients and all safety measures are followed to.",
+   "confidence": 1
+  },
+  {
+   "claim": "Adventure Tourism Operators (ATOs) should ensure that clients are covered by insurance due to the inherent risk in adventure activities.",
+   "kind": "ACTION",
+   "subject": "adventure_tourism_operator",
+   "object": "ensure_client_insurance",
+   "detail": {},
+   "sourceId": "src:8bbd476f353a",
+   "evidence": "iv. Insurance: ATO has qualified staff to handle the operations. Since adventure has an in - built risk factor, the Clients/ATOs should be covered by insurance. This insurance is termed as",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must bring an online application that is duly filled in.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "adventure_tour_operator_application",
+   "object": "online_application",
+   "detail": {},
+   "sourceId": "src:64129a64c0b8",
+   "evidence": "1. Online application duly filled in.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must bring two attested photographs.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "adventure_tour_operator_application",
+   "object": "attested_photographs",
+   "detail": {
+    "quantity": "two"
+   },
+   "sourceId": "src:64129a64c0b8",
+   "evidence": "2. Two attested photographs.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must bring documentary proof, preferably registration certificates from the government, in support of the beginning of operations of their firm.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "adventure_tour_operator_application",
+   "object": "documentary_proof",
+   "detail": {
+    "preferred_type": "registration_certificates"
+   },
+   "sourceId": "src:64129a64c0b8",
+   "evidence": "3. Documentary proof (preferably registration certificates from govt.) in support of beginning of operations of your firm.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must bring a copy of a valid certificate of Safety Standards as per prevailing guidelines.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "adventure_tour_operator_application",
+   "object": "safety_standards_certificate",
+   "detail": {
+    "validity": "valid"
+   },
+   "sourceId": "src:64129a64c0b8",
+   "evidence": "4. Copy of valid certificate of Safety Standards as per prevailing guidelines.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must bring an undertaking as per Annexure II in original to be signed by the Adventure Tour Operator.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "adventure_tour_operator_application",
+   "object": "undertaking_annexure_ii",
+   "detail": {
+    "format": "original",
+    "signature_required": true
+   },
+   "sourceId": "src:64129a64c0b8",
+   "evidence": "5. Undertaking as per Annexure II in original to be signed by the Adventure Tour Operator.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must bring a signed copy of the Pledge of Commitment towards 'Safe & Honorable Tourism' of the Ministry of Tourism, Government of India.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "adventure_tour_operator_application",
+   "object": "pledge_of_commitment",
+   "detail": {
+    "source": "Ministry of Tourism, Government of India",
+    "signature_required": true
+   },
+   "sourceId": "src:64129a64c0b8",
+   "evidence": "6. A signed copy of the Pledge of Commitment towards “Safe &Honorable Tourism” of Ministry of Tourism, Government of India. The pledge may be downloaded from Incredible India website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Land based sports operators who have obtained a license and operational certificate from concerned competent authorities may be granted registration, recognition, or renewal without requiring a separate inspection from the Committee.",
+   "kind": "ACTION",
+   "subject": "land_based_sports_operators",
+   "object": "committee_inspection",
+   "detail": {},
+   "sourceId": "src:88b9f241701b",
+   "evidence": "5.2 Land based sports operators who have obtained license and operational certificate from concerned Competent Authorities may be granted registration/recognition or renewal and may not require separate inspection from the Committee.",
+   "confidence": 1
+  },
+  {
    "claim": "The operator seeking permission must be a registered firm, company, individual, or group governed under the Companies Act, 2013, the Income Tax Act, 1961, and the Gujarat Goods and Services Tax Act, 2017.",
    "kind": "ELIGIBILITY",
    "subject": "operator",
@@ -15324,6 +16877,44 @@
    "sourceId": "src:48ecc2904bee",
    "evidence": "6. Procedure for granting permission for operation.- (1) Notwithstanding, the operator having valid Certificate of Registration, Certificate of Survey, equipment, the pleasure craft / boat shall not be operated without the valid permission for operation by the District Magistrate having respective jurisdiction.",
    "confidence": 1
+  },
+  {
+   "claim": "A citizen must pay a Registration and Survey Fee for Pleasure Craft/Boat Operation Permission.",
+   "kind": "FEE",
+   "subject": "pleasure_craft_operation_permission",
+   "object": "registration_and_survey_fee",
+   "detail": {
+    "amount": "prescribed",
+    "currency": "INR"
+   },
+   "sourceId": "src:48ecc2904bee",
+   "evidence": "shall apply to the Registrar having respective jurisdiction. The application shall be made in FORM 1 along survey application in FORM 2 with payment of a Registration and Survey Fee as prescribed in SCHEDULE B.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Each application is given a unique identification number upon submission.",
+   "kind": "TRACKING",
+   "subject": "pleasure_craft_operation_permission",
+   "object": "application_submission",
+   "detail": {
+    "number": "unique identification number"
+   },
+   "sourceId": "src:48ecc2904bee",
+   "evidence": "(3) Each application, on its submission, shall be endorsed with a unique identification number.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives a pleasure craft-specific/boat-specific, non-transferrable Certificate of Registration in FORM 6.",
+   "kind": "ACTION",
+   "subject": "pleasure_craft_operation_permission",
+   "object": "certificate_of_registration",
+   "detail": {
+    "form": "FORM 6",
+    "type": "non-transferrable"
+   },
+   "sourceId": "src:48ecc2904bee",
+   "evidence": "Thereafter, the Registrar shall on further verification or compliance, as may be required, issue a pleasure craft-specific/boat specific, non-transferrable Certificate of Registration in FORM 6 to the applicant under these rules.",
+   "confidence": 0.95
   },
   {
    "claim": "If you do not attend the Learner License test on the scheduled date, you can re-schedule the appointment.",
@@ -15602,6 +17193,50 @@
    "confidence": 1
   },
   {
+   "claim": "An applicant must carry a copy of the fee receipt when visiting the RTO for a Learner's License.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "learners_license",
+   "object": "fee_receipt",
+   "detail": {},
+   "sourceId": "src:40dcf1b8c789",
+   "evidence": "After completing online procedure for further processing of application you should visit the concerned RTO office with the required documents as shown on the acknowledgement slip. You should also carry a copy of the fee receipt",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An applicant must visit the RTO on the scheduled date with original documents and a fee slip for a Learner's License.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "learners_license",
+   "object": "original_documents_and_fee_slip",
+   "detail": {},
+   "sourceId": "src:40dcf1b8c789",
+   "evidence": "Visit RTO on scheduled date with original documents & Fee Slip",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An applicant can check the status of a submitted application by visiting the Sarathi website and selecting 'Application Status'.",
+   "kind": "TRACKING",
+   "subject": "learners_license",
+   "object": "application_status",
+   "detail": {
+    "url": "https://sarathi.parivahan.gov.in/sarathiservice/stateSelection.do"
+   },
+   "sourceId": "src:40dcf1b8c789",
+   "evidence": "Steps to check License status:\n\n1. Visit https://sarathi.parivahan.gov.in/sarathiservice/stateSelection.do\n\n2. Select concerned state\n\n3. Select \"Application Status\" from \"Apply Online\" menu",
+   "confidence": 1
+  },
+  {
+   "claim": "After passing the Learner's License test, a driving test is required one month later.",
+   "kind": "TIMELINE",
+   "subject": "learners_license",
+   "object": "driving_test",
+   "detail": {
+    "days": "30"
+   },
+   "sourceId": "src:40dcf1b8c789",
+   "evidence": "Yes, you have to pass the online test (STALL Test) to get Learner's License. After the completion of its one month you need to appear for driving test to get your driving license.",
+   "confidence": 1
+  },
+  {
    "claim": "The National Permit is an e-Governance application under the National Transport Project.",
    "kind": "ACTION",
    "subject": "national_permit",
@@ -15758,6 +17393,42 @@
    "confidence": 1
   },
   {
+   "claim": "A vehicle with a pending D.A. case is not eligible for a National Permit.",
+   "kind": "ELIGIBILITY",
+   "subject": "national_permit",
+   "object": "vehicle_with_pending_da_case",
+   "detail": {},
+   "sourceId": "src:9e2968b96397",
+   "evidence": "D.A. case should not be pending against the vehicle before issuing any permit.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives a National Permit for a Goods Vehicle that is valid for a period of one year.",
+   "kind": "TIMELINE",
+   "subject": "national_permit",
+   "object": "goods_vehicle",
+   "detail": {
+    "duration": "1 year"
+   },
+   "sourceId": "src:9e2968b96397",
+   "evidence": "A national permit holder vehicle is permitted to move across any State of India for a period of one year.",
+   "confidence": 1
+  },
+  {
+   "claim": "A citizen pays 350 rupees plus 500 rupees as the Authorization Fee for a National Permit.",
+   "kind": "FEE",
+   "subject": "national_permit",
+   "object": "citizen",
+   "detail": {
+    "base_fee": "350",
+    "authorization_fee": "500",
+    "currency": "INR"
+   },
+   "sourceId": "src:6888364cc2d7",
+   "evidence": "3 | National Permit | 350 + 500 Authorization Fee |",
+   "confidence": 1
+  },
+  {
    "claim": "A proposal must be submitted to obtain approval for the diversion of entire forest land located within a mining lease.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "diversion_proposal",
@@ -15907,6 +17578,16 @@
    "sourceId": "src:435ad0a265ce",
    "evidence": "Guidelines for diversion of forest land for non-forest purposes under the Forest (Conservation) Act,1980 -General approval under Section-2 of the Forest (Conservation) Act,1980.",
    "confidence": 0.95
+  },
+  {
+   "claim": "The Forest (Conservation) Act, 1980 governs the diversion of forest land for non-forest purposes.",
+   "kind": "ACTION",
+   "subject": "forest_land_diversion",
+   "object": "forest_conservation_act_1980",
+   "detail": {},
+   "sourceId": "src:435ad0a265ce",
+   "evidence": "Guidelines for diversion of forest land for non-forest purposes under the Forest (Conservation) Act,1980-Submission of proposals to obtain approval for diversion of entire forest land located within the mining lease and grant of environment clearance to mining projects",
+   "confidence": 1
   },
   {
    "claim": "The login will be generated and emailed to the registered email ID after approval from the GEDA Office.",
@@ -16363,6 +18044,48 @@
    "confidence": 1
   },
   {
+   "claim": "The applicant receives a Certificate of Registration that is valid for five years.",
+   "kind": "ACTION",
+   "subject": "vessel_registration",
+   "object": "certificate_of_registration",
+   "detail": {
+    "duration": "5 years"
+   },
+   "sourceId": "src:48ecc2904bee",
+   "evidence": "The validity of the Certificate of Registration shall be five years; thereafter, the applicant shall make a fresh application for the Certificate of Registration.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Registrar issues a Certificate of Registration after further verification or compliance.",
+   "kind": "ACTION",
+   "subject": "vessel_registration",
+   "object": "verification",
+   "detail": {},
+   "sourceId": "src:48ecc2904bee",
+   "evidence": "Thereafter, the Registrar shall on further verification or compliance, as may be required, issue a pleasure craft-specific/boat specific, non-transferrable Certificate of Registration in FORM 6 to the applicant under these rules.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A survey is conducted to verify the condition of the vessel and its equipment before granting a certificate.",
+   "kind": "ACTION",
+   "subject": "vessel_registration",
+   "object": "survey",
+   "detail": {},
+   "sourceId": "src:960f5b2acadf",
+   "evidence": "This is to certify that I have surveyed the Inland Vessel named ____________________, Official No. ____________________, in accordance with the Inland Vessel Act, 2021 and the rules made there under. During the survey, the condition of vessel and its equipment was found, as detailed in the \"Record of vessel Equipment and Vessel Information\" attached as annexure to this Declaration of Survey",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An application for survey of an inland vessel is submitted, specifying the type of survey required.",
+   "kind": "ACTION",
+   "subject": "vessel_registration",
+   "object": "survey_application",
+   "detail": {},
+   "sourceId": "src:cb49e99c4d4f",
+   "evidence": "Application for (indicate type) Survey of Inland Vessel I/We, ………the authorised persons under the law hereby apply to you to make necessary arrangement for the Initial/Periodical/Dry Docking/ (strike out the not applicable ones) of the Inland Vessel detailed below.",
+   "confidence": 0.9
+  },
+  {
    "claim": "A dismantler must obtain authorization and registration from the State Pollution Control Board.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "dismantler",
@@ -16460,6 +18183,26 @@
    "sourceId": "src:8ddcf2264246",
    "evidence": "For details refer: http://ic.gujarat.gov.in/?page_id=355",
    "confidence": 1
+  },
+  {
+   "claim": "The dismantler must obtain authorization and registration from the State Pollution Control Board.",
+   "kind": "ACTION",
+   "subject": "dismantler",
+   "object": "state_pollution_control_board",
+   "detail": {},
+   "sourceId": "src:8ddcf2264246",
+   "evidence": "1. To obtain authorization and registration from the State Pollution Control Board",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The State Pollution Control Board issues authorization and registration for e-waste management.",
+   "kind": "OFFICE",
+   "subject": "e_waste_management_authorization",
+   "object": "state_pollution_control_board",
+   "detail": {},
+   "sourceId": "src:8ddcf2264246",
+   "evidence": "1. To obtain authorization and registration from the State Pollution Control Board",
+   "confidence": 0.95
   },
   {
    "claim": "The applicant must provide their name and address.",
@@ -16668,6 +18411,65 @@
    "confidence": 0.9
   },
   {
+   "claim": "The revenue collected for PUC certificates is approximately ₹271.86 crore.",
+   "kind": "FEE",
+   "subject": "puc_certificate",
+   "object": "revenue_collected",
+   "detail": {
+    "amount": "271.86",
+    "currency": "₹",
+    "unit": "crore"
+   },
+   "sourceId": "src:63e143ef3b33",
+   "evidence": "Revenue Collected ~ ₹271.86 Cr +",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The revenue collected for PUC certificates is partially in cash and partially online.",
+   "kind": "FEE",
+   "subject": "puc_certificate",
+   "object": "payment_method",
+   "detail": {
+    "cash": "13.25",
+    "online": "258.60",
+    "currency": "₹",
+    "unit": "crore"
+   },
+   "sourceId": "src:63e143ef3b33",
+   "evidence": "Revenue Cash: ~ ₹13.25 Cr + Online: ~ ₹258.60 Cr +",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A field enquiry is conducted to ensure transparency and authenticity before the PUC certificate is issued.",
+   "kind": "ACTION",
+   "subject": "puc_certificate",
+   "object": "field_enquiry",
+   "detail": {},
+   "sourceId": "src:63e143ef3b33",
+   "evidence": "To ensure transparency, authenticity, and successful issuance of the Pollution Under Control Certificate (PUCC), all PUC Centres are required to strictly adhere to the following guidelines",
+   "confidence": 0.8
+  },
+  {
+   "claim": "A video recording is required during the PUC testing process to verify the testing procedure.",
+   "kind": "ACTION",
+   "subject": "puc_testing",
+   "object": "video_recording",
+   "detail": {},
+   "sourceId": "src:63e143ef3b33",
+   "evidence": "The video captured during the PUC testing process must clearly record and display the following:",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Non-compliance with video recording requirements may lead to rejection of the PUC test process and re-initiation of testing.",
+   "kind": "ACTION",
+   "subject": "puc_testing",
+   "object": "rejection",
+   "detail": {},
+   "sourceId": "src:63e143ef3b33",
+   "evidence": "Failure to comply with any of the above requirements, or submission of a video that does not clearly capture the mandatory details, may result in rejection of the video recording . In such cases, the PUC testing process may be required to be re-initiated from the beginning, and a fresh video recording shall be captured in accordance with the prescribed guidelines.",
+   "confidence": 0.9
+  },
+  {
    "claim": "Citizens must migrate to the new platform before September 15, 2026, to avoid disruption in services.",
    "kind": "ACTION",
    "subject": "migration_to_new_platform",
@@ -16761,6 +18563,19 @@
    "sourceId": "src:cb87993841b5",
    "evidence": "Application Status\n\nTrack Application Status",
    "confidence": 0.8
+  },
+  {
+   "claim": "For technical problems related to Permit and Payment, citizens can contact the helpdesk via email or phone.",
+   "kind": "HELPLINE",
+   "subject": "vahan_helpdesk",
+   "object": "citizen",
+   "detail": {
+    "email": "helpdesk-vahan[at]gov[dot]in",
+    "phone": "+91-120-4925505"
+   },
+   "sourceId": "src:2d3f15b67b83",
+   "evidence": "For Permit Related\nhelpdesk-vahan[at]gov[dot]in\n+91-120-4925505\n(Timings: 6:00 AM - 12:00 PM Midnight)",
+   "confidence": 1
   },
   {
    "claim": "IT/ITeS Technology Park developers are eligible for financial assistance of 50% of fixed capital investment in buildings and infrastructure, up to a maximum of Rs. 2.5 crores.",
@@ -17373,6 +19188,16 @@
    "confidence": 1
   },
   {
+   "claim": "The applicant must appear for a test of competence conducted by the competent authority before being issued a permanent driving licence.",
+   "kind": "ACTION",
+   "subject": "permanent_driving_licence",
+   "object": "test_of_competence",
+   "detail": {},
+   "sourceId": "src:934e01778690",
+   "evidence": "The test of competence will be conducted by the competent authority.",
+   "confidence": 1
+  },
+  {
    "claim": "Visit the Sarathi website to apply for a permanent driving licence.",
    "kind": "ACTION",
    "subject": "applicant",
@@ -17442,6 +19267,51 @@
    "detail": {},
    "sourceId": "src:40dcf1b8c789",
    "evidence": "7. Visit RTO on scheduled date with original documents & Fee Slip",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must bring original documents to the RTO on the scheduled date.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "permanent_driving_licence",
+   "object": "original_documents",
+   "detail": {},
+   "sourceId": "src:40dcf1b8c789",
+   "evidence": "Visit RTO on scheduled date with original documents & Fee Slip",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must provide a valid Learning License Number to proceed with the application.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "permanent_driving_licence",
+   "object": "learning_license_number",
+   "detail": {},
+   "sourceId": "src:40dcf1b8c789",
+   "evidence": "Enter your \"Learning License Number\" & \"Date of Birth\" to proceed further",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant can check the status of a submitted application by visiting the Sarathi website and selecting 'Application Status'.",
+   "kind": "TRACKING",
+   "subject": "permanent_driving_licence",
+   "object": "application_status_check",
+   "detail": {
+    "url": "https://sarathi.parivahan.gov.in/sarathiservice/stateSelection.do"
+   },
+   "sourceId": "src:40dcf1b8c789",
+   "evidence": "Steps to check License status:\n\n1. Visit https://sarathi.parivahan.gov.in/sarathiservice/stateSelection.do\n\n2. Select concerned state\n\n3. Select \"Application Status\" from \"Apply Online\" menu",
+   "confidence": 1
+  },
+  {
+   "claim": "The fee for the issue of a permanent driving licence is Rs. 200.00.",
+   "kind": "FEE",
+   "subject": "permanent_driving_licence",
+   "object": "fee",
+   "detail": {
+    "amount": "200.00",
+    "currency": "Rs."
+   },
+   "sourceId": "src:887832485fd3",
+   "evidence": "4 | Issue of a driving licence | Rs. 200.00/- |",
    "confidence": 1
   },
   {
@@ -17589,6 +19459,20 @@
    "confidence": 0.8
   },
   {
+   "claim": "An applicant can track the status of a submitted application by entering their GEDA Registration No, Consumer No, and Consumer Mobile No.",
+   "kind": "TRACKING",
+   "subject": "application_status_check",
+   "object": "geda_portal",
+   "detail": {
+    "geda_registration_no": "required",
+    "consumer_no": "required",
+    "consumer_mobile_no": "required"
+   },
+   "sourceId": "src:1acbdaddae21",
+   "evidence": "Track your application by entering your GEDA Registration No, Consumer No and Consumer Mobile No.",
+   "confidence": 1
+  },
+  {
    "claim": "A citizen must select the type of food service as either 'LICENSE' or 'REGISTRATION'.",
    "kind": "ACTION",
    "subject": "food_service",
@@ -17691,6 +19575,16 @@
    "confidence": 0.95
   },
   {
+   "claim": "A verification of boiler inspection and smoke nuisance is required before granting the license.",
+   "kind": "ACTION",
+   "subject": "food_license",
+   "object": "steam_boiler_and_smoke_nuisance_department",
+   "detail": {},
+   "sourceId": "src:bf723df831da",
+   "evidence": "Boiler Inspection and verification of\nsmoke Nuisance",
+   "confidence": 0.95
+  },
+  {
    "claim": "Citizens must update their mobile number in the Vahan and Sarathi portal to ensure details are complete, accurate, and up to date.",
    "kind": "ACTION",
    "subject": "citizen",
@@ -17759,6 +19653,16 @@
    "sourceId": "src:ebcf607d8f35",
    "evidence": "5.For Services not in the contactless (eKyc) Services list, after submitting application, depositing fee and uploading required documents as per Motor Vehicle Act/Rules and booking a slot on a required date, you have to compulsorily visit the RTO along with the vehicle( if required) for verification of documents/vehicle.",
    "confidence": 0.95
+  },
+  {
+   "claim": "Applicants must visit the RTO along with the vehicle for verification of documents or the vehicle for certain services, including Fitness or Alteration.",
+   "kind": "ACTION",
+   "subject": "vehicle_registration_and_license",
+   "object": "verification_at_rto",
+   "detail": {},
+   "sourceId": "src:ebcf607d8f35",
+   "evidence": "For these services the applicant, after submitting application online / ARTO Office, depositing fee and submitting / uploading required documents as per as per Motor Vehicle Act/Rules and booking a slot (if required for a service), has to compulsorily visit the RTO along with the vehicle for verification of documents / vehicle) for ex. Fitness / Alteration related.",
+   "confidence": 1
   },
   {
    "claim": "An Adventure Tour Operator must obtain recognition or approval from the Ministry of Tourism, Government of India or the Commissioner of Tourism, Government of Gujarat as per the guidelines issued from time to time.",
@@ -18061,6 +19965,26 @@
    "confidence": 0.9
   },
   {
+   "claim": "The Regional Officer signs the CTE and CCA applications.",
+   "kind": "ACTION",
+   "subject": "cte_cca_applications",
+   "object": "regional_officer",
+   "detail": {},
+   "sourceId": "src:9ea0fe159586",
+   "evidence": "Date: Signature of Regional Officer",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A first inspection report (FIR) is required for fresh CTE applications and must be submitted with the application.",
+   "kind": "ACTION",
+   "subject": "cte_application",
+   "object": "first_inspection_report",
+   "detail": {},
+   "sourceId": "src:7d6a6cddeffa",
+   "evidence": "First Inspection Report (FIR) for CTE (fresh)and to be submitted with all fresh CTE applications .Also to be uploaded to HO within fifteen days from the first appearance of the application.",
+   "confidence": 0.95
+  },
+  {
    "claim": "Citizens can register for a Professional Tax License (Business PEC & Employer PRC) online.",
    "kind": "ACTION",
    "subject": "professional_tax_license",
@@ -18291,6 +20215,40 @@
    "confidence": 0.95
   },
   {
+   "claim": "The DEC must make a final recommendation on empanelment under PM-JAY within 30 working days.",
+   "kind": "TIMELINE",
+   "subject": "dec",
+   "object": "final_recommendation",
+   "detail": {
+    "working_days": "30"
+   },
+   "sourceId": "src:89802adda887",
+   "evidence": "5.2.1.2.10. DEC must make a final recommendation on empanelment under PM-JAY within 30 working",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The status of the application is updated on the AB-PMJAY portal.",
+   "kind": "TRACKING",
+   "subject": "application_status",
+   "object": "ab_pmjay_portal",
+   "detail": {},
+   "sourceId": "src:2a9afda9a6fa",
+   "evidence": "5.3.1 Once the application is approved, the healthcare service provider will be assigned a unique national hospital registration number under the scheme. Additionally, SHA will ensure that the status of the application is updated on the AB-PMJAY portal and the respective healthcare service provider is informed about the decision through email on their registered email id.",
+   "confidence": 1
+  },
+  {
+   "claim": "Group-B hospitals have their applications processed within 15 days of the final submission of the online application.",
+   "kind": "TIMELINE",
+   "subject": "group_b_hospital",
+   "object": "application_processing",
+   "detail": {
+    "days": "15"
+   },
+   "sourceId": "src:39d25ed91a7b",
+   "evidence": ". This application is then scrutinized by the District Empanelment Committee and is processed within 15 days of its receipt from the final submission of the online application by hospita-l.",
+   "confidence": 0.9
+  },
+  {
    "claim": "An entrepreneur must obtain an Agri.Business Registration Number (ABRN) before claiming any subsidy or assistance.",
    "kind": "ACTION",
    "subject": "entrepreneur",
@@ -18387,6 +20345,16 @@
    "confidence": 1
   },
   {
+   "claim": "The Agri.Business Registration Number (ABRN) is issued by Gujarat Agro Industry Corporation (GAIC).",
+   "kind": "OFFICE",
+   "subject": "agri_business_registration_number",
+   "object": "gujarat_agro_industry_corporation",
+   "detail": {},
+   "sourceId": "src:294eee78bd02",
+   "evidence": "For this he should approach Gujarat Agro Industry Corporation (GAIC) for claim of all other subsidy / assistance prescribed form is available at GAIC, or all District Industry Centre or website of GAIC, iNDEXTb.",
+   "confidence": 0.95
+  },
+  {
    "claim": "The applicant must upload necessary documents for SRU verification.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "applicant",
@@ -18451,6 +20419,16 @@
    "confidence": 0.95
   },
   {
+   "claim": "A spot visit is conducted by CTI/CTO for the purpose of identifying the business location before final TIN generation.",
+   "kind": "ACTION",
+   "subject": "cti_cto_spot_visit",
+   "object": "tin_registration",
+   "detail": {},
+   "sourceId": "src:dc3fdd0a2e9a",
+   "evidence": "યાર બાદ અરજી Automatically CTI/CTO ના Log in માં Spot Visit માટે Forward થશે.જે તે CTI/CTO દ્વ ારા Spot Visit ની કામગીરી પુણભ કરી Spot Visit Form ને Ok ની Remarks સાથે Final TIN જનરેશન માટે Submit કરશે.",
+   "confidence": 0.95
+  },
+  {
    "claim": "The application is automatically forwarded to CTI/CTO login for a spot visit.",
    "kind": "ACTION",
    "subject": "application",
@@ -18493,6 +20471,28 @@
    "confidence": 0.8
   },
   {
+   "claim": "A spot visit is conducted by CTI/CTO for the purpose of identifying the business location before final TIN generation.",
+   "kind": "ACTION",
+   "subject": "cti_cto_spot_visit",
+   "object": "tin_registration",
+   "detail": {},
+   "sourceId": "src:d332e55d39a6",
+   "evidence": "Now application gets forwarded automatically to CTI/CTO login for spot Visit. (For identification of Business Location) Concern CTI/CTO has to complete spot and to submit spot visit form with remarks ok for final TIN Generation.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The entire process, including the spot visit, must be completed within 30 days from the date of acknowledgment.",
+   "kind": "TIMELINE",
+   "subject": "tin_registration",
+   "object": "acknowledgement_date",
+   "detail": {
+    "days": "30"
+   },
+   "sourceId": "src:d332e55d39a6",
+   "evidence": "All Procedure to be completed within 30 days from the date of Acknowledgement.",
+   "confidence": 0.9
+  },
+  {
    "claim": "The TIN user must connect with ITD through an internal SPOC to provide registration and integration-specific details via email.",
    "kind": "ACTION",
    "subject": "tin_user",
@@ -18521,6 +20521,26 @@
    "sourceId": "src:d1b6d8fe23c3",
    "evidence": "Step 2: The internal SPOC will register the TIN user manually with the details provided, and will send the registration request to the competent Income Tax Authority (production environment) for approval / rejection.",
    "confidence": 0.95
+  },
+  {
+   "claim": "The competent Income Tax Authority approves or rejects the TIN registration request.",
+   "kind": "ACTION",
+   "subject": "competent_income_tax_authority",
+   "object": "tin_registration",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "Step 6: The internal SPOC will manually send a request or create a work item (based on the readiness of system) to competent Income Tax Authority for approval / rejection.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The competent Income Tax Authority enables production environment access for the approved TIN registration.",
+   "kind": "ACTION",
+   "subject": "competent_income_tax_authority",
+   "object": "production_environment_access",
+   "detail": {},
+   "sourceId": "src:d1b6d8fe23c3",
+   "evidence": "Step 7: On approval by competent Income Tax Authority, the production environment access can be enabled for the approved tested service APIs for TIN user in the production environment.",
+   "confidence": 0.9
   },
   {
    "claim": "A citizen must submit an overall single line diagram for the approval of a capacitor bank.",
@@ -18908,6 +20928,16 @@
    "confidence": 0.8
   },
   {
+   "claim": "The Gujarat Energy Development Agency (GEDA) is responsible for Solar Power Project Registration.",
+   "kind": "OFFICE",
+   "subject": "geda_gujarat",
+   "object": "solar_power_project_registration",
+   "detail": {},
+   "sourceId": "src:99aae295d09c",
+   "evidence": "Solar Energy | Gujarat Energy Development Agency",
+   "confidence": 1
+  },
+  {
    "claim": "A citizen must provide a registration number in the format 'FR' followed by a 4-digit year and a 5-digit registration number for a factory license.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "factory_license",
@@ -18996,6 +21026,63 @@
    "sourceId": "src:859bc9709d93",
    "evidence": "License can only be issued after receiving the application for the same with Form No. 2 (Triplicate) for the registration & Form No. 3(Duplicate) for the grant of license with relevant documents accompanied by a treasury Chalan for payment of fees and verifying it by visiting the premises of the factory.",
    "confidence": 1
+  },
+  {
+   "claim": "Applicants must submit a Certificate of stability issued by the competent person in Form No. I-A.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "factory_license",
+   "object": "certificate_of_stability_form_i_a",
+   "detail": {},
+   "sourceId": "src:859bc9709d93",
+   "evidence": "Before license can be issued, first of all the plan of factory is approved by Director / Joint Director Industrial Safety and Health and a Certificate of stability issued by the competent person in Form No. I-A has been submitted.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must submit Form No. 2 (Triplicate) for the registration.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "factory_license",
+   "object": "form_no_2_triplicate",
+   "detail": {},
+   "sourceId": "src:859bc9709d93",
+   "evidence": "License can only be issued after receiving the application for the same with Form No. 2 (Triplicate) for the registration & Form No. 3(Duplicate) for the grant of license with relevant documents accompanied by a treasury Chalan for payment of fees and verifying it by visiting the premises of the factory.",
+   "confidence": 1
+  },
+  {
+   "claim": "A citizen pays an additional 25% fee if the application is submitted late.",
+   "kind": "FEE",
+   "subject": "factory_license",
+   "object": "late_application_fee",
+   "detail": {
+    "amount": "25%",
+    "currency": "percentage"
+   },
+   "sourceId": "src:859bc9709d93",
+   "evidence": "Application should reach to the office not later than two months before the date on which the license is due to Expire for late application 25% additional fees is to be paid.",
+   "confidence": 1
+  },
+  {
+   "claim": "The renewal license application fee can be paid online through the website.",
+   "kind": "FEE",
+   "subject": "factory_license",
+   "object": "renewal_license_fee",
+   "detail": {
+    "url": "www.dish.gujarat.gov.in"
+   },
+   "sourceId": "src:859bc9709d93",
+   "evidence": "Renewal License application can also be done online on website www.dish.gujarat.gov.in with online e-payment option.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Director / Joint Director Industrial Safety and Health approves the factory plan before a license can be issued.",
+   "kind": "ACTION",
+   "subject": "director_joint_director_industrial_safety_and_health",
+   "object": "factory_license",
+   "detail": {
+    "action": "approves_factory_plan"
+   },
+   "sourceId": "src:859bc9709d93",
+   "evidence": "Before license can be issued, first of all the plan of factory is approved by Director / Joint Director Industrial Safety and Health and a Certificate of stability issued by the competent person in Form No. I-A has been submitted.",
+   "confidence": 0.95
   },
   {
    "claim": "The Controller of Legal Metrology and Regulator of Consumer Affairs Office is located in Gandhinagar.",
@@ -19276,6 +21363,16 @@
    "confidence": 0.95
   },
   {
+   "claim": "Physical verification of tools and accessories is conducted for the service.",
+   "kind": "ACTION",
+   "subject": "weights_and_measures",
+   "object": "physical_verification",
+   "detail": {},
+   "sourceId": "src:89c8bab391c5",
+   "evidence": "2. Physical verification of tools and accessories",
+   "confidence": 0.9
+  },
+  {
    "claim": "The application for registration of a motor vehicle must be made in duplicate if the vehicle is held under an agreement of Hire-Purchase/Lease/Hypothecation.",
    "kind": "CONDITIONAL_REQUIREMENT",
    "subject": "application_for_registration",
@@ -19326,6 +21423,16 @@
    "confidence": 1
   },
   {
+   "claim": "The Registering Authority issues the application for registration of a motor vehicle.",
+   "kind": "OFFICE",
+   "subject": "registration_of_motor_vehicle",
+   "object": "registering_authority",
+   "detail": {},
+   "sourceId": "src:27b7e748143e",
+   "evidence": "To\nThe Registering Authority,\n……………………………",
+   "confidence": 0.9
+  },
+  {
    "claim": "The applicant must apply for vehicle registration.",
    "kind": "ACTION",
    "subject": "applicant",
@@ -19344,6 +21451,46 @@
    "sourceId": "src:8f130659de66",
    "evidence": "Procedure of Registration",
    "confidence": 0.9
+  },
+  {
+   "claim": "The applicant receives a smart R.C. Book at the end of the registration process.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "smart_rc_book",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "The smart R.C. Book of the vehicle is sent by speed-post at the address indicated by the applicant in the Form.",
+   "confidence": 1
+  },
+  {
+   "claim": "The registration process includes informing the applicant about the registration number via SMS or email.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "registration_number",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "The vehicle owner is informed about the registration number through SMS or E-Mail address submitted by them.",
+   "confidence": 1
+  },
+  {
+   "claim": "A new vehicle is registered in the R.T.O. where the vehicle owner resides or has a place of business.",
+   "kind": "OFFICE",
+   "subject": "registration_of_motor_vehicle",
+   "object": "rto",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "A new vehicle is registered in the R.T.O. where the vehicle owner ordinarily resides or has his place of business.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A vehicle is required to be produced for obtaining Fitness Certificate, CPI or getting re-registration.",
+   "kind": "ACTION",
+   "subject": "registration_of_motor_vehicle",
+   "object": "vehicle_inspection",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "A vehicle is required to be produced for obtaining Fitness Certificate, C.P.I. or getting re-registration.",
+   "confidence": 0.95
   },
   {
    "claim": "Following documents are required to be submitted at concerned R.T.O. with Form-20.",
@@ -19705,6 +21852,28 @@
    "confidence": 1
   },
   {
+   "claim": "An inspection is conducted by the Inspection Team within 60 working days from the receipt of a complete application for first approval, renewal, or extension.",
+   "kind": "ACTION",
+   "subject": "adventure_tourism_approval",
+   "object": "inspection_team",
+   "detail": {
+    "days": "60"
+   },
+   "sourceId": "src:7eec7f519267",
+   "evidence": "The inspection for first approval/renewal or extension shall be conducted by the Inspection Team within a period of 60 working days from the receipt of complete application.",
+   "confidence": 1
+  },
+  {
+   "claim": "After inspection and fulfillment of quality and safety parameters, the Inspection and Recommendation committee sends the application for final approval.",
+   "kind": "ACTION",
+   "subject": "adventure_tourism_approval",
+   "object": "inspection_recommendation_committee",
+   "detail": {},
+   "sourceId": "src:7eec7f519267",
+   "evidence": "After due inspection and fulfillment of the stipulated conditions of quality and safety parameters the Inspection and Recommendation committee will send the application for final approval to",
+   "confidence": 1
+  },
+  {
    "claim": "The Approval Committee is authorized to upgrade, revise, include, or exclude the conditions of safety and eligibility for Adventure Tour Operators.",
    "kind": "ACTION",
    "subject": "approval_committee",
@@ -19713,6 +21882,65 @@
    "sourceId": "src:ac7daef86cfc",
    "evidence": "12. The Approval Committee is authorized to upgrade/revise or include/exclude the conditions of\nsafety/eligibility for the Adventure Tour Operators (ATOs) as it may find it is necessary to do so.",
    "confidence": 0.95
+  },
+  {
+   "claim": "An applicant must submit a certificate issued by the firm’s Statutory Auditor to support a minimum turnover of Rs.10.00 lakh from Adventure Tourism & Adventure Sports related activities in the preceding financial year.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "adventure_tourism_approval",
+   "object": "turnover_certificate",
+   "detail": {
+    "minimum_turnover": "Rs.10.00 lakh",
+    "activity_type": "adventure_tourism_and_sports"
+   },
+   "sourceId": "src:ac7daef86cfc",
+   "evidence": "c. The turnover by the firm from Adventure Tourism & Adventure Sports related activities only should be a minimum of Rs.10.00 lakh during the preceding financial year duly supported by a certificate issued by Statutory Auditor of the firm.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must submit a certificate from the Statutory Auditor to support a minimum Paid up Capital of Rs. 3.00 lakhs.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "adventure_tourism_approval",
+   "object": "capital_certificate",
+   "detail": {
+    "minimum_capital": "Rs. 3.00 lakhs"
+   },
+   "sourceId": "src:ac7daef86cfc",
+   "evidence": "b. ATO should have a minimum Paid up Capital (Capital employed) of Rs. 3.00 lakhs duly supported by the latest audited Balance Sheet / firm’s Statutory Auditor’s certificate.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must submit an online application that is duly filled in.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "adventure_tourism_approval",
+   "object": "online_application",
+   "detail": {},
+   "sourceId": "src:64129a64c0b8",
+   "evidence": "1. Online application duly filled in.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must submit two attested photographs.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "adventure_tourism_approval",
+   "object": "attested_photographs",
+   "detail": {
+    "quantity": 2
+   },
+   "sourceId": "src:64129a64c0b8",
+   "evidence": "2. Two attested photographs.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must submit documentary proof, preferably registration certificates from the government, to support the beginning of operations of their firm.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "adventure_tourism_approval",
+   "object": "documentary_proof",
+   "detail": {
+    "preferred_type": "registration_certificates"
+   },
+   "sourceId": "src:64129a64c0b8",
+   "evidence": "3. Documentary proof (preferably registration certificates from govt.) in support of beginning of operations of your firm.",
+   "confidence": 1
   },
   {
    "claim": "A merchant or trader must provide their name for registration.",
@@ -19830,6 +22058,16 @@
    "detail": {},
    "sourceId": "src:0415e6113e65",
    "evidence": "Such person may be an individual person or an institution. Its recognition by the Chief Inspector is necessary. More than one person or institution can be recognised for a factory. Their qualification, experience and facilities for tests shall be considered by the Chief Inspector before recognising them.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Chief Inspector considers the qualification, experience, and facilities of a person or institution before recognizing them as a Competent Person.",
+   "kind": "ACTION",
+   "subject": "chief_inspector",
+   "object": "competent_person_recognition",
+   "detail": {},
+   "sourceId": "src:0415e6113e65",
+   "evidence": "More than one person or institution can be recognised for a factory. Their qualification, experience and facilities for tests shall be considered by the Chief Inspector before recognising them.",
    "confidence": 0.95
   },
   {
@@ -19953,6 +22191,16 @@
    "sourceId": "src:447614db9858",
    "evidence": "Apply for New trade certificate [ New Dealer Admin User ID will be provided by Authority ]",
    "confidence": 0.9
+  },
+  {
+   "claim": "The registering authority in whose jurisdiction the applicant has his place of business can issue the trade certificate.",
+   "kind": "OFFICE",
+   "subject": "trade_certificate",
+   "object": "registering_authority",
+   "detail": {},
+   "sourceId": "src:08998f5020a1",
+   "evidence": "As per Rule 33 the registering authority in whose jurisdiction the applicant has his place of business can issue the trade certificate.",
+   "confidence": 0.95
   },
   {
    "claim": "Employers not being government officers liable to pay tax must obtain a certificate of registration from the prescribed authority.",
@@ -20105,6 +22353,26 @@
    "confidence": 0.8
   },
   {
+   "claim": "A certificate regarding eligibility for exemption from electricity duty must be obtained in a prescribed form by making an application to a prescribed officer.",
+   "kind": "ACTION",
+   "subject": "certificate_of_eligibility_for_electricity_duty_exemption",
+   "object": "prescribed_officer",
+   "detail": {},
+   "sourceId": "src:ddcada61ade4",
+   "evidence": "unless it has obtained a certificate regarding eligibility for such exemption in prescribed form by making an application therefore in such form, within such period and to such officer as may be prescribed.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The certificate of eligibility for exemption from electricity duty is obtained through an application in Form E.",
+   "kind": "ACTION",
+   "subject": "certificate_of_eligibility_for_electricity_duty_exemption",
+   "object": "form_e_application",
+   "detail": {},
+   "sourceId": "src:85e6565fd86d",
+   "evidence": "Application for obtaining Certificate of Eligibility for exemption from payment of electricity duty under clause (vii) or clause (viii) of sub-section (2) of section 3.",
+   "confidence": 0.9
+  },
+  {
    "claim": "Authorization from SPCB is required for the utilization of hazardous and other waste as a resource or after pre-processing.",
    "kind": "ACTION",
    "subject": "hazardous_waste_utilization",
@@ -20213,6 +22481,26 @@
    "sourceId": "src:2ac3346afa00",
    "evidence": "As per Rule 9, for utilization of hazardous and other waste as a resource or after pre-processing either for co-processing or for any other use including within the premises of the generator, authorization from SPCB is required",
    "confidence": 1
+  },
+  {
+   "claim": "Authorization for utilization of hazardous and other waste under Rule 9 is granted by SPCBs.",
+   "kind": "OFFICE",
+   "subject": "authorization_for_utilization_of_hazardous_and_other_waste",
+   "object": "spcb",
+   "detail": {},
+   "sourceId": "src:2ac3346afa00",
+   "evidence": "CPCB has delegated the powers to SPCBs to grant authorization for utilization of Hazardous and other waste under Rule 9 on the basis of standard operating procedures (SOP) or guidelines developed by CPCB.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Applications under Rule 9 are discussed in an expert committee constituted by GPCB for recommendations.",
+   "kind": "ACTION",
+   "subject": "gpcb",
+   "object": "expert_committee",
+   "detail": {},
+   "sourceId": "src:2ac3346afa00",
+   "evidence": " The application under Rule 9 i.e. recycling, reuse, reprocessing, utilization as alternate resource, co processing shall be discussed in expert committee constituted by GPCB for the recommendations.",
+   "confidence": 0.95
   },
   {
    "claim": "An applicant must provide products to be manufactured and quantity from utilization of hazardous waste (MT/Day).",
@@ -20391,6 +22679,166 @@
    "confidence": 1
   },
   {
+   "claim": "The applicant must provide the products to be manufactured and quantity from utilization of hazardous waste (MT/Day).",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "provide_products_quantity",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": "Products to be manufactured and quantity from utilization of hazardous waste (MT/Day).",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide the name/type and quantity (in MTA) of the proposed hazardous wastes to be utilized including category (as per the Schedule I) intended for utilization.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "provide_hazardous_waste_details",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": "Name/Type & quantity (in MTA) of the proposed hazardous wastes to be utilized including category (as per the Schedule I) intended for utilization.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide a copy of valid CTE/CCA of the actual user.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_cte_cca",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": "Copy of valid CTE/CCA of the actual user.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide detailed wastes specific characteristics of hazardous waste proposed for utilization including purity & contents of impurities.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "provide_waste_characteristics",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": "Detailed wastes specific characteristics of hazardous waste proposed for utilization including purity & contents of impurities.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide process details for utilization of hazardous waste and its Flow Diagram.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_process_details",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": "Process details for utilization of hazardous waste and its Flow Diagram.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide Material Balance with and without utilizing hazardous wastes.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_material_balance",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": "Material Balance with and without utilizing hazardous wastes.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide Equipment layout along with their capacity for the utilization of hazardous wastes.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_equipment_layout",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": "Equipment layout along with their capacity for the utilization of hazardous wastes.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide details of hazardous waste storage facility and process area facility.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_facility_details",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": "Details of hazardous waste storage facility and process area facility.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide the quantity of fuel and/or raw material that are expected to be conserve (in % of raw material replaced) from the proposed utilization.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_conserve_details",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": "Quantity of fuel and/or raw material that are expected to be conserve (in % of raw material replaced) from the proposed utilization.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide characteristics of air emissions, waste water generation and other solid wastes including hazardous waste expected to be generated during utilization of hazardous wastes.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_emission_details",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": "Characteristics of air emissions, waste water generation and other solid wastes including hazardous waste expected to be generated during utilization of hazardous wastes.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide details of authorized vehicle for transportation of hazardous waste.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_transport_vehicle_details",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": "Details of authorized vehicle for transportation of hazardous waste.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide details of Environmental Management System with flow diagram.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_ems_details",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": "Details of Environmental Management System with flow diagram.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide details of occupational health and safety measures.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_ohs_details",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": "Details of occupational health and safety measures",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide installed capacity as per registration issued by DIC or any other authorized govt. agency.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_installed_capacity",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": "Installed capacity as per registration issued by DIC or any other authorized govt. agency. (Provide copy)",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide whether the facility has been set up as per CPCB SOP/guideline and submit the compliance report.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_cpcb_compliance",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": "Whether the facility has been set up as per CPCB SOP/guideline? Submit the compliance report.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide details of member units from which hazardous waste is procured.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_member_unit_details",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": "Details of member units from which hazardous waste is procured.",
+   "confidence": 1
+  },
+  {
    "claim": "For cement plants involved in co-processing of waste, a notarized undertaking must be submitted to confirm compliance with the CPCB guidelines on environmental liabilities and penalties.",
    "kind": "CONDITIONAL_REQUIREMENT",
    "subject": "cement_plant_co_processing",
@@ -20431,6 +22879,16 @@
    "sourceId": "src:76a02dac042c",
    "evidence": " To verify records , compliance of SOP/guideline/specific conditions for recycling, recovery, processing, co-processing, utilization of hazardous and other waste",
    "confidence": 0.95
+  },
+  {
+   "claim": "The process involves verifying records and compliance of SOP/guidelines.",
+   "kind": "TIMELINE",
+   "subject": "process",
+   "object": "verification_compliance",
+   "detail": {},
+   "sourceId": "src:76a02dac042c",
+   "evidence": " To verify records , compliance of SOP/guideline/specific conditions for recycling, recovery, processing, co-processing, utilization of hazardous and other waste",
+   "confidence": 1
   },
   {
    "claim": "The Devalia Park Bus Safari e-Permit must be printed and brought at the time of reporting at Devalia Safari Park.",
@@ -20534,6 +22992,92 @@
    "confidence": 1
   },
   {
+   "claim": "Applicants must carry their original photo identity proof (Aadhar Card/PAN Card/Driving Licence/Voter ID Card).",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "devalia_park_bus_safari_e_permit",
+   "object": "original_photo_identity_proof",
+   "detail": {
+    "documents": "Aadhar Card, PAN Card, Driving Licence, Voter ID Card"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "All the visitors should carry their original photo identity proof (Aadhar Card/PAN Card/Driving Licence/Voter ID Card).",
+   "confidence": 1
+  },
+  {
+   "claim": "Foreigners must carry their original passport as the photo identity proof.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "devalia_park_bus_safari_e_permit",
+   "object": "original_passport",
+   "detail": {
+    "condition": "For FOREIGNER"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "For FOREIGNER , it is compulsory to keep the original passport as the photo identity proof with him/her.",
+   "confidence": 1
+  },
+  {
+   "claim": "The fee for the Devalia Park Bus Safari e-permit for up to 6 persons on Monday to Friday is 800 rupees.",
+   "kind": "FEE",
+   "subject": "devalia_park_bus_safari_e_permit",
+   "object": "citizen_fee",
+   "detail": {
+    "amount": "800",
+    "currency": "INR"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "Monday to Friday | Up To 6 persons | 800",
+   "confidence": 1
+  },
+  {
+   "claim": "The fee for the Devalia Park Bus Safari e-permit for an extra child on Monday to Friday is 100 rupees.",
+   "kind": "FEE",
+   "subject": "devalia_park_bus_safari_e_permit",
+   "object": "extra_child_fee",
+   "detail": {
+    "amount": "100",
+    "currency": "INR"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "Monday to Friday | Extra Child | 100",
+   "confidence": 1
+  },
+  {
+   "claim": "The office an applicant visits for the Devalia Park Bus Safari e-Permit is the Deputy Conservator of Forests, Wildlife Division in Sasan Gir.",
+   "kind": "OFFICE",
+   "subject": "devalia_park_bus_safari_e_permit",
+   "object": "deputy_conservator_of_forests_wildlife_division_sasan_gir",
+   "detail": {
+    "address": "Deputy Conservator of Forests, Wildlife Division, Sasan Gir, Junagadh-Gujarat (India)."
+   },
+   "sourceId": "src:2498d639162e",
+   "evidence": "Sasan Gir ( Gir Jungle Safari / Develia Gypsy Safari / Develia Bus Safari )\nAddress\nDeputy Conservator of Forests, Wildlife Division,\nSasan Gir,\nJunagadh-Gujarat (India).",
+   "confidence": 1
+  },
+  {
+   "claim": "The phone number for Devalia Park Bus Safari e-Permit is 02877-285621.",
+   "kind": "HELPLINE",
+   "subject": "devalia_bus_safari_permit",
+   "object": "phone_contact",
+   "detail": {
+    "phone": "02877-285621"
+   },
+   "sourceId": "src:2498d639162e",
+   "evidence": "PHONE\n02877-285621",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant can check the status of a submitted permit using the permit number.",
+   "kind": "TRACKING",
+   "subject": "devalia_park_bus_safari_e_permit",
+   "object": "status_check",
+   "detail": {
+    "permit_number": "Permit Number"
+   },
+   "sourceId": "src:5dd1e4da0095",
+   "evidence": "Permit Number: |",
+   "confidence": 0.8
+  },
+  {
    "claim": "Applications for vendor registration are received in May and November of the year.",
    "kind": "TIMELINE",
    "subject": "vendor_registration",
@@ -20567,6 +23111,18 @@
    "detail": {},
    "sourceId": "src:885f401b62c6",
    "evidence": "The updated policy and further instructions will be communicated after finalization of vendor Selection Policy.",
+   "confidence": 1
+  },
+  {
+   "claim": "No further applications for vendor registration will be processed until the updated Vendor Selection Policy is finalized.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "vendor_registration",
+   "object": "application_processing",
+   "detail": {
+    "status": "paused"
+   },
+   "sourceId": "src:885f401b62c6",
+   "evidence": "Currently, revisions and updates to the Vendor Selection Policy are in progress, no further applications for the vendor registration will be processed at present.",
    "confidence": 1
   },
   {
@@ -20812,6 +23368,46 @@
    "confidence": 1
   },
   {
+   "claim": "The applicant must submit a copy of a valid certificate of Safety Standards as per prevailing guidelines.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "safety_certificate",
+   "detail": {},
+   "sourceId": "src:64129a64c0b8",
+   "evidence": "4. Copy of valid certificate of Safety Standards as per prevailing guidelines.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must submit an undertaking as per Annexure II, signed by the Adventure Tour Operator.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "undertaking_annexure_ii",
+   "detail": {},
+   "sourceId": "src:64129a64c0b8",
+   "evidence": "5. Undertaking as per Annexure II in original to be signed by the Adventure Tour Operator.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must submit a signed copy of the Pledge of Commitment towards 'Safe & Honorable Tourism' from the Ministry of Tourism, Government of India.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "pledge_commitment",
+   "detail": {},
+   "sourceId": "src:64129a64c0b8",
+   "evidence": "6. A signed copy of the Pledge of Commitment towards “Safe &Honorable Tourism” of Ministry of Tourism, Government of India. The pledge may be downloaded from Incredible India website.",
+   "confidence": 1
+  },
+  {
+   "claim": "Land based sports operators who have obtained a license and operational certificate from the concerned competent authorities may be granted registration or renewal without requiring a separate inspection from the Committee.",
+   "kind": "ACTION",
+   "subject": "adventure_tour_operator",
+   "object": "committee_inspection",
+   "detail": {},
+   "sourceId": "src:88b9f241701b",
+   "evidence": "5.2 Land based sports operators who have obtained license and operational certificate from concerned Competent Authorities may be granted registration/recognition or renewal and may not require separate inspection from the Committee.",
+   "confidence": 0.95
+  },
+  {
    "claim": "Trained crew with valid certificates must be engaged by the operator for handling Land Based Sports vehicles.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "land_based_sports_operator",
@@ -20974,6 +23570,16 @@
    "confidence": 1
   },
   {
+   "claim": "The renewal/extension of recognition/registration is granted after an inspection conducted by the same Committee.",
+   "kind": "ACTION",
+   "subject": "adventure_tourism_recognition",
+   "object": "committee_inspection",
+   "detail": {},
+   "sourceId": "src:3848973b8836",
+   "evidence": "6. The renewal / extension thereafter shall be granted for five years after Inspection conducted by the same Committee mentioned below, on an application made by the ATO along with the requisite fee / documents.",
+   "confidence": 0.95
+  },
+  {
    "claim": "Applicants must submit the application in the prescribed form and online along with the required documents.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "adventure_tourism_recognition_or_registration",
@@ -21089,6 +23695,49 @@
    "confidence": 1
   },
   {
+   "claim": "A non-refundable fee of Rs. 1000 is required for the application for recognition and renewal.",
+   "kind": "FEE",
+   "subject": "adventure_tourism_recognition_or_registration",
+   "object": "office_of_commissioner_of_tourism",
+   "detail": {
+    "amount": 1000,
+    "currency": "INR"
+   },
+   "sourceId": "src:8bbd476f353a",
+   "evidence": "15. ATO would be required to pay a non - refundable fee of while applying for the recognition and renewal of Rs. 1000/- to the Office of Commissioner of Tourism, Government of Gujarat.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives recognition/registration as an approved ATO for five years.",
+   "kind": "TIMELINE",
+   "subject": "adventure_tourism_recognition",
+   "object": "five_years",
+   "detail": {},
+   "sourceId": "src:7eec7f519267",
+   "evidence": "7. The recognition/registration as an approved ATO shall be granted by the Commissioner of\nTourism, Government of Gujarat initially, for five years, based on the Inspection\nReport/Recommendations of a Committee comprising the following members:",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Commissioner of Tourism, Government of Gujarat grants recognition/registration as an approved ATO.",
+   "kind": "OFFICE",
+   "subject": "adventure_tourism_recognition_registration",
+   "object": "commissioner_of_tourism_government_of_gujarat",
+   "detail": {},
+   "sourceId": "src:7eec7f519267",
+   "evidence": "7. The recognition/registration as an approved ATO shall be granted by the Commissioner of Tourism, Government of Gujarat initially, for five years, based on the Inspection Report/Recommendations of a Committee comprising the following members:",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The recognition/registration as an approved ATO is granted based on the Inspection Report/Recommendations of a Committee.",
+   "kind": "ACTION",
+   "subject": "adventure_tourism_recognition",
+   "object": "committee_inspection",
+   "detail": {},
+   "sourceId": "src:7eec7f519267",
+   "evidence": "7. The recognition/registration as an approved ATO shall be granted by the Commissioner of Tourism, Government of Gujarat initially, for five years, based on the Inspection Report/Recommendations of a Committee comprising the following members:",
+   "confidence": 0.95
+  },
+  {
    "claim": "The applicant must upload a self-attested identity proof such as a voter card or Aadhaar card.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "application",
@@ -21138,6 +23787,16 @@
    },
    "sourceId": "src:7cf1b55c0171",
    "evidence": "મુખ્ય કાર્યાલય\nભાવનગર મહાનગર સેવા સદન, સર મંગલ સિંહજી રોડ, કલાનાલા પાસે, ભાવનગર, ગુજરાત - ૩૬૪૦૦૧\n0278-2424801\n૦૨૭૮ - ૨૪૨૮૬૨૮\ncomm-bmc@gujarat.gov.in",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Designated Authority where the tax liability is highest issues the certificate of tax payment.",
+   "kind": "OFFICE",
+   "subject": "professional_tax",
+   "object": "designated_authority",
+   "detail": {},
+   "sourceId": "src:7039944d7a5d",
+   "evidence": "Provided that where a person produces a certificate to the effect that the tax has been paid by him to the Designated Authority where the liability of tax is highest, the tax shall not be levied by any other Designated Authority.",
    "confidence": 0.95
   },
   {
@@ -21211,6 +23870,16 @@
    "confidence": 1
   },
   {
+   "claim": "Inspection and submission of the inspection report to the certification department is part of the process before organic certification is granted.",
+   "kind": "ACTION",
+   "subject": "organic_certification",
+   "object": "inspection_report_submission",
+   "detail": {},
+   "sourceId": "src:d65892a6e72a",
+   "evidence": "5. Inspection and submitting the inspection report to the certification department",
+   "confidence": 1
+  },
+  {
    "claim": "An application for the survey of an inland vessel must include proof of payment of survey fee and other charges.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "application_for_survey",
@@ -21228,6 +23897,7 @@
   "Gir Online Permit Booking System: https://girlion.gujarat.gov.in/TermsConditions.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Boiler Registration and Inspection: https://boiler.gujarat.gov.in/m/faq.htm lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Boiler Registration and Inspection: https://boiler.gujarat.gov.in/faq.htm lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Access to Biological Resources: https://gsbb.gujarat.gov.in/access-benefit-sharing-abs.htm lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Gujarat Veterinary Council registration and renewal: https://gvc.org.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "vehicle fitness testing: https://vahan.parivahan.gov.in/vahanservice/vahan/ui/appl_status/formTransactionHistory.xhtml lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Van Mahotsav sapling application: https://forestservices.gujarat.gov.in/eServices/Vanmahotsav/frmVanMahotsavapp.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
@@ -21235,6 +23905,7 @@
   "Certificate of Registration for Pleasure Craft or Boat: https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "tourism project approval: https://gujarattourism.com/content/dam/gujrattourism/images/document/INVESTOR_APPLICATION_GUIDELINE.pdf#page=12 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Smashaan Saggadi: https://forestservices.gujarat.gov.in/eServices/Smashaan/frmSmashaanSagadiApp.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Tourism Unit Registration: https://gujarattourism.com/content/dam/gujrattourism/images/document/INVESTOR_APPLICATION_GUIDELINE.pdf#page=13 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "guide license: https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=4 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "guide license: https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=6 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Vehicle Registration: https://cot.gujarat.gov.in/vehicle-registration.htm lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
@@ -21249,20 +23920,27 @@
   "Plug & Play Systems scheme: https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/user_manual/Garment_Policy_guidelines.pdf#page=7 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Alcohol Procurement Permit: https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/user_manual/Alcohol_APP_Application_User%20Manual_Applicant_Side.pdf#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "hazardous waste management: https://www.gpcb.gov.in/payroll/GUIDELINES_4_PA_OF_RULE_9_HAZ_OTH_WASTE_2016.PDF#page=5 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "hazardous waste management: https://www.gpcb.gov.in/payroll/GUIDELINES_4_PA_OF_RULE_9_HAZ_OTH_WASTE_2016.PDF#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Driving Licence: the hand written graph already answers to service:driving_licence, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "arms licence: https://cpsurat.gujarat.gov.in/Upload/FORM%20A-3.pdf#page=1 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Trade Union Registration: https://col.gujarat.gov.in/e-citizen-registration_of_trde_union.htm lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Apparel Park Approval and Reimbursement: https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/user_manual/Garment_Policy_guidelines.pdf#page=17 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "VAT/CST Registration: https://commercialtax.gujarat.gov.in/vatwebsite/download/Registration_Flow_Final_08062015.pdf#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Adventure Tourism Operator Recognition: https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=6 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Adventure Tourism Operator Recognition: https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=4 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Adventure Tourism Operator Recognition: https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=15 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Tourist Guide License: https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=5 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "stand-alone dialysis center registration: https://ma.gujarat.gov.in/documents/Revised%20HEM%20Guidelines%20for%20Stand%20Alone%20Dialysis%2001.06.2026%20final.pdf#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Girnar Nature Safari Permit: https://girlion.gujarat.gov.in/TermsConditions.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "SARAL Pass Travel Scheme: https://suratmunicipal.gov.in/Services/Sitilink/SaralPassTravelScheme lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Adventure Tourism Guidelines: https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=6 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Pleasure Craft/Boat Operation Permission: https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=4 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Pleasure Craft/Boat Operation Permission: https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "National Permit: https://www.vahan.parivahan.gov.in/npermit/faces/welcome.jsp lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "forest land diversion: https://fed.gujarat.gov.in/guidelines.htm lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "NOC/CCA consents: https://gpcbxgn.gujarat.gov.in/Public/ConsentRegistration lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "vessel registration: https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=6 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "PUC: https://vahan.parivahan.gov.in/puc lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "VAHAN: https://vahan.parivahan.gov.in/nrservices lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Chief Electrical Inspector: no quotable requirement, fee or timeline survived, so no service node was written for it.",
   "GSLCS: https://girlion.gujarat.gov.in/PermitBookingForJungleTrail.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
@@ -21276,6 +23954,7 @@
   "Agri.Business Registration Number: https://ced.gujarat.gov.in/assets/downloads/shrihariagri512015.pdf#page=54 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "TIN Registration: https://commercialtax.gujarat.gov.in/vatwebsite/download/Registration_Flow_Final_08062015.pdf#page=2 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "TIN Registration: https://commercialtax.gujarat.gov.in/vatwebsite/download/Registration_Flow_Final_08062015.pdf#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "TIN Registration: http://www.incometax.gov.in/iec/foportal/help/tin.2.0.registration lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "capacitor-bank-approval: https://ceiced.gujarat.gov.in/assets/downloads/process_chart_tiemline_08092017.pdf#page=7 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Drug Manufacturing Licence System - Ayurvedic: no quotable requirement, fee or timeline survived, so no service node was written for it.",
   "Solar Power Project Registration: https://geda.gujarat.gov.in/geda/2023/12/20/Application%20Form/10337 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
@@ -21284,11 +23963,15 @@
   "Learner's License: the hand written graph already answers to service:learner_license, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "weights and measures: https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/CIS/CIS_Information_Sheet_Procedure.pdf#page=10 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "weights and measures: https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/CIS/CIS_Information_Sheet_Checklist.pdf#page=15 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "registration of a motor vehicle: https://cot.gujarat.gov.in/vehicle-registration.htm lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Competent Person Recognition: https://dish.gujarat.gov.in/m/contact-competant_persons.htm lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "trade certificate: https://vahan.parivahan.gov.in/vahantc/vahan/ui/tradecert/form_tc_login.xhtml lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "certificate of registration and enrolment: https://commercialtax.gujarat.gov.in/vatwebsite/download/rule/Ptact.pdf#page=8 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Authorization for Utilization of Hazardous and Other Waste: https://www.gpcb.gov.in/payroll/GUIDELINES_4_PA_OF_RULE_9_HAZ_OTH_WASTE_2016.PDF#page=2 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Authorization for Utilization of Hazardous and Other Waste: https://www.gpcb.gov.in/payroll/GUIDELINES_4_PA_OF_RULE_9_HAZ_OTH_WASTE_2016.PDF#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Adventure Tour Operator registration: https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=15 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "license and operational certificate: https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=11 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "adventure tourism recognition or registration: https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=2 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Professional Tax: no quotable requirement, fee or timeline survived, so no service node was written for it.",
   "inland vessel survey: no quotable requirement, fee or timeline survived, so no service node was written for it."
  ]

@@ -258,6 +258,28 @@
    "confidence": 0.9
   },
   {
+   "claim": "Online death certificate for deaths registered on or after 01/04/2020 will not be available.",
+   "kind": "ACTION",
+   "subject": "death_certificate",
+   "object": "online_service",
+   "detail": {},
+   "sourceId": "src:8915c5e8100c",
+   "evidence": "Surat Municipal Corporation is using Government of Gujarat's eOlakh Application ( https://eolakh.gujarat.gov.in/ ) for death registration from 01/04/2020, hence online death certificate for death registered on or after this date will not be available.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Online death certificate for deaths registered on or after 01/04/2020 will not be available.",
+   "kind": "TIMELINE",
+   "subject": "death_certificate",
+   "object": "online_service",
+   "detail": {
+    "date": "01/04/2020"
+   },
+   "sourceId": "src:8915c5e8100c",
+   "evidence": "Surat Municipal Corporation is using Government of Gujarat's eOlakh Application ( https://eolakh.gujarat.gov.in/ ) for death registration from 01/04/2020, hence online death certificate for death registered on or after this date will not be available.",
+   "confidence": 0.95
+  },
+  {
    "claim": "A citizen pays Rs. 20 for an additional copy of a death certificate, which includes a Rs. 5 certificate fee and Rs. 15 administration charges.",
    "kind": "FEE",
    "subject": "death_certificate",
@@ -331,6 +353,18 @@
    "sourceId": "src:1cc4a3d9a83b",
    "evidence": "Toll Free - 18001081818",
    "confidence": 1
+  },
+  {
+   "claim": "The office an applicant visits is the Gandhinagar Municipal Corporation.",
+   "kind": "OFFICE",
+   "subject": "birth_certificate",
+   "object": "gandhinagar_municipal_corporation_office",
+   "detail": {
+    "address": "Gandhinagar"
+   },
+   "sourceId": "src:1cc4a3d9a83b",
+   "evidence": "Birth & Death Certificate – Gandhinagar Municipal Corporation",
+   "confidence": 0.95
   },
   {
    "claim": "The Registrar of Births and Deaths issues a birth certificate.",

@@ -12,6 +12,16 @@
    "contentHash": "1985bab3c9701ea860de1d3d2363b01c994e5e21dd98d509e1483fd880bfed3e"
   },
   {
+   "id": "src:4cdeb96c361d",
+   "url": "https://ma.gujarat.gov.in/documents/Letter%20&%20Guideline%20for%20Hospital%20Empanelment%20under%20MA%20&%20PMJAY.pdf#page=7",
+   "title": "Letter%20&%20Guideline%20for%20Hospital%20Empanelment%20under%20MA%20&%20PMJAY (page 7 of 26)",
+   "domain": "ma.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "2025f4938373ff3c97dc7888d1f5b28feeec2e9e736f6a1c5de3f6271552435e"
+  },
+  {
    "id": "src:63934b07211d",
    "url": "https://fcsca.gujarat.gov.in/en/Contacts",
    "title": "Contact Us",
@@ -284,6 +294,26 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:pmjay_card_the_insurance_company_or_isa_verifies_the_benefi",
+   "type": "ACTION",
+   "name": "The insurance company or ISA verifies the beneficiary's details against the SECC-2011 data",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The insurance company or ISA verifies the beneficiary's details against the SECC-2011 database.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:4cdeb96c361d",
+     "evidence": "These details are verilied by the insurance company / ISA against the SECC-2Ol1 database ald if matches, an E-card (Golden Card) of PMJAY is generated & provided to the beneliciary.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:pmjay_card",
    "type": "SERVICE",
    "name": "PMJAY CARD",
@@ -319,6 +349,12 @@
      "sourceId": "src:189778a54c94",
      "evidence": "3. More than 60 age",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4cdeb96c361d",
+     "evidence": "These details are verilied by the insurance company / ISA against the SECC-2Ol1 database ald if matches, an E-card (Golden Card) of PMJAY is generated & provided to the beneliciary.",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -1435,6 +1471,22 @@
      "sourceId": "src:189778a54c94",
      "evidence": "2. Journalist Accreditation ID",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_pmjay_card__requires__action_pmjay_card_the_insurance_company_or_isa_verifies_the_",
+   "from": "service:pmjay_card",
+   "to": "action:pmjay_card_the_insurance_company_or_isa_verifies_the_benefi",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The insurance company or ISA verifies the beneficiary's details against the SECC-2011 database.",
+   "sources": [
+    {
+     "sourceId": "src:4cdeb96c361d",
+     "evidence": "These details are verilied by the insurance company / ISA against the SECC-2Ol1 database ald if matches, an E-card (Golden Card) of PMJAY is generated & provided to the beneliciary.",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ]

@@ -52,6 +52,30 @@
    "scrapedOk": true
   },
   {
+   "id": "src:609a55d95471",
+   "url": "https://ic.gujarat.gov.in/documents/commondoc/2025/MSME%20Special%20category%20award%20form.pdf#page=1",
+   "title": "MSME%20Special%20category%20award%20form (page 1 of 4)",
+   "domain": "ic.gujarat.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ffbe78d95dc23f2a437e8909b0252413d8e5d542c8adf2657848cea54333a1ee",
+   "cacheFile": ".ingest/pages/609a55d9547192732434e72432cd90b5e6d6428d.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:1c372c26d1fc",
+   "url": "https://ic.gujarat.gov.in/atmanirbhargujaratscheme.aspx",
+   "title": "Aatmanirbhar Gujarat Scheme",
+   "domain": "ic.gujarat.gov.in",
+   "sourceType": "HELPLINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "269299714956de7cb72ebf9eafec6e1bcafa3f48537974bed1416b062bd3cdd7",
+   "cacheFile": ".ingest/pages/1c372c26d1fc21a6aa967fb68852b3c9854c8bd3.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:1c23804b3160",
    "url": "https://udyamregistration.gov.in/UdyamRegistration.aspx",
    "title": "UDYAM REGISTRATION FORM - For New Enterprise who are not Registered yet as MSME",
@@ -97,6 +121,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "87b2c74553bd5a74cad175f6b188d914d4e2039c54ef1730cacb9bfcfffd833d",
    "cacheFile": ".ingest/pages/f11e2f4d794c0702c9f212c7f1519cff727ec278.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:8576e6ac3622",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/gr-10-03-2015-CH.pdf#page=3",
+   "title": "gr-10-03-2015-CH (page 3 of 4)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "fe0dca6f2ba7eb18ab317a2f386e870ffbdd5e82547d5df9c1c0574520614336",
+   "cacheFile": ".ingest/pages/8576e6ac362206672906269cab96aff48070684e.md",
    "scrapedOk": true
   },
   {
@@ -157,18 +193,6 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "a59e38b40323e8f356e2f56545801d4d0b753cdfebdd04014b287bfebf2a4c5a",
    "cacheFile": ".ingest/pages/3e339757013586b8b8acbf0103a58d7703151267.md",
-   "scrapedOk": true
-  },
-  {
-   "id": "src:609a55d95471",
-   "url": "https://ic.gujarat.gov.in/documents/commondoc/2025/MSME%20Special%20category%20award%20form.pdf#page=1",
-   "title": "MSME%20Special%20category%20award%20form (page 1 of 4)",
-   "domain": "ic.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "ffbe78d95dc23f2a437e8909b0252413d8e5d542c8adf2657848cea54333a1ee",
-   "cacheFile": ".ingest/pages/609a55d9547192732434e72432cd90b5e6d6428d.md",
    "scrapedOk": true
   },
   {
@@ -340,6 +364,90 @@
    "scrapedOk": true
   },
   {
+   "id": "src:1bbbb34f6817",
+   "url": "https://www.myscheme.gov.in/schemes/ssntdnttv",
+   "title": "Stipends to Students of NT/DNT Caste for Technical and Vocational Courses after SSC",
+   "domain": "myscheme.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d053da9ba5a3b2cf230887adae52cc571a6af13cd2ebc61b7e877841c921a096",
+   "cacheFile": ".ingest/pages/1bbbb34f68179af627c0f18079d95a673e80b801.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:21359063b166",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/artificial-limbsassistive-equipments-scheme_alaes.html",
+   "title": "Artificial Limbs/Assistive Equipments Scheme",
+   "domain": "web.umang.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "65686275fa669780fd7dd6c44e8dbb46a424946789d968d2ac0e2d19bd180b4a",
+   "cacheFile": ".ingest/pages/21359063b166e9de411f99137e05d441eeca56b3.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:4544578cde94",
+   "url": "https://www.myscheme.gov.in/schemes/ssychh",
+   "title": "Sukhad Sahara Yojana",
+   "domain": "myscheme.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "915ad19b3365092073608e256245e2abbe9c42245f08a2dd289a2968efe3adb1",
+   "cacheFile": ".ingest/pages/4544578cde94bb8ad5115add3a82dfe86ee2cea0.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:c184adf1ee34",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/chief-ministergi-shotharabasingi-tengbang_cmst.html",
+   "title": "Chief Ministergi Shotharabasingi Tengbang",
+   "domain": "web.umang.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "b52fb370fd0da30158cdadb60ff74e3f0a106bd9ab0dc635c5774b91326a0d1c",
+   "cacheFile": ".ingest/pages/c184adf1ee340591624d4031908cb6d591c270f6.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:3e23059a6862",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/contributory-social-security-scheme_csss.html",
+   "title": "Contributory Social Security Scheme",
+   "domain": "web.umang.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "246f3ef0af0ece25ab8280078aa5e0cf35eb8929cbbb897fad4068beedfefe08",
+   "cacheFile": ".ingest/pages/3e23059a686293a895fb0baf1b08088735e85c20.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:fb32e0ab60e4",
+   "url": "https://www.myscheme.gov.in/schemes/sebpu",
+   "title": "Scheme for Establishment of Backyard Poultry Units",
+   "domain": "myscheme.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "e9187e41a76f25df6b0b152ce06685cc2b86e5db3fcaf2fefe91a195063343e0",
+   "cacheFile": ".ingest/pages/fb32e0ab60e4824d2d9fe4f118bca9f77a6b3f09.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:f37d313d36c0",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/ashraya-adhar-scheme_aas.html",
+   "title": "Ashraya Adhar Scheme",
+   "domain": "web.umang.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "8386163104eb3dd5c8f7019a214210f84cf8a4226ac4285437a641c12875d050",
+   "cacheFile": ".ingest/pages/f37d313d36c0e0c40c9e2a7710d27896740fd17e.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:b9f49e2ad4a9",
    "url": "https://e-kutir.gujarat.gov.in/SHGUserRegistration.aspx",
    "title": "Commissioner of Cottage and Rural Industries",
@@ -388,6 +496,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:45c343aa91a6",
+   "url": "https://imd.gujarat.gov.in/en/Contact-Us",
+   "title": "Contact Us | Industries & Mines Department",
+   "domain": "imd.gujarat.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "c75e35f5223b144cbb164a83d0aafd10d80e1e312619fae22c20455630513948",
+   "cacheFile": ".ingest/pages/45c343aa91a6d72cccb2ff4194c444e9fb2f7f6e.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:15614cce9684",
    "url": "https://e-kutir.gujarat.gov.in/registration.aspx",
    "title": "Commissioner of Cottage and Rural Industries",
@@ -421,6 +541,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "99b811ae93be2622700d667e513d4cc3d81a54f776e1341c323782e779540668",
    "cacheFile": ".ingest/pages/368f87bedc6d3934a98bd107fe45ba45fd3b9c09.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:305e064b82f8",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/user_manual/Garment_Policy_guidelines.pdf#page=17",
+   "title": "Garment_Policy_guidelines (page 17 of 22)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "9d22836e289b4cd29aa83c14d4128fb6d92c52a73998c033b6a070bfa297b6df",
+   "cacheFile": ".ingest/pages/305e064b82f8c9724f2639fd437399d70513f0dd.md",
    "scrapedOk": true
   },
   {
@@ -783,6 +915,31 @@
    "sourceId": "src:cef59a1e5f90",
    "evidence": "MSME registration process is fully online, paperless and based on self-declaration.",
    "confidence": 0.95
+  },
+  {
+   "claim": "The office an applicant visits for MSME registration is the Office of the MSME Commissionerate, located at Block No.1/2, Udyog Bhavan, Sector-11, Gandhinagar.",
+   "kind": "OFFICE",
+   "subject": "msme_registration",
+   "object": "msme_commissionerate_office",
+   "detail": {
+    "address": "Block No.1/2, Udyog Bhavan, Sector-11, Gandhinagar"
+   },
+   "sourceId": "src:609a55d95471",
+   "evidence": "Government of Gujarat\nOFFICE OF THE MSME COMMISSIONERATE\n(Government of Gujarat)\nBlock No.1/2, Udyog Bhavan, Sector-11,\nGandhinagarTele. No. 079-232-52532/58378",
+   "confidence": 1
+  },
+  {
+   "claim": "The Industries Commissionerate provides a phone number and email address for contact.",
+   "kind": "HELPLINE",
+   "subject": "industries_commissionerate",
+   "object": "contact_details",
+   "detail": {
+    "phone": "23252683/23252617",
+    "email": "iccord[at]gujarat[dot]gov[]in"
+   },
+   "sourceId": "src:1c372c26d1fc",
+   "evidence": "Ph. : 23252683/23252617 • Email ID : iccord[at]gujarat[dot]gov[]in",
+   "confidence": 1
   },
   {
    "claim": "Udyam Registration is free of cost and paperless.",
@@ -1311,6 +1468,86 @@
    "confidence": 0.9
   },
   {
+   "claim": "The applicant identifies suitable plots for the construction of multi-storeyed sheds in saturated estates.",
+   "kind": "ACTION",
+   "subject": "identify_suitable_plots",
+   "object": "multi_storeyed_sheds",
+   "detail": {},
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "GIDC will identify suitable plots tot the construction of multi-storeyed sheds in the saturated estates.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "GIDC submits the proposal to the Industries Commissioner office.",
+   "kind": "ACTION",
+   "subject": "submit_proposal",
+   "object": "industries_commissioner_office",
+   "detail": {},
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "GIDC will submit the proposal to Industries Commissioner office.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Industries Commissioner office scrutinizes the application and submits it to SLEC for approval.",
+   "kind": "ACTION",
+   "subject": "scrutinize_application",
+   "object": "slec",
+   "detail": {},
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "The Industries cornrnissioner office will scrutinize the application and submit it to SLEC for approval.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "GIDC constructs multi-storeyed structures with adequate infrastructure.",
+   "kind": "ACTION",
+   "subject": "construct_multi_storeyed_structure",
+   "object": "infrastructure",
+   "detail": {},
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "GIDC will construct multi-storeyedstructure having shed size around 50 Sq.Mts (500 Sq. Fts.) with adequate infrastructure like electricity connection, water, drainage and sanitation, Lift for transport of materials and Man Power etc.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "After the completion of the building, GIDC will allot the sheds as per the allotment procedure mentioned in para 4 of this resolution.",
+   "kind": "ACTION",
+   "subject": "allot_sheds",
+   "object": "building_completion",
+   "detail": {},
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "After the completion of the building GIDC will allot the sheds as per the allotment procedure mentioned in para 4 of this resolution.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "GIDC fixes the price per Sq.Mts. or Sq.Fts. by adding all the expenditure incurred for development of plot including infrastructure and overheads.",
+   "kind": "ACTION",
+   "subject": "fix_price",
+   "object": "plot_development",
+   "detail": {},
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "GIDC will fix the price per Sq.Mts. or Sq.Fts by adding all the expenditure incurred for development of plot including infrastructure and overheads as per the prevailing policy of GIDC along with the re-fixation of upset price of land at the point of fixation of price.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The assistance up to @ 50% for the development of the project is given directly to GIDC.",
+   "kind": "ACTION",
+   "subject": "provide_assistance",
+   "object": "gidc",
+   "detail": {},
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "The assistance up to @ 50% for the development of project will be given directly to GIDC.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "GIDC passes on such assistance on a pro rata basis to MSEs.",
+   "kind": "ACTION",
+   "subject": "pass_on_assistance",
+   "object": "mses",
+   "detail": {},
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "GIDC will pass on such assistance on pro rata basis to MSEs.",
+   "confidence": 0.9
+  },
+  {
    "claim": "Proposals for providing assistance to beneficiaries must be forwarded by the Implementing Agency (IA) with their specific recommendations to the Nodal Agency (NA).",
    "kind": "ACTION",
    "subject": "implementing_agency",
@@ -1619,6 +1856,26 @@
    "sourceId": "src:6a95c6d730e8",
    "evidence": "6) Any other support requested by the Ministry of MSME with the approval of SMC",
    "confidence": 0.95
+  },
+  {
+   "claim": "An applicant should onboard eligible MSEs on the ONDC network and support them in creation of their digital catalogue.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "ondc_network",
+   "detail": {},
+   "sourceId": "src:6a95c6d730e8",
+   "evidence": "1) Onboard the eligible MSEs on the ONDC network and support them in creation of their digital catalogue",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant should provide reports and documentation as required and communicated by the Ministry of MSME.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "ministry_of_msme",
+   "detail": {},
+   "sourceId": "src:6a95c6d730e8",
+   "evidence": "5) Provide reports and documentation as required and communicated by the Ministry of MSME",
+   "confidence": 1
   },
   {
    "claim": "Udyam registered Micro and Small Enterprises (MSEs) in the manufacturing and services sectors are eligible for benefits under the ONDC Initiative.",
@@ -2726,6 +2983,16 @@
    "confidence": 1
   },
   {
+   "claim": "The approval and sanction of the PMEGP scheme application is done by KVIC or the bank.",
+   "kind": "OFFICE",
+   "subject": "pmegp_scheme_approval",
+   "object": "kvic_or_bank",
+   "detail": {},
+   "sourceId": "src:7e1c48bba02e",
+   "evidence": "Once your PMEGP scheme application is approved, you will receive an approval letter from KVIC or the bank, along with the sanction letter stating the amount of subsidy and loan that you are eligible for.",
+   "confidence": 1
+  },
+  {
    "claim": "The District Industries Centre (DIC) provides all services and support required by MSME units under one roof.",
    "kind": "OFFICE",
    "subject": "district_industries_centre",
@@ -3006,6 +3273,16 @@
    "confidence": 1
   },
   {
+   "claim": "The applicant should contact the nearest agriculture office for help or more information about the scheme.",
+   "kind": "OFFICE",
+   "subject": "scheme_l",
+   "object": "nearest_agriculture_office",
+   "detail": {},
+   "sourceId": "src:b597a34688a9",
+   "evidence": "The applicant should contact the nearest agriculture office or visit the [iKhedut](https://ikhedut.gujarat.gov.in/site/) portal for more information.",
+   "confidence": 0.9
+  },
+  {
    "claim": "An applicant can track the status of their application by visiting the BOC Scheme Benefit section and entering their Application ID.",
    "kind": "TRACKING",
    "subject": "annath_pension_yojana",
@@ -3016,6 +3293,18 @@
    "sourceId": "src:0a36ac465165",
    "evidence": "To track the status of your application, follow the stepwise process given below: Step 1: Once submitted, the application goes for 3-level approval: Clerk > Labour Superintendent > DLC. Step 2: Go to Services > BOC Scheme Benefit > Application Status. Step 3: On the next page, fill in your Application ID, and click \"Search\". The status of your application will be displayed in a tabular format: Application ID, Applicant Name, Scheme Applied, Application Status, Remarks, Date, and Time. Step 4: Once the DLC approves the application, the \"Application Status\" changes to \"Approved\". The Applicant can take print of this page by clicking \"PRINT\" and submit the same at the Labour Office to avail of the scheme benefit.",
    "confidence": 0.95
+  },
+  {
+   "claim": "An applicant can check the status of their submitted application by using the Application ID on the BOC Scheme Benefit page.",
+   "kind": "TRACKING",
+   "subject": "annath_pension_yojana",
+   "object": "boc_scheme_benefit_page",
+   "detail": {
+    "steps": "Go to Services > BOC Scheme Benefit > Application Status, fill in Application ID, and click 'Search'."
+   },
+   "sourceId": "src:0a36ac465165",
+   "evidence": "To track the status of your application, follow the stepwise process given below: Step 1: Once submitted, the application goes for 3-level approval: Clerk > Labour Superintendent > DLC. Step 2: Go to Services > BOC Scheme Benefit > Application Status. Step 3: On the next page, fill in your Application ID, and click \"Search\". The status of your application will be displayed in a tabular format: Application ID, Applicant Name, Scheme Applied, Application Status, Remarks, Date, and Time.",
+   "confidence": 1
   },
   {
    "claim": "The Directorate of Tribal Welfare sanctions the scheme.",
@@ -3039,6 +3328,82 @@
    "sourceId": "src:9949bf684f1b",
    "evidence": "Inspection of at least 10 centers every month.",
    "confidence": 1
+  },
+  {
+   "claim": "To be eligible for the stipend, the annual family income of the applicant must not exceed ₹6,00,000/-.",
+   "kind": "ELIGIBILITY",
+   "subject": "scheme_l",
+   "object": "annual_family_income",
+   "detail": {
+    "amount": 600000,
+    "currency": "INR"
+   },
+   "sourceId": "src:1bbbb34f6817",
+   "evidence": "Yes, to be eligible for the stipend, the annual family income of the applicant must not exceed ₹6,00,000/-, and the income certificate must be submitted as proof at the time of application.",
+   "confidence": 1
+  },
+  {
+   "claim": "Persons with disabilities can apply through the Office of the PWD Empowerment Officer.",
+   "kind": "OFFICE",
+   "subject": "scheme_l",
+   "object": "pwd_empowerment_officer_office",
+   "detail": {},
+   "sourceId": "src:21359063b166",
+   "evidence": "Persons with disabilities can apply through the Office of the PWD Empowerment Officer /Jan Suvidha Kendra/Lokvani Kendra.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "In rural areas, the applicant should visit the office of the Gram Panchayat to collect the application form.",
+   "kind": "OFFICE",
+   "subject": "scheme_l",
+   "object": "gram_panchayat_office",
+   "detail": {},
+   "sourceId": "src:4544578cde94",
+   "evidence": "Visit the office of the Gram Panchayat to collect the application form, fill it out, and submit it to the Gram Panchayat.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The application should be addressed/submitted to the Office of the District Social Welfare Officer concerned.",
+   "kind": "OFFICE",
+   "subject": "scheme_l",
+   "object": "district_social_welfare_officer_office",
+   "detail": {},
+   "sourceId": "src:c184adf1ee34",
+   "evidence": "The application be addressed/submitted to the Office of the District Social Welfare Officer concerned.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant should visit the Tehsil Social Welfare Office or the District Social Welfare Office to request a hard copy of the application form.",
+   "kind": "OFFICE",
+   "subject": "scheme_l",
+   "object": "tehsil_social_welfare_office",
+   "detail": {},
+   "sourceId": "src:3e23059a6862",
+   "evidence": "Visit the Tehsil Social Welfare Office or the District Social Welfare Office or the Nodal Bank, and request a hard copy of the format of the CSSS application form for the scheme from the concerned authority.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Beneficiaries receive 50 chicks, two feeders, and two water drinkers free of cost, delivered to their doorstep.",
+   "kind": "ACTION",
+   "subject": "scheme_l",
+   "object": "beneficiary",
+   "detail": {
+    "amount": "50",
+    "items": "chicks, two feeders, two water drinkers"
+   },
+   "sourceId": "src:fb32e0ab60e4",
+   "evidence": "Beneficiaries receive 50 chicks, two feeders, and two water drinkers free of cost, delivered to their doorstep.",
+   "confidence": 1
+  },
+  {
+   "claim": "Physical verification or inspection is carried out by an officer of the Corporation after the application is submitted.",
+   "kind": "ACTION",
+   "subject": "ashraya_adhar_scheme",
+   "object": "corporation_officer",
+   "detail": {},
+   "sourceId": "src:f37d313d36c0",
+   "evidence": "The list of eligible applicants will be prepared and physical verification/inspection will be carried out by the officer of the Corporation.",
+   "confidence": 0.95
   },
   {
    "claim": "The name of the SHG/Industrial Cooperative Society/NGO/Trust/Khadi Institution must be written in English.",
@@ -3347,6 +3712,19 @@
    "confidence": 1
   },
   {
+   "claim": "The citizen pays no fee for the interest subsidy for industries.",
+   "kind": "FEE",
+   "subject": "interest_subsidy_for_industries",
+   "object": "citizen",
+   "detail": {
+    "amount": 0,
+    "currency": "INR"
+   },
+   "sourceId": "src:fd300053dde4",
+   "evidence": "10. Interest Subsidy: Eligible units will be entitled to avail interest subsidy as under:",
+   "confidence": 0.9
+  },
+  {
    "claim": "Large industries in Category 1 Taluka are eligible for a 7% interest subsidy on term loans for 10 years up to 1% of eligible Fixed Capital Investment.",
    "kind": "ELIGIBILITY",
    "subject": "interest_subsidy_large_industries",
@@ -3446,6 +3824,45 @@
    },
    "sourceId": "src:673502f80cb5",
    "evidence": "Category 1 Taluka: Interest subsidy @ 7% on term loan for 10 years up to 1.2% of eligible Fixed Capital Investment",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives an interest subsidy of up to INR 35 lakhs per annum for a period of 7 years in Category 1 Taluka.",
+   "kind": "ACTION",
+   "subject": "interest_subsidy",
+   "object": "applicant",
+   "detail": {
+    "amount": "35",
+    "currency": "INR",
+    "period": "7",
+    "unit": "years"
+   },
+   "sourceId": "src:673502f80cb5",
+   "evidence": "Category 1 Taluka: Interest subsidy @ 7% on term loan up to INR 35 lakhs per annum for a period of 7 years",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant receives an interest subsidy for a period of 7 years in Category 1 Taluka.",
+   "kind": "TIMELINE",
+   "subject": "interest_subsidy",
+   "object": "applicant",
+   "detail": {
+    "years": "7"
+   },
+   "sourceId": "src:673502f80cb5",
+   "evidence": "Category 1 Taluka: Interest subsidy @ 7% on term loan up to INR 35 lakhs per annum for a period of 7 years",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant visits the Industries Commissionerate office.",
+   "kind": "OFFICE",
+   "subject": "industries_commissionerate_office",
+   "object": null,
+   "detail": {
+    "address": "Block No. 1, 2nd Floor, Udyog Bhavan, Gandhinagar"
+   },
+   "sourceId": "src:45c343aa91a6",
+   "evidence": "Industries Commissionerate |\nShri Swaroop P, IAS |\nBlock No. 1, 2nd Floor, Udyog Bhavan, Gandhinagar |\nPhone: 91-079-23252524\nFax:-23252521\nE-mail : comind@gujarat.gov.in |",
    "confidence": 1
   },
   {
@@ -3627,6 +4044,69 @@
    "confidence": 0.8
   },
   {
+   "claim": "An applicant must upload all prescribed documents along with the Claim Application Form.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "slac_claim",
+   "object": "claim_application_form",
+   "detail": {},
+   "sourceId": "src:305e064b82f8",
+   "evidence": "reimbursement claim should be filled up by the applicant developer on the portal and all prescribed documents should be uploaded. (Claim Application Form) (Checklist)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant fills up the reimbursement claim on the portal and uploads all prescribed documents.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "reimbursement_claim",
+   "detail": {},
+   "sourceId": "src:305e064b82f8",
+   "evidence": " After installation of all proposed eligible infrastructure facilities, reimbursement claim should be filled up by the applicant developer on the portal and all prescribed documents should be uploaded. (Claim Application Form) (Checklist)",
+   "confidence": 1
+  },
+  {
+   "claim": "A physical inspection is carried out by the GM of the respective DIC.",
+   "kind": "ACTION",
+   "subject": "gm_of_dic",
+   "object": "physical_inspection",
+   "detail": {},
+   "sourceId": "src:305e064b82f8",
+   "evidence": " Once the claim application is duly scrutinized and is approved, a physical inspection headed by the GM of the respective DIC will be carried out for following purposes:",
+   "confidence": 1
+  },
+  {
+   "claim": "The inspection checks if the Industrial park has a minimum of 20 Apparel units with 150 machines each.",
+   "kind": "ACTION",
+   "subject": "inspection_team",
+   "object": "check_apparel_units",
+   "detail": {
+    "minimum_units": "20",
+    "machines_per_unit": "150"
+   },
+   "sourceId": "src:305e064b82f8",
+   "evidence": "o Whether the Industrial park has minimum 20 Apparel units with 150 machines each",
+   "confidence": 1
+  },
+  {
+   "claim": "The inspection checks if the Park provides the proposed eligible infrastructure facilities as per the technical sanction.",
+   "kind": "ACTION",
+   "subject": "inspection_team",
+   "object": "check_infrastructure",
+   "detail": {},
+   "sourceId": "src:305e064b82f8",
+   "evidence": "o Whether the Park provides the proposed eligible infrastructure facilities as per the technical sanction.",
+   "confidence": 1
+  },
+  {
+   "claim": "Based on the claim application and inspection report, the claim is disbursed upon availability of funds.",
+   "kind": "ACTION",
+   "subject": "slac",
+   "object": "disburses_claim",
+   "detail": {},
+   "sourceId": "src:305e064b82f8",
+   "evidence": " Based on satisfactory claim application and inspection report, claim will be disbursed upon availability of funds.",
+   "confidence": 1
+  },
+  {
    "claim": "The MSME Commissioner's office is located at Block No. 1, 4th Floor, Udyog Bhavan, Gandhinagar 382 010, Gujarat, India.",
    "kind": "OFFICE",
    "subject": "msme_commissioner_office",
@@ -3715,6 +4195,7 @@
   "MSME registration: the page names \"scheme portal\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
   "Udyam Registration: https://udyamregistration.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "MSE Estate Development: https://ced.gujarat.gov.in/assets/downloads/gr-10-03-2015-CH.pdf#page=2 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "MSE Estate Development: https://ced.gujarat.gov.in/assets/downloads/gr-10-03-2015-CH.pdf#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "BASP: https://ced.gujarat.gov.in/assets/downloads/BASPGUIDELINES.pdf#page=5 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "ONDC Initiative for MSEs: https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/ONDC/MSME/Guidelines.pdf#page=15 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "MSME Special category award: https://ic.gujarat.gov.in/documents/commondoc/2025/MSME%20Special%20category%20award%20form.pdf#page=4 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
@@ -3723,6 +4204,8 @@
   "PMEGP scheme: https://champions.gov.in/MSME_Ministry_entrepreneurs/PMEGP_bank_loan_finance/old_existing_Schemes.htm lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "PMEGP scheme: https://www.myscheme.gov.in/schemes/pmegp lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "District Industries Centre: no quotable requirement, fee or timeline survived, so no service node was written for it.",
-  "SHG User Registration: https://e-kutir.gujarat.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page."
+  "Scheme-l: https://web.umang.gov.in/landing/scheme/detail/chief-ministergi-shotharabasingi-tengbang_cmst.html offers a choice under \"The following documents are required mandatorily in order to apply to this scheme -\" but fewer than two of the lines under it are documents, so no group was written.",
+  "SHG User Registration: https://e-kutir.gujarat.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "SLAC: https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/user_manual/Garment_Policy_guidelines.pdf#page=17 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page."
  ]
 }

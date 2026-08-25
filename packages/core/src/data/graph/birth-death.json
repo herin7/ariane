@@ -268,6 +268,26 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:death_certificate_online_death_certificate_for_deaths_registered_o",
+   "type": "ACTION",
+   "name": "Online death certificate for deaths registered on or after 01/04/2020 will not be availabl",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "Online death certificate for deaths registered on or after 01/04/2020 will not be available.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:8915c5e8100c",
+     "evidence": "Surat Municipal Corporation is using Government of Gujarat's eOlakh Application ( https://eolakh.gujarat.gov.in/ ) for death registration from 01/04/2020, hence online death certificate for death registered on or after this date will not be available.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "action:death_certificate_the_nominee_must_submit_a_death_registration_cer",
    "type": "ACTION",
    "name": "The nominee must submit a Death Registration Certificate and additional documents like FIR",
@@ -324,6 +344,18 @@
      "verificationStatus": "EXTRACTED"
     },
     {
+     "sourceId": "src:8915c5e8100c",
+     "evidence": "Surat Municipal Corporation is using Government of Gujarat's eOlakh Application ( https://eolakh.gujarat.gov.in/ ) for death registration from 01/04/2020, hence online death certificate for death registered on or after this date will not be available.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8915c5e8100c",
+     "evidence": "Surat Municipal Corporation is using Government of Gujarat's eOlakh Application ( https://eolakh.gujarat.gov.in/ ) for death registration from 01/04/2020, hence online death certificate for death registered on or after this date will not be available.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
      "sourceId": "src:6f438ff998ce",
      "evidence": "On payment of Rs. 20/- (Birth or Death certificate fee Rs. 5/- and administration charges Rs. 15/- = Rs. 20/-), a copy of birth & death certificate is available in Gujarati and English.",
      "confidence": 1,
@@ -371,6 +403,24 @@
      "sourceId": "src:8915c5e8100c",
      "evidence": "Surat Municipal Corporation is using Government of Gujarat's eOlakh Application ( https://eolakh.gujarat.gov.in/ ) for death registration from 01/04/2020, hence online death certificate for death registered on or after this date will not be available.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "office:gandhinagar_municipal_corporation_office",
+   "type": "OFFICE",
+   "name": "Gandhinagar_municipal_corporation_office",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Gandhinagar"
+   },
+   "sources": [
+    {
+     "sourceId": "src:1cc4a3d9a83b",
+     "evidence": "Birth & Death Certificate – Gandhinagar Municipal Corporation",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -638,6 +688,22 @@
    ]
   },
   {
+   "id": "e:service_death_certificate__requires__action_death_certificate_online_death_certificate_for_deaths",
+   "from": "service:death_certificate",
+   "to": "action:death_certificate_online_death_certificate_for_deaths_registered_o",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Online death certificate for deaths registered on or after 01/04/2020 will not be available.",
+   "sources": [
+    {
+     "sourceId": "src:8915c5e8100c",
+     "evidence": "Surat Municipal Corporation is using Government of Gujarat's eOlakh Application ( https://eolakh.gujarat.gov.in/ ) for death registration from 01/04/2020, hence online death certificate for death registered on or after this date will not be available.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_death_certificate__requires__action_death_certificate_the_nominee_must_submit_a_death_reg",
    "from": "service:death_certificate",
    "to": "action:death_certificate_the_nominee_must_submit_a_death_registration_cer",
@@ -697,6 +763,22 @@
      "sourceId": "src:1cc4a3d9a83b",
      "evidence": "Toll Free - 18001081818",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_birth_certificate__visit_at__office_gandhinagar_municipal_corporation_office",
+   "from": "service:birth_certificate",
+   "to": "office:gandhinagar_municipal_corporation_office",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The office an applicant visits is the Gandhinagar Municipal Corporation.",
+   "sources": [
+    {
+     "sourceId": "src:1cc4a3d9a83b",
+     "evidence": "Birth & Death Certificate – Gandhinagar Municipal Corporation",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]

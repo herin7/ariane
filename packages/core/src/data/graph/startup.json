@@ -143,6 +143,16 @@
    "contentHash": "994beb67cd030943c188a05815381cc99020e85106d26b777116f8e9c7e20f32"
   },
   {
+   "id": "src:0cdd052c063e",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/Support_Incubation_CED_Naroda.pdf#page=3",
+   "title": "Support_Incubation_CED_Naroda (page 3 of 5)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "67d6ed6cba6625be8c46db38aff7c20087b27e9c7c48b9c4d3364f3fe6013b38"
+  },
+  {
    "id": "src:4fc361aa4ee4",
    "url": "https://www.startupindia.gov.in/content/sih/en/startup-scheme/state-startup-policies/Rajasthan-state-policy.html",
    "title": "Rajasthan",
@@ -233,6 +243,46 @@
    "contentHash": "46a7897679837b238174d74362b79dc8fb1773ffa4bb3c42d46081cd0364d490"
   },
   {
+   "id": "src:39f48a2a9a8e",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/start_up/Guidelines_for_Funding_support_to_startups.pdf#page=21",
+   "title": "Guidelines_for_Funding_support_to_startups (page 21 of 42)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "43b71c88d33d96b9492a2cbd6a95dad953367480e6f7d0f127c47a161b293385"
+  },
+  {
+   "id": "src:5a76cdb1c33c",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/start_up/Guidelines_for_Funding_support_to_startups.pdf#page=28",
+   "title": "Guidelines_for_Funding_support_to_startups (page 28 of 42)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "0527dba735d380d7ce4474ec85699a018cf0a4aa700a990fb6b46403102cdbcf"
+  },
+  {
+   "id": "src:864f3899043c",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/start_up/Guidelines_for_Funding_support_to_startups.pdf#page=29",
+   "title": "Guidelines_for_Funding_support_to_startups (page 29 of 42)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "7354a4fb6e85faba15fceadf608ace1054d5ef4dd1acbde70d519054e4691738"
+  },
+  {
+   "id": "src:2671729c9e1b",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/start_up/Guidelines_for_Funding_support_to_startups.pdf#page=36",
+   "title": "Guidelines_for_Funding_support_to_startups (page 36 of 42)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "e557ca833f9ef0a977ae3701889478726ab15336bc9f92f586cf51d072d34e24"
+  },
+  {
    "id": "src:904141d55348",
    "url": "https://stbi.gujarat.gov.in/Default.aspx",
    "title": "Home | Savli Incubator",
@@ -253,6 +303,16 @@
    "contentHash": "9c72a71a9063c07a703abf35093f7e0350d0cca0a042e3d6115ddd4b3e019685"
   },
   {
+   "id": "src:0dab047a2e2a",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/gr-27-01-2015-I.pdf#page=3",
+   "title": "gr-27-01-2015-I (page 3 of 5)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "35ce6e5c2e83b277d7d5a591ef5521dfc686cb9539e17dad6e0b3b37bb74ca0f"
+  },
+  {
    "id": "src:c9ed963f9aaf",
    "url": "https://ced.gujarat.gov.in/forms",
    "title": "Application Forms | E-Citizen - CED – Centre for Entrepreneurship Development, Gujarat",
@@ -261,6 +321,16 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "734ba11e22da12fda8224d7b4dde93677deaed07e114e7b6dcaf4094f4505409"
+  },
+  {
+   "id": "src:4e29980fb448",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/coir-udyami-yojana_cuy.html",
+   "title": "Coir Udyami Yojana",
+   "domain": "web.umang.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "692f2693d9de279136ebf62d0881fdcad7f993791a1517153b68306dde7cdc1e"
   }
  ],
  "nodes": [
@@ -624,6 +694,66 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:mitacs_globalink_research_internship_the_student_must_apply_directly_to_mitacs_canada",
+   "type": "ACTION",
+   "name": "The student must apply directly to MITACS Canada via its portal",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The student must apply directly to MITACS Canada via its portal.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "The student fulfilling the eligibility criteria shall apply directly to MITACS Canada via its portal and follow the procedure, guidelines, and terms and conditions mentioned therein;",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:mitacs_globalink_research_internship_all_materials_submitted_to_mitacs_must_be_in_eit",
+   "type": "ACTION",
+   "name": "All materials submitted to MITACS must be in either English or French",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "All materials submitted to MITACS must be in either English or French.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "All materials submitted to MITACS must be in either English or French. If materials submitted are not in one of Canada’s official languages, notarized transcripts must be submitted.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:mitacs_globalink_research_internship_the_student_should_have_a_valid_passport_before_",
+   "type": "ACTION",
+   "name": "The student should have a valid passport before leaving the country for the internship",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The student should have a valid passport before leaving the country for the internship.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "Before leaving the country for pursuing Globalink Research Internships (GRI) in Canada, student should have a valid passport and has obtained all necessary documents and permissions including a visa, air tickets for air travel, etc.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:mitacs_globalink_research_internship",
    "type": "SERVICE",
    "name": "Mitacs Globalink Research Internship",
@@ -961,6 +1091,26 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:startup_funding_support_startups_must_apply_for_seed_funding_support_thr",
+   "type": "ACTION",
+   "name": "Startups must apply for seed funding support through the Gujarat Startup Portal, which inc",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Startups must apply for seed funding support through the Gujarat Startup Portal, which includes submitting an application form with required documents.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:11156af4329b",
+     "evidence": "7\n2.2. Procedure for application on Gujarat Startup Portal for seed support assistanceStartup\nCommon\nregistration\nform\nSelection of IC\nscheme\nEligibility and\nconditions\nType of\nassistance\nrequested\nSeed funding\nsupport\nApplication form with documents",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:startup_funding_support",
    "type": "SERVICE",
    "name": "Startup Funding Support",
@@ -1067,6 +1217,46 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:incubation_at_the_end_of_the_selection_process_a_memorandum",
+   "type": "ACTION",
+   "name": "At the end of the selection process, a memorandum of understanding (MoU) is signed between",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "At the end of the selection process, a memorandum of understanding (MoU) is signed between the institution and the selected 'incubatee'.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:6d4e07e3a146",
+     "evidence": "during which the participants also work on their respective business plans and at the end of which, a memorandum of understanding (MoU) is signed between the institution and the selected ‘incubatee’.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:incubation_a_competitive_selection_process_lasting_between_",
+   "type": "ACTION",
+   "name": "A competitive selection process lasting between four and six months happens before incubat",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "A competitive selection process lasting between four and six months happens before incubation is granted.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:6d4e07e3a146",
+     "evidence": "competitive selection process lasting between four and six months, during which the participants also work on their respective business plans and at the end of which, a memorandum of understanding (MoU) is signed between the institution and the selected ‘incubatee’.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "action:incubation_the_startup_innovator_must_be_registered_for_pre",
    "type": "ACTION",
    "name": "The startup/innovator must be registered for pre-incubation or incubation at the NI for 1-",
@@ -1081,6 +1271,106 @@
      "sourceId": "src:ae5820dad30b",
      "evidence": "8. The startup/innovator should be registered for the pre-incubation or incubation program at the NI for 1-2 months before becoming eligible to apply for the assistance.",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:incubation_the_first_step_is_identifying_incubates",
+   "type": "ACTION",
+   "name": "The first step is identifying incubates",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The first step is identifying incubates.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:0cdd052c063e",
+     "evidence": "1. Identifying incubates",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:incubation_the_second_step_is_empanelling_mentors",
+   "type": "ACTION",
+   "name": "The second step is empanelling mentors",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The second step is empanelling mentors.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:0cdd052c063e",
+     "evidence": "2. Empanelling mentors",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:incubation_the_third_step_is_selecting_the_right_incubates",
+   "type": "ACTION",
+   "name": "The third step is selecting the right incubates",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The third step is selecting the right incubates.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:0cdd052c063e",
+     "evidence": "3. Selection of right incubates",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:incubation_the_fourth_step_is_establishing_a_hand_holding_s",
+   "type": "ACTION",
+   "name": "The fourth step is establishing a hand holding support (incubation) centre with infrastruc",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The fourth step is establishing a hand holding support (incubation) centre with infrastructure.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:0cdd052c063e",
+     "evidence": "4. Establishing hand holding support (incubation) centre (infrastructure)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:incubation_the_fifth_step_is_providing_mentorship_and_finan",
+   "type": "ACTION",
+   "name": "The fifth step is providing mentorship and financial support for the venture",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The fifth step is providing mentorship and financial support for the venture.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:0cdd052c063e",
+     "evidence": "5. Mentorship and Financial support for venture",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -1849,6 +2139,171 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:startup_cell_the_state_level_empowered_committee_slec_approve",
+   "type": "ACTION",
+   "name": "The State Level Empowered Committee (SLEC) approves, rejects, or recalls startup project p",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The State Level Empowered Committee (SLEC) approves, rejects, or recalls startup project proposals.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "State Level Empowered Committee (SLEC) shall meet once a month preferably for approve (eligible assistance), reject or recall Startup project proposal.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:startup_cell_the_nodal_institution_must_examine_the_case_of_s",
+   "type": "ACTION",
+   "name": "The Nodal Institution must examine the case of Startups thoroughly from the viewpoint of e",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The Nodal Institution must examine the case of Startups thoroughly from the viewpoint of evaluation parameters and take a decision.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "3. Nodal Institution will have to examine the case of Startups thoroughly from the viewpoint of evaluation parameters. After exercising due diligence, Nodal Institution will take decision and recommend (in prescribed format) the startup project proposal to the office of the Industries Commissioner within 15 working days from the submission of application.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:startup_cell_after_due_diligence_startup_applications_are_pla",
+   "type": "ACTION",
+   "name": "After due diligence, Startup applications are placed before the State Level Empowered Comm",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "After due diligence, Startup applications are placed before the State Level Empowered Committee (SLEC) within 30 days from the recommendation of the Expert Screening Committee.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "6. After exercising due diligence, the Startup applications will be placed before the State Level Empowered Committee (SLEC) within 30 days from the recommendation of Expert Screening Committee.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "document:informative_document_training_program",
+   "type": "DOCUMENT",
+   "name": "Informative document training program",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:39f48a2a9a8e",
+     "evidence": "Application form with mandatory documents:\n• Informative document of the training program (brochure, leaflet, letter from host organization etc.)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "document:receipt_fees_training_program",
+   "type": "DOCUMENT",
+   "name": "Receipt fees training program",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:39f48a2a9a8e",
+     "evidence": "• Receipt of fees paid for participating in the training program",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "document:certificate_completion_training_program",
+   "type": "DOCUMENT",
+   "name": "Certificate completion training program",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:39f48a2a9a8e",
+     "evidence": "• Certificate of completion of training program, clearly indicating name of the participants (founder/co-founders of startup)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "document:informative_document_acceleration_program",
+   "type": "DOCUMENT",
+   "name": "Informative document acceleration program",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:5a76cdb1c33c",
+     "evidence": "Application form with mandatory documents:\n• Informative document of the acceleration program (brochure, leaflet, letter from host organization etc.)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "document:receipt_fees_acceleration_program",
+   "type": "DOCUMENT",
+   "name": "Receipt fees acceleration program",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:864f3899043c",
+     "evidence": "• Receipt of fees paid for enrolling and participating in the acceleration program",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "document:certificate_participation_acceleration_program",
+   "type": "DOCUMENT",
+   "name": "Certificate participation acceleration program",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:864f3899043c",
+     "evidence": "• Certificate of participation (clearly indicating name of startup/ each participant)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "document:pitch_presentation",
+   "type": "DOCUMENT",
+   "name": "Pitch presentation",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:2671729c9e1b",
+     "evidence": "Application form with mandatory documents:\n• Pitch presentation",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:startup_cell",
    "type": "SERVICE",
    "name": "Startup Cell",
@@ -1904,6 +2359,30 @@
     {
      "sourceId": "src:88768d7d5b2d",
      "evidence": "5. iCreate will conduct a detailed evaluation through an Expert screening committee, comprised of domain experts, and submit their recommendations to the Startup Gujarat Cell within 20 working days.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "There is no application fee for this scheme.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "Startup Gujarat Cell will communicate the decision of SLEC to the Nodal Institutions within 10 working days.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "State Level Empowered Committee (SLEC) shall meet once a month preferably for approve (eligible assistance), reject or recall Startup project proposal.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "4. The Startup Gujarat Cell will scrutinize each application against the basic eligibility criteria and verify the submission of all required documents from the checklist.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -1991,6 +2470,86 @@
    ]
   },
   {
+   "id": "action:start_ups_innovation_assistance_scheme_the_institution_intending_to_promote_start_ups_m",
+   "type": "ACTION",
+   "name": "The institution intending to promote start-ups must submit its proposal to the Industries ",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The institution intending to promote start-ups must submit its proposal to the Industries Commissioner for approval as a Nodal Institute.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:0dab047a2e2a",
+     "evidence": "(a) The institution which intend to promote the start ups, will submit its proposal to Industries Commissioner for approval of Committee as Nodal Institute.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:start_ups_innovation_assistance_scheme_the_innovator_must_approach_the_institution_with",
+   "type": "ACTION",
+   "name": "The innovator must approach the institution with his proposal of an innovative idea or con",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The innovator must approach the institution with his proposal of an innovative idea or concept for recommendation.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:0dab047a2e2a",
+     "evidence": "(b) The innovator will approach institution with his proposal of innovative idea/concept for recommendation.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:start_ups_innovation_assistance_scheme_the_committee_will_approve_the_idea_or_concept_o",
+   "type": "ACTION",
+   "name": "The Committee will approve the idea or concept of an individual or group of individuals re",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The Committee will approve the idea or concept of an individual or group of individuals recommended by the institution.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:0dab047a2e2a",
+     "evidence": "(c) The Committee will approve idea/ concept of an individual or group of individuals duly recommended by institution.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:start_ups_innovation_assistance_scheme_the_institution_must_submit_a_proposal_to_the_in",
+   "type": "ACTION",
+   "name": "The institution must submit a proposal to the Industries Commissioner to avail assistance ",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The institution must submit a proposal to the Industries Commissioner to avail assistance for providing mentoring services.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:0dab047a2e2a",
+     "evidence": "(d) The institution will submit proposal to Industries Commissioner to avail assistance for providing mentoring services and the committee will sanction the assistance based on number of innovators.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:start_ups_innovation_assistance_scheme",
    "type": "SERVICE",
    "name": "Start Ups/Innovation assistance scheme",
@@ -2036,6 +2595,56 @@
      "evidence": "The recommendations have been incorporated in the New Industrial Policy 2015. 2500 persons will be supported for the period of 5 years",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0dab047a2e2a",
+     "evidence": "(a) The institution which intend to promote the start ups, will submit its proposal to Industries Commissioner for approval of Committee as Nodal Institute.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0dab047a2e2a",
+     "evidence": "(b) The innovator will approach institution with his proposal of innovative idea/concept for recommendation.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0dab047a2e2a",
+     "evidence": "(c) The Committee will approve idea/ concept of an individual or group of individuals duly recommended by institution.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0dab047a2e2a",
+     "evidence": "(d) The institution will submit proposal to Industries Commissioner to avail assistance for providing mentoring services and the committee will sanction the assistance based on number of innovators.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0dab047a2e2a",
+     "evidence": "(e) The institution will submit proposal to Industries Commissioner to avail assistance for Cost of Raw material I components & other related equipment required for innovation of new product/process development based on number of innovators.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:entrepreneurship_development_programme_applicants_must_undergo_a_mandatory_5_day_entrep",
+   "type": "ACTION",
+   "name": "Applicants must undergo a mandatory 5-day Entrepreneurship Development Programme (EDP) bef",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Applicants must undergo a mandatory 5-day Entrepreneurship Development Programme (EDP) before or after submission, but before bank recommendation.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:4e29980fb448",
+     "evidence": "Undergo a mandatory 5-day Entrepreneurship Development Programme (EDP) before or after submission, but before bank recommendation.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
     }
    ],
    "lastVerifiedAt": "2026-08-25"
@@ -2064,6 +2673,12 @@
      "sourceId": "src:c9ed963f9aaf",
      "evidence": "Application Form for the Scheme 1/2/3/4/5 and 6\nSr No | Details | Download |\n1 | Application Form for the Scheme 1/2/3/4/5 and 6 | Download\n[Gujarati] [1,141 KB]",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4e29980fb448",
+     "evidence": "Undergo a mandatory 5-day Entrepreneurship Development Programme (EDP) before or after submission, but before bank recommendation.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -2264,6 +2879,54 @@
    ]
   },
   {
+   "id": "e:service_mitacs_globalink_research_internship__requires__action_mitacs_globalink_research_internship_the_student_must",
+   "from": "service:mitacs_globalink_research_internship",
+   "to": "action:mitacs_globalink_research_internship_the_student_must_apply_directly_to_mitacs_canada",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The student must apply directly to MITACS Canada via its portal.",
+   "sources": [
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "The student fulfilling the eligibility criteria shall apply directly to MITACS Canada via its portal and follow the procedure, guidelines, and terms and conditions mentioned therein;",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_mitacs_globalink_research_internship__requires__action_mitacs_globalink_research_internship_all_materials_su",
+   "from": "service:mitacs_globalink_research_internship",
+   "to": "action:mitacs_globalink_research_internship_all_materials_submitted_to_mitacs_must_be_in_eit",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "All materials submitted to MITACS must be in either English or French.",
+   "sources": [
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "All materials submitted to MITACS must be in either English or French. If materials submitted are not in one of Canada’s official languages, notarized transcripts must be submitted.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_mitacs_globalink_research_internship__requires__action_mitacs_globalink_research_internship_the_student_shou",
+   "from": "service:mitacs_globalink_research_internship",
+   "to": "action:mitacs_globalink_research_internship_the_student_should_have_a_valid_passport_before_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The student should have a valid passport before leaving the country for the internship.",
+   "sources": [
+    {
+     "sourceId": "src:27aabf54d894",
+     "evidence": "Before leaving the country for pursuing Globalink Research Internships (GRI) in Canada, student should have a valid passport and has obtained all necessary documents and permissions including a visa, air tickets for air travel, etc.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_mitacs_globalink_research_internship__apply_at__portal_web_umang_gov_in",
    "from": "service:mitacs_globalink_research_internship",
    "to": "portal:web_umang_gov_in",
@@ -2392,6 +3055,22 @@
    ]
   },
   {
+   "id": "e:service_startup_funding_support__requires__action_startup_funding_support_startups_must_apply_for_seed_",
+   "from": "service:startup_funding_support",
+   "to": "action:startup_funding_support_startups_must_apply_for_seed_funding_support_thr",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Startups must apply for seed funding support through the Gujarat Startup Portal, which includes submitting an application form with required documents.",
+   "sources": [
+    {
+     "sourceId": "src:11156af4329b",
+     "evidence": "7\n2.2. Procedure for application on Gujarat Startup Portal for seed support assistanceStartup\nCommon\nregistration\nform\nSelection of IC\nscheme\nEligibility and\nconditions\nType of\nassistance\nrequested\nSeed funding\nsupport\nApplication form with documents",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_startup_funding_support__requires__payment_startup_funding_support_fee",
    "from": "service:startup_funding_support",
    "to": "payment:startup_funding_support_fee",
@@ -2424,6 +3103,38 @@
    ]
   },
   {
+   "id": "e:service_incubation__requires__action_incubation_at_the_end_of_the_selection_process_a_memo",
+   "from": "service:incubation",
+   "to": "action:incubation_at_the_end_of_the_selection_process_a_memorandum",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "At the end of the selection process, a memorandum of understanding (MoU) is signed between the institution and the selected 'incubatee'.",
+   "sources": [
+    {
+     "sourceId": "src:6d4e07e3a146",
+     "evidence": "during which the participants also work on their respective business plans and at the end of which, a memorandum of understanding (MoU) is signed between the institution and the selected ‘incubatee’.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_incubation__requires__action_incubation_a_competitive_selection_process_lasting_be",
+   "from": "service:incubation",
+   "to": "action:incubation_a_competitive_selection_process_lasting_between_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A competitive selection process lasting between four and six months happens before incubation is granted.",
+   "sources": [
+    {
+     "sourceId": "src:6d4e07e3a146",
+     "evidence": "competitive selection process lasting between four and six months, during which the participants also work on their respective business plans and at the end of which, a memorandum of understanding (MoU) is signed between the institution and the selected ‘incubatee’.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_incubation__requires__action_incubation_the_startup_innovator_must_be_registered_f",
    "from": "service:incubation",
    "to": "action:incubation_the_startup_innovator_must_be_registered_for_pre",
@@ -2435,6 +3146,86 @@
      "sourceId": "src:ae5820dad30b",
      "evidence": "8. The startup/innovator should be registered for the pre-incubation or incubation program at the NI for 1-2 months before becoming eligible to apply for the assistance.",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_incubation__requires__action_incubation_the_first_step_is_identifying_incubates",
+   "from": "service:incubation",
+   "to": "action:incubation_the_first_step_is_identifying_incubates",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The first step is identifying incubates.",
+   "sources": [
+    {
+     "sourceId": "src:0cdd052c063e",
+     "evidence": "1. Identifying incubates",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_incubation__requires__action_incubation_the_second_step_is_empanelling_mentors",
+   "from": "service:incubation",
+   "to": "action:incubation_the_second_step_is_empanelling_mentors",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The second step is empanelling mentors.",
+   "sources": [
+    {
+     "sourceId": "src:0cdd052c063e",
+     "evidence": "2. Empanelling mentors",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_incubation__requires__action_incubation_the_third_step_is_selecting_the_right_incu",
+   "from": "service:incubation",
+   "to": "action:incubation_the_third_step_is_selecting_the_right_incubates",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The third step is selecting the right incubates.",
+   "sources": [
+    {
+     "sourceId": "src:0cdd052c063e",
+     "evidence": "3. Selection of right incubates",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_incubation__requires__action_incubation_the_fourth_step_is_establishing_a_hand_hol",
+   "from": "service:incubation",
+   "to": "action:incubation_the_fourth_step_is_establishing_a_hand_holding_s",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The fourth step is establishing a hand holding support (incubation) centre with infrastructure.",
+   "sources": [
+    {
+     "sourceId": "src:0cdd052c063e",
+     "evidence": "4. Establishing hand holding support (incubation) centre (infrastructure)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_incubation__requires__action_incubation_the_fifth_step_is_providing_mentorship_and",
+   "from": "service:incubation",
+   "to": "action:incubation_the_fifth_step_is_providing_mentorship_and_finan",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The fifth step is providing mentorship and financial support for the venture.",
+   "sources": [
+    {
+     "sourceId": "src:0cdd052c063e",
+     "evidence": "5. Mentorship and Financial support for venture",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -2904,6 +3695,166 @@
    ]
   },
   {
+   "id": "e:service_startup_cell__requires__action_startup_cell_the_state_level_empowered_committee_slec",
+   "from": "service:startup_cell",
+   "to": "action:startup_cell_the_state_level_empowered_committee_slec_approve",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The State Level Empowered Committee (SLEC) approves, rejects, or recalls startup project proposals.",
+   "sources": [
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "State Level Empowered Committee (SLEC) shall meet once a month preferably for approve (eligible assistance), reject or recall Startup project proposal.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_cell__requires__action_startup_cell_the_nodal_institution_must_examine_the_c",
+   "from": "service:startup_cell",
+   "to": "action:startup_cell_the_nodal_institution_must_examine_the_case_of_s",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Nodal Institution must examine the case of Startups thoroughly from the viewpoint of evaluation parameters and take a decision.",
+   "sources": [
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "3. Nodal Institution will have to examine the case of Startups thoroughly from the viewpoint of evaluation parameters. After exercising due diligence, Nodal Institution will take decision and recommend (in prescribed format) the startup project proposal to the office of the Industries Commissioner within 15 working days from the submission of application.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_cell__requires__action_startup_cell_after_due_diligence_startup_applications",
+   "from": "service:startup_cell",
+   "to": "action:startup_cell_after_due_diligence_startup_applications_are_pla",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "After due diligence, Startup applications are placed before the State Level Empowered Committee (SLEC) within 30 days from the recommendation of the Expert Screening Committee.",
+   "sources": [
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "6. After exercising due diligence, the Startup applications will be placed before the State Level Empowered Committee (SLEC) within 30 days from the recommendation of Expert Screening Committee.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_cell__requires__document_informative_document_training_program",
+   "from": "service:startup_cell",
+   "to": "document:informative_document_training_program",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant must bring an informative document of the training program, such as a brochure, leaflet, or letter from the host organization.",
+   "sources": [
+    {
+     "sourceId": "src:39f48a2a9a8e",
+     "evidence": "Application form with mandatory documents:\n• Informative document of the training program (brochure, leaflet, letter from host organization etc.)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_cell__requires__document_receipt_fees_training_program",
+   "from": "service:startup_cell",
+   "to": "document:receipt_fees_training_program",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant must bring a receipt of fees paid for participating in the training program.",
+   "sources": [
+    {
+     "sourceId": "src:39f48a2a9a8e",
+     "evidence": "• Receipt of fees paid for participating in the training program",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_cell__requires__document_certificate_completion_training_program",
+   "from": "service:startup_cell",
+   "to": "document:certificate_completion_training_program",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant must bring a certificate of completion of the training program, clearly indicating the name of the participants (founder/co-founders of startup).",
+   "sources": [
+    {
+     "sourceId": "src:39f48a2a9a8e",
+     "evidence": "• Certificate of completion of training program, clearly indicating name of the participants (founder/co-founders of startup)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_cell__requires__document_informative_document_acceleration_program",
+   "from": "service:startup_cell",
+   "to": "document:informative_document_acceleration_program",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant must bring an informative document of the acceleration program, such as a brochure, leaflet, or letter from the host organization.",
+   "sources": [
+    {
+     "sourceId": "src:5a76cdb1c33c",
+     "evidence": "Application form with mandatory documents:\n• Informative document of the acceleration program (brochure, leaflet, letter from host organization etc.)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_cell__requires__document_receipt_fees_acceleration_program",
+   "from": "service:startup_cell",
+   "to": "document:receipt_fees_acceleration_program",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant must bring a receipt of fees paid for enrolling and participating in the acceleration program.",
+   "sources": [
+    {
+     "sourceId": "src:864f3899043c",
+     "evidence": "• Receipt of fees paid for enrolling and participating in the acceleration program",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_cell__requires__document_certificate_participation_acceleration_program",
+   "from": "service:startup_cell",
+   "to": "document:certificate_participation_acceleration_program",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant must bring a certificate of participation in the acceleration program, clearly indicating the name of the startup or each participant.",
+   "sources": [
+    {
+     "sourceId": "src:864f3899043c",
+     "evidence": "• Certificate of participation (clearly indicating name of startup/ each participant)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_cell__requires__document_pitch_presentation",
+   "from": "service:startup_cell",
+   "to": "document:pitch_presentation",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant must bring a pitch presentation as a mandatory document.",
+   "sources": [
+    {
+     "sourceId": "src:2671729c9e1b",
+     "evidence": "Application form with mandatory documents:\n• Pitch presentation",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_startup_cell__apply_at__portal_ic_gujarat_gov_in",
    "from": "service:startup_cell",
    "to": "portal:ic_gujarat_gov_in",
@@ -2952,6 +3903,54 @@
    ]
   },
   {
+   "id": "e:service_start_ups_innovation_assistance_scheme__requires__action_start_ups_innovation_assistance_scheme_the_institutio",
+   "from": "service:start_ups_innovation_assistance_scheme",
+   "to": "action:start_ups_innovation_assistance_scheme_the_institution_intending_to_promote_start_ups_m",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The institution intending to promote start-ups must submit its proposal to the Industries Commissioner for approval as a Nodal Institute.",
+   "sources": [
+    {
+     "sourceId": "src:0dab047a2e2a",
+     "evidence": "(a) The institution which intend to promote the start ups, will submit its proposal to Industries Commissioner for approval of Committee as Nodal Institute.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_start_ups_innovation_assistance_scheme__requires__action_start_ups_innovation_assistance_scheme_the_innovator_",
+   "from": "service:start_ups_innovation_assistance_scheme",
+   "to": "action:start_ups_innovation_assistance_scheme_the_innovator_must_approach_the_institution_with",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The innovator must approach the institution with his proposal of an innovative idea or concept for recommendation.",
+   "sources": [
+    {
+     "sourceId": "src:0dab047a2e2a",
+     "evidence": "(b) The innovator will approach institution with his proposal of innovative idea/concept for recommendation.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_start_ups_innovation_assistance_scheme__requires__action_start_ups_innovation_assistance_scheme_the_committee_",
+   "from": "service:start_ups_innovation_assistance_scheme",
+   "to": "action:start_ups_innovation_assistance_scheme_the_committee_will_approve_the_idea_or_concept_o",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Committee will approve the idea or concept of an individual or group of individuals recommended by the institution.",
+   "sources": [
+    {
+     "sourceId": "src:0dab047a2e2a",
+     "evidence": "(c) The Committee will approve idea/ concept of an individual or group of individuals duly recommended by institution.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_start_ups_innovation_assistance_scheme__apply_at__portal_ced_gujarat_gov_in",
    "from": "service:start_ups_innovation_assistance_scheme",
    "to": "portal:ced_gujarat_gov_in",
@@ -2963,6 +3962,22 @@
      "sourceId": "src:4236ac0c3e16",
      "evidence": "which will come into force from the date 1.1.2015 and will remain in operation for a period of five years.",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_entrepreneurship_development_programme__requires__action_entrepreneurship_development_programme_applicants_mus",
+   "from": "service:entrepreneurship_development_programme",
+   "to": "action:entrepreneurship_development_programme_applicants_must_undergo_a_mandatory_5_day_entrep",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Applicants must undergo a mandatory 5-day Entrepreneurship Development Programme (EDP) before or after submission, but before bank recommendation.",
+   "sources": [
+    {
+     "sourceId": "src:4e29980fb448",
+     "evidence": "Undergo a mandatory 5-day Entrepreneurship Development Programme (EDP) before or after submission, but before bank recommendation.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
