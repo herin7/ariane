@@ -22,11 +22,19 @@
 
 import { createHash } from "node:crypto";
 import { readdirSync, readFileSync, writeFileSync } from "node:fs";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import { normalise } from "./lib/url.mjs";
 
 const root = new URL("../", import.meta.url);
 const at = (p) => fileURLToPath(new URL(p, root));
+
+// The page bodies are not in this repository. They are third-party government
+// content; what we publish is the facts extracted from them and the verbatim
+// quote behind each one. Set ARIANE_CORPUS_DIR to a checkout of the private
+// corpus, or leave it unset and the caches are looked for beside the code, which
+// is where the pipeline writes them while it is running.
+const corpusRoot = process.env.ARIANE_CORPUS_DIR ? pathToFileURL(process.env.ARIANE_CORPUS_DIR.replace(/\/*$/, "/")) : root;
+const inCorpus = (p) => fileURLToPath(new URL(p, corpusRoot));
 
 // ------------------------------------------------------------- what we cited
 
@@ -62,7 +70,7 @@ const files = new Map(); // relative path -> { bytes, sha256 }
 function walkInto(dir) {
   let entries;
   try {
-    entries = readdirSync(at(dir), { withFileTypes: true });
+    entries = readdirSync(inCorpus(dir), { withFileTypes: true });
   } catch {
     return; // no cache on this machine yet, which --check will report
   }
@@ -70,7 +78,7 @@ function walkInto(dir) {
     const path = `${dir}${e.name}`;
     if (e.isDirectory()) walkInto(`${path}/`);
     else {
-      const buffer = readFileSync(at(path));
+      const buffer = readFileSync(inCorpus(path));
       files.set(path, { bytes: buffer.length, sha256: createHash("sha256").update(buffer).digest("hex") });
     }
   }
@@ -155,6 +163,20 @@ if (args[0] === "--have") {
     else console.log(`NEED  ${key}`), need++;
   }
   process.exit(need ? 1 : 0);
+}
+
+// Every mode below this line reconciles the ledger against page bodies on disk.
+// With no corpus there is nothing to reconcile against, and the answer is not
+// "everything is missing" written confidently into the ledger. Say what is
+// absent and stop. This is why the check runs under `pnpm gates:corpus` and not
+// under `pnpm gates`: a public clone has the facts and the quotes, not the pages.
+if (!files.size && args[0] !== "--have") {
+  console.error("No evidence corpus found. Looked in:");
+  console.error(`  ${inCorpus(".firecrawl/")}`);
+  console.error(`  ${inCorpus(".ingest/pages/")}`);
+  console.error(process.env.ARIANE_CORPUS_DIR ? `ARIANE_CORPUS_DIR is ${process.env.ARIANE_CORPUS_DIR}` : "Set ARIANE_CORPUS_DIR to a corpus checkout, or run the ingestion pipeline to build one.");
+  console.error("The ledger reconciles cited urls against saved page bodies, which this repository does not ship. See NOTICE.");
+  process.exit(1);
 }
 
 if (args.includes("--check")) {
