@@ -45,11 +45,34 @@ for (const file of files) {
   }
 }
 
+/**
+ * And the phone, which webpack cannot save.
+ *
+ * The browser gets away with importing the package root because webpack reads
+ * `"sideEffects": false` and drops the unused seed. Metro does not tree shake,
+ * so on Expo the same import is not a warning, it is the whole graph: one
+ * `import { stageGroups } from "@ariane/core"` took the dev bundle from 4.3MB
+ * to 10.9MB and put 11471 verbatim government quotes on the device, where they
+ * sit and go stale while the server's copy moves on.
+ *
+ * Checked by reading the source rather than by building a bundle, because
+ * asserting the rule is cheaper than asserting the consequence and this gate
+ * runs on every commit. Type imports are erased at build and are fine.
+ */
+const mobileApp = join("..", "mobile", "App.tsx");
+const mobile = readFileSync(mobileApp, "utf8");
+for (const line of mobile.split("\n")) {
+  const root = /^import\s+(.*)\s+from\s+"@ariane\/core"/.exec(line);
+  if (root && !root[1].startsWith("type ")) {
+    problems.push(`${mobileApp} imports values from the package root: ${line.trim()}`);
+  }
+}
+
 if (problems.length) {
-  console.error(`\n${problems.length} thing(s) leaked into the client bundle:`);
+  console.error(`\n${problems.length} thing(s) leaked into a client bundle:`);
   for (const p of problems) console.error(`  ${p}`);
   console.error("\nSomething imported from the package root where it should have used a leaf or @ariane/core/server.");
   process.exit(1);
 }
 
-console.log(`client bundle clean, ${files.length} chunk(s) checked`);
+console.log(`client bundle clean, ${files.length} chunk(s) checked, phone imports no data`);

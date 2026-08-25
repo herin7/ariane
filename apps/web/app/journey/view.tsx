@@ -302,7 +302,11 @@ function Summary({ journey }: { journey: CompiledJourney }) {
     `${s.stepsRemaining} step${s.stepsRemaining === 1 ? "" : "s"} left`,
     s.documentsToPrepareCount ? `${s.documentsToPrepareCount} document${s.documentsToPrepareCount === 1 ? "" : "s"} to prepare` : "",
     s.physicalVisits ? `${s.physicalVisits} office visit${s.physicalVisits === 1 ? "" : "s"}` : "",
-    s.digitalChannels && !s.physicalVisits ? "all of it online" : "",
+    // Not "all of it online". physicalVisits counts government offices we hold
+    // an address for, and scholarship proved the difference: no office in the
+    // graph, four steps, and a blocker that says go to your bank branch and
+    // get the account seeded. Claim the thing we actually checked.
+    s.digitalChannels && !s.physicalVisits ? "no government office to visit" : "",
   ].filter(Boolean);
 
   return (

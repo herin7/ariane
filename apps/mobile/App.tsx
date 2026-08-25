@@ -11,7 +11,13 @@ import {
   View,
 } from "react-native";
 import { API, compileJourney, resolveIntent, type Resolved } from "./api";
-import { stageGroups } from "@ariane/core";
+// The subpath, not the package root. The root re-exports the graph seed, and
+// Metro follows it: importing this one function from "@ariane/core" put every
+// node, every source and 11471 verbatim government quotes inside the phone
+// bundle, which is 5MB the citizen downloads and a second copy of the graph
+// that can disagree with the server. journey.ts imports no data.
+import { stageGroups } from "@ariane/core/journey";
+// Types only, erased at build. These stay on the package root safely.
 import type { CompiledJourney, DerivedQuestion, Facts, JourneyStep } from "@ariane/core";
 
 /**
@@ -22,8 +28,38 @@ import type { CompiledJourney, DerivedQuestion, Facts, JourneyStep } from "@aria
  * every claim on the screen carries the source it was read off. Where there is
  * no source it says so instead of guessing.
  *
- * Deliberately plain. The UI is here to be usable, not admired.
+ * The palette, the wording and the thread down the left of the path are the
+ * same ones the web app uses. Not for tidiness: somebody who reads their
+ * journey on a laptop and then opens it on a phone at the counter should not
+ * have to work out whether they are looking at the same answer.
  */
+
+/**
+ * The web app's design tokens, which live in one block of custom properties in
+ * apps/web/app/globals.css. React Native has no cascade, so they are copied
+ * rather than shared, and this comment is the reason both files must move
+ * together.
+ */
+const T = {
+  bg: "#faf7f2",
+  paper: "#fffefb",
+  sunk: "#f4efe7",
+  line: "#e9e1d5",
+  lineStrong: "#d8ccb9",
+  ink: "#191411",
+  inkSoft: "#4a423b",
+  muted: "#7a6f64",
+  faint: "#9d9285",
+  accent: "#bb3e11",
+  accentSoft: "#fbeee7",
+  accentLine: "#f0d6c7",
+  good: "#1c7a4b",
+  goodSoft: "#eaf5ee",
+  warn: "#8f5c06",
+  warnSoft: "#fbf1de",
+  bad: "#ab2f20",
+  badSoft: "#fbecea",
+} as const;
 
 export default function App() {
   const [goal, setGoal] = useState<{ id: string; name: string } | null>(null);
@@ -57,9 +93,12 @@ function Search({ onPick }: { onPick: (goal: { id: string; name: string }) => vo
 
   return (
     <ScrollView contentContainerStyle={styles.page} keyboardShouldPersistTaps="handled">
-      <Text style={styles.h1}>Ariane</Text>
-      <Text style={styles.sub}>
-        Describe what you need in your own words. Gujarati, Hindi or English, either script.
+      {/* §28. Same sentence the web landing page opens with. */}
+      <Text style={styles.h1}>Government shouldn&rsquo;t{"\n"}feel this hard.</Text>
+      <Text style={styles.lede}>
+        Tell us what you need to get done, in your own words. Gujarati, Hindi or English, either
+        script. We work out the order, the documents and the office, and we show you the government
+        page every answer came from.
       </Text>
 
       <TextInput
@@ -79,8 +118,8 @@ function Search({ onPick }: { onPick: (goal: { id: string; name: string }) => vo
 
       {result?.understoodAs ? (
         <Text style={styles.muted}>
-          Read as: {result.understoodAs}
-          {result.detectedLanguage ? ` (${result.detectedLanguage})` : ""}
+          Read from your sentence: <Text style={{ color: T.ink }}>{result.understoodAs}</Text>
+          {result.detectedLanguage ? ` · ${result.detectedLanguage}` : ""}
         </Text>
       ) : null}
 
@@ -91,7 +130,12 @@ function Search({ onPick }: { onPick: (goal: { id: string; name: string }) => vo
         </Text>
       ) : null}
 
-      {result?.matches.map((m) => (
+      {result?.matches.length ? <Text style={styles.muted}>Looks like you need</Text> : null}
+
+      {/* §5. Three at most. A ranked list of nine is the citizen doing the
+          matching, which is the job they came here to hand over. §4: no
+          confidence number reaches the screen, here or on the web. */}
+      {result?.matches.slice(0, 3).map((m) => (
         <Pressable
           key={m.goal}
           style={styles.card}
@@ -102,8 +146,9 @@ function Search({ onPick }: { onPick: (goal: { id: string; name: string }) => vo
             <Text style={styles.muted}>Officially: {m.officialName}</Text>
           ) : null}
           <Text style={styles.muted}>
-            {m.confidence < 0.3 ? "Best guess. " : ""}
-            {m.matched.length ? `Matched: ${m.matched.join(", ")}` : "Read from the sentence, not the words"}
+            {m.matched.length
+              ? `because you said ${m.matched.join(", ")}`
+              : "read between your words rather than off them, so check this is what you meant"}
           </Text>
         </Pressable>
       ))}
@@ -169,8 +214,9 @@ function Journey({ goal, onBack }: { goal: { id: string; name: string }; onBack:
     <ScrollView contentContainerStyle={styles.page} keyboardShouldPersistTaps="handled">
       <Back onPress={onBack} />
       <Text style={styles.h1}>{journey.goalName}</Text>
-      <Text style={styles.sub}>
-        {journey.jurisdiction.name}. Rules applied in order: {journey.jurisdiction.chain.join(" then ")}
+      {/* §29. The sentence a person needs before a list of eight things. */}
+      <Text style={styles.lede}>
+        You can do this. Here is the whole of it, in the order it actually happens.
       </Text>
 
       {districts.length ? (
@@ -187,27 +233,53 @@ function Journey({ goal, onBack }: { goal: { id: string; name: string }; onBack:
         </ScrollView>
       ) : null}
 
-      <View style={styles.stats}>
-        {(
-          [
-            [s.stepsRemaining, "steps left"],
-            [s.documentsToPrepareCount, "to prepare"],
-            [s.documentsReadyCount, "you have"],
-            [s.physicalVisits, "office visits"],
-            [s.digitalChannels, "online"],
-            [s.blockerCount, "blockers"],
-          ] as [number, string][]
-        ).map(([value, label]) => (
-          <View key={label} style={styles.stat}>
-            <Text style={styles.statValue}>{value}</Text>
-            <Text style={styles.statLabel}>{label}</Text>
+      {/* §7. Six numbers with labels under them is an analytics dashboard, and
+          it told a citizen nothing they could act on. Same numbers, said the
+          way somebody would say them, same wording as the web. */}
+      <View style={styles.chipRowStatic}>
+        {[
+          `${s.stepsRemaining} step${s.stepsRemaining === 1 ? "" : "s"} left`,
+          s.documentsToPrepareCount
+            ? `${s.documentsToPrepareCount} document${s.documentsToPrepareCount === 1 ? "" : "s"} to prepare`
+            : "",
+          s.physicalVisits ? `${s.physicalVisits} office visit${s.physicalVisits === 1 ? "" : "s"}` : "",
+          // physicalVisits counts government offices we hold an address for, so
+          // this cannot promise nothing physical. It promises what it checked.
+          s.digitalChannels && !s.physicalVisits ? "no government office to visit" : "",
+        ]
+          .filter(Boolean)
+          .map((label) => (
+            <View key={label} style={[styles.tag, { backgroundColor: T.accentSoft }]}>
+              <Text style={[styles.tagText, { color: T.accent }]}>{label}</Text>
+            </View>
+          ))}
+        {s.documentsReadyCount ? (
+          <View style={[styles.tag, { backgroundColor: T.goodSoft }]}>
+            <Text style={[styles.tagText, { color: T.good }]}>
+              {s.documentsReadyCount} you already have
+            </Text>
           </View>
-        ))}
+        ) : null}
+        {s.blockerCount ? (
+          <View style={[styles.tag, { backgroundColor: T.badSoft }]}>
+            <Text style={[styles.tagText, { color: T.bad }]}>
+              {s.blockerCount} blocker{s.blockerCount === 1 ? "" : "s"}
+            </Text>
+          </View>
+        ) : null}
       </View>
+
+      <Text style={styles.faint}>
+        {journey.jurisdiction.name}. Rules applied in order: {journey.jurisdiction.chain.join(" then ")}
+      </Text>
 
       {journey.outstandingQuestions.length ? (
         <>
-          <Text style={styles.h2}>Answer these and the path gets shorter</Text>
+          {/* §6. How much is left, not which numbered step of a form you are on. */}
+          <Text style={styles.h2}>
+            We only need {journey.outstandingQuestions.length} more thing
+            {journey.outstandingQuestions.length === 1 ? "" : "s"}
+          </Text>
           <Text style={styles.muted}>We only ask what changes the graph. Nothing here is stored.</Text>
           {journey.outstandingQuestions.map((q) => (
             <Question
@@ -238,15 +310,19 @@ function Journey({ goal, onBack }: { goal: { id: string; name: string }; onBack:
       ) : null}
 
       <Text style={styles.h2}>Your path</Text>
-      {stageGroups(journey.orderedSteps)
-        .map((g, _i, all) => (
-          <View key={g.stage ?? "all"}>
-            {all.length > 1 ? <Text style={styles.muted}>{g.label}</Text> : null}
+      {/* §8. The thread. One line down the left of the whole journey, with a
+          knot at every step, because that is the brand and it is also the
+          single clearest way to say "these are one continuous thing". */}
+      <View style={styles.thread}>
+        {stageGroups(journey.orderedSteps).map((g, _i, all) => (
+          <View key={g.stage ?? "all"} style={{ gap: 8 }}>
+            {all.length > 1 ? <Text style={styles.stageLabel}>{g.label}</Text> : null}
             {g.steps.map((step) => (
               <Step key={step.nodeId} step={step} held={held} onHave={toggleHeld} />
             ))}
           </View>
         ))}
+      </View>
 
       <Text style={styles.h2}>If you get stuck</Text>
       {journey.helplines.length || journey.escalationPaths.length ? (
@@ -310,20 +386,53 @@ function Step({
     .filter(Boolean)
     .join("  ·  ");
 
+  // §10. What a person should trust this step as far as, in three words.
+  const trust = step.sources.some((s) => s.verificationStatus === "CONFLICTING")
+    ? { bg: T.warnSoft, fg: T.warn, label: "Official sources disagree" }
+    : step.machineExtracted
+      ? { bg: T.warnSoft, fg: T.warn, label: "Machine extracted" }
+      : step.sources.length
+        ? { bg: T.goodSoft, fg: T.good, label: "Source verified" }
+        : { bg: T.sunk, fg: T.muted, label: "Not verified yet" };
+
   return (
     <View style={[styles.card, step.state === "BLOCKED" && styles.blocked]}>
-      <Text style={styles.h3}>
-        {step.orderVerified ? `${step.order}. ` : ""}{step.title}
-        {step.state !== "READY" ? `  [${step.state.replace("_", " ").toLowerCase()}]` : ""}
-      </Text>
+      {/* The knot. Its number only appears when a government page printed one:
+          §11 forbids inventing a total order, so an unnumbered step gets a dot
+          and says nothing about where it sits. */}
+      <View
+        style={[
+          styles.knot,
+          step.state === "SATISFIED" && { backgroundColor: T.good, borderColor: T.good },
+          step.state === "BLOCKED" && { backgroundColor: T.bad, borderColor: T.bad },
+          !step.orderVerified && step.state === "READY" && { borderColor: T.lineStrong },
+        ]}
+      >
+        <Text
+          style={[
+            styles.knotText,
+            (step.state === "SATISFIED" || step.state === "BLOCKED") && { color: "#fff" },
+            !step.orderVerified && step.state === "READY" && { color: T.faint },
+          ]}
+        >
+          {step.state === "SATISFIED" ? "✓" : step.orderVerified ? step.order : "•"}
+        </Text>
+      </View>
+
+      <View style={[styles.chipRowStatic, { gap: 6 }]}>
+        <View style={[styles.tag, { backgroundColor: trust.bg }]}>
+          <Text style={[styles.tagText, { color: trust.fg }]}>{trust.label}</Text>
+        </View>
+        {step.state === "WAITING_EXTERNAL" ? (
+          <View style={[styles.tag, { backgroundColor: T.sunk }]}>
+            <Text style={[styles.tagText, { color: T.muted }]}>waiting external</Text>
+          </View>
+        ) : null}
+      </View>
+
+      <Text style={styles.h3}>{step.title}</Text>
       {step.officialName && step.officialName !== step.title ? (
         <Text style={styles.muted}>Officially: {step.officialName}</Text>
-      ) : null}
-      {step.machineExtracted ? (
-        <Text style={styles.warn}>
-          No person has checked this one. Every line below is quoted from the government page it links
-          to, but a machine did the reading.
-        </Text>
       ) : null}
       {step.description ? <Text style={styles.body}>{step.description}</Text> : null}
       {step.whyRequired ? <Text style={styles.body}>{step.whyRequired}</Text> : null}
@@ -510,50 +619,84 @@ function Back({ onPress }: { onPress: () => void }) {
 }
 
 const styles = StyleSheet.create({
-  app: { flex: 1, backgroundColor: "#fff", paddingTop: 48 },
-  page: { padding: 16, paddingBottom: 64, gap: 8 },
-  centre: { flex: 1, alignItems: "center", justifyContent: "center" },
-  h1: { fontSize: 26, fontWeight: "700", color: "#111" },
-  h2: { fontSize: 18, fontWeight: "700", color: "#111", marginTop: 20 },
-  h3: { fontSize: 15, fontWeight: "600", color: "#111" },
-  sub: { fontSize: 13, color: "#555" },
-  body: { fontSize: 14, color: "#222", lineHeight: 20 },
-  muted: { fontSize: 12, color: "#666", lineHeight: 17 },
-  error: { fontSize: 14, color: "#a11", lineHeight: 20 },
-  warn: { fontSize: 12, color: "#8a5a00", lineHeight: 17, fontWeight: "600" },
-  link: { fontSize: 12, color: "#0645ad", textDecorationLine: "underline" },
+  app: { flex: 1, backgroundColor: T.bg, paddingTop: 48 },
+  page: { padding: 18, paddingBottom: 72, gap: 10 },
+  centre: { flex: 1, alignItems: "center", justifyContent: "center", gap: 10 },
+  h1: { fontSize: 30, fontWeight: "700", color: T.ink, letterSpacing: -0.7, lineHeight: 34 },
+  h2: { fontSize: 13, fontWeight: "600", color: T.muted, letterSpacing: 0.3, marginTop: 24 },
+  h3: { fontSize: 15.5, fontWeight: "600", color: T.ink, lineHeight: 21 },
+  lede: { fontSize: 15.5, color: T.inkSoft, lineHeight: 22, marginBottom: 8 },
+  body: { fontSize: 14, color: T.inkSoft, lineHeight: 20 },
+  muted: { fontSize: 12.5, color: T.muted, lineHeight: 18 },
+  faint: { fontSize: 12, color: T.faint, lineHeight: 17 },
+  stageLabel: { fontSize: 11.5, fontWeight: "700", color: T.faint, letterSpacing: 0.8, marginTop: 12 },
+  error: { fontSize: 14, color: T.bad, lineHeight: 20 },
+  warn: { fontSize: 12.5, color: T.warn, lineHeight: 18, fontWeight: "600" },
+  link: { fontSize: 12.5, color: T.accent, textDecorationLine: "underline" },
   input: {
     borderWidth: 1,
-    borderColor: "#ccc",
-    borderRadius: 8,
-    paddingHorizontal: 12,
-    paddingVertical: 10,
+    borderColor: T.lineStrong,
+    backgroundColor: T.paper,
+    borderRadius: 12,
+    paddingHorizontal: 14,
+    paddingVertical: 12,
     fontSize: 16,
+    color: T.ink,
   },
   grow: { flex: 1 },
-  primary: { backgroundColor: "#111", borderRadius: 8, paddingVertical: 11, alignItems: "center" },
-  primaryText: { color: "#fff", fontWeight: "600" },
-  small: { alignSelf: "flex-start", paddingVertical: 4 },
-  smallText: { fontSize: 12, color: "#0645ad" },
-  card: { borderWidth: 1, borderColor: "#e3e3e3", borderRadius: 10, padding: 12, gap: 4 },
-  blocked: { borderColor: "#e0b4b4", backgroundColor: "#fdf6f6" },
-  line: { gap: 2, marginTop: 4 },
-  evidence: { borderLeftWidth: 3, borderLeftColor: "#ddd", paddingLeft: 8, marginTop: 6, gap: 2 },
+  primary: {
+    backgroundColor: T.accent,
+    borderRadius: 12,
+    paddingVertical: 13,
+    paddingHorizontal: 18,
+    alignItems: "center",
+  },
+  primaryText: { color: "#fffefb", fontWeight: "600", fontSize: 15 },
+  small: { alignSelf: "flex-start", paddingVertical: 5 },
+  smallText: { fontSize: 12.5, color: T.accent },
+  card: {
+    borderWidth: 1,
+    borderColor: T.line,
+    backgroundColor: T.paper,
+    borderRadius: 14,
+    padding: 14,
+    gap: 5,
+  },
+  blocked: { borderColor: "#f0c9c4", backgroundColor: T.badSoft },
+  line: { gap: 2, marginTop: 5 },
+  evidence: { borderLeftWidth: 2, borderLeftColor: T.accentLine, paddingLeft: 10, marginTop: 7, gap: 2 },
   chipRow: { flexGrow: 0 },
   chipRowStatic: { flexDirection: "row", flexWrap: "wrap", gap: 8, alignItems: "center" },
   chip: {
     borderWidth: 1,
-    borderColor: "#ccc",
-    borderRadius: 16,
-    paddingHorizontal: 12,
-    paddingVertical: 6,
+    borderColor: T.lineStrong,
+    backgroundColor: T.paper,
+    borderRadius: 999,
+    paddingHorizontal: 14,
+    paddingVertical: 8,
     marginRight: 8,
   },
-  chipOn: { backgroundColor: "#111", borderColor: "#111" },
-  chipText: { fontSize: 13, color: "#222" },
-  chipOnText: { fontSize: 13, color: "#fff" },
-  stats: { flexDirection: "row", flexWrap: "wrap", gap: 12, marginTop: 8 },
-  stat: { minWidth: 88 },
-  statValue: { fontSize: 20, fontWeight: "700", color: "#111" },
-  statLabel: { fontSize: 11, color: "#666" },
+  chipOn: { backgroundColor: T.ink, borderColor: T.ink },
+  chipText: { fontSize: 13.5, color: T.inkSoft },
+  chipOnText: { fontSize: 13.5, color: T.paper },
+  tag: { borderRadius: 999, paddingHorizontal: 9, paddingVertical: 4 },
+  tagText: { fontSize: 11.5, fontWeight: "600" },
+
+  // The thread, and the knots on it. The rail is a left border on the whole
+  // path; each knot is pulled back out over it so it sits centred on the line.
+  thread: { borderLeftWidth: 2, borderLeftColor: T.accentLine, paddingLeft: 24, marginLeft: 11, gap: 8 },
+  knot: {
+    position: "absolute",
+    left: -37,
+    top: 14,
+    width: 24,
+    height: 24,
+    borderRadius: 999,
+    borderWidth: 1.5,
+    borderColor: T.accentLine,
+    backgroundColor: T.paper,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  knotText: { fontSize: 12, fontWeight: "700", color: T.accent },
 });
