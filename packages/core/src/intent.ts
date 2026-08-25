@@ -1,4 +1,4 @@
-import type { GraphData, GraphNode } from "./types";
+import type { AuthorityLevel, GraphData, GraphNode, SupportStatus } from "./types";
 
 /**
  * Intent resolution: plain language in, candidate service keys out.
@@ -30,6 +30,14 @@ export interface IntentMatch {
   confidence: number;
   /** Which words in the query actually matched. Shown so the citizen can correct us. */
   matched: string[];
+  /**
+   * Carried through from the node so the UI can tell "we have not mapped that"
+   * apart from "that one is not Gujarat's to run". Absent means supported,
+   * which is every service that was here before central ones were listed.
+   */
+  supportStatus?: SupportStatus;
+  authorityLevel?: AuthorityLevel;
+  supportNote?: string;
 }
 
 const STOPWORDS = new Set([
@@ -204,6 +212,9 @@ export function resolveIntent(data: GraphData, text: string, limit = 5): IntentM
         officialName: service.node.officialName,
         confidence,
         matched: scored.hits,
+        supportStatus: service.node.metadata?.supportStatus,
+        authorityLevel: service.node.metadata?.authorityLevel,
+        supportNote: service.node.metadata?.supportNote,
       });
     }
   }
