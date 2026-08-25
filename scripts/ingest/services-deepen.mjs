@@ -29,7 +29,7 @@
 import { writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { completeness, loadGraph } from "./completeness.mjs";
-import { buildIndex, DIMENSIONS, indexText, loadChunks, LexicalRetriever, tokens } from "./corpus.mjs";
+import { buildIndex, DIMENSIONS, loadChunks, LexicalRetriever, tokens } from "./corpus.mjs";
 import { appendJsonl, at, INGEST, readJsonl } from "./lib.mjs";
 import { queriesFor } from "./queries.mjs";
 import { hostOf, normalise } from "../lib/url.mjs";
@@ -174,8 +174,33 @@ export async function retrieveOne(m, dimension, { retriever, graph, pass = 1, ow
   const best = new Map();
   const bySearch = [];
 
+  // How much of the service's own name each chunk in the corpus carries, decided
+  // once from the postings and handed to the scorer as a filter.
+  //
+  // This used to run on the results instead, and running it on the results is
+  // the bug the eval found. The retriever expands every search with its
+  // dimension's vocabulary, so a search for VERIFICATION returns twenty
+  // passages about inspections and enquiries whether or not any of them has
+  // heard of this service, and the anchor then kept the two that had. Six eval
+  // questions had shortlists of two, three and five passages for that reason,
+  // out of a budget of thirty we had already paid to retrieve.
+  //
+  // Inside the scorer, the same rule spends the whole budget on passages that
+  // at least mention us. corpus.mjs says exactly this about the jurisdiction
+  // filter one function up; the anchor is the same argument.
+  const anchor = anchorTerms(m.name, dimension);
+  const carried = anchor.size ? retriever.coverage(anchor) : null;
+  const excluded = new Set();
+  const filter = carried
+    ? (c) => {
+        if (carried.has(c.id)) return true;
+        excluded.add(c.id);
+        return false;
+      }
+    : null;
+
   for (const q of queries) {
-    const hits = await retriever.search(q);
+    const hits = await retriever.search({ ...q, filter });
     bySearch.push({ query: q.query, jurisdictionId: q.jurisdictionId, hits: hits.length });
     for (const h of hits) {
       const prior = best.get(h.id);
@@ -183,28 +208,40 @@ export async function retrieveOne(m, dimension, { retriever, graph, pass = 1, ow
     }
   }
 
-  // Every anchor term, then any, then none. BM25 scores terms independently, so
+  // Every anchor term first, then the rest. BM25 scores terms independently, so
   // a page repeating "fee" eleven times and "certificate" once outranks the page
   // that is actually about this service's fee: asking for FEES on Income
   // Certificate returned a transport permit fee schedule at rank one, because
-  // the permit page says certificate and says fee a great deal. Requiring every
-  // anchor term is an AND over a scorer that only does OR, and it is free.
+  // the permit page says certificate and says fee a great deal. Carrying the
+  // whole title is an AND over a scorer that only does OR, and it is free.
   //
-  // It falls back rather than failing, because a six word service title has six
-  // anchor terms and no page repeats a title word for word. Which tier was used
-  // is recorded: a shortlist built on ANY is one a reranker should be sceptical
-  // of, and that is worth telling it.
-  const anchor = anchorTerms(m.name, dimension);
+  // It is a sort key and not a gate, which it used to be, and being a gate cost
+  // us real answers. The eval found six questions the top thirty never answered
+  // and the shortlists were two, three and five passages long: a single page
+  // happened to carry every word of the title, so the tier above fired, and the
+  // twenty five slots we had already paid to retrieve were thrown away. §5 is
+  // blunt about it. "Page does not contain the exact service phrase" cannot mean
+  // "page can never contain useful evidence", because finding facts off a
+  // service's own page is the entire reason §9 built a corpus-wide retriever.
+  //
+  // Nothing is loosened downstream by this. A passage that is not anchored still
+  // scores topical 0, and enrich.mjs refuses a fact off a topical 0 passage
+  // unless the quote itself names the service, for the two dimensions where
+  // identity travels between pages. The gate that matters is at the fact, not at
+  // the shortlist.
+  //
+  // Which tier the best candidate reached is still recorded: a shortlist where
+  // nothing carried the whole title is one a reranker should be sceptical of.
   const hits = [...best.values()];
-  const terms = new Map(hits.map((h) => [h.id, new Set(tokens(indexText(h)))]));
-  const all = anchor.size ? hits.filter((h) => [...anchor].every((t) => terms.get(h.id).has(t))) : [];
-  const any = anchor.size ? hits.filter((h) => [...anchor].some((t) => terms.get(h.id).has(t))) : [];
-  const anchorMode = all.length ? "ALL" : any.length ? "ANY" : anchor.size ? "NONE" : "UNANCHORED";
-  const anchored = all.length ? all : any.length ? any : anchor.size ? [] : hits;
+  const whole = anchor.size ? hits.filter((h) => carried.get(h.id) === anchor.size) : [];
+  const anchorMode = !anchor.size ? "UNANCHORED" : whole.length ? "ALL" : hits.length ? "ANY" : "NONE";
 
   const ownUrls = new Set((m.urls ?? []).map(normalise));
-  for (const h of anchored) h.topical = topicality(h, anchor, ownUrls, ownHosts);
-  const candidates = anchored.sort((a, b) => b.topical - a.topical || b.score - a.score).slice(0, KEEP);
+  for (const h of hits) {
+    h.topical = topicality(h, anchor, ownUrls, ownHosts);
+    h.whole = anchor.size ? Number(carried.get(h.id) === anchor.size) : 0;
+  }
+  const candidates = hits.sort((a, b) => b.whole - a.whole || b.topical - a.topical || b.score - a.score).slice(0, KEEP);
 
   return {
     serviceId: m.serviceId,
@@ -214,10 +251,10 @@ export async function retrieveOne(m, dimension, { retriever, graph, pass = 1, ow
     jurisdictionId: m.jurisdictionId,
     queries: bySearch,
     anchor: [...anchor],
-    /** ALL every anchor term, ANY at least one, NONE none survived, UNANCHORED nothing to anchor on. */
+    /** The best tier reached: ALL a candidate carries every anchor term, ANY only some, NONE none survived, UNANCHORED nothing to anchor on. */
     anchorMode,
-    /** Matched on the dimension's own vocabulary and nothing about this service. */
-    droppedUnanchored: best.size - anchored.length,
+    /** Chunks the queries matched on the dimension's own vocabulary and nothing about this service. The one hard exclusion, and now counted across the whole corpus rather than across a top twenty. */
+    droppedUnanchored: excluded.size,
     // §28. A pass that found nothing says so, in a row, with the queries that
     // failed still attached. An empty result that leaves no trace is a search
     // somebody runs again next week.
@@ -226,7 +263,7 @@ export async function retrieveOne(m, dimension, { retriever, graph, pass = 1, ow
     // The id alone is a hash of a page and an ordinal, and re-cutting a page
     // renumbers it; url plus offsets survive that, and the text is what P8
     // extracts from and what the substring gate checks against.
-    candidates: candidates.map((c) => ({ id: c.id, sourceId: c.sourceId, url: c.url, heading: c.heading, start: c.start, end: c.end, score: c.score, topical: c.topical, query: c.query })),
+    candidates: candidates.map((c) => ({ id: c.id, sourceId: c.sourceId, url: c.url, heading: c.heading, start: c.start, end: c.end, score: c.score, topical: c.topical, whole: c.whole, query: c.query })),
   };
 }
 
@@ -303,14 +340,38 @@ if (isMain && flag("selftest")) {
   assert.deepEqual(unanchorable.anchor, []);
   assert.equal(unanchorable.anchorMode, "UNANCHORED");
 
-  // Every anchor term beats any of them. Both fixture pages say "certificate",
-  // only one says "varsai", and an OR anchor would hand a reranker both.
+  // Every anchor term beats any of them, and a passage carrying none of them is
+  // still the one hard exclusion: it matched on the word the dimension supplied.
   assert.equal(office.anchorMode, "ALL");
-  assert.ok(office.candidates.every((c) => c.id === "a" || c.id === "b"), "both name words, or not on the list");
+  assert.ok(office.candidates.every((c) => c.id === "a" || c.id === "b"), "a photo gallery carries no word of the name");
+  assert.ok(office.candidates.every((c) => c.whole === 1));
   assert.equal(nothing.anchorMode, "NONE");
   const loose = await retrieveOne({ ...m, name: "Varsai Zzznotaword Certificate" }, "OFFICE", { retriever, graph });
-  assert.equal(loose.anchorMode, "ANY", "no page carries a three word title verbatim, so it falls back and says so");
+  assert.equal(loose.anchorMode, "ANY", "no page carries a three word title verbatim, so it says so");
   assert.ok(loose.candidates.length > 0);
+  assert.ok(loose.candidates.every((c) => c.whole === 0), "and every candidate on it is a partial match");
+
+  // §5. The anchor ranks, it does not gate. One page carrying the whole title
+  // used to throw away the other twenty nine slots we had already retrieved,
+  // which is how six eval questions had shortlists two and three passages long.
+  const backfill = await retrieveOne(
+    { ...m, name: "Varsai Certificate", urls: [] },
+    "FEES",
+    {
+      graph,
+      retriever: new LexicalRetriever(
+        [
+          chunk("whole", "a.gov.in", "Varsai Certificate fee is twenty rupees."),
+          chunk("partial", "b.gov.in", "The Varsai application fee is thirty rupees at the counter."),
+        ],
+        { dedupe: false },
+      ),
+    },
+  );
+  assert.equal(backfill.anchorMode, "ALL", "the tier is still reported off the best candidate");
+  assert.deepEqual(backfill.candidates.map((c) => c.id), ["whole", "partial"], "the full title match leads and the partial one is kept below it, not deleted");
+  assert.deepEqual(backfill.candidates.map((c) => c.whole), [1, 0], "and a reranker can see which is which");
+  assert.equal(backfill.droppedUnanchored, 0);
 
   // Ranked on where the name appears, then on score. A section headed with the
   // service beats a better scoring paragraph that only mentions it in passing.
