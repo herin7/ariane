@@ -34,6 +34,8 @@
 
 import { at, chat, jsonArray, pool, readJsonl, REJECTIONS, REJECTION_SUMMARY, rejections, replaceStage, sha1, writeJsonl } from "./lib.mjs";
 import { display, districtOf, isPerson, slug, title } from "./places.mjs";
+import { norm } from "./gate.mjs";
+import { handSaved } from "./chunks.mjs";
 import { appendFileSync, existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 
 const IDENTIFY = ".ingest/identify/";
@@ -1178,11 +1180,21 @@ for (const f of readJsonl(".ingest/facts.jsonl")) {
  */
 const MIN_HARD = Number(value("min", 1));
 
-const textOf = memo((sha1) => {
-  const file = at(`.ingest/pages/${sha1}.md`);
+/**
+ * Where a page's text actually sits, which is two places.
+ *
+ * `.ingest/pages/<sha1>.md` is what the pipeline fetched. `.firecrawl/` is what
+ * a person saved by hand before the pipeline existed, and the five hero
+ * journeys are entirely in there. Keyed on the file rather than the sha1,
+ * because a hand saved page's filename is a person's word and not a hash of
+ * anything, so there is nothing to derive it from.
+ */
+const fileOf = (page) => page.file ?? `.ingest/pages/${page.sha1}.md`;
+const textOf = memo((path) => {
+  const file = at(path);
   return existsSync(file) ? readFileSync(file, "utf8") : "";
 });
-const blocksOf = memo((sha1) => groupBlocks(textOf(sha1)));
+const blocksOf = memo((path) => groupBlocks(textOf(path)));
 
 /**
  * Everything this run threw away, and why.
@@ -1213,15 +1225,15 @@ for (const c of withFacts) {
 }
 
 // A national portal carries every state's schemes, and this one is for Gujarat.
-const foreign = admissible.filter((c) => !isGujarat(c.page.host) && otherState(textOf(c.page.sha1)));
-for (const c of foreign) reject("OUT_OF_JURISDICTION", { url: c.url, note: otherState(textOf(c.page.sha1)) });
+const foreign = admissible.filter((c) => !isGujarat(c.page.host) && otherState(textOf(fileOf(c.page))));
+for (const c of foreign) reject("OUT_OF_JURISDICTION", { url: c.url, note: otherState(textOf(fileOf(c.page))) });
 const candidates = admissible
   .filter((c) => !foreign.includes(c))
   .sort((a, b) => b.facts.length - a.facts.length);
 
 console.log(`${byUrl.size} pages with facts, ${candidates.length} with at least ${MIN_HARD} fact(s) we could place`);
 if (foreign.length) {
-  const where = [...new Set(foreign.map((c) => otherState(textOf(c.page.sha1))))].sort();
+  const where = [...new Set(foreign.map((c) => otherState(textOf(fileOf(c.page)))))].sort();
   console.log(`  ${foreign.length} page(s) left out because they are another state's scheme: ${where.join(", ")}`);
 }
 
@@ -1370,6 +1382,88 @@ for (const [journey, services] of journeys) {
 const headingCount = [...headings.values()].reduce((n, d) => n + d.length, 0);
 if (headingCount) console.log(`${headingCount} name(s) were the heading over a journey, not a service in it`);
 
+// ------------------------------------------------------------ promoted claims
+//
+// Where the depth engine's output finally becomes graph.
+//
+// `pnpm services:enrich` searches the whole cached estate for the dimensions a
+// service is missing, and writes what it found to `.ingest/claims.jsonl` as
+// candidates. Candidates are not graph. §4's chain ends `verified claim -> graph
+// edge`, and this is that last arrow.
+//
+// The lazy version is the right one: a claim is already the same shape as a
+// fact, already carries a verbatim quote and a url, and this file already knows
+// how to turn a fact on a page into a node with a citation. So a promoted claim
+// joins the fact stream of the service it was retrieved *for*, and the whole
+// existing chain below places it. No second builder, no second id scheme, no
+// second set of rules about what may become a node.
+//
+// The one thing a promoted page is not allowed to do is contribute a numbered
+// process. Enrich may pull a passage off a page that belongs to a different
+// service entirely, which is the point for "who issues this", and is exactly
+// wrong for "what are the nine steps": `pageSteps` would read that other
+// service's list and file it here. So the page comes in for its facts and is
+// marked, and the ordered actions block skips it.
+// Both caches, because retrieval searches both. Nine of the first twenty five
+// claims were quoted off `.firecrawl/` pages, which pages.jsonl has never heard
+// of, and refusing them for MISSING_SOURCE would have thrown away every fact
+// the depth engine found for driving licence and the SC scholarship: the two
+// services whose entire evidence base a person saved by hand.
+const CLAIMS = ".ingest/claims.jsonl";
+const cached = new Map([...handSaved(), ...pages.values()].map((p) => [p.url, p]));
+const claimed = new Map();
+for (const [journey, services] of journeys) for (const [id, s] of services) claimed.set(`service:${id}`, { journey, service: s });
+
+let promoted = 0;
+const deepened = new Set();
+for (const claim of readJsonl(CLAIMS)) {
+  const row = { url: claim.url, kind: claim.kind, claim: claim.claim, evidence: claim.evidence };
+  const found = claimed.get(claim.serviceId);
+  if (!found) {
+    // The service was deepened off the graph as it stood, and this compile did
+    // not rebuild it: a hand written bundle owns the name, or its pages fell
+    // below the admissibility bar this run. Either way the claim has nowhere to
+    // land and saying so is better than dropping it into the nearest service.
+    reject("UNKNOWN_CANONICAL_ENTITY", { ...row, note: `${claim.serviceId} is not a service this compile built` });
+    continue;
+  }
+  const page = cached.get(claim.url);
+  if (!page) {
+    reject("MISSING_SOURCE", { ...row, note: `${claim.url} is in neither page cache` });
+    continue;
+  }
+  const { journey, service } = found;
+  if (service.pages.some((c) => c.facts.some((f) => f.kind === claim.kind && norm(f.evidence) === norm(claim.evidence)))) {
+    // Retrieval found the service's own page and quoted the sentence the
+    // extractor already quoted. Common, harmless, and worth counting: it is the
+    // share of the deepening pass that bought nothing.
+    reject("DUPLICATE", { ...row, note: "already extracted from a page this service was built from" });
+    continue;
+  }
+  let into = service.pages.find((c) => c.url === claim.url);
+  if (!into) {
+    into = { url: claim.url, page, facts: [], service: service.name, aliases: [], summary: service.summary, journey, serviceId: slug(service.name), promoted: true };
+    service.pages.push(into);
+  }
+  into.facts.push({
+    claim: claim.claim,
+    kind: claim.kind,
+    subject: claim.subject,
+    object: claim.object,
+    detail: claim.detail ?? {},
+    evidence: claim.evidence,
+    confidence: claim.confidence,
+    url: claim.url,
+    // Load bearing twice over: it is how `build` tells a claim retrieved *for*
+    // this service from a fact this compiler derived about it, and hand written
+    // services are allowed only the first kind.
+    promoted: true,
+  });
+  promoted++;
+  deepened.add(claim.serviceId);
+}
+if (promoted) console.log(`${promoted} deepening claim(s) promoted into ${deepened.size} service(s)`);
+
 /**
  * Node ids the hand written bundles already own.
  *
@@ -1480,7 +1574,7 @@ for (const services of journeys.values()) {
       }
       // A group member goes through the same classifier as everything else. A
       // list under "any one of the following" is still full of form fields.
-      for (const b of blocksOf(page.page.sha1)) for (const m of b.members) wanted.add(m);
+      for (const b of blocksOf(fileOf(page.page))) for (const m of b.members) wanted.add(m);
     }
   }
 }
@@ -1558,15 +1652,44 @@ function build(journey, services) {
 
   for (const service of services) {
     const serviceNodeId = `service:${service.id}`;
-    // A hand written service wins. Its pages are still worth nothing to us here,
-    // because whatever we would add, somebody already wrote better.
-    if (taken.has(serviceNodeId)) {
-      notFound.push(`${service.name}: the hand written graph already answers to ${serviceNodeId}, so the pages found for it were not merged in. Reconciling the two is a job for a person.`);
-      reject("ALREADY_OWNED", { url: service.pages[0].url, claim: service.name, note: `${service.pages.flatMap((c) => c.facts).length} fact(s) across ${service.pages.length} page(s) not merged into ${serviceNodeId}` });
-      continue;
+    /**
+     * A hand written service wins, and the depth engine is the one exception.
+     *
+     * The old rule was flat: an id somebody wrote by hand keeps everything this
+     * compiler found for it, because whatever we would add, a person already
+     * wrote better. That rule cost us the whole point of the deepening pass.
+     * §35 aimed P9 at driving licence, income certificate and the SC
+     * scholarship, and those are precisely the five hero journeys a person
+     * wrote, so nine of the first twenty five claims were retrieved for a
+     * service this file then refused to touch. §38 says make the existing
+     * services smarter. Refusing to enrich exactly the good ones is the
+     * opposite.
+     *
+     * The distinction that makes it safe: a page this compiler *found* for
+     * "Driving Licence" is a guess about what the page is about, and competing
+     * with a person's judgement on that is how you get a worse graph. A claim
+     * is not a guess about the subject. Retrieval was handed the service id, the
+     * reranker was told the service name, the extractor refused anything the
+     * quote did not name, and the quote is a verbatim substring of a cached
+     * page. So the found pages stay out and the claims come in, and nothing this
+     * writes can shadow the hand written node: `put` refuses a taken id, so the
+     * SERVICE node below is never redeclared, only pointed at. Bundles merge
+     * before validation and `kept` already lets an edge leave a taken id.
+     */
+    const owned = taken.has(serviceNodeId);
+    let pages = service.pages;
+    if (owned) {
+      const found = service.pages.flatMap((c) => c.facts).filter((f) => !f.promoted);
+      if (found.length) {
+        notFound.push(`${service.name}: the hand written graph already answers to ${serviceNodeId}, so the pages found for it were not merged in. Reconciling the two is a job for a person.`);
+        reject("ALREADY_OWNED", { url: service.pages[0].url, claim: service.name, note: `${found.length} fact(s) across ${service.pages.length} page(s) not merged into ${serviceNodeId}` });
+      }
+      pages = service.pages.map((c) => ({ ...c, facts: c.facts.filter((f) => f.promoted) })).filter((c) => c.facts.length);
+      if (!pages.length) continue;
     }
 
-    const jurisdictionId = districtOf(service.pages[0].page.host);
+    const before = edges.length;
+    const jurisdictionId = districtOf(pages[0].page.host);
     const serviceRefs = [];
     /**
      * A quote hung off the service node, or a note that we ran out of room.
@@ -1584,7 +1707,7 @@ function build(journey, services) {
     /** One numbered process per service. Nine pages do not make nine processes. */
     let steps = 0;
 
-    for (const c of service.pages) {
+    for (const c of pages) {
       const sourceId = `src:${sha1(c.url).slice(0, 12)}`;
       if (!sources.some((s) => s.id === sourceId)) {
         sources.push({
@@ -1596,7 +1719,7 @@ function build(journey, services) {
           jurisdictionId: districtOf(c.page.host),
           retrievedAt: (c.page.fetchedAt ?? "").slice(0, 10) || today(),
           contentHash: c.page.contentHash,
-          cacheFile: `.ingest/pages/${c.page.sha1}.md`,
+          cacheFile: fileOf(c.page),
           scrapedOk: true,
           // Carried, not dropped. A quote off an unverified chain is still a
           // quote off that page, and the citizen is shown which it is.
@@ -1753,7 +1876,10 @@ function build(journey, services) {
       // The extractor's facts first, because a fact was worth quoting; the page
       // itself second, for the nine step list the extractor quoted three of.
       const fromFacts = steps ? [] : orderedSteps(c.facts);
-      const run = steps ? [] : (fromFacts.length ? fromFacts : pageSteps(textOf(c.page.sha1)));
+      // `c.promoted` is a page retrieval brought in for one dimension, which may
+      // be about another service entirely. Its facts are attributed; its step
+      // list is not.
+      const run = steps ? [] : (fromFacts.length ? fromFacts : c.promoted ? [] : pageSteps(textOf(fileOf(c.page))));
       if (run.length) {
         // A step read straight off the page is not one of `c.facts`, so it is
         // not in the evidence layer yet, and quotes:audit is right to call a
@@ -1793,7 +1919,7 @@ function build(journey, services) {
       }
 
       // --------------------------------------------------- requirement groups
-      for (const b of blocksOf(c.page.sha1)) {
+      for (const b of blocksOf(fileOf(c.page))) {
         // Deduped on the id, not the phrase: "Aadhaar Card" and "Aadhaar card"
         // are one member, and a group listing the same node twice is a defect
         // the validator is right to reject.
@@ -1833,16 +1959,27 @@ function build(journey, services) {
       }
     }
 
+    // Everything below here describes the SERVICE node: its quotes, its fee, its
+    // eligibility, the portal it was published on. A hand written service has
+    // all of that already and better, and this pass was never allowed to write
+    // it. What the claims bought was the edges, and those are already in.
+    if (owned) {
+      if (edges.length === before) {
+        reject("NO_QUOTABLE_EVIDENCE", { url: pages[0].url, claim: service.name, note: `${pages.flatMap((c) => c.facts).length} promoted claim(s) and no edge came out of them` });
+      }
+      continue;
+    }
+
     if (!serviceRefs.length) {
       notFound.push(`${service.name}: no quotable requirement, fee or timeline survived, so no service node was written for it.`);
-      reject("NO_QUOTABLE_EVIDENCE", { url: service.pages[0].url, claim: service.name, note: `${service.pages.flatMap((c) => c.facts).length} fact(s) and not one of them load bearing` });
+      reject("NO_QUOTABLE_EVIDENCE", { url: pages[0].url, claim: service.name, note: `${pages.flatMap((c) => c.facts).length} fact(s) and not one of them load bearing` });
       continue;
     }
     // Deduped: one service quoting the same off-government portal on nine pages
     // is one gap, not nine.
     notFound.push(...new Set(gaps));
 
-    const all = service.pages.flatMap((c) => c.facts);
+    const all = pages.flatMap((c) => c.facts);
     const fee = all.find(isCitizenFee);
     const timeline = all.find(isProcessingTime);
     // Three kinds that arrive under the right name and mean something else: a
@@ -1871,7 +2008,7 @@ function build(journey, services) {
     const rules = [...new Set(all.filter(isQualifyingRule).map((f) => f.claim))];
     const eligibility = rules.slice(0, ELIGIBILITY_SHOWN);
     for (const claim of rules.slice(ELIGIBILITY_SHOWN)) {
-      reject("TRUNCATED_BY_CAP", { url: service.pages[0].url, kind: "ELIGIBILITY", claim, note: `past the ${ELIGIBILITY_SHOWN} rules a service shows` });
+      reject("TRUNCATED_BY_CAP", { url: pages[0].url, kind: "ELIGIBILITY", claim, note: `past the ${ELIGIBILITY_SHOWN} rules a service shows` });
     }
 
     put({
@@ -1903,7 +2040,7 @@ function build(journey, services) {
       lastVerifiedAt: today(),
     });
 
-    const portalHost = service.pages[0].page.host;
+    const portalHost = pages[0].page.host;
     const portalId = `portal:${slug(portalHost)}`;
     if (put({ id: portalId, type: "PORTAL", name: portalHost, jurisdictionId, metadata: { channelType: "WEB", url: `https://${portalHost}/` }, sources: [serviceRefs[0]] })) {
       // nothing further, the edge below is added either way
