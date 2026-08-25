@@ -120,7 +120,8 @@ export interface DerivedLocation {
   longitude: number;
   /** Present so the shape is self describing wherever it is logged or dumped. */
   provenance: "DERIVED";
-  provider: "OSM_NOMINATIM";
+  /** Both read OpenStreetMap. They disagree on what an address is. */
+  provider: "OSM_NOMINATIM" | "OSM_PHOTON";
   status: LocationStatus;
   /** The geocoder's own word for how precise it was: house, road, suburb... */
   precision?: string;

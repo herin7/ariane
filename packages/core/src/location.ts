@@ -207,6 +207,9 @@ const PRECISE_TYPES = new Set([
   "townhall",
   "shop",
   "railway",
+  // Photon's own vocabulary. It types a building as "house" and a way as
+  // "street" where Nominatim says "building" and "road".
+  "street",
 ]);
 
 /**

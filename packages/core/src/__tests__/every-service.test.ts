@@ -40,7 +40,7 @@ describe("every service compiles into something a citizen can act on", () => {
       expect(service.metadata?.authorityLevel).toBeTruthy();
       expect(service.metadata?.supportNote).toBeTruthy();
       expect(service.aliases?.length).toBeGreaterThan(2);
-      expect(service.sources.length).toBeGreaterThan(0);
+      expect(service.sources?.length ?? 0).toBeGreaterThan(0);
     });
   }
 

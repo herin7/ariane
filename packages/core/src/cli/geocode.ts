@@ -13,10 +13,8 @@ import type { DerivedLocation, GraphNode } from "../types";
  *   pnpm offices:geocode --limit 20   stop after 20 network calls
  *   pnpm offices:geocode --recheck    ignore the cache and ask again
  *
- * OpenStreetMap's Nominatim, which is free, keyless, and run on donated
- * hardware, so this makes at most one request a second and identifies itself.
- * A full run over 269 addressed offices therefore takes about five minutes and
- * is meant to be run rarely.
+ * OpenStreetMap data through Photon, which is free and keyless. See the note
+ * on ENDPOINT for why not Nominatim.
  *
  * Nothing here decides whether a coordinate is good enough to show. That is
  * `gradeCandidate` in ../location, which the app and the tests share, so the
@@ -35,16 +33,27 @@ const GRAPH = resolve(ROOT, "packages/core/src/data/graph");
 const CACHE = resolve(ROOT, ".ingest/geocode.json");
 const REVIEW = resolve(ROOT, "artifacts/location-review.json");
 
-const ENDPOINT = "https://nominatim.openstreetmap.org/search";
-
 /**
- * Nominatim's usage policy asks for an identifying User-Agent with a way to get
- * in touch. A request without one is blocked, and rightly.
+ * Photon, not Nominatim, and both read the same OpenStreetMap.
+ *
+ * Nominatim parses an address. Indian government addresses are not addresses:
+ * "Office of The Collector & District Magistrate, Near Subhash Bridge Circle,
+ * R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027" is a
+ * name, a landmark, a road, three localities and a pincode, and Nominatim
+ * returns nothing at all for it. Photon is a search index over the same data
+ * and answers to names, which is what these strings mostly are. It also has no
+ * one-request-a-second policy, so a full run is a minute rather than fifteen.
+ *
+ * The gate does not care which one answered. It reads a coordinate, a type and
+ * an administrative context, and rejects a city centroid whoever produced it.
  */
+const ENDPOINT = "https://photon.komoot.io/api/";
+
+/** Somebody else's donated hardware. It should be able to see who we are. */
 const USER_AGENT = "Ariane/0.1 (Gujarat government service graph; https://github.com/herin7/ariane)";
 
-/** One request per second is the published limit. The extra 200ms is slack. */
-const INTERVAL_MS = 1200;
+/** No published limit, so this is politeness rather than compliance. */
+const INTERVAL_MS = 250;
 
 /** How long to wait after a 429, in order. Running out of these ends the run. */
 const BACKOFF_MS = [30_000, 120_000, 300_000];
@@ -87,19 +96,22 @@ async function geocode(query: string, attempt = 0): Promise<GeocodeCandidate | u
 
   const url = `${ENDPOINT}?${new URLSearchParams({
     q: query,
-    format: "jsonv2",
-    addressdetails: "1",
     limit: "1",
-    countrycodes: "in",
+    lang: "en",
+    // Weight results towards Gujarat without excluding anywhere. Every office
+    // in the corpus is in the state, and "Mamlatdar Office" alone matches
+    // thirty of them.
+    lat: "22.6",
+    lon: "71.6",
   })}`;
 
-  const response = await fetch(url, { headers: { "User-Agent": USER_AGENT, "Accept-Language": "en" } });
+  const response = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
   if (!response.ok) {
     // A 429 means we are being rude, so the answer is to wait longer, not to
     // retry harder. Each one also permanently slows the run down: their limit
     // is a guideline and their patience is the real one.
     if (response.status === 429) {
-      if (attempt >= BACKOFF_MS.length) throw new Error("Nominatim is still rate limiting us. Stop, wait an hour, and run again.");
+      if (attempt >= BACKOFF_MS.length) throw new Error("The geocoder is still rate limiting us. Stop, wait an hour, and run again.");
       const pause = BACKOFF_MS[attempt]!;
       console.error(`  ! rate limited, waiting ${pause / 1000}s`);
       await new Promise((r) => setTimeout(r, pause));
@@ -110,26 +122,54 @@ async function geocode(query: string, attempt = 0): Promise<GeocodeCandidate | u
     return undefined;
   }
 
-  const [first] = (await response.json()) as NominatimResult[];
+  const [first] = ((await response.json()) as PhotonResponse).features ?? [];
   if (!first) return undefined;
+  const p = first.properties;
+  const [longitude, latitude] = first.geometry.coordinates;
+
   return {
-    latitude: Number(first.lat),
-    longitude: Number(first.lon),
-    displayName: first.display_name,
-    addressType: first.addresstype ?? first.type,
-    address: first.address,
-    boundingBox: first.boundingbox?.map(Number) as GeocodeCandidate["boundingBox"],
+    latitude,
+    longitude,
+    displayName: [p.name, p.street, p.district, p.city, p.county, p.state, p.postcode].filter(Boolean).join(", "),
+    // An OSM office or amenity is a building we can point at, whatever Photon
+    // decided to call the record. Its own `type` is the fallback and is the
+    // thing the centroid rule reads: city, county, state, district.
+    addressType: p.osm_key === "office" || p.osm_key === "amenity" ? p.osm_key : p.type,
+    address: {
+      // Photon's "district" is a neighbourhood, its "county" is the taluka and
+      // its "city" is usually the district town. The gate looks at all of them.
+      ...(p.state ? { state: p.state } : {}),
+      ...(p.county ? { county: p.county } : {}),
+      ...(p.city ? { city: p.city } : {}),
+      ...(p.district ? { suburb: p.district } : {}),
+      ...(p.postcode ? { postcode: p.postcode } : {}),
+      ...(p.street ? { road: p.street } : {}),
+      ...(p.housenumber ? { house_number: p.housenumber } : {}),
+    },
+    // Photon's extent is [minLon, maxLat, maxLon, minLat]. Nominatim's box,
+    // which the gate reads, is [minLat, maxLat, minLon, maxLon].
+    boundingBox: p.extent && [Math.min(p.extent[1], p.extent[3]), Math.max(p.extent[1], p.extent[3]), Math.min(p.extent[0], p.extent[2]), Math.max(p.extent[0], p.extent[2])],
   };
 }
 
-interface NominatimResult {
-  lat: string;
-  lon: string;
-  display_name: string;
-  addresstype?: string;
-  type?: string;
-  address?: Record<string, string>;
-  boundingbox?: [string, string, string, string];
+interface PhotonResponse {
+  features?: {
+    geometry: { coordinates: [number, number] };
+    properties: {
+      name?: string;
+      street?: string;
+      housenumber?: string;
+      district?: string;
+      city?: string;
+      county?: string;
+      state?: string;
+      postcode?: string;
+      type?: string;
+      osm_key?: string;
+      osm_value?: string;
+      extent?: [number, number, number, number];
+    };
+  }[];
 }
 
 /** Cached lookup. The cache is keyed by query, so two offices at one address cost one call. */
@@ -252,7 +292,7 @@ async function one(office: GraphNode, file: string) {
     latitude: round(candidate.latitude),
     longitude: round(candidate.longitude),
     provenance: "DERIVED",
-    provider: "OSM_NOMINATIM",
+    provider: "OSM_PHOTON",
     status: verdict.status,
     ...(candidate.addressType ? { precision: candidate.addressType } : {}),
     geocodedAt: new Date().toISOString().slice(0, 10),
