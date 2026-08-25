@@ -28,7 +28,7 @@
     "fetch:have": "node scripts/fetch-ledger.mjs --have",
     "graph:snapshot": "pnpm --filter @ariane/core graph:snapshot",
     "bundles:build": "node scripts/bundles.mjs",
-    "gates": "node scripts/ingest/lib.mjs && node scripts/ingest/domains-classify.mjs --selftest && node scripts/ingest/services-discover.mjs --selftest && node scripts/ingest/services-extract.mjs --selftest && node scripts/ingest/services-compile.mjs --selftest && node scripts/ingest/pdf-extract.mjs --selftest && node scripts/ingest/offices-discover.mjs --selftest && node scripts/ingest/rejections-stats.mjs --selftest && node scripts/ingest/chunks.mjs --selftest && node scripts/ingest/corpus.mjs --selftest && node scripts/bundles.mjs --check && node scripts/domains.mjs --check && node scripts/fetch-ledger.mjs --check && pnpm typecheck && pnpm test && pnpm graph:validate && pnpm quotes:audit && pnpm coverage --check",
+    "gates": "node scripts/ingest/lib.mjs && node scripts/ingest/domains-classify.mjs --selftest && node scripts/ingest/services-discover.mjs --selftest && node scripts/ingest/services-extract.mjs --selftest && node scripts/ingest/services-compile.mjs --selftest && node scripts/ingest/pdf-extract.mjs --selftest && node scripts/ingest/offices-discover.mjs --selftest && node scripts/ingest/rejections-stats.mjs --selftest && node scripts/ingest/chunks.mjs --selftest && node scripts/ingest/corpus.mjs --selftest && node scripts/ingest/completeness.mjs --selftest && node scripts/bundles.mjs --check && node scripts/domains.mjs --check && node scripts/fetch-ledger.mjs --check && pnpm typecheck && pnpm test && pnpm graph:validate && pnpm quotes:audit && pnpm coverage --check",
     "services:discover": "node --env-file-if-exists=.env scripts/ingest/services-discover.mjs",
     "services:extract": "node --env-file-if-exists=.env scripts/ingest/services-extract.mjs",
     "services:compile": "node --env-file-if-exists=.env scripts/ingest/services-compile.mjs",
@@ -36,6 +36,7 @@
     "corpus:chunk": "node scripts/ingest/chunks.mjs",
     "corpus:index": "node scripts/ingest/corpus.mjs",
     "corpus:search": "node scripts/ingest/corpus.mjs",
+    "services:completeness": "node scripts/ingest/completeness.mjs",
     "intent:eval": "pnpm --filter @ariane/core intent:eval"
   },
   "devDependencies": {
