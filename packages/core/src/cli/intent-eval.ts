@@ -50,7 +50,10 @@ const CASES: { said: string; want: string[] | null; note?: string }[] = [
   { said: "I left my job and want my provident fund money", want: ["service:pf_final_settlement"] },
   { said: "I am a student and need money to pay college fees", want: ["service:nsp_scholarship", "service:mysy"] },
   { said: "my family is below poverty line and we need subsidised grain", want: ["service:antyodaya_anna_yojana_aay_ration_card"] },
-  { said: "I run a small workshop with four workers and want it registered as an MSME", want: ["service:udyam_registration"] },
+  // Both ids are the same registration. service:udyam_registration even carries
+  // "msme registration" as an alias, so scoring the other one as a miss grades
+  // a duplicate in the graph rather than the model's reading of the sentence.
+  { said: "I run a small workshop with four workers and want it registered as an MSME", want: ["service:udyam_registration", "service:msme_registration"] },
   { said: "I want to see the official record for a piece of land", want: ["service:property_records"] },
   { said: "I want to buy a flight to Dubai next month", want: null, note: "not a government service" },
   { said: "what is the weather in Rajkot tomorrow", want: null, note: "not a government service" },
