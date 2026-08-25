@@ -32,7 +32,7 @@ import { completeness, loadGraph } from "./completeness.mjs";
 import { buildIndex, DIMENSIONS, indexText, loadChunks, LexicalRetriever, tokens } from "./corpus.mjs";
 import { appendJsonl, at, INGEST, readJsonl } from "./lib.mjs";
 import { queriesFor } from "./queries.mjs";
-import { normalise } from "../lib/url.mjs";
+import { hostOf, normalise } from "../lib/url.mjs";
 
 export const EVIDENCE = INGEST + "evidence.jsonl";
 export const EVIDENCE_SUMMARY = "docs/research/evidence.json";
@@ -103,26 +103,62 @@ export function anchorTerms(name, dimension) {
  *   3  a chunk of one of the service's own source pages
  *   2  every anchor term in the heading, so the section is about it
  *   1  every anchor term in the url, so the page is about it
+ *   1  a page on a host this service already lives on, and that host is not a catalogue
  *   0  the words are in the body somewhere
+ *
+ * The host rung was added after the extraction pass found the FAQ at
+ * parivahan.gov.in/en/content/faq scoring zero for driving licence. Parivahan is
+ * the driving licence, the FAQ is where it tells you to take an appointment and
+ * visit the RTO, and the only reason it scored zero is that the graph happened to
+ * cite a different page on the same site and the words "permanent license" are
+ * not in the url. Same for the Mamlatdar's duties on anand.gujarat.gov.in, which
+ * is where property records already live.
+ *
+ * It is deliberately not a rung for umang, myScheme or ced.gujarat.gov.in, which
+ * 58, 56 and 45 services cite respectively. A host that many services live on is
+ * a catalogue, and a page on it is about exactly one of them, which is precisely
+ * the ambiguity this function exists to resolve. Measured: 168 hosts across the
+ * graph, 78 cited by a single service, 16 cited by more than five.
  *
  * A rank, not a filter. Nothing is dropped for scoring zero here; it just stops
  * beating a passage that is genuinely on topic.
  */
-export function topicality(hit, anchor, ownUrls) {
+export function topicality(hit, anchor, ownUrls, ownHosts = new Set()) {
   // Through normalise, because the graph cites .../income-certificate/ and the
   // fetcher saved .../income-certificate, and one trailing slash was enough to
   // rank a service's own page below a scholarship FAQ. It is the same function
   // fetch-ledger.mjs uses to decide two citations are one fetch.
   if (ownUrls.has(normalise(hit.url))) return 3;
-  if (!anchor.size) return 0;
+  const onOwnHost = ownHosts.has(hostOf(String(hit.url ?? "")));
+  if (!anchor.size) return onOwnHost ? 1 : 0;
   const has = (text) => {
     const t = new Set(tokens(text));
     return [...anchor].every((a) => t.has(a));
   };
   if (hit.heading && has(hit.heading)) return 2;
   if (has(String(hit.url ?? "").replace(/[/_.-]+/g, " "))) return 1;
-  return 0;
+  return onOwnHost ? 1 : 0;
 }
+
+/**
+ * The hosts a service can be said to live on: cited by it, and not a catalogue.
+ *
+ * CATALOGUE is the number of services above which a host stops identifying one.
+ * Five is where the measured distribution turns: umang 58, myScheme 56, ced 45,
+ * gujarattourism 20, then a tail where 78 of 168 hosts belong to one service
+ * each. Nothing magic about the number, and it is a number rather than a list of
+ * hostnames on purpose, because the estate keeps growing and a hardcoded list of
+ * government portals would be stale by the next crawl.
+ */
+const CATALOGUE = 5;
+
+export function ownHostsOf(rows) {
+  const fanout = new Map();
+  for (const m of rows) for (const h of hostsOf(m)) fanout.set(h, (fanout.get(h) ?? 0) + 1);
+  return new Map(rows.map((m) => [m.serviceId, new Set([...hostsOf(m)].filter((h) => fanout.get(h) <= CATALOGUE))]));
+}
+
+const hostsOf = (m) => new Set((m.urls ?? []).map(hostOf).filter(Boolean));
 
 /**
  * One service, one missing dimension, one pass.
@@ -133,7 +169,7 @@ export function topicality(hit, anchor, ownUrls) {
  * below a chunk that placed mid table in all five, which is how a search
  * returns the page every query half matches and no query wanted.
  */
-export async function retrieveOne(m, dimension, { retriever, graph, pass = 1 }) {
+export async function retrieveOne(m, dimension, { retriever, graph, pass = 1, ownHosts = new Set() }) {
   const queries = queriesFor(m, dimension, graph);
   const best = new Map();
   const bySearch = [];
@@ -167,7 +203,7 @@ export async function retrieveOne(m, dimension, { retriever, graph, pass = 1 }) 
   const anchored = all.length ? all : any.length ? any : anchor.size ? [] : hits;
 
   const ownUrls = new Set((m.urls ?? []).map(normalise));
-  for (const h of anchored) h.topical = topicality(h, anchor, ownUrls);
+  for (const h of anchored) h.topical = topicality(h, anchor, ownUrls, ownHosts);
   const candidates = anchored.sort((a, b) => b.topical - a.topical || b.score - a.score).slice(0, KEEP);
 
   return {
@@ -286,6 +322,24 @@ if (isMain && flag("selftest")) {
   assert.equal(topicality({ url: "https://x.gov.in/scholarship", heading: "Documents" }, anchor, own), 0, "mentions it in the body at best");
   assert.equal(topicality({ url: "https://x.gov.in/varsai", heading: "Varsai" }, new Set(), own), 0, "nothing to be on topic about");
 
+  // A different page on the host this service already lives on. Parivahan's FAQ
+  // is the driving licence FAQ even though nothing in its url says so.
+  const host = new Set(["collectorkheda.gujarat.gov.in"]);
+  assert.equal(topicality({ url: "https://collectorkheda.gujarat.gov.in/faq", heading: "Questions" }, anchor, own, host), 1);
+  assert.equal(topicality({ url: "https://collectorkheda.gujarat.gov.in/faq", heading: "Questions" }, new Set(), own, host), 1, "and it does not need an anchor to say so");
+  assert.equal(topicality({ url: "https://myscheme.gov.in/schemes/xyz", heading: "Questions" }, anchor, own, host), 0, "a host we do not live on is still nowhere");
+  assert.equal(topicality({ url: "https://x.gov.in/faq", heading: "Varsai Certificate fees" }, anchor, own, host), 2, "and it never demotes a better reason");
+
+  // A host is only a home if it is not a catalogue. Both of these cite umang;
+  // only one of them cites the Kheda collectorate, and 3 > CATALOGUE would make
+  // that a catalogue too.
+  const homes = ownHostsOf([
+    { serviceId: "a", urls: ["https://collectorkheda.gujarat.gov.in/varsai", "https://web.umang.gov.in/x"] },
+    ...Array.from({ length: 6 }, (_, i) => ({ serviceId: `b${i}`, urls: ["https://web.umang.gov.in/y" + i] })),
+  ]);
+  assert.deepEqual([...homes.get("a")], ["collectorkheda.gujarat.gov.in"], "seven services on umang means umang identifies none of them");
+  assert.deepEqual([...homes.get("b0")], []);
+
   const ranked = await retrieveOne(
     { ...m, urls: [] },
     "FEES",
@@ -350,6 +404,11 @@ if (isMain) {
   const retriever = new LexicalRetriever(null, { index });
   console.log(`${index.docs.length} chunk(s) indexed in ${Date.now() - started}ms. No model, no network, nothing to pay for.\n`);
 
+  // Measured across the whole graph, not the slice this run touches: whether a
+  // host identifies one service is a fact about the estate, and --limit 5 must
+  // not turn myScheme into somebody home address.
+  const hosts = ownHostsOf(all);
+
   const skip = done(ledger);
   const written = [];
   let considered = 0;
@@ -364,7 +423,7 @@ if (isMain) {
         skipped++;
         continue;
       }
-      const row = await retrieveOne(m, dimension, { retriever, graph, pass });
+      const row = await retrieveOne(m, dimension, { retriever, graph, pass, ownHosts: hosts.get(m.serviceId) ?? new Set() });
       written.push(row);
       skip.add(key(m.serviceId, dimension, pass));
       // Appended per row rather than at the end, so killing this halfway keeps

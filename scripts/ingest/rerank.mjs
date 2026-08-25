@@ -36,7 +36,7 @@ export const RERANKED = INGEST + "reranked.jsonl";
 export const RERANK_SUMMARY = "docs/research/rerank.json";
 
 /** Bump to re-judge everything. Same contract as the extraction cache key. */
-const PROMPT_VERSION = 2;
+const PROMPT_VERSION = 3;
 
 /** §13 says five to eight. Eight, because P8 drops what it cannot ground anyway. */
 const KEEP = 8;
@@ -84,6 +84,10 @@ const SYSTEM = [
   "",
   "Score 0 if the passage is about a different state or a different government.",
   "A rule from Madhya Pradesh is not a weaker answer for a Gujarat service. It is a wrong one.",
+  "",
+  "The most common trap in this corpus: a scholarship, pension or subsidy page that lists the named service among the documents you must attach.",
+  "That page is about the scholarship. Its steps are the scholarship's steps and its income limit is the scholarship's income limit.",
+  "Score it 1. Score it 3 only for the rare sentence on it that states something about the named service itself, such as who issues it.",
   "",
   'Reply with a JSON array and nothing else: [{"id":1,"relevance":3},{"id":2,"relevance":0}]',
   "Every passage you were given gets exactly one entry. Invent no IDs.",
@@ -175,9 +179,41 @@ export function parse(reply, row) {
  * A silent fallback that looks like a rerank is how an unreviewed BM25 shortlist
  * ends up described as reranked in a coverage report.
  */
+/**
+ * What the cache is not allowed to remember.
+ *
+ * A verdict is the model's opinion of a passage: `relevance`, and nothing else.
+ * Everything else on a kept candidate belongs to the retrieval pass -- its BM25
+ * score, which query found it, and `topical`, which says whether the passage is
+ * on a page this service lives on. Storing those alongside the verdict freezes
+ * them at the moment the model was asked.
+ *
+ * That cost a real regression. The retrieval pass learned that
+ * parivahan.gov.in/en/content/faq is the driving licence's own host, so the FAQ
+ * went from topical 0 to 1. The candidate ids did not change, so the cache key
+ * did not change, so the extractor kept being handed a two week old 0 and kept
+ * rejecting five genuine driving licence steps as somebody else's facts. The
+ * verdict was right, the metadata travelling with it was stale, and the cache
+ * had no way to know the difference.
+ *
+ * So a cached verdict is re-joined to today's shortlist by id, and only the
+ * relevance survives the trip. Bumping PROMPT_VERSION re-asks the model; nothing
+ * should have to re-ask it to learn a fact the search already knew.
+ */
+function freshen(cached, row) {
+  const now = new Map((row.candidates ?? []).map((c) => [c.id, c]));
+  const rejoin = (c) => ({ ...c, ...(now.get(c.id) ?? {}), relevance: c.relevance });
+  return {
+    jurisdictionId: row.jurisdictionId ?? null,
+    name: row.name,
+    keep: (cached.keep ?? []).map(rejoin),
+    rejected: cached.rejected ?? [],
+  };
+}
+
 export async function rerankOne(row, texts, { ask = chat, model = MODELS.tier1 } = {}) {
   const cached = readCache(cacheKey(row, model));
-  if (cached) return { ...cached, cached: true };
+  if (cached) return { ...cached, ...freshen(cached, row), cached: true };
 
   const reply = await ask([
     { role: "system", content: SYSTEM },
@@ -191,6 +227,7 @@ export async function rerankOne(row, texts, { ask = chat, model = MODELS.tier1 }
         dimension: row.dimension,
         pass: row.pass,
         name: row.name,
+        jurisdictionId: row.jurisdictionId ?? null,
         model,
         promptVersion: PROMPT_VERSION,
         rankedBy: "MODEL",
@@ -208,6 +245,7 @@ export async function rerankOne(row, texts, { ask = chat, model = MODELS.tier1 }
         dimension: row.dimension,
         pass: row.pass,
         name: row.name,
+        jurisdictionId: row.jurisdictionId ?? null,
         model,
         promptVersion: PROMPT_VERSION,
         rankedBy: "RETRIEVAL_ORDER",
@@ -292,6 +330,20 @@ if (isMain && flag("selftest")) {
   const second = await rerankOne(row, texts, { ask: async () => { throw new Error("must not be called"); }, model: "test-model" });
   assert.equal(second.cached, true, "§27: restarting must not trigger model work");
   assert.deepEqual(second.keep.map((c) => c.id), ["chunk:a_0", "chunk:c_0"]);
+  assert.equal(ok.jurisdictionId, "IN-GJ");
+  assert.equal(second.jurisdictionId, "IN-GJ", "and a cached verdict still says which state it was about");
+
+  // The retrieval pass learns something new about a passage the model already
+  // judged. The judgement stands; the stale metadata does not.
+  const relearned = await rerankOne(
+    { ...row, candidates: row.candidates.map((c) => (c.id === "chunk:a_0" ? { ...c, topical: 3, score: 99 } : c)) },
+    texts,
+    { ask: async () => { throw new Error("must not be called"); }, model: "test-model" },
+  );
+  assert.equal(relearned.cached, true, "a better score is not a reason to pay for the same verdict again");
+  assert.equal(relearned.keep[0].topical, 3, "and the extractor downstream sees what the search knows today");
+  assert.equal(relearned.keep[0].score, 99);
+  assert.equal(relearned.keep[0].relevance, 3, "while the one thing the model actually said survives untouched");
 
   // An outage is not a verdict.
   const down = await rerankOne({ ...row, serviceId: "service:nocache" }, texts, { ask: async () => null, model: "test-model" });
