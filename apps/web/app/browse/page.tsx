@@ -20,39 +20,44 @@ export default async function Browse() {
   const found = services.filter((s) => s.metadata?.machineExtracted).sort((a, b) => a.name.localeCompare(b.name));
 
   const list = (items: typeof services) => (
-    <ul className="small" style={{ columns: "2 14rem", paddingLeft: 18 }}>
-      {items.map((s) => (
-        <li key={s.id}>
-          <Link href={`/journey?goal=${encodeURIComponent(s.id)}`}>{s.name}</Link>
-        </li>
+    <div className="catalog-grid">
+      {items.map((s, index) => (
+        <Link key={s.id} href={`/journey?goal=${encodeURIComponent(s.id)}`} className="catalog-link">
+          <span>{String(index + 1).padStart(2, "0")}</span>
+          <b>{s.name}</b>
+          <i aria-hidden>↗</i>
+        </Link>
       ))}
-    </ul>
+    </div>
   );
 
   return (
-    <>
-      <Link href="/" className="small muted" style={{ textDecoration: "none" }}>‹ Back</Link>
-      <h1 style={{ marginTop: 14 }}>Everything Ariane has read</h1>
-      <p className="lede">
-        Gujarat state services, Gujarat district services, and the central ones a Gujarat citizen
-        actually has to touch. Nothing here is a guess: every line inside is quoted from a government
-        page, and the quote was checked against that page before it was allowed in.
-      </p>
+    <div className="catalogue-page">
+      <div className="page-eyebrow"><Link href="/">Home</Link><span>/</span> Service catalogue</div>
+      <div className="catalogue-hero" data-reveal>
+        <p className="section-kicker">The evidence library</p>
+        <h1>Everything Ariane<br /><span className="signal-text">has mapped.</span></h1>
+        <p className="lede">
+          Gujarat state and district services, plus the central services a Gujarat citizen actually has
+          to touch. Every instruction inside links back to its source.
+        </p>
+      </div>
 
-      <h2>Read by a person</h2>
-      <p className="small muted" style={{ marginTop: -6 }}>
-        Somebody opened the government pages behind these and typed out what they said. These are the
-        deep ones: real prerequisites, documents you can tick off, questions that change the path.
-      </p>
-      {list(read)}
+      <section className="catalog-section" data-reveal>
+        <div className="catalog-heading">
+          <div><p className="section-kicker">Human verified</p><h2>Read by a person</h2></div>
+          <p>Government pages opened, read and translated into deep paths with prerequisites, documents and questions.</p>
+        </div>
+        {list(read)}
+      </section>
 
-      <h2>Read by a machine</h2>
-      <p className="small muted" style={{ marginTop: -6 }}>
-        Found by the pipeline and never checked by a person. Every quote is verbatim off the page it
-        links to, but most of these compile to a single well sourced step rather than a journey. Open
-        the source before you rely on one.
-      </p>
-      {list(found)}
-    </>
+      <section className="catalog-section" data-reveal>
+        <div className="catalog-heading">
+          <div><p className="section-kicker">Quote checked</p><h2>Read by a machine</h2></div>
+          <p>Extracted from official pages and checked word for word. Open the source before relying on one.</p>
+        </div>
+        {list(found)}
+      </section>
+    </div>
   );
 }

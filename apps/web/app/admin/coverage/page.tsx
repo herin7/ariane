@@ -30,7 +30,7 @@ export default function CoveragePage() {
   const gaps = all.filter((c) => c.notFound.length).map((c) => [c.journey, c.notFound] as const);
 
   return (
-    <>
+    <div className="wide-page" data-reveal>
       <p className="small">
         <Link href="/">Back</Link> · <Link href="/admin/graph">Draw the graph</Link>
       </p>
@@ -143,6 +143,6 @@ export default function CoveragePage() {
           ))}
         </>
       ) : null}
-    </>
+    </div>
   );
 }
