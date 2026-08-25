@@ -3,6 +3,7 @@
 import type { IntentMatch } from "@ariane/core";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { IGNITION_MS, Ignition } from "./ignition";
 
 export function Search() {
   const router = useRouter();
@@ -24,6 +25,14 @@ export function Search() {
     setBusy(true);
     setFailed(false);
     setComingSoon(null);
+
+    // The overlay says four true things in 1.2s and the request usually takes
+    // less. Nothing below is allowed to land until it has finished saying them:
+    // a transition that gets cut off halfway reads as a glitch, not as speed.
+    const started = Date.now();
+    const settled = () => new Promise((r) => setTimeout(r, Math.max(0, IGNITION_MS - (Date.now() - started))));
+    let navigating = false;
+
     try {
       const response = await fetch("/api/intents/resolve", {
         method: "POST",
@@ -35,6 +44,7 @@ export function Search() {
         understoodAs?: string;
         detectedLanguage?: string;
       };
+      await settled();
       setReadAs({ understoodAs: data.understoodAs, detectedLanguage: data.detectedLanguage });
 
       // One confident match and nothing close behind it, so stop asking.
@@ -47,6 +57,10 @@ export function Search() {
         return;
       }
       if (best && best.confidence >= 0.5 && (!second || second.confidence < best.confidence)) {
+        // The overlay stays up through the navigation. Clearing it here would
+        // put the landing page back on screen for however long the journey
+        // takes to render, which is the one thing the overlay exists to avoid.
+        navigating = true;
         router.push(`/journey?goal=${encodeURIComponent(best.goal)}`);
         return;
       }
@@ -56,14 +70,17 @@ export function Search() {
     } catch {
       // §20. Premium error state: say what happened and leave the sentence
       // they typed exactly where it was.
+      await settled();
       setFailed(true);
     } finally {
-      setBusy(false);
+      if (!navigating) setBusy(false);
     }
   }
 
   return (
-    <div id="start" className="search-area">
+    <div id="start" className={`search-area${busy ? " igniting" : ""}`}>
+      {busy ? <Ignition query={text} /> : null}
+
       <form onSubmit={submit} className="search-form">
         <div className="search-control">
           <svg className="search-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden>
