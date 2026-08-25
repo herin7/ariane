@@ -221,16 +221,27 @@ export function realtimeTools(allowed: readonly string[]): RealtimeTool[] {
 // ---------------------------------------------------------------------------
 
 /**
- * The realtime model. Overridable, because this moves faster than we ship.
+ * The realtime deployment. Overridable, because this moves faster than we ship.
  *
  * Speech to speech rather than a transcribe-think-speak pipeline, per §21: it
  * handles Gujarati, Hindi and the code-switched middle without three providers
  * and two round trips of added latency, and interruption works because the
  * model is the thing being interrupted.
+ *
+ * On Azure AI Foundry this string is a *deployment* name, not a model name. The
+ * default is the name you get by accepting Foundry's suggestion when you deploy
+ * `gpt-realtime`, which is the common case and not a guarantee: if the
+ * deployment was named anything else, set the env var, because a wrong name
+ * here fails the mint with a 404 that does not say "deployment".
  */
 export const DEFAULT_REALTIME_MODEL = "gpt-realtime";
 
-export const DEFAULT_VOICE = "cedar";
+/**
+ * Foundry documents `alloy, ash, ballad, coral, echo, sage, shimmer, verse` for
+ * the realtime models and ships `marin` in its own sample. `cedar` is an
+ * OpenAI-side name and is not on that list, so the default is one that is.
+ */
+export const DEFAULT_VOICE = "marin";
 
 export interface RealtimeSessionConfig {
   model: string;
@@ -246,10 +257,10 @@ export function realtimeSessionConfig(
   env: Record<string, string | undefined> = process.env,
 ): RealtimeSessionConfig {
   return {
-    model: env.OPENAI_REALTIME_MODEL ?? DEFAULT_REALTIME_MODEL,
+    model: env.AZURE_OPENAI_REALTIME_DEPLOYMENT ?? DEFAULT_REALTIME_MODEL,
     instructions: instructionsFor(context),
     tools: realtimeTools(allowedTools),
-    voice: env.OPENAI_REALTIME_VOICE ?? DEFAULT_VOICE,
+    voice: env.AZURE_OPENAI_REALTIME_VOICE ?? DEFAULT_VOICE,
     audio: {
       input: {
         // Server-side turn detection with interruption on. §5 and §23 both
@@ -262,7 +273,8 @@ export function realtimeSessionConfig(
          * model still hears them; nothing writes them down.
          *
          * Turning it on is a deployment decision with a consent line attached,
-         * not a default.
+         * not a default. On Foundry it is also a second deployment: this name
+         * has to exist in the same resource or the session fails to start.
          */
         ...(env.ARIANE_VOICE_TRANSCRIBE === "1"
           ? { transcription: { model: "gpt-4o-mini-transcribe" } }

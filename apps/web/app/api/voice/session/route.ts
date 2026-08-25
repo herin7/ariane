@@ -7,9 +7,9 @@ import { STATUS_FOR, bearer, notConfigured, runtime } from "../shared";
  * POST /api/voice/session — open a browser voice call.
  * DELETE /api/voice/session?sessionId=… — hang up.
  *
- * The only place an OpenAI credential is created, and what leaves here is an
- * ephemeral one scoped to a single realtime session. §5: a permanent key in a
- * browser is a permanent key in devtools.
+ * The only place an Azure AI Foundry credential is created, and what leaves
+ * here is an ephemeral one scoped to a single realtime session. §5: a permanent
+ * key in a browser is a permanent key in devtools.
  *
  * Note what the request body cannot contain. There is no citizen id, no
  * identity level, no tool list and no instruction override. The tool list the
@@ -34,14 +34,27 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "jurisdiction or language was not valid" }, { status: 400 });
   }
 
-  const created = await voice.sessions.create({
-    provider: "BROWSER",
-    // No caller id on this leg, so no RECOGNIZED and no returning-caller path.
-    // A browser session is anonymous until somebody builds a web sign-in, and
-    // anonymous reaches everything public, which is nearly all of it.
-    jurisdiction: parsed.data.jurisdiction,
-    language: parsed.data.language,
-  });
+  /**
+   * The store can be unreachable, or its tables can be missing because nobody
+   * ran `voice-schema.sql` yet. Both are a deployment problem rather than a
+   * caller's, and neither should reach a citizen as a stack trace: what leaves
+   * here is the same sentence a mint failure gets, and the detail goes to the
+   * server log where the person who can fix it is looking.
+   */
+  let created;
+  try {
+    created = await voice.sessions.create({
+      provider: "BROWSER",
+      // No caller id on this leg, so no RECOGNIZED and no returning-caller path.
+      // A browser session is anonymous until somebody builds a web sign-in, and
+      // anonymous reaches everything public, which is nearly all of it.
+      jurisdiction: parsed.data.jurisdiction,
+      language: parsed.data.language,
+    });
+  } catch (error) {
+    console.error("Could not open a voice session", error);
+    return NextResponse.json({ error: "Voice is unavailable right now" }, { status: 502 });
+  }
   if (!created.ok) {
     return NextResponse.json({ error: created.speak, code: created.code }, { status: STATUS_FOR[created.code] });
   }
@@ -76,6 +89,7 @@ export async function POST(request: Request) {
     token: created.issued.token,
     clientSecret: credential.value,
     model: credential.model,
+    callUrl: credential.callUrl,
     // Two clocks, deliberately. The credential expires in about a minute and
     // covers the handshake; the session is the ten minute call.
     credentialExpiresAt: credential.expiresAt,

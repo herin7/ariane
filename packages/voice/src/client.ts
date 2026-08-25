@@ -5,9 +5,9 @@ import type { SpeakableFact, ToolResult } from "./types";
  * The browser leg, client side. `@ariane/voice/client`.
  *
  * No secrets, no Node, no Supabase. It asks our server for an ephemeral
- * credential, opens WebRTC straight to OpenAI so interruption feels immediate,
- * and relays every tool call the model proposes back to our server, which is
- * the only thing allowed to decide whether the call happens.
+ * credential, opens WebRTC straight to the realtime model so interruption feels
+ * immediate, and relays every tool call the model proposes back to our server,
+ * which is the only thing allowed to decide whether the call happens.
  *
  * What this file deliberately does not do: decide anything. It does not check a
  * tool name, does not filter arguments, does not know the policy table. A
@@ -39,9 +39,16 @@ interface StartedSession {
   token: string;
   clientSecret: string;
   model: string;
+  /**
+   * The realtime host, handed over rather than compiled in.
+   *
+   * On Azure AI Foundry this is the deployment's own resource, so it differs
+   * per deployment and a constant here would be a constant somebody has to
+   * rebuild the bundle to change. Not a secret - the browser is about to open a
+   * connection to it - but it is the server's to decide.
+   */
+  callUrl: string;
 }
-
-const REALTIME_URL = "https://api.openai.com/v1/realtime/calls";
 
 export class VoiceClient {
   private pc?: RTCPeerConnection;
@@ -138,9 +145,11 @@ export class VoiceClient {
     });
     const body = (await response.json()) as Partial<StartedSession> & { error?: string };
     if (!response.ok) throw new Error(body.error ?? "Voice is not available right now");
-    const { sessionId, token, clientSecret, model } = body;
-    if (!sessionId || !token || !clientSecret || !model) throw new Error("Voice session was incomplete");
-    return { sessionId, token, clientSecret, model };
+    const { sessionId, token, clientSecret, model, callUrl } = body;
+    if (!sessionId || !token || !clientSecret || !model || !callUrl) {
+      throw new Error("Voice session was incomplete");
+    }
+    return { sessionId, token, clientSecret, model, callUrl };
   }
 
   private async connect(session: StartedSession): Promise<void> {
@@ -158,7 +167,7 @@ export class VoiceClient {
 
     for (const track of this.mic?.getTracks() ?? []) pc.addTrack(track, this.mic!);
 
-    const channel = pc.createDataChannel("oai-events");
+    const channel = pc.createDataChannel("realtime-channel");
     this.channel = channel;
     channel.onmessage = (event) => {
       void this.onServerEvent(event.data as string);
@@ -171,8 +180,13 @@ export class VoiceClient {
      * The ephemeral secret goes in the Authorization header, which is why it
      * has to be ephemeral. A permanent key here would be readable in devtools
      * by every citizen who opened the panel. §5.
+     *
+     * No `?model=` on the query string. The deployment was named when the
+     * credential was minted, and this handshake is scoped to that credential -
+     * which is the property that matters, because it means a browser cannot
+     * point a session it was given at a different deployment.
      */
-    const answer = await fetch(`${REALTIME_URL}?model=${encodeURIComponent(session.model)}`, {
+    const answer = await fetch(session.callUrl, {
       method: "POST",
       headers: { authorization: `Bearer ${session.clientSecret}`, "content-type": "application/sdp" },
       body: offer.sdp,
