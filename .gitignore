@@ -88,3 +88,10 @@ out/
 # os
 .DS_Store
 Thumbs.db
+
+# reranked.jsonl is a view of .ingest/rerank/, which is committed because every
+# file in it cost a model call. The jsonl is rebuilt from that cache on every
+# run, and rebuilding it is how a bumped PROMPT_VERSION avoids leaving two
+# generations of verdicts interleaved in one ledger. docs/research/rerank.json
+# is the committed aggregate.
+.ingest/reranked.jsonl

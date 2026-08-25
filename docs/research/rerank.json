@@ -1,0 +1,70 @@
+{
+  "generatedBy": "pnpm evidence:rerank",
+  "shortlists": 31,
+  "modelRanked": 31,
+  "considered": 215,
+  "kept": 38,
+  "answerable": 6,
+  "byDimension": {
+    "ELIGIBILITY": {
+      "rows": 3,
+      "kept": 3,
+      "considered": 20,
+      "answered": 2
+    },
+    "ACTIONS": {
+      "rows": 5,
+      "kept": 8,
+      "considered": 30,
+      "answered": 1
+    },
+    "FEES": {
+      "rows": 4,
+      "kept": 2,
+      "considered": 12,
+      "answered": 0
+    },
+    "TRACKING": {
+      "rows": 4,
+      "kept": 3,
+      "considered": 11,
+      "answered": 1
+    },
+    "OFFICE": {
+      "rows": 2,
+      "kept": 4,
+      "considered": 21,
+      "answered": 0
+    },
+    "VERIFICATION": {
+      "rows": 4,
+      "kept": 4,
+      "considered": 42,
+      "answered": 0
+    },
+    "DOCUMENTS": {
+      "rows": 1,
+      "kept": 1,
+      "considered": 4,
+      "answered": 0
+    },
+    "OUTPUT": {
+      "rows": 3,
+      "kept": 3,
+      "considered": 52,
+      "answered": 1
+    },
+    "ISSUING_AUTHORITY": {
+      "rows": 3,
+      "kept": 10,
+      "considered": 21,
+      "answered": 1
+    },
+    "HELPLINE": {
+      "rows": 2,
+      "kept": 0,
+      "considered": 2,
+      "answered": 0
+    }
+  }
+}
