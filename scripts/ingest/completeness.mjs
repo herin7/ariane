@@ -156,6 +156,13 @@ export function measureServiceCompleteness(serviceId, graph) {
   return {
     serviceId,
     name: service.officialName || service.name,
+    // Every other name it answers to. P5 anchors retrieval on these as well as
+    // on the name, because the name is whatever the compiler settled on and the
+    // pages are under no obligation to agree with it. service:varshai is named
+    // after its url and the word "varshai" appears in nothing: the corpus
+    // writes વારસાઈ 48 times and varsai 4 times, so anchoring on the name alone
+    // retrieved zero passages for all seven of its missing dimensions.
+    aliases: service.aliases ?? [],
     jurisdictionId: service.jurisdictionId ?? null,
     journey: graph.journeyOf.get(serviceId) ?? null,
     // The urls this service was built from. P5 needs them: a service already
