@@ -24,6 +24,10 @@ export { jurisdictionRows, toBundles, toJurisdictions, toRows, type GraphRows } 
 // answers "what did we ship" and not "what is live right now".
 export { coverage, coverageOf, type JourneyCoverage } from "./cli/coverage";
 export { sarvamKeyFromEnv, understand, type Understood } from "./lang/sarvam";
+// The three pass intent chain. Server only because passes 2 and 3 hold API
+// keys. Shared so the search box and the voice agent resolve a sentence the
+// same way rather than drifting apart.
+export { resolveIntentDeeply, type DeepIntentResult } from "./lang/resolve";
 export {
   bedrockConfigFromEnv,
   pickService,
