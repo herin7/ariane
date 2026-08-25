@@ -132,25 +132,57 @@ const stem = (token: string): string => (token.length > 3 && token.endsWith("s")
  * thirty services in this graph are one. So ask the graph. A word in a tenth of
  * the catalogue is a category; a word in two services is a name.
  */
-const generic = new WeakMap<GraphData, { counts: Map<string, number>; categories: Set<string> }>();
+const generic = new WeakMap<GraphData, Vocabulary>();
 
-function vocabularyOf(data: GraphData): { counts: Map<string, number>; categories: Set<string> } {
+/**
+ * One service, tokenised once.
+ *
+ * `score` used to do this work per call: for every service in the graph, split
+ * its name, its official name and every alias, then scan the resulting array
+ * with `includes` once per word the citizen typed. At 28 services nobody
+ * noticed. At 553 a single `resolveIntent` took four seconds, which is four
+ * seconds of a citizen watching a spinner before the model has even been asked.
+ *
+ * The catalogue does not change between queries, so none of that is per query
+ * work. It is per graph work that was living in the wrong loop.
+ */
+interface ServiceVocabulary {
+  node: GraphNode;
+  /** Full phrases, for the exact alias match that scores double. */
+  phrases: Set<string>;
+  /** Every word across every phrase. Ordered, because `near` reports the first hit it finds. */
+  words: string[];
+  wordSet: Set<string>;
+  /** Each phrase's own words, kept apart, because `named` scores against the best single phrase. */
+  perPhrase: string[][];
+}
+
+interface Vocabulary {
+  counts: Map<string, number>;
+  categories: Set<string>;
+  services: ServiceVocabulary[];
+}
+
+function vocabularyOf(data: GraphData): Vocabulary {
   const cached = generic.get(data);
   if (cached) return cached;
 
   const counts = new Map<string, number>();
-  let services = 0;
+  const services: ServiceVocabulary[] = [];
   for (const node of data.nodes) {
     if (node.type !== "SERVICE") continue;
-    services++;
-    for (const token of new Set(phrasesOf(node).flatMap(tokenise).map(stem))) {
+    const phrases = phrasesOf(node);
+    const perPhrase = phrases.map(tokenise);
+    const words = [...new Set(perPhrase.flat())];
+    services.push({ node, phrases: new Set(phrases), words, wordSet: new Set(words), perPhrase });
+    for (const token of new Set(words.map(stem))) {
       counts.set(token, (counts.get(token) ?? 0) + 1);
     }
   }
 
-  const ceiling = Math.max(2, services * 0.1);
+  const ceiling = Math.max(2, services.length * 0.1);
   const categories = new Set([...counts].filter(([, count]) => count > ceiling).map(([token]) => token));
-  const built = { counts, categories };
+  const built = { counts, categories, services };
   generic.set(data, built);
   return built;
 }
@@ -159,18 +191,17 @@ export function resolveIntent(data: GraphData, text: string, limit = 5): IntentM
   const query = tokenise(text);
   if (!query.length) return [];
 
-  const { counts, categories } = vocabularyOf(data);
+  const { counts, categories, services } = vocabularyOf(data);
   const matches: IntentMatch[] = [];
-  for (const node of data.nodes) {
-    if (node.type !== "SERVICE") continue;
-    const scored = score(node, query);
+  for (const service of services) {
+    const scored = score(service, query);
     const confidence = Math.min(1, scored.score / query.length);
     const distinctive = scored.hits.some((h) => !categories.has(stem(h)));
     if (confidence >= FLOOR && scored.named > NAMED && distinctive) {
       matches.push({
-        goal: node.id,
-        name: node.name,
-        officialName: node.officialName,
+        goal: service.node.id,
+        name: service.node.name,
+        officialName: service.node.officialName,
         confidence,
         matched: scored.hits,
       });
@@ -234,9 +265,8 @@ function near(a: string, b: string): boolean {
   return edits + (a.length - i) + (b.length - j) <= 1;
 }
 
-function score(node: GraphNode, query: string[]): { score: number; hits: string[]; named: number } {
-  const phrases = phrasesOf(node);
-  const vocabulary = [...new Set(phrases.flatMap(tokenise))];
+function score(service: ServiceVocabulary, query: string[]): { score: number; hits: string[]; named: number } {
+  const { phrases, words, wordSet, perPhrase } = service;
 
   const hits: string[] = [];
   // The service's own words that the query reached, however it reached them.
@@ -245,13 +275,13 @@ function score(node: GraphNode, query: string[]): { score: number; hits: string[
   for (const token of query) {
     if (NOT_EVIDENCE.has(token)) continue;
     // An exact alias match is worth more than a shared word like "licence".
-    if (phrases.includes(token)) {
+    if (phrases.has(token)) {
       total += 2;
       hits.push(token);
       asked.add(token);
       continue;
     }
-    if (vocabulary.includes(token)) {
+    if (wordSet.has(token)) {
       total += 1;
       hits.push(token);
       asked.add(token);
@@ -259,7 +289,7 @@ function score(node: GraphNode, query: string[]): { score: number; hits: string[
     }
     // Recorded as the word the service uses, not the word the citizen typed,
     // so the UI shows them how we read it and they can say we read it wrong.
-    const close = vocabulary.find((word) => near(word, token));
+    const close = words.find((word) => near(word, token));
     if (close) {
       total += 1;
       hits.push(close);
@@ -271,10 +301,9 @@ function score(node: GraphNode, query: string[]): { score: number; hits: string[
   // brush against a word in it. Best phrase wins, so an obscure long official
   // name never drags down a service the citizen called by its short one.
   let named = 0;
-  for (const phrase of phrases) {
-    const words = tokenise(phrase);
-    if (!words.length) continue;
-    named = Math.max(named, words.filter((w) => asked.has(w)).length / words.length);
+  for (const phraseWords of perPhrase) {
+    if (!phraseWords.length) continue;
+    named = Math.max(named, phraseWords.filter((w) => asked.has(w)).length / phraseWords.length);
   }
 
   return { score: total, hits, named };
