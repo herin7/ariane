@@ -139,8 +139,26 @@ export interface DepthReport {
   byDimension: Record<Dimension, number>;
   /** Services grouped by how many ACTION steps their journey has. */
   steps: { one: number; twoToThree: number; fourToSix: number; sevenPlus: number };
+  /**
+   * Services whose own page printed a sequence, not ones we arranged.
+   *
+   * §11 forbids inventing a total order and `uiStage` deliberately is not one,
+   * so "has four steps" and "knows which comes first" are separate claims and
+   * this is the second. Counted off `stepNumber`, which only exists when a
+   * source numbered the step, and only from two upwards because a lone "1." is
+   * not a sequence.
+   */
+  ordered: number;
   /** Distribution of how many of the ten dimensions each service can answer. */
   answered: number[];
+  /**
+   * The same distribution as three buckets, which is the shape §23 asks for.
+   *
+   * A mean of 4.6 is the number that hides the problem: it reads as every
+   * service being half mapped when it is really a deep minority carrying a
+   * long shallow tail. `thin` is the count that should be falling.
+   */
+  buckets: { thin: number; middling: number; deep: number };
   pdfs: { parsed: number; pages: number; pageUnits: number; unreadable: number };
 }
 
@@ -153,11 +171,14 @@ export function depth(): DepthReport {
   const byDimension = Object.fromEntries(DIMENSIONS.map((d) => [d, 0])) as Record<Dimension, number>;
   const steps = { one: 0, twoToThree: 0, fourToSix: 0, sevenPlus: 0 };
   const answered: number[] = [];
+  let ordered = 0;
 
   for (const service of services) {
     const out = index.outgoing(service.id);
     const to = (type: string) => out.some((e) => typeOf(e.to) === type);
-    const actions = out.filter((e) => typeOf(e.to) === "ACTION").length;
+    const actionNodes = out.map((e) => index.node(e.to)).filter((n) => n?.type === "ACTION");
+    const actions = actionNodes.length;
+    if (actionNodes.filter((n) => typeof n?.metadata?.stepNumber === "number").length >= 2) ordered++;
 
     const has: Record<Dimension, boolean> = {
       source: Boolean(service.sources?.length),
@@ -182,7 +203,12 @@ export function depth(): DepthReport {
     else steps.sevenPlus++;
   }
 
-  return { services: services.length, byDimension, steps, answered, pdfs: pdfCounts() };
+  const buckets = {
+    thin: answered.filter((n) => n <= 3).length,
+    middling: answered.filter((n) => n >= 4 && n <= 6).length,
+    deep: answered.filter((n) => n >= 7).length,
+  };
+  return { services: services.length, byDimension, steps, ordered, answered, buckets, pdfs: pdfCounts() };
 }
 
 /**
@@ -282,8 +308,11 @@ console.log(
   steps per service: ${d.steps.one} at one, ${d.steps.twoToThree} at two or three, ` +
     `${d.steps.fourToSix} at four to six, ${d.steps.sevenPlus} at seven or more`,
 );
+console.log(`  ${d.services - d.steps.one} of them multi step, and ${d.ordered} where a source numbered the sequence`);
 const mean = d.answered.reduce((a, b) => a + b, 0) / Math.max(1, d.answered.length);
 console.log(`  a service answers ${mean.toFixed(1)} of the ${DIMENSIONS.length} questions on average`);
+// The average is the number that flatters. This is the one to read.
+console.log(`  ${d.buckets.thin} answer three or fewer, ${d.buckets.middling} answer four to six, ${d.buckets.deep} answer seven or more`);
 console.log(
   `  pdfs: ${d.pdfs.parsed} parsed into ${d.pdfs.pages} page(s), ` +
     `${d.pdfs.pageUnits} worth extracting from, ${d.pdfs.unreadable} scanned and unread`,
