@@ -357,6 +357,13 @@ details > summary:hover { color: var(--ink); }
   -webkit-overflow-scrolling: touch;
 }
 
+/* On a wide screen the prose stays at its reading measure and only the table
+   steps outside it. Scrolling eleven columns sideways with 700px of empty
+   margin either side is not a layout, it is an apology. */
+@media (min-width: 1140px) {
+  .scroll-x { width: 1080px; margin-left: -180px; }
+}
+
 table.grid {
   border-collapse: collapse;
   font-size: 12.5px;
