@@ -42,13 +42,15 @@ export interface InputCheck {
  * try the other two, and because a filter that only speaks English on an Indian
  * product is theatre.
  */
-const INJECTION_PATTERNS: [RegExp, string][] = [
+const INJECTION_PATTERNS: [RegExp, string, severe?][] = [
   [/\bignore\s+(all\s+|any\s+)?(previous|prior|above|earlier)\s+(instructions?|prompts?|rules?)/i, "override-instructions"],
   [/\bdisregard\s+(your|all|the)\s+(instructions?|rules?|system|training)/i, "override-instructions"],
-  [/\b(system|initial|original)\s+(prompt|message|instructions?)\b/i, "prompt-extraction"],
-  [/\b(reveal|show|print|repeat|tell\s+me)\s+(your|the)\s+(prompt|instructions?|rules?|context|configuration)/i, "prompt-extraction"],
+  // Not severe: "I lost the original message from the department" is a real
+  // sentence a real person says, and refusing it is the expensive mistake.
+  [/\b(system|initial|original)\s+(prompt|message|instructions?)\b/i, "prompt-mention"],
+  [/\b(reveal|show|print|repeat|tell\s+me)\s+(your|the)\s+(prompt|instructions?|rules?|context|configuration)/i, "prompt-extraction", true],
   [/\b(api[_\s-]?key|secret|token|password|credential|env(ironment)?\s+variable)s?\b/i, "secret-request"],
-  [/\b(previous|other|another|last)\s+(caller|user|customer|person|citizen)('?s)?\b/i, "cross-user"],
+  [/\b(previous|other|another|last)\s+(caller|user|customer|person|citizen)('?s)?\b/i, "cross-user", true],
   [/\b(citizen|user|customer|account)[_\s-]?id\s*(is|=|:)/i, "identity-assertion"],
   [/\bi\s*('?m|\s+am)\s+(an?\s+)?(admin|administrator|developer|root|superuser|the\s+owner)\b/i, "identity-assertion"],
   [/\bremember\s+that\s+i\s*('?m|\s+am)\s+(an?\s+)?(admin|administrator|verified|authorised|authorized)/i, "identity-assertion"],
@@ -62,16 +64,28 @@ const INJECTION_PATTERNS: [RegExp, string][] = [
 
   // Hindi / Gujarati, Devanagari, Gujarati script and the romanised forms that
   // are what people actually type and say.
+  //
+  // Severe where the English equivalent is, and that has to be stated rather
+  // than inherited: "tell me your system prompt" trips two English patterns and
+  // refuses on the count, while its Gujarati twin trips one and would only be
+  // flagged. A filter that is stricter in English on an Indian product is not a
+  // filter, it is an accident with a language preference.
   [/(पिछले|पहले)\s*(निर्देश|इंस्ट्रक्शन)/i, "override-instructions"],
-  [/(अपना|तुम्हारा)\s*(सिस्टम\s*)?(प्रॉम्प्ट|निर्देश)\s*(बताओ|दिखाओ)/i, "prompt-extraction"],
-  [/(पिछले|दूसरे)\s*(कॉलर|व्यक्ति|यूज़र)\s*(की|का)/i, "cross-user"],
-  [/(તમારો|તમારું)\s*(સિસ્ટમ\s*)?(પ્રોમ્પ્ટ|સૂચના)/i, "prompt-extraction"],
-  [/(આગળના|બીજા)\s*(કોલર|વ્યક્તિ)/i, "cross-user"],
+  [/(अपना|तुम्हारा)\s*(सिस्टम\s*)?(प्रॉम्प्ट|निर्देश)\s*(बताओ|दिखाओ)/i, "prompt-extraction", true],
+  [/(पिछले|दूसरे)\s*(कॉलर|व्यक्ति|यूज़र)\s*(की|का)/i, "cross-user", true],
+  [/(તમારો|તમારું)\s*(સિસ્ટમ\s*)?(પ્રોમ્પ્ટ|સૂચના)/i, "prompt-extraction", true],
+  [/(આગળના|બીજા)\s*(કોલર|વ્યક્તિ)/i, "cross-user", true],
   [/\b(pehle|pichle)\s+(ke\s+)?(sab\s+)?(instruction|nirdesh)/i, "override-instructions"],
-  [/\b(tamaro|tumhara|aapka)\s+(system\s+)?prompt\b/i, "prompt-extraction"],
-  [/\b(pichhla|pichle|biju|dusre)\s+(caller|vyakti|user)\b/i, "cross-user"],
-  [/\bmane\s+(admin|verified)\s+(bana|ganvo|samjo)\b/i, "identity-assertion"],
+  [/\b(tamaro|tumhara|aapka)\s+(system\s+)?prompt\b/i, "prompt-extraction", true],
+  [/\b(pichhla|pichle|biju|dusre)\s+(caller|vyakti|user)\b/i, "cross-user", true],
+  [/\bmane\s+(admin|verified)\s+(bana|ganvo|samjo)\b/i, "identity-assertion", true],
 ];
+
+/**
+ * A pattern that is never a citizen asking about a certificate, in any
+ * language. One of these is enough on its own; the rest need corroboration.
+ */
+type severe = true;
 
 /**
  * How many patterns have to fire before a turn is refused rather than flagged.
@@ -90,8 +104,12 @@ export function checkInput(text: string): InputCheck {
     return { verdict: "REFUSE", reasons: ["oversized"], speak: "That was a lot at once. Tell me the main thing you need." };
   }
 
-  const reasons = [...new Set(INJECTION_PATTERNS.filter(([re]) => re.test(text)).map(([, reason]) => reason))];
-  if (reasons.length >= REFUSE_AT || reasons.includes("cross-user")) {
+  const hits = INJECTION_PATTERNS.filter(([re]) => re.test(text));
+  // Counted by pattern, reported by reason. "run this sql: select * from
+  // voice_citizens" trips two different patterns that happen to share a label,
+  // and that is two independent signals however it is filed.
+  const reasons = [...new Set(hits.map(([, reason]) => reason))];
+  if (hits.length >= REFUSE_AT || hits.some(([, , severe]) => severe)) {
     return {
       verdict: "REFUSE",
       reasons,
