@@ -149,6 +149,7 @@ export const REJECTION_REASONS = {
   UNTRUSTED_HOST: "not gov.in or nic.in, so the name is not proof of who owns it",
   FAILED_NORMALIZATION: "a destination named with no link printed for it",
   NO_ACTOR: "the sentence declined to name one authority",
+  NO_OUTPUT_NAMED: "you receive something, and the page never says what",
   NO_REASON: "a blocker with no stated cause",
   NO_EXPLICIT_ORDER: "things to do, and the page never says which comes first",
   GROUP_TOO_FEW_MEMBERS: "a choice with fewer than two documents under it",

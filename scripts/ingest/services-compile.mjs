@@ -293,6 +293,91 @@ export function authorityFromClaim(claim, { active = false } = {}) {
 }
 
 /**
+ * What the citizen walks away holding.
+ *
+ * 553 services and thirteen of them could say. Not because the pages are silent:
+ * 139 claims were retrieved for the OUTPUT dimension and every one of them
+ * landed as an ACTION, because ACTION is the only kind the extractor has for a
+ * sentence with a verb in it. "The applicant receives a Sanction Letter" became
+ * a step to perform rather than a thing to receive, and the PRODUCES edge that
+ * `completeness` looks for was never built by anything.
+ *
+ * This is not the metric being loosened to make a number rise. The sentences
+ * genuinely name an output, they arrived because retrieval asked what the
+ * citizen ends up with, and the answer is the single most useful thing a
+ * government service page can tell someone. It was being thrown away on a
+ * technicality of kind.
+ *
+ * Promoted claims only, and the reasoning is the same as the active voice
+ * authority grammar: retrieval was handed the service id and the extractor
+ * refused any quote that did not name the service, so "a certificate will be
+ * issued" is about this service and not a sentence that happened to be nearby.
+ */
+const OUTPUT_VERB = [
+  /\b(?:applicant|citizen|user|beneficiary|candidate|holder)\s+(?:will\s+)?(?:receives?|shall\s+receive|will\s+receive|gets?|obtains?|is\s+issued|is\s+granted)\s+(?:an?\s+|the\s+)?([^.,;()]{4,60})/i,
+  /\b(?:an?\s+|the\s+)?([^.,;()]{4,60}?)\s+(?:will\s+be|shall\s+be|is|are)\s+(?:issued|granted|provided|generated)\s+(?:to\s+the\s+applicant|online|by\s+the|after|on\s+completion|upon)/i,
+  /\bon\s+(?:successful\s+)?(?:completion|approval|registration)[^.]{0,40}?,?\s*(?:an?\s+|the\s+)?([^.,;()]{4,60}?)\s+(?:will\s+be|shall\s+be|is)\s+(?:issued|generated|granted)/i,
+];
+
+/**
+ * A word that makes the phrase a thing rather than an outcome.
+ *
+ * "The applicant receives a confirmation that the application was submitted" is
+ * not an output, it is the submission acknowledging itself. Requiring a noun
+ * from this list keeps the edge pointing at something the citizen could later
+ * be asked to produce, which is what makes PRODUCES worth drawing: it is the
+ * join to another service's REQUIRES.
+ */
+const OUTPUT_NOUN =
+  /\b(certificate|licence|license|permit|card|number|registration|letter|passbook|sanction|approval|slip|receipt|challan|declaration|identity|id|patta|khata|passport|policy|award|order|memo|acknowledgment|acknowledgement|token)\b/i;
+
+/** A promise about time or process dressed up as a noun. Never an output. */
+const NOT_AN_OUTPUT =
+  /\b(?:process|procedure|service|scheme|application|form|website|portal|information|details|status|assistance|benefit|amount|subsidy|instalment|installment|payment|fund|training|facility)\b/i;
+
+/**
+ * Where the name of the thing stops and the sentence carries on about it.
+ *
+ * "The applicant receives a Sanction Letter and can claim assistance quarterly"
+ * captures the whole rest of the clause, and then the guard that exists to
+ * reject "assistance" fires on a sentence that had correctly named a Sanction
+ * Letter. The noun tests can only be trusted once the phrase is just the noun.
+ */
+const OUTPUT_TAIL =
+  /\s+(?:and|or|which|who|that|valid|containing|along|from|issued|granted|provided|generated|through|via|by|at|online|offline|digitally|once|only|instantly|immediately|directly)\b.*$/i;
+
+export function outputFromClaim(claim) {
+  const text = String(claim ?? "").trim();
+  for (const re of OUTPUT_VERB) {
+    const m = re.exec(text);
+    if (!m) continue;
+    const raw = m[1].trim();
+    // Checked before the tail is cut, because cutting at "or" would delete the
+    // evidence that the page named two possible outcomes and meant neither.
+    if (NOT_ONE_ACTOR.test(raw)) continue;
+    const name = raw
+      .replace(TRAILING_CLAUSE, "")
+      .replace(OUTPUT_TAIL, "")
+      .replace(/^(?:his|her|their|its|your)\s+/i, "")
+      // Pages scare quote the name of the thing they issue. The quotes are the
+      // page's punctuation, not part of what the citizen is handed.
+      .replace(/^['"‘’“”]+|['"‘’“”]+$/g, "")
+      .replace(/\s{2,}/g, " ")
+      .trim();
+    if (name.length < 4 || isPerson(name)) continue;
+    // Both tests, and in this order. A phrase has to name a thing we can hand
+    // over, and must not be one of the words a page reaches for when it is
+    // describing the service back to itself.
+    if (!OUTPUT_NOUN.test(name) || NOT_AN_OUTPUT.test(name)) continue;
+    return { output: name };
+  }
+  return null;
+}
+
+/** Matched the grammar, named nothing we could hand over. Worth counting, per §5. */
+export const outputRefused = (claim) => !outputFromClaim(claim) && OUTPUT_VERB.some((re) => re.test(String(claim ?? "")));
+
+/**
  * The other twenty seven states, so a national portal's pages can be told apart.
  *
  * myscheme.gov.in holds the scheme catalogue for the whole country and its
@@ -1226,6 +1311,58 @@ if (flag("selftest")) {
   );
   assert.ok(!authorityRefused("The concerned authority approves the claim."), "not counted against a pass that never looked");
 
+  // What the citizen walks away holding.
+  assert.equal(
+    outputFromClaim("The applicant receives a Sanction Letter and can claim assistance quarterly.").output,
+    "Sanction Letter",
+    "the trailing clause is a condition on the letter, not part of it",
+  );
+  assert.equal(
+    outputFromClaim("The applicant receives a Declaration of Survey issued by the Surveyor.").output,
+    "Declaration of Survey",
+    "who issued it is the authority grammar's business, not this one's",
+  );
+  assert.equal(
+    outputFromClaim("After completion of the process of registration, a certificate will be issued online.").output,
+    "certificate",
+    "the passive, where the thing comes first and the verb after it",
+  );
+  assert.equal(
+    outputFromClaim("A permanent registration number will be given after registration."),
+    null,
+    "given is not issued, and widening the verb list to catch it also catches every sentence about giving documents in",
+  );
+  assert.equal(
+    outputFromClaim("The applicant receives email and SMS notifications once the challan correction is processed."),
+    null,
+    "a notification is not a thing anybody can later be asked to produce",
+  );
+  assert.equal(
+    outputFromClaim("The applicant receives assistance on a quarterly basis."),
+    null,
+    "assistance is an outcome, and PRODUCES is for objects",
+  );
+  assert.equal(
+    outputFromClaim("The applicant receives the application form from the office."),
+    null,
+    "a form is what you arrive with, not what you leave with",
+  );
+  assert.equal(
+    outputFromClaim("The applicant receives a certificate or a rejection letter."),
+    null,
+    "two outcomes is the page declining to say which, same rule as two actors",
+  );
+  assert.ok(
+    outputRefused("The applicant receives detailed information about the scheme."),
+    "matched the grammar, named nothing to hand over, and section 5 wants that counted",
+  );
+  assert.ok(!outputRefused("The applicant should visit the Mamlatdar office."), "never looked like an output, so not a refusal");
+  // All three came off the real corpus, and all three used to keep the rest of
+  // the sentence. A node called "Gujarat Card at the end" is not a thing.
+  assert.equal(outputFromClaim("The applicant receives the 'e-Permit' at the end of the process.").output, "e-Permit", "the scare quotes are the page's, not the permit's");
+  assert.equal(outputFromClaim("The applicant receives a Gujarat Card at the end of the process.").output, "Gujarat Card");
+  assert.equal(outputFromClaim("The applicant receives a transfer order online.").output, "transfer order");
+
   assert.equal(placeable({ kind: "FEE", detail: {} }), true, "a fee is why we are here");
   assert.equal(placeable({ kind: "HELPLINE", detail: { phone: "1800 233 5500" } }), true);
   assert.equal(placeable({ kind: "HELPLINE", detail: { number: "1800 233 5500" } }), true, "the extractor uses both keys for the same thing");
@@ -2084,6 +2221,29 @@ function build(journey, services) {
           // and left the choice open. §26 says do not guess, so nothing is
           // written, and this is how often that costs us an ISSUED_BY.
           reject("NO_ACTOR", { ...of(f), note: "a sentence about who does it that names nobody" });
+        }
+
+        // ------------------------------------------- what you walk away with
+        //
+        // Same shape as the block above and for the same reason: the sentence
+        // that names the output is already busy being an ACTION, because ACTION
+        // is the only kind the extractor has for a sentence with a verb. Only
+        // promoted claims, so we know something went looking for this service's
+        // output rather than the phrase drifting past on a page.
+        const produced = f.promoted ? outputFromClaim(f.claim) : null;
+        if (produced) {
+          // Reuse the document node when the thing produced is a document this
+          // graph already knows, because that is the join that makes PRODUCES
+          // worth drawing: one service's output is the next service's REQUIRES,
+          // and a separate output node beside an identical document node breaks
+          // the chain §30 is built on.
+          const docId = `document:${slug(produced.output)}`;
+          const outId = declared.has(docId) ? docId : `output:${slug(produced.output)}`;
+          if (outId !== docId) put({ id: outId, type: "OUTPUT", name: display(produced.output), jurisdictionId, sources: r, lastVerifiedAt: today() });
+          link(serviceNodeId, outId, "PRODUCES", f.claim, r);
+          cite(ref(sourceId, f), f);
+        } else if (f.promoted && outputRefused(f.claim)) {
+          reject("NO_OUTPUT_NAMED", of(f));
         }
       }
 
