@@ -977,6 +977,21 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "output:receipt",
+   "type": "OUTPUT",
+   "name": "Receipt",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:894f44f70a8c",
+     "evidence": "You can download the Form and receipt.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "action:form_10_iea_the_applicant_can_view_the_life_cycle_of_the_for",
    "type": "ACTION",
    "name": "The applicant can view the life cycle of the form to track its status",
@@ -1998,6 +2013,22 @@
    "from": "service:form_10_iea",
    "to": "action:form_10_iea_the_applicant_receives_a_receipt_and_can_downloa",
    "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives a receipt and can download the form after submission.",
+   "sources": [
+    {
+     "sourceId": "src:894f44f70a8c",
+     "evidence": "You can download the Form and receipt.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_form_10_iea__produces__output_receipt",
+   "from": "service:form_10_iea",
+   "to": "output:receipt",
+   "type": "PRODUCES",
    "verificationStatus": "EXTRACTED",
    "note": "The applicant receives a receipt and can download the form after submission.",
    "sources": [

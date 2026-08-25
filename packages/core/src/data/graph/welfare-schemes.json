@@ -7428,6 +7428,21 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "output:himayat_id_card",
+   "type": "OUTPUT",
+   "name": "Himayat ID Card",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:49d9c220ee93",
+     "evidence": "Himayat ID Card refers to the standardized Identity Card that every trainee enrolled under the Himayat Scheme, must be provided by the PIA.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "action:himayat_the_trainee_receives_a_travel_and_food_allowance",
    "type": "ACTION",
    "name": "The trainee receives a travel and food allowance of ₹50 for every day of the training prog",
@@ -45176,6 +45191,22 @@
    ]
   },
   {
+   "id": "e:service_financial_assistance_for_tourism_events_and_guides__produces__output_sanction_letter",
+   "from": "service:financial_assistance_for_tourism_events_and_guides",
+   "to": "output:sanction_letter",
+   "type": "PRODUCES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives a sanction letter after the application and documents are reviewed and financials are approved.",
+   "sources": [
+    {
+     "sourceId": "src:d3c8fd171e86",
+     "evidence": "Application submitted for Financial Benets\nReview of the application and\nsubmitted documents by CoT\nCalculation of\nFinancials\nApproval from\nCommissioner of Tourism\nIssuance of\nSanction Letter",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_financial_assistance_for_tourism_events_and_guides__apply_at__portal_gujarattourism_com",
    "from": "service:financial_assistance_for_tourism_events_and_guides",
    "to": "portal:gujarattourism_com",
@@ -45852,6 +45883,22 @@
    "from": "service:himayat",
    "to": "action:himayat_the_applicant_receives_a_himayat_id_card_at_the_",
    "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives a Himayat ID Card at the end of the training program.",
+   "sources": [
+    {
+     "sourceId": "src:49d9c220ee93",
+     "evidence": "Himayat ID Card refers to the standardized Identity Card that every trainee enrolled under the Himayat Scheme, must be provided by the PIA.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_himayat__produces__output_himayat_id_card",
+   "from": "service:himayat",
+   "to": "output:himayat_id_card",
+   "type": "PRODUCES",
    "verificationStatus": "EXTRACTED",
    "note": "The applicant receives a Himayat ID Card at the end of the training program.",
    "sources": [
@@ -57288,6 +57335,22 @@
    ]
   },
   {
+   "id": "e:service_financial_benefits_for_tourism_service_providers__produces__output_sanction_letter",
+   "from": "service:financial_benefits_for_tourism_service_providers",
+   "to": "output:sanction_letter",
+   "type": "PRODUCES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A sanction letter is issued after the approval of the application.",
+   "sources": [
+    {
+     "sourceId": "src:d3c8fd171e86",
+     "evidence": "Issuance of Sanction Letter",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_financial_benefits_for_tourism_service_providers__apply_at__portal_gujarattourism_com",
    "from": "service:financial_benefits_for_tourism_service_providers",
    "to": "portal:gujarattourism_com",
@@ -58572,6 +58635,22 @@
    "from": "service:garment_policy",
    "to": "action:garment_policy_on_approval_a_sanction_letter_is_generated_in_fa",
    "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "On approval, a sanction letter is generated in favor of GIDC for the project.",
+   "sources": [
+    {
+     "sourceId": "src:e1e013fc4259",
+     "evidence": "On approval, a sanction letter will be generated in favor of GIDC for the particular project.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garment_policy__produces__output_sanction_letter",
+   "from": "service:garment_policy",
+   "to": "output:sanction_letter",
+   "type": "PRODUCES",
    "verificationStatus": "EXTRACTED",
    "note": "On approval, a sanction letter is generated in favor of GIDC for the project.",
    "sources": [
@@ -61992,6 +62071,22 @@
    ]
   },
   {
+   "id": "e:service_claim_of_assistance__produces__output_sanction_letter",
+   "from": "service:claim_of_assistance",
+   "to": "output:sanction_letter",
+   "type": "PRODUCES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives a Sanction Letter and can claim assistance on a quarterly basis after receiving it.",
+   "sources": [
+    {
+     "sourceId": "src:afe75cd6ec57",
+     "evidence": "The applicant after receipt of Sanction Letter, will claim on quarterly basis by submitting claim application in prescribed form and necessary documents.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_claim_of_assistance__requires__action_claim_of_assistance_on_approval_by_the_sanctioning_au",
    "from": "service:claim_of_assistance",
    "to": "action:claim_of_assistance_on_approval_by_the_sanctioning_authority_a_sanct",
@@ -64716,6 +64811,22 @@
    "from": "service:garment_policy_assistance",
    "to": "action:garment_policy_assistance_on_approval_a_sanction_letter_is_generated_in_fa",
    "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "On approval, a sanction letter is generated in favor of GIDC for the particular project.",
+   "sources": [
+    {
+     "sourceId": "src:e1e013fc4259",
+     "evidence": "On approval, a sanction letter will be generated in favor of GIDC for the particular project.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_garment_policy_assistance__produces__output_sanction_letter",
+   "from": "service:garment_policy_assistance",
+   "to": "output:sanction_letter",
+   "type": "PRODUCES",
    "verificationStatus": "EXTRACTED",
    "note": "On approval, a sanction letter is generated in favor of GIDC for the particular project.",
    "sources": [

@@ -1,12 +1,12 @@
 {
- "runId": "compile-2026-08-25T08:37:48.347Z",
+ "runId": "compile-2026-08-25T09:55:59.328Z",
  "compiledAt": "2026-08-25",
- "total": 8726,
+ "total": 8794,
  "reasons": [
   {
    "stage": "compile",
    "reason": "TRUNCATED_BY_CAP",
-   "count": 2308,
+   "count": 2326,
    "examples": [
     {
      "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
@@ -544,6 +544,38 @@
      "url": "district-certificates",
      "claim": "e:service_seed_certificate__requires__document_agency_seal",
      "note": "service:seed_certificate was never written"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "NO_OUTPUT_NAMED",
+   "count": 50,
+   "examples": [
+    {
+     "url": "https://gvc.org.in/webcontroller/clickmenu/MTYyMDU3OTYw",
+     "claim": "The applicant receives a provisional registration certificate in Form-XXIV.",
+     "note": null
+    },
+    {
+     "url": "https://dpe.gujarat.gov.in/Home/primary/CentralizeTechbasedTeacherTransferProcess",
+     "claim": "The applicant gets relieved from their school after the TPEO countersigns the transfer order.",
+     "note": null
+    },
+    {
+     "url": "https://empower.gujarat.gov.in/KVK/Registration.aspx",
+     "claim": "The applicant receives a barcode-printed registration form to submit at any KVK in the state.",
+     "note": null
+    },
+    {
+     "url": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/challan-correction-request",
+     "claim": "The applicant receives email and SMS notifications once the challan correction is processed.",
+     "note": null
+    },
+    {
+     "url": "https://www.incometax.gov.in/iec/foportal/help/MyCAUserManual",
+     "claim": "The applicant receives a success message along with a Transaction ID after deactivating a CA.",
+     "note": null
     }
    ]
   },

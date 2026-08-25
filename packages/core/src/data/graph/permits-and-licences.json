@@ -3384,6 +3384,21 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "output:certificate_of_registration",
+   "type": "OUTPUT",
+   "name": "Certificate of Registration",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:48ecc2904bee",
+     "evidence": "Thereafter, the Registrar shall on further verification or compliance, as may be required, issue a pleasure craft-specific/boat specific, non-transferrable Certificate of Registration in FORM 6 to the applicant under these rules.",
+     "confidence": 0.8,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "department:registrar",
    "type": "DEPARTMENT",
    "name": "Registrar",
@@ -3572,6 +3587,21 @@
     "uiStage": "AFTER_SUBMISSION",
     "machineExtracted": true
    },
+   "sources": [
+    {
+     "sourceId": "src:c81d250ce4d5",
+     "evidence": "Approval from Commissioner of Tourism Issuance of Sanction Letter Application submitted for Project Registration Approval of Registration by CoT (Prior Approval from Commissioner of tourism)",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "output:sanction_letter",
+   "type": "OUTPUT",
+   "name": "Sanction Letter",
+   "jurisdictionId": "IN-GJ",
    "sources": [
     {
      "sourceId": "src:c81d250ce4d5",
@@ -7691,6 +7721,21 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "output:registration_of_the_trade_union",
+   "type": "OUTPUT",
+   "name": "Registration Of The Trade Union",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:6873645dfc69",
+     "evidence": "Registration of Trade Unions.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:trade_union_registration",
    "type": "SERVICE",
    "name": "Trade Union Registration",
@@ -8715,6 +8760,21 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "output:laminated_guide_license",
+   "type": "OUTPUT",
+   "name": "Laminated Guide License",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:783393c3b969",
+     "evidence": "Annexure – I\nTerms and conditions regulating the conduct and performance of licensed Tourist Guides\n1. The licensed guide, when on duty, shall; always wear the laminated guide license issued by\nCommissioner of Tourism and also wear the name tag while accompanying tourists.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:tourist_guide_license",
    "type": "SERVICE",
    "name": "Tourist Guide License",
@@ -9504,6 +9564,21 @@
     "uiStage": "AFTER_SUBMISSION",
     "machineExtracted": true
    },
+   "sources": [
+    {
+     "sourceId": "src:486c8338b1b8",
+     "evidence": "The 'e-Permit' is for a visit to 'Gir Jungle Safari', 'GIZ Devalia Safari', 'Ambardi Safari Park' and 'Girnar Nature Safari' only.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "output:e_permit",
+   "type": "OUTPUT",
+   "name": "e-Permit",
+   "jurisdictionId": "IN-GJ",
    "sources": [
     {
      "sourceId": "src:486c8338b1b8",
@@ -14108,6 +14183,21 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "output:approval",
+   "type": "OUTPUT",
+   "name": "Approval",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:4c3740eaaf28",
+     "evidence": "For the Approval of Capacitor Bank:",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:capacitor_bank_approval",
    "type": "SERVICE",
    "name": "Capacitor-Bank-Approval",
@@ -14152,6 +14242,12 @@
      "sourceId": "src:4c3740eaaf28",
      "evidence": "4. Details of the previous Approval & Permission of the Inspectorate for Existing Installation (Optional)",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:4c3740eaaf28",
+     "evidence": "For the Approval of Capacitor Bank:",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     },
     {
@@ -14518,6 +14614,21 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "output:license",
+   "type": "OUTPUT",
+   "name": "License",
+   "jurisdictionId": "IN-GJ-JAMNAGAR",
+   "sources": [
+    {
+     "sourceId": "src:859bc9709d93",
+     "evidence": "License can only be issued after receiving the application for the same with Form No. 2 (Triplicate) for the registration & Form No. 3(Duplicate) for the grant of license with relevant documents accompanied by a treasury Chalan for payment of fees and verifying it by visiting the premises of the factory.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:factory_license",
    "type": "SERVICE",
    "name": "Factory License",
@@ -14532,6 +14643,12 @@
      "sourceId": "src:bfc67219da81",
      "evidence": "Reg. No\nWrite FR with 4 Digit of Year and 5 Digit of Registration No. FR201512345",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:859bc9709d93",
+     "evidence": "License can only be issued after receiving the application for the same with Form No. 2 (Triplicate) for the registration & Form No. 3(Duplicate) for the grant of license with relevant documents accompanied by a treasury Chalan for payment of fees and verifying it by visiting the premises of the factory.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
@@ -17509,6 +17626,22 @@
    ]
   },
   {
+   "id": "e:service_certificate_of_registration_for_pleasure_craft_or_bo__produces__output_certificate_of_registration",
+   "from": "service:certificate_of_registration_for_pleasure_craft_or_boat",
+   "to": "output:certificate_of_registration",
+   "type": "PRODUCES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Certificate of Registration is issued after verification or compliance.",
+   "sources": [
+    {
+     "sourceId": "src:48ecc2904bee",
+     "evidence": "Thereafter, the Registrar shall on further verification or compliance, as may be required, issue a pleasure craft-specific/boat specific, non-transferrable Certificate of Registration in FORM 6 to the applicant under these rules.",
+     "confidence": 0.8,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_certificate_of_registration_for_pleasure_craft_or_bo__issued_by__department_registrar",
    "from": "service:certificate_of_registration_for_pleasure_craft_or_boat",
    "to": "department:registrar",
@@ -17593,6 +17726,22 @@
    "from": "service:tourism_project_approval",
    "to": "action:tourism_project_approval_the_applicant_receives_a_sanction_letter_after_a",
    "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives a Sanction Letter after approval from the Commissioner of Tourism.",
+   "sources": [
+    {
+     "sourceId": "src:c81d250ce4d5",
+     "evidence": "Approval from Commissioner of Tourism Issuance of Sanction Letter Application submitted for Project Registration Approval of Registration by CoT (Prior Approval from Commissioner of tourism)",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_tourism_project_approval__produces__output_sanction_letter",
+   "from": "service:tourism_project_approval",
+   "to": "output:sanction_letter",
+   "type": "PRODUCES",
    "verificationStatus": "EXTRACTED",
    "note": "The applicant receives a Sanction Letter after approval from the Commissioner of Tourism.",
    "sources": [
@@ -19797,6 +19946,22 @@
    ]
   },
   {
+   "id": "e:service_trade_union_registration__produces__output_registration_of_the_trade_union",
+   "from": "service:trade_union_registration",
+   "to": "output:registration_of_the_trade_union",
+   "type": "PRODUCES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives a registration of the trade union upon successful submission and approval.",
+   "sources": [
+    {
+     "sourceId": "src:6873645dfc69",
+     "evidence": "Registration of Trade Unions.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_trade_union_registration__apply_at__portal_col_gujarat_gov_in",
    "from": "service:trade_union_registration",
    "to": "portal:col_gujarat_gov_in",
@@ -20421,6 +20586,22 @@
    ]
   },
   {
+   "id": "e:service_tourist_guide_license__produces__output_laminated_guide_license",
+   "from": "service:tourist_guide_license",
+   "to": "output:laminated_guide_license",
+   "type": "PRODUCES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives a laminated guide license at the end.",
+   "sources": [
+    {
+     "sourceId": "src:783393c3b969",
+     "evidence": "Annexure – I\nTerms and conditions regulating the conduct and performance of licensed Tourist Guides\n1. The licensed guide, when on duty, shall; always wear the laminated guide license issued by\nCommissioner of Tourism and also wear the name tag while accompanying tourists.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_tourist_guide_license__issued_by__department_commissioner_of_tourism",
    "from": "service:tourist_guide_license",
    "to": "department:commissioner_of_tourism",
@@ -20985,6 +21166,22 @@
    "from": "service:girnar_nature_safari_permit",
    "to": "action:girnar_nature_safari_permit_the_applicant_receives_an_e_permit_at_the_end",
    "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives an 'e-Permit' at the end.",
+   "sources": [
+    {
+     "sourceId": "src:486c8338b1b8",
+     "evidence": "The 'e-Permit' is for a visit to 'Gir Jungle Safari', 'GIZ Devalia Safari', 'Ambardi Safari Park' and 'Girnar Nature Safari' only.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_girnar_nature_safari_permit__produces__output_e_permit",
+   "from": "service:girnar_nature_safari_permit",
+   "to": "output:e_permit",
+   "type": "PRODUCES",
    "verificationStatus": "EXTRACTED",
    "note": "The applicant receives an 'e-Permit' at the end.",
    "sources": [
@@ -23605,6 +23802,22 @@
    ]
   },
   {
+   "id": "e:service_capacitor_bank_approval__produces__output_approval",
+   "from": "service:capacitor_bank_approval",
+   "to": "output:approval",
+   "type": "PRODUCES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives approval for the capacitor bank.",
+   "sources": [
+    {
+     "sourceId": "src:4c3740eaaf28",
+     "evidence": "For the Approval of Capacitor Bank:",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_capacitor_bank_approval__apply_at__portal_ceiced_gujarat_gov_in",
    "from": "service:capacitor_bank_approval",
    "to": "portal:ceiced_gujarat_gov_in",
@@ -23737,6 +23950,22 @@
    "from": "service:factory_license",
    "to": "action:factory_license_the_license_is_issued_after_the_application_is_s",
    "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The license is issued after the application is submitted with specific forms and verified by visiting the factory premises.",
+   "sources": [
+    {
+     "sourceId": "src:859bc9709d93",
+     "evidence": "License can only be issued after receiving the application for the same with Form No. 2 (Triplicate) for the registration & Form No. 3(Duplicate) for the grant of license with relevant documents accompanied by a treasury Chalan for payment of fees and verifying it by visiting the premises of the factory.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_factory_license__produces__output_license",
+   "from": "service:factory_license",
+   "to": "output:license",
+   "type": "PRODUCES",
    "verificationStatus": "EXTRACTED",
    "note": "The license is issued after the application is submitted with specific forms and verified by visiting the factory premises.",
    "sources": [

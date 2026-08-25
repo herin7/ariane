@@ -439,6 +439,21 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "output:udyam_registration",
+   "type": "OUTPUT",
+   "name": "Udyam Registration",
+   "jurisdictionId": "IN-GJ-AMRELI",
+   "sources": [
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "MSME registration process is fully online, paperless and based on self-declaration.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:msme_registration",
    "type": "SERVICE",
    "name": "MSME registration",
@@ -1642,6 +1657,21 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "output:approval_letter",
+   "type": "OUTPUT",
+   "name": "Approval Letter",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:7e1c48bba02e",
+     "evidence": "Once your PMEGP scheme application is approved, you will receive an approval letter from KVIC or the bank, along with the sanction letter stating the amount of subsidy and loan that you are eligible for.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:pmegp_scheme",
    "type": "SERVICE",
    "name": "PMEGP scheme",
@@ -2687,6 +2717,22 @@
    ]
   },
   {
+   "id": "e:service_msme_registration__produces__output_udyam_registration",
+   "from": "service:msme_registration",
+   "to": "output:udyam_registration",
+   "type": "PRODUCES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives an Udyam Registration after completing the process.",
+   "sources": [
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "MSME registration process is fully online, paperless and based on self-declaration.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_msme_registration__apply_at__portal_amrelidp_gujarat_gov_in",
    "from": "service:msme_registration",
    "to": "portal:amrelidp_gujarat_gov_in",
@@ -3155,6 +3201,22 @@
    "from": "service:pmegp_scheme",
    "to": "action:pmegp_scheme_the_applicant_receives_an_approval_letter_and_a_",
    "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives an approval letter and a sanction letter stating the subsidy and loan amount after their PMEGP scheme application is approved.",
+   "sources": [
+    {
+     "sourceId": "src:7e1c48bba02e",
+     "evidence": "Once your PMEGP scheme application is approved, you will receive an approval letter from KVIC or the bank, along with the sanction letter stating the amount of subsidy and loan that you are eligible for.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_pmegp_scheme__produces__output_approval_letter",
+   "from": "service:pmegp_scheme",
+   "to": "output:approval_letter",
+   "type": "PRODUCES",
    "verificationStatus": "EXTRACTED",
    "note": "The applicant receives an approval letter and a sanction letter stating the subsidy and loan amount after their PMEGP scheme application is approved.",
    "sources": [

@@ -1100,6 +1100,21 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "output:certified_encumbrance_certificate",
+   "type": "OUTPUT",
+   "name": "certified Encumbrance Certificate",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Obtain certified Encumbrance Certificate online.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:index_2_details_search",
    "type": "SERVICE",
    "name": "Index-2 details search",
@@ -1161,6 +1176,12 @@
     {
      "sourceId": "src:b28223f1098a",
      "evidence": "Get certified Index-2 copy of registered documents.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Obtain certified Encumbrance Certificate online.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
@@ -2625,6 +2646,21 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "output:declaration_of_survey",
+   "type": "OUTPUT",
+   "name": "Declaration of Survey",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:960f5b2acadf",
+     "evidence": "Form 4\nForm of declaration to be issued by the Surveyor",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "action:declaration_of_survey_the_declaration_of_survey_is_based_on_the_condit",
    "type": "ACTION",
    "name": "The declaration of survey is based on the condition of the vessel and its equipment found ",
@@ -2725,6 +2761,12 @@
      "sourceId": "src:960f5b2acadf",
      "evidence": "This declaration of Survey is valid up to sixty days from the date of declaration mentioned above.",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:960f5b2acadf",
+     "evidence": "Form 4\nForm of declaration to be issued by the Surveyor",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
@@ -3125,6 +3167,22 @@
    "from": "service:index_2_details_search",
    "to": "action:index_2_details_search_the_applicant_receives_certified_encumbrance_cer",
    "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives certified Encumbrance Certificate online.",
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Obtain certified Encumbrance Certificate online.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_index_2_details_search__produces__output_certified_encumbrance_certificate",
+   "from": "service:index_2_details_search",
+   "to": "output:certified_encumbrance_certificate",
+   "type": "PRODUCES",
    "verificationStatus": "EXTRACTED",
    "note": "The applicant receives certified Encumbrance Certificate online.",
    "sources": [
@@ -4053,6 +4111,22 @@
    "from": "service:declaration_of_survey",
    "to": "action:declaration_of_survey_the_applicant_receives_a_declaration_of_survey_i",
    "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives a Declaration of Survey issued by the Surveyor.",
+   "sources": [
+    {
+     "sourceId": "src:960f5b2acadf",
+     "evidence": "Form 4\nForm of declaration to be issued by the Surveyor",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_declaration_of_survey__produces__output_declaration_of_survey",
+   "from": "service:declaration_of_survey",
+   "to": "output:declaration_of_survey",
+   "type": "PRODUCES",
    "verificationStatus": "EXTRACTED",
    "note": "The applicant receives a Declaration of Survey issued by the Surveyor.",
    "sources": [

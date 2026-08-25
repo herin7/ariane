@@ -2113,6 +2113,21 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "output:acknowledgment_slip",
+   "type": "OUTPUT",
+   "name": "Acknowledgment Slip",
+   "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
+   "sources": [
+    {
+     "sourceId": "src:4de6b6d45e2e",
+     "evidence": "After submission of the Application Form, an acknowledgement slip will be given to the applicant by the PS committee or in a Gram Panchayat Office.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "action:e_gram_panchayat_eligible_citizens_are_identified_during_gram_sab",
    "type": "ACTION",
    "name": "Eligible citizens are identified during Gram Sabhas by their respective Gram Panchayat",
@@ -7027,6 +7042,21 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "output:transfer_order",
+   "type": "OUTPUT",
+   "name": "Transfer Order",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:096c6d3cc33f",
+     "evidence": "The transfer order is prepared online, and the teacher can get it online.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "action:teacher_transfer_the_applicant_gets_relieved_from_their_school_af",
    "type": "ACTION",
    "name": "The applicant gets relieved from their school after the TPEO countersigns the transfer ord",
@@ -7340,6 +7370,21 @@
      "sourceId": "src:8f130659de66",
      "evidence": "Following documents are required to be submitted at concerned R.T.O. with Form-20.\nSale Certificate in Form No.21\nRoad worthiness certificate in Form 22.\nIdentity proof with photographs of applicant.\nVehicle insurance certificate.\nProof of address",
      "confidence": 0.6,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "output:fitness_certificate",
+   "type": "OUTPUT",
+   "name": "Fitness Certificate",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:48ecc2904bee",
+     "evidence": "Fitness Certificate and Builder’s Certification of the pleasure craft / boat issued by the certifying agency as prescribed in these rules, certifying the fitness of the pleasure craft/boat for the intended operation;",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -8086,6 +8131,21 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "output:gujarat_card",
+   "type": "OUTPUT",
+   "name": "Gujarat Card",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:402f2ca32dff",
+     "evidence": "The NRGF issues 'Gujarat Card’ to non-resident Gujaratis.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "action:gujarat_card_the_gujarat_card_is_issued_at_a_fee_of_5_00_us_o",
    "type": "ACTION",
    "name": "The Gujarat Card is issued at a fee of $5.00 (US) or Rs. 225/- in Indian currency",
@@ -8126,6 +8186,12 @@
     {
      "sourceId": "src:402f2ca32dff",
      "evidence": "The Government of Gujarat has introduced a scheme extending financial assistance to Gujarati Samaj upto Rs.40.00 lacs to build the Gujarati Samaj bhavan or buildings and for renovation uptp Rs.10 .00 lacs.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:402f2ca32dff",
+     "evidence": "The NRGF issues 'Gujarat Card’ to non-resident Gujaratis.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
@@ -9508,6 +9574,22 @@
    "from": "service:e_gram_panchayat",
    "to": "action:e_gram_panchayat_the_applicant_receives_an_acknowledgment_slip_af",
    "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives an acknowledgment slip after submitting the application to the PS committee or Gram Panchayat Office.",
+   "sources": [
+    {
+     "sourceId": "src:4de6b6d45e2e",
+     "evidence": "After submission of the Application Form, an acknowledgement slip will be given to the applicant by the PS committee or in a Gram Panchayat Office.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_e_gram_panchayat__produces__output_acknowledgment_slip",
+   "from": "service:e_gram_panchayat",
+   "to": "output:acknowledgment_slip",
+   "type": "PRODUCES",
    "verificationStatus": "EXTRACTED",
    "note": "The applicant receives an acknowledgment slip after submitting the application to the PS committee or Gram Panchayat Office.",
    "sources": [
@@ -13120,6 +13202,22 @@
    ]
   },
   {
+   "id": "e:service_teacher_transfer__produces__output_transfer_order",
+   "from": "service:teacher_transfer",
+   "to": "output:transfer_order",
+   "type": "PRODUCES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives the transfer order online after the software allots vacant posts based on seniority and priority.",
+   "sources": [
+    {
+     "sourceId": "src:096c6d3cc33f",
+     "evidence": "The transfer order is prepared online, and the teacher can get it online.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_teacher_transfer__requires__action_teacher_transfer_the_applicant_gets_relieved_from_the",
    "from": "service:teacher_transfer",
    "to": "action:teacher_transfer_the_applicant_gets_relieved_from_their_school_af",
@@ -13252,6 +13350,22 @@
    "from": "service:certificate_of_fitness",
    "to": "department:certifying_agency",
    "type": "ISSUED_BY",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Fitness Certificate is issued by the certifying agency.",
+   "sources": [
+    {
+     "sourceId": "src:48ecc2904bee",
+     "evidence": "Fitness Certificate and Builder’s Certification of the pleasure craft / boat issued by the certifying agency as prescribed in these rules, certifying the fitness of the pleasure craft/boat for the intended operation;",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_certificate_of_fitness__produces__output_fitness_certificate",
+   "from": "service:certificate_of_fitness",
+   "to": "output:fitness_certificate",
+   "type": "PRODUCES",
    "verificationStatus": "EXTRACTED",
    "note": "The Fitness Certificate is issued by the certifying agency.",
    "sources": [
@@ -13940,6 +14054,22 @@
    "from": "service:gujarat_card",
    "to": "action:gujarat_card_the_applicant_receives_a_gujarat_card_at_the_end",
    "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives a Gujarat Card at the end.",
+   "sources": [
+    {
+     "sourceId": "src:402f2ca32dff",
+     "evidence": "The NRGF issues 'Gujarat Card’ to non-resident Gujaratis.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gujarat_card__produces__output_gujarat_card",
+   "from": "service:gujarat_card",
+   "to": "output:gujarat_card",
+   "type": "PRODUCES",
    "verificationStatus": "EXTRACTED",
    "note": "The applicant receives a Gujarat Card at the end.",
    "sources": [
