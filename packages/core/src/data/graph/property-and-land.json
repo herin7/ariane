@@ -1667,6 +1667,26 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:property_records_mamlatdar_conducts_supervision_and_inspection_on",
+   "type": "ACTION",
+   "name": "Mamlatdar conducts supervision and inspection on the work of revenue personnel in the Talu",
+   "jurisdictionId": "IN-GJ-ANAND",
+   "metadata": {
+    "whatToDo": "Mamlatdar conducts supervision and inspection on the work of revenue personnel in the Taluka.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:024138648137",
+     "evidence": "Supervision and inspection on work of revenue personnel of Taluka.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:property_records",
    "type": "SERVICE",
    "name": "Property Records",
@@ -2933,6 +2953,22 @@
     {
      "sourceId": "src:eb941cd330fd",
      "evidence": "Application Process\nJan Seva Kendra, Bhavnagar\nDistrict Collector Office\nOpposite Galaxy Cinema,\nKalanala, Bhavnagar\nGujarat - 364001",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_property_records__requires__action_property_records_mamlatdar_conducts_supervision_and_i",
+   "from": "service:property_records",
+   "to": "action:property_records_mamlatdar_conducts_supervision_and_inspection_on",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Mamlatdar conducts supervision and inspection on the work of revenue personnel in the Taluka.",
+   "sources": [
+    {
+     "sourceId": "src:024138648137",
+     "evidence": "Supervision and inspection on work of revenue personnel of Taluka.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }

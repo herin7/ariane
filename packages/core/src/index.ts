@@ -15,6 +15,7 @@ export {
 } from "./graph";
 export { evaluateRequirementGroup, type GroupContext, type GroupEvaluation } from "./requirements";
 export {
+  CITIZEN_STAGES,
   GoalNotFoundError,
   JourneyCompiler,
   JurisdictionNotFoundError,

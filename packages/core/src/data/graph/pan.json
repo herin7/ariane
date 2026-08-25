@@ -61,6 +61,7 @@
    "metadata": {
     "whatToDo": "Log in to the e-Filing portal using your user ID and password.",
     "stepNumber": 1,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -81,6 +82,7 @@
    "metadata": {
     "whatToDo": "On your Dashboard, click e-File > Income Tax Forms > File Income Tax Forms.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -101,6 +103,7 @@
    "metadata": {
     "whatToDo": "On the File Income Tax Forms page, select Form 67 . Alternatively, enter Form 67 in the search box to find the form.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -121,6 +124,7 @@
    "metadata": {
     "whatToDo": "On the Form 67 page, select the Assessment Year (A.Y.) and click Continue.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -141,6 +145,7 @@
    "metadata": {
     "whatToDo": "On the Instructions page, click Let's Get Started.",
     "stepNumber": 5,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -161,6 +166,7 @@
    "metadata": {
     "whatToDo": "On click of Let's Get Started , Form 67 is displayed. Fill all the required details and click Preview .",
     "stepNumber": 6,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -181,6 +187,7 @@
    "metadata": {
     "whatToDo": "On the Preview page, verify the details and click Proceed to e-Verify.",
     "stepNumber": 7,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -201,6 +208,7 @@
    "metadata": {
     "whatToDo": "Click Yes to e-Verify..",
     "stepNumber": 8,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -221,6 +229,7 @@
    "metadata": {
     "whatToDo": "On clicking Yes , you will be taken to the e-Verify page.",
     "stepNumber": 9,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -330,6 +339,7 @@
    "metadata": {
     "whatToDo": "Log in to the e-Filing portal with user ID and password.",
     "stepNumber": 1,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -350,6 +360,7 @@
    "metadata": {
     "whatToDo": "On the Dashboard, click Services > Challan Correction.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -370,6 +381,7 @@
    "metadata": {
     "whatToDo": "On the Challan Correction page, click the “+ Create Challan Correction Request” option to create a new Challan Correction Request.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -390,6 +402,7 @@
    "metadata": {
     "whatToDo": "You are required to select the relevant attribute for correction in the challan. Select the appropriate option (multiple options can be selected as applicable)and click Continue.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -410,6 +423,7 @@
    "metadata": {
     "whatToDo": "You are required to select the Tax year/Assessment Year or Challan Identification Number (CIN) to create challan correction request .Based on selection the unconsumed challans will be displayed for the correction. Click Continue to proceed.",
     "stepNumber": 5,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -430,6 +444,7 @@
    "metadata": {
     "whatToDo": "Once the relevant challan is selected, the Correction in Challan page will open. On this page, the user can update the required challan attributes and then click Continue.",
     "stepNumber": 6,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -539,6 +554,7 @@
    "metadata": {
     "whatToDo": "Log in to the e-Filing portal using user ID and password.",
     "stepNumber": 1,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -559,6 +575,7 @@
    "metadata": {
     "whatToDo": "Click Authorized Partners > My Chartered Accountant.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -579,6 +596,7 @@
    "metadata": {
     "whatToDo": "The My Chartered Accountant(s) page appears. It displays the active and inactive CAs under the respective tabs.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -599,6 +617,7 @@
    "metadata": {
     "whatToDo": "Enter name in the Search by Name textbox to view all matching records.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -619,6 +638,7 @@
    "metadata": {
     "whatToDo": "Click View Assigned Forms to display the status and details of all forms assigned to a specific CA.",
     "stepNumber": 5,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -728,6 +748,7 @@
    "metadata": {
     "whatToDo": "Go to the e-Filing portal homepage.",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -748,6 +769,7 @@
    "metadata": {
     "whatToDo": "Enter the user ID and password.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -768,6 +790,7 @@
    "metadata": {
     "whatToDo": "Go to e-File tab > Income Tax Returns > View Filed Returns.",
     "stepNumber": 3,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -788,6 +811,7 @@
    "metadata": {
     "whatToDo": "Now you can check the refund status for the desired Assessment year.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -894,6 +918,7 @@
    "metadata": {
     "whatToDo": "Go to the e-Filing portal homepage. In quick links section, click ‘ Know Your JAO’ .",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -914,6 +939,7 @@
    "metadata": {
     "whatToDo": "On the ‘ Know Your Jurisdictional Assessing Officer’ page, enter your PAN and a valid mobile number and click ‘Continue’ .",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -934,6 +960,7 @@
    "metadata": {
     "whatToDo": "You will receive a 6-digit OTP on the mobile number you entered in Step 2. Enter the OTP and click ‘ Validate ’.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -954,6 +981,7 @@
    "metadata": {
     "whatToDo": "Related Topics",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [

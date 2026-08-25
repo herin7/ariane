@@ -1,5 +1,5 @@
 {
- "runId": "compile-2026-08-25T07:39:19.918Z",
+ "runId": "compile-2026-08-25T07:50:33.651Z",
  "compiledAt": "2026-08-25",
  "total": 7319,
  "reasons": [
@@ -518,7 +518,7 @@
   {
    "stage": "compile",
    "reason": "NO_QUOTABLE_EVIDENCE",
-   "count": 28,
+   "count": 27,
    "examples": [
     {
      "url": "https://sabarkanthadp.gujarat.gov.in/gu/Registration-of-Co-Operative-society",
@@ -541,9 +541,9 @@
      "note": "10 fact(s) and not one of them load bearing"
     },
     {
-     "url": "https://parivahan.gov.in/en/content/faq",
-     "claim": "Driving Licence",
-     "note": "6 promoted claim(s) and no edge came out of them"
+     "url": "https://ceiced.gujarat.gov.in/contact",
+     "claim": "Chief Electrical Inspector",
+     "note": "7 fact(s) and not one of them load bearing"
     }
    ]
   },
@@ -780,6 +780,18 @@
      "url": "https://www.passportindia.gov.in/psp/contactUs",
      "claim": "Passport Seva",
      "note": "passport had 1, needs 3"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "NOT_A_CITIZEN_STEP",
+   "count": 1,
+   "examples": [
+    {
+     "url": "https://parivahan.gov.in/en/content/faq",
+     "claim": "Click 'continue'.",
+     "note": "a button, not a step"
     }
    ]
   }

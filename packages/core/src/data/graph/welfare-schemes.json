@@ -4544,6 +4544,7 @@
    "metadata": {
     "whatToDo": "The applicant must visit the official website and click on the 'Register' option.",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -4564,6 +4565,7 @@
    "metadata": {
     "whatToDo": "The applicant must accept the Terms & Conditions (T&C).",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -4584,6 +4586,7 @@
    "metadata": {
     "whatToDo": "The applicant must complete the registration form by providing details such as name, date of birth, gender, parents' details, Aadhaar card number, mobile number, etc.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -4604,6 +4607,7 @@
    "metadata": {
     "whatToDo": "The applicant must enter the captcha code and set a password.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -4624,6 +4628,7 @@
    "metadata": {
     "whatToDo": "Upon successful registration, the applicant will receive a User ID and password.",
     "stepNumber": 5,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -5219,6 +5224,7 @@
    "metadata": {
     "whatToDo": "**Applicants have to visit the [official website](https://connect.punjab.gov.in/service/citizenservice/116).",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -5239,6 +5245,7 @@
    "metadata": {
     "whatToDo": "**: Click on the \"Click to apply services\".",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -5259,6 +5266,7 @@
    "metadata": {
     "whatToDo": "**: Now login on Digital Punjab portal with Email/Phone number and password. If does have any account then register [here](https://ssocitizen.psegs.in/register)",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -5279,6 +5287,7 @@
    "metadata": {
     "whatToDo": "** Fill out the application form.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -5299,6 +5308,7 @@
    "metadata": {
     "whatToDo": "**: Attach the required documents",
     "stepNumber": 5,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -5319,6 +5329,7 @@
    "metadata": {
     "whatToDo": "**: Submit.",
     "stepNumber": 6,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -6669,6 +6680,7 @@
    "metadata": {
     "whatToDo": "** Any eligible applicant shall have to apply online on the Official Portal- Antyodaya-SARAL Portal. [https://saralharyana.gov.in/](https://saralharyana.gov.in/)",
     "stepNumber": 1,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -6689,6 +6701,7 @@
    "metadata": {
     "whatToDo": "**If the applicant is not registered on the portal, he/she gets registered there.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -6709,6 +6722,7 @@
    "metadata": {
     "whatToDo": "**For registration, click “ [New User](https://saralharyana.gov.in/citizenRegistration.html)” under ‘Sign In Here’ and fill in all the mandatory details i.e. Name, Email ID, Mobile Number, Password & State. Click on ‘Submit’.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -6729,6 +6743,7 @@
    "metadata": {
     "whatToDo": "** Verify your mobile number and email ID through the received OTP and complete the registration process.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -6940,6 +6955,7 @@
    "metadata": {
     "whatToDo": "Visit the [Official Website](https://www.himayat.org.in/) of Himayat. Click on Register now.",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -6960,6 +6976,7 @@
    "metadata": {
     "whatToDo": "For a new registration, visit the ' [Candidate Registration Form](https://www.himayat.org.in/CandidateRegistrationNew.html)' provided on the official website of Himayat:",
     "stepNumber": 2,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -6980,6 +6997,7 @@
    "metadata": {
     "whatToDo": "Fill out the application form.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -7000,6 +7018,7 @@
    "metadata": {
     "whatToDo": "The mandatory fields are Candidate Name, Father or Guardian Name, Gender, Date of Birth, District, Block, Permanent Address, and Email ID).",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -7020,6 +7039,7 @@
    "metadata": {
     "whatToDo": "The non-mandatory fields are Aadhar Number, Ration Card Number, Educational Qualification, and Interested Courses.",
     "stepNumber": 5,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -7040,6 +7060,7 @@
    "metadata": {
     "whatToDo": "Select the course(s) you are interested in.",
     "stepNumber": 6,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -7060,6 +7081,7 @@
    "metadata": {
     "whatToDo": "Finally, click the \"Submit\" icon to submit your application.",
     "stepNumber": 7,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -7321,6 +7343,7 @@
    "metadata": {
     "whatToDo": "**Visit the SARAL Portal at https://status.saralharyana.nic.in/",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -7341,6 +7364,7 @@
    "metadata": {
     "whatToDo": "**Click \"Tracking Feature\".",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -7361,6 +7385,7 @@
    "metadata": {
     "whatToDo": "**Select the department and service from the dropdown menu.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -7381,6 +7406,7 @@
    "metadata": {
     "whatToDo": "**Enter your Appeal/ Application Reference ID (provided to you when you applied for the service) and click on \"CHECK STATUS\".",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -7614,6 +7640,7 @@
    "metadata": {
     "whatToDo": "An advertisement inviting applications will be issued by the Centre for Cultural Resources and Training (CCRT), New Delhi.",
     "stepNumber": 1,
+    "uiStage": "AFTER_SUBMISSION",
     "machineExtracted": true
    },
    "sources": [
@@ -7634,6 +7661,7 @@
    "metadata": {
     "whatToDo": "Applicants are required to submit online applications on the CSMS Portal which is made available on the website of the Ministry of Culture & CCRT.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -7654,6 +7682,7 @@
    "metadata": {
     "whatToDo": "The applicant needs to visit the official website and click on “MOC Schemes Application”.",
     "stepNumber": 3,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -7674,6 +7703,7 @@
    "metadata": {
     "whatToDo": "Click on Registration and fill up the registration form.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -7694,6 +7724,7 @@
    "metadata": {
     "whatToDo": "Get Username and Password for Login",
     "stepNumber": 5,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -7714,6 +7745,7 @@
    "metadata": {
     "whatToDo": "Go to the current scheme status and click on the appropriate scheme.",
     "stepNumber": 6,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -7734,6 +7766,7 @@
    "metadata": {
     "whatToDo": "Fill up the form and submit it.",
     "stepNumber": 7,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -7910,6 +7943,7 @@
    "metadata": {
     "whatToDo": "Visit the National Scholarships Portal (NSP) One Time Registration page and Click on “Apply for OTR”",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -7930,6 +7964,7 @@
    "metadata": {
     "whatToDo": "Guidelines for OTR will appear. Scroll to the bottom. Read carefully the undertaking. Accept the Terms. Click “Next”.",
     "stepNumber": 2,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -7950,6 +7985,7 @@
    "metadata": {
     "whatToDo": "Register your active mobile number in the OTR registration form. All correspondence/communication will be done on the submitted mobile/e-mail only.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -7970,6 +8006,7 @@
    "metadata": {
     "whatToDo": "Complete Aadhaar e-KYC by entering Parent/Legal Guardian/Student Aadhaar number. Submit the OTP received and Click “verify”",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -7990,6 +8027,7 @@
    "metadata": {
     "whatToDo": "Enter details on the next page and click “Finish”. You will receive a Reference Number. Download the NSP OTR App and the Aadhaar FaceRD App from Google Play Store and complete face authentication for generating OTR.",
     "stepNumber": 5,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -8010,6 +8048,7 @@
    "metadata": {
     "whatToDo": "On successful face authentication, your 14-digit OTR number will be generated and sent via SMS.",
     "stepNumber": 6,
+    "uiStage": "AFTER_SUBMISSION",
     "machineExtracted": true
    },
    "sources": [
@@ -8468,6 +8507,7 @@
    "metadata": {
     "whatToDo": "** To avail of the benefits of the scheme, the applicant needs to visit the Official Portal - [Antyodaya-SARAL Portal](https://saralharyana.gov.in/)",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -8488,6 +8528,7 @@
    "metadata": {
     "whatToDo": "** If the applicant is not registered on the portal, then he/she gets registered on the portal.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -8508,6 +8549,7 @@
    "metadata": {
     "whatToDo": "** For registration, click on “New User/Register Here” and fill in all the mandatory details i.e. Name, Email ID, Mobile Number & password. Click on ‘Submit’.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -8528,6 +8570,7 @@
    "metadata": {
     "whatToDo": "** Applicants will receive the login ID on their mobile number.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -8862,6 +8905,7 @@
    "metadata": {
     "whatToDo": "Keep ready the soft copies of the required documents.",
     "stepNumber": 1,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -8882,6 +8926,7 @@
    "metadata": {
     "whatToDo": "A Registration Form will appear. (The fields marked as \\* are compulsory)",
     "stepNumber": 2,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -8902,6 +8947,7 @@
    "metadata": {
     "whatToDo": "Go to the Login page.",
     "stepNumber": 3,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -8922,6 +8968,7 @@
    "metadata": {
     "whatToDo": "On the left pane, click “Application Form”. The fields marked as \\* are compulsory. Fill the details and upload the documents.",
     "stepNumber": 4,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -9239,6 +9286,7 @@
    "metadata": {
     "whatToDo": "Visit the Official Website of the State Scholarship Portal, Government of Odisha: https://scholarship.odisha.gov.in/",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -9259,6 +9307,7 @@
    "metadata": {
     "whatToDo": "Click on \"Registration\".",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -9279,6 +9328,7 @@
    "metadata": {
     "whatToDo": "Read the Instructions/Declaration carefully.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -9299,6 +9349,7 @@
    "metadata": {
     "whatToDo": "Select the Checkbox and Click \"I Agree\".",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -9319,6 +9370,7 @@
    "metadata": {
     "whatToDo": "On the next page, provide your Aadhaar Number, Mobile Number, and all the mandatory fields: Name, Gender, Date of Birth, and Email ID. Click \"Register\".",
     "stepNumber": 5,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -9475,6 +9527,7 @@
    "metadata": {
     "whatToDo": "** Visit the official [Seva Sindhu Portal](https://sevasindhu.karnataka.gov.in/Sevasindhu/English).",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -9495,6 +9548,7 @@
    "metadata": {
     "whatToDo": "**Choose \"New Users Register Here\" and fill in your Aadhaar Number and the Captcha code.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -9515,6 +9569,7 @@
    "metadata": {
     "whatToDo": "** An OTP will be sent to your Aadhaar-linked mobile number. Enter the OTP to continue.",
     "stepNumber": 3,
+    "uiStage": "AFTER_SUBMISSION",
     "machineExtracted": true
    },
    "sources": [
@@ -9535,6 +9590,7 @@
    "metadata": {
     "whatToDo": "**Once your DigiLocker account is created, click \"Allow\" to proceed.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -9555,6 +9611,7 @@
    "metadata": {
     "whatToDo": "** [﻿](https://sevasindhu.karnataka.gov.in/Sevasindhu/English) Fill out your email ID, mobile number, create a password, and enter the captcha, then click \"Submit\".",
     "stepNumber": 5,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -9575,6 +9632,7 @@
    "metadata": {
     "whatToDo": "**You will receive OTPs on both your email and mobile number. Enter both OTPs and select \"Validate\".",
     "stepNumber": 6,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -9595,6 +9653,7 @@
    "metadata": {
     "whatToDo": "** Once validated, a confirmation message will indicate your registration is successful.",
     "stepNumber": 7,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -9759,6 +9818,7 @@
    "metadata": {
     "whatToDo": "** The applicant, who fulfills the eligibility criteria, may visit the office of the Gram Panchayat and collect the [application form](https://sw.cg.gov.in/sites/default/files/pensionscheme.pdf), which is available free of cost.",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -9779,6 +9839,7 @@
    "metadata": {
     "whatToDo": "** Fill out the application form and submit it to the Gram Panchayat. You will receive an acknowledgment receipt from the Gram Panchayat.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -9799,6 +9860,7 @@
    "metadata": {
     "whatToDo": "** The Gram Panchayat will review and recommend the application and then forward it to the District Panchayat within 07 days.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -10575,6 +10637,7 @@
    "metadata": {
     "whatToDo": "Visit the official website. Navigate to the \"Click here for Loan Subsidy\" section.",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -10595,6 +10658,7 @@
    "metadata": {
     "whatToDo": "Click \"Aponar Apon Ghar (Home Loan Subsidy Scheme)\". You will be taken to \"Application for Release for Subsidy\". Fill in all the mandatory details.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -10615,6 +10679,7 @@
    "metadata": {
     "whatToDo": "Upload the Supporting Documents: Land Proof, Address Proof, and PAN Card Proof. Check the Declaration, and click \"Save\".",
     "stepNumber": 3,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -11100,6 +11165,7 @@
    "metadata": {
     "whatToDo": "**Visit the official [Website](https://kbocwwb.karnataka.gov.in/login) of Karnataka Building & Other Construction Workers Welfare Board (KBOCWWB) and click on “Register”.",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -11120,6 +11186,7 @@
    "metadata": {
     "whatToDo": "**Select “Register as New Construction Worker” then enter your mobile number as per the Aadhaar Registered and verify with the received OTP.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -11140,6 +11207,7 @@
    "metadata": {
     "whatToDo": "**From the dashboard, click on “Registration”.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -11160,6 +11228,7 @@
    "metadata": {
     "whatToDo": "** Fill in all the mandatory details and upload the required documents. Click on “Final Submit” to complete the registration process.",
     "stepNumber": 4,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -12013,6 +12082,7 @@
    "metadata": {
     "whatToDo": "The applicant should take a print of the format of the application form provided in the scheme guidelines.",
     "stepNumber": 1,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -12033,6 +12103,7 @@
    "metadata": {
     "whatToDo": "The applicant should fill in all the mandatory fields and attach all the (self-attested) required documents.",
     "stepNumber": 2,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -12053,6 +12124,7 @@
    "metadata": {
     "whatToDo": "The duly filled-in application form should be submitted to the Directorate of Art & Culture, Government of Manipur office at Palace Compound, Imphal.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -12586,6 +12658,7 @@
    "metadata": {
     "whatToDo": "** Visit the \" [Samarth Portal](https://samarth.mp.gov.in/Default)\".",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -12606,6 +12679,7 @@
    "metadata": {
     "whatToDo": "** Navigate to the top right corner of the homepage and click \" [Registration\".](https://samarth.mp.gov.in/Registration/Default)",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -12626,6 +12700,7 @@
    "metadata": {
     "whatToDo": "** On the registration page, provide the mandatory details. (the fields marked with \\* are mandatory). If required, verify your Mobile Number and/or Email ID via OTP. Finally, click \"Register\".",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -12785,6 +12860,7 @@
    "metadata": {
     "whatToDo": "** The applicant should gather copies of the necessary documents (self-attest if required) needed to apply for the concerned scheme.",
     "stepNumber": 1,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -12805,6 +12881,7 @@
    "metadata": {
     "whatToDo": "** The applicant should visit the nearest [Common Service Center](https://tnega.tn.gov.in/csclocation) (CSC) and complete the Biometric Verification Process.",
     "stepNumber": 2,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -12825,6 +12902,7 @@
    "metadata": {
     "whatToDo": "**In the application form, fill in all the mandatory fields and upload copies of all the mandatory documents.",
     "stepNumber": 3,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -12845,6 +12923,7 @@
    "metadata": {
     "whatToDo": "**Request a receipt or acknowledgement from the CSC. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -13405,6 +13484,7 @@
    "metadata": {
     "whatToDo": "In the Registration Form, fill in all the mandatory fields and upload the required documents.",
     "stepNumber": 1,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -13425,6 +13505,7 @@
    "metadata": {
     "whatToDo": "Fill in the verification code, and click \"Submit\" to complete your registration.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -13445,6 +13526,7 @@
    "metadata": {
     "whatToDo": "Take a print of the submitted registration form, attach the self-attested copies of the required documents, and submit the same at the respective ZSB.",
     "stepNumber": 3,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -13792,6 +13874,7 @@
    "metadata": {
     "whatToDo": "The applicant should take print of the format of the application form provided in the scheme guidelines.",
     "stepNumber": 1,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -13812,6 +13895,7 @@
    "metadata": {
     "whatToDo": "The applicant should fill in all the mandatory fields and attach all the (self-attested) required documents.",
     "stepNumber": 2,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -13832,6 +13916,7 @@
    "metadata": {
     "whatToDo": "The duly filled-in application form should be submitted to the Directorate of Art & Culture, Government of Manipur office at Palace Compound, Imphal along with a cover letter addressed to the Director (Art & Culture).",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -14161,6 +14246,7 @@
    "metadata": {
     "whatToDo": "Visit the Official Website of Kaushal Panjee for application.",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -14181,6 +14267,7 @@
    "metadata": {
     "whatToDo": "Click on 'Candidate Registration' in the Left Pane for application.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -14201,6 +14288,7 @@
    "metadata": {
     "whatToDo": "Select 'Fresh/New Registration' in the 'Registration Type' section for application.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -14221,6 +14309,7 @@
    "metadata": {
     "whatToDo": "Fill in all the mandatory fields and upload the required documents for application.",
     "stepNumber": 4,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -14579,6 +14668,7 @@
    "metadata": {
     "whatToDo": "The applicant must visit the Digital Gujarat portal to apply.",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -14599,6 +14689,7 @@
    "metadata": {
     "whatToDo": "The applicant must register or log in using valid credentials.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -14619,6 +14710,7 @@
    "metadata": {
     "whatToDo": "The applicant must fill out all required details in the application form.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -14639,6 +14731,7 @@
    "metadata": {
     "whatToDo": "The applicant must upload, attach, or browse necessary documents.",
     "stepNumber": 4,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -14659,6 +14752,7 @@
    "metadata": {
     "whatToDo": "The applicant must review all entered information before submission.",
     "stepNumber": 5,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -14679,6 +14773,7 @@
    "metadata": {
     "whatToDo": "The applicant must submit the application.",
     "stepNumber": 6,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -14699,6 +14794,7 @@
    "metadata": {
     "whatToDo": "The applicant must proceed to payment to download the certificate.",
     "stepNumber": 7,
+    "uiStage": "AFTER_SUBMISSION",
     "machineExtracted": true
    },
    "sources": [
@@ -15333,6 +15429,7 @@
    "metadata": {
     "whatToDo": "Applicants need to visit the official website [https://www.digitalgujarat.gov.in](https://www.digitalgujarat.gov.in/)",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -15353,6 +15450,7 @@
    "metadata": {
     "whatToDo": "New applicants have to register his/her self first.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -15373,6 +15471,7 @@
    "metadata": {
     "whatToDo": "At the time of registration, applicants have to provide their mobile number, email & set password.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -15393,6 +15492,7 @@
    "metadata": {
     "whatToDo": "Update profile.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -15413,6 +15513,7 @@
    "metadata": {
     "whatToDo": "Applying for the scholarship.",
     "stepNumber": 5,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -15575,6 +15676,7 @@
    "metadata": {
     "whatToDo": "** Obtain the application form from Taluka Mamlatdar’s office.",
     "stepNumber": 1,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -15595,6 +15697,7 @@
    "metadata": {
     "whatToDo": "**Fill out the form with accurate details and attach the required documents.",
     "stepNumber": 2,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -15615,6 +15718,7 @@
    "metadata": {
     "whatToDo": "**Submit the form to the Taluka Mamlatdar.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -15635,6 +15739,7 @@
    "metadata": {
     "whatToDo": "**The Mamlatdar will verify the details and approve the assistance if all criteria are met.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -16174,6 +16279,7 @@
    "metadata": {
     "whatToDo": "Open the official website of NSP [https://scholarships.gov.in/](https://scholarships.gov.in/)",
     "stepNumber": 1,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -16194,6 +16300,7 @@
    "metadata": {
     "whatToDo": "Register yourself on the portal if you are not registered already.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -16214,6 +16321,7 @@
    "metadata": {
     "whatToDo": "Log in with your details.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -16234,6 +16342,7 @@
    "metadata": {
     "whatToDo": "Click on the \"POST-MATRIC SCHOLARSHIP FOR SCHEDULED TRIBES STUDENTS\" option.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -16254,6 +16363,7 @@
    "metadata": {
     "whatToDo": "The application form will open on the screen.",
     "stepNumber": 5,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -16274,6 +16384,7 @@
    "metadata": {
     "whatToDo": "Enter details to fill out the application form.",
     "stepNumber": 6,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -16294,6 +16405,7 @@
    "metadata": {
     "whatToDo": "Upload the required documents.",
     "stepNumber": 7,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -16314,6 +16426,7 @@
    "metadata": {
     "whatToDo": "Submit your application form.",
     "stepNumber": 8,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -16951,6 +17064,7 @@
    "metadata": {
     "whatToDo": "The student must visit the nearest Office of Deputy Director, Office of Scheduled Caste Welfare to collect the application form.",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -16971,6 +17085,7 @@
    "metadata": {
     "whatToDo": "The student must fill in all the mandatory fields in the application form and attach all mandatory documents.",
     "stepNumber": 2,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -16991,6 +17106,7 @@
    "metadata": {
     "whatToDo": "The student must submit the application form along with the documents to the concerned office.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -17011,6 +17127,7 @@
    "metadata": {
     "whatToDo": "The student will receive the assistance amount directly credited to their bank account through DBT (Direct Benefit Transfer).",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -17258,6 +17375,7 @@
    "metadata": {
     "whatToDo": "The applicant must visit the District Differently Abled Welfare Office to request a hard copy of the application form.",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -17278,6 +17396,7 @@
    "metadata": {
     "whatToDo": "The applicant must fill in all the mandatory fields in the application form and attach copies of all the mandatory documents.",
     "stepNumber": 2,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -17298,6 +17417,7 @@
    "metadata": {
     "whatToDo": "The applicant must submit the duly filled and signed application form along with the documents to the District Differently Abled Welfare Officer.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -17318,6 +17438,7 @@
    "metadata": {
     "whatToDo": "The applicant must request a receipt or acknowledgment from the District Differently Abled Welfare Officer after submitting the application.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -17427,6 +17548,7 @@
    "metadata": {
     "whatToDo": "Visit on the Official Website",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -17447,6 +17569,7 @@
    "metadata": {
     "whatToDo": "Fill in the mandatory fields correctly. Upload the required documents in the said format and size.",
     "stepNumber": 2,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -17467,6 +17590,7 @@
    "metadata": {
     "whatToDo": "Click \"Submit\" to complete the application process.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -17625,6 +17749,7 @@
    "metadata": {
     "whatToDo": "After login, navigate to the AQIS application screen please click on the “AICTE quality Improvement Schemes (Financial Funding Schemes)” icon.",
     "stepNumber": 1,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -17645,6 +17770,7 @@
    "metadata": {
     "whatToDo": "The AQIS application page of the institute is open.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -17665,6 +17791,7 @@
    "metadata": {
     "whatToDo": "Click on the “AQIS Application- Institute details”",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -17685,6 +17812,7 @@
    "metadata": {
     "whatToDo": "Institute and Bank Details will auto-populate in “AQIS Application – Institute Details” Please check and update according to changes.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -18514,6 +18642,7 @@
    "metadata": {
     "whatToDo": "** Go to the official website of the \" [Madhya Pradesh Shiksha Portal](https://shikshaportal.mp.gov.in/Default.aspx)\" using a web browser.",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -18534,6 +18663,7 @@
    "metadata": {
     "whatToDo": "**Click on ‘ [eKYC](https://shikshaportal.mp.gov.in/Public/EKYC/VerifyMobileBeforeKYC.aspx)’.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -18554,6 +18684,7 @@
    "metadata": {
     "whatToDo": "** Enter your mobile number and captcha, then click on \"Get OTP.\"",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -18574,6 +18705,7 @@
    "metadata": {
     "whatToDo": "**Enter the OTP and go to the next page.",
     "stepNumber": 4,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -18594,6 +18726,7 @@
    "metadata": {
     "whatToDo": "** Enter your Samagra ID and captcha code, then click ‘OK’.",
     "stepNumber": 5,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -18614,6 +18747,7 @@
    "metadata": {
     "whatToDo": "** The student's basic information will be displayed, such as the names of the father and mother, date of birth, school, etc.",
     "stepNumber": 6,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -18634,6 +18768,7 @@
    "metadata": {
     "whatToDo": "**Click on Aadhaar eKYC, enter your Aadhaar number, and click to get OTP.",
     "stepNumber": 7,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -18654,6 +18789,7 @@
    "metadata": {
     "whatToDo": "**Enter the OTP and click ‘Submit’.",
     "stepNumber": 8,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -18674,6 +18810,7 @@
    "metadata": {
     "whatToDo": "**Read all the information carefully before proceeding, then click ‘Submit’.",
     "stepNumber": 9,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -18876,6 +19013,7 @@
    "metadata": {
     "whatToDo": "Obtain the application form from the Department of Industries and Commerce or download it from the official website.",
     "stepNumber": 1,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -18896,6 +19034,7 @@
    "metadata": {
     "whatToDo": "Fill in the form with accurate details regarding the proposed project, investment plans, employment generation, and other required information.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -18916,6 +19055,7 @@
    "metadata": {
     "whatToDo": "Attach all necessary documents, including project reports, financial statements, and supporting certificates.",
     "stepNumber": 3,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -18936,6 +19076,7 @@
    "metadata": {
     "whatToDo": "Submit the completed application form along with the supporting documents to the designated authority within the specified timeframe.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -18956,6 +19097,7 @@
    "metadata": {
     "whatToDo": "The application will undergo scrutiny and evaluation by the concerned department, and applicants may be called for a discussion or presentation if required.",
     "stepNumber": 5,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -18976,6 +19118,7 @@
    "metadata": {
     "whatToDo": "Upon approval, the applicant will receive an offer letter specifying the incentives and conditions of the scheme.",
     "stepNumber": 6,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -19240,6 +19383,7 @@
    "metadata": {
     "whatToDo": "Log on to https://edistrict.delhigovt.nic.in/",
     "stepNumber": 1,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -19260,6 +19404,7 @@
    "metadata": {
     "whatToDo": "Under Citizen Corner click on \"New User\"",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -19280,6 +19425,7 @@
    "metadata": {
     "whatToDo": "Click on select the document – Aadhar or Voter ID",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -19300,6 +19446,7 @@
    "metadata": {
     "whatToDo": "Enter your Aadhar Card Number/Voter ID Card Number",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -19320,6 +19467,7 @@
    "metadata": {
     "whatToDo": "Type the Captcha in the box shown. The \"Citizen Registration Form\" will Open.",
     "stepNumber": 5,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -19340,6 +19488,7 @@
    "metadata": {
     "whatToDo": "Fill up all fields including details of the Present Residential Address",
     "stepNumber": 6,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -19360,6 +19509,7 @@
    "metadata": {
     "whatToDo": "Enter Captcha, and Click on Continue.",
     "stepNumber": 7,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -19380,6 +19530,7 @@
    "metadata": {
     "whatToDo": "Login ID and Password will be received on the given mobile number/e-mail address.",
     "stepNumber": 8,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -19400,6 +19551,7 @@
    "metadata": {
     "whatToDo": "Now Registration on the e-district portal is complete",
     "stepNumber": 9,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -19773,6 +19925,7 @@
    "metadata": {
     "whatToDo": "** Applicant visits the [official website](https://artandculture.tn.gov.in/user/register).",
     "stepNumber": 1,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -19793,6 +19946,7 @@
    "metadata": {
     "whatToDo": "** Click on 'Artist Registration' then 'Individual Fine Arts.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -19813,6 +19967,7 @@
    "metadata": {
     "whatToDo": "** Fill in the mandatory fields such as Name and Mobile number.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -19833,6 +19988,7 @@
    "metadata": {
     "whatToDo": "** Upon entering your mobile number, you will receive an OTP for verification. Verify your mobile number to proceed.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -19853,6 +20009,7 @@
    "metadata": {
     "whatToDo": "** Establish a password and input the provided verification code (CAPTCHA).",
     "stepNumber": 5,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -19873,6 +20030,7 @@
    "metadata": {
     "whatToDo": "** Log in to your account upon successful verification.",
     "stepNumber": 6,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -19893,6 +20051,7 @@
    "metadata": {
     "whatToDo": "** Return to 'Artist Registration' and choose 'Individual Fine Arts'.",
     "stepNumber": 7,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -19913,6 +20072,7 @@
    "metadata": {
     "whatToDo": "** Complete the 'Artist Individual Registration' form with the necessary details.",
     "stepNumber": 8,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -19933,6 +20093,7 @@
    "metadata": {
     "whatToDo": "** Upload the Artist's photo, relevant documents, and photos of artworks.",
     "stepNumber": 9,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -19953,6 +20114,7 @@
    "metadata": {
     "whatToDo": "** Optionally, provide the link to your YouTube channel if available.",
     "stepNumber": 10,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -19973,6 +20135,7 @@
    "metadata": {
     "whatToDo": "**: Enter your bank details and complete the CAPTCHA verification.",
     "stepNumber": 11,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -19993,6 +20156,7 @@
    "metadata": {
     "whatToDo": "** Click on 'Submit'. Upon successful submission, you will receive a 'Reference Number'.",
     "stepNumber": 12,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -22490,6 +22654,7 @@
    "metadata": {
     "whatToDo": "Download and fill out the application form for AICTE-Grant for Augmenting Infrastructure in North Eastern Region (GAINER).",
     "stepNumber": 1,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -22510,6 +22675,7 @@
    "metadata": {
     "whatToDo": "Verify that every page of the application form has the signature and stamp of the Head of the Institute.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -22530,6 +22696,7 @@
    "metadata": {
     "whatToDo": "Attach all the essential documents along with the filled application form.",
     "stepNumber": 3,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -22550,6 +22717,7 @@
    "metadata": {
     "whatToDo": "Kindly ensure all the information is correct and then sent the Application form along with all the essential documents through registered post/speed post to:",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -25318,6 +25486,7 @@
    "metadata": {
     "whatToDo": "** The eligible applicant may apply online through the Official Portal- Antyodaya SARAL Portal. [https://saralharyana.gov.in/](https://saralharyana.gov.in/)",
     "stepNumber": 1,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -25338,6 +25507,7 @@
    "metadata": {
     "whatToDo": "** If the applicant is not registered on the portal, he/she gets registered there.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -25358,6 +25528,7 @@
    "metadata": {
     "whatToDo": "** For registration, click “ [New User](https://saralharyana.gov.in/citizenRegistration.html)” under ‘Sign In Here’ and fill in all the mandatory details i.e. Name, Email ID, Mobile Number, Password & State. Click on ‘Submit’.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -25378,6 +25549,7 @@
    "metadata": {
     "whatToDo": "** Verify your mobile number and email ID through the received OTP and complete the registration process.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -26902,6 +27074,7 @@
    "metadata": {
     "whatToDo": "The applicant must visit the nearest Farmer Training Centre of the district or contact Village Level Worker (Gram Sevak) and request/collect an application form for the scheme.",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -26922,6 +27095,7 @@
    "metadata": {
     "whatToDo": "The applicant must fill in all the mandatory fields in the application form, paste the passport-sized photograph, and attach all the mandatory documents.",
     "stepNumber": 2,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -26942,6 +27116,7 @@
    "metadata": {
     "whatToDo": "The application form must be submitted to the concerned receiving authority.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -26962,6 +27137,7 @@
    "metadata": {
     "whatToDo": "After successful verification, the applicant may be eligible to take all the benefits under the scheme.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -28595,6 +28771,7 @@
    "metadata": {
     "whatToDo": "** Any unemployed person desirous of establishing Backyard Poultry under the scheme can apply online through the Official Portal- Antyodaya-SARAL Portal. [https://saralharyana.gov.in/](https://saralharyana.gov.in/)",
     "stepNumber": 1,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -28615,6 +28792,7 @@
    "metadata": {
     "whatToDo": "** If the applicant is not registered on the portal, he/she gets registered there.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -28635,6 +28813,7 @@
    "metadata": {
     "whatToDo": "** For registration, click “ [New User](https://saralharyana.gov.in/citizenRegistration.html)” under ‘Sign In Here’ and fill in all the mandatory details i.e. Name, Email ID, Mobile Number, Password & State. Click on ‘Submit’.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -28655,6 +28834,7 @@
    "metadata": {
     "whatToDo": "**Verify your mobile number and email ID through the received OTP and complete the registration process.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -29319,6 +29499,7 @@
    "metadata": {
     "whatToDo": "The application form can be downloaded from the Department’s website www.socialwelfare.nic.in or collected from the District Social Welfare Offices, Office of CDPOs.",
     "stepNumber": 1,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -29339,6 +29520,7 @@
    "metadata": {
     "whatToDo": "Fill in the mandatory fields of the Application Form, attach the supporting (self-attested) documents and the passport sized photograph.",
     "stepNumber": 2,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -29359,6 +29541,7 @@
    "metadata": {
     "whatToDo": "Submit the form in the Office of the District Social Welfare Officer concerned.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -30550,6 +30733,7 @@
    "metadata": {
     "whatToDo": "** Visit the official [website](https://gopalan.rajasthan.gov.in/scheme/detail/573).",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -30570,6 +30754,7 @@
    "metadata": {
     "whatToDo": "** Scroll down to the window named \"Documents related to the plan\".",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -30590,6 +30775,7 @@
    "metadata": {
     "whatToDo": "** Download the application form and fill in all the details.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -30610,6 +30796,7 @@
    "metadata": {
     "whatToDo": "**Submit the application form along with the required documents to the Directorate of Gopalan.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -30630,6 +30817,7 @@
    "metadata": {
     "whatToDo": "**Await verification and approval from the concerned authority.",
     "stepNumber": 5,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -30830,6 +31018,7 @@
    "metadata": {
     "whatToDo": "Applicants have to visit the [official portal.](https://mpfsts.mp.gov.in/mphd/HomeIndex/NewIndex)",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -30850,6 +31039,7 @@
    "metadata": {
     "whatToDo": "Click on \" [New Registration \"](https://mpfsts.mp.gov.in/mphd/#/new-application).",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -30870,6 +31060,7 @@
    "metadata": {
     "whatToDo": "Enter your mobile number and click on OTP Send.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -30890,6 +31081,7 @@
    "metadata": {
     "whatToDo": "Now Fill in the details and upload the documents.",
     "stepNumber": 4,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -30910,6 +31102,7 @@
    "metadata": {
     "whatToDo": "After, fill in all the information and upload the document click on the submit button.",
     "stepNumber": 5,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -32746,6 +32939,7 @@
    "metadata": {
     "whatToDo": "**Visit the [Official Website](https://www.medhavikalyan.mp.gov.in/) of Mukhyamantri Medhavi Vidhyarti Yojana.",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -32766,6 +32960,7 @@
    "metadata": {
     "whatToDo": "**Click on the link titled 'Application for MMVY Only' from the options displayed on the home page.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -32786,6 +32981,7 @@
    "metadata": {
     "whatToDo": "** Choose the relevant academic year, \"Register for Academic Year 2024-25(Fresh/Renewal)\", and click on it.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -32806,6 +33002,7 @@
    "metadata": {
     "whatToDo": "**Click on the ‘ [New Applicant](https://www.medhavikalyan.mp.gov.in/MedhaviChhatra/Public/Check_EKYC.aspx)’ button to begin the registration process.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -32826,6 +33023,7 @@
    "metadata": {
     "whatToDo": "** Enter your 9-digit Samagra ID and then click on the ‘Verify’ button.",
     "stepNumber": 5,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -32846,6 +33044,7 @@
    "metadata": {
     "whatToDo": "**You will receive a one-time password (OTP) on your registered mobile number. Enter this OTP and submit it for verification.",
     "stepNumber": 6,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -32866,6 +33065,7 @@
    "metadata": {
     "whatToDo": "**Fill in all the required personal details and other information in the ‘Registration Form’ and then submit it.",
     "stepNumber": 7,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -32886,6 +33086,7 @@
    "metadata": {
     "whatToDo": "**Upon successful registration, you will receive a confirmation message that includes your reference number, user ID, and password.",
     "stepNumber": 8,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [

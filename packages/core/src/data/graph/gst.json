@@ -86,6 +86,7 @@
    "metadata": {
     "whatToDo": "Go to the e-Filing homepage and click Register.",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -106,6 +107,7 @@
    "metadata": {
     "whatToDo": "On the Register page, click Others in the Register as section.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -126,6 +128,7 @@
    "metadata": {
     "whatToDo": "Select TIN 2.0 Stakeholders from the Category dropdown and click Continue.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -146,6 +149,7 @@
    "metadata": {
     "whatToDo": "In the Basic Details tab, enter all the mandatory information ( Organization Type , PAN , Name , Date of Incorporation , CIN , and Source IP Details ). Click Continue.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -166,6 +170,7 @@
    "metadata": {
     "whatToDo": "In the Technical SPOC tab, enter the SPOC's mandatory information ( PAN , Last Name , Date of Birth , Gender , Designation ). Click Continue.",
     "stepNumber": 5,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -186,6 +191,7 @@
    "metadata": {
     "whatToDo": "In the Contact Details tab, enter the SPOC's contact details ( Primary Mobile Number and Email ID , who it belongs to, and Postal Address details ). Click Continue .",
     "stepNumber": 6,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -206,6 +212,7 @@
    "metadata": {
     "whatToDo": "Two separate 6-digit OTPs are sent to the primary mobile number and email ID you entered in Step 6. Enter the 6-digit Mobile OTP and Email OTP, and click Continue.",
     "stepNumber": 7,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -226,6 +233,7 @@
    "metadata": {
     "whatToDo": "In the Attachments tab, click Attachment and upload the following required documents:",
     "stepNumber": 8,
+    "uiStage": "PREPARE",
     "machineExtracted": true
    },
    "sources": [
@@ -246,6 +254,7 @@
    "metadata": {
     "whatToDo": "On the Verify Details page, review the details you entered for all sections. Click Edit for the relevant section if you need to change any detail. If all the details are correct, click Confirm.",
     "stepNumber": 9,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -266,6 +275,7 @@
    "metadata": {
     "whatToDo": "On the Set Password page, enter your password in the Set Password textbox, and re-enter the same password in the Confirm Password textbox.",
     "stepNumber": 10,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -286,6 +296,7 @@
    "metadata": {
     "whatToDo": "Enter a personalized message of your choice, which can contain a maximum of 25 characters. Then, click Register.",
     "stepNumber": 11,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -514,6 +525,7 @@
    "metadata": {
     "whatToDo": "Go to the e-Filing portal homepage, click Register.",
     "stepNumber": 1,
+    "uiStage": "IN_PERSON",
     "machineExtracted": true
    },
    "sources": [
@@ -534,6 +546,7 @@
    "metadata": {
     "whatToDo": "Click Others and select the Category as Tax Deductor and Collector.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -554,6 +567,7 @@
    "metadata": {
     "whatToDo": "Enter the TAN of the Organization and click Validate.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [

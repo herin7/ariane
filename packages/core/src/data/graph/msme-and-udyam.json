@@ -455,6 +455,46 @@
    ]
   },
   {
+   "id": "action:udyam_registration_an_applicant_must_register_their_enterprise_for_",
+   "type": "ACTION",
+   "name": "An applicant must register their enterprise for Udyam Registration",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "An applicant must register their enterprise for Udyam Registration.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "An enterprise for the purpose of this process will be known as Udyam and its Registration Process will be known as 'Udyam Registration'",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:udyam_registration_the_udyam_registration_process_is_free_of_cost",
+   "type": "ACTION",
+   "name": "The Udyam Registration process is free of cost",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The Udyam Registration process is free of cost.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "Registration Process is totally free. No Costs or Fees are to be paid to anyone.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "office:dcmsme_office",
    "type": "OFFICE",
    "name": "Dcmsme_office",
@@ -1975,6 +2015,38 @@
      "sourceId": "src:cef59a1e5f90",
      "evidence": "Call or Whatsapp on +91 8308809334 Mon to Fri : 10:00 AM - 06:00 PM",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_udyam_registration__requires__action_udyam_registration_an_applicant_must_register_their_e",
+   "from": "service:udyam_registration",
+   "to": "action:udyam_registration_an_applicant_must_register_their_enterprise_for_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant must register their enterprise for Udyam Registration.",
+   "sources": [
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "An enterprise for the purpose of this process will be known as Udyam and its Registration Process will be known as 'Udyam Registration'",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_udyam_registration__requires__action_udyam_registration_the_udyam_registration_process_is_",
+   "from": "service:udyam_registration",
+   "to": "action:udyam_registration_the_udyam_registration_process_is_free_of_cost",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Udyam Registration process is free of cost.",
+   "sources": [
+    {
+     "sourceId": "src:cef59a1e5f90",
+     "evidence": "Registration Process is totally free. No Costs or Fees are to be paid to anyone.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]

@@ -204,6 +204,15 @@ describe("satisfaction pruning", () => {
 
   it("still gets you to the driving licence, with fewer steps", () => {
     expect(stepIds(held)).toEqual([
+      // The four the depth engine found on parivahan's own FAQ, which a person
+      // reading the same site by hand had not written down. They carry no
+      // number because that page prints none, so they sit above the authored
+      // steps only because the topological sort had nothing to say about them.
+      // A fifth, "Click 'continue'", was refused as NOT_A_CITIZEN_STEP.
+      "action:driving_licence_visit_the_rto_on_the_scheduled_date_with_origina",
+      "action:driving_licence_take_an_appointment",
+      "action:driving_licence_fill_up_the_application_form",
+      "action:driving_licence_enter_the_driver_license_number_and_date_of_birt",
       "payment:driving_licence_fee",
       "action:book_driving_test_slot",
       "action:driving_test",

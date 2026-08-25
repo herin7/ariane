@@ -6,6 +6,7 @@ import type {
   Blocker,
   Channel,
   ChannelType,
+  CitizenStage,
   CompiledJourney,
   CompileRequest,
   DerivedQuestion,
@@ -55,6 +56,48 @@ const ATTACHMENT_EDGES: readonly EdgeType[] = [
 
 /** Node types that become a numbered thing the citizen has to do. */
 const STEP_TYPES: readonly NodeType[] = ["SERVICE", "ACTION", "VERIFICATION", "PAYMENT"];
+
+/**
+ * Where a step sits in a citizen's week when nothing on the node says.
+ *
+ * The compiler writes `uiStage` onto steps it read off a page; a hand written
+ * node predates the field and a SERVICE never carries one, so the type is the
+ * fallback. Not a guess about sequence, see `NodeMetadata.uiStage`.
+ */
+const STAGE_BY_TYPE: Partial<Record<NodeType, CitizenStage>> = {
+  SERVICE: "APPLY",
+  ACTION: "APPLY",
+  PAYMENT: "APPLY",
+  VERIFICATION: "AFTER_SUBMISSION",
+};
+
+/**
+ * Edge types that are somebody's published statement about what comes first.
+ *
+ * REQUIRES is not one of them, which is the whole point. Every step in a
+ * generated service hangs off it, so treating it as a sequence would mark all
+ * 553 services as having a verified order when 517 of them have no numbered
+ * process on any page we hold.
+ */
+const ORDERING_EDGES = new Set(["DEPENDS_ON", "NEXT", "PRODUCES", "BLOCKS"]);
+
+/**
+ * The seven stages in the order a citizen meets them, and what to call them.
+ *
+ * Here rather than in either client, because the phone and the browser saying
+ * different things about the same step is a bug this repo has already shipped
+ * twice. The words are a citizen's, not the graph's: nobody walks into a
+ * Mamlatdar's office thinking about an AFTER_SUBMISSION stage.
+ */
+export const CITIZEN_STAGES: readonly { stage: CitizenStage; label: string }[] = [
+  { stage: "ELIGIBILITY", label: "Check you qualify" },
+  { stage: "PREPARE", label: "Get these ready" },
+  { stage: "APPLY", label: "Apply" },
+  { stage: "IN_PERSON", label: "Go in person" },
+  { stage: "AFTER_SUBMISSION", label: "After you submit" },
+  { stage: "TRACK", label: "Track it" },
+  { stage: "HELP", label: "If it goes wrong" },
+];
 
 /** Node types that can be "obtained" and therefore satisfied by possession. */
 const HOLDABLE_TYPES: readonly NodeType[] = ["DOCUMENT", "DOCUMENT_GROUP", "SERVICE", "OUTPUT"];
@@ -529,6 +572,13 @@ export class JourneyCompiler {
 
       steps.push({
         order: ++counter,
+        stage: node.metadata?.uiStage ?? STAGE_BY_TYPE[node.type] ?? "APPLY",
+        // Either the page numbered it, or something published says it follows
+        // another step in this journey. Anything else renders as one of a set,
+        // not as the fourth thing you do.
+        orderVerified:
+          node.metadata?.stepNumber !== undefined ||
+          ctx.edges.some((e) => ORDERING_EDGES.has(e.type) && (e.from === id || e.to === id)),
         nodeId: id,
         type: node.type,
         title: node.name,

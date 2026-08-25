@@ -1328,6 +1328,7 @@
    "metadata": {
     "whatToDo": "Citizens can register online for short-term courses and summer skill workshops.",
     "stepNumber": 1,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -1348,6 +1349,7 @@
    "metadata": {
     "whatToDo": "Citizens can edit their registration form after submitting it.",
     "stepNumber": 2,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -1368,6 +1370,7 @@
    "metadata": {
     "whatToDo": "Citizens can print their registration form.",
     "stepNumber": 3,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [
@@ -1388,6 +1391,7 @@
    "metadata": {
     "whatToDo": "Citizens can print their admit card.",
     "stepNumber": 4,
+    "uiStage": "APPLY",
     "machineExtracted": true
    },
    "sources": [

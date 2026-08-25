@@ -65,6 +65,21 @@ export type ChannelType =
   | "GRIEVANCE_PORTAL";
 
 /**
+ * §16's seven stages of a citizen's journey, in the order they are met.
+ *
+ * A grouping for a screen, not an assertion about sequence. See
+ * `NodeMetadata.uiStage`.
+ */
+export type CitizenStage =
+  | "ELIGIBILITY"
+  | "PREPARE"
+  | "APPLY"
+  | "IN_PERSON"
+  | "AFTER_SUBMISSION"
+  | "TRACK"
+  | "HELP";
+
+/**
  * Who has to act for a node to advance. The difference between "you can fix
  * this" and "no amount of reapplying will fix this" is the whole PF journey.
  */
@@ -102,6 +117,18 @@ export interface NodeMetadata {
   /** SERVICE / ACTION, citizen-facing guidance. */
   whyRequired?: string;
   whatToDo?: string;
+  /**
+   * Where in a citizen's week this step belongs. Never where in a sequence.
+   *
+   * `stepNumber` is a source's claim: the page printed 3. beside it and 4.
+   * beside the next one. `uiStage` is ours, and it is a grouping, not an order.
+   * 517 of 553 services have no numbered process anywhere on their pages, so
+   * insisting on one meant those services had no steps at all; asserting one we
+   * invented would be worse. The two live in separate fields so a screen can
+   * say "the page numbers these" about one and never about the other.
+   */
+  uiStage?: CitizenStage;
+  stepNumber?: number;
   expectedOutput?: string;
   /**
    * What quietly stops this from working, in the researcher's words or as the
@@ -431,6 +458,21 @@ export interface Blocker {
 
 export interface JourneyStep {
   order: number;
+  /**
+   * Which part of the citizen's week this belongs to. See
+   * `NodeMetadata.uiStage`: it is a grouping and `order` is the sequence, and
+   * the two are allowed to disagree.
+   */
+  stage: CitizenStage;
+  /**
+   * Whether anything published said this comes after the step before it.
+   *
+   * False for most of them. `order` is always a number because a list has to
+   * render in some order, and a number a citizen reads as "third" when nobody
+   * published a third is exactly the kind of confident invention §41 forbids.
+   * So the number is still there and the screen is told not to trust it.
+   */
+  orderVerified: boolean;
   nodeId: string;
   type: NodeType;
   title: string;
