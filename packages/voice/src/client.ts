@@ -84,6 +84,23 @@ export class VoiceClient {
   }
 
   stop(): void {
+    /**
+     * Tell the server first, and with `keepalive` so it survives the tab
+     * closing. A session nobody hangs up holds a concurrency slot for ten
+     * minutes, which on a shared demo line is the difference between the next
+     * person getting a call and getting a rate limit.
+     */
+    if (this.session) {
+      const { sessionId, token } = this.session;
+      void fetch(this.base(`/api/voice/session?sessionId=${encodeURIComponent(sessionId)}`), {
+        method: "DELETE",
+        headers: { authorization: `Bearer ${token}` },
+        keepalive: true,
+      }).catch(() => {
+        // Best effort. The session expires on its own either way.
+      });
+    }
+
     this.channel?.close();
     this.pc?.close();
     this.mic?.getTracks().forEach((track) => track.stop());
