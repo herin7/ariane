@@ -5,10 +5,10 @@ import { locationIsUsable } from "./types";
  * Everything about turning a published address into a point on a map, minus
  * the network.
  *
- * The geocoder lives in `scripts/offices-geocode.mjs` and calls into here for
- * every decision it makes, so the rules that accept or reject a coordinate are
- * testable without a socket and are the same rules the runtime uses to decide
- * whether it may draw a pin.
+ * The geocoder lives in `cli/geocode.ts` and calls into here for every decision
+ * it makes, so the rules that accept or reject a coordinate are testable
+ * without a socket and are the same rules the runtime uses to decide whether it
+ * may draw a pin.
  *
  * The invariant this file exists to hold:
  *
@@ -33,24 +33,80 @@ import { locationIsUsable } from "./types";
  * print "Gujarat, India" beside an office it considers local.
  */
 export function geocodeQuery(address: string, districtName?: string): string {
-  const pin = pincodeOf(address);
-
-  const body = address
-    // Trailing full stops and commas from sentence-shaped addresses.
-    .replace(/[.,\s]+$/u, "")
-    // A pincode already inside the string is moved to the end by the caller's
-    // ordering below, so drop the inline "- 380027" form to avoid saying it
-    // twice with different punctuation.
-    .replace(/[-–—]?\s*\b\d{6}\b\.?\s*$/u, "")
-    .replace(/\s*\n\s*/gu, ", ")
-    .replace(/\s{2,}/gu, " ")
-    .replace(/(,\s*){2,}/gu, ", ")
-    .replace(/[.,\s]+$/u, "")
-    .trim();
-
   // Gujarati script is left exactly as it is. Nominatim indexes OSM's local
   // name tags, so transliterating would throw away the one form that matches.
-  return [body, districtName, "Gujarat", "India", pin].filter(Boolean).join(", ");
+  return context(segmentsOf(address), districtName, pincodeOf(address));
+}
+
+/**
+ * The same address, asked several ways, most specific first.
+ *
+ * Measured against the real corpus, Nominatim answers almost none of these
+ * addresses whole. It is a gazetteer, not an address parser: it matches names
+ * it has indexed, and "2nd Floor, 'D' Block, M.S.Building, Lal Darwaja,
+ * Ahmedabad-1" contains exactly one such name. Asking for the whole string
+ * returns nothing, and nothing is what 125 of 125 offices got.
+ *
+ * So each segment is also asked on its own, in the order Indian addresses are
+ * written, which runs from the door outward. The first rung the gate accepts
+ * wins, and because the specific segments are asked first, an answer for the
+ * building beats an answer for the neighbourhood it stands in.
+ *
+ * The caller must treat everything after rung 0 as a locality-level answer, no
+ * matter how precise the geocoder claims it was. "Lal Darwaja" resolves to a
+ * bus stop of that name, and a bus stop is an excellent description of which
+ * part of Ahmedabad the office is in and a lie about where its door is.
+ */
+export function geocodeQueries(address: string, districtName?: string, limit = 3): string[] {
+  const pin = pincodeOf(address);
+  const segments = segmentsOf(address);
+  const skip = new Set([districtName ?? "", "Gujarat", "India"].filter(Boolean).map(normalise));
+
+  const backoff = segments
+    .filter((segment) => !NOISE.test(segment))
+    .filter((segment) => {
+      const key = normalise(segment);
+      // Too short to be a place name, or a name we are already appending.
+      return key.length >= 4 && !skip.has(key) && !/^\d+$/u.test(key);
+    })
+    .slice(0, limit)
+    .map((segment) => context([segment], districtName, undefined));
+
+  return [...new Set([context(segments, districtName, pin), ...backoff])];
+}
+
+/** Comma separated parts of an address, tidied, with a trailing pincode removed. */
+function segmentsOf(address: string): string[] {
+  return address
+    .replace(/[-–—]?\s*\b\d{6}\b\.?\s*$/u, "")
+    .split(/\s*[,\n]\s*/u)
+    .map((segment) => segment.replace(/\s{2,}/gu, " ").replace(/^[.,\s]+|[.,\s]+$/gu, ""))
+    .filter(Boolean);
+}
+
+/** The administrative context a district portal never bothered to print. */
+function context(parts: string[], districtName: string | undefined, pin: string | undefined): string {
+  const out: string[] = [];
+  for (const part of [...parts, districtName, "Gujarat", "India", pin]) {
+    if (!part) continue;
+    // "Gujarat, Gujarat" when the office is scoped to the state rather than a
+    // district, and "Ahmedabad, Ahmedabad" when the address already said it.
+    if (out.some((seen) => normalise(seen) === normalise(part))) continue;
+    out.push(part);
+  }
+  return out.join(", ");
+}
+
+/**
+ * Segments that are never a place: which floor, which wing, whose office, and
+ * the "near the big landmark" that Indian addresses use instead of a number.
+ * A geocoder cannot index any of them, and asking wastes a request a second.
+ */
+const NOISE =
+  /^(office of|o\/o)\b|\b(floor|flr|block|wing|room|cabin|campus|building)\b|^(near|nr\.?|opp\.?|opposite|behind|beside|b\/h|above|below)\b|^["'‘’]?[\p{L}0-9-]{1,3}["'‘’]?$|^\d+(st|nd|rd|th)?\b/iu;
+
+function normalise(value: string): string {
+  return value.toLowerCase().replace(/[^\p{L}\p{N}]/gu, "");
 }
 
 /** The six digit pincode in an address, if it printed one. */
@@ -102,6 +158,14 @@ export interface GateInput {
   districtName?: string;
   /** The state every office in this corpus should land in. */
   expectedState?: string;
+  /**
+   * True when the query was not the whole address but one segment of it.
+   *
+   * A landmark query answers with a landmark. Nominatim will call it a
+   * building and mean it, and it is still not the office, so a backed-off
+   * answer is capped at locality precision however confident the geocoder was.
+   */
+  backedOff?: boolean;
 }
 
 export interface GateResult {
@@ -156,6 +220,7 @@ export function gradeCandidate({
   sourceAddress,
   districtName,
   expectedState = "Gujarat",
+  backedOff = false,
 }: GateInput): GateResult {
   const address = candidate.address ?? {};
   const haystack = `${candidate.displayName} ${Object.values(address).filter(Boolean).join(" ")}`.toLowerCase();
@@ -212,6 +277,9 @@ export function gradeCandidate({
 
   // --- how precise --------------------------------------------------------
   const pinpoint = PRECISE_TYPES.has(type) || Boolean(address.road) || Boolean(address.house_number);
+  if (backedOff) {
+    return { status: "DERIVED_MEDIUM", note: `matched on one part of the address (${type || "place"}), so this is the area and not the door` };
+  }
   if (pinpoint && (districtConfirmed || !districtName)) {
     return { status: "DERIVED_HIGH", note: `${type || "place"} match${wanted && got ? ", pincode agrees" : ""}` };
   }
