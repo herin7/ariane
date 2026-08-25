@@ -8,65 +8,61 @@ import { Search } from "./search";
 export const revalidate = 60;
 
 export default async function Home() {
-  const { nodes } = await loadLiveGraph();
+  const { nodes, edges } = await loadLiveGraph();
   const services = nodes.filter((n) => n.type === "SERVICE");
 
-  // Two piles, because they are not the same thing and one flat list of 217
-  // said they were. 28 of these were researched by a person and compile into
-  // real multi step journeys; 189 were quoted off a page by a machine and
-  // mostly compile into one well sourced step. Listing them together in graph
-  // order put a machine written entry first and buried the driving licence.
-  const read = services.filter((s) => !s.metadata?.machineExtracted);
-  const found = services
-    .filter((s) => s.metadata?.machineExtracted)
-    .sort((a, b) => a.name.localeCompare(b.name));
+  // Which ones to put on the front page is decided by the graph, not by a list
+  // of ids in this file. The deepest journeys are the ones worth opening, a
+  // machine written service is one well sourced step and never belongs here,
+  // and a journey that gets deeper next week promotes itself without anybody
+  // editing this line.
+  const depth = new Map<string, number>();
+  for (const e of edges) depth.set(e.from, (depth.get(e.from) ?? 0) + 1);
+  const featured = services
+    .filter((s) => !s.metadata?.machineExtracted)
+    .sort((a, b) => (depth.get(b.id) ?? 0) - (depth.get(a.id) ?? 0))
+    .slice(0, 6);
 
   return (
     <>
-      <h1>What do you need to get done?</h1>
-      <p className="sub">
-        Describe it the way you would say it out loud. We work out the order, the documents, the website
-        and the office, and we show you where every answer came from.
+      {/* §28. The one sentence that has to land before anything else does. */}
+      <h1 className="rise">
+        Government shouldn&rsquo;t
+        <br />
+        feel this hard.
+      </h1>
+      <p className="lede rise">
+        Tell us what you need to get done. We work out the order, the documents, the website and the
+        office, and we show you the government page every single answer came from.
       </p>
 
       <Search />
 
-      <h2>Or start from one of these</h2>
-      <p className="sub">
-        A person read the government pages behind these {read.length} and typed out what they said.
-        They are the deep ones: real prerequisites, documents you can tick off, questions that change
-        the path.
-      </p>
-      {read.map((service) => (
-        <Link key={service.id} href={`/journey?goal=${encodeURIComponent(service.id)}`} style={{ textDecoration: "none" }}>
-          <div className="card">
+      <h2>Or start with one of these</h2>
+      <div className="stack">
+        {featured.map((service) => (
+          <Link key={service.id} href={`/journey?goal=${encodeURIComponent(service.id)}`} className="card rise">
             <h3>{service.name}</h3>
-            {service.officialName && service.officialName !== service.name ? (
-              <p className="muted small">Officially: {service.officialName}</p>
-            ) : null}
-            <p className="muted small" style={{ margin: 0 }}>{service.description}</p>
-          </div>
-        </Link>
-      ))}
-
-      <h2>Another {found.length} nobody has read</h2>
-      <p className="sub">
-        These were found by the pipeline. Every line on them is quoted from a government page and the
-        quote was checked against that page before it was allowed in, but no person has looked. Most
-        are a single well sourced step rather than a journey. Open the source before you rely on one.
-      </p>
-      {/* A plain list, not 189 more cards. A card is a recommendation. */}
-      <ul className="small" style={{ columns: "2 16rem" }}>
-        {found.map((service) => (
-          <li key={service.id}>
-            <Link href={`/journey?goal=${encodeURIComponent(service.id)}`}>{service.name}</Link>
-          </li>
+            <p className="muted small" style={{ margin: "4px 0 0" }}>
+              {service.description}
+            </p>
+          </Link>
         ))}
-      </ul>
+      </div>
 
-      <p className="small muted">
-        Want to see the machinery? <Link href="/admin/graph">Open the graph explorer</Link>. Same compile call,
-        drawn instead of listed. Want to see what we do not know yet? <Link href="/admin/coverage">Coverage</Link>.
+      <p className="small" style={{ marginTop: 20 }}>
+        <Link href="/browse">Or read the whole catalogue</Link>{" "}
+        <span className="faint">Gujarat state, Gujarat district, and the central ones you cannot avoid.</span>
+      </p>
+
+      <p className="small faint" style={{ marginTop: 40 }}>
+        <Link href="/admin/graph" className="muted">
+          See the machinery
+        </Link>
+        {"  ·  "}
+        <Link href="/admin/coverage" className="muted">
+          See what we do not know yet
+        </Link>
       </p>
     </>
   );

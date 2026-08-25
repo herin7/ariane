@@ -20,6 +20,7 @@ export {
   JourneyCompiler,
   JurisdictionNotFoundError,
   compileJourney,
+  stageGroups,
 } from "./journey";
 export { resolveIntent, type IntentMatch } from "./intent";
 export {

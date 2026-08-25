@@ -11,7 +11,7 @@ import {
   View,
 } from "react-native";
 import { API, compileJourney, resolveIntent, type Resolved } from "./api";
-import { CITIZEN_STAGES } from "@ariane/core";
+import { stageGroups } from "@ariane/core";
 import type { CompiledJourney, DerivedQuestion, Facts, JourneyStep } from "@ariane/core";
 
 /**
@@ -238,10 +238,9 @@ function Journey({ goal, onBack }: { goal: { id: string; name: string }; onBack:
       ) : null}
 
       <Text style={styles.h2}>Your path</Text>
-      {CITIZEN_STAGES.map((s) => ({ ...s, steps: journey.orderedSteps.filter((x) => x.stage === s.stage) }))
-        .filter((g) => g.steps.length)
+      {stageGroups(journey.orderedSteps)
         .map((g, _i, all) => (
-          <View key={g.stage}>
+          <View key={g.stage ?? "all"}>
             {all.length > 1 ? <Text style={styles.muted}>{g.label}</Text> : null}
             {g.steps.map((step) => (
               <Step key={step.nodeId} step={step} held={held} onHave={toggleHeld} />

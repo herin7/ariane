@@ -99,6 +99,40 @@ export const CITIZEN_STAGES: readonly { stage: CitizenStage; label: string }[] =
   { stage: "HELP", label: "If it goes wrong" },
 ];
 
+/**
+ * The steps in the shape a client should draw them, grouped or flat.
+ *
+ * Grouping by stage is right for the 517 services where nobody published an
+ * order: "Get these ready" over three documents is real information, and the
+ * alternative is a numbered list whose numbers we invented, which §11 forbids.
+ *
+ * It is wrong the moment a source did publish one. Driving licence is numbered
+ * 1 to 8 on parivahan's own page, and step 3 is the one visit to the RTO, which
+ * lands in AFTER_SUBMISSION while its seven neighbours land in APPLY. Grouped,
+ * the citizen reads 1, 2, 4, 5, 6, 7, 8 under one heading and finds 3 in a
+ * section further down. Nothing in that list is false. It still tells a person
+ * that their government's own numbered instructions skip a number.
+ *
+ * So: group unless grouping would reorder somebody's published sequence, and
+ * check that rather than assume it. Both clients call this, because the phone
+ * and the browser disagreeing about the shape of a journey is a bug this repo
+ * has already shipped twice.
+ */
+export function stageGroups(
+  steps: readonly JourneyStep[],
+): readonly { stage: CitizenStage | null; label: string; steps: JourneyStep[] }[] {
+  const grouped = CITIZEN_STAGES.map((s) => ({
+    ...s,
+    steps: steps.filter((x) => x.stage === s.stage),
+  })).filter((g) => g.steps.length);
+
+  // What a reader's eye would actually run down, in order.
+  const published = grouped.flatMap((g) => g.steps).filter((s) => s.orderVerified).map((s) => s.order);
+  const intact = published.every((n, i) => i === 0 || n > published[i - 1]!);
+
+  return intact ? grouped : [{ stage: null, label: "", steps: [...steps] }];
+}
+
 /** Node types that can be "obtained" and therefore satisfied by possession. */
 const HOLDABLE_TYPES: readonly NodeType[] = ["DOCUMENT", "DOCUMENT_GROUP", "SERVICE", "OUTPUT"];
 
