@@ -32,6 +32,8 @@ const PAGES = [
   ["home", "/"],
   ["journey", "/journey?goal=driving_licence"],
   ["scholarship", "/journey?goal=nsp_scholarship"],
+  ["proof", "/admin/graph?goal=service:driving_licence"],
+  ["coverage", "/admin/coverage"],
   ["browse", "/browse"],
 ];
 

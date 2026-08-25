@@ -317,6 +317,73 @@ details > summary::before {
 details[open] > summary::before { transform: rotate(90deg); }
 details > summary:hover { color: var(--ink); }
 
+/* ------------------------------------------------------------ numbers on show
+
+   §32. Four figures worth reading, then the whole table for anyone who wants
+   to argue with them.                                                        */
+
+.stat-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(148px, 1fr));
+  gap: 10px;
+  margin: 22px 0 14px;
+}
+
+.stat {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  padding: 14px 15px;
+}
+
+.stat b {
+  display: block;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  margin-bottom: 3px;
+}
+
+.stat span { font-size: 12.5px; line-height: 1.4; color: var(--muted); }
+
+/* Eleven numeric columns will never fit a phone. The table scrolls; the page
+   does not, which is the difference between a wide table and a broken page. */
+.scroll-x {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background: var(--paper);
+  -webkit-overflow-scrolling: touch;
+}
+
+table.grid {
+  border-collapse: collapse;
+  font-size: 12.5px;
+  width: 100%;
+  min-width: 640px;
+}
+
+table.grid th,
+table.grid td {
+  text-align: right;
+  padding: 7px 11px;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+table.grid th {
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font-weight: 500;
+}
+
+table.grid td { border-bottom: 1px solid var(--paper-sunk); }
+table.grid tbody tr:last-child td { border-bottom: none; }
+table.grid tbody tr:hover td { background: var(--paper-sunk); }
+table.grid .left { text-align: left; }
+table.grid tbody .left { color: var(--ink); font-weight: 500; }
+
 /* ------------------------------------------------------------------- motion */
 
 @keyframes rise {
@@ -360,6 +427,32 @@ details > summary:hover { color: var(--ink); }
 @media (min-width: 768px) {
   .sticky-action { position: static; margin: 0; padding: 16px 0 0; background: none; }
 }
+
+/* ---------------------------------------------------------------- the graph
+
+   One page needs to be wider than a reading measure, and exactly one. Asking
+   for it from the inside beats a second layout file and a wrapper component
+   that exists to set a number.                                               */
+
+main:has(.bleed) { max-width: 1180px; }
+
+.graph-split { display: grid; gap: 12px; grid-template-columns: 1fr; }
+/* Stacked on a phone: the picture is the point, the panel reads underneath. */
+.graph-split > div:first-child { height: 58vh; min-height: 320px; }
+
+@media (min-width: 900px) {
+  .graph-split { grid-template-columns: 1fr 340px; height: 70vh; }
+  .graph-split > div:first-child { height: auto; min-height: 0; }
+}
+
+/* React Flow ships its own dark-ish chrome. Bring it back to the paper. */
+.react-flow__controls-button {
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+  fill: var(--ink-soft);
+}
+.react-flow__controls-button:hover { background: var(--paper-sunk); }
+.react-flow__attribution { background: transparent; font-size: 9px; }
 
 ul { margin: 8px 0; padding-left: 20px; }
 li { margin: 4px 0; }

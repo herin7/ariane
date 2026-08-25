@@ -11,17 +11,32 @@ export default async function Home() {
   const { nodes, edges } = await loadLiveGraph();
   const services = nodes.filter((n) => n.type === "SERVICE");
 
-  // Which ones to put on the front page is decided by the graph, not by a list
-  // of ids in this file. The deepest journeys are the ones worth opening, a
-  // machine written service is one well sourced step and never belongs here,
-  // and a journey that gets deeper next week promotes itself without anybody
-  // editing this line.
-  const depth = new Map<string, number>();
-  for (const e of edges) depth.set(e.from, (depth.get(e.from) ?? 0) + 1);
-  const featured = services
-    .filter((s) => !s.metadata?.machineExtracted)
-    .sort((a, b) => (depth.get(b.id) ?? 0) - (depth.get(a.id) ?? 0))
-    .slice(0, 6);
+  // The three the product is demonstrated on go first, then the graph decides
+  // the rest by how many things it can say about a service.
+  //
+  // These three ids are the only editorial decision on this page. No name, no
+  // fee, no document and no rule is written here: every id is looked up in the
+  // graph and quietly disappears from the page if it ever stops existing. Two
+  // derived rankings were tried first and neither found them. Counting direct
+  // edges ranked driving licence eighth. Counting everything reachable was
+  // worse, because the scholarship services all lead into the same portal, so
+  // it filled the page with three near identical scholarship cards.
+  //
+  // Varshai is machine written and still belongs here: it is how a Gujarati
+  // family gets a death in it recognised, and the step cards say plainly where
+  // each line came from.
+  const HEROES = ["service:nsp_scholarship", "service:driving_licence", "service:varshai"];
+
+  const degree = new Map<string, number>();
+  for (const e of edges) degree.set(e.from, (degree.get(e.from) ?? 0) + 1);
+
+  const byId = new Map(services.map((s) => [s.id, s]));
+  const featured = [
+    ...HEROES.map((id) => byId.get(id)).filter((s) => s !== undefined),
+    ...services
+      .filter((s) => !HEROES.includes(s.id) && !s.metadata?.machineExtracted)
+      .sort((a, b) => (degree.get(b.id) ?? 0) - (degree.get(a.id) ?? 0) || a.name.localeCompare(b.name)),
+  ].slice(0, 6);
 
   return (
     <>
