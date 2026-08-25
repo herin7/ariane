@@ -95,3 +95,8 @@ Thumbs.db
 # generations of verdicts interleaved in one ledger. docs/research/rerank.json
 # is the committed aggregate.
 .ingest/reranked.jsonl
+
+# claims.jsonl is the same shape one stage further on: a flattened view of
+# .ingest/enrich/, which is committed because each verdict in it cost a model
+# call. docs/research/claims.json is the committed aggregate.
+.ingest/claims.jsonl

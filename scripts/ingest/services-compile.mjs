@@ -32,7 +32,7 @@
  * page, on the other hand, is reliably about one service.
  */
 
-import { at, chat, jsonArray, pool, readJsonl, REJECTIONS, REJECTION_SUMMARY, rejections, sha1, writeJsonl } from "./lib.mjs";
+import { at, chat, jsonArray, pool, readJsonl, REJECTIONS, REJECTION_SUMMARY, rejections, replaceStage, sha1, writeJsonl } from "./lib.mjs";
 import { display, districtOf, isPerson, slug, title } from "./places.mjs";
 import { appendFileSync, existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 
@@ -1988,7 +1988,7 @@ for (const s of summary) console.log("  " + s);
 //
 // Written even on a dry run. Seeing what a compile *would* throw away, without
 // touching the bundles, is most of the point of --dry.
-writeJsonl(REJECTIONS, drops.rows);
+replaceStage(REJECTIONS, "compile", drops.rows);
 
 /**
  * The committed aggregate.

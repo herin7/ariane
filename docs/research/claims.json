@@ -1,0 +1,44 @@
+{
+  "generatedBy": "pnpm services:enrich",
+  "claims": 25,
+  "services": 7,
+  "rejectedThisRun": 11,
+  "byDimension": {
+    "ACTIONS": {
+      "claims": 11,
+      "services": 3
+    },
+    "HELPLINE": {
+      "claims": 1,
+      "services": 1
+    },
+    "TRACKING": {
+      "claims": 2,
+      "services": 2
+    },
+    "ELIGIBILITY": {
+      "claims": 4,
+      "services": 2
+    },
+    "FEES": {
+      "claims": 1,
+      "services": 1
+    },
+    "ISSUING_AUTHORITY": {
+      "claims": 2,
+      "services": 2
+    },
+    "OFFICE": {
+      "claims": 1,
+      "services": 1
+    },
+    "VERIFICATION": {
+      "claims": 1,
+      "services": 1
+    },
+    "OUTPUT": {
+      "claims": 2,
+      "services": 1
+    }
+  }
+}

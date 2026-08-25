@@ -1,69 +1,69 @@
 {
   "generatedBy": "pnpm evidence:rerank",
-  "shortlists": 31,
-  "modelRanked": 31,
-  "considered": 215,
-  "kept": 38,
-  "answerable": 6,
+  "shortlists": 80,
+  "modelRanked": 80,
+  "considered": 623,
+  "kept": 72,
+  "answerable": 12,
   "byDimension": {
-    "ELIGIBILITY": {
-      "rows": 3,
-      "kept": 3,
-      "considered": 20,
+    "ACTIONS": {
+      "rows": 10,
+      "kept": 8,
+      "considered": 72,
       "answered": 2
     },
-    "ACTIONS": {
-      "rows": 5,
-      "kept": 8,
-      "considered": 30,
-      "answered": 1
+    "DOCUMENTS": {
+      "rows": 6,
+      "kept": 2,
+      "considered": 41,
+      "answered": 0
+    },
+    "ELIGIBILITY": {
+      "rows": 8,
+      "kept": 5,
+      "considered": 55,
+      "answered": 2
     },
     "FEES": {
-      "rows": 4,
-      "kept": 2,
-      "considered": 12,
-      "answered": 0
-    },
-    "TRACKING": {
-      "rows": 4,
+      "rows": 9,
       "kept": 3,
-      "considered": 11,
-      "answered": 1
+      "considered": 51,
+      "answered": 0
     },
     "OFFICE": {
-      "rows": 2,
-      "kept": 4,
-      "considered": 21,
+      "rows": 7,
+      "kept": 7,
+      "considered": 66,
       "answered": 0
-    },
-    "VERIFICATION": {
-      "rows": 4,
-      "kept": 4,
-      "considered": 42,
-      "answered": 0
-    },
-    "DOCUMENTS": {
-      "rows": 1,
-      "kept": 1,
-      "considered": 4,
-      "answered": 0
-    },
-    "OUTPUT": {
-      "rows": 3,
-      "kept": 3,
-      "considered": 52,
-      "answered": 1
-    },
-    "ISSUING_AUTHORITY": {
-      "rows": 3,
-      "kept": 10,
-      "considered": 21,
-      "answered": 1
     },
     "HELPLINE": {
-      "rows": 2,
-      "kept": 0,
-      "considered": 2,
+      "rows": 6,
+      "kept": 3,
+      "considered": 28,
+      "answered": 2
+    },
+    "TRACKING": {
+      "rows": 9,
+      "kept": 8,
+      "considered": 48,
+      "answered": 2
+    },
+    "OUTPUT": {
+      "rows": 8,
+      "kept": 17,
+      "considered": 102,
+      "answered": 2
+    },
+    "ISSUING_AUTHORITY": {
+      "rows": 8,
+      "kept": 12,
+      "considered": 70,
+      "answered": 2
+    },
+    "VERIFICATION": {
+      "rows": 9,
+      "kept": 7,
+      "considered": 90,
       "answered": 0
     }
   }

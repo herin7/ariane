@@ -1,61 +1,61 @@
 {
   "generatedBy": "pnpm services:deepen",
-  "retrievals": 32,
-  "services": 5,
-  "passages": 215,
-  "unanchored": 707,
+  "retrievals": 82,
+  "services": 10,
+  "passages": 623,
+  "unanchored": 1414,
   "partialNameMatch": 6,
-  "noEvidence": 1,
+  "noEvidence": 2,
   "byDimension": {
-    "ELIGIBILITY": {
-      "tried": 3,
-      "found": 3,
-      "candidates": 20
-    },
     "ACTIONS": {
-      "tried": 5,
-      "found": 5,
-      "candidates": 30
-    },
-    "FEES": {
-      "tried": 4,
-      "found": 4,
-      "candidates": 12
-    },
-    "TRACKING": {
-      "tried": 4,
-      "found": 4,
-      "candidates": 11
-    },
-    "OFFICE": {
-      "tried": 2,
-      "found": 2,
-      "candidates": 21
-    },
-    "VERIFICATION": {
-      "tried": 4,
-      "found": 4,
-      "candidates": 42
+      "tried": 10,
+      "found": 10,
+      "candidates": 72
     },
     "DOCUMENTS": {
-      "tried": 1,
-      "found": 1,
-      "candidates": 4
+      "tried": 6,
+      "found": 6,
+      "candidates": 41
+    },
+    "ELIGIBILITY": {
+      "tried": 8,
+      "found": 8,
+      "candidates": 55
+    },
+    "FEES": {
+      "tried": 9,
+      "found": 9,
+      "candidates": 51
+    },
+    "OFFICE": {
+      "tried": 7,
+      "found": 7,
+      "candidates": 66
     },
     "HELPLINE": {
-      "tried": 3,
-      "found": 2,
-      "candidates": 2
+      "tried": 8,
+      "found": 6,
+      "candidates": 28
+    },
+    "TRACKING": {
+      "tried": 9,
+      "found": 9,
+      "candidates": 48
     },
     "OUTPUT": {
-      "tried": 3,
-      "found": 3,
-      "candidates": 52
+      "tried": 8,
+      "found": 8,
+      "candidates": 102
     },
     "ISSUING_AUTHORITY": {
-      "tried": 3,
-      "found": 3,
-      "candidates": 21
+      "tried": 8,
+      "found": 8,
+      "candidates": 70
+    },
+    "VERIFICATION": {
+      "tried": 9,
+      "found": 9,
+      "candidates": 90
     }
   }
 }

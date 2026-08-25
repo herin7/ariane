@@ -136,6 +136,7 @@ export const REJECTION_REASONS = {
   // Is the page worth reading at all?
   PAGE_NOT_ADMISSIBLE: "the page yielded nothing this compiler knows how to place",
   OUT_OF_JURISDICTION: "the page is about another state's scheme",
+  NOT_ABOUT_THIS_SERVICE: "the passage mentions the service and is about a different one",
   NOT_A_SERVICE_PAGE: "identification says nobody applies for anything here",
   HEADING_NOT_SERVICE: "the name is the category above the services, not one of them",
   ALREADY_OWNED: "a hand written bundle already answers to this id",
@@ -199,6 +200,19 @@ export function rejections(stage, runId) {
       });
     },
   };
+}
+
+/**
+ * One ledger, several stages, each owning only its own rows.
+ *
+ * The compile pass used to `writeJsonl(REJECTIONS, drops.rows)` outright, which
+ * was right when it was the only thing rejecting anything. The enrichment pass
+ * rejects too, on a different schedule, and a straight overwrite from either
+ * side would silently delete the other's evidence -- §5's whole complaint,
+ * reintroduced by a file write.
+ */
+export function replaceStage(path, stage, rows) {
+  writeJsonl(path, [...readJsonl(path).filter((r) => r.stage !== stage), ...rows]);
 }
 
 // ---------------------------------------------------------------------- dns
