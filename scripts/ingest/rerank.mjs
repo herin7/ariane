@@ -27,7 +27,7 @@
  */
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
-import { at, chat, INGEST, jsonArray, MODELS, readJsonl, sha256, writeJsonl } from "./lib.mjs";
+import { at, chat, INGEST, jsonArray, MODELS, pool, readJsonl, sha256, writeJsonl } from "./lib.mjs";
 import { loadChunks } from "./corpus.mjs";
 import { EVIDENCE } from "./services-deepen.mjs";
 
@@ -392,12 +392,20 @@ if (isMain) {
   }
 
   const texts = new Map(loadChunks().map((c) => [c.id, c.text]));
-  const out = [];
-  for (const [i, row] of rows.entries()) {
+  // Eight at a time. This was a plain for-loop and the arithmetic caught up
+  // with it: 3,882 shortlists at three and a half seconds each is under four
+  // hours of one laptop waiting on one socket. Bedrock is happy to answer eight
+  // of these at once and `pool` has been in lib.mjs since the fetcher needed it.
+  // Not higher, because a rate limit read as a failed judgement is a shortlist
+  // silently thrown away, and this is a model call per unit of work, not a
+  // government server we would be rude to.
+  let done = 0;
+  const out = await pool(rows, 8, async (row) => {
     const result = await rerankOne(row, texts, { model });
-    out.push(result);
-    if (!result.cached) process.stdout.write(`\r  ${i + 1}/${rows.length}  ${row.serviceId.slice(8, 40)} ${row.dimension}`.padEnd(78));
-  }
+    done++;
+    if (!result.cached) process.stdout.write(`\r  ${done}/${rows.length}  ${row.serviceId.slice(8, 40)} ${row.dimension}`.padEnd(78));
+    return result;
+  });
   process.stdout.write("\r".padEnd(80) + "\r");
 
   // Rebuilt rather than appended: the per-call cache is the durable thing, and

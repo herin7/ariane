@@ -31,7 +31,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { grounded, id, KINDS, norm, sane } from "./gate.mjs";
-import { at, chat, INGEST, jsonArray, MODELS, readJsonl, REJECTIONS, rejections, replaceStage, sha256, writeJsonl } from "./lib.mjs";
+import { at, chat, INGEST, jsonArray, MODELS, pool, readJsonl, REJECTIONS, rejections, replaceStage, sha256, writeJsonl } from "./lib.mjs";
 import { loadChunks, tokens } from "./corpus.mjs";
 import { anchorTerms } from "./services-deepen.mjs";
 import { RERANKED, where } from "./rerank.mjs";
@@ -495,12 +495,14 @@ if (isMain) {
   }
 
   const texts = new Map(loadChunks().map((c) => [c.id, c.text]));
-  const out = [];
-  for (const [i, row] of rows.entries()) {
+  // Eight at a time, for the same reason the reranker is: see the note there.
+  let done = 0;
+  const out = await pool(rows, 8, async (row) => {
     const result = await enrichOne(row, texts, { model });
-    out.push(result);
-    if (!result.cached) process.stdout.write(`\r  ${i + 1}/${rows.length}  ${row.serviceId.slice(8, 40)} ${row.dimension}`.padEnd(78));
-  }
+    done++;
+    if (!result.cached) process.stdout.write(`\r  ${done}/${rows.length}  ${row.serviceId.slice(8, 40)} ${row.dimension}`.padEnd(78));
+    return result;
+  });
   process.stdout.write("\r".padEnd(80) + "\r");
 
   // Everything refused, in the ledger `pnpm rejections:stats` reads, keyed by a
