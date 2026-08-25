@@ -42,6 +42,29 @@ export const MAX_PASSES = 2;
 /** §12. Union the queries, dedupe, keep about thirty for the reranker to cut to eight. */
 const KEEP = 30;
 
+/**
+ * Bump when a change here would shortlist different passages for the same
+ * service and dimension.
+ *
+ * Every other cache in this pipeline versions itself. An extraction is keyed on
+ * the schema, the prompt, the gate and the model, so editing any of them
+ * invalidates by construction and nobody has to remember. This ledger was keyed
+ * on the service, the dimension and the pass, and on nothing at all about the
+ * retriever that produced the row.
+ *
+ * Which meant that moving the anchor inside the scorer, the fix that took six
+ * eval misses to five, changed what every shortlist in the corpus should
+ * contain, and the ledger reported all 4,829 rows already done. The improvement
+ * was real, on disk, and unreachable, and there was no error to read: a stale
+ * cache and a finished job look identical from here.
+ *
+ * 2: the anchor became a filter passed into `search` rather than a pass over
+ *    its top twenty results.
+ * 3: the anchor became every name the service answers to, not just the one the
+ *    compiler settled on.
+ */
+export const RETRIEVER_VERSION = 3;
+
 const flag = (name) => process.argv.includes(`--${name}`);
 const value = (name, fallback = null) => {
   const i = process.argv.indexOf(`--${name}`);
@@ -49,8 +72,15 @@ const value = (name, fallback = null) => {
 };
 const isMain = fileURLToPath(import.meta.url) === process.argv[1];
 
-/** What identifies one unit of work, and therefore what makes it skippable. */
-export const key = (serviceId, dimension, pass) => `${serviceId}|${dimension}|${pass}`;
+/**
+ * What identifies one unit of work, and therefore what makes it skippable.
+ *
+ * A row written before versioning has no `retriever` field, and `undefined`
+ * keys differently from 2, which is exactly right: we cannot know what produced
+ * it, so it does not count as this retriever's work.
+ */
+export const key = (serviceId, dimension, pass, retriever = RETRIEVER_VERSION) =>
+  `${serviceId}|${dimension}|${pass}|r${retriever}`;
 
 /**
  * Everything already retrieved, as the set of keys not worth doing again.
@@ -61,7 +91,11 @@ export const key = (serviceId, dimension, pass) => `${serviceId}|${dimension}|${
  * there is no state anywhere else.
  */
 export function done(rows) {
-  return new Set(rows.map((r) => key(r.serviceId, r.dimension, r.pass)));
+  // `?? null` and not the bare field. A default parameter fires on undefined,
+  // so passing a pre-versioning row's missing `retriever` straight through
+  // stamped it with the current version and called it done, which is the exact
+  // bug the version exists to prevent. null does not trigger a default.
+  return new Set(rows.map((r) => key(r.serviceId, r.dimension, r.pass, r.retriever ?? null)));
 }
 
 /**
@@ -82,6 +116,43 @@ export function done(rows) {
 export function anchorTerms(name, dimension) {
   const supplied = new Set(tokens((DIMENSIONS[dimension] ?? []).join(" ")));
   return new Set(tokens(name).filter((t) => !supplied.has(t)));
+}
+
+/**
+ * The same idea, once per name the service answers to.
+ *
+ * A service has one name in the graph and the pages that describe it are under
+ * no obligation to use it. `service:varshai` is named after its url; the word
+ * "varshai" occurs in zero of 24,110 chunks, while વારસાઈ occurs in 48 and
+ * varsai in 4. Anchoring on the name alone meant every search for it was
+ * filtered down to nothing, so all seven of its missing dimensions retrieved
+ * NO_EVIDENCE_FOUND, and a service with nine required documents and a hero
+ * demo behind it could not be deepened at all.
+ *
+ * Alternatives, not one larger bag of words. Flattening "legal heir
+ * certificate" into the anchor would make `whole` mean "carries varshai AND
+ * legal AND heir AND certificate", which no page on earth does, so the tier
+ * would collapse to ANY for every service that has an alias. Kept apart, a
+ * page carrying all three words of one alias is as much a full title match as
+ * a page carrying the official name, which is what it is.
+ *
+ * The union still filters, so this only ever widens what reaches BM25. That is
+ * the direction §5 asked for and the fact level guard in enrich.mjs is
+ * untouched: a passage that is not topical still cannot produce a fact unless
+ * the quote itself names the service.
+ */
+export function anchorPhrases(m, dimension) {
+  const seen = new Set();
+  const phrases = [];
+  for (const name of [m.name, ...(m.aliases ?? [])]) {
+    const terms = [...anchorTerms(name ?? "", dimension)];
+    if (!terms.length) continue;
+    const k = terms.join(" ");
+    if (seen.has(k)) continue;
+    seen.add(k);
+    phrases.push(terms);
+  }
+  return { phrases, union: new Set(phrases.flat()) };
 }
 
 /**
@@ -123,17 +194,21 @@ export function anchorTerms(name, dimension) {
  * A rank, not a filter. Nothing is dropped for scoring zero here; it just stops
  * beating a passage that is genuinely on topic.
  */
-export function topicality(hit, anchor, ownUrls, ownHosts = new Set()) {
+export function topicality(hit, phrases, ownUrls, ownHosts = new Set()) {
   // Through normalise, because the graph cites .../income-certificate/ and the
   // fetcher saved .../income-certificate, and one trailing slash was enough to
   // rank a service's own page below a scholarship FAQ. It is the same function
   // fetch-ledger.mjs uses to decide two citations are one fetch.
   if (ownUrls.has(normalise(hit.url))) return 3;
   const onOwnHost = ownHosts.has(hostOf(String(hit.url ?? "")));
-  if (!anchor.size) return onOwnHost ? 1 : 0;
+  if (!phrases.length) return onOwnHost ? 1 : 0;
+  // Any one name in full, not every word of every name. Flattening the names
+  // into one set would ask a heading to say varshai and varsai and વારસાઈ and
+  // legal and heir and certificate before it counted as being about the
+  // subject, which is a heading nobody has ever written.
   const has = (text) => {
     const t = new Set(tokens(text));
-    return [...anchor].every((a) => t.has(a));
+    return phrases.some((terms) => terms.every((a) => t.has(a)));
   };
   if (hit.heading && has(hit.heading)) return 2;
   if (has(String(hit.url ?? "").replace(/[/_.-]+/g, " "))) return 1;
@@ -188,8 +263,13 @@ export async function retrieveOne(m, dimension, { retriever, graph, pass = 1, ow
   // Inside the scorer, the same rule spends the whole budget on passages that
   // at least mention us. corpus.mjs says exactly this about the jurisdiction
   // filter one function up; the anchor is the same argument.
-  const anchor = anchorTerms(m.name, dimension);
+  const { phrases, union: anchor } = anchorPhrases(m, dimension);
   const carried = anchor.size ? retriever.coverage(anchor) : null;
+  // Per name, so "carries a whole title" can be satisfied by any one of them
+  // rather than by all of them at once. One entry when there are no aliases,
+  // which is the case this used to be written for.
+  const perPhrase = phrases.map((terms) => ({ terms, carried: retriever.coverage(terms) }));
+  const carriesWhole = (id) => perPhrase.some((p) => p.carried.get(id) === p.terms.length);
   const excluded = new Set();
   const filter = carried
     ? (c) => {
@@ -233,13 +313,13 @@ export async function retrieveOne(m, dimension, { retriever, graph, pass = 1, ow
   // Which tier the best candidate reached is still recorded: a shortlist where
   // nothing carried the whole title is one a reranker should be sceptical of.
   const hits = [...best.values()];
-  const whole = anchor.size ? hits.filter((h) => carried.get(h.id) === anchor.size) : [];
+  const whole = anchor.size ? hits.filter((h) => carriesWhole(h.id)) : [];
   const anchorMode = !anchor.size ? "UNANCHORED" : whole.length ? "ALL" : hits.length ? "ANY" : "NONE";
 
   const ownUrls = new Set((m.urls ?? []).map(normalise));
   for (const h of hits) {
-    h.topical = topicality(h, anchor, ownUrls, ownHosts);
-    h.whole = anchor.size ? Number(carried.get(h.id) === anchor.size) : 0;
+    h.topical = topicality(h, phrases, ownUrls, ownHosts);
+    h.whole = anchor.size ? Number(carriesWhole(h.id)) : 0;
   }
   const candidates = hits.sort((a, b) => b.whole - a.whole || b.topical - a.topical || b.score - a.score).slice(0, KEEP);
 
@@ -247,6 +327,8 @@ export async function retrieveOne(m, dimension, { retriever, graph, pass = 1, ow
     serviceId: m.serviceId,
     dimension,
     pass,
+    /** Which retriever shortlisted this. Absent on a row written before there was one. */
+    retriever: RETRIEVER_VERSION,
     name: m.name,
     jurisdictionId: m.jurisdictionId,
     queries: bySearch,
@@ -277,7 +359,12 @@ export async function retrieveOne(m, dimension, { retriever, graph, pass = 1, ow
  * fail on it, not this one's.
  */
 export function nextPass(serviceId, dimension, ledger) {
-  const rows = ledger.filter((r) => r.serviceId === serviceId && r.dimension === dimension);
+  // This retriever's rows only. An older retriever having burned both passes is
+  // not evidence that this one has nothing to find, and counting them means a
+  // service that came back empty twice can never benefit from a fix.
+  const rows = ledger.filter(
+    (r) => r.serviceId === serviceId && r.dimension === dimension && r.retriever === RETRIEVER_VERSION,
+  );
   if (!rows.length) return 1;
   if (rows.length >= MAX_PASSES) return null;
   return rows.every((r) => r.status === "NO_EVIDENCE_FOUND") ? rows.length + 1 : null;
@@ -333,6 +420,22 @@ if (isMain && flag("selftest")) {
   assert.deepEqual([...anchorTerms("Varsai Certificate", "OFFICE")], ["varsai", "certificate"]);
   assert.equal(anchorTerms("Certificate", "OUTPUT").size, 0, "a name with nothing of its own leaves nothing to anchor on");
 
+  // Every name it answers to, kept apart. The real case: "varshai" is in no
+  // page anywhere, so a service anchored only on it retrieved nothing at all.
+  const named = anchorPhrases({ name: "varshai", aliases: ["varsai", "legal heir certificate", "વારસાઈ"] }, "OFFICE");
+  assert.deepEqual(named.phrases, [["varshai"], ["varsai"], ["legal", "heir", "certificate"], ["વારસાઈ"]]);
+  assert.deepEqual([...named.union], ["varshai", "varsai", "legal", "heir", "certificate", "વારસાઈ"], "the union is what filters, so any one of them lets a passage through");
+  assert.deepEqual(anchorPhrases({ name: "Varsai Certificate" }, "OFFICE").phrases, [["varsai", "certificate"]], "no aliases is one phrase, which is what this used to be");
+  assert.deepEqual(anchorPhrases({ name: "Varsai", aliases: ["varsai", "VARSAI"] }, "OFFICE").phrases, [["varsai"]], "the same name spelled three ways is one phrase, not three");
+  assert.deepEqual(anchorPhrases({ name: "Certificate", aliases: ["certificate"] }, "OUTPUT").phrases, [], "a service whose every name is the dimension's own word still anchors on nothing");
+
+  // A heading has to carry one whole name, not every word of every name. This
+  // is the assertion that fails if the union is ever flattened back into the
+  // topicality check: no heading says varshai and varsai and legal and heir.
+  assert.equal(topicality({ url: "https://x.gov.in/a", heading: "Legal Heir Certificate fees" }, named.phrases, new Set()), 2);
+  assert.equal(topicality({ url: "https://x.gov.in/a", heading: "વારસાઈ પ્રમાણપત્ર" }, named.phrases, new Set()), 2, "and it counts in Gujarati too");
+  assert.equal(topicality({ url: "https://x.gov.in/a", heading: "Heir" }, named.phrases, new Set()), 0, "one word of a three word name is not the name");
+
   // And when there is nothing to anchor on, the filter stands down rather than
   // filtering everything away.
   const unanchorable = await retrieveOne({ ...m, name: "Certificate" }, "OUTPUT", { retriever, graph });
@@ -375,19 +478,19 @@ if (isMain && flag("selftest")) {
 
   // Ranked on where the name appears, then on score. A section headed with the
   // service beats a better scoring paragraph that only mentions it in passing.
-  const anchor = new Set(["varsai", "certificate"]);
+  const anchor = [["varsai", "certificate"]];
   const own = new Set(["https://collectorkheda.gujarat.gov.in/varsai"]);
   assert.equal(topicality({ url: "https://collectorkheda.gujarat.gov.in/varsai" }, anchor, own), 3, "the service's own page");
   assert.equal(topicality({ url: "https://x.gov.in/faq", heading: "Varsai Certificate fees" }, anchor, own), 2);
   assert.equal(topicality({ url: "https://x.gov.in/varsai-certificate-apply", heading: "Fees" }, anchor, own), 1);
   assert.equal(topicality({ url: "https://x.gov.in/scholarship", heading: "Documents" }, anchor, own), 0, "mentions it in the body at best");
-  assert.equal(topicality({ url: "https://x.gov.in/varsai", heading: "Varsai" }, new Set(), own), 0, "nothing to be on topic about");
+  assert.equal(topicality({ url: "https://x.gov.in/varsai", heading: "Varsai" }, [], own), 0, "nothing to be on topic about");
 
   // A different page on the host this service already lives on. Parivahan's FAQ
   // is the driving licence FAQ even though nothing in its url says so.
   const host = new Set(["collectorkheda.gujarat.gov.in"]);
   assert.equal(topicality({ url: "https://collectorkheda.gujarat.gov.in/faq", heading: "Questions" }, anchor, own, host), 1);
-  assert.equal(topicality({ url: "https://collectorkheda.gujarat.gov.in/faq", heading: "Questions" }, new Set(), own, host), 1, "and it does not need an anchor to say so");
+  assert.equal(topicality({ url: "https://collectorkheda.gujarat.gov.in/faq", heading: "Questions" }, [], own, host), 1, "and it does not need an anchor to say so");
   assert.equal(topicality({ url: "https://myscheme.gov.in/schemes/xyz", heading: "Questions" }, anchor, own, host), 0, "a host we do not live on is still nowhere");
   assert.equal(topicality({ url: "https://x.gov.in/faq", heading: "Varsai Certificate fees" }, anchor, own, host), 2, "and it never demotes a better reason");
 
@@ -420,16 +523,37 @@ if (isMain && flag("selftest")) {
   assert.ok(ranked.candidates[1].score > ranked.candidates[0].score, "and it outranks it despite scoring lower, which is the whole point");
 
   // Resume, and the cap on it.
-  const ledger = [{ serviceId: "s", dimension: "OFFICE", pass: 1, status: "RETRIEVED" }];
+  const r = RETRIEVER_VERSION;
+  const ledger = [{ serviceId: "s", dimension: "OFFICE", pass: 1, retriever: r, status: "RETRIEVED" }];
   assert.equal(nextPass("s", "OFFICE", ledger), null, "a shortlist already exists, so failing on it is P7's job not ours");
   assert.equal(nextPass("s", "FEES", ledger), 1, "a dimension never tried starts at one");
   assert.equal(nextPass("s", "OFFICE", []), 1);
-  const empty = [{ serviceId: "s", dimension: "OFFICE", pass: 1, status: "NO_EVIDENCE_FOUND" }];
+  const empty = [{ serviceId: "s", dimension: "OFFICE", pass: 1, retriever: r, status: "NO_EVIDENCE_FOUND" }];
   assert.equal(nextPass("s", "OFFICE", empty), 2, "a pass that found nothing earns one more, once the graph has moved");
-  assert.equal(nextPass("s", "OFFICE", [...empty, { serviceId: "s", dimension: "OFFICE", pass: 2, status: "NO_EVIDENCE_FOUND" }]), null, "§28: two, then stop, and never loop");
+  assert.equal(nextPass("s", "OFFICE", [...empty, { serviceId: "s", dimension: "OFFICE", pass: 2, retriever: r, status: "NO_EVIDENCE_FOUND" }]), null, "§28: two, then stop, and never loop");
 
   assert.equal(done(ledger).has(key("s", "OFFICE", 1)), true);
   assert.equal(done(ledger).has(key("s", "OFFICE", 2)), false);
+
+  // A retriever change invalidates the ledger, the way every other cache here
+  // already works. Without this the fix that moved the anchor into the scorer
+  // was unreachable: 4,829 rows on disk, all of them stale, all of them
+  // reported as done, and nothing to read that would tell you.
+  const older = [
+    { serviceId: "s", dimension: "OFFICE", pass: 1, retriever: r - 1, status: "RETRIEVED" },
+    { serviceId: "s", dimension: "FEES", pass: 1, retriever: r - 1, status: "NO_EVIDENCE_FOUND" },
+    { serviceId: "s", dimension: "FEES", pass: 2, retriever: r - 1, status: "NO_EVIDENCE_FOUND" },
+  ];
+  assert.equal(done(older).has(key("s", "OFFICE", 1)), false, "another retriever's shortlist is not this one's work");
+  assert.equal(nextPass("s", "OFFICE", older), 1, "so it starts over");
+  assert.equal(nextPass("s", "FEES", older), 1, "and two empty passes by an older retriever do not spend this one's budget");
+  assert.equal(nextPass("s", "FEES", [...older, { serviceId: "s", dimension: "FEES", pass: 1, retriever: r, status: "NO_EVIDENCE_FOUND" }]), 2, "§28's cap still counts, per retriever");
+
+  // Rows predating versioning have no field at all, which has to read the same
+  // as a different one rather than as a match.
+  const unversioned = [{ serviceId: "s", dimension: "OFFICE", pass: 1, status: "RETRIEVED" }];
+  assert.equal(done(unversioned).has(key("s", "OFFICE", 1)), false);
+  assert.equal(nextPass("s", "OFFICE", unversioned), 1);
 
   console.log("services-deepen: ok");
   process.exit(0);
