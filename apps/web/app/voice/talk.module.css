@@ -1,0 +1,85 @@
+/* The parts of a phone call that have no precedent in globals.css.
+
+   Everything else - the button, the card, .small, .muted - is Ariane's, used
+   as-is. Scoped as a module so nothing here can reach a page it was not put
+   on, and so this file never has to be merged against anyone's redesign. */
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--paper);
+}
+
+.bar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 13.5px;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--faint);
+}
+
+/* Three states worth distinguishing at a glance, and the same three the
+   coral thread already means elsewhere: live, thinking, wrong. */
+.status[data-state="listening"] .dot {
+  background: var(--thread);
+  box-shadow: 0 0 0 4px var(--thread-soft);
+  animation: pulse 1.6s ease-in-out infinite;
+}
+
+.status[data-state="speaking"] .dot {
+  background: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-soft);
+}
+
+.status[data-state="connecting"] .dot {
+  animation: pulse 1s ease-in-out infinite;
+}
+
+.status[data-state="error"] .dot {
+  background: var(--bad);
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .status .dot { animation: none; }
+}
+
+.transcript {
+  margin: 0;
+  min-height: 3em;
+  color: var(--ink-soft);
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+/* The one question being asked, in the size somebody answers rather than
+   reads. Progressive disclosure is the whole voice interface: one at a time. */
+.question {
+  margin: 12px 0 0;
+  font-size: 17px;
+  font-weight: 550;
+  color: var(--ink);
+}

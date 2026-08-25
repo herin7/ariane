@@ -19,12 +19,20 @@ import { join } from "node:path";
 
 const CHUNKS = ".next/static/chunks";
 
-// Strings that only exist in the seed or in the server only dependencies.
+/**
+ * Strings that only exist in the seed or in the server only dependencies.
+ *
+ * `supabaseUrl` rather than `supabase`: the voice guardrails carry a regex
+ * labelled `supabase-key` for spotting a leaked credential in what the model
+ * says, and that is a filter shipping to the browser on purpose. The SDK is
+ * what must not ship, so the needle is a string only the SDK has.
+ */
 const FORBIDDEN = [
   ["Mamlatdar", "the graph seed"],
   ["parivahan.gov.in", "the graph seed"],
   ["cpgrams", "the graph seed"],
-  ["supabase", "the Supabase SDK"],
+  ["supabaseUrl", "the Supabase SDK"],
+  ["@supabase/", "the Supabase SDK"],
 ];
 
 const files = [];
