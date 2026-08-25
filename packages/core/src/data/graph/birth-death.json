@@ -12,6 +12,16 @@
    "contentHash": "0ba38ae8bba977acd79cf4fabf5ed932e89796b4a74382f24a788e689b1a00b2"
   },
   {
+   "id": "src:8df61e87748c",
+   "url": "https://pan.utiitsl.com/downloadFile?FileName=DocumentsForPAN.pdf#page=3",
+   "title": "downloadFile?FileName=DocumentsForPAN (page 3 of 11)",
+   "domain": "pan.utiitsl.com",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "5eb2fff65913a79b10e51050b9c28211e3f7205ebbc96931db5fd8e43695189e"
+  },
+  {
    "id": "src:8915c5e8100c",
    "url": "https://suratmunicipal.gov.in/OnlineServices/DeathCertificate/Enroll",
    "title": "Enroll Death Certificate - Virtual Civic Center (Online Services) :: Surat Municipal Corporation",
@@ -347,6 +357,21 @@
    ]
   },
   {
+   "id": "department:registrar_of_births_and_deaths",
+   "type": "DEPARTMENT",
+   "name": "Registrar of Births and Deaths",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:8d192ccec7f2",
+     "evidence": "2. • Birth certificate issued by the Registrar of Births and Deaths",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:birth_certificate",
    "type": "SERVICE",
    "name": "Birth Certificate",
@@ -366,6 +391,12 @@
     {
      "sourceId": "src:0f952f9e3227",
      "evidence": "Yes, provided the birth certificate issued by the competent authorities has been authenticated by the Home Department of the concerned State/Union Territory in India and then by the Attestation Section of the Ministry of External Affairs (MEA), New Delhi or the MEA Branch Secretariats in Chennai, Hyderabad, Kolkata and Guwahati.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8d192ccec7f2",
+     "evidence": "2. • Birth certificate issued by the Registrar of Births and Deaths",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -563,6 +594,22 @@
     {
      "sourceId": "src:1cc4a3d9a83b",
      "evidence": "Toll Free - 18001081818",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_birth_certificate__issued_by__department_registrar_of_births_and_deaths",
+   "from": "service:birth_certificate",
+   "to": "department:registrar_of_births_and_deaths",
+   "type": "ISSUED_BY",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Registrar of Births and Deaths issues a birth certificate.",
+   "sources": [
+    {
+     "sourceId": "src:8d192ccec7f2",
+     "evidence": "2. • Birth certificate issued by the Registrar of Births and Deaths",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }

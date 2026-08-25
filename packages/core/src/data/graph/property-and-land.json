@@ -102,6 +102,26 @@
    "contentHash": "368fc0ca50c1d888400be40f0f399c0c59c4c00b5ca11eeb44146223b29192d0"
   },
   {
+   "id": "src:2e2b898e6d86",
+   "url": "https://www.digilocker.gov.in/",
+   "title": "DigiLocker | Access, Share & Verify Digital Documents",
+   "domain": "digilocker.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "2bbc4e3d3c89bd21c3340f24845e433a4135daaf44a490386ad16b0c9becea26"
+  },
+  {
+   "id": "src:e220f7589dca",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/cm-anuprati-coaching-scheme_cmacs.html",
+   "title": "CM Anuprati Coaching Scheme",
+   "domain": "web.umang.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "dc8a24c8341a943547cf3617d2cfe667af07f2eb53e056ca403c92f76bb9d9de"
+  },
+  {
    "id": "src:3203b82bd43a",
    "url": "https://gidc.gujarat.gov.in/Pages/Contents/application-for-allotment",
    "title": "GIDC",
@@ -302,6 +322,16 @@
    "contentHash": "1521c053e2f7b25da5f7d6843ab63dd6979f6161618458cf4c856c31ebe82c72"
   },
   {
+   "id": "src:82b14db365b2",
+   "url": "https://gujarattourism.com/content/dam/gujrattourism/images/document/INVESTOR_APPLICATION_GUIDELINE.pdf#page=9",
+   "title": "INVESTOR_APPLICATION_GUIDELINE (page 9 of 20)",
+   "domain": "gujarattourism.com",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "07e3c7574154aea7ca8b4f89db19eb36b814ea0c2d661958af9e102b30d9dbe9"
+  },
+  {
    "id": "src:4f0533ae601d",
    "url": "https://revenueappeals.gujarat.gov.in/",
    "title": "મુખ્ય પૃષ્ઠ | ખાસ સચિવશ્રી મહેસૂલ વિભાગ",
@@ -320,6 +350,46 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "6fdad6bea7cf147f2a177f83188cc811f7ff21f01e0b2428a6a00e873b973c64"
+  },
+  {
+   "id": "src:673502f80cb5",
+   "url": "https://imd.gujarat.gov.in/en/imd-schemes",
+   "title": "Industries and Mines department Schemes | Industries & Mines Department",
+   "domain": "imd.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "5aceb78329b2712463eabc6b86603dda9fc2adf50e007c5e835befdf56b9da68"
+  },
+  {
+   "id": "src:c678228354a5",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/it_policy_guj_2014.pdf#page=8",
+   "title": "it_policy_guj_2014 (page 8 of 15)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "12bf769752f4b06c2fa6e6ca815225f0caec5f2828995cc5b003d3b444c7ab4c"
+  },
+  {
+   "id": "src:83811ef3084c",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/elec_policy_guj_2014.pdf#page=8",
+   "title": "elec_policy_guj_2014 (page 8 of 16)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "8c39dd46c18d3caeac8e7b6abc7dc0498bcc09f5cbd96481478694bd32be9d31"
+  },
+  {
+   "id": "src:c333723c348e",
+   "url": "https://directorit.gujarat.gov.in/Content/Scheme_for_Startup_Policy.pdf#page=26",
+   "title": "Scheme_for_Startup_Policy (page 26 of 29)",
+   "domain": "directorit.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ba83ca4eaf270d0671f6fd567cf3e6e871803b2a49b22730048e2a992ddaf1db"
   },
   {
    "id": "src:15c0077c7bf7",
@@ -346,7 +416,7 @@
    "url": "https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=3",
    "title": "Vessal_25102024 (page 3 of 21)",
    "domain": "pnt.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
+   "sourceType": "OFFICE_DIRECTORY",
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "ed4565fea540efde8695718d29ac4f932f2c308746428dd160afb436f02ac09e"
@@ -650,6 +720,46 @@
    ]
   },
   {
+   "id": "action:digilocker_the_applicant_receives_documents_certificates_in",
+   "type": "ACTION",
+   "name": "The applicant receives documents/certificates in DigiLocker after processing",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant receives documents/certificates in DigiLocker after processing.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "Various documents/certificates for different applications processed at GIDC will be available in DigiLocker in the following manner:",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:digilocker_digilocker_is_used_to_automatically_verify_docum",
+   "type": "ACTION",
+   "name": "DigiLocker is used to automatically verify documents like caste certificate, domicile cert",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "DigiLocker is used to automatically verify documents like caste certificate, domicile certificate, 10th and 12th mark sheets, and income certificate.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:e220f7589dca",
+     "evidence": "Note 2: After receiving the online application forms from candidates as per the prescribed eligibility, the required documents (such as caste certificate, domicile certificate, 10th and 12th mark sheets, income certificate, etc.) will be automatically verified from the database of the web portal/Jan Aadhaar/Raj e-bolt/DigiLocker of the issuing agency through web service, without the need to upload the documents wherever possible.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:digilocker",
    "type": "SERVICE",
    "name": "DigiLocker",
@@ -950,6 +1060,46 @@
    ]
   },
   {
+   "id": "action:index_2_details_search_the_applicant_receives_a_certified_index_2_copy_",
+   "type": "ACTION",
+   "name": "The applicant receives a certified Index-2 copy of registered documents",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant receives a certified Index-2 copy of registered documents.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Get certified Index-2 copy of registered documents.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:index_2_details_search_the_applicant_receives_certified_encumbrance_cer",
+   "type": "ACTION",
+   "name": "The applicant receives certified Encumbrance Certificate online",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant receives certified Encumbrance Certificate online.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Obtain certified Encumbrance Certificate online.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:index_2_details_search",
    "type": "SERVICE",
    "name": "Index-2 details search",
@@ -1006,6 +1156,18 @@
      "sourceId": "src:73a57c3a2874",
      "evidence": "Last Updated: 21-08-2026",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Get certified Index-2 copy of registered documents.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Obtain certified Encumbrance Certificate online.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -1192,6 +1354,66 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:plot_or_shed_allotment_the_applicant_must_follow_the_allotment_procedur",
+   "type": "ACTION",
+   "name": "The applicant must follow the allotment procedure mentioned in para 4 of the resolution",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must follow the allotment procedure mentioned in para 4 of the resolution.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:8576e6ac3622",
+     "evidence": "The allotment of plot shall be made as per the procedure mentioned in para 4 of this",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:plot_or_shed_allotment_the_applicant_receives_a_shed_after_the_building",
+   "type": "ACTION",
+   "name": "The applicant receives a shed after the building is completed",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant receives a shed after the building is completed.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:8576e6ac3622",
+     "evidence": "After the completion of the building GIDC will allot the sheds as per the allotment procedure mentioned in para 4 of this resolution.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:plot_or_shed_allotment_the_slec_approves_the_application_for_multi_stor",
+   "type": "ACTION",
+   "name": "The SLEC approves the application for multi-storeyed shed allotment",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The SLEC approves the application for multi-storeyed shed allotment.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:8576e6ac3622",
+     "evidence": "The Industries cornrnissioner office will scrutinize the application and submit it to SLEC for approval.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:plot_or_shed_allotment",
    "type": "SERVICE",
    "name": "Plot-Or-Shed-Allotment",
@@ -1260,6 +1482,18 @@
      "sourceId": "src:8576e6ac3622",
      "evidence": "9. The MSEs shall have to continue its production for five years from the date of production.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8576e6ac3622",
+     "evidence": "The allotment of plot shall be made as per the procedure mentioned in para 4 of this",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8576e6ac3622",
+     "evidence": "After the completion of the building GIDC will allot the sheds as per the allotment procedure mentioned in para 4 of this resolution.",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -1484,6 +1718,26 @@
    ]
   },
   {
+   "id": "action:property_tax_bill_an_applicant_can_make_an_online_payment_for_the_",
+   "type": "ACTION",
+   "name": "An applicant can make an online payment for the property tax bill",
+   "jurisdictionId": "IN-GJ-JAMNAGAR",
+   "metadata": {
+    "whatToDo": "An applicant can make an online payment for the property tax bill.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:9fe2e97b9d97",
+     "evidence": "Online Payment",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:property_tax_bill",
    "type": "SERVICE",
    "name": "Property Tax Bill",
@@ -1529,6 +1783,24 @@
      "evidence": "Download Assessment Notice for the year 2018-22\nDownload Assessment Notice for the year 2023-27",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9fe2e97b9d97",
+     "evidence": "Online Payment",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9fe2e97b9d97",
+     "evidence": "Online Payment",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9fe2e97b9d97",
+     "evidence": "Property Tax Bill Download",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
     }
    ],
    "lastVerifiedAt": "2026-08-25"
@@ -1564,6 +1836,26 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:appeal_and_revision_applications_the_legal_branch_hears_and_decides_appeal_and_re",
+   "type": "ACTION",
+   "name": "The Legal Branch hears and decides Appeal and Revision Applications under the Land Revenue",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "metadata": {
+    "whatToDo": "The Legal Branch hears and decides Appeal and Revision Applications under the Land Revenue Code 1879 and Land Revenue Rules 1972 regarding RTS matters.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:f822111ca37c",
+     "evidence": "In this branch, Appeal and the Revision Applications under Land Revenue Code 1879 & Land Revenue Rules 1972 regarding RTS matters are heard and decided in accordance with law.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:appeal_and_revision_applications",
    "type": "SERVICE",
    "name": "Appeal and Revision Applications",
@@ -1583,6 +1875,12 @@
     {
      "sourceId": "src:f822111ca37c",
      "evidence": "Revision / Appeal application must be filed within 90 days of the decision / order made by the subordinate officer as prescribed by law.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f822111ca37c",
+     "evidence": "In this branch, Appeal and the Revision Applications under Land Revenue Code 1879 & Land Revenue Rules 1972 regarding RTS matters are heard and decided in accordance with law.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -1635,6 +1933,26 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:garvi_2_0_an_applicant_submits_document_details_for_regist",
+   "type": "ACTION",
+   "name": "An applicant submits document details for registration through GARVI 2.0",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "An applicant submits document details for registration through GARVI 2.0.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:8dfcd1797be4",
+     "evidence": "Garvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides services to citizens to submit document details for registration and online facility to pay Stamp Duty and Registration Fee.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:garvi_2_0",
    "type": "SERVICE",
    "name": "GARVI 2.0",
@@ -1649,6 +1967,24 @@
      "sourceId": "src:66859eeeeb2b",
      "evidence": "GARVI 2.0\nIGR Department\nGovernment of Gujarat\nGarvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides services to citizens to submit document details for registration and online facility to pay Stamp Duty and Registration Fee.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8dfcd1797be4",
+     "evidence": "Garvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides services to citizens to submit document details for registration and online facility to pay Stamp Duty and Registration Fee.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8dfcd1797be4",
+     "evidence": "Garvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides services to citizens to submit document details for registration and online facility to pay Stamp Duty and Registration Fee.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8dfcd1797be4",
+     "evidence": "Garvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides services to citizens to submit document details for registration and online facility to pay Stamp Duty and Registration Fee.",
+     "confidence": 0.8,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -1788,6 +2124,26 @@
    ]
   },
   {
+   "id": "action:certified_copies_certified_copies_of_registered_documents_can_be_",
+   "type": "ACTION",
+   "name": "Certified copies of registered documents can be obtained",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Certified copies of registered documents can be obtained.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Obtain certified copies of registered documents.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "document:certified_document_copy",
    "type": "DOCUMENT",
    "name": "Certified document copy",
@@ -1833,6 +2189,26 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:city_survey_title_deed_registration_the_applicant_can_submit_the_application_for_reg",
+   "type": "ACTION",
+   "name": "The applicant can submit the application for registration of City Survey title deeds to th",
+   "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
+   "metadata": {
+    "whatToDo": "The applicant can submit the application for registration of City Survey title deeds to the City Survey Superintendent.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:bf942cad7dd5",
+     "evidence": "હું કઈ રીતે સક્ષમ અધિકારીશ્રીના હુકમ અન્વયે સિટી સરવેના હકપત્રકે નોંધ દાખલ કરી શકું? સીટી સર્વે સુપ્રિટેન્ડેન્ટને,",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:city_survey_title_deed_registration",
    "type": "SERVICE",
    "name": "City Survey title deed registration",
@@ -1856,6 +2232,12 @@
      "sourceId": "src:bf942cad7dd5",
      "evidence": "નિકાલની સમય મર્યાદા ૭ થી ૪૫ દિવસ",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:bf942cad7dd5",
+     "evidence": "હું કઈ રીતે સક્ષમ અધિકારીશ્રીના હુકમ અન્વયે સિટી સરવેના હકપત્રકે નોંધ દાખલ કરી શકું? સીટી સર્વે સુપ્રિટેન્ડેન્ટને,",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -1913,6 +2295,12 @@
     {
      "sourceId": "src:05fe99b18fe2",
      "evidence": "With regard to the documents specified in the Constitution of India Seventh Schedule Entry No. 91 (A bill of exchange, cheque, promissory note, bill of lading, letter of credit, policy of insurance, transfer of share, debenture, proxy and receipt) other then the same the State Government is bound to amend the Stamp and Stamp Duty Act.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:05fe99b18fe2",
+     "evidence": "Duty fee and Registration fee Details\nStamp Fee\nClick here to view stamp Fee\nRegistration Fee\nClick here to view Registration Fee",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -2013,6 +2401,66 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:stamp_duty_the_applicant_receives_100_reimbursement_of_stam",
+   "type": "ACTION",
+   "name": "The applicant receives 100% reimbursement of stamp duty and registration fee",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant receives 100% reimbursement of stamp duty and registration fee.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:82b14db365b2",
+     "evidence": "2. 100% reimbursement of stamp duty and registration fee shall be provided.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:stamp_duty_the_applicant_receives_100_exemption_in_stamp_du",
+   "type": "ACTION",
+   "name": "The applicant receives 100% exemption in stamp duty and registration fee for the first tra",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant receives 100% exemption in stamp duty and registration fee for the first transaction.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:83811ef3084c",
+     "evidence": "3. Registration/Stamp Duty Concession: ESDM units which intend to establish/expand/diversify will qualify for 100% exemption in stamp duty and registration fee in lease/sale/transfer of land for the first transaction.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:stamp_duty_the_applicant_receives_reimbursement_of_stamp_du",
+   "type": "ACTION",
+   "name": "The applicant receives reimbursement of stamp duty and registration fee on submission of p",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant receives reimbursement of stamp duty and registration fee on submission of proof.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:c333723c348e",
+     "evidence": "5. Stamp Duty & Registration Fee On submission of Proof Reimbursement as per actuals",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:stamp_duty",
    "type": "SERVICE",
    "name": "Stamp Duty",
@@ -2039,6 +2487,60 @@
      "sourceId": "src:c009bc2c7448",
      "evidence": "Gujarati - Indic Input 3 - 32 bit",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:82b14db365b2",
+     "evidence": "2. 100% reimbursement of stamp duty and registration fee shall be provided.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:82b14db365b2",
+     "evidence": "2. 100% reimbursement of stamp duty and registration fee shall be provided.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:673502f80cb5",
+     "evidence": "100% reimbursement of stamp duty and registration fees as well as exemption from Electricity Duty as applicable under Gujarat Electricity Act 2003.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:673502f80cb5",
+     "evidence": "Reimbursement of Stamp Duty and registration fees 100% reimbursement of stamp duty and registration fees as well as exemption from Electricity Duty as applicable under Gujarat Electricity Act 2003.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:c678228354a5",
+     "evidence": "IT/ITeS units which intend to establish/expand will qualify for 100% reimbursement of Stamp Duty and Registration Fee on sale/lease/transfer of land for the first transaction.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:c678228354a5",
+     "evidence": "IT/ITeS units which intend to establish/expand will qualify for 100% reimbursement of Stamp Duty and Registration Fee on sale/lease/transfer of land for the first transaction.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:83811ef3084c",
+     "evidence": "ESDM units which intend to establish/expand/diversify will qualify for 100% exemption in stamp duty and registration fee in lease/sale/transfer of land for the first transaction.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:83811ef3084c",
+     "evidence": "3. Registration/Stamp Duty Concession: ESDM units which intend to establish/expand/diversify will qualify for 100% exemption in stamp duty and registration fee in lease/sale/transfer of land for the first transaction.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:c333723c348e",
+     "evidence": "5. Stamp Duty & Registration Fee On submission of Proof Reimbursement as per actuals",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -2459,6 +2961,38 @@
    ]
   },
   {
+   "id": "e:service_digilocker__requires__action_digilocker_the_applicant_receives_documents_certifica",
+   "from": "service:digilocker",
+   "to": "action:digilocker_the_applicant_receives_documents_certificates_in",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives documents/certificates in DigiLocker after processing.",
+   "sources": [
+    {
+     "sourceId": "src:e567da21d421",
+     "evidence": "Various documents/certificates for different applications processed at GIDC will be available in DigiLocker in the following manner:",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_digilocker__requires__action_digilocker_digilocker_is_used_to_automatically_verify",
+   "from": "service:digilocker",
+   "to": "action:digilocker_digilocker_is_used_to_automatically_verify_docum",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "DigiLocker is used to automatically verify documents like caste certificate, domicile certificate, 10th and 12th mark sheets, and income certificate.",
+   "sources": [
+    {
+     "sourceId": "src:e220f7589dca",
+     "evidence": "Note 2: After receiving the online application forms from candidates as per the prescribed eligibility, the required documents (such as caste certificate, domicile certificate, 10th and 12th mark sheets, income certificate, etc.) will be automatically verified from the database of the web portal/Jan Aadhaar/Raj e-bolt/DigiLocker of the issuing agency through web service, without the need to upload the documents wherever possible.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_digilocker__apply_at__portal_gidc_gujarat_gov_in",
    "from": "service:digilocker",
    "to": "portal:gidc_gujarat_gov_in",
@@ -2566,6 +3100,38 @@
      "sourceId": "src:73a57c3a2874",
      "evidence": "Contact Info\nStamp & Registration Bhavan\nKH-5, Sector-14,\nGandhinagar, Gujarat - 382016\nPhone:\n(079) 23288575",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_index_2_details_search__requires__action_index_2_details_search_the_applicant_receives_a_certi",
+   "from": "service:index_2_details_search",
+   "to": "action:index_2_details_search_the_applicant_receives_a_certified_index_2_copy_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives a certified Index-2 copy of registered documents.",
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Get certified Index-2 copy of registered documents.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_index_2_details_search__requires__action_index_2_details_search_the_applicant_receives_certifi",
+   "from": "service:index_2_details_search",
+   "to": "action:index_2_details_search_the_applicant_receives_certified_encumbrance_cer",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives certified Encumbrance Certificate online.",
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Obtain certified Encumbrance Certificate online.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -2693,6 +3259,54 @@
     {
      "sourceId": "src:2bd753e1b32d",
      "evidence": "હું કઈ રીતે ગામ તળ માટે જમીન નીમ કરાવી શકું? પ્રાંત અધિકારીશ્રી ને, પરિશિષ્ટ-૧/૧ મુજબ અરજી કરવી.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_plot_or_shed_allotment__requires__action_plot_or_shed_allotment_the_applicant_must_follow_the_",
+   "from": "service:plot_or_shed_allotment",
+   "to": "action:plot_or_shed_allotment_the_applicant_must_follow_the_allotment_procedur",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must follow the allotment procedure mentioned in para 4 of the resolution.",
+   "sources": [
+    {
+     "sourceId": "src:8576e6ac3622",
+     "evidence": "The allotment of plot shall be made as per the procedure mentioned in para 4 of this",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_plot_or_shed_allotment__requires__action_plot_or_shed_allotment_the_applicant_receives_a_shed_",
+   "from": "service:plot_or_shed_allotment",
+   "to": "action:plot_or_shed_allotment_the_applicant_receives_a_shed_after_the_building",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives a shed after the building is completed.",
+   "sources": [
+    {
+     "sourceId": "src:8576e6ac3622",
+     "evidence": "After the completion of the building GIDC will allot the sheds as per the allotment procedure mentioned in para 4 of this resolution.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_plot_or_shed_allotment__requires__action_plot_or_shed_allotment_the_slec_approves_the_applicat",
+   "from": "service:plot_or_shed_allotment",
+   "to": "action:plot_or_shed_allotment_the_slec_approves_the_application_for_multi_stor",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The SLEC approves the application for multi-storeyed shed allotment.",
+   "sources": [
+    {
+     "sourceId": "src:8576e6ac3622",
+     "evidence": "The Industries cornrnissioner office will scrutinize the application and submit it to SLEC for approval.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -2843,6 +3457,22 @@
    ]
   },
   {
+   "id": "e:service_property_tax_bill__requires__action_property_tax_bill_an_applicant_can_make_an_online_pay",
+   "from": "service:property_tax_bill",
+   "to": "action:property_tax_bill_an_applicant_can_make_an_online_payment_for_the_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant can make an online payment for the property tax bill.",
+   "sources": [
+    {
+     "sourceId": "src:9fe2e97b9d97",
+     "evidence": "Online Payment",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_property_tax_bill__apply_at__portal_mcjamnagar_com",
    "from": "service:property_tax_bill",
    "to": "portal:mcjamnagar_com",
@@ -2885,6 +3515,22 @@
     {
      "sourceId": "src:f822111ca37c",
      "evidence": "Court fee stamp stipulated under the court fee act on the authenticated copy of the resolution of the lower court as well as on the Advocate letter (Vakilat patra) the lawyer (if any) of the court.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_appeal_and_revision_applications__requires__action_appeal_and_revision_applications_the_legal_branch_hea",
+   "from": "service:appeal_and_revision_applications",
+   "to": "action:appeal_and_revision_applications_the_legal_branch_hears_and_decides_appeal_and_re",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Legal Branch hears and decides Appeal and Revision Applications under the Land Revenue Code 1879 and Land Revenue Rules 1972 regarding RTS matters.",
+   "sources": [
+    {
+     "sourceId": "src:f822111ca37c",
+     "evidence": "In this branch, Appeal and the Revision Applications under Land Revenue Code 1879 & Land Revenue Rules 1972 regarding RTS matters are heard and decided in accordance with law.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -3019,6 +3665,22 @@
    ]
   },
   {
+   "id": "e:service_garvi_2_0__requires__action_garvi_2_0_an_applicant_submits_document_details_for_r",
+   "from": "service:garvi_2_0",
+   "to": "action:garvi_2_0_an_applicant_submits_document_details_for_regist",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant submits document details for registration through GARVI 2.0.",
+   "sources": [
+    {
+     "sourceId": "src:8dfcd1797be4",
+     "evidence": "Garvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides services to citizens to submit document details for registration and online facility to pay Stamp Duty and Registration Fee.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_garvi_2_0__apply_at__portal_garvi_gujarat_gov_in",
    "from": "service:garvi_2_0",
    "to": "portal:garvi_gujarat_gov_in",
@@ -3147,6 +3809,22 @@
    ]
   },
   {
+   "id": "e:service_certified_copies__requires__action_certified_copies_certified_copies_of_registered_docum",
+   "from": "service:certified_copies",
+   "to": "action:certified_copies_certified_copies_of_registered_documents_can_be_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Certified copies of registered documents can be obtained.",
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Obtain certified copies of registered documents.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_city_survey_title_deed_registration__requires__document_certified_document_copy",
    "from": "service:city_survey_title_deed_registration",
    "to": "document:certified_document_copy",
@@ -3190,6 +3868,22 @@
      "sourceId": "src:bf942cad7dd5",
      "evidence": "લે આઉટ/અંદાજિત પ્લાન અસલમાં",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_city_survey_title_deed_registration__requires__action_city_survey_title_deed_registration_the_applicant_can",
+   "from": "service:city_survey_title_deed_registration",
+   "to": "action:city_survey_title_deed_registration_the_applicant_can_submit_the_application_for_reg",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant can submit the application for registration of City Survey title deeds to the City Survey Superintendent.",
+   "sources": [
+    {
+     "sourceId": "src:bf942cad7dd5",
+     "evidence": "હું કઈ રીતે સક્ષમ અધિકારીશ્રીના હુકમ અન્વયે સિટી સરવેના હકપત્રકે નોંધ દાખલ કરી શકું? સીટી સર્વે સુપ્રિટેન્ડેન્ટને,",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -3286,6 +3980,54 @@
      "sourceId": "src:c009bc2c7448",
      "evidence": "સ્ટેમ્પ ડ્યુટી સંબંધિત કેસો (Filed Under Sec-33) - Checklist / Declaration",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_stamp_duty__requires__action_stamp_duty_the_applicant_receives_100_reimbursement_o",
+   "from": "service:stamp_duty",
+   "to": "action:stamp_duty_the_applicant_receives_100_reimbursement_of_stam",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives 100% reimbursement of stamp duty and registration fee.",
+   "sources": [
+    {
+     "sourceId": "src:82b14db365b2",
+     "evidence": "2. 100% reimbursement of stamp duty and registration fee shall be provided.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_stamp_duty__requires__action_stamp_duty_the_applicant_receives_100_exemption_in_st",
+   "from": "service:stamp_duty",
+   "to": "action:stamp_duty_the_applicant_receives_100_exemption_in_stamp_du",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives 100% exemption in stamp duty and registration fee for the first transaction.",
+   "sources": [
+    {
+     "sourceId": "src:83811ef3084c",
+     "evidence": "3. Registration/Stamp Duty Concession: ESDM units which intend to establish/expand/diversify will qualify for 100% exemption in stamp duty and registration fee in lease/sale/transfer of land for the first transaction.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_stamp_duty__requires__action_stamp_duty_the_applicant_receives_reimbursement_of_st",
+   "from": "service:stamp_duty",
+   "to": "action:stamp_duty_the_applicant_receives_reimbursement_of_stamp_du",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives reimbursement of stamp duty and registration fee on submission of proof.",
+   "sources": [
+    {
+     "sourceId": "src:c333723c348e",
+     "evidence": "5. Stamp Duty & Registration Fee On submission of Proof Reimbursement as per actuals",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]

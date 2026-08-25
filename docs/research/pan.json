@@ -28,6 +28,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:5b01f9f92250",
+   "url": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/challan-correction-request",
+   "title": "Challan Correction Request | Income Tax Department",
+   "domain": "incometax.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "6add074e81d7f8c171b429ee0833b3b6bdf4875fd6060e09ce63d06487be3d09",
+   "cacheFile": ".ingest/pages/5b01f9f922503ee3282c2adae283b646cbafbf47.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:3b4d79f6e027",
    "url": "https://www.incometax.gov.in/iec/foportal/help/MyCAUserManual",
    "title": "My CA User Manual | Income Tax Department",
@@ -37,6 +49,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "456bf72a0a2c5b2e78d7c856e16ca310e3cf8b266fc36746acc04a6ac51f33d6",
    "cacheFile": ".ingest/pages/3b4d79f6e027dafe89133a12b617306fe2f979e2.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:f0c52d19777e",
+   "url": "https://www.incometax.gov.in/iec/foportal/help/how-to-work-with-ca",
+   "title": "Work with My CA User Manual | Income Tax Department",
+   "domain": "incometax.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "b8e9410abc1aaab1a38fcf8cf5f78309cf92035be02f354b18ff2ace7183742d",
+   "cacheFile": ".ingest/pages/f0c52d19777ea816e7abf9bb1ec9d67271e1ecce.md",
    "scrapedOk": true
   },
   {
@@ -318,6 +342,16 @@
    "confidence": 1
   },
   {
+   "claim": "Applicants must attach a copy of the certificate or statement and proof of payment or deduction of foreign tax.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "form_67",
+   "object": "certificate_statement_proof_payment_deduction_foreign_tax",
+   "detail": {},
+   "sourceId": "src:a86a67611d4f",
+   "evidence": "The last section of Form 67 is Attachments where you need to attach a copy of the certificate or statement and proof of payment / deduction of foreign tax.",
+   "confidence": 1
+  },
+  {
    "claim": "Log in to the e-Filing portal using your user ID and password.",
    "kind": "ACTION",
    "subject": "form_67",
@@ -558,6 +592,26 @@
    "confidence": 1
   },
   {
+   "claim": "An applicant can check the status of a challan correction request by clicking 'View Challan Correction Status' after e-verification.",
+   "kind": "TRACKING",
+   "subject": "challan_correction_request",
+   "object": "status_check",
+   "detail": {},
+   "sourceId": "src:7fd29c1cf6e0",
+   "evidence": "Step 9: Post e-verification, a success message will be displayed. You can click View Challan Correction Status to know the status of challan correction.",
+   "confidence": 1
+  },
+  {
+   "claim": "To check the status of a challan correction request, an applicant can repeat steps 1 to 3 and view details on the challan correction page.",
+   "kind": "TRACKING",
+   "subject": "challan_correction_request",
+   "object": "status_check",
+   "detail": {},
+   "sourceId": "src:7fd29c1cf6e0",
+   "evidence": "Step 10: To Check Challan Correction Request Status, please repeat Step 1 to Step 3 . At challan correction page” You can view details and check status for Challan Correction Requests raised by you”.",
+   "confidence": 1
+  },
+  {
    "claim": "Log in to the e-Filing portal with user ID and password.",
    "kind": "ACTION",
    "subject": "challan_correction_request",
@@ -628,6 +682,36 @@
    "sourceId": "src:7fd29c1cf6e0",
    "evidence": "Step 6: Once the relevant challan is selected, the Correction in Challan page will open. On this page, the user can update the required challan attributes and then click Continue.",
    "confidence": 0.55
+  },
+  {
+   "claim": "Users may raise a grievance on the e Filing portal if their correction request status shows 'Pending' for a long time.",
+   "kind": "HELPLINE",
+   "subject": "challan_correction_request",
+   "object": "grievance_portal",
+   "detail": {},
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "Users can check the status under Services → Challan Correction.\nIf the status remains pending beyond reasonable timelines, users may:\n• Raise a grievance on the e Filing portal, or\n• Contact their Jurisdictional Assessing Officer.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "An applicant can check the status of a challan correction request under 'Services → Challan Correction' on the e-Filing portal.",
+   "kind": "TRACKING",
+   "subject": "challan_correction_request",
+   "object": "status_check",
+   "detail": {},
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "Users can check the status under Services → Challan Correction.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants receive email and SMS notifications once the challan correction is processed.",
+   "kind": "ACTION",
+   "subject": "challan_correction_request",
+   "object": "applicant",
+   "detail": {},
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "Yes. Users receive email and SMS notifications on their registered email ID and mobile number once the challan correction request is processed.",
+   "confidence": 1
   },
   {
    "claim": "A citizen must be a registered user of the e-Filing portal to use the My CA service.",
@@ -750,6 +834,42 @@
    "confidence": 0.95
   },
   {
+   "claim": "An applicant can check the status of submitted forms by clicking View Assigned Forms.",
+   "kind": "TRACKING",
+   "subject": "my_ca",
+   "object": "view_assigned_forms",
+   "detail": {},
+   "sourceId": "src:3b4d79f6e027",
+   "evidence": "Step 5: Click View Assigned Forms to display the status and details of all forms assigned to a specific CA.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant receives a success message along with a Transaction ID after deactivating a CA.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "deactivate_ca",
+   "detail": {
+    "message": "success message",
+    "transaction_id": "Transaction ID"
+   },
+   "sourceId": "src:3b4d79f6e027",
+   "evidence": "A success message is displayed along with the Transaction ID. Please keep note of the Transaction ID for future reference.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives a success message along with a Transaction ID after adding a CA.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "add_ca",
+   "detail": {
+    "message": "success message",
+    "transaction_id": "Transaction ID"
+   },
+   "sourceId": "src:3b4d79f6e027",
+   "evidence": "A success message is displayed along with the Transaction ID for future reference.",
+   "confidence": 1
+  },
+  {
    "claim": "Log in to the e-Filing portal using user ID and password.",
    "kind": "ACTION",
    "subject": "my_ca",
@@ -808,6 +928,19 @@
    "sourceId": "src:3b4d79f6e027",
    "evidence": "Step 5: Click View Assigned Forms to display the status and details of all forms assigned to a specific CA.",
    "confidence": 0.55
+  },
+  {
+   "claim": "The applicant receives a success message along with a Transaction ID after deactivating a CA.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "deactivate_ca",
+   "detail": {
+    "message": "success message",
+    "transaction_id": "Transaction ID"
+   },
+   "sourceId": "src:f0c52d19777e",
+   "evidence": "A success message is displayed along with a Transaction ID. Please keep a note of the Transaction ID for future reference.",
+   "confidence": 1
   },
   {
    "claim": "A taxpayer must e-verify their return before refund processing can start.",
@@ -917,6 +1050,38 @@
    "detail": {},
    "sourceId": "src:d043f7ad5e63",
    "evidence": "Step 4: Now you can check the refund status for the desired Assessment year.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives a refund amount in their account after the return is e-verified.",
+   "kind": "ACTION",
+   "subject": "refund_status_check",
+   "object": "taxpayer_account",
+   "detail": {},
+   "sourceId": "src:d043f7ad5e63",
+   "evidence": "Refund processing by the tax department starts only after the return is e-verified by the taxpayer. Usually, it takes 4-5 weeks for the refund to be credited to the account of the taxpayer.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "It takes 4-5 weeks for the refund to be credited to the taxpayer's account.",
+   "kind": "TIMELINE",
+   "subject": "refund_status_check",
+   "object": "taxpayer_account",
+   "detail": {
+    "days": "20-35"
+   },
+   "sourceId": "src:d043f7ad5e63",
+   "evidence": "Refund processing by the tax department starts only after the return is e-verified by the taxpayer. Usually, it takes 4-5 weeks for the refund to be credited to the account of the taxpayer.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The refund processing starts only after the return is e-verified by the taxpayer.",
+   "kind": "ACTION",
+   "subject": "refund_status_check",
+   "object": "e_verification",
+   "detail": {},
+   "sourceId": "src:d043f7ad5e63",
+   "evidence": "Refund processing by the tax department starts only after the return is e-verified by the taxpayer.",
    "confidence": 1
   },
   {

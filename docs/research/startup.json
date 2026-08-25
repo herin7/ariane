@@ -137,6 +137,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:11156af4329b",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/start_up/Guidelines_for_Funding_support_to_startups.pdf#page=8",
+   "title": "Guidelines_for_Funding_support_to_startups (page 8 of 42)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "49c5eaf488b56b28f902cd1ae230ef0ba377d59d456cfc081b5e06dd9df23b6c",
+   "cacheFile": ".ingest/pages/11156af4329bf851a941c254eb599bc93c442cb3.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:6d4e07e3a146",
    "url": "https://ced.gujarat.gov.in/assets/downloads/Entrepreneurship-SOURCE-check.pdf#page=78",
    "title": "Entrepreneurship-SOURCE-check (page 78 of 184)",
@@ -146,6 +158,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "810fc2c48b53ede25d956ee45c037418c3207d749b5e0c1e80e42737d9e9c6fe",
    "cacheFile": ".ingest/pages/6d4e07e3a14661b7dac04d7b5a7f8b3f7c82606a.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:ae5820dad30b",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/start_up/Guidelines_for_Funding_support_to_startups.pdf#page=5",
+   "title": "Guidelines_for_Funding_support_to_startups (page 5 of 42)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "994beb67cd030943c188a05815381cc99020e85106d26b777116f8e9c7e20f32",
+   "cacheFile": ".ingest/pages/ae5820dad30b909d0cdd070f75cd143a4b248c6c.md",
    "scrapedOk": true
   },
   {
@@ -209,6 +233,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:7b412bbdac4a",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/form-A-citizen-charter-sla.pdf#page=2",
+   "title": "form-A-citizen-charter-sla (page 2 of 3)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "956b571d3a666b522131aa237bdfa224e447b7514bb131a4d91b78208a3b75ba",
+   "cacheFile": ".ingest/pages/7b412bbdac4a6e3346c80108d54fd08af59b7e01.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:c53e608dc05a",
    "url": "https://empower.gujarat.gov.in/",
    "title": "Empowering Youth",
@@ -230,6 +266,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "67013bd5b9c3b3bbf0650e587991d42c8b504a24cbdfa3dbc98b1841915380b3",
    "cacheFile": ".ingest/pages/fbd13164f1d9e261cd30b7e9ad75cd0c8116d7b8.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:ae2858c7141b",
+   "url": "http://ic.gujarat.gov.in/",
+   "title": "IC Website",
+   "domain": "ic.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "46a7897679837b238174d74362b79dc8fb1773ffa4bb3c42d46081cd0364d490",
+   "cacheFile": ".ingest/pages/ae2858c7141b6b295ca8ee9c03d77165e9f8d191.md",
    "scrapedOk": true
   },
   {
@@ -2636,6 +2684,68 @@
    "confidence": 1
   },
   {
+   "claim": "An applicant must bring or attach an application form with documents.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "startup_funding_support",
+   "object": "application_form",
+   "detail": {
+    "type": "form_with_documents"
+   },
+   "sourceId": "src:11156af4329b",
+   "evidence": "Application form with documents",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must complete a common registration form.",
+   "kind": "ACTION",
+   "subject": "startup_applicant",
+   "object": "common_registration_form",
+   "detail": {},
+   "sourceId": "src:11156af4329b",
+   "evidence": "Common registration form",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must select the IC scheme.",
+   "kind": "ACTION",
+   "subject": "startup_applicant",
+   "object": "ic_scheme_selection",
+   "detail": {},
+   "sourceId": "src:11156af4329b",
+   "evidence": "Selection of IC scheme",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must fulfill eligibility and conditions.",
+   "kind": "ACTION",
+   "subject": "startup_applicant",
+   "object": "eligibility_conditions",
+   "detail": {},
+   "sourceId": "src:11156af4329b",
+   "evidence": "Eligibility and conditions",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must specify the type of assistance requested.",
+   "kind": "ACTION",
+   "subject": "startup_applicant",
+   "object": "assistance_type_request",
+   "detail": {},
+   "sourceId": "src:11156af4329b",
+   "evidence": "Type of assistance requested",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must submit the application form with documents for seed funding support.",
+   "kind": "ACTION",
+   "subject": "startup_applicant",
+   "object": "seed_funding_application",
+   "detail": {},
+   "sourceId": "src:11156af4329b",
+   "evidence": "Application form with documents",
+   "confidence": 0.9
+  },
+  {
    "claim": "Eligible applicants for incubation at NSRCEL, IIM-B include all individuals.",
    "kind": "ELIGIBILITY",
    "subject": "nsrcec_iim_b_incubation",
@@ -2753,6 +2863,18 @@
    "detail": {},
    "sourceId": "src:6d4e07e3a146",
    "evidence": "Nirma Labs 2004 Hi-Tech All Pre/Post\nIdea-stage\n5.7.5",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The startup/innovator must be registered for pre-incubation or incubation at the NI for 1-2 months before becoming eligible to apply for assistance.",
+   "kind": "ACTION",
+   "subject": "startup_innovator",
+   "object": "ni_incubation_program",
+   "detail": {
+    "duration": "1-2 months"
+   },
+   "sourceId": "src:ae5820dad30b",
+   "evidence": "8. The startup/innovator should be registered for the pre-incubation or incubation program at the NI for 1-2 months before becoming eligible to apply for the assistance.",
    "confidence": 0.95
   },
   {
@@ -3006,6 +3128,60 @@
    "confidence": 1
   },
   {
+   "claim": "An applicant must fill out an application form.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:38b1ddfb482f",
+   "evidence": "Application Form Shri M.D.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An applicant must submit the application to the Director.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "director",
+   "detail": {},
+   "sourceId": "src:38b1ddfb482f",
+   "evidence": "Director 15 Days",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The application is processed at The Centre For Entrepreneurship Development.",
+   "kind": "CHANNEL",
+   "subject": "application",
+   "object": "centre_for_entrepreneurship_development",
+   "detail": {
+    "address": "9th Floor, 1st Block, Udyog Bhavan, Gandhinagar"
+   },
+   "sourceId": "src:38b1ddfb482f",
+   "evidence": "The Centre For Entrepreneurship Development, 9th Floor, 1st Block, Udyog Bhavan, Gandhinagar",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant receives the Entrepreneurship Awareness Program (EAP) at the end of the program.",
+   "kind": "ACTION",
+   "subject": "entrepreneurship_development_programs",
+   "object": "entrepreneurship_awareness_program",
+   "detail": {},
+   "sourceId": "src:38b1ddfb482f",
+   "evidence": "2A EAP – Entrepreneurship Awareness Program",
+   "confidence": 1
+  },
+  {
+   "claim": "The Entrepreneurship Awareness Program (EAP) takes 15 days to complete.",
+   "kind": "TIMELINE",
+   "subject": "entrepreneurship_awareness_program",
+   "object": "15_days",
+   "detail": {
+    "days": "15"
+   },
+   "sourceId": "src:38b1ddfb482f",
+   "evidence": "Director 15 Days 15 Days",
+   "confidence": 1
+  },
+  {
    "claim": "The Ministry of Micro, Small And Medium Enterprises lists various government schemes for entrepreneurs on its website.",
    "kind": "CHANNEL",
    "subject": "msme_website",
@@ -3224,6 +3400,18 @@
    "confidence": 1
   },
   {
+   "claim": "The Centre for Entrepreneurship Development is the authority that sanctions the service.",
+   "kind": "OFFICE",
+   "subject": "centre_for_entrepreneurship_development",
+   "object": "service_sanction",
+   "detail": {
+    "address": "9th Floor, 1st Block, Udyog Bhavan, Gandhinagar"
+   },
+   "sourceId": "src:7b412bbdac4a",
+   "evidence": "The Centre For Entrepreneurship Development, 9th Floor, 1st Block, Udyog Bhavan, Gandhinagar",
+   "confidence": 0.9
+  },
+  {
    "claim": "Citizens can register online for short-term courses and summer skill workshops.",
    "kind": "ACTION",
    "subject": "citizen",
@@ -3408,6 +3596,64 @@
    "confidence": 1
   },
   {
+   "claim": "Eligible startups receive approval for Seed Support and Sustenance allowance within 90 working days from the submission of their application.",
+   "kind": "TIMELINE",
+   "subject": "startup_gujarat_cell",
+   "object": "startup",
+   "detail": {
+    "days": 90
+   },
+   "sourceId": "src:88768d7d5b2d",
+   "evidence": "Note: In essence, Eligible Startups gets approval for Seed Support and Sustenance allowance within 90 working days from the submission of their application at Nodal Institution.",
+   "confidence": 1
+  },
+  {
+   "claim": "Startup Gujarat Cell communicates the decision of SLEC to the Nodal Institutions within 10 working days.",
+   "kind": "ACTION",
+   "subject": "startup_gujarat_cell",
+   "object": "nodal_institution",
+   "detail": {
+    "days": 10
+   },
+   "sourceId": "src:88768d7d5b2d",
+   "evidence": "Startup Gujarat Cell will communicate the decision of SLEC to the Nodal Institutions within 10 working days.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Startup Gujarat Cell scrutinizes each application against the basic eligibility criteria and verifies the submission of all required documents.",
+   "kind": "ACTION",
+   "subject": "startup_gujarat_cell",
+   "object": "application",
+   "detail": {
+    "days": 15
+   },
+   "sourceId": "src:88768d7d5b2d",
+   "evidence": "4. The Startup Gujarat Cell will scrutinize each application against the basic eligibility criteria and verify the submission of all required documents from the checklist. Complete proposals received from Nodal Institutions will be forwarded to iCreate, while incomplete proposals will be returned to the Nodal Institutions within 15 working days.",
+   "confidence": 1
+  },
+  {
+   "claim": "iCreate conducts a detailed evaluation through an Expert screening committee comprised of domain experts.",
+   "kind": "ACTION",
+   "subject": "icreate",
+   "object": "startup_application",
+   "detail": {
+    "days": 20
+   },
+   "sourceId": "src:88768d7d5b2d",
+   "evidence": "5. iCreate will conduct a detailed evaluation through an Expert screening committee, comprised of domain experts, and submit their recommendations to the Startup Gujarat Cell within 20 working days.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Startup Cell functions under the Industries Commissionerate.",
+   "kind": "OFFICE",
+   "subject": "startup_cell",
+   "object": "industries_commissionerate",
+   "detail": {},
+   "sourceId": "src:ae2858c7141b",
+   "evidence": "In order to give impetus to development of a strong Startupecosystem in the state, a dedicated Startup Cell functions under the Industries Commissionerate.",
+   "confidence": 0.95
+  },
+  {
    "claim": "To express interest for incubation at STBI, a citizen must email their idea to SavliBioIncubator@gmail.com.",
    "kind": "ACTION",
    "subject": "incubation_interest",
@@ -3517,6 +3763,20 @@
    "confidence": 0.9
   },
   {
+   "claim": "The Start Ups/Innovation assistance scheme is issued by the Government of Gujarat, Industries & Mines Department.",
+   "kind": "OFFICE",
+   "subject": "start_ups_innovation_assistance_scheme",
+   "object": "industries_mines_department",
+   "detail": {
+    "resolution_number": "MIS-102014-924909-I",
+    "location": "Sachivalaya, Gandhinagar",
+    "date": "27.1.2015"
+   },
+   "sourceId": "src:4236ac0c3e16",
+   "evidence": "Gujarat Industrial Policy 2015\nScheme for assistance for Start Ups/\nInnovation\nGovernment of Gujarat\nIndustries & Mines Department\nResolution No. MIS-102014-924909-I\nSachivalaya, Gandhinagar\nDated: 27.1.2015",
+   "confidence": 1
+  },
+  {
    "claim": "The scheme for assistance for Start Ups/Innovation will remain in operation for a period of five years.",
    "kind": "TIMELINE",
    "subject": "scheme_operation",
@@ -3590,6 +3850,8 @@
   "Startup Policy Scheme: https://directorit.gujarat.gov.in/Content/Scheme_for_Startup_Policy.pdf#page=7 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Startup Policy Scheme: https://directorit.gujarat.gov.in/Content/Scheme_for_Startup_Policy.pdf#page=7 offers a choice under \"they cross any of the following milestones, whichever is earlier:\" but fewer than two of the lines under it are documents, so no group was written.",
   "Startup Funding Support: https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/start_up/Guidelines_for_Funding_support_to_startups.pdf#page=9 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Startup Funding Support: https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/start_up/Guidelines_for_Funding_support_to_startups.pdf#page=8 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Entrepreneurship Development Programs: https://ced.gujarat.gov.in/assets/downloads/form-A-citizen-charter-sla.pdf#page=1 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Entrepreneurship-SOURCE-check: the page names \"http://msme.gov.in/ and http://www.laghu-udyog.com/\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
   "Entrepreneurship-SOURCE-check: the page links to www.techno-preneur.net, which is not a gov.in or nic.in host, so we could not prove from the name alone that government owns it and did not send anyone there.",
   "Entrepreneurship-SOURCE-check: the page links to www.sidbi.in, which is not a gov.in or nic.in host, so we could not prove from the name alone that government owns it and did not send anyone there.",
@@ -3598,6 +3860,7 @@
   "Entrepreneurship-SOURCE-check: the page links to www.indianangelnetwork.com, which is not a gov.in or nic.in host, so we could not prove from the name alone that government owns it and did not send anyone there.",
   "Entrepreneurship-SOURCE-check: the page links to ycombinator.com, which is not a gov.in or nic.in host, so we could not prove from the name alone that government owns it and did not send anyone there.",
   "Centre for Entrepreneurship Development: https://ced.gujarat.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Startup Cell: https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/start_up/Guidelines_for_Funding_support_to_startups.pdf#page=9 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Savli Incubator: https://stbi.gujarat.gov.in/Default.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page."
  ]
 }

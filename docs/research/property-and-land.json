@@ -124,6 +124,30 @@
    "scrapedOk": true
   },
   {
+   "id": "src:2e2b898e6d86",
+   "url": "https://www.digilocker.gov.in/",
+   "title": "DigiLocker | Access, Share & Verify Digital Documents",
+   "domain": "digilocker.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "2bbc4e3d3c89bd21c3340f24845e433a4135daaf44a490386ad16b0c9becea26",
+   "cacheFile": ".ingest/pages/2e2b898e6d86c095a5976c174d38e58a91a0806b.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:e220f7589dca",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/cm-anuprati-coaching-scheme_cmacs.html",
+   "title": "CM Anuprati Coaching Scheme",
+   "domain": "web.umang.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "dc8a24c8341a943547cf3617d2cfe667af07f2eb53e056ca403c92f76bb9d9de",
+   "cacheFile": ".ingest/pages/e220f7589dcae59dc7056b429ecdd29f383a33d8.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:3203b82bd43a",
    "url": "https://gidc.gujarat.gov.in/Pages/Contents/application-for-allotment",
    "title": "GIDC",
@@ -364,6 +388,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:82b14db365b2",
+   "url": "https://gujarattourism.com/content/dam/gujrattourism/images/document/INVESTOR_APPLICATION_GUIDELINE.pdf#page=9",
+   "title": "INVESTOR_APPLICATION_GUIDELINE (page 9 of 20)",
+   "domain": "gujarattourism.com",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "07e3c7574154aea7ca8b4f89db19eb36b814ea0c2d661958af9e102b30d9dbe9",
+   "cacheFile": ".ingest/pages/82b14db365b20d64bb388a30d31d9795d20c18f8.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:4f0533ae601d",
    "url": "https://revenueappeals.gujarat.gov.in/",
    "title": "મુખ્ય પૃષ્ઠ | ખાસ સચિવશ્રી મહેસૂલ વિભાગ",
@@ -385,6 +421,54 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "6fdad6bea7cf147f2a177f83188cc811f7ff21f01e0b2428a6a00e873b973c64",
    "cacheFile": ".ingest/pages/c009bc2c74487b4d8c709687d74b328e9579b7fe.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:673502f80cb5",
+   "url": "https://imd.gujarat.gov.in/en/imd-schemes",
+   "title": "Industries and Mines department Schemes | Industries & Mines Department",
+   "domain": "imd.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "5aceb78329b2712463eabc6b86603dda9fc2adf50e007c5e835befdf56b9da68",
+   "cacheFile": ".ingest/pages/673502f80cb5c370aef8f9a8af90b505bf36fc2a.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:c678228354a5",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/it_policy_guj_2014.pdf#page=8",
+   "title": "it_policy_guj_2014 (page 8 of 15)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "12bf769752f4b06c2fa6e6ca815225f0caec5f2828995cc5b003d3b444c7ab4c",
+   "cacheFile": ".ingest/pages/c678228354a5e9e4f70eaa996e0d26dd66ad3466.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:83811ef3084c",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/elec_policy_guj_2014.pdf#page=8",
+   "title": "elec_policy_guj_2014 (page 8 of 16)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "8c39dd46c18d3caeac8e7b6abc7dc0498bcc09f5cbd96481478694bd32be9d31",
+   "cacheFile": ".ingest/pages/83811ef3084cbfd46e14c3582597fe740151ee07.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:c333723c348e",
+   "url": "https://directorit.gujarat.gov.in/Content/Scheme_for_Startup_Policy.pdf#page=26",
+   "title": "Scheme_for_Startup_Policy (page 26 of 29)",
+   "domain": "directorit.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ba83ca4eaf270d0671f6fd567cf3e6e871803b2a49b22730048e2a992ddaf1db",
+   "cacheFile": ".ingest/pages/c333723c348eb06d645bdcefb35c7bc5b806cb3b.md",
    "scrapedOk": true
   },
   {
@@ -416,7 +500,7 @@
    "url": "https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=3",
    "title": "Vessal_25102024 (page 3 of 21)",
    "domain": "pnt.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
+   "sourceType": "OFFICE_DIRECTORY",
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "ed4565fea540efde8695718d29ac4f932f2c308746428dd160afb436f02ac09e",
@@ -878,6 +962,16 @@
    "sourceId": "src:8dfcd1797be4",
    "evidence": "Site Resolution : 1280x1024 | Best viewed in Firefox 64.0 / Chrome 72.0 or above",
    "confidence": 1
+  },
+  {
+   "claim": "The IGR Department is associated with the Garvi service.",
+   "kind": "OFFICE",
+   "subject": "garvi_service",
+   "object": "igr_department",
+   "detail": {},
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "Garvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides services to citizens to submit document details for registration and online facility to pay Stamp Duty and Registration Fee.",
+   "confidence": 0.9
   },
   {
    "claim": "Citizens must use NIC's SANDES messaging mobile app for receiving Alert/OTP SMS related to their login from the Garvi Portal.",
@@ -1919,6 +2013,48 @@
    "confidence": 0.95
   },
   {
+   "claim": "The applicant receives documents/certificates in DigiLocker after processing.",
+   "kind": "ACTION",
+   "subject": "digi_locker",
+   "object": "documents_certificates",
+   "detail": {},
+   "sourceId": "src:e567da21d421",
+   "evidence": "Various documents/certificates for different applications processed at GIDC will be available in DigiLocker in the following manner:",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The documents will be available from 27/08/2019.",
+   "kind": "TIMELINE",
+   "subject": "digi_locker",
+   "object": "documents_certificates",
+   "detail": {
+    "date": "27/08/2019"
+   },
+   "sourceId": "src:e567da21d421",
+   "evidence": "Date from which the documents will be available | 1 | 2R Permission (Mortgage) Order | Mortgage Permission | 27/08/2019 |",
+   "confidence": 0.9
+  },
+  {
+   "claim": "DigiLocker Partner Organizations can get registered as a DigiLocker Issuer or Requester.",
+   "kind": "OFFICE",
+   "subject": "digilocker_partner_organization",
+   "object": "digilocker_issuer_requester",
+   "detail": {},
+   "sourceId": "src:2e2b898e6d86",
+   "evidence": "Get registered as a DigiLocker Issuer or Requester!",
+   "confidence": 0.9
+  },
+  {
+   "claim": "DigiLocker is used to automatically verify documents like caste certificate, domicile certificate, 10th and 12th mark sheets, and income certificate.",
+   "kind": "ACTION",
+   "subject": "digi_locker",
+   "object": "document_verification",
+   "detail": {},
+   "sourceId": "src:e220f7589dca",
+   "evidence": "Note 2: After receiving the online application forms from candidates as per the prescribed eligibility, the required documents (such as caste certificate, domicile certificate, 10th and 12th mark sheets, income certificate, etc.) will be automatically verified from the database of the web portal/Jan Aadhaar/Raj e-bolt/DigiLocker of the issuing agency through web service, without the need to upload the documents wherever possible.",
+   "confidence": 0.95
+  },
+  {
    "claim": "An application for allotment of properties in GIDC estates is accepted online.",
    "kind": "ACTION",
    "subject": "application_for_allotment",
@@ -2117,6 +2253,56 @@
    },
    "sourceId": "src:3203b82bd43a",
    "evidence": "Email\ngidc@gujarat.gov.in\ngidc@gidcgujarat.org",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must submit a checklist of documents along with their application for allotment of properties.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "application_for_allotment",
+   "object": "checklist_of_documents",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "Application for allotment of properties in GIDC estates is accepted online. For detailed information on Particulars of Allotment, Checklist of Documents to be submitted along with the application and other important terms & conditions please click on the following link. Click Here",
+   "confidence": 0.9
+  },
+  {
+   "claim": "An applicant can access detailed information on the particulars of allotment, checklist of documents, and other terms and conditions by clicking on a provided link.",
+   "kind": "CHANNEL",
+   "subject": "applicant",
+   "object": "detailed_information",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "For detailed information on Particulars of Allotment, Checklist of Documents to be submitted along with the application and other important terms & conditions please click on the following link. Click Here",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant can access information on how to apply by clicking on a provided link.",
+   "kind": "CHANNEL",
+   "subject": "applicant",
+   "object": "how_to_apply",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "For information on How to Apply please click on the following link Click Here",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant can access information on the evaluation criteria for land allotment by clicking on a provided link.",
+   "kind": "CHANNEL",
+   "subject": "applicant",
+   "object": "evaluation_criteria",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "For information on evaluation criteria based on which land allotment application will be graded - Click Here",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant can download auction proceeding instructions by clicking on a provided link.",
+   "kind": "CHANNEL",
+   "subject": "applicant",
+   "object": "auction_proceeding_instructions",
+   "detail": {},
+   "sourceId": "src:3203b82bd43a",
+   "evidence": "Download Auction Proceeding Instructions - Click Here",
    "confidence": 1
   },
   {
@@ -2415,6 +2601,26 @@
    "sourceId": "src:73a57c3a2874",
    "evidence": "Contact Info\nStamp & Registration Bhavan\nKH-5, Sector-14,\nGandhinagar, Gujarat - 382016\nPhone:\n(079) 23288575",
    "confidence": 0.95
+  },
+  {
+   "claim": "The applicant receives a certified Index-2 copy of registered documents.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "certified_index_2_copy",
+   "detail": {},
+   "sourceId": "src:b28223f1098a",
+   "evidence": "Get certified Index-2 copy of registered documents.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives certified Encumbrance Certificate online.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "certified_encumbrance_certificate",
+   "detail": {},
+   "sourceId": "src:b28223f1098a",
+   "evidence": "Obtain certified Encumbrance Certificate online.",
+   "confidence": 1
   },
   {
    "claim": "A citizen must select the occupancy category of the property as either owner or tenant.",
@@ -2796,6 +3002,48 @@
    "sourceId": "src:8576e6ac3622",
    "evidence": "9. The MSEs shall have to continue its production for five years from the date of production.",
    "confidence": 1
+  },
+  {
+   "claim": "The applicant must follow the allotment procedure mentioned in para 4 of the resolution.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "allotment_procedure",
+   "detail": {
+    "para": "4"
+   },
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "The allotment of plot shall be made as per the procedure mentioned in para 4 of this",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Industries Commissioner office scrutinizes applications for plot or shed allotment.",
+   "kind": "OFFICE",
+   "subject": "industries_commissioner_office",
+   "object": "plot_or_shed_allotment",
+   "detail": {},
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "GIDC will submit the proposal to Industries Commissioner office. The Industries cornrnissioner office will scrutinize the application and submit it to SLEC for approval.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant receives a shed after the building is completed.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "shed",
+   "detail": {},
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "After the completion of the building GIDC will allot the sheds as per the allotment procedure mentioned in para 4 of this resolution.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The SLEC approves the application for multi-storeyed shed allotment.",
+   "kind": "ACTION",
+   "subject": "application",
+   "object": "slec_approval",
+   "detail": {},
+   "sourceId": "src:8576e6ac3622",
+   "evidence": "The Industries cornrnissioner office will scrutinize the application and submit it to SLEC for approval.",
+   "confidence": 0.95
   },
   {
    "claim": "The application must be submitted to the District Collector, following Appendix-1/2.",
@@ -3203,6 +3451,18 @@
    "confidence": 0.95
   },
   {
+   "claim": "An applicant can check the status of an assessment notice by searching for it using the 'Search Assessment Notice' option.",
+   "kind": "TRACKING",
+   "subject": "assessment_notice",
+   "object": "status_check",
+   "detail": {
+    "feature": "Search Assessment Notice"
+   },
+   "sourceId": "src:63cc0b03222e",
+   "evidence": "Search Assessment Notice",
+   "confidence": 0.9
+  },
+  {
    "claim": "A citizen can download their property tax bill from the Jamnagar Municipal Corporation website.",
    "kind": "ACTION",
    "subject": "citizen",
@@ -3302,6 +3562,40 @@
    "confidence": 0.95
   },
   {
+   "claim": "An applicant can make an online payment for the property tax bill.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "property_tax_bill",
+   "detail": {},
+   "sourceId": "src:9fe2e97b9d97",
+   "evidence": "Online Payment",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Citizens can make online payments for property tax.",
+   "kind": "FEE",
+   "subject": "citizen",
+   "object": "property_tax",
+   "detail": {
+    "payment_method": "online"
+   },
+   "sourceId": "src:9fe2e97b9d97",
+   "evidence": "Online Payment",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Property tax bills can be downloaded by citizens.",
+   "kind": "FEE",
+   "subject": "citizen",
+   "object": "property_tax",
+   "detail": {
+    "bill_download": "available"
+   },
+   "sourceId": "src:9fe2e97b9d97",
+   "evidence": "Property Tax Bill Download",
+   "confidence": 0.9
+  },
+  {
    "claim": "An appeal under Section 203 of the Land Revenue Code 1879 must be filed within 60 days of the decision by the subordinate officer.",
    "kind": "TIMELINE",
    "subject": "appeal_section_203",
@@ -3373,6 +3667,20 @@
    "detail": {},
    "sourceId": "src:f822111ca37c",
    "evidence": "અપીલ ઉપર અરજદારે યોગ્ય રીતે સહી કરી ખરાઈ કરવાની રહેશે. તેમજ અપીલ અરજી કોર્ટ ફી અધિનિયમ હેઠળ નક્કી થયેલ કોર્ટ ફી સ્ટેમ્પ લગાવવાની રહેશે.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Legal Branch hears and decides Appeal and Revision Applications under the Land Revenue Code 1879 and Land Revenue Rules 1972 regarding RTS matters.",
+   "kind": "ACTION",
+   "subject": "legal_branch",
+   "object": "appeal_revision_applications",
+   "detail": {
+    "code": "Land Revenue Code 1879",
+    "rules": "Land Revenue Rules 1972",
+    "matter": "RTS"
+   },
+   "sourceId": "src:f822111ca37c",
+   "evidence": "In this branch, Appeal and the Revision Applications under Land Revenue Code 1879 & Land Revenue Rules 1972 regarding RTS matters are heard and decided in accordance with law.",
    "confidence": 0.95
   },
   {
@@ -3516,6 +3824,38 @@
    "sourceId": "src:66859eeeeb2b",
    "evidence": "GARVI 2.0\nIGR Department\nGovernment of Gujarat\nGarvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides services to citizens to submit document details for registration and online facility to pay Stamp Duty and Registration Fee.",
    "confidence": 1
+  },
+  {
+   "claim": "An applicant submits document details for registration through GARVI 2.0.",
+   "kind": "ACTION",
+   "subject": "garvi_2_0",
+   "object": "submit_document_details",
+   "detail": {},
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "Garvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides services to citizens to submit document details for registration and online facility to pay Stamp Duty and Registration Fee.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An applicant accesses GARVI 2.0 through a web-based channel.",
+   "kind": "CHANNEL",
+   "subject": "garvi_2_0",
+   "object": "web_based_application",
+   "detail": {},
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "Garvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides services to citizens to submit document details for registration and online facility to pay Stamp Duty and Registration Fee.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Citizens pay Stamp Duty and Registration Fee for GARVI 2.0.",
+   "kind": "FEE",
+   "subject": "garvi_2_0",
+   "object": "citizen",
+   "detail": {
+    "url": "https://garvi.gujarat.gov.in/FrmRegistrationfeeCalculation_New.aspx"
+   },
+   "sourceId": "src:8dfcd1797be4",
+   "evidence": "Garvi (Automation of Administration of Registration, Valuation & Indexing in Gujarat) is a web based application that provides services to citizens to submit document details for registration and online facility to pay Stamp Duty and Registration Fee.",
+   "confidence": 0.8
   },
   {
    "claim": "The Jamnagar Municipal Corporation provides online payment services for Property Tax and Water Charges.",
@@ -3743,6 +4083,16 @@
    "confidence": 0.95
   },
   {
+   "claim": "Certified copies of registered documents can be obtained.",
+   "kind": "ACTION",
+   "subject": "certified_copies",
+   "object": "registered_documents",
+   "detail": {},
+   "sourceId": "src:b28223f1098a",
+   "evidence": "Obtain certified copies of registered documents.",
+   "confidence": 0.95
+  },
+  {
    "claim": "The application form for registering a City Survey title deed under the orders of the competent officer is available for download on the page.",
    "kind": "ACTION",
    "subject": "application_form",
@@ -3799,6 +4149,36 @@
    "confidence": 0.95
   },
   {
+   "claim": "The applicant can submit the application for registration of City Survey title deeds to the City Survey Superintendent.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "city_survey_superintendent",
+   "detail": {},
+   "sourceId": "src:bf942cad7dd5",
+   "evidence": "હું કઈ રીતે સક્ષમ અધિકારીશ્રીના હુકમ અન્વયે સિટી સરવેના હકપત્રકે નોંધ દાખલ કરી શકું? સીટી સર્વે સુપ્રિટેન્ડેન્ટને,",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant should visit the City Survey Superintendent's office.",
+   "kind": "OFFICE",
+   "subject": "city_survey_title_deed_registration",
+   "object": "city_survey_superintendent_office",
+   "detail": {},
+   "sourceId": "src:bf942cad7dd5",
+   "evidence": "હું કઈ રીતે સક્ષમ અધિકારીશ્રીના હુકમ અન્વયે સિટી સરવેના હકપત્રકે નોંધ દાખલ કરી શકું? સીટી સર્વે સુપ્રિટેન્ડેન્ટને,",
+   "confidence": 0.8
+  },
+  {
+   "claim": "The competent officer issues orders for the registration of City Survey title deeds.",
+   "kind": "OFFICE",
+   "subject": "competent_officer",
+   "object": "registration_of_city_survey_title_deeds",
+   "detail": {},
+   "sourceId": "src:bf942cad7dd5",
+   "evidence": "સક્ષમ અધિકારીશ્રીના હુકમ અન્વયે સિટી સરવેના હકપત્રકે નોંધ દાખલ કરવાની અરજીનો નમુનો",
+   "confidence": 0.95
+  },
+  {
    "claim": "The head office of the Superintendent of Stamps and Inspector General of Registration is located in Gandhinagar.",
    "kind": "OFFICE",
    "subject": "sos_igr_head_office",
@@ -3842,6 +4222,28 @@
    },
    "sourceId": "src:05fe99b18fe2",
    "evidence": "Call Now : 079 - 232 77200",
+   "confidence": 1
+  },
+  {
+   "claim": "Details about Stamp Fee and Registration Fee are available on the website.",
+   "kind": "FEE",
+   "subject": "citizen",
+   "object": "stamp_and_registration_fee",
+   "detail": {
+    "information": "available"
+   },
+   "sourceId": "src:05fe99b18fe2",
+   "evidence": "Duty fee and Registration fee Details\nStamp Fee\nClick here to view stamp Fee\nRegistration Fee\nClick here to view Registration Fee",
+   "confidence": 1
+  },
+  {
+   "claim": "The SLIC/SLEC is the authority for disbursement of the financial benefit.",
+   "kind": "OFFICE",
+   "subject": "slic_slec",
+   "object": "disbursement_authority",
+   "detail": {},
+   "sourceId": "src:82b14db365b2",
+   "evidence": "The authority for disbursement of the financial benefit lies with the SLIC/SLEC.",
    "confidence": 1
   },
   {
@@ -3939,6 +4341,124 @@
    "sourceId": "src:c009bc2c7448",
    "evidence": "Gujarati - Indic Input 3 - 32 bit",
    "confidence": 0.9
+  },
+  {
+   "claim": "Investors may be eligible for 100% reimbursement of stamp duty and registration fee.",
+   "kind": "FEE",
+   "subject": "investor",
+   "object": "stamp_duty",
+   "detail": {
+    "reimbursement": "100%"
+   },
+   "sourceId": "src:82b14db365b2",
+   "evidence": "2. 100% reimbursement of stamp duty and registration fee shall be provided.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives 100% reimbursement of stamp duty and registration fee.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "stamp_duty",
+   "detail": {
+    "reimbursement": "100%"
+   },
+   "sourceId": "src:82b14db365b2",
+   "evidence": "2. 100% reimbursement of stamp duty and registration fee shall be provided.",
+   "confidence": 1
+  },
+  {
+   "claim": "The authority for disbursement of the financial benefit lies with the SLIC/SLEC.",
+   "kind": "OFFICE",
+   "subject": "stamp_duty",
+   "object": "slic_slec",
+   "detail": {},
+   "sourceId": "src:82b14db365b2",
+   "evidence": "The authority for disbursement of the financial benefit lies with the SLIC/SLEC.",
+   "confidence": 1
+  },
+  {
+   "claim": "Investors may be eligible for 100% reimbursement of stamp duty and registration fees.",
+   "kind": "FEE",
+   "subject": "investor",
+   "object": "stamp_duty",
+   "detail": {
+    "reimbursement": "100%"
+   },
+   "sourceId": "src:673502f80cb5",
+   "evidence": "100% reimbursement of stamp duty and registration fees as well as exemption from Electricity Duty as applicable under Gujarat Electricity Act 2003.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives 100% reimbursement of stamp duty and registration fees.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "stamp_duty",
+   "detail": {
+    "reimbursement": "100%"
+   },
+   "sourceId": "src:673502f80cb5",
+   "evidence": "Reimbursement of Stamp Duty and registration fees 100% reimbursement of stamp duty and registration fees as well as exemption from Electricity Duty as applicable under Gujarat Electricity Act 2003.",
+   "confidence": 1
+  },
+  {
+   "claim": "IT/ITeS units may be eligible for 100% reimbursement of stamp duty and registration fee for the first transaction involving land.",
+   "kind": "FEE",
+   "subject": "it_ites_unit",
+   "object": "stamp_duty",
+   "detail": {
+    "reimbursement": "100%"
+   },
+   "sourceId": "src:c678228354a5",
+   "evidence": "IT/ITeS units which intend to establish/expand will qualify for 100% reimbursement of Stamp Duty and Registration Fee on sale/lease/transfer of land for the first transaction.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives 100% reimbursement of stamp duty and registration fee on the first transaction.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "stamp_duty",
+   "detail": {
+    "reimbursement": "100%"
+   },
+   "sourceId": "src:c678228354a5",
+   "evidence": "IT/ITeS units which intend to establish/expand will qualify for 100% reimbursement of Stamp Duty and Registration Fee on sale/lease/transfer of land for the first transaction.",
+   "confidence": 1
+  },
+  {
+   "claim": "ESDM units may be eligible for 100% exemption in stamp duty and registration fee for the first transaction involving land.",
+   "kind": "FEE",
+   "subject": "esdm_unit",
+   "object": "stamp_duty",
+   "detail": {
+    "exemption": "100%"
+   },
+   "sourceId": "src:83811ef3084c",
+   "evidence": "ESDM units which intend to establish/expand/diversify will qualify for 100% exemption in stamp duty and registration fee in lease/sale/transfer of land for the first transaction.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives 100% exemption in stamp duty and registration fee for the first transaction.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "stamp_duty",
+   "detail": {
+    "exemption": "100%"
+   },
+   "sourceId": "src:83811ef3084c",
+   "evidence": "3. Registration/Stamp Duty Concession: ESDM units which intend to establish/expand/diversify will qualify for 100% exemption in stamp duty and registration fee in lease/sale/transfer of land for the first transaction.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives reimbursement of stamp duty and registration fee on submission of proof.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "stamp_duty",
+   "detail": {
+    "reimbursement": "on submission of proof"
+   },
+   "sourceId": "src:c333723c348e",
+   "evidence": "5. Stamp Duty & Registration Fee On submission of Proof Reimbursement as per actuals",
+   "confidence": 1
   },
   {
    "claim": "The phone number for the Settlement Commissioner and Director of Land Records office is 079-23256895/96/98/99.",

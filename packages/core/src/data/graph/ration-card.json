@@ -761,6 +761,46 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:sugar_distribution_scheme_the_applicant_receives_sugar_in_1_kg_standard_pa",
+   "type": "ACTION",
+   "name": "The applicant receives sugar in 1 kg standard packs based on the number of family members",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant receives sugar in 1 kg standard packs based on the number of family members.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:22f542b87896",
+     "evidence": "Sugar is distributed in 1 kg standard packs as follows: 1 to 4 family members: 1 kg of sugar per ration card 5 to 8 family members: 2 kg of sugar per ration card 9 or more family members: 3 kg of sugar per ration card",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:sugar_distribution_scheme_during_the_festivals_of_janmashtami_and_diwali_a",
+   "type": "ACTION",
+   "name": "During the festivals of Janmashtami and Diwali, an additional 1 kg of sugar is provided pe",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "During the festivals of Janmashtami and Diwali, an additional 1 kg of sugar is provided per ration card.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:22f542b87896",
+     "evidence": "In addition, during the two major festivals of the year—Janmashtami and Diwali—AAY and BPL ration card holders are provided with an additional 1 kg of sugar per ration card at the same subsidized rates.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:sugar_distribution_scheme",
    "type": "SERVICE",
    "name": "Sugar Distribution Scheme",
@@ -768,7 +808,10 @@
    "description": "The Sugar Distribution Scheme provides sugar and other subsidized items to AAY, BPL, and NFSA ration card holders under the Public Distribution System.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true
+    "machineExtracted": true,
+    "eligibility": [
+     "Antyodaya (AAY) ration card holders are eligible for the Sugar Distribution Scheme."
+    ]
    },
    "sources": [
     {
@@ -811,6 +854,36 @@
      "sourceId": "src:22f542b87896",
      "evidence": "1 kg Gram per ration card is being distributed at Rs.30/- per K.G. to all NFSA card holders at subsidized rate as per availability.",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:22f542b87896",
+     "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg and approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:22f542b87896",
+     "evidence": "Sugar is distributed in 1 kg standard packs as follows:\n1 to 4 family members: 1 kg of sugar per ration card\n5 to 8 family members: 2 kg of sugar per ration card\n9 or more family members: 3 kg of sugar per ration card",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:22f542b87896",
+     "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:22f542b87896",
+     "evidence": "approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:22f542b87896",
+     "evidence": "Sugar is distributed in 1 kg standard packs as follows: 1 to 4 family members: 1 kg of sugar per ration card 5 to 8 family members: 2 kg of sugar per ration card 9 or more family members: 3 kg of sugar per ration card",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -1499,6 +1572,38 @@
      "sourceId": "src:22f542b87896",
      "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_sugar_distribution_scheme__requires__action_sugar_distribution_scheme_the_applicant_receives_suga",
+   "from": "service:sugar_distribution_scheme",
+   "to": "action:sugar_distribution_scheme_the_applicant_receives_sugar_in_1_kg_standard_pa",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives sugar in 1 kg standard packs based on the number of family members.",
+   "sources": [
+    {
+     "sourceId": "src:22f542b87896",
+     "evidence": "Sugar is distributed in 1 kg standard packs as follows: 1 to 4 family members: 1 kg of sugar per ration card 5 to 8 family members: 2 kg of sugar per ration card 9 or more family members: 3 kg of sugar per ration card",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_sugar_distribution_scheme__requires__action_sugar_distribution_scheme_during_the_festivals_of_jan",
+   "from": "service:sugar_distribution_scheme",
+   "to": "action:sugar_distribution_scheme_during_the_festivals_of_janmashtami_and_diwali_a",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "During the festivals of Janmashtami and Diwali, an additional 1 kg of sugar is provided per ration card.",
+   "sources": [
+    {
+     "sourceId": "src:22f542b87896",
+     "evidence": "In addition, during the two major festivals of the year—Janmashtami and Diwali—AAY and BPL ration card holders are provided with an additional 1 kg of sugar per ration card at the same subsidized rates.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]

@@ -1387,6 +1387,84 @@
    "confidence": 0.95
   },
   {
+   "claim": "Antyodaya (AAY) ration card holders are eligible for the Sugar Distribution Scheme.",
+   "kind": "ELIGIBILITY",
+   "subject": "sugar_distribution_scheme",
+   "object": "antyodaya_aay_ration_card_holders",
+   "detail": {},
+   "sourceId": "src:22f542b87896",
+   "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg and approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
+   "confidence": 1
+  },
+  {
+   "claim": "The amount of sugar distributed depends on the number of family members in the household.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "sugar_distribution_scheme",
+   "object": "household_size",
+   "detail": {
+    "1_to_4_family_members": "1_kg",
+    "5_to_8_family_members": "2_kg",
+    "9_or_more_family_members": "3_kg"
+   },
+   "sourceId": "src:22f542b87896",
+   "evidence": "Sugar is distributed in 1 kg standard packs as follows:\n1 to 4 family members: 1 kg of sugar per ration card\n5 to 8 family members: 2 kg of sugar per ration card\n9 or more family members: 3 kg of sugar per ration card",
+   "confidence": 1
+  },
+  {
+   "claim": "A citizen pays ₹15 per kg for sugar under the Sugar Distribution Scheme for Antyodaya (AAY) ration card holders.",
+   "kind": "FEE",
+   "subject": "sugar_distribution_scheme",
+   "object": "aay_ration_card_holder",
+   "detail": {
+    "amount": 15,
+    "currency": "INR"
+   },
+   "sourceId": "src:22f542b87896",
+   "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg",
+   "confidence": 1
+  },
+  {
+   "claim": "A citizen pays ₹22 per kg for sugar under the Sugar Distribution Scheme for Below Poverty Line (BPL) ration card holders.",
+   "kind": "FEE",
+   "subject": "sugar_distribution_scheme",
+   "object": "bpl_ration_card_holder",
+   "detail": {
+    "amount": 22,
+    "currency": "INR"
+   },
+   "sourceId": "src:22f542b87896",
+   "evidence": "approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives sugar in 1 kg standard packs based on the number of family members.",
+   "kind": "ACTION",
+   "subject": "sugar_distribution_scheme",
+   "object": "sugar_distribution",
+   "detail": {
+    "quantity": "1 kg standard packs",
+    "family_members_1_to_4": "1 kg per ration card",
+    "family_members_5_to_8": "2 kg per ration card",
+    "family_members_9_or_more": "3 kg per ration card"
+   },
+   "sourceId": "src:22f542b87896",
+   "evidence": "Sugar is distributed in 1 kg standard packs as follows: 1 to 4 family members: 1 kg of sugar per ration card 5 to 8 family members: 2 kg of sugar per ration card 9 or more family members: 3 kg of sugar per ration card",
+   "confidence": 1
+  },
+  {
+   "claim": "During the festivals of Janmashtami and Diwali, an additional 1 kg of sugar is provided per ration card.",
+   "kind": "ACTION",
+   "subject": "sugar_distribution_scheme",
+   "object": "additional_sugar_distribution",
+   "detail": {
+    "quantity": "1 kg",
+    "festival": "Janmashtami and Diwali"
+   },
+   "sourceId": "src:22f542b87896",
+   "evidence": "In addition, during the two major festivals of the year—Janmashtami and Diwali—AAY and BPL ration card holders are provided with an additional 1 kg of sugar per ration card at the same subsidized rates.",
+   "confidence": 1
+  },
+  {
    "claim": "To obtain a duplicate ration card, an application must be submitted to the Mamlatdar in the taluka as per Appendix-1/66.",
    "kind": "ACTION",
    "subject": "duplicate_ration_card",

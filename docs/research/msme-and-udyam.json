@@ -136,6 +136,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:8b52dd8b2167",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/ONDC/MSME/Guidelines.pdf#page=14",
+   "title": "Guidelines (page 14 of 15)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "f96d707e0aa5a01b8d0bfdd5646f6a60f6c55f4b4326013281255c1a3e5814a4",
+   "cacheFile": ".ingest/pages/8b52dd8b21675f5099f89bf30d1e1ca871cc598f.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:3e3397570135",
    "url": "https://ic.gujarat.gov.in/documents/commondoc/2025/MSME%20Special%20category%20award%20form.pdf#page=4",
    "title": "MSME%20Special%20category%20award%20form (page 4 of 4)",
@@ -196,6 +208,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:7e1c48bba02e",
+   "url": "https://www.myscheme.gov.in/schemes/pmegp",
+   "title": "Prime Minister's Employment Generation Programme",
+   "domain": "myscheme.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "b2d8ed4e15addb5c2cd06d4a8a0c64c4bcb28cf6d37ba0922725ed58822d48fd",
+   "cacheFile": ".ingest/pages/7e1c48bba02e46ccee4c7436143f0f2d314f50df.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:e1346f9389e4",
    "url": "https://ic.gujarat.gov.in/dic-office.aspx",
    "title": "DIC Office | IC",
@@ -220,6 +244,102 @@
    "scrapedOk": true
   },
   {
+   "id": "src:4e90deaa2d5e",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/assistance-for-purchase-of-spectacles-by-a-differently-abled-person_apsdap.html",
+   "title": "Assistance For Purchase Of Spectacles By A Differently Abled Person",
+   "domain": "web.umang.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "3e0ee96d55db63662e5a513a343b12c858cc528330d9788ec318b3c32f8d2376",
+   "cacheFile": ".ingest/pages/4e90deaa2d5e93a8fa6b1dbd5ffb45553ce064e8.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:a0d3d60c3c8d",
+   "url": "https://www.myscheme.gov.in/schemes/gspsg",
+   "title": "Ganga Swarupa Pension Scheme, Gujarat - myScheme",
+   "domain": "myscheme.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "dcc4005f56ad53e74279aae963150dd29f33c9468f247aa5420079856afa347d",
+   "cacheFile": ".firecrawl/pension/myscheme-gspsg.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:383231205bd5",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/assistance-for-delivery-miscarriage-of-pregnancy-termination-of-pregnancy-to-female-differently-abled-person_admptpfdap.html",
+   "title": "Assistance For Delivery / Miscarriage Of Pregnancy / Termination Of Pregnancy To Female Differently Abled Person",
+   "domain": "web.umang.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "1e99621c79dce3b397a3b1f7e9d6ac15826edcdaf72f14a9230800d4668a87ef",
+   "cacheFile": ".ingest/pages/383231205bd5d8f593e8a49e65e5f13f551a166a.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:069ffe0326d4",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/agr-2-farm-mechanization-scheme-of-farmers-other-than-scst_agr2fmsfotscst.html",
+   "title": "AGR 2 (Farm Mechanization) Scheme Of Farmers Other Than SC/ST",
+   "domain": "web.umang.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "72d17adeccdaa622c49a6974468a709dcd945c4b55791fd1a4a6291e420da1f7",
+   "cacheFile": ".ingest/pages/069ffe0326d46b451c9214fde2ca8f5e4e9567c5.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:b597a34688a9",
+   "url": "https://www.myscheme.gov.in/schemes/apfefcc",
+   "title": "Assistance Program for Expansion of Fruit Crop Cultivation",
+   "domain": "myscheme.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "991ee86bc0fee27d3752e5f6070fc463853922d98ef2f10316eccfb1aedd5467",
+   "cacheFile": ".ingest/pages/b597a34688a926103349a15e3aea13c68e104f95.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:0a36ac465165",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/annath-pension-yojana-jbocwwb_apy-jbocwwb.html",
+   "title": "Annath Pension Yojana (JBOCWWB)",
+   "domain": "web.umang.gov.in",
+   "sourceType": "TRACKING_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "1f9206be3379f2ef8530bb2aaeb2cac087531dcf13bf0ad437d054b9cde3cb3a",
+   "cacheFile": ".ingest/pages/0a36ac4651657379896d67d07956a52398372fdc.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:6715e4f6feb9",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/antya-sanskar-sahay-yojana_assy-goa.html",
+   "title": "Antya Sanskar Sahay Yojana",
+   "domain": "web.umang.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "4c9d8bc1b1f93a0ca50b0b372e82990cd7393f0495b048a434430287ceb1075a",
+   "cacheFile": ".ingest/pages/6715e4f6feb984615bdd3337345972dbcfc346de.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:9949bf684f1b",
+   "url": "https://collectorbhavnagar.gujarat.gov.in/mamlatdar-office",
+   "title": "Mamlatdar Office | Offices | Collectorate - District Bhavnagar",
+   "domain": "collectorbhavnagar.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-BHAVNAGAR",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "60adfc4e5ce9cb86d567fa755d9f7f2dc87b0a95351bd916380481aef2b154d1",
+   "cacheFile": ".ingest/pages/9949bf684f1b6db358cdaad5d297a31921660373.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:b9f49e2ad4a9",
    "url": "https://e-kutir.gujarat.gov.in/SHGUserRegistration.aspx",
    "title": "Commissioner of Cottage and Rural Industries",
@@ -232,6 +352,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:6d8bddc32330",
+   "url": "https://e-kutir.gujarat.gov.in/",
+   "title": "Commissioner of Cottage and Rural Industries",
+   "domain": "e-kutir.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d03ba1114ef8eba5e2b6c59e4dd43bca2d57be04704fcbaf41372626741a0ef7",
+   "cacheFile": ".ingest/pages/6d8bddc32330a07d3fbd369c399729cf2e029c36.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:fd300053dde4",
    "url": "https://ced.gujarat.gov.in/assets/downloads/elec_policy_guj_2014.pdf#page=10",
    "title": "elec_policy_guj_2014 (page 10 of 16)",
@@ -241,6 +373,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "281c812ebf5172f6018e1503c584385f04c8bcc26260843e4651b5b9b5a6f148",
    "cacheFile": ".ingest/pages/fd300053dde438f3851430342892e5ee532e42f9.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:673502f80cb5",
+   "url": "https://imd.gujarat.gov.in/en/imd-schemes",
+   "title": "Industries and Mines department Schemes | Industries & Mines Department",
+   "domain": "imd.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "5aceb78329b2712463eabc6b86603dda9fc2adf50e007c5e835befdf56b9da68",
+   "cacheFile": ".ingest/pages/673502f80cb5c370aef8f9a8af90b505bf36fc2a.md",
    "scrapedOk": true
   },
   {
@@ -265,6 +409,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "381f5a97809dbe6a8aeb075d102a0967c9f699c987ec6706589daf799d2cede8",
    "cacheFile": ".ingest/pages/c462f68c4585738b1d0b476f94698de80648aef9.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:368f87bedc6d",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/user_manual/Garment_Policy_guidelines.pdf#page=14",
+   "title": "Garment_Policy_guidelines (page 14 of 22)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "99b811ae93be2622700d667e513d4cc3d81a54f776e1341c323782e779540668",
+   "cacheFile": ".ingest/pages/368f87bedc6d3934a98bd107fe45ba45fd3b9c09.md",
    "scrapedOk": true
   },
   {
@@ -607,6 +763,26 @@
    "sourceId": "src:f565384b5d84",
    "evidence": "5) The B2B transactions require a certain level of trust and association which takes time and transactions to develop. Hence, MSEs that join the network for the B2B archetype, will be encouraged to bring a set of their existing buyer base online as far as a possible as it will help drive initial volume and also help the sellers build their reputation on the network.",
    "confidence": 1
+  },
+  {
+   "claim": "The applicant receives an Udyam Registration after completing the process.",
+   "kind": "ACTION",
+   "subject": "udyam_registration",
+   "object": "applicant",
+   "detail": {},
+   "sourceId": "src:cef59a1e5f90",
+   "evidence": "MSME registration process is fully online, paperless and based on self-declaration.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The process is fully online and paperless.",
+   "kind": "TIMELINE",
+   "subject": "udyam_registration",
+   "object": "process",
+   "detail": {},
+   "sourceId": "src:cef59a1e5f90",
+   "evidence": "MSME registration process is fully online, paperless and based on self-declaration.",
+   "confidence": 0.95
   },
   {
    "claim": "Udyam Registration is free of cost and paperless.",
@@ -1445,6 +1621,74 @@
    "confidence": 0.95
   },
   {
+   "claim": "Udyam registered Micro and Small Enterprises (MSEs) in the manufacturing and services sectors are eligible for benefits under the ONDC Initiative.",
+   "kind": "ELIGIBILITY",
+   "subject": "udyam_registered_mse",
+   "object": "ondc_initiative",
+   "detail": {},
+   "sourceId": "src:2a571cf99014",
+   "evidence": "All the Udyam registered Micro and Small Enterprises (MSEs) under manufacturing and services sectors will be eligible for benefits under the Initiative.",
+   "confidence": 1
+  },
+  {
+   "claim": "MSEs with Udyam Registration certificate but without GST can only do intra-state online business.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "udyam_registered_mse",
+   "object": "online_business",
+   "detail": {
+    "restriction": "intra-state"
+   },
+   "sourceId": "src:2a571cf99014",
+   "evidence": "The MSEs who have Udyam Registration certificate without a GST will only be able to do intra-state online business as per applicable laws.",
+   "confidence": 1
+  },
+  {
+   "claim": "MSEs must not have been onboarded on any SNP as of the date of operationalisation of the Initiative.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "mse",
+   "object": "snp_onboarding",
+   "detail": {
+    "status": "not_onboarded"
+   },
+   "sourceId": "src:2a571cf99014",
+   "evidence": "The MSE should not have been onboarded on any SNP as on the date of operationalisation of the Initiative.",
+   "confidence": 1
+  },
+  {
+   "claim": "MSEs must not have taken similar assistance from any other Central or State Government schemes or programmes.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "mse",
+   "object": "government_assistance",
+   "detail": {
+    "status": "not_taken"
+   },
+   "sourceId": "src:2a571cf99014",
+   "evidence": "The MSE unit should not have taken similar assistance from any other Central / State Government schemes / programmes.",
+   "confidence": 1
+  },
+  {
+   "claim": "MSEs must authorize ONDC to share their relevant details, including transactions on the ONDC Network, with the Implementing Agency (NSIC).",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "mse",
+   "object": "ondc_network",
+   "detail": {
+    "authorization": "share_details_with_nsic"
+   },
+   "sourceId": "src:2a571cf99014",
+   "evidence": "The MSEs who want to avail benefits under this Initiative shall authorize ONDC to share their relevant details, including transactions on the ONDC Network, with the Implementing Agency (NSIC) for the purpose of scheme administration and support, in compliance with applicable laws.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must sign an MoU with ONDC for implementing the activities under the Initiative.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "ondc_initiative",
+   "detail": {},
+   "sourceId": "src:8b52dd8b2167",
+   "evidence": "4) Sign an MoU with ONDC for implementing the activities under the Initiative",
+   "confidence": 1
+  },
+  {
    "claim": "Two high-resolution photographs of the products must be submitted.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "product_photographs",
@@ -1581,6 +1825,33 @@
    "confidence": 0.95
   },
   {
+   "claim": "The applicant must provide two high-resolution photographs of the products.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "provide_product_photos",
+   "detail": {
+    "quantity": "2",
+    "type": "high resolution"
+   },
+   "sourceId": "src:3e3397570135",
+   "evidence": "5. Two (High Resolution) Photographs of the Products",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must provide two high-resolution photographs (front and rear view) of the enterprise.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "provide_enterprise_photos",
+   "detail": {
+    "quantity": "2",
+    "type": "high resolution",
+    "views": "front and rear"
+   },
+   "sourceId": "src:3e3397570135",
+   "evidence": "6. Two High Resolution (Front and Rear View) Photograph of the enterprise",
+   "confidence": 0.9
+  },
+  {
    "claim": "The application must be printed on light cream color paper.",
    "kind": "CONDITIONAL_REQUIREMENT",
    "subject": "application_form",
@@ -1661,6 +1932,38 @@
    "sourceId": "src:609a55d95471",
    "evidence": "7 Date of Birth of Proprietor/ All Partners/ All Directors",
    "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must provide the name of the entrepreneur in English.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "name_of_entrepreneur",
+   "detail": {},
+   "sourceId": "src:609a55d95471",
+   "evidence": "1 Name of Entrepreneur ( English)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must affix one high-resolution photo of size 8cmx5cm.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "affix_photo",
+   "detail": {
+    "size": "8cmx5cm"
+   },
+   "sourceId": "src:609a55d95471",
+   "evidence": "2 Please affix one high resolution photo (size 8cmx5cm)",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must provide the name and address of the enterprise in English.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "name_and_address_of_enterprise",
+   "detail": {},
+   "sourceId": "src:609a55d95471",
+   "evidence": "3 Name and address of Enterprise (English)",
+   "confidence": 0.9
   },
   {
    "claim": "An existing enterprise must be a Micro/Small enterprise engaged in manufacturing or services activities to be eligible under the Scheme.",
@@ -1776,6 +2079,40 @@
    },
    "sourceId": "src:575622b1525b",
    "evidence": "The empanelments out of such IAs will be made with the approval of Secretary (MSME).",
+   "confidence": 1
+  },
+  {
+   "claim": "An existing enterprise must be rated (including under Performance and Credit Rating Scheme of the Ministry of MSME) and assigned with High or Moderate Ratings.",
+   "kind": "ACTION",
+   "subject": "existing_enterprise",
+   "object": "rating_criteria",
+   "detail": {},
+   "sourceId": "src:575622b1525b",
+   "evidence": "d) Rated (including under Performance and Credit Rating Scheme of the Ministry of MSME) and assigned with High or Moderate Ratings.",
+   "confidence": 1
+  },
+  {
+   "claim": "An existing enterprise must be in operations for the last three or more years.",
+   "kind": "ACTION",
+   "subject": "existing_enterprise",
+   "object": "operation_duration",
+   "detail": {
+    "duration": "3 years"
+   },
+   "sourceId": "src:575622b1525b",
+   "evidence": "b) In operations for the last three or more years,",
+   "confidence": 1
+  },
+  {
+   "claim": "An existing enterprise must not be a sick unit or a loan defaulter as on the date of application.",
+   "kind": "ACTION",
+   "subject": "existing_enterprise",
+   "object": "financial_status",
+   "detail": {
+    "status": "not a sick unit or a loan defaulter"
+   },
+   "sourceId": "src:575622b1525b",
+   "evidence": "c) Not a sick unit or a loan defaulter as on the date of application",
    "confidence": 1
   },
   {
@@ -2334,6 +2671,61 @@
    "confidence": 0.95
   },
   {
+   "claim": "An applicant can apply for the PMEGP scheme through the online portal of KVIC.",
+   "kind": "CHANNEL",
+   "subject": "pmegp_scheme",
+   "object": "kvic_online_portal",
+   "detail": {},
+   "sourceId": "src:7e1c48bba02e",
+   "evidence": "You can apply for the PMEGP scheme through the online portal of KVIC, or offline by submitting the application form to the nearest KVIC office or bank.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must fill up the application form as part of the PMEGP scheme application procedure.",
+   "kind": "ACTION",
+   "subject": "pmegp_scheme_applicant",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:7e1c48bba02e",
+   "evidence": "The application procedure involves filling up the application form, attaching the necessary documents, and submitting it along with the project report.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must register on the KVIC portal as part of the online PMEGP scheme application process.",
+   "kind": "ACTION",
+   "subject": "pmegp_scheme_applicant",
+   "object": "kvic_portal",
+   "detail": {},
+   "sourceId": "src:7e1c48bba02e",
+   "evidence": "The process involves registering on the portal, filling up the application form, and uploading the necessary documents.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must submit the application form along with the project report and necessary documents to the nearest KVIC office or bank as part of the offline PMEGP scheme application process.",
+   "kind": "ACTION",
+   "subject": "pmegp_scheme_applicant",
+   "object": "application_form_with_project_report_and_documents",
+   "detail": {},
+   "sourceId": "src:7e1c48bba02e",
+   "evidence": "Yes, you can apply for the PMEGP scheme offline by submitting the application form along with the project report and necessary documents to the nearest KVIC office or bank.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives an approval letter and a sanction letter stating the subsidy and loan amount after their PMEGP scheme application is approved.",
+   "kind": "ACTION",
+   "subject": "pmegp_scheme",
+   "object": "applicant",
+   "detail": {
+    "documents_received": [
+     "approval letter",
+     "sanction letter"
+    ]
+   },
+   "sourceId": "src:7e1c48bba02e",
+   "evidence": "Once your PMEGP scheme application is approved, you will receive an approval letter from KVIC or the bank, along with the sanction letter stating the amount of subsidy and loan that you are eligible for.",
+   "confidence": 1
+  },
+  {
    "claim": "The District Industries Centre (DIC) provides all services and support required by MSME units under one roof.",
    "kind": "OFFICE",
    "subject": "district_industries_centre",
@@ -2554,6 +2946,101 @@
    "confidence": 0.95
   },
   {
+   "claim": "An applicant must provide proof of disability certification.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "scheme",
+   "object": "proof_of_disability_certification",
+   "detail": {},
+   "sourceId": "src:4e90deaa2d5e",
+   "evidence": "Commonly required documents may include proof of disability certification, residence proof, and a prescription from an eye specialist recommending the need for spectacles.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "An applicant must provide a photo of the applicant.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "scheme",
+   "object": "photo_of_applicant",
+   "detail": {},
+   "sourceId": "src:a0d3d60c3c8d",
+   "evidence": "Documents such as a photo of the applicant, ration card, income proof, husband’s death certificate, Aadhaar card, and proof of being a widow are required.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "An applicant must provide disability certificates.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "scheme",
+   "object": "disability_certificates",
+   "detail": {},
+   "sourceId": "src:383231205bd5",
+   "evidence": "Yes, applicants need to provide documents such as disability certificates, identification proof, address proof, and other relevant medical records as per the scheme's guidelines.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant has to apply on the I-Khedut Portal.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "i_khedut_portal",
+   "detail": {},
+   "sourceId": "src:069ffe0326d4",
+   "evidence": "To avail the benefits of this scheme, the applicant has to apply on the I-Khedut Portal and has to follow the prescribed procedure.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants can apply on the iKhedut portal.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "i_khedut_portal",
+   "detail": {},
+   "sourceId": "src:b597a34688a9",
+   "evidence": "Applicants can apply on the [iKhedut](https://ikhedut.gujarat.gov.in/site/) portal to avail the benefits of the scheme.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants are required to submit an Aadhaar card.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "aadhaar_card",
+   "detail": {},
+   "sourceId": "src:b597a34688a9",
+   "evidence": "Applicants are required to submit an Aadhaar card, 7/12 land record, and a copy of their bank passbook or a cancelled cheque.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant can track the status of their application by visiting the BOC Scheme Benefit section and entering their Application ID.",
+   "kind": "TRACKING",
+   "subject": "annath_pension_yojana",
+   "object": "application_status",
+   "detail": {
+    "steps": "Go to Services > BOC Scheme Benefit > Application Status. On the next page, fill in your Application ID, and click 'Search'."
+   },
+   "sourceId": "src:0a36ac465165",
+   "evidence": "To track the status of your application, follow the stepwise process given below: Step 1: Once submitted, the application goes for 3-level approval: Clerk > Labour Superintendent > DLC. Step 2: Go to Services > BOC Scheme Benefit > Application Status. Step 3: On the next page, fill in your Application ID, and click \"Search\". The status of your application will be displayed in a tabular format: Application ID, Applicant Name, Scheme Applied, Application Status, Remarks, Date, and Time. Step 4: Once the DLC approves the application, the \"Application Status\" changes to \"Approved\". The Applicant can take print of this page by clicking \"PRINT\" and submit the same at the Labour Office to avail of the scheme benefit.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Directorate of Tribal Welfare sanctions the scheme.",
+   "kind": "OFFICE",
+   "subject": "scheme_l",
+   "object": "directorate_of_tribal_welfare",
+   "detail": {},
+   "sourceId": "src:6715e4f6feb9",
+   "evidence": "Approved applications are then sanctioned by the Directorate of Tribal Welfare, and the sanctioned benefits are electronically transferred to the bank accounts of the beneficiaries.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Inspection of at least 10 centers every month happens for the Mid day meal scheme.",
+   "kind": "ACTION",
+   "subject": "mid_day_meal_scheme",
+   "object": "inspection",
+   "detail": {
+    "amount": "10",
+    "unit": "centers"
+   },
+   "sourceId": "src:9949bf684f1b",
+   "evidence": "Inspection of at least 10 centers every month.",
+   "confidence": 1
+  },
+  {
    "claim": "The name of the SHG/Industrial Cooperative Society/NGO/Trust/Khadi Institution must be written in English.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "shg_or_cooperative_or_ngo_or_trust_or_khadi_institution",
@@ -2646,6 +3133,76 @@
    "sourceId": "src:b9f49e2ad4a9",
    "evidence": "કૃપા કરીને તમારી વિગતો ચકાસી લો સખી મંડળ / ઔદ્યોગિક સહકારી મંડળી / એનજીઓ/ટ્રસ્ટ / ખાદી સંસ્થા - મંડળીનું નામ : | | મોબાઇલ નંબર : | | પાન નંબર : | | રદ્દ કરો",
    "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must login and update their profile.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "login_profile_update",
+   "detail": {},
+   "sourceId": "src:6d8bddc32330",
+   "evidence": "Login & Profile Update",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must apply for the scheme.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "apply_scheme",
+   "detail": {},
+   "sourceId": "src:6d8bddc32330",
+   "evidence": "Apply For The Scheme",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must submit their application.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_application",
+   "detail": {},
+   "sourceId": "src:6d8bddc32330",
+   "evidence": "Submit Your Application",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant can check their application status.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "check_application_status",
+   "detail": {},
+   "sourceId": "src:6d8bddc32330",
+   "evidence": "Your Application Status (Individual Person)",
+   "confidence": 0.8
+  },
+  {
+   "claim": "The applicant can register for a new Seva Sahay Group or Sakhi Mandal.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "register_new_group",
+   "detail": {},
+   "sourceId": "src:6d8bddc32330",
+   "evidence": "New Seva Sahay Group/ Sakhi Mandal Registration",
+   "confidence": 0.8
+  },
+  {
+   "claim": "The applicant must login to the portal.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "login_portal",
+   "detail": {},
+   "sourceId": "src:6d8bddc32330",
+   "evidence": "Login to Portal",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must enter their user ID.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "enter_userid",
+   "detail": {},
+   "sourceId": "src:6d8bddc32330",
+   "evidence": "UserID\nPlease Enter UserID",
+   "confidence": 0.8
   },
   {
    "claim": "Female employees receive 100% of the EPF amount.",
@@ -2747,6 +3304,148 @@
    },
    "sourceId": "src:fd300053dde4",
    "evidence": "10.4. Other conditions shall be applicable in accordance with the Scheme for Assistance to Manufacturing Sector as per Government Resolution of Industries and Mines Department No. BJT-102012-92765-I dated 26-02-2013 as amended and/or revised",
+   "confidence": 1
+  },
+  {
+   "claim": "MSMEs and large industries with an actual investment up to Rs. 100 Crores are eligible for interest subsidy.",
+   "kind": "ELIGIBILITY",
+   "subject": "interest_subsidy_industries",
+   "object": "msme_large_industries",
+   "detail": {
+    "amount": "100",
+    "currency": "Crores"
+   },
+   "sourceId": "src:fd300053dde4",
+   "evidence": "10.1. Interest subsidy for five years @ 7% for MSMEs and 2% for large Industries having an actual investment up to Rs. 100 Crores.",
+   "confidence": 1
+  },
+  {
+   "claim": "The maximum annual interest subsidy is Rs. 25 lakhs for MSMEs and Rs. 50 lakhs for large units.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "interest_subsidy_industries",
+   "object": "msme_large_annual_limit",
+   "detail": {
+    "msme_limit": "25",
+    "large_limit": "50",
+    "currency": "lakhs"
+   },
+   "sourceId": "src:fd300053dde4",
+   "evidence": "10.3. Maximum amount of interest subsidy per annum shall be Rs. 25 lakhs (Twenty Five Lakhs only) for MSMEs and Rs. 50 lakhs (Fifty Lakhs only) for large units.",
+   "confidence": 1
+  },
+  {
+   "claim": "Eligible units receive a maximum interest subsidy of Rs. 25 lakhs per annum for MSMEs and Rs. 50 lakhs for large units.",
+   "kind": "ACTION",
+   "subject": "interest_subsidy",
+   "object": "eligible_units",
+   "detail": {
+    "msme_amount": "25 lakhs",
+    "large_units_amount": "50 lakhs"
+   },
+   "sourceId": "src:fd300053dde4",
+   "evidence": "10.3. Maximum amount of interest subsidy per annum shall be Rs. 25 lakhs (Twenty Five Lakhs only) for MSMEs and Rs. 50 lakhs (Fifty Lakhs only) for large units.",
+   "confidence": 1
+  },
+  {
+   "claim": "Large industries in Category 1 Taluka are eligible for a 7% interest subsidy on term loans for 10 years up to 1% of eligible Fixed Capital Investment.",
+   "kind": "ELIGIBILITY",
+   "subject": "interest_subsidy_large_industries",
+   "object": "category_1_taluka",
+   "detail": {
+    "years": "10",
+    "percentage": "1"
+   },
+   "sourceId": "src:673502f80cb5",
+   "evidence": "Category 1 Taluka: Interest subsidy @ 7% on term loan for 10 years up to 1% of eligible Fixed Capital Investment",
+   "confidence": 1
+  },
+  {
+   "claim": "Large industries in Category 2 Taluka are eligible for a 7% interest subsidy on term loans for 8 years up to 1% of eligible Fixed Capital Investment.",
+   "kind": "ELIGIBILITY",
+   "subject": "interest_subsidy_large_industries",
+   "object": "category_2_taluka",
+   "detail": {
+    "years": "8",
+    "percentage": "1"
+   },
+   "sourceId": "src:673502f80cb5",
+   "evidence": "Category 2 Taluka: Interest subsidy @ 7% on term loan for 8 years up to 1% of eligible Fixed Capital Investment",
+   "confidence": 1
+  },
+  {
+   "claim": "Large industries in Category 3 Taluka are eligible for a 7% interest subsidy on term loans for 6 years up to 1% of eligible Fixed Capital Investment.",
+   "kind": "ELIGIBILITY",
+   "subject": "interest_subsidy_large_industries",
+   "object": "category_3_taluka",
+   "detail": {
+    "years": "6",
+    "percentage": "1"
+   },
+   "sourceId": "src:673502f80cb5",
+   "evidence": "Category 3 Taluka: Interest subsidy @ 7% on term loan for 6 years up to 1% of eligible Fixed Capital Investment",
+   "confidence": 1
+  },
+  {
+   "claim": "Large industries in Thrust Sector under Category 1 Taluka are eligible for a 7% interest subsidy on term loans for 10 years up to 1.2% of eligible Fixed Capital Investment.",
+   "kind": "ELIGIBILITY",
+   "subject": "interest_subsidy_thrust_sector",
+   "object": "category_1_taluka_thrust",
+   "detail": {
+    "years": "10",
+    "percentage": "1.2"
+   },
+   "sourceId": "src:673502f80cb5",
+   "evidence": "Category 1 Taluka: Interest subsidy @ 7% on term loan for 10 years up to 1.2% of eligible Fixed Capital Investment",
+   "confidence": 1
+  },
+  {
+   "claim": "Large industries in Thrust Sector under Category 2 Taluka are eligible for a 7% interest subsidy on term loans for 10 years up to 1% of eligible Fixed Capital Investment.",
+   "kind": "ELIGIBILITY",
+   "subject": "interest_subsidy_thrust_sector",
+   "object": "category_2_taluka_thrust",
+   "detail": {
+    "years": "10",
+    "percentage": "1"
+   },
+   "sourceId": "src:673502f80cb5",
+   "evidence": "Category 2 Taluka: Interest subsidy @ 7% on term loan for 10 years up to 1% of eligible Fixed Capital Investment",
+   "confidence": 1
+  },
+  {
+   "claim": "Large industries in Thrust Sector under Category 3 Taluka are eligible for a 7% interest subsidy on term loans for 8 years up to 1% of eligible Fixed Capital Investment.",
+   "kind": "ELIGIBILITY",
+   "subject": "interest_subsidy_thrust_sector",
+   "object": "category_3_taluka_thrust",
+   "detail": {
+    "years": "8",
+    "percentage": "1"
+   },
+   "sourceId": "src:673502f80cb5",
+   "evidence": "Category 3 Taluka: Interest subsidy @ 7% on term loan for 8 years up to 1% of eligible Fixed Capital Investment",
+   "confidence": 1
+  },
+  {
+   "claim": "Large industries in Category 1 Taluka receive a 7% interest subsidy on term loans for 10 years.",
+   "kind": "TIMELINE",
+   "subject": "large_industries",
+   "object": "interest_subsidy",
+   "detail": {
+    "years": "10"
+   },
+   "sourceId": "src:673502f80cb5",
+   "evidence": "Category 1 Taluka: Interest subsidy @ 7% on term loan for 10 years up to 1% of eligible Fixed Capital Investment",
+   "confidence": 1
+  },
+  {
+   "claim": "Large industries in Thrust Sector, Category 1 Taluka receive a 7% interest subsidy on term loans for 10 years.",
+   "kind": "TIMELINE",
+   "subject": "large_industries_thrust_sector",
+   "object": "interest_subsidy",
+   "detail": {
+    "years": "10"
+   },
+   "sourceId": "src:673502f80cb5",
+   "evidence": "Category 1 Taluka: Interest subsidy @ 7% on term loan for 10 years up to 1.2% of eligible Fixed Capital Investment",
    "confidence": 1
   },
   {
@@ -2918,6 +3617,16 @@
    "confidence": 1
   },
   {
+   "claim": "The tuition fees for apparel production courses are prescribed by anchor institutions or SLAC.",
+   "kind": "FEE",
+   "subject": "tuition_fee",
+   "object": "anchor_institution_slac",
+   "detail": {},
+   "sourceId": "src:368f87bedc6d",
+   "evidence": "b) The tenure of training, Syllabus and Tuition fees will be prescribed by Anchor institutions /SLAC",
+   "confidence": 0.8
+  },
+  {
    "claim": "The MSME Commissioner's office is located at Block No. 1, 4th Floor, Udyog Bhavan, Gandhinagar 382 010, Gujarat, India.",
    "kind": "OFFICE",
    "subject": "msme_commissioner_office",
@@ -3009,8 +3718,11 @@
   "BASP: https://ced.gujarat.gov.in/assets/downloads/BASPGUIDELINES.pdf#page=5 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "ONDC Initiative for MSEs: https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/ONDC/MSME/Guidelines.pdf#page=15 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "MSME Special category award: https://ic.gujarat.gov.in/documents/commondoc/2025/MSME%20Special%20category%20award%20form.pdf#page=4 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "MSME Special category award: https://ic.gujarat.gov.in/documents/commondoc/2025/MSME%20Special%20category%20award%20form.pdf#page=1 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "MSME Scheme for Up-scaling Enterprises: https://ced.gujarat.gov.in/assets/downloads/BASPGUIDELINES.pdf#page=4 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "PMEGP scheme: https://champions.gov.in/MSME_Ministry_entrepreneurs/PMEGP_bank_loan_finance/old_existing_Schemes.htm lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
-  "District Industries Centre: no quotable requirement, fee or timeline survived, so no service node was written for it."
+  "PMEGP scheme: https://www.myscheme.gov.in/schemes/pmegp lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "District Industries Centre: no quotable requirement, fee or timeline survived, so no service node was written for it.",
+  "SHG User Registration: https://e-kutir.gujarat.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page."
  ]
 }

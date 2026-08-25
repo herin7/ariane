@@ -1400,6 +1400,42 @@
    "sourceId": "src:d67224eb685b",
    "evidence": "No, it is not mandatory to submit Form 15CB. Form 15CB is an event-based form to be filled only when the remittance or aggregate of remittance amount exceeds Rs 5 Lakhs during a financial year and you are required to furnish a certificate from an accountant defined as per Section 288.",
    "confidence": 1
+  },
+  {
+   "claim": "An applicant must use DSC for e-Verification if it is registered.",
+   "kind": "ACTION",
+   "subject": "form_15ca",
+   "object": "e_verify",
+   "detail": {
+    "condition": "DSC is registered"
+   },
+   "sourceId": "src:d67224eb685b",
+   "evidence": "You need to e-Verify using DSC if DSC is registered.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant can file Form 15CA in both online and offline modes.",
+   "kind": "CHANNEL",
+   "subject": "form_15ca",
+   "object": "file",
+   "detail": {
+    "modes": "online and offline"
+   },
+   "sourceId": "src:d67224eb685b",
+   "evidence": "This form can be filed in both online and offline modes.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant should file Form 15CA before the remittance is made.",
+   "kind": "ACTION",
+   "subject": "form_15ca",
+   "object": "file",
+   "detail": {
+    "timing": "before the remittance is made"
+   },
+   "sourceId": "src:d67224eb685b",
+   "evidence": "However, it should be filed before the remittance is made.",
+   "confidence": 1
   }
  ],
  "notFound": [

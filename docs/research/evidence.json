@@ -1,61 +1,61 @@
 {
   "generatedBy": "pnpm services:deepen",
-  "retrievals": 631,
-  "services": 65,
-  "passages": 3528,
-  "unanchored": 11327,
-  "partialNameMatch": 132,
-  "noEvidence": 48,
+  "retrievals": 4829,
+  "services": 553,
+  "passages": 28517,
+  "unanchored": 94913,
+  "partialNameMatch": 1072,
+  "noEvidence": 364,
   "byDimension": {
     "ACTIONS": {
-      "tried": 65,
-      "found": 63,
-      "candidates": 401
+      "tried": 519,
+      "found": 501,
+      "candidates": 3641
     },
     "DOCUMENTS": {
-      "tried": 61,
-      "found": 58,
-      "candidates": 352
+      "tried": 339,
+      "found": 313,
+      "candidates": 1884
     },
     "ELIGIBILITY": {
-      "tried": 61,
-      "found": 54,
-      "candidates": 401
+      "tried": 333,
+      "found": 299,
+      "candidates": 1878
     },
     "FEES": {
-      "tried": 64,
-      "found": 61,
-      "candidates": 325
+      "tried": 554,
+      "found": 526,
+      "candidates": 3066
     },
     "OFFICE": {
-      "tried": 62,
-      "found": 59,
-      "candidates": 306
+      "tried": 447,
+      "found": 419,
+      "candidates": 2438
     },
     "HELPLINE": {
-      "tried": 64,
-      "found": 42,
-      "candidates": 175
+      "tried": 483,
+      "found": 334,
+      "candidates": 1739
     },
     "TRACKING": {
-      "tried": 64,
-      "found": 58,
-      "candidates": 297
+      "tried": 530,
+      "found": 480,
+      "candidates": 2481
     },
     "OUTPUT": {
-      "tried": 63,
-      "found": 63,
-      "candidates": 487
+      "tried": 540,
+      "found": 534,
+      "candidates": 4257
     },
     "ISSUING_AUTHORITY": {
-      "tried": 63,
-      "found": 61,
-      "candidates": 369
+      "tried": 544,
+      "found": 522,
+      "candidates": 3166
     },
     "VERIFICATION": {
-      "tried": 64,
-      "found": 64,
-      "candidates": 415
+      "tried": 540,
+      "found": 537,
+      "candidates": 3967
     }
   }
 }

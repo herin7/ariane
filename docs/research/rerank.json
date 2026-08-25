@@ -1,70 +1,70 @@
 {
   "generatedBy": "pnpm evidence:rerank",
-  "shortlists": 583,
-  "modelRanked": 583,
-  "considered": 3528,
-  "kept": 461,
-  "answerable": 109,
+  "shortlists": 4465,
+  "modelRanked": 4457,
+  "considered": 28517,
+  "kept": 3449,
+  "answerable": 758,
   "byDimension": {
     "ACTIONS": {
-      "rows": 63,
-      "kept": 74,
-      "considered": 401,
-      "answered": 19
+      "rows": 501,
+      "kept": 564,
+      "considered": 3641,
+      "answered": 113
     },
     "DOCUMENTS": {
-      "rows": 58,
-      "kept": 46,
-      "considered": 352,
-      "answered": 10
+      "rows": 313,
+      "kept": 232,
+      "considered": 1884,
+      "answered": 56
     },
     "ELIGIBILITY": {
-      "rows": 54,
-      "kept": 41,
-      "considered": 401,
-      "answered": 8
+      "rows": 299,
+      "kept": 210,
+      "considered": 1878,
+      "answered": 56
     },
     "FEES": {
-      "rows": 61,
-      "kept": 31,
-      "considered": 325,
-      "answered": 6
+      "rows": 526,
+      "kept": 301,
+      "considered": 3066,
+      "answered": 54
     },
     "OFFICE": {
-      "rows": 59,
-      "kept": 31,
-      "considered": 306,
-      "answered": 3
+      "rows": 419,
+      "kept": 251,
+      "considered": 2438,
+      "answered": 37
     },
     "HELPLINE": {
-      "rows": 42,
-      "kept": 13,
-      "considered": 175,
-      "answered": 4
+      "rows": 334,
+      "kept": 133,
+      "considered": 1739,
+      "answered": 38
     },
     "TRACKING": {
-      "rows": 58,
-      "kept": 51,
-      "considered": 297,
-      "answered": 14
+      "rows": 480,
+      "kept": 360,
+      "considered": 2481,
+      "answered": 85
     },
     "OUTPUT": {
-      "rows": 63,
-      "kept": 70,
-      "considered": 487,
-      "answered": 16
+      "rows": 534,
+      "kept": 550,
+      "considered": 4257,
+      "answered": 96
     },
     "ISSUING_AUTHORITY": {
-      "rows": 61,
-      "kept": 51,
-      "considered": 369,
-      "answered": 18
+      "rows": 522,
+      "kept": 424,
+      "considered": 3166,
+      "answered": 148
     },
     "VERIFICATION": {
-      "rows": 64,
-      "kept": 53,
-      "considered": 415,
-      "answered": 11
+      "rows": 537,
+      "kept": 424,
+      "considered": 3967,
+      "answered": 75
     }
   }
 }

@@ -22,6 +22,16 @@
    "contentHash": "14a94679ab84dcd21fd9a0e9f1e238cd614d86e8da02e9a0c66e85a85b4a0b7b"
   },
   {
+   "id": "src:5b01f9f92250",
+   "url": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/challan-correction-request",
+   "title": "Challan Correction Request | Income Tax Department",
+   "domain": "incometax.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "6add074e81d7f8c171b429ee0833b3b6bdf4875fd6060e09ce63d06487be3d09"
+  },
+  {
    "id": "src:3b4d79f6e027",
    "url": "https://www.incometax.gov.in/iec/foportal/help/MyCAUserManual",
    "title": "My CA User Manual | Income Tax Department",
@@ -30,6 +40,16 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "456bf72a0a2c5b2e78d7c856e16ca310e3cf8b266fc36746acc04a6ac51f33d6"
+  },
+  {
+   "id": "src:f0c52d19777e",
+   "url": "https://www.incometax.gov.in/iec/foportal/help/how-to-work-with-ca",
+   "title": "Work with My CA User Manual | Income Tax Department",
+   "domain": "incometax.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "b8e9410abc1aaab1a38fcf8cf5f78309cf92035be02f354b18ff2ace7183742d"
   },
   {
    "id": "src:d043f7ad5e63",
@@ -458,6 +478,26 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:challan_correction_request_applicants_receive_email_and_sms_notifications_o",
+   "type": "ACTION",
+   "name": "Applicants receive email and SMS notifications once the challan correction is processed",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Applicants receive email and SMS notifications once the challan correction is processed.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:5b01f9f92250",
+     "evidence": "Yes. Users receive email and SMS notifications on their registered email ID and mobile number once the challan correction request is processed.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:challan_correction_request",
    "type": "SERVICE",
    "name": "Challan Correction Request",
@@ -540,6 +580,26 @@
     {
      "sourceId": "src:7fd29c1cf6e0",
      "evidence": "Note: It may take 7–20 days for the challan correction status to be updated on the portal.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:my_ca_the_applicant_receives_a_success_message_along_w",
+   "type": "ACTION",
+   "name": "The applicant receives a success message along with a Transaction ID after deactivating a ",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant receives a success message along with a Transaction ID after deactivating a CA.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "A success message is displayed along with the Transaction ID. Please keep note of the Transaction ID for future reference.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -733,8 +793,48 @@
     },
     {
      "sourceId": "src:3b4d79f6e027",
-     "evidence": "Step 1: Log in to the e-Filing portal using user ID and password.",
-     "confidence": 0.55,
+     "evidence": "A success message is displayed along with the Transaction ID. Please keep note of the Transaction ID for future reference.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:refund_status_check_the_applicant_receives_a_refund_amount_in_their_",
+   "type": "ACTION",
+   "name": "The applicant receives a refund amount in their account after the return is e-verified",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant receives a refund amount in their account after the return is e-verified.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Refund processing by the tax department starts only after the return is e-verified by the taxpayer. Usually, it takes 4-5 weeks for the refund to be credited to the account of the taxpayer.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:refund_status_check_the_refund_processing_starts_only_after_the_retu",
+   "type": "ACTION",
+   "name": "The refund processing starts only after the return is e-verified by the taxpayer",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The refund processing starts only after the return is e-verified by the taxpayer.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Refund processing by the tax department starts only after the return is e-verified by the taxpayer.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -832,7 +932,8 @@
    "description": "A taxpayer can check the status of their income tax refund on the e-filing portal.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true
+    "machineExtracted": true,
+    "timeline": "It takes 4-5 weeks for the refund to be credited to the taxpayer's account."
    },
    "sources": [
     {
@@ -903,8 +1004,8 @@
     },
     {
      "sourceId": "src:d043f7ad5e63",
-     "evidence": "Step 1: Go to the e-Filing portal homepage.",
-     "confidence": 0.55,
+     "evidence": "Refund processing by the tax department starts only after the return is e-verified by the taxpayer. Usually, it takes 4-5 weeks for the refund to be credited to the account of the taxpayer.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -1551,6 +1652,22 @@
    ]
   },
   {
+   "id": "e:service_challan_correction_request__requires__action_challan_correction_request_applicants_receive_email_a",
+   "from": "service:challan_correction_request",
+   "to": "action:challan_correction_request_applicants_receive_email_and_sms_notifications_o",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Applicants receive email and SMS notifications once the challan correction is processed.",
+   "sources": [
+    {
+     "sourceId": "src:5b01f9f92250",
+     "evidence": "Yes. Users receive email and SMS notifications on their registered email ID and mobile number once the challan correction request is processed.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_challan_correction_request__apply_at__portal_incometax_gov_in",
    "from": "service:challan_correction_request",
    "to": "portal:incometax_gov_in",
@@ -1561,6 +1678,22 @@
     {
      "sourceId": "src:7fd29c1cf6e0",
      "evidence": "Pre-requisites\n|\nRegistered PAN user on the e-Filing portal",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_my_ca__requires__action_my_ca_the_applicant_receives_a_success_message_along_",
+   "from": "service:my_ca",
+   "to": "action:my_ca_the_applicant_receives_a_success_message_along_w",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives a success message along with a Transaction ID after deactivating a CA.",
+   "sources": [
+    {
+     "sourceId": "src:3b4d79f6e027",
+     "evidence": "A success message is displayed along with the Transaction ID. Please keep note of the Transaction ID for future reference.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -1722,6 +1855,38 @@
      "sourceId": "src:3b4d79f6e027",
      "evidence": "The My CA service is available to all registered users of the e-Filing portal who fall under the below categories:",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_refund_status_check__requires__action_refund_status_check_the_applicant_receives_a_refund_a",
+   "from": "service:refund_status_check",
+   "to": "action:refund_status_check_the_applicant_receives_a_refund_amount_in_their_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives a refund amount in their account after the return is e-verified.",
+   "sources": [
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Refund processing by the tax department starts only after the return is e-verified by the taxpayer. Usually, it takes 4-5 weeks for the refund to be credited to the account of the taxpayer.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_refund_status_check__requires__action_refund_status_check_the_refund_processing_starts_only",
+   "from": "service:refund_status_check",
+   "to": "action:refund_status_check_the_refund_processing_starts_only_after_the_retu",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The refund processing starts only after the return is e-verified by the taxpayer.",
+   "sources": [
+    {
+     "sourceId": "src:d043f7ad5e63",
+     "evidence": "Refund processing by the tax department starts only after the return is e-verified by the taxpayer.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]

@@ -113,6 +113,16 @@
    "contentHash": "a8f51f4c3ead4419fd87f5a9fc3c61c8c22304bc1f8bc1d010c0dca8f4b2e66f"
   },
   {
+   "id": "src:11156af4329b",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/start_up/Guidelines_for_Funding_support_to_startups.pdf#page=8",
+   "title": "Guidelines_for_Funding_support_to_startups (page 8 of 42)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "49c5eaf488b56b28f902cd1ae230ef0ba377d59d456cfc081b5e06dd9df23b6c"
+  },
+  {
    "id": "src:6d4e07e3a146",
    "url": "https://ced.gujarat.gov.in/assets/downloads/Entrepreneurship-SOURCE-check.pdf#page=78",
    "title": "Entrepreneurship-SOURCE-check (page 78 of 184)",
@@ -121,6 +131,16 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "810fc2c48b53ede25d956ee45c037418c3207d749b5e0c1e80e42737d9e9c6fe"
+  },
+  {
+   "id": "src:ae5820dad30b",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/start_up/Guidelines_for_Funding_support_to_startups.pdf#page=5",
+   "title": "Guidelines_for_Funding_support_to_startups (page 5 of 42)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "994beb67cd030943c188a05815381cc99020e85106d26b777116f8e9c7e20f32"
   },
   {
    "id": "src:4fc361aa4ee4",
@@ -173,6 +193,16 @@
    "contentHash": "de595ec45d6d623fbfa4563525de2ef77f5e525f125583808ab6d2cf8f8864f2"
   },
   {
+   "id": "src:7b412bbdac4a",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/form-A-citizen-charter-sla.pdf#page=2",
+   "title": "form-A-citizen-charter-sla (page 2 of 3)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "956b571d3a666b522131aa237bdfa224e447b7514bb131a4d91b78208a3b75ba"
+  },
+  {
    "id": "src:c53e608dc05a",
    "url": "https://empower.gujarat.gov.in/",
    "title": "Empowering Youth",
@@ -191,6 +221,16 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "67013bd5b9c3b3bbf0650e587991d42c8b504a24cbdfa3dbc98b1841915380b3"
+  },
+  {
+   "id": "src:ae2858c7141b",
+   "url": "http://ic.gujarat.gov.in/",
+   "title": "IC Website",
+   "domain": "ic.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "46a7897679837b238174d74362b79dc8fb1773ffa4bb3c42d46081cd0364d490"
   },
   {
    "id": "src:904141d55348",
@@ -822,6 +862,106 @@
    ]
   },
   {
+   "id": "action:startup_funding_support_the_applicant_must_complete_a_common_registratio",
+   "type": "ACTION",
+   "name": "The applicant must complete a common registration form",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must complete a common registration form.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:11156af4329b",
+     "evidence": "Common registration form",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:startup_funding_support_the_applicant_must_select_the_ic_scheme",
+   "type": "ACTION",
+   "name": "The applicant must select the IC scheme",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must select the IC scheme.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:11156af4329b",
+     "evidence": "Selection of IC scheme",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:startup_funding_support_the_applicant_must_fulfill_eligibility_and_condi",
+   "type": "ACTION",
+   "name": "The applicant must fulfill eligibility and conditions",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must fulfill eligibility and conditions.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:11156af4329b",
+     "evidence": "Eligibility and conditions",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:startup_funding_support_the_applicant_must_specify_the_type_of_assistanc",
+   "type": "ACTION",
+   "name": "The applicant must specify the type of assistance requested",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must specify the type of assistance requested.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:11156af4329b",
+     "evidence": "Type of assistance requested",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:startup_funding_support_the_applicant_must_submit_the_application_form_w",
+   "type": "ACTION",
+   "name": "The applicant must submit the application form with documents for seed funding support",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must submit the application form with documents for seed funding support.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:11156af4329b",
+     "evidence": "Application form with documents",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:startup_funding_support",
    "type": "SERVICE",
    "name": "Startup Funding Support",
@@ -903,6 +1043,26 @@
      "sourceId": "src:88768d7d5b2d",
      "evidence": "Note: In essence, Eligible Startups gets approval for Seed Support and Sustenance allowance within 90 working days from the submission of their application at Nodal Institution.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:incubation_the_startup_innovator_must_be_registered_for_pre",
+   "type": "ACTION",
+   "name": "The startup/innovator must be registered for pre-incubation or incubation at the NI for 1-",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The startup/innovator must be registered for pre-incubation or incubation at the NI for 1-2 months before becoming eligible to apply for assistance.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:ae5820dad30b",
+     "evidence": "8. The startup/innovator should be registered for the pre-incubation or incubation program at the NI for 1-2 months before becoming eligible to apply for the assistance.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -1073,6 +1233,66 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:entrepreneurship_development_programs_an_applicant_must_fill_out_an_application_form",
+   "type": "ACTION",
+   "name": "An applicant must fill out an application form",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "An applicant must fill out an application form.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:38b1ddfb482f",
+     "evidence": "Application Form Shri M.D.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:entrepreneurship_development_programs_an_applicant_must_submit_the_application_to_the_",
+   "type": "ACTION",
+   "name": "An applicant must submit the application to the Director",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "An applicant must submit the application to the Director.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:38b1ddfb482f",
+     "evidence": "Director 15 Days",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:entrepreneurship_development_programs_the_applicant_receives_the_entrepreneurship_awar",
+   "type": "ACTION",
+   "name": "The applicant receives the Entrepreneurship Awareness Program (EAP) at the end of the prog",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant receives the Entrepreneurship Awareness Program (EAP) at the end of the program.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:38b1ddfb482f",
+     "evidence": "2A EAP – Entrepreneurship Awareness Program",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:entrepreneurship_development_programs",
    "type": "SERVICE",
    "name": "Entrepreneurship Development Programs",
@@ -1080,7 +1300,8 @@
    "description": "The service provides Entrepreneurship Development Programs for individual citizens and a scheme for enhancing technical competence and manpower.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true
+    "machineExtracted": true,
+    "timeline": "The Entrepreneurship Awareness Program (EAP) takes 15 days to complete."
    },
    "sources": [
     {
@@ -1098,6 +1319,36 @@
     {
      "sourceId": "src:38b1ddfb482f",
      "evidence": "As per Training calendar",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:38b1ddfb482f",
+     "evidence": "Application Form Shri M.D.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:38b1ddfb482f",
+     "evidence": "Director 15 Days",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:38b1ddfb482f",
+     "evidence": "The Centre For Entrepreneurship Development, 9th Floor, 1st Block, Udyog Bhavan, Gandhinagar",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:38b1ddfb482f",
+     "evidence": "2A EAP – Entrepreneurship Awareness Program",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:38b1ddfb482f",
+     "evidence": "Director 15 Days 15 Days",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -1186,6 +1437,24 @@
      "sourceId": "src:08c53b66cba7",
      "evidence": "The Centre for Entrepreneurship Development (CED) Block No. 1, 9th Floor, Udhyogbhavan, Sector 11, Gandhinagar - 382 017 (Gujarat) India",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "office:service_sanction",
+   "type": "OFFICE",
+   "name": "Service_sanction",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "9th Floor, 1st Block, Udyog Bhavan, Gandhinagar"
+   },
+   "sources": [
+    {
+     "sourceId": "src:7b412bbdac4a",
+     "evidence": "The Centre For Entrepreneurship Development, 9th Floor, 1st Block, Udyog Bhavan, Gandhinagar",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -1502,6 +1771,66 @@
    ]
   },
   {
+   "id": "action:startup_cell_startup_gujarat_cell_communicates_the_decision_o",
+   "type": "ACTION",
+   "name": "Startup Gujarat Cell communicates the decision of SLEC to the Nodal Institutions within 10",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Startup Gujarat Cell communicates the decision of SLEC to the Nodal Institutions within 10 working days.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "Startup Gujarat Cell will communicate the decision of SLEC to the Nodal Institutions within 10 working days.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:startup_cell_the_startup_gujarat_cell_scrutinizes_each_applic",
+   "type": "ACTION",
+   "name": "The Startup Gujarat Cell scrutinizes each application against the basic eligibility criter",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The Startup Gujarat Cell scrutinizes each application against the basic eligibility criteria and verifies the submission of all required documents.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "4. The Startup Gujarat Cell will scrutinize each application against the basic eligibility criteria and verify the submission of all required documents from the checklist. Complete proposals received from Nodal Institutions will be forwarded to iCreate, while incomplete proposals will be returned to the Nodal Institutions within 15 working days.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:startup_cell_icreate_conducts_a_detailed_evaluation_through_a",
+   "type": "ACTION",
+   "name": "iCreate conducts a detailed evaluation through an Expert screening committee comprised of ",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "iCreate conducts a detailed evaluation through an Expert screening committee comprised of domain experts.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "5. iCreate will conduct a detailed evaluation through an Expert screening committee, comprised of domain experts, and submit their recommendations to the Startup Gujarat Cell within 20 working days.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:startup_cell",
    "type": "SERVICE",
    "name": "Startup Cell",
@@ -1533,6 +1862,30 @@
     {
      "sourceId": "src:fbd13164f1d9",
      "evidence": "Last Update Date:\n14-10-2024",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "Note: In essence, Eligible Startups gets approval for Seed Support and Sustenance allowance within 90 working days from the submission of their application at Nodal Institution.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "Startup Gujarat Cell will communicate the decision of SLEC to the Nodal Institutions within 10 working days.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "4. The Startup Gujarat Cell will scrutinize each application against the basic eligibility criteria and verify the submission of all required documents from the checklist. Complete proposals received from Nodal Institutions will be forwarded to iCreate, while incomplete proposals will be returned to the Nodal Institutions within 15 working days.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "5. iCreate will conduct a detailed evaluation through an Expert screening committee, comprised of domain experts, and submit their recommendations to the Startup Gujarat Cell within 20 working days.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -1941,6 +2294,86 @@
    ]
   },
   {
+   "id": "e:service_startup_funding_support__requires__action_startup_funding_support_the_applicant_must_complete_a",
+   "from": "service:startup_funding_support",
+   "to": "action:startup_funding_support_the_applicant_must_complete_a_common_registratio",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must complete a common registration form.",
+   "sources": [
+    {
+     "sourceId": "src:11156af4329b",
+     "evidence": "Common registration form",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_funding_support__requires__action_startup_funding_support_the_applicant_must_select_the",
+   "from": "service:startup_funding_support",
+   "to": "action:startup_funding_support_the_applicant_must_select_the_ic_scheme",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must select the IC scheme.",
+   "sources": [
+    {
+     "sourceId": "src:11156af4329b",
+     "evidence": "Selection of IC scheme",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_funding_support__requires__action_startup_funding_support_the_applicant_must_fulfill_el",
+   "from": "service:startup_funding_support",
+   "to": "action:startup_funding_support_the_applicant_must_fulfill_eligibility_and_condi",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must fulfill eligibility and conditions.",
+   "sources": [
+    {
+     "sourceId": "src:11156af4329b",
+     "evidence": "Eligibility and conditions",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_funding_support__requires__action_startup_funding_support_the_applicant_must_specify_th",
+   "from": "service:startup_funding_support",
+   "to": "action:startup_funding_support_the_applicant_must_specify_the_type_of_assistanc",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must specify the type of assistance requested.",
+   "sources": [
+    {
+     "sourceId": "src:11156af4329b",
+     "evidence": "Type of assistance requested",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_funding_support__requires__action_startup_funding_support_the_applicant_must_submit_the",
+   "from": "service:startup_funding_support",
+   "to": "action:startup_funding_support_the_applicant_must_submit_the_application_form_w",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must submit the application form with documents for seed funding support.",
+   "sources": [
+    {
+     "sourceId": "src:11156af4329b",
+     "evidence": "Application form with documents",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_startup_funding_support__apply_at__portal_ifp_gujarat_gov_in",
    "from": "service:startup_funding_support",
    "to": "portal:ifp_gujarat_gov_in",
@@ -1952,6 +2385,22 @@
      "sourceId": "src:88768d7d5b2d",
      "evidence": "There is no application fee for this scheme.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_incubation__requires__action_incubation_the_startup_innovator_must_be_registered_f",
+   "from": "service:incubation",
+   "to": "action:incubation_the_startup_innovator_must_be_registered_for_pre",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The startup/innovator must be registered for pre-incubation or incubation at the NI for 1-2 months before becoming eligible to apply for assistance.",
+   "sources": [
+    {
+     "sourceId": "src:ae5820dad30b",
+     "evidence": "8. The startup/innovator should be registered for the pre-incubation or incubation program at the NI for 1-2 months before becoming eligible to apply for the assistance.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -2037,6 +2486,38 @@
    ]
   },
   {
+   "id": "e:service_entrepreneurship_development_programs__requires__action_entrepreneurship_development_programs_an_applicant_mu",
+   "from": "service:entrepreneurship_development_programs",
+   "to": "action:entrepreneurship_development_programs_an_applicant_must_fill_out_an_application_form",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant must fill out an application form.",
+   "sources": [
+    {
+     "sourceId": "src:38b1ddfb482f",
+     "evidence": "Application Form Shri M.D.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_entrepreneurship_development_programs__requires__action_entrepreneurship_development_programs_the_applicant_r",
+   "from": "service:entrepreneurship_development_programs",
+   "to": "action:entrepreneurship_development_programs_the_applicant_receives_the_entrepreneurship_awar",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives the Entrepreneurship Awareness Program (EAP) at the end of the program.",
+   "sources": [
+    {
+     "sourceId": "src:38b1ddfb482f",
+     "evidence": "2A EAP – Entrepreneurship Awareness Program",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_entrepreneurship_development_programs__apply_at__portal_ced_gujarat_gov_in",
    "from": "service:entrepreneurship_development_programs",
    "to": "portal:ced_gujarat_gov_in",
@@ -2112,6 +2593,22 @@
      "sourceId": "src:08c53b66cba7",
      "evidence": "The Centre for Entrepreneurship Development (CED) Block No. 1, 9th Floor, Udhyogbhavan, Sector 11, Gandhinagar - 382 017 (Gujarat) India",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_centre_for_entrepreneurship_development__visit_at__office_service_sanction",
+   "from": "service:centre_for_entrepreneurship_development",
+   "to": "office:service_sanction",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Centre for Entrepreneurship Development is the authority that sanctions the service.",
+   "sources": [
+    {
+     "sourceId": "src:7b412bbdac4a",
+     "evidence": "The Centre For Entrepreneurship Development, 9th Floor, 1st Block, Udyog Bhavan, Gandhinagar",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -2319,6 +2816,54 @@
     {
      "sourceId": "src:fbd13164f1d9",
      "evidence": "Email ID : iccord[at]gujarat[dot]gov[]in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_cell__requires__action_startup_cell_startup_gujarat_cell_communicates_the_de",
+   "from": "service:startup_cell",
+   "to": "action:startup_cell_startup_gujarat_cell_communicates_the_decision_o",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Startup Gujarat Cell communicates the decision of SLEC to the Nodal Institutions within 10 working days.",
+   "sources": [
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "Startup Gujarat Cell will communicate the decision of SLEC to the Nodal Institutions within 10 working days.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_cell__requires__action_startup_cell_the_startup_gujarat_cell_scrutinizes_eac",
+   "from": "service:startup_cell",
+   "to": "action:startup_cell_the_startup_gujarat_cell_scrutinizes_each_applic",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Startup Gujarat Cell scrutinizes each application against the basic eligibility criteria and verifies the submission of all required documents.",
+   "sources": [
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "4. The Startup Gujarat Cell will scrutinize each application against the basic eligibility criteria and verify the submission of all required documents from the checklist. Complete proposals received from Nodal Institutions will be forwarded to iCreate, while incomplete proposals will be returned to the Nodal Institutions within 15 working days.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_cell__requires__action_startup_cell_icreate_conducts_a_detailed_evaluation_t",
+   "from": "service:startup_cell",
+   "to": "action:startup_cell_icreate_conducts_a_detailed_evaluation_through_a",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "iCreate conducts a detailed evaluation through an Expert screening committee comprised of domain experts.",
+   "sources": [
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "5. iCreate will conduct a detailed evaluation through an Expert screening committee, comprised of domain experts, and submit their recommendations to the Startup Gujarat Cell within 20 working days.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }

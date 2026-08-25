@@ -210,10 +210,48 @@ export function officeFromClaim(claim) {
  * declined to name one actor, and those are dropped.
  */
 const AUTHORITY_VERB = [
-  ["ISSUED_BY", /\b(?:is|are|was|were|will\s+be|shall\s+be)\s+issued\s+by\s+(?:the\s+)?([^.,;()]{4,70})/i],
+  ["ISSUED_BY", /\b(?:is|are|was|were|will\s+be|shall\s+be)\s+(?:issued|granted)\s+by\s+(?:the\s+)?([^.,;()]{4,70})/i],
+  ["ISSUED_BY", /\bmust\s+be\s+obtained\s+from\s+(?:the\s+)?([^.,;()]{4,70})/i],
   ["VERIFIED_BY", /\b(?:is|are|was|were|will\s+be|shall\s+be)\s+(?:verified|attested|countersigned|approved|sanctioned)\s+by\s+(?:the\s+)?([^.,;()]{4,70})/i],
   ["VERIFIED_BY", /\bverification\s+by\s+(?:the\s+)?([^.,;()]{4,70})/i],
 ];
+
+/**
+ * The active voice, which is only trusted on a claim the depth engine retrieved.
+ *
+ * The passive rule above exists because "Mamlatdar issues certificates" on a
+ * crawled page is a directory blurb about a job, not a fact about the service
+ * we happen to be compiling, and the sentence reads the same either way. A
+ * promoted claim is not that: retrieval was handed the service id, the reranker
+ * was handed the service name, and the extractor refused any quote that did not
+ * name the service. "Gujarat Agro Industry Corporation issues the
+ * Agri.Business Registration Number" arrived because something asked who issues
+ * this, and the page answered.
+ *
+ * So the grammar can loosen exactly as far as the provenance tightened, and no
+ * further. `promoted` is the whole gate.
+ *
+ * Greedy on the subject, and that is not a detail. Lazy matching stops at the
+ * first verb it can reach, so "The authority that grants or renews a license
+ * issues the arms license" hands back "authority that" and the multi actor
+ * guard never sees the "or" that makes the sentence abstract. Greedy hands back
+ * the whole subject phrase, guards and all.
+ */
+const AUTHORITY_ACTIVE = [
+  ["ISSUED_BY", /^(?:the\s+)?([^.,;()]{4,70})\s+(?:issues|grants)\s+\S/i],
+  ["VERIFIED_BY", /^(?:the\s+)?([^.,;()]{4,70})\s+(?:approves|verifies|inspects)\s+\S/i],
+];
+
+/**
+ * A phrase that names the job and not the body doing it.
+ *
+ * "must be obtained from a prescribed officer" passes every other test here:
+ * it is passive, it names one actor, and "officer" is an authority word. It is
+ * also not an answer. A citizen cannot walk into `department:a_prescribed_officer`,
+ * and writing that node would be us inventing a body the page declined to name.
+ */
+const UNNAMED_ACTOR =
+  /^(?:(?:an?|any|the)\s+)?(?:prescribed|concerned|appropriate|competent|respective|relevant|designated|authorised|authorized|issuing|licensing|sanctioning|approval|nodal|above|said)\b/i;
 
 /**
  * True when a sentence named an authority in the passive and we refused it.
@@ -223,7 +261,9 @@ const AUTHORITY_VERB = [
  * declined to say who, and "verified by the Mamlatdar / Talati" is a page that
  * named two. Both look identical to a counter that only records what survived.
  */
-export const authorityRefused = (claim) => !authorityFromClaim(claim) && AUTHORITY_VERB.some(([, re]) => re.test(String(claim ?? "")));
+export const authorityRefused = (claim, { active = false } = {}) =>
+  !authorityFromClaim(claim, { active }) &&
+  (active ? [...AUTHORITY_VERB, ...AUTHORITY_ACTIVE] : AUTHORITY_VERB).some(([, re]) => re.test(String(claim ?? "")));
 
 /** An officer holds an office. `OFFICE_WORD` is about buildings and misses them. */
 const AUTHORITY_WORD =
@@ -235,13 +275,13 @@ const TRAILING_CLAUSE = /\s+(?:if|when|upon|as\s+per|as|under|within|after|befor
 /** "any three of", "either the", and every other way a page declines to say who. */
 const NOT_ONE_ACTOR = /\b(?:any|either|one|two|three)\s+(?:of|the|three|two)\b|\/|\sand\s+then\s|\s+or\s+/i;
 
-export function authorityFromClaim(claim) {
+export function authorityFromClaim(claim, { active = false } = {}) {
   const text = String(claim ?? "").trim();
-  for (const [type, re] of AUTHORITY_VERB) {
+  for (const [type, re] of active ? [...AUTHORITY_VERB, ...AUTHORITY_ACTIVE] : AUTHORITY_VERB) {
     const m = re.exec(text);
     if (!m) continue;
     const raw = m[1].trim();
-    if (NOT_ONE_ACTOR.test(raw)) return null;
+    if (NOT_ONE_ACTOR.test(raw) || UNNAMED_ACTOR.test(raw)) return null;
     const name = raw.replace(TRAILING_CLAUSE, "").replace(/\s{2,}/g, " ").trim();
     if (name.length < 4 || isPerson(name)) return null;
     if (!OFFICE_WORD.test(name) && !AUTHORITY_WORD.test(name)) return null;
@@ -1145,6 +1185,47 @@ if (flag("selftest")) {
     "issued on is not issued by, and a fee is not an authority",
   );
 
+  // The active voice, which a promoted claim has earned and a crawled page has not.
+  assert.deepEqual(
+    authorityFromClaim("Gujarat Agro Industry Corporation issues the Agri.Business Registration Number.", { active: true }),
+    { type: "ISSUED_BY", authority: "Gujarat Agro Industry Corporation" },
+    "retrieval asked who issues this, and the page answered in the active",
+  );
+  assert.deepEqual(
+    authorityFromClaim("The Registrar of Births and Deaths issues a birth certificate.", { active: true }),
+    { type: "ISSUED_BY", authority: "Registrar of Births and Deaths" },
+  );
+  assert.equal(
+    authorityFromClaim("The Registrar of Births and Deaths issues a birth certificate."),
+    null,
+    "the same sentence off a crawled page is still a directory blurb",
+  );
+  assert.deepEqual(
+    authorityFromClaim("Authorization is granted by the Gujarat Pollution Control Board.", { active: true }),
+    { type: "ISSUED_BY", authority: "Gujarat Pollution Control Board" },
+    "granted is issued, and the passive did not need the flag",
+  );
+  assert.equal(
+    authorityFromClaim("The authority that grants or renews a license issues the arms license.", { active: true }),
+    null,
+    "grants or renews is a page describing a role in the abstract",
+  );
+  assert.equal(
+    authorityFromClaim("A certificate for exemption from electricity duty must be obtained from a prescribed officer.", { active: true }),
+    null,
+    "a prescribed officer is a job, not a body a citizen can walk into",
+  );
+  assert.equal(
+    authorityFromClaim("The certificate must be obtained from the Chief Electrical Inspector.", { active: true }).authority,
+    "Chief Electrical Inspector",
+    "obtained from names the issuer as plainly as issued by does",
+  );
+  assert.ok(
+    authorityRefused("The concerned authority approves the claim.", { active: true }),
+    "matched the grammar, named nobody, and that refusal is worth counting",
+  );
+  assert.ok(!authorityRefused("The concerned authority approves the claim."), "not counted against a pass that never looked");
+
   assert.equal(placeable({ kind: "FEE", detail: {} }), true, "a fee is why we are here");
   assert.equal(placeable({ kind: "HELPLINE", detail: { phone: "1800 233 5500" } }), true);
   assert.equal(placeable({ kind: "HELPLINE", detail: { number: "1800 233 5500" } }), true, "the extractor uses both keys for the same thing");
@@ -1985,7 +2066,7 @@ function build(journey, services) {
         // DOCUMENT_REQUIREMENT, a CONDITIONAL_REQUIREMENT or an ACTION, and one
         // sentence can be both "you need AGMARK" and "AGMARK comes from the
         // Directorate of Marketing and Inspection".
-        const authority = authorityFromClaim(f.claim);
+        const authority = authorityFromClaim(f.claim, { active: Boolean(f.promoted) });
         if (authority) {
           const deptId = `department:${slug(authority.authority)}`;
           // DEPARTMENT and not OFFICE. The page named who, never where, and an
@@ -1998,7 +2079,7 @@ function build(journey, services) {
           const from = authority.type === "ISSUED_BY" && declared.has(docId) ? docId : serviceNodeId;
           link(from, deptId, authority.type, f.claim, r);
           cite(ref(sourceId, f), f);
-        } else if (authorityRefused(f.claim)) {
+        } else if (authorityRefused(f.claim, { active: Boolean(f.promoted) })) {
           // The page used the passive and never named the officer, or named two
           // and left the choice open. §26 says do not guess, so nothing is
           // written, and this is how often that costs us an ISSUED_BY.
@@ -2096,6 +2177,15 @@ function build(journey, services) {
           });
         }
         link(serviceNodeId, groupId, "REQUIRES", b.head, r);
+        // Recorded in the research layer too, and not only cited in the graph.
+        // A group's quote is a block read straight off the page rather than a
+        // fact an extractor returned, so nothing else was ever going to write
+        // it down, and `quotes:audit` is right to call a graph quote with no
+        // research behind it unsourced. It passed until now by luck: the same
+        // page usually also yielded a DOCUMENT_REQUIREMENT whose evidence
+        // contained the block. Corpus wide retrieval broke the luck by
+        // attaching pages to services that had never read them.
+        facts.push({ claim: b.head, kind: "DOCUMENT_GROUP", subject: service.id, object: null, detail: { mode: b.mode, members: members.map((m) => title(m)) }, sourceId, evidence: b.evidence, confidence: 0.6 });
         cite(r[0], { url: c.url, kind: "DOCUMENT_GROUP", claim: b.head, evidence: b.evidence });
       }
     }

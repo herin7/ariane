@@ -16,6 +16,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:8df61e87748c",
+   "url": "https://pan.utiitsl.com/downloadFile?FileName=DocumentsForPAN.pdf#page=3",
+   "title": "downloadFile?FileName=DocumentsForPAN (page 3 of 11)",
+   "domain": "pan.utiitsl.com",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "5eb2fff65913a79b10e51050b9c28211e3f7205ebbc96931db5fd8e43695189e",
+   "cacheFile": ".ingest/pages/8df61e87748cfb7329795f2f87f44583c0f39eba.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:8915c5e8100c",
    "url": "https://suratmunicipal.gov.in/OnlineServices/DeathCertificate/Enroll",
    "title": "Enroll Death Certificate - Virtual Civic Center (Online Services) :: Surat Municipal Corporation",
@@ -170,6 +182,16 @@
    "sourceId": "src:1cc4a3d9a83b",
    "evidence": "Mayor Office -gmc[dot]gandhinagar[at]gmail[dot]com",
    "confidence": 1
+  },
+  {
+   "claim": "The Registrar of Birth and Deaths is an authority authorized to issue birth and death certificates.",
+   "kind": "OFFICE",
+   "subject": "registrar_of_birth_and_deaths",
+   "object": "birth_death_certificate",
+   "detail": {},
+   "sourceId": "src:8df61e87748c",
+   "evidence": "authorised to issue birth\nand death certificate by\nthe Registrar of Birth and\nDeaths or the Indian\nConsulate as defined in\nclause (d) of sub-section\n(1) of section 2 of the\nCitizenship Act, 1955 (57\nof 1955);",
+   "confidence": 0.95
   },
   {
    "claim": "Death registration in Surat Municipal Corporation is done through the Government of Gujarat's eOlakh Application since April 1, 2020.",

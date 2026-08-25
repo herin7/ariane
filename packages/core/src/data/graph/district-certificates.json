@@ -92,6 +92,26 @@
    "contentHash": "94f48b8e5735675164a60b95fb1c671296bea185b5dd60e417357c15fb7053de"
   },
   {
+   "id": "src:f6b2e8c4abe1",
+   "url": "https://gvc.org.in/",
+   "title": "Gujarat Veterinary Council",
+   "domain": "gvc.org.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "a3c40f371fd99a226d4fb159c5149dd1edd7d849f328d8a10dc8da9649965219"
+  },
+  {
+   "id": "src:7e6056c2df60",
+   "url": "https://gvc.org.in/webcontroller/contactgvc",
+   "title": "Gujarat Veterinary Council",
+   "domain": "gvc.org.in",
+   "sourceType": "HELPLINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "cb9275c4dd98f25ea12837f6c914ee05a15c02d940b4fe42becb333316b913f9"
+  },
+  {
    "id": "src:fdf5e160c1cf",
    "url": "https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201617_120.pdf#page=11",
    "title": "GPSC_201617_120 (page 11 of 16)",
@@ -132,6 +152,26 @@
    "contentHash": "7caad8dea1900260efb6557d05759a34265c466167920a54770d5b2e41d724cc"
   },
   {
+   "id": "src:76a97eb43e25",
+   "url": "https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201617_120.pdf#page=13",
+   "title": "GPSC_201617_120 (page 13 of 16)",
+   "domain": "ojas.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "2e1eaabb618121a7dbd7bdd3e0cf3655b7321b21ea1034af222f803ef663e527"
+  },
+  {
+   "id": "src:5d3ed28982ae",
+   "url": "https://morbi.nic.in/service/domicile-certificate",
+   "title": "Domicile Certificate | District Morbi, Government of Gujarat",
+   "domain": "morbi.nic.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-MORBI",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "735bc38a085f60e20eb43644045d7e94005bb3f7e9ac94cb5eafd4029311719d"
+  },
+  {
    "id": "src:449ac59ef784",
    "url": "https://suratmunicipal.gov.in/",
    "title": "Surat Municipal Corporation",
@@ -140,6 +180,16 @@
    "jurisdictionId": "IN-GJ-SURAT",
    "retrievedAt": "2026-08-23",
    "contentHash": "47137b014ff3692d47cb503157f78abe9f15b414941a73e90876e00df97b0edc"
+  },
+  {
+   "id": "src:0c5990334d3a",
+   "url": "https://suratmunicipal.gov.in/epay/SocietyRegistration/SocietyRegistration.aspx",
+   "title": "Virtual Civic Center (Online Services) :: Surat Municipal Corporation",
+   "domain": "suratmunicipal.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "3bc3a004abc9dea075300a30b1c43ad1a0783566821add1551306c6aabfea948"
   },
   {
    "id": "src:75df169cf632",
@@ -372,6 +422,16 @@
    "contentHash": "3f2de0bedce6cfb7e7d7ceb0a999fe1c25ea13c7147a77275a5d65370a8cd92a"
   },
   {
+   "id": "src:8dbb9c2ff78f",
+   "url": "https://collectorpanchmahal.gujarat.gov.in/showpage.aspx?contentid=390",
+   "title": "નોન ક્રીમીલેયર પ્રમાણપત્ર મેળવવા અંગે અરજી | Certificate | Jan Seva Kendra form | Collectorate - District Panchmahal",
+   "domain": "collectorpanchmahal.gujarat.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "53cbaa133e8a52faaa48b5819ba40f5cd06311b53d34db7c1fbf2eeba34d4bed"
+  },
+  {
    "id": "src:1072e2dbfef9",
    "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=3",
    "title": "englishGuideline (page 3 of 10)",
@@ -380,6 +440,16 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "416c240e285b1747a507f75754bf1fe93bbb8b9816bdc62a3b5720d1a695d32e"
+  },
+  {
+   "id": "src:3772e9d020d4",
+   "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=2",
+   "title": "englishGuideline (page 2 of 10)",
+   "domain": "gujarattourism.com",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "2793d76ed0824319ee7d044c264f4c1e5773db25100c726e10bcba89c77a8660"
   },
   {
    "id": "src:5c9f24f67a98",
@@ -702,6 +772,36 @@
    "contentHash": "cc6569d238b4afca52486a520ecf8559d53977757c18357db670aa0468093aed"
   },
   {
+   "id": "src:48ecc2904bee",
+   "url": "https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=3",
+   "title": "Vessal_25102024 (page 3 of 21)",
+   "domain": "pnt.gujarat.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ed4565fea540efde8695718d29ac4f932f2c308746428dd160afb436f02ac09e"
+  },
+  {
+   "id": "src:d65892a6e72a",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/shrihariagri512015.pdf#page=27",
+   "title": "shrihariagri512015 (page 27 of 78)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "cbfcbb10594b773bcfeab9a886c54e1be507f33240b947c121ff5ed502c2acc8"
+  },
+  {
+   "id": "src:d23c71138bc2",
+   "url": "https://www.myscheme.gov.in/schemes/pkvy",
+   "title": "Paramparagat Krishi Vikas Yojana",
+   "domain": "myscheme.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "62b5b0ae418b42751aca991616fb029e6b72f68b5317a14ca29912053c6600d5"
+  },
+  {
    "id": "src:3b4bcc8a0fc8",
    "url": "https://jamnagardp.gujarat.gov.in/gu/Applications",
    "title": "અરજી પત્રકો | જામનગર જિલ્લા પંચાયત",
@@ -790,6 +890,16 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "42cc050c16b8cae47f7c9083d6cbb9ca8d9c66ce9a2603da240c7ff6370ff771"
+  },
+  {
+   "id": "src:8f130659de66",
+   "url": "https://cot.gujarat.gov.in/vehicle-registration.htm",
+   "title": "Vehicle Registration | Services | Commissionerate of Transport, Government of Gujarat",
+   "domain": "cot.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "790b7ee6ea67c396cfa3a046d58cc9867c6eddfbafa0f05e91fbdd30bace39b1"
   },
   {
    "id": "src:07bb8617aff4",
@@ -892,6 +1002,16 @@
    "contentHash": "a94c224a87140c4b4599f9a8238e47be5fde1ca1b2a989a60548f0f422591204"
   },
   {
+   "id": "src:3757b69b6a17",
+   "url": "https://collectorvadodara.gujarat.gov.in/showpage.aspx?contentid=390",
+   "title": "નોન ક્રીમીલેયર પ્રમાણપત્ર મેળવવા અંગે અરજી | Certificate | Jan Seva Kendra form | Collectorate - District Vadodara",
+   "domain": "collectorvadodara.gujarat.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ-VADODARA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "f921ed4b0bf181a2e9a5f954c8dc3086c8868b770c6ca5cea3db83f1b0243602"
+  },
+  {
    "id": "src:402f2ca32dff",
    "url": "https://nri.gujarat.gov.in/home/importantprojects",
    "title": "Home Page",
@@ -972,6 +1092,16 @@
    "contentHash": "52a6b933b44ad54fd94a48dc353623762415ffabbe3cb824b114291e16087815"
   },
   {
+   "id": "src:c184adf1ee34",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/chief-ministergi-shotharabasingi-tengbang_cmst.html",
+   "title": "Chief Ministergi Shotharabasingi Tengbang",
+   "domain": "web.umang.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "b52fb370fd0da30158cdadb60ff74e3f0a106bd9ab0dc635c5774b91326a0d1c"
+  },
+  {
    "id": "src:1e206910c90b",
    "url": "https://www.nhb.org.in/format-for-utilization-certificate",
    "title": "Format for Utilization certificate - National Housing Bank",
@@ -980,6 +1110,16 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "0dd1b03d3de4b164a0094e2bd7e78edbffaccd93b192612a4f26430c359b68c2"
+  },
+  {
+   "id": "src:d1c9ad61fd1b",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/aicte-grant-for-augmenting-infrastructure-in-north-eastern-region_a-gainer.html",
+   "title": "AICTE - Grant For Augmenting Infrastructure In North Eastern Region",
+   "domain": "web.umang.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "2e5f1b8b138d8a4cb919526a1b3dd884de53899a72bb813202fbe0dce4d4ae0b"
   },
   {
    "id": "src:72cbddd6cfa6",
@@ -1002,6 +1142,16 @@
    "contentHash": "b66eba37862b677e736940f43f5275119c773254c45f96e1efd851ff16a8bc0e"
   },
   {
+   "id": "src:9afc60bbeddd",
+   "url": "https://surat.nic.in/service/caste-certificate",
+   "title": "Caste Certificate | District Surat, Government of Gujarat",
+   "domain": "surat.nic.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "0838ddc398cd0e648f7d10876aaa13cdf34a4eb3aa7597c57565dcbddf8fccad"
+  },
+  {
    "id": "src:3e9caf77dc5a",
    "url": "https://gssca.gujarat.gov.in/ImportantActivites/BiyarananuCertificate",
    "title": "Gujarat State Seed Certificate Agency",
@@ -1010,6 +1160,16 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "b7f421f2fa593fc3c054b6ac627a22f2abc07b7770f3c2f86114fd34a3d54567"
+  },
+  {
+   "id": "src:8f7de45e2fb0",
+   "url": "https://ahmedabad.nic.in/service/sebc-certificate",
+   "title": "SEBC Certificate | District Ahmedabad, Government of Gujarat",
+   "domain": "ahmedabad.nic.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d5cd6f62ca7f1ff98b64537d5c0fdec5918c6a37212fd4701864e0fbe26c8f57"
   }
  ],
  "nodes": [
@@ -2198,6 +2358,106 @@
    ]
   },
   {
+   "id": "action:veterinary_registration_the_applicant_must_apply_for_provisional_registr",
+   "type": "ACTION",
+   "name": "The applicant must apply for provisional registration on the prescribed Form-XXII",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must apply for provisional registration on the prescribed Form-XXII.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:b95bad3f5be2",
+     "evidence": "Every Graduate shall be required to apply for the provisional registration on the prescribed Form-XXII through the Dean/Principal of the Veterinary College concerned from where he/she completed academic course.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:veterinary_registration_the_applicant_must_pay_a_fee_of_rupees_one_hundr",
+   "type": "ACTION",
+   "name": "The applicant must pay a fee of Rupees One Hundred Fifty for the registration process",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must pay a fee of Rupees One Hundred Fifty for the registration process.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:b95bad3f5be2",
+     "evidence": "Application on payment of fees of Rupees One Hundred Fifty only (i.e. included administrative charges of Rs.100/- and I-card Charge Rs.25/-) with any other dues i.e. Renewal Fees only.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:veterinary_registration_the_applicant_receives_a_provisional_registratio",
+   "type": "ACTION",
+   "name": "The applicant receives a provisional registration certificate in Form-XXIV",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant receives a provisional registration certificate in Form-XXIV.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:b95bad3f5be2",
+     "evidence": "The state Council shall issue provisional registration certificate in Form-XXIV to such graduates who have completed their academic requirements for the degree course.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:veterinary_registration_provisional_registration_is_required_before_unde",
+   "type": "ACTION",
+   "name": "Provisional registration is required before undergoing internship training",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Provisional registration is required before undergoing internship training.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:b95bad3f5be2",
+     "evidence": "Every graduate is required to get himself/herself registered provisionally before being allowed to undergo internship training for the prescribed period.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:veterinary_registration_provisional_registration_is_limited_only_for_the",
+   "type": "ACTION",
+   "name": "Provisional registration is limited only for the internship training",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Provisional registration is limited only for the internship training.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:b95bad3f5be2",
+     "evidence": "The provisional registration shall be limited only for the internship training.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:veterinary_registration",
    "type": "SERVICE",
    "name": "Veterinary Registration",
@@ -2271,6 +2531,18 @@
      "sourceId": "src:b95bad3f5be2",
      "evidence": "Application on payment of fees of Rupees One Hundred Fifty only (i.e. included administrative charges of Rs.100/- and I-card Charge Rs.25/-) with any other dues i.e. Renewal Fees only.",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b95bad3f5be2",
+     "evidence": "Every Graduate shall be required to apply for the provisional registration on the prescribed Form-XXII through the Dean/Principal of the Veterinary College concerned from where he/she completed academic course.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b95bad3f5be2",
+     "evidence": "Every Graduate shall be required to apply for the provisional registration on the prescribed Form-XXII through the Dean/Principal of the Veterinary College concerned from where he/she completed academic course.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -2430,6 +2702,81 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:gujarat_veterinary_council_registration_an_applicant_must_login_to_verify_or_update_thei",
+   "type": "ACTION",
+   "name": "An applicant must login to verify or update their details in the VCI draft electoral roll ",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "An applicant must login to verify or update their details in the VCI draft electoral roll (Gujarat) 2020.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:f6b2e8c4abe1",
+     "evidence": "Please login to verify/ update your details in “VCI draft electoral roll (Gujarat) 2020” published on www.gvc.org.in",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:gujarat_veterinary_council_registration_an_applicant_must_fill_and_submit_a_duly_signed_",
+   "type": "ACTION",
+   "name": "An applicant must fill and submit a duly signed prescribed form-A/B/C/D to the Gujarat Vet",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "An applicant must fill and submit a duly signed prescribed form-A/B/C/D to the Gujarat Veterinary Council.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:f6b2e8c4abe1",
+     "evidence": "In case of any variation/objections/claim, Please fill and submit a duly signed prescribed form-A/B/C/D to Gujarat Veterinary Council on or before 21st February 2020",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "helpline:079_23244197",
+   "type": "HELPLINE",
+   "name": "Gujarat Veterinary Council registration helpline",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "079-23244197"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:7e6056c2df60",
+     "evidence": "For any information or support please call 079-23244197 .",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "department:gujarat_veterinary_council",
+   "type": "DEPARTMENT",
+   "name": "Gujarat Veterinary Council",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:7e6056c2df60",
+     "evidence": "Circular of GVC Regarding Publish of Regi. Certificate, Dated: 3-2-2015",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:gujarat_veterinary_council_registration",
    "type": "SERVICE",
    "name": "Gujarat Veterinary Council registration",
@@ -2490,6 +2837,24 @@
      "sourceId": "src:268c6a48bdd4",
      "evidence": "Circular of SDAU Regarding Registration/Renewal At GVC",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f6b2e8c4abe1",
+     "evidence": "Please login to verify/ update your details in “VCI draft electoral roll (Gujarat) 2020” published on www.gvc.org.in",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f6b2e8c4abe1",
+     "evidence": "In case of any variation/objections/claim, Please fill and submit a duly signed prescribed form-A/B/C/D to Gujarat Veterinary Council on or before 21st February 2020",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:7e6056c2df60",
+     "evidence": "Circular of GVC Regarding Publish of Regi. Certificate, Dated: 3-2-2015",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -2663,6 +3028,266 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:gpsc_recruitment_the_applicant_must_first_go_to_the_website_https",
+   "type": "ACTION",
+   "name": "The applicant must first go to the website https://gpsc-ojas.gujarat.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must first go to the website https://gpsc-ojas.gujarat.gov.in.",
+    "uiStage": "IN_PERSON",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "(૧) સૌ પ્ર થમ http://gpsc-ojas.gujarat.gov.in પર જવુાં.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:gpsc_recruitment_the_applicant_must_click_on_apply_on_line",
+   "type": "ACTION",
+   "name": "The applicant must click on 'Apply On line'",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must click on 'Apply On line'.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "(૨) Apply On line Click કરવુાં.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:gpsc_recruitment_the_applicant_must_click_on_more_details_to_revi",
+   "type": "ACTION",
+   "name": "The applicant must click on 'More Details' to review the advertisement details",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must click on 'More Details' to review the advertisement details.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "આ પ્ર માણે click કરવાથી (1) More Details તથા (2) Apply Now બટન દેખાશે. સૌપ્રથમ More Details પર Click કરીને જાહેરાતની બધી જ વવગતોનો અભ્ યાસ ઉમેદવારોએ કરવો.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:gpsc_recruitment_the_applicant_must_click_on_apply_now_after_revi",
+   "type": "ACTION",
+   "name": "The applicant must click on 'Apply Now' after reviewing the advertisement details",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must click on 'Apply Now' after reviewing the advertisement details.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "સૌપ્રથમ More Details પર Click કરીને જાહેરાતની બધી જ વવગતોનો અભ્ યાસ ઉમેદવારોએ કરવો. અને ત્ યારબાદ Apply Now બટન ક્ક્ લક કરવુાં.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:gpsc_recruitment_the_applicant_must_click_on_the_post_category_e_",
+   "type": "ACTION",
+   "name": "The applicant must click on the post category (e.g., 'વ્ યવસ્થાપક , વગગ-૧') to view the de",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must click on the post category (e.g., 'વ્ યવસ્થાપક , વગગ-૧') to view the details of the position.",
+    "uiStage": "TRACK",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "(૩)વ્ યવસ્થાપક , વગગ-૧ ઉપર click કરવાથી જગ્યાની વવગતો મળશે",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:gpsc_recruitment_the_applicant_must_click_on_apply_now_to_view_th",
+   "type": "ACTION",
+   "name": "The applicant must click on 'Apply Now' to view the application format",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must click on 'Apply Now' to view the application format.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "(૪) તેની નીચે Apply Now પર Click કરવાથી Application Format દેખાશે.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:gpsc_recruitment_the_applicant_must_fill_in_personal_details_in_t",
+   "type": "ACTION",
+   "name": "The applicant must fill in 'Personal Details' in the application format",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must fill in 'Personal Details' in the application format.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "Application Format માાં સૌ પ્ર થમ “Personal Details” ઉમેદવારે ભરવી.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:gpsc_recruitment_the_applicant_must_provide_a_mobile_number_and_e",
+   "type": "ACTION",
+   "name": "The applicant must provide a mobile number and email ID in 'Personal Details'",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must provide a mobile number and email ID in 'Personal Details'.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "“Personal Details” માાં જ્ યાાં Mobile Number અને email ID માાંગ્ યા છે, તેની વવગત લખવી જે થી જરૂ ર જણાયે આયોગ ઉમેદવારને મારહતગાર કરી શકે.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:gpsc_recruitment_the_applicant_must_click_on_educational_details_",
+   "type": "ACTION",
+   "name": "The applicant must click on 'Educational Details' and fill in their educational qualificat",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must click on 'Educational Details' and fill in their educational qualifications.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "(૫) Personal Details ભરાયા બાદ Educational Details ભરવા માટે Educational Details પર click કરવુાં અને પોતાની શૈક્ષ ચણક વવગ તોભરવી.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:gpsc_recruitment_the_applicant_must_click_on_additional_qualifica",
+   "type": "ACTION",
+   "name": "The applicant must click on 'Additional Qualification' and fill in any additional qualific",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must click on 'Additional Qualification' and fill in any additional qualifications.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "(૬) Additional Qualification પર“click” કરી Additional Qualification ભરવી.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:gpsc_recruitment_the_applicant_must_click_on_experience_details_a",
+   "type": "ACTION",
+   "name": "The applicant must click on 'Experience Details' and fill in their work experience",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must click on 'Experience Details' and fill in their work experience.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "(૭) Experience Details પર “click” કરવુાં અને Experience Details ભરવી.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:gpsc_recruitment_the_applicant_must_click_on_add_more_exp_to_add_",
+   "type": "ACTION",
+   "name": "The applicant must click on 'Add. More Exp.' to add more work experience if needed",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must click on 'Add. More Exp.' to add more work experience if needed.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "વધુ Experience ઉમેરવા માગતા હોવ તો Add. More Exp.પર “click” કરી Details ભરવી.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:gpsc_recruitment_the_applicant_must_click_on_additional_informati",
+   "type": "ACTION",
+   "name": "The applicant must click on 'Additional Information' and fill in any additional informatio",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must click on 'Additional Information' and fill in any additional information.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "(૮) Additional Information પર“click” કરી ત્ યાાં મારહતી ભરવી.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:gpsc_recruitment",
    "type": "SERVICE",
    "name": "GPSC Recruitment",
@@ -2778,6 +3403,64 @@
    ]
   },
   {
+   "id": "action:domicile_certificate_the_applicant_must_collect_the_required_proofs",
+   "type": "ACTION",
+   "name": "The applicant must collect the required proofs",
+   "jurisdictionId": "IN-GJ-MORBI",
+   "metadata": {
+    "whatToDo": "The applicant must collect the required proofs.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:5d3ed28982ae",
+     "evidence": "## Proofs Needed:\n\n- Panchnamu\n- Certificate of Talati.\n- Applicant Answer\n- Domicile by Birth (Birth Certificate)\n- Proof of Parent’s Job/Business\n- No Objection Certificate of Police Station\n- Character Certificate\n- Affidavit\n- Last 10 years residence proof\n- Identity Proof\n- Resident Proof",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:domicile_certificate_the_applicant_must_visit_the_taluka_mamlatdar_of",
+   "type": "ACTION",
+   "name": "The applicant must visit the Taluka Mamlatdar office",
+   "jurisdictionId": "IN-GJ-MORBI",
+   "metadata": {
+    "whatToDo": "The applicant must visit the Taluka Mamlatdar office.",
+    "uiStage": "IN_PERSON",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:5d3ed28982ae",
+     "evidence": "**Location** : Respective Taluka Mamlatdar office \\| **City** : All Talukas",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "portal:digitalgujarat_gov_in_550477",
+   "type": "PORTAL",
+   "name": "digitalgujarat.gov.in/Citizen/ServiceDescription.aspx",
+   "jurisdictionId": "IN-GJ-MORBI",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://www.digitalgujarat.gov.in/Citizen/ServiceDescription.aspx"
+   },
+   "sources": [
+    {
+     "sourceId": "src:5d3ed28982ae",
+     "evidence": "**Visit**: [https://www.digitalgujarat.gov.in/Citizen/ServiceDescription.aspx](https://www.digitalgujarat.gov.in/Citizen/ServiceDescription.aspx)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "helpline:1800_123_8000",
    "type": "HELPLINE",
    "name": "Virtual Civic Center helpline",
@@ -2816,6 +3499,26 @@
      "verificationStatus": "EXTRACTED"
     }
    ]
+  },
+  {
+   "id": "action:virtual_civic_center_an_applicant_can_access_various_services_through",
+   "type": "ACTION",
+   "name": "An applicant can access various services through the Virtual Civic Center from anywhere at",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "An applicant can access various services through the Virtual Civic Center from anywhere at any time.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:449ac59ef784",
+     "evidence": "Virtual Civic Center provides simple and convenient way for citizens to access various services from anywhere at anytime.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:virtual_civic_center",
@@ -3272,6 +3975,66 @@
    ]
   },
   {
+   "id": "action:saksham_shala_the_applicant_can_access_the_saksham_shala_appli",
+   "type": "ACTION",
+   "name": "The applicant can access the Saksham Shala Application",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant can access the Saksham Shala Application.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:11f0a6d6e363",
+     "evidence": "Saksham Shala Application",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:saksham_shala_the_applicant_can_access_the_saksham_shala_actio",
+   "type": "ACTION",
+   "name": "The applicant can access the Saksham Shala Action Plan (SSAP)",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant can access the Saksham Shala Action Plan (SSAP).",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:11f0a6d6e363",
+     "evidence": "Saksham Shala Action Plan (SSAP)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:saksham_shala_the_applicant_can_access_guidance_for_key_questi",
+   "type": "ACTION",
+   "name": "The applicant can access guidance for key questions",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant can access guidance for key questions.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:11f0a6d6e363",
+     "evidence": "Guidance for key questions",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:saksham_shala",
    "type": "SERVICE",
    "name": "Saksham Shala",
@@ -3345,6 +4108,12 @@
     {
      "sourceId": "src:11f0a6d6e363",
      "evidence": "2.I AM NOT ABLE TO DOWNLOAD THE CERTIFICAT? You can also send a mail at ssa.ssggujarat@gmail.com requesting the same, we will download the certificate and send it to you.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:11f0a6d6e363",
+     "evidence": "Saksham Shala Application",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -4002,6 +4771,86 @@
    ]
   },
   {
+   "id": "action:tourist_guide_certificate_applicants_must_submit_their_applications_online",
+   "type": "ACTION",
+   "name": "Applicants must submit their applications online through the Gujarat Tourism website",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Applicants must submit their applications online through the Gujarat Tourism website.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:3772e9d020d4",
+     "evidence": "Applicants shall submit their applications online through Gujarat Tourism website www.gujarattourism.com in the prescribed Pro forma along with photocopies of all documents required as proof of their eligibility and in no case; applicants would be allowed to submit any additional documents as proof at a later stage.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:tourist_guide_certificate_applicants_must_submit_original_documents_for_ve",
+   "type": "ACTION",
+   "name": "Applicants must submit original documents for verification",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Applicants must submit original documents for verification.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:3772e9d020d4",
+     "evidence": "The applicants shall submit all original documents for verification. Failure to produce original documents would lead to rejection of candidature.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:tourist_guide_certificate_applicants_must_submit_proof_of_domicile_with_th",
+   "type": "ACTION",
+   "name": "Applicants must submit proof of domicile with their application for the Guide Training Cou",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Applicants must submit proof of domicile with their application for the Guide Training Course.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:3772e9d020d4",
+     "evidence": "Candidates have to submit the proof of Domicile with the application of admission for the Guide Training Course.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:tourist_guide_certificate_applicants_must_submit_a_police_clearance_certif",
+   "type": "ACTION",
+   "name": "Applicants must submit a Police Clearance Certificate from the local issuing authority",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Applicants must submit a Police Clearance Certificate from the local issuing authority.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:3772e9d020d4",
+     "evidence": "Candidates will have to submit a Police Clearance Certificate from the local issuing authority for verification of non existence of any previous criminal record/cases for the safety of the tourist.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:tourist_guide_certificate",
    "type": "SERVICE",
    "name": "Tourist Guide Certificate",
@@ -4409,6 +5258,146 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:labour_card_the_applicant_must_register_or_renew_the_labour_",
+   "type": "ACTION",
+   "name": "The applicant must register or renew the labour card online through the nearest Jan Suvidh",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must register or renew the labour card online through the nearest Jan Suvidha Kendra or Shramik Suvidha Kendra.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:a785edfb12ce",
+     "evidence": "- Building and construction workers can register or renew their labour card online through the nearest Jan Suvidha Kendra or Shramik Suvidha Kendra.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:labour_card_the_applicant_must_submit_two_passport_size_phot",
+   "type": "ACTION",
+   "name": "The applicant must submit two passport-size photographs along with the application form",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must submit two passport-size photographs along with the application form.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:a785edfb12ce",
+     "evidence": "- To apply online, the applicant must submit two passport-size photographs along with the application form.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:labour_card_the_applicant_must_submit_proof_of_age_by_provid",
+   "type": "ACTION",
+   "name": "The applicant must submit proof of age by providing one of the specified documents",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must submit proof of age by providing one of the specified documents.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:a785edfb12ce",
+     "evidence": "- To apply online, the applicant must submit two passport-size photographs along with the application form. For age verification, any one of the following documents is required: 10th certificate, birth certificate, certificate issued by a medical officer, notarized affidavit of the construction worker, voter identity card, ration card, or a certificate issued by the Village Panchayat Officer, Village Head, or Councillor.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:labour_card_the_applicant_must_submit_a_certificate_of_havin",
+   "type": "ACTION",
+   "name": "The applicant must submit a certificate of having worked as a construction worker for at l",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must submit a certificate of having worked as a construction worker for at least 90 days in the previous year and a nomination form for legal heirs.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:a785edfb12ce",
+     "evidence": "- A certificate of having worked as a construction worker for at least 90 days in the previous year, along with a nomination form for nominating legal heirs, must also be submitted.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:labour_card_the_applicant_must_provide_the_aadhaar_card_rati",
+   "type": "ACTION",
+   "name": "The applicant must provide the Aadhaar card, ration card, Aadhaar-linked bank account deta",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must provide the Aadhaar card, ration card, Aadhaar-linked bank account details, self-certification or self-declaration form, and Aadhaar cards of dependents.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:a785edfb12ce",
+     "evidence": "- The applicant is further required to provide the Aadhaar card, ration card, Aadhaar-linked bank account details, self-certification or self-declaration form (available only at Jan Suvidha Kendra or Shramik Suvidha Kendra), and Aadhaar cards of dependents.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:labour_card_the_application_is_forwarded_to_the_concerned_de",
+   "type": "ACTION",
+   "name": "The application is forwarded to the concerned department for verification",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The application is forwarded to the concerned department for verification.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:a785edfb12ce",
+     "evidence": "- The application is then forwarded to the concerned department. If the documents are verified and found correct, the worker’s details will be entered in the Labour Register, and the registration number assigned will serve as the worker’s official registration number.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:labour_card_the_registration_officer_will_issue_a_photo_iden",
+   "type": "ACTION",
+   "name": "The Registration Officer will issue a Photo Identity Card to the applicant",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The Registration Officer will issue a Photo Identity Card to the applicant.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:a785edfb12ce",
+     "evidence": "- Once the registration is approved, the Registration Officer will issue a Photo Identity Card, which the worker can collect from the Public Service Centre of the concerned department or from the office of the Labour Department.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:labour_card",
    "type": "SERVICE",
    "name": "Labour Card",
@@ -4477,6 +5466,24 @@
     {
      "sourceId": "src:a785edfb12ce",
      "evidence": "The labour card is valid for three years from the date of issuance.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a785edfb12ce",
+     "evidence": "- Building and construction workers can register or renew their labour card online through the nearest Jan Suvidha Kendra or Shramik Suvidha Kendra.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a785edfb12ce",
+     "evidence": "- To apply online, the applicant must submit two passport-size photographs along with the application form.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a785edfb12ce",
+     "evidence": "- To apply online, the applicant must submit two passport-size photographs along with the application form. For age verification, any one of the following documents is required: 10th certificate, birth certificate, certificate issued by a medical officer, notarized affidavit of the construction worker, voter identity card, ration card, or a certificate issued by the Village Panchayat Officer, Village Head, or Councillor.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -5448,6 +6455,81 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "department:certifying_agency",
+   "type": "DEPARTMENT",
+   "name": "Certifying Agency",
+   "jurisdictionId": "IN-GJ-GIR_SOMNATH",
+   "sources": [
+    {
+     "sourceId": "src:48ecc2904bee",
+     "evidence": "Fitness Certificate and Builder’s Certification of the pleasure craft / boat issued by the certifying agency as prescribed in these rules, certifying the fitness of the pleasure craft/boat for the intended operation;",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:certification_an_annual_inspection_is_compulsory_for_all_clien",
+   "type": "ACTION",
+   "name": "An annual inspection is compulsory for all clients according to the organic regulations",
+   "jurisdictionId": "IN-GJ-GIR_SOMNATH",
+   "metadata": {
+    "whatToDo": "An annual inspection is compulsory for all clients according to the organic regulations.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d65892a6e72a",
+     "evidence": "According to the organic regulations, one annual inspection is compulsory for all the clients.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:certification_inspection_and_submission_of_the_inspection_repo",
+   "type": "ACTION",
+   "name": "Inspection and submission of the inspection report to the certification department is part",
+   "jurisdictionId": "IN-GJ-GIR_SOMNATH",
+   "metadata": {
+    "whatToDo": "Inspection and submission of the inspection report to the certification department is part of the certification process.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d65892a6e72a",
+     "evidence": "5. Inspection and submitting the inspection report to the certification department",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:certification_inspection_reports_are_required_during_the_certi",
+   "type": "ACTION",
+   "name": "Inspection reports are required during the certification process",
+   "jurisdictionId": "IN-GJ-GIR_SOMNATH",
+   "metadata": {
+    "whatToDo": "Inspection reports are required during the certification process.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d23c71138bc2",
+     "evidence": "09. Inspection Reports (During Certification Process)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:certification",
    "type": "SERVICE",
    "name": "Certification",
@@ -5479,6 +6561,30 @@
      "sourceId": "src:383e87e3135c",
      "evidence": "એફીડેવીટ પ્રમાણિત કરવાના કિસ્સામાં જે નોટરી પાસે એફીડેવીટ કરાવેલ હોય તે નોટરીનું નામ તેમનું પુરેપુરુ સરનામું અરજીમાં અલગથી દર્શાવવાનું રહેશે.",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:48ecc2904bee",
+     "evidence": "Fitness Certificate and Builder’s Certification of the pleasure craft / boat issued by the certifying agency as prescribed in these rules, certifying the fitness of the pleasure craft/boat for the intended operation;",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d65892a6e72a",
+     "evidence": "According to the organic regulations, one annual inspection is compulsory for all the clients.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d65892a6e72a",
+     "evidence": "5. Inspection and submitting the inspection report to the certification department",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d23c71138bc2",
+     "evidence": "09. Inspection Reports (During Certification Process)",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -5841,6 +6947,146 @@
    ]
   },
   {
+   "id": "action:teacher_transfer_the_applicant_applies_for_intra_district_transfe",
+   "type": "ACTION",
+   "name": "The applicant applies for intra-district transfer camps by submitting an online applicatio",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant applies for intra-district transfer camps by submitting an online application on the web portal.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:096c6d3cc33f",
+     "evidence": "Online applications are invited on a web portal prepared by the Director of Primary Education.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:teacher_transfer_the_applicant_fills_out_their_choice_of_schools_",
+   "type": "ACTION",
+   "name": "The applicant fills out their choice of schools and uploads documents to prove seniority a",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant fills out their choice of schools and uploads documents to prove seniority and priority.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:096c6d3cc33f",
+     "evidence": "Teachers made an application on the web portal and filled out their choice of schools where vacancies were available. The teacher also uploads the necessary documents to prove his seniority and documents related to his or her priority, if applicable.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:teacher_transfer_the_applicant_submits_a_hard_copy_of_the_online_",
+   "type": "ACTION",
+   "name": "The applicant submits a hard copy of the online application and documents to the Taluka Pr",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant submits a hard copy of the online application and documents to the Taluka Primary Education Officers (TPEO) Office for scrutiny.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:096c6d3cc33f",
+     "evidence": "A hard copy of the online application, along with the necessary documents, is to be deposited with the Taluka Primary Education Officers (TPEO) Office for scrutiny purposes.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:teacher_transfer_the_applicant_receives_the_transfer_order_online",
+   "type": "ACTION",
+   "name": "The applicant receives the transfer order online after the software allots vacant posts ba",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant receives the transfer order online after the software allots vacant posts based on seniority and priority.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:096c6d3cc33f",
+     "evidence": "The transfer order is prepared online, and the teacher can get it online.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:teacher_transfer_the_applicant_gets_relieved_from_their_school_af",
+   "type": "ACTION",
+   "name": "The applicant gets relieved from their school after the TPEO countersigns the transfer ord",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant gets relieved from their school after the TPEO countersigns the transfer order.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:096c6d3cc33f",
+     "evidence": "The TPEO checks the transfer order generated online and countersigns the same. After the counter is signed by the TPEO, the teacher can be relieved from his school for taking charge at his new school.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:teacher_transfer_the_district_primary_education_officer_dpeo_appr",
+   "type": "ACTION",
+   "name": "The District Primary Education Officer (DPEO) approves the teacher's application",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The District Primary Education Officer (DPEO) approves the teacher's application.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:096c6d3cc33f",
+     "evidence": "If the teachers’ application is found to be correct as per the norms, the TPEO forwards this application with his remarks to the DPEO.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:teacher_transfer_the_taluka_primary_education_officer_tpeo_counte",
+   "type": "ACTION",
+   "name": "The Taluka Primary Education Officer (TPEO) countersigns the transfer order",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The Taluka Primary Education Officer (TPEO) countersigns the transfer order.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:096c6d3cc33f",
+     "evidence": "The TPEO checks the transfer order generated online and countersigns the same.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:teacher_transfer",
    "type": "SERVICE",
    "name": "Teacher Transfer",
@@ -5914,6 +7160,18 @@
      "evidence": "50% of the vacant posts of teachers are filled on the basis of the special priority list, which was mentioned earlier in this document, whereas the rest of 50% of the vacant positions of teachers are filled on the basis of seniority.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:096c6d3cc33f",
+     "evidence": "Teachers made an application on the web portal and filled out their choice of schools where vacancies were available. The teacher also uploads the necessary documents to prove his seniority and documents related to his or her priority, if applicable.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:096c6d3cc33f",
+     "evidence": "Online applications are invited on a web portal prepared by the Director of Primary Education.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
     }
    ],
    "lastVerifiedAt": "2026-08-25"
@@ -5935,6 +7193,157 @@
      "verificationStatus": "EXTRACTED"
     }
    ]
+  },
+  {
+   "id": "action:certificate_of_fitness_the_applicant_must_submit_an_application_in_form",
+   "type": "ACTION",
+   "name": "The applicant must submit an application in Form CFRA",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must submit an application in Form CFRA.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Application should be made in Form CFRA along with application form original R.C. Book, Fitness Certificate, Insurance certificate and P.U.C. Certificate should be attached.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:certificate_of_fitness_the_applicant_must_clear_any_due_against_the_veh",
+   "type": "ACTION",
+   "name": "The applicant must clear any due against the vehicle for violation of Motor Vehicle Act",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must clear any due against the vehicle for violation of Motor Vehicle Act.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Any due against of the vehicle for violation of Motor Vehicle Act are also required to be cleared.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:certificate_of_fitness_the_applicant_must_pay_the_renewal_fee_and_vehic",
+   "type": "ACTION",
+   "name": "The applicant must pay the renewal fee and vehicle test fee",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must pay the renewal fee and vehicle test fee.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "A renewal fee and vehicle test fee is required to be paid along with the application.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "document:sale_certificate_in_form_no_21",
+   "type": "DOCUMENT",
+   "name": "Sale Certificate in Form No.21",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Following documents are required to be submitted at concerned R.T.O. with Form-20.\nSale Certificate in Form No.21\nRoad worthiness certificate in Form 22.\nIdentity proof with photographs of applicant.\nVehicle insurance certificate.\nProof of address",
+     "confidence": 0.6,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "document:road_worthiness_certificate_in_form_22",
+   "type": "DOCUMENT",
+   "name": "Road worthiness certificate in Form 22.",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Following documents are required to be submitted at concerned R.T.O. with Form-20.\nSale Certificate in Form No.21\nRoad worthiness certificate in Form 22.\nIdentity proof with photographs of applicant.\nVehicle insurance certificate.\nProof of address",
+     "confidence": 0.6,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "document:identity_proof_with_photographs_of_applicant",
+   "type": "DOCUMENT",
+   "name": "Identity proof with photographs of applicant.",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Following documents are required to be submitted at concerned R.T.O. with Form-20.\nSale Certificate in Form No.21\nRoad worthiness certificate in Form 22.\nIdentity proof with photographs of applicant.\nVehicle insurance certificate.\nProof of address",
+     "confidence": 0.6,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "document:vehicle_insurance_certificate",
+   "type": "DOCUMENT",
+   "name": "Vehicle insurance certificate.",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Following documents are required to be submitted at concerned R.T.O. with Form-20.\nSale Certificate in Form No.21\nRoad worthiness certificate in Form 22.\nIdentity proof with photographs of applicant.\nVehicle insurance certificate.\nProof of address",
+     "confidence": 0.6,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "document:proof_of_address",
+   "type": "DOCUMENT",
+   "name": "Proof of address",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Following documents are required to be submitted at concerned R.T.O. with Form-20.\nSale Certificate in Form No.21\nRoad worthiness certificate in Form 22.\nIdentity proof with photographs of applicant.\nVehicle insurance certificate.\nProof of address",
+     "confidence": 0.6,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "document_group:g_be79a2d591",
+   "type": "DOCUMENT_GROUP",
+   "name": "Following documents are required to be submitted at concerned R.T.O. with Form-20",
+   "officialName": "Following documents are required to be submitted at concerned R.T.O. with Form-20.",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Following documents are required to be submitted at concerned R.T.O. with Form-20.\nSale Certificate in Form No.21\nRoad worthiness certificate in Form 22.\nIdentity proof with photographs of applicant.\nVehicle insurance certificate.\nProof of address",
+     "confidence": 0.6,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:certificate_of_fitness",
@@ -6012,6 +7421,18 @@
     {
      "sourceId": "src:c8a1412ac267",
      "evidence": "and also certify for the following matters, namely:- SHAPEI means S Psychological H Hearing A Appendage P Physical capacity for normal work E Eye sight I meant fit in all respects to perform normal professional functions under each of the above mentioned heads",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Application should be made in Form CFRA along with application form original R.C. Book, Fitness Certificate, Insurance certificate and P.U.C. Certificate should be attached.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Any due against of the vehicle for violation of Motor Vehicle Act are also required to be cleared.",
      "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
@@ -6645,6 +8066,46 @@
    ]
   },
   {
+   "id": "action:gujarat_card_the_applicant_receives_a_gujarat_card_at_the_end",
+   "type": "ACTION",
+   "name": "The applicant receives a Gujarat Card at the end",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant receives a Gujarat Card at the end.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:402f2ca32dff",
+     "evidence": "The NRGF issues 'Gujarat Card’ to non-resident Gujaratis.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:gujarat_card_the_gujarat_card_is_issued_at_a_fee_of_5_00_us_o",
+   "type": "ACTION",
+   "name": "The Gujarat Card is issued at a fee of $5.00 (US) or Rs. 225/- in Indian currency",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The Gujarat Card is issued at a fee of $5.00 (US) or Rs. 225/- in Indian currency.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:402f2ca32dff",
+     "evidence": "The NRGF issues 'Gujarat Card’ to non-resident Gujaratis. 'Gujarat Card' is issued at a fee of $5.00(US) or Rs. 225/- in Indian currency.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:gujarat_card",
    "type": "SERVICE",
    "name": "Gujarat Card",
@@ -6665,6 +8126,18 @@
     {
      "sourceId": "src:402f2ca32dff",
      "evidence": "The Government of Gujarat has introduced a scheme extending financial assistance to Gujarati Samaj upto Rs.40.00 lacs to build the Gujarati Samaj bhavan or buildings and for renovation uptp Rs.10 .00 lacs.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:402f2ca32dff",
+     "evidence": "The NRGF issues 'Gujarat Card’ to non-resident Gujaratis.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:402f2ca32dff",
+     "evidence": "The NRGF issues 'Gujarat Card’ to non-resident Gujaratis. 'Gujarat Card' is issued at a fee of $5.00(US) or Rs. 225/- in Indian currency.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -6749,6 +8222,26 @@
    ]
   },
   {
+   "id": "action:kvk_registration_the_applicant_receives_a_barcode_printed_registr",
+   "type": "ACTION",
+   "name": "The applicant receives a barcode-printed registration form to submit at any KVK in the sta",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant receives a barcode-printed registration form to submit at any KVK in the state.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:a3a32e089536",
+     "evidence": "Print Registration Form Click કરીને બારકોડ વાળી પ્રિન્ટ રાજ્યની કોઇ પણ કેવીકે (KVK) માં જમા કરાવવી.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:kvk_registration",
    "type": "SERVICE",
    "name": "KVK Registration",
@@ -6796,6 +8289,12 @@
     {
      "sourceId": "src:a3a32e089536",
      "evidence": "૬. પ્રિંટ કરતી વખતે આપના Internet Explorer નું Pop-up Blocker off હોવું જોઇએ. પ્રિંટ નવી Window માં ખુલશે.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a3a32e089536",
+     "evidence": "Print Registration Form Click કરીને બારકોડ વાળી પ્રિન્ટ રાજ્યની કોઇ પણ કેવીકે (KVK) માં જમા કરાવવી.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -7075,6 +8574,26 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:utilization_certificate_the_utilization_certificate_and_statement_of_acc",
+   "type": "ACTION",
+   "name": "The Utilization Certificate and Statement of Accounts must be audited by the Finance Offic",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The Utilization Certificate and Statement of Accounts must be audited by the Finance Officer or Account Officer.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d1c9ad61fd1b",
+     "evidence": "Utilization Certificate and Statement of Accounts in prescribed proforma must be duly audited by the Finance Officer/Account Officer.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:utilization_certificate",
    "type": "SERVICE",
    "name": "Utilization certificate",
@@ -7107,6 +8626,12 @@
      "sourceId": "src:1e206910c90b",
      "evidence": "FORMAT FOR CLAIMING DISBURSEMENT OF SUBSIDY UNDER INTEREST SUBSIDY SCHEME FOR HOUSING THE URBAN POOR (ISHUP) OF THE MINISTRY OF HOUSING & URBAN POVERTY ALLEVIATION, GOVERNMENT OF INDIA (To be furnished by Primary Lending Institutions i.e. Banks / Financial Institutions and submitted to the Nodal Agency (HUDCO / NHB))",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:d1c9ad61fd1b",
+     "evidence": "Utilization Certificate and Statement of Accounts in prescribed proforma must be duly audited by the Finance Officer/Account Officer.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -7227,6 +8752,44 @@
    ]
   },
   {
+   "id": "action:caste_certificate_an_applicant_can_apply_for_a_caste_certificate_o",
+   "type": "ACTION",
+   "name": "An applicant can apply for a Caste Certificate online",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "An applicant can apply for a Caste Certificate online.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:9afc60bbeddd",
+     "evidence": "Public user can apply for these services online.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "portal:digitalgujarat_gov_in",
+   "type": "PORTAL",
+   "name": "digitalgujarat.gov.in",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://www.digitalgujarat.gov.in/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:9afc60bbeddd",
+     "evidence": "All these application are available on comman service portal i.e. Digital Gujarat portal. For more information and application please visit to Digital gujarat portal.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "document:opal_green_label",
    "type": "DOCUMENT",
    "name": "Opal green label",
@@ -7255,6 +8818,64 @@
     }
    ],
    "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:sebc_certificate_an_applicant_can_apply_for_the_sebc_certificate_",
+   "type": "ACTION",
+   "name": "An applicant can apply for the SEBC Certificate online",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "An applicant can apply for the SEBC Certificate online.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:9afc60bbeddd",
+     "evidence": "Public user can apply for these services online.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "helpline:18002335500",
+   "type": "HELPLINE",
+   "name": "SEBC certificate helpline",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "channelType": "PHONE",
+    "phoneNumbers": [
+     "18002335500"
+    ]
+   },
+   "sources": [
+    {
+     "sourceId": "src:9afc60bbeddd",
+     "evidence": "For any query regarding the online application you can contact to Digital Gujarat Help Desk on 18002335500.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "office:mamlatdar_office",
+   "type": "OFFICE",
+   "name": "Mamlatdar_office",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "channelType": "PHYSICAL_OFFICE",
+    "address": "Office of the Collector & District Magistrate, Near R.T.O, Ashram Rd, Ahmedabad, Gujarat."
+   },
+   "sources": [
+    {
+     "sourceId": "src:8f7de45e2fb0",
+     "evidence": "## Mamlatdar Office\n\nOffice of the Collector & District Magistrate, Near R.T.O, Ashram Rd, Ahmedabad, Gujarat.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
   }
  ],
  "edges": [
@@ -8075,6 +9696,86 @@
    ]
   },
   {
+   "id": "e:service_veterinary_registration__requires__action_veterinary_registration_the_applicant_must_apply_for_",
+   "from": "service:veterinary_registration",
+   "to": "action:veterinary_registration_the_applicant_must_apply_for_provisional_registr",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must apply for provisional registration on the prescribed Form-XXII.",
+   "sources": [
+    {
+     "sourceId": "src:b95bad3f5be2",
+     "evidence": "Every Graduate shall be required to apply for the provisional registration on the prescribed Form-XXII through the Dean/Principal of the Veterinary College concerned from where he/she completed academic course.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_veterinary_registration__requires__action_veterinary_registration_the_applicant_must_pay_a_fee_",
+   "from": "service:veterinary_registration",
+   "to": "action:veterinary_registration_the_applicant_must_pay_a_fee_of_rupees_one_hundr",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must pay a fee of Rupees One Hundred Fifty for the registration process.",
+   "sources": [
+    {
+     "sourceId": "src:b95bad3f5be2",
+     "evidence": "Application on payment of fees of Rupees One Hundred Fifty only (i.e. included administrative charges of Rs.100/- and I-card Charge Rs.25/-) with any other dues i.e. Renewal Fees only.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_veterinary_registration__requires__action_veterinary_registration_the_applicant_receives_a_prov",
+   "from": "service:veterinary_registration",
+   "to": "action:veterinary_registration_the_applicant_receives_a_provisional_registratio",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives a provisional registration certificate in Form-XXIV.",
+   "sources": [
+    {
+     "sourceId": "src:b95bad3f5be2",
+     "evidence": "The state Council shall issue provisional registration certificate in Form-XXIV to such graduates who have completed their academic requirements for the degree course.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_veterinary_registration__requires__action_veterinary_registration_provisional_registration_is_r",
+   "from": "service:veterinary_registration",
+   "to": "action:veterinary_registration_provisional_registration_is_required_before_unde",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Provisional registration is required before undergoing internship training.",
+   "sources": [
+    {
+     "sourceId": "src:b95bad3f5be2",
+     "evidence": "Every graduate is required to get himself/herself registered provisionally before being allowed to undergo internship training for the prescribed period.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_veterinary_registration__requires__action_veterinary_registration_provisional_registration_is_l",
+   "from": "service:veterinary_registration",
+   "to": "action:veterinary_registration_provisional_registration_is_limited_only_for_the",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Provisional registration is limited only for the internship training.",
+   "sources": [
+    {
+     "sourceId": "src:b95bad3f5be2",
+     "evidence": "The provisional registration shall be limited only for the internship training.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_veterinary_registration__apply_at__portal_gvc_org_in",
    "from": "service:veterinary_registration",
    "to": "portal:gvc_org_in",
@@ -8246,6 +9947,54 @@
      "sourceId": "src:268c6a48bdd4",
      "evidence": "GUJARAT VETERINARY COUNCIL BLOCK NO. 14/1, JIVRAJ MEHTA BHAVAN, SECTOR 10/B, GANDHINAGAR, GUJARAT-382010.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gujarat_veterinary_council_registration__requires__action_gujarat_veterinary_council_registration_an_applicant",
+   "from": "service:gujarat_veterinary_council_registration",
+   "to": "action:gujarat_veterinary_council_registration_an_applicant_must_login_to_verify_or_update_thei",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant must login to verify or update their details in the VCI draft electoral roll (Gujarat) 2020.",
+   "sources": [
+    {
+     "sourceId": "src:f6b2e8c4abe1",
+     "evidence": "Please login to verify/ update your details in “VCI draft electoral roll (Gujarat) 2020” published on www.gvc.org.in",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gujarat_veterinary_council_registration__call_if__helpline_079_23244197",
+   "from": "service:gujarat_veterinary_council_registration",
+   "to": "helpline:079_23244197",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "A phone number for contacting Gujarat Veterinary Council is 079-23244197.",
+   "sources": [
+    {
+     "sourceId": "src:7e6056c2df60",
+     "evidence": "For any information or support please call 079-23244197 .",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:document_registration_certificate__issued_by__department_gujarat_veterinary_council",
+   "from": "document:registration_certificate",
+   "to": "department:gujarat_veterinary_council",
+   "type": "ISSUED_BY",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gujarat Veterinary Council issues registration certificates.",
+   "sources": [
+    {
+     "sourceId": "src:7e6056c2df60",
+     "evidence": "Circular of GVC Regarding Publish of Regi. Certificate, Dated: 3-2-2015",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -8443,6 +10192,182 @@
    ]
   },
   {
+   "id": "e:service_gpsc_recruitment__requires__action_gpsc_recruitment_the_applicant_must_first_go_to_the_w",
+   "from": "service:gpsc_recruitment",
+   "to": "action:gpsc_recruitment_the_applicant_must_first_go_to_the_website_https",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must first go to the website https://gpsc-ojas.gujarat.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "(૧) સૌ પ્ર થમ http://gpsc-ojas.gujarat.gov.in પર જવુાં.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gpsc_recruitment__requires__action_gpsc_recruitment_the_applicant_must_click_on_apply_on",
+   "from": "service:gpsc_recruitment",
+   "to": "action:gpsc_recruitment_the_applicant_must_click_on_apply_on_line",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must click on 'Apply On line'.",
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "(૨) Apply On line Click કરવુાં.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gpsc_recruitment__requires__action_gpsc_recruitment_the_applicant_must_click_on_more_det",
+   "from": "service:gpsc_recruitment",
+   "to": "action:gpsc_recruitment_the_applicant_must_click_on_more_details_to_revi",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must click on 'More Details' to review the advertisement details.",
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "આ પ્ર માણે click કરવાથી (1) More Details તથા (2) Apply Now બટન દેખાશે. સૌપ્રથમ More Details પર Click કરીને જાહેરાતની બધી જ વવગતોનો અભ્ યાસ ઉમેદવારોએ કરવો.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gpsc_recruitment__requires__action_gpsc_recruitment_the_applicant_must_click_on_apply_no",
+   "from": "service:gpsc_recruitment",
+   "to": "action:gpsc_recruitment_the_applicant_must_click_on_apply_now_after_revi",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must click on 'Apply Now' after reviewing the advertisement details.",
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "સૌપ્રથમ More Details પર Click કરીને જાહેરાતની બધી જ વવગતોનો અભ્ યાસ ઉમેદવારોએ કરવો. અને ત્ યારબાદ Apply Now બટન ક્ક્ લક કરવુાં.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gpsc_recruitment__requires__action_gpsc_recruitment_the_applicant_must_click_on_the_post",
+   "from": "service:gpsc_recruitment",
+   "to": "action:gpsc_recruitment_the_applicant_must_click_on_the_post_category_e_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must click on the post category (e.g., 'વ્ યવસ્થાપક , વગગ-૧') to view the details of the position.",
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "(૩)વ્ યવસ્થાપક , વગગ-૧ ઉપર click કરવાથી જગ્યાની વવગતો મળશે",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gpsc_recruitment__requires__action_gpsc_recruitment_the_applicant_must_fill_in_personal_",
+   "from": "service:gpsc_recruitment",
+   "to": "action:gpsc_recruitment_the_applicant_must_fill_in_personal_details_in_t",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must fill in 'Personal Details' in the application format.",
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "Application Format માાં સૌ પ્ર થમ “Personal Details” ઉમેદવારે ભરવી.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gpsc_recruitment__requires__action_gpsc_recruitment_the_applicant_must_provide_a_mobile_",
+   "from": "service:gpsc_recruitment",
+   "to": "action:gpsc_recruitment_the_applicant_must_provide_a_mobile_number_and_e",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must provide a mobile number and email ID in 'Personal Details'.",
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "“Personal Details” માાં જ્ યાાં Mobile Number અને email ID માાંગ્ યા છે, તેની વવગત લખવી જે થી જરૂ ર જણાયે આયોગ ઉમેદવારને મારહતગાર કરી શકે.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gpsc_recruitment__requires__action_gpsc_recruitment_the_applicant_must_click_on_educatio",
+   "from": "service:gpsc_recruitment",
+   "to": "action:gpsc_recruitment_the_applicant_must_click_on_educational_details_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must click on 'Educational Details' and fill in their educational qualifications.",
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "(૫) Personal Details ભરાયા બાદ Educational Details ભરવા માટે Educational Details પર click કરવુાં અને પોતાની શૈક્ષ ચણક વવગ તોભરવી.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gpsc_recruitment__requires__action_gpsc_recruitment_the_applicant_must_click_on_addition",
+   "from": "service:gpsc_recruitment",
+   "to": "action:gpsc_recruitment_the_applicant_must_click_on_additional_qualifica",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must click on 'Additional Qualification' and fill in any additional qualifications.",
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "(૬) Additional Qualification પર“click” કરી Additional Qualification ભરવી.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gpsc_recruitment__requires__action_gpsc_recruitment_the_applicant_must_click_on_experien",
+   "from": "service:gpsc_recruitment",
+   "to": "action:gpsc_recruitment_the_applicant_must_click_on_experience_details_a",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must click on 'Experience Details' and fill in their work experience.",
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "(૭) Experience Details પર “click” કરવુાં અને Experience Details ભરવી.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gpsc_recruitment__requires__action_gpsc_recruitment_the_applicant_must_click_on_add_more",
+   "from": "service:gpsc_recruitment",
+   "to": "action:gpsc_recruitment_the_applicant_must_click_on_add_more_exp_to_add_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must click on 'Add. More Exp.' to add more work experience if needed.",
+   "sources": [
+    {
+     "sourceId": "src:76a97eb43e25",
+     "evidence": "વધુ Experience ઉમેરવા માગતા હોવ તો Add. More Exp.પર “click” કરી Details ભરવી.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_gpsc_recruitment__apply_at__portal_ojas_gujarat_gov_in",
    "from": "service:gpsc_recruitment",
    "to": "portal:ojas_gujarat_gov_in",
@@ -8454,6 +10379,54 @@
      "sourceId": "src:fdf5e160c1cf",
      "evidence": "જો ઉમેદવાર અસલ પ્ર માણપત્ર રજુ કરશે નહીં તો તેઓ રૂ બરૂ મુલાકાત માટે પાત્ર બનશે નહીં તેની ખાસ નોં ધ લેવી.",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_domicile_certificate__requires__action_domicile_certificate_the_applicant_must_collect_the_r",
+   "from": "service:domicile_certificate",
+   "to": "action:domicile_certificate_the_applicant_must_collect_the_required_proofs",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must collect the required proofs.",
+   "sources": [
+    {
+     "sourceId": "src:5d3ed28982ae",
+     "evidence": "## Proofs Needed:\n\n- Panchnamu\n- Certificate of Talati.\n- Applicant Answer\n- Domicile by Birth (Birth Certificate)\n- Proof of Parent’s Job/Business\n- No Objection Certificate of Police Station\n- Character Certificate\n- Affidavit\n- Last 10 years residence proof\n- Identity Proof\n- Resident Proof",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_domicile_certificate__requires__action_domicile_certificate_the_applicant_must_visit_the_tal",
+   "from": "service:domicile_certificate",
+   "to": "action:domicile_certificate_the_applicant_must_visit_the_taluka_mamlatdar_of",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must visit the Taluka Mamlatdar office.",
+   "sources": [
+    {
+     "sourceId": "src:5d3ed28982ae",
+     "evidence": "**Location** : Respective Taluka Mamlatdar office \\| **City** : All Talukas",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_domicile_certificate__apply_at__portal_digitalgujarat_gov_in_550477",
+   "from": "service:domicile_certificate",
+   "to": "portal:digitalgujarat_gov_in_550477",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant can access additional information through the Digital Gujarat website.",
+   "sources": [
+    {
+     "sourceId": "src:5d3ed28982ae",
+     "evidence": "**Visit**: [https://www.digitalgujarat.gov.in/Citizen/ServiceDescription.aspx](https://www.digitalgujarat.gov.in/Citizen/ServiceDescription.aspx)",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -8485,6 +10458,22 @@
     {
      "sourceId": "src:449ac59ef784",
      "evidence": "WhatsApp 63599 30020",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_virtual_civic_center__requires__action_virtual_civic_center_an_applicant_can_access_various_",
+   "from": "service:virtual_civic_center",
+   "to": "action:virtual_civic_center_an_applicant_can_access_various_services_through",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant can access various services through the Virtual Civic Center from anywhere at any time.",
+   "sources": [
+    {
+     "sourceId": "src:449ac59ef784",
+     "evidence": "Virtual Civic Center provides simple and convenient way for citizens to access various services from anywhere at anytime.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -8821,6 +10810,38 @@
     {
      "sourceId": "src:11f0a6d6e363",
      "evidence": "3.HOW CAN I CLEAR MY QUERIES WITH REGARDS TO THE QUESTIONNAIRE? For any questionnaire related queries refer to SVP indicator guide or email on ssa.ssggujarat@gmail.com",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_saksham_shala__requires__action_saksham_shala_the_applicant_can_access_the_saksham_sh",
+   "from": "service:saksham_shala",
+   "to": "action:saksham_shala_the_applicant_can_access_the_saksham_shala_appli",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant can access the Saksham Shala Application.",
+   "sources": [
+    {
+     "sourceId": "src:11f0a6d6e363",
+     "evidence": "Saksham Shala Application",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_saksham_shala__requires__action_saksham_shala_the_applicant_can_access_guidance_for_k",
+   "from": "service:saksham_shala",
+   "to": "action:saksham_shala_the_applicant_can_access_guidance_for_key_questi",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant can access guidance for key questions.",
+   "sources": [
+    {
+     "sourceId": "src:11f0a6d6e363",
+     "evidence": "Guidance for key questions",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -9291,6 +11312,70 @@
    ]
   },
   {
+   "id": "e:service_tourist_guide_certificate__requires__action_tourist_guide_certificate_applicants_must_submit_thei",
+   "from": "service:tourist_guide_certificate",
+   "to": "action:tourist_guide_certificate_applicants_must_submit_their_applications_online",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Applicants must submit their applications online through the Gujarat Tourism website.",
+   "sources": [
+    {
+     "sourceId": "src:3772e9d020d4",
+     "evidence": "Applicants shall submit their applications online through Gujarat Tourism website www.gujarattourism.com in the prescribed Pro forma along with photocopies of all documents required as proof of their eligibility and in no case; applicants would be allowed to submit any additional documents as proof at a later stage.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_tourist_guide_certificate__requires__action_tourist_guide_certificate_applicants_must_submit_orig",
+   "from": "service:tourist_guide_certificate",
+   "to": "action:tourist_guide_certificate_applicants_must_submit_original_documents_for_ve",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Applicants must submit original documents for verification.",
+   "sources": [
+    {
+     "sourceId": "src:3772e9d020d4",
+     "evidence": "The applicants shall submit all original documents for verification. Failure to produce original documents would lead to rejection of candidature.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_tourist_guide_certificate__requires__action_tourist_guide_certificate_applicants_must_submit_proo",
+   "from": "service:tourist_guide_certificate",
+   "to": "action:tourist_guide_certificate_applicants_must_submit_proof_of_domicile_with_th",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Applicants must submit proof of domicile with their application for the Guide Training Course.",
+   "sources": [
+    {
+     "sourceId": "src:3772e9d020d4",
+     "evidence": "Candidates have to submit the proof of Domicile with the application of admission for the Guide Training Course.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_tourist_guide_certificate__requires__action_tourist_guide_certificate_applicants_must_submit_a_po",
+   "from": "service:tourist_guide_certificate",
+   "to": "action:tourist_guide_certificate_applicants_must_submit_a_police_clearance_certif",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Applicants must submit a Police Clearance Certificate from the local issuing authority.",
+   "sources": [
+    {
+     "sourceId": "src:3772e9d020d4",
+     "evidence": "Candidates will have to submit a Police Clearance Certificate from the local issuing authority for verification of non existence of any previous criminal record/cases for the safety of the tourist.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_tourist_guide_certificate__apply_at__portal_gujarattourism_com",
    "from": "service:tourist_guide_certificate",
    "to": "portal:gujarattourism_com",
@@ -9509,6 +11594,118 @@
     {
      "sourceId": "src:a785edfb12ce",
      "evidence": "The applicant is further required to provide the Aadhaar card, ration card, Aadhaar-linked bank account details, self-certification or self-declaration form (available only at Jan Suvidha Kendra or Shramik Suvidha Kendra), and Aadhaar cards of dependents.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_labour_card__requires__action_labour_card_the_applicant_must_register_or_renew_the_",
+   "from": "service:labour_card",
+   "to": "action:labour_card_the_applicant_must_register_or_renew_the_labour_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must register or renew the labour card online through the nearest Jan Suvidha Kendra or Shramik Suvidha Kendra.",
+   "sources": [
+    {
+     "sourceId": "src:a785edfb12ce",
+     "evidence": "- Building and construction workers can register or renew their labour card online through the nearest Jan Suvidha Kendra or Shramik Suvidha Kendra.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_labour_card__requires__action_labour_card_the_applicant_must_submit_two_passport_si",
+   "from": "service:labour_card",
+   "to": "action:labour_card_the_applicant_must_submit_two_passport_size_phot",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must submit two passport-size photographs along with the application form.",
+   "sources": [
+    {
+     "sourceId": "src:a785edfb12ce",
+     "evidence": "- To apply online, the applicant must submit two passport-size photographs along with the application form.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_labour_card__requires__action_labour_card_the_applicant_must_submit_proof_of_age_by",
+   "from": "service:labour_card",
+   "to": "action:labour_card_the_applicant_must_submit_proof_of_age_by_provid",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must submit proof of age by providing one of the specified documents.",
+   "sources": [
+    {
+     "sourceId": "src:a785edfb12ce",
+     "evidence": "- To apply online, the applicant must submit two passport-size photographs along with the application form. For age verification, any one of the following documents is required: 10th certificate, birth certificate, certificate issued by a medical officer, notarized affidavit of the construction worker, voter identity card, ration card, or a certificate issued by the Village Panchayat Officer, Village Head, or Councillor.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_labour_card__requires__action_labour_card_the_applicant_must_submit_a_certificate_o",
+   "from": "service:labour_card",
+   "to": "action:labour_card_the_applicant_must_submit_a_certificate_of_havin",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must submit a certificate of having worked as a construction worker for at least 90 days in the previous year and a nomination form for legal heirs.",
+   "sources": [
+    {
+     "sourceId": "src:a785edfb12ce",
+     "evidence": "- A certificate of having worked as a construction worker for at least 90 days in the previous year, along with a nomination form for nominating legal heirs, must also be submitted.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_labour_card__requires__action_labour_card_the_applicant_must_provide_the_aadhaar_ca",
+   "from": "service:labour_card",
+   "to": "action:labour_card_the_applicant_must_provide_the_aadhaar_card_rati",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must provide the Aadhaar card, ration card, Aadhaar-linked bank account details, self-certification or self-declaration form, and Aadhaar cards of dependents.",
+   "sources": [
+    {
+     "sourceId": "src:a785edfb12ce",
+     "evidence": "- The applicant is further required to provide the Aadhaar card, ration card, Aadhaar-linked bank account details, self-certification or self-declaration form (available only at Jan Suvidha Kendra or Shramik Suvidha Kendra), and Aadhaar cards of dependents.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_labour_card__requires__action_labour_card_the_application_is_forwarded_to_the_conce",
+   "from": "service:labour_card",
+   "to": "action:labour_card_the_application_is_forwarded_to_the_concerned_de",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The application is forwarded to the concerned department for verification.",
+   "sources": [
+    {
+     "sourceId": "src:a785edfb12ce",
+     "evidence": "- The application is then forwarded to the concerned department. If the documents are verified and found correct, the worker’s details will be entered in the Labour Register, and the registration number assigned will serve as the worker’s official registration number.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_labour_card__requires__action_labour_card_the_registration_officer_will_issue_a_pho",
+   "from": "service:labour_card",
+   "to": "action:labour_card_the_registration_officer_will_issue_a_photo_iden",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Registration Officer will issue a Photo Identity Card to the applicant.",
+   "sources": [
+    {
+     "sourceId": "src:a785edfb12ce",
+     "evidence": "- Once the registration is approved, the Registration Officer will issue a Photo Identity Card, which the worker can collect from the Public Service Centre of the concerned department or from the office of the Labour Department.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -10555,6 +12752,70 @@
    ]
   },
   {
+   "id": "e:service_certification__issued_by__department_certifying_agency",
+   "from": "service:certification",
+   "to": "department:certifying_agency",
+   "type": "ISSUED_BY",
+   "verificationStatus": "EXTRACTED",
+   "note": "The certifying agency issues the Fitness Certificate and Builder’s Certification for pleasure craft or boats.",
+   "sources": [
+    {
+     "sourceId": "src:48ecc2904bee",
+     "evidence": "Fitness Certificate and Builder’s Certification of the pleasure craft / boat issued by the certifying agency as prescribed in these rules, certifying the fitness of the pleasure craft/boat for the intended operation;",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_certification__requires__action_certification_an_annual_inspection_is_compulsory_for_",
+   "from": "service:certification",
+   "to": "action:certification_an_annual_inspection_is_compulsory_for_all_clien",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An annual inspection is compulsory for all clients according to the organic regulations.",
+   "sources": [
+    {
+     "sourceId": "src:d65892a6e72a",
+     "evidence": "According to the organic regulations, one annual inspection is compulsory for all the clients.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_certification__requires__action_certification_inspection_and_submission_of_the_inspec",
+   "from": "service:certification",
+   "to": "action:certification_inspection_and_submission_of_the_inspection_repo",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Inspection and submission of the inspection report to the certification department is part of the certification process.",
+   "sources": [
+    {
+     "sourceId": "src:d65892a6e72a",
+     "evidence": "5. Inspection and submitting the inspection report to the certification department",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_certification__requires__action_certification_inspection_reports_are_required_during_",
+   "from": "service:certification",
+   "to": "action:certification_inspection_reports_are_required_during_the_certi",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Inspection reports are required during the certification process.",
+   "sources": [
+    {
+     "sourceId": "src:d23c71138bc2",
+     "evidence": "09. Inspection Reports (During Certification Process)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_certification__apply_at__portal_girsomnath_gujarat_gov_in",
    "from": "service:certification",
    "to": "portal:girsomnath_gujarat_gov_in",
@@ -10795,6 +13056,118 @@
    ]
   },
   {
+   "id": "e:service_teacher_transfer__requires__action_teacher_transfer_the_applicant_applies_for_intra_dist",
+   "from": "service:teacher_transfer",
+   "to": "action:teacher_transfer_the_applicant_applies_for_intra_district_transfe",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant applies for intra-district transfer camps by submitting an online application on the web portal.",
+   "sources": [
+    {
+     "sourceId": "src:096c6d3cc33f",
+     "evidence": "Online applications are invited on a web portal prepared by the Director of Primary Education.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_teacher_transfer__requires__action_teacher_transfer_the_applicant_fills_out_their_choice",
+   "from": "service:teacher_transfer",
+   "to": "action:teacher_transfer_the_applicant_fills_out_their_choice_of_schools_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant fills out their choice of schools and uploads documents to prove seniority and priority.",
+   "sources": [
+    {
+     "sourceId": "src:096c6d3cc33f",
+     "evidence": "Teachers made an application on the web portal and filled out their choice of schools where vacancies were available. The teacher also uploads the necessary documents to prove his seniority and documents related to his or her priority, if applicable.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_teacher_transfer__requires__action_teacher_transfer_the_applicant_submits_a_hard_copy_of",
+   "from": "service:teacher_transfer",
+   "to": "action:teacher_transfer_the_applicant_submits_a_hard_copy_of_the_online_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant submits a hard copy of the online application and documents to the Taluka Primary Education Officers (TPEO) Office for scrutiny.",
+   "sources": [
+    {
+     "sourceId": "src:096c6d3cc33f",
+     "evidence": "A hard copy of the online application, along with the necessary documents, is to be deposited with the Taluka Primary Education Officers (TPEO) Office for scrutiny purposes.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_teacher_transfer__requires__action_teacher_transfer_the_applicant_receives_the_transfer_",
+   "from": "service:teacher_transfer",
+   "to": "action:teacher_transfer_the_applicant_receives_the_transfer_order_online",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives the transfer order online after the software allots vacant posts based on seniority and priority.",
+   "sources": [
+    {
+     "sourceId": "src:096c6d3cc33f",
+     "evidence": "The transfer order is prepared online, and the teacher can get it online.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_teacher_transfer__requires__action_teacher_transfer_the_applicant_gets_relieved_from_the",
+   "from": "service:teacher_transfer",
+   "to": "action:teacher_transfer_the_applicant_gets_relieved_from_their_school_af",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant gets relieved from their school after the TPEO countersigns the transfer order.",
+   "sources": [
+    {
+     "sourceId": "src:096c6d3cc33f",
+     "evidence": "The TPEO checks the transfer order generated online and countersigns the same. After the counter is signed by the TPEO, the teacher can be relieved from his school for taking charge at his new school.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_teacher_transfer__requires__action_teacher_transfer_the_district_primary_education_offic",
+   "from": "service:teacher_transfer",
+   "to": "action:teacher_transfer_the_district_primary_education_officer_dpeo_appr",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The District Primary Education Officer (DPEO) approves the teacher's application.",
+   "sources": [
+    {
+     "sourceId": "src:096c6d3cc33f",
+     "evidence": "If the teachers’ application is found to be correct as per the norms, the TPEO forwards this application with his remarks to the DPEO.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_teacher_transfer__requires__action_teacher_transfer_the_taluka_primary_education_officer",
+   "from": "service:teacher_transfer",
+   "to": "action:teacher_transfer_the_taluka_primary_education_officer_tpeo_counte",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Taluka Primary Education Officer (TPEO) countersigns the transfer order.",
+   "sources": [
+    {
+     "sourceId": "src:096c6d3cc33f",
+     "evidence": "The TPEO checks the transfer order generated online and countersigns the same.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_teacher_transfer__apply_at__portal_dpe_gujarat_gov_in",
    "from": "service:teacher_transfer",
    "to": "portal:dpe_gujarat_gov_in",
@@ -10805,6 +13178,86 @@
     {
      "sourceId": "src:096c6d3cc33f",
      "evidence": "A teacher who has completed three years of his or her service in his or her current school can participate in this camp.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_certificate_of_fitness__requires__action_certificate_of_fitness_the_applicant_must_submit_an_a",
+   "from": "service:certificate_of_fitness",
+   "to": "action:certificate_of_fitness_the_applicant_must_submit_an_application_in_form",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must submit an application in Form CFRA.",
+   "sources": [
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Application should be made in Form CFRA along with application form original R.C. Book, Fitness Certificate, Insurance certificate and P.U.C. Certificate should be attached.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_certificate_of_fitness__requires__action_certificate_of_fitness_the_applicant_must_clear_any_d",
+   "from": "service:certificate_of_fitness",
+   "to": "action:certificate_of_fitness_the_applicant_must_clear_any_due_against_the_veh",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must clear any due against the vehicle for violation of Motor Vehicle Act.",
+   "sources": [
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Any due against of the vehicle for violation of Motor Vehicle Act are also required to be cleared.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_certificate_of_fitness__requires__action_certificate_of_fitness_the_applicant_must_pay_the_ren",
+   "from": "service:certificate_of_fitness",
+   "to": "action:certificate_of_fitness_the_applicant_must_pay_the_renewal_fee_and_vehic",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must pay the renewal fee and vehicle test fee.",
+   "sources": [
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "A renewal fee and vehicle test fee is required to be paid along with the application.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_certificate_of_fitness__requires__document_group_g_be79a2d591",
+   "from": "service:certificate_of_fitness",
+   "to": "document_group:g_be79a2d591",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Following documents are required to be submitted at concerned R.T.O. with Form-20.",
+   "sources": [
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Following documents are required to be submitted at concerned R.T.O. with Form-20.\nSale Certificate in Form No.21\nRoad worthiness certificate in Form 22.\nIdentity proof with photographs of applicant.\nVehicle insurance certificate.\nProof of address",
+     "confidence": 0.6,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_certificate_of_fitness__issued_by__department_certifying_agency",
+   "from": "service:certificate_of_fitness",
+   "to": "department:certifying_agency",
+   "type": "ISSUED_BY",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Fitness Certificate is issued by the certifying agency.",
+   "sources": [
+    {
+     "sourceId": "src:48ecc2904bee",
+     "evidence": "Fitness Certificate and Builder’s Certification of the pleasure craft / boat issued by the certifying agency as prescribed in these rules, certifying the fitness of the pleasure craft/boat for the intended operation;",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -11483,6 +13936,38 @@
    ]
   },
   {
+   "id": "e:service_gujarat_card__requires__action_gujarat_card_the_applicant_receives_a_gujarat_card_at",
+   "from": "service:gujarat_card",
+   "to": "action:gujarat_card_the_applicant_receives_a_gujarat_card_at_the_end",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives a Gujarat Card at the end.",
+   "sources": [
+    {
+     "sourceId": "src:402f2ca32dff",
+     "evidence": "The NRGF issues 'Gujarat Card’ to non-resident Gujaratis.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gujarat_card__requires__action_gujarat_card_the_gujarat_card_is_issued_at_a_fee_of_5",
+   "from": "service:gujarat_card",
+   "to": "action:gujarat_card_the_gujarat_card_is_issued_at_a_fee_of_5_00_us_o",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gujarat Card is issued at a fee of $5.00 (US) or Rs. 225/- in Indian currency.",
+   "sources": [
+    {
+     "sourceId": "src:402f2ca32dff",
+     "evidence": "The NRGF issues 'Gujarat Card’ to non-resident Gujaratis. 'Gujarat Card' is issued at a fee of $5.00(US) or Rs. 225/- in Indian currency.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_gujarat_card__apply_at__portal_nri_gujarat_gov_in",
    "from": "service:gujarat_card",
    "to": "portal:nri_gujarat_gov_in",
@@ -11573,6 +14058,22 @@
     {
      "sourceId": "src:1b74c860ba97",
      "evidence": "પ્રોવિઝનલ મેરીટ લિસ્ટમાં પસંદગી પામેલ ઉમેદવારોના અસલ પ્રમાણપત્રોની ચકાસણીનું ચેકલીસ્ટ",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_kvk_registration__requires__action_kvk_registration_the_applicant_receives_a_barcode_pri",
+   "from": "service:kvk_registration",
+   "to": "action:kvk_registration_the_applicant_receives_a_barcode_printed_registr",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives a barcode-printed registration form to submit at any KVK in the state.",
+   "sources": [
+    {
+     "sourceId": "src:a3a32e089536",
+     "evidence": "Print Registration Form Click કરીને બારકોડ વાળી પ્રિન્ટ રાજ્યની કોઇ પણ કેવીકે (KVK) માં જમા કરાવવી.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -11739,6 +14240,22 @@
    ]
   },
   {
+   "id": "e:service_utilization_certificate__requires__action_utilization_certificate_the_utilization_certificate_a",
+   "from": "service:utilization_certificate",
+   "to": "action:utilization_certificate_the_utilization_certificate_and_statement_of_acc",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Utilization Certificate and Statement of Accounts must be audited by the Finance Officer or Account Officer.",
+   "sources": [
+    {
+     "sourceId": "src:d1c9ad61fd1b",
+     "evidence": "Utilization Certificate and Statement of Accounts in prescribed proforma must be duly audited by the Finance Officer/Account Officer.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_utilization_certificate__apply_at__portal_nhb_org_in",
    "from": "service:utilization_certificate",
    "to": "portal:nhb_org_in",
@@ -11782,6 +14299,102 @@
      "sourceId": "src:09970aee86f9",
      "evidence": "Certificate For Knee Replacement Under MA & PMAJY",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_caste_certificate__requires__action_caste_certificate_an_applicant_can_apply_for_a_caste_",
+   "from": "service:caste_certificate",
+   "to": "action:caste_certificate_an_applicant_can_apply_for_a_caste_certificate_o",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant can apply for a Caste Certificate online.",
+   "sources": [
+    {
+     "sourceId": "src:9afc60bbeddd",
+     "evidence": "Public user can apply for these services online.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_caste_certificate__apply_at__portal_digitalgujarat_gov_in",
+   "from": "service:caste_certificate",
+   "to": "portal:digitalgujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant should visit the Digital Gujarat portal to apply for a Caste Certificate.",
+   "sources": [
+    {
+     "sourceId": "src:9afc60bbeddd",
+     "evidence": "All these application are available on comman service portal i.e. Digital Gujarat portal. For more information and application please visit to Digital gujarat portal.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_sebc_certificate__requires__action_sebc_certificate_an_applicant_can_apply_for_the_sebc_",
+   "from": "service:sebc_certificate",
+   "to": "action:sebc_certificate_an_applicant_can_apply_for_the_sebc_certificate_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant can apply for the SEBC Certificate online.",
+   "sources": [
+    {
+     "sourceId": "src:9afc60bbeddd",
+     "evidence": "Public user can apply for these services online.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_sebc_certificate__apply_at__portal_digitalgujarat_gov_in",
+   "from": "service:sebc_certificate",
+   "to": "portal:digitalgujarat_gov_in",
+   "type": "APPLY_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant should visit the Digital Gujarat portal to apply for the SEBC Certificate.",
+   "sources": [
+    {
+     "sourceId": "src:9afc60bbeddd",
+     "evidence": "All these application are available on comman service portal i.e. Digital Gujarat portal. For more information and application please visit to Digital gujarat portal.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_sebc_certificate__call_if__helpline_18002335500",
+   "from": "service:sebc_certificate",
+   "to": "helpline:18002335500",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "Citizens can contact the Digital Gujarat Help Desk for queries regarding online applications.",
+   "sources": [
+    {
+     "sourceId": "src:9afc60bbeddd",
+     "evidence": "For any query regarding the online application you can contact to Digital Gujarat Help Desk on 18002335500.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_sebc_certificate__visit_at__office_mamlatdar_office",
+   "from": "service:sebc_certificate",
+   "to": "office:mamlatdar_office",
+   "type": "VISIT_AT",
+   "verificationStatus": "EXTRACTED",
+   "note": "The SEBC Certificate is issued at the Mamlatdar Office in Ahmedabad.",
+   "sources": [
+    {
+     "sourceId": "src:8f7de45e2fb0",
+     "evidence": "## Mamlatdar Office\n\nOffice of the Collector & District Magistrate, Near R.T.O, Ashram Rd, Ahmedabad, Gujarat.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -11864,6 +14477,37 @@
     {
      "sourceId": "src:e66cd6dfc8ab",
      "evidence": "The following documents are required for Hypothecation Addition.\nRegistration certificate in original\nForm no.34 duly filled (for endorsement of Hypothecation)",
+     "confidence": 0.6,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "rg:g_be79a2d591",
+   "ownerNodeId": "document_group:g_be79a2d591",
+   "mode": "ALL_OF",
+   "jurisdictionId": "IN-GJ",
+   "members": [
+    {
+     "nodeId": "document:sale_certificate_in_form_no_21"
+    },
+    {
+     "nodeId": "document:road_worthiness_certificate_in_form_22"
+    },
+    {
+     "nodeId": "document:identity_proof_with_photographs_of_applicant"
+    },
+    {
+     "nodeId": "document:vehicle_insurance_certificate"
+    },
+    {
+     "nodeId": "document:proof_of_address"
+    }
+   ],
+   "sources": [
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "Following documents are required to be submitted at concerned R.T.O. with Form-20.\nSale Certificate in Form No.21\nRoad worthiness certificate in Form 22.\nIdentity proof with photographs of applicant.\nVehicle insurance certificate.\nProof of address",
      "confidence": 0.6,
      "verificationStatus": "EXTRACTED"
     }

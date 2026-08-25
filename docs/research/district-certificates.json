@@ -112,6 +112,30 @@
    "scrapedOk": true
   },
   {
+   "id": "src:f6b2e8c4abe1",
+   "url": "https://gvc.org.in/",
+   "title": "Gujarat Veterinary Council",
+   "domain": "gvc.org.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "a3c40f371fd99a226d4fb159c5149dd1edd7d849f328d8a10dc8da9649965219",
+   "cacheFile": ".ingest/pages/f6b2e8c4abe15a3be44979f7a13fd8b69f190406.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:7e6056c2df60",
+   "url": "https://gvc.org.in/webcontroller/contactgvc",
+   "title": "Gujarat Veterinary Council",
+   "domain": "gvc.org.in",
+   "sourceType": "HELPLINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "cb9275c4dd98f25ea12837f6c914ee05a15c02d940b4fe42becb333316b913f9",
+   "cacheFile": ".ingest/pages/7e6056c2df60119dba9f23f64c8c9919a8717715.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:fdf5e160c1cf",
    "url": "https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201617_120.pdf#page=11",
    "title": "GPSC_201617_120 (page 11 of 16)",
@@ -160,6 +184,30 @@
    "scrapedOk": true
   },
   {
+   "id": "src:76a97eb43e25",
+   "url": "https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201617_120.pdf#page=13",
+   "title": "GPSC_201617_120 (page 13 of 16)",
+   "domain": "ojas.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "2e1eaabb618121a7dbd7bdd3e0cf3655b7321b21ea1034af222f803ef663e527",
+   "cacheFile": ".ingest/pages/76a97eb43e255624f19b18b284a345cc7627812b.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:5d3ed28982ae",
+   "url": "https://morbi.nic.in/service/domicile-certificate",
+   "title": "Domicile Certificate | District Morbi, Government of Gujarat",
+   "domain": "morbi.nic.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-MORBI",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "735bc38a085f60e20eb43644045d7e94005bb3f7e9ac94cb5eafd4029311719d",
+   "cacheFile": ".firecrawl/research/morbi-domicile.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:449ac59ef784",
    "url": "https://suratmunicipal.gov.in/",
    "title": "Surat Municipal Corporation",
@@ -169,6 +217,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "47137b014ff3692d47cb503157f78abe9f15b414941a73e90876e00df97b0edc",
    "cacheFile": ".ingest/pages/449ac59ef7842344e1e654219726d69d2c11c2a7.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:0c5990334d3a",
+   "url": "https://suratmunicipal.gov.in/epay/SocietyRegistration/SocietyRegistration.aspx",
+   "title": "Virtual Civic Center (Online Services) :: Surat Municipal Corporation",
+   "domain": "suratmunicipal.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "3bc3a004abc9dea075300a30b1c43ad1a0783566821add1551306c6aabfea948",
+   "cacheFile": ".ingest/pages/0c5990334d3a48f9607f1f2ea84f520c750b4545.md",
    "scrapedOk": true
   },
   {
@@ -448,6 +508,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:8dbb9c2ff78f",
+   "url": "https://collectorpanchmahal.gujarat.gov.in/showpage.aspx?contentid=390",
+   "title": "નોન ક્રીમીલેયર પ્રમાણપત્ર મેળવવા અંગે અરજી | Certificate | Jan Seva Kendra form | Collectorate - District Panchmahal",
+   "domain": "collectorpanchmahal.gujarat.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ-PANCHMAHAL",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "53cbaa133e8a52faaa48b5819ba40f5cd06311b53d34db7c1fbf2eeba34d4bed",
+   "cacheFile": ".ingest/pages/8dbb9c2ff78f480ad8fed18d74ab7f1995925e79.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:1072e2dbfef9",
    "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=3",
    "title": "englishGuideline (page 3 of 10)",
@@ -457,6 +529,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "416c240e285b1747a507f75754bf1fe93bbb8b9816bdc62a3b5720d1a695d32e",
    "cacheFile": ".ingest/pages/1072e2dbfef9c26bfb08f133d48676db2cf20f56.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:3772e9d020d4",
+   "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=2",
+   "title": "englishGuideline (page 2 of 10)",
+   "domain": "gujarattourism.com",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "2793d76ed0824319ee7d044c264f4c1e5773db25100c726e10bcba89c77a8660",
+   "cacheFile": ".ingest/pages/3772e9d020d4d2af7326e81f8889988c7efc1e98.md",
    "scrapedOk": true
   },
   {
@@ -844,6 +928,42 @@
    "scrapedOk": true
   },
   {
+   "id": "src:48ecc2904bee",
+   "url": "https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=3",
+   "title": "Vessal_25102024 (page 3 of 21)",
+   "domain": "pnt.gujarat.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ed4565fea540efde8695718d29ac4f932f2c308746428dd160afb436f02ac09e",
+   "cacheFile": ".ingest/pages/48ecc2904bee479f2588bcd74f8e2b05eda0df3a.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:d65892a6e72a",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/shrihariagri512015.pdf#page=27",
+   "title": "shrihariagri512015 (page 27 of 78)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "cbfcbb10594b773bcfeab9a886c54e1be507f33240b947c121ff5ed502c2acc8",
+   "cacheFile": ".ingest/pages/d65892a6e72a1abc317f1e255a0c011c4b40e976.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:d23c71138bc2",
+   "url": "https://www.myscheme.gov.in/schemes/pkvy",
+   "title": "Paramparagat Krishi Vikas Yojana",
+   "domain": "myscheme.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "62b5b0ae418b42751aca991616fb029e6b72f68b5317a14ca29912053c6600d5",
+   "cacheFile": ".ingest/pages/d23c71138bc2a4ca57c95fcd8519cacb95c53025.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:3b4bcc8a0fc8",
    "url": "https://jamnagardp.gujarat.gov.in/gu/Applications",
    "title": "અરજી પત્રકો | જામનગર જિલ્લા પંચાયત",
@@ -949,6 +1069,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "42cc050c16b8cae47f7c9083d6cbb9ca8d9c66ce9a2603da240c7ff6370ff771",
    "cacheFile": ".ingest/pages/c8a1412ac267d76de50134aac24917540254086b.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:8f130659de66",
+   "url": "https://cot.gujarat.gov.in/vehicle-registration.htm",
+   "title": "Vehicle Registration | Services | Commissionerate of Transport, Government of Gujarat",
+   "domain": "cot.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "790b7ee6ea67c396cfa3a046d58cc9867c6eddfbafa0f05e91fbdd30bace39b1",
+   "cacheFile": ".ingest/pages/8f130659de6612a244b05185f4a65bf1806e2f4c.md",
    "scrapedOk": true
   },
   {
@@ -1072,6 +1204,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:3757b69b6a17",
+   "url": "https://collectorvadodara.gujarat.gov.in/showpage.aspx?contentid=390",
+   "title": "નોન ક્રીમીલેયર પ્રમાણપત્ર મેળવવા અંગે અરજી | Certificate | Jan Seva Kendra form | Collectorate - District Vadodara",
+   "domain": "collectorvadodara.gujarat.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ-VADODARA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "f921ed4b0bf181a2e9a5f954c8dc3086c8868b770c6ca5cea3db83f1b0243602",
+   "cacheFile": ".ingest/pages/3757b69b6a17dd2556ac8909466fa5a9b0beaaff.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:402f2ca32dff",
    "url": "https://nri.gujarat.gov.in/home/importantprojects",
    "title": "Home Page",
@@ -1168,6 +1312,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:c184adf1ee34",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/chief-ministergi-shotharabasingi-tengbang_cmst.html",
+   "title": "Chief Ministergi Shotharabasingi Tengbang",
+   "domain": "web.umang.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "b52fb370fd0da30158cdadb60ff74e3f0a106bd9ab0dc635c5774b91326a0d1c",
+   "cacheFile": ".ingest/pages/c184adf1ee340591624d4031908cb6d591c270f6.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:1e206910c90b",
    "url": "https://www.nhb.org.in/format-for-utilization-certificate",
    "title": "Format for Utilization certificate - National Housing Bank",
@@ -1177,6 +1333,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "0dd1b03d3de4b164a0094e2bd7e78edbffaccd93b192612a4f26430c359b68c2",
    "cacheFile": ".ingest/pages/1e206910c90be35201442cc59250979af27dc34d.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:d1c9ad61fd1b",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/aicte-grant-for-augmenting-infrastructure-in-north-eastern-region_a-gainer.html",
+   "title": "AICTE - Grant For Augmenting Infrastructure In North Eastern Region",
+   "domain": "web.umang.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "2e5f1b8b138d8a4cb919526a1b3dd884de53899a72bb813202fbe0dce4d4ae0b",
+   "cacheFile": ".ingest/pages/d1c9ad61fd1b7491c9cbd6a36ad54bc94c37489a.md",
    "scrapedOk": true
   },
   {
@@ -1204,6 +1372,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:9afc60bbeddd",
+   "url": "https://surat.nic.in/service/caste-certificate",
+   "title": "Caste Certificate | District Surat, Government of Gujarat",
+   "domain": "surat.nic.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "0838ddc398cd0e648f7d10876aaa13cdf34a4eb3aa7597c57565dcbddf8fccad",
+   "cacheFile": ".firecrawl/research/surat-caste.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:3e9caf77dc5a",
    "url": "https://gssca.gujarat.gov.in/ImportantActivites/BiyarananuCertificate",
    "title": "Gujarat State Seed Certificate Agency",
@@ -1213,6 +1393,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "b7f421f2fa593fc3c054b6ac627a22f2abc07b7770f3c2f86114fd34a3d54567",
    "cacheFile": ".ingest/pages/3e9caf77dc5a1d2b3f4db0350915a4a6dcf9514a.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:8f7de45e2fb0",
+   "url": "https://ahmedabad.nic.in/service/sebc-certificate",
+   "title": "SEBC Certificate | District Ahmedabad, Government of Gujarat",
+   "domain": "ahmedabad.nic.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ-AHMEDABAD",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d5cd6f62ca7f1ff98b64537d5c0fdec5918c6a37212fd4701864e0fbe26c8f57",
+   "cacheFile": ".firecrawl/research/ahd-sebc.md",
    "scrapedOk": true
   }
  ],
@@ -1546,6 +1738,59 @@
    "sourceId": "src:e66cd6dfc8ab",
    "evidence": "Form no.34 duly filled (for endorsement of Hypothecation)",
    "confidence": 1
+  },
+  {
+   "claim": "The following documents are required for change of address in Registration Certificate.",
+   "kind": "DOCUMENT_GROUP",
+   "subject": "registration_certificate_services",
+   "object": null,
+   "detail": {
+    "mode": "ALL_OF",
+    "members": [
+     "Original Registration Certificate.",
+     "Attested copy of valid insurance.",
+     "Attested copy of address proof of the registered owner.",
+     "Attested copy of valid pollution under control certificate.",
+     "Attested copy of PAN Card or Form 60 and 61(as applicable)."
+    ]
+   },
+   "sourceId": "src:e66cd6dfc8ab",
+   "evidence": "The following documents are required for change of address in Registration Certificate.\nForm 33.\nOriginal Registration Certificate.\nAttested copy of valid insurance.\nAttested copy of address proof of the registered owner.\nAttested copy of valid pollution under control certificate.\nAttested copy of PAN Card or Form 60 and 61(as applicable).",
+   "confidence": 0.6
+  },
+  {
+   "claim": "The following documents are required for Hypothecation Termination.",
+   "kind": "DOCUMENT_GROUP",
+   "subject": "registration_certificate_services",
+   "object": null,
+   "detail": {
+    "mode": "ALL_OF",
+    "members": [
+     "Registration certificate in original",
+     "Form no. 35 duly filled (for deletion of Hypothecation)",
+     "A certificate from financier for having retained full dues from the financier (for deletion case only).",
+     "Hypothecation Addition:"
+    ]
+   },
+   "sourceId": "src:e66cd6dfc8ab",
+   "evidence": "The following documents are required for Hypothecation Termination.\nRegistration certificate in original\nForm no. 35 duly filled (for deletion of Hypothecation)\nA certificate from financier for having retained full dues from the financier (for deletion case only).\nHypothecation Addition:",
+   "confidence": 0.6
+  },
+  {
+   "claim": "The following documents are required for Hypothecation Addition.",
+   "kind": "DOCUMENT_GROUP",
+   "subject": "registration_certificate_services",
+   "object": null,
+   "detail": {
+    "mode": "ALL_OF",
+    "members": [
+     "Registration certificate in original",
+     "Form no.34 duly filled (for endorsement of Hypothecation)"
+    ]
+   },
+   "sourceId": "src:e66cd6dfc8ab",
+   "evidence": "The following documents are required for Hypothecation Addition.\nRegistration certificate in original\nForm no.34 duly filled (for endorsement of Hypothecation)",
+   "confidence": 0.6
   },
   {
    "claim": "The reimbursement will be available for a period of five years from the date of production or the completion of 70%, whichever is earlier.",
@@ -2410,6 +2655,85 @@
    "confidence": 0.95
   },
   {
+   "claim": "The applicant must apply for provisional registration on the prescribed Form-XXII.",
+   "kind": "ACTION",
+   "subject": "veterinary_registration",
+   "object": "form_submission",
+   "detail": {
+    "form": "Form-XXII"
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Every Graduate shall be required to apply for the provisional registration on the prescribed Form-XXII through the Dean/Principal of the Veterinary College concerned from where he/she completed academic course.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must submit the application for provisional registration through the Dean/Principal of the Veterinary College.",
+   "kind": "CHANNEL",
+   "subject": "veterinary_registration",
+   "object": "veterinary_college",
+   "detail": {
+    "role": "Dean/Principal"
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Every Graduate shall be required to apply for the provisional registration on the prescribed Form-XXII through the Dean/Principal of the Veterinary College concerned from where he/she completed academic course.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must pay a fee of Rupees One Hundred Fifty for the registration process.",
+   "kind": "ACTION",
+   "subject": "veterinary_registration",
+   "object": "fee_payment",
+   "detail": {
+    "amount": "150",
+    "currency": "Rupees"
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Application on payment of fees of Rupees One Hundred Fifty only (i.e. included administrative charges of Rs.100/- and I-card Charge Rs.25/-) with any other dues i.e. Renewal Fees only.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives a provisional registration certificate in Form-XXIV.",
+   "kind": "ACTION",
+   "subject": "veterinary_registration",
+   "object": "provisional_registration_certificate",
+   "detail": {
+    "form": "Form-XXIV"
+   },
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "The state Council shall issue provisional registration certificate in Form-XXIV to such graduates who have completed their academic requirements for the degree course.",
+   "confidence": 1
+  },
+  {
+   "claim": "The process for provisional registration is limited only for the internship training period.",
+   "kind": "TIMELINE",
+   "subject": "provisional_registration",
+   "object": "internship_training",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "The provisional registration shall be limited only for the internship training.",
+   "confidence": 1
+  },
+  {
+   "claim": "Provisional registration is required before undergoing internship training.",
+   "kind": "ACTION",
+   "subject": "veterinary_graduate",
+   "object": "provisional_registration",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "Every graduate is required to get himself/herself registered provisionally before being allowed to undergo internship training for the prescribed period.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Provisional registration is limited only for the internship training.",
+   "kind": "ACTION",
+   "subject": "provisional_registration",
+   "object": "internship_training",
+   "detail": {},
+   "sourceId": "src:b95bad3f5be2",
+   "evidence": "The provisional registration shall be limited only for the internship training.",
+   "confidence": 0.95
+  },
+  {
    "claim": "Members of the Gujarat Veterinary Council must pay for renewal to maintain their registration status.",
    "kind": "ACTION",
    "subject": "gvc_member",
@@ -2634,6 +2958,72 @@
    "sourceId": "src:268c6a48bdd4",
    "evidence": ": registrar@gvc.org.in",
    "confidence": 1
+  },
+  {
+   "claim": "An applicant must login to verify or update their details in the VCI draft electoral roll (Gujarat) 2020.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "login_to_verify_update_details",
+   "detail": {},
+   "sourceId": "src:f6b2e8c4abe1",
+   "evidence": "Please login to verify/ update your details in “VCI draft electoral roll (Gujarat) 2020” published on www.gvc.org.in",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An applicant must fill and submit a duly signed prescribed form-A/B/C/D to the Gujarat Veterinary Council.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_form_to_gvc",
+   "detail": {},
+   "sourceId": "src:f6b2e8c4abe1",
+   "evidence": "In case of any variation/objections/claim, Please fill and submit a duly signed prescribed form-A/B/C/D to Gujarat Veterinary Council on or before 21st February 2020",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An applicant can use the website www.gvc.org.in to access the VCI draft electoral roll (Gujarat) 2020.",
+   "kind": "CHANNEL",
+   "subject": "applicant",
+   "object": "website_gvc_org_in",
+   "detail": {
+    "url": "www.gvc.org.in"
+   },
+   "sourceId": "src:f6b2e8c4abe1",
+   "evidence": "Please login to verify/ update your details in “VCI draft electoral roll (Gujarat) 2020” published on www.gvc.org.in",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A phone number for contacting Gujarat Veterinary Council is 079-23244197.",
+   "kind": "HELPLINE",
+   "subject": "gujarat_veterinary_council",
+   "object": "phone_number",
+   "detail": {
+    "number": "079-23244197"
+   },
+   "sourceId": "src:7e6056c2df60",
+   "evidence": "For any information or support please call 079-23244197 .",
+   "confidence": 1
+  },
+  {
+   "claim": "An email address for contacting Gujarat Veterinary Council is registrar@gvc.org.in.",
+   "kind": "HELPLINE",
+   "subject": "gujarat_veterinary_council",
+   "object": "email_address",
+   "detail": {
+    "email": "registrar@gvc.org.in"
+   },
+   "sourceId": "src:7e6056c2df60",
+   "evidence": "Email\nregistrar@gvc.org.in\nasstregistrar@gvc.org.in",
+   "confidence": 1
+  },
+  {
+   "claim": "The Gujarat Veterinary Council issues registration certificates.",
+   "kind": "OFFICE",
+   "subject": "gujarat_veterinary_council",
+   "object": "registration_certificate",
+   "detail": {},
+   "sourceId": "src:7e6056c2df60",
+   "evidence": "Circular of GVC Regarding Publish of Regi. Certificate, Dated: 3-2-2015",
+   "confidence": 0.95
   },
   {
    "claim": "Candidates must submit original certificates on the day of the interview",
@@ -3310,6 +3700,174 @@
    "confidence": 0.95
   },
   {
+   "claim": "The applicant must first go to the website https://gpsc-ojas.gujarat.gov.in.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "website",
+   "detail": {
+    "url": "https://gpsc-ojas.gujarat.gov.in"
+   },
+   "sourceId": "src:76a97eb43e25",
+   "evidence": "(૧) સૌ પ્ર થમ http://gpsc-ojas.gujarat.gov.in પર જવુાં.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must click on 'Apply On line'.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "apply_online_button",
+   "detail": {},
+   "sourceId": "src:76a97eb43e25",
+   "evidence": "(૨) Apply On line Click કરવુાં.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must click on 'More Details' to review the advertisement details.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "more_details_button",
+   "detail": {},
+   "sourceId": "src:76a97eb43e25",
+   "evidence": "આ પ્ર માણે click કરવાથી (1) More Details તથા (2) Apply Now બટન દેખાશે. સૌપ્રથમ More Details પર Click કરીને જાહેરાતની બધી જ વવગતોનો અભ્ યાસ ઉમેદવારોએ કરવો.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must click on 'Apply Now' after reviewing the advertisement details.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "apply_now_button",
+   "detail": {},
+   "sourceId": "src:76a97eb43e25",
+   "evidence": "સૌપ્રથમ More Details પર Click કરીને જાહેરાતની બધી જ વવગતોનો અભ્ યાસ ઉમેદવારોએ કરવો. અને ત્ યારબાદ Apply Now બટન ક્ક્ લક કરવુાં.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must click on the post category (e.g., 'વ્ યવસ્થાપક , વગગ-૧') to view the details of the position.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "post_category",
+   "detail": {
+    "post_category": "વ્ યવસ્થાપક , વગગ-1"
+   },
+   "sourceId": "src:76a97eb43e25",
+   "evidence": "(૩)વ્ યવસ્થાપક , વગગ-૧ ઉપર click કરવાથી જગ્યાની વવગતો મળશે",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must click on 'Apply Now' to view the application format.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "apply_now_button",
+   "detail": {},
+   "sourceId": "src:76a97eb43e25",
+   "evidence": "(૪) તેની નીચે Apply Now પર Click કરવાથી Application Format દેખાશે.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must fill in 'Personal Details' in the application format.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "personal_details",
+   "detail": {},
+   "sourceId": "src:76a97eb43e25",
+   "evidence": "Application Format માાં સૌ પ્ર થમ “Personal Details” ઉમેદવારે ભરવી.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide a mobile number and email ID in 'Personal Details'.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "personal_details",
+   "detail": {
+    "required_fields": "mobile_number, email_id"
+   },
+   "sourceId": "src:76a97eb43e25",
+   "evidence": "“Personal Details” માાં જ્ યાાં Mobile Number અને email ID માાંગ્ યા છે, તેની વવગત લખવી જે થી જરૂ ર જણાયે આયોગ ઉમેદવારને મારહતગાર કરી શકે.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must click on 'Educational Details' and fill in their educational qualifications.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "educational_details",
+   "detail": {},
+   "sourceId": "src:76a97eb43e25",
+   "evidence": "(૫) Personal Details ભરાયા બાદ Educational Details ભરવા માટે Educational Details પર click કરવુાં અને પોતાની શૈક્ષ ચણક વવગ તોભરવી.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must click on 'Additional Qualification' and fill in any additional qualifications.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "additional_qualification",
+   "detail": {},
+   "sourceId": "src:76a97eb43e25",
+   "evidence": "(૬) Additional Qualification પર“click” કરી Additional Qualification ભરવી.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must click on 'Experience Details' and fill in their work experience.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "experience_details",
+   "detail": {},
+   "sourceId": "src:76a97eb43e25",
+   "evidence": "(૭) Experience Details પર “click” કરવુાં અને Experience Details ભરવી.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must click on 'Add. More Exp.' to add more work experience if needed.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "add_more_exp",
+   "detail": {},
+   "sourceId": "src:76a97eb43e25",
+   "evidence": "વધુ Experience ઉમેરવા માગતા હોવ તો Add. More Exp.પર “click” કરી Details ભરવી.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must click on 'Additional Information' and fill in any additional information.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "additional_information",
+   "detail": {},
+   "sourceId": "src:76a97eb43e25",
+   "evidence": "(૮) Additional Information પર“click” કરી ત્ યાાં મારહતી ભરવી.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must collect the required proofs.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "collect_proofs",
+   "detail": {},
+   "sourceId": "src:5d3ed28982ae",
+   "evidence": "## Proofs Needed:\n\n- Panchnamu\n- Certificate of Talati.\n- Applicant Answer\n- Domicile by Birth (Birth Certificate)\n- Proof of Parent’s Job/Business\n- No Objection Certificate of Police Station\n- Character Certificate\n- Affidavit\n- Last 10 years residence proof\n- Identity Proof\n- Resident Proof",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must visit the Taluka Mamlatdar office.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "visit_taluka_mamlatdar_office",
+   "detail": {},
+   "sourceId": "src:5d3ed28982ae",
+   "evidence": "**Location** : Respective Taluka Mamlatdar office \\| **City** : All Talukas",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant can access additional information through the Digital Gujarat website.",
+   "kind": "CHANNEL",
+   "subject": "applicant",
+   "object": "digital_gujarat_website",
+   "detail": {
+    "url": "https://www.digitalgujarat.gov.in/Citizen/ServiceDescription.aspx"
+   },
+   "sourceId": "src:5d3ed28982ae",
+   "evidence": "**Visit**: [https://www.digitalgujarat.gov.in/Citizen/ServiceDescription.aspx](https://www.digitalgujarat.gov.in/Citizen/ServiceDescription.aspx)",
+   "confidence": 1
+  },
+  {
    "claim": "Citizens can access various online services from anywhere at any time through the Virtual Civic Center.",
    "kind": "CHANNEL",
    "subject": "virtual_civic_center",
@@ -3461,6 +4019,26 @@
    },
    "sourceId": "src:449ac59ef784",
    "evidence": "WhatsApp 63599 30020",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An applicant can access various services through the Virtual Civic Center from anywhere at any time.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "virtual_civic_center",
+   "detail": {},
+   "sourceId": "src:449ac59ef784",
+   "evidence": "Virtual Civic Center provides simple and convenient way for citizens to access various services from anywhere at anytime.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An applicant can access the Virtual Civic Center through the Surat Municipal Corporation website.",
+   "kind": "CHANNEL",
+   "subject": "virtual_civic_center",
+   "object": "surat_municipal_corporation_website",
+   "detail": {},
+   "sourceId": "src:0c5990334d3a",
+   "evidence": "Virtual Civic Center (Online Services) :: Surat Municipal Corporation",
    "confidence": 0.95
   },
   {
@@ -3924,6 +4502,36 @@
    },
    "sourceId": "src:11f0a6d6e363",
    "evidence": "3.HOW CAN I CLEAR MY QUERIES WITH REGARDS TO THE QUESTIONNAIRE? For any questionnaire related queries refer to SVP indicator guide or email on ssa.ssggujarat@gmail.com",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant can access the Saksham Shala Application.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "saksham_shala_application",
+   "detail": {},
+   "sourceId": "src:11f0a6d6e363",
+   "evidence": "Saksham Shala Application",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant can access the Saksham Shala Action Plan (SSAP).",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "saksham_shala_action_plan",
+   "detail": {},
+   "sourceId": "src:11f0a6d6e363",
+   "evidence": "Saksham Shala Action Plan (SSAP)",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant can access guidance for key questions.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "guidance_for_key_questions",
+   "detail": {},
+   "sourceId": "src:11f0a6d6e363",
+   "evidence": "Guidance for key questions",
    "confidence": 1
   },
   {
@@ -6044,6 +6652,16 @@
    "confidence": 1
   },
   {
+   "claim": "The Jan Seva Kendra in Panchmahal is under the District Collector Office.",
+   "kind": "OFFICE",
+   "subject": "jan_seva_kendra_panchmahal",
+   "object": "district_collector_office",
+   "detail": {},
+   "sourceId": "src:8dbb9c2ff78f",
+   "evidence": "Jan Seva Kendra, Panchmahal\nDistrict Collector Office",
+   "confidence": 0.95
+  },
+  {
    "claim": "A merit list of all applicants who pass the entrance test will be prepared based on aggregated marks.",
    "kind": "ACTION",
    "subject": "merit_list",
@@ -6178,6 +6796,60 @@
    },
    "sourceId": "src:1072e2dbfef9",
    "evidence": "7.1 The City / Destination Level Tourist Guide or State Level Tourist Guide Certificate would be renewed every 3 years and subject to the performance of guide and passing one Refresher",
+   "confidence": 1
+  },
+  {
+   "claim": "The Tourist Guide Certificate is renewed every 3 years.",
+   "kind": "TIMELINE",
+   "subject": "tourist_guide_certificate",
+   "object": "renewal",
+   "detail": {
+    "duration": "3 years"
+   },
+   "sourceId": "src:1072e2dbfef9",
+   "evidence": "7.1 The City / Destination Level Tourist Guide or State Level Tourist Guide Certificate would be renewed every 3 years and subject to the performance of guide and passing one Refresher",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Applicants must submit their applications online through the Gujarat Tourism website.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_application",
+   "detail": {
+    "url": "www.gujarattourism.com"
+   },
+   "sourceId": "src:3772e9d020d4",
+   "evidence": "Applicants shall submit their applications online through Gujarat Tourism website www.gujarattourism.com in the prescribed Pro forma along with photocopies of all documents required as proof of their eligibility and in no case; applicants would be allowed to submit any additional documents as proof at a later stage.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must submit original documents for verification.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_original_documents",
+   "detail": {},
+   "sourceId": "src:3772e9d020d4",
+   "evidence": "The applicants shall submit all original documents for verification. Failure to produce original documents would lead to rejection of candidature.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must submit proof of domicile with their application for the Guide Training Course.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_domicile_proof",
+   "detail": {},
+   "sourceId": "src:3772e9d020d4",
+   "evidence": "Candidates have to submit the proof of Domicile with the application of admission for the Guide Training Course.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must submit a Police Clearance Certificate from the local issuing authority.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_police_clearance_certificate",
+   "detail": {},
+   "sourceId": "src:3772e9d020d4",
+   "evidence": "Candidates will have to submit a Police Clearance Certificate from the local issuing authority for verification of non existence of any previous criminal record/cases for the safety of the tourist.",
    "confidence": 1
   },
   {
@@ -6690,6 +7362,98 @@
    "sourceId": "src:a785edfb12ce",
    "evidence": "The labour card is valid for three years from the date of issuance.",
    "confidence": 1
+  },
+  {
+   "claim": "The applicant must register or renew the labour card online through the nearest Jan Suvidha Kendra or Shramik Suvidha Kendra.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "labour_card",
+   "detail": {},
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "- Building and construction workers can register or renew their labour card online through the nearest Jan Suvidha Kendra or Shramik Suvidha Kendra.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must submit two passport-size photographs along with the application form.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "- To apply online, the applicant must submit two passport-size photographs along with the application form.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must submit proof of age by providing one of the specified documents.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "proof_of_age",
+   "detail": {},
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "- To apply online, the applicant must submit two passport-size photographs along with the application form. For age verification, any one of the following documents is required: 10th certificate, birth certificate, certificate issued by a medical officer, notarized affidavit of the construction worker, voter identity card, ration card, or a certificate issued by the Village Panchayat Officer, Village Head, or Councillor.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must submit a certificate of having worked as a construction worker for at least 90 days in the previous year and a nomination form for legal heirs.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "nomination_form",
+   "detail": {},
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "- A certificate of having worked as a construction worker for at least 90 days in the previous year, along with a nomination form for nominating legal heirs, must also be submitted.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must provide the Aadhaar card, ration card, Aadhaar-linked bank account details, self-certification or self-declaration form, and Aadhaar cards of dependents.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "aadhaar_card",
+   "detail": {},
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "- The applicant is further required to provide the Aadhaar card, ration card, Aadhaar-linked bank account details, self-certification or self-declaration form (available only at Jan Suvidha Kendra or Shramik Suvidha Kendra), and Aadhaar cards of dependents.",
+   "confidence": 1
+  },
+  {
+   "claim": "The application is forwarded to the concerned department for verification.",
+   "kind": "ACTION",
+   "subject": "application",
+   "object": "concerned_department",
+   "detail": {},
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "- The application is then forwarded to the concerned department. If the documents are verified and found correct, the worker’s details will be entered in the Labour Register, and the registration number assigned will serve as the worker’s official registration number.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Registration Officer will issue a Photo Identity Card to the applicant.",
+   "kind": "ACTION",
+   "subject": "registration_officer",
+   "object": "photo_identity_card",
+   "detail": {},
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "- Once the registration is approved, the Registration Officer will issue a Photo Identity Card, which the worker can collect from the Public Service Centre of the concerned department or from the office of the Labour Department.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant can collect the Photo Identity Card from the Public Service Centre of the concerned department or from the office of the Labour Department.",
+   "kind": "CHANNEL",
+   "subject": "photo_identity_card",
+   "object": "labour_card",
+   "detail": {
+    "office_name": "Public Service Centre of the concerned department or the office of the Labour Department"
+   },
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "- Once the registration is approved, the Registration Officer will issue a Photo Identity Card, which the worker can collect from the Public Service Centre of the concerned department or from the office of the Labour Department.",
+   "confidence": 1
+  },
+  {
+   "claim": "The application is forwarded to the concerned department for verification of documents.",
+   "kind": "ACTION",
+   "subject": "labour_card",
+   "object": "concerned_department",
+   "detail": {},
+   "sourceId": "src:a785edfb12ce",
+   "evidence": "The application is then forwarded to the concerned department. If the documents are verified and found correct, the worker’s details will be entered in the Labour Register, and the registration number assigned will serve as the worker’s official registration number.",
+   "confidence": 0.95
   },
   {
    "claim": "The application must be submitted to Jan Seva Kendra, Amreli.",
@@ -9692,6 +10456,46 @@
    "confidence": 0.95
   },
   {
+   "claim": "The certifying agency issues the Fitness Certificate and Builder’s Certification for pleasure craft or boats.",
+   "kind": "OFFICE",
+   "subject": "certifying_agency",
+   "object": "fitness_certificate_builder_certification",
+   "detail": {},
+   "sourceId": "src:48ecc2904bee",
+   "evidence": "Fitness Certificate and Builder’s Certification of the pleasure craft / boat issued by the certifying agency as prescribed in these rules, certifying the fitness of the pleasure craft/boat for the intended operation;",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An annual inspection is compulsory for all clients according to the organic regulations.",
+   "kind": "ACTION",
+   "subject": "certification",
+   "object": "annual_inspection",
+   "detail": {},
+   "sourceId": "src:d65892a6e72a",
+   "evidence": "According to the organic regulations, one annual inspection is compulsory for all the clients.",
+   "confidence": 1
+  },
+  {
+   "claim": "Inspection and submission of the inspection report to the certification department is part of the certification process.",
+   "kind": "ACTION",
+   "subject": "certification",
+   "object": "inspection_report_submission",
+   "detail": {},
+   "sourceId": "src:d65892a6e72a",
+   "evidence": "5. Inspection and submitting the inspection report to the certification department",
+   "confidence": 1
+  },
+  {
+   "claim": "Inspection reports are required during the certification process.",
+   "kind": "ACTION",
+   "subject": "certification",
+   "object": "inspection_report",
+   "detail": {},
+   "sourceId": "src:d23c71138bc2",
+   "evidence": "09. Inspection Reports (During Certification Process)",
+   "confidence": 1
+  },
+  {
    "claim": "An application form is available for obtaining a duplicate ration card under the Targeted Public Distribution System (A.P.L).",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "duplicate_ration_card",
@@ -9938,6 +10742,16 @@
    },
    "sourceId": "src:e8b2f0130818",
    "evidence": "Shri J. K. Jegoda | Resident Addi. Collector | +91 2762 222203\nAdd-collector-meh[at]gujarat[dot]gov[dot]in",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Collector Office is located in Mehsana.",
+   "kind": "OFFICE",
+   "subject": "district_collector_office",
+   "object": "mehsana",
+   "detail": {},
+   "sourceId": "src:e8b2f0130818",
+   "evidence": "District Collector Office",
    "confidence": 1
   },
   {
@@ -10367,6 +11181,110 @@
    "confidence": 0.95
   },
   {
+   "claim": "Applicants must upload documents related to their priority, if applicable.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "teacher_transfer",
+   "object": "priority_documents",
+   "detail": {},
+   "sourceId": "src:096c6d3cc33f",
+   "evidence": "Teachers made an application on the web portal and filled out their choice of schools where vacancies were available. The teacher also uploads the necessary documents to prove his seniority and documents related to his or her priority, if applicable.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant applies for intra-district transfer camps by submitting an online application on the web portal.",
+   "kind": "ACTION",
+   "subject": "teacher",
+   "object": "web_portal",
+   "detail": {
+    "amount": 1
+   },
+   "sourceId": "src:096c6d3cc33f",
+   "evidence": "Online applications are invited on a web portal prepared by the Director of Primary Education.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant fills out their choice of schools and uploads documents to prove seniority and priority.",
+   "kind": "ACTION",
+   "subject": "teacher",
+   "object": "documents",
+   "detail": {
+    "amount": 1
+   },
+   "sourceId": "src:096c6d3cc33f",
+   "evidence": "Teachers made an application on the web portal and filled out their choice of schools where vacancies were available. The teacher also uploads the necessary documents to prove his seniority and documents related to his or her priority, if applicable.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant submits a hard copy of the online application and documents to the Taluka Primary Education Officers (TPEO) Office for scrutiny.",
+   "kind": "ACTION",
+   "subject": "teacher",
+   "object": "tpeo_office",
+   "detail": {
+    "amount": 1
+   },
+   "sourceId": "src:096c6d3cc33f",
+   "evidence": "A hard copy of the online application, along with the necessary documents, is to be deposited with the Taluka Primary Education Officers (TPEO) Office for scrutiny purposes.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant receives the transfer order online after the software allots vacant posts based on seniority and priority.",
+   "kind": "ACTION",
+   "subject": "teacher",
+   "object": "transfer_order",
+   "detail": {
+    "amount": 1
+   },
+   "sourceId": "src:096c6d3cc33f",
+   "evidence": "The transfer order is prepared online, and the teacher can get it online.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant gets relieved from their school after the TPEO countersigns the transfer order.",
+   "kind": "ACTION",
+   "subject": "teacher",
+   "object": "tpeo",
+   "detail": {
+    "amount": 1
+   },
+   "sourceId": "src:096c6d3cc33f",
+   "evidence": "The TPEO checks the transfer order generated online and countersigns the same. After the counter is signed by the TPEO, the teacher can be relieved from his school for taking charge at his new school.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The transfer order is prepared online, and the teacher can get it online.",
+   "kind": "TRACKING",
+   "subject": "teacher",
+   "object": "transfer_order",
+   "detail": {},
+   "sourceId": "src:096c6d3cc33f",
+   "evidence": "The transfer order is prepared online, and the teacher can get it online.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The District Primary Education Officer (DPEO) approves the teacher's application.",
+   "kind": "ACTION",
+   "subject": "teacher_transfer",
+   "object": "district_primary_education_officer",
+   "detail": {
+    "action": "approves"
+   },
+   "sourceId": "src:096c6d3cc33f",
+   "evidence": "If the teachers’ application is found to be correct as per the norms, the TPEO forwards this application with his remarks to the DPEO.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Taluka Primary Education Officer (TPEO) countersigns the transfer order.",
+   "kind": "ACTION",
+   "subject": "teacher_transfer",
+   "object": "taluka_primary_education_officer",
+   "detail": {
+    "action": "countersigns"
+   },
+   "sourceId": "src:096c6d3cc33f",
+   "evidence": "The TPEO checks the transfer order generated online and countersigns the same.",
+   "confidence": 0.95
+  },
+  {
    "claim": "Male candidates (except Scheduled Tribes of Gujarat origin) must have a minimum height of 165 cm.",
    "kind": "ELIGIBILITY",
    "subject": "male_candidate",
@@ -10496,6 +11414,65 @@
    "sourceId": "src:c8a1412ac267",
    "evidence": "and also certify for the following matters, namely:- SHAPEI means S Psychological H Hearing A Appendage P Physical capacity for normal work E Eye sight I meant fit in all respects to perform normal professional functions under each of the above mentioned heads",
    "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must submit an application in Form CFRA.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_form_cfra",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "Application should be made in Form CFRA along with application form original R.C. Book, Fitness Certificate, Insurance certificate and P.U.C. Certificate should be attached.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must clear any due against the vehicle for violation of Motor Vehicle Act.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "clear_dues",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "Any due against of the vehicle for violation of Motor Vehicle Act are also required to be cleared.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant must pay the renewal fee and vehicle test fee.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "pay_fees",
+   "detail": {},
+   "sourceId": "src:8f130659de66",
+   "evidence": "A renewal fee and vehicle test fee is required to be paid along with the application.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Following documents are required to be submitted at concerned R.T.O. with Form-20.",
+   "kind": "DOCUMENT_GROUP",
+   "subject": "certificate_of_fitness",
+   "object": null,
+   "detail": {
+    "mode": "ALL_OF",
+    "members": [
+     "Sale Certificate in Form No.21",
+     "Road worthiness certificate in Form 22.",
+     "Identity proof with photographs of applicant.",
+     "Vehicle insurance certificate.",
+     "Proof of address"
+    ]
+   },
+   "sourceId": "src:8f130659de66",
+   "evidence": "Following documents are required to be submitted at concerned R.T.O. with Form-20.\nSale Certificate in Form No.21\nRoad worthiness certificate in Form 22.\nIdentity proof with photographs of applicant.\nVehicle insurance certificate.\nProof of address",
+   "confidence": 0.6
+  },
+  {
+   "claim": "The Fitness Certificate is issued by the certifying agency.",
+   "kind": "OFFICE",
+   "subject": "certificate_of_fitness",
+   "object": "certifying_agency",
+   "detail": {},
+   "sourceId": "src:48ecc2904bee",
+   "evidence": "Fitness Certificate and Builder’s Certification of the pleasure craft / boat issued by the certifying agency as prescribed in these rules, certifying the fitness of the pleasure craft/boat for the intended operation;",
+   "confidence": 0.95
   },
   {
    "claim": "The application process for certifying documents related to birth, marriage, death, police clearance certificate, school leaving certificate, affidavit, trade, commerce, and export is handled at Jan Seva Kendra, Porbandar.",
@@ -11384,6 +12361,16 @@
    "confidence": 0.95
   },
   {
+   "claim": "The SDM Vadodara City issues or sanctions the City Survey Certificate.",
+   "kind": "OFFICE",
+   "subject": "city_survey_certificate",
+   "object": "sdm_vadodara_city",
+   "detail": {},
+   "sourceId": "src:3757b69b6a17",
+   "evidence": "SDM Vadodara City\nRevenue Department\nHead of Departments Settlement Commissioner & Superintendent of Land Records\nInspector General of Registration and Superintendent of Stamps\nDeendayal Institute of Land & Survey",
+   "confidence": 0.8
+  },
+  {
    "claim": "The Gujarat Card is issued at a fee of $5.00 (US) or Rs. 225/- in Indian currency.",
    "kind": "FEE",
    "subject": "gujarat_card",
@@ -11457,6 +12444,28 @@
    },
    "sourceId": "src:402f2ca32dff",
    "evidence": "All four Non Official members to be appointed by the State Government.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives a Gujarat Card at the end.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "gujarat_card",
+   "detail": {},
+   "sourceId": "src:402f2ca32dff",
+   "evidence": "The NRGF issues 'Gujarat Card’ to non-resident Gujaratis.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Gujarat Card is issued at a fee of $5.00 (US) or Rs. 225/- in Indian currency.",
+   "kind": "ACTION",
+   "subject": "nrgf",
+   "object": "gujarat_card",
+   "detail": {
+    "fee": "$5.00(US) or Rs. 225/-"
+   },
+   "sourceId": "src:402f2ca32dff",
+   "evidence": "The NRGF issues 'Gujarat Card’ to non-resident Gujaratis. 'Gujarat Card' is issued at a fee of $5.00(US) or Rs. 225/- in Indian currency.",
    "confidence": 1
   },
   {
@@ -11590,6 +12599,18 @@
    },
    "sourceId": "src:a3a32e089536",
    "evidence": "૬. પ્રિંટ કરતી વખતે આપના Internet Explorer નું Pop-up Blocker off હોવું જોઇએ. પ્રિંટ નવી Window માં ખુલશે.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant receives a barcode-printed registration form to submit at any KVK in the state.",
+   "kind": "ACTION",
+   "subject": "kvik_registration",
+   "object": "registration_form",
+   "detail": {
+    "url": "https://empower.gujarat.gov.in/KVK/Registration.aspx"
+   },
+   "sourceId": "src:a3a32e089536",
+   "evidence": "Print Registration Form Click કરીને બારકોડ વાળી પ્રિન્ટ રાજ્યની કોઇ પણ કેવીકે (KVK) માં જમા કરાવવી.",
    "confidence": 0.95
   },
   {
@@ -11900,6 +12921,16 @@
    "confidence": 0.9
   },
   {
+   "claim": "The Disability Certificate should be issued by a competent authority.",
+   "kind": "OFFICE",
+   "subject": "disability_certificate",
+   "object": "competent_authority",
+   "detail": {},
+   "sourceId": "src:c184adf1ee34",
+   "evidence": "The Disability Certificate should be issued by competent authority.",
+   "confidence": 1
+  },
+  {
    "claim": "A citizen must provide a utilization certificate to the Nodal Agency (HUDCO / NHB) certifying that the released interest subsidy has been used for its intended purpose.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "utilization_certificate",
@@ -11946,6 +12977,26 @@
    "sourceId": "src:1e206910c90b",
    "evidence": "FORMAT FOR CLAIMING DISBURSEMENT OF SUBSIDY UNDER INTEREST SUBSIDY SCHEME FOR HOUSING THE URBAN POOR (ISHUP) OF THE MINISTRY OF HOUSING & URBAN POVERTY ALLEVIATION, GOVERNMENT OF INDIA (To be furnished by Primary Lending Institutions i.e. Banks / Financial Institutions and submitted to the Nodal Agency (HUDCO / NHB))",
    "confidence": 0.95
+  },
+  {
+   "claim": "The Finance Officer or Account Officer audits the Utilization Certificate and Statement of Accounts.",
+   "kind": "OFFICE",
+   "subject": "finance_officer_account_officer",
+   "object": "utilization_certificate",
+   "detail": {},
+   "sourceId": "src:d1c9ad61fd1b",
+   "evidence": "Utilization Certificate and Statement of Accounts in prescribed proforma must be duly audited by the Finance Officer/Account Officer.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Utilization Certificate and Statement of Accounts must be audited by the Finance Officer or Account Officer.",
+   "kind": "ACTION",
+   "subject": "utilization_certificate",
+   "object": "finance_officer_account_officer",
+   "detail": {},
+   "sourceId": "src:d1c9ad61fd1b",
+   "evidence": "Utilization Certificate and Statement of Accounts in prescribed proforma must be duly audited by the Finance Officer/Account Officer.",
+   "confidence": 1
   },
   {
    "claim": "The Gujarat State Seed Certificate Agency was established in 1969 under the Seed Act, 1966.",
@@ -12031,6 +13082,30 @@
    "confidence": 0.9
   },
   {
+   "claim": "An applicant can apply for a Caste Certificate online.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "apply",
+   "detail": {
+    "service": "Caste Certificate"
+   },
+   "sourceId": "src:9afc60bbeddd",
+   "evidence": "Public user can apply for these services online.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant should visit the Digital Gujarat portal to apply for a Caste Certificate.",
+   "kind": "CHANNEL",
+   "subject": "applicant",
+   "object": "visit",
+   "detail": {
+    "url": "https://www.digitalgujarat.gov.in"
+   },
+   "sourceId": "src:9afc60bbeddd",
+   "evidence": "All these application are available on comman service portal i.e. Digital Gujarat portal. For more information and application please visit to Digital gujarat portal.",
+   "confidence": 1
+  },
+  {
    "claim": "Each seed producer must attach their own opal green label with full details on the tag of the bag at the time of packing.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "seed_producer",
@@ -12053,6 +13128,52 @@
    "sourceId": "src:3e9caf77dc5a",
    "evidence": "લધુત્તમ બીજ પ્રમાણિકરણના ધોરણમાં બીજ પ્રમાણનના ક્રમાનુસાર તબક્કાઓમાં પસાર થયેલ અને આનુવંશિક અને ભૌતિક શુદ્ધતાના લઘુત્તમ ધોરણોસરના પ્રમાણિકરણને પાત્ર બિયારણની થેલીઓ ઉપર પાયાના (ફાઉન્&zwj;ડેશન) બિયારણ માટે સફેદ અને પ્રમાણિત (સર્ટીફાઇડ) કક્ષાના બિયારણ માટે ભુરા રંગની એજન્&zwj;સીની ટેગ થેલી સાથે સીવી એજન્&zwj;સીના સીલથી એજન્&zwj;સીના અધિકૃત અધિકારીની હાજરીમાં સીલ કરવાનું રહેશે.",
    "confidence": 0.95
+  },
+  {
+   "claim": "An applicant can apply for the SEBC Certificate online.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "sebc_certificate",
+   "detail": {},
+   "sourceId": "src:9afc60bbeddd",
+   "evidence": "Public user can apply for these services online.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An applicant should visit the Digital Gujarat portal to apply for the SEBC Certificate.",
+   "kind": "CHANNEL",
+   "subject": "applicant",
+   "object": "digital_gujarat_portal",
+   "detail": {
+    "url": "https://www.digitalgujarat.gov.in"
+   },
+   "sourceId": "src:9afc60bbeddd",
+   "evidence": "All these application are available on comman service portal i.e. Digital Gujarat portal. For more information and application please visit to Digital gujarat portal.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Citizens can contact the Digital Gujarat Help Desk for queries regarding online applications.",
+   "kind": "HELPLINE",
+   "subject": "digital_gujarat_help_desk",
+   "object": "citizen_queries",
+   "detail": {
+    "phone": "18002335500"
+   },
+   "sourceId": "src:9afc60bbeddd",
+   "evidence": "For any query regarding the online application you can contact to Digital Gujarat Help Desk on 18002335500.",
+   "confidence": 1
+  },
+  {
+   "claim": "The SEBC Certificate is issued at the Mamlatdar Office in Ahmedabad.",
+   "kind": "OFFICE",
+   "subject": "sebc_certificate",
+   "object": "mamlatdar_office",
+   "detail": {
+    "address": "Office of the Collector & District Magistrate, Near R.T.O, Ashram Rd, Ahmedabad, Gujarat."
+   },
+   "sourceId": "src:8f7de45e2fb0",
+   "evidence": "## Mamlatdar Office\n\nOffice of the Collector & District Magistrate, Near R.T.O, Ashram Rd, Ahmedabad, Gujarat.",
+   "confidence": 1
   }
  ],
  "notFound": [
@@ -12060,6 +13181,9 @@
   "Registration Certificate Services: https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "E-Gram Panchayat: https://devbhumidwarkadp.gujarat.gov.in/gu/E-gram-Vishvagram-Yojana lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "EWS Certificate: the hand written graph already answers to service:ews_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
+  "Veterinary Registration: https://gvc.org.in/webcontroller/clickmenu/MTYyMDU3OTYw lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Gujarat Veterinary Council registration: the page links to www.gvc.org.in, which is not a gov.in or nic.in host, so we could not prove from the name alone that government owns it and did not send anyone there.",
+  "GPSC Recruitment: https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201617_120.pdf#page=13 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Domicile Certificate: the hand written graph already answers to service:domicile_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "Virtual Civic Center: https://suratmunicipal.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Unreserved Class Certificate: a page mentions a mobile app (\"The application form for the Unreserved Class Certificate is available for download in Gujarati.\") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.",
@@ -12077,10 +13201,16 @@
   "Jan Seva Kendra: https://tapi.gujarat.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Jan Seva Kendra: https://kutch.gujarat.gov.in/ lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Tourist Guide Certificate: https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Tourist Guide Certificate: https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=2 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "income certificate: the hand written graph already answers to service:income_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
+  "Labour Card: https://www.myscheme.gov.in/schemes/lcrlc lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "teacher transfer: https://dpe.gujarat.gov.in/Home/primary/CentralizeTechbasedTeacherTransferProcess lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "residence certificate: the hand written graph already answers to service:residence_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "Certificate of Fitness: https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/GSSSB_202526_312.pdf#page=4 offers a choice under \"B. Candidates having any of the following physical defects shall be\" but fewer than two of the lines under it are documents, so no group was written.",
+  "Certificate of Fitness: https://cot.gujarat.gov.in/vehicle-registration.htm lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "KVK Registration: https://empower.gujarat.gov.in/KVK/Registration.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Registration of Cooperative Society: no quotable requirement, fee or timeline survived, so no service node was written for it.",
+  "disability certificate: https://web.umang.gov.in/landing/scheme/detail/chief-ministergi-shotharabasingi-tengbang_cmst.html offers a choice under \"The following documents are required mandatorily in order to apply to this scheme -\" but fewer than two of the lines under it are documents, so no group was written.",
   "Gujarat State Seed Certificate Agency: no quotable requirement, fee or timeline survived, so no service node was written for it.",
   "Certificate For Knee Replacement: the page names \"Click here for PDF Download\" as somewhere to go but printed no link to it, so there was nothing to send anyone to.",
   "Caste Certificate: the hand written graph already answers to service:caste_certificate, so the pages found for it were not merged in. Reconciling the two is a job for a person.",

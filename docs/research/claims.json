@@ -1,48 +1,48 @@
 {
   "generatedBy": "pnpm services:enrich",
-  "claims": 188,
-  "services": 36,
-  "rejectedThisRun": 239,
+  "claims": 1300,
+  "services": 278,
+  "rejectedThisRun": 1424,
   "byDimension": {
     "ACTIONS": {
-      "claims": 65,
-      "services": 18
+      "claims": 485,
+      "services": 124
     },
     "HELPLINE": {
-      "claims": 2,
-      "services": 2
+      "claims": 30,
+      "services": 21
     },
     "TRACKING": {
-      "claims": 11,
-      "services": 8
+      "claims": 45,
+      "services": 38
     },
     "ELIGIBILITY": {
-      "claims": 16,
-      "services": 7
+      "claims": 105,
+      "services": 34
     },
     "FEES": {
-      "claims": 12,
-      "services": 8
+      "claims": 108,
+      "services": 52
     },
     "ISSUING_AUTHORITY": {
-      "claims": 24,
-      "services": 17
+      "claims": 164,
+      "services": 130
     },
     "OFFICE": {
-      "claims": 3,
-      "services": 3
+      "claims": 46,
+      "services": 29
     },
     "VERIFICATION": {
-      "claims": 19,
-      "services": 12
+      "claims": 107,
+      "services": 66
     },
     "OUTPUT": {
-      "claims": 15,
-      "services": 9
+      "claims": 139,
+      "services": 81
     },
     "DOCUMENTS": {
-      "claims": 21,
-      "services": 4
+      "claims": 71,
+      "services": 22
     }
   }
 }

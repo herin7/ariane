@@ -1,7 +1,7 @@
 {
   "generatedBy": "scripts/fetch-ledger.mjs",
-  "urls": 899,
-  "cached": 895,
+  "urls": 933,
+  "cached": 929,
   "missing": 0,
   "noCacheFile": 0,
   "fetchFailed": 4,
@@ -42,7 +42,7 @@
     ".firecrawl/sarathi-ll-map.json",
     ".firecrawl/sarathi-map.json"
   ],
-  "uncitedIngestPages": 1879,
+  "uncitedIngestPages": 1845,
   "entries": [
     {
       "url": "http://ggrc.co.in/webui/Content.aspx",
@@ -56,6 +56,20 @@
       "quoted": true,
       "bytes": 4730,
       "sha256": "bb3a6e02796ef490e9472a38c5b11e00d852af7a9df2d856bd90d516f4da4d61",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "http://ic.gujarat.gov.in/",
+      "title": "IC Website",
+      "sourceType": "PORTAL_HOME",
+      "journeys": [
+        "startup"
+      ],
+      "cacheFile": ".ingest/pages/ae2858c7141b6b295ca8ee9c03d77165e9f8d191.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 7552,
+      "sha256": "46a7897679837b238174d74362b79dc8fb1773ffa4bb3c42d46081cd0364d490",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -77,7 +91,8 @@
       "title": "Register for e-Filing (TIN 2.0 Stakeholders) User Manual | Income Tax Department",
       "sourceType": "GUIDELINE",
       "journeys": [
-        "gst"
+        "gst",
+        "permits-and-licences"
       ],
       "cacheFile": ".ingest/pages/d1b6d8fe23c33e21db752dc1152c5114096e0eb9.md",
       "status": "CACHED",
@@ -210,6 +225,20 @@
       "quoted": true,
       "bytes": 2253,
       "sha256": "3cee65b34eaa2290bcdb621a926ad9076f2dec0d370a7669b69a8a7420e19865",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://adijatinigam.gujarat.gov.in/",
+      "title": "Gujarat Tribal Development Corporation",
+      "sourceType": "PORTAL_HOME",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/0cca00efb2aec291571f7383956c84e05edba113.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 6009,
+      "sha256": "33a35ce19f768fd1deb1faf1d1d792f912385e5e3d790ae48e7fad3aa20cd21a",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -434,7 +463,8 @@
       "title": "SEBC Certificate | District Ahmedabad, Government of Gujarat",
       "sourceType": "SERVICE_PAGE",
       "journeys": [
-        "certificates"
+        "certificates",
+        "district-certificates"
       ],
       "cacheFile": ".firecrawl/research/ahd-sebc.md",
       "status": "CACHED",
@@ -1679,6 +1709,7 @@
       "sourceType": "SERVICE_PAGE",
       "journeys": [
         "msme-and-udyam",
+        "property-and-land",
         "welfare-schemes"
       ],
       "cacheFile": ".ingest/pages/fd300053dde438f3851430342892e5ee532e42f9.md",
@@ -1722,7 +1753,7 @@
     {
       "url": "https://ced.gujarat.gov.in/assets/downloads/gr-09-02-2015-I.pdf",
       "title": "gr-09-02-2015-I (page 1 of 2)",
-      "sourceType": "SERVICE_PAGE",
+      "sourceType": "OFFICE_DIRECTORY",
       "journeys": [
         "welfare-schemes"
       ],
@@ -1843,6 +1874,7 @@
       "sourceType": "SERVICE_PAGE",
       "journeys": [
         "permits-and-licences",
+        "property-and-land",
         "welfare-schemes"
       ],
       "cacheFile": ".ingest/pages/c678228354a5e9e4f70eaa996e0d26dd66ad3466.md",
@@ -1854,17 +1886,18 @@
     },
     {
       "url": "https://ced.gujarat.gov.in/assets/downloads/shrihariagri512015.pdf",
-      "title": "shrihariagri512015 (page 55 of 78)",
+      "title": "shrihariagri512015 (page 27 of 78)",
       "sourceType": "SERVICE_PAGE",
       "journeys": [
+        "district-certificates",
         "permits-and-licences",
         "welfare-schemes"
       ],
-      "cacheFile": ".ingest/pages/bf723df831da40ffb45e5a4867842df8a0195e16.md",
+      "cacheFile": ".ingest/pages/d65892a6e72a1abc317f1e255a0c011c4b40e976.md",
       "status": "CACHED",
       "quoted": true,
-      "bytes": 1513,
-      "sha256": "ef8e4389bb08026e266f031313bd2f8d689d20631235011d3d4da767d9415203",
+      "bytes": 1831,
+      "sha256": "cbfcbb10594b773bcfeab9a886c54e1be507f33240b947c121ff5ed502c2acc8",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -2245,6 +2278,21 @@
       "quoted": true,
       "bytes": 7000,
       "sha256": "431ec5e5f9edf57fde35de861be43051aac7cbf588cef4f8063368a59e19da75",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://collectorbhavnagar.gujarat.gov.in/mamlatdar-office",
+      "title": "Mamlatdar Office | Offices | Collectorate - District Bhavnagar",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "msme-and-udyam",
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/9949bf684f1b6db358cdaad5d297a31921660373.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 9679,
+      "sha256": "60adfc4e5ce9cb86d567fa755d9f7f2dc87b0a95351bd916380481aef2b154d1",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -2886,6 +2934,7 @@
       "title": "નોન ક્રીમીલેયર પ્રમાણપત્ર મેળવવા અંગે અરજી | Certificate | Jan Seva Kendra form | Collectorate - District Panchmahal",
       "sourceType": "OFFICE_DIRECTORY",
       "journeys": [
+        "district-certificates",
         "offices"
       ],
       "cacheFile": ".ingest/pages/8dbb9c2ff78f480ad8fed18d74ab7f1995925e79.md",
@@ -3198,6 +3247,7 @@
       "title": "નોન ક્રીમીલેયર પ્રમાણપત્ર મેળવવા અંગે અરજી | Certificate | Jan Seva Kendra form | Collectorate - District Vadodara",
       "sourceType": "OFFICE_DIRECTORY",
       "journeys": [
+        "district-certificates",
         "offices"
       ],
       "cacheFile": ".ingest/pages/3757b69b6a17dd2556ac8909466fa5a9b0beaaff.md",
@@ -3366,6 +3416,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://comm-tribal.gujarat.gov.in/vanbandhu-kalyan-yojana-main",
+      "title": "Vanbandhu Kalyan Yojana | Vanbandhu Kalyan Yojana | Commissionerate of Tribal Development",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/d10702b7dec9748307c3930b1d4351a29016bdf4.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 9504,
+      "sha256": "3f7a6336f515cb4b47fd8a0b22ad2a2577f29c905d2fb168a3792e785c6ad767",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://commercialtax.gujarat.gov.in/vatwebsite/download/Registration_Flow_Final_08062015.pdf",
       "title": "Registration_Flow_Final_08062015 (page 3 of 5)",
       "sourceType": "SERVICE_PAGE",
@@ -3465,6 +3529,20 @@
       "retrievedAt": "2026-08-23T11:19:00+05:30"
     },
     {
+      "url": "https://cot.gujarat.gov.in/fee-structure-gu.htm",
+      "title": "ફીનું માળખું | સીટીઝન કોર્નર | વાહન વ્યવહાર કમિશ્નરશ્રી, ગુજરાત સરકાર",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/6888364cc2d743f8cc28d13382246a2a6aedd97b.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14691,
+      "sha256": "508f4fa9727e224f0a9332d4e42011ef60e9e19e7f1d9b084d4f0d7ab1a29c62",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://cot.gujarat.gov.in/helpline-number.htm",
       "title": "Helpline Number | Commissionerate of Transport, Government of Gujarat",
       "sourceType": "HELPLINE",
@@ -3477,6 +3555,20 @@
       "bytes": 44495,
       "sha256": "2f7d222c478cdbd12faafcf127e3c11fcadbea9e8477bc146d1924bccee84129",
       "retrievedAt": "2026-08-23T11:19:00+05:30"
+    },
+    {
+      "url": "https://cot.gujarat.gov.in/permit.htm",
+      "title": "Permit | Services | Commissionerate of Transport, Government of Gujarat",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/9e2968b96397a801d3720dbaebf4f18f402bca06.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 9484,
+      "sha256": "f886df5c3a0542295fd3c4e43acda09e24dcd2f5a5ae241534408391841a092f",
+      "retrievedAt": "2026-08-23"
     },
     {
       "url": "https://cot.gujarat.gov.in/rto-arto.htm",
@@ -3497,6 +3589,7 @@
       "title": "Vehicle Registration | Services | Commissionerate of Transport, Government of Gujarat",
       "sourceType": "SERVICE_PAGE",
       "journeys": [
+        "district-certificates",
         "permits-and-licences"
       ],
       "cacheFile": ".ingest/pages/8f130659de6612a244b05185f4a65bf1806e2f4c.md",
@@ -3509,7 +3602,7 @@
     {
       "url": "https://cot.gujarat.gov.in/writereaddata/Portal/Images/pdf/form-20-31012020.pdf",
       "title": "form-20-31012020 (page 1 of 4)",
-      "sourceType": "SERVICE_PAGE",
+      "sourceType": "OFFICE_DIRECTORY",
       "journeys": [
         "permits-and-licences"
       ],
@@ -3737,7 +3830,8 @@
       "title": "State Sponsored Schemes",
       "sourceType": "SERVICE_PAGE",
       "journeys": [
-        "ration-card"
+        "ration-card",
+        "welfare-schemes"
       ],
       "cacheFile": ".ingest/pages/22f542b87896c93fd7947ef8fbd603c394be0a90.md",
       "status": "CACHED",
@@ -3946,16 +4040,17 @@
     },
     {
       "url": "https://directorit.gujarat.gov.in/Content/Scheme_for_Startup_Policy.pdf",
-      "title": "bcb1c16b-c796-414c-995d-015a9a6b209a_1 (page 6 of 29)",
+      "title": "Scheme_for_Startup_Policy (page 26 of 29)",
       "sourceType": "SERVICE_PAGE",
       "journeys": [
+        "property-and-land",
         "startup"
       ],
-      "cacheFile": ".ingest/pages/6d45f97167320bd7a028b31df0f9cf5cd9f27f7c.md",
+      "cacheFile": ".ingest/pages/c333723c348eb06d645bdcefb35c7bc5b806cb3b.md",
       "status": "CACHED",
       "quoted": true,
-      "bytes": 2493,
-      "sha256": "33d4c9a5b59a88dbd7e288a516c89918efdaef4851759b5d9f7bac398c02be8b",
+      "bytes": 1573,
+      "sha256": "ba83ca4eaf270d0671f6fd567cf3e6e871803b2a49b22730048e2a992ddaf1db",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -4015,6 +4110,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://dish.gujarat.gov.in/e-citizen-faq.htm",
+      "title": "DISH | Information | Faq's",
+      "sourceType": "FAQ",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/859bc9709d93b65c805703365a4f869e7d5c55d5.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 12826,
+      "sha256": "621838238f62413c8d15329bc56813f66de833df1bc66c302cca07ef4a567d80",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://dish.gujarat.gov.in/m/contact-competant_persons.htm",
       "title": "DISH | Contact us | Contact Persons/Whom to Contact | Competant Persons",
       "sourceType": "SERVICE_PAGE",
@@ -4026,6 +4135,20 @@
       "quoted": true,
       "bytes": 3909,
       "sha256": "47045468eb20b03dbccd3f4b7bbb34d1c01ddcd464e64c432e54e40758e018b3",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://dish.gujarat.gov.in/schemes-winners-3.htm",
+      "title": "DISH | Shram Awards | List of Winners | Winners 2003-04",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/8390c7cd8d97e8c983da2d6be502fa7e2a2e61c8.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2792,
+      "sha256": "5bad224f024569c681a8707c536ada17f3eb68fb950b30e4bf0a13368ad27733",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -4230,6 +4353,7 @@
       "title": "Commissioner of Cottage and Rural Industries",
       "sourceType": "PORTAL_HOME",
       "journeys": [
+        "msme-and-udyam",
         "welfare-schemes"
       ],
       "cacheFile": ".ingest/pages/6d8bddc32330a07d3fbd369c399729cf2e029c36.md",
@@ -5814,6 +5938,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://grwwb.gujarat.gov.in/application-from.htm",
+      "title": "Application From | E-Citizen | Gujarat Rural Worker Welfare Board",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/b5c3c3744d80a56def07ea251c1026036a7b1ea7.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 1157,
+      "sha256": "c02c395f6179c9fad8ecff258909c247996223ae923f9d080a6e1f09bc2d404f",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://grwwb.gujarat.gov.in/contact-us.htm",
       "title": "Contact Us | Gujarat Rural Workers Welfare Board",
       "sourceType": "SERVICE_PAGE",
@@ -5830,7 +5968,7 @@
     {
       "url": "https://grwwb.gujarat.gov.in/find-field-offices.htm",
       "title": "Find Field offices | Gujarat Rural Workers Welfare Board | Labour & Employment Department, Government of Gujarat, India",
-      "sourceType": "SERVICE_PAGE",
+      "sourceType": "OFFICE_DIRECTORY",
       "journeys": [
         "welfare-schemes"
       ],
@@ -6320,16 +6458,30 @@
     },
     {
       "url": "https://gssp.gujarat.gov.in/LoginApp/DownLoad/Guideline%20for%20SC%20Students%20(DGP)%202025-26.pdf",
-      "title": "Guideline%20for%20SC%20Students%20(DGP)%202025-26 (page 3 of 9)",
+      "title": "Guideline%20for%20SC%20Students%20(DGP)%202025-26 (page 9 of 9)",
       "sourceType": "GUIDELINE",
       "journeys": [
         "welfare-schemes"
       ],
-      "cacheFile": ".ingest/pages/dc3afc404f9ffdbba33987fa1d0fc051a8a5acd9.md",
+      "cacheFile": ".ingest/pages/1358e0bc158c1a766bd377602575dcb26497a978.md",
       "status": "CACHED",
       "quoted": true,
-      "bytes": 4821,
-      "sha256": "3c95b98c52f00618439842b1b288877f13e24eefd367f07ac1aa5ac58d568c15",
+      "bytes": 7030,
+      "sha256": "b555f5f304815a397ec11a52a00547ccd36f619c3dedb142de5f09e3eec2e725",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://gssp.gujarat.gov.in/LoginApp/DownLoad/Guideline%20for%20SC%20Students%20(DGP)%202026-27.pdf",
+      "title": "Guideline%20for%20SC%20Students%20(DGP)%202026-27 (page 3 of 9)",
+      "sourceType": "GUIDELINE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/8ee7814463982de2dfe071b35b21dbcf62152f12.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 4415,
+      "sha256": "4ed4c7bf042c6b694acdbde3cf45f8e047ffaf8eef02d889c3e5b39babc315a7",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -6436,6 +6588,7 @@
       "sourceType": "GUIDELINE",
       "journeys": [
         "permits-and-licences",
+        "property-and-land",
         "welfare-schemes"
       ],
       "cacheFile": ".ingest/pages/f2948a37fbd805257e662b313aabd071c6c5284c.md",
@@ -6517,6 +6670,21 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://gvc.org.in/",
+      "title": "Gujarat Veterinary Council",
+      "sourceType": "PORTAL_HOME",
+      "journeys": [
+        "district-certificates",
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/f6b2e8c4abe15a3be44979f7a13fd8b69f190406.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2575,
+      "sha256": "a3c40f371fd99a226d4fb159c5149dd1edd7d849f328d8a10dc8da9649965219",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://gvc.org.in/webcontroller/clickmenu/MTYyMDU3OTYw",
       "title": "Gujarat Veterinary Council",
       "sourceType": "SERVICE_PAGE",
@@ -6528,6 +6696,21 @@
       "quoted": true,
       "bytes": 4666,
       "sha256": "56a88513ddc850e8c48752ccaca91ec048e4dc02268bf203e8157837182c4f23",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://gvc.org.in/webcontroller/contactgvc",
+      "title": "Gujarat Veterinary Council",
+      "sourceType": "HELPLINE",
+      "journeys": [
+        "district-certificates",
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/7e6056c2df60119dba9f23f64c8c9919a8717715.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 1890,
+      "sha256": "cb9275c4dd98f25ea12837f6c914ee05a15c02d940b4fe42becb333316b913f9",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -6755,6 +6938,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://ifp.gujarat.gov.in/DIGIGOV/IFP-pages/verify-certificate.jsp;jsessionid=MEEVDSaAreFVBDGF1zPUQK-CFvGFgMuYjZmRUX6F.IFP_App1?pagedisp=static",
+      "title": "Investor Facilitation Portal",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/b6c89a32ad069c4a083b82c4d92e29a5272a934f.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 10709,
+      "sha256": "883d6fd90247b79f778e1658a69e108acdec38a4b59c225905e983d2731dea23",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/CIS/CIS_Information_Sheet_Checklist.pdf",
       "title": "CIS_Information_Sheet_Checklist (page 15 of 15)",
       "sourceType": "SERVICE_PAGE",
@@ -6874,6 +7071,8 @@
       "title": "Industries and Mines department Schemes | Industries & Mines Department",
       "sourceType": "SERVICE_PAGE",
       "journeys": [
+        "msme-and-udyam",
+        "property-and-land",
         "welfare-schemes"
       ],
       "cacheFile": ".ingest/pages/673502f80cb5c370aef8f9a8af90b505bf36fc2a.md",
@@ -7251,7 +7450,7 @@
     {
       "url": "https://kcg.gujarat.gov.in/education_loan/approved.php",
       "title": "Interest Subsidy Scheme on Education Loan",
-      "sourceType": "SERVICE_PAGE",
+      "sourceType": "TRACKING_PAGE",
       "journeys": [
         "welfare-schemes"
       ],
@@ -7616,16 +7815,17 @@
     },
     {
       "url": "https://ma.gujarat.gov.in/documents/Letter%20&%20Guideline%20for%20Hospital%20Empanelment%20under%20MA%20&%20PMJAY.pdf",
-      "title": "Letter%20&%20Guideline%20for%20Hospital%20Empanelment%20under%20MA%20&%20PMJAY (page 6 of 26)",
+      "title": "Letter%20&%20Guideline%20for%20Hospital%20Empanelment%20under%20MA%20&%20PMJAY (page 11 of 26)",
       "sourceType": "GUIDELINE",
       "journeys": [
+        "permits-and-licences",
         "welfare-schemes"
       ],
-      "cacheFile": ".ingest/pages/dc8dcc241380343daa340c7fa69539f35dbffe82.md",
+      "cacheFile": ".ingest/pages/ab53e71b30a09083eda1ea319fd92ce571ce812a.md",
       "status": "CACHED",
       "quoted": true,
-      "bytes": 984,
-      "sha256": "692f8f9542edc7ff3b7afcc87e068856495df07acba229dc215d59b3bfa1e1d0",
+      "bytes": 1336,
+      "sha256": "5c1de19acfe8113d5baac6ef19202a3f49bbe571fbfd2ce92737edf99123aa7e",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -8010,6 +8210,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://mdm.gujarat.gov.in/contact-us",
+      "title": "Pradhan Mantri Poshan Shakti Nirman",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/122e8ac5fabb198e3731199ae48703a851fd5d74.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 6852,
+      "sha256": "15b3ee5a5095c1aa12618a07e8a14ee2f2da8047950263b3f32a0df47d6c39aa",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://mdm.gujarat.gov.in/mdmbackend/uploads/document/mc9-zX8g3aqcuZs2TY5D0BaMI2395-l0.pdf",
       "title": "mc9-zX8g3aqcuZs2TY5D0BaMI2395-l0 (page 135 of 141)",
       "sourceType": "SERVICE_PAGE",
@@ -8099,7 +8313,8 @@
       "title": "Domicile Certificate | District Morbi, Government of Gujarat",
       "sourceType": "SERVICE_PAGE",
       "journeys": [
-        "certificates"
+        "certificates",
+        "district-certificates"
       ],
       "cacheFile": ".firecrawl/research/morbi-domicile.md",
       "status": "CACHED",
@@ -8113,7 +8328,8 @@
       "title": "Contact Us | MSME Gujarat",
       "sourceType": "SERVICE_PAGE",
       "journeys": [
-        "msme-and-udyam"
+        "msme-and-udyam",
+        "welfare-schemes"
       ],
       "cacheFile": ".ingest/pages/ed6493195eca24532437340dae7901af9d8b267c.md",
       "status": "CACHED",
@@ -8323,7 +8539,8 @@
       "title": "About Us - National Social Assistance Programme (NSAP), Ministry of Rural Development",
       "sourceType": "GUIDELINE",
       "journeys": [
-        "pension"
+        "pension",
+        "welfare-schemes"
       ],
       "cacheFile": ".firecrawl/pension/wb-nsap-about.md",
       "status": "CACHED",
@@ -8331,6 +8548,20 @@
       "bytes": 19841,
       "sha256": "3941cd0f064caf49bd945c58e4804fb9d74cc1fb673e6e798b498b54bae400b7",
       "retrievedAt": "2026-08-23T00:00:00.000Z"
+    },
+    {
+      "url": "https://ojas.gujarat.gov.in/AdvtDetailFiles/DPSSC27_201819_2.pdf",
+      "title": "DPSSC27_201819_2 (page 8 of 14)",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/d705d864979d96a1112bbdbff51c02e59fb433ca.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 7650,
+      "sha256": "521ebf9188efb3e82725e65958fcc14a4f1f4b2ef577d0353188d8a1b2db2236",
+      "retrievedAt": "2026-08-23"
     },
     {
       "url": "https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_201617_120.pdf",
@@ -8403,6 +8634,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://pan.utiitsl.com/downloadFile?FileName=DocumentsForPAN.pdf",
+      "title": "downloadFile?FileName=DocumentsForPAN (page 3 of 11)",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "birth-death"
+      ],
+      "cacheFile": ".ingest/pages/8df61e87748cfb7329795f2f87f44583c0f39eba.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 1065,
+      "sha256": "5eb2fff65913a79b10e51050b9c28211e3f7205ebbc96931db5fd8e43695189e",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://panchmahal.gujarat.gov.in/",
       "title": "Collectorate - District Panchmahal",
       "sourceType": "PORTAL_HOME",
@@ -8450,7 +8695,8 @@
       "title": "Learner's License | Parivahan Sewa",
       "sourceType": "GUIDELINE",
       "journeys": [
-        "driving_licence"
+        "driving_licence",
+        "permits-and-licences"
       ],
       "cacheFile": ".firecrawl/ll.md",
       "status": "CACHED",
@@ -8673,8 +8919,9 @@
     {
       "url": "https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf",
       "title": "Vessal_25102024 (page 3 of 21)",
-      "sourceType": "SERVICE_PAGE",
+      "sourceType": "OFFICE_DIRECTORY",
       "journeys": [
+        "district-certificates",
         "permits-and-licences",
         "property-and-land"
       ],
@@ -8907,6 +9154,20 @@
       "quoted": true,
       "bytes": 6454,
       "sha256": "3f7da6556e9e331f0942db8fa72014f2e51521b8656d69b924aed8e2f2002eef",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://ruraldev.gujarat.gov.in/Home/CRDOfficers",
+      "title": "Commissionerate of Rural Developement",
+      "sourceType": "PORTAL_HOME",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/81ec140c206f738fd35623ead0593a529871be65.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 3382,
+      "sha256": "08df619b2bcc111cee4bcd1e5b56fb196097278be6f8a1ccc1c7c3d31dd00792",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -9374,6 +9635,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://srtgeda.gujarat.gov.in/apply-onlines/track-application",
+      "title": "GEDA | Unified Single Window Rooftop PV Portal",
+      "sourceType": "TRACKING_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/1acbdaddae210a9a736e701a663675d5c106561a.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 1287,
+      "sha256": "7f0bed5fc3a0d442d67fd6f2877737d8cc3fb2739a9390e2e76ce772a8dd96ab",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://srtgeda.gujarat.gov.in/developer-registration",
       "title": "GEDA | Unified Single Window Rooftop PV Portal",
       "sourceType": "SERVICE_PAGE",
@@ -9419,7 +9694,7 @@
     {
       "url": "https://ssnnl.gujarat.gov.in/investors-services.aspx",
       "title": "Investors Services | Sardar Sarovar Narmada Nigam Limited",
-      "sourceType": "OFFICE_DIRECTORY",
+      "sourceType": "SERVICE_PAGE",
       "journeys": [
         "welfare-schemes"
       ],
@@ -9505,7 +9780,8 @@
       "title": "Caste Certificate | District Surat, Government of Gujarat",
       "sourceType": "SERVICE_PAGE",
       "journeys": [
-        "certificates"
+        "certificates",
+        "district-certificates"
       ],
       "cacheFile": ".firecrawl/research/surat-caste.md",
       "status": "CACHED",
@@ -9526,6 +9802,20 @@
       "quoted": true,
       "bytes": 16172,
       "sha256": "47137b014ff3692d47cb503157f78abe9f15b414941a73e90876e00df97b0edc",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://suratmunicipal.gov.in/epay/SocietyRegistration/SocietyRegistration.aspx",
+      "title": "Virtual Civic Center (Online Services) :: Surat Municipal Corporation",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "district-certificates"
+      ],
+      "cacheFile": ".ingest/pages/0c5990334d3a48f9607f1f2ea84f520c750b4545.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2017,
+      "sha256": "3bc3a004abc9dea075300a30b1c43ad1a0783566821add1551306c6aabfea948",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -9645,7 +9935,8 @@
       "title": "DPIFC | Development Permission Investors Facilitation Cell — Single Page (Temporary)",
       "sourceType": "SERVICE_PAGE",
       "journeys": [
-        "permits-and-licences"
+        "permits-and-licences",
+        "welfare-schemes"
       ],
       "cacheFile": ".ingest/pages/f84364f0621709a94f6441c067c84d3fa1f3df9f.md",
       "status": "CACHED",
@@ -10062,6 +10353,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://vahan.parivahan.gov.in/vahanservice/vahan/ui/usermgmt/userRegistration.xhtml",
+      "title": "VAHAN 4.0 (Citizen Services)",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/991e98954af32bf66b85077350e7a380087736e9.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 6083,
+      "sha256": "9e5892fa97d9d7c5bb45a206545f61d89bb9e23ec87c0fd2702afc8fbfe3d1d1",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://vahan.parivahan.gov.in/vahantc/vahan/ui/tradecert/form_tc_login.xhtml",
       "title": "VAHAN4(Trade Citizen Services)",
       "sourceType": "SERVICE_PAGE",
@@ -10228,6 +10533,20 @@
       "quoted": true,
       "bytes": 11357,
       "sha256": "ce8a259fd30547263a96c0639d750eb6dd4df1e1872ce73393047cba12071ace",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://wasmows.gujarat.gov.in/vendors",
+      "title": "Vendors | Water and Sanitation Management Organisation",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/8892526cfecba4eb714eceac45b62795b7ec86d0.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 1539,
+      "sha256": "a9794f8ae6cd49cb7544b8dd961de3707c95130f6275538cb00240e5760014fe",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -10446,6 +10765,7 @@
       "title": "AGR 2 (Farm Mechanization) Scheme Of Farmers Other Than SC/ST",
       "sourceType": "SERVICE_PAGE",
       "journeys": [
+        "msme-and-udyam",
         "welfare-schemes"
       ],
       "cacheFile": ".ingest/pages/069ffe0326d46b451c9214fde2ca8f5e4e9567c5.md",
@@ -10558,6 +10878,7 @@
       "title": "AICTE - Grant For Augmenting Infrastructure In North Eastern Region",
       "sourceType": "SERVICE_PAGE",
       "journeys": [
+        "district-certificates",
         "welfare-schemes"
       ],
       "cacheFile": ".ingest/pages/d1c9ad61fd1b7491c9cbd6a36ad54bc94c37489a.md",
@@ -10652,6 +10973,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/annath-pension-yojana-jbocwwb_apy-jbocwwb.html",
+      "title": "Annath Pension Yojana (JBOCWWB)",
+      "sourceType": "TRACKING_PAGE",
+      "journeys": [
+        "msme-and-udyam"
+      ],
+      "cacheFile": ".ingest/pages/0a36ac4651657379896d67d07956a52398372fdc.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16350,
+      "sha256": "1f9206be3379f2ef8530bb2aaeb2cac087531dcf13bf0ad437d054b9cde3cb3a",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://web.umang.gov.in/landing/scheme/detail/antayoshti-sahayata-yojana_asy.html",
       "title": "Antayoshti Sahayata Yojana",
       "sourceType": "SERVICE_PAGE",
@@ -10666,6 +11001,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/antya-sanskar-sahay-yojana_assy-goa.html",
+      "title": "Antya Sanskar Sahay Yojana",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "msme-and-udyam"
+      ],
+      "cacheFile": ".ingest/pages/6715e4f6feb984615bdd3337345972dbcfc346de.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14272,
+      "sha256": "4c9d8bc1b1f93a0ca50b0b372e82990cd7393f0495b048a434430287ceb1075a",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://web.umang.gov.in/landing/scheme/detail/aponar-apon-ghar_aag.html",
       "title": "Aponar Apon Ghar",
       "sourceType": "SERVICE_PAGE",
@@ -10677,6 +11026,34 @@
       "quoted": true,
       "bytes": 13520,
       "sha256": "50df862030da5c0fb046cb4b75706e6b7e0ad9545a2416fb04327abf4bbe3977",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/assistance-for-delivery-miscarriage-of-pregnancy-termination-of-pregnancy-to-female-differently-abled-person_admptpfdap.html",
+      "title": "Assistance For Delivery / Miscarriage Of Pregnancy / Termination Of Pregnancy To Female Differently Abled Person",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "msme-and-udyam"
+      ],
+      "cacheFile": ".ingest/pages/383231205bd5d8f593e8a49e65e5f13f551a166a.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 12428,
+      "sha256": "1e99621c79dce3b397a3b1f7e9d6ac15826edcdaf72f14a9230800d4668a87ef",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/assistance-for-purchase-of-spectacles-by-a-differently-abled-person_apsdap.html",
+      "title": "Assistance For Purchase Of Spectacles By A Differently Abled Person",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "msme-and-udyam"
+      ],
+      "cacheFile": ".ingest/pages/4e90deaa2d5e93a8fa6b1dbd5ffb45553ce064e8.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 10155,
+      "sha256": "3e0ee96d55db63662e5a513a343b12c858cc528330d9788ec318b3c32f8d2376",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -10747,6 +11124,20 @@
       "quoted": true,
       "bytes": 16780,
       "sha256": "99e45da7ecf0bad7614b2ba2ecb6715a32859f994302c5ae98cdcb11a7024344",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/award-of-stipend-to-vjnt-and-sbc-students-studying-in-iti_awvsssi.html",
+      "title": "Award Of Stipend To VJNT And SBC Students Studying In ITI",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/ac65795f99f40e15c2ce6c8b30c0f4599ec9ec8e.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 11699,
+      "sha256": "fedbbe48f683c77d5ec76c329d3730069be89bcad52b10f217933bc474257e7b",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -10990,8 +11381,9 @@
     {
       "url": "https://web.umang.gov.in/landing/scheme/detail/chief-ministergi-shotharabasingi-tengbang_cmst.html",
       "title": "Chief Ministergi Shotharabasingi Tengbang",
-      "sourceType": "SERVICE_PAGE",
+      "sourceType": "OFFICE_DIRECTORY",
       "journeys": [
+        "district-certificates",
         "welfare-schemes"
       ],
       "cacheFile": ".ingest/pages/c184adf1ee340591624d4031908cb6d591c270f6.md",
@@ -11030,11 +11422,26 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/chief-ministers-yuva-kaushal-yojana_cm-yky.html",
+      "title": "Chief Minister’s Yuva Kaushal Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/41fabc2e6c6543122d30be87adfa140b75eb6c07.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 12222,
+      "sha256": "3c723c87e91ddacf2efd9e4791f6afc9b62f878b18546aa0d983ae8729d7b72d",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://web.umang.gov.in/landing/scheme/detail/cm-anuprati-coaching-scheme_cmacs.html",
       "title": "CM Anuprati Coaching Scheme",
       "sourceType": "SERVICE_PAGE",
       "journeys": [
-        "district-certificates"
+        "district-certificates",
+        "property-and-land"
       ],
       "cacheFile": ".ingest/pages/e220f7589dcae59dc7056b429ecdd29f383a33d8.md",
       "status": "CACHED",
@@ -11170,6 +11577,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/dayanand-bandodkar-scheme-for-higher-education-for-orphans_dbsheo.html",
+      "title": "Dayanand Bandodkar Scheme For Higher Education For Orphans",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/65dbc971d55ca108a0744523cc0464baf0eb6aac.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 13525,
+      "sha256": "2607f22d8f875b6bca298a353716002b9aaf13954695cff8bb70579aa40e5a66",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://web.umang.gov.in/landing/scheme/detail/deen-dayal-upadhyay-grameen-kaushalya-yojana_ddugku.html",
       "title": "Deen Dayal Upadhyay Grameen Kaushalya Yojana",
       "sourceType": "SERVICE_PAGE",
@@ -11265,6 +11686,20 @@
       "quoted": true,
       "bytes": 1084,
       "sha256": "a3fe3eabfba29911e93da4b6c8653683d52f118610fbd54da9aec2580dd6ac6f",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.digilocker.gov.in/",
+      "title": "DigiLocker | Access, Share & Verify Digital Documents",
+      "sourceType": "PORTAL_HOME",
+      "journeys": [
+        "property-and-land"
+      ],
+      "cacheFile": ".ingest/pages/2e2b898e6d86c095a5976c174d38e58a91a0806b.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2609,
+      "sha256": "2bbc4e3d3c89bd21c3340f24845e433a4135daaf44a490386ad16b0c9becea26",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -11497,7 +11932,8 @@
       "title": "Challan Correction Request | Income Tax Department",
       "sourceType": "SERVICE_PAGE",
       "journeys": [
-        "gst"
+        "gst",
+        "pan"
       ],
       "cacheFile": ".ingest/pages/5b01f9f922503ee3282c2adae283b646cbafbf47.md",
       "status": "CACHED",
@@ -11533,6 +11969,20 @@
       "quoted": true,
       "bytes": 16615,
       "sha256": "250b3c6cab1724eda3d627abacbac64008ced89f100003cd1629ab21b9a1676e",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.incometax.gov.in/iec/foportal/help/how-to-work-with-ca",
+      "title": "Work with My CA User Manual | Income Tax Department",
+      "sourceType": "GUIDELINE",
+      "journeys": [
+        "pan"
+      ],
+      "cacheFile": ".ingest/pages/f0c52d19777ea816e7abf9bb1ec9d67271e1ecce.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 9933,
+      "sha256": "b8e9410abc1aaab1a38fcf8cf5f78309cf92035be02f354b18ff2ace7183742d",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -11821,6 +12271,7 @@
       "title": "Assistance Program for Expansion of Fruit Crop Cultivation",
       "sourceType": "SERVICE_PAGE",
       "journeys": [
+        "msme-and-udyam",
         "welfare-schemes"
       ],
       "cacheFile": ".ingest/pages/b597a34688a926103349a15e3aea13c68e104f95.md",
@@ -11976,6 +12427,7 @@
       "title": "Ganga Swarupa Pension Scheme, Gujarat - myScheme",
       "sourceType": "SERVICE_PAGE",
       "journeys": [
+        "msme-and-udyam",
         "pension"
       ],
       "cacheFile": ".firecrawl/pension/myscheme-gspsg.md",
@@ -11983,7 +12435,7 @@
       "quoted": true,
       "bytes": 14636,
       "sha256": "dcc4005f56ad53e74279aae963150dd29f33c9468f247aa5420079856afa347d",
-      "retrievedAt": "2026-08-23T00:00:00.000Z"
+      "retrievedAt": "2026-08-23"
     },
     {
       "url": "https://www.myscheme.gov.in/schemes/gsrfas",
@@ -12169,6 +12621,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://www.myscheme.gov.in/schemes/mdiis",
+      "title": "Digital India Internship Scheme",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/0e245510a4c17620abd9c442a9412b3cd57bb192.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 21147,
+      "sha256": "07b749913b2b51ee4cdf2dc5460e5204de82219d4c415449f00bbb2d87a06a4f",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://www.myscheme.gov.in/schemes/mkaps",
       "title": "Mukhyamantri Kanya Abhibhawak Pension Scheme",
       "sourceType": "SERVICE_PAGE",
@@ -12268,6 +12734,20 @@
       "retrievedAt": "2026-08-23T02:58:00Z"
     },
     {
+      "url": "https://www.myscheme.gov.in/schemes/nacoip",
+      "title": "National AIDS Control Organisation (NACO) Internship Programme",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/5b7a7db20ee50bdf377bc978c004c83ff727311e.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 21710,
+      "sha256": "5f46cb72308f29f8735c39e2acb0b45b2059521a267eeb5914ff2cf36d2f253a",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://www.myscheme.gov.in/schemes/ndfadc",
       "title": "National Disabled Finance and Development Corporation",
       "sourceType": "SERVICE_PAGE",
@@ -12293,6 +12773,34 @@
       "quoted": true,
       "bytes": 15408,
       "sha256": "0d6e2653b8f582800245215dd7c0d22a523de621c236959360e16222cbbd155d",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/pkvy",
+      "title": "Paramparagat Krishi Vikas Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "district-certificates"
+      ],
+      "cacheFile": ".ingest/pages/d23c71138bc2a4ca57c95fcd8519cacb95c53025.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 18421,
+      "sha256": "62b5b0ae418b42751aca991616fb029e6b72f68b5317a14ca29912053c6600d5",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.myscheme.gov.in/schemes/pmegp",
+      "title": "Prime Minister's Employment Generation Programme",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "msme-and-udyam"
+      ],
+      "cacheFile": ".ingest/pages/7e1c48bba02e46ccee4c7436143f0f2d314f50df.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 30827,
+      "sha256": "b2d8ed4e15addb5c2cd06d4a8a0c64c4bcb28cf6d37ba0922725ed58822d48fd",
       "retrievedAt": "2026-08-23"
     },
     {
