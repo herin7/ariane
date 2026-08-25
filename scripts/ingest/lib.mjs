@@ -158,6 +158,7 @@ export const REJECTION_REASONS = {
   NOT_A_CITIZEN_FEE: "money moving the other way, or not moving at all",
   NOT_A_PROCESSING_TIME: "a deadline or a duration, not how long government takes",
   NOT_A_CRITERION: "what the scheme is for, not who it is for",
+  NOT_A_CITIZEN_STEP: "an instruction for a button, not a thing to do in your week",
 
   // Ours, not the page's.
   TRUNCATED_BY_CAP: "true, quotable, and past the number we agreed to show",

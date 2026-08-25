@@ -663,6 +663,70 @@ export const stepLabel = (text) =>
     .replace(/[.;:,]\s*$/, "")
     .slice(0, 90);
 
+// ------------------------------------------------------------- citizen stages
+
+/**
+ * §16's seven stages, in the order a citizen meets them.
+ *
+ * This is a *UI* grouping and it is not the same claim as an order the source
+ * verified. A page that numbers nine steps is telling us step 4 comes after
+ * step 3; putting "Visit the RTO" under IN_PERSON is telling the citizen where
+ * in their day it belongs. Conflating the two is how a graph starts asserting
+ * sequences nobody published, so they stay two fields: `stepNumber` is the
+ * source's claim and `uiStage` is ours.
+ */
+export const STAGES = ["ELIGIBILITY", "PREPARE", "APPLY", "IN_PERSON", "AFTER_SUBMISSION", "TRACK", "HELP"];
+
+/** Dimension first, because retrieval already asked the question this answers. */
+const BY_DIMENSION = {
+  ELIGIBILITY: "ELIGIBILITY",
+  DOCUMENTS: "PREPARE",
+  OFFICE: "IN_PERSON",
+  TRACKING: "TRACK",
+  HELPLINE: "HELP",
+  ESCALATION: "HELP",
+  OUTPUT: "AFTER_SUBMISSION",
+};
+
+/**
+ * What the sentence is telling you to do, when the dimension does not say.
+ *
+ * ACTIONS, VERIFICATION and ISSUING_AUTHORITY all arrive as steps and land in
+ * different parts of a citizen's week. Verb first and in this order, because a
+ * sentence can carry two: "Visit the RTO on the scheduled date with original
+ * documents" is a trip, not a packing list, and reading PREPARE off "documents"
+ * would file it under things to do at home.
+ */
+const BY_VERB = [
+  ["IN_PERSON", /\b(visit|go to|appear|attend|present yourself|in person|at the (?:office|counter)|bring (?:the )?original)\b/i],
+  ["TRACK", /\b(track|status of|check the status|know your (?:application|status)|to (?:get|view|see) [\w' ]{0,30}details)\b/i],
+  ["AFTER_SUBMISSION", /\b(will be (?:issued|given|generated|sent|delivered)|after (?:registration|submission|completion|approval)|collect the|download the (?:certificate|licence|license))\b/i],
+  ["PREPARE", /\b(keep ready|gather|obtain|attach|upload|scan|self.?attest)\b/i],
+];
+
+/**
+ * A sentence that is about operating a control, not about getting a thing done.
+ *
+ * "Click 'continue'." came back as a driving licence step, verbatim, off
+ * parivahan's own FAQ, and it is not wrong: that page does say it. It is the
+ * wrong size. A citizen's step is "Take an appointment" or "Visit the RTO on
+ * the scheduled date with original documents"; nobody plans their week around
+ * a button. §26's north star is whether the result helps somebody finish the
+ * task, and a list where step 5 is a button is a list you stop reading.
+ *
+ * The verb is the whole test, and only in first position. "Fill up the
+ * Application Form" survives, because filling the form is the thing. "Select
+ * the district and click submit" does not, and that is the intended answer.
+ */
+export const isMicroInstruction = (claim) => /^\s*(?:click|press|tap|select|choose|scroll|hover)\b/i.test(String(claim ?? ""));
+
+export function uiStage(fact) {
+  const byDimension = BY_DIMENSION[fact.dimension];
+  if (byDimension) return byDimension;
+  const claim = String(fact.claim ?? "");
+  return BY_VERB.find(([, re]) => re.test(claim))?.[0] ?? "APPLY";
+}
+
 // -------------------------------------------------------- requirement groups
 
 /**
@@ -1126,6 +1190,27 @@ if (flag("selftest")) {
 
   assert.equal(stepLabel("  Click on the Apply  button.  "), "Click on the Apply button");
 
+  // ---------------------------------------------------------- citizen stages
+  // The dimension wins where retrieval asked the question.
+  assert.equal(uiStage({ dimension: "DOCUMENTS", claim: "Visit the RTO." }), "PREPARE");
+  assert.equal(uiStage({ dimension: "HELPLINE", claim: "Call 1800." }), "HELP");
+  // And where it did not, the verb decides, in the order it is listed.
+  assert.equal(uiStage({ dimension: "ACTIONS", claim: "Visit the RTO on the scheduled date with original documents." }), "IN_PERSON");
+  assert.equal(uiStage({ dimension: "ACTIONS", claim: "Upload the scanned documents." }), "PREPARE");
+  assert.equal(uiStage({ dimension: "ACTIONS", claim: "After registration, a permanent number will be given." }), "AFTER_SUBMISSION");
+  assert.equal(uiStage({ dimension: "ACTIONS", claim: "Fill up the Application Form." }), "APPLY");
+  assert.equal(uiStage({ dimension: "VERIFICATION", claim: "Check the status of the application." }), "TRACK");
+  assert.equal(uiStage({ claim: "Enter the licence number and date of birth to get licence details." }), "TRACK");
+  // A button is not a step, and the verb only counts in first position.
+  assert.ok(isMicroInstruction("Click 'continue'."));
+  assert.ok(isMicroInstruction("Select the district and click submit"));
+  assert.ok(!isMicroInstruction("Fill up the Application Form."));
+  assert.ok(!isMicroInstruction("Take an appointment."));
+  // Every stage this can return is one the citizen UI knows how to show.
+  for (const claim of ["Visit the office", "Track it", "Pay the fee", "Upload it", "It will be issued"]) {
+    assert.ok(STAGES.includes(uiStage({ claim })), claim);
+  }
+
   // -------------------------------------------------------- requirement groups
 
   const anyOne = groupBlocks("Identity proof, any one of the following:\n- Aadhaar card\n- Passport\n- Election ID card\n\nNext section");
@@ -1448,6 +1533,9 @@ for (const claim of readJsonl(CLAIMS)) {
   into.facts.push({
     claim: claim.claim,
     kind: claim.kind,
+    // The question retrieval was asking. Kept because it is a better answer to
+    // "where in the journey does this belong" than any verb in the sentence.
+    dimension: claim.dimension,
     subject: claim.subject,
     object: claim.object,
     detail: claim.detail ?? {},
@@ -1828,6 +1916,41 @@ function build(journey, services) {
           const gId = `grievance:${slug(service.id)}`;
           put({ id: gId, type: "GRIEVANCE_CHANNEL", name: `Grievances about ${service.name.toLowerCase()}`, jurisdictionId, metadata: { channelType: "GRIEVANCE_PORTAL" }, sources: r });
           link(serviceNodeId, gId, "ESCALATE_TO", f.claim, r);
+        } else if (f.kind === "ACTION" && f.promoted && isMicroInstruction(f.claim)) {
+          reject("NOT_A_CITIZEN_STEP", { ...of(f), note: "a button, not a step" });
+        } else if (f.kind === "ACTION" && f.promoted && stepLabel(f.claim)) {
+          // ------------------------------------------------ a step, unordered
+          //
+          // §15: do not force a total sequence when the source does not give
+          // one. Everywhere else in this file an ACTION becomes a node only if
+          // the page numbered it, because 2521 ACTION facts arrive and most are
+          // a Mamlatdar's job description. A promoted claim is the case that
+          // rule was too blunt for: retrieval was handed the service id and the
+          // ACTIONS dimension, the reranker was told the service name, the
+          // extractor refused anything the quote did not name. "Take an
+          // appointment" and "Visit the RTO on the scheduled date with original
+          // documents" are steps in the driving licence journey whether or not
+          // parivahan's FAQ page printed a 3. and a 4. beside them.
+          //
+          // So it becomes a node and it gets no DEPENDS_ON. The numbered branch
+          // below chains its run because the page said so; there is nothing to
+          // say here, and inventing an order is the same class of mistake as
+          // inventing a fee. The journey compiler already topologically sorts a
+          // partial order, and `uiStage` groups these for the citizen without
+          // claiming the group is a sequence.
+          const label = stepLabel(f.claim);
+          const actionId = `action:${service.id}_${slug(label).slice(0, 48)}`;
+          put({
+            id: actionId,
+            type: "ACTION",
+            name: display(label),
+            jurisdictionId,
+            metadata: { whatToDo: f.claim, uiStage: uiStage(f), machineExtracted: true },
+            sources: r,
+            lastVerifiedAt: today(),
+          });
+          link(serviceNodeId, actionId, "REQUIRES", f.claim, r);
+          cite(ref(sourceId, f), f);
         } else if (HARD.includes(f.kind) || f.kind === "ACTION" || f.kind === "CHANNEL") {
           // Not its own node, but it is why this service node is believable, so
           // it hangs off the service with its quote intact.
@@ -1901,7 +2024,9 @@ function build(journey, services) {
             type: "ACTION",
             name: display(label),
             jurisdictionId,
-            metadata: { whatToDo: m.fact.claim, stepNumber: m.n, machineExtracted: true },
+            // Both fields, and they are not the same claim. `stepNumber` is the
+            // page's: it printed a 3 beside this one. `uiStage` is ours.
+            metadata: { whatToDo: m.fact.claim, stepNumber: m.n, uiStage: uiStage(m.fact), machineExtracted: true },
             sources: r,
             lastVerifiedAt: today(),
           });

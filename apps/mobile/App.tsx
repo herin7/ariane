@@ -11,6 +11,7 @@ import {
   View,
 } from "react-native";
 import { API, compileJourney, resolveIntent, type Resolved } from "./api";
+import { CITIZEN_STAGES } from "@ariane/core";
 import type { CompiledJourney, DerivedQuestion, Facts, JourneyStep } from "@ariane/core";
 
 /**
@@ -237,9 +238,16 @@ function Journey({ goal, onBack }: { goal: { id: string; name: string }; onBack:
       ) : null}
 
       <Text style={styles.h2}>Your path</Text>
-      {journey.orderedSteps.map((step) => (
-        <Step key={step.nodeId} step={step} held={held} onHave={toggleHeld} />
-      ))}
+      {CITIZEN_STAGES.map((s) => ({ ...s, steps: journey.orderedSteps.filter((x) => x.stage === s.stage) }))
+        .filter((g) => g.steps.length)
+        .map((g, _i, all) => (
+          <View key={g.stage}>
+            {all.length > 1 ? <Text style={styles.muted}>{g.label}</Text> : null}
+            {g.steps.map((step) => (
+              <Step key={step.nodeId} step={step} held={held} onHave={toggleHeld} />
+            ))}
+          </View>
+        ))}
 
       <Text style={styles.h2}>If you get stuck</Text>
       {journey.helplines.length || journey.escalationPaths.length ? (
@@ -306,7 +314,7 @@ function Step({
   return (
     <View style={[styles.card, step.state === "BLOCKED" && styles.blocked]}>
       <Text style={styles.h3}>
-        {step.order}. {step.title}
+        {step.orderVerified ? `${step.order}. ` : ""}{step.title}
         {step.state !== "READY" ? `  [${step.state.replace("_", " ").toLowerCase()}]` : ""}
       </Text>
       {step.officialName && step.officialName !== step.title ? (

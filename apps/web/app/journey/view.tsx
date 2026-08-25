@@ -1,6 +1,6 @@
 "use client";
 
-import { officeLine, type Channel, type CompiledJourney, type DerivedQuestion, type Facts, type JourneyStep } from "@ariane/core";
+import { CITIZEN_STAGES, officeLine, type Channel, type CompiledJourney, type DerivedQuestion, type Facts, type JourneyStep } from "@ariane/core";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -98,14 +98,12 @@ export function JourneyView({ districts }: { districts: string[] }) {
       ) : null}
 
       <h2>Your path</h2>
-      {journey.orderedSteps.map((step) => (
-        <Step
-          key={step.nodeId}
-          step={step}
-          held={held}
-          onHave={(id) => setHeld((h) => (h.includes(id) ? h.filter((x) => x !== id) : [...h, id]))}
-        />
-      ))}
+      <Path
+        steps={journey.orderedSteps}
+        held={held}
+        onHave={(id) => setHeld((h) => (h.includes(id) ? h.filter((x) => x !== id) : [...h, id]))}
+      />
+
 
       {journey.mobileApps.length ? (
         <>
@@ -272,6 +270,33 @@ function Question({ question, onAnswer }: { question: DerivedQuestion; onAnswer:
   );
 }
 
+/**
+ * The steps, grouped by the part of the week they belong to.
+ *
+ * §16. Flat numbering was a lie by omission: 517 of 553 services have no
+ * numbered process on any page we hold, so the citizen was reading "4." off a
+ * list whose order nobody published. The heading is dropped when everything
+ * lands in one stage, because a lone "Apply" over the only three steps there
+ * are is furniture, not information.
+ */
+function Path({ steps, held, onHave }: { steps: JourneyStep[]; held: string[]; onHave: (id: string) => void }) {
+  const groups = CITIZEN_STAGES.map((s) => ({ ...s, steps: steps.filter((x) => x.stage === s.stage) })).filter(
+    (g) => g.steps.length,
+  );
+  return (
+    <>
+      {groups.map((g) => (
+        <section key={g.stage}>
+          {groups.length > 1 ? <h3 className="muted small">{g.label}</h3> : null}
+          {g.steps.map((step) => (
+            <Step key={step.nodeId} step={step} held={held} onHave={onHave} />
+          ))}
+        </section>
+      ))}
+    </>
+  );
+}
+
 function Step({ step, held, onHave }: { step: JourneyStep; held: string[]; onHave: (id: string) => void }) {
   const tone =
     step.state === "BLOCKED" ? "bad" : step.state === "WAITING_EXTERNAL" ? "warn" : step.state === "SATISFIED" ? "good" : "";
@@ -279,7 +304,11 @@ function Step({ step, held, onHave }: { step: JourneyStep; held: string[]; onHav
   return (
     <div className={`card${step.state === "BLOCKED" ? " blocked" : ""}`}>
       <div className="row" style={{ flexWrap: "nowrap", alignItems: "flex-start" }}>
-        <span className="step-no">{step.order}</span>
+        {/* A number only where something published one. Everywhere else these
+            are things to do, not a fourth thing to do after a third. */}
+        <span className="step-no" title={step.orderVerified ? "The source numbers these steps." : "These are in no published order."}>
+          {step.orderVerified ? step.order : "•"}
+        </span>
         <div style={{ flex: 1 }}>
           <h3>
             {step.title} {step.state !== "READY" ? <span className={`tag ${tone}`}>{step.state.replace("_", " ")}</span> : null}
