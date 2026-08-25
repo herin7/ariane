@@ -391,6 +391,67 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "document:birth_certificate_issued_by_the_registrar_of_births_and_deat",
+   "type": "DOCUMENT",
+   "name": "• Birth certificate issued by the Registrar of Births and Deaths",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:8d192ccec7f2",
+     "evidence": "1. Any of the following documents may be accepted as valid proof of date of birth:\n2. • Birth certificate issued by the Registrar of Births and Deaths\n3. • Any School / education related certificate\n4. • Certificate based on the service records of the Central/State Government Organization.\n5. • Passport\n6. • Any other reliable document issued by a Government department.\n7. • In the absence of proof of date of birth as above, Medical certificate issued by",
+     "confidence": 0.6,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "document:any_school_education_related_certificate",
+   "type": "DOCUMENT",
+   "name": "• Any School / education related certificate",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:8d192ccec7f2",
+     "evidence": "1. Any of the following documents may be accepted as valid proof of date of birth:\n2. • Birth certificate issued by the Registrar of Births and Deaths\n3. • Any School / education related certificate\n4. • Certificate based on the service records of the Central/State Government Organization.\n5. • Passport\n6. • Any other reliable document issued by a Government department.\n7. • In the absence of proof of date of birth as above, Medical certificate issued by",
+     "confidence": 0.6,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "document:certificate_based_on_the_service_records_of_the_central_stat",
+   "type": "DOCUMENT",
+   "name": "• Certificate based on the service records of the Central/State Government Organization.",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:8d192ccec7f2",
+     "evidence": "1. Any of the following documents may be accepted as valid proof of date of birth:\n2. • Birth certificate issued by the Registrar of Births and Deaths\n3. • Any School / education related certificate\n4. • Certificate based on the service records of the Central/State Government Organization.\n5. • Passport\n6. • Any other reliable document issued by a Government department.\n7. • In the absence of proof of date of birth as above, Medical certificate issued by",
+     "confidence": 0.6,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "document_group:g_62237ddc2c",
+   "type": "DOCUMENT_GROUP",
+   "name": "1. Any of the following documents may be accepted as valid proof of date of birth",
+   "officialName": "1. Any of the following documents may be accepted as valid proof of date of birth:",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:8d192ccec7f2",
+     "evidence": "1. Any of the following documents may be accepted as valid proof of date of birth:\n2. • Birth certificate issued by the Registrar of Births and Deaths\n3. • Any School / education related certificate\n4. • Certificate based on the service records of the Central/State Government Organization.\n5. • Passport\n6. • Any other reliable document issued by a Government department.\n7. • In the absence of proof of date of birth as above, Medical certificate issued by",
+     "confidence": 0.6,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:birth_certificate",
    "type": "SERVICE",
    "name": "Birth Certificate",
@@ -417,6 +478,12 @@
      "sourceId": "src:8d192ccec7f2",
      "evidence": "2. • Birth certificate issued by the Registrar of Births and Deaths",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8d192ccec7f2",
+     "evidence": "1. Any of the following documents may be accepted as valid proof of date of birth:\n2. • Birth certificate issued by the Registrar of Births and Deaths\n3. • Any School / education related certificate\n4. • Certificate based on the service records of the Central/State Government Organization.\n5. • Passport\n6. • Any other reliable document issued by a Government department.\n7. • In the absence of proof of date of birth as above, Medical certificate issued by",
+     "confidence": 0.6,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -646,6 +713,22 @@
      "sourceId": "src:8d192ccec7f2",
      "evidence": "2. • Birth certificate issued by the Registrar of Births and Deaths",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_birth_certificate__requires__document_group_g_62237ddc2c",
+   "from": "service:birth_certificate",
+   "to": "document_group:g_62237ddc2c",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "1. Any of the following documents may be accepted as valid proof of date of birth:",
+   "sources": [
+    {
+     "sourceId": "src:8d192ccec7f2",
+     "evidence": "1. Any of the following documents may be accepted as valid proof of date of birth:\n2. • Birth certificate issued by the Registrar of Births and Deaths\n3. • Any School / education related certificate\n4. • Certificate based on the service records of the Central/State Government Organization.\n5. • Passport\n6. • Any other reliable document issued by a Government department.\n7. • In the absence of proof of date of birth as above, Medical certificate issued by",
+     "confidence": 0.6,
      "verificationStatus": "EXTRACTED"
     }
    ]

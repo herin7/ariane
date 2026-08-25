@@ -10189,6 +10189,21 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "document:medical_certificate_form_1a",
+   "type": "DOCUMENT",
+   "name": "Medical certificate form 1a",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:40dcf1b8c789",
+     "evidence": "Medical Certificate (FORM 1A) is required for applicants having age equal to or above 40 years.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "portal:sarathi_parivahan_gov_in",
    "type": "PORTAL",
    "name": "sarathi.parivahan.gov.in",
@@ -11127,6 +11142,21 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "document:rc_book_copy",
+   "type": "DOCUMENT",
+   "name": "Rc book copy",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:9e2968b96397",
+     "evidence": "Application should be accompanied with copy of R.C. Book, proof of payment of tax, Fitness Certificate, Certificate of Insurance, and P.U.C.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "action:national_permit_the_applicant_must_apply_for_a_national_permit_i",
    "type": "ACTION",
    "name": "The applicant must apply for a National Permit in Form N.P.P.U.C",
@@ -11216,12 +11246,6 @@
     {
      "sourceId": "src:6d9d50cb743e",
      "evidence": "Online National Permit::Pay National Permit Authorization Fee Online",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:9e2968b96397",
-     "evidence": "Application should be accompanied with copy of R.C. Book, proof of payment of tax, Fitness Certificate, Certificate of Insurance, and P.U.C.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
@@ -16316,6 +16340,21 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "document:cpcb_compliance_report",
+   "type": "DOCUMENT",
+   "name": "Cpcb compliance report",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:a067164dd721",
+     "evidence": " Whether the facility has been set up as per CPCB SOP/guideline? Submit the compliance report.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "action:authorization_for_utilization_of_hazardous_and_other_waste_the_applicant_must_submit_a_list_of_documents_in",
    "type": "ACTION",
    "name": "The applicant must submit a list of documents including product details, waste characteris",
@@ -16638,6 +16677,21 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "document:documentary_proof",
+   "type": "DOCUMENT",
+   "name": "Documentary proof",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:64129a64c0b8",
+     "evidence": "3. Documentary proof (preferably registration certificates from govt.) in support of beginning of operations of your firm.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "action:adventure_tour_operator_registration_the_applicant_must_submit_an_online_application",
    "type": "ACTION",
    "name": "The applicant must submit an online application",
@@ -16733,12 +16787,6 @@
     {
      "sourceId": "src:64129a64c0b8",
      "evidence": "1. Online application duly filled in.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:64129a64c0b8",
-     "evidence": "3. Documentary proof (preferably registration certificates from govt.) in support of beginning of operations of your firm.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
@@ -16967,6 +17015,36 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "document:paid_up_capital_proof",
+   "type": "DOCUMENT",
+   "name": "Paid up capital proof",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:ac7daef86cfc",
+     "evidence": "b. ATO should have a minimum Paid up Capital (Capital employed) of Rs. 3.00 lakhs duly supported by the latest audited Balance Sheet / firm’s Statutory Auditor’s certificate.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "document:turnover_proof",
+   "type": "DOCUMENT",
+   "name": "Turnover proof",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:ac7daef86cfc",
+     "evidence": "c. The turnover by the firm from Adventure Tourism & Adventure Sports related activities only should be a minimum of Rs.10.00 lakh during the preceding financial year duly supported by a certificate issued by Statutory Auditor of the firm.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "action:adventure_tourism_recognition_or_registration_the_application_for_grant_of_recognition_registr",
    "type": "ACTION",
    "name": "The application for grant of recognition/registration/renewal or extension shall be in the",
@@ -17018,18 +17096,6 @@
     {
      "sourceId": "src:ac7daef86cfc",
      "evidence": "a. The application for grant of recognition/registration/renewal or extension shall be in the prescribed form and submitted online along with the required documents.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:ac7daef86cfc",
-     "evidence": "b. ATO should have a minimum Paid up Capital (Capital employed) of Rs. 3.00 lakhs duly supported by the latest audited Balance Sheet / firm’s Statutory Auditor’s certificate.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    },
-    {
-     "sourceId": "src:ac7daef86cfc",
-     "evidence": "c. The turnover by the firm from Adventure Tourism & Adventure Sports related activities only should be a minimum of Rs.10.00 lakh during the preceding financial year duly supported by a certificate issued by Statutory Auditor of the firm.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
@@ -22066,6 +22132,22 @@
    ]
   },
   {
+   "id": "e:service_driver_license__requires__document_medical_certificate_form_1a",
+   "from": "service:driver_license",
+   "to": "document:medical_certificate_form_1a",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Applicants aged 40 years or above must submit a Medical Certificate (FORM 1A).",
+   "sources": [
+    {
+     "sourceId": "src:40dcf1b8c789",
+     "evidence": "Medical Certificate (FORM 1A) is required for applicants having age equal to or above 40 years.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_driver_license__track_at__portal_sarathi_parivahan_gov_in",
    "from": "service:driver_license",
    "to": "portal:sarathi_parivahan_gov_in",
@@ -22556,6 +22638,22 @@
     {
      "sourceId": "src:1b512feb4f0f",
      "evidence": "I did not attend Learner License test on the scheduled date of appointment? Read more about I did not attend Learner License test on the scheduled date of appointment? Re-schedule the appointment, subject to availability of slots.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_national_permit__requires__document_rc_book_copy",
+   "from": "service:national_permit",
+   "to": "document:rc_book_copy",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant must bring a copy of the R.C. Book.",
+   "sources": [
+    {
+     "sourceId": "src:9e2968b96397",
+     "evidence": "Application should be accompanied with copy of R.C. Book, proof of payment of tax, Fitness Certificate, Certificate of Insurance, and P.U.C.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -25362,6 +25460,22 @@
    ]
   },
   {
+   "id": "e:service_authorization_for_utilization_of_hazardous_and_other__requires__document_cpcb_compliance_report",
+   "from": "service:authorization_for_utilization_of_hazardous_and_other_waste",
+   "to": "document:cpcb_compliance_report",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant must provide compliance report to confirm whether the facility has been set up as per CPCB SOP/guideline.",
+   "sources": [
+    {
+     "sourceId": "src:a067164dd721",
+     "evidence": " Whether the facility has been set up as per CPCB SOP/guideline? Submit the compliance report.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_authorization_for_utilization_of_hazardous_and_other__apply_at__portal_gpcb_gov_in",
    "from": "service:authorization_for_utilization_of_hazardous_and_other_waste",
    "to": "portal:gpcb_gov_in",
@@ -25458,6 +25572,22 @@
    ]
   },
   {
+   "id": "e:service_adventure_tour_operator_registration__requires__document_documentary_proof",
+   "from": "service:adventure_tour_operator_registration",
+   "to": "document:documentary_proof",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant must provide documentary proof, preferably registration certificates from the government, to support the beginning of operations of their firm.",
+   "sources": [
+    {
+     "sourceId": "src:64129a64c0b8",
+     "evidence": "3. Documentary proof (preferably registration certificates from govt.) in support of beginning of operations of your firm.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_adventure_tour_operator_registration__requires__action_adventure_tour_operator_registration_the_applicant_mu",
    "from": "service:adventure_tour_operator_registration",
    "to": "action:adventure_tour_operator_registration_the_applicant_must_submit_an_online_application",
@@ -25533,6 +25663,38 @@
      "sourceId": "src:88b9f241701b",
      "evidence": "5.2 Land based sports operators who have obtained license and operational certificate from concerned Competent Authorities may be granted registration/recognition or renewal and may not require separate inspection from the Committee.",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_adventure_tourism_recognition_or_registration__requires__document_paid_up_capital_proof",
+   "from": "service:adventure_tourism_recognition_or_registration",
+   "to": "document:paid_up_capital_proof",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Applicants must provide proof of a minimum Paid up Capital of Rs. 3.00 lakhs, supported by the latest audited Balance Sheet or firm’s Statutory Auditor’s certificate.",
+   "sources": [
+    {
+     "sourceId": "src:ac7daef86cfc",
+     "evidence": "b. ATO should have a minimum Paid up Capital (Capital employed) of Rs. 3.00 lakhs duly supported by the latest audited Balance Sheet / firm’s Statutory Auditor’s certificate.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_adventure_tourism_recognition_or_registration__requires__document_turnover_proof",
+   "from": "service:adventure_tourism_recognition_or_registration",
+   "to": "document:turnover_proof",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Applicants must provide proof of a minimum turnover of Rs. 10.00 lakh from Adventure Tourism & Adventure Sports related activities in the preceding financial year, supported by a certificate issued by the firm’s Statutory Auditor.",
+   "sources": [
+    {
+     "sourceId": "src:ac7daef86cfc",
+     "evidence": "c. The turnover by the firm from Adventure Tourism & Adventure Sports related activities only should be a minimum of Rs.10.00 lakh during the preceding financial year duly supported by a certificate issued by Statutory Auditor of the firm.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]

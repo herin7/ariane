@@ -343,6 +343,24 @@
    "confidence": 1
   },
   {
+   "claim": "1. Any of the following documents may be accepted as valid proof of date of birth:",
+   "kind": "DOCUMENT_GROUP",
+   "subject": "birth_certificate",
+   "object": null,
+   "detail": {
+    "mode": "ANY_OF",
+    "members": [
+     "• Birth certificate issued by the Registrar of Births and Deaths",
+     "• Any School / education related certificate",
+     "• Certificate based on the service records of the Central/State Government Organization.",
+     "• Passport"
+    ]
+   },
+   "sourceId": "src:8d192ccec7f2",
+   "evidence": "1. Any of the following documents may be accepted as valid proof of date of birth:\n2. • Birth certificate issued by the Registrar of Births and Deaths\n3. • Any School / education related certificate\n4. • Certificate based on the service records of the Central/State Government Organization.\n5. • Passport\n6. • Any other reliable document issued by a Government department.\n7. • In the absence of proof of date of birth as above, Medical certificate issued by",
+   "confidence": 0.6
+  },
+  {
    "claim": "The Registrar of Births and Deaths or the Municipal Corporation or any other authority empowered under the Registration of Births and Deaths Act, 1969 issues a birth certificate.",
    "kind": "OFFICE",
    "subject": "birth_certificate",
@@ -355,7 +373,6 @@
  ],
  "notFound": [
   "Death Certificate: https://suratmunicipal.gov.in/OnlineServices/DeathCertificate/Enroll lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
-  "birth certificate: https://www.epfindia.gov.in/site_en/FAQ.php offers a choice under \"2. -\\> Select any one of the following – UAN, Member ID, Aadhaar or PAN\" but fewer than two of the lines under it are documents, so no group was written.",
-  "birth certificate: https://www.epfindia.gov.in/site_en/FAQ.php offers a choice under \"1. Any of the following documents may be accepted as valid proof of date of birth:\" but fewer than two of the lines under it are documents, so no group was written."
+  "birth certificate: https://www.epfindia.gov.in/site_en/FAQ.php offers a choice under \"2. -\\> Select any one of the following – UAN, Member ID, Aadhaar or PAN\" but fewer than two of the lines under it are documents, so no group was written."
  ]
 }

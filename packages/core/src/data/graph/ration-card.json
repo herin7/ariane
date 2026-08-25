@@ -701,6 +701,10 @@
    "type": "SERVICE",
    "name": "Antyodaya Anna Yojana (AAY) ration card",
    "officialName": "Antyodaya Anna Yojana (AAY) ration card",
+   "aliases": [
+    "antyodaya",
+    "aay card"
+   ],
    "description": "The Antyodaya Anna Yojana (AAY) ration card is provided to eligible families, including those from Primitive Groups, widows, disabled persons, senior citizens with no livelihood, and BPL cardholders with specific conditions.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
@@ -1113,6 +1117,9 @@
    "type": "SERVICE",
    "name": "Food Ration Card",
    "officialName": "Food Ration Card",
+   "aliases": [
+    "રેશન કાર્ડ"
+   ],
    "description": "The page provides contact details for the Director of Food and Civil Supplies and includes a helpline for food ration card-related inquiries.",
    "jurisdictionId": "IN-GJ",
    "metadata": {

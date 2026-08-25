@@ -23809,6 +23809,21 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "document:head_of_institute_signature_and_stamp",
+   "type": "DOCUMENT",
+   "name": "Head of institute signature and stamp",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:d1c9ad61fd1b",
+     "evidence": "- Offline\n\nStep 1: Download and fill out the application form for AICTE-Grant for Augmenting Infrastructure in North Eastern Region (GAINER).\n\nStep 2: Verify that every page of the application form has the signature and stamp of the Head of the Institute.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "action:aicte_grant_for_augmenting_infrastructure_in_north_eastern_r_the_first_step_in_the_application_process_is_to_",
    "type": "ACTION",
    "name": "The first step in the application process is to download and fill out the application form",
@@ -58331,6 +58346,22 @@
     {
      "sourceId": "src:cfc8500f4aa6",
      "evidence": "The scheme is open to the following categories of candidates of the age group of 18 to 60 years. Graduates in agriculture and allied subjects like Horticulture, Sericulture, Dairy, Animal Husbandry, Fisheries, Home/ Community Sciences, Biotechnology, Agricultural Engineering, Forestry, Food Technology, Food Nutrition, and Dietetics, etc, from SAUs/ Central Agricultural Universities/ Universities and graduates in Environmental Science, Botany, Zoology and Chemistry recognized by ICAR/ UGC.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_aicte_grant_for_augmenting_infrastructure_in_north_e__requires__document_head_of_institute_signature_and_stamp",
+   "from": "service:aicte_grant_for_augmenting_infrastructure_in_north_eastern_r",
+   "to": "document:head_of_institute_signature_and_stamp",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The application form must have the signature and stamp of the Head of the Institute on every page.",
+   "sources": [
+    {
+     "sourceId": "src:d1c9ad61fd1b",
+     "evidence": "- Offline\n\nStep 1: Download and fill out the application form for AICTE-Grant for Augmenting Infrastructure in North Eastern Region (GAINER).\n\nStep 2: Verify that every page of the application form has the signature and stamp of the Head of the Institute.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }

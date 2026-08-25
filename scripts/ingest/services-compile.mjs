@@ -1973,6 +1973,40 @@ console.log(
 /** A phrase nobody has classified is not a document yet. UNKNOWN, not assumed. */
 const isDocument = (object) => known.get(title(object)) === true;
 
+// ------------------------------------------------------------ curated names
+
+/**
+ * Names citizens type that no page prints, from `docs/research/service-names.tsv`.
+ *
+ * Everything else in this file is what a machine read off a government page,
+ * which is the right default and has one blind spot: a service answers only to
+ * the words its own page happened to use. `service:varshai` has nine required
+ * documents, three sources and a 60 day timeline, and until this existed a
+ * citizen typing "legal heir certificate" got an empty screen, because the
+ * Kheda collectorate writes વારસાઈ and never writes the English name.
+ *
+ * Names only. The header of that file is the contract and it is worth
+ * repeating here: a row adds a string somebody might search for, never a fact
+ * about the service. Facts still arrive the one way they have always arrived.
+ */
+const curatedNames = (() => {
+  const file = at("docs/research/service-names.tsv");
+  const by = new Map();
+  if (!existsSync(file)) return by;
+  for (const line of readFileSync(file, "utf8").split("\n")) {
+    if (!line.trim() || line.startsWith("#")) continue;
+    const [id, alias] = line.split("\t").map((s) => s?.trim() ?? "");
+    if (!id || !alias) continue;
+    const list = by.get(id) ?? [];
+    list.push(alias.toLowerCase());
+    by.set(id, list);
+  }
+  return by;
+})();
+
+/** Rows whose service no longer exists. Reported at the end, never silent. */
+const namesUnused = new Set(curatedNames.keys());
+
 // -------------------------------------------------------------------- build
 
 const ref = (sourceId, fact) => ({ sourceId, evidence: fact.evidence, confidence: fact.confidence, verificationStatus: "EXTRACTED" });
@@ -2446,6 +2480,12 @@ function build(journey, services) {
       reject("TRUNCATED_BY_CAP", { url: pages[0].url, kind: "ELIGIBILITY", claim, note: `past the ${ELIGIBILITY_SHOWN} rules a service shows` });
     }
 
+    // Page names first, then the ones citizens use. Deduped because a curated
+    // row and a page can independently arrive at the same string, and a node
+    // listing one name twice is a node that looks edited by hand.
+    namesUnused.delete(serviceNodeId);
+    const aliases = [...new Set([...service.aliases, ...(curatedNames.get(serviceNodeId) ?? [])])];
+
     put({
       id: serviceNodeId,
       type: "SERVICE",
@@ -2455,7 +2495,7 @@ function build(journey, services) {
       // from an absent one, so writing `[]` here is a round trip that never
       // closes, and "this service has no other names" is exactly what absent
       // already means.
-      ...(service.aliases.length ? { aliases: service.aliases } : {}),
+      ...(aliases.length ? { aliases } : {}),
       description: service.summary,
       jurisdictionId,
       metadata: {
@@ -2592,6 +2632,14 @@ for (const [journey, services] of [...journeys.entries()].sort()) {
 
 console.log(`\n${written} bundle(s) ${flag("dry") ? "would be" : ""} written\n`);
 for (const s of summary) console.log("  " + s);
+
+// A curated name pointing at a service that no longer compiles is a citizen
+// search term that silently stopped working. Say so; the whole reason the file
+// exists is that a name going missing looks like an empty page, not an error.
+if (namesUnused.size) {
+  console.log(`\n${namesUnused.size} row(s) in docs/research/service-names.tsv name a service this run did not build:`);
+  for (const id of namesUnused) console.log(`  ${id}`);
+}
 
 // ---------------------------------------------------------------- rejections
 //

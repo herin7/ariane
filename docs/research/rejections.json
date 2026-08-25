@@ -1,12 +1,12 @@
 {
- "runId": "compile-2026-08-25T10:08:24.698Z",
+ "runId": "compile-2026-08-25T10:58:04.877Z",
  "compiledAt": "2026-08-25",
- "total": 8825,
+ "total": 8806,
  "reasons": [
   {
    "stage": "compile",
    "reason": "TRUNCATED_BY_CAP",
-   "count": 2335,
+   "count": 2328,
    "examples": [
     {
      "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
@@ -102,7 +102,7 @@
   {
    "stage": "compile",
    "reason": "NOT_A_DOCUMENT",
-   "count": 879,
+   "count": 899,
    "examples": [
     {
      "url": "https://jamnagardp.gujarat.gov.in/gu/Registration-of-co-operatives-and-sub-rule-amendments",
@@ -357,38 +357,6 @@
   },
   {
    "stage": "compile",
-   "reason": "UNKNOWN_CANONICAL_ENTITY",
-   "count": 139,
-   "examples": [
-    {
-     "url": "https://surat.nic.in/service/caste-certificate",
-     "claim": "An applicant visits the Digital Gujarat portal to apply for the SC/ST Caste Certificate.",
-     "note": "service:sc_st_caste_certificate is not a service this compile built"
-    },
-    {
-     "url": "https://surat.nic.in/service/caste-certificate",
-     "claim": "For any query regarding the online application you can contact to Digital Gujarat Help Desk on 18002335500.",
-     "note": "service:sc_st_caste_certificate is not a service this compile built"
-    },
-    {
-     "url": "https://surat.nic.in/service/caste-certificate",
-     "claim": "An applicant can check the status of a submitted application by visiting the Digital Gujarat portal.",
-     "note": "service:sc_st_caste_certificate is not a service this compile built"
-    },
-    {
-     "url": "https://devbhumidwarka.nic.in/service/certificates",
-     "claim": "The Economically Backward Certificate (Other than Job/Education Purpose) is issued at the Taluka Mamlatdar or Panchayat Office.",
-     "note": "service:economically_backward_certificate is not a service this compile built"
-    },
-    {
-     "url": "https://sje.gujarat.gov.in/ddcw/schemes/2226?lang=english",
-     "claim": "The maximum assistance provided is Rs. 50,000 or actual expenditure within the approved assistance.",
-     "note": "service:gujarat_nt_dnt_self_finance is not a service this compile built"
-    }
-   ]
-  },
-  {
-   "stage": "compile",
    "reason": "OUT_OF_JURISDICTION",
    "count": 132,
    "examples": [
@@ -448,6 +416,38 @@
      "url": "https://rajkot.gujarat.gov.in/",
      "claim": "A citizen can apply for online services through the iORA portal for revenue-related services.",
      "note": "iORA"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "UNKNOWN_CANONICAL_ENTITY",
+   "count": 108,
+   "examples": [
+    {
+     "url": "https://surat.nic.in/service/caste-certificate",
+     "claim": "An applicant visits the Digital Gujarat portal to apply for the SC/ST Caste Certificate.",
+     "note": "service:sc_st_caste_certificate is not a service this compile built"
+    },
+    {
+     "url": "https://surat.nic.in/service/caste-certificate",
+     "claim": "For any query regarding the online application you can contact to Digital Gujarat Help Desk on 18002335500.",
+     "note": "service:sc_st_caste_certificate is not a service this compile built"
+    },
+    {
+     "url": "https://surat.nic.in/service/caste-certificate",
+     "claim": "An applicant can check the status of a submitted application by visiting the Digital Gujarat portal.",
+     "note": "service:sc_st_caste_certificate is not a service this compile built"
+    },
+    {
+     "url": "https://devbhumidwarka.nic.in/service/certificates",
+     "claim": "The Economically Backward Certificate (Other than Job/Education Purpose) is issued at the Taluka Mamlatdar or Panchayat Office.",
+     "note": "service:economically_backward_certificate is not a service this compile built"
+    },
+    {
+     "url": "https://sje.gujarat.gov.in/ddcw/schemes/2226?lang=english",
+     "claim": "The maximum assistance provided is Rs. 50,000 or actual expenditure within the approved assistance.",
+     "note": "service:gujarat_nt_dnt_self_finance is not a service this compile built"
     }
    ]
   },
@@ -742,17 +742,12 @@
   {
    "stage": "compile",
    "reason": "GROUP_TOO_FEW_MEMBERS",
-   "count": 9,
+   "count": 8,
    "examples": [
     {
      "url": "https://www.epfindia.gov.in/site_en/FAQ.php",
      "claim": "2. -\\> Select any one of the following – UAN, Member ID, Aadhaar or PAN",
      "note": "3 line(s), 0 of them a known document"
-    },
-    {
-     "url": "https://www.epfindia.gov.in/site_en/FAQ.php",
-     "claim": "1. Any of the following documents may be accepted as valid proof of date of birth:",
-     "note": "6 line(s), 0 of them a known document"
     },
     {
      "url": "https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/GSSSB_202526_312.pdf#page=4",
@@ -768,6 +763,11 @@
      "url": "https://dish.gujarat.gov.in/e-citizen-faq.htm",
      "claim": "Following documents should be submitted for license renewal",
      "note": "5 line(s), 1 of them a known document"
+    },
+    {
+     "url": "https://fcsca.gujarat.gov.in/en/phh-schemenew1",
+     "claim": "Family having deprivation/insecurity of any of the following shall be included for food security.",
+     "note": "3 line(s), 0 of them a known document"
     }
    ]
   },

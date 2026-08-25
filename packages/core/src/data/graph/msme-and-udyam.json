@@ -1822,6 +1822,51 @@
    ]
   },
   {
+   "id": "document:proof_of_disability_certification",
+   "type": "DOCUMENT",
+   "name": "Proof of disability certification",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:4e90deaa2d5e",
+     "evidence": "Commonly required documents may include proof of disability certification, residence proof, and a prescription from an eye specialist recommending the need for spectacles.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "document:photo_of_applicant",
+   "type": "DOCUMENT",
+   "name": "Photo of applicant",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:a0d3d60c3c8d",
+     "evidence": "Documents such as a photo of the applicant, ration card, income proof, husband’s death certificate, Aadhaar card, and proof of being a widow are required.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "document:disability_certificates",
+   "type": "DOCUMENT",
+   "name": "Disability certificates",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:383231205bd5",
+     "evidence": "Yes, applicants need to provide documents such as disability certificates, identification proof, address proof, and other relevant medical records as per the scheme's guidelines.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "action:scheme_l_the_applicant_has_to_apply_on_the_i_khedut_porta",
    "type": "ACTION",
    "name": "The applicant has to apply on the I-Khedut Portal",
@@ -1967,21 +2012,21 @@
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:4e90deaa2d5e",
-     "evidence": "Commonly required documents may include proof of disability certification, residence proof, and a prescription from an eye specialist recommending the need for spectacles.",
-     "confidence": 0.9,
+     "sourceId": "src:069ffe0326d4",
+     "evidence": "To avail the benefits of this scheme, the applicant has to apply on the I-Khedut Portal and has to follow the prescribed procedure.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:a0d3d60c3c8d",
-     "evidence": "Documents such as a photo of the applicant, ration card, income proof, husband’s death certificate, Aadhaar card, and proof of being a widow are required.",
-     "confidence": 0.9,
+     "sourceId": "src:b597a34688a9",
+     "evidence": "Applicants can apply on the [iKhedut](https://ikhedut.gujarat.gov.in/site/) portal to avail the benefits of the scheme.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     },
     {
-     "sourceId": "src:383231205bd5",
-     "evidence": "Yes, applicants need to provide documents such as disability certificates, identification proof, address proof, and other relevant medical records as per the scheme's guidelines.",
-     "confidence": 0.9,
+     "sourceId": "src:b597a34688a9",
+     "evidence": "Applicants are required to submit an Aadhaar card, 7/12 land record, and a copy of their bank passbook or a cancelled cheque.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -3239,6 +3284,54 @@
      "sourceId": "src:fe4f101fbfb0",
      "evidence": "Target Beneficiary: Unemployed rural and urban youth; Eligibility Criteria: Any individual above 18 years of age, SHGs, Charitable trusts, Registered Societies etc.",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_scheme_l__requires__document_proof_of_disability_certification",
+   "from": "service:scheme_l",
+   "to": "document:proof_of_disability_certification",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant must provide proof of disability certification.",
+   "sources": [
+    {
+     "sourceId": "src:4e90deaa2d5e",
+     "evidence": "Commonly required documents may include proof of disability certification, residence proof, and a prescription from an eye specialist recommending the need for spectacles.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_scheme_l__requires__document_photo_of_applicant",
+   "from": "service:scheme_l",
+   "to": "document:photo_of_applicant",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant must provide a photo of the applicant.",
+   "sources": [
+    {
+     "sourceId": "src:a0d3d60c3c8d",
+     "evidence": "Documents such as a photo of the applicant, ration card, income proof, husband’s death certificate, Aadhaar card, and proof of being a widow are required.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_scheme_l__requires__document_disability_certificates",
+   "from": "service:scheme_l",
+   "to": "document:disability_certificates",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant must provide disability certificates.",
+   "sources": [
+    {
+     "sourceId": "src:383231205bd5",
+     "evidence": "Yes, applicants need to provide documents such as disability certificates, identification proof, address proof, and other relevant medical records as per the scheme's guidelines.",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ]

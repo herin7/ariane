@@ -74,6 +74,21 @@
  ],
  "nodes": [
   {
+   "id": "document:certificate_statement_proof_payment_deduction_foreign_tax",
+   "type": "DOCUMENT",
+   "name": "Certificate statement proof payment deduction foreign tax",
+   "jurisdictionId": "IN-GJ",
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "The last section of Form 67 is Attachments where you need to attach a copy of the certificate or statement and proof of payment / deduction of foreign tax.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "action:form_67_1_log_in_to_the_e_filing_portal_using_your",
    "type": "ACTION",
    "name": "Log in to the e-Filing portal using your user ID and password",
@@ -1187,6 +1202,22 @@
   }
  ],
  "edges": [
+  {
+   "id": "e:service_form_67__requires__document_certificate_statement_proof_payment_deduction_forei",
+   "from": "service:form_67",
+   "to": "document:certificate_statement_proof_payment_deduction_foreign_tax",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Applicants must attach a copy of the certificate or statement and proof of payment or deduction of foreign tax.",
+   "sources": [
+    {
+     "sourceId": "src:a86a67611d4f",
+     "evidence": "The last section of Form 67 is Attachments where you need to attach a copy of the certificate or statement and proof of payment / deduction of foreign tax.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
   {
    "id": "e:service_form_67__requires__action_form_67_1_log_in_to_the_e_filing_portal_using_your",
    "from": "service:form_67",
