@@ -947,8 +947,40 @@ export function govEmail(value) {
  */
 const PAYS = /\b(fee|fees|charge|charges|cost|costs|price|payable|pay)\b/i;
 const NOT_A_FEE = /\b(crore|allocat\w*|budget|outlay|subsid\w*|grant\w*|assistance|incentive|reimburs\w*|scholarship|stipend|benefit|award\w*|prize|loan|income|salary|turnover|investment)\b/i;
+
+/**
+ * Two ways a sentence about money is not a bill, both found by reading the
+ * nodes this test let through.
+ *
+ * The direction words first. NOT_A_FEE names the *kinds* of money that flow
+ * toward a citizen and misses the verbs, so "The Mentor receives 90% of the
+ * Mentoring Fee" and "A mother will receive 200 rupees for the cost of
+ * transportation" both said "fee" or "cost" and both passed. Janani Suraksha
+ * pays a woman to get to hospital; we had it billing her for the trip.
+ *
+ * Then the price of the thing. "cost" is in PAYS because "Online applications
+ * cost Rs. 30" is a fee, but a scheme page also prints what the scheme buys:
+ * "The total cost of one housing unit is Rs. 43,000", "The unit cost for each
+ * training program is Rs. 10,50,000", "The package cost for 100 deliveries is
+ * Rs. 3,80,000". That is the government's arithmetic, not the citizen's, and
+ * on a PAYMENT node it reads as a price of admission to a housing scheme.
+ *
+ * It costs us three real fees quoted as a share of a project cost, including
+ * "the fees and charges for the development of a mini estate are up to 5% of
+ * the project cost". Same trade as the paragraph above: a gap over a lie.
+ */
+const MONEY_COMING_TO_YOU =
+  /\b(receives?|receiving|offers?|disburs\w*|provided\s+(?:for|to)|payable\s+to\s+the\s+(?:mentor|agency|consultant|operator))\b/i;
+const PRICE_OF_THE_THING =
+  /\b(?:projects?|unit|package|programme?|total|eligible|capital|installation|construction)\s+cost\b|\bcost\s+of\s+(?:the\s+)?(?:programmes?|projects?|one|raw|transport\w*|travel)\b/i;
+
 export const isCitizenFee = (f) =>
-  f.kind === "FEE" && Boolean(f.detail?.amount) && PAYS.test(f.claim) && !NOT_A_FEE.test(f.claim);
+  f.kind === "FEE" &&
+  Boolean(f.detail?.amount) &&
+  PAYS.test(f.claim) &&
+  !NOT_A_FEE.test(f.claim) &&
+  !MONEY_COMING_TO_YOU.test(f.claim) &&
+  !PRICE_OF_THE_THING.test(f.claim);
 
 /**
  * True if this TIMELINE fact is how long the government takes, not some other clock.
@@ -1061,6 +1093,18 @@ if (flag("selftest")) {
   assert.ok(isCitizenFee(FEE("The camera fee for amateur photography is Rs. 200 for Indian nationals.")));
   assert.ok(!isCitizenFee(FEE("The Gujarat Government has allocated Rs. 5500 Crore for health care.")), "money the state spends is not money you owe");
   assert.ok(!isCitizenFee(FEE("Financial assistance of up to Rs. 15,000 is given for training programs.")), "money coming to you is not a fee");
+  assert.ok(isCitizenFee(FEE("Online applications cost Rs. 30 if done directly.")), "cost still means cost when it is the citizen doing the paying");
+  assert.ok(isCitizenFee(FEE("The citizen pays 50% of the cost of quality certification for an MSME ESDM unit.")));
+  assert.ok(!isCitizenFee(FEE("The Mentor receives 90% of the Mentoring Fee, subject to a maximum of Rs. 20,000/- per enterprise.")), "a fee somebody else collects is not your bill");
+  assert.ok(!isCitizenFee(FEE("A mother will receive 200 rupees for the cost of transportation to and from the hospital.")), "Janani Suraksha pays her to get there");
+  assert.ok(!isCitizenFee(FEE("The scheme offers Rs. 1,000/- per annum per temple for Current Consumption Charges.")));
+  assert.ok(!isCitizenFee(FEE("The total cost of one housing unit is Rs. 43,000.")), "what the scheme builds is not what you are charged");
+  assert.ok(!isCitizenFee(FEE("The unit cost for each training program is Rs. 10,50,000.")));
+  assert.ok(!isCitizenFee(FEE("The package cost for 100 deliveries under the Chiranjeevi Yojana is Rs. 3,80,000.")));
+  assert.ok(!isCitizenFee(FEE("The project cost of a greenhouse is Rs 26 lakh per greenhouse per acre.")));
+  assert.ok(!isCitizenFee(FEE("The total cost of the program is $12,000 CAD per student.")));
+  assert.ok(!isCitizenFee(FEE("The maximum cost of projects under PMEGP is Rs.25.00 lakh in the manufacturing sector.")), "a ceiling on what you may build is not a bill");
+  assert.ok(!isCitizenFee(FEE("Up to Rs. 10 lakhs will be provided for the cost of raw materials and components.")), "provided for is the other direction");
   assert.ok(!isCitizenFee({ kind: "FEE", claim: "The fee is Rs. 50.", detail: {} }), "a fee with no amount is a sentence, not a price");
   assert.ok(!isCitizenFee({ kind: "TIMELINE", claim: "The fee is Rs. 50.", detail: { amount: 50 } }));
 
@@ -2430,6 +2474,43 @@ function build(journey, services) {
       sources: serviceRefs,
       lastVerifiedAt: today(),
     });
+
+    // -------------------------------------------- what it costs, as a node
+    //
+    // `metadata.fee` above is one sentence, because `all.find` takes the first
+    // fee and a string has room for one. That was enough while a fee was a
+    // number. It is not enough for the RTO, whose page prices twenty different
+    // registrations, and completeness has never counted any of it: it asks for
+    // a PAYMENT node and this file only ever wrote a string. 47 fees across 12
+    // services had already survived the verbatim gate and `isCitizenFee`, and
+    // every one of them stopped here.
+    //
+    // One node per service, not per price. Twenty PAYMENT nodes compile to
+    // twenty steps, and a citizen registering one motorcycle does not pay
+    // twenty times. A fee schedule is one thing you do at one counter.
+    const priced = [];
+    for (const c of pages) {
+      const sourceId = sourceRow(c).id;
+      for (const f of c.facts) if (isCitizenFee(f)) priced.push({ f, r: ref(sourceId, f) });
+    }
+    if (priced.length) {
+      const paymentId = `payment:${service.id}_fee`;
+      // Deduped on the sentence: nine pages of one scheme quote the same price
+      // nine times, and nine copies of Rs. 20 is not a schedule.
+      const schedule = [...new Set(priced.map((p) => p.f.claim))];
+      if (put({
+        id: paymentId,
+        type: "PAYMENT",
+        name: `Pay the fee for ${display(service.name)}`,
+        jurisdictionId,
+        metadata: { machineExtracted: true, fee: schedule.join("\n") },
+        sources: priced.slice(0, 12).map((p) => p.r),
+        lastVerifiedAt: today(),
+      })) {
+        for (const p of priced.slice(12)) reject("TRUNCATED_BY_CAP", { ...of(p.f), note: "past the 12 quotes a payment node shows" });
+        link(serviceNodeId, paymentId, "REQUIRES", schedule[0], [priced[0].r]);
+      }
+    }
 
     const portalHost = pages[0].page.host;
     const portalId = `portal:${slug(portalHost)}`;
