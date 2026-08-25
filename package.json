@@ -42,7 +42,8 @@
     "intent:eval": "pnpm --filter @ariane/core intent:eval",
     "evidence:rerank": "node --env-file-if-exists=.env scripts/ingest/rerank.mjs",
     "services:enrich": "node --env-file-if-exists=.env scripts/ingest/enrich.mjs",
-    "retrieval:eval": "node scripts/ingest/retrieval-eval.mjs"
+    "retrieval:eval": "node scripts/ingest/retrieval-eval.mjs",
+    "shots": "node scripts/shots.mjs"
   },
   "devDependencies": {
     "typescript": "^5.9.2",

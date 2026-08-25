@@ -10,85 +10,127 @@ export function Search() {
   const [matches, setMatches] = useState<IntentMatch[] | null>(null);
   // What we translated the question into before we searched. The phone has said
   // this since day one and the browser never did, so somebody typing Gujarati
-  // got English service names back and no account of how we got there.
+  // got English service names back and no account of how we got there. §4.
   const [readAs, setReadAs] = useState<{ understoodAs?: string; detectedLanguage?: string }>({});
   const [busy, setBusy] = useState(false);
+  const [failed, setFailed] = useState(false);
 
   async function submit(event: React.FormEvent) {
     event.preventDefault();
     if (!text.trim()) return;
     setBusy(true);
-    const response = await fetch("/api/intents/resolve", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ text }),
-    });
-    const data = (await response.json()) as {
-      matches?: IntentMatch[];
-      understoodAs?: string;
-      detectedLanguage?: string;
-    };
-    setBusy(false);
-    setReadAs({ understoodAs: data.understoodAs, detectedLanguage: data.detectedLanguage });
+    setFailed(false);
+    try {
+      const response = await fetch("/api/intents/resolve", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ text }),
+      });
+      const data = (await response.json()) as {
+        matches?: IntentMatch[];
+        understoodAs?: string;
+        detectedLanguage?: string;
+      };
+      setReadAs({ understoodAs: data.understoodAs, detectedLanguage: data.detectedLanguage });
 
-    // One confident match and nothing close behind it, so stop asking.
-    const [best, second] = data.matches ?? [];
-    if (best && best.confidence >= 0.5 && (!second || second.confidence < best.confidence)) {
-      router.push(`/journey?goal=${encodeURIComponent(best.goal)}`);
-      return;
+      // One confident match and nothing close behind it, so stop asking.
+      const [best, second] = data.matches ?? [];
+      if (best && best.confidence >= 0.5 && (!second || second.confidence < best.confidence)) {
+        router.push(`/journey?goal=${encodeURIComponent(best.goal)}`);
+        return;
+      }
+      // §5. Two or three, never a ranked list. Past the third the product has
+      // stopped answering and started making the citizen do the work.
+      setMatches((data.matches ?? []).slice(0, 3));
+    } catch {
+      // §20. Premium error state: say what happened and leave the sentence
+      // they typed exactly where it was.
+      setFailed(true);
+    } finally {
+      setBusy(false);
     }
-    setMatches(data.matches ?? []);
   }
 
   return (
     <>
-      <form onSubmit={submit} className="row">
-        <input
-          className="grow"
-          value={text}
-          onChange={(e) => setText(e.target.value)}
-          placeholder="I want to get a driving licence"
-          aria-label="What do you need to get done?"
-        />
-        <button className="primary" disabled={busy}>{busy ? "Thinking" : "Find my path"}</button>
+      <form onSubmit={submit}>
+        <div style={{ position: "relative" }}>
+          <input
+            className="grow"
+            style={{ width: "100%", fontSize: 17, padding: "16px 108px 16px 16px", borderRadius: "var(--r-lg)" }}
+            value={text}
+            onChange={(e) => setText(e.target.value)}
+            placeholder="I want to get a driving licence"
+            aria-label="What do you need to get done?"
+            autoComplete="off"
+          />
+          <button
+            className="primary"
+            // Disabled only while it is working. Greying it out on an empty box
+            // meant the one call to action on the landing page was the palest
+            // thing on the screen every time somebody arrived.
+            disabled={busy}
+            style={{ position: "absolute", right: 6, top: 6, bottom: 6, padding: "0 16px", borderRadius: "var(--r)" }}
+          >
+            {busy ? "Reading" : "Start"}
+          </button>
+        </div>
       </form>
 
+      {/* Say it in Gujarati, read it back in English, before any result. Not a
+          confidence score: the actual sentence we searched on. §4. */}
       {readAs.understoodAs ? (
-        <p className="muted small" style={{ marginTop: 12 }}>
-          Read as: {readAs.understoodAs}
-          {readAs.detectedLanguage ? ` (${readAs.detectedLanguage})` : ""}
+        <p className="small muted rise" style={{ marginTop: 12 }}>
+          Read from your sentence: <span style={{ color: "var(--ink)" }}>{readAs.understoodAs}</span>
+          {readAs.detectedLanguage ? <span className="faint"> · {readAs.detectedLanguage}</span> : null}
         </p>
       ) : null}
 
+      {failed ? (
+        <div className="card rise" style={{ marginTop: 14 }}>
+          <h3>That did not go through</h3>
+          <p className="small muted" style={{ margin: "4px 0 0" }}>
+            Your sentence is still in the box. Press Start again and we will try once more.
+          </p>
+        </div>
+      ) : null}
+
+      {/* §21. An empty state that tells you what to do next, and does not
+          invent a nearest service to fill itself with. */}
       {matches?.length === 0 ? (
-        <p className="muted small" style={{ marginTop: 12 }}>
-          We do not have that journey mapped yet. Only the services listed below are covered so far, and we
-          would rather say so than send you somewhere on a guess.
-        </p>
+        <div className="card rise" style={{ marginTop: 14 }}>
+          <h3>We have not mapped that one yet</h3>
+          <p className="small muted" style={{ margin: "4px 0 0" }}>
+            We would rather say so than send you somewhere on a guess. Try saying it another way, or
+            open one of the journeys below.
+          </p>
+        </div>
       ) : null}
 
       {matches?.length ? (
-        <div style={{ marginTop: 12 }}>
-          <p className="muted small">Did you mean one of these?</p>
-          {matches.map((match) => (
-            <button
-              key={match.goal}
-              className="card"
-              style={{ display: "block", width: "100%", textAlign: "left" }}
-              onClick={() => router.push(`/journey?goal=${encodeURIComponent(match.goal)}`)}
-            >
-              <h3>{match.name}</h3>
-              {/* An empty `matched` is the model having read the sentence, not
-                  a word having matched. It rendered as "matched on  (25% sure)",
-                  a claim about words that were never there. Mobile already said
-                  the right thing here and the web did not. */}
-              <span className="muted small">
-                {match.matched.length
-                  ? `matched on ${match.matched.join(", ")} (${Math.round(match.confidence * 100)}% sure)`
-                  : "read out of your sentence by a model, not matched on a word. Check it is what you meant."}
-              </span>
-            </button>
-          ))}
+        <div style={{ marginTop: 20 }}>
+          <p className="small muted" style={{ marginBottom: 8 }}>
+            Looks like you need
+          </p>
+          <div className="stack">
+            {matches.map((match) => (
+              <button
+                key={match.goal}
+                className="card rise"
+                onClick={() => router.push(`/journey?goal=${encodeURIComponent(match.goal)}`)}
+              >
+                <h3>{match.name}</h3>
+                {/* Never a percentage. §4. What a citizen can act on is where
+                    the match came from: their own words, or a model reading
+                    between them, which is worth a second look. */}
+                <span className="small muted">
+                  {match.matched.length
+                    ? `because you said ${match.matched.join(", ")}`
+                    : "read between your words rather than off them, so check this is what you meant"}
+                </span>
+              </button>
+            ))}
+          </div>
         </div>
       ) : null}
     </>
