@@ -481,7 +481,7 @@ export function htmlMeta(html) {
  * what a few regexes do. Kills script, style, nav chrome and comments, keeps
  * headings, list items and link text as lines.
  *
- * ponytail: regex stripper, not a DOM. Good enough to feed an extractor whose
+ * Limitation: regex stripper, not a DOM. Good enough to feed an extractor whose
  * output is checked against this very text. Swap in a real parser only if
  * evidence matching starts failing on structure it mangled.
  */

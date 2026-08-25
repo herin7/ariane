@@ -91,7 +91,7 @@ export function whyUnplaceable(f) {
  * `document:gender` is a node nobody can ever satisfy, and the journey engine
  * would present it as a blocker forever.
  *
- * ponytail: a stoplist, not a classifier. If this grows past about thirty
+ * Limitation: a stoplist, not a classifier. If this grows past about thirty
  * entries the right answer is to ask the extractor for a `fieldNotDocument`
  * flag at extraction time, where the page text is still in hand.
  */
@@ -152,7 +152,7 @@ export function officeName(fact) {
  * patterns also match "The contact information for the GARVI 2.0 website is at
  * ...", and a website is not somewhere to go.
  *
- * ponytail: over splits. "Jan Seva Kendra in Junagadh" and "Jan Seva Kendra
+ * Limitation: over splits. "Jan Seva Kendra in Junagadh" and "Jan Seva Kendra
  * Junagadh office" become two nodes with the same address. Two true offices is
  * a cosmetic problem; one office made of two is a wrong direction, so the merge
  * waits for someone who can check the addresses match.
@@ -881,7 +881,7 @@ const NOT_A_MEMBER = /^(ans\s*:|answer\s*:|note\s*:|home|back|next|click here|re
  * list stops looking like a list, and returns the block with the header quoted
  * verbatim so the group can carry the sentence that made it a group.
  *
- * ponytail: line based, so a list laid out across table cells on one line is
+ * Limitation: line based, so a list laid out across table cells on one line is
  * missed. The alternative is a DOM and a model, and this is the half that is
  * safe to get wrong: a missed group is two documents both shown as required,
  * which is a citizen bringing one more paper than they needed to.
@@ -2528,7 +2528,7 @@ function build(journey, services) {
     // Deduped before capping, because nine pages of one scheme repeat the
     // income limit nine times and six copies of one sentence is not six criteria.
     //
-    // ponytail: exact match only, so two pages writing one rule in two wordings
+    // Limitation: exact match only, so two pages writing one rule in two wordings
     // ("must not own any plot or house" / "must not own any plot or house in
     // their own name") both survive, and Sardar Patel Awas Yojana shows the
     // land rule twice out of six. Tried prefix matching with the shortest kept

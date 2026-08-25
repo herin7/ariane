@@ -21,7 +21,7 @@ import type { GraphEdge, GraphNode } from "@ariane/core";
  * Sorting each column by the average row of what points at it is the cheap half
  * of crossing minimisation, and on this graph it is the half that matters.
  *
- * ponytail: barycentre sweeps, no crossing count, no node size awareness. ELK
+ * Limitation: barycentre sweeps, no crossing count, no node size awareness. ELK
  * or dagre if a journey ever needs more than this.
  */
 

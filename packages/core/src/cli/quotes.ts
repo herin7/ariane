@@ -18,7 +18,7 @@ import type { SourceRef } from "../types";
  *   pnpm quotes:audit                 every journey
  *   pnpm quotes:audit certificates    just one
  *
- * ponytail: substring match after whitespace normalisation, no fuzzy matching.
+ * Limitation: substring match after whitespace normalisation, no fuzzy matching.
  * A quote trimmed differently from the research file still passes, a
  * paraphrase does not, and that is the line worth drawing.
  */

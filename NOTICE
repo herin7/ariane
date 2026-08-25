@@ -1,0 +1,55 @@
+Ariane
+Copyright 2026 The Ariane Contributors
+
+This product includes software developed by the Ariane contributors, licensed
+under the Apache License, Version 2.0. See LICENSE.
+
+--------------------------------------------------------------------------------
+Government content is not covered by that licence
+--------------------------------------------------------------------------------
+
+Ariane reads public Indian government websites and documents and records what
+they say. The repository therefore contains, alongside its own source code:
+
+  * URLs of government pages
+  * titles of government pages and documents
+  * short verbatim quotations from those pages, kept as the evidence behind
+    every fact the product states
+  * structured facts derived from them (services, documents, fees, timelines,
+    offices, helplines, eligibility rules)
+
+None of that material is ours, and the Apache-2.0 licence above does not and
+cannot relicense it. The copyright in each government page and document remains
+with the body that published it, and each is subject to the terms of the site
+it came from. Quotations are retained for attribution and verification: a claim
+you cannot trace back to its source is a claim this project does not want to
+make. If you redistribute or build on this data, the terms of the original
+sources are yours to check and to honour.
+
+Nothing here is an official government publication, and nothing here is legal
+advice. Government requirements change. Always confirm against the official
+source, which every screen in Ariane links to for exactly that reason.
+
+--------------------------------------------------------------------------------
+The evidence corpus is deliberately not in this repository
+--------------------------------------------------------------------------------
+
+Building the graph involves fetching and caching thousands of government page
+bodies and PDFs. Those cached bodies are the third-party content described
+above, in full, and republishing them is not something this project is entitled
+to do. So the public repository ships the layer that is ours to publish, which
+is the extracted facts, the quote behind each one, and the URL and retrieval
+date it came from, and does not ship the page bodies themselves.
+
+Everything a normal clone needs works without the corpus: `pnpm gates` and
+`pnpm build` are green on a fresh checkout. The checks that reconcile citations
+against saved page bodies live under `pnpm gates:corpus` and read a corpus you
+point at with ARIANE_CORPUS_DIR. `fixtures/demo/` carries one small synthetic
+page and the layers derived from it so the full chain is testable by anyone.
+
+--------------------------------------------------------------------------------
+Third-party dependencies
+--------------------------------------------------------------------------------
+
+Ariane depends on open source packages listed in the package.json files in this
+repository. Each is distributed under its own licence.
