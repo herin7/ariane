@@ -188,6 +188,77 @@ export async function evaluate(cases, { retriever, graph, textOf }) {
   return rows;
 }
 
+/**
+ * Did the reranker earn its model call, or is it agreeing with BM25 for money?
+ *
+ * "Did it keep the answer" is not a question this data can answer. Claims are
+ * only ever extracted from passages the reranker kept, so the answer is in the
+ * keep set by construction and asking would score 100% and mean nothing.
+ *
+ * Two questions that are not circular.
+ *
+ * AGREEMENT. Take as many passages off the top of the retrieval ranking as the
+ * reranker chose to keep. How much of the keep set is that? At 100% the model
+ * is an expensive way to write `.slice(0, n)` and §16 says take it out.
+ *
+ * RESCUES. A passage the reranker kept from below the retrieval top five, which
+ * then produced a claim that survived the verbatim gate. That is the reranker
+ * finding an answer BM25 had buried, which is the entire argument for having
+ * one, and it is countable.
+ */
+export function judgeReranker(reranked, evidence, claimed) {
+  const order = new Map(evidence.map((e) => [`${e.serviceId}|${e.dimension}|${e.pass}`, e.candidates.map((c) => c.id)]));
+  const rows = [];
+
+  for (const r of reranked) {
+    if (r.rankedBy !== "MODEL" || !r.keep.length) continue;
+    const ranking = order.get(`${r.serviceId}|${r.dimension}|${r.pass}`);
+    if (!ranking) continue;
+
+    const rankOf = new Map(ranking.map((id, i) => [id, i + 1]));
+    const kept = r.keep.map((k) => k.id);
+    const topN = new Set(ranking.slice(0, kept.length));
+    const productive = new Set(claimed.get(`${r.serviceId}|${r.dimension}`) ?? []);
+
+    rows.push({
+      serviceId: r.serviceId,
+      dimension: r.dimension,
+      name: r.name,
+      considered: r.considered,
+      kept: kept.length,
+      /** How much of the keep set a plain rank cutoff would already have handed over. */
+      agreed: kept.filter((id) => topN.has(id)).length,
+      /** Kept from below rank five, and it went on to produce a verified claim. */
+      rescued: kept.filter((id) => (rankOf.get(id) ?? 99) > 5 && productive.has(id)).length,
+      /** Kept from below rank five and produced nothing. The model call that bought a shrug. */
+      reachedPast: kept.filter((id) => (rankOf.get(id) ?? 99) > 5).length,
+      /**
+       * The same two counts for the shallow half of the keep set.
+       *
+       * 60 rescues out of 803 deep keeps is a number that means nothing on its
+       * own. It only becomes an argument next to how often a keep from the top
+       * five produced a claim, because if the two rates match then reaching
+       * past rank five is exactly as productive as not reaching, and the
+       * reranker is not wasting the calls.
+       */
+      shallow: kept.filter((id) => (rankOf.get(id) ?? 99) <= 5).length,
+      shallowProductive: kept.filter((id) => (rankOf.get(id) ?? 99) <= 5 && productive.has(id)).length,
+    });
+  }
+  return rows;
+}
+
+/** Which chunks actually produced a surviving claim, per service and dimension. */
+export function claimedChunks(claims) {
+  const out = new Map();
+  for (const c of claims) {
+    if (!c.chunkId) continue;
+    const key = `${c.serviceId}|${c.dimension}`;
+    out.set(key, (out.get(key) ?? new Set()).add(c.chunkId));
+  }
+  return out;
+}
+
 const pad = (s, n) => String(s).padEnd(n);
 const num = (s, n) => String(s).padStart(n);
 
@@ -258,6 +329,39 @@ if (isMain && flag("selftest")) {
   assert.equal(summary["@10"], 50);
   assert.equal(summary["@30"], 75, "the one that was never found stays a miss no matter how wide the cutoff");
 
+  // The reranker judgement.
+  const evidence = [
+    { serviceId: "service:a", dimension: "FEES", pass: 1, candidates: ["c1", "c2", "c3", "c4", "c5", "c6", "c7"].map((id) => ({ id })) },
+  ];
+  const claimed = claimedChunks([
+    { serviceId: "service:a", dimension: "FEES", chunkId: "c7" },
+    { serviceId: "service:a", dimension: "FEES", chunkId: "c1" },
+  ]);
+  const judged = judgeReranker(
+    [
+      // Kept the top two. A slice would have done the same thing.
+      { serviceId: "service:a", dimension: "FEES", pass: 1, rankedBy: "MODEL", name: "A", considered: 7, keep: [{ id: "c1" }, { id: "c2" }] },
+      // Reached past rank five twice. c7 produced a claim, c6 did not.
+      { serviceId: "service:a", dimension: "FEES", pass: 1, rankedBy: "MODEL", name: "A", considered: 7, keep: [{ id: "c7" }, { id: "c6" }] },
+      { serviceId: "service:a", dimension: "FEES", pass: 1, rankedBy: "RETRIEVAL_ORDER", name: "A", considered: 7, keep: [{ id: "c1" }] },
+      { serviceId: "service:a", dimension: "FEES", pass: 1, rankedBy: "MODEL", name: "A", considered: 7, keep: [] },
+      { serviceId: "service:zzz", dimension: "FEES", pass: 1, rankedBy: "MODEL", name: "Z", considered: 3, keep: [{ id: "c1" }] },
+    ],
+    evidence,
+    claimed,
+  );
+  assert.equal(judged.length, 2, "a fallback ordering is not a judgement, an empty keep is not a choice, and a row with no shortlist cannot be scored");
+  assert.deepEqual(
+    { agreed: judged[0].agreed, rescued: judged[0].rescued, reachedPast: judged[0].reachedPast },
+    { agreed: 2, rescued: 0, reachedPast: 0 },
+    "keeping the top two is what slice does",
+  );
+  assert.deepEqual(
+    { agreed: judged[1].agreed, rescued: judged[1].rescued, reachedPast: judged[1].reachedPast },
+    { agreed: 0, rescued: 1, reachedPast: 2 },
+    "reached past five twice, and only one of the two went on to survive the gate",
+  );
+
   console.log("retrieval-eval selftest ok");
   process.exit(0);
 }
@@ -269,6 +373,31 @@ if (isMain) {
   if (!claims.length) {
     console.error(`No claims at ${CLAIMS}. Run: pnpm services:enrich`);
     process.exit(1);
+  }
+
+  if (flag("reranker")) {
+    const { EVIDENCE } = await import("./services-deepen.mjs");
+    const { RERANKED } = await import("./rerank.mjs");
+    const rows = judgeReranker(readJsonl(RERANKED), readJsonl(EVIDENCE), claimedChunks(claims));
+    const sum = (pick) => rows.reduce((t, r) => t + pick(r), 0);
+    const kept = sum((r) => r.kept);
+
+    console.log(`\nReranker eval: ${rows.length} shortlist(s) the model actually judged, no new model calls.\n`);
+    console.log(`  ${num(sum((r) => r.considered), 7)}  passages considered`);
+    console.log(`  ${num(kept, 7)}  kept, ${Math.round((1 - kept / sum((r) => r.considered)) * 100)}% discarded`);
+    console.log(`  ${num(sum((r) => r.agreed), 7)}  of those a plain rank cutoff would also have handed over (${Math.round((sum((r) => r.agreed) / kept) * 100)}%)`);
+    const rate = (hits, of) => (of ? `${Math.round((hits / of) * 100)}%` : "n/a");
+    console.log(`\n  Where the keep came from, and whether it was worth keeping:`);
+    console.log(`    ${pad("from retrieval top 5", 26)}${num(sum((r) => r.shallow), 7)} kept  ${num(sum((r) => r.shallowProductive), 5)} produced a verified claim  ${rate(sum((r) => r.shallowProductive), sum((r) => r.shallow))}`);
+    console.log(`    ${pad("from below rank 5", 26)}${num(sum((r) => r.reachedPast), 7)} kept  ${num(sum((r) => r.rescued), 5)} produced a verified claim  ${rate(sum((r) => r.rescued), sum((r) => r.reachedPast))}`);
+    console.log(`\n  ${rows.filter((r) => r.rescued).length} shortlist(s) where the reranker found something BM25 had buried.`);
+    if (flag("misses")) {
+      for (const r of rows.filter((x) => x.rescued).slice(0, 40)) {
+        console.log(`    ${pad(r.dimension.toLowerCase(), 20)}${num(`${r.rescued}/${r.kept}`, 7)}  ${r.name.slice(0, 46)}`);
+      }
+    }
+    console.log("");
+    process.exit(0);
   }
 
   const only = value("dimension");
