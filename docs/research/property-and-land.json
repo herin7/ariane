@@ -1,6 +1,6 @@
 {
  "journey": "property-and-land",
- "researchedAt": "2026-08-24",
+ "researchedAt": "2026-08-25",
  "region": "Gujarat, India",
  "sources": [
   {
@@ -325,6 +325,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "561913d9b871921f5a5a6d92983d670fd8a6fadc5af7fb6cfe99181d07ce18f5",
    "cacheFile": ".ingest/pages/eb941cd330fdcda699cdb8489f2468f97bd81f56.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:024138648137",
+   "url": "https://anand.gujarat.gov.in/mamlatdar-office",
+   "title": "Mamlatdar Office | Offices | Collectorate - District Anand",
+   "domain": "anand.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-ANAND",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "85d745a88cd2a7bb4831978541a11e75ee91e83779e6d88271cffc39f056e2b5",
+   "cacheFile": ".ingest/pages/0241386481370ae4bf48ccce08590404ae664f61.md",
    "scrapedOk": true
   },
   {
@@ -3684,6 +3696,26 @@
    },
    "sourceId": "src:eb941cd330fd",
    "evidence": "10:30 A.M To 06:10 P.M",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The Mamlatdar is the custodian of land records in the Taluka.",
+   "kind": "OFFICE",
+   "subject": "mamlatdar_office",
+   "object": "land_records",
+   "detail": {},
+   "sourceId": "src:024138648137",
+   "evidence": "Mamlatdar is custodian of land record of Taluka. Hence his duty is to preserve land records and updation from time to time.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Mamlatdar conducts supervision and inspection on the work of revenue personnel in the Taluka.",
+   "kind": "ACTION",
+   "subject": "mamlatdar_office",
+   "object": "revenue_personnel",
+   "detail": {},
+   "sourceId": "src:024138648137",
+   "evidence": "Supervision and inspection on work of revenue personnel of Taluka.",
    "confidence": 0.95
   },
   {

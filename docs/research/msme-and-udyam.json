@@ -1,6 +1,6 @@
 {
  "journey": "msme-and-udyam",
- "researchedAt": "2026-08-24",
+ "researchedAt": "2026-08-25",
  "region": "Gujarat, India",
  "sources": [
   {
@@ -770,6 +770,48 @@
    "sourceId": "src:cef59a1e5f90",
    "evidence": "Call or Whatsapp on +91 8308809334 Mon to Fri : 10:00 AM - 06:00 PM",
    "confidence": 1
+  },
+  {
+   "claim": "An applicant must register their enterprise for Udyam Registration.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "register_enterprise",
+   "detail": {},
+   "sourceId": "src:cef59a1e5f90",
+   "evidence": "An enterprise for the purpose of this process will be known as Udyam and its Registration Process will be known as 'Udyam Registration'",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Udyam Registration process is free of cost.",
+   "kind": "ACTION",
+   "subject": "government",
+   "object": "provide_free_registration",
+   "detail": {},
+   "sourceId": "src:cef59a1e5f90",
+   "evidence": "Registration Process is totally free. No Costs or Fees are to be paid to anyone.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant can access the Udyam Registration process through single window systems at Champions Control Rooms and DICs.",
+   "kind": "CHANNEL",
+   "subject": "applicant",
+   "object": "access_registration",
+   "detail": {
+    "officeName": "Champions Control Rooms and DICs"
+   },
+   "sourceId": "src:cef59a1e5f90",
+   "evidence": "Our single window systems at Champions Control Rooms and at DICs will help you in the process.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "An applicant can verify Udyam Registration to check the status of something already submitted.",
+   "kind": "TRACKING",
+   "subject": "udyam_registration",
+   "object": "verify_udyam_registration",
+   "detail": {},
+   "sourceId": "src:cef59a1e5f90",
+   "evidence": "Verify Udyam Registration",
+   "confidence": 0.95
   },
   {
    "claim": "Aadhaar number is required for Udyam Registration.",

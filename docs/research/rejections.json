@@ -1,12 +1,12 @@
 {
- "runId": "compile-2026-08-24T19:23:46.106Z",
- "compiledAt": "2026-08-24",
- "total": 7296,
+ "runId": "compile-2026-08-25T07:39:19.918Z",
+ "compiledAt": "2026-08-25",
+ "total": 7319,
  "reasons": [
   {
    "stage": "compile",
    "reason": "TRUNCATED_BY_CAP",
-   "count": 1877,
+   "count": 1880,
    "examples": [
     {
      "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
@@ -38,7 +38,7 @@
   {
    "stage": "compile",
    "reason": "NO_EXPLICIT_ORDER",
-   "count": 943,
+   "count": 950,
    "examples": [
     {
      "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
@@ -134,7 +134,7 @@
   {
    "stage": "compile",
    "reason": "NOT_A_CITIZEN_FEE",
-   "count": 554,
+   "count": 555,
    "examples": [
     {
      "url": "https://vahan.parivahan.gov.in/vahanservice/vahan/ui/miscellaneous/Instructions.xhtml",
@@ -166,7 +166,7 @@
   {
    "stage": "compile",
    "reason": "NOT_A_CRITERION",
-   "count": 378,
+   "count": 379,
    "examples": [
     {
      "url": "https://jamnagardp.gujarat.gov.in/gu/Registration-of-co-operatives-and-sub-rule-amendments",
@@ -262,7 +262,7 @@
   {
    "stage": "compile",
    "reason": "NO_LOCATION",
-   "count": 279,
+   "count": 281,
    "examples": [
     {
      "url": "https://ahmedabad.gujarat.gov.in/Unreserved-Class-Certificate",
@@ -358,7 +358,7 @@
   {
    "stage": "compile",
    "reason": "FAILED_NORMALIZATION",
-   "count": 81,
+   "count": 82,
    "examples": [
     {
      "url": "https://collectorkheda.gujarat.gov.in/varshai-app-form-47",
@@ -384,6 +384,38 @@
      "url": "https://rajkot.gujarat.gov.in/",
      "claim": "A citizen can apply for online services through the NDAL-ALIS portal for magisterial-related services.",
      "note": "NDAL-ALIS"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "UNKNOWN_CANONICAL_ENTITY",
+   "count": 72,
+   "examples": [
+    {
+     "url": "https://surat.nic.in/service/caste-certificate",
+     "claim": "An applicant visits the Digital Gujarat portal to apply for the SC/ST Caste Certificate.",
+     "note": "service:sc_st_caste_certificate is not a service this compile built"
+    },
+    {
+     "url": "https://surat.nic.in/service/caste-certificate",
+     "claim": "For any query regarding the online application you can contact to Digital Gujarat Help Desk on 18002335500.",
+     "note": "service:sc_st_caste_certificate is not a service this compile built"
+    },
+    {
+     "url": "https://surat.nic.in/service/caste-certificate",
+     "claim": "An applicant can check the status of a submitted application by visiting the Digital Gujarat portal.",
+     "note": "service:sc_st_caste_certificate is not a service this compile built"
+    },
+    {
+     "url": "https://collectormehsana.gujarat.gov.in/contacts",
+     "claim": "The Collector of Mehsana is Shri S. K. Prajapati, IAS, and can be contacted at +91 2762 222200 and collector-meh[at]gujarat[dot]gov[dot]in.",
+     "note": null
+    },
+    {
+     "url": "https://collectormehsana.gujarat.gov.in/contacts",
+     "claim": "The Resident Additional Collector is Shri J. K. Jegoda and can be contacted at +91 2762 222203 and Add-collector-meh[at]gujarat[dot]gov[dot]in.",
+     "note": null
     }
    ]
   },
@@ -453,38 +485,6 @@
   },
   {
    "stage": "compile",
-   "reason": "UNKNOWN_CANONICAL_ENTITY",
-   "count": 69,
-   "examples": [
-    {
-     "url": "https://collectormehsana.gujarat.gov.in/contacts",
-     "claim": "The Collector of Mehsana is Shri S. K. Prajapati, IAS, and can be contacted at +91 2762 222200 and collector-meh[at]gujarat[dot]gov[dot]in.",
-     "note": null
-    },
-    {
-     "url": "https://collectormehsana.gujarat.gov.in/contacts",
-     "claim": "The Resident Additional Collector is Shri J. K. Jegoda and can be contacted at +91 2762 222203 and Add-collector-meh[at]gujarat[dot]gov[dot]in.",
-     "note": null
-    },
-    {
-     "url": "https://collectorpatan.gujarat.gov.in/contacts",
-     "claim": "The District Collector Office is located near North Gujarat University in Patan, Gujarat - 384265.",
-     "note": null
-    },
-    {
-     "url": "https://collectorpatan.gujarat.gov.in/contacts",
-     "claim": "Dr. Prashant Jilova, IAS, is the Collector of Patan and can be contacted at +91 2766 233400.",
-     "note": null
-    },
-    {
-     "url": "https://collectorpatan.gujarat.gov.in/contacts",
-     "claim": "Shri V. C. Bodana is the Resident Addl. Collector and can be contacted at +91 2766 233400.",
-     "note": null
-    }
-   ]
-  },
-  {
-   "stage": "compile",
    "reason": "DANGLING_REFERENCE",
    "count": 61,
    "examples": [
@@ -518,7 +518,7 @@
   {
    "stage": "compile",
    "reason": "NO_QUOTABLE_EVIDENCE",
-   "count": 27,
+   "count": 28,
    "examples": [
     {
      "url": "https://sabarkanthadp.gujarat.gov.in/gu/Registration-of-Co-Operative-society",
@@ -541,9 +541,9 @@
      "note": "10 fact(s) and not one of them load bearing"
     },
     {
-     "url": "https://ceiced.gujarat.gov.in/contact",
-     "claim": "Chief Electrical Inspector",
-     "note": "7 fact(s) and not one of them load bearing"
+     "url": "https://parivahan.gov.in/en/content/faq",
+     "claim": "Driving Licence",
+     "note": "6 promoted claim(s) and no edge came out of them"
     }
    ]
   },
@@ -736,6 +736,33 @@
      "url": "https://web.umang.gov.in/landing/scheme/detail/chief-ministergi-shotharabasingi-tengbang_cmst.html",
      "claim": "The following documents are required mandatorily in order to apply to this scheme -",
      "note": "3 line(s), 0 of them a known document"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "DUPLICATE",
+   "count": 4,
+   "examples": [
+    {
+     "url": "https://udyamregistration.gov.in/",
+     "claim": "After registration, a permanent registration number will be given to the applicant.",
+     "note": "already extracted from a page this service was built from"
+    },
+    {
+     "url": "https://udyamregistration.gov.in/",
+     "claim": "After completing the registration process, a certificate will be issued online.",
+     "note": "already extracted from a page this service was built from"
+    },
+    {
+     "url": "https://udyamregistration.gov.in/",
+     "claim": "After completion of the process of registration, a certificate will be issued online.",
+     "note": "already extracted from a page this service was built from"
+    },
+    {
+     "url": "https://udyamregistration.gov.in/",
+     "claim": "A permanent registration number will be given after registration.",
+     "note": "already extracted from a page this service was built from"
     }
    ]
   },

@@ -288,12 +288,12 @@ if (isMain && flag("selftest")) {
  * The 3 html files are skipped. A chunk must be a slice of the text a quote is
  * checked against, and nobody checks a quote against raw markup.
  */
-function handSaved() {
+export function handSaved() {
   const ledger = JSON.parse(readFileSync(at("docs/research/fetch-ledger.json"), "utf8"));
   const seen = new Set(readJsonl(".ingest/pages.jsonl").map((p) => p.url));
   return (ledger.entries ?? ledger)
     .filter((e) => e.status === "CACHED" && e.cacheFile?.startsWith(".firecrawl/") && e.cacheFile.endsWith(".md") && !seen.has(e.url))
-    .map((e) => ({ url: e.url, file: e.cacheFile, sha1: sha1(e.url), contentHash: e.sha256, host: new URL(e.url).hostname.replace(/^www\./, ""), title: e.title, chars: e.bytes }));
+    .map((e) => ({ url: e.url, file: e.cacheFile, sha1: sha1(e.url), contentHash: e.sha256, host: new URL(e.url).hostname.replace(/^www\./, ""), title: e.title, chars: e.bytes, fetchedAt: e.retrievedAt }));
 }
 
 // --------------------------------------------------------------------- chunk

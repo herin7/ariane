@@ -1,6 +1,6 @@
 {
  "journey": "welfare-schemes",
- "researchedAt": "2026-08-24",
+ "researchedAt": "2026-08-25",
  "region": "Gujarat, India",
  "sources": [
   {
@@ -3188,6 +3188,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "3c95b98c52f00618439842b1b288877f13e24eefd367f07ac1aa5ac58d568c15",
    "cacheFile": ".ingest/pages/dc3afc404f9ffdbba33987fa1d0fc051a8a5acd9.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:55234015422c",
+   "url": "https://sje.gujarat.gov.in/dscw/schemes/1521?lang=english",
+   "title": "GOI's Post Matric Scholarship for SC Students (BCK-6.1) | Director, Scheduled Caste Welfare, Gujarat",
+   "domain": "sje.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "f69050d35c0dfb06eb00832c066a7b4ef0e4e1643af3bd7bab486742bae6051d",
+   "cacheFile": ".firecrawl/research/sje-bck61.md",
    "scrapedOk": true
   },
   {
@@ -50854,6 +50866,38 @@
    "confidence": 0.95
   },
   {
+   "claim": "Students must be of Scheduled Caste to be eligible for the GOI’s Post Matric Scholarship for SC Students.",
+   "kind": "ELIGIBILITY",
+   "subject": "sc_students_scholarship",
+   "object": "scheduled_caste",
+   "detail": {},
+   "sourceId": "src:55234015422c",
+   "evidence": "Student should be of Scheduled Caste.",
+   "confidence": 1
+  },
+  {
+   "claim": "The income limit for eligibility is 2.50 Lakh.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "sc_students_scholarship",
+   "object": "income_limit",
+   "detail": {
+    "amount": "2.50 Lakh"
+   },
+   "sourceId": "src:55234015422c",
+   "evidence": "Income Limit 2.50 Lakh.",
+   "confidence": 1
+  },
+  {
+   "claim": "Students must fulfill all conditions of Government of India's Post Matric Scholarship Scheme Guidelines to be eligible.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "sc_students_scholarship",
+   "object": "goi_scholarship_guidelines",
+   "detail": {},
+   "sourceId": "src:55234015422c",
+   "evidence": "Must full fill all conditions of Government of India's Post Matric Scholarship Scheme Guidelines.",
+   "confidence": 1
+  },
+  {
    "claim": "To apply online, the financial year must be selected as 2025-26.",
    "kind": "CONDITIONAL_REQUIREMENT",
    "subject": "online_application",
@@ -59623,6 +59667,33 @@
    },
    "sourceId": "src:72fdb7b5b3d9",
    "evidence": "The AB PM-JAY scheme is fully funded by the government, and costs are shared between central and state governments in the ratio of 60:40, for states (other than North-Eastern States and Jammu & Kashmir, Himachal Pradesh, and Uttarakhand) and Union Territories (UTs) with legislature. In these states, the ratio is 90:10 and in UTs without legislatures, the Central Government may provide up to 100% on a case-to-case basis.",
+   "confidence": 1
+  },
+  {
+   "claim": "AB PM-JAY provides health cover of ₹5 lakh per year to all citizens aged 70 years and above under the Vay Vandana Scheme (VVS), irrespective of income.",
+   "kind": "ELIGIBILITY",
+   "subject": "ab_pm_jay",
+   "object": "citizens_aged_70_and_above",
+   "detail": {
+    "amount": 500000,
+    "currency": "INR",
+    "coverage": "per_year"
+   },
+   "sourceId": "src:72fdb7b5b3d9",
+   "evidence": "In October 2024, the scheme was extended to all citizens aged 70 years and above under the Vay Vandana Scheme (VVS), providing a dedicated health cover of ₹5 lakh per year irrespective of income.",
+   "confidence": 1
+  },
+  {
+   "claim": "Citizens do not pay any fee for AB PM-JAY as it is fully funded by the government.",
+   "kind": "FEE",
+   "subject": "ab_pm_jay",
+   "object": "citizen",
+   "detail": {
+    "amount": 0,
+    "currency": "INR"
+   },
+   "sourceId": "src:72fdb7b5b3d9",
+   "evidence": "The AB PM-JAY scheme is fully funded by the government, and costs are shared between central and state governments in the ratio of 60:40, for states (other than North-Eastern States and Jammu & Kashmir, Himachal Pradesh, and Uttarakhand) and Union Territories (UTs) with legislature.",
    "confidence": 1
   },
   {

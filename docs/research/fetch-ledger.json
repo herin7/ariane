@@ -1,7 +1,7 @@
 {
   "generatedBy": "scripts/fetch-ledger.mjs",
-  "urls": 888,
-  "cached": 884,
+  "urls": 889,
+  "cached": 885,
   "missing": 0,
   "noCacheFile": 0,
   "fetchFailed": 4,
@@ -42,7 +42,7 @@
     ".firecrawl/sarathi-ll-map.json",
     ".firecrawl/sarathi-map.json"
   ],
-  "uncitedIngestPages": 1890,
+  "uncitedIngestPages": 1889,
   "entries": [
     {
       "url": "http://ggrc.co.in/webui/Content.aspx",
@@ -541,6 +541,20 @@
       "quoted": true,
       "bytes": 5439,
       "sha256": "9fed6b064605d42ada87ce834d72692344faf13518f7f1482a4d48fdb9d0d355",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://anand.gujarat.gov.in/mamlatdar-office",
+      "title": "Mamlatdar Office | Offices | Collectorate - District Anand",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "property-and-land"
+      ],
+      "cacheFile": ".ingest/pages/0241386481370ae4bf48ccce08590404ae664f61.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 9937,
+      "sha256": "85d745a88cd2a7bb4831978541a11e75ee91e83779e6d88271cffc39f056e2b5",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -8378,7 +8392,8 @@
       "title": "Frequently Asked Questions | Parivahansewa",
       "sourceType": "FAQ",
       "journeys": [
-        "driving_licence"
+        "driving_licence",
+        "permits-and-licences"
       ],
       "cacheFile": ".firecrawl/faq.md",
       "status": "CACHED",
@@ -9221,7 +9236,8 @@
       "title": "GOI's Post Matric Scholarship for SC Students (BCK-6.1) | Director, Scheduled Caste Welfare, Gujarat",
       "sourceType": "GUIDELINE",
       "journeys": [
-        "scholarship"
+        "scholarship",
+        "welfare-schemes"
       ],
       "cacheFile": ".firecrawl/research/sje-bck61.md",
       "status": "CACHED",

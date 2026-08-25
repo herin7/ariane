@@ -573,6 +573,16 @@
    "contentHash": "757e93daefceede98047341bf0664d4ff6a823ba2b711dc8b1e67ff0d18258ec"
   },
   {
+   "id": "src:40dcf1b8c789",
+   "url": "https://parivahan.gov.in/en/content/faq",
+   "title": "Frequently Asked Questions | Parivahansewa",
+   "domain": "parivahan.gov.in",
+   "sourceType": "FAQ",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "dbe7b36f082fe7f1f7dba09c867e01d35fabd1d21ea03b0e705f5459ba322bb9"
+  },
+  {
    "id": "src:31139eefc21e",
    "url": "https://cpsurat.gujarat.gov.in/Upload/FORM%20A-3.pdf#page=1",
    "title": "FORM%20A-3 (page 1 of 2)",
@@ -1126,6 +1136,16 @@
    "contentHash": "d7bce9f81155d3929aa1837f4eb2aff6033fbd858424814c50df3d740170704f"
   },
   {
+   "id": "src:ac7daef86cfc",
+   "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=4",
+   "title": "Adventure%20Tourism%20Guidelines%20V6.3%204.4.20 (page 4 of 16)",
+   "domain": "gujarattourism.com",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "bc317f1dbcdd51fe04b2d03707704d493f99301c63a551815e710dab08d738cf"
+  },
+  {
    "id": "src:1c622b6d545b",
    "url": "https://forestservices.gujarat.gov.in/TransitPass/MerchantRegistration.aspx",
    "title": "Transit Pass Management System for Imported Timber, Forest Department, Govt. of Gujarat",
@@ -1247,16 +1267,6 @@
    "contentHash": "27702ac867f2c3fadb24e49b1939e536378a8852f4cb9f26d78e7ac53ba76060"
   },
   {
-   "id": "src:ac7daef86cfc",
-   "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=4",
-   "title": "Adventure%20Tourism%20Guidelines%20V6.3%204.4.20 (page 4 of 16)",
-   "domain": "gujarattourism.com",
-   "sourceType": "GUIDELINE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "bc317f1dbcdd51fe04b2d03707704d493f99301c63a551815e710dab08d738cf"
-  },
-  {
    "id": "src:88b9f241701b",
    "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=12",
    "title": "Adventure%20Tourism%20Guidelines%20V6.3%204.4.20 (page 12 of 16)",
@@ -1331,7 +1341,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:original_passport",
@@ -1346,7 +1356,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "grievance:gir_online_permit",
@@ -1449,7 +1459,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:girlion_gujarat_gov_in",
@@ -1871,7 +1881,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "department:boiler_office",
@@ -1886,7 +1896,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:boiler_gujarat_gov_in",
@@ -1990,7 +2000,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:memorandum_association",
@@ -2005,7 +2015,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:audited_financial_report",
@@ -2020,7 +2030,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "office:gujarat_biodiversity_board_office",
@@ -2145,7 +2155,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:gsbb_gujarat_gov_in",
@@ -2257,7 +2267,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:ceiced_gujarat_gov_in",
@@ -2362,7 +2372,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:cpvadodara_gujarat_gov_in",
@@ -2395,7 +2405,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:qualification_form",
@@ -2410,7 +2420,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:registration_transfer_form",
@@ -2425,7 +2435,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:registration_certificate_format",
@@ -2440,7 +2450,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:e_gazette",
@@ -2455,7 +2465,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:circular_from_other_institutions",
@@ -2470,7 +2480,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:gujarat_veterinary_council_registration_and_renewal",
@@ -2530,7 +2540,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:vehicle_fitness_testing",
@@ -2616,7 +2626,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:letterhead_application",
@@ -2631,7 +2641,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:van_mahotsav_sapling_application",
@@ -2720,7 +2730,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:forestservices_gujarat_gov_in",
@@ -2826,7 +2836,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:form_1_and_form_2",
@@ -2841,7 +2851,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:ownership_document",
@@ -2856,7 +2866,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:comprehensive_map",
@@ -2871,7 +2881,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:fitness_certificate",
@@ -2886,7 +2896,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:passenger_insurance",
@@ -2901,7 +2911,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:certificate_of_registration_for_pleasure_craft_or_boat",
@@ -2981,7 +2991,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:pnt_gujarat_gov_in",
@@ -3085,7 +3095,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:proof_of_identity",
@@ -3100,7 +3110,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:film_shooting_permission",
@@ -3186,7 +3196,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:letterhead_signature_seal",
@@ -3201,7 +3211,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:smashaan_saggadi",
@@ -3291,7 +3301,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:nabl_certificate",
@@ -3306,7 +3316,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:ultratech_nabet_certificate",
@@ -3321,7 +3331,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:annexure_i_loi",
@@ -3336,7 +3346,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:annexure_ii_mining_plan_part_1",
@@ -3351,7 +3361,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:annexure_ii_mining_plan_part_2",
@@ -3366,7 +3376,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:annexure_iii_approved_mining_plan",
@@ -3381,7 +3391,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:annexure_iv_cluster_map",
@@ -3396,7 +3406,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:annexure_v_tor",
@@ -3411,7 +3421,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:annexure_vi_baseline_monitoring_report_part_1",
@@ -3426,7 +3436,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:annexure_vi_baseline_monitoring_report_part_2",
@@ -3441,7 +3451,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:annexure_vi_baseline_monitoring_report_part_3",
@@ -3456,7 +3466,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:annexure_vi_baseline_monitoring_report_part_4",
@@ -3471,7 +3481,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:annexure_vii_pdr",
@@ -3486,7 +3496,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:english_summary",
@@ -3501,7 +3511,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:gujarati_summary",
@@ -3516,7 +3526,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:eia_document_download",
@@ -3536,7 +3546,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:gpcb_gujarat_gov_in",
@@ -3587,7 +3597,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:development_permission_certificate",
@@ -3602,7 +3612,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:mot_certificate",
@@ -3617,7 +3627,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:chartered_engineer_valuer_certificate",
@@ -3632,7 +3642,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:performance_certificate",
@@ -3647,7 +3657,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:ca_certificate",
@@ -3662,7 +3672,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:dpr",
@@ -3677,7 +3687,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:chartered_mechanical_engineer_certificate",
@@ -3692,7 +3702,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:stamp_duty_payment_document",
@@ -3707,7 +3717,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:self_certification",
@@ -3722,7 +3732,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:bank_details_proof",
@@ -3737,7 +3747,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:tourism_unit_registration",
@@ -3778,7 +3788,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:medical_certificate_submission",
@@ -3793,7 +3803,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:issue_police_clearance_certificate",
@@ -3808,7 +3818,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:guide_license",
@@ -3894,7 +3904,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:vehicle_registration",
@@ -3909,7 +3919,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:sale_certificate_in_form_no_21",
@@ -3924,7 +3934,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:road_worthiness_certificate_in_form_22",
@@ -3939,7 +3949,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:identity_proof_with_photographs_of_applicant",
@@ -3954,7 +3964,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:vehicle_insurance_certificate",
@@ -3969,7 +3979,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:proof_of_address",
@@ -3984,7 +3994,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document_group:g_be79a2d591",
@@ -4000,7 +4010,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:vehicle_registration",
@@ -4063,7 +4073,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:cot_gujarat_gov_in",
@@ -4167,7 +4177,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:dpifc",
@@ -4259,7 +4269,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:townplanning_gujarat_gov_in",
@@ -4292,7 +4302,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:offer_cum_allotment_letter",
@@ -4307,7 +4317,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:approved_building_plan",
@@ -4322,7 +4332,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:licence_agreement",
@@ -4337,7 +4347,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:possession_receipt_final_transfer_order",
@@ -4352,7 +4362,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "office:gidc_office",
@@ -4405,7 +4415,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:water_connection",
@@ -4450,7 +4460,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:gidc_gujarat_gov_in",
@@ -4554,7 +4564,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:col_gujarat_gov_in",
@@ -4587,7 +4597,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:registration_certificates",
@@ -4602,7 +4612,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:valid_certificate",
@@ -4617,7 +4627,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:capital_certificate",
@@ -4632,7 +4642,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:letterhead_letter",
@@ -4647,7 +4657,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:employee_certificates",
@@ -4662,7 +4672,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:adventure_tourism_license",
@@ -4728,7 +4738,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:building_development_permission",
@@ -4814,7 +4824,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:vmc_gov_in",
@@ -4847,7 +4857,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:registration_copy",
@@ -4862,7 +4872,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:compliance_report",
@@ -4877,7 +4887,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:hazardous_waste_utilization_permit",
@@ -4957,7 +4967,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:gpcb_gov_in",
@@ -5064,7 +5074,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:plug_play_systems_scheme",
@@ -5155,7 +5165,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:ifpgujarat_gov_in_00c4a3",
@@ -5259,7 +5269,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:notarized_undertaking",
@@ -5274,7 +5284,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:hazardous_waste_management",
@@ -5360,7 +5370,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:arms_licence",
@@ -5446,7 +5456,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:cpsurat_gujarat_gov_in",
@@ -5479,7 +5489,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:trade_union_registration",
@@ -5554,7 +5564,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:prescribed_format_application",
@@ -5569,7 +5579,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:claim_application_form",
@@ -5584,7 +5594,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:apparel_park_approval_and_reimbursement",
@@ -5652,7 +5662,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:sru_documents",
@@ -5667,7 +5677,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:vat_cst_registration",
@@ -5747,7 +5757,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:commercialtax_gujarat_gov_in",
@@ -5780,7 +5790,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:type_approval_certificate",
@@ -5795,7 +5805,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:gst_certificate",
@@ -5810,7 +5820,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:certificate_incorporation_msme",
@@ -5825,7 +5835,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "action:user_id_creation_for_vahan_green_sewa_1_applicant_may_fill_the_user_id_creation_",
@@ -5845,7 +5855,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "action:user_id_creation_for_vahan_green_sewa_2_send_the_scan_copy_of_the_following_docu",
@@ -5865,7 +5875,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "action:user_id_creation_for_vahan_green_sewa_3_after_verification_and_approval_of_the_s",
@@ -5885,7 +5895,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "action:user_id_creation_for_vahan_green_sewa_4_the_password_need_to_be_changed_immediat",
@@ -5905,7 +5915,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "action:user_id_creation_for_vahan_green_sewa_5_only_one_user_id_password_will_be_issued",
@@ -5925,7 +5935,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:user_id_creation_for_vahan_green_sewa",
@@ -6011,7 +6021,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "helpline:1800_233_1847",
@@ -6096,7 +6106,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:gpcbxgn_gujarat_gov_in",
@@ -6129,7 +6139,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:promotional_material",
@@ -6144,7 +6154,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:income_tax_return",
@@ -6159,7 +6169,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:adventure_tourism_operator_recognition",
@@ -6219,7 +6229,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:tourist_guide_license",
@@ -6293,7 +6303,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:self_declaration_form",
@@ -6308,7 +6318,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:registration_nursing_home_medical_establishment_act",
@@ -6323,7 +6333,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:noc_fire_department",
@@ -6338,7 +6348,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:ambulance_licenses",
@@ -6353,7 +6363,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:dg_set_approval",
@@ -6368,7 +6378,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:diesel_storage_licenses",
@@ -6383,7 +6393,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:medical_gases_licenses",
@@ -6398,7 +6408,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:clinical_establishments_act_registration",
@@ -6413,7 +6423,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:mou_multispecialty_hospitals",
@@ -6428,7 +6438,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:blood_bank_license_or_mou",
@@ -6443,7 +6453,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:stand_alone_dialysis_center_registration",
@@ -6463,7 +6473,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:factory_layout_approval",
@@ -6478,7 +6488,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:noc_pollution_control",
@@ -6493,7 +6503,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:agmark_certification",
@@ -6508,7 +6518,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "department:directorate_of_marketing_and_inspection",
@@ -6523,7 +6533,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:shop_establishment_license",
@@ -6538,7 +6548,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:sales_tax_number",
@@ -6553,7 +6563,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "department:government_of_gujarat_commercial_tax_department",
@@ -6568,7 +6578,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:isi_certification",
@@ -6583,7 +6593,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:boiler_inspection",
@@ -6598,7 +6608,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:food_safety_license",
@@ -6613,7 +6623,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:haccp_certification",
@@ -6660,7 +6670,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "office:electricity_revenue_collector_office",
@@ -6750,7 +6760,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:girnar_nature_safari_permit",
@@ -6842,7 +6852,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "action:driver_license_1_visit_https_sarathi_parivahan_gov_in",
@@ -6862,7 +6872,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "action:driver_license_2_select_concerned_state",
@@ -6882,7 +6892,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "action:driver_license_3_click_on_application_status",
@@ -6902,7 +6912,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "action:driver_license_4_after_entering_application_number_and_da",
@@ -6922,7 +6932,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:driver_license",
@@ -7008,7 +7018,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:parivahan_gov_in",
@@ -7041,7 +7051,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:labour_registration_card",
@@ -7056,7 +7066,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:saral_pass_travel_scheme",
@@ -7107,7 +7117,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:adventure_tourism_guidelines",
@@ -7181,7 +7191,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:proof_of_ownership",
@@ -7196,7 +7206,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:pleasure_craft_boat_operation_permission",
@@ -7267,7 +7277,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "action:learners_license_1_visit_https_sarathi_parivahan_gov_in",
@@ -7287,7 +7297,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "action:learners_license_2_select_concerned_state",
@@ -7307,7 +7317,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "action:learners_license_3_click_on_learner_license_menu",
@@ -7327,7 +7337,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "action:learners_license_4_click_on_print_learners_license_form3",
@@ -7347,7 +7357,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "action:learners_license_5_fill_application_number_date_of_birth_an",
@@ -7367,7 +7377,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:learners_license",
@@ -7453,7 +7463,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:national_permit",
@@ -7503,7 +7513,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:mining_lease_forest_diversion",
@@ -7518,7 +7528,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:forest_land_diversion",
@@ -7580,7 +7590,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:fed_gujarat_gov_in",
@@ -7673,7 +7683,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:srtgeda_gujarat_gov_in",
@@ -7777,7 +7787,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:declaration_of_compliance",
@@ -7792,7 +7802,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:challan_receipt",
@@ -7807,7 +7817,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:third_party_insurance_certificate",
@@ -7822,7 +7832,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:builder_s_certificate",
@@ -7837,7 +7847,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:instrument_of_sale",
@@ -7852,7 +7862,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:mortgage_details",
@@ -7867,7 +7877,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:declaration_of_ownership",
@@ -7882,7 +7892,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:vessel_registration",
@@ -7908,7 +7918,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:state_pollution_control_board_authorization",
@@ -7923,7 +7933,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:ic_gujarat_gov_in_085ada",
@@ -8006,7 +8016,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:memorandum_and_articles_of_association",
@@ -8021,7 +8031,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:documents_of_commencement",
@@ -8036,7 +8046,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:fmta1_form_e",
@@ -8092,7 +8102,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:puc",
@@ -8148,7 +8158,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:vahan",
@@ -8210,7 +8220,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:it_ites_technology_park_incentives",
@@ -8270,7 +8280,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:upload_attachments",
@@ -8285,7 +8295,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "grievance:license_renewal",
@@ -8346,7 +8356,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:ayudmla_gujarat_gov_in",
@@ -8427,7 +8437,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "office:block_18_6th_floor_udyog_bhavan_gandhinagar",
@@ -8602,7 +8612,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:permanent_driving_licence",
@@ -8661,7 +8671,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:rooftop_pv_installer_registration",
@@ -8706,7 +8716,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "office:jamnagar_municipal_corporation",
@@ -8750,7 +8760,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:mcjamnagar_com",
@@ -8806,7 +8816,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:tour_operator_recognition",
@@ -8865,7 +8875,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "office:gujarat_power_corporation",
@@ -8951,7 +8961,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:cte_and_cca_applications",
@@ -9007,7 +9017,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "helpline:0288_2550231_235",
@@ -9047,7 +9057,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:hem_nha_gov_in",
@@ -9080,7 +9090,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:hospital_empanelment",
@@ -9127,7 +9137,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:agri_business_registration_number",
@@ -9159,7 +9169,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:necessary_documents",
@@ -9174,7 +9184,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:tin_registration",
@@ -9219,7 +9229,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:overall_single_line_diagram",
@@ -9234,7 +9244,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:equipment_layout_drawing_with_plot_plan",
@@ -9249,7 +9259,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:earthing_layout_drawing_with_standard_earth_pit",
@@ -9264,7 +9274,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:capacitor_bank_approval",
@@ -9290,7 +9300,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:annexure_2_dl",
@@ -9305,7 +9315,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:annexure_3_mfc",
@@ -9320,7 +9330,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:annexure_4_qcs",
@@ -9335,7 +9345,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:annexure_5_pe",
@@ -9350,7 +9360,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:performa_fresh_licence_inspection",
@@ -9365,7 +9375,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:parapit_application",
@@ -9403,7 +9413,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:solar_power_project_registration",
@@ -9447,7 +9457,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:geda_gujarat_gov_in",
@@ -9502,7 +9512,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "helpline:18002330222_14437",
@@ -9575,7 +9585,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "helpline:91_120_4925505",
@@ -9633,7 +9643,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:weights_and_measures",
@@ -9701,7 +9711,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:permanent_address_documents",
@@ -9716,7 +9726,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:proof_of_ex_army_or_imported_vehicle",
@@ -9731,7 +9741,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:approval_of_design",
@@ -9746,7 +9756,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:registration_of_a_motor_vehicle",
@@ -9772,7 +9782,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:adventure_tourism_approval",
@@ -9808,9 +9818,15 @@
      "evidence": "It is mandatory for the Members/representative of the concerned air/water/land related sports to remain present during the inspection.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:ac7daef86cfc",
+     "evidence": "12. The Approval Committee is authorized to upgrade/revise or include/exclude the conditions of\nsafety/eligibility for the Adventure Tour Operators (ATOs) as it may find it is necessary to do so.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:transit_pass_for_imported_timber",
@@ -9848,7 +9864,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:competent_person_recognition",
@@ -9886,7 +9902,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:dish_gujarat_gov_in",
@@ -9936,7 +9952,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:certificate_of_registration",
@@ -9951,7 +9967,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:certificate_of_enrolment",
@@ -9966,7 +9982,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:certificate_of_registration_and_enrolment",
@@ -9992,7 +10008,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:certificate_regarding_eligibility_for_exemption_from_electri",
@@ -10030,7 +10046,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:authorization_for_utilization_of_hazardous_and_other_waste",
@@ -10068,7 +10084,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:devalia_park_bus_safari_e_permit",
@@ -10103,7 +10119,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:vendor_registration",
@@ -10147,7 +10163,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "portal:gwilws_gujarat_gov_in",
@@ -10214,7 +10230,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:adventure_tour_operator_registration",
@@ -10250,7 +10266,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:trained_crew_certificate",
@@ -10265,7 +10281,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:license_and_operational_certificate",
@@ -10285,7 +10301,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:adventure_tourism_recognition_or_registration",
@@ -10317,7 +10333,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:last_license_renewal_copy",
@@ -10332,7 +10348,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "service:sawmill_licence_renewal",
@@ -10352,7 +10368,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "office:bmc_main_office",
@@ -10414,7 +10430,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:proof_of_payment",
@@ -10429,7 +10445,7 @@
      "verificationStatus": "EXTRACTED"
     }
    ],
-   "lastVerifiedAt": "2026-08-24"
+   "lastVerifiedAt": "2026-08-25"
   }
  ],
  "edges": [

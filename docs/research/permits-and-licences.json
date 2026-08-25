@@ -1,6 +1,6 @@
 {
  "journey": "permits-and-licences",
- "researchedAt": "2026-08-24",
+ "researchedAt": "2026-08-25",
  "region": "Gujarat, India",
  "sources": [
   {
@@ -689,6 +689,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:40dcf1b8c789",
+   "url": "https://parivahan.gov.in/en/content/faq",
+   "title": "Frequently Asked Questions | Parivahansewa",
+   "domain": "parivahan.gov.in",
+   "sourceType": "FAQ",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "dbe7b36f082fe7f1f7dba09c867e01d35fabd1d21ea03b0e705f5459ba322bb9",
+   "cacheFile": ".firecrawl/faq.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:31139eefc21e",
    "url": "https://cpsurat.gujarat.gov.in/Upload/FORM%20A-3.pdf#page=1",
    "title": "FORM%20A-3 (page 1 of 2)",
@@ -1352,6 +1364,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:ac7daef86cfc",
+   "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=4",
+   "title": "Adventure%20Tourism%20Guidelines%20V6.3%204.4.20 (page 4 of 16)",
+   "domain": "gujarattourism.com",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "bc317f1dbcdd51fe04b2d03707704d493f99301c63a551815e710dab08d738cf",
+   "cacheFile": ".ingest/pages/ac7daef86cfcfacfaf654deb2ec5042cbe884f72.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:1c622b6d545b",
    "url": "https://forestservices.gujarat.gov.in/TransitPass/MerchantRegistration.aspx",
    "title": "Transit Pass Management System for Imported Timber, Forest Department, Govt. of Gujarat",
@@ -1494,18 +1518,6 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "27702ac867f2c3fadb24e49b1939e536378a8852f4cb9f26d78e7ac53ba76060",
    "cacheFile": ".ingest/pages/78ff4d5fb8b2162e0fac3c01e63388f8ec94e949.md",
-   "scrapedOk": true
-  },
-  {
-   "id": "src:ac7daef86cfc",
-   "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=4",
-   "title": "Adventure%20Tourism%20Guidelines%20V6.3%204.4.20 (page 4 of 16)",
-   "domain": "gujarattourism.com",
-   "sourceType": "GUIDELINE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "bc317f1dbcdd51fe04b2d03707704d493f99301c63a551815e710dab08d738cf",
-   "cacheFile": ".ingest/pages/ac7daef86cfcfacfaf654deb2ec5042cbe884f72.md",
    "scrapedOk": true
   },
   {
@@ -10355,6 +10367,66 @@
    "confidence": 0.95
   },
   {
+   "claim": "Click 'continue'.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "continue_button",
+   "detail": {},
+   "sourceId": "src:40dcf1b8c789",
+   "evidence": "5. Click \"continue\"",
+   "confidence": 1
+  },
+  {
+   "claim": "Enter the Driver's License number and Date of birth to get Driver's License details.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "drivers_license_details",
+   "detail": {},
+   "sourceId": "src:40dcf1b8c789",
+   "evidence": "6. Enter \"Drivers License number\" and \"Date of birth\" click \"Get Drivers License Details\"",
+   "confidence": 1
+  },
+  {
+   "claim": "Fill up the Application Form.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:40dcf1b8c789",
+   "evidence": "7. Fill up Application Form",
+   "confidence": 1
+  },
+  {
+   "claim": "Take an appointment.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "appointment",
+   "detail": {},
+   "sourceId": "src:40dcf1b8c789",
+   "evidence": "8. Take appointment",
+   "confidence": 1
+  },
+  {
+   "claim": "Visit the RTO on the scheduled date with original documents.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "rto_visit",
+   "detail": {},
+   "sourceId": "src:40dcf1b8c789",
+   "evidence": "9. Visit RTO on scheduled date, with original documents",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant should visit their Zonal Office/Transport Department.",
+   "kind": "OFFICE",
+   "subject": "permanent_license",
+   "object": "zonal_office_transport_department",
+   "detail": {},
+   "sourceId": "src:40dcf1b8c789",
+   "evidence": "You need to contact your Zonal Office/Transport Department, while carrying the original document(s)",
+   "confidence": 0.95
+  },
+  {
    "claim": "The applicant must provide their 16-digit UIN.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "arms_licence_renewal",
@@ -15435,6 +15507,16 @@
    "sourceId": "src:7eec7f519267",
    "evidence": "It is mandatory for the Members/representative of the concerned air/water/land related sports to remain present during the inspection.",
    "confidence": 1
+  },
+  {
+   "claim": "The Approval Committee is authorized to upgrade, revise, include, or exclude the conditions of safety and eligibility for Adventure Tour Operators.",
+   "kind": "ACTION",
+   "subject": "approval_committee",
+   "object": "adventure_tour_operators",
+   "detail": {},
+   "sourceId": "src:ac7daef86cfc",
+   "evidence": "12. The Approval Committee is authorized to upgrade/revise or include/exclude the conditions of\nsafety/eligibility for the Adventure Tour Operators (ATOs) as it may find it is necessary to do so.",
+   "confidence": 0.95
   },
   {
    "claim": "A merchant or trader must provide their name for registration.",
