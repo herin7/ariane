@@ -302,9 +302,16 @@ export class VoiceBroker {
 
     if (asked.has(questionId)) {
       journey.answers = { ...journey.answers, [questionId]: answer };
-    } else if (documents.has(questionId)) {
+    } else if (documents.has(questionId) || journey.documents.includes(questionId)) {
       // A document question is a yes or a no about holding it. Anything else
       // is treated as a no, because "I think so" is not a document.
+      //
+      // Already-held documents stay answerable: once you say yes, the compiler
+      // stops asking, and if the only way in is a question the compiler is
+      // still asking then "actually I cannot find it" has nowhere to go. That
+      // is a correction a caller makes out loud all the time, and it is still
+      // not an arbitrary field write — the id had to earn its way onto this
+      // journey's list first.
       const holds = answer === true || answer === "yes" || answer === "true";
       journey.documents = holds
         ? [...new Set([...journey.documents, questionId])]
