@@ -39,6 +39,17 @@ const value = (name, fallback = null) => {
 };
 
 /**
+ * Whether this file was run or imported.
+ *
+ * Both the selftest and the corpus pass hang off it, and neither may fire on
+ * import. `corpus.mjs` imports `CHUNKS` from here, so a bare `process.exit` at
+ * this level takes the importer down with it; and `flag("selftest")` is true
+ * for anything the *parent* was invoked with, which is how running the corpus
+ * selftest came to print "chunks: ok" and stop before testing anything.
+ */
+const isMain = fileURLToPath(import.meta.url) === process.argv[1];
+
+/**
  * How big a chunk is allowed to get before we cut it somewhere less natural.
  *
  * 1,500 characters is roughly a screen, which is roughly what a reranker can
@@ -195,18 +206,6 @@ export function cut(text, { max = MAX, min = MIN } = {}) {
   return out.filter((c) => !JUNK.test(c.text));
 }
 
-/**
- * What a chunk is searched by, as opposed to what it says.
- *
- * §7: prepend the context a lexical index cannot infer from the passage alone,
- * so "Mamlatdar Office, Kheda" can be found by a query naming the district even
- * when the block itself only says "Office Address". This string is for the
- * index and the reranker. It is never shown to a citizen and never quoted,
- * because it contains words the government page did not print.
- */
-export const searchText = (chunk, meta) =>
-  [meta.serviceName, meta.district, meta.host, chunk.heading, chunk.text].filter(Boolean).join("\n");
-
 /** One page's chunks, with the provenance that makes them citable. */
 export function chunksOf(page, text) {
   const url = page.url;
@@ -228,7 +227,7 @@ export function chunksOf(page, text) {
 
 // ------------------------------------------------------------------ selftest
 
-if (flag("selftest")) {
+if (isMain && flag("selftest")) {
   const { default: assert } = await import("node:assert/strict");
 
   // The invariant. Everything else is a preference; this one is the product.
@@ -266,24 +265,18 @@ if (flag("selftest")) {
   assert.ok(!looksLikeHeading("- Aadhaar card"), "a bullet is a member, not a label");
   assert.equal(headingText("**Required Documents**"), "Required Documents");
 
-  // Context is for the index only. It must not leak into the quotable text.
-  const c0 = { heading: "Office Address", text: "Second floor, Collectorate" };
-  const s = searchText(c0, { serviceName: "Income certificate", district: "Kheda", host: "collectorkheda.gujarat.gov.in" });
-  assert.ok(s.includes("Kheda") && s.includes("Second floor, Collectorate"));
-  assert.ok(!c0.text.includes("Kheda"), "contextualising builds a new string, it does not mutate the passage");
-
   console.log("chunks: ok");
   process.exit(0);
 }
 
 // --------------------------------------------------------------------- chunk
 //
-// Behind a main check, because P3 imports `cut` from here and importing a file
-// that runs a 2,713 page pass on load is the kind of surprise that costs an
-// afternoon. services-compile.mjs has this bug and it is not worth two.
+// A block rather than an early return, because a module cannot return and an
+// early `process.exit` at this level would take the importer down with it.
+// services-compile.mjs runs its whole pipeline on import and one of those is
+// enough.
 
-if (fileURLToPath(import.meta.url) !== process.argv[1]) process.exit(0);
-
+if (isMain) {
 const pages = readJsonl(".ingest/pages.jsonl").filter((p) => p.sha1);
 const limit = Number(value("limit", pages.length));
 
@@ -316,6 +309,8 @@ console.log(`  length: p50 ${at_(0.5)}, p90 ${at_(0.9)}, p99 ${at_(0.99)}, max $
 console.log(`  ${rows.filter((r) => r.heading).length} chunk(s) sit under a heading we could name`);
 if (missing) console.log(`  ${missing} page(s) in the ledger have no cached file`);
 
-if (flag("stats")) process.exit(0);
-writeJsonl(CHUNKS, rows);
-console.log(`\nWritten to ${CHUNKS}. Next: pnpm corpus:index`);
+if (!flag("stats")) {
+  writeJsonl(CHUNKS, rows);
+  console.log(`\nWritten to ${CHUNKS}. Next: pnpm corpus:index`);
+}
+}
