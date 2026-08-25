@@ -2690,6 +2690,26 @@
    ]
   },
   {
+   "id": "action:certified_copies_certified_copies_of_registered_documents_can_be_",
+   "type": "ACTION",
+   "name": "Certified copies of registered documents can be obtained",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Certified copies of registered documents can be obtained.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Obtain certified copies of registered documents.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "document:certified_document_copy",
    "type": "DOCUMENT",
    "name": "Certified document copy",
@@ -4701,6 +4721,22 @@
      "sourceId": "src:b711a8fe0826",
      "evidence": "8:30 A.M To 5:30 A.M",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_certified_copies__requires__action_certified_copies_certified_copies_of_registered_docum",
+   "from": "service:certified_copies",
+   "to": "action:certified_copies_certified_copies_of_registered_documents_can_be_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Certified copies of registered documents can be obtained.",
+   "sources": [
+    {
+     "sourceId": "src:b28223f1098a",
+     "evidence": "Obtain certified copies of registered documents.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]

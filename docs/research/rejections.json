@@ -1,7 +1,7 @@
 {
- "runId": "compile-2026-08-25T12:49:59.275Z",
+ "runId": "compile-2026-08-25T12:56:40.997Z",
  "compiledAt": "2026-08-25",
- "total": 10383,
+ "total": 10376,
  "reasons": [
   {
    "stage": "compile",
@@ -614,7 +614,7 @@
   {
    "stage": "compile",
    "reason": "NO_QUOTABLE_EVIDENCE",
-   "count": 30,
+   "count": 29,
    "examples": [
     {
      "url": "https://mahesana.nic.in/service/regarding-getting-a-widow-and-income-certificate",
@@ -677,38 +677,6 @@
   },
   {
    "stage": "compile",
-   "reason": "ALREADY_OWNED",
-   "count": 26,
-   "examples": [
-    {
-     "url": "https://collectorahmedabad.gujarat.gov.in/EWS-Certificate-GOG",
-     "claim": "EWS Certificate",
-     "note": "64 fact(s) across 4 page(s) not merged into service:ews_certificate"
-    },
-    {
-     "url": "https://collectorkheda.gujarat.gov.in/domicil-certificate-issue",
-     "claim": "Domicile Certificate",
-     "note": "15 fact(s) across 2 page(s) not merged into service:domicile_certificate"
-    },
-    {
-     "url": "https://morbi.nic.in/service/domicile-certificate",
-     "claim": "The applicant must collect the required proofs.",
-     "note": "service:domicile_certificate has a hand written sequence, so a machine step does not join it"
-    },
-    {
-     "url": "https://morbi.nic.in/service/domicile-certificate",
-     "claim": "The applicant must visit the Taluka Mamlatdar office.",
-     "note": "service:domicile_certificate has a hand written sequence, so a machine step does not join it"
-    },
-    {
-     "url": "https://gandhinagar.gujarat.gov.in/showpage.aspx?contentid=390",
-     "claim": "Non-Creamy Layer certificate",
-     "note": "307 fact(s) across 34 page(s) not merged into service:non_creamy_layer_certificate"
-    }
-   ]
-  },
-  {
-   "stage": "compile",
    "reason": "UNSUPPORTED_KIND",
    "count": 23,
    "examples": [
@@ -736,6 +704,38 @@
      "url": "https://garvi.gujarat.gov.in/",
      "claim": "Citizens can download the NIC's SANDES app from the Google Play Store or iOS App Store.",
      "note": "APP never becomes a node, by policy"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "ALREADY_OWNED",
+   "count": 20,
+   "examples": [
+    {
+     "url": "https://collectorahmedabad.gujarat.gov.in/EWS-Certificate-GOG",
+     "claim": "EWS Certificate",
+     "note": "64 fact(s) across 4 page(s) not merged into service:ews_certificate"
+    },
+    {
+     "url": "https://collectorkheda.gujarat.gov.in/domicil-certificate-issue",
+     "claim": "Domicile Certificate",
+     "note": "15 fact(s) across 2 page(s) not merged into service:domicile_certificate"
+    },
+    {
+     "url": "https://gandhinagar.gujarat.gov.in/showpage.aspx?contentid=390",
+     "claim": "Non-Creamy Layer certificate",
+     "note": "307 fact(s) across 34 page(s) not merged into service:non_creamy_layer_certificate"
+    },
+    {
+     "url": "https://collectorbhavnagar.gujarat.gov.in/salary-certificate",
+     "claim": "income certificate",
+     "note": "37 fact(s) across 5 page(s) not merged into service:income_certificate"
+    },
+    {
+     "url": "https://kheda.gujarat.gov.in/showpage.aspx?contentid=249",
+     "claim": "residence certificate",
+     "note": "264 fact(s) across 32 page(s) not merged into service:residence_certificate"
     }
    ]
   },

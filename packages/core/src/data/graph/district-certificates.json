@@ -3838,6 +3838,46 @@
    ]
   },
   {
+   "id": "action:domicile_certificate_the_applicant_must_collect_the_required_proofs",
+   "type": "ACTION",
+   "name": "The applicant must collect the required proofs",
+   "jurisdictionId": "IN-GJ-MORBI",
+   "metadata": {
+    "whatToDo": "The applicant must collect the required proofs.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:5d3ed28982ae",
+     "evidence": "## Proofs Needed:\n\n- Panchnamu\n- Certificate of Talati.\n- Applicant Answer\n- Domicile by Birth (Birth Certificate)\n- Proof of Parent’s Job/Business\n- No Objection Certificate of Police Station\n- Character Certificate\n- Affidavit\n- Last 10 years residence proof\n- Identity Proof\n- Resident Proof",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:domicile_certificate_the_applicant_must_visit_the_taluka_mamlatdar_of",
+   "type": "ACTION",
+   "name": "The applicant must visit the Taluka Mamlatdar office",
+   "jurisdictionId": "IN-GJ-MORBI",
+   "metadata": {
+    "whatToDo": "The applicant must visit the Taluka Mamlatdar office.",
+    "uiStage": "IN_PERSON",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:5d3ed28982ae",
+     "evidence": "**Location** : Respective Taluka Mamlatdar office \\| **City** : All Talukas",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "portal:digitalgujarat_gov_in_550477",
    "type": "PORTAL",
    "name": "digitalgujarat.gov.in/Citizen/ServiceDescription.aspx",
@@ -9595,6 +9635,26 @@
    ]
   },
   {
+   "id": "action:caste_certificate_an_applicant_can_apply_for_a_caste_certificate_o",
+   "type": "ACTION",
+   "name": "An applicant can apply for a Caste Certificate online",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "An applicant can apply for a Caste Certificate online.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:9afc60bbeddd",
+     "evidence": "Public user can apply for these services online.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "portal:digitalgujarat_gov_in",
    "type": "PORTAL",
    "name": "digitalgujarat.gov.in",
@@ -9611,6 +9671,26 @@
      "verificationStatus": "EXTRACTED"
     }
    ]
+  },
+  {
+   "id": "action:caste_certificate_the_applicant_must_provide_a_category_caste_cert",
+   "type": "ACTION",
+   "name": "The applicant must provide a Category/caste Certification for reserved category students d",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "The applicant must provide a Category/caste Certification for reserved category students during verification.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:63dbec5f3a82",
+     "evidence": "a. FRESH: 12th Mark Sheet, Family Income Certificate, Category/ caste Certification for reserved category students, **Disability Certificate (**if applicable**)**",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
   },
   {
    "id": "document:opal_green_label",
@@ -9636,6 +9716,26 @@
     {
      "sourceId": "src:3e9caf77dc5a",
      "evidence": "લધુત્તમ બીજ પ્રમાણિકરણના ધોરણમાં બીજ પ્રમાણનના ક્રમાનુસાર તબક્કાઓમાં પસાર થયેલ અને આનુવંશિક અને ભૌતિક શુદ્ધતાના લઘુત્તમ ધોરણોસરના પ્રમાણિકરણને પાત્ર બિયારણની થેલીઓ ઉપર પાયાના (ફાઉન્&zwj;ડેશન) બિયારણ માટે સફેદ અને પ્રમાણિત (સર્ટીફાઇડ) કક્ષાના બિયારણ માટે ભુરા રંગની એજન્&zwj;સીની ટેગ થેલી સાથે સીવી એજન્&zwj;સીના સીલથી એજન્&zwj;સીના અધિકૃત અધિકારીની હાજરીમાં સીલ કરવાનું રહેશે.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:sebc_certificate_an_applicant_can_apply_for_the_sebc_certificate_",
+   "type": "ACTION",
+   "name": "An applicant can apply for the SEBC Certificate online",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "An applicant can apply for the SEBC Certificate online.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:9afc60bbeddd",
+     "evidence": "Public user can apply for these services online.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -11374,6 +11474,38 @@
      "sourceId": "src:fdf5e160c1cf",
      "evidence": "જો ઉમેદવાર અસલ પ્ર માણપત્ર રજુ કરશે નહીં તો તેઓ રૂ બરૂ મુલાકાત માટે પાત્ર બનશે નહીં તેની ખાસ નોં ધ લેવી.",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_domicile_certificate__requires__action_domicile_certificate_the_applicant_must_collect_the_r",
+   "from": "service:domicile_certificate",
+   "to": "action:domicile_certificate_the_applicant_must_collect_the_required_proofs",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must collect the required proofs.",
+   "sources": [
+    {
+     "sourceId": "src:5d3ed28982ae",
+     "evidence": "## Proofs Needed:\n\n- Panchnamu\n- Certificate of Talati.\n- Applicant Answer\n- Domicile by Birth (Birth Certificate)\n- Proof of Parent’s Job/Business\n- No Objection Certificate of Police Station\n- Character Certificate\n- Affidavit\n- Last 10 years residence proof\n- Identity Proof\n- Resident Proof",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_domicile_certificate__requires__action_domicile_certificate_the_applicant_must_visit_the_tal",
+   "from": "service:domicile_certificate",
+   "to": "action:domicile_certificate_the_applicant_must_visit_the_taluka_mamlatdar_of",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must visit the Taluka Mamlatdar office.",
+   "sources": [
+    {
+     "sourceId": "src:5d3ed28982ae",
+     "evidence": "**Location** : Respective Taluka Mamlatdar office \\| **City** : All Talukas",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -15619,6 +15751,22 @@
    ]
   },
   {
+   "id": "e:service_caste_certificate__requires__action_caste_certificate_an_applicant_can_apply_for_a_caste_",
+   "from": "service:caste_certificate",
+   "to": "action:caste_certificate_an_applicant_can_apply_for_a_caste_certificate_o",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant can apply for a Caste Certificate online.",
+   "sources": [
+    {
+     "sourceId": "src:9afc60bbeddd",
+     "evidence": "Public user can apply for these services online.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_caste_certificate__apply_at__portal_digitalgujarat_gov_in",
    "from": "service:caste_certificate",
    "to": "portal:digitalgujarat_gov_in",
@@ -15630,6 +15778,38 @@
      "sourceId": "src:9afc60bbeddd",
      "evidence": "All these application are available on comman service portal i.e. Digital Gujarat portal. For more information and application please visit to Digital gujarat portal.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_caste_certificate__requires__action_caste_certificate_the_applicant_must_provide_a_catego",
+   "from": "service:caste_certificate",
+   "to": "action:caste_certificate_the_applicant_must_provide_a_category_caste_cert",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must provide a Category/caste Certification for reserved category students during verification.",
+   "sources": [
+    {
+     "sourceId": "src:63dbec5f3a82",
+     "evidence": "a. FRESH: 12th Mark Sheet, Family Income Certificate, Category/ caste Certification for reserved category students, **Disability Certificate (**if applicable**)**",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_sebc_certificate__requires__action_sebc_certificate_an_applicant_can_apply_for_the_sebc_",
+   "from": "service:sebc_certificate",
+   "to": "action:sebc_certificate_an_applicant_can_apply_for_the_sebc_certificate_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant can apply for the SEBC Certificate online.",
+   "sources": [
+    {
+     "sourceId": "src:9afc60bbeddd",
+     "evidence": "Public user can apply for these services online.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]

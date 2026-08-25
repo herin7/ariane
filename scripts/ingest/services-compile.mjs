@@ -1825,6 +1825,7 @@ if (promoted) console.log(`${promoted} deepening claim(s) promoted into ${deepen
  * the same question.
  */
 const taken = new Set();
+const handBundles = [];
 for (const name of EXISTING) {
   if (name === "jurisdictions" || name === "manifest") continue;
   let bundle;
@@ -1833,6 +1834,7 @@ for (const name of EXISTING) {
   } catch {
     continue;
   }
+  handBundles.push(bundle);
   for (const n of bundle.nodes ?? []) {
     taken.add(n.id);
     // Also every id `resolveGoal` would build out of a hand written service's
@@ -1850,6 +1852,36 @@ for (const name of EXISTING) {
     }
   }
 }
+
+/**
+ * Hand written services that already have a path, as against ones that only
+ * have a name.
+ *
+ * `taken` says a person owns the id. It does not say what they wrote, and the
+ * difference decides whether a machine step is noise or the only step there is.
+ * Driving licence has eight authored steps and adding "Take an appointment."
+ * above them makes the journey worse. Domicile certificate is a hand written
+ * service with eleven documents, an office and no steps at all, and "The
+ * applicant must visit the Taluka Mamlatdar office" is the whole answer to what
+ * do I actually do.
+ *
+ * Found out by pruning them from a live database: the first version of this
+ * rule keyed on `taken` and quietly took two real steps off domicile, two off
+ * caste and sebc, and one off certified copies. So the rule is not "a person
+ * owns this" but "a person wrote the sequence", which is what §11 is protecting
+ * in the first place.
+ */
+const authoredSteps = (() => {
+  const type = new Map();
+  for (const b of handBundles) for (const n of b.nodes ?? []) type.set(n.id, n.type);
+  const has = new Set();
+  for (const b of handBundles) {
+    for (const e of b.edges ?? []) {
+      if (type.get(e.from) === "SERVICE" && type.get(e.to) === "ACTION") has.add(e.from);
+    }
+  }
+  return has;
+})();
 
 // ---------------------------------------------------- documents, not fields
 
@@ -2230,7 +2262,7 @@ function build(journey, services) {
           link(serviceNodeId, gId, "ESCALATE_TO", f.claim, r);
         } else if (f.kind === "ACTION" && f.promoted && isMicroInstruction(f.claim)) {
           reject("NOT_A_CITIZEN_STEP", { ...of(f), note: "a button, not a step" });
-        } else if (f.kind === "ACTION" && f.promoted && owned) {
+        } else if (f.kind === "ACTION" && f.promoted && authoredSteps.has(serviceNodeId)) {
           // ------------------------------------ somebody already wrote the path
           //
           // Every other promoted fact is welcome on a hand written service. A
@@ -2258,6 +2290,10 @@ function build(journey, services) {
           // page this compiler found is a guess and a person's judgement wins.
           // Retrieval knowing the service id makes a promoted claim a better
           // guess about the subject, not a better one about the order.
+          //
+          // Keyed on the sequence existing, not on the id being owned. A hand
+          // written service with no steps of its own is not a person saying
+          // there are none; see `authoredSteps`.
           reject("ALREADY_OWNED", { ...of(f), note: `${serviceNodeId} has a hand written sequence, so a machine step does not join it` });
         } else if (f.kind === "ACTION" && f.promoted && stepLabel(f.claim)) {
           // ------------------------------------------------ a step, unordered
