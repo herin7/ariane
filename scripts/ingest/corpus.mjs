@@ -259,10 +259,34 @@ export class LexicalRetriever {
   }
 
   /**
-   * @param {{query: string, serviceId?: string, jurisdictionId?: string, dimension?: string, limit?: number}} input
+   * For every chunk carrying at least one of these terms, how many it carries.
+   *
+   * The postings already know this. Asking them costs a walk over the terms'
+   * document lists; the obvious alternative, tokenising each hit's indexText
+   * again, costs a re-tokenisation of every chunk the query touched and throws
+   * it away afterwards, which is the work `buildIndex` did once at startup.
+   *
+   * Absent from the map means the chunk carries none of them. That is the shape
+   * a caller wants for a filter, which is what this is for.
+   */
+  coverage(terms) {
+    const n = new Map();
+    for (const t of new Set(terms)) {
+      const list = this.index.postings.get(t);
+      if (!list) continue;
+      for (let i = 0; i < list.length; i += 2) {
+        const id = this.index.docs[list[i]].id;
+        n.set(id, (n.get(id) ?? 0) + 1);
+      }
+    }
+    return n;
+  }
+
+  /**
+   * @param {{query: string, serviceId?: string, jurisdictionId?: string, dimension?: string, limit?: number, filter?: ((chunk) => boolean) | null}} input
    * @returns {Promise<Array<{id, sourceId, url, heading, text, start, end, score, rank}>>}
    */
-  async search({ query, jurisdictionId, dimension, limit = 20 }) {
+  async search({ query, jurisdictionId, dimension, limit = 20, filter: extra = null }) {
     const expanded = [...tokens(query), ...(dimension ? tokens((DIMENSIONS[dimension] ?? []).join(" ")) : [])];
     if (!expanded.length) return [];
 
@@ -280,7 +304,12 @@ export class LexicalRetriever {
       // district's pages rank above the state's rather than merely surviving.
       expanded.push(...tokens(wanted.replace(/^IN-GJ-?/, "").replace(/_/g, " ")));
     }
-    const filter = wanted ? (c) => districtOf(c.host) === wanted || districtOf(c.host) === "IN-GJ" : null;
+    // Composed rather than chained, because both of these have to run inside the
+    // scorer for the same reason. A caller's filter applied to the returned top
+    // 20 is a filter that reads whatever twenty passages the dimension's own
+    // vocabulary happened to match, and keeps the two of them that were on topic.
+    const district = wanted ? (c) => districtOf(c.host) === wanted || districtOf(c.host) === "IN-GJ" : null;
+    const filter = district && extra ? (c) => district(c) && extra(c) : (district ?? extra);
     return score(this.index, expanded, { limit, filter });
   }
 }
@@ -331,6 +360,27 @@ if (isMain && flag("selftest")) {
   // state host so it survives the filter; it has to lose to Surat's own page.
   const both = await r.search({ query: "office collectorate", jurisdictionId: "IN-GJ-SURAT", limit: 5 });
   assert.equal(both[0].id, "b", "the named district outranks the state portal, or jurisdictionId does nothing");
+
+  // How much of a set of terms each chunk carries, read off the postings. This
+  // is what lets a caller anchor before the scorer cuts to twenty rather than
+  // after, which is the difference between thirty candidates and two.
+  const cov = r.coverage(["mamlatdar", "nadiad"]);
+  assert.equal(cov.get("a"), 2, "the Kheda page carries both");
+  assert.equal(cov.get("b"), 1, "Surat's has the officer and not the town");
+  assert.equal(cov.has("c"), false, "absent means none of them, which is the shape a filter wants");
+  assert.equal(r.coverage([]).size, 0);
+  assert.equal(r.coverage(["zzznotaword"]).size, 0);
+
+  // A caller's filter runs inside the scorer, beside the jurisdiction one.
+  const withoutA = await r.search({ query: "mamlatdar office", limit: 5, filter: (c) => c.id !== "a" });
+  assert.equal(withoutA[0].id, "b");
+  assert.ok(withoutA.every((x) => x.id !== "a"));
+  // And composes with the district filter rather than replacing it.
+  assert.deepEqual(
+    await r.search({ query: "mamlatdar office", jurisdictionId: "IN-GJ-SURAT", limit: 5, filter: (c) => c.id !== "b" }),
+    [],
+    "a district filter and a caller filter that disagree leave nothing, and nothing is the correct answer",
+  );
 
   // And the state portal is still reachable, because most services live there.
   const state = await r.search({ query: "income certificate fee", jurisdictionId: "IN-GJ-SURAT", limit: 5 });
