@@ -349,7 +349,10 @@ for (const office of [...offices.values()].sort((a, b) => a.id.localeCompare(b.i
       ...(addresses.length ? { address: addresses[0] } : {}),
       ...(office.phones.size ? { phoneNumbers: [...office.phones].slice(0, 6) } : {}),
       ...(office.emails.size ? { emails: [...office.emails].slice(0, 4) } : {}),
-      ...(office.hours.size ? { hours: [...office.hours][0] } : {}),
+      // `workingHours` is the name in NodeMetadata and the name the compiler
+      // reads. This wrote `hours` for 38 offices, so every published opening
+      // time was dropped on the floor between the graph and the screen.
+      ...(office.hours.size ? { workingHours: [...office.hours][0] } : {}),
       ...(addresses.length > 1 ? { conflictingAddresses: addresses.slice(1, 4) } : {}),
     },
     sources: refs,

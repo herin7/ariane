@@ -3000,7 +3000,7 @@
         "machineExtracted": true,
         "officeType": "District Collectorate",
         "address": "Jilla Seva Sadan, Sharu Section Road, Jamnagar, Gujarat - 361002",
-        "hours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -3909,7 +3909,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "Jilla Seva Sadan, Sharu Section Road, Jamnagar, Gujarat - 361002",
-        "hours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -3988,7 +3988,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Near North Gujarat University, Patan, Gujarat - 384265",
-        "hours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -4010,7 +4010,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "Gita Nagar, Godhra, Panchmahal, Gujarat - 389001",
-        "hours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -4053,7 +4053,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Near Jorawar Complex, Palanpur, Banaskantha, Gujarat - 384265",
-        "hours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -4096,10 +4096,10 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, District Collector & Jilla Seva Sadan Kacheri, Near Pathika Ashram, GH Road, Sector 11, Gandhinagar, Gujarat - 382017",
-        "hours": "10:30 A.M To 6:10 P.M",
         "conflictingAddresses": [
           "District Collector & Jilla Seva Sadan Kacheri, Near Pathika Ashram, GH Road, Sector 11, Gandhinagar, Gujarat - 382017"
-        ]
+        ],
+        "workingHours": "10:30 A.M To 6:10 P.M"
       },
       "sources": [
         {
@@ -4133,7 +4133,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Secretariat Building, Near College Ground, Chhotaudepur, Gujarat - 391165",
-        "hours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -4155,7 +4155,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "Jan Seva Kendra, Rajkot, District Collector Office, Shroff Rd, Sadar, Rajkot, Gujarat - 360001",
-        "hours": "10:30 A.M To 6:10 P.M"
+        "workingHours": "10:30 A.M To 6:10 P.M"
       },
       "sources": [
         {
@@ -4207,7 +4207,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Opp. ITI, Kaliya Bhut Temple Road, Rajpipla, Narmada, Gujarat - 393145",
-        "hours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -4229,7 +4229,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "Office of The Collector & District Magistrate, Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027",
-        "hours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -4281,7 +4281,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Civil Hospital Rd, D.L.B. Society, Amreli, Gujarat - 365601",
-        "hours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -4327,7 +4327,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Near Borsad Chokdi, Opp. DSP Office, Anand, Gujarat - 388540",
-        "hours": "8:30 A.M To 5:30 A.M"
+        "workingHours": "8:30 A.M To 5:30 A.M"
       },
       "sources": [
         {
@@ -4373,7 +4373,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Modasa, Aravalli, Gujarat - 383315",
-        "hours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -4413,7 +4413,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Near Jorawar Complex, Palanpur, Banaskantha, Gujarat - 384265",
-        "hours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -4441,11 +4441,11 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "Railway Colony, Bharuch, Gujarat -392001",
-        "hours": "10:30 A.M To 6:10 P.M",
         "conflictingAddresses": [
           "District Collector Office, Railway Colony, Bharuch, Gujarat -392001",
           "Jan Seva Kendra, Bharuch, District Collector Office, Railway Colony, Bharuch, Gujarat -392001"
-        ]
+        ],
+        "workingHours": "10:30 A.M To 6:10 P.M"
       },
       "sources": [
         {
@@ -4491,10 +4491,10 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Opposite Galaxy Cinema, Kalanala, Bhavnagar, Gujarat - 364001",
-        "hours": "10:30 A.M To 06:10 P.M",
         "conflictingAddresses": [
           "Opposite Galaxy Cinema, Kalanala, Bhavnagar, Gujarat - 364001"
-        ]
+        ],
+        "workingHours": "10:30 A.M To 06:10 P.M"
       },
       "sources": [
         {
@@ -4540,10 +4540,10 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "Taluka Seva Sadan, Paliyad Road, Near Gokul Medical, Botad, Gujarat - 364710",
-        "hours": "10:30 A.M To 06:10 P.M",
         "conflictingAddresses": [
           "District Collector Office, Taluka Seva Sadan, Paliyad Road, Near Gokul Medical, Botad, Gujarat - 364710"
-        ]
+        ],
+        "workingHours": "10:30 A.M To 06:10 P.M"
       },
       "sources": [
         {
@@ -4595,10 +4595,10 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "Court Rd, Kachiyawadi, Kaliawadi, Navsari, Gujarat - 396445",
-        "hours": "8:30 A.M To 5:30 P.M",
         "conflictingAddresses": [
           "Office of The Collector & District Magistrate, Court Rd, Kachiyawadi, Kaliawadi, Navsari, Gujarat - 396445"
-        ]
+        ],
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -4626,7 +4626,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Secretariat Building, Near College Ground, Chhotaudepur, Gujarat - 391165",
-        "hours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -4654,10 +4654,10 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "National Highway 113, Dahod, Gujarat - 389180",
-        "hours": "8:30 A.M To 5:30 P.M",
         "conflictingAddresses": [
           "Office of The Collector & District Magistrate, National Highway 113, Dahod, Gujarat - 389180"
-        ]
+        ],
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -4718,7 +4718,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Morbi, Gujarat - 363641",
-        "hours": "10:30 A.M To 6:10 A.M"
+        "workingHours": "10:30 A.M To 6:10 A.M"
       },
       "sources": [
         {
@@ -4740,7 +4740,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, District Collector & Jilla Seva Sadan Kacheri, Near Pathika Ashram, GH Road, Sector 11, Gandhinagar, Gujarat - 382017",
-        "hours": "10:30 A.M To 6:10 P.M"
+        "workingHours": "10:30 A.M To 6:10 P.M"
       },
       "sources": [
         {
@@ -4768,7 +4768,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Veraval, Dist : Somnath, Gujarat - 360024",
-        "hours": "10:30 A.M To 6:10 P.M"
+        "workingHours": "10:30 A.M To 6:10 P.M"
       },
       "sources": [
         {
@@ -4790,10 +4790,10 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Shashikunj, Junagadh, Gujarat - 362001",
-        "hours": "8:30 A.M To 5:30 P.M",
         "conflictingAddresses": [
           "Office of The Collector & District Magistrate, District Collector Office, Shashikunj, Junagadh, Gujarat - 362001"
-        ]
+        ],
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -4827,7 +4827,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "Ayojan Bhavan Building, Subhash Nagar, Nadiad, Dist : Kheda, Gujarat - 387001",
-        "hours": "8:30 A.M To 5:30 A.M"
+        "workingHours": "8:30 A.M To 5:30 A.M"
       },
       "sources": [
         {
@@ -4867,10 +4867,10 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "Near Circuit House, Nr. Mota Bandh, Bhuj, Gujarat - 370001",
-        "hours": "10:30 A.M To 6:10 P.M",
         "conflictingAddresses": [
           "District Collector Office, Near Circuit House, Nr. Mota Bandh, Bhuj, Gujarat - 370001"
-        ]
+        ],
+        "workingHours": "10:30 A.M To 6:10 P.M"
       },
       "sources": [
         {
@@ -4898,10 +4898,10 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "Godhra Road, Lunawada, Gujarat - 389230",
-        "hours": "8:30 A.M To 5:30 P.M",
         "conflictingAddresses": [
           "District Collector Office, Godhra Road, Lunawada, Gujarat - 389230"
-        ]
+        ],
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -4935,7 +4935,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Block No.3, MS Building, Rajmahal road, Mehsana, Gujarat - 384001",
-        "hours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -4969,7 +4969,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Morbi, Gujarat - 363641",
-        "hours": "10:30 A.M To 6:10 A.M"
+        "workingHours": "10:30 A.M To 6:10 A.M"
       },
       "sources": [
         {
@@ -4997,7 +4997,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Opp. ITI, Kaliya Bhut Temple Road, Rajpipla, Narmada, Gujarat - 393145",
-        "hours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -5076,7 +5076,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Near North Gujarat University, Patan, Gujarat - 384265",
-        "hours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -5098,7 +5098,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Opp-Air Port, Sandipani Road, Porbandar, Gujarat - 360575",
-        "hours": "10:30 A.M To 06:10 P.M"
+        "workingHours": "10:30 A.M To 06:10 P.M"
       },
       "sources": [
         {
@@ -5126,7 +5126,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Shroff Rd, Sadar, Rajkot, Gujarat - 360001",
-        "hours": "10:30 A.M To 6:10 P.M"
+        "workingHours": "10:30 A.M To 6:10 P.M"
       },
       "sources": [
         {
@@ -5148,7 +5148,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Alkapuri Pologround, Alkapuri, Himatnagar, Sabarkantha, Gujarat - 383001",
-        "hours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -5176,7 +5176,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, New Jilla Seva Sadan, Block B, 5th Floor, Athwalines, Surat, Gujarat - 395001",
-        "hours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -5231,7 +5231,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "Collector Office Tapi, Tapi, Gujarat - 394651",
-        "hours": "10:30 A.M To 6:10 P.M"
+        "workingHours": "10:30 A.M To 6:10 P.M"
       },
       "sources": [
         {
@@ -5259,7 +5259,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "Nr.Vaccine Institute, Diwalipura, Old Padra Road, Vadodara, Gujarat - 390007",
-        "hours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M"
       },
       "sources": [
         {
@@ -5293,7 +5293,7 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "Office Of The Collector & District Magistrate, District Collector Office, Jilla Seva Sadan-II, Dharampur Road, Valsad, Gujarat - 396001",
-        "hours": "10:30 A.M To 6:10 P.M"
+        "workingHours": "10:30 A.M To 6:10 P.M"
       },
       "sources": [
         {
