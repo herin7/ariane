@@ -860,7 +860,19 @@
         ],
         "emails": [
           "rto-trans-ahd@gujarat.gov.in"
-        ]
+        ],
+        "location": {
+          "latitude": 23.066453,
+          "longitude": 72.583867,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_HIGH",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "1af61f21",
+          "query": "RTO Office, Subhash Bridge, Sabarmati, Ahmedabad, Gujarat, India, 380027",
+          "note": "house match, pincode agrees"
+        }
       },
       "sources": [
         {
@@ -887,7 +899,19 @@
         ],
         "emails": [
           "rto-trans-sur@gujarat.gov.in"
-        ]
+        ],
+        "location": {
+          "latitude": 21.192115,
+          "longitude": 72.816876,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "7611a54c",
+          "query": "Nanpura, Surat, Gujarat, India",
+          "note": "address says 385001, geocoder says 395001"
+        }
       },
       "sources": [
         {
@@ -918,7 +942,19 @@
         ],
         "emails": [
           "rto-trans-vad@gujarat.gov.in"
-        ]
+        ],
+        "location": {
+          "latitude": 22.297314,
+          "longitude": 73.194257,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REJECTED",
+          "precision": "city",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "3c4b168b",
+          "query": "Vadodra, Vadodara, Gujarat, India",
+          "note": "resolved only to the city centroid"
+        }
       },
       "sources": [
         {

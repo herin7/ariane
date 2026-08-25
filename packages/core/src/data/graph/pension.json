@@ -807,7 +807,19 @@
       "metadata": {
         "officeType": "State directorate",
         "address": "Block No. 20, Dr. Jivraj Mehta Bhavan, Gandhinagar",
-        "channelType": "PHYSICAL_OFFICE"
+        "channelType": "PHYSICAL_OFFICE",
+        "location": {
+          "latitude": 23.225992,
+          "longitude": 72.658822,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_HIGH",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "6fbd0e06",
+          "query": "Block No. 20, Dr. Jivraj Mehta Bhavan, Gandhinagar, Gujarat, India",
+          "note": "house match"
+        }
       },
       "sources": [
         {

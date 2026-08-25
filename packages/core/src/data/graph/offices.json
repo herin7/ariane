@@ -2171,7 +2171,19 @@
         ],
         "conflictingAddresses": [
           "અન્ન ભવન, ટાઉનહૉલની બાજુમાં, સેકટર-17, ગાંધીનગર, ગુજરાત"
-        ]
+        ],
+        "location": {
+          "latitude": 23.376051,
+          "longitude": 70.353076,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REJECTED",
+          "precision": "city",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "e9509e1c",
+          "query": "હ્રિદય કુંજ, Gujarat, India",
+          "note": "resolved only to the city centroid"
+        }
       },
       "sources": [
         {
@@ -2313,7 +2325,19 @@
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "address": "Gujarat Biodiversity Board, Gandhinagar"
+        "address": "Gujarat Biodiversity Board, Gandhinagar",
+        "location": {
+          "latitude": 23.211743,
+          "longitude": 72.655678,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_HIGH",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "67d9539a",
+          "query": "Gujarat Biodiversity Board, Gandhinagar, Gujarat, India",
+          "note": "office match"
+        }
       },
       "sources": [
         {
@@ -2406,7 +2430,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Labour Office",
-        "address": "Office of Assistant Labour Commisionorate, Labour Officer , Diamond Market , 1st , Amber Cinema , Jamnagar ."
+        "address": "Office of Assistant Labour Commisionorate, Labour Officer , Diamond Market , 1st , Amber Cinema , Jamnagar .",
+        "location": {
+          "latitude": 22.472491,
+          "longitude": 70.07597,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "416977c0",
+          "query": "Labour Officer, Jamnagar, Gujarat, India",
+          "note": "matched on one part of the address (office), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -2427,7 +2463,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Bank Branch",
-        "address": "Core 5-A, India Habitat Centre, Lodhi Road, New Delhi-110003"
+        "address": "Core 5-A, India Habitat Centre, Lodhi Road, New Delhi-110003",
+        "location": {
+          "latitude": 22.242888,
+          "longitude": 70.686494,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "street",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "a1e774e2",
+          "query": "Lodhi Road, Gujarat, India",
+          "note": "address says 110003, geocoder says 360021"
+        }
       },
       "sources": [
         {
@@ -2474,7 +2522,19 @@
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "address": "First Floor, F-1 Wing, Block-3, Karmyogi Bhavan, Sector-10-A, Gandhinagar, Gujarat"
+        "address": "First Floor, F-1 Wing, Block-3, Karmyogi Bhavan, Sector-10-A, Gandhinagar, Gujarat",
+        "location": {
+          "latitude": 23.213435,
+          "longitude": 72.654173,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "4a228b36",
+          "query": "Karmyogi Bhavan, Gandhinagar, Gujarat, India",
+          "note": "matched on one part of the address (house), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -2494,7 +2554,19 @@
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "address": "\"B\" Wing, 5th Floor, Sector 10A, Aranya Bhavan, Gandhinagar"
+        "address": "\"B\" Wing, 5th Floor, Sector 10A, Aranya Bhavan, Gandhinagar",
+        "location": {
+          "latitude": 23.23484,
+          "longitude": 72.630329,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "3275d021",
+          "query": "Sector 10A, Gandhinagar, Gujarat, India",
+          "note": "matched on one part of the address (house), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -2540,7 +2612,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Health Facility",
-        "address": "NHM Bhavan, Civil Hospital Campus, Gandhinagar- 382012"
+        "address": "NHM Bhavan, Civil Hospital Campus, Gandhinagar- 382012",
+        "location": {
+          "latitude": 23.211743,
+          "longitude": 72.655678,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "71f0a665",
+          "query": "NHM Bhavan, Gandhinagar, Gujarat, India",
+          "note": "address says 382012, geocoder says 382008"
+        }
       },
       "sources": [
         {
@@ -2582,7 +2666,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "District Collectorate",
-        "address": "Alkapuri Pologround, Alkapuri, Himatnagar, Sabarkantha, Gujarat - 383001"
+        "address": "Alkapuri Pologround, Alkapuri, Himatnagar, Sabarkantha, Gujarat - 383001",
+        "location": {
+          "latitude": 23.597125,
+          "longitude": 72.958827,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REJECTED",
+          "precision": "city",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "21886bc0",
+          "query": "Himatnagar, Sabarkantha, Gujarat, India",
+          "note": "resolved only to the city centroid"
+        }
       },
       "sources": [
         {
@@ -2603,7 +2699,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "District Collectorate",
-        "address": "Office of The Collector & District Magistrate, Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027"
+        "address": "Office of The Collector & District Magistrate, Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027",
+        "location": {
+          "latitude": 23.022385,
+          "longitude": 72.57525,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "street",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "d1b4fc1f",
+          "query": "Old Wadaj, Ahmedabad, Gujarat, India",
+          "note": "address says 380027, geocoder says 380006"
+        }
       },
       "sources": [
         {
@@ -2629,7 +2737,19 @@
           "21, Shangrila A-2, Nr. Hebtpur Cross Road, Thaltej, Ahmedabad-380059",
           "C-502, Dev Sangam Apartment, Bhat- Koteshwar Road, Koteshwar, Motera, Ahmedabad",
           "C-405, Premier Appartment, Opp. Jivabhai Tower, Sandesh Press Road, Lad Society , Bodakdev, Ahmedabad, (M) 9825909348"
-        ]
+        ],
+        "location": {
+          "latitude": 23.036232,
+          "longitude": 72.549686,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "amenity",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "9b4adcdf",
+          "query": "Ahmedabad-1, Ahmedabad, Gujarat, India",
+          "note": "matched on one part of the address (amenity), so this is the area and not the door; sources place this office 7.1km apart"
+        }
       },
       "sources": [
         {
@@ -2662,7 +2782,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Civil Supplies Office",
-        "address": "Block No. 14/6th Floor, Sardar Bhavan, New Secretariat, Gandhinagar-382010, Gujarat, India"
+        "address": "Block No. 14/6th Floor, Sardar Bhavan, New Secretariat, Gandhinagar-382010, Gujarat, India",
+        "location": {
+          "latitude": 23.225407,
+          "longitude": 72.658504,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "other",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "b64578a9",
+          "query": "Gandhinagar-382010, Gandhinagar, Gujarat, India",
+          "note": "matched on one part of the address (other), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -2682,7 +2814,19 @@
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "address": "\"B\" Wing, 5th Floor, Sector 10A, Aranya Bhavan, Gandhinagar"
+        "address": "\"B\" Wing, 5th Floor, Sector 10A, Aranya Bhavan, Gandhinagar",
+        "location": {
+          "latitude": 23.23484,
+          "longitude": 72.630329,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "3275d021",
+          "query": "Sector 10A, Gandhinagar, Gujarat, India",
+          "note": "matched on one part of the address (house), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -2728,7 +2872,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Labour Office",
-        "address": "Block-C,5th Floor,Sahyog Sankul, Near Pathikashram, Gandhinagar 380011"
+        "address": "Block-C,5th Floor,Sahyog Sankul, Near Pathikashram, Gandhinagar 380011",
+        "location": {
+          "latitude": 23.218313,
+          "longitude": 72.656348,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "cde77384",
+          "query": "Sahyog Sankul, Gandhinagar, Gujarat, India",
+          "note": "address says 380011, geocoder says 382010"
+        }
       },
       "sources": [
         {
@@ -2749,7 +2905,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Labour Office",
-        "address": "Office of Deputy Labour Commisionorate, A / 6th floor , high-rise building , Nanapura - Surat"
+        "address": "Office of Deputy Labour Commisionorate, A / 6th floor , high-rise building , Nanapura - Surat",
+        "location": {
+          "latitude": 21.19371,
+          "longitude": 72.817982,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "street",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "d1a23e0d",
+          "query": "Nanapura - Surat, Surat, Gujarat, India",
+          "note": "matched on one part of the address (street), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -2770,7 +2938,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Labour Office",
-        "address": "Office of Deputy Labour Commisionorate , Sharm Bhavan, 1st & 2nd Flor, Kamrej, Ahmedabad"
+        "address": "Office of Deputy Labour Commisionorate , Sharm Bhavan, 1st & 2nd Flor, Kamrej, Ahmedabad",
+        "location": {
+          "latitude": 23.024522,
+          "longitude": 72.580323,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "6fed3d88",
+          "query": "Sharm Bhavan, Ahmedabad, Gujarat, India",
+          "note": "matched on one part of the address (house), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -2865,7 +3045,19 @@
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "address": "Birsamunda Bhavan, 3rd Floor, Sector-10 A, Gandhinagar."
+        "address": "Birsamunda Bhavan, 3rd Floor, Sector-10 A, Gandhinagar.",
+        "location": {
+          "latitude": 23.211743,
+          "longitude": 72.655678,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "91a101e9",
+          "query": "Birsamunda Bhavan, Gandhinagar, Gujarat, India",
+          "note": "matched on one part of the address (office), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -2885,7 +3077,19 @@
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "address": "Beej Pramanan Bhavan, Opp. Gokul Row Houses, Shyamal Cross, Nr. Food Corporation of India, satellite, Ahmedabad, Pin - 380015"
+        "address": "Beej Pramanan Bhavan, Opp. Gokul Row Houses, Shyamal Cross, Nr. Food Corporation of India, satellite, Ahmedabad, Pin - 380015",
+        "location": {
+          "latitude": 23.02739,
+          "longitude": 72.517572,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "603e7917",
+          "query": "satellite, Ahmedabad, Gujarat, India",
+          "note": "matched on one part of the address (house), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -2906,7 +3110,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Labour Office",
-        "address": "3 & 5th Floor, ShramBhavan, Nr. Gun House, Khanpur Ahmedabad-380001"
+        "address": "3 & 5th Floor, ShramBhavan, Nr. Gun House, Khanpur Ahmedabad-380001",
+        "location": {
+          "latitude": 23.032929,
+          "longitude": 72.57663,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "amenity",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "81e38efb",
+          "query": "Khanpur Ahmedabad, Ahmedabad, Gujarat, India",
+          "note": "matched on one part of the address (amenity), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -2930,7 +3146,19 @@
         "address": "Sector 10/A, Birsa Munda Bhavan, Gandhinagar.",
         "phoneNumbers": [
           "+91 79 232 57703"
-        ]
+        ],
+        "location": {
+          "latitude": 23.220389,
+          "longitude": 72.657701,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "locality",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "15a9d0a8",
+          "query": "Sector 10/A, Gandhinagar, Gujarat, India",
+          "note": "matched on one part of the address (locality), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -2957,7 +3185,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "District Collectorate",
-        "address": "District Service Sadan, Opposite Kotak Mahindra Bank, Dharmapur Road, Valsad, Gujarat - 396001"
+        "address": "District Service Sadan, Opposite Kotak Mahindra Bank, Dharmapur Road, Valsad, Gujarat - 396001",
+        "location": {
+          "latitude": 20.59301,
+          "longitude": 72.942632,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "street",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "9a965f0f",
+          "query": "Dharmapur Road, Valsad, Gujarat, India",
+          "note": "address says 396001, geocoder says 396002"
+        }
       },
       "sources": [
         {
@@ -2978,7 +3218,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "District Collectorate",
-        "address": "Opposite Galaxy Cinema, Kalanala, Bhavnagar, Gujarat - 364001"
+        "address": "Opposite Galaxy Cinema, Kalanala, Bhavnagar, Gujarat - 364001",
+        "location": {
+          "latitude": 21.77015,
+          "longitude": 72.145537,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "1595f83f",
+          "query": "Kalanala, Bhavnagar, Gujarat, India",
+          "note": "matched on one part of the address (house), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -3000,7 +3252,19 @@
         "machineExtracted": true,
         "officeType": "District Collectorate",
         "address": "Jilla Seva Sadan, Sharu Section Road, Jamnagar, Gujarat - 361002",
-        "workingHours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M",
+        "location": {
+          "latitude": 22.480077,
+          "longitude": 70.050979,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "street",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "97a09587",
+          "query": "Sharu Section Road, Jamnagar, Gujarat, India",
+          "note": "address says 361002, geocoder says 361001"
+        }
       },
       "sources": [
         {
@@ -3051,7 +3315,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "District Collectorate",
-        "address": "Jilla Seva Sadan, 1st Floor, Khas Road, Botad - 364710, Gujarat"
+        "address": "Jilla Seva Sadan, 1st Floor, Khas Road, Botad - 364710, Gujarat",
+        "location": {
+          "latitude": 22.171155,
+          "longitude": 71.66295,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "other",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "74e4062a",
+          "query": "Botad - 364710, Botad, Gujarat, India",
+          "note": "matched on one part of the address (other), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -3075,7 +3351,19 @@
         "address": "Jilla Seva Sadan, Sharu Section Road, Jamnagar - 361002, Gujarat",
         "phoneNumbers": [
           "+91 288 2555869"
-        ]
+        ],
+        "location": {
+          "latitude": 22.471315,
+          "longitude": 70.060949,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "a979f335",
+          "query": "Jamnagar - 361002, Jamnagar, Gujarat, India",
+          "note": "matched on one part of the address (office), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -3096,7 +3384,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "District Collectorate",
-        "address": "District Collectorate"
+        "address": "District Collectorate",
+        "location": {
+          "latitude": 23.608975,
+          "longitude": 72.393287,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "locality",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "997e0540",
+          "query": "District Collectorate, Morbi, Gujarat, India",
+          "note": "expected Morbi, result says Mahesana Taluka Mahesana Mehsana Lakhvad"
+        }
       },
       "sources": [
         {
@@ -3120,7 +3420,19 @@
         "address": "District Seva Sadan, Near Ganesh Chokadi, Anand, Gujarat - 388001",
         "phoneNumbers": [
           "+91 2692 262271"
-        ]
+        ],
+        "location": {
+          "latitude": 21.109886,
+          "longitude": 71.780957,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "7ddc08a7",
+          "query": "District Seva Sadan, Anand, Gujarat, India",
+          "note": "address says 388001, geocoder says 364290"
+        }
       },
       "sources": [
         {
@@ -3144,7 +3456,19 @@
         "address": "Near North Gujarat University, Patan, Gujarat - 384265",
         "phoneNumbers": [
           "+91 2766 233400"
-        ]
+        ],
+        "location": {
+          "latitude": 23.86326,
+          "longitude": 72.133688,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "amenity",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "c8b9a3b3",
+          "query": "Near North Gujarat University, Patan, Gujarat, India, 384265",
+          "note": "address says 384265, geocoder says 384200"
+        }
       },
       "sources": [
         {
@@ -3165,7 +3489,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "District Collectorate",
-        "address": "1st Floor, Lalpur Bypass Road, Dharampur, Khambhalia, Gujarat - 361305"
+        "address": "1st Floor, Lalpur Bypass Road, Dharampur, Khambhalia, Gujarat - 361305",
+        "location": {
+          "latitude": 22.210536,
+          "longitude": 69.653336,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "amenity",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "53a5bd9a",
+          "query": "Khambhalia, Devbhoomi Dwarka, Gujarat, India",
+          "note": "expected Devbhoomi Dwarka, result says Khambhalia Taluka Khambhaliya"
+        }
       },
       "sources": [
         {
@@ -3186,7 +3522,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "District Collectorate",
-        "address": "Opp. ITI, Kaliya Bhut Temple Road, Rajpipla, Narmada, Gujarat - 393145"
+        "address": "Opp. ITI, Kaliya Bhut Temple Road, Rajpipla, Narmada, Gujarat - 393145",
+        "location": {
+          "latitude": 21.878069,
+          "longitude": 73.50397,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "37602ed2",
+          "query": "Rajpipla, Narmada, Gujarat, India",
+          "note": "expected Narmada, result says Nandod Taluka Rajpipla"
+        }
       },
       "sources": [
         {
@@ -3211,7 +3559,19 @@
         "phoneNumbers": [
           "+91 2762 222200",
           "+91 2762 222203"
-        ]
+        ],
+        "location": {
+          "latitude": 23.608184,
+          "longitude": 72.393413,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "a033036a",
+          "query": "Rajmahal road, Mehsana, Gujarat, India",
+          "note": "matched on one part of the address (house), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -3232,7 +3592,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "District Collectorate",
-        "address": "Near Circuit House, Mandvi Road, Nr. Mota Bandh, Bhuj, Gujarat - 370001"
+        "address": "Near Circuit House, Mandvi Road, Nr. Mota Bandh, Bhuj, Gujarat - 370001",
+        "location": {
+          "latitude": 23.248591,
+          "longitude": 69.666454,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "9914b8a8",
+          "query": "Bhuj, Kutch, Gujarat, India",
+          "note": "matched on one part of the address (house), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -3277,7 +3649,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "District Collectorate",
-        "address": "Akshardham Temple, Gandhinagar"
+        "address": "Akshardham Temple, Gandhinagar",
+        "location": {
+          "latitude": 23.230754,
+          "longitude": 72.673832,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_HIGH",
+          "precision": "amenity",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "2821056e",
+          "query": "Akshardham Temple, Gandhinagar, Gujarat, India",
+          "note": "amenity match"
+        }
       },
       "sources": [
         {
@@ -3298,7 +3682,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "District Collectorate",
-        "address": "District Collectorate"
+        "address": "District Collectorate",
+        "location": {
+          "latitude": 23.608975,
+          "longitude": 72.393287,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "locality",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "997e0540",
+          "query": "District Collectorate, Sabarkantha, Gujarat, India",
+          "note": "expected Sabarkantha, result says Mahesana Taluka Mahesana Mehsana Lakhvad"
+        }
       },
       "sources": [
         {
@@ -3319,7 +3715,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "District Panchayat",
-        "address": "District Panchayat, Cricket Bungalow, Jamnagar"
+        "address": "District Panchayat, Cricket Bungalow, Jamnagar",
+        "location": {
+          "latitude": 22.471035,
+          "longitude": 70.064455,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "f5adac45",
+          "query": "Cricket Bungalow, Jamnagar, Gujarat, India",
+          "note": "matched on one part of the address (house), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -3339,7 +3747,19 @@
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "address": "5th Floor, ShramBhavan, Nr. Gun House, Khanpur, Ahmedabad"
+        "address": "5th Floor, ShramBhavan, Nr. Gun House, Khanpur, Ahmedabad",
+        "location": {
+          "latitude": 23.032929,
+          "longitude": 72.57663,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "amenity",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "72979285",
+          "query": "Khanpur, Ahmedabad, Gujarat, India",
+          "note": "matched on one part of the address (amenity), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -3360,7 +3780,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Labour Office",
-        "address": "Multi-Storage Building, D- Block, Ground floor, Sardar Patel Bhuvan, Nadiad. Dist. Kheda"
+        "address": "Multi-Storage Building, D- Block, Ground floor, Sardar Patel Bhuvan, Nadiad. Dist. Kheda",
+        "location": {
+          "latitude": 22.689554,
+          "longitude": 72.87136,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REJECTED",
+          "precision": "city",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "e8f8e8ee",
+          "query": "Nadiad. Dist. Kheda, Kheda, Gujarat, India",
+          "note": "resolved only to the city centroid"
+        }
       },
       "sources": [
         {
@@ -3381,7 +3813,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "District Collectorate",
-        "address": "Block No.18, 7th Floor, Sector-11, Industry Bhavan, Gandhinagar"
+        "address": "Block No.18, 7th Floor, Sector-11, Industry Bhavan, Gandhinagar",
+        "location": {
+          "latitude": 23.219625,
+          "longitude": 72.647857,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "locality",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "3a8466c8",
+          "query": "Sector-11, Gandhinagar, Gujarat, India",
+          "note": "matched on one part of the address (locality), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -3402,7 +3846,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "EPFO Office",
-        "address": "Block No.18, Dr.Jivraj Mehta Bhavan, Gandhinagar-382010, Gujarat"
+        "address": "Block No.18, Dr.Jivraj Mehta Bhavan, Gandhinagar-382010, Gujarat",
+        "location": {
+          "latitude": 23.225992,
+          "longitude": 72.658822,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_HIGH",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "1f602612",
+          "query": "Block No.18, Dr.Jivraj Mehta Bhavan, Gandhinagar-382010, Gujarat, Gandhinagar, India, 382010",
+          "note": "house match, pincode agrees"
+        }
       },
       "sources": [
         {
@@ -3422,7 +3878,19 @@
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "address": "Block No. 14, Fifth Floor, New Secretariat, Gandhinagar – 382010 Gujarat, India"
+        "address": "Block No. 14, Fifth Floor, New Secretariat, Gandhinagar – 382010 Gujarat, India",
+        "location": {
+          "latitude": 23.221283,
+          "longitude": 72.657235,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "be1a1fba",
+          "query": "Gandhinagar – 382010 Gujarat, Gandhinagar, Gujarat, India",
+          "note": "matched on one part of the address (office), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -3443,7 +3911,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Municipal Corporation",
-        "address": "Aadhaar Kendra, 2nd Floor, Gandhinagar Municipal Corporation, Opp. Civil Hospital., Gandhinagar, Gujarat - 382007"
+        "address": "Aadhaar Kendra, 2nd Floor, Gandhinagar Municipal Corporation, Opp. Civil Hospital., Gandhinagar, Gujarat - 382007",
+        "location": {
+          "latitude": 23.214291,
+          "longitude": 72.652096,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "538f4767",
+          "query": "Gandhinagar Municipal Corporation, Gandhinagar, Gujarat, India",
+          "note": "address says 382007, geocoder says 382011"
+        }
       },
       "sources": [
         {
@@ -3463,7 +3943,19 @@
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "address": "2nd Floor , Block-15, Udhyog Bhavan , Sector - 11, Gandhinagar – 382011"
+        "address": "2nd Floor , Block-15, Udhyog Bhavan , Sector - 11, Gandhinagar – 382011",
+        "location": {
+          "latitude": 23.219625,
+          "longitude": 72.647857,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "locality",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "791d3cd6",
+          "query": "Sector - 11, Gandhinagar, Gujarat, India",
+          "note": "matched on one part of the address (locality), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -3486,7 +3978,19 @@
         "address": "4th Floor, Block No. 11-12, Udyog Bhawan, Gandhinagar - 382 017, Gujarat",
         "emails": [
           "info.geda@ahasolar.in"
-        ]
+        ],
+        "location": {
+          "latitude": 23.222401,
+          "longitude": 72.646635,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "amenity",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "c03ecf26",
+          "query": "Udyog Bhawan, Gandhinagar, Gujarat, India",
+          "note": "matched on one part of the address (amenity), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -3512,7 +4016,19 @@
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "address": "Gandhinagar in Gujarat State"
+        "address": "Gandhinagar in Gujarat State",
+        "location": {
+          "latitude": 23.214291,
+          "longitude": 72.652096,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_HIGH",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "950755d1",
+          "query": "Gandhinagar in Gujarat State, Gandhinagar, Gujarat, India",
+          "note": "office match"
+        }
       },
       "sources": [
         {
@@ -3532,7 +4048,19 @@
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "address": "Shramyogi Kalyan Bhavan, 'G' colony, Opp. Water Tank, Sukhramnagar, Ahmedabad, Gujarat, 380021"
+        "address": "Shramyogi Kalyan Bhavan, 'G' colony, Opp. Water Tank, Sukhramnagar, Ahmedabad, Gujarat, 380021",
+        "location": {
+          "latitude": 23.021537,
+          "longitude": 72.580057,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REJECTED",
+          "precision": "city",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "f154282e",
+          "query": "Sukhramnagar, Ahmedabad, Gujarat, India",
+          "note": "resolved only to the city centroid"
+        }
       },
       "sources": [
         {
@@ -3555,7 +4083,19 @@
         "address": "Block 2 &3, 1st floor, Dr. Jivraj Mehta Bhavan, Gandhinagar",
         "emails": [
           "gpyvb@gujarat.gov.in"
-        ]
+        ],
+        "location": {
+          "latitude": 23.007935,
+          "longitude": 72.539946,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "street",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "a6ac3a0c",
+          "query": "Dr. Jivraj Mehta Bhavan, Gandhinagar, Gujarat, India",
+          "note": "expected Gandhinagar, result says SabarmatiTaluka Vasna"
+        }
       },
       "sources": [
         {
@@ -3575,7 +4115,19 @@
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "address": "Block No.6, 3rd floor, Dr. Jivaraj Mehta Bhavan, Gandhinagar"
+        "address": "Block No.6, 3rd floor, Dr. Jivaraj Mehta Bhavan, Gandhinagar",
+        "location": {
+          "latitude": 23.228139,
+          "longitude": 72.653152,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "amenity",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "304e1bee",
+          "query": "Dr. Jivaraj Mehta Bhavan, Gandhinagar, Gujarat, India",
+          "note": "matched on one part of the address (amenity), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -3595,7 +4147,19 @@
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "address": "Gandhinagar, Gujarat"
+        "address": "Gandhinagar, Gujarat",
+        "location": {
+          "latitude": 23.223288,
+          "longitude": 72.649227,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REJECTED",
+          "precision": "city",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "3d37fa8f",
+          "query": "Gandhinagar, Gujarat, India",
+          "note": "resolved only to the city centroid"
+        }
       },
       "sources": [
         {
@@ -3640,7 +4204,19 @@
         "address": "“O” block, 1st Floor, Office of the Medical Superintendent, WCSH Building, Civil Hospital, Asarwa, Ahmedabad-380016.",
         "conflictingAddresses": [
           "'O' block, 1st Floor, Office of the Medical Superintendent, WCSH Building, Civil Hospital, Asarwa, Ahmedabad-380016."
-        ]
+        ],
+        "location": {
+          "latitude": 23.047249,
+          "longitude": 72.608805,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REJECTED",
+          "precision": "district",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "1d09c94c",
+          "query": "Asarwa, Ahmedabad, Gujarat, India",
+          "note": "resolved only to the district centroid"
+        }
       },
       "sources": [
         {
@@ -3698,7 +4274,19 @@
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "address": "Government of Gujarat"
+        "address": "Government of Gujarat",
+        "location": {
+          "latitude": 22.646485,
+          "longitude": 70.741401,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_HIGH",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "a483ddff",
+          "query": "Government of Gujarat, Gujarat, India",
+          "note": "office match"
+        }
       },
       "sources": [
         {
@@ -3719,7 +4307,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Labour Office",
-        "address": "Ward -B, Plot no. 41/4, Opp. Old Polytechnic, Rampath road, Adipur."
+        "address": "Ward -B, Plot no. 41/4, Opp. Old Polytechnic, Rampath road, Adipur.",
+        "location": {
+          "latitude": 23.078117,
+          "longitude": 70.092776,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "locality",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "4857d5fc",
+          "query": "Ward -B, Gujarat, India",
+          "note": "matched on one part of the address (locality), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -3743,7 +4343,19 @@
         "address": "Block no. 7, 7th floor,Jilla Seva Sadan-2, Rajkot",
         "phoneNumbers": [
           "2442801(fax) 2443280"
-        ]
+        ],
+        "location": {
+          "latitude": 21.638617,
+          "longitude": 69.663732,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "2213aeb1",
+          "query": "Jilla Seva Sadan-2, Rajkot, Gujarat, India",
+          "note": "expected Rajkot, result says Ranavav Taluka"
+        }
       },
       "sources": [
         {
@@ -3767,7 +4379,19 @@
         "address": "T-8 Multi-Storage building, Palace road, Bhavnagar.",
         "conflictingAddresses": [
           "G. M. B. Complex, Ship Breaking Yard, Alang. Dist. Bhavnagar"
-        ]
+        ],
+        "location": {
+          "latitude": 21.755624,
+          "longitude": 72.117572,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "eb94c1d5",
+          "query": "Palace road, Bhavnagar, Gujarat, India",
+          "note": "matched on one part of the address (house), so this is the area and not the door; sources disagree on the address but agree within 1.5km"
+        }
       },
       "sources": [
         {
@@ -3788,7 +4412,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Labour Office",
-        "address": "Sardar Bag, Near D.I.C., Junagadh."
+        "address": "Sardar Bag, Near D.I.C., Junagadh.",
+        "location": {
+          "latitude": 21.527149,
+          "longitude": 70.460754,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_HIGH",
+          "precision": "amenity",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "a68c56a6",
+          "query": "Sardar Bag, Near D.I.C, Junagadh, Gujarat, India",
+          "note": "amenity match"
+        }
       },
       "sources": [
         {
@@ -3809,7 +4445,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Labour Office",
-        "address": "Sweet House, Indira road, Opp. Hotel Bansi, Jamnagar."
+        "address": "Sweet House, Indira road, Opp. Hotel Bansi, Jamnagar.",
+        "location": {
+          "latitude": 22.465515,
+          "longitude": 70.05842,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "afcb86eb",
+          "query": "Sweet House, Jamnagar, Gujarat, India",
+          "note": "matched on one part of the address (house), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -3850,7 +4498,19 @@
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "address": "Block No-5, Third Floor, Sardar Patel Bhavan, Sachivalaya, Gandhinagar, Gujarat."
+        "address": "Block No-5, Third Floor, Sardar Patel Bhavan, Sachivalaya, Gandhinagar, Gujarat.",
+        "location": {
+          "latitude": 23.215069,
+          "longitude": 72.658751,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "40092bd5",
+          "query": "Sachivalaya, Gandhinagar, Gujarat, India",
+          "note": "matched on one part of the address (house), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -3881,7 +4541,19 @@
         ],
         "conflictingAddresses": [
           "Jamnagar Municipal Corporation, Jubilee Garden, Jamnagar"
-        ]
+        ],
+        "location": {
+          "latitude": 22.469887,
+          "longitude": 70.065012,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "other",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "dc29fa77",
+          "query": "Jubilee Garden, Jamnagar, Gujarat, India",
+          "note": "locality level match (other), not the building; sources disagree on the address but agree within 0.3km"
+        }
       },
       "sources": [
         {
@@ -3909,7 +4581,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "Jilla Seva Sadan, Sharu Section Road, Jamnagar, Gujarat - 361002",
-        "workingHours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M",
+        "location": {
+          "latitude": 22.480077,
+          "longitude": 70.050979,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "street",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "97a09587",
+          "query": "Sharu Section Road, Jamnagar, Gujarat, India",
+          "note": "address says 361002, geocoder says 361001"
+        }
       },
       "sources": [
         {
@@ -3930,7 +4614,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
-        "address": "District Collector Office, Opposite Galaxy Cinema, Kalanala, Bhavnagar, Gujarat - 364001"
+        "address": "District Collector Office, Opposite Galaxy Cinema, Kalanala, Bhavnagar, Gujarat - 364001",
+        "location": {
+          "latitude": 21.770941,
+          "longitude": 72.115827,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "21a843c0",
+          "query": "District Collector Office, Bhavnagar, Gujarat, India",
+          "note": "matched on one part of the address (office), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -3954,7 +4650,19 @@
         "address": "Office of The Collector & District Magistrate, Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027",
         "conflictingAddresses": [
           "Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027"
-        ]
+        ],
+        "location": {
+          "latitude": 23.022385,
+          "longitude": 72.57525,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "street",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "d1b4fc1f",
+          "query": "Old Wadaj, Ahmedabad, Gujarat, India",
+          "note": "address says 380027, geocoder says 380006"
+        }
       },
       "sources": [
         {
@@ -3988,7 +4696,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Near North Gujarat University, Patan, Gujarat - 384265",
-        "workingHours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M",
+        "location": {
+          "latitude": 20.908865,
+          "longitude": 70.362324,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "67906556",
+          "query": "District Collector Office, Patan, Gujarat, India",
+          "note": "address says 384265, geocoder says 362200"
+        }
       },
       "sources": [
         {
@@ -4010,7 +4730,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "Gita Nagar, Godhra, Panchmahal, Gujarat - 389001",
-        "workingHours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M",
+        "location": {
+          "latitude": 22.774889,
+          "longitude": 73.620404,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_HIGH",
+          "precision": "amenity",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "df5097cb",
+          "query": "Gita Nagar, Godhra, Panchmahal, Gujarat, India, 389001",
+          "note": "amenity match, pincode agrees"
+        }
       },
       "sources": [
         {
@@ -4031,7 +4763,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
-        "address": "Ayojan Bhavan Building, Subhash Nagar, Nadiad, Dist : Kheda, Gujarat - 387001"
+        "address": "Ayojan Bhavan Building, Subhash Nagar, Nadiad, Dist : Kheda, Gujarat - 387001",
+        "location": {
+          "latitude": 22.747725,
+          "longitude": 72.687691,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "amenity",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "bdee2228",
+          "query": "Dist : Kheda, Kheda, Gujarat, India",
+          "note": "address says 387001, geocoder says 387411"
+        }
       },
       "sources": [
         {
@@ -4053,7 +4797,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Near Jorawar Complex, Palanpur, Banaskantha, Gujarat - 384265",
-        "workingHours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M",
+        "location": {
+          "latitude": 24.170979,
+          "longitude": 72.436638,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REJECTED",
+          "precision": "city",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "d1678490",
+          "query": "Palanpur, Banaskantha, Gujarat, India",
+          "note": "resolved only to the city centroid"
+        }
       },
       "sources": [
         {
@@ -4074,7 +4830,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
-        "address": "Jan Seva Kendra, Surendranagar Office of The Collector & District Magistrate Police Colony, Surendranagar, Gujarat - 363040"
+        "address": "Jan Seva Kendra, Surendranagar Office of The Collector & District Magistrate Police Colony, Surendranagar, Gujarat - 363040",
+        "location": {
+          "latitude": 21.772431,
+          "longitude": 72.145476,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "9e1f0091",
+          "query": "Jan Seva Kendra, Surendranagar, Gujarat, India",
+          "note": "address says 363040, geocoder says 364001"
+        }
       },
       "sources": [
         {
@@ -4099,7 +4867,19 @@
         "conflictingAddresses": [
           "District Collector & Jilla Seva Sadan Kacheri, Near Pathika Ashram, GH Road, Sector 11, Gandhinagar, Gujarat - 382017"
         ],
-        "workingHours": "10:30 A.M To 6:10 P.M"
+        "workingHours": "10:30 A.M To 6:10 P.M",
+        "location": {
+          "latitude": 23.212269,
+          "longitude": 72.638491,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "street",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "46247e3d",
+          "query": "GH Road, Gandhinagar, Gujarat, India",
+          "note": "address says 382017, geocoder says 382006"
+        }
       },
       "sources": [
         {
@@ -4133,7 +4913,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Secretariat Building, Near College Ground, Chhotaudepur, Gujarat - 391165",
-        "workingHours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M",
+        "location": {
+          "latitude": 23.065747,
+          "longitude": 72.581658,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "76165141",
+          "query": "District Collector Office, Chhota Udepur, Gujarat, India",
+          "note": "address says 391165, geocoder says 380027"
+        }
       },
       "sources": [
         {
@@ -4155,7 +4947,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "Jan Seva Kendra, Rajkot, District Collector Office, Shroff Rd, Sadar, Rajkot, Gujarat - 360001",
-        "workingHours": "10:30 A.M To 6:10 P.M"
+        "workingHours": "10:30 A.M To 6:10 P.M",
+        "location": {
+          "latitude": 22.279235,
+          "longitude": 70.814313,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "2ab23cf9",
+          "query": "Shroff Rd, Rajkot, Gujarat, India",
+          "note": "matched on one part of the address (house), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -4179,7 +4983,19 @@
         "address": "District Collector Office, Veraval, Dist: Somnath, Gujarat - 360024",
         "conflictingAddresses": [
           "District Collector Office, Veraval, Dist : Somnath, Gujarat - 360024"
-        ]
+        ],
+        "location": {
+          "latitude": 20.929818,
+          "longitude": 70.762758,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REJECTED",
+          "precision": "county",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "05e0da01",
+          "query": "Dist: Somnath, Gir Somnath, Gujarat, India",
+          "note": "resolved only to the county centroid"
+        }
       },
       "sources": [
         {
@@ -4207,7 +5023,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Opp. ITI, Kaliya Bhut Temple Road, Rajpipla, Narmada, Gujarat - 393145",
-        "workingHours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M",
+        "location": {
+          "latitude": 21.878069,
+          "longitude": 73.50397,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "9b235d67",
+          "query": "Rajpipla, Narmada, Gujarat, India",
+          "note": "expected Narmada, result says Nandod Taluka Rajpipla"
+        }
       },
       "sources": [
         {
@@ -4229,7 +5057,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "Office of The Collector & District Magistrate, Near Subhash Bridge Circle, R.T.O Ashram Rd, Hridaya Kunj, Old Wadaj, Ahmedabad, Gujarat - 380027",
-        "workingHours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M",
+        "location": {
+          "latitude": 23.022385,
+          "longitude": 72.57525,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "street",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "d1b4fc1f",
+          "query": "Old Wadaj, Ahmedabad, Gujarat, India",
+          "note": "address says 380027, geocoder says 380006"
+        }
       },
       "sources": [
         {
@@ -4281,7 +5121,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Civil Hospital Rd, D.L.B. Society, Amreli, Gujarat - 365601",
-        "workingHours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M",
+        "location": {
+          "latitude": 21.605695,
+          "longitude": 71.220938,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "amenity",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "0c357549",
+          "query": "Civil Hospital Rd, Amreli, Gujarat, India",
+          "note": "matched on one part of the address (amenity), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -4327,7 +5179,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Near Borsad Chokdi, Opp. DSP Office, Anand, Gujarat - 388540",
-        "workingHours": "8:30 A.M To 5:30 A.M"
+        "workingHours": "8:30 A.M To 5:30 A.M",
+        "location": {
+          "latitude": 23.065747,
+          "longitude": 72.581658,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "b809a614",
+          "query": "District Collector Office, Anand, Gujarat, India",
+          "note": "address says 388540, geocoder says 380027"
+        }
       },
       "sources": [
         {
@@ -4373,7 +5237,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Modasa, Aravalli, Gujarat - 383315",
-        "workingHours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M",
+        "location": {
+          "latitude": 23.463425,
+          "longitude": 73.299063,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REJECTED",
+          "precision": "city",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "3ce631e3",
+          "query": "Modasa, Aravalli, Gujarat, India",
+          "note": "resolved only to the city centroid"
+        }
       },
       "sources": [
         {
@@ -4413,7 +5289,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Near Jorawar Complex, Palanpur, Banaskantha, Gujarat - 384265",
-        "workingHours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M",
+        "location": {
+          "latitude": 24.170979,
+          "longitude": 72.436638,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REJECTED",
+          "precision": "city",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "d1678490",
+          "query": "Palanpur, Banaskantha, Gujarat, India",
+          "note": "resolved only to the city centroid"
+        }
       },
       "sources": [
         {
@@ -4445,7 +5333,19 @@
           "District Collector Office, Railway Colony, Bharuch, Gujarat -392001",
           "Jan Seva Kendra, Bharuch, District Collector Office, Railway Colony, Bharuch, Gujarat -392001"
         ],
-        "workingHours": "10:30 A.M To 6:10 P.M"
+        "workingHours": "10:30 A.M To 6:10 P.M",
+        "location": {
+          "latitude": 21.694424,
+          "longitude": 73.002298,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "906b0909",
+          "query": "Railway Colony, Bharuch, Gujarat, India, 392001",
+          "note": "house match, pincode agrees; sources disagree on the address but agree within 0.0km"
+        }
       },
       "sources": [
         {
@@ -4494,7 +5394,19 @@
         "conflictingAddresses": [
           "Opposite Galaxy Cinema, Kalanala, Bhavnagar, Gujarat - 364001"
         ],
-        "workingHours": "10:30 A.M To 06:10 P.M"
+        "workingHours": "10:30 A.M To 06:10 P.M",
+        "location": {
+          "latitude": 21.770941,
+          "longitude": 72.115827,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "21a843c0",
+          "query": "District Collector Office, Bhavnagar, Gujarat, India",
+          "note": "matched on one part of the address (office), so this is the area and not the door; sources place this office 3.1km apart"
+        }
       },
       "sources": [
         {
@@ -4543,7 +5455,19 @@
         "conflictingAddresses": [
           "District Collector Office, Taluka Seva Sadan, Paliyad Road, Near Gokul Medical, Botad, Gujarat - 364710"
         ],
-        "workingHours": "10:30 A.M To 06:10 P.M"
+        "workingHours": "10:30 A.M To 06:10 P.M",
+        "location": {
+          "latitude": 22.248886,
+          "longitude": 71.582892,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "street",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "09c11d9a",
+          "query": "Paliyad Road, Botad, Gujarat, India",
+          "note": "address says 364710, geocoder says 364720"
+        }
       },
       "sources": [
         {
@@ -4598,7 +5522,19 @@
         "conflictingAddresses": [
           "Office of The Collector & District Magistrate, Court Rd, Kachiyawadi, Kaliawadi, Navsari, Gujarat - 396445"
         ],
-        "workingHours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M",
+        "location": {
+          "latitude": 20.948769,
+          "longitude": 72.916076,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "amenity",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "b8f1bd3a",
+          "query": "Court Rd, Navsari, Gujarat, India",
+          "note": "matched on one part of the address (amenity), so this is the area and not the door; sources disagree on the address but agree within 0.0km"
+        }
       },
       "sources": [
         {
@@ -4626,7 +5562,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Secretariat Building, Near College Ground, Chhotaudepur, Gujarat - 391165",
-        "workingHours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M",
+        "location": {
+          "latitude": 23.065747,
+          "longitude": 72.581658,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "76165141",
+          "query": "District Collector Office, Chhota Udepur, Gujarat, India",
+          "note": "address says 391165, geocoder says 380027"
+        }
       },
       "sources": [
         {
@@ -4684,7 +5632,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
-        "address": "Jilla Seva Sadan Kacheri, District Collector Office, Ahwa, Dist : Dang, Gujarat - 394710"
+        "address": "Jilla Seva Sadan Kacheri, District Collector Office, Ahwa, Dist : Dang, Gujarat - 394710",
+        "location": {
+          "latitude": 20.758726,
+          "longitude": 73.687353,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REJECTED",
+          "precision": "city",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "50cbc805",
+          "query": "Ahwa, Dang, Gujarat, India",
+          "note": "resolved only to the city centroid"
+        }
       },
       "sources": [
         {
@@ -4718,7 +5678,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Morbi, Gujarat - 363641",
-        "workingHours": "10:30 A.M To 6:10 A.M"
+        "workingHours": "10:30 A.M To 6:10 A.M",
+        "location": {
+          "latitude": 23.065747,
+          "longitude": 72.581658,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "c8250c85",
+          "query": "District Collector Office, Morbi, Gujarat, India",
+          "note": "address says 363641, geocoder says 380027"
+        }
       },
       "sources": [
         {
@@ -4740,7 +5712,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, District Collector & Jilla Seva Sadan Kacheri, Near Pathika Ashram, GH Road, Sector 11, Gandhinagar, Gujarat - 382017",
-        "workingHours": "10:30 A.M To 6:10 P.M"
+        "workingHours": "10:30 A.M To 6:10 P.M",
+        "location": {
+          "latitude": 23.212269,
+          "longitude": 72.638491,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "street",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "46247e3d",
+          "query": "GH Road, Gandhinagar, Gujarat, India",
+          "note": "address says 382017, geocoder says 382006"
+        }
       },
       "sources": [
         {
@@ -4768,7 +5752,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Veraval, Dist : Somnath, Gujarat - 360024",
-        "workingHours": "10:30 A.M To 6:10 P.M"
+        "workingHours": "10:30 A.M To 6:10 P.M",
+        "location": {
+          "latitude": 20.929818,
+          "longitude": 70.762758,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REJECTED",
+          "precision": "county",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "3086af43",
+          "query": "Dist : Somnath, Gir Somnath, Gujarat, India",
+          "note": "resolved only to the county centroid"
+        }
       },
       "sources": [
         {
@@ -4793,7 +5789,19 @@
         "conflictingAddresses": [
           "Office of The Collector & District Magistrate, District Collector Office, Shashikunj, Junagadh, Gujarat - 362001"
         ],
-        "workingHours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M",
+        "location": {
+          "latitude": 21.522042,
+          "longitude": 70.458246,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REJECTED",
+          "precision": "city",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "395966a1",
+          "query": "Shashikunj, Junagadh, Gujarat, India",
+          "note": "resolved only to the city centroid"
+        }
       },
       "sources": [
         {
@@ -4827,7 +5835,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "Ayojan Bhavan Building, Subhash Nagar, Nadiad, Dist : Kheda, Gujarat - 387001",
-        "workingHours": "8:30 A.M To 5:30 A.M"
+        "workingHours": "8:30 A.M To 5:30 A.M",
+        "location": {
+          "latitude": 22.747725,
+          "longitude": 72.687691,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "amenity",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "bdee2228",
+          "query": "Dist : Kheda, Kheda, Gujarat, India",
+          "note": "address says 387001, geocoder says 387411"
+        }
       },
       "sources": [
         {
@@ -4870,7 +5890,19 @@
         "conflictingAddresses": [
           "District Collector Office, Near Circuit House, Nr. Mota Bandh, Bhuj, Gujarat - 370001"
         ],
-        "workingHours": "10:30 A.M To 6:10 P.M"
+        "workingHours": "10:30 A.M To 6:10 P.M",
+        "location": {
+          "latitude": 23.248591,
+          "longitude": 69.666454,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "255c6549",
+          "query": "Bhuj, Kutch, Gujarat, India",
+          "note": "matched on one part of the address (house), so this is the area and not the door; sources disagree on the address but agree within 0.0km"
+        }
       },
       "sources": [
         {
@@ -4901,7 +5933,19 @@
         "conflictingAddresses": [
           "District Collector Office, Godhra Road, Lunawada, Gujarat - 389230"
         ],
-        "workingHours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M",
+        "location": {
+          "latitude": 23.191219,
+          "longitude": 73.66444,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REJECTED",
+          "precision": "county",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "d22c0c13",
+          "query": "Lunawada, Mahisagar, Gujarat, India",
+          "note": "resolved only to the county centroid"
+        }
       },
       "sources": [
         {
@@ -4935,7 +5979,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Block No.3, MS Building, Rajmahal road, Mehsana, Gujarat - 384001",
-        "workingHours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M",
+        "location": {
+          "latitude": 23.608975,
+          "longitude": 72.393287,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "locality",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "79dd0925",
+          "query": "District Collector Office, Mehsana, Gujarat, India",
+          "note": "matched on one part of the address (locality), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -4969,7 +6025,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Morbi, Gujarat - 363641",
-        "workingHours": "10:30 A.M To 6:10 A.M"
+        "workingHours": "10:30 A.M To 6:10 A.M",
+        "location": {
+          "latitude": 23.065747,
+          "longitude": 72.581658,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "c8250c85",
+          "query": "District Collector Office, Morbi, Gujarat, India",
+          "note": "address says 363641, geocoder says 380027"
+        }
       },
       "sources": [
         {
@@ -4997,7 +6065,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Opp. ITI, Kaliya Bhut Temple Road, Rajpipla, Narmada, Gujarat - 393145",
-        "workingHours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M",
+        "location": {
+          "latitude": 21.878069,
+          "longitude": 73.50397,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "9b235d67",
+          "query": "Rajpipla, Narmada, Gujarat, India",
+          "note": "expected Narmada, result says Nandod Taluka Rajpipla"
+        }
       },
       "sources": [
         {
@@ -5024,7 +6104,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
-        "address": "Office of The Collector & District Magistrate, Court Rd, Kachiyawadi, Kaliawadi, Navsari, Gujarat - 396445"
+        "address": "Office of The Collector & District Magistrate, Court Rd, Kachiyawadi, Kaliawadi, Navsari, Gujarat - 396445",
+        "location": {
+          "latitude": 20.948769,
+          "longitude": 72.916076,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "amenity",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "e97de56e",
+          "query": "Court Rd, Navsari, Gujarat, India",
+          "note": "matched on one part of the address (amenity), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -5048,7 +6140,19 @@
         "address": "District Collector Office, Gita Nagar, Godhra, Panchmahal, Gujarat - 389001",
         "conflictingAddresses": [
           "Gita Nagar, Godhra, Panchmahal, Gujarat - 389001"
-        ]
+        ],
+        "location": {
+          "latitude": 22.7785,
+          "longitude": 73.624516,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REJECTED",
+          "precision": "city",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "c799d3f6",
+          "query": "Godhra, Panchmahal, Gujarat, India",
+          "note": "resolved only to the city centroid"
+        }
       },
       "sources": [
         {
@@ -5076,7 +6180,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Near North Gujarat University, Patan, Gujarat - 384265",
-        "workingHours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M",
+        "location": {
+          "latitude": 20.908865,
+          "longitude": 70.362324,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "67906556",
+          "query": "District Collector Office, Patan, Gujarat, India",
+          "note": "address says 384265, geocoder says 362200"
+        }
       },
       "sources": [
         {
@@ -5098,7 +6214,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Opp-Air Port, Sandipani Road, Porbandar, Gujarat - 360575",
-        "workingHours": "10:30 A.M To 06:10 P.M"
+        "workingHours": "10:30 A.M To 06:10 P.M",
+        "location": {
+          "latitude": 21.63466,
+          "longitude": 69.674112,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "amenity",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "dbd01936",
+          "query": "Sandipani Road, Porbandar, Gujarat, India",
+          "note": "address says 360575, geocoder says 360500"
+        }
       },
       "sources": [
         {
@@ -5126,7 +6254,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Shroff Rd, Sadar, Rajkot, Gujarat - 360001",
-        "workingHours": "10:30 A.M To 6:10 P.M"
+        "workingHours": "10:30 A.M To 6:10 P.M",
+        "location": {
+          "latitude": 22.279235,
+          "longitude": 70.814313,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "3bd0ab03",
+          "query": "Shroff Rd, Rajkot, Gujarat, India",
+          "note": "matched on one part of the address (house), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -5148,7 +6288,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, Alkapuri Pologround, Alkapuri, Himatnagar, Sabarkantha, Gujarat - 383001",
-        "workingHours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M",
+        "location": {
+          "latitude": 23.868851,
+          "longitude": 73.013784,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REJECTED",
+          "precision": "county",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "2b45f0fd",
+          "query": "Alkapuri, Sabarkantha, Gujarat, India",
+          "note": "resolved only to the county centroid"
+        }
       },
       "sources": [
         {
@@ -5176,7 +6328,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "District Collector Office, New Jilla Seva Sadan, Block B, 5th Floor, Athwalines, Surat, Gujarat - 395001",
-        "workingHours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M",
+        "location": {
+          "latitude": 21.18153,
+          "longitude": 72.803061,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "street",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "6667d092",
+          "query": "Athwalines, Surat, Gujarat, India",
+          "note": "address says 395001, geocoder says 359009"
+        }
       },
       "sources": [
         {
@@ -5209,7 +6373,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
-        "address": "Police Colony, Surendranagar, Gujarat - 363040"
+        "address": "Police Colony, Surendranagar, Gujarat - 363040",
+        "location": {
+          "latitude": 22.726706,
+          "longitude": 71.622607,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "other",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "5dba4531",
+          "query": "Police Colony, Surendranagar, Gujarat, India",
+          "note": "matched on one part of the address (other), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -5231,7 +6407,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "Collector Office Tapi, Tapi, Gujarat - 394651",
-        "workingHours": "10:30 A.M To 6:10 P.M"
+        "workingHours": "10:30 A.M To 6:10 P.M",
+        "location": {
+          "latitude": 21.110774,
+          "longitude": 73.390075,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_HIGH",
+          "precision": "amenity",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "e62704a9",
+          "query": "Collector Office Tapi, Tapi, Gujarat, India, 394651",
+          "note": "amenity match, pincode agrees"
+        }
       },
       "sources": [
         {
@@ -5259,7 +6447,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "Nr.Vaccine Institute, Diwalipura, Old Padra Road, Vadodara, Gujarat - 390007",
-        "workingHours": "8:30 A.M To 5:30 P.M"
+        "workingHours": "8:30 A.M To 5:30 P.M",
+        "location": {
+          "latitude": 22.300937,
+          "longitude": 73.156256,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "other",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "a1b91bae",
+          "query": "Diwalipura, Vadodara, Gujarat, India",
+          "note": "matched on one part of the address (other), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -5293,7 +6493,19 @@
         "machineExtracted": true,
         "officeType": "Jan Seva Kendra",
         "address": "Office Of The Collector & District Magistrate, District Collector Office, Jilla Seva Sadan-II, Dharampur Road, Valsad, Gujarat - 396001",
-        "workingHours": "10:30 A.M To 6:10 P.M"
+        "workingHours": "10:30 A.M To 6:10 P.M",
+        "location": {
+          "latitude": 20.59301,
+          "longitude": 72.942632,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "street",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "d9e2a1bc",
+          "query": "Dharampur Road, Valsad, Gujarat, India",
+          "note": "address says 396001, geocoder says 396002"
+        }
       },
       "sources": [
         {
@@ -5345,7 +6557,19 @@
           "Shop No 27 - 32, Madhav Plaza, Ground Floor, Nr. Lal Bungalow Circle",
           "Yogeshwar, Ground Floor, Ranjinagar",
           "Golden Point Complex, Phase III, GIDC"
-        ]
+        ],
+        "location": {
+          "latitude": 22.561077,
+          "longitude": 70.413481,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "a3a13312",
+          "query": "Shop No 9, Jamnagar, Gujarat, India",
+          "note": "matched on one part of the address (house), so this is the area and not the door; sources place this office 40.0km apart"
+        }
       },
       "sources": [
         {
@@ -5391,7 +6615,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Labour Office",
-        "address": "Kothikacheri Compound, 7 th floor, I- Block, KuberBhavan, Vadodara"
+        "address": "Kothikacheri Compound, 7 th floor, I- Block, KuberBhavan, Vadodara",
+        "location": {
+          "latitude": 22.280794,
+          "longitude": 73.215659,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "2282243d",
+          "query": "Kothikacheri Compound, Vadodara, Gujarat, India",
+          "note": "matched on one part of the address (house), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -5412,7 +6648,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Labour Office",
-        "address": "A-6, Block A, 6th Floor, Bahumadi Bhavan, Naanpura, Surat-395001"
+        "address": "A-6, Block A, 6th Floor, Bahumadi Bhavan, Naanpura, Surat-395001",
+        "location": {
+          "latitude": 21.209489,
+          "longitude": 72.831706,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REJECTED",
+          "precision": "city",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "bc3be60c",
+          "query": "Naanpura, Surat, Gujarat, India",
+          "note": "resolved only to the city centroid"
+        }
       },
       "sources": [
         {
@@ -5439,7 +6687,19 @@
         ],
         "emails": [
           "info@example.com"
-        ]
+        ],
+        "location": {
+          "latitude": 23.219625,
+          "longitude": 72.647857,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "locality",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "791d3cd6",
+          "query": "Sector - 11, Gandhinagar, Gujarat, India",
+          "note": "matched on one part of the address (locality), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -5459,7 +6719,19 @@
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "address": "\"B\" Wing, 5th Floor, Sector 10A, Aranya Bhavan, Gandhinagar"
+        "address": "\"B\" Wing, 5th Floor, Sector 10A, Aranya Bhavan, Gandhinagar",
+        "location": {
+          "latitude": 23.23484,
+          "longitude": 72.630329,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "3275d021",
+          "query": "Sector 10A, Gandhinagar, Gujarat, India",
+          "note": "matched on one part of the address (house), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -5480,7 +6752,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Municipal Corporation",
-        "address": "City Light Road, Surat – 395 007"
+        "address": "City Light Road, Surat – 395 007",
+        "location": {
+          "latitude": 21.168021,
+          "longitude": 72.794416,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_HIGH",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "3280ae40",
+          "query": "City Light Road, Surat – 395 007, Surat, Gujarat, India",
+          "note": "house match"
+        }
       },
       "sources": [
         {
@@ -5510,7 +6794,19 @@
         ],
         "conflictingAddresses": [
           "Vadodara Municipal Corporation, Khanderao Market, Vadodara-390001."
-        ]
+        ],
+        "location": {
+          "latitude": 22.296699,
+          "longitude": 73.20125,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "82b3860c",
+          "query": "Khanderao Market, Vadodara, Gujarat, India, 390001",
+          "note": "house match, pincode agrees; sources disagree on the address but agree within 0.0km"
+        }
       },
       "sources": [
         {
@@ -5551,7 +6847,19 @@
         "conflictingAddresses": [
           "Ma Amrutam Yojana,Ground floor,Gandhinagar Municipal Corporation,Opp.Civil Hospital,Gandhinagar,Gujarat-382007",
           "Pandit Dindayal Upadhyay Bhavan, Behind Fire Station, Sector- 17, Gandhinagar Pincode – 382016."
-        ]
+        ],
+        "location": {
+          "latitude": 23.227601,
+          "longitude": 72.653744,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "locality",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "3a8391be",
+          "query": "Sector-17, Gandhinagar, Gujarat, India",
+          "note": "address says 382016, geocoder says 382017"
+        }
       },
       "sources": [
         {
@@ -5606,7 +6914,19 @@
         "conflictingAddresses": [
           "Bhavnagar Mahanagar Sewa Sadan, Sir Mangal Singhji Road, near Kallanala, Bhavnagar, Gujarat - 364001",
           "Bhavnagar Mahanagar Sewa Sadan, Sir Mangal Singhji Road, near Kalanala, Bhavnagar, Gujarat - 364001"
-        ]
+        ],
+        "location": {
+          "latitude": 21.769652,
+          "longitude": 72.161662,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "amenity",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "b1019dd2",
+          "query": "Sir Mangal Sinhji Road, Bhavnagar, Gujarat, India",
+          "note": "matched on one part of the address (amenity), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -5656,7 +6976,19 @@
         ],
         "conflictingAddresses": [
           "Jubilee Garden, Jamnagar"
-        ]
+        ],
+        "location": {
+          "latitude": 22.468613,
+          "longitude": 70.06733,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "ff863edc",
+          "query": "Jamnagar Municipal Corporation, Jubilee Garden, Jamnagar, Gujarat, India",
+          "note": "office match; sources disagree on the address but agree within 0.3km"
+        }
       },
       "sources": [
         {
@@ -5683,7 +7015,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Bank Branch",
-        "address": "Core 5-A, India Habitat Centre, Lodhi Road, New Delhi-110003"
+        "address": "Core 5-A, India Habitat Centre, Lodhi Road, New Delhi-110003",
+        "location": {
+          "latitude": 22.242888,
+          "longitude": 70.686494,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "street",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "a1e774e2",
+          "query": "Lodhi Road, Gujarat, India",
+          "note": "address says 110003, geocoder says 360021"
+        }
       },
       "sources": [
         {
@@ -5731,7 +7075,19 @@
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "address": "National Informatics Center, A-Block CGO Complex, Lodhi Road, New Delhi 110003"
+        "address": "National Informatics Center, A-Block CGO Complex, Lodhi Road, New Delhi 110003",
+        "location": {
+          "latitude": 21.099498,
+          "longitude": 72.639826,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "amenity",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "d140a7a0",
+          "query": "New Delhi, Gujarat, India",
+          "note": "address says 110003, geocoder says 394270"
+        }
       },
       "sources": [
         {
@@ -5774,7 +7130,19 @@
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
         "officeType": "Civil Supplies Office",
-        "address": "Block No. 14/6th Floor, Sardar Bhavan, New Secretariat, Gandhinagar-382010, Gujarat, India"
+        "address": "Block No. 14/6th Floor, Sardar Bhavan, New Secretariat, Gandhinagar-382010, Gujarat, India",
+        "location": {
+          "latitude": 23.225407,
+          "longitude": 72.658504,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "other",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "b64578a9",
+          "query": "Gandhinagar-382010, Gandhinagar, Gujarat, India",
+          "note": "matched on one part of the address (other), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -5876,7 +7244,19 @@
           "Block No:2 , 5th Floor, New Sachivalaya ,Gandhinagar, Gujarat 382010",
           "Birsa Munda Bhavan, Sector 10-A, Gandhinagar, Gujarat.",
           "1st Floor, Birsa Munda Bhavan, Sector-10/A, Gandhinagar"
-        ]
+        ],
+        "location": {
+          "latitude": 23.220389,
+          "longitude": 72.657701,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "locality",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "15a9d0a8",
+          "query": "Sector 10/A, Gandhinagar, Gujarat, India",
+          "note": "matched on one part of the address (locality), so this is the area and not the door; sources disagree on the address but agree within 1.2km"
+        }
       },
       "sources": [
         {
@@ -5976,7 +7356,19 @@
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "address": "Grahak Bhavan, Gota Char Rasta, S.G. Highway, Gota, Ahmedabad – 380 060, Gujarat"
+        "address": "Grahak Bhavan, Gota Char Rasta, S.G. Highway, Gota, Ahmedabad – 380 060, Gujarat",
+        "location": {
+          "latitude": 23.024522,
+          "longitude": 72.580323,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "52da5334",
+          "query": "Grahak Bhavan, Ahmedabad, Gujarat, India",
+          "note": "matched on one part of the address (house), so this is the area and not the door"
+        }
       },
       "sources": [
         {
@@ -6013,7 +7405,19 @@
           "Plot No.23, Govardhan Nagar-2, Navagam-Dindoli Road, Surat- 394210.",
           "3-56, Ambaji Chakla, Rander Village, Surat.",
           "22, Shrenikpark Society, Behind Navayug College, Tadwadi, Rander Road, Surat."
-        ]
+        ],
+        "location": {
+          "latitude": 21.209589,
+          "longitude": 72.855043,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "street",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "57995e9b",
+          "query": "Lambe Hanuman Road, Surat, Gujarat, India",
+          "note": "address says 395006, geocoder says 395101"
+        }
       },
       "sources": [
         {
@@ -6052,7 +7456,19 @@
           "Taluka Health Office, Taluka Desar, District-Vadodara",
           "Taluka Health Office, Taluka Vadodara, Chhania, District-Vadodara",
           "Taluka Health Office, Taluka Karjan, District-Vadodara"
-        ]
+        ],
+        "location": {
+          "latitude": 22.309125,
+          "longitude": 73.167521,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "locality",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "e737ea2a",
+          "query": "Taluka Health Office, Taluka Savali, District-Vadodara, Vadodara, Gujarat, India",
+          "note": "locality match; sources place this office 3.2km apart"
+        }
       },
       "sources": [
         {
@@ -6075,7 +7491,19 @@
         "address": "1st Block, 9th Floor, Udhyog Bhavan, Gandhinagar – 382017",
         "emails": [
           "cor-ced@gujarat.gov.in"
-        ]
+        ],
+        "location": {
+          "latitude": 23.211743,
+          "longitude": 72.655678,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "7158efd7",
+          "query": "Udhyog Bhavan, Gandhinagar, Gujarat, India",
+          "note": "address says 382017, geocoder says 382008"
+        }
       },
       "sources": [
         {
@@ -6102,7 +7530,19 @@
         ],
         "conflictingAddresses": [
           "Block No:2 , 5th Floor, New Sachivalaya ,Gandhinagar, Gujarat 382010"
-        ]
+        ],
+        "location": {
+          "latitude": 23.211743,
+          "longitude": 72.655678,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "91a101e9",
+          "query": "Birsamunda Bhavan, Gandhinagar, Gujarat, India",
+          "note": "matched on one part of the address (office), so this is the area and not the door; sources disagree on the address but agree within 1.0km"
+        }
       },
       "sources": [
         {
@@ -6228,7 +7668,19 @@
       "metadata": {
         "channelType": "PHYSICAL_OFFICE",
         "machineExtracted": true,
-        "address": "\"B\" Wing, 5th Floor, Sector 10A, Aranya Bhavan, Gandhinagar"
+        "address": "\"B\" Wing, 5th Floor, Sector 10A, Aranya Bhavan, Gandhinagar",
+        "location": {
+          "latitude": 23.23484,
+          "longitude": 72.630329,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "house",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "3275d021",
+          "query": "Sector 10A, Gandhinagar, Gujarat, India",
+          "note": "matched on one part of the address (house), so this is the area and not the door"
+        }
       },
       "sources": [
         {

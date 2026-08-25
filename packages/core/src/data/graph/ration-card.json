@@ -1,2025 +1,2073 @@
 {
- "id": "ration-card",
- "sources": [
-  {
-   "id": "src:189778a54c94",
-   "url": "https://ma.gujarat.gov.in/documents/PMJAY%20CARD%20PROCESS.pdf#page=1",
-   "title": "PMJAY%20CARD%20PROCESS (page 1 of 5)",
-   "domain": "ma.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "1985bab3c9701ea860de1d3d2363b01c994e5e21dd98d509e1483fd880bfed3e"
-  },
-  {
-   "id": "src:4cdeb96c361d",
-   "url": "https://ma.gujarat.gov.in/documents/Letter%20&%20Guideline%20for%20Hospital%20Empanelment%20under%20MA%20&%20PMJAY.pdf#page=7",
-   "title": "Letter%20&%20Guideline%20for%20Hospital%20Empanelment%20under%20MA%20&%20PMJAY (page 7 of 26)",
-   "domain": "ma.gujarat.gov.in",
-   "sourceType": "GUIDELINE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "2025f4938373ff3c97dc7888d1f5b28feeec2e9e736f6a1c5de3f6271552435e"
-  },
-  {
-   "id": "src:63934b07211d",
-   "url": "https://fcsca.gujarat.gov.in/en/Contacts",
-   "title": "Contact Us",
-   "domain": "fcsca.gujarat.gov.in",
-   "sourceType": "OFFICE_DIRECTORY",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "487b2fb12948ca7ade08f8980906766c89e8c654275c6fb4b0fdc275cd9ca169"
-  },
-  {
-   "id": "src:487d4a702330",
-   "url": "https://fcsca.gujarat.gov.in/en/phh-schemenew1",
-   "title": "Skip Navigation Links Standards for Identifying Priority Families (PHH).",
-   "domain": "fcsca.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "8302062e74aa9494a58d6d2f0679458f2e8924bfad6d798372bbe780baef067c"
-  },
-  {
-   "id": "src:4d01f6c2b156",
-   "url": "https://dcs-dof.gujarat.gov.in/en/contact",
-   "title": "Contact",
-   "domain": "dcs-dof.gujarat.gov.in",
-   "sourceType": "OFFICE_DIRECTORY",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "90b1875fc08ba77a0bb8d0964ddcee20146ad84ece3ba3679e3bb4c0973e6a5a"
-  },
-  {
-   "id": "src:b38b52a25dc5",
-   "url": "https://fcsca.gujarat.gov.in/en/aay-scheme-add",
-   "title": "Criteria for determining families to be covered under Antyodaya Anna Yojana (AAY).",
-   "domain": "fcsca.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "ed111979245568276f8a9990ef0ccfdb9c489eabc7b911faab440db9d51082be"
-  },
-  {
-   "id": "src:22f542b87896",
-   "url": "https://dcs-dof.gujarat.gov.in/en/State-Sponsored-Schemes",
-   "title": "State Sponsored Schemes",
-   "domain": "dcs-dof.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "1b654c9056dd6063dc84489ce376a86141248da0140a942afe3a7660f04a541b"
-  },
-  {
-   "id": "src:382646d73ae7",
-   "url": "https://collectorgirsomnath.gujarat.gov.in/duplicate-ration-card",
-   "title": "ડુપ્લીકેટ રેશન કાર્ડ મેળવવા બાબત | Supply | Jan Seva Kendra form | Collectorate - District Gir Somnath",
-   "domain": "collectorgirsomnath.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ-GIR_SOMNATH",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "fdc0757ac5e5939991a29988ddecfd16fb01b26652096eea8ac448b4afcc9430"
-  },
-  {
-   "id": "src:1ee7c5fd9ac8",
-   "url": "https://dcs-dof.gujarat.gov.in/en/contact-main-eng-new",
-   "title": "Head Office",
-   "domain": "dcs-dof.gujarat.gov.in",
-   "sourceType": "HELPLINE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "d63bc34ff4249d72fe15510498bd4bd8bb201472163a0c5ff244dc4584865554"
-  },
-  {
-   "id": "src:afddebe16bc3",
-   "url": "https://cdrc.gujarat.gov.in/en/df-navsari",
-   "title": "Navsari",
-   "domain": "cdrc.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "eb244ef94f3e818d8fc0f2660a88786ecc55bb3fe9d6fe2fc0414a5b57fbf0f6"
-  },
-  {
-   "id": "src:8d504690f57c",
-   "url": "https://cdrc.gujarat.gov.in/en/df-banaskantha",
-   "title": "Banaskantha (Palanpur)",
-   "domain": "cdrc.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "7b313f1c0272d1f7f4656f612ad903dc7e57f72b0fcaafbf7dadc2fb4900d2ce"
-  },
-  {
-   "id": "src:9f5cd471077c",
-   "url": "https://dcs-dof.gujarat.gov.in/en/officers-list",
-   "title": "List of Nodal Officer",
-   "domain": "dcs-dof.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "84d01c1009ebbcb60a9310aab191c3ca868686bac3ecfc10d31e69dd3463c96e"
-  },
-  {
-   "id": "src:e4cf5402b426",
-   "url": "https://foodcommission.gujarat.gov.in/en/contact-detail",
-   "title": "Contact Detail",
-   "domain": "foodcommission.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "dea64e7d70bbbc49bc044128dccd09d97d2202937fa15d6f84b1422c533a3983"
-  },
-  {
-   "id": "src:1dde020898e3",
-   "url": "https://dcs-dof.gujarat.gov.in/gu/contact-main-eng-new",
-   "title": "Head Office",
-   "domain": "dcs-dof.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "93f1ac3c55714d21115846c774a320b5253aae56c180bb6b12de9396644793eb"
-  },
-  {
-   "id": "src:51cbf0bb7ef0",
-   "url": "https://www.nfsa.gov.in/State/KL",
-   "title": "NFSA",
-   "domain": "nfsa.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "d564624b3d037ddcd1cc5b48efd314180511cf8396f3f6396343b7eb4d909197"
-  },
-  {
-   "id": "src:37793c1cd574",
-   "url": "https://foodcommission.gujarat.gov.in/gu/department-address",
-   "title": "વિભાગનું સરનામું",
-   "domain": "foodcommission.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "6c03c9c2a28ff2332274c6605a0ea0dd8e5b27acb8bd70894471a5d8874df121"
-  },
-  {
-   "id": "src:e55ecc0b536d",
-   "url": "https://fcsca.gujarat.gov.in/gu/pds-modernization",
-   "title": "સ્માર્ટ રેશન કાર્ડ",
-   "domain": "fcsca.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "a1ca0b759f0ce68cbd75340b0c7d2ee95e3b8847e07ac5625892d632b5a709e6"
-  }
- ],
- "nodes": [
-  {
-   "id": "document:authorized_officer_certificate",
-   "type": "DOCUMENT",
-   "name": "Authorized officer certificate",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
+  "id": "ration-card",
+  "sources": [
     {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. Certificate from authorized oƯicer",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  },
-  {
-   "id": "document:tribal_department_certificate",
-   "type": "DOCUMENT",
-   "name": "Tribal department certificate",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. Certificate from Tribal Department",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  },
-  {
-   "id": "document:hhid_letter_or_secc_list",
-   "type": "DOCUMENT",
-   "name": "Hhid letter or secc list",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. HHID Letter / Name must be available in SECC list",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  },
-  {
-   "id": "document:appointment_authorization_letter",
-   "type": "DOCUMENT",
-   "name": "Appointment authorization letter",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. Appointment/authorization letter",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  },
-  {
-   "id": "document:authorized_certificate",
-   "type": "DOCUMENT",
-   "name": "Authorized certificate",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. Authorized Certificate",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  },
-  {
-   "id": "document:appointment_employment_certificate",
-   "type": "DOCUMENT",
-   "name": "Appointment employment certificate",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. Appointment/Employment Certificate",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  },
-  {
-   "id": "document:nodal_department_certificate",
-   "type": "DOCUMENT",
-   "name": "Nodal department certificate",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. Certificate from Nodal Department",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  },
-  {
-   "id": "document:journalist_accreditation_id",
-   "type": "DOCUMENT",
-   "name": "Journalist accreditation id",
-   "jurisdictionId": "IN-GJ",
-   "sources": [
-    {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. Journalist Accreditation ID",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  },
-  {
-   "id": "action:pmjay_card_the_insurance_company_or_isa_verifies_the_benefi",
-   "type": "ACTION",
-   "name": "The insurance company or ISA verifies the beneficiary's details against the SECC-2011 data",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "whatToDo": "The insurance company or ISA verifies the beneficiary's details against the SECC-2011 database.",
-    "uiStage": "APPLY",
-    "machineExtracted": true
-   },
-   "sources": [
-    {
-     "sourceId": "src:4cdeb96c361d",
-     "evidence": "These details are verilied by the insurance company / ISA against the SECC-2Ol1 database ald if matches, an E-card (Golden Card) of PMJAY is generated & provided to the beneliciary.",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  },
-  {
-   "id": "service:pmjay_card",
-   "type": "SERVICE",
-   "name": "PMJAY CARD",
-   "officialName": "PMJAY CARD",
-   "description": "The page outlines the requirements for issuing PMJAY cards to various categories of beneficiaries.",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "machineExtracted": true,
-    "eligibility": [
-     "Senior Citizens with an annual family income up to ₹6 Lakhs must be over 60 years of age."
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. Fix category so not require certificate",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "src:189778a54c94",
+      "url": "https://ma.gujarat.gov.in/documents/PMJAY%20CARD%20PROCESS.pdf#page=1",
+      "title": "PMJAY%20CARD%20PROCESS (page 1 of 5)",
+      "domain": "ma.gujarat.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "1985bab3c9701ea860de1d3d2363b01c994e5e21dd98d509e1483fd880bfed3e"
     },
     {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. Fix category so not require certificate",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "src:4cdeb96c361d",
+      "url": "https://ma.gujarat.gov.in/documents/Letter%20&%20Guideline%20for%20Hospital%20Empanelment%20under%20MA%20&%20PMJAY.pdf#page=7",
+      "title": "Letter%20&%20Guideline%20for%20Hospital%20Empanelment%20under%20MA%20&%20PMJAY (page 7 of 26)",
+      "domain": "ma.gujarat.gov.in",
+      "sourceType": "GUIDELINE",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "2025f4938373ff3c97dc7888d1f5b28feeec2e9e736f6a1c5de3f6271552435e"
     },
     {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. Fix category not require certificate",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "src:63934b07211d",
+      "url": "https://fcsca.gujarat.gov.in/en/Contacts",
+      "title": "Contact Us",
+      "domain": "fcsca.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "487b2fb12948ca7ade08f8980906766c89e8c654275c6fb4b0fdc275cd9ca169"
     },
     {
-     "sourceId": "src:189778a54c94",
-     "evidence": "3. More than 60 age",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "src:487d4a702330",
+      "url": "https://fcsca.gujarat.gov.in/en/phh-schemenew1",
+      "title": "Skip Navigation Links Standards for Identifying Priority Families (PHH).",
+      "domain": "fcsca.gujarat.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "8302062e74aa9494a58d6d2f0679458f2e8924bfad6d798372bbe780baef067c"
     },
     {
-     "sourceId": "src:4cdeb96c361d",
-     "evidence": "These details are verilied by the insurance company / ISA against the SECC-2Ol1 database ald if matches, an E-card (Golden Card) of PMJAY is generated & provided to the beneliciary.",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  },
-  {
-   "id": "helpline:1800_233_5500",
-   "type": "HELPLINE",
-   "name": "Food Ration Card Helpline helpline",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHONE",
-    "phoneNumbers": [
-     "1800-233-5500"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:63934b07211d",
-     "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "office:principal_secretary",
-   "type": "OFFICE",
-   "name": "Principal Secretary",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "phoneNumbers": [
-     "+91-79-23251163 / +91-79-23251165"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:63934b07211d",
-     "evidence": "Mr. Mohammed Shahid, IAS\nPrincipal Secretary\nPhone : +91-79-23251163 / +91-79-23251165",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "office:additional_secretary",
-   "type": "OFFICE",
-   "name": "Additional Secretary",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "phoneNumbers": [
-     "+91-79-23251170"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:63934b07211d",
-     "evidence": "Dr. Saurabh Pardhi, IAS\nAdditional Secretary\nPhone : +91-79-23251170",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "office:deputy_secretary_pds",
-   "type": "OFFICE",
-   "name": "Deputy Secretary (PDS)",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "phoneNumbers": [
-     "+91-79-23251167"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:63934b07211d",
-     "evidence": "Shri Ronak Modi\nDeputy Secretary (PDS)\nPhone : +91-79-23251167",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "office:deputy_secretary_appeals_in_charge",
-   "type": "OFFICE",
-   "name": "Deputy Secretary (Appeals) (In-charge)",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "phoneNumbers": [
-     "+91-79-23251167"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:63934b07211d",
-     "evidence": "Shri Ronak Modi\nDeputy Secretary (Appeals) (In-charge)\nPhone : +91-79-23251167",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "office:deputy_secretary_consumer_affairs",
-   "type": "OFFICE",
-   "name": "Deputy Secretary (Consumer Affairs)",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "phoneNumbers": [
-     "+91-79-23251171"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:63934b07211d",
-     "evidence": "Shri Harisingh Sodha\nDeputy Secretary (Consumer Affairs)\nPhone : +91-79-23251171",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "office:under_secretary_consumer_affairs",
-   "type": "OFFICE",
-   "name": "Under Secretary (Consumer Affairs)",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "phoneNumbers": [
-     "+91-79-23251175"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:63934b07211d",
-     "evidence": "Ms. Kinjal Thorat\nUnder Secretary (Consumer Affairs)\nPhone : +91-79-23251175",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "office:under_secretary_services",
-   "type": "OFFICE",
-   "name": "Under Secretary (Services)",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "phoneNumbers": [
-     "+91-79-23251179"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:63934b07211d",
-     "evidence": "Shri Amit Sangada\nUnder Secretary (Services)\nPhone : +91-79-23251179",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "office:under_secretary_budget",
-   "type": "OFFICE",
-   "name": "Under Secretary (Budget)",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "phoneNumbers": [
-     "+91-79-23251191"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:63934b07211d",
-     "evidence": "Shri Abhesangbhai Chauhan\nUnder Secretary (Budget)\nPhone : +91-79-23251191",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "office:under_secretary_food_safety",
-   "type": "OFFICE",
-   "name": "Under Secretary (Food Safety)",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "phoneNumbers": [
-     "+91-79-23251174"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:63934b07211d",
-     "evidence": "Shri Paresh Patel\nUnder Secretary (Food Safety)\nPhone : +91-79-23251174",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "office:deputy_director_it",
-   "type": "OFFICE",
-   "name": "Deputy Director (IT)",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "phoneNumbers": [
-     "+91-79-23254809"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:63934b07211d",
-     "evidence": "Shri Manish Nayak\nDeputy Director (IT)\nPhone : +91-79-23254809",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "office:food_civil_supplies_consumer_affairs_department",
-   "type": "OFFICE",
-   "name": "Food, Civil Supplies & Consumer Affairs Department",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "address": "Block No. 14, Fifth Floor, New Secretariat, Gandhinagar – 382010 Gujarat, India"
-   },
-   "sources": [
-    {
-     "sourceId": "src:63934b07211d",
-     "evidence": "Department Address\nFood, Civil Supplies & Consumer Affairs Department,\nBlock No. 14, Fifth Floor, New Secretariat,\nGandhinagar – 382010 Gujarat, India",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "service:priority_households_phh_scheme",
-   "type": "SERVICE",
-   "name": "Priority Households (PHH) Scheme",
-   "officialName": "Priority Households (PHH) Scheme",
-   "aliases": [
-    "phh",
-    "priority households scheme",
-    "સ્થાનિક પરિસ્થિતિઓ મુજબ પ્રાથમિકતા પરિવારોની ઓળખ માટે માપદંડો"
-   ],
-   "description": "The page outlines the criteria for identifying 'Priority Households' in rural and urban areas for food security under the National Food Security Act (NFSA).",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "machineExtracted": true,
-    "eligibility": [
-     "Families with a mechanically propelled 4 wheeler vehicle or mechanical fishing boat are excluded from being identified as 'Priority Households' in rural areas.",
-     "Families with a government servant (excluding Class-IV employees on outsourcing) are excluded from being identified as 'Priority Households' in rural areas.",
-     "Families with a monthly income of more than Rs.20,000 or an annual income of more than Rs.2,40,000 are excluded from being identified as 'Priority Households' in rural areas.",
-     "Families whose members are paying income tax or business tax are excluded from being identified as 'Priority Households' in rural areas.",
-     "Families holding 5 acres or more irrigated land harvesting crops in two or more seasons are excluded from being identified as 'Priority Households' in rural areas.",
-     "Families holding 7.5 acres or more land with a source of irrigation are excluded from being identified as 'Priority Households' in rural areas."
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:487d4a702330",
-     "evidence": "Family which has mechanically propelled 4 wheeler vehicle or mechanical fishing boat.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "src:4d01f6c2b156",
+      "url": "https://dcs-dof.gujarat.gov.in/en/contact",
+      "title": "Contact",
+      "domain": "dcs-dof.gujarat.gov.in",
+      "sourceType": "OFFICE_DIRECTORY",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "90b1875fc08ba77a0bb8d0964ddcee20146ad84ece3ba3679e3bb4c0973e6a5a"
     },
     {
-     "sourceId": "src:487d4a702330",
-     "evidence": "Family whose any member is a government servant(except a person working as Class-IV employee on outsourcing basis with any concerned office including Government office, Board, Corporation, other government agencies, local self-government bodies).",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "src:b38b52a25dc5",
+      "url": "https://fcsca.gujarat.gov.in/en/aay-scheme-add",
+      "title": "Criteria for determining families to be covered under Antyodaya Anna Yojana (AAY).",
+      "domain": "fcsca.gujarat.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "ed111979245568276f8a9990ef0ccfdb9c489eabc7b911faab440db9d51082be"
     },
     {
-     "sourceId": "src:487d4a702330",
-     "evidence": "If any member of the family has a monthly income of more than Rs.20,000/- or Annual Income of Family is more than Rs.2,40,000/-.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "src:22f542b87896",
+      "url": "https://dcs-dof.gujarat.gov.in/en/State-Sponsored-Schemes",
+      "title": "State Sponsored Schemes",
+      "domain": "dcs-dof.gujarat.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "1b654c9056dd6063dc84489ce376a86141248da0140a942afe3a7660f04a541b"
     },
     {
-     "sourceId": "src:487d4a702330",
-     "evidence": "Family whose member is paying Income Tax or Business tax",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "src:382646d73ae7",
+      "url": "https://collectorgirsomnath.gujarat.gov.in/duplicate-ration-card",
+      "title": "ડુપ્લીકેટ રેશન કાર્ડ મેળવવા બાબત | Supply | Jan Seva Kendra form | Collectorate - District Gir Somnath",
+      "domain": "collectorgirsomnath.gujarat.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "jurisdictionId": "IN-GJ-GIR_SOMNATH",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "fdc0757ac5e5939991a29988ddecfd16fb01b26652096eea8ac448b4afcc9430"
     },
     {
-     "sourceId": "src:487d4a702330",
-     "evidence": "Family holding 5 acres or more irrigated land harvesting crops in two or more seasons.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "src:1ee7c5fd9ac8",
+      "url": "https://dcs-dof.gujarat.gov.in/en/contact-main-eng-new",
+      "title": "Head Office",
+      "domain": "dcs-dof.gujarat.gov.in",
+      "sourceType": "HELPLINE",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "d63bc34ff4249d72fe15510498bd4bd8bb201472163a0c5ff244dc4584865554"
     },
     {
-     "sourceId": "src:487d4a702330",
-     "evidence": "Family holding 7.5 acres or more land with source of irrigation.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "src:afddebe16bc3",
+      "url": "https://cdrc.gujarat.gov.in/en/df-navsari",
+      "title": "Navsari",
+      "domain": "cdrc.gujarat.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "eb244ef94f3e818d8fc0f2660a88786ecc55bb3fe9d6fe2fc0414a5b57fbf0f6"
     },
     {
-     "sourceId": "src:487d4a702330",
-     "evidence": "A family where all adult earning members are disabled, seriously ill or above 60 years of age, shall be included, even if those families are otherwise eligible to be \"excluded\" on account of any of the above (a) criteria",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "src:8d504690f57c",
+      "url": "https://cdrc.gujarat.gov.in/en/df-banaskantha",
+      "title": "Banaskantha (Palanpur)",
+      "domain": "cdrc.gujarat.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "7b313f1c0272d1f7f4656f612ad903dc7e57f72b0fcaafbf7dadc2fb4900d2ce"
     },
     {
-     "sourceId": "src:487d4a702330",
-     "evidence": "Family which has no house.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "src:9f5cd471077c",
+      "url": "https://dcs-dof.gujarat.gov.in/en/officers-list",
+      "title": "List of Nodal Officer",
+      "domain": "dcs-dof.gujarat.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "84d01c1009ebbcb60a9310aab191c3ca868686bac3ecfc10d31e69dd3463c96e"
     },
     {
-     "sourceId": "src:487d4a702330",
-     "evidence": "Family which has house of wall and roof of plastic or polythene.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "src:e4cf5402b426",
+      "url": "https://foodcommission.gujarat.gov.in/en/contact-detail",
+      "title": "Contact Detail",
+      "domain": "foodcommission.gujarat.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "dea64e7d70bbbc49bc044128dccd09d97d2202937fa15d6f84b1422c533a3983"
     },
     {
-     "sourceId": "src:487d4a702330",
-     "evidence": "Family which has wall of grass straw, bamboo, dung, row brick or wooden wall and one room or house less than that having roof of grass-straw, bamboo dung or wood.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "src:1dde020898e3",
+      "url": "https://dcs-dof.gujarat.gov.in/gu/contact-main-eng-new",
+      "title": "Head Office",
+      "domain": "dcs-dof.gujarat.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "93f1ac3c55714d21115846c774a320b5253aae56c180bb6b12de9396644793eb"
     },
     {
-     "sourceId": "src:487d4a702330",
-     "evidence": "Family whose any member (including child) engaged in activities of begging, rag pickers, domestic servant (who have been paid remuneration) and engaged in the work of sweeper or gardener.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "src:51cbf0bb7ef0",
+      "url": "https://www.nfsa.gov.in/State/KL",
+      "title": "NFSA",
+      "domain": "nfsa.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "d564624b3d037ddcd1cc5b48efd314180511cf8396f3f6396343b7eb4d909197"
     },
     {
-     "sourceId": "src:487d4a702330",
-     "evidence": "Family whose all adult earning members are daily wagers or getting irregular remuneration.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  },
-  {
-   "id": "portal:fcsca_gujarat_gov_in",
-   "type": "PORTAL",
-   "name": "fcsca.gujarat.gov.in",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "WEB",
-    "url": "https://fcsca.gujarat.gov.in/"
-   },
-   "sources": [
-    {
-     "sourceId": "src:487d4a702330",
-     "evidence": "Family which has mechanically propelled 4 wheeler vehicle or mechanical fishing boat.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "grievance:food_and_civil_supplies",
-   "type": "GRIEVANCE_CHANNEL",
-   "name": "Grievances about food and civil supplies",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "GRIEVANCE_PORTAL"
-   },
-   "sources": [
-    {
-     "sourceId": "src:4d01f6c2b156",
-     "evidence": "Note :-\nFor any Complain/Query related to supply system/inspection/ Ration Card in Ahmedabad City you can Contact Following Officers of Our Office. You can also contact in Office time on our office telephone No.079-25500081 or You can sent E-mail on : fncsupplies-ahd[at]gujarat[dot]gov[dot]in",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "service:antyodaya_anna_yojana_aay_ration_card",
-   "type": "SERVICE",
-   "name": "Antyodaya Anna Yojana (AAY) ration card",
-   "officialName": "Antyodaya Anna Yojana (AAY) ration card",
-   "aliases": [
-    "antyodaya",
-    "aay card"
-   ],
-   "description": "The Antyodaya Anna Yojana (AAY) ration card is provided to eligible families, including those from Primitive Groups, widows, disabled persons, senior citizens with no livelihood, and BPL cardholders with specific conditions.",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "machineExtracted": true,
-    "eligibility": [
-     "Families under all Primitive Groups are eligible for the Antyodaya Anna Yojana (AAY) ration card.",
-     "Widows, sick persons, disabled persons, or persons of 60 years of age or above with no means of livelihood or social support are eligible for the Antyodaya Anna Yojana (AAY) ration card.",
-     "Widows, sick persons, disabled persons, or persons of 60 years of age or above, or single women or single men with no family or social support or any means of livelihood are eligible for the Antyodaya Anna Yojana (AAY) ration card.",
-     "Landless agricultural labourers, marginal farmers, rural artisans, and informal sector workers are eligible for the Antyodaya Anna Yojana (AAY) ration card if their name is in the BPL list (with 0 to 16 marks) or they are holding a BPL ration card.",
-     "BPL card holders who are HIV Patients are eligible for the Antyodaya Anna Yojana (AAY) ration card.",
-     "BPL card holders who are Leprosy Patients are eligible for the Antyodaya Anna Yojana (AAY) ration card."
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:b38b52a25dc5",
-     "evidence": "Families under all Primitive Groups",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "src:37793c1cd574",
+      "url": "https://foodcommission.gujarat.gov.in/gu/department-address",
+      "title": "વિભાગનું સરનામું",
+      "domain": "foodcommission.gujarat.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "6c03c9c2a28ff2332274c6605a0ea0dd8e5b27acb8bd70894471a5d8874df121"
     },
     {
-     "sourceId": "src:b38b52a25dc5",
-     "evidence": "Head of family who are widows or sick persons or disabled persons or persons of 60 years of age or above who have no means of livelihood or social support",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "src:e55ecc0b536d",
+      "url": "https://fcsca.gujarat.gov.in/gu/pds-modernization",
+      "title": "સ્માર્ટ રેશન કાર્ડ",
+      "domain": "fcsca.gujarat.gov.in",
+      "sourceType": "SERVICE_PAGE",
+      "jurisdictionId": "IN-GJ",
+      "retrievedAt": "2026-08-23",
+      "contentHash": "a1ca0b759f0ce68cbd75340b0c7d2ee95e3b8847e07ac5625892d632b5a709e6"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "document:authorized_officer_certificate",
+      "type": "DOCUMENT",
+      "name": "Authorized officer certificate",
+      "jurisdictionId": "IN-GJ",
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. Certificate from authorized oƯicer",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
     },
     {
-     "sourceId": "src:b38b52a25dc5",
-     "evidence": "Widows or sick persons or disabled persons or persons of 60 years of age or above or single women or single men having no family or social support or any means of livelihood",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "document:tribal_department_certificate",
+      "type": "DOCUMENT",
+      "name": "Tribal department certificate",
+      "jurisdictionId": "IN-GJ",
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. Certificate from Tribal Department",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
     },
     {
-     "sourceId": "src:b38b52a25dc5",
-     "evidence": "Further, Antyodaya Anna Yojana Rationcard shall be issued to persons/people/groups under the categories mentioned below, but their name should be in BPL list (with 0 to 16 marks) or they should be holding BPL rationcard.\n\nLandless agricultural labourers, marginal farmers, rural artisans like potters, tanners, weavers, blacksmiths, carpenters, slum dwellers and those who earn their daily living in the informal sector like porters, rickshaw driver, handshakers, fruits and Flower sellers, madaris, paper weavers and destitute and other such categories of people living in rural and urban areas",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "document:hhid_letter_or_secc_list",
+      "type": "DOCUMENT",
+      "name": "Hhid letter or secc list",
+      "jurisdictionId": "IN-GJ",
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. HHID Letter / Name must be available in SECC list",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
     },
     {
-     "sourceId": "src:b38b52a25dc5",
-     "evidence": "BPL card holder HIV Patients",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "document:appointment_authorization_letter",
+      "type": "DOCUMENT",
+      "name": "Appointment authorization letter",
+      "jurisdictionId": "IN-GJ",
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. Appointment/authorization letter",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
     },
     {
-     "sourceId": "src:b38b52a25dc5",
-     "evidence": "BPL card holder Leprosy Patients",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "document:authorized_certificate",
+      "type": "DOCUMENT",
+      "name": "Authorized certificate",
+      "jurisdictionId": "IN-GJ",
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. Authorized Certificate",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
     },
     {
-     "sourceId": "src:b38b52a25dc5",
-     "evidence": "A persons with any type of disability of 40% or more including Orthopedic, Mentally Challenged, Visually Impaired, Deaf-Mute and Cerebral Palsy are entitled to benefits as “Divyang”, this standard has to be followed while issuing Antyodaya Rationcard to differently-abled persons under Antyodaya Anna Yojana.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  },
-  {
-   "id": "action:sugar_distribution_scheme_the_applicant_receives_sugar_in_1_kg_standard_pa",
-   "type": "ACTION",
-   "name": "The applicant receives sugar in 1 kg standard packs based on the number of family members",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "whatToDo": "The applicant receives sugar in 1 kg standard packs based on the number of family members.",
-    "uiStage": "AFTER_SUBMISSION",
-    "machineExtracted": true
-   },
-   "sources": [
-    {
-     "sourceId": "src:22f542b87896",
-     "evidence": "Sugar is distributed in 1 kg standard packs as follows: 1 to 4 family members: 1 kg of sugar per ration card 5 to 8 family members: 2 kg of sugar per ration card 9 or more family members: 3 kg of sugar per ration card",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  },
-  {
-   "id": "action:sugar_distribution_scheme_during_the_festivals_of_janmashtami_and_diwali_a",
-   "type": "ACTION",
-   "name": "During the festivals of Janmashtami and Diwali, an additional 1 kg of sugar is provided pe",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "whatToDo": "During the festivals of Janmashtami and Diwali, an additional 1 kg of sugar is provided per ration card.",
-    "uiStage": "AFTER_SUBMISSION",
-    "machineExtracted": true
-   },
-   "sources": [
-    {
-     "sourceId": "src:22f542b87896",
-     "evidence": "In addition, during the two major festivals of the year—Janmashtami and Diwali—AAY and BPL ration card holders are provided with an additional 1 kg of sugar per ration card at the same subsidized rates.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  },
-  {
-   "id": "service:sugar_distribution_scheme",
-   "type": "SERVICE",
-   "name": "Sugar Distribution Scheme",
-   "officialName": "Sugar Distribution Scheme",
-   "description": "The Sugar Distribution Scheme provides sugar and other subsidized items to AAY, BPL, and NFSA ration card holders under the Public Distribution System.",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "machineExtracted": true,
-    "eligibility": [
-     "Antyodaya (AAY) ration card holders are eligible for the Sugar Distribution Scheme."
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:22f542b87896",
-     "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg and approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
+      "id": "document:appointment_employment_certificate",
+      "type": "DOCUMENT",
+      "name": "Appointment employment certificate",
+      "jurisdictionId": "IN-GJ",
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. Appointment/Employment Certificate",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
     },
     {
-     "sourceId": "src:22f542b87896",
-     "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg and approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
+      "id": "document:nodal_department_certificate",
+      "type": "DOCUMENT",
+      "name": "Nodal department certificate",
+      "jurisdictionId": "IN-GJ",
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. Certificate from Nodal Department",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
     },
     {
-     "sourceId": "src:22f542b87896",
-     "evidence": "In addition, during the two major festivals of the year—Janmashtami and Diwali—AAY and BPL ration card holders are provided with an additional 1 kg of sugar per ration card at the same subsidized rates.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
+      "id": "document:journalist_accreditation_id",
+      "type": "DOCUMENT",
+      "name": "Journalist accreditation id",
+      "jurisdictionId": "IN-GJ",
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. Journalist Accreditation ID",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
     },
     {
-     "sourceId": "src:22f542b87896",
-     "evidence": "1 Liter pouch of Edible oil per Ration card is being distributed at subsidized rate on two Festivals i.e Jansmashtami and Diwali to All NFSA Ration card holders.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
+      "id": "action:pmjay_card_the_insurance_company_or_isa_verifies_the_benefi",
+      "type": "ACTION",
+      "name": "The insurance company or ISA verifies the beneficiary's details against the SECC-2011 data",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "whatToDo": "The insurance company or ISA verifies the beneficiary's details against the SECC-2011 database.",
+        "uiStage": "APPLY",
+        "machineExtracted": true
+      },
+      "sources": [
+        {
+          "sourceId": "src:4cdeb96c361d",
+          "evidence": "These details are verilied by the insurance company / ISA against the SECC-2Ol1 database ald if matches, an E-card (Golden Card) of PMJAY is generated & provided to the beneliciary.",
+          "confidence": 0.9,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
     },
     {
-     "sourceId": "src:22f542b87896",
-     "evidence": "1 kg Double Fortified Salt is being distributed at subsidized rate of Rs.1.00 per card to all NFSA Ration card holders.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
+      "id": "service:pmjay_card",
+      "type": "SERVICE",
+      "name": "PMJAY CARD",
+      "officialName": "PMJAY CARD",
+      "description": "The page outlines the requirements for issuing PMJAY cards to various categories of beneficiaries.",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "machineExtracted": true,
+        "eligibility": [
+          "Senior Citizens with an annual family income up to ₹6 Lakhs must be over 60 years of age."
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. Fix category so not require certificate",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. Fix category so not require certificate",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. Fix category not require certificate",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "3. More than 60 age",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:4cdeb96c361d",
+          "evidence": "These details are verilied by the insurance company / ISA against the SECC-2Ol1 database ald if matches, an E-card (Golden Card) of PMJAY is generated & provided to the beneliciary.",
+          "confidence": 0.9,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
     },
     {
-     "sourceId": "src:22f542b87896",
-     "evidence": "1 kg Tuverdal per ration card is being distributed at Rs.50/- per K.G. to all NFSA card holders at subsidized rate as per availability.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
+      "id": "helpline:1800_233_5500",
+      "type": "HELPLINE",
+      "name": "Food Ration Card Helpline helpline",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHONE",
+        "phoneNumbers": [
+          "1800-233-5500"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:63934b07211d",
+          "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
     },
     {
-     "sourceId": "src:22f542b87896",
-     "evidence": "1 kg Gram per ration card is being distributed at Rs.30/- per K.G. to all NFSA card holders at subsidized rate as per availability.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
+      "id": "office:principal_secretary",
+      "type": "OFFICE",
+      "name": "Principal Secretary",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "phoneNumbers": [
+          "+91-79-23251163 / +91-79-23251165"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:63934b07211d",
+          "evidence": "Mr. Mohammed Shahid, IAS\nPrincipal Secretary\nPhone : +91-79-23251163 / +91-79-23251165",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
     },
     {
-     "sourceId": "src:22f542b87896",
-     "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg and approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "office:additional_secretary",
+      "type": "OFFICE",
+      "name": "Additional Secretary",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "phoneNumbers": [
+          "+91-79-23251170"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:63934b07211d",
+          "evidence": "Dr. Saurabh Pardhi, IAS\nAdditional Secretary\nPhone : +91-79-23251170",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
     },
     {
-     "sourceId": "src:22f542b87896",
-     "evidence": "Sugar is distributed in 1 kg standard packs as follows:\n1 to 4 family members: 1 kg of sugar per ration card\n5 to 8 family members: 2 kg of sugar per ration card\n9 or more family members: 3 kg of sugar per ration card",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "office:deputy_secretary_pds",
+      "type": "OFFICE",
+      "name": "Deputy Secretary (PDS)",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "phoneNumbers": [
+          "+91-79-23251167"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:63934b07211d",
+          "evidence": "Shri Ronak Modi\nDeputy Secretary (PDS)\nPhone : +91-79-23251167",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
     },
     {
-     "sourceId": "src:22f542b87896",
-     "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "office:deputy_secretary_appeals_in_charge",
+      "type": "OFFICE",
+      "name": "Deputy Secretary (Appeals) (In-charge)",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "phoneNumbers": [
+          "+91-79-23251167"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:63934b07211d",
+          "evidence": "Shri Ronak Modi\nDeputy Secretary (Appeals) (In-charge)\nPhone : +91-79-23251167",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
     },
     {
-     "sourceId": "src:22f542b87896",
-     "evidence": "approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "office:deputy_secretary_consumer_affairs",
+      "type": "OFFICE",
+      "name": "Deputy Secretary (Consumer Affairs)",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "phoneNumbers": [
+          "+91-79-23251171"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:63934b07211d",
+          "evidence": "Shri Harisingh Sodha\nDeputy Secretary (Consumer Affairs)\nPhone : +91-79-23251171",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
     },
     {
-     "sourceId": "src:22f542b87896",
-     "evidence": "Sugar is distributed in 1 kg standard packs as follows: 1 to 4 family members: 1 kg of sugar per ration card 5 to 8 family members: 2 kg of sugar per ration card 9 or more family members: 3 kg of sugar per ration card",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  },
-  {
-   "id": "portal:dcs_dof_gujarat_gov_in",
-   "type": "PORTAL",
-   "name": "dcs-dof.gujarat.gov.in",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "WEB",
-    "url": "https://dcs-dof.gujarat.gov.in/"
-   },
-   "sources": [
-    {
-     "sourceId": "src:22f542b87896",
-     "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg and approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "document:certified_copy_of_proof",
-   "type": "DOCUMENT",
-   "name": "Certified copy of proof",
-   "jurisdictionId": "IN-GJ-GIR_SOMNATH",
-   "sources": [
-    {
-     "sourceId": "src:382646d73ae7",
-     "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  },
-  {
-   "id": "document:lost_card_details",
-   "type": "DOCUMENT",
-   "name": "Lost card details",
-   "jurisdictionId": "IN-GJ-GIR_SOMNATH",
-   "sources": [
-    {
-     "sourceId": "src:382646d73ae7",
-     "evidence": "જે વ્યાજબી ભાવની દુકાનનું કાર્ડ ધરાવતા હોય તે દુકાનના સંચાલકશ્રીનું કાર્ડ નંબર, જનસંખ્યાની વિગત દર્શાવતું પ્રમાણપત્ર અથવા ખોવાયેલ રેશનકાર્ડની ઝેરોક્ષ નકલ.",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  },
-  {
-   "id": "document:torn_or_damaged_card",
-   "type": "DOCUMENT",
-   "name": "Torn or damaged card",
-   "jurisdictionId": "IN-GJ-GIR_SOMNATH",
-   "sources": [
-    {
-     "sourceId": "src:382646d73ae7",
-     "evidence": "ફાટી ગયેલ અથવા બગડી ગયેલ કાર્ડને બદલે ડુપ્લીકેટ રેશનકાર્ડ મેળવવાનું હોય તો ફાટેલું / બગડેલું અસલ રેશન કાર્ડ.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  },
-  {
-   "id": "service:duplicate_ration_card",
-   "type": "SERVICE",
-   "name": "Duplicate Ration Card",
-   "officialName": "duplicate ration card",
-   "aliases": [
-    "ડુપ્લીકેટ રેશન કાર્ડ"
-   ],
-   "description": "A duplicate ration card is issued to a citizen who has lost, torn, or damaged their original ration card.",
-   "jurisdictionId": "IN-GJ-GIR_SOMNATH",
-   "metadata": {
-    "machineExtracted": true,
-    "timeline": "The processing time for a duplicate ration card is 1 day."
-   },
-   "sources": [
-    {
-     "sourceId": "src:382646d73ae7",
-     "evidence": "હું કઈ રીતે ડુપ્લીકેટ રેશન કાર્ડ મેળવી શકું? તાલુકામાં મામલતદારશ્રીને, પરિશિષ્ટ-૧/૬૬ મુજબ અરજી કરવી.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
+      "id": "office:under_secretary_consumer_affairs",
+      "type": "OFFICE",
+      "name": "Under Secretary (Consumer Affairs)",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "phoneNumbers": [
+          "+91-79-23251175"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:63934b07211d",
+          "evidence": "Ms. Kinjal Thorat\nUnder Secretary (Consumer Affairs)\nPhone : +91-79-23251175",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
     },
     {
-     "sourceId": "src:382646d73ae7",
-     "evidence": "એપ્લીકેશન ફોર્મ [File Size : 47 KB] [Gujarati]",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
+      "id": "office:under_secretary_services",
+      "type": "OFFICE",
+      "name": "Under Secretary (Services)",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "phoneNumbers": [
+          "+91-79-23251179"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:63934b07211d",
+          "evidence": "Shri Amit Sangada\nUnder Secretary (Services)\nPhone : +91-79-23251179",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
     },
     {
-     "sourceId": "src:382646d73ae7",
-     "evidence": "નિકાલની સમય મર્યાદા કુલ ૧ દિવસ.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
+      "id": "office:under_secretary_budget",
+      "type": "OFFICE",
+      "name": "Under Secretary (Budget)",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "phoneNumbers": [
+          "+91-79-23251191"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:63934b07211d",
+          "evidence": "Shri Abhesangbhai Chauhan\nUnder Secretary (Budget)\nPhone : +91-79-23251191",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
     },
     {
-     "sourceId": "src:382646d73ae7",
-     "evidence": "Application Process Jan Seva Kendra, Gir Somnath District Collector Office Veraval, Dist : Somnath, Gujarat - 360024 10:30 A.M To 6:10 P.M",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  },
-  {
-   "id": "portal:collectorgirsomnath_gujarat_gov_in",
-   "type": "PORTAL",
-   "name": "collectorgirsomnath.gujarat.gov.in",
-   "jurisdictionId": "IN-GJ-GIR_SOMNATH",
-   "metadata": {
-    "channelType": "WEB",
-    "url": "https://collectorgirsomnath.gujarat.gov.in/"
-   },
-   "sources": [
-    {
-     "sourceId": "src:382646d73ae7",
-     "evidence": "હું કઈ રીતે ડુપ્લીકેટ રેશન કાર્ડ મેળવી શકું? તાલુકામાં મામલતદારશ્રીને, પરિશિષ્ટ-૧/૬૬ મુજબ અરજી કરવી.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "helpline:079_23251170",
-   "type": "HELPLINE",
-   "name": "Food Ration Card helpline",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHONE",
-    "phoneNumbers": [
-     "079-23251170"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:1ee7c5fd9ac8",
-     "evidence": "Dr. Saurabh Pardhi\nDirector\nPhone : 079-23251170",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "helpline:079_23251168",
-   "type": "HELPLINE",
-   "name": "Food Ration Card helpline",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHONE",
-    "phoneNumbers": [
-     "079-23251168"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:1ee7c5fd9ac8",
-     "evidence": "Shri Chetan A. Gandhi,\nJoint Director\nPhone : 079-23251168",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "office:district_consumer_disputes_redressal_commission_in_navsari",
-   "type": "OFFICE",
-   "name": "District Consumer Disputes Redressal Commission in Navsari",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "address": "Near Gujarat State Civil Supply Cooperation Ltd. Godawn, Limdachowk, Jallalpore Station Road, Navsari-396 445."
-   },
-   "sources": [
-    {
-     "sourceId": "src:afddebe16bc3",
-     "evidence": "District Consumer Disputes RedressalCommission, Navsari, Near Gujarat State Civil Supply Cooperation Ltd.Godawn, Limdachowk, Jallalpore Station Road, Navsari-396 445.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "office:directorate_of_food_and_civil_supplies",
-   "type": "OFFICE",
-   "name": "Directorate of Food and Civil Supplies",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "address": "Block No. 14, 6th Floor, Sardar Bhavan, New Sachivalya, Gandhinagar - 382 010, Gujarat, India"
-   },
-   "sources": [
-    {
-     "sourceId": "src:9f5cd471077c",
-     "evidence": "Directorate of Food and Civil Supplies, Gujarat State Director of Food and Civil Supplies Block No. 14, 6th Floor, Sardar Bhavan, New Sachivalya, Gandhinagar - 382 010 Gujarat, India",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "helpline:079_232_58485",
-   "type": "HELPLINE",
-   "name": "Food Ration Card helpline",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHONE",
-    "phoneNumbers": [
-     "079-232-58485"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:e4cf5402b426",
-     "evidence": "Phone: 079-232-58485",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "service:food_ration_card",
-   "type": "SERVICE",
-   "name": "Food Ration Card",
-   "officialName": "Food Ration Card",
-   "aliases": [
-    "રેશન કાર્ડ"
-   ],
-   "description": "The page provides contact details for the Director of Food and Civil Supplies and includes a helpline for food ration card-related inquiries.",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "machineExtracted": true
-   },
-   "sources": [
-    {
-     "sourceId": "src:e4cf5402b426",
-     "evidence": "E-mail: sfc-gujarat[at]gujarat[dot]gov[dot]in",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  },
-  {
-   "id": "office:department_of_food_and_civil_supplies",
-   "type": "OFFICE",
-   "name": "Department_of_food_and_civil_supplies",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "address": "Block No. 14/6th Floor, Sardar Bhavan, New Secretariat, Gandhinagar-382010, Gujarat, India"
-   },
-   "sources": [
-    {
-     "sourceId": "src:1dde020898e3",
-     "evidence": "કચેરીનું સરનામું\nનિયામક અન્‍ન અને નાગરિક પુરવઠા કચેરી, બ્લોક નં. ૧૪/૬ઠ્ઠો માળ,\nસરદાર ભવન,\nનવા સચિવાલય,\nગાંધીનગર-૩૮૨૦૧૦\nગુજરાત, ભારત",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "service:food_and_ration_card_department",
-   "type": "SERVICE",
-   "name": "Food and Ration Card Department",
-   "officialName": "Food and Ration Card Department",
-   "description": "The page provides contact information for the Department of Food and Civil Supplies, including office address and helpline numbers for the Food and Ration Card Department.",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "machineExtracted": true
-   },
-   "sources": [
-    {
-     "sourceId": "src:1dde020898e3",
-     "evidence": "ઇમેઇલ : dire-cs-fcs[at]gujarat[dot]gov[dot]in",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "office:under_secretary_food_safety",
+      "type": "OFFICE",
+      "name": "Under Secretary (Food Safety)",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "phoneNumbers": [
+          "+91-79-23251174"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:63934b07211d",
+          "evidence": "Shri Paresh Patel\nUnder Secretary (Food Safety)\nPhone : +91-79-23251174",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
     },
     {
-     "sourceId": "src:1dde020898e3",
-     "evidence": "ઇમેઇલ : jd-dfcs-gnr[at]gujarat[dot]gov[dot]in",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  },
-  {
-   "id": "grievance:nfsa",
-   "type": "GRIEVANCE_CHANNEL",
-   "name": "Grievances about nfsa",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "GRIEVANCE_PORTAL"
-   },
-   "sources": [
-    {
-     "sourceId": "src:51cbf0bb7ef0",
-     "evidence": "Grievance Redressal System for E2E PDS http://pg.civilsupplieskerala.gov.in/",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "office:food_commission",
-   "type": "OFFICE",
-   "name": "Food_commission",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "channelType": "PHYSICAL_OFFICE",
-    "phoneNumbers": [
-     "079-232-58485"
-    ]
-   },
-   "sources": [
-    {
-     "sourceId": "src:37793c1cd574",
-     "evidence": "079-232-58485",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "service:smart_ration_card",
-   "type": "SERVICE",
-   "name": "Smart Ration Card",
-   "officialName": "Smart Ration Card",
-   "aliases": [
-    "સ્માર્ટ રેશન કાર્ડ"
-   ],
-   "description": "The Smart Ration Card is a durable, digitized ration card launched by the state government for long-term storage and use.",
-   "jurisdictionId": "IN-GJ",
-   "metadata": {
-    "machineExtracted": true
-   },
-   "sources": [
-    {
-     "sourceId": "src:e55ecc0b536d",
-     "evidence": "સદર યોજના નાણાકીય વર્ષ ૨૦૨૪-૨૫ થી શરૂ કરવામાં આવેલ છે.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "office:deputy_director_it",
+      "type": "OFFICE",
+      "name": "Deputy Director (IT)",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "phoneNumbers": [
+          "+91-79-23254809"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:63934b07211d",
+          "evidence": "Shri Manish Nayak\nDeputy Director (IT)\nPhone : +91-79-23254809",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
     },
     {
-     "sourceId": "src:e55ecc0b536d",
-     "evidence": "ડિજિટાઇઝ્ડ રેશનકાર્ડ એટલે કે સ્માર્ટ રેશનકાર્ડ ટકાઉ હોવાથી તેને લાંબા સમય સુધી સાચવી શકાશે.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ],
-   "lastVerifiedAt": "2026-08-25"
-  }
- ],
- "edges": [
-  {
-   "id": "e:service_pmjay_card__requires__document_ration_card",
-   "from": "service:pmjay_card",
-   "to": "document:ration_card",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "ASHA workers need a Ration Card.",
-   "sources": [
+      "id": "office:food_civil_supplies_consumer_affairs_department",
+      "type": "OFFICE",
+      "name": "Food, Civil Supplies & Consumer Affairs Department",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "address": "Block No. 14, Fifth Floor, New Secretariat, Gandhinagar – 382010 Gujarat, India",
+        "location": {
+          "latitude": 23.221283,
+          "longitude": 72.657235,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "be1a1fba",
+          "query": "Gandhinagar – 382010 Gujarat, Gujarat, India",
+          "note": "matched on one part of the address (office), so this is the area and not the door"
+        }
+      },
+      "sources": [
+        {
+          "sourceId": "src:63934b07211d",
+          "evidence": "Department Address\nFood, Civil Supplies & Consumer Affairs Department,\nBlock No. 14, Fifth Floor, New Secretariat,\nGandhinagar – 382010 Gujarat, India",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:189778a54c94",
-     "evidence": "1 NHA ASHA All Urban & Rural ‘ASHA’. 1. Ration Card",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_pmjay_card__requires__document_authorized_officer_certificate",
-   "from": "service:pmjay_card",
-   "to": "document:authorized_officer_certificate",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "ASHA workers need a certificate from an authorized officer.",
-   "sources": [
+      "id": "service:priority_households_phh_scheme",
+      "type": "SERVICE",
+      "name": "Priority Households (PHH) Scheme",
+      "officialName": "Priority Households (PHH) Scheme",
+      "aliases": [
+        "phh",
+        "priority households scheme",
+        "સ્થાનિક પરિસ્થિતિઓ મુજબ પ્રાથમિકતા પરિવારોની ઓળખ માટે માપદંડો"
+      ],
+      "description": "The page outlines the criteria for identifying 'Priority Households' in rural and urban areas for food security under the National Food Security Act (NFSA).",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "machineExtracted": true,
+        "eligibility": [
+          "Families with a mechanically propelled 4 wheeler vehicle or mechanical fishing boat are excluded from being identified as 'Priority Households' in rural areas.",
+          "Families with a government servant (excluding Class-IV employees on outsourcing) are excluded from being identified as 'Priority Households' in rural areas.",
+          "Families with a monthly income of more than Rs.20,000 or an annual income of more than Rs.2,40,000 are excluded from being identified as 'Priority Households' in rural areas.",
+          "Families whose members are paying income tax or business tax are excluded from being identified as 'Priority Households' in rural areas.",
+          "Families holding 5 acres or more irrigated land harvesting crops in two or more seasons are excluded from being identified as 'Priority Households' in rural areas.",
+          "Families holding 7.5 acres or more land with a source of irrigation are excluded from being identified as 'Priority Households' in rural areas."
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:487d4a702330",
+          "evidence": "Family which has mechanically propelled 4 wheeler vehicle or mechanical fishing boat.",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:487d4a702330",
+          "evidence": "Family whose any member is a government servant(except a person working as Class-IV employee on outsourcing basis with any concerned office including Government office, Board, Corporation, other government agencies, local self-government bodies).",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:487d4a702330",
+          "evidence": "If any member of the family has a monthly income of more than Rs.20,000/- or Annual Income of Family is more than Rs.2,40,000/-.",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:487d4a702330",
+          "evidence": "Family whose member is paying Income Tax or Business tax",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:487d4a702330",
+          "evidence": "Family holding 5 acres or more irrigated land harvesting crops in two or more seasons.",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:487d4a702330",
+          "evidence": "Family holding 7.5 acres or more land with source of irrigation.",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:487d4a702330",
+          "evidence": "A family where all adult earning members are disabled, seriously ill or above 60 years of age, shall be included, even if those families are otherwise eligible to be \"excluded\" on account of any of the above (a) criteria",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:487d4a702330",
+          "evidence": "Family which has no house.",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:487d4a702330",
+          "evidence": "Family which has house of wall and roof of plastic or polythene.",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:487d4a702330",
+          "evidence": "Family which has wall of grass straw, bamboo, dung, row brick or wooden wall and one room or house less than that having roof of grass-straw, bamboo dung or wood.",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:487d4a702330",
+          "evidence": "Family whose any member (including child) engaged in activities of begging, rag pickers, domestic servant (who have been paid remuneration) and engaged in the work of sweeper or gardener.",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:487d4a702330",
+          "evidence": "Family whose all adult earning members are daily wagers or getting irregular remuneration.",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
+    },
     {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. Certificate from authorized oƯicer",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_pmjay_card__requires__document_tribal_department_certificate",
-   "from": "service:pmjay_card",
-   "to": "document:tribal_department_certificate",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Particularly Vulnerable Tribal Groups need a certificate from the Tribal Department.",
-   "sources": [
+      "id": "portal:fcsca_gujarat_gov_in",
+      "type": "PORTAL",
+      "name": "fcsca.gujarat.gov.in",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "WEB",
+        "url": "https://fcsca.gujarat.gov.in/"
+      },
+      "sources": [
+        {
+          "sourceId": "src:487d4a702330",
+          "evidence": "Family which has mechanically propelled 4 wheeler vehicle or mechanical fishing boat.",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. Certificate from Tribal Department",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_pmjay_card__requires__document_hhid_letter_or_secc_list",
-   "from": "service:pmjay_card",
-   "to": "document:hhid_letter_or_secc_list",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "SECC-2011 families (both rural and urban) need an HHID Letter or to have their name available in the SECC list.",
-   "sources": [
+      "id": "grievance:food_and_civil_supplies",
+      "type": "GRIEVANCE_CHANNEL",
+      "name": "Grievances about food and civil supplies",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "GRIEVANCE_PORTAL"
+      },
+      "sources": [
+        {
+          "sourceId": "src:4d01f6c2b156",
+          "evidence": "Note :-\nFor any Complain/Query related to supply system/inspection/ Ration Card in Ahmedabad City you can Contact Following Officers of Our Office. You can also contact in Office time on our office telephone No.079-25500081 or You can sent E-mail on : fncsupplies-ahd[at]gujarat[dot]gov[dot]in",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. HHID Letter / Name must be available in SECC list",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_pmjay_card__requires__document_appointment_authorization_letter",
-   "from": "service:pmjay_card",
-   "to": "document:appointment_authorization_letter",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Sarkari Adhyaksh & Upadhyaksh need an Appointment or Authorization Letter.",
-   "sources": [
+      "id": "service:antyodaya_anna_yojana_aay_ration_card",
+      "type": "SERVICE",
+      "name": "Antyodaya Anna Yojana (AAY) ration card",
+      "officialName": "Antyodaya Anna Yojana (AAY) ration card",
+      "aliases": [
+        "antyodaya",
+        "aay card"
+      ],
+      "description": "The Antyodaya Anna Yojana (AAY) ration card is provided to eligible families, including those from Primitive Groups, widows, disabled persons, senior citizens with no livelihood, and BPL cardholders with specific conditions.",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "machineExtracted": true,
+        "eligibility": [
+          "Families under all Primitive Groups are eligible for the Antyodaya Anna Yojana (AAY) ration card.",
+          "Widows, sick persons, disabled persons, or persons of 60 years of age or above with no means of livelihood or social support are eligible for the Antyodaya Anna Yojana (AAY) ration card.",
+          "Widows, sick persons, disabled persons, or persons of 60 years of age or above, or single women or single men with no family or social support or any means of livelihood are eligible for the Antyodaya Anna Yojana (AAY) ration card.",
+          "Landless agricultural labourers, marginal farmers, rural artisans, and informal sector workers are eligible for the Antyodaya Anna Yojana (AAY) ration card if their name is in the BPL list (with 0 to 16 marks) or they are holding a BPL ration card.",
+          "BPL card holders who are HIV Patients are eligible for the Antyodaya Anna Yojana (AAY) ration card.",
+          "BPL card holders who are Leprosy Patients are eligible for the Antyodaya Anna Yojana (AAY) ration card."
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:b38b52a25dc5",
+          "evidence": "Families under all Primitive Groups",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:b38b52a25dc5",
+          "evidence": "Head of family who are widows or sick persons or disabled persons or persons of 60 years of age or above who have no means of livelihood or social support",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:b38b52a25dc5",
+          "evidence": "Widows or sick persons or disabled persons or persons of 60 years of age or above or single women or single men having no family or social support or any means of livelihood",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:b38b52a25dc5",
+          "evidence": "Further, Antyodaya Anna Yojana Rationcard shall be issued to persons/people/groups under the categories mentioned below, but their name should be in BPL list (with 0 to 16 marks) or they should be holding BPL rationcard.\n\nLandless agricultural labourers, marginal farmers, rural artisans like potters, tanners, weavers, blacksmiths, carpenters, slum dwellers and those who earn their daily living in the informal sector like porters, rickshaw driver, handshakers, fruits and Flower sellers, madaris, paper weavers and destitute and other such categories of people living in rural and urban areas",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:b38b52a25dc5",
+          "evidence": "BPL card holder HIV Patients",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:b38b52a25dc5",
+          "evidence": "BPL card holder Leprosy Patients",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:b38b52a25dc5",
+          "evidence": "A persons with any type of disability of 40% or more including Orthopedic, Mentally Challenged, Visually Impaired, Deaf-Mute and Cerebral Palsy are entitled to benefits as “Divyang”, this standard has to be followed while issuing Antyodaya Rationcard to differently-abled persons under Antyodaya Anna Yojana.",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
+    },
     {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. Appointment/authorization letter",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_pmjay_card__requires__document_authorized_certificate",
-   "from": "service:pmjay_card",
-   "to": "document:authorized_certificate",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Corona Warriors' families need an Authorized Certificate.",
-   "sources": [
+      "id": "action:sugar_distribution_scheme_the_applicant_receives_sugar_in_1_kg_standard_pa",
+      "type": "ACTION",
+      "name": "The applicant receives sugar in 1 kg standard packs based on the number of family members",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "whatToDo": "The applicant receives sugar in 1 kg standard packs based on the number of family members.",
+        "uiStage": "AFTER_SUBMISSION",
+        "machineExtracted": true
+      },
+      "sources": [
+        {
+          "sourceId": "src:22f542b87896",
+          "evidence": "Sugar is distributed in 1 kg standard packs as follows: 1 to 4 family members: 1 kg of sugar per ration card 5 to 8 family members: 2 kg of sugar per ration card 9 or more family members: 3 kg of sugar per ration card",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
+    },
     {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. Authorized Certificate",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_pmjay_card__requires__document_death_certificate",
-   "from": "service:pmjay_card",
-   "to": "document:death_certificate",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Corona Warriors' families need a Death Certificate.",
-   "sources": [
+      "id": "action:sugar_distribution_scheme_during_the_festivals_of_janmashtami_and_diwali_a",
+      "type": "ACTION",
+      "name": "During the festivals of Janmashtami and Diwali, an additional 1 kg of sugar is provided pe",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "whatToDo": "During the festivals of Janmashtami and Diwali, an additional 1 kg of sugar is provided per ration card.",
+        "uiStage": "AFTER_SUBMISSION",
+        "machineExtracted": true
+      },
+      "sources": [
+        {
+          "sourceId": "src:22f542b87896",
+          "evidence": "In addition, during the two major festivals of the year—Janmashtami and Diwali—AAY and BPL ration card holders are provided with an additional 1 kg of sugar per ration card at the same subsidized rates.",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
+    },
     {
-     "sourceId": "src:189778a54c94",
-     "evidence": "3. Death Certificate",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_pmjay_card__requires__document_appointment_employment_certificate",
-   "from": "service:pmjay_card",
-   "to": "document:appointment_employment_certificate",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Karmayogi (Class-3 & 4 employees) need an Appointment or Employment Certificate.",
-   "sources": [
+      "id": "service:sugar_distribution_scheme",
+      "type": "SERVICE",
+      "name": "Sugar Distribution Scheme",
+      "officialName": "Sugar Distribution Scheme",
+      "description": "The Sugar Distribution Scheme provides sugar and other subsidized items to AAY, BPL, and NFSA ration card holders under the Public Distribution System.",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "machineExtracted": true,
+        "eligibility": [
+          "Antyodaya (AAY) ration card holders are eligible for the Sugar Distribution Scheme."
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:22f542b87896",
+          "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg and approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:22f542b87896",
+          "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg and approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:22f542b87896",
+          "evidence": "In addition, during the two major festivals of the year—Janmashtami and Diwali—AAY and BPL ration card holders are provided with an additional 1 kg of sugar per ration card at the same subsidized rates.",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:22f542b87896",
+          "evidence": "1 Liter pouch of Edible oil per Ration card is being distributed at subsidized rate on two Festivals i.e Jansmashtami and Diwali to All NFSA Ration card holders.",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:22f542b87896",
+          "evidence": "1 kg Double Fortified Salt is being distributed at subsidized rate of Rs.1.00 per card to all NFSA Ration card holders.",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:22f542b87896",
+          "evidence": "1 kg Tuverdal per ration card is being distributed at Rs.50/- per K.G. to all NFSA card holders at subsidized rate as per availability.",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:22f542b87896",
+          "evidence": "1 kg Gram per ration card is being distributed at Rs.30/- per K.G. to all NFSA card holders at subsidized rate as per availability.",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:22f542b87896",
+          "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg and approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:22f542b87896",
+          "evidence": "Sugar is distributed in 1 kg standard packs as follows:\n1 to 4 family members: 1 kg of sugar per ration card\n5 to 8 family members: 2 kg of sugar per ration card\n9 or more family members: 3 kg of sugar per ration card",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:22f542b87896",
+          "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:22f542b87896",
+          "evidence": "approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:22f542b87896",
+          "evidence": "Sugar is distributed in 1 kg standard packs as follows: 1 to 4 family members: 1 kg of sugar per ration card 5 to 8 family members: 2 kg of sugar per ration card 9 or more family members: 3 kg of sugar per ration card",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
+    },
     {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. Appointment/Employment Certificate",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_pmjay_card__requires__document_bpl_certificate",
-   "from": "service:pmjay_card",
-   "to": "document:bpl_certificate",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "BPL Families need a BPL Certificate with the name present in the approved list.",
-   "sources": [
+      "id": "portal:dcs_dof_gujarat_gov_in",
+      "type": "PORTAL",
+      "name": "dcs-dof.gujarat.gov.in",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "WEB",
+        "url": "https://dcs-dof.gujarat.gov.in/"
+      },
+      "sources": [
+        {
+          "sourceId": "src:22f542b87896",
+          "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg and approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. BPL Certificate (Name must be present in the approved list)",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_pmjay_card__requires__document_income_certificate",
-   "from": "service:pmjay_card",
-   "to": "document:income_certificate",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Middle-class families with an annual income up to ₹4 Lakhs need an Income Certificate issued by an authorized officer.",
-   "sources": [
+      "id": "document:certified_copy_of_proof",
+      "type": "DOCUMENT",
+      "name": "Certified copy of proof",
+      "jurisdictionId": "IN-GJ-GIR_SOMNATH",
+      "sources": [
+        {
+          "sourceId": "src:382646d73ae7",
+          "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+          "confidence": 0.9,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
+    },
     {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. Income Certificate (Issued by the authorized oƯicer)",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_pmjay_card__requires__document_nodal_department_certificate",
-   "from": "service:pmjay_card",
-   "to": "document:nodal_department_certificate",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Orphaned children during the COVID-19 epidemic need a certificate from the Nodal Department.",
-   "sources": [
+      "id": "document:lost_card_details",
+      "type": "DOCUMENT",
+      "name": "Lost card details",
+      "jurisdictionId": "IN-GJ-GIR_SOMNATH",
+      "sources": [
+        {
+          "sourceId": "src:382646d73ae7",
+          "evidence": "જે વ્યાજબી ભાવની દુકાનનું કાર્ડ ધરાવતા હોય તે દુકાનના સંચાલકશ્રીનું કાર્ડ નંબર, જનસંખ્યાની વિગત દર્શાવતું પ્રમાણપત્ર અથવા ખોવાયેલ રેશનકાર્ડની ઝેરોક્ષ નકલ.",
+          "confidence": 0.9,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
+    },
     {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. Certificate from Nodal Department",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_pmjay_card__requires__document_journalist_accreditation_id",
-   "from": "service:pmjay_card",
-   "to": "document:journalist_accreditation_id",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "Accredited Journalists need a Journalist Accreditation ID.",
-   "sources": [
+      "id": "document:torn_or_damaged_card",
+      "type": "DOCUMENT",
+      "name": "Torn or damaged card",
+      "jurisdictionId": "IN-GJ-GIR_SOMNATH",
+      "sources": [
+        {
+          "sourceId": "src:382646d73ae7",
+          "evidence": "ફાટી ગયેલ અથવા બગડી ગયેલ કાર્ડને બદલે ડુપ્લીકેટ રેશનકાર્ડ મેળવવાનું હોય તો ફાટેલું / બગડેલું અસલ રેશન કાર્ડ.",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
+    },
     {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. Journalist Accreditation ID",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_pmjay_card__requires__action_pmjay_card_the_insurance_company_or_isa_verifies_the_",
-   "from": "service:pmjay_card",
-   "to": "action:pmjay_card_the_insurance_company_or_isa_verifies_the_benefi",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The insurance company or ISA verifies the beneficiary's details against the SECC-2011 database.",
-   "sources": [
+      "id": "service:duplicate_ration_card",
+      "type": "SERVICE",
+      "name": "Duplicate Ration Card",
+      "officialName": "duplicate ration card",
+      "aliases": [
+        "ડુપ્લીકેટ રેશન કાર્ડ"
+      ],
+      "description": "A duplicate ration card is issued to a citizen who has lost, torn, or damaged their original ration card.",
+      "jurisdictionId": "IN-GJ-GIR_SOMNATH",
+      "metadata": {
+        "machineExtracted": true,
+        "timeline": "The processing time for a duplicate ration card is 1 day."
+      },
+      "sources": [
+        {
+          "sourceId": "src:382646d73ae7",
+          "evidence": "હું કઈ રીતે ડુપ્લીકેટ રેશન કાર્ડ મેળવી શકું? તાલુકામાં મામલતદારશ્રીને, પરિશિષ્ટ-૧/૬૬ મુજબ અરજી કરવી.",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:382646d73ae7",
+          "evidence": "એપ્લીકેશન ફોર્મ [File Size : 47 KB] [Gujarati]",
+          "confidence": 0.9,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:382646d73ae7",
+          "evidence": "નિકાલની સમય મર્યાદા કુલ ૧ દિવસ.",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:382646d73ae7",
+          "evidence": "Application Process Jan Seva Kendra, Gir Somnath District Collector Office Veraval, Dist : Somnath, Gujarat - 360024 10:30 A.M To 6:10 P.M",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
+    },
     {
-     "sourceId": "src:4cdeb96c361d",
-     "evidence": "These details are verilied by the insurance company / ISA against the SECC-2Ol1 database ald if matches, an E-card (Golden Card) of PMJAY is generated & provided to the beneliciary.",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_pmjay_card__apply_at__portal_ma_gujarat_gov_in",
-   "from": "service:pmjay_card",
-   "to": "portal:ma_gujarat_gov_in",
-   "type": "APPLY_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "Published on ma.gujarat.gov.in.",
-   "sources": [
+      "id": "portal:collectorgirsomnath_gujarat_gov_in",
+      "type": "PORTAL",
+      "name": "collectorgirsomnath.gujarat.gov.in",
+      "jurisdictionId": "IN-GJ-GIR_SOMNATH",
+      "metadata": {
+        "channelType": "WEB",
+        "url": "https://collectorgirsomnath.gujarat.gov.in/"
+      },
+      "sources": [
+        {
+          "sourceId": "src:382646d73ae7",
+          "evidence": "હું કઈ રીતે ડુપ્લીકેટ રેશન કાર્ડ મેળવી શકું? તાલુકામાં મામલતદારશ્રીને, પરિશિષ્ટ-૧/૬૬ મુજબ અરજી કરવી.",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:189778a54c94",
-     "evidence": "2. Fix category so not require certificate",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_priority_households_phh_scheme__call_if__helpline_1800_233_5500",
-   "from": "service:priority_households_phh_scheme",
-   "to": "helpline:1800_233_5500",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Food Ration Card Helpline is available at the toll-free number 1800-233-5500.",
-   "sources": [
+      "id": "helpline:079_23251170",
+      "type": "HELPLINE",
+      "name": "Food Ration Card helpline",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHONE",
+        "phoneNumbers": [
+          "079-23251170"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:1ee7c5fd9ac8",
+          "evidence": "Dr. Saurabh Pardhi\nDirector\nPhone : 079-23251170",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:487d4a702330",
-     "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_priority_households_phh_scheme__call_if__helpline_1800_233_0222",
-   "from": "service:priority_households_phh_scheme",
-   "to": "helpline:1800_233_0222",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Gujarat State Consumer Helpline is available at the toll-free number 1800-233-0222.",
-   "sources": [
+      "id": "helpline:079_23251168",
+      "type": "HELPLINE",
+      "name": "Food Ration Card helpline",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHONE",
+        "phoneNumbers": [
+          "079-23251168"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:1ee7c5fd9ac8",
+          "evidence": "Shri Chetan A. Gandhi,\nJoint Director\nPhone : 079-23251168",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:487d4a702330",
-     "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_priority_households_phh_scheme__apply_at__portal_fcsca_gujarat_gov_in",
-   "from": "service:priority_households_phh_scheme",
-   "to": "portal:fcsca_gujarat_gov_in",
-   "type": "APPLY_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "Published on fcsca.gujarat.gov.in.",
-   "sources": [
+      "id": "office:district_consumer_disputes_redressal_commission_in_navsari",
+      "type": "OFFICE",
+      "name": "District Consumer Disputes Redressal Commission in Navsari",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "address": "Near Gujarat State Civil Supply Cooperation Ltd. Godawn, Limdachowk, Jallalpore Station Road, Navsari-396 445.",
+        "location": {
+          "latitude": 23.015373,
+          "longitude": 71.183186,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "street",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "52d95cd4",
+          "query": "Jallalpore Station Road, Gujarat, India",
+          "note": "matched on one part of the address (street), so this is the area and not the door"
+        }
+      },
+      "sources": [
+        {
+          "sourceId": "src:afddebe16bc3",
+          "evidence": "District Consumer Disputes RedressalCommission, Navsari, Near Gujarat State Civil Supply Cooperation Ltd.Godawn, Limdachowk, Jallalpore Station Road, Navsari-396 445.",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:487d4a702330",
-     "evidence": "Family which has mechanically propelled 4 wheeler vehicle or mechanical fishing boat.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_antyodaya_anna_yojana_aay_ration_card__call_if__helpline_1800_233_5500",
-   "from": "service:antyodaya_anna_yojana_aay_ration_card",
-   "to": "helpline:1800_233_5500",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Food Ration Card Helpline number is 1800-233-5500.",
-   "sources": [
+      "id": "office:directorate_of_food_and_civil_supplies",
+      "type": "OFFICE",
+      "name": "Directorate of Food and Civil Supplies",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "address": "Block No. 14, 6th Floor, Sardar Bhavan, New Sachivalya, Gandhinagar - 382 010, Gujarat, India",
+        "location": {
+          "latitude": 22.699381,
+          "longitude": 72.857047,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "01a47e7e",
+          "query": "Sardar Bhavan, Gujarat, India",
+          "note": "matched on one part of the address (office), so this is the area and not the door"
+        }
+      },
+      "sources": [
+        {
+          "sourceId": "src:9f5cd471077c",
+          "evidence": "Directorate of Food and Civil Supplies, Gujarat State Director of Food and Civil Supplies Block No. 14, 6th Floor, Sardar Bhavan, New Sachivalya, Gandhinagar - 382 010 Gujarat, India",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:b38b52a25dc5",
-     "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_antyodaya_anna_yojana_aay_ration_card__call_if__helpline_1800_233_0222",
-   "from": "service:antyodaya_anna_yojana_aay_ration_card",
-   "to": "helpline:1800_233_0222",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Gujarat State Consumer Helpline number is 1800-233-0222.",
-   "sources": [
+      "id": "helpline:079_232_58485",
+      "type": "HELPLINE",
+      "name": "Food Ration Card helpline",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHONE",
+        "phoneNumbers": [
+          "079-232-58485"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:e4cf5402b426",
+          "evidence": "Phone: 079-232-58485",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:b38b52a25dc5",
-     "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_antyodaya_anna_yojana_aay_ration_card__apply_at__portal_fcsca_gujarat_gov_in",
-   "from": "service:antyodaya_anna_yojana_aay_ration_card",
-   "to": "portal:fcsca_gujarat_gov_in",
-   "type": "APPLY_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "Published on fcsca.gujarat.gov.in.",
-   "sources": [
+      "id": "service:food_ration_card",
+      "type": "SERVICE",
+      "name": "Food Ration Card",
+      "officialName": "Food Ration Card",
+      "aliases": [
+        "રેશન કાર્ડ"
+      ],
+      "description": "The page provides contact details for the Director of Food and Civil Supplies and includes a helpline for food ration card-related inquiries.",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "machineExtracted": true
+      },
+      "sources": [
+        {
+          "sourceId": "src:e4cf5402b426",
+          "evidence": "E-mail: sfc-gujarat[at]gujarat[dot]gov[dot]in",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
+    },
     {
-     "sourceId": "src:b38b52a25dc5",
-     "evidence": "Families under all Primitive Groups",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_sugar_distribution_scheme__call_if__helpline_1800_233_5500",
-   "from": "service:sugar_distribution_scheme",
-   "to": "helpline:1800_233_5500",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Food Ration Card Helpline is available at the toll-free number 1800-233-5500.",
-   "sources": [
+      "id": "office:department_of_food_and_civil_supplies",
+      "type": "OFFICE",
+      "name": "Department_of_food_and_civil_supplies",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "address": "Block No. 14/6th Floor, Sardar Bhavan, New Secretariat, Gandhinagar-382010, Gujarat, India",
+        "location": {
+          "latitude": 23.225407,
+          "longitude": 72.658504,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "DERIVED_MEDIUM",
+          "precision": "other",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "b64578a9",
+          "query": "Gandhinagar-382010, Gujarat, India",
+          "note": "matched on one part of the address (other), so this is the area and not the door"
+        }
+      },
+      "sources": [
+        {
+          "sourceId": "src:1dde020898e3",
+          "evidence": "કચેરીનું સરનામું\nનિયામક અન્‍ન અને નાગરિક પુરવઠા કચેરી, બ્લોક નં. ૧૪/૬ઠ્ઠો માળ,\nસરદાર ભવન,\nનવા સચિવાલય,\nગાંધીનગર-૩૮૨૦૧૦\nગુજરાત, ભારત",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:22f542b87896",
-     "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_sugar_distribution_scheme__call_if__helpline_1800_233_0222",
-   "from": "service:sugar_distribution_scheme",
-   "to": "helpline:1800_233_0222",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Gujarat State Consumer Helpline is available at the toll-free number 1800-233-0222.",
-   "sources": [
+      "id": "service:food_and_ration_card_department",
+      "type": "SERVICE",
+      "name": "Food and Ration Card Department",
+      "officialName": "Food and Ration Card Department",
+      "description": "The page provides contact information for the Department of Food and Civil Supplies, including office address and helpline numbers for the Food and Ration Card Department.",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "machineExtracted": true
+      },
+      "sources": [
+        {
+          "sourceId": "src:1dde020898e3",
+          "evidence": "ઇમેઇલ : dire-cs-fcs[at]gujarat[dot]gov[dot]in",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:1dde020898e3",
+          "evidence": "ઇમેઇલ : jd-dfcs-gnr[at]gujarat[dot]gov[dot]in",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
+    },
     {
-     "sourceId": "src:22f542b87896",
-     "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_sugar_distribution_scheme__requires__action_sugar_distribution_scheme_the_applicant_receives_suga",
-   "from": "service:sugar_distribution_scheme",
-   "to": "action:sugar_distribution_scheme_the_applicant_receives_sugar_in_1_kg_standard_pa",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "The applicant receives sugar in 1 kg standard packs based on the number of family members.",
-   "sources": [
+      "id": "grievance:nfsa",
+      "type": "GRIEVANCE_CHANNEL",
+      "name": "Grievances about nfsa",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "GRIEVANCE_PORTAL"
+      },
+      "sources": [
+        {
+          "sourceId": "src:51cbf0bb7ef0",
+          "evidence": "Grievance Redressal System for E2E PDS http://pg.civilsupplieskerala.gov.in/",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:22f542b87896",
-     "evidence": "Sugar is distributed in 1 kg standard packs as follows: 1 to 4 family members: 1 kg of sugar per ration card 5 to 8 family members: 2 kg of sugar per ration card 9 or more family members: 3 kg of sugar per ration card",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_sugar_distribution_scheme__requires__action_sugar_distribution_scheme_during_the_festivals_of_jan",
-   "from": "service:sugar_distribution_scheme",
-   "to": "action:sugar_distribution_scheme_during_the_festivals_of_janmashtami_and_diwali_a",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "During the festivals of Janmashtami and Diwali, an additional 1 kg of sugar is provided per ration card.",
-   "sources": [
+      "id": "office:food_commission",
+      "type": "OFFICE",
+      "name": "Food_commission",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "channelType": "PHYSICAL_OFFICE",
+        "phoneNumbers": [
+          "079-232-58485"
+        ]
+      },
+      "sources": [
+        {
+          "sourceId": "src:37793c1cd574",
+          "evidence": "079-232-58485",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:22f542b87896",
-     "evidence": "In addition, during the two major festivals of the year—Janmashtami and Diwali—AAY and BPL ration card holders are provided with an additional 1 kg of sugar per ration card at the same subsidized rates.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "service:smart_ration_card",
+      "type": "SERVICE",
+      "name": "Smart Ration Card",
+      "officialName": "Smart Ration Card",
+      "aliases": [
+        "સ્માર્ટ રેશન કાર્ડ"
+      ],
+      "description": "The Smart Ration Card is a durable, digitized ration card launched by the state government for long-term storage and use.",
+      "jurisdictionId": "IN-GJ",
+      "metadata": {
+        "machineExtracted": true
+      },
+      "sources": [
+        {
+          "sourceId": "src:e55ecc0b536d",
+          "evidence": "સદર યોજના નાણાકીય વર્ષ ૨૦૨૪-૨૫ થી શરૂ કરવામાં આવેલ છે.",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        },
+        {
+          "sourceId": "src:e55ecc0b536d",
+          "evidence": "ડિજિટાઇઝ્ડ રેશનકાર્ડ એટલે કે સ્માર્ટ રેશનકાર્ડ ટકાઉ હોવાથી તેને લાંબા સમય સુધી સાચવી શકાશે.",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ],
+      "lastVerifiedAt": "2026-08-25"
     }
-   ]
-  },
-  {
-   "id": "e:service_sugar_distribution_scheme__apply_at__portal_dcs_dof_gujarat_gov_in",
-   "from": "service:sugar_distribution_scheme",
-   "to": "portal:dcs_dof_gujarat_gov_in",
-   "type": "APPLY_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "Published on dcs-dof.gujarat.gov.in.",
-   "sources": [
+  ],
+  "edges": [
     {
-     "sourceId": "src:22f542b87896",
-     "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg and approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_duplicate_ration_card__requires__document_certified_copy_of_proof",
-   "from": "service:duplicate_ration_card",
-   "to": "document:certified_copy_of_proof",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "A certified copy of the proof is required for a duplicate ration card.",
-   "sources": [
+      "id": "e:service_pmjay_card__requires__document_ration_card",
+      "from": "service:pmjay_card",
+      "to": "document:ration_card",
+      "type": "REQUIRES",
+      "verificationStatus": "EXTRACTED",
+      "note": "ASHA workers need a Ration Card.",
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "1 NHA ASHA All Urban & Rural ‘ASHA’. 1. Ration Card",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:382646d73ae7",
-     "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_duplicate_ration_card__requires__document_lost_card_details",
-   "from": "service:duplicate_ration_card",
-   "to": "document:lost_card_details",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "If the card is lost, a zerox copy of the lost ration card or a certificate showing the card number and population details from the shop owner is required.",
-   "sources": [
+      "id": "e:service_pmjay_card__requires__document_authorized_officer_certificate",
+      "from": "service:pmjay_card",
+      "to": "document:authorized_officer_certificate",
+      "type": "REQUIRES",
+      "verificationStatus": "EXTRACTED",
+      "note": "ASHA workers need a certificate from an authorized officer.",
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. Certificate from authorized oƯicer",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:382646d73ae7",
-     "evidence": "જે વ્યાજબી ભાવની દુકાનનું કાર્ડ ધરાવતા હોય તે દુકાનના સંચાલકશ્રીનું કાર્ડ નંબર, જનસંખ્યાની વિગત દર્શાવતું પ્રમાણપત્ર અથવા ખોવાયેલ રેશનકાર્ડની ઝેરોક્ષ નકલ.",
-     "confidence": 0.9,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_duplicate_ration_card__requires__document_torn_or_damaged_card",
-   "from": "service:duplicate_ration_card",
-   "to": "document:torn_or_damaged_card",
-   "type": "REQUIRES",
-   "verificationStatus": "EXTRACTED",
-   "note": "If the card is torn or damaged, the original torn or damaged ration card must be submitted.",
-   "sources": [
+      "id": "e:service_pmjay_card__requires__document_tribal_department_certificate",
+      "from": "service:pmjay_card",
+      "to": "document:tribal_department_certificate",
+      "type": "REQUIRES",
+      "verificationStatus": "EXTRACTED",
+      "note": "Particularly Vulnerable Tribal Groups need a certificate from the Tribal Department.",
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. Certificate from Tribal Department",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:382646d73ae7",
-     "evidence": "ફાટી ગયેલ અથવા બગડી ગયેલ કાર્ડને બદલે ડુપ્લીકેટ રેશનકાર્ડ મેળવવાનું હોય તો ફાટેલું / બગડેલું અસલ રેશન કાર્ડ.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_duplicate_ration_card__apply_at__portal_collectorgirsomnath_gujarat_gov_in",
-   "from": "service:duplicate_ration_card",
-   "to": "portal:collectorgirsomnath_gujarat_gov_in",
-   "type": "APPLY_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "Published on collectorgirsomnath.gujarat.gov.in.",
-   "sources": [
+      "id": "e:service_pmjay_card__requires__document_hhid_letter_or_secc_list",
+      "from": "service:pmjay_card",
+      "to": "document:hhid_letter_or_secc_list",
+      "type": "REQUIRES",
+      "verificationStatus": "EXTRACTED",
+      "note": "SECC-2011 families (both rural and urban) need an HHID Letter or to have their name available in the SECC list.",
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. HHID Letter / Name must be available in SECC list",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:382646d73ae7",
-     "evidence": "હું કઈ રીતે ડુપ્લીકેટ રેશન કાર્ડ મેળવી શકું? તાલુકામાં મામલતદારશ્રીને, પરિશિષ્ટ-૧/૬૬ મુજબ અરજી કરવી.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_food_ration_card__call_if__helpline_079_23251170",
-   "from": "service:food_ration_card",
-   "to": "helpline:079_23251170",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The contact phone number for the Director of Food and Civil Supplies is 079-23251170.",
-   "sources": [
+      "id": "e:service_pmjay_card__requires__document_appointment_authorization_letter",
+      "from": "service:pmjay_card",
+      "to": "document:appointment_authorization_letter",
+      "type": "REQUIRES",
+      "verificationStatus": "EXTRACTED",
+      "note": "Sarkari Adhyaksh & Upadhyaksh need an Appointment or Authorization Letter.",
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. Appointment/authorization letter",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:1ee7c5fd9ac8",
-     "evidence": "Dr. Saurabh Pardhi\nDirector\nPhone : 079-23251170",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_food_ration_card__call_if__helpline_079_23251168",
-   "from": "service:food_ration_card",
-   "to": "helpline:079_23251168",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The contact phone number for the Joint Director is 079-23251168.",
-   "sources": [
+      "id": "e:service_pmjay_card__requires__document_authorized_certificate",
+      "from": "service:pmjay_card",
+      "to": "document:authorized_certificate",
+      "type": "REQUIRES",
+      "verificationStatus": "EXTRACTED",
+      "note": "Corona Warriors' families need an Authorized Certificate.",
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. Authorized Certificate",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:1ee7c5fd9ac8",
-     "evidence": "Shri Chetan A. Gandhi,\nJoint Director\nPhone : 079-23251168",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_food_ration_card__call_if__helpline_1800_233_5500",
-   "from": "service:food_ration_card",
-   "to": "helpline:1800_233_5500",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Food Ration Card Helpline number is toll-free at 1800-233-5500.",
-   "sources": [
+      "id": "e:service_pmjay_card__requires__document_death_certificate",
+      "from": "service:pmjay_card",
+      "to": "document:death_certificate",
+      "type": "REQUIRES",
+      "verificationStatus": "EXTRACTED",
+      "note": "Corona Warriors' families need a Death Certificate.",
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "3. Death Certificate",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:1ee7c5fd9ac8",
-     "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_food_ration_card__call_if__helpline_1800_233_0222",
-   "from": "service:food_ration_card",
-   "to": "helpline:1800_233_0222",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Gujarat State Consumer Helpline number is toll-free at 1800-233-0222.",
-   "sources": [
+      "id": "e:service_pmjay_card__requires__document_appointment_employment_certificate",
+      "from": "service:pmjay_card",
+      "to": "document:appointment_employment_certificate",
+      "type": "REQUIRES",
+      "verificationStatus": "EXTRACTED",
+      "note": "Karmayogi (Class-3 & 4 employees) need an Appointment or Employment Certificate.",
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. Appointment/Employment Certificate",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:1ee7c5fd9ac8",
-     "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_food_ration_card__visit_at__office_district_consumer_disputes_redressal_commission_in_na",
-   "from": "service:food_ration_card",
-   "to": "office:district_consumer_disputes_redressal_commission_in_navsari",
-   "type": "VISIT_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "The District Consumer Disputes Redressal Commission in Navsari is located at Near Gujarat State Civil Supply Cooperation Ltd. Godawn, Limdachowk, Jallalpore Station Road, Navsari-396 445.",
-   "sources": [
+      "id": "e:service_pmjay_card__requires__document_bpl_certificate",
+      "from": "service:pmjay_card",
+      "to": "document:bpl_certificate",
+      "type": "REQUIRES",
+      "verificationStatus": "EXTRACTED",
+      "note": "BPL Families need a BPL Certificate with the name present in the approved list.",
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. BPL Certificate (Name must be present in the approved list)",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:afddebe16bc3",
-     "evidence": "District Consumer Disputes RedressalCommission, Navsari, Near Gujarat State Civil Supply Cooperation Ltd.Godawn, Limdachowk, Jallalpore Station Road, Navsari-396 445.",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_food_ration_card__visit_at__office_directorate_of_food_and_civil_supplies",
-   "from": "service:food_ration_card",
-   "to": "office:directorate_of_food_and_civil_supplies",
-   "type": "VISIT_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Directorate of Food and Civil Supplies is located at Block No. 14, 6th Floor, Sardar Bhavan, New Sachivalya, Gandhinagar - 382 010, Gujarat, India.",
-   "sources": [
+      "id": "e:service_pmjay_card__requires__document_income_certificate",
+      "from": "service:pmjay_card",
+      "to": "document:income_certificate",
+      "type": "REQUIRES",
+      "verificationStatus": "EXTRACTED",
+      "note": "Middle-class families with an annual income up to ₹4 Lakhs need an Income Certificate issued by an authorized officer.",
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. Income Certificate (Issued by the authorized oƯicer)",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:9f5cd471077c",
-     "evidence": "Directorate of Food and Civil Supplies, Gujarat State Director of Food and Civil Supplies Block No. 14, 6th Floor, Sardar Bhavan, New Sachivalya, Gandhinagar - 382 010 Gujarat, India",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_food_ration_card__call_if__helpline_079_232_58485",
-   "from": "service:food_ration_card",
-   "to": "helpline:079_232_58485",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Gujarat State Food Commission can be contacted via phone at 079-232-58485.",
-   "sources": [
+      "id": "e:service_pmjay_card__requires__document_nodal_department_certificate",
+      "from": "service:pmjay_card",
+      "to": "document:nodal_department_certificate",
+      "type": "REQUIRES",
+      "verificationStatus": "EXTRACTED",
+      "note": "Orphaned children during the COVID-19 epidemic need a certificate from the Nodal Department.",
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. Certificate from Nodal Department",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:e4cf5402b426",
-     "evidence": "Phone: 079-232-58485",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_food_ration_card__apply_at__portal_dcs_dof_gujarat_gov_in",
-   "from": "service:food_ration_card",
-   "to": "portal:dcs_dof_gujarat_gov_in",
-   "type": "APPLY_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "Published on dcs-dof.gujarat.gov.in.",
-   "sources": [
+      "id": "e:service_pmjay_card__requires__document_journalist_accreditation_id",
+      "from": "service:pmjay_card",
+      "to": "document:journalist_accreditation_id",
+      "type": "REQUIRES",
+      "verificationStatus": "EXTRACTED",
+      "note": "Accredited Journalists need a Journalist Accreditation ID.",
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. Journalist Accreditation ID",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:e4cf5402b426",
-     "evidence": "E-mail: sfc-gujarat[at]gujarat[dot]gov[dot]in",
-     "confidence": 0.95,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_food_and_ration_card_department__visit_at__office_department_of_food_and_civil_supplies",
-   "from": "service:food_and_ration_card_department",
-   "to": "office:department_of_food_and_civil_supplies",
-   "type": "VISIT_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "The main office of the Department of Food and Civil Supplies is located at Block No. 14/6th Floor, Sardar Bhavan, New Secretariat, Gandhinagar-382010, Gujarat, India.",
-   "sources": [
+      "id": "e:service_pmjay_card__requires__action_pmjay_card_the_insurance_company_or_isa_verifies_the_",
+      "from": "service:pmjay_card",
+      "to": "action:pmjay_card_the_insurance_company_or_isa_verifies_the_benefi",
+      "type": "REQUIRES",
+      "verificationStatus": "EXTRACTED",
+      "note": "The insurance company or ISA verifies the beneficiary's details against the SECC-2011 database.",
+      "sources": [
+        {
+          "sourceId": "src:4cdeb96c361d",
+          "evidence": "These details are verilied by the insurance company / ISA against the SECC-2Ol1 database ald if matches, an E-card (Golden Card) of PMJAY is generated & provided to the beneliciary.",
+          "confidence": 0.9,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:1dde020898e3",
-     "evidence": "કચેરીનું સરનામું\nનિયામક અન્‍ન અને નાગરિક પુરવઠા કચેરી, બ્લોક નં. ૧૪/૬ઠ્ઠો માળ,\nસરદાર ભવન,\nનવા સચિવાલય,\nગાંધીનગર-૩૮૨૦૧૦\nગુજરાત, ભારત",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_food_and_ration_card_department__call_if__helpline_079_23251170",
-   "from": "service:food_and_ration_card_department",
-   "to": "helpline:079_23251170",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The contact number for the Director of the Department of Food and Civil Supplies is 079-23251170.",
-   "sources": [
+      "id": "e:service_pmjay_card__apply_at__portal_ma_gujarat_gov_in",
+      "from": "service:pmjay_card",
+      "to": "portal:ma_gujarat_gov_in",
+      "type": "APPLY_AT",
+      "verificationStatus": "EXTRACTED",
+      "note": "Published on ma.gujarat.gov.in.",
+      "sources": [
+        {
+          "sourceId": "src:189778a54c94",
+          "evidence": "2. Fix category so not require certificate",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:1dde020898e3",
-     "evidence": "ડૉ. સૌરભ પારધી\nડાયરેક્ટર​\nફોન : ૦૭૯-૨૩૨૫૧૧૭૦",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_food_and_ration_card_department__call_if__helpline_079_23251168",
-   "from": "service:food_and_ration_card_department",
-   "to": "helpline:079_23251168",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The contact number for the Joint Director of the Department of Food and Civil Supplies is 079-23251168.",
-   "sources": [
+      "id": "e:service_priority_households_phh_scheme__call_if__helpline_1800_233_5500",
+      "from": "service:priority_households_phh_scheme",
+      "to": "helpline:1800_233_5500",
+      "type": "CALL_IF",
+      "verificationStatus": "EXTRACTED",
+      "note": "The Food Ration Card Helpline is available at the toll-free number 1800-233-5500.",
+      "sources": [
+        {
+          "sourceId": "src:487d4a702330",
+          "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:1dde020898e3",
-     "evidence": "શ્રી ચેતન એ. ગાંધી\nસંયુક્ત નિયામક\nફોન : ૦૭૯-૨૩૨૫૧૧૬૮",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_food_and_ration_card_department__call_if__helpline_1800_233_5500",
-   "from": "service:food_and_ration_card_department",
-   "to": "helpline:1800_233_5500",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The toll-free helpline number for the Food and Ration Card Department is 1800-233-5500.",
-   "sources": [
+      "id": "e:service_priority_households_phh_scheme__call_if__helpline_1800_233_0222",
+      "from": "service:priority_households_phh_scheme",
+      "to": "helpline:1800_233_0222",
+      "type": "CALL_IF",
+      "verificationStatus": "EXTRACTED",
+      "note": "The Gujarat State Consumer Helpline is available at the toll-free number 1800-233-0222.",
+      "sources": [
+        {
+          "sourceId": "src:487d4a702330",
+          "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:1dde020898e3",
-     "evidence": "ટોલ ફ્રી - ૧૮૦૦-૨૩૩-૫૫૦૦",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_food_and_ration_card_department__call_if__helpline_1800_233_0222",
-   "from": "service:food_and_ration_card_department",
-   "to": "helpline:1800_233_0222",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The toll-free helpline number for the Gujarat State Consumer Help Line is 1800-233-0222.",
-   "sources": [
+      "id": "e:service_priority_households_phh_scheme__apply_at__portal_fcsca_gujarat_gov_in",
+      "from": "service:priority_households_phh_scheme",
+      "to": "portal:fcsca_gujarat_gov_in",
+      "type": "APPLY_AT",
+      "verificationStatus": "EXTRACTED",
+      "note": "Published on fcsca.gujarat.gov.in.",
+      "sources": [
+        {
+          "sourceId": "src:487d4a702330",
+          "evidence": "Family which has mechanically propelled 4 wheeler vehicle or mechanical fishing boat.",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:1dde020898e3",
-     "evidence": "ગુજરાત રાજ્ય ગ્રાહક હેલ્પલાઇન\nટોલ ફ્રી - ૧૮૦૦-૨૩૩-૦૨૨૨",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_food_and_ration_card_department__apply_at__portal_dcs_dof_gujarat_gov_in",
-   "from": "service:food_and_ration_card_department",
-   "to": "portal:dcs_dof_gujarat_gov_in",
-   "type": "APPLY_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "Published on dcs-dof.gujarat.gov.in.",
-   "sources": [
+      "id": "e:service_antyodaya_anna_yojana_aay_ration_card__call_if__helpline_1800_233_5500",
+      "from": "service:antyodaya_anna_yojana_aay_ration_card",
+      "to": "helpline:1800_233_5500",
+      "type": "CALL_IF",
+      "verificationStatus": "EXTRACTED",
+      "note": "The Food Ration Card Helpline number is 1800-233-5500.",
+      "sources": [
+        {
+          "sourceId": "src:b38b52a25dc5",
+          "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:1dde020898e3",
-     "evidence": "ઇમેઇલ : dire-cs-fcs[at]gujarat[dot]gov[dot]in",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_smart_ration_card__call_if__helpline_1800_233_5500",
-   "from": "service:smart_ration_card",
-   "to": "helpline:1800_233_5500",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The Food and Civil Supplies Department provides a toll-free helpline for ration card-related queries.",
-   "sources": [
+      "id": "e:service_antyodaya_anna_yojana_aay_ration_card__call_if__helpline_1800_233_0222",
+      "from": "service:antyodaya_anna_yojana_aay_ration_card",
+      "to": "helpline:1800_233_0222",
+      "type": "CALL_IF",
+      "verificationStatus": "EXTRACTED",
+      "note": "The Gujarat State Consumer Helpline number is 1800-233-0222.",
+      "sources": [
+        {
+          "sourceId": "src:b38b52a25dc5",
+          "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:e55ecc0b536d",
-     "evidence": "ટોલ ફ્રી - ૧૮૦૦-૨૩૩-૫૫૦૦",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_smart_ration_card__call_if__helpline_1800_233_0222",
-   "from": "service:smart_ration_card",
-   "to": "helpline:1800_233_0222",
-   "type": "CALL_IF",
-   "verificationStatus": "EXTRACTED",
-   "note": "The State Government provides a toll-free helpline for consumer-related queries.",
-   "sources": [
+      "id": "e:service_antyodaya_anna_yojana_aay_ration_card__apply_at__portal_fcsca_gujarat_gov_in",
+      "from": "service:antyodaya_anna_yojana_aay_ration_card",
+      "to": "portal:fcsca_gujarat_gov_in",
+      "type": "APPLY_AT",
+      "verificationStatus": "EXTRACTED",
+      "note": "Published on fcsca.gujarat.gov.in.",
+      "sources": [
+        {
+          "sourceId": "src:b38b52a25dc5",
+          "evidence": "Families under all Primitive Groups",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:e55ecc0b536d",
-     "evidence": "ગુજરાત રાજ્ય ગ્રાહક હેલ્પલાઇન ટોલ ફ્રી - ૧૮૦૦-૨૩૩-૦૨૨૨",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
-    }
-   ]
-  },
-  {
-   "id": "e:service_smart_ration_card__apply_at__portal_fcsca_gujarat_gov_in",
-   "from": "service:smart_ration_card",
-   "to": "portal:fcsca_gujarat_gov_in",
-   "type": "APPLY_AT",
-   "verificationStatus": "EXTRACTED",
-   "note": "Published on fcsca.gujarat.gov.in.",
-   "sources": [
+      "id": "e:service_sugar_distribution_scheme__call_if__helpline_1800_233_5500",
+      "from": "service:sugar_distribution_scheme",
+      "to": "helpline:1800_233_5500",
+      "type": "CALL_IF",
+      "verificationStatus": "EXTRACTED",
+      "note": "The Food Ration Card Helpline is available at the toll-free number 1800-233-5500.",
+      "sources": [
+        {
+          "sourceId": "src:22f542b87896",
+          "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
     {
-     "sourceId": "src:e55ecc0b536d",
-     "evidence": "સદર યોજના નાણાકીય વર્ષ ૨૦૨૪-૨૫ થી શરૂ કરવામાં આવેલ છે.",
-     "confidence": 1,
-     "verificationStatus": "EXTRACTED"
+      "id": "e:service_sugar_distribution_scheme__call_if__helpline_1800_233_0222",
+      "from": "service:sugar_distribution_scheme",
+      "to": "helpline:1800_233_0222",
+      "type": "CALL_IF",
+      "verificationStatus": "EXTRACTED",
+      "note": "The Gujarat State Consumer Helpline is available at the toll-free number 1800-233-0222.",
+      "sources": [
+        {
+          "sourceId": "src:22f542b87896",
+          "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_sugar_distribution_scheme__requires__action_sugar_distribution_scheme_the_applicant_receives_suga",
+      "from": "service:sugar_distribution_scheme",
+      "to": "action:sugar_distribution_scheme_the_applicant_receives_sugar_in_1_kg_standard_pa",
+      "type": "REQUIRES",
+      "verificationStatus": "EXTRACTED",
+      "note": "The applicant receives sugar in 1 kg standard packs based on the number of family members.",
+      "sources": [
+        {
+          "sourceId": "src:22f542b87896",
+          "evidence": "Sugar is distributed in 1 kg standard packs as follows: 1 to 4 family members: 1 kg of sugar per ration card 5 to 8 family members: 2 kg of sugar per ration card 9 or more family members: 3 kg of sugar per ration card",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_sugar_distribution_scheme__requires__action_sugar_distribution_scheme_during_the_festivals_of_jan",
+      "from": "service:sugar_distribution_scheme",
+      "to": "action:sugar_distribution_scheme_during_the_festivals_of_janmashtami_and_diwali_a",
+      "type": "REQUIRES",
+      "verificationStatus": "EXTRACTED",
+      "note": "During the festivals of Janmashtami and Diwali, an additional 1 kg of sugar is provided per ration card.",
+      "sources": [
+        {
+          "sourceId": "src:22f542b87896",
+          "evidence": "In addition, during the two major festivals of the year—Janmashtami and Diwali—AAY and BPL ration card holders are provided with an additional 1 kg of sugar per ration card at the same subsidized rates.",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_sugar_distribution_scheme__apply_at__portal_dcs_dof_gujarat_gov_in",
+      "from": "service:sugar_distribution_scheme",
+      "to": "portal:dcs_dof_gujarat_gov_in",
+      "type": "APPLY_AT",
+      "verificationStatus": "EXTRACTED",
+      "note": "Published on dcs-dof.gujarat.gov.in.",
+      "sources": [
+        {
+          "sourceId": "src:22f542b87896",
+          "evidence": "Under the Public Distribution System (PDS), the Sugar Distribution Scheme provides sugar to approximately 8 lakh Antyodaya (AAY) ration card holders at a subsidized rate of ₹15 per kg and approximately 22 lakh Below Poverty Line (BPL) ration card holders at ₹22 per kg.",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_duplicate_ration_card__requires__document_certified_copy_of_proof",
+      "from": "service:duplicate_ration_card",
+      "to": "document:certified_copy_of_proof",
+      "type": "REQUIRES",
+      "verificationStatus": "EXTRACTED",
+      "note": "A certified copy of the proof is required for a duplicate ration card.",
+      "sources": [
+        {
+          "sourceId": "src:382646d73ae7",
+          "evidence": "પુરાવાઓની પ્રમાણિત નકલ",
+          "confidence": 0.9,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_duplicate_ration_card__requires__document_lost_card_details",
+      "from": "service:duplicate_ration_card",
+      "to": "document:lost_card_details",
+      "type": "REQUIRES",
+      "verificationStatus": "EXTRACTED",
+      "note": "If the card is lost, a zerox copy of the lost ration card or a certificate showing the card number and population details from the shop owner is required.",
+      "sources": [
+        {
+          "sourceId": "src:382646d73ae7",
+          "evidence": "જે વ્યાજબી ભાવની દુકાનનું કાર્ડ ધરાવતા હોય તે દુકાનના સંચાલકશ્રીનું કાર્ડ નંબર, જનસંખ્યાની વિગત દર્શાવતું પ્રમાણપત્ર અથવા ખોવાયેલ રેશનકાર્ડની ઝેરોક્ષ નકલ.",
+          "confidence": 0.9,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_duplicate_ration_card__requires__document_torn_or_damaged_card",
+      "from": "service:duplicate_ration_card",
+      "to": "document:torn_or_damaged_card",
+      "type": "REQUIRES",
+      "verificationStatus": "EXTRACTED",
+      "note": "If the card is torn or damaged, the original torn or damaged ration card must be submitted.",
+      "sources": [
+        {
+          "sourceId": "src:382646d73ae7",
+          "evidence": "ફાટી ગયેલ અથવા બગડી ગયેલ કાર્ડને બદલે ડુપ્લીકેટ રેશનકાર્ડ મેળવવાનું હોય તો ફાટેલું / બગડેલું અસલ રેશન કાર્ડ.",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_duplicate_ration_card__apply_at__portal_collectorgirsomnath_gujarat_gov_in",
+      "from": "service:duplicate_ration_card",
+      "to": "portal:collectorgirsomnath_gujarat_gov_in",
+      "type": "APPLY_AT",
+      "verificationStatus": "EXTRACTED",
+      "note": "Published on collectorgirsomnath.gujarat.gov.in.",
+      "sources": [
+        {
+          "sourceId": "src:382646d73ae7",
+          "evidence": "હું કઈ રીતે ડુપ્લીકેટ રેશન કાર્ડ મેળવી શકું? તાલુકામાં મામલતદારશ્રીને, પરિશિષ્ટ-૧/૬૬ મુજબ અરજી કરવી.",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_food_ration_card__call_if__helpline_079_23251170",
+      "from": "service:food_ration_card",
+      "to": "helpline:079_23251170",
+      "type": "CALL_IF",
+      "verificationStatus": "EXTRACTED",
+      "note": "The contact phone number for the Director of Food and Civil Supplies is 079-23251170.",
+      "sources": [
+        {
+          "sourceId": "src:1ee7c5fd9ac8",
+          "evidence": "Dr. Saurabh Pardhi\nDirector\nPhone : 079-23251170",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_food_ration_card__call_if__helpline_079_23251168",
+      "from": "service:food_ration_card",
+      "to": "helpline:079_23251168",
+      "type": "CALL_IF",
+      "verificationStatus": "EXTRACTED",
+      "note": "The contact phone number for the Joint Director is 079-23251168.",
+      "sources": [
+        {
+          "sourceId": "src:1ee7c5fd9ac8",
+          "evidence": "Shri Chetan A. Gandhi,\nJoint Director\nPhone : 079-23251168",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_food_ration_card__call_if__helpline_1800_233_5500",
+      "from": "service:food_ration_card",
+      "to": "helpline:1800_233_5500",
+      "type": "CALL_IF",
+      "verificationStatus": "EXTRACTED",
+      "note": "The Food Ration Card Helpline number is toll-free at 1800-233-5500.",
+      "sources": [
+        {
+          "sourceId": "src:1ee7c5fd9ac8",
+          "evidence": "Food Ration Card Helpline\nToll Free - 1800-233-5500",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_food_ration_card__call_if__helpline_1800_233_0222",
+      "from": "service:food_ration_card",
+      "to": "helpline:1800_233_0222",
+      "type": "CALL_IF",
+      "verificationStatus": "EXTRACTED",
+      "note": "The Gujarat State Consumer Helpline number is toll-free at 1800-233-0222.",
+      "sources": [
+        {
+          "sourceId": "src:1ee7c5fd9ac8",
+          "evidence": "Gujarat State Consumer Helpline\nToll Free - 1800-233-0222",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_food_ration_card__visit_at__office_district_consumer_disputes_redressal_commission_in_na",
+      "from": "service:food_ration_card",
+      "to": "office:district_consumer_disputes_redressal_commission_in_navsari",
+      "type": "VISIT_AT",
+      "verificationStatus": "EXTRACTED",
+      "note": "The District Consumer Disputes Redressal Commission in Navsari is located at Near Gujarat State Civil Supply Cooperation Ltd. Godawn, Limdachowk, Jallalpore Station Road, Navsari-396 445.",
+      "sources": [
+        {
+          "sourceId": "src:afddebe16bc3",
+          "evidence": "District Consumer Disputes RedressalCommission, Navsari, Near Gujarat State Civil Supply Cooperation Ltd.Godawn, Limdachowk, Jallalpore Station Road, Navsari-396 445.",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_food_ration_card__visit_at__office_directorate_of_food_and_civil_supplies",
+      "from": "service:food_ration_card",
+      "to": "office:directorate_of_food_and_civil_supplies",
+      "type": "VISIT_AT",
+      "verificationStatus": "EXTRACTED",
+      "note": "The Directorate of Food and Civil Supplies is located at Block No. 14, 6th Floor, Sardar Bhavan, New Sachivalya, Gandhinagar - 382 010, Gujarat, India.",
+      "sources": [
+        {
+          "sourceId": "src:9f5cd471077c",
+          "evidence": "Directorate of Food and Civil Supplies, Gujarat State Director of Food and Civil Supplies Block No. 14, 6th Floor, Sardar Bhavan, New Sachivalya, Gandhinagar - 382 010 Gujarat, India",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_food_ration_card__call_if__helpline_079_232_58485",
+      "from": "service:food_ration_card",
+      "to": "helpline:079_232_58485",
+      "type": "CALL_IF",
+      "verificationStatus": "EXTRACTED",
+      "note": "The Gujarat State Food Commission can be contacted via phone at 079-232-58485.",
+      "sources": [
+        {
+          "sourceId": "src:e4cf5402b426",
+          "evidence": "Phone: 079-232-58485",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_food_ration_card__apply_at__portal_dcs_dof_gujarat_gov_in",
+      "from": "service:food_ration_card",
+      "to": "portal:dcs_dof_gujarat_gov_in",
+      "type": "APPLY_AT",
+      "verificationStatus": "EXTRACTED",
+      "note": "Published on dcs-dof.gujarat.gov.in.",
+      "sources": [
+        {
+          "sourceId": "src:e4cf5402b426",
+          "evidence": "E-mail: sfc-gujarat[at]gujarat[dot]gov[dot]in",
+          "confidence": 0.95,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_food_and_ration_card_department__visit_at__office_department_of_food_and_civil_supplies",
+      "from": "service:food_and_ration_card_department",
+      "to": "office:department_of_food_and_civil_supplies",
+      "type": "VISIT_AT",
+      "verificationStatus": "EXTRACTED",
+      "note": "The main office of the Department of Food and Civil Supplies is located at Block No. 14/6th Floor, Sardar Bhavan, New Secretariat, Gandhinagar-382010, Gujarat, India.",
+      "sources": [
+        {
+          "sourceId": "src:1dde020898e3",
+          "evidence": "કચેરીનું સરનામું\nનિયામક અન્‍ન અને નાગરિક પુરવઠા કચેરી, બ્લોક નં. ૧૪/૬ઠ્ઠો માળ,\nસરદાર ભવન,\nનવા સચિવાલય,\nગાંધીનગર-૩૮૨૦૧૦\nગુજરાત, ભારત",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_food_and_ration_card_department__call_if__helpline_079_23251170",
+      "from": "service:food_and_ration_card_department",
+      "to": "helpline:079_23251170",
+      "type": "CALL_IF",
+      "verificationStatus": "EXTRACTED",
+      "note": "The contact number for the Director of the Department of Food and Civil Supplies is 079-23251170.",
+      "sources": [
+        {
+          "sourceId": "src:1dde020898e3",
+          "evidence": "ડૉ. સૌરભ પારધી\nડાયરેક્ટર​\nફોન : ૦૭૯-૨૩૨૫૧૧૭૦",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_food_and_ration_card_department__call_if__helpline_079_23251168",
+      "from": "service:food_and_ration_card_department",
+      "to": "helpline:079_23251168",
+      "type": "CALL_IF",
+      "verificationStatus": "EXTRACTED",
+      "note": "The contact number for the Joint Director of the Department of Food and Civil Supplies is 079-23251168.",
+      "sources": [
+        {
+          "sourceId": "src:1dde020898e3",
+          "evidence": "શ્રી ચેતન એ. ગાંધી\nસંયુક્ત નિયામક\nફોન : ૦૭૯-૨૩૨૫૧૧૬૮",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_food_and_ration_card_department__call_if__helpline_1800_233_5500",
+      "from": "service:food_and_ration_card_department",
+      "to": "helpline:1800_233_5500",
+      "type": "CALL_IF",
+      "verificationStatus": "EXTRACTED",
+      "note": "The toll-free helpline number for the Food and Ration Card Department is 1800-233-5500.",
+      "sources": [
+        {
+          "sourceId": "src:1dde020898e3",
+          "evidence": "ટોલ ફ્રી - ૧૮૦૦-૨૩૩-૫૫૦૦",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_food_and_ration_card_department__call_if__helpline_1800_233_0222",
+      "from": "service:food_and_ration_card_department",
+      "to": "helpline:1800_233_0222",
+      "type": "CALL_IF",
+      "verificationStatus": "EXTRACTED",
+      "note": "The toll-free helpline number for the Gujarat State Consumer Help Line is 1800-233-0222.",
+      "sources": [
+        {
+          "sourceId": "src:1dde020898e3",
+          "evidence": "ગુજરાત રાજ્ય ગ્રાહક હેલ્પલાઇન\nટોલ ફ્રી - ૧૮૦૦-૨૩૩-૦૨૨૨",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_food_and_ration_card_department__apply_at__portal_dcs_dof_gujarat_gov_in",
+      "from": "service:food_and_ration_card_department",
+      "to": "portal:dcs_dof_gujarat_gov_in",
+      "type": "APPLY_AT",
+      "verificationStatus": "EXTRACTED",
+      "note": "Published on dcs-dof.gujarat.gov.in.",
+      "sources": [
+        {
+          "sourceId": "src:1dde020898e3",
+          "evidence": "ઇમેઇલ : dire-cs-fcs[at]gujarat[dot]gov[dot]in",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_smart_ration_card__call_if__helpline_1800_233_5500",
+      "from": "service:smart_ration_card",
+      "to": "helpline:1800_233_5500",
+      "type": "CALL_IF",
+      "verificationStatus": "EXTRACTED",
+      "note": "The Food and Civil Supplies Department provides a toll-free helpline for ration card-related queries.",
+      "sources": [
+        {
+          "sourceId": "src:e55ecc0b536d",
+          "evidence": "ટોલ ફ્રી - ૧૮૦૦-૨૩૩-૫૫૦૦",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_smart_ration_card__call_if__helpline_1800_233_0222",
+      "from": "service:smart_ration_card",
+      "to": "helpline:1800_233_0222",
+      "type": "CALL_IF",
+      "verificationStatus": "EXTRACTED",
+      "note": "The State Government provides a toll-free helpline for consumer-related queries.",
+      "sources": [
+        {
+          "sourceId": "src:e55ecc0b536d",
+          "evidence": "ગુજરાત રાજ્ય ગ્રાહક હેલ્પલાઇન ટોલ ફ્રી - ૧૮૦૦-૨૩૩-૦૨૨૨",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
+    },
+    {
+      "id": "e:service_smart_ration_card__apply_at__portal_fcsca_gujarat_gov_in",
+      "from": "service:smart_ration_card",
+      "to": "portal:fcsca_gujarat_gov_in",
+      "type": "APPLY_AT",
+      "verificationStatus": "EXTRACTED",
+      "note": "Published on fcsca.gujarat.gov.in.",
+      "sources": [
+        {
+          "sourceId": "src:e55ecc0b536d",
+          "evidence": "સદર યોજના નાણાકીય વર્ષ ૨૦૨૪-૨૫ થી શરૂ કરવામાં આવેલ છે.",
+          "confidence": 1,
+          "verificationStatus": "EXTRACTED"
+        }
+      ]
     }
-   ]
-  }
- ],
- "requirementGroups": [],
- "questions": []
+  ],
+  "requirementGroups": [],
+  "questions": []
 }

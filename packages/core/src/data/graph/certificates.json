@@ -1385,7 +1385,19 @@
         "phoneNumbers": [
           "07927551681",
           "18002335500"
-        ]
+        ],
+        "location": {
+          "latitude": 21.772431,
+          "longitude": 72.145476,
+          "provenance": "DERIVED",
+          "provider": "OSM_PHOTON",
+          "status": "REVIEW_REQUIRED",
+          "precision": "office",
+          "geocodedAt": "2026-08-25",
+          "sourceAddressHash": "1031bf9f",
+          "query": "Jan Seva Kendra, Ahmedabad, Gujarat, India",
+          "note": "address says 380027, geocoder says 364001"
+        }
       },
       "sources": [
         {
