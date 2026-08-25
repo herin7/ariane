@@ -1,0 +1,61 @@
+{
+  "generatedBy": "pnpm services:deepen",
+  "retrievals": 32,
+  "services": 5,
+  "passages": 215,
+  "unanchored": 707,
+  "partialNameMatch": 6,
+  "noEvidence": 1,
+  "byDimension": {
+    "ELIGIBILITY": {
+      "tried": 3,
+      "found": 3,
+      "candidates": 20
+    },
+    "ACTIONS": {
+      "tried": 5,
+      "found": 5,
+      "candidates": 30
+    },
+    "FEES": {
+      "tried": 4,
+      "found": 4,
+      "candidates": 12
+    },
+    "TRACKING": {
+      "tried": 4,
+      "found": 4,
+      "candidates": 11
+    },
+    "OFFICE": {
+      "tried": 2,
+      "found": 2,
+      "candidates": 21
+    },
+    "VERIFICATION": {
+      "tried": 4,
+      "found": 4,
+      "candidates": 42
+    },
+    "DOCUMENTS": {
+      "tried": 1,
+      "found": 1,
+      "candidates": 4
+    },
+    "HELPLINE": {
+      "tried": 3,
+      "found": 2,
+      "candidates": 2
+    },
+    "OUTPUT": {
+      "tried": 3,
+      "found": 3,
+      "candidates": 52
+    },
+    "ISSUING_AUTHORITY": {
+      "tried": 3,
+      "found": 3,
+      "candidates": 21
+    }
+  }
+}

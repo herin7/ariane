@@ -269,6 +269,33 @@ if (isMain && flag("selftest")) {
   process.exit(0);
 }
 
+/**
+ * The other cache. `.firecrawl/` is where a person saved a page they read.
+ *
+ * Found by searching the corpus for Income Certificate and getting back twenty
+ * scholarship pages: none of that service's own source pages were in the index,
+ * because all three were fetched by hand into `.firecrawl/` long before
+ * `.ingest/pages/` existed. 27 of 553 services are in that state, and the five
+ * hero journeys are all of them, so the pages the product was built on were the
+ * pages retrieval could not see.
+ *
+ * fetch-ledger.mjs already resolves url to cache file across both caches and
+ * already fails the build when one goes missing, so this reuses its output
+ * rather than walking the directory again. sha1 is of the url in both caches,
+ * so a page saved by hand and the same page fetched by the pipeline collide on
+ * one id instead of being indexed twice.
+ *
+ * The 3 html files are skipped. A chunk must be a slice of the text a quote is
+ * checked against, and nobody checks a quote against raw markup.
+ */
+function handSaved() {
+  const ledger = JSON.parse(readFileSync(at("docs/research/fetch-ledger.json"), "utf8"));
+  const seen = new Set(readJsonl(".ingest/pages.jsonl").map((p) => p.url));
+  return (ledger.entries ?? ledger)
+    .filter((e) => e.status === "CACHED" && e.cacheFile?.startsWith(".firecrawl/") && e.cacheFile.endsWith(".md") && !seen.has(e.url))
+    .map((e) => ({ url: e.url, file: e.cacheFile, sha1: sha1(e.url), contentHash: e.sha256, host: new URL(e.url).hostname.replace(/^www\./, ""), title: e.title, chars: e.bytes }));
+}
+
 // --------------------------------------------------------------------- chunk
 //
 // A block rather than an early return, because a module cannot return and an
@@ -277,14 +304,14 @@ if (isMain && flag("selftest")) {
 // enough.
 
 if (isMain) {
-const pages = readJsonl(".ingest/pages.jsonl").filter((p) => p.sha1);
+const pages = [...readJsonl(".ingest/pages.jsonl").filter((p) => p.sha1), ...handSaved()];
 const limit = Number(value("limit", pages.length));
 
 const rows = [];
 let read = 0;
 let missing = 0;
 for (const page of pages.slice(0, limit)) {
-  const file = at(`.ingest/pages/${page.sha1}.md`);
+  const file = at(page.file ?? `.ingest/pages/${page.sha1}.md`);
   if (!existsSync(file)) {
     missing++;
     continue;

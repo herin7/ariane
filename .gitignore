@@ -53,6 +53,12 @@ TODO.md
 # file is a build artefact of two things already in the repo.
 .ingest/chunks.jsonl
 
+# evidence.jsonl is chunks.jsonl's case one step further along: shortlists of
+# chunk ids, produced by `pnpm services:deepen` from the committed graph and the
+# committed pages with no model call and no network. Every row rebuilds. The
+# aggregate lives in docs/research/evidence.json, which is committed.
+.ingest/evidence.jsonl
+
 # deps
 node_modules/
 .pnpm-store/
