@@ -36,6 +36,20 @@ describe("plain language, in whichever script the citizen types it", () => {
   }
 });
 
+describe("a central service is named, not guessed at", () => {
+  // This used to assert passport returned nothing at all, which was the right
+  // answer while the graph had never heard of it. It has now, and the honest
+  // reply changed with it: we know the service, we know the Ministry of
+  // External Affairs runs it, and we know we have not built it. Saying that is
+  // strictly better than the silence this line used to require.
+  it("passport resolves and admits it is not built", () => {
+    const hit = top("passport renewal appointment");
+    expect(hit?.goal).toBe("service:passport");
+    expect(hit?.supportStatus).toBe("COMING_SOON");
+    expect(hit?.authorityLevel).toBe("CENTRAL");
+  });
+});
+
 describe("what it refuses to do", () => {
   it("tokenises Gujarati at all, which the ASCII only split silently did not", () => {
     // The regression: /[^a-z0-9']+/ deleted every character of this and left an
@@ -44,7 +58,7 @@ describe("what it refuses to do", () => {
   });
 
   it("returns nothing rather than a nearest guess for a service we do not have", () => {
-    expect(resolveIntent(data, "passport renewal appointment")).toEqual([]);
+    expect(resolveIntent(data, "fishing licence for the arabian sea")).toEqual([]);
   });
 
   it("only ever answers with services that exist in the graph", () => {
