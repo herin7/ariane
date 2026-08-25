@@ -1,0 +1,5 @@
+[
+  { "id": "XX", "level": "COUNTRY", "name": "Exampleland" },
+  { "id": "XX-EX", "parentId": "XX", "level": "STATE", "name": "Example State" },
+  { "id": "XX-EX-EXAMPLE", "parentId": "XX-EX", "level": "DISTRICT", "name": "Example District" }
+]
