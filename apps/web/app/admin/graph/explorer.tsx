@@ -7,6 +7,7 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import { place } from "./place";
+import { SPINE_NOTE, isSpine, spine, type Citizen } from "./spine";
 
 /**
  * How Ariane figured it out.
@@ -18,6 +19,12 @@ import { place } from "./place";
  * catalogue. A picture of three thousand nodes proves nothing to anybody: it is
  * a screensaver that happens to be true.
  */
+
+/**
+ * Who we are compiling for. One constant, because the graph the citizen is
+ * shown and the person drawn at the left of it have to be the same claim.
+ */
+const WHO: Citizen = { country: "India", state: "Gujarat", district: "Ahmedabad" };
 
 export interface GoalOption {
   id: string;
@@ -60,7 +67,7 @@ export function GraphExplorer({ goals }: { goals: GoalOption[] }) {
     fetch("/api/journeys/compile", {
       method: "POST",
       headers: { "content-type": "application/json" },
-      body: JSON.stringify({ goal, jurisdiction: { country: "India", state: "Gujarat", district: "Ahmedabad" } }),
+      body: JSON.stringify({ goal, jurisdiction: { country: WHO.country, state: WHO.state, district: WHO.district } }),
     })
       .then(async (r) => {
         const body = await r.json();
@@ -119,7 +126,11 @@ export function GraphExplorer({ goals }: { goals: GoalOption[] }) {
       },
     }));
 
-    return { nodes, edges };
+    // The citizen, drawn to the left of everything the state asks of them. A
+    // presentation layer: nothing below is written back to the graph and every
+    // line it adds is dashed, because none of it came off a government page.
+    const me = spine(journey, WHO);
+    return { nodes: [...me.nodes, ...nodes], edges: [...me.edges, ...edges] };
   }, [journey]);
 
   // A dropdown of every service was fine at twenty eight and is a scroll at five
@@ -205,8 +216,10 @@ export function GraphExplorer({ goals }: { goals: GoalOption[] }) {
       </div>
 
       <p className="small faint" style={{ marginTop: 12 }}>
-        A dashed line applies only in some cases. A moving line is where official pages contradict
-        each other, and we kept both rather than picking one.
+        The circles on the left are you, not the government, and the dashed lines around them are
+        the only ones in this picture with no page behind them. Everywhere else a dashed line
+        applies only in some cases, and a moving line is where official pages contradict each
+        other and we kept both rather than picking one.
         {journey ? ` ${journey.graph.nodes.length} boxes, ${journey.graph.edges.length} lines.` : ""}
       </p>
     </div>
@@ -239,9 +252,28 @@ function Inspector({
   }
 
   if (selected.kind === "node") {
+    if (isSpine(selected.id)) {
+      return (
+        <div className="card">
+          <span className="tag">you</span>
+          <h3 style={{ marginTop: 8 }}>Not a government fact</h3>
+          <p className="small muted" style={{ margin: "8px 0 0" }}>{SPINE_NOTE}</p>
+        </div>
+      );
+    }
     const node = journey.graph.nodes.find((n) => n.id === selected.id);
     if (!node) return <div className="card"><h3>That one is gone</h3></div>;
     return <NodePanel node={node} state={journey.nodeStates[node.id]} sources={journey.sources} />;
+  }
+
+  if (isSpine(selected.id)) {
+    return (
+      <div className="card">
+        <span className="tag">you</span>
+        <h3 style={{ marginTop: 8 }}>Not a government fact</h3>
+        <p className="small muted" style={{ margin: "8px 0 0" }}>{SPINE_NOTE}</p>
+      </div>
+    );
   }
 
   const edge = journey.graph.edges.find((e) => e.id === selected.id);
