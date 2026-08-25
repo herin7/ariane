@@ -28,6 +28,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:7fd29c1cf6e0",
+   "url": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/challan-correction-request-UM",
+   "title": "Challan Correction Request User Manual | Income Tax Department",
+   "domain": "incometax.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "14a94679ab84dcd21fd9a0e9f1e238cd614d86e8da02e9a0c66e85a85b4a0b7b",
+   "cacheFile": ".ingest/pages/7fd29c1cf6e0e202abfb02e4cd27e86a2df70c39.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:29580f620b91",
    "url": "https://www.incometax.gov.in/iec/foportal/help/taxdeductor/registration",
    "title": "Registration | Income Tax Department",
@@ -52,6 +64,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:f6fdb701300e",
+   "url": "https://www.incometax.gov.in/iec/foportal/help/statutory-forms/popular-form/form-10-IEA-faq",
+   "title": "Form 10-IEA FAQ | Income Tax Department",
+   "domain": "incometax.gov.in",
+   "sourceType": "FAQ",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "0549e825506df1ad5e5384cb93fee0fb335c1e15c9d1dfcc8f836f5ff4310e08",
+   "cacheFile": ".ingest/pages/f6fdb701300edb682a004464461d3143f2f4ed53.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:5a938caa93ad",
    "url": "http://www.incometax.gov.in/iec/foportal/hi/help/taxdeductor/registration",
    "title": "पंजीकरण | Income Tax Department",
@@ -61,6 +85,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "9586a03c5c7fa20f8b7fa5f8faa5a11f13812722da603ab66b8209cedbf05a20",
    "cacheFile": ".ingest/pages/5a938caa93add48181919fa5d4e507d1eb7669f0.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:f34b63e80482",
+   "url": "http://www.incometax.gov.in/iec/foportal/help/register-for-efiling-external-agency",
+   "title": "Register for e-Filing (External Agency) User Manual | Income Tax Department",
+   "domain": "incometax.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "706539722d6b692a001aa76ce8a9379679bf605a072c27b3317a575b23a9fe8c",
+   "cacheFile": ".ingest/pages/f34b63e80482cb78262b26b5dfaeea088f21e3b8.md",
    "scrapedOk": true
   },
   {
@@ -640,6 +676,126 @@
    "confidence": 1
   },
   {
+   "claim": "An applicant can check the status of a challan correction request under 'Services → Challan Correction'.",
+   "kind": "TRACKING",
+   "subject": "challan_correction",
+   "object": "status_check",
+   "detail": {
+    "method": "Services → Challan Correction"
+   },
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "Users can check the status under Services → Challan Correction.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant can download the corrected challan details after correction has been processed.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "corrected_challan",
+   "detail": {
+    "path": "Post Login → Services → Challan Correction → Download Corrected Details"
+   },
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "You can download the corrected challan details using the following path: Path: Post Login → Services → Challan Correction → Download Corrected Details",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives email and SMS notifications once the challan correction is processed.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "confirmation",
+   "detail": {
+    "method": "email and SMS"
+   },
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "Yes. Users receive email and SMS notifications on their registered email ID and mobile number once the challan correction request is processed.",
+   "confidence": 1
+  },
+  {
+   "claim": "Users may contact their Jurisdictional Assessing Officer if their correction request status shows 'Pending' for a long time.",
+   "kind": "OFFICE",
+   "subject": "challan_correction",
+   "object": "jurisdictional_assessing_officer",
+   "detail": {},
+   "sourceId": "src:5b01f9f92250",
+   "evidence": "Users may:\n• Raise a grievance on the e Filing portal, or\n• Contact their Jurisdictional Assessing Officer.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant clicks Services > Challan Correction on the Dashboard.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "click_services_challan_correction",
+   "detail": {},
+   "sourceId": "src:7fd29c1cf6e0",
+   "evidence": "Step 2: On the Dashboard, click Services > Challan Correction.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant clicks the '+ Create Challan Correction Request' option to create a new request.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "click_create_challan_correction_request",
+   "detail": {},
+   "sourceId": "src:7fd29c1cf6e0",
+   "evidence": "Step 3: On the Challan Correction page, click the “+ Create Challan Correction Request” option to create a new Challan Correction Request.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant selects the relevant attribute for correction in the challan.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "select_attribute_for_correction",
+   "detail": {},
+   "sourceId": "src:7fd29c1cf6e0",
+   "evidence": "Step 4: You are required to select the relevant attribute for correction in the challan. Select the appropriate option (multiple options can be selected as applicable)and click Continue.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant selects the Tax year/Assessment Year or Challan Identification Number (CIN) to create a challan correction request.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "select_tax_year_or_cin",
+   "detail": {},
+   "sourceId": "src:7fd29c1cf6e0",
+   "evidence": "Step 5: You are required to select the Tax year/Assessment Year or Challan Identification Number (CIN) to create challan correction request .Based on selection the unconsumed challans will be displayed for the correction. Click Continue to proceed.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant can view the status of the challan correction request by clicking 'View Challan Correction Status'.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "view_challan_correction_status",
+   "detail": {},
+   "sourceId": "src:7fd29c1cf6e0",
+   "evidence": "Step 9: Post e-verification, a success message will be displayed. You can click View Challan Correction Status to know the status of challan correction.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant can check the status of a challan correction request by clicking 'View Challan Correction Status'.",
+   "kind": "TRACKING",
+   "subject": "challan_correction",
+   "object": "status_check",
+   "detail": {
+    "method": "click View Challan Correction Status"
+   },
+   "sourceId": "src:7fd29c1cf6e0",
+   "evidence": "Step 9: Post e-verification, a success message will be displayed. You can click View Challan Correction Status to know the status of challan correction.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant can check the status of a challan correction request by repeating steps 1 to 3 and viewing details on the challan correction page.",
+   "kind": "TRACKING",
+   "subject": "challan_correction",
+   "object": "status_check",
+   "detail": {
+    "method": "repeat Step 1 to Step 3 and view details on the challan correction page"
+   },
+   "sourceId": "src:7fd29c1cf6e0",
+   "evidence": "Step 10: To Check Challan Correction Request Status, please repeat Step 1 to Step 3 . At challan correction page” You can view details and check status for Challan Correction Requests raised by you”.",
+   "confidence": 1
+  },
+  {
    "claim": "Tax Deductors and Collectors must register on the e-Filing Portal.",
    "kind": "ACTION",
    "subject": "tax_deductor_collector",
@@ -937,6 +1093,123 @@
    "confidence": 1
   },
   {
+   "claim": "The applicant goes to the e-Filing portal and clicks login.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "e_filing_portal",
+   "detail": {},
+   "sourceId": "src:894f44f70a8c",
+   "evidence": "Step 1: Go to the e-Filing portal and click login.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant enters their user ID and password on the login page.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "login_page",
+   "detail": {},
+   "sourceId": "src:894f44f70a8c",
+   "evidence": "Step 2 : On Login Page enter your user ID and password.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant navigates to the e-File menu and selects 'File Income Tax Forms'.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "e_file_menu",
+   "detail": {},
+   "sourceId": "src:894f44f70a8c",
+   "evidence": "Step 3 : On your Dashboard , Go to e- File menu > Income Tax Forms > File Income Tax Forms.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant chooses an e-verification option to verify the form.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "form_10_iea",
+   "detail": {},
+   "sourceId": "src:894f44f70a8c",
+   "evidence": "Step 10: Choose to e-verify from below options to verify the form.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant clicks 'Yes' to submit the form.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "form_10_iea",
+   "detail": {},
+   "sourceId": "src:894f44f70a8c",
+   "evidence": "Step 11: After verification Click on ''Yes'' to Submit the Form.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant notes the transaction ID for future reference after the form is submitted successfully.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "transaction_id",
+   "detail": {},
+   "sourceId": "src:894f44f70a8c",
+   "evidence": "Now Form is submitted Successfully Note the Transaction Id for the future reference.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives a receipt and can download the form after submission.",
+   "kind": "ACTION",
+   "subject": "form_10_iea",
+   "object": "applicant",
+   "detail": {
+    "receipt": true,
+    "download": true
+   },
+   "sourceId": "src:894f44f70a8c",
+   "evidence": "You can download the Form and receipt.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant can view the life cycle of the form to track its status.",
+   "kind": "ACTION",
+   "subject": "form_10_iea",
+   "object": "applicant",
+   "detail": {
+    "tracking": "life_cycle"
+   },
+   "sourceId": "src:894f44f70a8c",
+   "evidence": "Click on View details to see the life cycle of form",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Form 10-IEA is required to be submitted if the taxpayer has income under the head 'Profits and Gains of Business and Profession' and wants to opt out or re-enter the new tax regime.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "form_10_iea_submission",
+   "object": "income_under_business_and_profession",
+   "detail": {},
+   "sourceId": "src:f6fdb701300e",
+   "evidence": "You will be required to submit Form 10-IEA if you want to opt out / re-enter new tax regime and have Income under the Head “Profits and Gains of Business and Profession.”",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant can check the status of Form 10-IEA by logging into the Income Tax e-Filing portal.",
+   "kind": "TRACKING",
+   "subject": "form_10_iea",
+   "object": "income_tax_efiling_portal",
+   "detail": {},
+   "sourceId": "src:f6fdb701300e",
+   "evidence": "19. How can I check the status of Form 10-IEA after filing?\nYou can check the filing status of Form 10-IEA by logging into the Income Tax e-Filing portal.",
+   "confidence": 1
+  },
+  {
+   "claim": "The status of Form 10-IEA can be viewed under the e-file tab in the Income Tax e-Filing portal.",
+   "kind": "TRACKING",
+   "subject": "form_10_iea",
+   "object": "income_tax_efiling_portal",
+   "detail": {
+    "path": "e-file tab----> Income Tax Forms---->View filed forms---->search for Form 10-IEA"
+   },
+   "sourceId": "src:f6fdb701300e",
+   "evidence": "Filed form details can be viewed under e-file tab----> Income Tax Forms---->View filed forms---->search for Form 10-IEA and check the status whether it is valid or invalid",
+   "confidence": 1
+  },
+  {
    "claim": "A taxpayer must provide the basic details of the person who will be making the payment or collecting the tax.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "taxpayer",
@@ -1039,6 +1312,16 @@
    "confidence": 0.95
   },
   {
+   "claim": "The e-filing registration requires approval from ITD before accessing the e-filing portal.",
+   "kind": "ACTION",
+   "subject": "e_filing_registration",
+   "object": "itd_approval",
+   "detail": {},
+   "sourceId": "src:f34b63e80482",
+   "evidence": "The Registration service enables the user to access requested webservices post ITD approval and to allow login to e-filing portal as external agency user.",
+   "confidence": 0.9
+  },
+  {
    "claim": "Form 15CA must be submitted before making a payment to a Non-Resident or a Foreign Company.",
    "kind": "ACTION",
    "subject": "form_15ca_submission",
@@ -1121,6 +1404,7 @@
  ],
  "notFound": [
   "Challan Correction: https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/challan-correction-request lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Challan Correction: https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/challan-correction-request-UM lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Form 10-IEA: https://www.incometax.gov.in/iec/foportal/help/statutory-forms/popular-form/form-10-IEA-um lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "e-filing registration: http://www.incometax.gov.in/iec/foportal/hi/help/taxdeductor/registration lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Form 15CA: https://www.incometax.gov.in/iec/foportal/help/statutory-forms/popular-forms/form-15ca-faq lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page."

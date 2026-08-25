@@ -512,7 +512,7 @@
    "url": "https://www.myscheme.gov.in/schemes/dbabocwwb",
    "title": "Death Benefit (A.B.O.C.W.W.B)",
    "domain": "myscheme.gov.in",
-   "sourceType": "SERVICE_PAGE",
+   "sourceType": "OFFICE_DIRECTORY",
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "024ec4a9b04503ca4969e1f76f96307ae3631025f1eb898ab0d0852afe491a46",
@@ -2360,6 +2360,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:7cf9b8e687f7",
+   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/user_manual/Garment_Policy_guidelines.pdf#page=9",
+   "title": "Garment_Policy_guidelines (page 9 of 22)",
+   "domain": "ifp.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "2226bfab7eeccfe62fe0459e10644ca68a32778a2a0ab4fbfd46114f81344985",
+   "cacheFile": ".ingest/pages/7cf9b8e687f7ea0bf9a27004ad45a4f2fd6106f3.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:df0af776cfa3",
    "url": "https://ma.gujarat.gov.in/documents/AYUSHMAN%20SARTHI%20Application%20PMJAY%20ma%20yojana.pdf#page=2",
    "title": "AYUSHMAN%20SARTHI%20Application%20PMJAY%20ma%20yojana (page 2 of 3)",
@@ -2369,6 +2381,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "5ded09fcbb165ef2c454bdc4c38cb9b0c44851e277a54f1091cee3fe869f6074",
    "cacheFile": ".ingest/pages/df0af776cfa35da934957c0b76cf8276d8598079.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:c5a5a340d0bf",
+   "url": "https://ma.gujarat.gov.in/documents/AYUSHMAN%20SARTHI%20Application%20PMJAY%20ma%20yojana.pdf#page=1",
+   "title": "AYUSHMAN%20SARTHI%20Application%20PMJAY%20ma%20yojana (page 1 of 3)",
+   "domain": "ma.gujarat.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "5aed38c6c8516b21df8958c803a64356a32d435416f2f17ae371844564352206",
+   "cacheFile": ".ingest/pages/c5a5a340d0bffc22a6de5e0655e15ecd932832f2.md",
    "scrapedOk": true
   },
   {
@@ -3167,18 +3191,6 @@
    "scrapedOk": true
   },
   {
-   "id": "src:7cf9b8e687f7",
-   "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/user_manual/Garment_Policy_guidelines.pdf#page=9",
-   "title": "Garment_Policy_guidelines (page 9 of 22)",
-   "domain": "ifp.gujarat.gov.in",
-   "sourceType": "GUIDELINE",
-   "jurisdictionId": "IN-GJ",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "2226bfab7eeccfe62fe0459e10644ca68a32778a2a0ab4fbfd46114f81344985",
-   "cacheFile": ".ingest/pages/7cf9b8e687f7ea0bf9a27004ad45a4f2fd6106f3.md",
-   "scrapedOk": true
-  },
-  {
    "id": "src:dc3afc404f9f",
    "url": "https://gssp.gujarat.gov.in/LoginApp/DownLoad/Guideline%20for%20SC%20Students%20(DGP)%202025-26.pdf#page=3",
    "title": "Guideline%20for%20SC%20Students%20(DGP)%202025-26 (page 3 of 9)",
@@ -3320,6 +3332,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "a77165f6e8d7070126b5fe09b08c861c6385a1e34916c4dc350110f746cbc044",
    "cacheFile": ".ingest/pages/911f6e1cdf457ed9992164134bf0c8fae43f9a49.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:097a5d06bf03",
+   "url": "https://betivadhaao.gujarat.gov.in/Default.aspx/1000",
+   "title": "Home|Betivadhaao, Health and Family welfare department",
+   "domain": "betivadhaao.gujarat.gov.in",
+   "sourceType": "PORTAL_HOME",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "5a46954b14c42d0c9f1f4bca73d18f6ba0614bcab38e6fbf1ff2d6f8d3097ddb",
+   "cacheFile": ".ingest/pages/097a5d06bf037b47287bae2519778907f3bdc3bf.md",
    "scrapedOk": true
   },
   {
@@ -3467,6 +3491,30 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "4ef5d8f0d78a54365705c37d7b7468fb6934d9980f0cfcd3ca2a15263c5515e2",
    "cacheFile": ".ingest/pages/7692b5d56b94743e678e10785841585facba4ab6.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:9b3b79e43c78",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/chief-ministers-agriculture-mechanisation-programme_cmamp.html",
+   "title": "Chief Minister’s Agriculture Mechanisation Programme",
+   "domain": "web.umang.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "c6158a27acafa86f121276179a810ffa7b53ad7bed601b597279ea4e2bd020dd",
+   "cacheFile": ".ingest/pages/9b3b79e43c785e96ba2b741e69bbaabbf5a34872.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:90cc4e7d34ec",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/atma-nirbhar-krishi-yojana_anky.html",
+   "title": "Atma Nirbhar Krishi Yojana",
+   "domain": "web.umang.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ec915407cf61ca84dfed2b1ed46e60d134b54fb0849f0b30e51a19d6320c49bd",
+   "cacheFile": ".ingest/pages/90cc4e7d34ec6a8cf3c2f8d8de17ff70a474749e.md",
    "scrapedOk": true
   },
   {
@@ -4324,6 +4372,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:c678228354a5",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/it_policy_guj_2014.pdf#page=8",
+   "title": "it_policy_guj_2014 (page 8 of 15)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "12bf769752f4b06c2fa6e6ca815225f0caec5f2828995cc5b003d3b444c7ab4c",
+   "cacheFile": ".ingest/pages/c678228354a5e9e4f70eaa996e0d26dd66ad3466.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:479f860b49b7",
    "url": "https://ced.gujarat.gov.in/assets/downloads/gr-mis-10-03-2015-CH.pdf#page=1",
    "title": "gr-mis-10-03-2015-CH (page 1 of 5)",
@@ -4634,6 +4694,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "e38f3759f6fc1bc465d2fcd939158eea59b826d313c4840d91309df4e8bec40e",
    "cacheFile": ".ingest/pages/e32fb8f0b59027f6faed7a251e4256045d14d8cd.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:294eee78bd02",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/shrihariagri512015.pdf#page=54",
+   "title": "shrihariagri512015 (page 54 of 78)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "75212f4bcede3f0d23573b4ab3e4d2e1eead87eb1d2b996f75d25a4b84000fce",
+   "cacheFile": ".ingest/pages/294eee78bd020c0071b5d7b7930c9434e318db87.md",
    "scrapedOk": true
   },
   {
@@ -5210,6 +5282,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "f72a0459fafbc435dccf4c53f6d1a125903483d3e68865c3b26efc420a63ad9b",
    "cacheFile": ".ingest/pages/32085e82483fa89a309402f4882a08a308480bfc.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:ab97b9a2634d",
+   "url": "https://ma.gujarat.gov.in/documents/Guidelines%20for%20Hospital%20Empanelment%20%20De%20Empanelment_July%202026.pdf#page=7",
+   "title": "Guidelines%20for%20Hospital%20Empanelment%20%20De%20Empanelment_July%202026 (page 7 of 54)",
+   "domain": "ma.gujarat.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "c23296f0fd81d9c9a617abb48f6514a986a14a28359ac2504ab604b7c30482ad",
+   "cacheFile": ".ingest/pages/ab97b9a2634da53062c325c7bcf899b557d2ae7a.md",
    "scrapedOk": true
   },
   {
@@ -44095,6 +44179,148 @@
    "confidence": 1
   },
   {
+   "claim": "The Sanctioning Authority approves or rejects the project and issues a sanction or rejection letter.",
+   "kind": "ACTION",
+   "subject": "sanctioning_authority",
+   "object": "project",
+   "detail": {},
+   "sourceId": "src:01410d306e3a",
+   "evidence": " The sanctioning Authority as per application and inspection report will either approve or reject the Project and Sanction or rejection letter accordingly will be issued to the applicant for each scheme separately.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A physical inspection is carried out after the claim application is received.",
+   "kind": "ACTION",
+   "subject": "claim_of_assistance",
+   "object": "physical_inspection",
+   "detail": {},
+   "sourceId": "src:01410d306e3a",
+   "evidence": "On receipt of claim application with all documents, respective authority will scrutinize the claim application and a physical inspection too will be carried out for the following",
+   "confidence": 0.95
+  },
+  {
+   "claim": "An inspection is conducted to verify if the unit has started commercial production with the proposed number of machines and employees.",
+   "kind": "ACTION",
+   "subject": "claim_of_assistance",
+   "object": "inspection",
+   "detail": {},
+   "sourceId": "src:01410d306e3a",
+   "evidence": "purpose: o Whether unit has started commercial production with proposed number of machines and employees.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "After the inspection, the report will be uploaded on the portal.",
+   "kind": "ACTION",
+   "subject": "inspection",
+   "object": "report_upload",
+   "detail": {},
+   "sourceId": "src:01410d306e3a",
+   "evidence": "After inspection, the report will be uploaded on the portal too.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "After completing the project, the applicant (through GIDC) will submit claim details in the prescribed format along with documents.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_claim_details",
+   "detail": {
+    "format": "prescribed format",
+    "documents": "Claim Application Form, Checklist"
+   },
+   "sourceId": "src:52e08416bcc9",
+   "evidence": "After Completion of the project GIDC will submit claim details in prescribed format along with documents. (Claim Application Form) (Checklist)",
+   "confidence": 1
+  },
+  {
+   "claim": "The Sanctioning Authority will scrutinize the application and may raise queries for clarification.",
+   "kind": "ACTION",
+   "subject": "sanctioning_authority",
+   "object": "scrutinize_application",
+   "detail": {},
+   "sourceId": "src:52e08416bcc9",
+   "evidence": "Sanctioning Authority will scrutinize the application and can raise a query in case of clarification.",
+   "confidence": 1
+  },
+  {
+   "claim": "A physical inspection will be carried out for the project as described in the claim application.",
+   "kind": "ACTION",
+   "subject": "sanctioning_authority",
+   "object": "conduct_physical_inspection",
+   "detail": {},
+   "sourceId": "src:52e08416bcc9",
+   "evidence": "A physical inspection will be carried out for the project as furnished in the claim application.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Sanctioning Authority will approve the claim upon satisfactory inspection and disburse the assistance to GIDC.",
+   "kind": "ACTION",
+   "subject": "sanctioning_authority",
+   "object": "approve_claim_and_disburse_assistance",
+   "detail": {
+    "recipient": "GIDC"
+   },
+   "sourceId": "src:52e08416bcc9",
+   "evidence": "The claim will be then approved by Sanctioning Authority upon satisfactory inspection report and the assistance will be disbursed to GIDC.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Sanctioning Authority approves the claim after a satisfactory inspection report.",
+   "kind": "ACTION",
+   "subject": "sanctioning_authority",
+   "object": "claim",
+   "detail": {},
+   "sourceId": "src:52e08416bcc9",
+   "evidence": " The claim will be then approved by Sanctioning Authority upon satisfactory inspection report and the assistance will be disbursed to GIDC.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Applicants seeking financial assistance are required to submit 3 forms in a stepwise manner through the online platform.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_three_forms_stepwise",
+   "detail": {
+    "platform": "www.ifp.gujarat.gov.in"
+   },
+   "sourceId": "src:9ff9ead076fb",
+   "evidence": "Applicants seeking financial assistance are required to submit 3 forms in a stepwise manner",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives a Sanction Letter and can claim assistance on a quarterly basis after receiving it.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "claim_assistance",
+   "detail": {
+    "action": "submit claim application in prescribed form and necessary documents",
+    "document": "Sanction Letter"
+   },
+   "sourceId": "src:afe75cd6ec57",
+   "evidence": "The applicant after receipt of Sanction Letter, will claim on quarterly basis by submitting claim application in prescribed form and necessary documents.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant can claim assistance on a quarterly basis after receiving the Sanction Letter.",
+   "kind": "TIMELINE",
+   "subject": "applicant",
+   "object": "claim_assistance",
+   "detail": {
+    "frequency": "quarterly"
+   },
+   "sourceId": "src:afe75cd6ec57",
+   "evidence": "The applicant after receipt of Sanction Letter, will claim on quarterly basis by submitting claim application in prescribed form and necessary documents.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "On approval by the Sanctioning Authority, a sanction letter will be issued in favor of the applicant for the particular assistance.",
+   "kind": "ACTION",
+   "subject": "sanctioning_authority",
+   "object": "sanction_letter",
+   "detail": {},
+   "sourceId": "src:7cf9b8e687f7",
+   "evidence": " On approval by the sanctioning authority, a sanction letter will be issued in favor of the applicant for the particular assistance.",
+   "confidence": 0.95
+  },
+  {
    "claim": "The Ayushman Sarathi WhatsApp service is available 24/7 for beneficiary access to supported PM-JAY services.",
    "kind": "CHANNEL",
    "subject": "ayushman_sarathi",
@@ -44210,6 +44436,40 @@
    },
    "sourceId": "src:df0af776cfa3",
    "evidence": ". Use only ths official name \"Ayushman Sarathf, the otficial QR code and the WhatsAPp number +91 72908 23838 whils carrying out publicity and awareness activities.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant scans the QR code using a mobile phone to open the official Ayushman Sarathi WhatsApp service.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "scan_qr_code",
+   "detail": {},
+   "sourceId": "src:df0af776cfa3",
+   "evidence": "1. Scln lh6 OR Codo - Scan the QR code givon below using a mobils phona to opon the otficial Ayushman Sarathi WhatsApp ssrvice.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The applicant sends 'Hi' on WhatsApp to the official number +91 72908 23838.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "send_hi_whatsapp",
+   "detail": {
+    "phone": "+91 72908 23838"
+   },
+   "sourceId": "src:df0af776cfa3",
+   "evidence": "2. Send \"Hl\" on WhalrApp- Save or message lhe otficial numbor: +91 72908 23838.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The National Health Authority (NHA) launched Ayushman Sarathi.",
+   "kind": "OFFICE",
+   "subject": "national_health_authority",
+   "object": "ayushman_sarathi",
+   "detail": {
+    "officeName": "National Health Authority (NHA)"
+   },
+   "sourceId": "src:c5a5a340d0bf",
+   "evidence": "The National Health Authority (NHA), under the Ministry of Health & Family Wellare, Govsrnmenl of lndia, has launched iAyushman Sarathi",
    "confidence": 0.95
   },
   {
@@ -51873,6 +52133,26 @@
    "confidence": 0.9
   },
   {
+   "claim": "The District Appropriate Authority is an authority related to Betivadhaao.",
+   "kind": "OFFICE",
+   "subject": "betivadhaao",
+   "object": "district_appropriate_authority",
+   "detail": {},
+   "sourceId": "src:097a5d06bf03",
+   "evidence": "District Appropriate Authority",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Taluka Appropriate Authority is an authority related to Betivadhaao.",
+   "kind": "OFFICE",
+   "subject": "betivadhaao",
+   "object": "taluka_appropriate_authority",
+   "detail": {},
+   "sourceId": "src:097a5d06bf03",
+   "evidence": "Taluka Appropriate Authority",
+   "confidence": 0.9
+  },
+  {
    "claim": "Students must have passed the 12th examination from a recognized institution and board in Gujarat to be eligible for the NAMO E-Tablet Scheme.",
    "kind": "ELIGIBILITY",
    "subject": "namo_e_tablet_scheme",
@@ -52885,6 +53165,36 @@
    "sourceId": "src:7692b5d56b94",
    "evidence": "જે પૈકી કુલ વાવેત૨ વિસ્તા૨ ૪,૩૮,૦૯૮ હેકટ૨ છે.",
    "confidence": 1
+  },
+  {
+   "claim": "The applicant applies to the ADA/ADOs with recommendations from grass-root level Panchayat Leaders (ZPM/ASM/GPM).",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "ada_ado",
+   "detail": {},
+   "sourceId": "src:9b3b79e43c78",
+   "evidence": "The interested farmers will apply to the ADA/ADOs with recommendations from grass-root level Panchayat Leaders (ZPM/ASM/GPM).",
+   "confidence": 1
+  },
+  {
+   "claim": "The District Agricultural Officer is a contact for the scheme.",
+   "kind": "OFFICE",
+   "subject": "agriculture_scheme",
+   "object": "district_agricultural_officer",
+   "detail": {},
+   "sourceId": "src:9b3b79e43c78",
+   "evidence": "Where can I contact for more clarification/information?\n\nNearest District Agricultural Officer/ Agriculture Development Officer/ Agriculture Field Assistant.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "Farmers need to submit their applications and documents to the concerned authorities for verification.",
+   "kind": "ACTION",
+   "subject": "atmanirbhar_krishi_yojana",
+   "object": "concerned_authorities",
+   "detail": {},
+   "sourceId": "src:90cc4e7d34ec",
+   "evidence": "Farmers can apply for the Atmanirbhar Krishi Yojana and Atmanirbhar Bagwani Yojana by visiting the official website of the respective scheme or the nearest Agriculture/Horticulture Department office. They need to fill out the application form, attach the required documents, and submit them to the concerned authorities for verification.",
+   "confidence": 0.95
   },
   {
    "claim": "Registered construction workers aged 18 to 55 years are eligible for the scheme.",
@@ -57432,6 +57742,57 @@
    "confidence": 1
   },
   {
+   "claim": "Eligible units as defined in the policy are entitled to the Employment Generation Grant on EPF.",
+   "kind": "ELIGIBILITY",
+   "subject": "employment_generation_grant_on_epf",
+   "object": "eligible_units",
+   "detail": {},
+   "sourceId": "src:c678228354a5",
+   "evidence": "6. Employment Generation Grant on EPF: Eligible units as defined in this Policy will be entitled to the reimbursement of the Employers’ PF Contribution deposited by them for the employees for a period of five years subject to a ceiling of Rs. 5 lakhs per unit per year.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The grant is subject to a ceiling of Rs. 5 lakhs per unit per year.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "employment_generation_grant_on_epf",
+   "object": "ceiling_limit",
+   "detail": {
+    "amount": 500000,
+    "currency": "INR",
+    "unit": "per_unit_per_year"
+   },
+   "sourceId": "src:c678228354a5",
+   "evidence": "6. Employment Generation Grant on EPF: Eligible units as defined in this Policy will be entitled to the reimbursement of the Employers’ PF Contribution deposited by them for the employees for a period of five years subject to a ceiling of Rs. 5 lakhs per unit per year.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The citizen pays up to Rs. 5 lakhs per unit per year for the Employment Generation Grant on EPF.",
+   "kind": "FEE",
+   "subject": "employment_generation_grant_epf",
+   "object": "citizen",
+   "detail": {
+    "amount": 500000,
+    "currency": "INR",
+    "period": "per unit per year"
+   },
+   "sourceId": "src:c678228354a5",
+   "evidence": "entitled to the reimbursement of the Employers’ PF Contribution deposited by them for the employees for a period of five years subject to a ceiling of Rs. 5 lakhs per unit per year.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant receives reimbursement of the Employers’ PF Contribution for a period of five years, with a ceiling of Rs. 5 lakhs per unit per year.",
+   "kind": "ACTION",
+   "subject": "employment_generation_grant",
+   "object": "reimbursement_of_employers_pf_contribution",
+   "detail": {
+    "ceiling": "500000",
+    "period": "five years"
+   },
+   "sourceId": "src:c678228354a5",
+   "evidence": "entitled to the reimbursement of the Employers’ PF Contribution deposited by them for the employees for a period of five years subject to a ceiling of Rs. 5 lakhs per unit per year.",
+   "confidence": 1
+  },
+  {
    "claim": "The scheme is for providing assistance to GIDC for shed and plot by a private developer to generate employment and develop MSEs in Gujarat.",
    "kind": "ACTION",
    "subject": "scheme",
@@ -58633,6 +58994,46 @@
    "sourceId": "src:e32fb8f0b590",
    "evidence": "Subsidy is available from Government of Gujarat for detail please contact Gujarat Agro Industries Corporation Ltd (Govt. of Gujarat ) nodal agency for Agri. Business.",
    "confidence": 1
+  },
+  {
+   "claim": "An applicant must obtain an Agri.Business Registration Number (ABRN) to claim subsidy or assistance.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "agri_business_subsidy",
+   "object": "agri_business_registration_number",
+   "detail": {},
+   "sourceId": "src:294eee78bd02",
+   "evidence": "First of all entrepreneur is required to take Agri.Business Registration Number (ABRN)",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant is required to take an Agri.Business Registration Number (ABRN).",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "agri_business_registration_number",
+   "detail": {},
+   "sourceId": "src:294eee78bd02",
+   "evidence": "First of all entrepreneur is required to take Agri.Business Registration Number (ABRN)",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant should approach Gujarat Agro Industry Corporation (GAIC) for the claim.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "gujarat_agro_industry_corporation",
+   "detail": {},
+   "sourceId": "src:294eee78bd02",
+   "evidence": "For this he should approach Gujarat Agro Industry Corporation (GAIC) for claim",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant should approach Gujarat Agro Industry Corporation (GAIC) for claiming subsidy.",
+   "kind": "OFFICE",
+   "subject": "agri_business_subsidy",
+   "object": "gujarat_agro_industry_corporation",
+   "detail": {},
+   "sourceId": "src:294eee78bd02",
+   "evidence": "For this he should approach Gujarat Agro Industry Corporation (GAIC) for claim",
+   "confidence": 0.95
   },
   {
    "claim": "A citizen can download the Sandes mobile app from the Google Play Store.",
@@ -60046,6 +60447,18 @@
    "confidence": 0.95
   },
   {
+   "claim": "The National Health Authority (NHA) issues operational guidelines, policy advisories, and other directives for the Pradhan Mantri Jan Arogya Yojana (AB PM-JAY).",
+   "kind": "OFFICE",
+   "subject": "national_health_authority",
+   "object": "pradhan_mantri_jan_arogya_yojana",
+   "detail": {
+    "role": "issues guidelines and directives"
+   },
+   "sourceId": "src:ab97b9a2634d",
+   "evidence": "Over the years, as an attached office of the Ministry of Health and Family Welfare, NHA has issued a wide range of operational guidelines, policy advisories, standard operating procedures, and implementation frameworks to support States, Union Territories, insurers, hospitals, and other stakeholders in ensuring the effective and uniform implementation of these programmes across the country.",
+   "confidence": 0.95
+  },
+  {
    "claim": "The Lean Manufacturing Competitiveness Scheme (LMCS) provides assistance covering up to 80% of the project cost for each cluster of MSMEs.",
    "kind": "CONDITIONAL_REQUIREMENT",
    "subject": "lean_manufacturing_assistance",
@@ -60160,6 +60573,8 @@
   "Schemes: https://skills.gujarat.gov.in/schemes.htm lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Schemes: https://yatradham.gujarat.gov.in/Schemes lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Mudra Loan: a page mentions a mobile app (\"Borrowers can file online applications for MUDRA loans on the Udyamimitra portal.\") but gives no Play Store or App Store listing, so we did not write one. Finding the real listing is a job for a person.",
+  "Claim of Assistance: https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/user_manual/Garment_Policy_guidelines.pdf#page=6 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Claim of Assistance: https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/user_manual/Garment_Policy_guidelines.pdf#page=8 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Ayushman Sarathi: the page links to https, which is not a gov.in or nic.in host, so we could not prove from the name alone that government owns it and did not send anyone there.",
   "Ayushman Sarathi: https://ma.gujarat.gov.in/documents/AYUSHMAN%20SARTHI%20Application%20PMJAY%20ma%20yojana.pdf#page=2 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "emPower: https://ced.gujarat.gov.in/assets/downloads/Gujarat-Skill-Report.pdf#page=79 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",

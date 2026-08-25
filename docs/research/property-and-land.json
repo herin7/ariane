@@ -410,6 +410,30 @@
    "contentHash": "efdb89153916226310585a622c42296b84dc7712834bd43fb03060917ab279fe",
    "cacheFile": ".ingest/pages/960f5b2acadf0ee87b42a307b0293c80a38baade.md",
    "scrapedOk": true
+  },
+  {
+   "id": "src:48ecc2904bee",
+   "url": "https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=3",
+   "title": "Vessal_25102024 (page 3 of 21)",
+   "domain": "pnt.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ed4565fea540efde8695718d29ac4f932f2c308746428dd160afb436f02ac09e",
+   "cacheFile": ".ingest/pages/48ecc2904bee479f2588bcd74f8e2b05eda0df3a.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:ff9f374b2a18",
+   "url": "https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=6",
+   "title": "Vessal_25102024 (page 6 of 21)",
+   "domain": "pnt.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "4d1f238a5d8e2a7657b7614de1d0b4e09a5c518656b430528e686f69d01e0d70",
+   "cacheFile": ".ingest/pages/ff9f374b2a18edb048047a932f24c0597c26367f.md",
+   "scrapedOk": true
   }
  ],
  "facts": [
@@ -3961,6 +3985,78 @@
    "sourceId": "src:960f5b2acadf",
    "evidence": "This declaration of Survey is valid up to sixty days from the date of declaration mentioned above.",
    "confidence": 0.95
+  },
+  {
+   "claim": "The applicant receives a Declaration of Survey issued by the Surveyor.",
+   "kind": "ACTION",
+   "subject": "declaration_of_survey",
+   "object": "issuing_authority",
+   "detail": {
+    "officeName": "Surveyor"
+   },
+   "sourceId": "src:960f5b2acadf",
+   "evidence": "Form 4\nForm of declaration to be issued by the Surveyor",
+   "confidence": 1
+  },
+  {
+   "claim": "The declaration of survey is issued by a Surveyor.",
+   "kind": "OFFICE",
+   "subject": "declaration_of_survey",
+   "object": "surveyor_office",
+   "detail": {},
+   "sourceId": "src:960f5b2acadf",
+   "evidence": "Form of declaration to be issued by the Surveyor",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The declaration of survey is based on the condition of the vessel and its equipment found during the survey.",
+   "kind": "ACTION",
+   "subject": "declaration_of_survey",
+   "object": "vessel_condition",
+   "detail": {},
+   "sourceId": "src:960f5b2acadf",
+   "evidence": "This is to certify that I have surveyed the Inland Vessel named ____________________, Official No. __________________, in accordance with the Inland Vessel Act, 2021 and the rules made there under. During the survey, the condition of vessel and its equipment was found, as detailed in the \"Record of vessel Equipment and Vessel Information\" attached as annexure to this Declaration of Survey",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The declaration of survey confirms that the vessel is fit for the service stated in the Certificate of Survey.",
+   "kind": "ACTION",
+   "subject": "declaration_of_survey",
+   "object": "vessel_service_fitness",
+   "detail": {},
+   "sourceId": "src:960f5b2acadf",
+   "evidence": "Based on the details contained in the Record of Vessel Equipment and Vessel Information together with the number and qualification of personnel manning the vessel, the vessel is fit for the service stated in the Certificate of Survey, and worthy of the trade or purpose stated therein.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must apply in FORM 1 along with a survey application in FORM 2.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "form_1_and_form_2",
+   "detail": {},
+   "sourceId": "src:48ecc2904bee",
+   "evidence": "The application shall be made in FORM 1 along survey application in FORM 2 with payment of a Registration and Survey Fee as prescribed in SCHEDULE B.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The applicant must furnish the required documents along with the application.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "required_documents",
+   "detail": {},
+   "sourceId": "src:48ecc2904bee",
+   "evidence": "The Applicant shall be required to furnish the following documents along with the application:",
+   "confidence": 0.95
+  },
+  {
+   "claim": "A citizen must pay a fee for the registration of the vessel.",
+   "kind": "FEE",
+   "subject": "citizen",
+   "object": "vessel_registration",
+   "detail": {},
+   "sourceId": "src:ff9f374b2a18",
+   "evidence": "b) Challan receipt evidencing payment of fees for the registration of the vessel;",
+   "confidence": 0.9
   }
  ],
  "notFound": [
@@ -3987,6 +4083,7 @@
   "Property Tax Bill: https://mcjamnagar.com/Services/Propertytax_bill.aspx?SID=SER lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Jamnagar Municipal Corporation: no quotable requirement, fee or timeline survived, so no service node was written for it.",
   "certified copies: the hand written graph already answers to service:certified_copies, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
-  "e-Milkat: no quotable requirement, fee or timeline survived, so no service node was written for it."
+  "e-Milkat: no quotable requirement, fee or timeline survived, so no service node was written for it.",
+  "declaration of survey: https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=8 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page."
  ]
 }

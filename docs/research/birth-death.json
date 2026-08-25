@@ -28,6 +28,42 @@
    "scrapedOk": true
   },
   {
+   "id": "src:6f438ff998ce",
+   "url": "https://www.suratmunicipal.gov.in/Departments/BirthDeathRegistration",
+   "title": "BirthDeathRegistration",
+   "domain": "suratmunicipal.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ff00908e199164dc158c8925c500729c4366f07e00fab6d61349864f28ed0967",
+   "cacheFile": ".ingest/pages/6f438ff998ce7eee893cb19d4760ffbe78c02b64.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:9f1c53a9c74f",
+   "url": "https://www.myscheme.gov.in/schemes/dbabocwwb",
+   "title": "Death Benefit (A.B.O.C.W.W.B)",
+   "domain": "myscheme.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "024ec4a9b04503ca4969e1f76f96307ae3631025f1eb898ab0d0852afe491a46",
+   "cacheFile": ".ingest/pages/9f1c53a9c74f23af2c5530943fa0dc157e99f709.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:9b1c2b8b5b69",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/aam-aadmi-bima-yojana_aaby.html",
+   "title": "Aam Aadmi Bima Yojana",
+   "domain": "web.umang.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "df3ca7e331419ee8bed8a585f58a3e89726c6cc8c7e7e5f1dc722534cd5aaf29",
+   "cacheFile": ".ingest/pages/9b1c2b8b5b69fd21bfbcd99d82ed952e8a03f44c.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:0f952f9e3227",
    "url": "https://www.mea.gov.in/birth-certificate",
    "title": "Birth Certificate | Ministry of External Affairs , Government of India",
@@ -37,6 +73,30 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "8b11c48a1f2fd96935a282a9ec7eef84d55bdd63168605694fd62d5087062e05",
    "cacheFile": ".ingest/pages/0f952f9e322723af51dcb8d011e42dd9df77c3e6.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:8d192ccec7f2",
+   "url": "https://www.epfindia.gov.in/site_en/FAQ.php",
+   "title": "EPFO || Frequently Asked Questions",
+   "domain": "epfindia.gov.in",
+   "sourceType": "FAQ",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "459698838d3fb8e5253be64cf64a66dbddbee8954d68f704e2a746e3db9478da",
+   "cacheFile": ".firecrawl/pf/wb-faq.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:86f510044d4e",
+   "url": "https://www.passportindia.gov.in/psp/ListDOB",
+   "title": "Passport Seva",
+   "domain": "passportindia.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "4fb159438e29883b25653a0abab9ec11f648cff0631e2113c3c454035e8d5814",
+   "cacheFile": ".ingest/pages/86f510044d4e342d35a31a56d6845462c13bc994.md",
    "scrapedOk": true
   }
  ],
@@ -136,6 +196,81 @@
    "confidence": 1
   },
   {
+   "claim": "The applicant selects the death place zone.",
+   "kind": "ACTION",
+   "subject": "death_place_zone_selection",
+   "object": "death_place_zone",
+   "detail": {},
+   "sourceId": "src:8915c5e8100c",
+   "evidence": "Death Place Zone\nAll",
+   "confidence": 0.8
+  },
+  {
+   "claim": "The applicant selects the gender of the deceased.",
+   "kind": "ACTION",
+   "subject": "gender_selection",
+   "object": "gender",
+   "detail": {},
+   "sourceId": "src:8915c5e8100c",
+   "evidence": "Gender\nMale\nFemale",
+   "confidence": 0.8
+  },
+  {
+   "claim": "The applicant selects the date of death.",
+   "kind": "ACTION",
+   "subject": "date_of_death_selection",
+   "object": "date_of_death",
+   "detail": {},
+   "sourceId": "src:8915c5e8100c",
+   "evidence": "Date of Death",
+   "confidence": 0.7
+  },
+  {
+   "claim": "An applicant can check the status of a submitted death certificate application.",
+   "kind": "TRACKING",
+   "subject": "death_certificate",
+   "object": "check_status",
+   "detail": {},
+   "sourceId": "src:8915c5e8100c",
+   "evidence": "Check Status",
+   "confidence": 0.9
+  },
+  {
+   "claim": "A citizen pays Rs. 20 for an additional copy of a death certificate, which includes a Rs. 5 certificate fee and Rs. 15 administration charges.",
+   "kind": "FEE",
+   "subject": "death_certificate",
+   "object": "citizen",
+   "detail": {
+    "amount": 20,
+    "currency": "INR",
+    "certificate_fee": 5,
+    "administration_charges": 15
+   },
+   "sourceId": "src:6f438ff998ce",
+   "evidence": "On payment of Rs. 20/- (Birth or Death certificate fee Rs. 5/- and administration charges Rs. 15/- = Rs. 20/-), a copy of birth & death certificate is available in Gujarati and English.",
+   "confidence": 1
+  },
+  {
+   "claim": "The death certificate is issued by a government doctor or appropriate authority.",
+   "kind": "OFFICE",
+   "subject": "death_certificate",
+   "object": "government_doctor_appropriate_authority",
+   "detail": {},
+   "sourceId": "src:9f1c53a9c74f",
+   "evidence": "05. Death Certificate Issued by Government Doctor/Appropriate Authority",
+   "confidence": 1
+  },
+  {
+   "claim": "The nominee must submit a Death Registration Certificate and additional documents like FIR, Post Mortem Report, Police Inquest Report, and Police Conclusion Report or Final Report for processing.",
+   "kind": "ACTION",
+   "subject": "death_certificate",
+   "object": "nominee",
+   "detail": {},
+   "sourceId": "src:9b1c2b8b5b69",
+   "evidence": "Step 1: The nominee submits an application along with the Death Registration Certificate and additional documents, including the FIR, Post Mortem Report, Police Inquest Report, and Police Conclusion Report or Final Report.",
+   "confidence": 1
+  },
+  {
    "claim": "To get Indian citizenship for a child born to Indian parents in a foreign country, the child's birth must be registered at the nearest Indian Embassy/Consulate.",
    "kind": "ACTION",
    "subject": "indian_citizenship_child",
@@ -162,7 +297,43 @@
    "sourceId": "src:0f952f9e3227",
    "evidence": "Yes, provided the birth certificate issued by the competent authorities has been authenticated by the Home Department of the concerned State/Union Territory in India and then by the Attestation Section of the Ministry of External Affairs (MEA), New Delhi or the MEA Branch Secretariats in Chennai, Hyderabad, Kolkata and Guwahati.",
    "confidence": 1
+  },
+  {
+   "claim": "The toll-free number for Gandhinagar Municipal Corporation is 18001081818.",
+   "kind": "HELPLINE",
+   "subject": "gandhinagar_municipal_corporation",
+   "object": "toll_free_number",
+   "detail": {
+    "number": "18001081818"
+   },
+   "sourceId": "src:1cc4a3d9a83b",
+   "evidence": "Toll Free - 18001081818",
+   "confidence": 1
+  },
+  {
+   "claim": "The Registrar of Births and Deaths issues a birth certificate.",
+   "kind": "OFFICE",
+   "subject": "birth_certificate",
+   "object": "registrar_of_births_and_deaths",
+   "detail": {},
+   "sourceId": "src:8d192ccec7f2",
+   "evidence": "2. • Birth certificate issued by the Registrar of Births and Deaths",
+   "confidence": 1
+  },
+  {
+   "claim": "The Registrar of Births and Deaths or the Municipal Corporation or any other authority empowered under the Registration of Births and Deaths Act, 1969 issues a birth certificate.",
+   "kind": "OFFICE",
+   "subject": "birth_certificate",
+   "object": "registrar_of_births_and_deaths_municipal_corporation_other_a",
+   "detail": {},
+   "sourceId": "src:86f510044d4e",
+   "evidence": "1 | Birth certificate issued by the Registrar of Births and Deaths or the Municipal Corporation or any other authority, empowered under the Registration of Births and Deaths Act, 1969 (18 of 1969); or",
+   "confidence": 1
   }
  ],
- "notFound": []
+ "notFound": [
+  "Death Certificate: https://suratmunicipal.gov.in/OnlineServices/DeathCertificate/Enroll lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "birth certificate: https://www.epfindia.gov.in/site_en/FAQ.php offers a choice under \"2. -\\> Select any one of the following – UAN, Member ID, Aadhaar or PAN\" but fewer than two of the lines under it are documents, so no group was written.",
+  "birth certificate: https://www.epfindia.gov.in/site_en/FAQ.php offers a choice under \"1. Any of the following documents may be accepted as valid proof of date of birth:\" but fewer than two of the lines under it are documents, so no group was written."
+ ]
 }

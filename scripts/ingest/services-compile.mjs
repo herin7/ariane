@@ -1715,6 +1715,37 @@ const isDocument = (object) => known.get(title(object)) === true;
 
 const ref = (sourceId, fact) => ({ sourceId, evidence: fact.evidence, confidence: fact.confidence, verificationStatus: "EXTRACTED" });
 
+/**
+ * One row per url for the whole run, not one per journey.
+ *
+ * Corpus wide retrieval means a page can now back a service in a journey it
+ * was never fetched for, so the same url turns up in two bundles. A source
+ * describes the page, not the journey that cited it, and two bundles
+ * disagreeing about whether myscheme.gov.in/schemes/dbabocwwb is a
+ * SERVICE_PAGE or an OFFICE_DIRECTORY is a bug in us, not a fact about the
+ * page. First writer decides, everyone after gets the same row.
+ */
+const sourceRows = new Map();
+const sourceRow = (c) =>
+  sourceRows.get(c.url) ??
+  sourceRows
+    .set(c.url, {
+      id: `src:${sha1(c.url).slice(0, 12)}`,
+      url: c.url,
+      title: c.page.title ?? c.service,
+      domain: c.page.host,
+      sourceType: sourceTypeOf(c.url, c.page.title, c.facts.map((f) => f.kind)),
+      jurisdictionId: districtOf(c.page.host),
+      retrievedAt: (c.page.fetchedAt ?? "").slice(0, 10) || today(),
+      contentHash: c.page.contentHash,
+      cacheFile: fileOf(c.page),
+      scrapedOk: true,
+      // Carried, not dropped. A quote off an unverified chain is still a
+      // quote off that page, and the citizen is shown which it is.
+      ...(c.page.tlsVerified === false ? { tlsVerified: false } : {}),
+    })
+    .get(c.url);
+
 
 function build(journey, services) {
   const sources = [];
@@ -1796,24 +1827,9 @@ function build(journey, services) {
     let steps = 0;
 
     for (const c of pages) {
-      const sourceId = `src:${sha1(c.url).slice(0, 12)}`;
-      if (!sources.some((s) => s.id === sourceId)) {
-        sources.push({
-          id: sourceId,
-          url: c.url,
-          title: c.page.title ?? c.service,
-          domain: c.page.host,
-          sourceType: sourceTypeOf(c.url, c.page.title, c.facts.map((f) => f.kind)),
-          jurisdictionId: districtOf(c.page.host),
-          retrievedAt: (c.page.fetchedAt ?? "").slice(0, 10) || today(),
-          contentHash: c.page.contentHash,
-          cacheFile: fileOf(c.page),
-          scrapedOk: true,
-          // Carried, not dropped. A quote off an unverified chain is still a
-          // quote off that page, and the citizen is shown which it is.
-          ...(c.page.tlsVerified === false ? { tlsVerified: false } : {}),
-        });
-      }
+      const row = sourceRow(c);
+      const sourceId = row.id;
+      if (!sources.some((s) => s.id === sourceId)) sources.push(row);
 
       for (const f of c.facts) {
         facts.push({ claim: f.claim, kind: f.kind, subject: f.subject, object: f.object, detail: f.detail, sourceId, evidence: f.evidence, confidence: f.confidence });

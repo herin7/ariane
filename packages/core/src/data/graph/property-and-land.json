@@ -340,6 +340,26 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "efdb89153916226310585a622c42296b84dc7712834bd43fb03060917ab279fe"
+  },
+  {
+   "id": "src:48ecc2904bee",
+   "url": "https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=3",
+   "title": "Vessal_25102024 (page 3 of 21)",
+   "domain": "pnt.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ed4565fea540efde8695718d29ac4f932f2c308746428dd160afb436f02ac09e"
+  },
+  {
+   "id": "src:ff9f374b2a18",
+   "url": "https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=6",
+   "title": "Vessal_25102024 (page 6 of 21)",
+   "domain": "pnt.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "4d1f238a5d8e2a7657b7614de1d0b4e09a5c518656b430528e686f69d01e0d70"
   }
  ],
  "nodes": [
@@ -2083,6 +2103,106 @@
    ]
   },
   {
+   "id": "action:declaration_of_survey_the_applicant_receives_a_declaration_of_survey_i",
+   "type": "ACTION",
+   "name": "The applicant receives a Declaration of Survey issued by the Surveyor",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant receives a Declaration of Survey issued by the Surveyor.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:960f5b2acadf",
+     "evidence": "Form 4\nForm of declaration to be issued by the Surveyor",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:declaration_of_survey_the_declaration_of_survey_is_based_on_the_condit",
+   "type": "ACTION",
+   "name": "The declaration of survey is based on the condition of the vessel and its equipment found ",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The declaration of survey is based on the condition of the vessel and its equipment found during the survey.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:960f5b2acadf",
+     "evidence": "This is to certify that I have surveyed the Inland Vessel named ____________________, Official No. __________________, in accordance with the Inland Vessel Act, 2021 and the rules made there under. During the survey, the condition of vessel and its equipment was found, as detailed in the \"Record of vessel Equipment and Vessel Information\" attached as annexure to this Declaration of Survey",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:declaration_of_survey_the_declaration_of_survey_confirms_that_the_vess",
+   "type": "ACTION",
+   "name": "The declaration of survey confirms that the vessel is fit for the service stated in the Ce",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The declaration of survey confirms that the vessel is fit for the service stated in the Certificate of Survey.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:960f5b2acadf",
+     "evidence": "Based on the details contained in the Record of Vessel Equipment and Vessel Information together with the number and qualification of personnel manning the vessel, the vessel is fit for the service stated in the Certificate of Survey, and worthy of the trade or purpose stated therein.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:declaration_of_survey_the_applicant_must_apply_in_form_1_along_with_a_",
+   "type": "ACTION",
+   "name": "The applicant must apply in FORM 1 along with a survey application in FORM 2",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must apply in FORM 1 along with a survey application in FORM 2.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:48ecc2904bee",
+     "evidence": "The application shall be made in FORM 1 along survey application in FORM 2 with payment of a Registration and Survey Fee as prescribed in SCHEDULE B.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:declaration_of_survey_the_applicant_must_furnish_the_required_document",
+   "type": "ACTION",
+   "name": "The applicant must furnish the required documents along with the application",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must furnish the required documents along with the application.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:48ecc2904bee",
+     "evidence": "The Applicant shall be required to furnish the following documents along with the application:",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:declaration_of_survey",
    "type": "SERVICE",
    "name": "Declaration Of Survey",
@@ -2103,6 +2223,42 @@
      "sourceId": "src:960f5b2acadf",
      "evidence": "This declaration of Survey is valid up to sixty days from the date of declaration mentioned above.",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:960f5b2acadf",
+     "evidence": "Form 4\nForm of declaration to be issued by the Surveyor",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:960f5b2acadf",
+     "evidence": "This is to certify that I have surveyed the Inland Vessel named ____________________, Official No. __________________, in accordance with the Inland Vessel Act, 2021 and the rules made there under. During the survey, the condition of vessel and its equipment was found, as detailed in the \"Record of vessel Equipment and Vessel Information\" attached as annexure to this Declaration of Survey",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:960f5b2acadf",
+     "evidence": "Based on the details contained in the Record of Vessel Equipment and Vessel Information together with the number and qualification of personnel manning the vessel, the vessel is fit for the service stated in the Certificate of Survey, and worthy of the trade or purpose stated therein.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:48ecc2904bee",
+     "evidence": "The application shall be made in FORM 1 along survey application in FORM 2 with payment of a Registration and Survey Fee as prescribed in SCHEDULE B.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:48ecc2904bee",
+     "evidence": "The Applicant shall be required to furnish the following documents along with the application:",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:ff9f374b2a18",
+     "evidence": "b) Challan receipt evidencing payment of fees for the registration of the vessel;",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -3145,6 +3301,86 @@
     {
      "sourceId": "src:c009bc2c7448",
      "evidence": "સ્ટેમ્પ ડ્યુટી સંબંધિત કેસો (Filed Under Sec-31 અને Sec-33) - Process Flow",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_declaration_of_survey__requires__action_declaration_of_survey_the_applicant_receives_a_declar",
+   "from": "service:declaration_of_survey",
+   "to": "action:declaration_of_survey_the_applicant_receives_a_declaration_of_survey_i",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives a Declaration of Survey issued by the Surveyor.",
+   "sources": [
+    {
+     "sourceId": "src:960f5b2acadf",
+     "evidence": "Form 4\nForm of declaration to be issued by the Surveyor",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_declaration_of_survey__requires__action_declaration_of_survey_the_declaration_of_survey_is_ba",
+   "from": "service:declaration_of_survey",
+   "to": "action:declaration_of_survey_the_declaration_of_survey_is_based_on_the_condit",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The declaration of survey is based on the condition of the vessel and its equipment found during the survey.",
+   "sources": [
+    {
+     "sourceId": "src:960f5b2acadf",
+     "evidence": "This is to certify that I have surveyed the Inland Vessel named ____________________, Official No. __________________, in accordance with the Inland Vessel Act, 2021 and the rules made there under. During the survey, the condition of vessel and its equipment was found, as detailed in the \"Record of vessel Equipment and Vessel Information\" attached as annexure to this Declaration of Survey",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_declaration_of_survey__requires__action_declaration_of_survey_the_declaration_of_survey_confi",
+   "from": "service:declaration_of_survey",
+   "to": "action:declaration_of_survey_the_declaration_of_survey_confirms_that_the_vess",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The declaration of survey confirms that the vessel is fit for the service stated in the Certificate of Survey.",
+   "sources": [
+    {
+     "sourceId": "src:960f5b2acadf",
+     "evidence": "Based on the details contained in the Record of Vessel Equipment and Vessel Information together with the number and qualification of personnel manning the vessel, the vessel is fit for the service stated in the Certificate of Survey, and worthy of the trade or purpose stated therein.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_declaration_of_survey__requires__action_declaration_of_survey_the_applicant_must_apply_in_for",
+   "from": "service:declaration_of_survey",
+   "to": "action:declaration_of_survey_the_applicant_must_apply_in_form_1_along_with_a_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must apply in FORM 1 along with a survey application in FORM 2.",
+   "sources": [
+    {
+     "sourceId": "src:48ecc2904bee",
+     "evidence": "The application shall be made in FORM 1 along survey application in FORM 2 with payment of a Registration and Survey Fee as prescribed in SCHEDULE B.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_declaration_of_survey__requires__action_declaration_of_survey_the_applicant_must_furnish_the_",
+   "from": "service:declaration_of_survey",
+   "to": "action:declaration_of_survey_the_applicant_must_furnish_the_required_document",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must furnish the required documents along with the application.",
+   "sources": [
+    {
+     "sourceId": "src:48ecc2904bee",
+     "evidence": "The Applicant shall be required to furnish the following documents along with the application:",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }

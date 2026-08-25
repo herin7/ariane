@@ -22,6 +22,36 @@
    "contentHash": "365c8f1ca9d9e386c46fae6adcd9fac3f9587b45141f3dd1698e4fab985f98da"
   },
   {
+   "id": "src:6f438ff998ce",
+   "url": "https://www.suratmunicipal.gov.in/Departments/BirthDeathRegistration",
+   "title": "BirthDeathRegistration",
+   "domain": "suratmunicipal.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "ff00908e199164dc158c8925c500729c4366f07e00fab6d61349864f28ed0967"
+  },
+  {
+   "id": "src:9f1c53a9c74f",
+   "url": "https://www.myscheme.gov.in/schemes/dbabocwwb",
+   "title": "Death Benefit (A.B.O.C.W.W.B)",
+   "domain": "myscheme.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "024ec4a9b04503ca4969e1f76f96307ae3631025f1eb898ab0d0852afe491a46"
+  },
+  {
+   "id": "src:9b1c2b8b5b69",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/aam-aadmi-bima-yojana_aaby.html",
+   "title": "Aam Aadmi Bima Yojana",
+   "domain": "web.umang.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "df3ca7e331419ee8bed8a585f58a3e89726c6cc8c7e7e5f1dc722534cd5aaf29"
+  },
+  {
    "id": "src:0f952f9e3227",
    "url": "https://www.mea.gov.in/birth-certificate",
    "title": "Birth Certificate | Ministry of External Affairs , Government of India",
@@ -30,6 +60,26 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "8b11c48a1f2fd96935a282a9ec7eef84d55bdd63168605694fd62d5087062e05"
+  },
+  {
+   "id": "src:8d192ccec7f2",
+   "url": "https://www.epfindia.gov.in/site_en/FAQ.php",
+   "title": "EPFO || Frequently Asked Questions",
+   "domain": "epfindia.gov.in",
+   "sourceType": "FAQ",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "459698838d3fb8e5253be64cf64a66dbddbee8954d68f704e2a746e3db9478da"
+  },
+  {
+   "id": "src:86f510044d4e",
+   "url": "https://www.passportindia.gov.in/psp/ListDOB",
+   "title": "Passport Seva",
+   "domain": "passportindia.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "4fb159438e29883b25653a0abab9ec11f648cff0631e2113c3c454035e8d5814"
   }
  ],
  "nodes": [
@@ -148,6 +198,86 @@
    ]
   },
   {
+   "id": "action:death_certificate_the_applicant_selects_the_death_place_zone",
+   "type": "ACTION",
+   "name": "The applicant selects the death place zone",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "The applicant selects the death place zone.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:8915c5e8100c",
+     "evidence": "Death Place Zone\nAll",
+     "confidence": 0.8,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:death_certificate_the_applicant_selects_the_gender_of_the_deceased",
+   "type": "ACTION",
+   "name": "The applicant selects the gender of the deceased",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "The applicant selects the gender of the deceased.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:8915c5e8100c",
+     "evidence": "Gender\nMale\nFemale",
+     "confidence": 0.8,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:death_certificate_the_applicant_selects_the_date_of_death",
+   "type": "ACTION",
+   "name": "The applicant selects the date of death",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "The applicant selects the date of death.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:8915c5e8100c",
+     "evidence": "Date of Death",
+     "confidence": 0.7,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:death_certificate_the_nominee_must_submit_a_death_registration_cer",
+   "type": "ACTION",
+   "name": "The nominee must submit a Death Registration Certificate and additional documents like FIR",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "The nominee must submit a Death Registration Certificate and additional documents like FIR, Post Mortem Report, Police Inquest Report, and Police Conclusion Report or Final Report for processing.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:9b1c2b8b5b69",
+     "evidence": "Step 1: The nominee submits an application along with the Death Registration Certificate and additional documents, including the FIR, Post Mortem Report, Police Inquest Report, and Police Conclusion Report or Final Report.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:death_certificate",
    "type": "SERVICE",
    "name": "Death Certificate",
@@ -155,12 +285,43 @@
    "description": "Registration of death through the Government of Gujarat's eOlakh Application.",
    "jurisdictionId": "IN-GJ-SURAT",
    "metadata": {
-    "machineExtracted": true
+    "machineExtracted": true,
+    "fee": "A citizen pays Rs. 20 for an additional copy of a death certificate, which includes a Rs. 5 certificate fee and Rs. 15 administration charges."
    },
    "sources": [
     {
      "sourceId": "src:8915c5e8100c",
      "evidence": "Surat Municipal Corporation is using Government of Gujarat's eOlakh Application ( https://eolakh.gujarat.gov.in/ ) for death registration from 01/04/2020, hence online death certificate for death registered on or after this date will not be available.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8915c5e8100c",
+     "evidence": "Death Place Zone\nAll",
+     "confidence": 0.8,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8915c5e8100c",
+     "evidence": "Gender\nMale\nFemale",
+     "confidence": 0.8,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8915c5e8100c",
+     "evidence": "Date of Death",
+     "confidence": 0.7,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6f438ff998ce",
+     "evidence": "On payment of Rs. 20/- (Birth or Death certificate fee Rs. 5/- and administration charges Rs. 15/- = Rs. 20/-), a copy of birth & death certificate is available in Gujarati and English.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:9b1c2b8b5b69",
+     "evidence": "Step 1: The nominee submits an application along with the Death Registration Certificate and additional documents, including the FIR, Post Mortem Report, Police Inquest Report, and Police Conclusion Report or Final Report.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -312,6 +473,70 @@
    ]
   },
   {
+   "id": "e:service_death_certificate__requires__action_death_certificate_the_applicant_selects_the_death_pla",
+   "from": "service:death_certificate",
+   "to": "action:death_certificate_the_applicant_selects_the_death_place_zone",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant selects the death place zone.",
+   "sources": [
+    {
+     "sourceId": "src:8915c5e8100c",
+     "evidence": "Death Place Zone\nAll",
+     "confidence": 0.8,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_death_certificate__requires__action_death_certificate_the_applicant_selects_the_gender_of",
+   "from": "service:death_certificate",
+   "to": "action:death_certificate_the_applicant_selects_the_gender_of_the_deceased",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant selects the gender of the deceased.",
+   "sources": [
+    {
+     "sourceId": "src:8915c5e8100c",
+     "evidence": "Gender\nMale\nFemale",
+     "confidence": 0.8,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_death_certificate__requires__action_death_certificate_the_applicant_selects_the_date_of_d",
+   "from": "service:death_certificate",
+   "to": "action:death_certificate_the_applicant_selects_the_date_of_death",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant selects the date of death.",
+   "sources": [
+    {
+     "sourceId": "src:8915c5e8100c",
+     "evidence": "Date of Death",
+     "confidence": 0.7,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_death_certificate__requires__action_death_certificate_the_nominee_must_submit_a_death_reg",
+   "from": "service:death_certificate",
+   "to": "action:death_certificate_the_nominee_must_submit_a_death_registration_cer",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The nominee must submit a Death Registration Certificate and additional documents like FIR, Post Mortem Report, Police Inquest Report, and Police Conclusion Report or Final Report for processing.",
+   "sources": [
+    {
+     "sourceId": "src:9b1c2b8b5b69",
+     "evidence": "Step 1: The nominee submits an application along with the Death Registration Certificate and additional documents, including the FIR, Post Mortem Report, Police Inquest Report, and Police Conclusion Report or Final Report.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_death_certificate__apply_at__portal_suratmunicipal_gov_in",
    "from": "service:death_certificate",
    "to": "portal:suratmunicipal_gov_in",
@@ -322,6 +547,22 @@
     {
      "sourceId": "src:8915c5e8100c",
      "evidence": "Surat Municipal Corporation is using Government of Gujarat's eOlakh Application ( https://eolakh.gujarat.gov.in/ ) for death registration from 01/04/2020, hence online death certificate for death registered on or after this date will not be available.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_birth_certificate__call_if__helpline_18001081818",
+   "from": "service:birth_certificate",
+   "to": "helpline:18001081818",
+   "type": "CALL_IF",
+   "verificationStatus": "EXTRACTED",
+   "note": "The toll-free number for Gandhinagar Municipal Corporation is 18001081818.",
+   "sources": [
+    {
+     "sourceId": "src:1cc4a3d9a83b",
+     "evidence": "Toll Free - 18001081818",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }

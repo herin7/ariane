@@ -1,12 +1,12 @@
 {
- "runId": "compile-2026-08-25T07:50:33.651Z",
+ "runId": "compile-2026-08-25T08:12:57.351Z",
  "compiledAt": "2026-08-25",
- "total": 7319,
+ "total": 7520,
  "reasons": [
   {
    "stage": "compile",
    "reason": "TRUNCATED_BY_CAP",
-   "count": 1880,
+   "count": 1950,
    "examples": [
     {
      "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
@@ -38,8 +38,23 @@
   {
    "stage": "compile",
    "reason": "NO_EXPLICIT_ORDER",
-   "count": 950,
+   "count": 1008,
    "examples": [
+    {
+     "url": "https://suratmunicipal.gov.in/OnlineServices/DeathCertificate/Enroll",
+     "claim": "The applicant selects the death place zone.",
+     "note": null
+    },
+    {
+     "url": "https://suratmunicipal.gov.in/OnlineServices/DeathCertificate/Enroll",
+     "claim": "The applicant selects the gender of the deceased.",
+     "note": null
+    },
+    {
+     "url": "https://suratmunicipal.gov.in/OnlineServices/DeathCertificate/Enroll",
+     "claim": "The applicant selects the date of death.",
+     "note": null
+    },
     {
      "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
      "claim": "The enterprise will apply to the Industries Commissioner in a prescribed format along with a detailed project report.",
@@ -48,21 +63,6 @@
     {
      "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
      "claim": "The application will be scrutinized and put up before the Committee for approval.",
-     "note": null
-    },
-    {
-     "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
-     "claim": "On approval of the Committee, a registration certificate will be issued.",
-     "note": null
-    },
-    {
-     "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
-     "claim": "On commencement of commercial production, the enterprise will apply to the Industries Commissioner for assistance under the scheme.",
-     "note": null
-    },
-    {
-     "url": "https://devbhumidwarkadp.gujarat.gov.in/gu/E-gram-Vishvagram-Yojana",
-     "claim": "E-Gram Panchayat provides birth and death certificates, income certificates, caste certificates, character certificates, and residence certificates.",
      "note": null
     }
    ]
@@ -102,7 +102,7 @@
   {
    "stage": "compile",
    "reason": "NOT_A_DOCUMENT",
-   "count": 867,
+   "count": 875,
    "examples": [
     {
      "url": "https://jamnagardp.gujarat.gov.in/gu/Registration-of-co-operatives-and-sub-rule-amendments",
@@ -134,7 +134,7 @@
   {
    "stage": "compile",
    "reason": "NOT_A_CITIZEN_FEE",
-   "count": 555,
+   "count": 562,
    "examples": [
     {
      "url": "https://vahan.parivahan.gov.in/vahanservice/vahan/ui/miscellaneous/Instructions.xhtml",
@@ -166,7 +166,7 @@
   {
    "stage": "compile",
    "reason": "NOT_A_CRITERION",
-   "count": 379,
+   "count": 381,
    "examples": [
     {
      "url": "https://jamnagardp.gujarat.gov.in/gu/Registration-of-co-operatives-and-sub-rule-amendments",
@@ -198,7 +198,7 @@
   {
    "stage": "compile",
    "reason": "NOT_A_PROCESSING_TIME",
-   "count": 367,
+   "count": 369,
    "examples": [
     {
      "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
@@ -262,8 +262,23 @@
   {
    "stage": "compile",
    "reason": "NO_LOCATION",
-   "count": 281,
+   "count": 296,
    "examples": [
+    {
+     "url": "https://www.myscheme.gov.in/schemes/dbabocwwb",
+     "claim": "The death certificate is issued by a government doctor or appropriate authority.",
+     "note": null
+    },
+    {
+     "url": "https://www.epfindia.gov.in/site_en/FAQ.php",
+     "claim": "The Registrar of Births and Deaths issues a birth certificate.",
+     "note": null
+    },
+    {
+     "url": "https://www.passportindia.gov.in/psp/ListDOB",
+     "claim": "The Registrar of Births and Deaths or the Municipal Corporation or any other authority empowered under the Registration of Births and Deaths Act, 1969 issues a birth certificate.",
+     "note": null
+    },
     {
      "url": "https://ahmedabad.gujarat.gov.in/Unreserved-Class-Certificate",
      "claim": "The application form for the Unreserved Class Certificate can be submitted to the Collector, Deputy Collector, Assistant Collector, Sub Collector, District Development Officer, Sub District Developmen",
@@ -272,21 +287,6 @@
     {
      "url": "https://panchmahal.gujarat.gov.in/",
      "claim": "The page provides a list of offices, including Mamlatdar Office and Prant Office.",
-     "note": null
-    },
-    {
-     "url": "https://surat.gujarat.gov.in/",
-     "claim": "The Mamlatdar Office is one of the offices listed under the Surat District Collectorate.",
-     "note": null
-    },
-    {
-     "url": "https://surat.gujarat.gov.in/",
-     "claim": "The Prant Office is one of the offices listed under the Surat District Collectorate.",
-     "note": null
-    },
-    {
-     "url": "https://banaskantha.gujarat.gov.in/",
-     "claim": "Jan Seva Kendra is located at District Collectorate",
      "note": null
     }
    ]
@@ -358,8 +358,13 @@
   {
    "stage": "compile",
    "reason": "FAILED_NORMALIZATION",
-   "count": 82,
+   "count": 91,
    "examples": [
+    {
+     "url": "https://suratmunicipal.gov.in/OnlineServices/DeathCertificate/Enroll",
+     "claim": "An applicant can check the status of a submitted death certificate application.",
+     "note": null
+    },
     {
      "url": "https://collectorkheda.gujarat.gov.in/varshai-app-form-47",
      "claim": "An online application can be submitted through Digital Gujarat.",
@@ -379,18 +384,13 @@
      "url": "https://rajkot.gujarat.gov.in/",
      "claim": "A citizen can apply for online services through the iORA portal for revenue-related services.",
      "note": "iORA"
-    },
-    {
-     "url": "https://rajkot.gujarat.gov.in/",
-     "claim": "A citizen can apply for online services through the NDAL-ALIS portal for magisterial-related services.",
-     "note": "NDAL-ALIS"
     }
    ]
   },
   {
    "stage": "compile",
    "reason": "UNKNOWN_CANONICAL_ENTITY",
-   "count": 72,
+   "count": 87,
    "examples": [
     {
      "url": "https://surat.nic.in/service/caste-certificate",
@@ -408,13 +408,13 @@
      "note": "service:sc_st_caste_certificate is not a service this compile built"
     },
     {
-     "url": "https://collectormehsana.gujarat.gov.in/contacts",
-     "claim": "The Collector of Mehsana is Shri S. K. Prajapati, IAS, and can be contacted at +91 2762 222200 and collector-meh[at]gujarat[dot]gov[dot]in.",
-     "note": null
+     "url": "https://devbhumidwarka.nic.in/service/certificates",
+     "claim": "The Economically Backward Certificate (Other than Job/Education Purpose) is issued at the Taluka Mamlatdar or Panchayat Office.",
+     "note": "service:economically_backward_certificate is not a service this compile built"
     },
     {
      "url": "https://collectormehsana.gujarat.gov.in/contacts",
-     "claim": "The Resident Additional Collector is Shri J. K. Jegoda and can be contacted at +91 2762 222203 and Add-collector-meh[at]gujarat[dot]gov[dot]in.",
+     "claim": "The Collector of Mehsana is Shri S. K. Prajapati, IAS, and can be contacted at +91 2762 222200 and collector-meh[at]gujarat[dot]gov[dot]in.",
      "note": null
     }
    ]
@@ -613,6 +613,70 @@
   },
   {
    "stage": "compile",
+   "reason": "NO_ACTOR",
+   "count": 17,
+   "examples": [
+    {
+     "url": "https://www.myscheme.gov.in/schemes/dbabocwwb",
+     "claim": "The death certificate is issued by a government doctor or appropriate authority.",
+     "note": "a sentence about who does it that names nobody"
+    },
+    {
+     "url": "https://empower.gujarat.gov.in/KVK/Registration.aspx",
+     "claim": "The form will only be considered valid after verification by the KVK under the authority of the Commissionerate of Employment and Training.",
+     "note": "a sentence about who does it that names nobody"
+    },
+    {
+     "url": "https://empower.gujarat.gov.in/Registration.aspx",
+     "claim": "The form will be considered valid only after verification by the government ITI under the jurisdiction of the Commissionerate of Employment and Training.",
+     "note": "a sentence about who does it that names nobody"
+    },
+    {
+     "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/user_manual/Garment_Policy_guidelines.pdf#page=20",
+     "claim": "All MSMEs projects will be sanctioned by the DIC.",
+     "note": "a sentence about who does it that names nobody"
+    },
+    {
+     "url": "https://townplanning.gujarat.gov.in/DPIFC",
+     "claim": "DPIFC does not grant statutory approvals or development permissions; these are issued by the respective Competent Authorities.",
+     "note": "a sentence about who does it that names nobody"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
+   "reason": "DUPLICATE",
+   "count": 15,
+   "examples": [
+    {
+     "url": "https://udyamregistration.gov.in/",
+     "claim": "After registration, a permanent registration number will be given to the applicant.",
+     "note": "already extracted from a page this service was built from"
+    },
+    {
+     "url": "https://udyamregistration.gov.in/",
+     "claim": "After completing the registration process, a certificate will be issued online.",
+     "note": "already extracted from a page this service was built from"
+    },
+    {
+     "url": "https://udyamregistration.gov.in/",
+     "claim": "After completion of the process of registration, a certificate will be issued online.",
+     "note": "already extracted from a page this service was built from"
+    },
+    {
+     "url": "https://udyamregistration.gov.in/",
+     "claim": "A permanent registration number will be given after registration.",
+     "note": "already extracted from a page this service was built from"
+    },
+    {
+     "url": "https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=6",
+     "claim": "Adventure Tour Operators (ATOs) must follow safety guidelines for activities like water sports, aero-sports, safaris, mountaineering, and trekking as per the Ministry of Tourism’s prevailing guideline",
+     "note": "already extracted from a page this service was built from"
+    }
+   ]
+  },
+  {
+   "stage": "compile",
    "reason": "ALREADY_OWNED",
    "count": 15,
    "examples": [
@@ -645,33 +709,33 @@
   },
   {
    "stage": "compile",
-   "reason": "NO_ACTOR",
-   "count": 15,
+   "reason": "GROUP_TOO_FEW_MEMBERS",
+   "count": 7,
    "examples": [
     {
-     "url": "https://empower.gujarat.gov.in/KVK/Registration.aspx",
-     "claim": "The form will only be considered valid after verification by the KVK under the authority of the Commissionerate of Employment and Training.",
-     "note": "a sentence about who does it that names nobody"
+     "url": "https://www.epfindia.gov.in/site_en/FAQ.php",
+     "claim": "2. -\\> Select any one of the following – UAN, Member ID, Aadhaar or PAN",
+     "note": "3 line(s), 0 of them a known document"
     },
     {
-     "url": "https://empower.gujarat.gov.in/Registration.aspx",
-     "claim": "The form will be considered valid only after verification by the government ITI under the jurisdiction of the Commissionerate of Employment and Training.",
-     "note": "a sentence about who does it that names nobody"
+     "url": "https://www.epfindia.gov.in/site_en/FAQ.php",
+     "claim": "1. Any of the following documents may be accepted as valid proof of date of birth:",
+     "note": "6 line(s), 0 of them a known document"
     },
     {
-     "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/user_manual/Garment_Policy_guidelines.pdf#page=20",
-     "claim": "All MSMEs projects will be sanctioned by the DIC.",
-     "note": "a sentence about who does it that names nobody"
+     "url": "https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/GSSSB_202526_312.pdf#page=4",
+     "claim": "B. Candidates having any of the following physical defects shall be",
+     "note": "15 line(s), 0 of them a known document"
     },
     {
-     "url": "https://townplanning.gujarat.gov.in/DPIFC",
-     "claim": "DPIFC does not grant statutory approvals or development permissions; these are issued by the respective Competent Authorities.",
-     "note": "a sentence about who does it that names nobody"
+     "url": "https://fcsca.gujarat.gov.in/en/phh-schemenew1",
+     "claim": "Family having deprivation/insecurity of any of the following shall be included for food security.",
+     "note": "3 line(s), 0 of them a known document"
     },
     {
-     "url": "https://ced.gujarat.gov.in/assets/downloads/shrihariagri512015.pdf#page=55",
-     "claim": "ISI certification is required and is issued by the Bureau of Indian Standards.",
-     "note": "a sentence about who does it that names nobody"
+     "url": "https://directorit.gujarat.gov.in/Content/Scheme_for_Startup_Policy.pdf#page=7",
+     "claim": "they cross any of the following milestones, whichever is earlier:",
+     "note": "15 line(s), 0 of them a known document"
     }
    ]
   },
@@ -704,65 +768,6 @@
      "url": "https://collectorpanchmahal.gujarat.gov.in/showpage.aspx?contentid=344",
      "claim": "certificate",
      "note": "sits above 51 other names in district-certificates"
-    }
-   ]
-  },
-  {
-   "stage": "compile",
-   "reason": "GROUP_TOO_FEW_MEMBERS",
-   "count": 5,
-   "examples": [
-    {
-     "url": "https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/GSSSB_202526_312.pdf#page=4",
-     "claim": "B. Candidates having any of the following physical defects shall be",
-     "note": "15 line(s), 0 of them a known document"
-    },
-    {
-     "url": "https://fcsca.gujarat.gov.in/en/phh-schemenew1",
-     "claim": "Family having deprivation/insecurity of any of the following shall be included for food security.",
-     "note": "3 line(s), 0 of them a known document"
-    },
-    {
-     "url": "https://directorit.gujarat.gov.in/Content/Scheme_for_Startup_Policy.pdf#page=7",
-     "claim": "they cross any of the following milestones, whichever is earlier:",
-     "note": "15 line(s), 0 of them a known document"
-    },
-    {
-     "url": "https://directorit.gujarat.gov.in/Content/Scheme_for_Startup_Policy.pdf#page=7",
-     "claim": "they cross any of the following milestones, whichever is earlier:",
-     "note": "15 line(s), 0 of them a known document"
-    },
-    {
-     "url": "https://web.umang.gov.in/landing/scheme/detail/chief-ministergi-shotharabasingi-tengbang_cmst.html",
-     "claim": "The following documents are required mandatorily in order to apply to this scheme -",
-     "note": "3 line(s), 0 of them a known document"
-    }
-   ]
-  },
-  {
-   "stage": "compile",
-   "reason": "DUPLICATE",
-   "count": 4,
-   "examples": [
-    {
-     "url": "https://udyamregistration.gov.in/",
-     "claim": "After registration, a permanent registration number will be given to the applicant.",
-     "note": "already extracted from a page this service was built from"
-    },
-    {
-     "url": "https://udyamregistration.gov.in/",
-     "claim": "After completing the registration process, a certificate will be issued online.",
-     "note": "already extracted from a page this service was built from"
-    },
-    {
-     "url": "https://udyamregistration.gov.in/",
-     "claim": "After completion of the process of registration, a certificate will be issued online.",
-     "note": "already extracted from a page this service was built from"
-    },
-    {
-     "url": "https://udyamregistration.gov.in/",
-     "claim": "A permanent registration number will be given after registration.",
-     "note": "already extracted from a page this service was built from"
     }
    ]
   },

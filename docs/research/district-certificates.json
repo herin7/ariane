@@ -52,6 +52,42 @@
    "scrapedOk": true
   },
   {
+   "id": "src:4de6b6d45e2e",
+   "url": "https://www.myscheme.gov.in/schemes/aos",
+   "title": "Orunodoi 3.0",
+   "domain": "myscheme.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "1c8f280b70bb004a66b8f03f07293e51e51f6bc7bc10b81ac8a95443ec079e1b",
+   "cacheFile": ".ingest/pages/4de6b6d45e2eb290b85eacd5d8c1cd6c45a1f828.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:bc430f702492",
+   "url": "https://www.myscheme.gov.in/schemes/ioap",
+   "title": "INDIRAMMA Old Age Pension (Rural)",
+   "domain": "myscheme.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "78775536b68bbcb3844c44bea67a7a5f34c4d0975f42c7a986c1840629a154ce",
+   "cacheFile": ".ingest/pages/bc430f702492cf748135d1d5824d5a8107ec058d.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:3c6282acb0d9",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/acharya-vidyasagar-gau-samvardhan-yojana_avgsy.html",
+   "title": "Acharya Vidyasagar Gau Samvardhan Yojana",
+   "domain": "web.umang.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "39ae9981f91c2b890fc1aac7547cba3416f2afd06cfcd96858c8c28be39ce7fd",
+   "cacheFile": ".ingest/pages/3c6282acb0d994ed27a1fd1ce39c9b3100cf846b.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:b95bad3f5be2",
    "url": "https://gvc.org.in/webcontroller/clickmenu/MTYyMDU3OTYw",
    "title": "Gujarat Veterinary Council",
@@ -817,6 +853,30 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "a1b47b9232326406ab4ccd974d5dca86d2ed3486480e428931d798c4e785df9b",
    "cacheFile": ".ingest/pages/3b4bcc8a0fc80fea7f36c688605bc7adbee3bfa7.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:38b1ddfb482f",
+   "url": "https://ced.gujarat.gov.in/assets/downloads/form-A-citizen-charter-sla.pdf#page=1",
+   "title": "form-A-citizen-charter-sla (page 1 of 3)",
+   "domain": "ced.gujarat.gov.in",
+   "sourceType": "OFFICE_DIRECTORY",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "eaeed7a62d282778c886d84796dca0c9c03a6a88260ca23080ab515f2187a1ad",
+   "cacheFile": ".ingest/pages/38b1ddfb482f9dedad66ea101482d5d492eab6c5.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:e220f7589dca",
+   "url": "https://web.umang.gov.in/landing/scheme/detail/cm-anuprati-coaching-scheme_cmacs.html",
+   "title": "CM Anuprati Coaching Scheme",
+   "domain": "web.umang.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "dc8a24c8341a943547cf3617d2cfe667af07f2eb53e056ca403c92f76bb9d9de",
+   "cacheFile": ".ingest/pages/e220f7589dcae59dc7056b429ecdd29f383a33d8.md",
    "scrapedOk": true
   },
   {
@@ -2103,6 +2163,46 @@
    "sourceId": "src:fe8c255146a1",
    "evidence": "જમીન રેકોર્ડ દસ્‍તાવેજો (૭/૧૨ અને ૮/અ)",
    "confidence": 0.95
+  },
+  {
+   "claim": "The applicant receives an acknowledgment slip after submitting the application to the PS committee or Gram Panchayat Office.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "acknowledgment_slip",
+   "detail": {},
+   "sourceId": "src:4de6b6d45e2e",
+   "evidence": "After submission of the Application Form, an acknowledgement slip will be given to the applicant by the PS committee or in a Gram Panchayat Office.",
+   "confidence": 0.95
+  },
+  {
+   "claim": "Eligible citizens are identified during Gram Sabhas by their respective Gram Panchayat.",
+   "kind": "ACTION",
+   "subject": "gram_panchayat",
+   "object": "eligible_citizens",
+   "detail": {},
+   "sourceId": "src:bc430f702492",
+   "evidence": "The eligible citizens will be identified by their respective Gram Panchayat during the Gram Sabhas.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Panchayat Secretary maintains a register of eligible persons and sends the Gram Sabha resolution to the Mandal Parishad Development Officer (MPDO).",
+   "kind": "ACTION",
+   "subject": "panchayat_secretary",
+   "object": "mandal_parishad_development_officer",
+   "detail": {},
+   "sourceId": "src:bc430f702492",
+   "evidence": "The Panchayat Secretary maintains a register of eligible persons and sends the Gram Sabha resolution recommending eligible persons to the Mandal Parishad Development Officer (MPDO).",
+   "confidence": 1
+  },
+  {
+   "claim": "Beneficiaries approved by Gram Sabha are further approved in the meeting of Janpad Panchayat.",
+   "kind": "ACTION",
+   "subject": "janpad_panchayat",
+   "object": "beneficiaries",
+   "detail": {},
+   "sourceId": "src:3c6282acb0d9",
+   "evidence": "2)Approval of beneficiaries approved by Gram Sabha in the meeting of Janpad Panchayat.",
+   "confidence": 1
   },
   {
    "claim": "A certificate of registration is issued on payment of a fee not exceeding 115 rupees.",
@@ -9690,6 +9790,26 @@
    "sourceId": "src:3b4bcc8a0fc8",
    "evidence": "વ્યકિતગત ધોરણે મકાન સહાય",
    "confidence": 0.95
+  },
+  {
+   "claim": "Shri M.D. Bharvada is the officer associated with application forms for the Scheme for Enhancement of Technical Competence and Manpower.",
+   "kind": "OFFICE",
+   "subject": "application_forms",
+   "object": "shri_md_bharvada",
+   "detail": {},
+   "sourceId": "src:38b1ddfb482f",
+   "evidence": "1 Scheme for Enhancement\nof Technical Competence\nand Manpower\nG.R., Application\nForms/\nExpression of\nInterest- EoI,\nProposal\nShri M.D.\nBharvada,",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The required documents are automatically verified from the database of the web portal/Jan Aadhaar/Raj e-bolt/DigiLocker of the issuing agency through web service.",
+   "kind": "ACTION",
+   "subject": "application_forms",
+   "object": "document_verification",
+   "detail": {},
+   "sourceId": "src:e220f7589dca",
+   "evidence": "Note 2: After receiving the online application forms from candidates as per the prescribed eligibility, the required documents (such as caste certificate, domicile certificate, 10th and 12th mark sheets, income certificate, etc.) will be automatically verified from the database of the web portal/Jan Aadhaar/Raj e-bolt/DigiLocker of the issuing agency through web service, without the need to upload the documents wherever possible. These application forms will be verified automatically, eliminating the need for manual verification.",
+   "confidence": 1
   },
   {
    "claim": "The District Collector Office is located at Block No.3, MS Building, Rajmahal road, Mehsana, Gujarat - 384001.",

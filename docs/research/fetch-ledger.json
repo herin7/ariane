@@ -1,7 +1,7 @@
 {
   "generatedBy": "scripts/fetch-ledger.mjs",
-  "urls": 889,
-  "cached": 885,
+  "urls": 899,
+  "cached": 895,
   "missing": 0,
   "noCacheFile": 0,
   "fetchFailed": 4,
@@ -42,7 +42,7 @@
     ".firecrawl/sarathi-ll-map.json",
     ".firecrawl/sarathi-map.json"
   ],
-  "uncitedIngestPages": 1889,
+  "uncitedIngestPages": 1879,
   "entries": [
     {
       "url": "http://ggrc.co.in/webui/Content.aspx",
@@ -56,6 +56,20 @@
       "quoted": true,
       "bytes": 4730,
       "sha256": "bb3a6e02796ef490e9472a38c5b11e00d852af7a9df2d856bd90d516f4da4d61",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "http://www.incometax.gov.in/iec/foportal/help/register-for-efiling-external-agency",
+      "title": "Register for e-Filing (External Agency) User Manual | Income Tax Department",
+      "sourceType": "GUIDELINE",
+      "journeys": [
+        "gst"
+      ],
+      "cacheFile": ".ingest/pages/f34b63e80482cb78262b26b5dfaeea088f21e3b8.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 9336,
+      "sha256": "706539722d6b692a001aa76ce8a9379679bf605a072c27b3317a575b23a9fe8c",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -967,6 +981,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://betivadhaao.gujarat.gov.in/Default.aspx/1000",
+      "title": "Home|Betivadhaao, Health and Family welfare department",
+      "sourceType": "PORTAL_HOME",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/097a5d06bf037b47287bae2519778907f3bdc3bf.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 5379,
+      "sha256": "5a46954b14c42d0c9f1f4bca73d18f6ba0614bcab38e6fbf1ff2d6f8d3097ddb",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://betivadhaao.gujarat.gov.in/Download.aspx",
       "title": "બેટી વધાવો - Betivadhaao, Health and Family welfare department",
       "sourceType": "SERVICE_PAGE",
@@ -1680,6 +1708,7 @@
       "title": "form-A-citizen-charter-sla (page 1 of 3)",
       "sourceType": "OFFICE_DIRECTORY",
       "journeys": [
+        "district-certificates",
         "startup",
         "welfare-schemes"
       ],
@@ -4559,6 +4588,20 @@
       "quoted": true,
       "bytes": 4129,
       "sha256": "30fa36cf27cd17ab94a6c546a7def72621e97bb4de7086eb475e5f94b22aa80a",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://forestservices.gujarat.gov.in/eservices/frmCheckAppStatus.aspx",
+      "title": "Gujarat Forest Department",
+      "sourceType": "TRACKING_PAGE",
+      "journeys": [
+        "permits-and-licences"
+      ],
+      "cacheFile": ".ingest/pages/eee3513f3e2b17ef43c2d27c14c9fccbb0c2fff7.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 846,
+      "sha256": "9e122eb4c20a9e1cc61173b0100972192e6bc614869ff74106a0815a36661b87",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -10332,6 +10375,7 @@
       "title": "Aam Aadmi Bima Yojana",
       "sourceType": "SERVICE_PAGE",
       "journeys": [
+        "birth-death",
         "welfare-schemes"
       ],
       "cacheFile": ".ingest/pages/9b1c2b8b5b69fd21bfbcd99d82ed952e8a03f44c.md",
@@ -10353,6 +10397,20 @@
       "quoted": true,
       "bytes": 16795,
       "sha256": "385ce4df9f2a08e55192bb712a249411dcfc4739c60fea0aa925034c7bf17844",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/acharya-vidyasagar-gau-samvardhan-yojana_avgsy.html",
+      "title": "Acharya Vidyasagar Gau Samvardhan Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "district-certificates"
+      ],
+      "cacheFile": ".ingest/pages/3c6282acb0d994ed27a1fd1ce39c9b3100cf846b.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 13031,
+      "sha256": "39ae9981f91c2b890fc1aac7547cba3416f2afd06cfcd96858c8c28be39ce7fd",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -10664,6 +10722,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/atma-nirbhar-krishi-yojana_anky.html",
+      "title": "Atma Nirbhar Krishi Yojana",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/90cc4e7d34ec6a8cf3c2f8d8de17ff70a474749e.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14164,
+      "sha256": "ec915407cf61ca84dfed2b1ed46e60d134b54fb0849f0b30e51a19d6320c49bd",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://web.umang.gov.in/landing/scheme/detail/award-of-scholarships-to-young-artists-in-different-cultural-fields_asyadcf.html",
       "title": "Award Of Scholarships To Young Artists In Different Cultural Fields",
       "sourceType": "SERVICE_PAGE",
@@ -10930,6 +11002,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/chief-ministers-agriculture-mechanisation-programme_cmamp.html",
+      "title": "Chief Minister’s Agriculture Mechanisation Programme",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "welfare-schemes"
+      ],
+      "cacheFile": ".ingest/pages/9b3b79e43c785e96ba2b741e69bbaabbf5a34872.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 14456,
+      "sha256": "c6158a27acafa86f121276179a810ffa7b53ad7bed601b597279ea4e2bd020dd",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://web.umang.gov.in/landing/scheme/detail/chief-ministers-paryatan-siksha-yojana_cmpsy.html",
       "title": "Chief Minister’s Paryatan Siksha Yojana",
       "sourceType": "SERVICE_PAGE",
@@ -10941,6 +11027,20 @@
       "quoted": true,
       "bytes": 13313,
       "sha256": "884a84df201ec9d2a2384a0ad80d90157a306c09649dffb30952782a64d76c2d",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://web.umang.gov.in/landing/scheme/detail/cm-anuprati-coaching-scheme_cmacs.html",
+      "title": "CM Anuprati Coaching Scheme",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "district-certificates"
+      ],
+      "cacheFile": ".ingest/pages/e220f7589dcae59dc7056b429ecdd29f383a33d8.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 16934,
+      "sha256": "dc8a24c8341a943547cf3617d2cfe667af07f2eb53e056ca403c92f76bb9d9de",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -11312,6 +11412,7 @@
       "title": "EPFO || Frequently Asked Questions",
       "sourceType": "FAQ",
       "journeys": [
+        "birth-death",
         "pf"
       ],
       "cacheFile": ".firecrawl/pf/wb-faq.md",
@@ -11319,7 +11420,7 @@
       "quoted": true,
       "bytes": 217300,
       "sha256": "459698838d3fb8e5253be64cf64a66dbddbee8954d68f704e2a746e3db9478da",
-      "retrievedAt": "2026-08-23T00:00:00.000Z"
+      "retrievedAt": "2026-08-23"
     },
     {
       "url": "https://www.epfindia.gov.in/site_en/WhichClaimForm.php",
@@ -11410,6 +11511,7 @@
       "title": "Challan Correction Request User Manual | Income Tax Department",
       "sourceType": "GUIDELINE",
       "journeys": [
+        "gst",
         "pan"
       ],
       "cacheFile": ".ingest/pages/7fd29c1cf6e0e202abfb02e4cd27e86a2df70c39.md",
@@ -11473,6 +11575,20 @@
       "quoted": true,
       "bytes": 7467,
       "sha256": "1b3de5b445d86987cbf48053fd575a1d17aebaa587f98d623e61b694edf6808c",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.incometax.gov.in/iec/foportal/help/statutory-forms/popular-form/form-10-IEA-faq",
+      "title": "Form 10-IEA FAQ | Income Tax Department",
+      "sourceType": "FAQ",
+      "journeys": [
+        "gst"
+      ],
+      "cacheFile": ".ingest/pages/f6fdb701300edb682a004464461d3143f2f4ed53.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 12017,
+      "sha256": "0549e825506df1ad5e5384cb93fee0fb335c1e15c9d1dfcc8f836f5ff4310e08",
       "retrievedAt": "2026-08-23"
     },
     {
@@ -11690,6 +11806,7 @@
       "title": "Orunodoi 3.0",
       "sourceType": "SERVICE_PAGE",
       "journeys": [
+        "district-certificates",
         "welfare-schemes"
       ],
       "cacheFile": ".ingest/pages/4de6b6d45e2eb290b85eacd5d8c1cd6c45a1f828.md",
@@ -11786,8 +11903,9 @@
     {
       "url": "https://www.myscheme.gov.in/schemes/dbabocwwb",
       "title": "Death Benefit (A.B.O.C.W.W.B)",
-      "sourceType": "SERVICE_PAGE",
+      "sourceType": "OFFICE_DIRECTORY",
       "journeys": [
+        "birth-death",
         "welfare-schemes"
       ],
       "cacheFile": ".ingest/pages/9f1c53a9c74f23af2c5530943fa0dc157e99f709.md",
@@ -11942,6 +12060,7 @@
       "title": "INDIRAMMA Old Age Pension (Rural)",
       "sourceType": "SERVICE_PAGE",
       "journeys": [
+        "district-certificates",
         "welfare-schemes"
       ],
       "cacheFile": ".ingest/pages/bc430f702492cf748135d1d5824d5a8107ec058d.md",
@@ -12458,6 +12577,20 @@
       "retrievedAt": "2026-08-23"
     },
     {
+      "url": "https://www.passportindia.gov.in/psp/ListDOB",
+      "title": "Passport Seva",
+      "sourceType": "OFFICE_DIRECTORY",
+      "journeys": [
+        "birth-death"
+      ],
+      "cacheFile": ".ingest/pages/86f510044d4e342d35a31a56d6845462c13bc994.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 2055,
+      "sha256": "4fb159438e29883b25653a0abab9ec11f648cff0631e2113c3c454035e8d5814",
+      "retrievedAt": "2026-08-23"
+    },
+    {
       "url": "https://www.startupindia.gov.in/content/sih/en/startup-scheme.html",
       "title": "Startup India Scheme",
       "sourceType": "SERVICE_PAGE",
@@ -12525,6 +12658,20 @@
       "quoted": true,
       "bytes": 6303,
       "sha256": "edd1a85d233eff547614b75ccd6ae40e0152eca7582504001191857c85d98756",
+      "retrievedAt": "2026-08-23"
+    },
+    {
+      "url": "https://www.suratmunicipal.gov.in/Departments/BirthDeathRegistration",
+      "title": "BirthDeathRegistration",
+      "sourceType": "SERVICE_PAGE",
+      "journeys": [
+        "birth-death"
+      ],
+      "cacheFile": ".ingest/pages/6f438ff998ce7eee893cb19d4760ffbe78c02b64.md",
+      "status": "CACHED",
+      "quoted": true,
+      "bytes": 12456,
+      "sha256": "ff00908e199164dc158c8925c500729c4366f07e00fab6d61349864f28ed0967",
       "retrievedAt": "2026-08-23"
     },
     {

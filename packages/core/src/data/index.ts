@@ -69,8 +69,8 @@ export function loadGraphFrom(bundles: GraphBundle[], jurisdictions: Jurisdictio
       ...services.flatMap((s) => templates.map((t) => ({ ...t, id: t.id.replace("*", s.id), from: s.id }))),
     ],
     requirementGroups: bundles.flatMap((b) => b.requirementGroups),
-    sources: bundles.flatMap((b) => b.sources),
-    questions: dedupeQuestions(bundles.flatMap((b) => b.questions)),
+    sources: dedupeBy(bundles.flatMap((b) => b.sources), (s) => s.id),
+    questions: dedupeBy(bundles.flatMap((b) => b.questions), (q) => q.field),
   };
 }
 
@@ -92,8 +92,16 @@ export function loadGraph(): GraphData {
  * spent on a client that will never open a socket to Postgres.
  */
 
-/** Journeys share fields like `age`. First definition wins. */
-function dedupeQuestions<T extends { field: string }>(questions: T[]): T[] {
+/**
+ * First definition wins.
+ *
+ * Journeys share question fields like `age`. They also share sources now: a
+ * page found while researching property records can answer a question about a
+ * permit, so the same url is cited from two bundles. The compiler writes one
+ * canonical row per url, so the copies are identical and merging them loses
+ * nothing.
+ */
+function dedupeBy<T>(items: T[], key: (item: T) => string): T[] {
   const seen = new Set<string>();
-  return questions.filter((q) => !seen.has(q.field) && seen.add(q.field));
+  return items.filter((item) => !seen.has(key(item)) && seen.add(key(item)));
 }

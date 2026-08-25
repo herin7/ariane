@@ -376,6 +376,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:dfcb08492267",
+   "url": "https://cpvadodara.gujarat.gov.in/Upload/PBNPB_1_home_140916.pdf#page=6",
+   "title": "PBNPB_1_home_140916 (page 6 of 6)",
+   "domain": "cpvadodara.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-VADODARA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "46379e63cc97b8c061f84952f0be82d4941520a6f071e20903e68ab6cf374ec5",
+   "cacheFile": ".ingest/pages/dfcb084922678cd8070e71599cb2a3258acfd35f.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:16b5f493e686",
    "url": "https://gvc.org.in/webcontroller/members/40",
    "title": "Gujarat Veterinary Council",
@@ -568,6 +580,18 @@
    "scrapedOk": true
   },
   {
+   "id": "src:eee3513f3e2b",
+   "url": "https://forestservices.gujarat.gov.in/eservices/frmCheckAppStatus.aspx",
+   "title": "Gujarat Forest Department",
+   "domain": "forestservices.gujarat.gov.in",
+   "sourceType": "TRACKING_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "9e122eb4c20a9e1cc61173b0100972192e6bc614869ff74106a0815a36661b87",
+   "cacheFile": ".ingest/pages/eee3513f3e2b17ef43c2d27c14c9fccbb0c2fff7.md",
+   "scrapedOk": true
+  },
+  {
    "id": "src:f84364f06217",
    "url": "https://townplanning.gujarat.gov.in/DPIFC",
    "title": "DPIFC | Development Permission Investors Facilitation Cell — Single Page (Temporary)",
@@ -710,6 +734,18 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "6fac51453e14073dbc02abc7e656cd4dc1fcea410972cd14627b864ea04b96e7",
    "cacheFile": ".ingest/pages/31139eefc21e2b745f8fbf17207236117f63e12b.md",
+   "scrapedOk": true
+  },
+  {
+   "id": "src:d50e51e38c37",
+   "url": "https://cpvadodara.gujarat.gov.in/Upload/PBNPB_1_home_140916.pdf#page=2",
+   "title": "PBNPB_1_home_140916 (page 2 of 6)",
+   "domain": "cpvadodara.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-VADODARA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d4618d6b0000898220f74b36f085decbac138a82445c5aef2d22dbc2a8abc9c5",
+   "cacheFile": ".ingest/pages/d50e51e38c37adbb89cdcc59d4e73fa16a61e3e3.md",
    "scrapedOk": true
   },
   {
@@ -1048,18 +1084,6 @@
    "retrievedAt": "2026-08-23",
    "contentHash": "6b51bdd627daae9507c4043e637450c353b36a689c65c76ff8716d7f996c9e2c",
    "cacheFile": ".ingest/pages/3b0651512376166e77d337441566108b7c33762e.md",
-   "scrapedOk": true
-  },
-  {
-   "id": "src:dfcb08492267",
-   "url": "https://cpvadodara.gujarat.gov.in/Upload/PBNPB_1_home_140916.pdf#page=6",
-   "title": "PBNPB_1_home_140916 (page 6 of 6)",
-   "domain": "cpvadodara.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ-VADODARA",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "46379e63cc97b8c061f84952f0be82d4941520a6f071e20903e68ab6cf374ec5",
-   "cacheFile": ".ingest/pages/dfcb084922678cd8070e71599cb2a3258acfd35f.md",
    "scrapedOk": true
   },
   {
@@ -5831,6 +5855,19 @@
    "confidence": 0.95
   },
   {
+   "claim": "A citizen pays 500 rupees for a firearm license for individuals.",
+   "kind": "FEE",
+   "subject": "firearm_licence",
+   "object": "individual",
+   "detail": {
+    "amount": 500,
+    "currency": "Rs."
+   },
+   "sourceId": "src:dfcb08492267",
+   "evidence": "Arms and ammunition (for individuals) 500 N/A",
+   "confidence": 0.95
+  },
+  {
    "claim": "Members of the Gujarat Veterinary Council can pay for renewal of their registration.",
    "kind": "ACTION",
    "subject": "gvc_member",
@@ -6696,6 +6733,45 @@
    "sourceId": "src:04175df00445",
    "evidence": "17 Any other service not defined aboVe 7 days of the receipt of application",
    "confidence": 1
+  },
+  {
+   "claim": "The fee for change of address within the existing licensing authority is 500.",
+   "kind": "FEE",
+   "subject": "firearm_license",
+   "object": "change_of_address_fee",
+   "detail": {
+    "amount": 500,
+    "currency": "INR"
+   },
+   "sourceId": "src:dfcb08492267",
+   "evidence": "3. All Change of address within the existing licensing authority\nunder rule 17(3) .\n500",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The fee for endorsement of firearm under rule 18 is 500 per firearm.",
+   "kind": "FEE",
+   "subject": "firearm_license",
+   "object": "endorsement_of_firearm_fee",
+   "detail": {
+    "amount": 500,
+    "currency": "INR"
+   },
+   "sourceId": "src:dfcb08492267",
+   "evidence": "4. II, III, IV Endorsement of firearm under rule 18\n(for each firearm)\n500",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The fee for addition or deletion of firearm is 500 per firearm.",
+   "kind": "FEE",
+   "subject": "firearm_license",
+   "object": "addition_deletion_of_firearm_fee",
+   "detail": {
+    "amount": 500,
+    "currency": "INR"
+   },
+   "sourceId": "src:dfcb08492267",
+   "evidence": "5.\n_\nII, III,IV Addition/deletion of firearm\n(for each firearm)\n500",
+   "confidence": 0.95
   },
   {
    "claim": "The application must be made in Form 1 along with a survey application in Form 2 and payment of the Registration and Survey Fee as prescribed in Schedule B.",
@@ -8714,6 +8790,18 @@
    "confidence": 0.95
   },
   {
+   "claim": "An applicant can check the status of a submitted Barbed Wire Fencing Application using the Application No.",
+   "kind": "TRACKING",
+   "subject": "barbed_wire_fencing_application",
+   "object": "application_status_check",
+   "detail": {
+    "field": "Application No."
+   },
+   "sourceId": "src:eee3513f3e2b",
+   "evidence": "Application No. :",
+   "confidence": 0.9
+  },
+  {
    "claim": "Industrial projects with an investment of ₹100 crore or more (excluding land cost) are eligible for DPIFC facilitation.",
    "kind": "ELIGIBILITY",
    "subject": "dpifc_eligibility",
@@ -9634,6 +9722,38 @@
    "confidence": 0.95
   },
   {
+   "claim": "The applicant opens the website of the corporation at www.vmc.gov.in.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "corporation_website",
+   "detail": {
+    "url": "www.vmc.gov.in"
+   },
+   "sourceId": "src:a299a14d5099",
+   "evidence": "Open the website of corporation . www.vmc.gov.in",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant approaches a license holder architect, engineer, or structural engineer registered with the corporation.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "registered_engineer_architect",
+   "detail": {},
+   "sourceId": "src:a299a14d5099",
+   "evidence": "also approach the lissence holder architects, engineer, structural engineer registered with corporation.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant should approach the lissence holder architects, engineer, structural engineer registered with corporation.",
+   "kind": "OFFICE",
+   "subject": "building_development_permission",
+   "object": "corporation_office",
+   "detail": {},
+   "sourceId": "src:a299a14d5099",
+   "evidence": "also approach the lissence holder architects, engineer, structural engineer registered with corporation.",
+   "confidence": 0.8
+  },
+  {
    "claim": "A copy of a valid CTE/CCA of the actual user is required.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "actual_user",
@@ -10221,6 +10341,28 @@
    "confidence": 1
   },
   {
+   "claim": "The applicant has to apply online to the Investor Facilitation Portal.",
+   "kind": "ACTION",
+   "subject": "alcohol_procurement_permit",
+   "object": "investor_facilitation_portal",
+   "detail": {
+    "url": "www.ifpgujarat.gov.in/DIGIGOV"
+   },
+   "sourceId": "src:768c57795c06",
+   "evidence": " Procedure to Apply: Applicant has to apply Online to the Investor Facilitation Portal (www.ifpgujarat.gov.in/DIGIGOV)",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must submit an online application form with a stamp and signature of an authorized person.",
+   "kind": "ACTION",
+   "subject": "alcohol_procurement_permit",
+   "object": "online_application_form",
+   "detail": {},
+   "sourceId": "src:768c57795c06",
+   "evidence": " Check List: For New Application\nOnline Application Form with stamp & sign of authorized person.",
+   "confidence": 1
+  },
+  {
    "claim": "A unit must maintain records of hazardous and other wastes in Form-3.",
    "kind": "ACTION",
    "subject": "unit",
@@ -10559,6 +10701,146 @@
    "sourceId": "src:31139eefc21e",
    "evidence": "13 Whether the applicant since last renewal or\nissuance of licence has been –\n(a) convicted Y N If yes, details thereof –\nOffence\nSentence\nDate of sentence\nDD/MM/YYYY",
    "confidence": 1
+  },
+  {
+   "claim": "The applicant provides their UIN (16 digit).",
+   "kind": "ACTION",
+   "subject": "arms_licence",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:31139eefc21e",
+   "evidence": "1 UIN (16 digit)",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant provides their parent or spouse's name.",
+   "kind": "ACTION",
+   "subject": "arms_licence",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:31139eefc21e",
+   "evidence": "3 Parent/Spouse Name",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant provides their date of birth in Christian era in figures (DD/MM/YYYY).",
+   "kind": "ACTION",
+   "subject": "arms_licence",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:31139eefc21e",
+   "evidence": "4 Date of birth in Christian era (a) in figures DD/MM/YYYY",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant provides their present address.",
+   "kind": "ACTION",
+   "subject": "arms_licence",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:31139eefc21e",
+   "evidence": "5 Present Address",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant provides their telephone number (office or residence).",
+   "kind": "ACTION",
+   "subject": "arms_licence",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:31139eefc21e",
+   "evidence": "5 Present Address (a) Telephone (Office/Residence",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant provides their occupation.",
+   "kind": "ACTION",
+   "subject": "arms_licence",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:31139eefc21e",
+   "evidence": "6 Occupation",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant provides their office or business address.",
+   "kind": "ACTION",
+   "subject": "arms_licence",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:31139eefc21e",
+   "evidence": "7 Office/Business Address",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant provides their licence number.",
+   "kind": "ACTION",
+   "subject": "arms_licence",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:31139eefc21e",
+   "evidence": "8 Licence Number",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant provides the date of expiry of their licence.",
+   "kind": "ACTION",
+   "subject": "arms_licence",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:31139eefc21e",
+   "evidence": "9 Date of expiry",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant provides the area validity of their licence.",
+   "kind": "ACTION",
+   "subject": "arms_licence",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:31139eefc21e",
+   "evidence": "10 Area Validity",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant provides the weapons endorsed on their licence.",
+   "kind": "ACTION",
+   "subject": "arms_licence",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:31139eefc21e",
+   "evidence": "11 Weapons Endorsed Weapon 1 Weapon 2 Weapon 3",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant provides the ammunition allowed in cartridges.",
+   "kind": "ACTION",
+   "subject": "arms_licence",
+   "object": "application_form",
+   "detail": {},
+   "sourceId": "src:31139eefc21e",
+   "evidence": "12 Ammunition allowed Cartridges",
+   "confidence": 1
+  },
+  {
+   "claim": "The authority that grants or renews a license issues the arms license.",
+   "kind": "OFFICE",
+   "subject": "arms_licence",
+   "object": "licensing_authority",
+   "detail": {},
+   "sourceId": "src:d50e51e38c37",
+   "evidence": "The authority by whom any licence in Form II, Form 111, Form IV or Form V has been granted or renewed",
+   "confidence": 0.95
+  },
+  {
+   "claim": "The licensing authority may require the licensee to produce the arm or arms for inspection at a specified time and place.",
+   "kind": "ACTION",
+   "subject": "licensing_authority",
+   "object": "licensee",
+   "detail": {},
+   "sourceId": "src:d50e51e38c37",
+   "evidence": "The authority by whom any licence in Form II, Form 111, Form IV or Form V has been granted or renewed, may, for the purpose of satisfying itself that any arms covered by such licence are still in the possession of the licensee at the time of renewal or at any time while the licence is in force, by order in writing require the licensee to produce the arm or arms at such time and place for inspection of such officer as may be specified in the order.",
+   "confidence": 0.95
   },
   {
    "claim": "A trade union must have a name that is not the same or similar to a previously registered union.",
@@ -12453,6 +12735,46 @@
    },
    "sourceId": "src:19a8bc5fc95a",
    "evidence": "3.6All leaders and guides must be good swimmers and should be well trained in water rescue techniques, first-aid & CPR (Cardio pulmonary resuscitation). The Operator shall make available all life saving equipments, fire-fighting appliances, communication, rescue tubes and other equipments on the vessels duly certified by the Competent Authority.",
+   "confidence": 1
+  },
+  {
+   "claim": "Adventure Tourism Operators (ATOs) are encouraged to obtain certifications like Adventure Tourism Safety Management System per IS/ISO 21101:2014 from Bureau of India Standards or equivalent organizations.",
+   "kind": "ACTION",
+   "subject": "adventure_tourism_operator",
+   "object": "obtain_certification",
+   "detail": {},
+   "sourceId": "src:8bbd476f353a",
+   "evidence": "i. ATOs are encouraged for getting certifications such as Adventure Tourism Safety Management System per IS/ISO 21101:2014 from Bureau of India Standards or equivalent competent and established Organizations /Bodies.",
+   "confidence": 1
+  },
+  {
+   "claim": "Adventure Tourism Operators (ATOs) must follow safety guidelines for activities like water sports, aero-sports, safaris, mountaineering, and trekking as per the Ministry of Tourism’s guidelines.",
+   "kind": "ACTION",
+   "subject": "adventure_tourism_operator",
+   "object": "follow_safety_guidelines",
+   "detail": {},
+   "sourceId": "src:8bbd476f353a",
+   "evidence": "ii. Safety guidelines for water sports, aero-sports, safaris, mountaineering and trekking must be followed by ATOs as per Ministry of Tourism’s prevailing guidelines at the time of application for adventure tour operators and adventure tourism as per annexure-I.",
+   "confidence": 1
+  },
+  {
+   "claim": "Adventure Tourism Operators (ATOs) should ensure that foreign tourists provide an undertaking and are covered by medical insurance including repatriation fees.",
+   "kind": "ACTION",
+   "subject": "adventure_tourism_operator",
+   "object": "ensure_foreign_tourist_insurance",
+   "detail": {},
+   "sourceId": "src:8bbd476f353a",
+   "evidence": "iii. ATO may also ensure that his counterpart abroad must obtain an undertaking from the foreign tourists that in case of any loss, damage / accident, etc., the travel agency would not be responsible, and the client must be covered by the Medical Insurance and should include the cost of repatriation fee if he / she is to continue the tour.",
+   "confidence": 1
+  },
+  {
+   "claim": "Adventure Tourism Operators (ATOs) should ensure that clients or themselves are covered by insurance due to the inherent risks in adventure activities.",
+   "kind": "ACTION",
+   "subject": "adventure_tourism_operator",
+   "object": "ensure_insurance_coverage",
+   "detail": {},
+   "sourceId": "src:8bbd476f353a",
+   "evidence": "iv. Insurance: ATO has qualified staff to handle the operations. Since adventure has an in - built risk factor, the Clients/ATOs should be covered by insurance.",
    "confidence": 1
   },
   {
@@ -14605,6 +14927,18 @@
    "confidence": 0.9
   },
   {
+   "claim": "An applicant can check the status of a submitted CTE or CCA application using Form No. A-13.",
+   "kind": "TRACKING",
+   "subject": "cte_cca_application",
+   "object": "status_check",
+   "detail": {
+    "form_number": "A-13"
+   },
+   "sourceId": "src:9ea0fe159586",
+   "evidence": "STATUS OF FRESH CTE AND FRESH CCA APPLICATIONS (Form for monthly meeting of RO)",
+   "confidence": 0.9
+  },
+  {
    "claim": "Citizens can register for a Professional Tax License (Business PEC & Employer PRC) online.",
    "kind": "ACTION",
    "subject": "professional_tax_license",
@@ -15607,6 +15941,16 @@
    "confidence": 0.95
   },
   {
+   "claim": "The Chief Inspector considers the qualification, experience, and facilities of a person or institution before recognising them as a Competent Person.",
+   "kind": "ACTION",
+   "subject": "chief_inspector",
+   "object": "competent_person_recognition",
+   "detail": {},
+   "sourceId": "src:0415e6113e65",
+   "evidence": "Such person may be an individual person or an institution. Its recognition by the Chief Inspector is necessary. More than one person or institution can be recognised for a factory. Their qualification, experience and facilities for tests shall be considered by the Chief Inspector before recognising them.",
+   "confidence": 0.95
+  },
+  {
    "claim": "A citizen must select their state and applicant category to apply for a trade certificate.",
    "kind": "ACTION",
    "subject": "application_for_trade_certificate",
@@ -15729,6 +16073,26 @@
    "confidence": 0.9
   },
   {
+   "claim": "The applicant must obtain a certificate regarding eligibility for exemption from electricity duty in a prescribed form.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "certificate_eligibility_electricity_duty",
+   "detail": {},
+   "sourceId": "src:ddcada61ade4",
+   "evidence": "Provided that no new industrial undertaking shall be entitled for exemption from payment of electricity duty under this clause, unless it has obtained a certificate regarding eligibility for such exemption in prescribed form by making an application therefore in such form, within such period and to such officer as may be prescribed.",
+   "confidence": 1
+  },
+  {
+   "claim": "A certificate regarding eligibility for exemption from electricity duty must be obtained from a prescribed officer.",
+   "kind": "OFFICE",
+   "subject": "certificate_eligibility_electricity_duty",
+   "object": "prescribed_officer",
+   "detail": {},
+   "sourceId": "src:ddcada61ade4",
+   "evidence": "Provided that no new industrial undertaking shall be entitled for exemption from payment of electricity duty under this clause, unless it has obtained a certificate regarding eligibility for such exemption in prescribed form by making an application therefore in such form, within such period and to such officer as may be prescribed.",
+   "confidence": 0.8
+  },
+  {
    "claim": "Authorization from SPCB is required for the utilization of hazardous and other waste as a resource or after pre-processing.",
    "kind": "ACTION",
    "subject": "hazardous_waste_utilization",
@@ -15769,6 +16133,294 @@
    "confidence": 0.95
   },
   {
+   "claim": "Authorization from SPCB is required for the utilization of hazardous and other waste as a resource or after pre-processing for co-processing or any other use, including within the premises of the generator.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "authorization_for_utilization",
+   "object": "spcb_authorization",
+   "detail": {},
+   "sourceId": "src:2ac3346afa00",
+   "evidence": "As per Rule 9, for utilization of hazardous and other waste as a resource or after pre-processing either for co-processing or for any other use including within the premises of the generator, authorization from SPCB is required",
+   "confidence": 1
+  },
+  {
+   "claim": "Applications for utilization of hazardous and other waste under Rule 9 must be discussed in an expert committee constituted by GPCB for recommendations.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "application_processing",
+   "object": "expert_committee_recommendation",
+   "detail": {},
+   "sourceId": "src:2ac3346afa00",
+   "evidence": "The application under Rule 9 i.e. recycling, reuse, reprocessing, utilization as alternate resource, co processing shall be discussed in expert committee constituted by GPCB for the recommendations.",
+   "confidence": 1
+  },
+  {
+   "claim": "Units in Gujarat must obtain prior permission for the utilization of hazardous waste from the competent authority as specified in Rule 9 of the Hazardous and Other Waste Rules 2016.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "unit",
+   "object": "prior_permission",
+   "detail": {},
+   "sourceId": "src:2ac3346afa00",
+   "evidence": "As specified in Rule 9 of Hazardous and Other waste Rules 2016, unit shall obtain prior permission for utilization of hazardous waste from competent authority.",
+   "confidence": 1
+  },
+  {
+   "claim": "The application must be discussed in an expert committee constituted by the Gujarat Pollution Control Board (GPCB) for recommendations.",
+   "kind": "ACTION",
+   "subject": "application",
+   "object": "discussed_expert_committee",
+   "detail": {},
+   "sourceId": "src:2ac3346afa00",
+   "evidence": "The application under Rule 9 i.e. recycling, reuse, reprocessing, utilization as alternate resource, co processing shall be discussed in expert committee constituted by GPCB for the recommendations.",
+   "confidence": 1
+  },
+  {
+   "claim": "The scrutiny and processing of the application shall be carried out by the GPCB as per the attached flowchart.",
+   "kind": "ACTION",
+   "subject": "application",
+   "object": "scrutiny_processing",
+   "detail": {},
+   "sourceId": "src:2ac3346afa00",
+   "evidence": "The scrutiny and processing shall be carried out by GPCB for the recommendations as per the Flowchart attached herewith as annexure I.",
+   "confidence": 1
+  },
+  {
+   "claim": "The application is discussed in an expert committee for recommendations.",
+   "kind": "TIMELINE",
+   "subject": "application",
+   "object": "expert_committee",
+   "detail": {},
+   "sourceId": "src:2ac3346afa00",
+   "evidence": " The application under Rule 9 i.e. recycling, reuse, reprocessing, utilization as alternate resource, co processing shall be discussed in expert committee constituted by GPCB for the recommendations.",
+   "confidence": 0.8
+  },
+  {
+   "claim": "Authorization for utilization of hazardous and other waste is granted by the SPCB.",
+   "kind": "OFFICE",
+   "subject": "authorization_for_utilization_of_hazardous_and_other_waste",
+   "object": "spcb",
+   "detail": {},
+   "sourceId": "src:2ac3346afa00",
+   "evidence": "As per Rule 9, for utilization of hazardous and other waste as a resource or after pre-processing either for co-processing or for any other use including within the premises of the generator, authorization from SPCB is required",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must provide products to be manufactured and quantity from utilization of hazardous waste (MT/Day).",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "authorization_for_utilization",
+   "object": "products_quantity",
+   "detail": {
+    "unit": "MT/Day"
+   },
+   "sourceId": "src:a067164dd721",
+   "evidence": " Products to be manufactured and quantity from utilization of hazardous waste (MT/Day).",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must provide the name/type and quantity (in MTA) of the proposed hazardous wastes to be utilized including category (as per the Schedule I) intended for utilization.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "authorization_for_utilization",
+   "object": "hazardous_waste_details",
+   "detail": {
+    "unit": "MTA"
+   },
+   "sourceId": "src:a067164dd721",
+   "evidence": " Name/Type & quantity (in MTA) of the proposed hazardous wastes to be utilized including category (as per the Schedule I) intended for utilization.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must provide a copy of valid CTE/CCA of the actual user.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "authorization_for_utilization",
+   "object": "cte_cca_copy",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Copy of valid CTE/CCA of the actual user.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must provide detailed wastes specific characteristics of hazardous waste proposed for utilization including purity & contents of impurities.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "authorization_for_utilization",
+   "object": "waste_characteristics",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Detailed wastes specific characteristics of hazardous waste proposed for utilization including purity & contents of impurities.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must provide process details for utilization of hazardous waste and its Flow Diagram.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "authorization_for_utilization",
+   "object": "process_details",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Process details for utilization of hazardous waste and its Flow Diagram.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must provide Material Balance with and without utilizing hazardous wastes.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "authorization_for_utilization",
+   "object": "material_balance",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Material Balance with and without utilizing hazardous wastes.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must provide equipment layout along with their capacity for the utilization of hazardous wastes.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "authorization_for_utilization",
+   "object": "equipment_layout",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Equipment layout along with their capacity for the utilization of hazardous wastes.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must provide details of hazardous waste storage facility and process area facility.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "authorization_for_utilization",
+   "object": "storage_process_details",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Details of hazardous waste storage facility and process area facility.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must provide quantity of fuel and/or raw material that are expected to be conserve (in % of raw material replaced) from the proposed utilization.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "authorization_for_utilization",
+   "object": "fuel_raw_material_conserve",
+   "detail": {
+    "unit": "% of raw material replaced"
+   },
+   "sourceId": "src:a067164dd721",
+   "evidence": " Quantity of fuel and/or raw material that are expected to be conserve (in % of raw material replaced) from the proposed utilization.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must provide characteristics of air emissions, waste water generation and other solid wastes including hazardous waste expected to be generated during utilization of hazardous wastes.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "authorization_for_utilization",
+   "object": "emissions_waste_details",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Characteristics of air emissions, waste water generation and other solid wastes including hazardous waste expected to be generated during utilization of hazardous wastes.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must provide details of authorized vehicle for transportation of hazardous waste.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "authorization_for_utilization",
+   "object": "transport_vehicle_details",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Details of authorized vehicle for transportation of hazardous waste.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must provide details of Environmental Management System with flow diagram.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "authorization_for_utilization",
+   "object": "ems_details",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Details of Environmental Management System with flow diagram.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must provide details of occupational health and safety measures.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "authorization_for_utilization",
+   "object": "health_safety_details",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Details of occupational health and safety measures",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must provide installed capacity as per registration issued by DIC or any other authorized govt. agency.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "authorization_for_utilization",
+   "object": "installed_capacity",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Installed capacity as per registration issued by DIC or any other authorized govt. agency. (Provide copy)",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must provide compliance report to confirm whether the facility has been set up as per CPCB SOP/guideline.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "authorization_for_utilization",
+   "object": "cpcb_compliance_report",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Whether the facility has been set up as per CPCB SOP/guideline? Submit the compliance report.",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant must provide details of member units from which hazardous waste is procured.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "authorization_for_utilization",
+   "object": "member_units_details",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": " Details of member units from which hazardous waste is procured.",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant must submit a list of documents including product details, waste characteristics, process details, and other relevant information to support the application.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "submit_documents",
+   "detail": {},
+   "sourceId": "src:a067164dd721",
+   "evidence": "5. List of documents required to obtain authorization as per Rule 9 & Rule 6 (Checklist for scrutiny of application)",
+   "confidence": 1
+  },
+  {
+   "claim": "For cement plants involved in co-processing of waste, a notarized undertaking must be submitted to confirm compliance with the CPCB guidelines on environmental liabilities and penalties.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "cement_plant_co_processing",
+   "object": "notarized_undertaking",
+   "detail": {},
+   "sourceId": "src:76a02dac042c",
+   "evidence": "To submit the notarized undertaking that unit shall comply all the provisions of the CPCB guideline on “Implementing Liabilities for Environmental Damages due to Handling & Disposal of Hazardous Waste and Penalty”",
+   "confidence": 1
+  },
+  {
+   "claim": "The applicant receives an authorization along with a passbook.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "authorization",
+   "detail": {
+    "additional_item": "passbook"
+   },
+   "sourceId": "src:76a02dac042c",
+   "evidence": " To issue passbook along with authorization to actual user",
+   "confidence": 0.9
+  },
+  {
+   "claim": "GPCB grants authorization for utilization of hazardous and other waste as a resource or after pre-processing either for co-processing or for any other use.",
+   "kind": "OFFICE",
+   "subject": "authorization_for_utilization_of_hazardous_and_other_waste",
+   "object": "gpcb",
+   "detail": {},
+   "sourceId": "src:76a02dac042c",
+   "evidence": "To grant authorization for utilization of hazardous and other waste as a resource or after pre-processing either for co-processing or for any other use based on",
+   "confidence": 1
+  },
+  {
+   "claim": "Verification of records and compliance with SOP/guidelines is required before authorization is granted.",
+   "kind": "ACTION",
+   "subject": "authorization_for_utilization_of_hazardous_and_other_waste",
+   "object": "verification_of_records_and_compliance",
+   "detail": {},
+   "sourceId": "src:76a02dac042c",
+   "evidence": " To verify records , compliance of SOP/guideline/specific conditions for recycling, recovery, processing, co-processing, utilization of hazardous and other waste",
+   "confidence": 0.95
+  },
+  {
    "claim": "The Devalia Park Bus Safari e-Permit must be printed and brought at the time of reporting at Devalia Safari Park.",
    "kind": "ACTION",
    "subject": "devalia_park_bus_safari_permit",
@@ -15796,6 +16448,77 @@
    "detail": {},
    "sourceId": "src:30678b3df319",
    "evidence": "Slight changes in visit time may be done by authority due to Weather/Seasonal changes.",
+   "confidence": 1
+  },
+  {
+   "claim": "The print out of Devalia Park Bus Safari e-Permit must be brought at the time of reporting at Devalia Safari Park.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "devalia_park_bus_safari_e_permit",
+   "object": "applicant",
+   "detail": {},
+   "sourceId": "src:30678b3df319",
+   "evidence": "The print out of Devalia Park Bus Safari e-Permit must be brought at the time of reporting at Devalia Safari Park,",
+   "confidence": 1
+  },
+  {
+   "claim": "An applicant can use the Transaction ID generated after a successful transaction to check the status of their submission.",
+   "kind": "TRACKING",
+   "subject": "devalia_park_bus_safari_e_permit",
+   "object": "transaction_id",
+   "detail": {
+    "purpose": "tracking_submission_status"
+   },
+   "sourceId": "src:30678b3df319",
+   "evidence": "Once you successfully complete the transaction you Transaction ID is generated which you can use for further query if any related to transaction.",
+   "confidence": 0.9
+  },
+  {
+   "claim": "The Devalia Park Bus Safari e-permit allows a maximum of 6 persons (plus one child between 3-12 years) per permit.",
+   "kind": "ELIGIBILITY",
+   "subject": "devalia_bus_safari_permit",
+   "object": "maximum_persons",
+   "detail": {
+    "amount": 6,
+    "child_age_range": "3-12 years"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "Note: In one E-permit maximum 6 persons (plus one child between 3-12 years) are allowed.",
+   "confidence": 1
+  },
+  {
+   "claim": "Cancellation of the Devalia Park Bus Safari e-permit is non-refundable.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "devalia_bus_safari_permit",
+   "object": "cancellation_policy",
+   "detail": {
+    "refund": "0%"
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "Note: There will be “NO REFUND” for cancellation of E-permit for Devalia Park Bus Safari.",
+   "confidence": 1
+  },
+  {
+   "claim": "The Devalia Park Bus Safari e-Permit does not include the Guide charge and safari vehicle charge, which must be paid separately to respective Guides and Gypsy vehicle owners.",
+   "kind": "FEE",
+   "subject": "devalia_park_bus_safari_e_permit",
+   "object": "additional_charges",
+   "detail": {
+    "note": "The permit doesn't include the Guide charge and safari vehicle charge, which must be paid separately to respective Guides and Gypsy vehicle owners."
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "Note: In one E-permit maximum 6 persons (plus one child between 3-12 years) are allowed.\nThe permit doesn't include the Guide charge and safari vehicle charge, which must be paid seperately to respective Guides and Gypsy vehicle owners.",
+   "confidence": 1
+  },
+  {
+   "claim": "There is no refund for cancellation of the Devalia Park Bus Safari e-permit.",
+   "kind": "FEE",
+   "subject": "devalia_park_bus_safari_e_permit",
+   "object": "refund_policy",
+   "detail": {
+    "note": "There will be “NO REFUND” for cancellation of E-permit for Devalia Park Bus Safari."
+   },
+   "sourceId": "src:486c8338b1b8",
+   "evidence": "Note: There will be “NO REFUND” for cancellation of E-permit for Devalia Park Bus Safari.",
    "confidence": 1
   },
   {
@@ -16061,6 +16784,121 @@
    "confidence": 1
   },
   {
+   "claim": "Applicants must submit the application in the prescribed form and online along with the required documents.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "adventure_tourism_recognition_or_registration",
+   "object": "application_form",
+   "detail": {
+    "form": "prescribed_form",
+    "submission_method": "online"
+   },
+   "sourceId": "src:ac7daef86cfc",
+   "evidence": "a. The application for grant of recognition/registration/renewal or extension shall be in the prescribed form and submitted online along with the required documents.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must provide proof of a minimum Paid up Capital of Rs. 3.00 lakhs, supported by the latest audited Balance Sheet or firm’s Statutory Auditor’s certificate.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "adventure_tourism_recognition_or_registration",
+   "object": "paid_up_capital_proof",
+   "detail": {
+    "minimum_amount": "3.00",
+    "currency": "lakhs",
+    "supporting_documents": "latest_audited_balance_sheet, statutory_auditor_certificate"
+   },
+   "sourceId": "src:ac7daef86cfc",
+   "evidence": "b. ATO should have a minimum Paid up Capital (Capital employed) of Rs. 3.00 lakhs duly supported by the latest audited Balance Sheet / firm’s Statutory Auditor’s certificate.",
+   "confidence": 1
+  },
+  {
+   "claim": "Applicants must provide proof of a minimum turnover of Rs. 10.00 lakh from Adventure Tourism & Adventure Sports related activities in the preceding financial year, supported by a certificate issued by the firm’s Statutory Auditor.",
+   "kind": "DOCUMENT_REQUIREMENT",
+   "subject": "adventure_tourism_recognition_or_registration",
+   "object": "turnover_proof",
+   "detail": {
+    "minimum_amount": "10.00",
+    "currency": "lakhs",
+    "supporting_documents": "statutory_auditor_certificate"
+   },
+   "sourceId": "src:ac7daef86cfc",
+   "evidence": "c. The turnover by the firm from Adventure Tourism & Adventure Sports related activities only should be a minimum of Rs.10.00 lakh during the preceding financial year duly supported by a certificate issued by Statutory Auditor of the firm.",
+   "confidence": 1
+  },
+  {
+   "claim": "An Adventure Tourism Operator (ATO) must have a minimum paid up capital of Rs. 3.00 lakhs, supported by an audited balance sheet or auditor's certificate.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "adventure_tourism_operator",
+   "object": "minimum_paid_up_capital",
+   "detail": {
+    "amount": "3.00",
+    "currency": "lakhs"
+   },
+   "sourceId": "src:ac7daef86cfc",
+   "evidence": "b. ATO should have a minimum Paid up Capital (Capital employed) of Rs. 3.00 lakhs duly supported by the latest audited Balance Sheet / firm’s Statutory Auditor’s certificate.",
+   "confidence": 1
+  },
+  {
+   "claim": "An Adventure Tourism Operator (ATO) must have a minimum turnover of Rs. 10.00 lakhs from adventure tourism and sports activities in the preceding financial year, supported by a statutory auditor's certificate.",
+   "kind": "CONDITIONAL_REQUIREMENT",
+   "subject": "adventure_tourism_operator",
+   "object": "minimum_turnover",
+   "detail": {
+    "amount": "10.00",
+    "currency": "lakhs"
+   },
+   "sourceId": "src:ac7daef86cfc",
+   "evidence": "c. The turnover by the firm from Adventure Tourism & Adventure Sports related activities only should be a minimum of Rs.10.00 lakh during the preceding financial year duly supported by a certificate issued by Statutory Auditor of the firm.",
+   "confidence": 1
+  },
+  {
+   "claim": "The application for grant of recognition/registration/renewal or extension shall be in the prescribed form and submitted online along with the required documents.",
+   "kind": "ACTION",
+   "subject": "applicant",
+   "object": "application_submission",
+   "detail": {
+    "method": "online"
+   },
+   "sourceId": "src:ac7daef86cfc",
+   "evidence": "a. The application for grant of recognition/registration/renewal or extension shall be in the prescribed form and submitted online along with the required documents.",
+   "confidence": 1
+  },
+  {
+   "claim": "The application for grant of recognition/registration/renewal or extension shall be in the prescribed form and submitted online along with the required documents.",
+   "kind": "CHANNEL",
+   "subject": "application_submission",
+   "object": "online_submission",
+   "detail": {},
+   "sourceId": "src:ac7daef86cfc",
+   "evidence": "a. The application for grant of recognition/registration/renewal or extension shall be in the prescribed form and submitted online along with the required documents.",
+   "confidence": 1
+  },
+  {
+   "claim": "The minimum paid up capital required is Rs. 3.00 lakhs.",
+   "kind": "FEE",
+   "subject": "adventure_tourism_recognition",
+   "object": "minimum_paid_up_capital",
+   "detail": {
+    "amount": "3.00",
+    "currency": "Rs."
+   },
+   "sourceId": "src:ac7daef86cfc",
+   "evidence": "b. ATO should have a minimum Paid up Capital (Capital employed) of Rs. 3.00 lakhs duly supported by the latest audited Balance Sheet / firm’s Statutory Auditor’s certificate.",
+   "confidence": 1
+  },
+  {
+   "claim": "The minimum turnover required from Adventure Tourism & Adventure Sports related activities is Rs.10.00 lakh during the preceding financial year.",
+   "kind": "FEE",
+   "subject": "adventure_tourism_recognition",
+   "object": "minimum_turnover",
+   "detail": {
+    "amount": "10.00",
+    "currency": "Rs."
+   },
+   "sourceId": "src:ac7daef86cfc",
+   "evidence": "c. The turnover by the firm from Adventure Tourism & Adventure Sports related activities only should be a minimum of Rs.10.00 lakh during the preceding financial year duly supported by a certificate issued by Statutory Auditor of the firm.",
+   "confidence": 1
+  },
+  {
    "claim": "The applicant must upload a self-attested identity proof such as a voter card or Aadhaar card.",
    "kind": "DOCUMENT_REQUIREMENT",
    "subject": "application",
@@ -16166,11 +17004,14 @@
   "E-Shram Seva: https://col.gujarat.gov.in/e-shram.htm lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Building Development Permission: https://vmc.gov.in/faqs.aspx lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Plug & Play Systems scheme: https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/user_manual/Garment_Policy_guidelines.pdf#page=7 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Alcohol Procurement Permit: https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/user_manual/Alcohol_APP_Application_User%20Manual_Applicant_Side.pdf#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "hazardous waste management: https://www.gpcb.gov.in/payroll/GUIDELINES_4_PA_OF_RULE_9_HAZ_OTH_WASTE_2016.PDF#page=5 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Driving Licence: the hand written graph already answers to service:driving_licence, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
+  "arms licence: https://cpsurat.gujarat.gov.in/Upload/FORM%20A-3.pdf#page=1 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "VAT/CST Registration: https://commercialtax.gujarat.gov.in/vatwebsite/download/Registration_Flow_Final_08062015.pdf#page=3 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Tourist Guide License: https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/englishGuideline.pdf#page=5 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "SARAL Pass Travel Scheme: https://suratmunicipal.gov.in/Services/Sitilink/SaralPassTravelScheme lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Adventure Tourism Guidelines: https://gujarattourism.com/content/dam/gujrattourism/images/home_page/opti/11-2-20/Adventure%20Tourism%20Guidelines%20V6.3%204.4.20.pdf#page=6 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Pleasure Craft/Boat Operation Permission: https://pnt.gujarat.gov.in/Downloads/Vessal_25102024.pdf#page=4 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "National Permit: https://www.vahan.parivahan.gov.in/npermit/faces/welcome.jsp lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "NOC/CCA consents: https://gpcbxgn.gujarat.gov.in/Public/ConsentRegistration lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
@@ -16188,6 +17029,7 @@
   "Learner's License: the hand written graph already answers to service:learner_license, so the pages found for it were not merged in. Reconciling the two is a job for a person.",
   "weights and measures: https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/CIS/CIS_Information_Sheet_Procedure.pdf#page=10 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "weights and measures: https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/CIS/CIS_Information_Sheet_Checklist.pdf#page=15 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
+  "Authorization for Utilization of Hazardous and Other Waste: https://www.gpcb.gov.in/payroll/GUIDELINES_4_PA_OF_RULE_9_HAZ_OTH_WASTE_2016.PDF#page=2 lists several things to do but never says which comes first, so they were not written as steps. Ordering them would have been us deciding, not the page.",
   "Professional Tax: no quotable requirement, fee or timeline survived, so no service node was written for it.",
   "inland vessel survey: no quotable requirement, fee or timeline survived, so no service node was written for it."
  ]

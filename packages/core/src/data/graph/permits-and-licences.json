@@ -312,6 +312,16 @@
    "contentHash": "07d550b0246849997ac5a055ea272a4156c5061b65ea42c56b12bab304dfb777"
   },
   {
+   "id": "src:dfcb08492267",
+   "url": "https://cpvadodara.gujarat.gov.in/Upload/PBNPB_1_home_140916.pdf#page=6",
+   "title": "PBNPB_1_home_140916 (page 6 of 6)",
+   "domain": "cpvadodara.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-VADODARA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "46379e63cc97b8c061f84952f0be82d4941520a6f071e20903e68ab6cf374ec5"
+  },
+  {
    "id": "src:16b5f493e686",
    "url": "https://gvc.org.in/webcontroller/members/40",
    "title": "Gujarat Veterinary Council",
@@ -472,6 +482,16 @@
    "contentHash": "681e485695d9b22b4d6a779bea0004b1c44cb18459228a12f980dadd65ba80b2"
   },
   {
+   "id": "src:eee3513f3e2b",
+   "url": "https://forestservices.gujarat.gov.in/eservices/frmCheckAppStatus.aspx",
+   "title": "Gujarat Forest Department",
+   "domain": "forestservices.gujarat.gov.in",
+   "sourceType": "TRACKING_PAGE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "9e122eb4c20a9e1cc61173b0100972192e6bc614869ff74106a0815a36661b87"
+  },
+  {
    "id": "src:f84364f06217",
    "url": "https://townplanning.gujarat.gov.in/DPIFC",
    "title": "DPIFC | Development Permission Investors Facilitation Cell — Single Page (Temporary)",
@@ -591,6 +611,16 @@
    "jurisdictionId": "IN-GJ-SURAT",
    "retrievedAt": "2026-08-23",
    "contentHash": "6fac51453e14073dbc02abc7e656cd4dc1fcea410972cd14627b864ea04b96e7"
+  },
+  {
+   "id": "src:d50e51e38c37",
+   "url": "https://cpvadodara.gujarat.gov.in/Upload/PBNPB_1_home_140916.pdf#page=2",
+   "title": "PBNPB_1_home_140916 (page 2 of 6)",
+   "domain": "cpvadodara.gujarat.gov.in",
+   "sourceType": "SERVICE_PAGE",
+   "jurisdictionId": "IN-GJ-VADODARA",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "d4618d6b0000898220f74b36f085decbac138a82445c5aef2d22dbc2a8abc9c5"
   },
   {
    "id": "src:6873645dfc69",
@@ -873,16 +903,6 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "6b51bdd627daae9507c4043e637450c353b36a689c65c76ff8716d7f996c9e2c"
-  },
-  {
-   "id": "src:dfcb08492267",
-   "url": "https://cpvadodara.gujarat.gov.in/Upload/PBNPB_1_home_140916.pdf#page=6",
-   "title": "PBNPB_1_home_140916 (page 6 of 6)",
-   "domain": "cpvadodara.gujarat.gov.in",
-   "sourceType": "SERVICE_PAGE",
-   "jurisdictionId": "IN-GJ-VADODARA",
-   "retrievedAt": "2026-08-23",
-   "contentHash": "46379e63cc97b8c061f84952f0be82d4941520a6f071e20903e68ab6cf374ec5"
   },
   {
    "id": "src:7ef48154fb52",
@@ -4741,6 +4761,46 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:building_development_permission_the_applicant_opens_the_website_of_the_corporati",
+   "type": "ACTION",
+   "name": "The applicant opens the website of the corporation at www.vmc.gov.in",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant opens the website of the corporation at www.vmc.gov.in.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:a299a14d5099",
+     "evidence": "Open the website of corporation . www.vmc.gov.in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:building_development_permission_the_applicant_approaches_a_license_holder_archit",
+   "type": "ACTION",
+   "name": "The applicant approaches a license holder architect, engineer, or structural engineer regi",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant approaches a license holder architect, engineer, or structural engineer registered with the corporation.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:a299a14d5099",
+     "evidence": "also approach the lissence holder architects, engineer, structural engineer registered with corporation.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:building_development_permission",
    "type": "SERVICE",
    "name": "Building Development Permission",
@@ -5186,6 +5246,46 @@
    ]
   },
   {
+   "id": "action:alcohol_procurement_permit_the_applicant_has_to_apply_online_to_the_investo",
+   "type": "ACTION",
+   "name": "The applicant has to apply online to the Investor Facilitation Portal",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant has to apply online to the Investor Facilitation Portal.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:768c57795c06",
+     "evidence": " Procedure to Apply: Applicant has to apply Online to the Investor Facilitation Portal (www.ifpgujarat.gov.in/DIGIGOV)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:alcohol_procurement_permit_the_applicant_must_submit_an_online_application_",
+   "type": "ACTION",
+   "name": "The applicant must submit an online application form with a stamp and signature of an auth",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must submit an online application form with a stamp and signature of an authorized person.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:768c57795c06",
+     "evidence": " Check List: For New Application\nOnline Application Form with stamp & sign of authorized person.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:alcohol_procurement_permit",
    "type": "SERVICE",
    "name": "Alcohol Procurement Permit",
@@ -5447,6 +5547,266 @@
      "sourceId": "src:40dcf1b8c789",
      "evidence": "9. Visit RTO on scheduled date, with original documents",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:arms_licence_the_applicant_provides_their_uin_16_digit",
+   "type": "ACTION",
+   "name": "The applicant provides their UIN (16 digit)",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "The applicant provides their UIN (16 digit).",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "1 UIN (16 digit)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:arms_licence_the_applicant_provides_their_parent_or_spouse_na",
+   "type": "ACTION",
+   "name": "The applicant provides their parent or spouse's name",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "The applicant provides their parent or spouse's name.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "3 Parent/Spouse Name",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:arms_licence_the_applicant_provides_their_date_of_birth_in_ch",
+   "type": "ACTION",
+   "name": "The applicant provides their date of birth in Christian era in figures (DD/MM/YYYY)",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "The applicant provides their date of birth in Christian era in figures (DD/MM/YYYY).",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "4 Date of birth in Christian era (a) in figures DD/MM/YYYY",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:arms_licence_the_applicant_provides_their_present_address",
+   "type": "ACTION",
+   "name": "The applicant provides their present address",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "The applicant provides their present address.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "5 Present Address",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:arms_licence_the_applicant_provides_their_telephone_number_of",
+   "type": "ACTION",
+   "name": "The applicant provides their telephone number (office or residence)",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "The applicant provides their telephone number (office or residence).",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "5 Present Address (a) Telephone (Office/Residence",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:arms_licence_the_applicant_provides_their_occupation",
+   "type": "ACTION",
+   "name": "The applicant provides their occupation",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "The applicant provides their occupation.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "6 Occupation",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:arms_licence_the_applicant_provides_their_office_or_business_",
+   "type": "ACTION",
+   "name": "The applicant provides their office or business address",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "The applicant provides their office or business address.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "7 Office/Business Address",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:arms_licence_the_applicant_provides_their_licence_number",
+   "type": "ACTION",
+   "name": "The applicant provides their licence number",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "The applicant provides their licence number.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "8 Licence Number",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:arms_licence_the_applicant_provides_the_date_of_expiry_of_the",
+   "type": "ACTION",
+   "name": "The applicant provides the date of expiry of their licence",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "The applicant provides the date of expiry of their licence.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "9 Date of expiry",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:arms_licence_the_applicant_provides_the_area_validity_of_thei",
+   "type": "ACTION",
+   "name": "The applicant provides the area validity of their licence",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "The applicant provides the area validity of their licence.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "10 Area Validity",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:arms_licence_the_applicant_provides_the_weapons_endorsed_on_t",
+   "type": "ACTION",
+   "name": "The applicant provides the weapons endorsed on their licence",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "The applicant provides the weapons endorsed on their licence.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "11 Weapons Endorsed Weapon 1 Weapon 2 Weapon 3",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:arms_licence_the_applicant_provides_the_ammunition_allowed_in",
+   "type": "ACTION",
+   "name": "The applicant provides the ammunition allowed in cartridges",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "The applicant provides the ammunition allowed in cartridges.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "12 Ammunition allowed Cartridges",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:arms_licence_the_licensing_authority_may_require_the_licensee",
+   "type": "ACTION",
+   "name": "The licensing authority may require the licensee to produce the arm or arms for inspection",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "whatToDo": "The licensing authority may require the licensee to produce the arm or arms for inspection at a specified time and place.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:d50e51e38c37",
+     "evidence": "The authority by whom any licence in Form II, Form 111, Form IV or Form V has been granted or renewed, may, for the purpose of satisfying itself that any arms covered by such licence are still in the possession of the licensee at the time of renewal or at any time while the licence is in force, by order in writing require the licensee to produce the arm or arms at such time and place for inspection of such officer as may be specified in the order.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -7209,6 +7569,66 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:adventure_tourism_guidelines_adventure_tourism_operators_atos_are_encouraged_",
+   "type": "ACTION",
+   "name": "Adventure Tourism Operators (ATOs) are encouraged to obtain certifications like Adventure ",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Adventure Tourism Operators (ATOs) are encouraged to obtain certifications like Adventure Tourism Safety Management System per IS/ISO 21101:2014 from Bureau of India Standards or equivalent organizations.",
+    "uiStage": "PREPARE",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:8bbd476f353a",
+     "evidence": "i. ATOs are encouraged for getting certifications such as Adventure Tourism Safety Management System per IS/ISO 21101:2014 from Bureau of India Standards or equivalent competent and established Organizations /Bodies.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:adventure_tourism_guidelines_adventure_tourism_operators_atos_must_follow_saf",
+   "type": "ACTION",
+   "name": "Adventure Tourism Operators (ATOs) must follow safety guidelines for activities like water",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Adventure Tourism Operators (ATOs) must follow safety guidelines for activities like water sports, aero-sports, safaris, mountaineering, and trekking as per the Ministry of Tourism’s guidelines.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:8bbd476f353a",
+     "evidence": "ii. Safety guidelines for water sports, aero-sports, safaris, mountaineering and trekking must be followed by ATOs as per Ministry of Tourism’s prevailing guidelines at the time of application for adventure tour operators and adventure tourism as per annexure-I.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:adventure_tourism_guidelines_adventure_tourism_operators_atos_should_ensure_t",
+   "type": "ACTION",
+   "name": "Adventure Tourism Operators (ATOs) should ensure that foreign tourists provide an undertak",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Adventure Tourism Operators (ATOs) should ensure that foreign tourists provide an undertaking and are covered by medical insurance including repatriation fees.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:8bbd476f353a",
+     "evidence": "iii. ATO may also ensure that his counterpart abroad must obtain an undertaking from the foreign tourists that in case of any loss, damage / accident, etc., the travel agency would not be responsible, and the client must be covered by the Medical Insurance and should include the cost of repatriation fee if he / she is to continue the tour.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:adventure_tourism_guidelines",
    "type": "SERVICE",
    "name": "Adventure Tourism Guidelines",
@@ -7276,6 +7696,18 @@
     {
      "sourceId": "src:19a8bc5fc95a",
      "evidence": "3.6All leaders and guides must be good swimmers and should be well trained in water rescue techniques, first-aid & CPR (Cardio pulmonary resuscitation). The Operator shall make available all life saving equipments, fire-fighting appliances, communication, rescue tubes and other equipments on the vessels duly certified by the Competent Authority.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8bbd476f353a",
+     "evidence": "i. ATOs are encouraged for getting certifications such as Adventure Tourism Safety Management System per IS/ISO 21101:2014 from Bureau of India Standards or equivalent competent and established Organizations /Bodies.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8bbd476f353a",
+     "evidence": "ii. Safety guidelines for water sports, aero-sports, safaris, mountaineering and trekking must be followed by ATOs as per Ministry of Tourism’s prevailing guidelines at the time of application for adventure tour operators and adventure tourism as per annexure-I.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -9981,6 +10413,26 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:competent_person_recognition_the_chief_inspector_considers_the_qualification_",
+   "type": "ACTION",
+   "name": "The Chief Inspector considers the qualification, experience, and facilities of a person or",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The Chief Inspector considers the qualification, experience, and facilities of a person or institution before recognising them as a Competent Person.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:0415e6113e65",
+     "evidence": "Such person may be an individual person or an institution. Its recognition by the Chief Inspector is necessary. More than one person or institution can be recognised for a factory. Their qualification, experience and facilities for tests shall be considered by the Chief Inspector before recognising them.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:competent_person_recognition",
    "type": "SERVICE",
    "name": "Competent Person Recognition",
@@ -10012,6 +10464,12 @@
     {
      "sourceId": "src:0415e6113e65",
      "evidence": "The Chief Inspector may require re-certification lifting machines, pressure plant, buildings etc, which have been certified by a competent person outside the State.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0415e6113e65",
+     "evidence": "Such person may be an individual person or an institution. Its recognition by the Chief Inspector is necessary. More than one person or institution can be recognised for a factory. Their qualification, experience and facilities for tests shall be considered by the Chief Inspector before recognising them.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -10125,6 +10583,26 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:certificate_regarding_eligibility_for_exemption_from_electri_the_applicant_must_obtain_a_certificate_regardin",
+   "type": "ACTION",
+   "name": "The applicant must obtain a certificate regarding eligibility for exemption from electrici",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must obtain a certificate regarding eligibility for exemption from electricity duty in a prescribed form.",
+    "uiStage": "PREPARE",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:ddcada61ade4",
+     "evidence": "Provided that no new industrial undertaking shall be entitled for exemption from payment of electricity duty under this clause, unless it has obtained a certificate regarding eligibility for such exemption in prescribed form by making an application therefore in such form, within such period and to such officer as may be prescribed.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:certificate_regarding_eligibility_for_exemption_from_electri",
    "type": "SERVICE",
    "name": "Certificate Regarding Eligibility For Exemption From Electricity Duty",
@@ -10157,6 +10635,112 @@
      "sourceId": "src:ddcada61ade4",
      "evidence": "(c) is not an expansion of the existing business or undertaking in the State",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:ddcada61ade4",
+     "evidence": "Provided that no new industrial undertaking shall be entitled for exemption from payment of electricity duty under this clause, unless it has obtained a certificate regarding eligibility for such exemption in prescribed form by making an application therefore in such form, within such period and to such officer as may be prescribed.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:authorization_for_utilization_of_hazardous_and_other_waste_the_application_must_be_discussed_in_an_expert_c",
+   "type": "ACTION",
+   "name": "The application must be discussed in an expert committee constituted by the Gujarat Pollut",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The application must be discussed in an expert committee constituted by the Gujarat Pollution Control Board (GPCB) for recommendations.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:2ac3346afa00",
+     "evidence": "The application under Rule 9 i.e. recycling, reuse, reprocessing, utilization as alternate resource, co processing shall be discussed in expert committee constituted by GPCB for the recommendations.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:authorization_for_utilization_of_hazardous_and_other_waste_the_scrutiny_and_processing_of_the_application_s",
+   "type": "ACTION",
+   "name": "The scrutiny and processing of the application shall be carried out by the GPCB as per the",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The scrutiny and processing of the application shall be carried out by the GPCB as per the attached flowchart.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:2ac3346afa00",
+     "evidence": "The scrutiny and processing shall be carried out by GPCB for the recommendations as per the Flowchart attached herewith as annexure I.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:authorization_for_utilization_of_hazardous_and_other_waste_the_applicant_must_submit_a_list_of_documents_in",
+   "type": "ACTION",
+   "name": "The applicant must submit a list of documents including product details, waste characteris",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant must submit a list of documents including product details, waste characteristics, process details, and other relevant information to support the application.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:a067164dd721",
+     "evidence": "5. List of documents required to obtain authorization as per Rule 9 & Rule 6 (Checklist for scrutiny of application)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:authorization_for_utilization_of_hazardous_and_other_waste_the_applicant_receives_an_authorization_along_wi",
+   "type": "ACTION",
+   "name": "The applicant receives an authorization along with a passbook",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant receives an authorization along with a passbook.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:76a02dac042c",
+     "evidence": " To issue passbook along with authorization to actual user",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:authorization_for_utilization_of_hazardous_and_other_waste_verification_of_records_and_compliance_with_sop_",
+   "type": "ACTION",
+   "name": "Verification of records and compliance with SOP/guidelines is required before authorizatio",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "Verification of records and compliance with SOP/guidelines is required before authorization is granted.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:76a02dac042c",
+     "evidence": " To verify records , compliance of SOP/guideline/specific conditions for recycling, recovery, processing, co-processing, utilization of hazardous and other waste",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -10196,6 +10780,54 @@
      "evidence": "Hence, such application shall be sent to CPCB through SPCBs.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:2ac3346afa00",
+     "evidence": "As per Rule 9, for utilization of hazardous and other waste as a resource or after pre-processing either for co-processing or for any other use including within the premises of the generator, authorization from SPCB is required",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:2ac3346afa00",
+     "evidence": "The application under Rule 9 i.e. recycling, reuse, reprocessing, utilization as alternate resource, co processing shall be discussed in expert committee constituted by GPCB for the recommendations.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:2ac3346afa00",
+     "evidence": "As specified in Rule 9 of Hazardous and Other waste Rules 2016, unit shall obtain prior permission for utilization of hazardous waste from competent authority.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:2ac3346afa00",
+     "evidence": "The application under Rule 9 i.e. recycling, reuse, reprocessing, utilization as alternate resource, co processing shall be discussed in expert committee constituted by GPCB for the recommendations.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:2ac3346afa00",
+     "evidence": "The scrutiny and processing shall be carried out by GPCB for the recommendations as per the Flowchart attached herewith as annexure I.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:2ac3346afa00",
+     "evidence": " The application under Rule 9 i.e. recycling, reuse, reprocessing, utilization as alternate resource, co processing shall be discussed in expert committee constituted by GPCB for the recommendations.",
+     "confidence": 0.8,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a067164dd721",
+     "evidence": " Products to be manufactured and quantity from utilization of hazardous waste (MT/Day).",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:a067164dd721",
+     "evidence": " Name/Type & quantity (in MTA) of the proposed hazardous wastes to be utilized including category (as per the Schedule I) intended for utilization.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
     }
    ],
    "lastVerifiedAt": "2026-08-25"
@@ -10229,6 +10861,36 @@
     {
      "sourceId": "src:30678b3df319",
      "evidence": "Slight changes in visit time may be done by authority due to Weather/Seasonal changes.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:30678b3df319",
+     "evidence": "The print out of Devalia Park Bus Safari e-Permit must be brought at the time of reporting at Devalia Safari Park,",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:486c8338b1b8",
+     "evidence": "Note: In one E-permit maximum 6 persons (plus one child between 3-12 years) are allowed.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:486c8338b1b8",
+     "evidence": "Note: There will be “NO REFUND” for cancellation of E-permit for Devalia Park Bus Safari.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:486c8338b1b8",
+     "evidence": "Note: In one E-permit maximum 6 persons (plus one child between 3-12 years) are allowed.\nThe permit doesn't include the Guide charge and safari vehicle charge, which must be paid seperately to respective Guides and Gypsy vehicle owners.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:486c8338b1b8",
+     "evidence": "Note: There will be “NO REFUND” for cancellation of E-permit for Devalia Park Bus Safari.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -10418,6 +11080,26 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:adventure_tourism_recognition_or_registration_the_application_for_grant_of_recognition_registr",
+   "type": "ACTION",
+   "name": "The application for grant of recognition/registration/renewal or extension shall be in the",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The application for grant of recognition/registration/renewal or extension shall be in the prescribed form and submitted online along with the required documents.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:ac7daef86cfc",
+     "evidence": "a. The application for grant of recognition/registration/renewal or extension shall be in the prescribed form and submitted online along with the required documents.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:adventure_tourism_recognition_or_registration",
    "type": "SERVICE",
    "name": "Adventure Tourism Recognition Or Registration",
@@ -10443,6 +11125,60 @@
     {
      "sourceId": "src:3848973b8836",
      "evidence": "6. The renewal / extension thereafter shall be granted for five years after Inspection conducted by the same Committee mentioned below, on an application made by the ATO along with the requisite fee / documents.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:ac7daef86cfc",
+     "evidence": "a. The application for grant of recognition/registration/renewal or extension shall be in the prescribed form and submitted online along with the required documents.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:ac7daef86cfc",
+     "evidence": "b. ATO should have a minimum Paid up Capital (Capital employed) of Rs. 3.00 lakhs duly supported by the latest audited Balance Sheet / firm’s Statutory Auditor’s certificate.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:ac7daef86cfc",
+     "evidence": "c. The turnover by the firm from Adventure Tourism & Adventure Sports related activities only should be a minimum of Rs.10.00 lakh during the preceding financial year duly supported by a certificate issued by Statutory Auditor of the firm.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:ac7daef86cfc",
+     "evidence": "b. ATO should have a minimum Paid up Capital (Capital employed) of Rs. 3.00 lakhs duly supported by the latest audited Balance Sheet / firm’s Statutory Auditor’s certificate.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:ac7daef86cfc",
+     "evidence": "c. The turnover by the firm from Adventure Tourism & Adventure Sports related activities only should be a minimum of Rs.10.00 lakh during the preceding financial year duly supported by a certificate issued by Statutory Auditor of the firm.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:ac7daef86cfc",
+     "evidence": "a. The application for grant of recognition/registration/renewal or extension shall be in the prescribed form and submitted online along with the required documents.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:ac7daef86cfc",
+     "evidence": "a. The application for grant of recognition/registration/renewal or extension shall be in the prescribed form and submitted online along with the required documents.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:ac7daef86cfc",
+     "evidence": "b. ATO should have a minimum Paid up Capital (Capital employed) of Rs. 3.00 lakhs duly supported by the latest audited Balance Sheet / firm’s Statutory Auditor’s certificate.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:ac7daef86cfc",
+     "evidence": "c. The turnover by the firm from Adventure Tourism & Adventure Sports related activities only should be a minimum of Rs.10.00 lakh during the preceding financial year duly supported by a certificate issued by Statutory Auditor of the firm.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -12404,6 +13140,38 @@
    ]
   },
   {
+   "id": "e:service_building_development_permission__requires__action_building_development_permission_the_applicant_opens_t",
+   "from": "service:building_development_permission",
+   "to": "action:building_development_permission_the_applicant_opens_the_website_of_the_corporati",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant opens the website of the corporation at www.vmc.gov.in.",
+   "sources": [
+    {
+     "sourceId": "src:a299a14d5099",
+     "evidence": "Open the website of corporation . www.vmc.gov.in",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_building_development_permission__requires__action_building_development_permission_the_applicant_approac",
+   "from": "service:building_development_permission",
+   "to": "action:building_development_permission_the_applicant_approaches_a_license_holder_archit",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant approaches a license holder architect, engineer, or structural engineer registered with the corporation.",
+   "sources": [
+    {
+     "sourceId": "src:a299a14d5099",
+     "evidence": "also approach the lissence holder architects, engineer, structural engineer registered with corporation.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_building_development_permission__apply_at__portal_vmc_gov_in",
    "from": "service:building_development_permission",
    "to": "portal:vmc_gov_in",
@@ -12532,6 +13300,38 @@
    ]
   },
   {
+   "id": "e:service_alcohol_procurement_permit__requires__action_alcohol_procurement_permit_the_applicant_has_to_apply",
+   "from": "service:alcohol_procurement_permit",
+   "to": "action:alcohol_procurement_permit_the_applicant_has_to_apply_online_to_the_investo",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant has to apply online to the Investor Facilitation Portal.",
+   "sources": [
+    {
+     "sourceId": "src:768c57795c06",
+     "evidence": " Procedure to Apply: Applicant has to apply Online to the Investor Facilitation Portal (www.ifpgujarat.gov.in/DIGIGOV)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_alcohol_procurement_permit__requires__action_alcohol_procurement_permit_the_applicant_must_submit_",
+   "from": "service:alcohol_procurement_permit",
+   "to": "action:alcohol_procurement_permit_the_applicant_must_submit_an_online_application_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must submit an online application form with a stamp and signature of an authorized person.",
+   "sources": [
+    {
+     "sourceId": "src:768c57795c06",
+     "evidence": " Check List: For New Application\nOnline Application Form with stamp & sign of authorized person.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_alcohol_procurement_permit__apply_at__portal_ifp_gujarat_gov_in",
    "from": "service:alcohol_procurement_permit",
    "to": "portal:ifp_gujarat_gov_in",
@@ -12639,6 +13439,214 @@
      "sourceId": "src:40dcf1b8c789",
      "evidence": "9. Visit RTO on scheduled date, with original documents",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_arms_licence__requires__action_arms_licence_the_applicant_provides_their_uin_16_digi",
+   "from": "service:arms_licence",
+   "to": "action:arms_licence_the_applicant_provides_their_uin_16_digit",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant provides their UIN (16 digit).",
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "1 UIN (16 digit)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_arms_licence__requires__action_arms_licence_the_applicant_provides_their_parent_or_s",
+   "from": "service:arms_licence",
+   "to": "action:arms_licence_the_applicant_provides_their_parent_or_spouse_na",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant provides their parent or spouse's name.",
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "3 Parent/Spouse Name",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_arms_licence__requires__action_arms_licence_the_applicant_provides_their_date_of_bir",
+   "from": "service:arms_licence",
+   "to": "action:arms_licence_the_applicant_provides_their_date_of_birth_in_ch",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant provides their date of birth in Christian era in figures (DD/MM/YYYY).",
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "4 Date of birth in Christian era (a) in figures DD/MM/YYYY",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_arms_licence__requires__action_arms_licence_the_applicant_provides_their_present_add",
+   "from": "service:arms_licence",
+   "to": "action:arms_licence_the_applicant_provides_their_present_address",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant provides their present address.",
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "5 Present Address",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_arms_licence__requires__action_arms_licence_the_applicant_provides_their_telephone_n",
+   "from": "service:arms_licence",
+   "to": "action:arms_licence_the_applicant_provides_their_telephone_number_of",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant provides their telephone number (office or residence).",
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "5 Present Address (a) Telephone (Office/Residence",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_arms_licence__requires__action_arms_licence_the_applicant_provides_their_occupation",
+   "from": "service:arms_licence",
+   "to": "action:arms_licence_the_applicant_provides_their_occupation",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant provides their occupation.",
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "6 Occupation",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_arms_licence__requires__action_arms_licence_the_applicant_provides_their_office_or_b",
+   "from": "service:arms_licence",
+   "to": "action:arms_licence_the_applicant_provides_their_office_or_business_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant provides their office or business address.",
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "7 Office/Business Address",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_arms_licence__requires__action_arms_licence_the_applicant_provides_their_licence_num",
+   "from": "service:arms_licence",
+   "to": "action:arms_licence_the_applicant_provides_their_licence_number",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant provides their licence number.",
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "8 Licence Number",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_arms_licence__requires__action_arms_licence_the_applicant_provides_the_date_of_expir",
+   "from": "service:arms_licence",
+   "to": "action:arms_licence_the_applicant_provides_the_date_of_expiry_of_the",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant provides the date of expiry of their licence.",
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "9 Date of expiry",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_arms_licence__requires__action_arms_licence_the_applicant_provides_the_area_validity",
+   "from": "service:arms_licence",
+   "to": "action:arms_licence_the_applicant_provides_the_area_validity_of_thei",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant provides the area validity of their licence.",
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "10 Area Validity",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_arms_licence__requires__action_arms_licence_the_applicant_provides_the_weapons_endor",
+   "from": "service:arms_licence",
+   "to": "action:arms_licence_the_applicant_provides_the_weapons_endorsed_on_t",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant provides the weapons endorsed on their licence.",
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "11 Weapons Endorsed Weapon 1 Weapon 2 Weapon 3",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_arms_licence__requires__action_arms_licence_the_applicant_provides_the_ammunition_al",
+   "from": "service:arms_licence",
+   "to": "action:arms_licence_the_applicant_provides_the_ammunition_allowed_in",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant provides the ammunition allowed in cartridges.",
+   "sources": [
+    {
+     "sourceId": "src:31139eefc21e",
+     "evidence": "12 Ammunition allowed Cartridges",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_arms_licence__requires__action_arms_licence_the_licensing_authority_may_require_the_",
+   "from": "service:arms_licence",
+   "to": "action:arms_licence_the_licensing_authority_may_require_the_licensee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The licensing authority may require the licensee to produce the arm or arms for inspection at a specified time and place.",
+   "sources": [
+    {
+     "sourceId": "src:d50e51e38c37",
+     "evidence": "The authority by whom any licence in Form II, Form 111, Form IV or Form V has been granted or renewed, may, for the purpose of satisfying itself that any arms covered by such licence are still in the possession of the licensee at the time of renewal or at any time while the licence is in force, by order in writing require the licensee to produce the arm or arms at such time and place for inspection of such officer as may be specified in the order.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -13742,6 +14750,22 @@
     {
      "sourceId": "src:21b6ef1e1050",
      "evidence": "SARAL pass is an annual prepaid unlimited travel scheme in Surat Sitilink Ltd.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_adventure_tourism_guidelines__requires__action_adventure_tourism_guidelines_adventure_tourism_operat",
+   "from": "service:adventure_tourism_guidelines",
+   "to": "action:adventure_tourism_guidelines_adventure_tourism_operators_atos_are_encouraged_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Adventure Tourism Operators (ATOs) are encouraged to obtain certifications like Adventure Tourism Safety Management System per IS/ISO 21101:2014 from Bureau of India Standards or equivalent organizations.",
+   "sources": [
+    {
+     "sourceId": "src:8bbd476f353a",
+     "evidence": "i. ATOs are encouraged for getting certifications such as Adventure Tourism Safety Management System per IS/ISO 21101:2014 from Bureau of India Standards or equivalent competent and established Organizations /Bodies.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -15092,6 +16116,22 @@
    ]
   },
   {
+   "id": "e:service_competent_person_recognition__requires__action_competent_person_recognition_the_chief_inspector_cons",
+   "from": "service:competent_person_recognition",
+   "to": "action:competent_person_recognition_the_chief_inspector_considers_the_qualification_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Chief Inspector considers the qualification, experience, and facilities of a person or institution before recognising them as a Competent Person.",
+   "sources": [
+    {
+     "sourceId": "src:0415e6113e65",
+     "evidence": "Such person may be an individual person or an institution. Its recognition by the Chief Inspector is necessary. More than one person or institution can be recognised for a factory. Their qualification, experience and facilities for tests shall be considered by the Chief Inspector before recognising them.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_competent_person_recognition__apply_at__portal_dish_gujarat_gov_in",
    "from": "service:competent_person_recognition",
    "to": "portal:dish_gujarat_gov_in",
@@ -15172,6 +16212,22 @@
    ]
   },
   {
+   "id": "e:service_certificate_regarding_eligibility_for_exemption_from__requires__action_certificate_regarding_eligibility_for_e",
+   "from": "service:certificate_regarding_eligibility_for_exemption_from_electri",
+   "to": "action:certificate_regarding_eligibility_for_exemption_from_electri_the_applicant_must_obtain_a_certificate_regardin",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant must obtain a certificate regarding eligibility for exemption from electricity duty in a prescribed form.",
+   "sources": [
+    {
+     "sourceId": "src:ddcada61ade4",
+     "evidence": "Provided that no new industrial undertaking shall be entitled for exemption from payment of electricity duty under this clause, unless it has obtained a certificate regarding eligibility for such exemption in prescribed form by making an application therefore in such form, within such period and to such officer as may be prescribed.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_certificate_regarding_eligibility_for_exemption_from__apply_at__portal_ceiced_gujarat_gov_in",
    "from": "service:certificate_regarding_eligibility_for_exemption_from_electri",
    "to": "portal:ceiced_gujarat_gov_in",
@@ -15183,6 +16239,38 @@
      "sourceId": "src:ddcada61ade4",
      "evidence": "Provided that no new industrial undertaking shall be entitled for exemption from payment of electricity duty under this clause, unless it has obtained a certificate regarding eligibility for such exemption in prescribed form by making an application therefore in such form, within such period and to such officer as may be prescribed.",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_authorization_for_utilization_of_hazardous_and_other__requires__action_authorization_for_utilization_of_hazard",
+   "from": "service:authorization_for_utilization_of_hazardous_and_other_waste",
+   "to": "action:authorization_for_utilization_of_hazardous_and_other_waste_the_application_must_be_discussed_in_an_expert_c",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The application must be discussed in an expert committee constituted by the Gujarat Pollution Control Board (GPCB) for recommendations.",
+   "sources": [
+    {
+     "sourceId": "src:2ac3346afa00",
+     "evidence": "The application under Rule 9 i.e. recycling, reuse, reprocessing, utilization as alternate resource, co processing shall be discussed in expert committee constituted by GPCB for the recommendations.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_authorization_for_utilization_of_hazardous_and_other__requires__document_cte_cca_copy",
+   "from": "service:authorization_for_utilization_of_hazardous_and_other_waste",
+   "to": "document:cte_cca_copy",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An applicant must provide a copy of valid CTE/CCA of the actual user.",
+   "sources": [
+    {
+     "sourceId": "src:a067164dd721",
+     "evidence": " Copy of valid CTE/CCA of the actual user.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -15311,6 +16399,22 @@
      "sourceId": "src:88b9f241701b",
      "evidence": "5.2 Land based sports operators who have obtained license and operational certificate from concerned Competent Authorities may be granted registration/recognition or renewal and may not require separate inspection from the Committee.",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_adventure_tourism_recognition_or_registration__requires__action_adventure_tourism_recognition_or_registration_",
+   "from": "service:adventure_tourism_recognition_or_registration",
+   "to": "action:adventure_tourism_recognition_or_registration_the_application_for_grant_of_recognition_registr",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The application for grant of recognition/registration/renewal or extension shall be in the prescribed form and submitted online along with the required documents.",
+   "sources": [
+    {
+     "sourceId": "src:ac7daef86cfc",
+     "evidence": "a. The application for grant of recognition/registration/renewal or extension shall be in the prescribed form and submitted online along with the required documents.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]

@@ -22,6 +22,16 @@
    "contentHash": "6add074e81d7f8c171b429ee0833b3b6bdf4875fd6060e09ce63d06487be3d09"
   },
   {
+   "id": "src:7fd29c1cf6e0",
+   "url": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/challan-correction-request-UM",
+   "title": "Challan Correction Request User Manual | Income Tax Department",
+   "domain": "incometax.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "14a94679ab84dcd21fd9a0e9f1e238cd614d86e8da02e9a0c66e85a85b4a0b7b"
+  },
+  {
    "id": "src:29580f620b91",
    "url": "https://www.incometax.gov.in/iec/foportal/help/taxdeductor/registration",
    "title": "Registration | Income Tax Department",
@@ -42,6 +52,16 @@
    "contentHash": "e07aab538df2e5f778bd1d829f16e2cc9a1b1d127c5e3d113a6f79fd3c246a28"
   },
   {
+   "id": "src:f6fdb701300e",
+   "url": "https://www.incometax.gov.in/iec/foportal/help/statutory-forms/popular-form/form-10-IEA-faq",
+   "title": "Form 10-IEA FAQ | Income Tax Department",
+   "domain": "incometax.gov.in",
+   "sourceType": "FAQ",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "0549e825506df1ad5e5384cb93fee0fb335c1e15c9d1dfcc8f836f5ff4310e08"
+  },
+  {
    "id": "src:5a938caa93ad",
    "url": "http://www.incometax.gov.in/iec/foportal/hi/help/taxdeductor/registration",
    "title": "पंजीकरण | Income Tax Department",
@@ -50,6 +70,16 @@
    "jurisdictionId": "IN-GJ",
    "retrievedAt": "2026-08-23",
    "contentHash": "9586a03c5c7fa20f8b7fa5f8faa5a11f13812722da603ab66b8209cedbf05a20"
+  },
+  {
+   "id": "src:f34b63e80482",
+   "url": "http://www.incometax.gov.in/iec/foportal/help/register-for-efiling-external-agency",
+   "title": "Register for e-Filing (External Agency) User Manual | Income Tax Department",
+   "domain": "incometax.gov.in",
+   "sourceType": "GUIDELINE",
+   "jurisdictionId": "IN-GJ",
+   "retrievedAt": "2026-08-23",
+   "contentHash": "706539722d6b692a001aa76ce8a9379679bf605a072c27b3317a575b23a9fe8c"
   },
   {
    "id": "src:d67224eb685b",
@@ -414,6 +444,146 @@
    ]
   },
   {
+   "id": "action:challan_correction_the_applicant_can_download_the_corrected_challan",
+   "type": "ACTION",
+   "name": "The applicant can download the corrected challan details after correction has been process",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant can download the corrected challan details after correction has been processed.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:5b01f9f92250",
+     "evidence": "You can download the corrected challan details using the following path: Path: Post Login → Services → Challan Correction → Download Corrected Details",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:challan_correction_the_applicant_receives_email_and_sms_notificatio",
+   "type": "ACTION",
+   "name": "The applicant receives email and SMS notifications once the challan correction is processe",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant receives email and SMS notifications once the challan correction is processed.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:5b01f9f92250",
+     "evidence": "Yes. Users receive email and SMS notifications on their registered email ID and mobile number once the challan correction request is processed.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:challan_correction_the_applicant_clicks_services_challan_correction",
+   "type": "ACTION",
+   "name": "The applicant clicks Services > Challan Correction on the Dashboard",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant clicks Services > Challan Correction on the Dashboard.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 2: On the Dashboard, click Services > Challan Correction.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:challan_correction_the_applicant_clicks_the_create_challan_correcti",
+   "type": "ACTION",
+   "name": "The applicant clicks the '+ Create Challan Correction Request' option to create a new requ",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant clicks the '+ Create Challan Correction Request' option to create a new request.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 3: On the Challan Correction page, click the “+ Create Challan Correction Request” option to create a new Challan Correction Request.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:challan_correction_the_applicant_selects_the_relevant_attribute_for",
+   "type": "ACTION",
+   "name": "The applicant selects the relevant attribute for correction in the challan",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant selects the relevant attribute for correction in the challan.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 4: You are required to select the relevant attribute for correction in the challan. Select the appropriate option (multiple options can be selected as applicable)and click Continue.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:challan_correction_the_applicant_selects_the_tax_year_assessment_ye",
+   "type": "ACTION",
+   "name": "The applicant selects the Tax year/Assessment Year or Challan Identification Number (CIN) ",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant selects the Tax year/Assessment Year or Challan Identification Number (CIN) to create a challan correction request.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 5: You are required to select the Tax year/Assessment Year or Challan Identification Number (CIN) to create challan correction request .Based on selection the unconsumed challans will be displayed for the correction. Click Continue to proceed.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:challan_correction_the_applicant_can_view_the_status_of_the_challan",
+   "type": "ACTION",
+   "name": "The applicant can view the status of the challan correction request by clicking 'View Chal",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant can view the status of the challan correction request by clicking 'View Challan Correction Status'.",
+    "uiStage": "TRACK",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 9: Post e-verification, a success message will be displayed. You can click View Challan Correction Status to know the status of challan correction.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:challan_correction",
    "type": "SERVICE",
    "name": "Challan Correction",
@@ -667,6 +837,166 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "action:form_10_iea_the_applicant_goes_to_the_e_filing_portal_and_cl",
+   "type": "ACTION",
+   "name": "The applicant goes to the e-Filing portal and clicks login",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant goes to the e-Filing portal and clicks login.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:894f44f70a8c",
+     "evidence": "Step 1: Go to the e-Filing portal and click login.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:form_10_iea_the_applicant_enters_their_user_id_and_password_",
+   "type": "ACTION",
+   "name": "The applicant enters their user ID and password on the login page",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant enters their user ID and password on the login page.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:894f44f70a8c",
+     "evidence": "Step 2 : On Login Page enter your user ID and password.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:form_10_iea_the_applicant_navigates_to_the_e_file_menu_and_s",
+   "type": "ACTION",
+   "name": "The applicant navigates to the e-File menu and selects 'File Income Tax Forms'",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant navigates to the e-File menu and selects 'File Income Tax Forms'.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:894f44f70a8c",
+     "evidence": "Step 3 : On your Dashboard , Go to e- File menu > Income Tax Forms > File Income Tax Forms.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:form_10_iea_the_applicant_chooses_an_e_verification_option_t",
+   "type": "ACTION",
+   "name": "The applicant chooses an e-verification option to verify the form",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant chooses an e-verification option to verify the form.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:894f44f70a8c",
+     "evidence": "Step 10: Choose to e-verify from below options to verify the form.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:form_10_iea_the_applicant_clicks_yes_to_submit_the_form",
+   "type": "ACTION",
+   "name": "The applicant clicks 'Yes' to submit the form",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant clicks 'Yes' to submit the form.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:894f44f70a8c",
+     "evidence": "Step 11: After verification Click on ''Yes'' to Submit the Form.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:form_10_iea_the_applicant_notes_the_transaction_id_for_futur",
+   "type": "ACTION",
+   "name": "The applicant notes the transaction ID for future reference after the form is submitted su",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant notes the transaction ID for future reference after the form is submitted successfully.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:894f44f70a8c",
+     "evidence": "Now Form is submitted Successfully Note the Transaction Id for the future reference.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:form_10_iea_the_applicant_receives_a_receipt_and_can_downloa",
+   "type": "ACTION",
+   "name": "The applicant receives a receipt and can download the form after submission",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant receives a receipt and can download the form after submission.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:894f44f70a8c",
+     "evidence": "You can download the Form and receipt.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:form_10_iea_the_applicant_can_view_the_life_cycle_of_the_for",
+   "type": "ACTION",
+   "name": "The applicant can view the life cycle of the form to track its status",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The applicant can view the life cycle of the form to track its status.",
+    "uiStage": "AFTER_SUBMISSION",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:894f44f70a8c",
+     "evidence": "Click on View details to see the life cycle of form",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "service:form_10_iea",
    "type": "SERVICE",
    "name": "Form 10-IEA",
@@ -742,6 +1072,32 @@
      "evidence": "Individuals, HUF without any business or professional income can opt out of the New Tax regime or Re-enter in to the New Tax Regime directly when they file their Income tax returns.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:894f44f70a8c",
+     "evidence": "Step 1: Go to the e-Filing portal and click login.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "action:e_filing_registration_the_e_filing_registration_requires_approval_from",
+   "type": "ACTION",
+   "name": "The e-filing registration requires approval from ITD before accessing the e-filing portal",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "whatToDo": "The e-filing registration requires approval from ITD before accessing the e-filing portal.",
+    "uiStage": "APPLY",
+    "machineExtracted": true
+   },
+   "sources": [
+    {
+     "sourceId": "src:f34b63e80482",
+     "evidence": "The Registration service enables the user to access requested webservices post ITD approval and to allow login to e-filing portal as external agency user.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
     }
    ],
    "lastVerifiedAt": "2026-08-25"
@@ -800,6 +1156,12 @@
      "sourceId": "src:5a938caa93ad",
      "evidence": "संव्यवहार ID के साथ एक सफल संदेश प्रदर्शित किया गया है। कृपया भविष्य में संदर्भ के लिए लेन-देन आई.डी. का ध्यान रखें। सक्षम प्राधिकारी से अनुमोदन प्राप्त होने पर पंजीकरण प्रक्रिया सम्पूर्ण हो जाती है।",
      "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f34b63e80482",
+     "evidence": "The Registration service enables the user to access requested webservices post ITD approval and to allow login to e-filing portal as external agency user.",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -1238,6 +1600,118 @@
    ]
   },
   {
+   "id": "e:service_challan_correction__requires__action_challan_correction_the_applicant_can_download_the_cor",
+   "from": "service:challan_correction",
+   "to": "action:challan_correction_the_applicant_can_download_the_corrected_challan",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant can download the corrected challan details after correction has been processed.",
+   "sources": [
+    {
+     "sourceId": "src:5b01f9f92250",
+     "evidence": "You can download the corrected challan details using the following path: Path: Post Login → Services → Challan Correction → Download Corrected Details",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_challan_correction__requires__action_challan_correction_the_applicant_receives_email_and_s",
+   "from": "service:challan_correction",
+   "to": "action:challan_correction_the_applicant_receives_email_and_sms_notificatio",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives email and SMS notifications once the challan correction is processed.",
+   "sources": [
+    {
+     "sourceId": "src:5b01f9f92250",
+     "evidence": "Yes. Users receive email and SMS notifications on their registered email ID and mobile number once the challan correction request is processed.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_challan_correction__requires__action_challan_correction_the_applicant_clicks_services_chal",
+   "from": "service:challan_correction",
+   "to": "action:challan_correction_the_applicant_clicks_services_challan_correction",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant clicks Services > Challan Correction on the Dashboard.",
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 2: On the Dashboard, click Services > Challan Correction.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_challan_correction__requires__action_challan_correction_the_applicant_clicks_the_create_ch",
+   "from": "service:challan_correction",
+   "to": "action:challan_correction_the_applicant_clicks_the_create_challan_correcti",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant clicks the '+ Create Challan Correction Request' option to create a new request.",
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 3: On the Challan Correction page, click the “+ Create Challan Correction Request” option to create a new Challan Correction Request.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_challan_correction__requires__action_challan_correction_the_applicant_selects_the_relevant",
+   "from": "service:challan_correction",
+   "to": "action:challan_correction_the_applicant_selects_the_relevant_attribute_for",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant selects the relevant attribute for correction in the challan.",
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 4: You are required to select the relevant attribute for correction in the challan. Select the appropriate option (multiple options can be selected as applicable)and click Continue.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_challan_correction__requires__action_challan_correction_the_applicant_selects_the_tax_year",
+   "from": "service:challan_correction",
+   "to": "action:challan_correction_the_applicant_selects_the_tax_year_assessment_ye",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant selects the Tax year/Assessment Year or Challan Identification Number (CIN) to create a challan correction request.",
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 5: You are required to select the Tax year/Assessment Year or Challan Identification Number (CIN) to create challan correction request .Based on selection the unconsumed challans will be displayed for the correction. Click Continue to proceed.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_challan_correction__requires__action_challan_correction_the_applicant_can_view_the_status_",
+   "from": "service:challan_correction",
+   "to": "action:challan_correction_the_applicant_can_view_the_status_of_the_challan",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant can view the status of the challan correction request by clicking 'View Challan Correction Status'.",
+   "sources": [
+    {
+     "sourceId": "src:7fd29c1cf6e0",
+     "evidence": "Step 9: Post e-verification, a success message will be displayed. You can click View Challan Correction Status to know the status of challan correction.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_challan_correction__apply_at__portal_incometax_gov_in",
    "from": "service:challan_correction",
    "to": "portal:incometax_gov_in",
@@ -1366,6 +1840,134 @@
    ]
   },
   {
+   "id": "e:service_form_10_iea__requires__action_form_10_iea_the_applicant_goes_to_the_e_filing_portal",
+   "from": "service:form_10_iea",
+   "to": "action:form_10_iea_the_applicant_goes_to_the_e_filing_portal_and_cl",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant goes to the e-Filing portal and clicks login.",
+   "sources": [
+    {
+     "sourceId": "src:894f44f70a8c",
+     "evidence": "Step 1: Go to the e-Filing portal and click login.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_form_10_iea__requires__action_form_10_iea_the_applicant_enters_their_user_id_and_pa",
+   "from": "service:form_10_iea",
+   "to": "action:form_10_iea_the_applicant_enters_their_user_id_and_password_",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant enters their user ID and password on the login page.",
+   "sources": [
+    {
+     "sourceId": "src:894f44f70a8c",
+     "evidence": "Step 2 : On Login Page enter your user ID and password.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_form_10_iea__requires__action_form_10_iea_the_applicant_navigates_to_the_e_file_men",
+   "from": "service:form_10_iea",
+   "to": "action:form_10_iea_the_applicant_navigates_to_the_e_file_menu_and_s",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant navigates to the e-File menu and selects 'File Income Tax Forms'.",
+   "sources": [
+    {
+     "sourceId": "src:894f44f70a8c",
+     "evidence": "Step 3 : On your Dashboard , Go to e- File menu > Income Tax Forms > File Income Tax Forms.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_form_10_iea__requires__action_form_10_iea_the_applicant_chooses_an_e_verification_o",
+   "from": "service:form_10_iea",
+   "to": "action:form_10_iea_the_applicant_chooses_an_e_verification_option_t",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant chooses an e-verification option to verify the form.",
+   "sources": [
+    {
+     "sourceId": "src:894f44f70a8c",
+     "evidence": "Step 10: Choose to e-verify from below options to verify the form.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_form_10_iea__requires__action_form_10_iea_the_applicant_clicks_yes_to_submit_the_fo",
+   "from": "service:form_10_iea",
+   "to": "action:form_10_iea_the_applicant_clicks_yes_to_submit_the_form",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant clicks 'Yes' to submit the form.",
+   "sources": [
+    {
+     "sourceId": "src:894f44f70a8c",
+     "evidence": "Step 11: After verification Click on ''Yes'' to Submit the Form.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_form_10_iea__requires__action_form_10_iea_the_applicant_notes_the_transaction_id_fo",
+   "from": "service:form_10_iea",
+   "to": "action:form_10_iea_the_applicant_notes_the_transaction_id_for_futur",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant notes the transaction ID for future reference after the form is submitted successfully.",
+   "sources": [
+    {
+     "sourceId": "src:894f44f70a8c",
+     "evidence": "Now Form is submitted Successfully Note the Transaction Id for the future reference.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_form_10_iea__requires__action_form_10_iea_the_applicant_receives_a_receipt_and_can_",
+   "from": "service:form_10_iea",
+   "to": "action:form_10_iea_the_applicant_receives_a_receipt_and_can_downloa",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant receives a receipt and can download the form after submission.",
+   "sources": [
+    {
+     "sourceId": "src:894f44f70a8c",
+     "evidence": "You can download the Form and receipt.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_form_10_iea__requires__action_form_10_iea_the_applicant_can_view_the_life_cycle_of_",
+   "from": "service:form_10_iea",
+   "to": "action:form_10_iea_the_applicant_can_view_the_life_cycle_of_the_for",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The applicant can view the life cycle of the form to track its status.",
+   "sources": [
+    {
+     "sourceId": "src:894f44f70a8c",
+     "evidence": "Click on View details to see the life cycle of form",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_form_10_iea__apply_at__portal_incometax_gov_in",
    "from": "service:form_10_iea",
    "to": "portal:incometax_gov_in",
@@ -1377,6 +1979,22 @@
      "sourceId": "src:894f44f70a8c",
      "evidence": "However, for Individuals, HUF, AOP (other than co-operative societies), BOI & Artificial Judicial Persons (AJP) having income from business and profession, Form 10 IEA is required to be filed to indicate the preference for the old tax regime.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_e_filing_registration__requires__action_e_filing_registration_the_e_filing_registration_requi",
+   "from": "service:e_filing_registration",
+   "to": "action:e_filing_registration_the_e_filing_registration_requires_approval_from",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The e-filing registration requires approval from ITD before accessing the e-filing portal.",
+   "sources": [
+    {
+     "sourceId": "src:f34b63e80482",
+     "evidence": "The Registration service enables the user to access requested webservices post ITD approval and to allow login to e-filing portal as external agency user.",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ]
