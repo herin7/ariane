@@ -8,7 +8,7 @@ import { Search } from "./search";
 export const revalidate = 60;
 
 export default async function Home() {
-  const { nodes, edges } = await loadLiveGraph();
+  const { nodes, edges, sources } = await loadLiveGraph();
   const services = nodes.filter((n) => n.type === "SERVICE");
 
   // The three the product is demonstrated on go first, then the graph decides
@@ -39,46 +39,121 @@ export default async function Home() {
   ].slice(0, 6);
 
   return (
-    <>
-      {/* §28. The one sentence that has to land before anything else does. */}
-      <h1 className="rise">
-        Government shouldn&rsquo;t
-        <br />
-        feel this hard.
-      </h1>
-      <p className="lede rise">
-        Tell us what you need to get done. We work out the order, the documents, the website and the
-        office, and we show you the government page every single answer came from.
-      </p>
+    <div className="home-page">
+      <section className="hero" data-reveal>
+        <div className="hero-copy-block">
+          <p className="eyebrow"><span className="eyebrow-line" /> A source-backed map for Gujarat</p>
+          <h1>
+            Find the thread<br />
+            <span className="signal-text">through government.</span>
+          </h1>
+          <p className="hero-copy">
+            Say what you need in your own words. Ariane joins the documents, portals, offices and official proof
+            into one route you can follow.
+          </p>
 
-      <Search />
+          <Search />
 
-      <h2>Or start with one of these</h2>
-      <div className="stack">
-        {featured.map((service) => (
-          <Link key={service.id} href={`/journey?goal=${encodeURIComponent(service.id)}`} className="card rise">
-            <h3>{service.name}</h3>
-            <p className="muted small" style={{ margin: "4px 0 0" }}>
-              {service.description}
-            </p>
-          </Link>
-        ))}
-      </div>
+          <div className="proof-strip" aria-label="Ariane coverage">
+            <span><b>{services.length.toLocaleString()}</b> services</span>
+            <span><b>{nodes.length.toLocaleString()}</b> connected facts</span>
+            <span><b>{sources.length.toLocaleString()}</b> official sources</span>
+          </div>
+        </div>
 
-      <p className="small" style={{ marginTop: 20 }}>
-        <Link href="/browse">Or read the whole catalogue</Link>{" "}
-        <span className="faint">Gujarat state, Gujarat district, and the central ones you cannot avoid.</span>
-      </p>
+        <div className="ariane-map" aria-label="Ariane joins a citizen need into one verified route">
+          <div className="map-header">
+            <div><span className="map-live" /> Your route</div>
+            <span>built from official sources</span>
+          </div>
+          <div className="map-path">
+            <div className="map-step">
+              <span className="map-knot">1</span>
+              <div><small>Start</small><b>What you are trying to do</b></div>
+            </div>
+            <div className="map-step">
+              <span className="map-knot">2</span>
+              <div><small>Prepare</small><b>Documents and prerequisites</b></div>
+              <span className="map-chip">only what applies</span>
+            </div>
+            <div className="map-step">
+              <span className="map-knot">3</span>
+              <div><small>Apply</small><b>The right portal or office</b></div>
+            </div>
+            <div className="map-step">
+              <span className="map-knot">4</span>
+              <div><small>If it stalls</small><b>Tracking and escalation</b></div>
+              <span className="map-chip proof">source linked</span>
+            </div>
+          </div>
+          <div className="map-footer"><span>⌁</span> One need, joined across departments.</div>
+        </div>
+      </section>
 
-      <p className="small faint" style={{ marginTop: 40 }}>
-        <Link href="/admin/graph" className="muted">
-          See the machinery
-        </Link>
-        {"  ·  "}
-        <Link href="/admin/coverage" className="muted">
-          See what we do not know yet
-        </Link>
-      </p>
-    </>
+      <section className="route-section" data-reveal>
+        <div className="section-intro">
+          <p className="section-kicker">The route, not the runaround</p>
+          <h2>One request. One path you can actually follow.</h2>
+          <p>Ariane does the cross-department work before you reach the counter.</p>
+        </div>
+
+        <div className="route-panel">
+          <div className="route-grid" aria-label="How Ariane builds a citizen journey">
+            <div className="route-stage active">
+              <span className="route-number">01</span>
+              <div><b>Say what you need</b><p>Use your own words. Ariane finds the service without inventing one.</p></div>
+            </div>
+            <div className="route-stage">
+              <span className="route-number">02</span>
+              <div><b>Answer what matters</b><p>Only questions that change your eligibility or route are asked.</p></div>
+            </div>
+            <div className="route-stage">
+              <span className="route-number">03</span>
+              <div><b>Follow the proof</b><p>Documents, portals, offices and escalation—each tied to a source.</p></div>
+            </div>
+          </div>
+          <div className="route-note">
+            <span className="route-pulse" />
+            <p><b>The graph decides.</b><br />If a requirement is not supported by the map and its evidence, Ariane does not say it.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="featured-section" data-reveal>
+        <div className="section-intro row-between">
+          <div>
+            <p className="section-kicker">Mapped journeys</p>
+            <h2>Start somewhere familiar.</h2>
+          </div>
+          <Link href="/browse" className="text-link">Browse all services <span>→</span></Link>
+        </div>
+        <div className="service-grid">
+          {featured.map((service, index) => (
+            <Link key={service.id} href={`/journey?goal=${encodeURIComponent(service.id)}`} className="service-card rise">
+              <span className="service-index">{String(index + 1).padStart(2, "0")}</span>
+              <div>
+                <h3>{service.name}</h3>
+                <p>{service.description}</p>
+              </div>
+              <span className="service-arrow" aria-hidden>↗</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="trust-section" data-reveal>
+        <div className="trust-copy">
+          <p className="section-kicker">Honest by construction</p>
+          <h2>If we cannot verify it,<br />we say so.</h2>
+          <p>No plausible guesses dressed up as instructions. Conflicting sources stay conflicting, and missing facts stay visible.</p>
+          <Link href="/admin/coverage" className="secondary-link">See what Ariane does not know yet</Link>
+        </div>
+        <div className="trust-list">
+          <div><span>01</span><p><b>Every claim carries proof.</b> Open the exact government page and quote behind a step.</p></div>
+          <div><span>02</span><p><b>The model cannot make policy.</b> It may understand your request; the graph decides the route.</p></div>
+          <div><span>03</span><p><b>Uncertainty stays visible.</b> Machine-extracted, conflicting and missing information are never flattened.</p></div>
+        </div>
+      </section>
+    </div>
   );
 }
