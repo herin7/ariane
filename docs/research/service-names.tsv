@@ -1,0 +1,47 @@
+# Names citizens type that no government page prints.
+#
+# READ THIS BEFORE ADDING A LINE.
+#
+# This file holds NAMES, never facts. A name is a string somebody might type
+# into a search box. A fact is a fee, a rule, a document, an office, a
+# deadline. Facts reach a citizen only through `docs/research/<journey>.json`
+# with a verbatim quote from a page we fetched, and nothing here is exempt
+# from that. Adding "legal heir certificate" here says people call it that.
+# It does not say the state calls it that, and it must never be used to claim
+# the state does.
+#
+# Why it exists. Aliases are otherwise whatever the extractor found printed on
+# the page, which is the state's own wording and only the state's own wording.
+# `service:varshai` is a real service with nine required documents and its own
+# page says "legal lineal heir of the deceased pensioner", but the word
+# "varshai" is the only name it answers to, so a citizen typing the English
+# name every other state uses got an empty screen. `resolveIntent` already
+# handles spelling (varsai/varshai are one edit apart and it knows), and it
+# already handles Gujarati script. It cannot handle a name the page never
+# printed.
+#
+# The rule for a new line: would a citizen type this meaning this service, and
+# would a person who knows the service agree it is the same thing? Two
+# different documents that sound alike are two rows in two services, not an
+# alias. A succession certificate is a civil court document under the Indian
+# Succession Act and a varsai certificate is a revenue heirship record. They
+# are not each other and there is no line here saying they are.
+#
+# Applied by `scripts/ingest/services-compile.mjs` when it writes a service
+# node, so it survives a recompile. A row for a service id that no longer
+# exists is reported and skipped, not silently dropped.
+#
+# Format: serviceId<TAB>alias<TAB>why
+
+service:varshai	legal heir certificate	what this is called in English across India, and the service's own page says "legal lineal heir of the deceased"
+service:varshai	legal heir	the short form people actually type
+service:varshai	heirship certificate	the revenue department's English term for a varsai entry
+service:varshai	varsai	the collectorate page spells it this way, the url spells it varshai
+service:varshai	varsai certificate	the full phrase in the commoner spelling
+service:varshai	varasai	a third spelling in circulation, two edits from varshai so near() cannot reach it
+service:varshai	વારસાઈ	the Gujarati name without the word certificate after it
+
+service:food_ration_card	રેશન કાર્ડ	the Gujarati name, which the smart and duplicate cards already carry and this one did not
+
+service:antyodaya_anna_yojana_aay_ration_card	antyodaya	the scheme name on its own
+service:antyodaya_anna_yojana_aay_ration_card	aay card	the abbreviation plus the thing, which is how the card is referred to in practice

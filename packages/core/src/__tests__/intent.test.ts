@@ -102,13 +102,18 @@ describe("what it refuses to do", () => {
     // વારસાઈ has no single English spelling and the state uses several. The
     // collectorate pages say varsai, the url says varshai, and a citizen types
     // whichever they last saw. One edit apart is one word.
-    const match = top("varsai certificate");
-    expect(match?.goal).toBe("service:varshai");
+    //
+    // This used to assert on "varsai certificate" and on the graph reporting
+    // back "varshai", the spelling it held. Both spellings are now names the
+    // service answers to outright, so that query never reaches `near` and the
+    // rule it was guarding went untested. Kunvarbai is the same shape and is
+    // still uncurated: mameru against mamera, one edit, and nobody has written
+    // either spelling down as an alias.
+    const match = top("kunvarbai mameru");
+    expect(match?.goal).toBe("service:kunvarbai_mamera_scheme");
     // Reported as the graph spells it, not as the citizen typed it, so the
     // screen shows them how we read the question.
-    expect(match?.matched).toContain("varshai");
-
-    expect(top("kunvarbai mameru")?.goal).toBe("service:kunvarbai_mamera_scheme");
+    expect(match?.matched).toContain("mamera");
   });
 
   it("does not treat two short words one letter apart as the same word", () => {
@@ -117,5 +122,70 @@ describe("what it refuses to do", () => {
     // worse than the transliteration miss it was added to fix.
     expect(resolveIntent(data, "pen")).toEqual([]);
     expect(resolveIntent(data, "farm licence")?.some((m) => m.goal === "service:form_licence")).toBe(false);
+  });
+});
+
+/**
+ * One service owns one citizen concept, whatever the citizen calls it.
+ *
+ * These are the names a Gujarati citizen types for services this graph has had
+ * all along and could not find. `service:varshai` has nine required documents,
+ * three sources and a published 60 day timeline, and "legal heir certificate"
+ * returned an empty screen, because the Kheda collectorate writes વારસાઈ and
+ * never writes the English name. An empty screen is the failure mode nobody
+ * reports: it looks like the service does not exist rather than like a bug.
+ *
+ * The names live in `docs/research/service-names.tsv` and are applied by
+ * `services-compile.mjs`, so a recompile cannot quietly drop them. That is what
+ * these guard. They assert only that a query reaches a service; not one of them
+ * asserts a fee, a document or a rule, because a name is not a fact.
+ */
+describe("one service per thing, however the citizen names it", () => {
+  const heir = ["legal heir certificate", "legal heir", "heirship certificate", "varsai", "varsai certificate", "varasai", "varshai", "વારસાઈ", "વારસાઈ પ્રમાણપત્ર"];
+
+  for (const query of heir) {
+    it(`"${query}" is the same service as every other name for it`, () => {
+      expect(top(query)?.goal).toBe("service:varshai");
+    });
+  }
+
+  it("does not answer a succession certificate with a varsai one", () => {
+    // A succession certificate is a civil court document under the Indian
+    // Succession Act. A varsai certificate is a revenue heirship record. They
+    // sound alike in English and they are not the same thing, so the honest
+    // answer to a service we have not mapped is still nothing at all.
+    expect(resolveIntent(data, "succession certificate")).toEqual([]);
+  });
+
+  it("offers every ration card in both scripts, because there is no single one", () => {
+    // Not a canonicalisation bug, which is what it looked like. Gujarat issues
+    // several and the citizen has to pick: a lost card is a duplicate, a
+    // below poverty line household is Antyodaya. Naming one of them canonical
+    // would be inventing a fact about the state's own scheme design.
+    //
+    // What was actually broken is that the Gujarati name only reached two of
+    // them, so a citizen typing રેશન કાર્ડ saw a shorter list than one typing
+    // in English and had no way to know something was missing.
+    const english = resolveIntent(data, "ration card", 5).map((m) => m.goal);
+    const gujarati = resolveIntent(data, "રેશન કાર્ડ", 5).map((m) => m.goal);
+    for (const id of ["service:food_ration_card", "service:duplicate_ration_card", "service:smart_ration_card"]) {
+      expect(english).toContain(id);
+      expect(gujarati).toContain(id);
+    }
+  });
+
+  it("finds the below poverty line card by the scheme name people actually use", () => {
+    expect(top("antyodaya")?.goal).toBe("service:antyodaya_anna_yojana_aay_ration_card");
+    expect(top("aay card")?.goal).toBe("service:antyodaya_anna_yojana_aay_ration_card");
+  });
+
+  it("keeps every curated name pointed at a service that exists", () => {
+    // The file is edited by hand and the graph is rebuilt by a machine, so a
+    // service can be renamed out from under a row. `services-compile.mjs`
+    // reports that at compile time; this fails the build if nobody read it.
+    const services = new Set(data.nodes.filter((n) => n.type === "SERVICE").map((n) => n.id));
+    for (const query of [...heir, "antyodaya", "aay card", "રેશન કાર્ડ"]) {
+      for (const match of resolveIntent(data, query)) expect(services.has(match.goal)).toBe(true);
+    }
   });
 });
