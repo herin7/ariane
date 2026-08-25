@@ -1738,3 +1738,34 @@ h1, h2, h3,
 @media (max-width: 560px) {
   .office-map-canvas { height: 210px; }
 }
+
+/* A service we found, know the authority for, and have not built. It reads as
+   an answer rather than a shrug, so it gets the accent rather than the muted
+   grey the empty state uses. */
+.search-message.coming-soon {
+  border-color: var(--line-strong);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 6%, transparent), transparent 70%);
+}
+.search-message.coming-soon .authority {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: var(--r-full);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  color: var(--accent);
+  font-weight: 560;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+.soon {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  border-radius: var(--r-full);
+  border: 1px solid color-mix(in srgb, var(--thread) 35%, transparent);
+  color: var(--thread);
+  font-size: 11px;
+  font-weight: 560;
+  letter-spacing: 0.02em;
+  vertical-align: middle;
+  text-transform: none;
+}

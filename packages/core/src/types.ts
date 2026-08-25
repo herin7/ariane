@@ -133,6 +133,11 @@ export interface DerivedLocation {
   note?: string;
 }
 
+export type SupportStatus = "SUPPORTED" | "COMING_SOON";
+
+/** Who runs the service. Not who the citizen thinks runs it. */
+export type AuthorityLevel = "CENTRAL" | "STATE" | "LOCAL";
+
 export interface NodeMetadata {
   /**
    * Written by the ingestion pipeline, absent on anything a person authored.
@@ -144,6 +149,29 @@ export interface NodeMetadata {
    * name the seed already answers to.
    */
   machineExtracted?: boolean;
+
+  /**
+   * SERVICE: whether Ariane can actually walk someone through this yet.
+   *
+   * Absent means supported, which is what the whole graph was before this
+   * existed. `COMING_SOON` is a node that names a real service, cites the
+   * government's own page for it, and has no path: it exists so that a citizen
+   * asking for a passport is told "that one is central and we have not built it
+   * yet" instead of "we have not mapped that", which sounds like we have never
+   * heard of it.
+   *
+   * This is data because the alternative is a list of service names in a source
+   * file, and a hardcoded `if (query.includes("passport"))` is a government
+   * fact living in code where nothing can cite it or correct it.
+   */
+  supportStatus?: SupportStatus;
+  /**
+   * Which government actually runs this. A state service and a central one fail
+   * in different ways and a citizen standing in the wrong queue cannot tell.
+   */
+  authorityLevel?: AuthorityLevel;
+  /** One sentence, shown as-is, for why it is not built yet. */
+  supportNote?: string;
 
   /** PORTAL / TRACKING / GRIEVANCE_CHANNEL: the official URL. */
   url?: string;

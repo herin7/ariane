@@ -13,7 +13,13 @@ import { compileJourney } from "../journey";
  */
 
 const data = loadGraph();
-const services = data.nodes.filter((n) => n.type === "SERVICE");
+const all = data.nodes.filter((n) => n.type === "SERVICE");
+
+// A service we have listed but not built has no steps by definition, and the
+// UI never routes into one. The exemption is the data flag, not a name in an
+// array here, so a service becomes testable the moment its flag is dropped.
+const services = all.filter((n) => n.metadata?.supportStatus !== "COMING_SOON");
+const comingSoon = all.filter((n) => n.metadata?.supportStatus === "COMING_SOON");
 
 const compile = (goal: string) =>
   compileJourney(data, {
@@ -25,6 +31,18 @@ describe("every service compiles into something a citizen can act on", () => {
   it("has services to compile in the first place", () => {
     expect(services.length).toBeGreaterThan(20);
   });
+
+  // The exemption has to earn itself. A service opting out of compiling must
+  // say who runs it, why it is not here, and answer to the words a citizen
+  // would actually type, or it is just a hidden dead end.
+  for (const service of comingSoon) {
+    it(`${service.id} is honest about not being built`, () => {
+      expect(service.metadata?.authorityLevel).toBeTruthy();
+      expect(service.metadata?.supportNote).toBeTruthy();
+      expect(service.aliases?.length).toBeGreaterThan(2);
+      expect(service.sources.length).toBeGreaterThan(0);
+    });
+  }
 
   for (const service of services) {
     it(`${service.id} compiles`, () => {
