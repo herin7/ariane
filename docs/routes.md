@@ -279,8 +279,8 @@ preference, the service's own name).
 
 ## POST `/api/voice/session`
 
-Opens a browser voice call and mints a **short-lived** OpenAI Realtime
-credential. This is the only place an OpenAI credential is created and what
+Opens a browser voice call and mints a **short-lived** Azure AI Foundry realtime
+credential. This is the only place a Foundry credential is created and what
 leaves here is scoped to one realtime session.
 
 **Request** — body optional, `{}` is fine.
@@ -305,6 +305,7 @@ the session's level and baked into the credential.
   "token": "kJ2…",
   "clientSecret": "ek_…",
   "model": "gpt-realtime",
+  "callUrl": "https://<resource>.openai.azure.com/openai/v1/realtime/calls",
   "credentialExpiresAt": 1780000060000,
   "expiresAt": 1780000600000,
   "identityLevel": "ANONYMOUS",
@@ -313,8 +314,15 @@ the session's level and baked into the credential.
 }
 ```
 
-- `clientSecret` goes to OpenAI, **never** to our own routes.
-- `token` goes to our own routes, **never** to OpenAI.
+- `clientSecret` goes to Foundry, **never** to our own routes.
+- `token` goes to our own routes, **never** to Foundry.
+- `callUrl` is where the browser POSTs its SDP offer (`content-type:
+  application/sdp`, `authorization: Bearer <clientSecret>`). It comes down the
+  wire rather than being compiled in because the host is per-deployment. Do not
+  append `?model=` — the deployment was fixed when the credential was minted,
+  and that is what stops a browser pointing its session at a different one.
+- `model` is the Foundry **deployment** name, which need not match the model
+  inside it. Informational; the handshake does not need it.
 - Two clocks on purpose: `credentialExpiresAt` is about a minute and only covers
   the WebRTC handshake; `expiresAt` is the ten minute call.
 - `allowedTools` is what the model was given. A browser session is `ANONYMOUS`
@@ -462,7 +470,8 @@ one budget.
 
 **Nothing here needs a key.** The graph routes are public and the voice routes
 mint their own credential. No `.env` value ever reaches the browser; if you find
-yourself wanting `NEXT_PUBLIC_OPENAI_…`, that is the bug.
+yourself wanting `NEXT_PUBLIC_AZURE_…`, that is the bug. The one thing that does
+travel is `callUrl`, and it arrives in a response rather than in the bundle.
 
 **Empty is an answer.** `matches: []`, `candidates: []`, `journey: null` — every
 one of them means "we have not mapped that", and the product's whole claim is

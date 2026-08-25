@@ -1,6 +1,7 @@
 import { createHmac } from "node:crypto";
 import { describe, expect, it } from "vitest";
 import { callerHash, hashPhone, initialIdentityLevel, normalisePhone, stubCodeFor, stubStepUp } from "../identity";
+import { RealtimeNotConfiguredError, mintClientSecret, realtimeConfigured } from "../transport/browser";
 import { parseVapiEvent, vapiToolResponse, verifyVapiSignature } from "../transport/vapi";
 import { harness } from "./fixture";
 
@@ -225,5 +226,76 @@ describe("binding a call to a session", () => {
     const session = await h.open({ rawPhone: "+919876500014" });
     await h.sessions.end(session);
     expect(await h.sessions.authenticateCall(session.id, session.providerCallId!)).toBe("SESSION_ENDED");
+  });
+});
+
+/**
+ * The third door: the credential the browser is handed. Azure AI Foundry is a
+ * per-resource host and a deployment name, so the two things worth asserting
+ * are that the real key stays behind and that the URLs are the GA ones - the
+ * preview protocol used a different host entirely and fails in a way that
+ * looks like a network problem.
+ */
+describe("minting a browser credential", () => {
+  const CONFIG = { model: "ariane-realtime", instructions: "be brief", tools: [], voice: "marin", audio: {} };
+  const ENV = { AZURE_OPENAI_ENDPOINT: "https://ariane.openai.azure.com/", AZURE_OPENAI_API_KEY: "real-key" };
+
+  const spy = () => {
+    const calls: { url: string; init: RequestInit }[] = [];
+    const impl = (async (url: string, init: RequestInit) => {
+      calls.push({ url, init });
+      return new Response(JSON.stringify({ value: "ek_abc", expires_at: NOW / 1000 }), { status: 200 });
+    }) as unknown as typeof fetch;
+    return { calls, impl };
+  };
+
+  it("asks the deployment's own resource, on the GA paths", async () => {
+    const { calls, impl } = spy();
+    const credential = await mintClientSecret(CONFIG, ENV, impl);
+
+    // The trailing slash in the env var is the one that bites.
+    expect(calls[0]!.url).toBe("https://ariane.openai.azure.com/openai/v1/realtime/client_secrets");
+    expect(calls[0]!.url).not.toContain("api-version");
+    expect(credential.callUrl).toBe("https://ariane.openai.azure.com/openai/v1/realtime/calls");
+    expect(credential).toMatchObject({ value: "ek_abc", model: "ariane-realtime", expiresAt: NOW });
+  });
+
+  it("sends the resource key as api-key and never as something the browser sees", async () => {
+    const { calls, impl } = spy();
+    const credential = await mintClientSecret(CONFIG, ENV, impl);
+
+    const headers = calls[0]!.init.headers as Record<string, string>;
+    expect(headers["api-key"]).toBe("real-key");
+    expect(headers.authorization).toBeUndefined();
+    expect(JSON.stringify(credential)).not.toContain("real-key");
+
+    // The deployment name, the instructions and the tool list are all decided
+    // here rather than by whoever is holding the credential.
+    expect(JSON.parse(calls[0]!.init.body as string).session).toMatchObject({
+      type: "realtime",
+      model: "ariane-realtime",
+      instructions: "be brief",
+      tool_choice: "auto",
+      audio: { output: { voice: "marin" } },
+    });
+  });
+
+  it("refuses rather than half-configuring itself", async () => {
+    const { impl } = spy();
+    for (const env of [{}, { AZURE_OPENAI_ENDPOINT: ENV.AZURE_OPENAI_ENDPOINT }, { AZURE_OPENAI_API_KEY: "k" }]) {
+      expect(realtimeConfigured(env)).toBe(false);
+      await expect(mintClientSecret(CONFIG, env, impl)).rejects.toBeInstanceOf(RealtimeNotConfiguredError);
+    }
+    expect(realtimeConfigured(ENV)).toBe(true);
+  });
+
+  it("does not put the provider's error body in ours", async () => {
+    const impl = (async () =>
+      new Response(JSON.stringify({ error: { message: "key sk-live-42 is over quota for org-ariane" } }), {
+        status: 429,
+      })) as unknown as typeof fetch;
+
+    await expect(mintClientSecret(CONFIG, ENV, impl)).rejects.toThrow(/429/);
+    await expect(mintClientSecret(CONFIG, ENV, impl)).rejects.not.toThrow(/sk-live|org-ariane/);
   });
 });

@@ -165,7 +165,15 @@ unless all three keys are set, and masked before transmission.
 
 ## Database
 
-Five tables in `packages/voice/src/db/voice-schema.sql`. RLS is on for all five
+Five tables in `packages/voice/src/db/voice-schema.sql`, applied once, by hand,
+the same way the graph schema is:
+
+```bash
+psql "$SUPABASE_DB_URL" -f packages/voice/src/db/voice-schema.sql
+```
+
+Until that has run against a deployment with `SUPABASE_URL` set, opening a
+session answers `502` and logs the missing table. RLS is on for all five
 with **zero policies**, which is deny-all to `anon` and `authenticated`; the
 server reaches them with the service role and nothing else does. The file also
 revokes explicitly, because a policy that gets added later should not silently
@@ -181,14 +189,27 @@ Voice reads the same compiled graph the website does and nothing further back.
 
 ## Running it
 
-Two secrets and an OpenAI key in the repo-root `.env`; see `.env.example`.
-Without them every `/api/voice` route answers `503` and the rest of Ariane is
-untouched.
+Two secrets and an Azure AI Foundry realtime deployment, all in the repo-root
+`.env`; see `.env.example`. Without them every `/api/voice` route answers `503`
+and the rest of Ariane is untouched.
 
 ```bash
-pnpm --filter @ariane/voice test   # 70 tests
+pnpm --filter @ariane/voice test   # 74 tests
 pnpm dev                           # /api/voice/session answers
 ```
+
+Foundry, specifically, means four values: `AZURE_OPENAI_ENDPOINT` (the resource
+root, no path and no `api-version`), `AZURE_OPENAI_API_KEY`, the deployment name
+and the voice. Realtime is a global deployment available in East US 2 and Sweden
+Central only. The server POSTs the session config to
+`/openai/v1/realtime/client_secrets` on that resource and gets back a token good
+for about a minute; the browser POSTs its SDP offer to
+`/openai/v1/realtime/calls` on the same host, holding only that token. Both
+paths are the GA protocol — the preview one used a separate regional host and an
+`api-version` parameter, and is deprecated.
+
+Nothing above the handshake is Azure-shaped. If this ever has to move providers,
+`transport/browser.ts` and the `callUrl` it returns are the whole surface.
 
 Telephony additionally wants `VAPI_WEBHOOK_SECRET` and a Vapi assistant pointed
 at `POST /api/voice/vapi/webhook`. Payloads are HMAC-verified over the raw bytes
