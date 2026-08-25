@@ -343,4 +343,14 @@ describe("the machine cannot rewrite a path a person wrote", () => {
     const machine = data.nodes.filter((n) => n.type === "ACTION" && n.metadata?.machineExtracted);
     expect(machine.length).toBeGreaterThan(500);
   });
+
+  it("writes the steps for a hand written service that never had any", () => {
+    // The first version of this rule keyed on the id being owned rather than on
+    // a sequence existing, and took the only two steps domicile certificate has
+    // straight back out. A person writing eleven documents and an office and no
+    // steps is not a person saying there are no steps.
+    const steps = actionsOf("service:domicile_certificate");
+    expect(steps.length).toBeGreaterThan(0);
+    expect(steps.every((a) => a?.metadata?.machineExtracted)).toBe(true);
+  });
 });
