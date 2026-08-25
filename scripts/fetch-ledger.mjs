@@ -170,7 +170,10 @@ if (args[0] === "--have") {
 // "everything is missing" written confidently into the ledger. Say what is
 // absent and stop. This is why the check runs under `pnpm gates:corpus` and not
 // under `pnpm gates`: a public clone has the facts and the quotes, not the pages.
-if (!files.size && args[0] !== "--have") {
+//
+// `--have` is included on purpose. With no corpus every url answers NEED, and a
+// confident NEED is how you pay to fetch a page you already own.
+if (!files.size) {
   console.error("No evidence corpus found. Looked in:");
   console.error(`  ${inCorpus(".firecrawl/")}`);
   console.error(`  ${inCorpus(".ingest/pages/")}`);
