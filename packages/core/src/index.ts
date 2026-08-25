@@ -29,6 +29,7 @@ export {
   formatCrowKm,
   formatDuration,
   formatRoutedKm,
+  geocodeQueries,
   geocodeQuery,
   gradeCandidate,
   haversineKm,

@@ -24,6 +24,7 @@
     "ingest:selftest": "node scripts/ingest/lib.mjs",
     "pdf:extract": "node --env-file-if-exists=.env scripts/ingest/pdf-extract.mjs",
     "offices:discover": "node --env-file-if-exists=.env scripts/ingest/offices-discover.mjs",
+    "offices:geocode": "pnpm --filter @ariane/core offices:geocode",
     "fetch:ledger": "node scripts/fetch-ledger.mjs",
     "fetch:have": "node scripts/fetch-ledger.mjs --have",
     "graph:snapshot": "pnpm --filter @ariane/core graph:snapshot",

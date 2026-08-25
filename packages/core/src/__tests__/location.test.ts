@@ -4,6 +4,7 @@ import {
   formatCrowKm,
   formatDuration,
   formatRoutedKm,
+  geocodeQueries,
   geocodeQuery,
   gradeCandidate,
   haversineKm,
@@ -46,12 +47,16 @@ function grade(over: Partial<GeocodeCandidate> = {}, sourceAddress = "Collector 
 
 describe("the query we send, built beside the address and never over it", () => {
   it("adds the administrative context a district portal never bothered to print", () => {
-    expect(geocodeQuery("Mamlatdar Office, Dahod", "Dahod")).toBe("Mamlatdar Office, Dahod, Dahod, Gujarat, India");
+    expect(geocodeQuery("Mamlatdar Office, Dahod", "Dahod")).toBe("Mamlatdar Office, Dahod, Gujarat, India");
+  });
+
+  it("does not say Gujarat twice when the office is scoped to the state", () => {
+    expect(geocodeQuery("Aranya Bhavan, Sector 10A, Gandhinagar, Gujarat", "Gujarat")).toBe("Aranya Bhavan, Sector 10A, Gandhinagar, Gujarat, India");
   });
 
   it("moves an inline pincode to the end instead of saying it twice", () => {
     const query = geocodeQuery("RTO, Subhash Bridge, Ahmedabad - 380027", "Ahmedabad");
-    expect(query).toBe("RTO, Subhash Bridge, Ahmedabad, Ahmedabad, Gujarat, India, 380027");
+    expect(query).toBe("RTO, Subhash Bridge, Ahmedabad, Gujarat, India, 380027");
     expect(query.match(/380027/gu)).toHaveLength(1);
   });
 
@@ -62,6 +67,32 @@ describe("the query we send, built beside the address and never over it", () => 
   it("finds a pincode with no word boundary in front of it", () => {
     expect(pincodeOf("Ahmedabad-380027")).toBe("380027");
     expect(pincodeOf("Phone 07926851234, no pincode here")).toBeUndefined();
+  });
+
+  // Measured: asking Nominatim for any of these addresses whole returns
+  // nothing, 125 times out of 125. It matches names it has indexed, and a
+  // government address is mostly floors, wings and landmark relations.
+  it("falls back to the parts of the address a gazetteer could plausibly know", () => {
+    const ladder = geocodeQueries("2nd Floor, ‘D’ Block, M.S.Building, Lal Darwaja, Ahmedabad-1", "Ahmedabad");
+    expect(ladder[0]).toBe("2nd Floor, ‘D’ Block, M.S.Building, Lal Darwaja, Ahmedabad-1, Ahmedabad, Gujarat, India");
+    expect(ladder.slice(1)).toContain("Lal Darwaja, Ahmedabad, Gujarat, India");
+  });
+
+  it("does not waste a request a second on a floor, a wing or a nearby landmark", () => {
+    const ladder = geocodeQueries("First Floor, F-1 Wing, Block-3, Karmyogi Bhavan, Sector-10-A, Gandhinagar", "Gandhinagar");
+    // The floor, the wing and the block are gone. The two names a gazetteer
+    // could plausibly hold are what is left, specific one first.
+    expect(ladder.slice(1)).toEqual(["Karmyogi Bhavan, Gandhinagar, Gujarat, India", "Sector-10-A, Gandhinagar, Gujarat, India"]);
+  });
+
+  it("asks the specific parts before the general ones, so the door beats the neighbourhood", () => {
+    const ladder = geocodeQueries("Alkapuri Pologround, Alkapuri, Himatnagar, Sabarkantha, Gujarat - 383001", "Sabarkantha");
+    expect(ladder.slice(1).map((q) => q.split(",")[0])).toEqual(["Alkapuri Pologround", "Alkapuri", "Himatnagar"]);
+  });
+
+  it("never repeats a rung, so a one-segment address costs one request", () => {
+    const ladder = geocodeQueries("Gandhinagar", "Gandhinagar");
+    expect(ladder).toEqual(["Gandhinagar, Gujarat, India"]);
   });
 
   it("hashes an address stably, and differently when a character moves", () => {
@@ -107,6 +138,14 @@ describe("the gate", () => {
     expect(grade({ displayName: "Some Road, Surat, Gujarat", address: { road: "Some Road", state_district: "Surat", state: "Gujarat" } }).status).toBe(
       "REVIEW_REQUIRED",
     );
+  });
+
+  // "Lal Darwaja, Ahmedabad" resolves to a bus stop of that name. Nominatim
+  // calls it an amenity and is right. It is still not the office.
+  it("caps a backed-off answer at medium however precise the geocoder claims it was", () => {
+    const result = gradeCandidate({ candidate: candidate(), sourceAddress: "irrelevant", districtName: "Ahmedabad", backedOff: true });
+    expect(result.status).toBe("DERIVED_MEDIUM");
+    expect(result.note).toMatch(/not the door/u);
   });
 
   it("calls a locality level hit medium, not high, so nobody reads it as the door", () => {
