@@ -1,6 +1,7 @@
 "use client";
 
-import { officeLine, stageGroups, type Channel, type CompiledJourney, type DerivedQuestion, type Facts, type JourneyStep } from "@ariane/core";
+import { stageGroups, type Channel, type CompiledJourney, type DerivedQuestion, type Facts, type JourneyStep } from "@ariane/core";
+import { Offices } from "./offices";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
@@ -65,20 +66,22 @@ export function JourneyView({ districts }: { districts: string[] }) {
 
   if (error) {
     return (
-      <div className="card rise">
-        <h3>We could not build that path</h3>
-        <p className="small muted">{error}</p>
-        <Link href="/" className="small">Start again</Link>
+      <div className="reading-page">
+        <div className="card rise">
+          <h3>We could not build that path</h3>
+          <p className="small muted">{error}</p>
+          <Link href="/" className="small">Start again</Link>
+        </div>
       </div>
     );
   }
 
-  if (!journey) return <Loading />;
+  if (!journey) return <div className="reading-page"><Loading /></div>;
 
   const questions = journey.outstandingQuestions;
 
   return (
-    <div style={{ opacity: pending ? 0.55 : 1, transition: "opacity var(--fast)" }}>
+    <div className="reading-page journey-page" data-reveal style={{ opacity: pending ? 0.55 : 1, transition: "opacity var(--fast)" }}>
       <Link href="/" className="small muted" style={{ textDecoration: "none" }}>‹ Back</Link>
 
       <h1 style={{ marginTop: 14 }}>{journey.goalName}</h1>
@@ -497,7 +500,7 @@ function Step({ step, held, onHave }: { step: JourneyStep; held: string[]; onHav
         </p>
       ) : null}
 
-      {step.channels.length || step.offices.length ? (
+      {step.channels.length ? (
         <div className="stack" style={{ gap: 4, marginTop: 12 }}>
           {step.channels.map((c) => (
             <p key={`${c.nodeId}${c.via}`} className="small" style={{ margin: 0 }}>
@@ -505,23 +508,13 @@ function Step({ step, held, onHave }: { step: JourneyStep; held: string[]; onHav
               {c.url ? <a href={c.url} target="_blank" rel="noreferrer">{c.name}</a> : c.name}
             </p>
           ))}
-          {step.offices.map((o) => (
-            <p key={o.nodeId} className="small" style={{ margin: 0 }}>
-              <span className="tag">visit</span> {officeLine(o)}{" "}
-              {/* An address is exactly the kind of fact §41 says never to
-                  fabricate, so it carries its source on the same line as the
-                  address rather than nowhere. */}
-              {o.sources[0] ? (
-                <a href={o.sources[0].source.url} target="_blank" rel="noreferrer" className="muted">
-                  {o.sources.some((s) => s.verificationStatus === "CONFLICTING") ? "sources disagree" : "source"}
-                </a>
-              ) : (
-                <span className="faint">Not verified yet.</span>
-              )}
-            </p>
-          ))}
         </div>
       ) : null}
+
+      {/* An address is exactly the kind of fact §41 says never to fabricate, so
+          every one of these carries its source, and the pin beside it carries
+          the fact that we derived it and the government did not. */}
+      <Offices offices={step.offices} />
 
       {/* §9. Everything a person needs in order to act is above this line.
           Everything they need in order to check us is below it, one click away

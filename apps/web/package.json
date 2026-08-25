@@ -13,11 +13,13 @@
     "@ariane/core": "workspace:*",
     "@ariane/voice": "workspace:*",
     "@xyflow/react": "^12.11.3",
+    "maplibre-gl": "^6.6.0",
     "next": "^15.5.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
+    "@types/geojson": "^7946.0.16",
     "@types/node": "^22.15.3",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
