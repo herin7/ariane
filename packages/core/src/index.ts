@@ -24,6 +24,25 @@ export {
 } from "./journey";
 export { resolveIntent, type IntentMatch } from "./intent";
 export {
+  CONFLICT_TOLERANCE_KM,
+  addressHash,
+  formatCrowKm,
+  formatDuration,
+  formatRoutedKm,
+  geocodeQuery,
+  gradeCandidate,
+  haversineKm,
+  pincodeOf,
+  rankByDistance,
+  rankByJurisdiction,
+  reconcileConflict,
+  type GateInput,
+  type GateResult,
+  type GeocodeCandidate,
+  type Point,
+  type RankedOffice,
+} from "./location";
+export {
   loadGraph,
   loadGraphFrom,
   seedBundles,
