@@ -636,7 +636,6 @@
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "machineExtracted": true,
-    "fee": "The total cost of the program is $12,000 CAD per student.",
     "eligibility": [
      "The applicant must be a 3rd-year full-time student of an undergraduate program (B.E / B.Tech) in an AICTE-approved institution in the year of application.",
      "The applicant must have a minimum CGPA / GPA of 85% in the 2nd year.",
@@ -1042,6 +1041,25 @@
     {
      "sourceId": "src:88768d7d5b2d",
      "evidence": "Note: In essence, Eligible Startups gets approval for Seed Support and Sustenance allowance within 90 working days from the submission of their application at Nodal Institution.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "payment:startup_funding_support_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Startup Funding Support",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "There is no application fee for the scheme."
+   },
+   "sources": [
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "There is no application fee for this scheme.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -2369,6 +2387,22 @@
      "sourceId": "src:11156af4329b",
      "evidence": "Application form with documents",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_startup_funding_support__requires__payment_startup_funding_support_fee",
+   "from": "service:startup_funding_support",
+   "to": "payment:startup_funding_support_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "There is no application fee for the scheme.",
+   "sources": [
+    {
+     "sourceId": "src:88768d7d5b2d",
+     "evidence": "There is no application fee for this scheme.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]

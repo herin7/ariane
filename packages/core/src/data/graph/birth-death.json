@@ -339,6 +339,25 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "payment:death_certificate_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Death Certificate",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "A citizen pays Rs. 20 for an additional copy of a death certificate, which includes a Rs. 5 certificate fee and Rs. 15 administration charges."
+   },
+   "sources": [
+    {
+     "sourceId": "src:6f438ff998ce",
+     "evidence": "On payment of Rs. 20/- (Birth or Death certificate fee Rs. 5/- and administration charges Rs. 15/- = Rs. 20/-), a copy of birth & death certificate is available in Gujarati and English.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "portal:suratmunicipal_gov_in",
    "type": "PORTAL",
    "name": "suratmunicipal.gov.in",
@@ -562,6 +581,22 @@
     {
      "sourceId": "src:9b1c2b8b5b69",
      "evidence": "Step 1: The nominee submits an application along with the Death Registration Certificate and additional documents, including the FIR, Post Mortem Report, Police Inquest Report, and Police Conclusion Report or Final Report.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_death_certificate__requires__payment_death_certificate_fee",
+   "from": "service:death_certificate",
+   "to": "payment:death_certificate_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A citizen pays Rs. 20 for an additional copy of a death certificate, which includes a Rs. 5 certificate fee and Rs. 15 administration charges.",
+   "sources": [
+    {
+     "sourceId": "src:6f438ff998ce",
+     "evidence": "On payment of Rs. 20/- (Birth or Death certificate fee Rs. 5/- and administration charges Rs. 15/- = Rs. 20/-), a copy of birth & death certificate is available in Gujarati and English.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }

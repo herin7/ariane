@@ -2144,6 +2144,61 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "payment:gir_online_permit_booking_system_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Gir Online Permit Booking System",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "The camera fee for amateur photography is Rs. 200 for Indian nationals.\nThe camera fee for amateur photography for foreigners is calculated by 20 multiplying the current dollar rate in Rs.\nSafari vehicle charges for a 4 seater new safari vehicle are 2500 rupees.\nSafari vehicle charges for a 6 seater new safari vehicle are 3500 rupees.\nSafari vehicle charges for an 8 seater new comfortable safari vehicle are 4500 rupees.\nThe permit charges for Indian visitors on weekdays for a non-AC bus are 150 rupees per person.\nThe permit charges for Indian visitors on weekends and festival days for a non-AC bus are 190 rupees per person."
+   },
+   "sources": [
+    {
+     "sourceId": "src:95a9c084b03d",
+     "evidence": "The camera fee for amateur photography is Rs. 200 for Indian nationals and for foreigners, it is calculated by 20 multiplying the current dollar rate in Rs.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:95a9c084b03d",
+     "evidence": "The camera fee for amateur photography is Rs. 200 for Indian nationals and for foreigners, it is calculated by 20 multiplying the current dollar rate in Rs.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e89c2413eb37",
+     "evidence": "Safari Vehicle Charges as {Type A: 2500/- (4 seater new safari vehicle); 3500/- (6 seater new safari vehicle); 4500/- (8 seater new comfortable safari vehicle)}.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e89c2413eb37",
+     "evidence": "Safari Vehicle Charges as {Type A: 2500/- (4 seater new safari vehicle); 3500/- (6 seater new safari vehicle); 4500/- (8 seater new comfortable safari vehicle)}.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e89c2413eb37",
+     "evidence": "Safari Vehicle Charges as {Type A: 2500/- (4 seater new safari vehicle); 3500/- (6 seater new safari vehicle); 4500/- (8 seater new comfortable safari vehicle)}.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:074dec0e7f9b",
+     "evidence": "Bus (Non-AC) | Monday-Friday | 150 | 3800",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:074dec0e7f9b",
+     "evidence": "Bus (Non-AC) | Saturday-Sunday/ Festival Days | 190 | 4750",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "department:boiler_office",
    "type": "DEPARTMENT",
    "name": "Boiler office",
@@ -2458,6 +2513,49 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "payment:access_to_biological_resources_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Access to Biological Resources",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "An application for access to or collection of biological resources for commercial utilization must be accompanied with a process fee of Rs. 5000/- in the form of a demand draft.\nApplication fees for Form – I are Rs. 5000/- for commercial purposes.\nApplication fees for Form – II are Rs. 5000/-.\nApplication fees for Form – III are Rs. 500/-.\nApplication fees for Form - IV are Rs. 10000/-."
+   },
+   "sources": [
+    {
+     "sourceId": "src:e0cc234eb940",
+     "evidence": "Every application shall be accompanied with process fees of Rs. 5000/- in the form of a demand draft drawn in favor of the “Gujarat Biodiversity Board”.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e0cc234eb940",
+     "evidence": "Rs. 5000/- (For Commercial purpose)",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e0cc234eb940",
+     "evidence": "Rs. 5000/- ( http://nbaindia.org/content/26/59/1/forms.html )",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e0cc234eb940",
+     "evidence": "Rs. 500/- ( http://nbaindia.org/content/26/59/1/forms.html )",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:e0cc234eb940",
+     "evidence": "Rs. 10000/- ( http://nbaindia.org/content/26/59/1/forms.html )",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "portal:gsbb_gujarat_gov_in",
    "type": "PORTAL",
    "name": "gsbb.gujarat.gov.in",
@@ -2689,6 +2787,67 @@
      "sourceId": "src:0b7975f95c09",
      "evidence": "00 Air Weapons including air rifles and air guns\nhaving muzzle energy exceeding 20 joules or 15 ft-\nlbs. or bore exceeding 0.177\"or 4.5 mm\nFirearm replicas\nElectronic disabling devices having firing range of\nless than 15 feet\nPaint ball markers or guns\nBlank firing firearms\nMuzzle Loading (ML) Guns\nAccessories for any firearms designed or adapted to\ndiminish the noise or flash caused by the firing\nthereof\n1000 500",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "payment:firearm_licence_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Firearm Licence",
+   "jurisdictionId": "IN-GJ-VADODARA",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "The renewal fee for a licence for handguns – revolvers/pistols (both restricted or permissible) is 500 rupees.\nThe renewal fee for a licence for centre fire rifles (semi-automatic) and any other restricted firearm of category 1(b) or 1(c) is 1000 rupees.\nThe renewal fee for a licence for breach loading centre fire rifles (not semi-automatic) is 500 rupees.\nThe renewal fee for a licence for .22 bore rim-fire Rifles (including semi-automatic) is 500 rupees.\nThe renewal fee for a licence for smooth bore breech loading shotguns (including semi-automatic) is 500 rupees.\nThe renewal fee for a licence for air weapons including air rifles and air guns having muzzle energy exceeding 20 joules or 15 ft-lbs. or bore exceeding 0.177\"or 4.5 mm is 500 rupees.\nThe renewal fee for a licence for swords, bayonets, daggers and spear lances is 100 rupees.\nThe renewal fee for a licence for weapons of category V of Schedule I other than those mentioned in (g) is 100 rupees."
+   },
+   "sources": [
+    {
+     "sourceId": "src:0b7975f95c09",
+     "evidence": "(a) Handguns – Revolvers/Pistols\n(both restricted or permissible)\n1000\n.\n500",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0b7975f95c09",
+     "evidence": "(b) Centre fire rifles (semi-automatic) and any other\nrestricted firearm of category 1(b) or 1(c)\n1000 1000",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0b7975f95c09",
+     "evidence": "(c) Breach loading centre fire rifles\n(not semi-automatic)\n1000 500",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0b7975f95c09",
+     "evidence": "(d) .22 bore rim-fire Rifles\n(including semi-automatic)\n1000 500",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0b7975f95c09",
+     "evidence": "(e) Smooth bore breech loading shotguns\n(including semi-automatic)\n1000 500",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0b7975f95c09",
+     "evidence": "00 Air Weapons including air rifles and air guns\nhaving muzzle energy exceeding 20 joules or 15 ft-\nlbs. or bore exceeding 0.177\"or 4.5 mm\nFirearm replicas\nElectronic disabling devices having firing range of\nless than 15 feet\nPaint ball markers or guns\nBlank firing firearms\nMuzzle Loading (ML) Guns\nAccessories for any firearms designed or adapted to\ndiminish the noise or flash caused by the firing\nthereof\n1000 500",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0b7975f95c09",
+     "evidence": "(g) Sword, bayonet, dagger and spear lance. 500 100",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:0b7975f95c09",
+     "evidence": "(h) Weapons of category V of Schedule I other than\nthose mentioned in (g)\n500\n.\n100",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -3303,6 +3462,49 @@
      "sourceId": "src:04175df00445",
      "evidence": "9 Extension of area validity of licence 19 15 days of the receipt of application by the competent authority under Schedule II",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "payment:firearm_license_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Firearm-License",
+   "jurisdictionId": "IN-GJ-VADODARA",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "The fee for correction of information in a license under rule 33 is 500.\nThe fee for any other service not mentioned above is 500.\nThe fee for change of address within the existing licensing authority is 500.\nThe fee for endorsement of firearm under rule 18 is 500 per firearm.\nThe fee for addition or deletion of firearm is 500 per firearm."
+   },
+   "sources": [
+    {
+     "sourceId": "src:04175df00445",
+     "evidence": "8. All Correction of information in licence under rule 33 500",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:04175df00445",
+     "evidence": "11. All Any other service not mentioned above 500",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dfcb08492267",
+     "evidence": "3. All Change of address within the existing licensing authority\nunder rule 17(3) .\n500",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dfcb08492267",
+     "evidence": "4. II, III, IV Endorsement of firearm under rule 18\n(for each firearm)\n500",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dfcb08492267",
+     "evidence": "5.\n_\nII, III,IV Addition/deletion of firearm\n(for each firearm)\n500",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -4844,6 +5046,79 @@
     {
      "sourceId": "src:8f130659de66",
      "evidence": "The smart R.C. Book of the vehicle is sent by speed-post at the address indicated by the applicant in the Form.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "payment:vehicle_registration_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Vehicle Registration",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "A fee of Rs.1000/- is required for a choice number for two wheelers.\nA fee of Rs.5000/- is required for a choice number for four wheelers.\nA fee of Rs.150/- is required for transfer of ownership of two wheelers.\nA fee of Rs.300/- is required for transfer of ownership of motor cars.\nA fee of Rs.150/- is required for a duplicate RC book for motor cycles.\nA fee of Rs.300/- is required for a duplicate RC book for motor cars.\nA citizen pays an additional fee of 200 rupees if the certificate of registration is a smart card type issued or renewed in Form 23A.\nA citizen pays an additional fee of 300 rupees for delay in applying for renewal of certificate of registration for motor cycles.\nA citizen pays an additional fee of 300 rupees for delay in submission of ‘No Objection Certificate’ for transfer of ownership in case of motor cycles.\nA citizen pays an additional fee of 300 rupees for delay in submitting ‘No Objection Certificate’ for change of residence in case of motor cycles."
+   },
+   "sources": [
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "After public auction, the remaining numbers can be selected as choice number by paying a fee of Rs.1000/- for two wheelers and Rs.5000/- for four wheelers.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "After public auction, the remaining numbers can be selected as choice number by paying a fee of Rs.1000/- for two wheelers and Rs.5000/- for four wheelers.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "A fee of Rs.150/- in case of two wheelers and Rs.300/- in case of motor car is required to be paid as transfer fee.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "A fee of Rs.150/- in case of two wheelers and Rs.300/- in case of motor car is required to be paid as transfer fee.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "A fee of Rs.150/- for motor cycle and a fee of Rs.300/- for motor car is required to be paid.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "A fee of Rs.150/- for motor cycle and a fee of Rs.300/- for motor car is required to be paid.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6888364cc2d7",
+     "evidence": "Note 1: Additional fee of two hundred rupees shall be levied if the certificate of registration is a smart card type issued or renewed in Form 23A.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6888364cc2d7",
+     "evidence": "Note 2: In case of delay in applying for renewal of certificate of registration, an additional fee of three hundred rupees for delay of every month or part thereof in respect of motor cycles and five hundred rupees for delay of every month or part thereof in respect of other classes of nontransport vehicles shall belevied.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6888364cc2d7",
+     "evidence": "Note: In case of delay in submission of ‘No Objection Certificate’, an additional fee of rupees three hundred for delay of each month or part thereof in case of motor cycles and five hundred rupees for each month of delay or part thereof for other vehicles shall belevied.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6888364cc2d7",
+     "evidence": "Note: In case of delay in submitting ‘No Objection Certificate’ for change of residence, an additional fee of rupees three hundred for delay of each month or part thereof in case of motor cycles and five hundred rupees for each month of delay or part thereof for other vehicles shall belevied.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -7826,6 +8101,37 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "payment:trade_union_registration_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Trade Union Registration",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "The registration fee for a trade union with members not exceeding 1000 is Rs.50/-, and for a union with more than 1000 members, it is Rs.100/-, to be paid at the time of registration.\nA fee of Rs.25/- is payable for amendments in the constitution of a registered trade union, either in cash or by money order.\nThe fee for amendments in the constitution of a registered trade union is Rs.25/-."
+   },
+   "sources": [
+    {
+     "sourceId": "src:6873645dfc69",
+     "evidence": "If the members of union are not exceed 1000 the registration fee is Rs.50/- (Rupees fifty only) and Rs.100/-(Rupees one hundred only) if the members are more than 1000. It is to be paid only at the time of registration.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6873645dfc69",
+     "evidence": "If any registered union wants to make any addition, omission, alteration in the constitution of the union, the office bearers have to pass a resolution in the constitution of the trade union, the office bearers have to pass a resolution in the meeting of the trade union at least by a majority of the members and they are to be intimated within 15 days from the date of the said meeting wherein these amends were made to the registrar of trade union along with a fee of Rs.25/-(Twenty five) payable either in cash or by M.O.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6873645dfc69",
+     "evidence": "the office bearers have to pass a resolution in the meeting of the trade union at least by a majority of the members and they are to be intimated within 15 days from the date of the said meeting wherein these amends were made to the registrar of trade union along with a fee of Rs.25/-(Twenty five) payable either in cash or by M.O.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "document:prescribed_format_application",
    "type": "DOCUMENT",
    "name": "Prescribed format application",
@@ -8713,6 +9019,25 @@
     {
      "sourceId": "src:8bbd476f353a",
      "evidence": "iv. Insurance: ATO has qualified staff to handle the operations. Since adventure has an in - built risk factor, the Clients/ATOs should be covered by insurance. This insurance is termed as",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "payment:adventure_tourism_operator_recognition_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Adventure Tourism Operator Recognition",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "A non-refundable fee of Rs. 1000/- must be paid to the Office of Commissioner of Tourism, Government of Gujarat for recognition and renewal."
+   },
+   "sources": [
+    {
+     "sourceId": "src:8bbd476f353a",
+     "evidence": "15. ATO would be required to pay a non - refundable fee of while applying for the recognition and renewal of Rs. 1000/- to the Office of Commissioner of Tourism, Government of Gujarat.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -9743,6 +10068,43 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "payment:girnar_nature_safari_permit_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Girnar Nature Safari Permit",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "The fee for a Girnar Nature Safari Permit for up to 6 persons on Monday to Friday is 800 rupees.\nThe fee for a Girnar Nature Safari Permit for an extra child on Monday to Friday is 100 rupees.\nThe fee for a Girnar Nature Safari Permit for up to 6 persons on Saturday, Sunday, or Festival Days is 1000 rupees.\nThe fee for a Girnar Nature Safari Permit for an extra child on Saturday, Sunday, or Festival Days is 125 rupees."
+   },
+   "sources": [
+    {
+     "sourceId": "src:486c8338b1b8",
+     "evidence": "Monday to Friday | Up To 6 persons | 800 | 7600 | Safari Vehicle |",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:486c8338b1b8",
+     "evidence": "Monday to Friday | Extra Child | 100 | 1900 | Safari Vehicle |",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:486c8338b1b8",
+     "evidence": "Saturday/Sunday/ Festival Days | Up To 6 persons | 1000 | 9500 | Safari Vehicle |",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:486c8338b1b8",
+     "evidence": "Saturday/Sunday/ Festival Days | Extra Child | 125 | 2375 |",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "action:driver_license_1_visit_https_sarathi_parivahan_gov_in",
    "type": "ACTION",
    "name": "Visit https://sarathi.parivahan.gov.in/",
@@ -10033,6 +10395,31 @@
      "sourceId": "src:21b6ef1e1050",
      "evidence": "SARAL pass is an annual prepaid unlimited travel scheme in Surat Sitilink Ltd. Charges for various pass categories for public transport usage are as under: Student / Women",
      "confidence": 0.8,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "payment:saral_pass_travel_scheme_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for SARAL Pass Travel Scheme",
+   "jurisdictionId": "IN-GJ-SURAT",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "The charges for a yearly SARAL Pass for a student or woman is 1000.\nThe charges for a yearly SARAL Pass for institutional and other categories is 7000."
+   },
+   "sources": [
+    {
+     "sourceId": "src:21b6ef1e1050",
+     "evidence": "Student / Women\nYearly: 1000",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:21b6ef1e1050",
+     "evidence": "Institutional and Other Categories\nYearly: 7000",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -11055,6 +11442,25 @@
     {
      "sourceId": "src:9f03ddbb98ec",
      "evidence": "2) To Pay the fees kindly enter the Mandatory Fields - E-mail, Mobile, and PAN to open your saved Login Form",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "payment:rooftop_pv_portal_registration_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Rooftop PV Portal Registration",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "The total processing fees including GST is 11,800.00 rupees."
+   },
+   "sources": [
+    {
+     "sourceId": "src:9f03ddbb98ec",
+     "evidence": "Total Processing Fees including GST (in ₹) 11,800.00",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -12381,6 +12787,61 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "payment:transporter_licence_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Transporter's licence",
+   "jurisdictionId": "IN-GJ-VADODARA",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "The fee for a transport license for proof testing is Rs. 10000.\nThe fee for import and transportation for the Government of Nepal is Rs. 500 per firearm.\nThe fee for registration with an outside licensing authority is Rs. 500.\nThe fee for addition or deletion of a retainer under rule 22 for companies is Rs. 500.\nThe fee for change of address within the existing licensing authority is Rs. 500.\nThe fee for endorsement of a firearm is Rs. 500 per firearm.\nThe fee for addition or deletion of a firearm is Rs. 500 per firearm."
+   },
+   "sources": [
+    {
+     "sourceId": "src:dfcb08492267",
+     "evidence": "18. XIII Transport licence for proof testing (for each consignment) 10000 N/A",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dfcb08492267",
+     "evidence": "20, XV For Import and Transportation for Govt. of Nepal (for each firearm) 500 N/A-",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dfcb08492267",
+     "evidence": "1. __ III Registration with outside licensing authority under rule 17(1) 500",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dfcb08492267",
+     "evidence": "2. _____ III Addition/deletion of retainer under rule 22 (for companies) 500",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dfcb08492267",
+     "evidence": "3. All Change of address within the existing licensing authority under rule 17(3) . 500",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dfcb08492267",
+     "evidence": "4. II, III, IV Endorsement of firearm under rule 18 (for each firearm) 500",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:dfcb08492267",
+     "evidence": "5. _ II, III,IV Addition/deletion of firearm (for each firearm) 500",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "office:block_18_6th_floor_udyog_bhavan_gandhinagar",
    "type": "OFFICE",
    "name": "Block_18_6th_floor_udyog_bhavan_gandhinagar",
@@ -12549,6 +13010,25 @@
     {
      "sourceId": "src:61f17e5a5fa6",
      "evidence": "Once you click the payment button, you are agreed to mentioned terms and conditions to make payment with GSLCS .",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "payment:gslcs_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for GSLCS",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "The camera fee for amateur photography is Rs. 200 for Indian nationals."
+   },
+   "sources": [
+    {
+     "sourceId": "src:61f17e5a5fa6",
+     "evidence": "* Note: The camera fee for amateur photography is Rs. 200 for Indian nationals and for foreigners, it is calculated by 20 multiplying the current dollar rate in Rs. Kindly select your appropriate camera count.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -13080,6 +13560,25 @@
     {
      "sourceId": "src:4f7bb61fb6cb",
      "evidence": "The login shall be generated and emailed to you on your registered email ID upon the approval from GEDA Office.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "payment:rooftop_pv_installer_registration_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Rooftop PV Installer Registration",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "The total processing fees including GST is 11,800 rupees."
+   },
+   "sources": [
+    {
+     "sourceId": "src:4f7bb61fb6cb",
+     "evidence": "Total Processing Fees including GST (in ₹) 11,800.00",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -15090,6 +15589,91 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "payment:registration_of_a_motor_vehicle_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Registration Of A Motor Vehicle",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "The fee for permanent registration of a new motor cycle is 60 rupees.\nThe fee for permanent registration of a new L.M.V. (Non-transport) is 200 rupees.\nThe fee for permanent registration of a new L.M.V. (Transport) is 300 rupees.\nThe fee for permanent registration of a new medium goods and passenger vehicle is 400 rupees.\nThe fee for permanent registration of a new heavy goods vehicle is 600 rupees.\nThe fee for permanent registration of a new imported motor vehicle is 800 rupees.\nThe fee for permanent registration of a new vehicle not mentioned above is 300 rupees.\nAn additional fee of 200 rupees is levied if the certificate of registration is a smart card type issued or renewed in Form 23A.\nAn additional fee of 300 rupees is levied for delay in applying for renewal of certificate of registration for motor cycles.\nThe fee for change of address in R.C. is 20 rupees.\nThe fee for alteration of motor vehicle in RC book is 150 rupees.\nThe fee for endorsement of hire purchase agreement is 100 rupees.\nThe fee for termination of hire purchase agreement is 100 rupees.\nThe fee for No Objection Certificate is 0 rupees.\nThe fee for No Due Certificate is 45 rupees.\nThe fee for renewal of R.C. / Renewal of Certificate of Fitness / CPI for L.M.V. (Transport) is 200 rupees.\nThe fee for renewal of R.C. / Renewal of Certificate of Fitness / CPI for medium goods and passenger vehicle is 400 rupees.\nThe fee for renewal of R.C. / Renewal of Certificate of Fitness / CPI for heavy goods vehicle is 500 rupees.\nThe fee for renewal of R.C. / Renewal of Certificate of Fitness / CPI for 2 Wheeler & 3 Wheeler is 100 rupees.\nThe fee for fitness test (all vehicle) is 100 rupees.\nThe fee for duplicate certificate of fitness is 50 rupees."
+   },
+   "sources": [
+    {
+     "sourceId": "src:6888364cc2d7",
+     "evidence": "b. Motor cycle | 60 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6888364cc2d7",
+     "evidence": "d. L.M.V. (Non-transport) | 200 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6888364cc2d7",
+     "evidence": "e. L.M.V. (Transport) | 300 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6888364cc2d7",
+     "evidence": "f. Medium goods & passenger vehicle | 400 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6888364cc2d7",
+     "evidence": "g. Heavy goods vehicle | 600 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6888364cc2d7",
+     "evidence": "h. Imported motor vehicle | 800 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6888364cc2d7",
+     "evidence": "I. Any other Vehicle not Mentioned Above | 300 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6888364cc2d7",
+     "evidence": "Note 1: Additional fee of two hundred rupees shall be levied if the certificate of registration is a smart card type issued or renewed in Form 23A.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6888364cc2d7",
+     "evidence": "Note 2: In case of delay in applying for renewal of certificate of registration, an additional fee of three hundred rupees for delay of every month or part thereof in respect of motor cycles and five hundred rupees for delay of every month or part thereof in respect of other classes of nontransport vehicles shall belevied.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6888364cc2d7",
+     "evidence": "Change of Address in R.C | 20 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6888364cc2d7",
+     "evidence": "Note Alteration of Motor Vehicle in RC Book | 150 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:6888364cc2d7",
+     "evidence": "Endorsement of Hire Purchase Agreement | 100 |",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "action:adventure_tourism_approval_the_approval_committee_is_authorized_to_upgrade_",
    "type": "ACTION",
    "name": "The Approval Committee is authorized to upgrade, revise, include, or exclude the condition",
@@ -17034,6 +17618,22 @@
    ]
   },
   {
+   "id": "e:service_gir_online_permit_booking_system__requires__payment_gir_online_permit_booking_system_fee",
+   "from": "service:gir_online_permit_booking_system",
+   "to": "payment:gir_online_permit_booking_system_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The camera fee for amateur photography is Rs. 200 for Indian nationals.",
+   "sources": [
+    {
+     "sourceId": "src:95a9c084b03d",
+     "evidence": "The camera fee for amateur photography is Rs. 200 for Indian nationals and for foreigners, it is calculated by 20 multiplying the current dollar rate in Rs.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_boiler_registration_and_inspection__issued_by__department_boiler_office",
    "from": "service:boiler_registration_and_inspection",
    "to": "department:boiler_office",
@@ -17178,6 +17778,22 @@
    ]
   },
   {
+   "id": "e:service_access_to_biological_resources__requires__payment_access_to_biological_resources_fee",
+   "from": "service:access_to_biological_resources",
+   "to": "payment:access_to_biological_resources_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "An application for access to or collection of biological resources for commercial utilization must be accompanied with a process fee of Rs. 5000/- in the form of a demand draft.",
+   "sources": [
+    {
+     "sourceId": "src:e0cc234eb940",
+     "evidence": "Every application shall be accompanied with process fees of Rs. 5000/- in the form of a demand draft drawn in favor of the “Gujarat Biodiversity Board”.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_access_to_biological_resources__apply_at__portal_gsbb_gujarat_gov_in",
    "from": "service:access_to_biological_resources",
    "to": "portal:gsbb_gujarat_gov_in",
@@ -17220,6 +17836,22 @@
     {
      "sourceId": "src:d8e8ff030eae",
      "evidence": "A person\nA. Who has worked on wiring and electrical installation works under direct supervision of a competency certificate holder or a qualified electrical engineer for a total period of one year.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_firearm_licence__requires__payment_firearm_licence_fee",
+   "from": "service:firearm_licence",
+   "to": "payment:firearm_licence_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The renewal fee for a licence for handguns – revolvers/pistols (both restricted or permissible) is 500 rupees.",
+   "sources": [
+    {
+     "sourceId": "src:0b7975f95c09",
+     "evidence": "(a) Handguns – Revolvers/Pistols\n(both restricted or permissible)\n1000\n.\n500",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -17524,6 +18156,22 @@
     {
      "sourceId": "src:d405aafc8d64",
      "evidence": "જિલ્લો : | select | -- પસંદ કરો -- Ahmedabad Amreli Anand Aravalli Banaskantha Bharuch Bhavnagar Botad Chhota Udepur Dahod Dang Deesa Devbhumi Dwarka Gandhinagar Gir Somnath Jamnagar Junagadh Kheda Kutch Mahisagar Mehsana Morbi Nakhtrana Narmada Navsari Panchmahal Patan Porbandar Rajkot Sabarkantha Surat Surendranagar Tapi Vadodara Valsad",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_firearm_license__requires__payment_firearm_license_fee",
+   "from": "service:firearm_license",
+   "to": "payment:firearm_license_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The fee for correction of information in a license under rule 33 is 500.",
+   "sources": [
+    {
+     "sourceId": "src:04175df00445",
+     "evidence": "8. All Correction of information in licence under rule 33 500",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -18581,6 +19229,22 @@
      "sourceId": "src:8f130659de66",
      "evidence": "Following documents are required to be submitted at concerned R.T.O. with Form-20.\nSale Certificate in Form No.21\nRoad worthiness certificate in Form 22.\nIdentity proof with photographs of applicant.\nVehicle insurance certificate.\nProof of address",
      "confidence": 0.6,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_vehicle_registration__requires__payment_vehicle_registration_fee",
+   "from": "service:vehicle_registration",
+   "to": "payment:vehicle_registration_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A fee of Rs.1000/- is required for a choice number for two wheelers.",
+   "sources": [
+    {
+     "sourceId": "src:8f130659de66",
+     "evidence": "After public auction, the remaining numbers can be selected as choice number by paying a fee of Rs.1000/- for two wheelers and Rs.5000/- for four wheelers.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -19962,6 +20626,22 @@
    ]
   },
   {
+   "id": "e:service_trade_union_registration__requires__payment_trade_union_registration_fee",
+   "from": "service:trade_union_registration",
+   "to": "payment:trade_union_registration_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The registration fee for a trade union with members not exceeding 1000 is Rs.50/-, and for a union with more than 1000 members, it is Rs.100/-, to be paid at the time of registration.",
+   "sources": [
+    {
+     "sourceId": "src:6873645dfc69",
+     "evidence": "If the members of union are not exceed 1000 the registration fee is Rs.50/- (Rupees fifty only) and Rs.100/-(Rupees one hundred only) if the members are more than 1000. It is to be paid only at the time of registration.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_trade_union_registration__apply_at__portal_col_gujarat_gov_in",
    "from": "service:trade_union_registration",
    "to": "portal:col_gujarat_gov_in",
@@ -20532,6 +21212,22 @@
     {
      "sourceId": "src:8bbd476f353a",
      "evidence": "p. ATO should have filed Income Tax Return for the current assessment year.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_adventure_tourism_operator_recognition__requires__payment_adventure_tourism_operator_recognition_fee",
+   "from": "service:adventure_tourism_operator_recognition",
+   "to": "payment:adventure_tourism_operator_recognition_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A non-refundable fee of Rs. 1000/- must be paid to the Office of Commissioner of Tourism, Government of Gujarat for recognition and renewal.",
+   "sources": [
+    {
+     "sourceId": "src:8bbd476f353a",
+     "evidence": "15. ATO would be required to pay a non - refundable fee of while applying for the recognition and renewal of Rs. 1000/- to the Office of Commissioner of Tourism, Government of Gujarat.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -21242,6 +21938,22 @@
    ]
   },
   {
+   "id": "e:service_girnar_nature_safari_permit__requires__payment_girnar_nature_safari_permit_fee",
+   "from": "service:girnar_nature_safari_permit",
+   "to": "payment:girnar_nature_safari_permit_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The fee for a Girnar Nature Safari Permit for up to 6 persons on Monday to Friday is 800 rupees.",
+   "sources": [
+    {
+     "sourceId": "src:486c8338b1b8",
+     "evidence": "Monday to Friday | Up To 6 persons | 800 | 7600 | Safari Vehicle |",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_driver_license__requires__action_driver_license_1_visit_https_sarathi_parivahan_gov_in",
    "from": "service:driver_license",
    "to": "action:driver_license_1_visit_https_sarathi_parivahan_gov_in",
@@ -21444,6 +22156,22 @@
     {
      "sourceId": "src:21b6ef1e1050",
      "evidence": "Additional Document Proof\nLabour registration card issued by Government of Gujarat, Passport size photo.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_saral_pass_travel_scheme__requires__payment_saral_pass_travel_scheme_fee",
+   "from": "service:saral_pass_travel_scheme",
+   "to": "payment:saral_pass_travel_scheme_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The charges for a yearly SARAL Pass for a student or woman is 1000.",
+   "sources": [
+    {
+     "sourceId": "src:21b6ef1e1050",
+     "evidence": "Student / Women\nYearly: 1000",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -21940,6 +22668,22 @@
     {
      "sourceId": "src:9f03ddbb98ec",
      "evidence": "Gujarat Energy Development Agency,\n4th Floor, Block No. 11-12, Udyog Bhawan,\nGandhinagar - 382 017, Gujarat",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_rooftop_pv_portal_registration__requires__payment_rooftop_pv_portal_registration_fee",
+   "from": "service:rooftop_pv_portal_registration",
+   "to": "payment:rooftop_pv_portal_registration_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The total processing fees including GST is 11,800.00 rupees.",
+   "sources": [
+    {
+     "sourceId": "src:9f03ddbb98ec",
+     "evidence": "Total Processing Fees including GST (in ₹) 11,800.00",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -22746,6 +23490,22 @@
    ]
   },
   {
+   "id": "e:service_transporter_licence__requires__payment_transporter_licence_fee",
+   "from": "service:transporter_licence",
+   "to": "payment:transporter_licence_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The fee for a transport license for proof testing is Rs. 10000.",
+   "sources": [
+    {
+     "sourceId": "src:dfcb08492267",
+     "evidence": "18. XIII Transport licence for proof testing (for each consignment) 10000 N/A",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_transporter_licence__apply_at__portal_cpvadodara_gujarat_gov_in",
    "from": "service:transporter_licence",
    "to": "portal:cpvadodara_gujarat_gov_in",
@@ -22756,6 +23516,22 @@
     {
      "sourceId": "src:dfcb08492267",
      "evidence": "18. XIII Transport licence for proof testing (for each consignment) 10000 N/A",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gslcs__requires__payment_gslcs_fee",
+   "from": "service:gslcs",
+   "to": "payment:gslcs_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The camera fee for amateur photography is Rs. 200 for Indian nationals.",
+   "sources": [
+    {
+     "sourceId": "src:61f17e5a5fa6",
+     "evidence": "* Note: The camera fee for amateur photography is Rs. 200 for Indian nationals and for foreigners, it is calculated by 20 multiplying the current dollar rate in Rs. Kindly select your appropriate camera count.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -23172,6 +23948,22 @@
     {
      "sourceId": "src:4f7bb61fb6cb",
      "evidence": "The documents to be uploaded shall be of max. 1 MB.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_rooftop_pv_installer_registration__requires__payment_rooftop_pv_installer_registration_fee",
+   "from": "service:rooftop_pv_installer_registration",
+   "to": "payment:rooftop_pv_installer_registration_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The total processing fees including GST is 11,800 rupees.",
+   "sources": [
+    {
+     "sourceId": "src:4f7bb61fb6cb",
+     "evidence": "Total Processing Fees including GST (in ₹) 11,800.00",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -24213,6 +25005,22 @@
      "sourceId": "src:8f130659de66",
      "evidence": "Following documents are required to be submitted at concerned R.T.O. with Form-20.\nSale Certificate in Form No.21\nRoad worthiness certificate in Form 22.\nIdentity proof with photographs of applicant.\nVehicle insurance certificate.\nProof of address",
      "confidence": 0.6,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_registration_of_a_motor_vehicle__requires__payment_registration_of_a_motor_vehicle_fee",
+   "from": "service:registration_of_a_motor_vehicle",
+   "to": "payment:registration_of_a_motor_vehicle_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The fee for permanent registration of a new motor cycle is 60 rupees.",
+   "sources": [
+    {
+     "sourceId": "src:6888364cc2d7",
+     "evidence": "b. Motor cycle | 60 |",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ]

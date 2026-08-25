@@ -1,12 +1,12 @@
 {
- "runId": "compile-2026-08-25T09:55:59.328Z",
+ "runId": "compile-2026-08-25T10:08:24.698Z",
  "compiledAt": "2026-08-25",
- "total": 8794,
+ "total": 8825,
  "reasons": [
   {
    "stage": "compile",
    "reason": "TRUNCATED_BY_CAP",
-   "count": 2326,
+   "count": 2335,
    "examples": [
     {
      "url": "https://ced.gujarat.gov.in/assets/downloads/gr-MIS-27-01-2015-I.pdf#page=3",
@@ -134,7 +134,7 @@
   {
    "stage": "compile",
    "reason": "NOT_A_CITIZEN_FEE",
-   "count": 601,
+   "count": 623,
    "examples": [
     {
      "url": "https://vahan.parivahan.gov.in/vahanservice/vahan/ui/miscellaneous/Instructions.xhtml",

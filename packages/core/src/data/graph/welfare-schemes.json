@@ -8028,6 +8028,25 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "payment:laghu_vyavassay_scheme_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Laghu Vyavassay Scheme",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "A service charge of ₹10/- may be applicable."
+   },
+   "sources": [
+    {
+     "sourceId": "src:6009d18ac8d8",
+     "evidence": "No, however ₹10/- may be applicable as service charges.",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "document:training_certificate",
    "type": "DOCUMENT",
    "name": "Training certificate",
@@ -9242,7 +9261,6 @@
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "machineExtracted": true,
-    "fee": "The package cost for 100 deliveries under the Chiranjeevi Yojana is Rs. 3,80,000.",
     "eligibility": [
      "Private obstetricians must have a post-graduate qualification in Obstetrics and Gynecology to be enrolled under the Chiranjeevi Yojana.",
      "Private obstetricians must have their own hospital with a minimum of 15 beds to be enrolled under the Chiranjeevi Yojana.",
@@ -10230,7 +10248,6 @@
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "machineExtracted": true,
-    "fee": "The unit cost for each training program is ₹10,50,000.",
     "eligibility": [
      "The applicant should be a leather artisan.",
      "The applicant should belong to specific sub-castes listed among the Scheduled Castes.",
@@ -11533,7 +11550,6 @@
    "jurisdictionId": "IN-GJ-DEVBHOOMI_DWARKA",
    "metadata": {
     "machineExtracted": true,
-    "fee": "The total cost of one housing unit is Rs. 43,000.",
     "eligibility": [
      "The beneficiary must not own any plot or house in their own name.",
      "The beneficiary must be registered below the poverty line in rural areas.",
@@ -11892,6 +11908,25 @@
     {
      "sourceId": "src:d974fb585826",
      "evidence": "All registered construction workers with the BOCW Welfare Board who meet with an accident during the course of their employment are eligible for compensation under this scheme.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "payment:accident_assistance_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Accident Assistance",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "There is no application fee required for registration under the Karnataka Building and Other Construction Workers Welfare Board."
+   },
+   "sources": [
+    {
+     "sourceId": "src:d974fb585826",
+     "evidence": "No, as per the guidelines, there is no fee required for the registration.",
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
@@ -15267,7 +15302,6 @@
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "machineExtracted": true,
-    "fee": "The scheme offers ₹1,000/- per annum per temple for Current Consumption Charges.",
     "timeline": "The processing time for the application is 15 days.",
     "eligibility": [
      "The applicant must be the concerned temple authority.",
@@ -16866,6 +16900,25 @@
     {
      "sourceId": "src:08074d524221",
      "evidence": "Can Men also apply to this scheme? No, only Kalyani (widow) Women can apply for this scheme.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "payment:mukhyamantri_kalyakani_pension_yojana_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Mukhyamantri Kalyakani Pension Yojana",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "There is no application fee."
+   },
+   "sources": [
+    {
+     "sourceId": "src:08074d524221",
+     "evidence": "Is there an application fee? No, there an no application fee.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -19418,6 +19471,31 @@
     {
      "sourceId": "src:f902eb5c0173",
      "evidence": "Is this scheme available for urban farmers? Yes, both urban and rural livestock farmers are eligible.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "payment:kisan_credit_card_pashupalan_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Kisan Credit Card (Pashupalan)",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "Online applications cost ₹30 if done directly.\nOnline applications cost ₹100 if applied through kiosks."
+   },
+   "sources": [
+    {
+     "sourceId": "src:f902eb5c0173",
+     "evidence": "Is there any application fee? Yes, online applications cost ₹30 if done directly, and ₹100 if applied through kiosks.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:f902eb5c0173",
+     "evidence": "Is there any application fee? Yes, online applications cost ₹30 if done directly, and ₹100 if applied through kiosks.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -25420,6 +25498,25 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "payment:sarvajan_pension_yojana_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Sarvajan Pension Yojana",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "There is no application fee for the scheme."
+   },
+   "sources": [
+    {
+     "sourceId": "src:cb840bef9390",
+     "evidence": "Is there an application fee for the scheme? No, applying for the scheme is free of charge.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "office:11_12",
    "type": "OFFICE",
    "name": "નાયબ નિયામક અનુસૂચિત જાતિ કલ્યાણ જિ.દેવભૂમિ દ્વારકા રૂમ નં. સી/જી/11/12 ગ્રાઉંડ ફલોર, જિલ્લા સેવા સદન",
@@ -26377,8 +26474,7 @@
    "description": "The BASP Cell is responsible for uploading data on approved IAs, conveying approvals, processing budgetary allocations, and coordinating Call Centre and Social Media activities for a government scheme.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "The Mentor receives 90% of the Mentoring Fee, subject to a maximum of Rs. 20,000/- per enterprise, for mentoring support to new enterprises."
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -27614,8 +27710,7 @@
    "description": "The page outlines schemes for cluster development in Gujarat, including financial support for diagnostic studies, soft interventions, Common Facility Centers, and infrastructure development.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "The maximum eligible project cost for diagnostic study is Rs. 2.50 lakhs."
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -29095,6 +29190,25 @@
      "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     },
+    {
+     "sourceId": "src:f2bc7c95ee84",
+     "evidence": "1. IA Mentoring Support through the\nMentorship Network to new and\nexisting enterprises\nRs. 2,000/- per enterprise\n(new and existing)",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "payment:mentorship_and_advisory_support_for_mses_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Mentorship and Advisory Support for MSEs",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "The fee for mentorship support through the Mentorship Network to new and existing enterprises is Rs. 2,000 per enterprise."
+   },
+   "sources": [
     {
      "sourceId": "src:f2bc7c95ee84",
      "evidence": "1. IA Mentoring Support through the\nMentorship Network to new and\nexisting enterprises\nRs. 2,000/- per enterprise\n(new and existing)",
@@ -36253,7 +36367,6 @@
    "jurisdictionId": "IN-GJ",
    "metadata": {
     "machineExtracted": true,
-    "fee": "Up to Rs. 10 lakhs will be provided for the cost of raw materials, components, and other related equipment for innovative product development, based on Committee approval.",
     "eligibility": [
      "Universities, educational institutions, incubation centers, PSUs, R&D institutions, and private establishments are eligible as institutions to support and mentor innovators.",
      "Universities, educational institutions, incubation centers, PSUs, R&D institutions, private and other establishments are eligible to support and mentor innovators."
@@ -37607,6 +37720,25 @@
      "sourceId": "src:7039944d7a5d",
      "evidence": "Provided that where a person produces a certificate to the effect that the tax has been paid by him to the Designated Authority where the liability of tax is highest, the tax shall not be levied by any other Designated Authority.",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "payment:professional_tax_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Professional Tax",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "The tax payable by a person in a year shall not exceed two thousand and five hundred rupees."
+   },
+   "sources": [
+    {
+     "sourceId": "src:7039944d7a5d",
+     "evidence": "Provided that the tax so payable in respect of any one person shall not exceed two thousand and five hundred rupees in any year :",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ],
@@ -39372,8 +39504,7 @@
    "description": "Assistance sanctioned by SLEC for industrial park or estate development, subject to terms and availability of government grants.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "The fees and charges for the development of a mini estate are up to 5% of the project cost or Rs.20.00 lacs, whichever is less."
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -39865,7 +39996,6 @@
    "jurisdictionId": "IN-GJ-BANASKANTHA",
    "metadata": {
     "machineExtracted": true,
-    "fee": "A mother will receive 200 rupees for the cost of transportation to and from the hospital during pregnancy.",
     "eligibility": [
      "Eligible mothers must be 19 years of age or older.",
      "Eligible mothers under the age of 19 are not eligible for the scheme.",
@@ -42318,8 +42448,7 @@
    "description": "The service provides a subsidy for greenhouse projects to cultivators.",
    "jurisdictionId": "IN-GJ",
    "metadata": {
-    "machineExtracted": true,
-    "fee": "The project cost of a greenhouse is Rs 26 lakh per greenhouse per acre."
+    "machineExtracted": true
    },
    "sources": [
     {
@@ -43233,6 +43362,31 @@
     {
      "sourceId": "src:11181d84c345",
      "evidence": "a) Apart from new R&D institutions, testing facilities, incubation centres, etc. will also be covered. The assistance will be given up to 60% of the project cost excluding land and building subject to maximum of Rs. 50 lakhs.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "payment:msme_esdm_unit_assistance_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for MSME ESDM unit assistance",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "The citizen pays 50% of the cost of quality certification for an MSME ESDM unit.\nThe citizen pays 50% of the cost for technology acquisition for a group of at least 10 MSMEs."
+   },
+   "sources": [
+    {
+     "sourceId": "src:11181d84c345",
+     "evidence": "11.1. Quality Certification: Any MSME EDSM unit registered in Gujarat will be granted assistance for a maximum of three industry standard quality certifications, at a rate of 50% of cost of quality certification within the overall ceiling of Rs. 6 lakhs in 5 years.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:11181d84c345",
+     "evidence": "11.2. Technology Acquisition Fund: Assistance for acquisition of appropriate technology in any form to a group of at least 10 MSMEs for a specific product/platform will be provided by way of 50% grant subject to maximum of Rs. 1 cr. per technology including royalty payments for the first two years.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -46370,6 +46524,22 @@
      "sourceId": "src:6009d18ac8d8",
      "evidence": "**Step 4:**Enter your Appeal/ Application Reference ID (provided to you when you applied for the service) and click on \"CHECK STATUS\".",
      "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_laghu_vyavassay_scheme__requires__payment_laghu_vyavassay_scheme_fee",
+   "from": "service:laghu_vyavassay_scheme",
+   "to": "payment:laghu_vyavassay_scheme_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A service charge of ₹10/- may be applicable.",
+   "sources": [
+    {
+     "sourceId": "src:6009d18ac8d8",
+     "evidence": "No, however ₹10/- may be applicable as service charges.",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -49730,6 +49900,22 @@
      "sourceId": "src:d974fb585826",
      "evidence": "**Step 4:** Fill in all the mandatory details and upload the required documents. Click on “Final Submit” to complete the registration process.",
      "confidence": 0.55,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_accident_assistance__requires__payment_accident_assistance_fee",
+   "from": "service:accident_assistance",
+   "to": "payment:accident_assistance_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "There is no application fee required for registration under the Karnataka Building and Other Construction Workers Welfare Board.",
+   "sources": [
+    {
+     "sourceId": "src:d974fb585826",
+     "evidence": "No, as per the guidelines, there is no fee required for the registration.",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -53735,6 +53921,22 @@
    ]
   },
   {
+   "id": "e:service_mukhyamantri_kalyakani_pension_yojana__requires__payment_mukhyamantri_kalyakani_pension_yojana_fee",
+   "from": "service:mukhyamantri_kalyakani_pension_yojana",
+   "to": "payment:mukhyamantri_kalyakani_pension_yojana_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "There is no application fee.",
+   "sources": [
+    {
+     "sourceId": "src:08074d524221",
+     "evidence": "Is there an application fee? No, there an no application fee.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_mukhyamantri_kalyakani_pension_yojana__apply_at__portal_myscheme_gov_in",
    "from": "service:mukhyamantri_kalyakani_pension_yojana",
    "to": "portal:myscheme_gov_in",
@@ -55505,6 +55707,22 @@
     {
      "sourceId": "src:f902eb5c0173",
      "evidence": "Applications can be submitted online via samast.mponline.gov.in or offline at banks, district nodal officers, or veterinary institutions.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_kisan_credit_card_pashupalan__requires__payment_kisan_credit_card_pashupalan_fee",
+   "from": "service:kisan_credit_card_pashupalan",
+   "to": "payment:kisan_credit_card_pashupalan_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "Online applications cost ₹30 if done directly.",
+   "sources": [
+    {
+     "sourceId": "src:f902eb5c0173",
+     "evidence": "Is there any application fee? Yes, online applications cost ₹30 if done directly, and ₹100 if applied through kiosks.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -58855,6 +59073,22 @@
    ]
   },
   {
+   "id": "e:service_sarvajan_pension_yojana__requires__payment_sarvajan_pension_yojana_fee",
+   "from": "service:sarvajan_pension_yojana",
+   "to": "payment:sarvajan_pension_yojana_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "There is no application fee for the scheme.",
+   "sources": [
+    {
+     "sourceId": "src:cb840bef9390",
+     "evidence": "Is there an application fee for the scheme? No, applying for the scheme is free of charge.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_sarvajan_pension_yojana__apply_at__portal_myscheme_gov_in",
    "from": "service:sarvajan_pension_yojana",
    "to": "portal:myscheme_gov_in",
@@ -61330,6 +61564,22 @@
      "sourceId": "src:f2bc7c95ee84",
      "evidence": "1. IA Mentoring Support through the Mentorship Network to new and existing enterprises Rs. 2,000/- per enterprise (new and existing)",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_mentorship_and_advisory_support_for_mses__requires__payment_mentorship_and_advisory_support_for_mses_fee",
+   "from": "service:mentorship_and_advisory_support_for_mses",
+   "to": "payment:mentorship_and_advisory_support_for_mses_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The fee for mentorship support through the Mentorship Network to new and existing enterprises is Rs. 2,000 per enterprise.",
+   "sources": [
+    {
+     "sourceId": "src:f2bc7c95ee84",
+     "evidence": "1. IA Mentoring Support through the\nMentorship Network to new and\nexisting enterprises\nRs. 2,000/- per enterprise\n(new and existing)",
+     "confidence": 0.95,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -65815,6 +66065,22 @@
    ]
   },
   {
+   "id": "e:service_professional_tax__requires__payment_professional_tax_fee",
+   "from": "service:professional_tax",
+   "to": "payment:professional_tax_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The tax payable by a person in a year shall not exceed two thousand and five hundred rupees.",
+   "sources": [
+    {
+     "sourceId": "src:7039944d7a5d",
+     "evidence": "Provided that the tax so payable in respect of any one person shall not exceed two thousand and five hundred rupees in any year :",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_professional_tax__apply_at__portal_commercialtax_gujarat_gov_in",
    "from": "service:professional_tax",
    "to": "portal:commercialtax_gujarat_gov_in",
@@ -68834,6 +69100,22 @@
      "sourceId": "src:f9b8d7fcf6a4",
      "evidence": "સામાજીક સદભાવનામાં વિકાસ તેમજ સામાજીક વિવાદોનો અભાવ હોવો જોઇએ.. ચર્ચા અને સંવાદથી વિવાદોનો નિકાલ થવો જોઇએ.",
      "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_msme_esdm_unit_assistance__requires__payment_msme_esdm_unit_assistance_fee",
+   "from": "service:msme_esdm_unit_assistance",
+   "to": "payment:msme_esdm_unit_assistance_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The citizen pays 50% of the cost of quality certification for an MSME ESDM unit.",
+   "sources": [
+    {
+     "sourceId": "src:11181d84c345",
+     "evidence": "11.1. Quality Certification: Any MSME EDSM unit registered in Gujarat will be granted assistance for a maximum of three industry standard quality certifications, at a rate of 50% of cost of quality certification within the overall ceiling of Rs. 6 lakhs in 5 years.",
+     "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
    ]

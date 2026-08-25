@@ -2564,6 +2564,37 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "payment:veterinary_registration_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Veterinary Registration",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "A certificate of registration is issued on payment of a fee not exceeding 115 rupees.\nA duplicate certificate of registration is issued on payment of a fee not exceeding 110 rupees.\nA final certificate of registration is issued to veterinarians who were registered at the council before the year 2007 on payment of a fee of 150 rupees."
+   },
+   "sources": [
+    {
+     "sourceId": "src:b95bad3f5be2",
+     "evidence": "This behalf in such form and in such manner and on payment of such fees, not exceeding One Hundred fifteen rupees",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b95bad3f5be2",
+     "evidence": "Where it is shown to the satisfaction of the Secretary of the Council that a certificate of registration has been lost or destroyed,the Secretary may, on payment of such fees, not exceeding One Hundred ten rupees (i.e. included administrative charges of Rs.100/-), as may be specified by regulations, issue a duplicate certificate in such form as may be specified in the regulations.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    },
+    {
+     "sourceId": "src:b95bad3f5be2",
+     "evidence": "Application on payment of fees of Rupees One Hundred Fifty only (i.e. included administrative charges of Rs.100/- and I-card Charge Rs.25/-) with any other dues i.e. Renewal Fees only.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "portal:gvc_org_in",
    "type": "PORTAL",
    "name": "gvc.org.in",
@@ -3393,6 +3424,25 @@
     {
      "sourceId": "src:1e75111c6b53",
      "evidence": "(૧૩) વવદેશની યુવનવવસિટી માાંથી પદવી મેળવેલ હોયતો તેની માન્ યતા અં ગેના પુરાવાની નકલ",
+     "confidence": 0.9,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "payment:gpsc_recruitment_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for GPSC Recruitment",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "General category candidates must pay a fee of ₹100 plus postal service charges."
+   },
+   "sources": [
+    {
+     "sourceId": "src:1e75111c6b53",
+     "evidence": "(૧) સામાન્ય કેટેગરીના ઉમેદવારે પોસ્ટ ઓફીસમાાં રૂ . ૧૦૦/- આયોગની ફી + પૉસ્ટલ સવવિસ ચાર્જ ભરવાનો રહેશે.",
      "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
@@ -5499,6 +5549,25 @@
     {
      "sourceId": "src:a785edfb12ce",
      "evidence": "- To apply online, the applicant must submit two passport-size photographs along with the application form. For age verification, any one of the following documents is required: 10th certificate, birth certificate, certificate issued by a medical officer, notarized affidavit of the construction worker, voter identity card, ration card, or a certificate issued by the Village Panchayat Officer, Village Head, or Councillor.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "payment:labour_card_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Labour Card",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "After uploading all the required documents, a registration fee of ₹100/- must be deposited."
+   },
+   "sources": [
+    {
+     "sourceId": "src:a785edfb12ce",
+     "evidence": "After uploading all the required documents, a registration fee of ₹100/- must be deposited.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -8211,6 +8280,25 @@
    "lastVerifiedAt": "2026-08-25"
   },
   {
+   "id": "payment:gujarat_card_fee",
+   "type": "PAYMENT",
+   "name": "Pay the fee for Gujarat Card",
+   "jurisdictionId": "IN-GJ",
+   "metadata": {
+    "machineExtracted": true,
+    "fee": "The Gujarat Card is issued at a fee of $5.00 (US) or Rs. 225/- in Indian currency."
+   },
+   "sources": [
+    {
+     "sourceId": "src:402f2ca32dff",
+     "evidence": "The NRGF issues 'Gujarat Card’ to non-resident Gujaratis. 'Gujarat Card' is issued at a fee of $5.00(US) or Rs. 225/- in Indian currency.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
    "id": "portal:nri_gujarat_gov_in",
    "type": "PORTAL",
    "name": "nri.gujarat.gov.in",
@@ -9858,6 +9946,22 @@
    ]
   },
   {
+   "id": "e:service_veterinary_registration__requires__payment_veterinary_registration_fee",
+   "from": "service:veterinary_registration",
+   "to": "payment:veterinary_registration_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "A certificate of registration is issued on payment of a fee not exceeding 115 rupees.",
+   "sources": [
+    {
+     "sourceId": "src:b95bad3f5be2",
+     "evidence": "This behalf in such form and in such manner and on payment of such fees, not exceeding One Hundred fifteen rupees",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
    "id": "e:service_veterinary_registration__apply_at__portal_gvc_org_in",
    "from": "service:veterinary_registration",
    "to": "portal:gvc_org_in",
@@ -10445,6 +10549,22 @@
      "sourceId": "src:76a97eb43e25",
      "evidence": "વધુ Experience ઉમેરવા માગતા હોવ તો Add. More Exp.પર “click” કરી Details ભરવી.",
      "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gpsc_recruitment__requires__payment_gpsc_recruitment_fee",
+   "from": "service:gpsc_recruitment",
+   "to": "payment:gpsc_recruitment_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "General category candidates must pay a fee of ₹100 plus postal service charges.",
+   "sources": [
+    {
+     "sourceId": "src:1e75111c6b53",
+     "evidence": "(૧) સામાન્ય કેટેગરીના ઉમેદવારે પોસ્ટ ઓફીસમાાં રૂ . ૧૦૦/- આયોગની ફી + પૉસ્ટલ સવવિસ ચાર્જ ભરવાનો રહેશે.",
+     "confidence": 0.9,
      "verificationStatus": "EXTRACTED"
     }
    ]
@@ -11788,6 +11908,22 @@
     {
      "sourceId": "src:a785edfb12ce",
      "evidence": "- Once the registration is approved, the Registration Officer will issue a Photo Identity Card, which the worker can collect from the Public Service Centre of the concerned department or from the office of the Labour Department.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_labour_card__requires__payment_labour_card_fee",
+   "from": "service:labour_card",
+   "to": "payment:labour_card_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "After uploading all the required documents, a registration fee of ₹100/- must be deposited.",
+   "sources": [
+    {
+     "sourceId": "src:a785edfb12ce",
+     "evidence": "After uploading all the required documents, a registration fee of ₹100/- must be deposited.",
      "confidence": 1,
      "verificationStatus": "EXTRACTED"
     }
@@ -14085,6 +14221,22 @@
    "id": "e:service_gujarat_card__requires__action_gujarat_card_the_gujarat_card_is_issued_at_a_fee_of_5",
    "from": "service:gujarat_card",
    "to": "action:gujarat_card_the_gujarat_card_is_issued_at_a_fee_of_5_00_us_o",
+   "type": "REQUIRES",
+   "verificationStatus": "EXTRACTED",
+   "note": "The Gujarat Card is issued at a fee of $5.00 (US) or Rs. 225/- in Indian currency.",
+   "sources": [
+    {
+     "sourceId": "src:402f2ca32dff",
+     "evidence": "The NRGF issues 'Gujarat Card’ to non-resident Gujaratis. 'Gujarat Card' is issued at a fee of $5.00(US) or Rs. 225/- in Indian currency.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:service_gujarat_card__requires__payment_gujarat_card_fee",
+   "from": "service:gujarat_card",
+   "to": "payment:gujarat_card_fee",
    "type": "REQUIRES",
    "verificationStatus": "EXTRACTED",
    "note": "The Gujarat Card is issued at a fee of $5.00 (US) or Rs. 225/- in Indian currency.",
