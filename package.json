@@ -7,6 +7,7 @@
     "node": ">=22"
   },
   "scripts": {
+    "postinstall": "node scripts/bundles.mjs",
     "dev": "pnpm --filter @ariane/web dev",
     "mobile": "pnpm --filter @ariane/mobile start",
     "build": "pnpm -r build",
@@ -18,6 +19,7 @@
     "quotes:audit": "pnpm --filter @ariane/core quotes:audit",
     "coverage": "pnpm --filter @ariane/core coverage",
     "db:push": "pnpm --filter @ariane/core db:push",
+    "db:pull": "pnpm --filter @ariane/core db:pull",
     "verify:live": "node scripts/verify-live.mjs",
     "domains:build": "node scripts/domains.mjs",
     "domains:classify": "node --env-file-if-exists=.env scripts/ingest/domains-classify.mjs",
