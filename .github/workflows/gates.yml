@@ -1,0 +1,24 @@
+# The claim this repository makes loudest is that a clone with no corpus, no
+# credentials and no network builds green. This is where that stops being a
+# claim. A runner has none of those things and runs the same `pnpm gates` a
+# contributor does.
+name: gates
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  gates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm gates
+      - run: pnpm --filter @ariane/web build
