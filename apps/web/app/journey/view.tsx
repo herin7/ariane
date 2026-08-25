@@ -201,15 +201,18 @@ export function JourneyView({ districts }: { districts: string[] }) {
 
       {/* §11 on the citizen side: the reasoning is available, not imposed. */}
       <details style={{ marginTop: 32 }}>
-        <summary>See how Ariane worked this out</summary>
+        <summary>See how Ariane figured this out</summary>
         <div className="card quiet">
           {journey.trace.map((t, i) => (
             <p key={i} className="small" style={{ margin: "3px 0" }}>
               <span className="mono faint">{t.stage}</span> {t.detail}
             </p>
           ))}
-          <p className="small" style={{ margin: "12px 0 0" }}>
-            <Link href="/admin/graph">Open the same thing as a graph</Link>
+          {/* §11. Its own journey, drawn, and nothing else. Not the catalogue. */}
+          <p className="small" style={{ margin: "14px 0 0" }}>
+            <Link href={`/admin/graph?goal=${encodeURIComponent(journey.goal)}`}>
+              Draw this journey and click through the proof
+            </Link>
           </p>
         </div>
       </details>
