@@ -147,7 +147,7 @@ export const indexText = (chunk) =>
  * districts saying it, and collapsing that would answer a Kheda question with
  * Surat's page.
  *
- * ponytail: exact normalised match, so a menu that differs by one highlighted
+ * Limitation: exact normalised match, so a menu that differs by one highlighted
  * item per page survives as N copies. Shingling would catch those and costs a
  * second pass over 38,000 chunks. Revisit if the eval in §25 says these are what
  * it is retrieving.

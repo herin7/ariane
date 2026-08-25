@@ -101,7 +101,7 @@ const FETCH_CONCURRENCY = flag("render") ? Number(value("concurrency", 10)) : 8;
  * Overlapped, because a requirement that straddles a boundary is invisible in
  * both halves otherwise, and the quote has to survive whole to pass the gate.
  *
- * ponytail: split on characters, not on headings. A heading-aware split is
+ * Limitation: split on characters, not on headings. A heading-aware split is
  * better and this estate's markdown is not consistent enough to trust one.
  */
 const WINDOW_OVERLAP = 600;

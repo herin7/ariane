@@ -1,102 +1,61 @@
-# never publish anything internal: the build spec, the milestone log, the board,
-# the goal doc, or any scratch note we write to think out loud. None of it goes
-# to the remote without being asked for by name.
+# ---------------------------------------------------------------- private work
+# Internal planning, milestone logs and scratch notes. None of this belongs in
+# a public repository, and none of it is needed to build or run Ariane.
 plan.md
 log.md
 version.md
-docs/BUILD_PLAN.md
-docs/GOAL.md
 context.md
 NOTES.md
 SCRATCH.md
 TODO.md
+docs/BUILD_PLAN.md
+docs/GOAL.md
 *.notes.md
 *.plan.md
 .claude/
 
-# .firecrawl/ used to be ignored, on the theory that raw pages are not graph
-# data. true, and beside the point: ignoring it meant every clone had the
-# citations and none of the pages, so the first thing a second machine did was
-# refetch six hundred public pages we already had. the cache is committed now.
-# it is 1.3M of public government html and it is the difference between "we
-# fetched this once" and "we fetch this once per checkout".
-
-# .ingest/ follows the same rule as .firecrawl/ and for the same reason: a fetch
-# nobody can reuse is a fetch we will pay for again. So pages/, maps/, extract/
-# and identify/ are all committed, because each one cost either a credit, a
-# model call or a request to a government server.
+# ------------------------------------------------------------- evidence corpus
+# The raw pages, PDFs and model-response caches the ingestion pipeline builds.
+# This repository ships the extracted facts and their verbatim quotes, not the
+# source bodies they were quoted from: those are third-party government content
+# and are not ours to redistribute. See NOTICE.
 #
-# urls.jsonl is the exception. It is 12M and it holds nothing that maps/ does not
-# already hold: the scoring pass rebuilds it from the maps, offline, for free, in
-# seconds. Committing a derived file that large only to have it churn on every
-# rescore is paying storage for a `node` invocation.
-.ingest/urls.jsonl
+# Point ARIANE_CORPUS_DIR at a local corpus to run `pnpm gates:corpus`.
+.ingest/
+.firecrawl/
+.corpus/
+.private/
 
-# The raw PDF bytes are the other exception, and for the opposite reason to
-# urls.jsonl: they are not derived, they are just enormous. 925 government PDFs
-# is over half a gigabyte, and nothing downstream reads them. Every quote is
-# checked against .ingest/pages/*.md, the page preserving text in
-# .ingest/pdftext/ is committed, and .ingest/pdfs.jsonl holds a sha256 of every
-# file, so the bytes are pinned without being carried. Refetching one is a
-# single GET nobody will ever need to make.
-.ingest/pdf/
-
-# rejections.jsonl is urls.jsonl's case again: every row rebuilds from the
-# committed facts, offline, with no model call, because identification is
-# cached. What belongs in a diff is the count per reason, and that lives in
-# docs/research/rejections.json, which is committed and small.
-.ingest/rejections.jsonl
-
-# chunks.jsonl is the same again, and bigger: 38,000 slices of pages that are
-# already committed, rebuilt by `pnpm corpus:chunk` in seconds with no network
-# and no model. The cut is defined by chunks.mjs, which is committed, so the
-# file is a build artefact of two things already in the repo.
-.ingest/chunks.jsonl
-
-# evidence.jsonl is chunks.jsonl's case one step further along: shortlists of
-# chunk ids, produced by `pnpm services:deepen` from the committed graph and the
-# committed pages with no model call and no network. Every row rebuilds. The
-# aggregate lives in docs/research/evidence.json, which is committed.
-.ingest/evidence.jsonl
-
-# deps
+# --------------------------------------------------------------- build outputs
 node_modules/
 .pnpm-store/
-
-# builds
 dist/
 build/
-.next/
 out/
+.next/
+.expo/
 *.tsbuildinfo
 
-# env
+# ------------------------------------------------------------------ env config
+# .env.example is the only environment file that is tracked.
 .env
+.env.local
+.env.*.local
 .env.*
 !.env.example
 
-# tooling
-.turbo/
-# vitest output, anchored. Unanchored it also matched
-# apps/web/app/admin/coverage/, so the page that says what we do not know was
-# the one file in the repo nobody could clone.
+# ----------------------------------------------------------------- tooling out
+# Anchored. Unanchored, `coverage/` also matched apps/web/app/admin/coverage,
+# which silently removed a real application route from every clone.
 /coverage/
 /*/*/coverage/
+.turbo/
 .vercel/
 *.log
+.tmp/
+temp/
+scratch/
 
-# os
+# -------------------------------------------------------------------------- os
 .DS_Store
 Thumbs.db
-
-# reranked.jsonl is a view of .ingest/rerank/, which is committed because every
-# file in it cost a model call. The jsonl is rebuilt from that cache on every
-# run, and rebuilding it is how a bumped PROMPT_VERSION avoids leaving two
-# generations of verdicts interleaved in one ledger. docs/research/rerank.json
-# is the committed aggregate.
-.ingest/reranked.jsonl
-
-# claims.jsonl is the same shape one stage further on: a flattened view of
-# .ingest/enrich/, which is committed because each verdict in it cost a model
-# call. docs/research/claims.json is the committed aggregate.
-.ingest/claims.jsonl

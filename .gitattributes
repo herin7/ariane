@@ -1,13 +1,8 @@
-# LF in the repo and LF on disk, on every machine.
+# LF in the repository and LF on disk, on every platform.
 #
-# Without this, git on Windows checks out CRLF while the generators write LF,
-# so `pnpm bundles:build --check` compares 1866 bytes against 1837 and reports
-# the manifest stale on a clone that has not changed a thing. First command of
-# `pnpm gates`, so a fresh clone failed before it ran a single test.
+# The generators write LF. Without this, git on Windows checks out CRLF and
+# `pnpm bundles:build --check` compares a regenerated file against a checked-in
+# one that differs only by line ending, reporting a stale manifest on a clone
+# that changed nothing. It is the first command `pnpm gates` runs, so the
+# failure arrives before a single test does.
 * text=auto eol=lf
-
-# The page caches are evidence, not source. Every quote in the graph is checked
-# against these byte for byte and the fetch ledger records a sha256 of each one,
-# so git rewriting a line ending in them is git editing the evidence. Frozen.
-.firecrawl/** -text
-.ingest/** -text
