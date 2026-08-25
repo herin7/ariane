@@ -48,6 +48,9 @@ importers:
       '@ariane/core':
         specifier: workspace:*
         version: link:../../packages/core
+      '@ariane/voice':
+        specifier: workspace:*
+        version: link:../../packages/voice
       '@xyflow/react':
         specifier: ^12.11.3
         version: 12.11.3(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
@@ -89,6 +92,28 @@ importers:
       tsx:
         specifier: ^4.20.3
         version: 4.23.12
+      typescript:
+        specifier: ^5.9.2
+        version: 5.9.3
+      vitest:
+        specifier: ^3.2.4
+        version: 3.2.7(@types/node@22.20.1)(lightningcss@1.33.0)(terser@5.50.0)(tsx@4.23.12)(yaml@2.9.0)
+
+  packages/voice:
+    dependencies:
+      '@ariane/core':
+        specifier: workspace:*
+        version: link:../core
+      '@supabase/supabase-js':
+        specifier: ^2.112.3
+        version: 2.112.3
+      zod:
+        specifier: ^4.1.5
+        version: 4.4.3
+    devDependencies:
+      '@types/node':
+        specifier: ^22.15.3
+        version: 22.20.1
       typescript:
         specifier: ^5.9.2
         version: 5.9.3
