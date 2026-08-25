@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { loadGraph, validateGraph } from "../data/index";
+import { GraphIndex } from "../graph";
 import { GoalNotFoundError, compileJourney } from "../journey";
 import type { CitizenContext, CompiledJourney } from "../types";
 
@@ -204,15 +205,20 @@ describe("satisfaction pruning", () => {
 
   it("still gets you to the driving licence, with fewer steps", () => {
     expect(stepIds(held)).toEqual([
-      // The four the depth engine found on parivahan's own FAQ, which a person
-      // reading the same site by hand had not written down. They carry no
-      // number because that page prints none, so they sit above the authored
-      // steps only because the topological sort had nothing to say about them.
-      // A fifth, "Click 'continue'", was refused as NOT_A_CITIZEN_STEP.
-      "action:driving_licence_visit_the_rto_on_the_scheduled_date_with_origina",
-      "action:driving_licence_take_an_appointment",
-      "action:driving_licence_fill_up_the_application_form",
-      "action:driving_licence_enter_the_driver_license_number_and_date_of_birt",
+      // Authored steps only. This list used to open with four the depth engine
+      // found on parivahan's own FAQ, kept because a person reading the same
+      // site by hand had not written them down. Reading the compiled journey
+      // end to end is what settled it: "Take an appointment", "Fill up the
+      // Application Form", a second "Visit the RTO on the scheduled date" over
+      // the authored one that says which four things to carry, and "Enter the
+      // Driver's License number and Date of birth", which is how you track an
+      // application, not how you make one. A fifth arrived with the last depth
+      // pass, cut off mid sentence at "before a permanent license is ".
+      //
+      // All verbatim, none false, none worth reading, and all of them above the
+      // authored steps because the FAQ prints no numbers and the topological
+      // sort had nothing to say. `services-compile.mjs` now refuses a machine
+      // step on a service whose sequence a person wrote, which is this list.
       "payment:driving_licence_fee",
       "action:book_driving_test_slot",
       "action:driving_test",
@@ -288,5 +294,53 @@ describe("output shape", () => {
       jurisdiction: { country: "India", state: "Gujarat" },
     });
     expect(stepIds(state)).toEqual(stepIds(district));
+  });
+});
+
+/**
+ * A person wrote this journey. The machine may add to it and may not rewrite it.
+ *
+ * Enrichment is welcome on a hand written service everywhere it answers one
+ * question at a time: a fee, an office, a helpline, the thing you walk out
+ * with. A sequence is not one answer. It is a claim about the shape of the
+ * whole thing, and when five machine steps landed here they pushed "Take an
+ * appointment" and "Fill up the Application Form" above the authored path that
+ * already says which forms, which counter and which four things to carry.
+ *
+ * Nothing about them was false. That is what makes this worth a test rather
+ * than a filter: no gate in the pipeline was going to catch them, because each
+ * one was quoted verbatim off parivahan's own FAQ.
+ */
+describe("the machine cannot rewrite a path a person wrote", () => {
+  const index = new GraphIndex(data);
+
+  const actionsOf = (serviceId: string) =>
+    index
+      .outgoing(serviceId)
+      .map((e) => index.node(e.to))
+      .filter((n) => n?.type === "ACTION");
+
+  it("puts no machine step in the driving licence journey", () => {
+    const machine = actionsOf("service:driving_licence").filter((a) => a?.metadata?.machineExtracted);
+    expect(machine.map((a) => a?.name)).toEqual([]);
+  });
+
+  it("leaves every other hand written journey the same way", () => {
+    // Whatever else the depth engine reaches, it does not reach these. Written
+    // as a sweep rather than one id so a sixth hand written bundle is covered
+    // the day it lands, which is when nobody would think to add a test.
+    const mixed = data.nodes
+      .filter((n) => n.type === "SERVICE")
+      .map((s) => ({ id: s.id, actions: actionsOf(s.id) }))
+      .filter(({ actions }) => actions.some((a) => !a?.metadata?.machineExtracted) && actions.some((a) => a?.metadata?.machineExtracted))
+      .map(({ id }) => id);
+    expect(mixed).toEqual([]);
+  });
+
+  it("still lets the depth engine write steps everywhere else", () => {
+    // The other half of the rule, and the one that fails if the fix was a
+    // blanket ban. 1174 machine steps is most of what the depth pass bought.
+    const machine = data.nodes.filter((n) => n.type === "ACTION" && n.metadata?.machineExtracted);
+    expect(machine.length).toBeGreaterThan(500);
   });
 });
