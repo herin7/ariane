@@ -37,6 +37,7 @@
  * `pnpm graph:validate` and `pnpm quotes:audit` afterwards.
  */
 
+import { grounded, id, KINDS, norm, sane, unmark } from "./gate.mjs";
 import { appendJsonl, at, chat, fetchPage, hostOf, jsonArray, ledger, loadNegative, looksSoft404, MODELS, NEGATIVE, negativeRow, pool, readJsonl, renderPage, saveLedger, sha1, sha256, toText, htmlMeta, writeJsonl } from "./lib.mjs";
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 
@@ -84,50 +85,9 @@ const FETCH_CONCURRENCY = flag("render") ? Number(value("concurrency", 10)) : 8;
 
 // ---------------------------------------------------------- the substring gate
 
-/**
- * Markdown syntax is not part of what the page says.
- *
- * We hand the model markdown and ask it to quote the page. It quotes what a
- * human reads, "For Law Studies", where the file holds "8\. **For Law
- * Studies:**". Same characters, same claim, and the substring check said no.
- *
- * Measured before this existed: 73% of page lines over 40 characters carry an
- * emphasis marker, an escape or a link, and of 14,869 facts that got through
- * the gate, the number whose evidence contained `**` or a markdown link was
- * zero. Not few. Zero. Every bolded requirement and every linked form on the
- * estate was being dropped as though the model had made it up.
- *
- * This does not soften the gate, it just stops comparing in the wrong space.
- * Both sides get the same treatment, so a paraphrase still has different
- * letters in it and still fails.
- */
-const unmark = (s) =>
-  s
-    .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
-    .replace(/\\([-.*_[\]()#+!`>~])/g, "$1")
-    .replace(/[*_`~]/g, "")
-    .replace(/[\u200b-\u200d\u2060\ufeff]/g, "");
-
-/** Character for character the same rule as `packages/core/src/cli/quotes.ts`. */
-const norm = (s) => unmark(s).replace(/\s+/g, " ").trim().toLowerCase();
-
-/**
- * Did this quote come off this page?
- *
- * One substring check after whitespace and markup normalisation. No fuzzy
- * matching, no edit distance, no "close enough". A quote trimmed differently
- * from the page passes, a quote the page printed in bold passes, a paraphrase
- * does not, and that is the entire line worth drawing: the moment it is fuzzy,
- * a confident model can walk a fact across it.
- */
-export function grounded(evidence, pageText) {
-  if (typeof evidence !== "string") return false;
-  const quote = norm(evidence);
-  // Six characters is not a quote, it is a coincidence waiting to happen. "Fee"
-  // appears on every page in the estate.
-  if (quote.length < 12) return false;
-  return norm(pageText).includes(quote);
-}
+// The gate lives in gate.mjs now that a second extractor needs it. Its
+// assertions stay in this file's selftest, because this is the output it
+// guards, and a gate whose tests moved away from it is a gate nobody reruns.
 
 /**
  * A long page in as many windows as it takes, not the first 14,000 characters.
@@ -153,45 +113,6 @@ export function windows(text, size = MAX_CHARS, overlap = WINDOW_OVERLAP) {
   for (let i = 0; i < text.length && out.length < MAX_WINDOWS; i += size - overlap) out.push(text.slice(i, i + size));
   return out;
 }
-
-const GUJARATI_DIGITS = "૦૧૨૩૪૫૬૭૮૯";
-
-/**
- * `detail` as something downstream can do arithmetic on.
- *
- * A page that says the processing time is ૧ દિવસ gets `{days: "૧"}` back, which
- * is a faithful copy and completely useless to a comparison. The quote keeps the
- * original either way, so converting here loses nothing and saves every consumer
- * from discovering Gujarati numerals on its own.
- */
-function sane(detail) {
-  if (!detail || typeof detail !== "object" || Array.isArray(detail)) return {};
-  const out = {};
-  for (const [k, v] of Object.entries(detail)) {
-    if (v === null || v === undefined || v === "") continue;
-    out[k] = typeof v === "string" ? v.replace(/[૦-૯]/g, (d) => GUJARATI_DIGITS.indexOf(d)).slice(0, 300) : v;
-  }
-  return out;
-}
-
-const KINDS = [
-  "ELIGIBILITY",
-  "DOCUMENT_REQUIREMENT",
-  "CONDITIONAL_REQUIREMENT",
-  "ACCEPTED_ALTERNATIVES",
-  "CHANNEL",
-  "TIMELINE",
-  "FEE",
-  "OFFICE",
-  "HELPLINE",
-  "GRIEVANCE",
-  "TRACKING",
-  "APP",
-  "ACTION",
-  "DEPENDENCY",
-  "EXTERNAL_DEPENDENCY",
-  "BLOCKER",
-];
 
 // -------------------------------------------------------------------- prompt
 
@@ -544,7 +465,6 @@ async function extract(page, text, model) {
       drop("EVIDENCE_NOT_VERBATIM", f, norm(String(f.evidence ?? "")).length < 12 ? "shorter than a quote" : "not on the page");
       continue;
     }
-    const id = (s) => String(s ?? "").toLowerCase().replace(/[^a-z0-9_]+/g, "_").replace(/^_+|_+$/g, "").slice(0, 60) || null;
     const row = {
       claim: String(f.claim ?? "").slice(0, 400),
       kind,
