@@ -129,11 +129,34 @@ export async function pushToSupabase(
   const rows = toRows(bundles);
 
   const upsert = async (table: string, values: Record<string, unknown>[], conflict = "id") => {
-    for (let i = 0; i < values.length; i += PAGE) {
-      const { error } = await db.from(table).upsert(values.slice(i, i + PAGE), { onConflict: conflict });
+    /**
+     * One row per key before it reaches Postgres.
+     *
+     * `toRows` walks bundle by bundle and stamps each row with the journey it
+     * came from, which is right for the round trip and wrong for a single
+     * statement: 39 sources are cited by two journeys, because a URL does not
+     * stop being one page when a second service reads it, and two rows with
+     * one id in one upsert is `ON CONFLICT DO UPDATE command cannot affect row
+     * a second time`. The whole push died there and the database sat 117
+     * services behind the seed.
+     *
+     * First wins, and the loss is only which journey claims the source.
+     * `loadGraphFrom` flattens sources across every bundle and dedupes by id
+     * before anything reads one, so no citation is resolved through the
+     * journey column. Nothing about the page itself differs between the two
+     * rows: same id means same URL means same fetch.
+     */
+    const byKey = new Map<string, Record<string, unknown>>();
+    for (const value of values) {
+      const key = conflict.split(",").map((k) => String(value[k.trim()])).join(" ");
+      if (!byKey.has(key)) byKey.set(key, value);
+    }
+    const unique = [...byKey.values()];
+    for (let i = 0; i < unique.length; i += PAGE) {
+      const { error } = await db.from(table).upsert(unique.slice(i, i + PAGE), { onConflict: conflict });
       if (error) throw new Error(`writing ${table}: ${error.message}`);
     }
-    log(`${table}: ${values.length}`);
+    log(`${table}: ${unique.length}${unique.length === values.length ? "" : ` (${values.length - unique.length} shared with another journey)`}`);
   };
 
   // Districts reference their state, which references the country, so the

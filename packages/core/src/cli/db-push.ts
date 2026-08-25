@@ -66,15 +66,33 @@ if (orphans.length && process.argv.includes("--prune")) {
 // way the seed reads. A silently truncated jsonb column looks fine until a
 // citizen opens the step it belonged to.
 const { bundles, jurisdictions } = await loadFromSupabase(db);
+/**
+ * Sources compare as one set, everything else per bundle.
+ *
+ * A source id is a hash of its URL, so two journeys that read the same page get
+ * the same id, and the table holds one row per id. 42 of 1,117 sources are
+ * cited by more than one journey and only one row can carry the journey column,
+ * so the other journey reads back one source short and this check called it
+ * corruption.
+ *
+ * It is not a lost fact. `loadGraphFrom` flattens sources across every bundle
+ * and dedupes by id before a citation is ever resolved, so which journey a
+ * shared page is filed under never reaches a citizen. A source going missing
+ * altogether is a lost fact, and comparing the union still catches that, along
+ * with any column that came back changed.
+ */
 const sortBundles = (list: typeof bundles) =>
   [...list].sort((a, b) => a.id.localeCompare(b.id)).map((b) => ({
     ...b,
     nodes: [...b.nodes].sort((x, y) => x.id.localeCompare(y.id)),
     edges: [...b.edges].sort((x, y) => x.id.localeCompare(y.id)),
-    sources: [...b.sources].sort((x, y) => x.id.localeCompare(y.id)),
+    sources: [],
     requirementGroups: [...b.requirementGroups].sort((x, y) => x.id.localeCompare(y.id)),
     questions: [...b.questions].sort((x, y) => x.field.localeCompare(y.field)),
   }));
+
+const allSources = (list: typeof bundles) =>
+  [...new Map(list.flatMap((b) => b.sources).map((s) => [s.id, s])).values()].sort((a, b) => a.id.localeCompare(b.id));
 
 /**
  * Key order is not a fact. Postgres hands back columns in its own order and
@@ -115,9 +133,14 @@ const sortJurisdictions = (list: typeof jurisdictions) => [...list].sort((a, b) 
 
 console.log(`read back ${bundles.length} bundle(s), ${jurisdictions.length} jurisdiction(s)`);
 
+const expectedSources = allSources(seedBundles);
+const actualSources = allSources(bundles);
+
 const mismatch =
   stable(expectedBundles) !== stable(actualBundles)
     ? (firstDifference(expectedBundles, actualBundles, "bundles") ?? "bundles differ")
+    : stable(expectedSources) !== stable(actualSources)
+      ? (firstDifference(expectedSources, actualSources, "sources") ?? "sources differ")
     : stable(sortJurisdictions(seedJurisdictions)) !== stable(sortJurisdictions(jurisdictions))
       ? (firstDifference(sortJurisdictions(seedJurisdictions), sortJurisdictions(jurisdictions), "jurisdictions") ??
         "jurisdictions differ")
