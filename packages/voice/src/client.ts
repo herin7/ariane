@@ -17,6 +17,12 @@ import type { SpeakableFact, ToolResult } from "./types";
 
 export type VoiceState = "idle" | "connecting" | "listening" | "speaking" | "ended" | "error";
 
+/** A journey projection, as opposed to any of the other tool results. */
+const isJourney = (data: unknown): boolean =>
+  typeof data === "object" &&
+  data !== null &&
+  typeof (data as { service?: { name?: unknown } }).service?.name === "string";
+
 export interface VoiceHandlers {
   onState?: (state: VoiceState) => void;
   /** Assistant's own words, as it says them. Only shown; never stored by us. */
@@ -313,7 +319,13 @@ export class VoiceClient {
 
     if (result.ok) {
       this.grounding = [...this.grounding, ...result.grounding];
-      this.options.onJourney?.(result.data);
+      // Only some tools return a journey. `resolve_need` returns candidate
+      // services, `save_preference` a status, `forget_my_data` a receipt - and
+      // a panel handed one of those reads `.service.name` of undefined, which
+      // in React is not a blank card but the whole page gone. The shape is
+      // checked rather than the tool name because the broker owns the shapes
+      // and this file is not allowed to know which tool is which.
+      if (isJourney(result.data)) this.options.onJourney?.(result.data);
     }
     this.options.onTool?.(name, result);
 
