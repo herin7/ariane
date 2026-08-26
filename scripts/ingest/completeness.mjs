@@ -30,7 +30,7 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
-import { at, GRAPH } from "./lib.mjs";
+import { at, graphDir, hasProductionGraph } from "./lib.mjs";
 
 const flag = (name) => process.argv.includes(`--${name}`);
 const value = (name, fallback = null) => {
@@ -88,7 +88,7 @@ export const DIMENSION_NAMES = Object.keys(DIMENSIONS);
  * services times a linear scan of 20,000 edges is the kind of quadratic that
  * looks fine until it is the inner loop of an enrichment pass.
  */
-export function loadGraph(dir = GRAPH) {
+export function loadGraph(dir = graphDir()) {
   const nodes = new Map();
   const outgoing = new Map();
   const journeyOf = new Map();
@@ -266,17 +266,24 @@ if (isMain && flag("selftest")) {
   assert.throws(() => measureServiceCompleteness("document:d", graph), /not a SERVICE/);
   assert.throws(() => measureServiceCompleteness("service:nope", graph), /no node/);
 
-  // On the real bundles, because the bug this catches only exists there.
-  // escalation.json's two edges are stored once against `*` and stamped onto
-  // every service at load time, and a reader that skips that step disagrees
-  // with `pnpm coverage` about 506 services while looking perfectly correct.
+  // On whatever bundles are on disk, because the bug this catches is in the
+  // reader and not in the rows. The escalation pack's edges are stored once
+  // against `*` and stamped onto every service at load time, and a reader that
+  // skips that step disagrees with `pnpm coverage` about every service while
+  // looking perfectly correct. `fixtures/demo` carries one such template for
+  // exactly this reason, so a clone with no graph still proves it.
   const real = completeness();
-  assert.ok(real.length > 100, "the real graph should have hundreds of services");
+  assert.ok(real.length > 0, `${graphDir()} produced no services at all`);
   assert.ok(
     real.every((s) => s.known.ESCALATION),
-    "every service has CPGRAMS and SWAGAT, and this number has to match pnpm coverage",
+    "every service escalates somewhere, and this number has to match pnpm coverage",
   );
   assert.ok(real.every((s) => s.known.SOURCE), "a service with no source is not a service we found");
+
+  // The size check only means something against the real graph. On fixtures it
+  // would assert four invented nodes are hundreds of services, so it is skipped
+  // rather than lowered: `pnpm gates:integration` is where it runs.
+  if (hasProductionGraph()) assert.ok(real.length > 100, "the real graph should have hundreds of services");
 
   console.log("completeness: ok");
   process.exit(0);

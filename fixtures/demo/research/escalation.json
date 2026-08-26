@@ -1,0 +1,34 @@
+{
+ "journey": "escalation",
+ "researchedAt": "2026-08-25T00:00:00.000Z",
+ "sources": [
+  {
+   "id": "src_demo_grievance_page",
+   "url": "https://services.example.gov.invalid/tree-felling-permit",
+   "title": "Tree Felling Permit",
+   "domain": "services.example.gov.invalid",
+   "sourceType": "GRIEVANCE_PAGE",
+   "retrievedAt": "2026-08-25T00:00:00.000Z",
+   "cacheFile": "fixtures/demo/source/tree-felling-permit.md",
+   "scrapedOk": true
+  }
+ ],
+ "facts": [
+  {
+   "claim": "A missed timeline is escalated on the Example Grievance Portal, quoting the application number.",
+   "kind": "ESCALATION",
+   "subject": "any_service",
+   "object": "example_grievance_portal",
+   "detail": {
+    "whoMustAct": "CITIZEN",
+    "channel": "WEB"
+   },
+   "sourceId": "src_demo_grievance_page",
+   "evidence": "If your application has not been decided within the published timeline, lodge a complaint on the Example Grievance Portal and quote the application number.",
+   "confidence": 0.95
+  }
+ ],
+ "notFound": [
+  "The page does not say how long the grievance itself takes to be answered, and no figure is recorded here rather than guessed at."
+ ]
+}

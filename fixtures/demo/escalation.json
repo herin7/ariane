@@ -1,0 +1,54 @@
+{
+ "id": "escalation",
+ "sources": [
+  {
+   "id": "src:demo-grievance-page",
+   "url": "https://services.example.gov.invalid/tree-felling-permit",
+   "title": "Tree Felling Permit",
+   "domain": "services.example.gov.invalid",
+   "sourceType": "GRIEVANCE_PAGE",
+   "retrievedAt": "2026-08-25"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "grievance:demo_portal",
+   "type": "GRIEVANCE_CHANNEL",
+   "name": "Complain on the Example Grievance Portal",
+   "description": "Where a permit that has passed its published timeline goes next.",
+   "metadata": {
+    "url": "https://grievance.example.gov.invalid/",
+    "channelType": "GRIEVANCE_PORTAL"
+   },
+   "sources": [
+    {
+     "sourceId": "src:demo-grievance-page",
+     "evidence": "If your application has not been decided within the published timeline, lodge a complaint on the Example Grievance Portal and quote the application number.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  }
+ ],
+ "edges": [],
+ "requirementGroups": [],
+ "questions": [],
+ "edgeTemplates": [
+  {
+   "id": "e:*_escalate_demo",
+   "from": "*",
+   "to": "grievance:demo_portal",
+   "type": "ESCALATE_TO",
+   "verificationStatus": "EXTRACTED",
+   "note": "Use this when the timeline has passed and nothing has moved.",
+   "sources": [
+    {
+     "sourceId": "src:demo-grievance-page",
+     "evidence": "If your application has not been decided within the published timeline, lodge a complaint on the Example Grievance Portal and quote the application number.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  }
+ ]
+}

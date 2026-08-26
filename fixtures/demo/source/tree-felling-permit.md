@@ -28,6 +28,10 @@ The permit is issued within 15 working days of a complete application.
 
 Applications are accepted only through the Example Services Portal. The Parks and Gardens office at 1 Example Road accepts no paper form.
 
+## If nothing happens
+
+If your application has not been decided within the published timeline, lodge a complaint on the Example Grievance Portal and quote the application number.
+
 ## Helpline
 
 Call 1800 000 0000 between 10:00 and 18:00 on working days.

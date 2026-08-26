@@ -18,7 +18,7 @@
  */
 
 import { createHash } from "node:crypto";
-import { appendFileSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { appendFileSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { lookup } from "node:dns/promises";
 import https from "node:https";
 import http from "node:http";
@@ -43,6 +43,31 @@ export const RESEARCH = `${GRAPH}/research`;
 // An empty directory is not a snapshot, so creating it eagerly costs nothing and
 // saves every writer below from its own mkdir.
 mkdirSync(RESEARCH, { recursive: true });
+
+/** The public fixture. Four invented nodes on `example.gov.invalid`. */
+export const FIXTURES = at("fixtures/demo");
+
+const bundlesIn = (dir) => {
+  try {
+    return readdirSync(dir).filter((f) => f.endsWith(".json") && f !== "jurisdictions.json");
+  } catch {
+    return [];
+  }
+};
+
+/** True when a real snapshot is on disk, so a real assertion is worth making. */
+export const hasProductionGraph = () => bundlesIn(GRAPH).length > 0;
+
+/**
+ * What to read, as opposed to `GRAPH`, which is what to write.
+ *
+ * The pipeline writes bundles, and it writes them to the private snapshot or
+ * nowhere. Everything that only reads them falls back to the fixture, which is
+ * the same rule `packages/core/src/data/providers.ts` applies and has to stay
+ * the same rule, or `pnpm gates` means one thing in Node and another in
+ * TypeScript.
+ */
+export const graphDir = () => (hasProductionGraph() ? GRAPH : FIXTURES);
 
 export const sha1 = (s) => createHash("sha1").update(s).digest("hex");
 export const sha256 = (s) => createHash("sha256").update(s).digest("hex");
