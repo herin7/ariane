@@ -263,10 +263,29 @@ export function realtimeSessionConfig(
     voice: env.AZURE_OPENAI_REALTIME_VOICE ?? DEFAULT_VOICE,
     audio: {
       input: {
-        // Server-side turn detection with interruption on. §5 and §23 both
-        // need barge-in, and barge-in is a property of this object rather than
-        // of anything clever in the client.
-        turn_detection: { type: "semantic_vad", interrupt_response: true },
+        /**
+         * Server-side turn detection with interruption on. §5 and §23 both
+         * need barge-in, and barge-in is a property of this object rather than
+         * of anything clever in the client.
+         *
+         * `server_vad` rather than `semantic_vad`, and the difference matters
+         * here more than it looks. Semantic detection decides the caller has
+         * finished a *thought*, which it judges from what was said - and
+         * transcription is off by default under §19, so it is judging a turn it
+         * cannot read. Energy-based detection only needs silence, which is a
+         * property of the audio itself and works with nothing written down.
+         *
+         * `silence_duration_ms` is the one number worth tuning. 700ms suits
+         * somebody reciting a document name or a village; the default 500 cuts
+         * people off mid-sentence, and cutting off a person who is already
+         * nervous about a government line is the worse failure.
+         */
+        turn_detection: {
+          type: env.ARIANE_VOICE_VAD === "semantic" ? "semantic_vad" : "server_vad",
+          create_response: true,
+          interrupt_response: true,
+          ...(env.ARIANE_VOICE_VAD === "semantic" ? {} : { silence_duration_ms: 700, prefix_padding_ms: 300 }),
+        },
         /**
          * §19. Transcription is what puts a citizen's words in somebody's
          * logging pipeline, and the default is that nobody asked for that. The
