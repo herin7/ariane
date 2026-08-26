@@ -1,4 +1,4 @@
-import { loadLiveGraph } from "@ariane/core/server";
+import { graph } from "../graph";
 import Link from "next/link";
 
 export const revalidate = 60;
@@ -14,7 +14,7 @@ export const metadata = { title: "Everything Ariane has read" };
  * and this page, which you reach on purpose, is allowed to be long.
  */
 export default async function Browse() {
-  const { nodes } = await loadLiveGraph();
+  const { nodes } = await graph();
   const services = nodes.filter((n) => n.type === "SERVICE");
   const read = services.filter((s) => !s.metadata?.machineExtracted).sort((a, b) => a.name.localeCompare(b.name));
   const found = services.filter((s) => s.metadata?.machineExtracted).sort((a, b) => a.name.localeCompare(b.name));

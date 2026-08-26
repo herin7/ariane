@@ -138,3 +138,19 @@ export function activeGraphProvider(): GraphProvider {
     ? { origin: "supabase", describe: "supabase", load: loadLiveGraph }
     : localGraphProvider();
 }
+
+/**
+ * Whether a page may be rendered ahead of time.
+ *
+ * A prerender bakes rows into HTML that then ships inside the build artifact.
+ * Real rows are fine there and it is how the site is fast. Four invented nodes
+ * about a tree felling permit are not: a build with no credentials and no
+ * snapshot would otherwise freeze the fixture into `/`, `/browse` and
+ * `/journey`, and `localOrRefuse` never gets asked again because the HTML is
+ * already written.
+ *
+ * So a keyless build renders those pages per request instead, which costs one
+ * clone that was never going to be deployed a little latency, and keeps the
+ * refusal in front of every citizen who asks.
+ */
+export const canPrerender = (): boolean => activeGraphProvider().origin !== "fixture";

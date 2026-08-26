@@ -1,4 +1,4 @@
-import { loadLiveGraph } from "@ariane/core/server";
+import { graph } from "../../graph";
 import { Suspense } from "react";
 import { GraphExplorer } from "./explorer";
 
@@ -9,7 +9,7 @@ export const revalidate = 60;
 export default async function GraphPage() {
   // Read the goals off the graph rather than listing them here, so a new
   // journey shows up the moment it is seeded.
-  const goals = (await loadLiveGraph()).nodes
+  const goals = (await graph()).nodes
     .filter((n) => n.type === "SERVICE")
     .map((n) => ({ id: n.id, name: n.name }))
     .sort((a, b) => a.name.localeCompare(b.name));

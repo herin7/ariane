@@ -1,4 +1,4 @@
-import { loadLiveGraph } from "@ariane/core/server";
+import { graph } from "../graph";
 import { Suspense } from "react";
 import { JourneyView } from "./view";
 
@@ -10,7 +10,7 @@ export const revalidate = 60;
  * code change in two places and a chance for the two lists to disagree.
  */
 export default async function JourneyPage() {
-  const data = await loadLiveGraph();
+  const data = await graph();
   const districts = data.jurisdictions
     .filter((j) => j.level === "DISTRICT" && j.parentId === "IN-GJ")
     .map((j) => j.name)

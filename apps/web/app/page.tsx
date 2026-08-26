@@ -1,4 +1,4 @@
-import { loadLiveGraph } from "@ariane/core/server";
+import { graph } from "./graph";
 import Link from "next/link";
 import { Search } from "./search";
 
@@ -8,7 +8,7 @@ import { Search } from "./search";
 export const revalidate = 60;
 
 export default async function Home() {
-  const { nodes, edges, sources } = await loadLiveGraph();
+  const { nodes, edges, sources } = await graph();
   const services = nodes.filter((n) => n.type === "SERVICE");
 
   // The three the product is demonstrated on go first, then the graph decides
