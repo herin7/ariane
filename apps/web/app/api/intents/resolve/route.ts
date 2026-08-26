@@ -12,6 +12,15 @@ import { NextResponse } from "next/server";
  * copies of a confidence floor is one copy too many. This route is the HTTP
  * shape and nothing else.
  */
+
+/**
+ * Passes two and three call Sarvam and Bedrock over the network, so this is the
+ * one route in the product whose latency belongs to somebody else. A serverless
+ * default of a few seconds cuts a slow model off mid-answer and the citizen
+ * sees a failure that the fallback would have handled honestly.
+ */
+export const maxDuration = 60;
+
 export async function POST(request: Request) {
   const { text } = (await request.json().catch(() => ({}))) as { text?: string };
   if (!text?.trim()) return NextResponse.json({ error: "text is required" }, { status: 400 });
