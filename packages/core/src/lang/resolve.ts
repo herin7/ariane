@@ -84,6 +84,9 @@ export async function resolveIntentDeeply(graph: GraphData, text: string): Promi
         // citizen should be asked to confirm it.
         confidence: 0.25,
         matched: [],
+        supportStatus: node.metadata?.supportStatus,
+        authorityLevel: node.metadata?.authorityLevel,
+        supportNote: node.metadata?.supportNote,
       },
     ],
   };

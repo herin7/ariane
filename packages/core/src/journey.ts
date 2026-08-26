@@ -800,6 +800,8 @@ export class JourneyCompiler {
         workingHours: node.metadata?.workingHours,
         latitude: node.metadata?.latitude,
         longitude: node.metadata?.longitude,
+        location: node.metadata?.location,
+        conflictingAddresses: node.metadata?.conflictingAddresses,
         jurisdictionId: node.jurisdictionId,
         via: edge.type,
         sources: this.index.resolveSources(node.sources),

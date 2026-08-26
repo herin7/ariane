@@ -85,6 +85,60 @@ export type CitizenStage =
  */
 export type Actor = "CITIZEN" | "EMPLOYER" | "GOVERNMENT" | "INSTITUTE" | "BANK";
 
+/**
+ * How much of a geocoder's answer we are willing to stand behind.
+ *
+ * The dangerous failure is not a miss, it is a hit: a geocoder that cannot
+ * find the street returns the city centroid rather than nothing, and a
+ * centroid renders as a pin indistinguishable from a real one. So the gate is
+ * explicit and only the top two states are ever allowed to draw a pin or a
+ * distance. Everything else shows the sourced address and no map.
+ */
+export type LocationStatus =
+  | "DERIVED_HIGH"
+  | "DERIVED_MEDIUM"
+  | "REVIEW_REQUIRED"
+  | "REJECTED"
+  | "UNRESOLVED";
+
+/** True when this coordinate may be drawn on a map or turned into a distance. */
+export function locationIsUsable(location: DerivedLocation | undefined): location is DerivedLocation {
+  return location?.status === "DERIVED_HIGH" || location?.status === "DERIVED_MEDIUM";
+}
+
+/**
+ * A coordinate nobody in government published.
+ *
+ * `SOURCE PROVES THE ADDRESS. LOCATION PROVIDER DERIVES THE COORDINATE.` The
+ * address is evidence and carries a `SourceRef`; this is a third party's
+ * reading of that address and carries the geocoder's name and the day it
+ * answered instead. The two are never merged, so a screen can always tell a
+ * citizen which of the two it is showing them.
+ */
+export interface DerivedLocation {
+  latitude: number;
+  longitude: number;
+  /** Present so the shape is self describing wherever it is logged or dumped. */
+  provenance: "DERIVED";
+  /** Both read OpenStreetMap. They disagree on what an address is. */
+  provider: "OSM_NOMINATIM" | "OSM_PHOTON";
+  status: LocationStatus;
+  /** The geocoder's own word for how precise it was: house, road, suburb... */
+  precision?: string;
+  geocodedAt: string;
+  /** Ties the coordinate to the exact address string it came from. */
+  sourceAddressHash: string;
+  /** What we actually asked, which is never the raw address verbatim. */
+  query?: string;
+  /** Why the gate landed where it did. One short line, for the audit file. */
+  note?: string;
+}
+
+export type SupportStatus = "SUPPORTED" | "COMING_SOON";
+
+/** Who runs the service. Not who the citizen thinks runs it. */
+export type AuthorityLevel = "CENTRAL" | "STATE" | "LOCAL";
+
 export interface NodeMetadata {
   /**
    * Written by the ingestion pipeline, absent on anything a person authored.
@@ -97,6 +151,29 @@ export interface NodeMetadata {
    */
   machineExtracted?: boolean;
 
+  /**
+   * SERVICE: whether Ariane can actually walk someone through this yet.
+   *
+   * Absent means supported, which is what the whole graph was before this
+   * existed. `COMING_SOON` is a node that names a real service, cites the
+   * government's own page for it, and has no path: it exists so that a citizen
+   * asking for a passport is told "that one is central and we have not built it
+   * yet" instead of "we have not mapped that", which sounds like we have never
+   * heard of it.
+   *
+   * This is data because the alternative is a list of service names in a source
+   * file, and a hardcoded `if (query.includes("passport"))` is a government
+   * fact living in code where nothing can cite it or correct it.
+   */
+  supportStatus?: SupportStatus;
+  /**
+   * Which government actually runs this. A state service and a central one fail
+   * in different ways and a citizen standing in the wrong queue cannot tell.
+   */
+  authorityLevel?: AuthorityLevel;
+  /** One sentence, shown as-is, for why it is not built yet. */
+  supportNote?: string;
+
   /** PORTAL / TRACKING / GRIEVANCE_CHANNEL: the official URL. */
   url?: string;
   /** MOBILE_APP: verified store identifiers. Never guessed. */
@@ -108,11 +185,24 @@ export interface NodeMetadata {
   /** OFFICE. Only ever populated from an official directory page. */
   officeType?: string;
   address?: string;
+  /**
+   * A coordinate an official page printed. Distinct from `location`, which is
+   * a geocoder's opinion about where `address` is. Nothing in the corpus
+   * publishes one yet, and the field stays for the day something does.
+   */
   latitude?: number;
   longitude?: number;
   phoneNumbers?: string[];
   emails?: string[];
   workingHours?: string;
+  /**
+   * Other addresses official pages gave for the same office. Kept rather than
+   * resolved: 26 offices are in this state and picking one silently is how a
+   * citizen ends up at the wrong building. See `DerivedLocation.status`.
+   */
+  conflictingAddresses?: string[];
+  /** Where a geocoder thinks `address` is. Never a government fact. */
+  location?: DerivedLocation;
 
   /** SERVICE / ACTION, citizen-facing guidance. */
   whyRequired?: string;
@@ -425,8 +515,13 @@ export interface OfficeRef {
   address?: string;
   phoneNumbers?: string[];
   workingHours?: string;
+  /** Official, if a page ever prints one. See `NodeMetadata.latitude`. */
   latitude?: number;
   longitude?: number;
+  /** Geocoded. Check `locationIsUsable` before drawing anything with it. */
+  location?: DerivedLocation;
+  /** Sources disagreed about where this is. Never silently resolved. */
+  conflictingAddresses?: string[];
   jurisdictionId?: string;
   via: EdgeType;
   sources: ResolvedSource[];

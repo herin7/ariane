@@ -9,7 +9,9 @@
   "exports": {
     ".": "./src/index.ts",
     "./server": "./src/server.ts",
-    "./journey": "./src/journey.ts"
+    "./journey": "./src/journey.ts",
+    "./location": "./src/location.ts",
+    "./types": "./src/types.ts"
   },
   "scripts": {
     "test": "vitest run",
@@ -18,10 +20,12 @@
     "build": "tsc --noEmit",
     "graph:stats": "tsx src/cli/stats.ts",
     "graph:validate": "tsx src/cli/validate.ts",
+    "offices:geocode": "tsx src/cli/geocode.ts",
     "journey:test": "tsx src/cli/journey.ts",
     "quotes:audit": "tsx src/cli/quotes.ts",
     "coverage": "tsx src/cli/coverage.ts",
     "db:push": "tsx --env-file-if-exists=../../.env src/cli/db-push.ts",
+    "db:pull": "tsx --env-file-if-exists=../../.env src/cli/db-pull.ts",
     "graph:snapshot": "tsx src/cli/snapshot.ts",
     "intent:eval": "tsx --env-file-if-exists=../../.env src/cli/intent-eval.ts"
   },
