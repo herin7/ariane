@@ -401,4 +401,4 @@ writeFileSync(
   OFFICES_RESEARCH,
   JSON.stringify({ journey: "offices", researchedAt: today(), region: "Gujarat, India", sources, facts: researchFacts, notFound }, null, 2) + "\n",
 );
-console.log(`\nWrote ${BUNDLE} and ${RESEARCH}. Run pnpm bundles:build, then pnpm graph:validate.`);
+console.log(`\nWrote ${BUNDLE} and ${RESEARCH}. Run pnpm graph:validate.`);

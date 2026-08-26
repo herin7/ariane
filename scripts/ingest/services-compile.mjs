@@ -2744,4 +2744,4 @@ writeFileSync(
 console.log(`\n${drops.rows.length} candidate(s) refused, by ${byReason.size} distinct reason(s). Written to ${REJECTIONS}`);
 console.log(`Run: pnpm rejections:stats`);
 
-if (!flag("dry")) console.log(`\nNow run: pnpm bundles:build && pnpm graph:validate && pnpm quotes:audit`);
+if (!flag("dry")) console.log(`\nNow run: pnpm graph:validate && pnpm quotes:audit`);

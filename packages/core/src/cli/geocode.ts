@@ -352,7 +352,7 @@ if (review.length) {
   writeFileSync(REVIEW, JSON.stringify({ generatedAt: new Date().toISOString().slice(0, 10), count: review.length, offices: review }, null, 2) + "\n");
   console.log(`${review.length} office(s) need a human. See artifacts/location-review.json.`);
 }
-console.log("Run pnpm bundles:build, then pnpm graph:validate.");
+console.log("Run pnpm graph:validate.");
 
 /** Six decimals is ~10cm. Anything past that is noise pretending to be precision. */
 function round(n: number): number {

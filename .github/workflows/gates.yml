@@ -1,7 +1,11 @@
-# The claim this repository makes loudest is that a clone with no corpus, no
-# credentials and no network builds green. This is where that stops being a
-# claim. A runner has none of those things and runs the same `pnpm gates` a
-# contributor does.
+# The claim this repository makes loudest is that a clone with no graph, no
+# corpus, no credentials and no network builds green. This is where that stops
+# being a claim. A runner has none of those things and runs the same `pnpm
+# gates` a contributor does, on `fixtures/demo`, with the nine suites that
+# assert real Gujarat facts skipping themselves out loud.
+#
+# The other half, `pnpm gates:integration`, cannot run here and is not meant to:
+# it needs the private graph and refuses to start without it.
 name: gates
 
 on:

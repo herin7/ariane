@@ -1,8 +1,22 @@
-# Research drops
+# Research
 
-Raw, source-backed research output lands here as JSON, one file per journey:
-`driving-licence.json`, `certificates.json`, `scholarship.json`, `pf.json`,
-`pension.json`.
+Two different things share this word, and only one of them is in git.
+
+**The evidence layer** is one JSON file per journey, written by the pipeline and
+holding every verbatim quote every graph fact was read off. It is not here. It
+lives beside the bundle it explains, at `<graph>/research/<journey>.json`, which
+means `.graph/research/` on a maintainer's machine and `fixtures/demo/research/`
+in a public clone. It is third-party government content and it is large, so it
+belongs in the database and in a private snapshot rather than in a diff. `pnpm
+data:sync` is how a clone gets the graph; the evidence stays wherever its
+maintainer keeps it, and `ARIANE_GRAPH_DIR` points at both.
+
+**The research pointers** are what is in this directory: `domains/`, the
+hostnames and department directories that answer "which site would even have
+this", and `service-names.tsv`, the names citizens type that no page prints.
+Small, hand-maintained, no page bodies, no quotes, never a citation.
+
+The rest of this file describes the evidence layer, wherever you are reading it.
 
 Each file is the honest middle layer between an official government page and
 the graph:
@@ -47,10 +61,11 @@ A URL that says HAVE does not get fetched. Not to refresh it, not to confirm it
 is still accurate, not because this is a different journey. Refetching is a
 decision somebody makes explicitly, out loud, with a reason.
 
-`.firecrawl/` holds those raw pages and is committed. It was ignored once, which
-meant a fresh clone had all the citations and none of the pages, so the first
-thing a second machine did was pay to fetch pages we already had. 1.3M of public
-government HTML is a cheap price for that never happening again.
+`.ingest/` holds those raw pages. It is not in this repository and never was:
+it is thousands of fetched government pages and PDFs, it is not ours to
+redistribute, and it is the reason the ledger is keyed by URL. Losing it costs a
+refetch, not a fact, because every quote that mattered was copied into the
+evidence layer at extraction time.
 
 `pnpm fetch:ledger --check` fails if the ledger is stale, if a cited page is
 missing from the cache, or if a source was cited with no cache file at all. All

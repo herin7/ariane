@@ -62,8 +62,8 @@ government pages, PDFs, portals
               |  compile
               v
    +---------------------+          +--------------------------+
-   |  docs/research/*    |          | packages/core/data/graph |
-   |  the evidence layer | <------> |     the graph layer      |
+   |  <graph>/research/* |          |       <graph>/*.json     |
+   |  the evidence layer | <------> |       the graph layer    |
    +---------------------+          +--------------------------+
         the quote                        the node and the edge
               \                          /
@@ -104,15 +104,23 @@ apps/
   mobile/     Expo app on the same four endpoints, no rule logic of its own
 packages/
   core/       ontology, graph algorithms, condition evaluator, journey compiler
-    src/data/graph/   the government facts, as rows. no scheme lives in code
+    src/data/         which graph a process is on. no scheme lives in code
     src/db/           the same rows in Postgres, and the mapping between
 scripts/
   ingest/     the pipeline that reads government pages and writes those rows
 docs/
-  research/   the evidence layer: every quote every graph fact was read off
+  research/   research pointers: hostnames, department directories, naming
 fixtures/
   demo/       one synthetic page and the layers derived from it, for tests
+.graph/       the real graph, gitignored, from `pnpm data:sync`
 ```
+
+The rows themselves are not in this repository. They are third-party government
+content, they change without a deploy, and 7MB of them in a diff is not review.
+Postgres holds them, `.graph/` is a maintainer's local copy, and `fixtures/demo`
+is what a clone with no credentials runs on. Same directory layout at both
+sizes: `<dir>/<journey>.json` for the bundle, `<dir>/research/<journey>.json`
+for the evidence behind it.
 
 No Neo4j, no Kafka, no Redis, no Elasticsearch, no orchestration framework, no
 second graph database. Postgres, a JSON seed, and files. The ingestion layer adds
