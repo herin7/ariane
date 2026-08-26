@@ -66,9 +66,9 @@ export class VoiceBroker {
   /**
    * Last call signature per session, for loop detection.
    *
-   * ponytail: in-process, so a caller spread across two web instances gets two
-   * loop counters. `LIMITS.maxToolCalls` is still the hard ceiling either way;
-   * move this onto the session row if we ever run more than one instance.
+   * Known limit: in-process, so a caller spread across two web instances gets
+   * two loop counters. `LIMITS.maxToolCalls` is still the hard ceiling either
+   * way; move this onto the session row before running more than one instance.
    */
   private readonly recent = new Map<string, { signature: string; count: number }>();
 

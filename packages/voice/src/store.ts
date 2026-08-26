@@ -100,7 +100,7 @@ export interface VoiceStore {
  * The default. Correct, isolated, and gone when the process ends, which for a
  * caller with no consent on file is exactly the retention policy §12 asks for.
  *
- * ponytail: one process only. Two web instances would each hold their own
+ * Known limit: one process only. Two web instances would each hold their own
  * sessions, so put Postgres behind it before running more than one.
  */
 export function memoryStore(): VoiceStore {

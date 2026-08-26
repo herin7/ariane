@@ -44,7 +44,7 @@ export class RealtimeNotConfiguredError extends Error {
  * you are copying from has `?api-version=2025-04-01-preview` in it, it is the
  * old one.
  *
- * ponytail: a trailing slash in the env var is the whole normalisation. Parse
+ * Known limit: a trailing slash in the env var is the whole normalisation. Parse
  * the URL properly when somebody pastes something stranger than that.
  */
 const azureUrls = (endpoint: string) => {
@@ -77,10 +77,10 @@ export async function mintClientSecret(
   /**
    * The resource key, not an Entra token.
    *
-   * ponytail: Foundry takes `Authorization: Bearer <Entra token>` here too, and
-   * a managed identity is the better answer once this runs somewhere that has
-   * one. It is strictly more code for the same request, so it waits until there
-   * is a deployment to attach it to.
+   * Foundry takes `Authorization: Bearer <Entra token>` here too, and a managed
+   * identity is the better answer once this runs somewhere that has one. It is
+   * strictly more code for the same request, so it waits until there is a
+   * deployment to attach it to.
    */
   const response = await fetchImpl(url.clientSecrets, {
     method: "POST",

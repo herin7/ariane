@@ -70,10 +70,12 @@ export const journeysOf = (bundles: GraphBundle[]): GraphBundle[] => bundles.fil
  * This canonicalises, it does not re-rank: it is a no-op on rows that came from
  * Postgres, which is the plane citizens are served from.
  *
- * ponytail: array order as the tie-break is the actual problem, and 124 services
- * compile the same step set in an order that depends on it. The fix is data — an
- * ordering edge, so the tie stops being a tie — and it changes which step 81
- * services name first, so it is a product decision and not this pass's.
+ * Known limit: ordering is deterministic but not necessarily procedural, and
+ * explicit NEXT edges should define procedural order. 124 services compile the
+ * same step set in an order that depends on this tie-break, 81 of them in the
+ * step they name first. The fix is data — a source-backed ordering edge, so the
+ * tie stops being a tie — and because it changes what those services tell a
+ * citizen to do first it is a product decision, tracked separately.
  */
 export function loadGraphFrom(rawBundles: GraphBundle[], jurisdictions: Jurisdiction[]): GraphData {
   const packs = rawBundles.filter((b) => b.edgeTemplates?.length);

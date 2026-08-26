@@ -184,9 +184,9 @@ const PHONE = /\b(1800[\s-]?\d[\d\s-]{5,12}|\b\d{10}\b|\b1[89]\d{2,4}\b)/g;
  * looks for the shapes that carry the most risk of invention: a capitalised
  * phrase ending in a government noun.
  *
- * ponytail: capitalised-phrase heuristic, misses lowercase inventions. Upgrade
- * to matching against the graph's own document and office name index if the
- * eval shows it letting things through.
+ * Known limit: being a capitalised-phrase heuristic, it misses lowercase
+ * inventions. Upgrade to matching against the graph's own document and office
+ * name index if the eval shows it letting things through.
  */
 const ARTEFACT = /\b((?:[A-Z][\w'-]*\s+){0,3}(?:Certificate|Card|Licence|License|Portal|Office|Department|Scheme|Yojana|Form|Affidavit|Passbook))\b/g;
 

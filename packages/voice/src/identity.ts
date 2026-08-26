@@ -25,8 +25,8 @@ import type { IdentityLevel } from "./types";
  * wrong is that a returning caller is not recognised and gets asked their
  * language again. That is a small enough loss to not take a dependency for.
  *
- * ponytail: +91 default, swap for libphonenumber if we ever answer a call from
- * outside India.
+ * Known limit: +91 is assumed. Swap for libphonenumber if we ever answer a call
+ * from outside India.
  */
 export function normalisePhone(raw: string): string | undefined {
   if (!RawPhone.safeParse(raw).success) return undefined;
