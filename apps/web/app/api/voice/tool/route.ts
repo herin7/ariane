@@ -13,6 +13,14 @@ import { STATUS_FOR, bearer, notConfigured, runtime } from "../shared";
  * Everything past authentication is `VoiceBroker.execute`, which never throws
  * and always returns something safe to say out loud.
  */
+
+/**
+ * `resolve_need` runs the same three pass intent chain the search box does, so
+ * this route inherits its worst case. A caller is on the phone waiting while it
+ * happens, which makes a timeout here more expensive than a slow answer.
+ */
+export const maxDuration = 60;
+
 export async function POST(request: Request) {
   const voice = runtime();
   if (!voice) return notConfigured();

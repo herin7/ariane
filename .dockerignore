@@ -1,0 +1,49 @@
+# What must not end up in an image that gets pushed to a registry.
+#
+# `.gitignore` already keeps these out of the repository, and this file is the
+# second half of the same rule: a build context is copied from the working tree,
+# not from git, so an untracked `.env` sitting next to the Dockerfile is exactly
+# the kind of thing that ships to ECR without anyone noticing.
+
+# Credentials. The container gets these from Secrets Manager at run time.
+.env
+.env.*
+!.env.example
+
+# Third-party government content. Not ours to redistribute, and the corpus is
+# mounted at ARIANE_CORPUS_DIR rather than baked in. See NOTICE and §30.
+.ingest/
+.firecrawl/
+.corpus/
+.private/
+.graph/
+artifacts/
+
+# Rebuilt inside the image, and a host copy is the wrong architecture anyway.
+node_modules/
+**/node_modules/
+.pnpm-store/
+.next/
+.expo/
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Internal planning and scratch notes.
+plan.md
+log.md
+version.md
+context.md
+NOTES.md
+SCRATCH.md
+TODO.md
+*.notes.md
+*.plan.md
+.claude/
+
+.git/
+.github/
+.vercel/
+coverage/
+*.log
