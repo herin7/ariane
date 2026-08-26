@@ -81,7 +81,19 @@ for (const goal of [...goals].sort()) {
     // plane refactor is most likely to drop quietly, so they are compared whole.
     offices: j.offices
       .map((o) =>
-        [o.nodeId, o.name, o.address ?? "", (o.phoneNumbers ?? []).join(","), o.latitude ?? "", o.longitude ?? "", o.location?.lat ?? "", o.location?.lng ?? ""].join("|"),
+        [
+          o.nodeId,
+          o.name,
+          o.address ?? "",
+          (o.phoneNumbers ?? []).join(","),
+          o.workingHours ?? "",
+          // Published, then derived. `DerivedLocation` spells them out in full
+          // and `lat`/`lng` silently read as undefined, which is a map pin
+          // going missing in a file whose whole job is to notice that.
+          o.latitude ?? "",
+          o.longitude ?? "",
+          o.location ? `${o.location.status}:${o.location.latitude},${o.location.longitude}` : "",
+        ].join("|"),
       )
       .sort(),
     helplines: j.helplines.map(chan).sort(),
