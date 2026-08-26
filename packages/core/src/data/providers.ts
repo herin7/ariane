@@ -1,4 +1,5 @@
 import { existsSync, readFileSync, readdirSync } from "node:fs";
+import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import type { GraphData, Jurisdiction } from "../types";
 import { journeysOf, loadGraphFrom, type GraphBundle } from "./index";
@@ -73,8 +74,14 @@ export interface ResearchFile {
 
 const readJson = (path: string) => JSON.parse(readFileSync(path, "utf8")) as unknown;
 
-/** Repository root, from `packages/core/src/data/`. */
-const repoRoot = fileURLToPath(new URL("../../../../", import.meta.url));
+/**
+ * Repository root, from `packages/core/src/data/`.
+ *
+ * Built with `path.join` rather than `new URL("../../../../", import.meta.url)`,
+ * which reads to webpack as a static asset reference and fails the web build
+ * with `Can't resolve '../../../../'`. Same directory, no bundler opinion.
+ */
+const repoRoot = join(dirname(fileURLToPath(import.meta.url)), "..", "..", "..", "..");
 
 /**
  * Reads a directory of bundle files, `jurisdictions.json` apart.
@@ -144,15 +151,15 @@ function localProvider(origin: GraphOrigin, describe: string, dir: string): Loca
  * escaped, and it should be obvious within one screenful rather than subtle.
  */
 export const FixtureGraphProvider = (): LocalGraphProvider =>
-  localProvider("fixture", "fixtures/demo", `${repoRoot}fixtures/demo`);
+  localProvider("fixture", "fixtures/demo", join(repoRoot, "fixtures", "demo"));
 
 /** Where `pnpm data:sync` writes, and where a maintainer's real graph lives. */
 export const snapshotDir = (env: NodeJS.ProcessEnv = process.env): string =>
-  env.ARIANE_GRAPH_DIR ?? `${repoRoot}.graph`;
+  env.ARIANE_GRAPH_DIR ?? join(repoRoot, ".graph");
 
 export const snapshotPresent = (env: NodeJS.ProcessEnv = process.env): boolean => {
   const dir = snapshotDir(env);
-  return existsSync(`${dir}`) && readdirSync(dir).some((f) => f.endsWith(".json") && f !== "jurisdictions.json");
+  return existsSync(dir) && readdirSync(dir).some((f) => f.endsWith(".json") && f !== "jurisdictions.json");
 };
 
 /**
