@@ -1,0 +1,48 @@
+# The ingest pipeline, containerised. Not the web app.
+#
+# `scripts/ingest/*` crawls government estates, extracts claims, checks every
+# one of them against the page it came from and pushes the survivors to
+# Supabase. It runs for hours, shells out to a PDF parser and calls three
+# external APIs, which is why it is a scheduled Fargate task rather than a
+# serverless function: the 15 minute ceiling is not a limit this work fits under.
+#
+# Deliberately no CMD. The pipeline is a sequence of steps a maintainer chooses
+# between runs, and baking one order in here would make this file the place that
+# decides what a crawl is. The ECS task definition names the command:
+#
+#   pnpm services:discover
+#   pnpm services:extract
+#   pnpm db:push
+#
+# Nothing scraped is ever built into this image. §30: the corpus lives in a
+# private bucket mounted at ARIANE_CORPUS_DIR, and is not ours to redistribute.
+FROM node:22-slim
+
+# unpdf's parser and the crawlers both want a CA bundle and a locale; git is
+# here because the fetch ledger records provenance against a commit.
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends ca-certificates git \
+  && rm -rf /var/lib/apt/lists/*
+
+ENV PNPM_HOME=/pnpm
+ENV PATH=$PNPM_HOME:$PATH
+RUN corepack enable
+
+WORKDIR /app
+
+# Manifests first, so a change to a script does not re-resolve the whole
+# workspace. The lockfile is frozen: a pipeline that quietly upgrades its own
+# extractor between runs produces claims you cannot reproduce.
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+COPY packages/core/package.json packages/core/
+COPY packages/voice/package.json packages/voice/
+COPY apps/web/package.json apps/web/
+COPY apps/mobile/package.json apps/mobile/
+RUN pnpm install --frozen-lockfile --ignore-scripts
+
+COPY . .
+
+# Fail fast and loudly rather than half way through a crawl. Every one of these
+# is a pure function over checked in fixtures, so it proves the image without
+# touching the network or spending a credit.
+RUN pnpm ingest:selftest
