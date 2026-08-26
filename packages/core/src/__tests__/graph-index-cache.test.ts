@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { loadGraph } from "../data/index";
+import { loadGraph } from "../data/providers";
 import { GraphIndex } from "../graph";
 import { JourneyCompiler, graphIndexFor } from "../journey";
 import type { GraphData } from "../types";

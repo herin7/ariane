@@ -1,8 +1,6 @@
 import { readFileSync } from "node:fs";
 import { pathToFileURL } from "node:url";
-import { journeyBundleNames } from "../data/graph/manifest";
-import type { GraphBundle } from "../data/index";
-import { loadGraph } from "../data/index";
+import { loadGraph, localGraphProvider } from "../data/providers";
 import { GraphIndex } from "../graph";
 import type { GraphNode, VerificationStatus } from "../types";
 
@@ -23,7 +21,7 @@ import type { GraphNode, VerificationStatus } from "../types";
  * what could not be found. This puts the three in one table.
  */
 
-const read = (url: URL) => JSON.parse(readFileSync(url, "utf8"));
+const graph = localGraphProvider();
 
 /**
  * Nodes a citizen is actually routed through.
@@ -62,14 +60,10 @@ export interface JourneyCoverage {
 }
 
 export function coverageOf(name: string): JourneyCoverage {
-  const bundle: GraphBundle = read(new URL(`../data/graph/${name}.json`, import.meta.url));
-  let research: { notFound?: unknown[]; sources?: { scrapedOk?: boolean }[] } = {};
-  try {
-    research = read(new URL(`../../../../docs/research/${name}.json`, import.meta.url));
-  } catch {
-    // A bundle with no research file is a bundle nobody can audit. quotes:audit
-    // is the gate that says so; here it is simply zero evidence.
-  }
+  const bundle = graph.bundle(name);
+  // A bundle with no research file is a bundle nobody can audit. quotes:audit is
+  // the gate that says so; here it is simply zero evidence.
+  const research = graph.research(name) ?? {};
 
   const of = (type: GraphNode["type"]) => bundle.nodes.filter((n) => n.type === type).length;
   const byStatus: Partial<Record<VerificationStatus, number>> = {};
@@ -100,9 +94,9 @@ export function coverageOf(name: string): JourneyCoverage {
   };
 }
 
-/** Every journey, in manifest order. What `/admin/coverage` renders. */
+/** Every journey, in load order. What `/admin/coverage` renders. */
 export function coverage(): JourneyCoverage[] {
-  return [...journeyBundleNames].map(coverageOf);
+  return graph.journeys().map(coverageOf);
 }
 
 // --------------------------------------------------------------------- depth
@@ -214,9 +208,9 @@ export function depth(): DepthReport {
 /**
  * What the pdf corpus cost and what came out of it.
  *
- * Read off the committed ledgers, never off `.ingest/pdf/`, which is gitignored:
- * a clone has every number and none of the bytes, and these have to agree in
- * both places or the report is only true on one machine.
+ * Read off the local ledger, which is not in the repository. A clone without one
+ * reports zeros rather than failing: the pdf corpus is a maintainer's artefact
+ * and its absence is not a broken checkout.
  */
 function pdfCounts(): DepthReport["pdfs"] {
   const jsonl = (name: string): Record<string, unknown>[] => {

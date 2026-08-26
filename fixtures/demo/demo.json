@@ -1,0 +1,271 @@
+{
+ "id": "demo",
+ "sources": [
+  {
+   "id": "src:demo-permit-page",
+   "url": "https://services.example.gov.invalid/tree-felling-permit",
+   "title": "Tree Felling Permit",
+   "domain": "services.example.gov.invalid",
+   "sourceType": "SERVICE_PAGE",
+   "retrievedAt": "2026-08-25"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "service:tree_felling_permit",
+   "type": "SERVICE",
+   "name": "Get permission to cut down a tree on your plot",
+   "officialName": "Tree Felling Permit",
+   "aliases": [
+    "tree felling permit",
+    "tree cutting permission",
+    "demo"
+   ],
+   "description": "A synthetic service used to demonstrate the pipeline end to end. Nothing here describes a real government process.",
+   "jurisdictionId": "XX-EX-EXAMPLE",
+   "metadata": {
+    "timeline": "15 working days from a complete application",
+    "whatToDo": "Apply on the Example Services Portal, attach this year's property tax receipt, and pay 200 rupees per tree."
+   },
+   "sources": [
+    {
+     "sourceId": "src:demo-permit-page",
+     "evidence": "Any owner of a plot inside the corporation limits may apply to fell a tree standing on that plot.",
+     "confidence": 0.95,
+     "verificationStatus": "VERIFIED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "document:property_tax_receipt",
+   "type": "DOCUMENT",
+   "name": "Property tax receipt for the current year",
+   "jurisdictionId": "XX-EX-EXAMPLE",
+   "sources": [
+    {
+     "sourceId": "src:demo-permit-page",
+     "evidence": "The applicant must attach a copy of the property tax receipt for the current year.",
+     "confidence": 0.95,
+     "verificationStatus": "VERIFIED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "payment:tree_felling_permit_fee",
+   "type": "PAYMENT",
+   "name": "Pay the tree felling permit fee",
+   "jurisdictionId": "XX-EX-EXAMPLE",
+   "metadata": {
+    "fee": "200 rupees per tree, paid online with the application"
+   },
+   "sources": [
+    {
+     "sourceId": "src:demo-permit-page",
+     "evidence": "The fee is 200 rupees per tree, payable online at the time of application.",
+     "confidence": 0.95,
+     "verificationStatus": "VERIFIED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "portal:example_services",
+   "type": "PORTAL",
+   "name": "Example Services Portal",
+   "jurisdictionId": "XX-EX-EXAMPLE",
+   "metadata": {
+    "channelType": "WEB",
+    "url": "https://services.example.gov.invalid/"
+   },
+   "sources": [
+    {
+     "sourceId": "src:demo-permit-page",
+     "evidence": "Applications are accepted only through the Example Services Portal.",
+     "confidence": 0.95,
+     "verificationStatus": "VERIFIED"
+    }
+   ],
+   "lastVerifiedAt": "2026-08-25"
+  },
+  {
+   "id": "eligibility:demo_age_18",
+   "type": "ELIGIBILITY",
+   "name": "You must be 18 or older",
+   "description": "The applicant must have completed 18 years of age on the date of application.",
+   "jurisdictionId": "XX-EX-EXAMPLE",
+   "metadata": {
+    "rule": {
+     "field": "age",
+     "operator": "GTE",
+     "value": 18
+    }
+   },
+   "sources": [
+    {
+     "sourceId": "src:demo-permit-page",
+     "evidence": "The applicant must have completed 18 years of age on the date of application.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "document_group:demo_proof_of_ownership",
+   "type": "DOCUMENT_GROUP",
+   "name": "Proof that the plot is yours",
+   "description": "Either document is accepted on its own. The page does not prefer one.",
+   "jurisdictionId": "XX-EX-EXAMPLE",
+   "sources": [
+    {
+     "sourceId": "src:demo-permit-page",
+     "evidence": "Ownership of the plot may be proved with either the registered sale deed or the current municipal property card. Enclose whichever one you hold.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "document:demo_sale_deed",
+   "type": "DOCUMENT",
+   "name": "Registered sale deed",
+   "jurisdictionId": "XX-EX-EXAMPLE",
+   "sources": [
+    {
+     "sourceId": "src:demo-permit-page",
+     "evidence": "Ownership of the plot may be proved with either the registered sale deed or the current municipal property card. Enclose whichever one you hold.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "document:demo_property_card",
+   "type": "DOCUMENT",
+   "name": "Municipal property card",
+   "jurisdictionId": "XX-EX-EXAMPLE",
+   "sources": [
+    {
+     "sourceId": "src:demo-permit-page",
+     "evidence": "Ownership of the plot may be proved with either the registered sale deed or the current municipal property card. Enclose whichever one you hold.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "id": "e:demo_permit_requires_tax_receipt",
+   "from": "service:tree_felling_permit",
+   "to": "document:property_tax_receipt",
+   "type": "REQUIRES",
+   "verificationStatus": "VERIFIED",
+   "sources": [
+    {
+     "sourceId": "src:demo-permit-page",
+     "evidence": "The applicant must attach a copy of the property tax receipt for the current year.",
+     "confidence": 0.95,
+     "verificationStatus": "VERIFIED"
+    }
+   ]
+  },
+  {
+   "id": "e:demo_permit_requires_fee",
+   "from": "service:tree_felling_permit",
+   "to": "payment:tree_felling_permit_fee",
+   "type": "REQUIRES",
+   "verificationStatus": "VERIFIED",
+   "sources": [
+    {
+     "sourceId": "src:demo-permit-page",
+     "evidence": "The fee is 200 rupees per tree, payable online at the time of application.",
+     "confidence": 0.95,
+     "verificationStatus": "VERIFIED"
+    }
+   ]
+  },
+  {
+   "id": "e:demo_permit_apply_at_portal",
+   "from": "service:tree_felling_permit",
+   "to": "portal:example_services",
+   "type": "APPLY_AT",
+   "verificationStatus": "VERIFIED",
+   "sources": [
+    {
+     "sourceId": "src:demo-permit-page",
+     "evidence": "Applications are accepted only through the Example Services Portal.",
+     "confidence": 0.95,
+     "verificationStatus": "VERIFIED"
+    }
+   ]
+  },
+  {
+   "id": "e:demo_requires_age",
+   "from": "service:tree_felling_permit",
+   "to": "eligibility:demo_age_18",
+   "type": "REQUIRES",
+   "jurisdictionId": "XX-EX-EXAMPLE",
+   "verificationStatus": "EXTRACTED",
+   "sources": [
+    {
+     "sourceId": "src:demo-permit-page",
+     "evidence": "The applicant must have completed 18 years of age on the date of application.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  },
+  {
+   "id": "e:demo_requires_ownership",
+   "from": "service:tree_felling_permit",
+   "to": "document_group:demo_proof_of_ownership",
+   "type": "REQUIRES",
+   "jurisdictionId": "XX-EX-EXAMPLE",
+   "verificationStatus": "EXTRACTED",
+   "sources": [
+    {
+     "sourceId": "src:demo-permit-page",
+     "evidence": "Ownership of the plot may be proved with either the registered sale deed or the current municipal property card. Enclose whichever one you hold.",
+     "confidence": 1,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  }
+ ],
+ "requirementGroups": [
+  {
+   "id": "rg:demo_proof_of_ownership",
+   "ownerNodeId": "document_group:demo_proof_of_ownership",
+   "mode": "ANY_OF",
+   "jurisdictionId": "XX-EX-EXAMPLE",
+   "members": [
+    {
+     "nodeId": "document:demo_sale_deed",
+     "note": "Proves ownership on its own."
+    },
+    {
+     "nodeId": "document:demo_property_card",
+     "note": "Proves ownership on its own."
+    }
+   ],
+   "sources": [
+    {
+     "sourceId": "src:demo-permit-page",
+     "evidence": "Ownership of the plot may be proved with either the registered sale deed or the current municipal property card. Enclose whichever one you hold.",
+     "confidence": 0.95,
+     "verificationStatus": "EXTRACTED"
+    }
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "field": "age",
+   "label": "How old are you?",
+   "help": "The permit has a minimum age, so this decides whether you can apply at all.",
+   "inputType": "NUMBER"
+  }
+ ]
+}

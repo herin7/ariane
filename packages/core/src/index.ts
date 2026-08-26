@@ -43,12 +43,11 @@ export {
   type Point,
   type RankedOffice,
 } from "./location";
+// Shapes and pure folds only. Rows come from `@ariane/core/server`, which is
+// where the disk and the database are, and which a browser bundle cannot see.
 export {
-  loadGraph,
+  journeysOf,
   loadGraphFrom,
-  seedBundles,
-  seedJourneys,
-  seedJurisdictions,
   validateGraph,
   type GraphBundle,
   type GraphIssue,

@@ -6,6 +6,12 @@ Example Municipal Corporation, Department of Parks and Gardens
 
 Any owner of a plot inside the corporation limits may apply to fell a tree standing on that plot.
 
+The applicant must have completed 18 years of age on the date of application.
+
+## Proof of ownership
+
+Ownership of the plot may be proved with either the registered sale deed or the current municipal property card. Enclose whichever one you hold.
+
 ## Documents required
 
 The applicant must attach a copy of the property tax receipt for the current year.

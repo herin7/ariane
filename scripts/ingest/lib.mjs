@@ -30,6 +30,20 @@ const root = new URL("../../", import.meta.url);
 export const at = (p) => fileURLToPath(new URL(p, root));
 export const INGEST = ".ingest/";
 
+/**
+ * The private data plane, in one place.
+ *
+ * Compiled bundles and the evidence behind them are government content and are
+ * not in this repository. `pnpm data:sync` puts them here; everything that
+ * reads or writes them goes through these two constants so that moving the
+ * directory is one edit rather than eleven.
+ */
+export const GRAPH = process.env.ARIANE_GRAPH_DIR ?? at(".graph");
+export const RESEARCH = `${GRAPH}/research`;
+// An empty directory is not a snapshot, so creating it eagerly costs nothing and
+// saves every writer below from its own mkdir.
+mkdirSync(RESEARCH, { recursive: true });
+
 export const sha1 = (s) => createHash("sha1").update(s).digest("hex");
 export const sha256 = (s) => createHash("sha256").update(s).digest("hex");
 
@@ -173,7 +187,7 @@ export const REJECTION_REASONS = {
 /** Full rows, gitignored: every compile rebuilds them from committed facts. */
 export const REJECTIONS = INGEST + "rejections.jsonl";
 /** The committed aggregate. Small, diffable, and what `rejections:stats` reads. */
-export const REJECTION_SUMMARY = "docs/research/rejections.json";
+export const REJECTION_SUMMARY = `${RESEARCH}/rejections.json`;
 
 /**
  * A collector for one run's rejections.

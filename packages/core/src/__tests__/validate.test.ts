@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { loadGraph, validateGraph } from "../data/index";
+import { validateGraph } from "../data/index";
+import { loadGraph } from "../data/providers";
 import type { GraphData } from "../types";
 
 /**

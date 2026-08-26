@@ -29,9 +29,8 @@
  */
 import { readdirSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
-import { at } from "./lib.mjs";
 
-const GRAPH = "packages/core/src/data/graph/";
+import { at, GRAPH } from "./lib.mjs";
 
 const flag = (name) => process.argv.includes(`--${name}`);
 const value = (name, fallback = null) => {
@@ -101,8 +100,8 @@ export function loadGraph(dir = GRAPH) {
     else outgoing.set(e.from, [e]);
   };
 
-  for (const file of readdirSync(at(dir)).filter((f) => f.endsWith(".json") && f !== "manifest.json")) {
-    const bundle = JSON.parse(readFileSync(at(dir + file), "utf8"));
+  for (const file of readdirSync(dir).filter((f) => f.endsWith(".json") && f !== "jurisdictions.json")) {
+    const bundle = JSON.parse(readFileSync(`${dir}/${file}`, "utf8"));
     const journey = file.replace(/\.json$/, "");
     for (const n of bundle.nodes ?? []) {
       nodes.set(n.id, n);

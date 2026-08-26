@@ -32,14 +32,14 @@
  *      address is what a citizen gets.
  */
 
-import { at, readJsonl, sha1 } from "./lib.mjs";
+import { at, GRAPH, readJsonl, RESEARCH, sha1 } from "./lib.mjs";
 import { display, districtIn, districtOf, isPerson, slug, title } from "./places.mjs";
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 
 const FACTS = ".ingest/facts.jsonl";
 const PAGES = ".ingest/pages.jsonl";
-const BUNDLE = "packages/core/src/data/graph/offices.json";
-const RESEARCH = "docs/research/offices.json";
+const BUNDLE = `${GRAPH}/offices.json`;
+const OFFICES_RESEARCH = `${RESEARCH}/offices.json`;
 
 const args = process.argv.slice(2);
 const flag = (name) => args.includes(`--${name}`);
@@ -389,16 +389,16 @@ if (flag("dry")) {
 
 // A run that found nothing must not blank a bundle that had something. Same
 // rule services-compile uses: an empty result is a broken pipeline, not news.
-const before = existsSync(at(BUNDLE)) ? JSON.parse(readFileSync(at(BUNDLE), "utf8")).nodes.length : 0;
+const before = existsSync(BUNDLE) ? JSON.parse(readFileSync(BUNDLE, "utf8")).nodes.length : 0;
 if (nodes.length < before * 0.8) {
   console.error(`\n${nodes.length} office(s) is fewer than the ${before} already written. Nothing written. Check .ingest/facts.jsonl and run again.`);
   process.exit(1);
 }
 
 const forGraph = sources.map(({ cacheFile, scrapedOk, ...rest }) => rest);
-writeFileSync(at(BUNDLE), JSON.stringify({ id: "offices", sources: forGraph, nodes, edges: [], requirementGroups: [], questions: [] }, null, 2) + "\n");
+writeFileSync(BUNDLE, JSON.stringify({ id: "offices", sources: forGraph, nodes, edges: [], requirementGroups: [], questions: [] }, null, 2) + "\n");
 writeFileSync(
-  at(RESEARCH),
+  OFFICES_RESEARCH,
   JSON.stringify({ journey: "offices", researchedAt: today(), region: "Gujarat, India", sources, facts: researchFacts, notFound }, null, 2) + "\n",
 );
 console.log(`\nWrote ${BUNDLE} and ${RESEARCH}. Run pnpm bundles:build, then pnpm graph:validate.`);

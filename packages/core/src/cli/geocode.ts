@@ -1,7 +1,7 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { seedJurisdictions } from "../data/index";
+import { localGraphProvider } from "../data/providers";
 import { addressHash, geocodeQueries, gradeCandidate, reconcileConflict, type GateResult, type GeocodeCandidate } from "../location";
 import type { DerivedLocation, GraphNode } from "../types";
 
@@ -29,7 +29,8 @@ import type { DerivedLocation, GraphNode } from "../types";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(HERE, "../../../..");
-const GRAPH = resolve(ROOT, "packages/core/src/data/graph");
+const graph = localGraphProvider();
+const GRAPH = graph.dir;
 const CACHE = resolve(ROOT, ".ingest/geocode.json");
 const REVIEW = resolve(ROOT, "artifacts/location-review.json");
 
@@ -65,7 +66,7 @@ const option = (name: string) => {
   return at === -1 ? undefined : args[at + 1];
 };
 
-const jurisdictionNames = new Map(seedJurisdictions.map((j) => [j.id, j.name]));
+const jurisdictionNames = new Map(graph.jurisdictions().map((j) => [j.id, j.name]));
 
 // ---------------------------------------------------------------------------
 // Cache

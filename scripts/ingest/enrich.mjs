@@ -31,14 +31,14 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { grounded, id, KINDS, norm, sane } from "./gate.mjs";
-import { at, chat, INGEST, jsonArray, MODELS, pool, readJsonl, REJECTIONS, rejections, replaceStage, sha256, writeJsonl } from "./lib.mjs";
+import { at, chat, INGEST, jsonArray, MODELS, pool, readJsonl, REJECTIONS, rejections, replaceStage, RESEARCH, sha256, writeJsonl } from "./lib.mjs";
 import { loadChunks, tokens } from "./corpus.mjs";
 import { anchorTerms } from "./services-deepen.mjs";
 import { RERANKED, where } from "./rerank.mjs";
 
 const CACHE = INGEST + "enrich/";
 export const CLAIMS = INGEST + "claims.jsonl";
-export const CLAIMS_SUMMARY = "docs/research/claims.json";
+export const CLAIMS_SUMMARY = `${RESEARCH}/claims.json`;
 
 /** Bump to re-read everything. Same contract as the extraction cache key. */
 const PROMPT_VERSION = 1;
@@ -569,7 +569,7 @@ function report(claims, { write = false, rejected = [], runs = [] } = {}) {
 
   if (write) {
     writeFileSync(
-      at(CLAIMS_SUMMARY),
+      CLAIMS_SUMMARY,
       JSON.stringify(
         {
           generatedBy: "pnpm services:enrich",

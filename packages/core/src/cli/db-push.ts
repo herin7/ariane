@@ -1,4 +1,5 @@
-import { seedBundles, seedJurisdictions, validateGraph, loadGraph } from "../data/index";
+import { validateGraph } from "../data/index";
+import { localGraphProvider } from "../data/providers";
 import {
   deleteRows,
   loadFromSupabase,
@@ -9,7 +10,7 @@ import {
 } from "../db/supabase";
 
 /**
- * Load the checked in seed into Supabase, then read it back and check it came
+ * Load the local snapshot into Supabase, then read it back and check it came
  * back the same.
  *
  *   SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... pnpm db:push
@@ -19,9 +20,14 @@ import {
  * because a script that can reshape the schema is a script that can drop a
  * column of government facts on a bad day.
  *
- * The seed is validated before anything is written. Pushing a graph that
+ * The snapshot is validated before anything is written. Pushing a graph that
  * `graph:validate` rejects would put a broken fact in front of a citizen, and
  * the whole point of the database is that it is what citizens read.
+ *
+ * It refuses to run against fixtures. `fixtures/demo` is four invented nodes,
+ * and the difference between "the snapshot is missing" and "the graph is four
+ * nodes about a tree" is one `pnpm data:sync` a maintainer forgot, on the one
+ * command in this repository that overwrites production.
  */
 
 const config = supabaseConfigFromEnv();
@@ -31,9 +37,18 @@ if (!config) {
   process.exit(1);
 }
 
-const problems = validateGraph(loadGraph()).filter((i) => i.severity === "ERROR");
+const graph = localGraphProvider();
+if (graph.origin === "fixture") {
+  console.error("Refusing to push fixtures/demo over the live graph. Run pnpm data:sync first.");
+  process.exit(1);
+}
+
+const seedBundles = graph.bundles();
+const seedJurisdictions = graph.jurisdictions();
+
+const problems = validateGraph(graph.loadSync()).filter((i) => i.severity === "ERROR");
 if (problems.length) {
-  console.error(`Seed has ${problems.length} error(s). Fix them before writing any of it to the database.`);
+  console.error(`Snapshot has ${problems.length} error(s). Fix them before writing any of it to the database.`);
   for (const p of problems) console.error(`  ${p.code} ${p.message}`);
   process.exit(1);
 }

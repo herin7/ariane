@@ -1,4 +1,4 @@
-import { loadGraph } from "../data/index";
+import { loadGraph } from "../data/providers";
 import { resolveIntent } from "../intent";
 import { pickService, bedrockConfigFromEnv, type ServiceChoice } from "../lang/bedrock";
 

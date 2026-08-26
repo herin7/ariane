@@ -1,5 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { loadGraphFrom, seedBundles, seedJurisdictions, validateGraph } from "../data/index";
+import { loadGraphFrom, validateGraph } from "../data/index";
+import { localGraphProvider } from "../data/providers";
+
+const provider = localGraphProvider();
+const seedBundles = provider.bundles();
+const seedJurisdictions = provider.jurisdictions();
 import { jurisdictionRows, toBundles, toJurisdictions, toRows } from "../db/rows";
 
 /**

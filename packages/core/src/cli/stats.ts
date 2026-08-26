@@ -1,4 +1,4 @@
-import { loadGraph } from "../data/index";
+import { loadGraph } from "../data/providers";
 import type { NodeType } from "../types";
 
 const data = loadGraph();

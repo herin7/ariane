@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { loadGraph, validateGraph } from "../data/index";
+import { validateGraph } from "../data/index";
+import { loadGraph } from "../data/providers";
 import { GraphIndex } from "../graph";
 import { GoalNotFoundError, compileJourney } from "../journey";
 import type { CitizenContext, CompiledJourney } from "../types";

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { seedBundles } from "../data/index";
+import { localGraphProvider } from "../data/providers";
 
 /**
  * A regression for a fact that existed and was never shown.
@@ -11,7 +11,7 @@ import { seedBundles } from "../data/index";
  * optional field looks exactly like a source that never printed one.
  */
 
-const offices = seedBundles.flatMap((b) => b.nodes).filter((n) => n.type === "OFFICE");
+const offices = localGraphProvider().bundles().flatMap((b) => b.nodes).filter((n) => n.type === "OFFICE");
 
 describe("an office's opening hours reach the compiler", () => {
   it("has offices with hours at all, so this test cannot pass by being empty", () => {

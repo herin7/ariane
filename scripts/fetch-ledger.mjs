@@ -1,7 +1,7 @@
 /**
  * The answer to "have we already fetched this?"
  *
- *   pnpm fetch:ledger                    # rebuild docs/research/fetch-ledger.json
+ *   pnpm fetch:ledger                    # rebuild .graph/research/fetch-ledger.json
  *   pnpm fetch:ledger --check            # fail if it is stale or a cache file is missing
  *   pnpm fetch:have <url> [url...]       # HAVE or NEED, per url, exit 1 if any NEED
  *
@@ -24,6 +24,7 @@ import { createHash } from "node:crypto";
 import { readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { normalise } from "./lib/url.mjs";
+import { RESEARCH } from "./ingest/lib.mjs";
 
 const root = new URL("../", import.meta.url);
 const at = (p) => fileURLToPath(new URL(p, root));
@@ -40,7 +41,7 @@ const inCorpus = (p) => fileURLToPath(new URL(p, corpusRoot));
 
 /** url -> { url, journeys[], cacheFile, retrievedAt, title, sourceType, fetchFailed } */
 const cited = new Map();
-const researchDir = at("docs/research/");
+const researchDir = `${RESEARCH}/`;
 for (const file of readdirSync(researchDir).filter((f) => f.endsWith(".json"))) {
   const bundle = JSON.parse(readFileSync(researchDir + file, "utf8"));
   const quotedIds = new Set((bundle.facts ?? []).map((f) => f.sourceId));
@@ -145,7 +146,7 @@ const ledger = {
 // --------------------------------------------------------------------- modes
 
 const args = process.argv.slice(2);
-const target = at("docs/research/fetch-ledger.json");
+const target = `${RESEARCH}/fetch-ledger.json`;
 const rendered = JSON.stringify(ledger, null, 2) + "\n";
 
 if (args[0] === "--have") {
@@ -205,7 +206,7 @@ if (args.includes("--check")) {
 }
 
 writeFileSync(target, rendered);
-console.log(`docs/research/fetch-ledger.json written`);
+console.log(`${target} written`);
 console.log(`  ${entries.length} unique urls across ${new Set(entries.flatMap((e) => e.journeys)).size} journeys`);
 console.log(`  ${ledger.cached} cached, ${ledger.missing} missing, ${ledger.noCacheFile} with no cache file, ${ledger.fetchFailed} unfetchable`);
 console.log(`  ${orphans.length} raw pages nobody cites yet`);

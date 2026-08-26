@@ -1,4 +1,4 @@
-import { loadGraph } from "../data/index";
+import { loadGraph } from "../data/providers";
 import { compileJourney } from "../journey";
 import { officeLine, type CompiledJourney, type DocumentRequirement, type Facts } from "../types";
 

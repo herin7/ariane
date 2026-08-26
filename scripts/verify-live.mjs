@@ -4,7 +4,7 @@
  *   pnpm dev          # in one terminal
  *   pnpm verify:live  # in another
  *
- * The unit tests run the compiler in process against the checked in seed.
+ * The unit tests run the compiler in process against a local graph.
  * This runs the whole product over HTTP against whatever the server is
  * actually serving, which on a configured machine is Supabase. Every bug we
  * have shipped so far was one only a real database could find, so this exists
@@ -58,11 +58,13 @@ check("districts come from rows, not an array in a component", districtNames.len
 
 // -------------------------------------------------- every service, cold, over HTTP
 
-// The list of goals to try comes off the seed bundles rather than a hardcoded
+// The list of goals to try comes off the local snapshot rather than a hardcoded
 // array, so a service added tomorrow is verified tomorrow without editing this
 // file. What gets compiled is still whatever the server is serving.
 const { readdir, readFile } = await import("node:fs/promises");
-const dir = new URL("../packages/core/src/data/graph/", import.meta.url);
+const { pathToFileURL } = await import("node:url");
+const { GRAPH } = await import("./ingest/lib.mjs");
+const dir = pathToFileURL(`${GRAPH}/`);
 const found = [];
 for (const file of (await readdir(dir)).filter((f) => f.endsWith(".json"))) {
   const bundle = JSON.parse(await readFile(new URL(file, dir), "utf8"));

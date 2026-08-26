@@ -28,7 +28,7 @@
  */
 import { existsSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
-import { at, INGEST, readJsonl, sha1, writeJsonl } from "./lib.mjs";
+import { at, INGEST, readJsonl, RESEARCH, sha1, writeJsonl } from "./lib.mjs";
 
 export const CHUNKS = INGEST + "chunks.jsonl";
 
@@ -289,7 +289,7 @@ if (isMain && flag("selftest")) {
  * checked against, and nobody checks a quote against raw markup.
  */
 export function handSaved() {
-  const ledger = JSON.parse(readFileSync(at("docs/research/fetch-ledger.json"), "utf8"));
+  const ledger = JSON.parse(readFileSync(`${RESEARCH}/fetch-ledger.json`, "utf8"));
   const seen = new Set(readJsonl(".ingest/pages.jsonl").map((p) => p.url));
   return (ledger.entries ?? ledger)
     .filter((e) => e.status === "CACHED" && e.cacheFile?.startsWith(".firecrawl/") && e.cacheFile.endsWith(".md") && !seen.has(e.url))

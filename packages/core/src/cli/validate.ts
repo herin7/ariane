@@ -1,4 +1,5 @@
-import { loadGraph, validateGraph } from "../data/index";
+import { validateGraph } from "../data/index";
+import { loadGraph } from "../data/providers";
 
 const issues = validateGraph(loadGraph());
 const errors = issues.filter((i) => i.severity === "ERROR");

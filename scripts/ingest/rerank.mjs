@@ -27,13 +27,13 @@
  */
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
-import { at, chat, INGEST, jsonArray, MODELS, pool, readJsonl, sha256, writeJsonl } from "./lib.mjs";
+import { at, chat, INGEST, jsonArray, MODELS, pool, readJsonl, RESEARCH, sha256, writeJsonl } from "./lib.mjs";
 import { loadChunks } from "./corpus.mjs";
 import { EVIDENCE } from "./services-deepen.mjs";
 
 const CACHE = INGEST + "rerank/";
 export const RERANKED = INGEST + "reranked.jsonl";
-export const RERANK_SUMMARY = "docs/research/rerank.json";
+export const RERANK_SUMMARY = `${RESEARCH}/rerank.json`;
 
 /** Bump to re-judge everything. Same contract as the extraction cache key. */
 const PROMPT_VERSION = 3;
@@ -450,7 +450,7 @@ function report(rows, { write = false } = {}) {
 
   if (write) {
     writeFileSync(
-      at(RERANK_SUMMARY),
+      RERANK_SUMMARY,
       JSON.stringify(
         {
           generatedBy: "pnpm evidence:rerank",

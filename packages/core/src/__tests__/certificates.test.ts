@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { loadGraph } from "../data/index";
+import { loadGraph } from "../data/providers";
 import { compileJourney } from "../journey";
 import { officeLine, type CitizenContext, type CompiledJourney } from "../types";
 

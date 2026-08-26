@@ -23,8 +23,8 @@ const at = (p: string) => new URL(`../../../../fixtures/demo/${p}`, import.meta.
 const read = (p: string) => JSON.parse(readFileSync(at(p), "utf8"));
 
 const page = readFileSync(at("source/tree-felling-permit.md"), "utf8");
-const research: { facts: { claim: string; evidence: string; sourceId: string }[]; sources: { id: string; title?: string; cacheFile?: string }[] } = read("research.json");
-const bundle: GraphBundle = read("graph.json");
+const research: { facts: { claim: string; evidence: string; sourceId: string }[]; sources: { id: string; title?: string; cacheFile?: string }[] } = read("research/demo.json");
+const bundle: GraphBundle = read("demo.json");
 const jurisdictions: Jurisdiction[] = read("jurisdictions.json");
 
 /** The comparison `pnpm quotes:audit` uses, so the fixture is held to the real rule. */
@@ -50,7 +50,7 @@ describe("every extracted fact came off the page", () => {
   });
 
   it("records what the page did not say instead of filling it in", () => {
-    expect(read("research.json").notFound.length).toBeGreaterThan(0);
+    expect(read("research/demo.json").notFound.length).toBeGreaterThan(0);
   });
 });
 

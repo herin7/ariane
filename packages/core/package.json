@@ -25,7 +25,7 @@
     "quotes:audit": "tsx src/cli/quotes.ts",
     "coverage": "tsx src/cli/coverage.ts",
     "db:push": "tsx --env-file-if-exists=../../.env src/cli/db-push.ts",
-    "db:pull": "tsx --env-file-if-exists=../../.env src/cli/db-pull.ts",
+    "data:sync": "tsx --env-file-if-exists=../../.env src/cli/data-sync.ts",
     "graph:snapshot": "tsx src/cli/snapshot.ts",
     "intent:eval": "tsx --env-file-if-exists=../../.env src/cli/intent-eval.ts"
   },

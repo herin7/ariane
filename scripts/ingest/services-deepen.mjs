@@ -30,12 +30,12 @@ import { writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { completeness, loadGraph } from "./completeness.mjs";
 import { buildIndex, DIMENSIONS, loadChunks, LexicalRetriever, tokens } from "./corpus.mjs";
-import { appendJsonl, at, INGEST, readJsonl } from "./lib.mjs";
+import { appendJsonl, at, INGEST, readJsonl, RESEARCH } from "./lib.mjs";
 import { queriesFor } from "./queries.mjs";
 import { hostOf, normalise } from "../lib/url.mjs";
 
 export const EVIDENCE = INGEST + "evidence.jsonl";
-export const EVIDENCE_SUMMARY = "docs/research/evidence.json";
+export const EVIDENCE_SUMMARY = `${RESEARCH}/evidence.json`;
 
 /** §28. Two, and the second only runs if the first found nothing. */
 export const MAX_PASSES = 2;
@@ -662,7 +662,7 @@ function report(rows, { write = false } = {}) {
   // rebuilds from committed inputs with no model call and no network. What
   // belongs in a diff is this, which is small and says whether a pass moved.
   if (write) {
-    writeFileSync(at(EVIDENCE_SUMMARY), JSON.stringify({ generatedBy: "pnpm services:deepen", retrievals: rows.length, services: new Set(rows.map((r) => r.serviceId)).size, passages, unanchored, partialNameMatch: loose, noEvidence: empty, byDimension: Object.fromEntries([...byDimension.entries()].map(([d, s]) => [d, s])) }, null, 2) + "\n");
+    writeFileSync(EVIDENCE_SUMMARY, JSON.stringify({ generatedBy: "pnpm services:deepen", retrievals: rows.length, services: new Set(rows.map((r) => r.serviceId)).size, passages, unanchored, partialNameMatch: loose, noEvidence: empty, byDimension: Object.fromEntries([...byDimension.entries()].map(([d, s]) => [d, s])) }, null, 2) + "\n");
     console.log(`\n  ${EVIDENCE_SUMMARY} written`);
   }
 }

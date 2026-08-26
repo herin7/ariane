@@ -32,7 +32,7 @@
  * page, on the other hand, is reliably about one service.
  */
 
-import { at, chat, jsonArray, pool, readJsonl, REJECTIONS, REJECTION_SUMMARY, rejections, replaceStage, sha1, writeJsonl } from "./lib.mjs";
+import { at, chat, GRAPH, jsonArray, pool, readJsonl, REJECTIONS, REJECTION_SUMMARY, rejections, replaceStage, RESEARCH, sha1, writeJsonl } from "./lib.mjs";
 import { display, districtOf, isPerson, slug, title } from "./places.mjs";
 import { norm } from "./gate.mjs";
 import { handSaved } from "./chunks.mjs";
@@ -476,7 +476,7 @@ const JOURNEYS = {
  * journey it is about to emit already exists, and it says so and stops.
  */
 const EXISTING = new Set(
-  readdirSync(at("packages/core/src/data/graph/"))
+  readdirSync(GRAPH)
     .filter((f) => f.endsWith(".json"))
     .map((f) => f.replace(/\.json$/, ""))
     .filter((name) => !Object.hasOwn(JOURNEYS, name)),
@@ -1830,7 +1830,7 @@ for (const name of EXISTING) {
   if (name === "jurisdictions" || name === "manifest") continue;
   let bundle;
   try {
-    bundle = JSON.parse(readFileSync(at(`packages/core/src/data/graph/${name}.json`), "utf8"));
+    bundle = JSON.parse(readFileSync(`${GRAPH}/${name}.json`, "utf8"));
   } catch {
     continue;
   }
@@ -2680,8 +2680,8 @@ for (const [journey, services] of [...journeys.entries()].sort()) {
   }
 
   if (!flag("dry")) {
-    writeFileSync(at(`packages/core/src/data/graph/${journey}.json`), JSON.stringify(graph, null, 1) + "\n");
-    writeFileSync(at(`docs/research/${journey}.json`), JSON.stringify(research, null, 1) + "\n");
+    writeFileSync(`${GRAPH}/${journey}.json`, JSON.stringify(graph, null, 1) + "\n");
+    writeFileSync(`${RESEARCH}/${journey}.json`, JSON.stringify(research, null, 1) + "\n");
   }
   // Whoever declares a node owns it. `document:aadhaar_card` is one document
   // whether welfare-schemes or district-certificates got to it first; the other
@@ -2729,7 +2729,7 @@ for (const row of drops.rows) {
   byReason.set(key, seen);
 }
 writeFileSync(
-  at(REJECTION_SUMMARY),
+  REJECTION_SUMMARY,
   JSON.stringify(
     {
       runId,

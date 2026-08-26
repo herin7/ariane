@@ -7,7 +7,6 @@
     "node": ">=22"
   },
   "scripts": {
-    "postinstall": "node scripts/bundles.mjs",
     "dev": "pnpm --filter @ariane/web dev",
     "mobile": "pnpm --filter @ariane/mobile start",
     "build": "pnpm -r build",
@@ -19,7 +18,7 @@
     "quotes:audit": "pnpm --filter @ariane/core quotes:audit",
     "coverage": "pnpm --filter @ariane/core coverage",
     "db:push": "pnpm --filter @ariane/core db:push",
-    "db:pull": "pnpm --filter @ariane/core db:pull",
+    "data:sync": "pnpm --filter @ariane/core data:sync",
     "verify:live": "node scripts/verify-live.mjs",
     "domains:build": "node scripts/domains.mjs",
     "domains:classify": "node --env-file-if-exists=.env scripts/ingest/domains-classify.mjs",
@@ -30,8 +29,8 @@
     "fetch:ledger": "node scripts/fetch-ledger.mjs",
     "fetch:have": "node scripts/fetch-ledger.mjs --have",
     "graph:snapshot": "pnpm --filter @ariane/core graph:snapshot",
-    "bundles:build": "node scripts/bundles.mjs",
-    "gates": "node scripts/ingest/lib.mjs && node scripts/ingest/domains-classify.mjs --selftest && node scripts/ingest/services-discover.mjs --selftest && node scripts/ingest/services-extract.mjs --selftest && node scripts/ingest/services-compile.mjs --selftest && node scripts/ingest/pdf-extract.mjs --selftest && node scripts/ingest/offices-discover.mjs --selftest && node scripts/ingest/rejections-stats.mjs --selftest && node scripts/ingest/chunks.mjs --selftest && node scripts/ingest/corpus.mjs --selftest && node scripts/ingest/completeness.mjs --selftest && node scripts/ingest/queries.mjs --selftest && node scripts/ingest/services-deepen.mjs --selftest && node scripts/ingest/rerank.mjs --selftest && node scripts/ingest/enrich.mjs --selftest && node scripts/ingest/retrieval-eval.mjs --selftest && node scripts/bundles.mjs --check && node scripts/domains.mjs --check && pnpm typecheck && pnpm test && pnpm graph:validate && pnpm quotes:audit && pnpm coverage --check",
+    "gates": "node scripts/ingest/lib.mjs && node scripts/ingest/domains-classify.mjs --selftest && node scripts/ingest/services-discover.mjs --selftest && node scripts/ingest/services-extract.mjs --selftest && node scripts/ingest/services-compile.mjs --selftest && node scripts/ingest/pdf-extract.mjs --selftest && node scripts/ingest/offices-discover.mjs --selftest && node scripts/ingest/rejections-stats.mjs --selftest && node scripts/ingest/chunks.mjs --selftest && node scripts/ingest/corpus.mjs --selftest && node scripts/ingest/completeness.mjs --selftest && node scripts/ingest/queries.mjs --selftest && node scripts/ingest/services-deepen.mjs --selftest && node scripts/ingest/rerank.mjs --selftest && node scripts/ingest/enrich.mjs --selftest && node scripts/ingest/retrieval-eval.mjs --selftest && node scripts/domains.mjs --check && pnpm typecheck && pnpm test && pnpm graph:validate && pnpm quotes:audit && pnpm coverage --check",
+    "gates:integration": "node scripts/graph-present.mjs && pnpm gates",
     "gates:corpus": "node scripts/fetch-ledger.mjs --check",
     "services:discover": "node --env-file-if-exists=.env scripts/ingest/services-discover.mjs",
     "services:extract": "node --env-file-if-exists=.env scripts/ingest/services-extract.mjs",
