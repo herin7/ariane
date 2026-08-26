@@ -31,6 +31,22 @@ const graph = localGraphProvider();
 const ALL = graph.journeys();
 
 /**
+ * Every source row in the graph, not just the bundle being audited.
+ *
+ * `pushToSupabase` writes one row per URL, so a page cited by two journeys is
+ * stored under whichever one declared it first and comes back in that bundle
+ * alone. `loadGraphFrom` flattens sources across bundles before anything reads
+ * them, so the citation still resolves for a citizen — but checking it against
+ * one bundle reads that round trip as 1121 unsourced claims, and a gate that
+ * cries wolf after `pnpm data:sync` is a gate people learn to skip.
+ *
+ * Whether a citation resolves to a real page is a graph question and is asked
+ * here. Whether its quote was read off that page is this journey's question and
+ * is still asked below, per bundle, against that bundle's research file.
+ */
+const declared = new Set(graph.bundles().flatMap((b) => b.sources).map((s) => s.id));
+
+/**
  * Markdown syntax is not part of what the page said.
  *
  * Research evidence is captured off markdown, so it arrives carrying `**` and
@@ -84,11 +100,10 @@ function auditOne(name: string): number {
   for (const e of journey.edges) collect(`edge ${e.id}`, e.sources);
   for (const g of journey.requirementGroups) collect(`group ${g.id}`, g.sources);
 
-  const declared = new Set(journey.sources.map((s) => s.id));
   const problems: string[] = [];
 
   for (const { where, ref } of refs) {
-    if (!declared.has(ref.sourceId)) problems.push(`${where} cites ${ref.sourceId}, which this journey does not declare`);
+    if (!declared.has(ref.sourceId)) problems.push(`${where} cites ${ref.sourceId}, which no bundle declares`);
     if (!ref.evidence) {
       problems.push(`${where} cites ${ref.sourceId} with no quote at all`);
       continue;

@@ -220,9 +220,18 @@ describe("satisfaction pruning", () => {
       // authored steps because the FAQ prints no numbers and the topological
       // sort had nothing to say. `services-compile.mjs` now refuses a machine
       // step on a service whose sequence a person wrote, which is this list.
-      "payment:driving_licence_fee",
+      //
+      // The fee used to be asserted first here, which is not what production
+      // serves and never was: these four are not numbered against each other
+      // either, so the topological sort falls back to array order, and the two
+      // data planes were handing it two different orders. `loadGraphFrom` now
+      // fixes one order for both, so this is the live answer rather than the
+      // pipeline's. That it is the wrong answer to give a citizen — book the
+      // slot before paying the fee — is a data problem in 124 services, 81 of
+      // them in the first step, and it wants an ordering edge, not a test edit.
       "action:book_driving_test_slot",
       "action:driving_test",
+      "payment:driving_licence_fee",
       "service:driving_licence",
     ]);
     expect(held.summary.stepsRemaining).toBeLessThan(compile().summary.stepsRemaining);

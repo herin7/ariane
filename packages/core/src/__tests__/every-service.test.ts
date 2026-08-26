@@ -142,14 +142,21 @@ describe("the machine cannot shadow a hand written service", () => {
       (p): p is string => Boolean(p),
     );
     for (const phrase of phrases) {
-      it(`"${phrase}" still resolves to a hand written service`, () => {
-        // Not to *this* service. "sebc certificate" is the name of one hand
-        // written service and an alias of another, and which one wins is an
-        // overlap two people left in the seed, not a thing the machine broke.
-        // What must never happen is a machine extracted service answering.
-        const winner = data.nodes.find((n) => n.id === compile(phrase).goal);
-        expect(winner?.metadata?.machineExtracted).toBeFalsy();
-      });
+      it(
+        `"${phrase}" still resolves to a hand written service`,
+        () => {
+          // Not to *this* service. "sebc certificate" is the name of one hand
+          // written service and an alias of another, and which one wins is an
+          // overlap two people left in the seed, not a thing the machine broke.
+          // What must never happen is a machine extracted service answering.
+          const winner = data.nodes.find((n) => n.id === compile(phrase).goal);
+          expect(winner?.metadata?.machineExtracted).toBeFalsy();
+        },
+        // One resolve against 556 services and every alias they carry is ~2s,
+        // which is under the 5s default right up until the machine is busy, and
+        // then this file fails on a stopwatch and reads like the graph broke.
+        20_000,
+      );
     }
   }
 });

@@ -2,7 +2,7 @@ import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import type { GraphData, Jurisdiction } from "../types";
-import { journeysOf, loadGraphFrom, type GraphBundle } from "./index";
+import { loadGraphFrom, type GraphBundle } from "./index";
 
 /**
  * Where the graph comes from, said out loud.
@@ -130,11 +130,10 @@ function localProvider(origin: GraphOrigin, describe: string, dir: string): Loca
     },
     loadSync() {
       const { named, jurisdictions } = read();
-      const bundles = named.map((n) => n.bundle);
-      // Journeys first, template packs last. `dedupeQuestions` is first-wins, so
-      // this order is what a citizen is asked, and it has to be the same order
-      // every run on every machine rather than whatever readdir felt like.
-      return loadGraphFrom([...journeysOf(bundles), ...bundles.filter((b) => b.edgeTemplates?.length)], jurisdictions);
+      // Order is `loadGraphFrom`'s to decide, not readdir's and not this
+      // provider's: it is the same decision for a directory and for a database,
+      // and two copies of it is how the two planes came to disagree.
+      return loadGraphFrom(named.map((n) => n.bundle), jurisdictions);
     },
     async load() {
       return this.loadSync();

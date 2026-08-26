@@ -45,7 +45,40 @@ export interface GraphBundle {
  */
 export const journeysOf = (bundles: GraphBundle[]): GraphBundle[] => bundles.filter((b) => !b.edgeTemplates?.length);
 
-export function loadGraphFrom(bundles: GraphBundle[], jurisdictions: Jurisdiction[]): GraphData {
+/**
+ * Everything in one order, whichever plane the rows arrived on.
+ *
+ * Array order is not cosmetic here. The compiler's topological sort has no rule
+ * for two steps a source never numbered against each other, so it falls back to
+ * the order it was handed — which means the order of these arrays is part of
+ * what a citizen is told to do first.
+ *
+ * The two planes hand it different orders. `readAll` in `../db/supabase` reads
+ * every table with `.order(id)`, so a graph from Postgres arrives sorted by id.
+ * A `.graph` built by the ingest pipeline arrives in pipeline order. Same rows,
+ * two answers, and `pnpm gates:integration` was asserting the one production
+ * does not serve.
+ *
+ * So ordering is decided once, here, rather than by whichever provider ran:
+ * bundles journeys-first and template-packs-last (`dedupeBy` is first-wins, so
+ * that is which duplicate question a citizen is asked), rows inside a bundle by
+ * id. `localeCompare` and not a code point sort because Postgres is the plane
+ * being matched and it collates `_` and `:` differently — of the 54 populated
+ * arrays in the live graph, all 54 match locale order and only 35 match code
+ * point order.
+ *
+ * This canonicalises, it does not re-rank: it is a no-op on rows that came from
+ * Postgres, which is the plane citizens are served from.
+ *
+ * ponytail: array order as the tie-break is the actual problem, and 124 services
+ * compile the same step set in an order that depends on it. The fix is data — an
+ * ordering edge, so the tie stops being a tie — and it changes which step 81
+ * services name first, so it is a product decision and not this pass's.
+ */
+export function loadGraphFrom(rawBundles: GraphBundle[], jurisdictions: Jurisdiction[]): GraphData {
+  const packs = rawBundles.filter((b) => b.edgeTemplates?.length);
+  const bundles = [...byId(journeysOf(rawBundles)), ...byId(packs)].map(canonical);
+
   const nodes = bundles.flatMap((b) => b.nodes);
   const templates = bundles.flatMap((b) => b.edgeTemplates ?? []);
   const services = nodes.filter((n) => n.type === "SERVICE");
@@ -62,6 +95,19 @@ export function loadGraphFrom(bundles: GraphBundle[], jurisdictions: Jurisdictio
     questions: dedupeBy(bundles.flatMap((b) => b.questions), (q) => q.field),
   };
 }
+
+const byId = <T extends { id: string }>(rows: T[]): T[] => [...rows].sort((a, b) => a.id.localeCompare(b.id));
+
+/** One bundle's rows in id order. `questions` is keyed by field, as it is in the database. */
+const canonical = (b: GraphBundle): GraphBundle => ({
+  ...b,
+  sources: byId(b.sources),
+  nodes: byId(b.nodes),
+  edges: byId(b.edges),
+  requirementGroups: byId(b.requirementGroups),
+  questions: [...b.questions].sort((a, z) => a.field.localeCompare(z.field)),
+  edgeTemplates: b.edgeTemplates && byId(b.edgeTemplates),
+});
 
 /**
  * The database backed loader lives in `../server`, not here, and is reached
