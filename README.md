@@ -286,9 +286,9 @@ is missing. See NOTICE.
 
 ## Contributing
 
-[CONTRIBUTING.md](CONTRIBUTING.md). The short version: no government fact in
-TypeScript, every claim points at evidence, and never commit raw pages, model
-caches or credentials.
+Three rules: no government fact in TypeScript, every claim points at evidence,
+and never commit raw pages, model caches or credentials. `pnpm gates` enforces
+the first two and `.gitignore` the third.
 
 ## License
 
