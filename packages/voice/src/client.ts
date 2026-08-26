@@ -17,6 +17,12 @@ import type { SpeakableFact, ToolResult } from "./types";
 
 export type VoiceState = "idle" | "connecting" | "listening" | "speaking" | "ended" | "error";
 
+/** A journey projection, as opposed to any of the other tool results. */
+const isJourney = (data: unknown): boolean =>
+  typeof data === "object" &&
+  data !== null &&
+  typeof (data as { service?: { name?: unknown } }).service?.name === "string";
+
 export interface VoiceHandlers {
   onState?: (state: VoiceState) => void;
   /** Assistant's own words, as it says them. Only shown; never stored by us. */
@@ -158,11 +164,25 @@ export class VoiceClient {
 
     // One audio element, created here rather than expected in the DOM, so
     // mounting this in a page is a component and not a checklist.
+    //
+    // Attached, though, and that is not cosmetic: Safari will not play a
+    // MediaStream from an element outside the document and Chrome is
+    // inconsistent about it. A detached element connects, negotiates, receives
+    // the track and plays nothing, which is indistinguishable from a model that
+    // never answered.
     const audio = document.createElement("audio");
     audio.autoplay = true;
+    audio.hidden = true;
+    document.body.appendChild(audio);
     this.audio = audio;
     pc.ontrack = (event) => {
       audio.srcObject = event.streams[0] ?? null;
+    };
+
+    // A failed ICE negotiation is otherwise silent, and silence is the one
+    // symptom this whole file cannot afford to have two causes for.
+    pc.onconnectionstatechange = () => {
+      if (pc.connectionState === "failed") this.fail("The voice connection dropped");
     };
 
     for (const track of this.mic?.getTracks() ?? []) pc.addTrack(track, this.mic!);
@@ -171,6 +191,22 @@ export class VoiceClient {
     this.channel = channel;
     channel.onmessage = (event) => {
       void this.onServerEvent(event.data as string);
+    };
+
+    /**
+     * Ariane speaks first.
+     *
+     * The realtime model waits for the caller by default, so without this the
+     * line connects and then sits there. On a phone that reads as a dead line,
+     * and the person hangs up before they have said the thing we could have
+     * helped with. What it says is the system prompt's business, including the
+     * consent line; this only decides that there is an opening turn at all.
+     */
+    channel.onopen = () => {
+      this.send({
+        type: "response.create",
+        response: { instructions: "Greet the caller in one short sentence and ask what they need help with." },
+      });
     };
 
     const offer = await pc.createOffer();
@@ -191,7 +227,9 @@ export class VoiceClient {
       headers: { authorization: `Bearer ${session.clientSecret}`, "content-type": "application/sdp" },
       body: offer.sdp,
     });
-    if (!answer.ok) throw new Error("Could not reach the voice service");
+    // The status is the whole diagnosis when this fails: 401 is a dead
+    // credential, 404 a deployment name that does not exist on the resource.
+    if (!answer.ok) throw new Error(`Could not reach the voice service (${answer.status})`);
 
     await pc.setRemoteDescription({ type: "answer", sdp: await answer.text() });
   }
@@ -207,6 +245,18 @@ export class VoiceClient {
     } catch {
       return;
     }
+
+    /**
+     * Every event type, on the debug channel and nothing else.
+     *
+     * A realtime call that goes quiet has half a dozen possible causes and no
+     * server-side trace: the SDP handshake, the microphone, turn detection, the
+     * model, the tool round trip. The type alone separates them - a call with no
+     * `input_audio_buffer.speech_started` never heard the caller, and one with
+     * no `response.created` after it heard them but chose not to answer. The
+     * event bodies carry what the caller said, so only the type is logged. §19.
+     */
+    if (typeof console !== "undefined") console.debug("[voice]", event.type);
 
     switch (event.type) {
       case "response.output_audio_transcript.delta":
@@ -269,7 +319,13 @@ export class VoiceClient {
 
     if (result.ok) {
       this.grounding = [...this.grounding, ...result.grounding];
-      this.options.onJourney?.(result.data);
+      // Only some tools return a journey. `resolve_need` returns candidate
+      // services, `save_preference` a status, `forget_my_data` a receipt - and
+      // a panel handed one of those reads `.service.name` of undefined, which
+      // in React is not a blank card but the whole page gone. The shape is
+      // checked rather than the tool name because the broker owns the shapes
+      // and this file is not allowed to know which tool is which.
+      if (isJourney(result.data)) this.options.onJourney?.(result.data);
     }
     this.options.onTool?.(name, result);
 
