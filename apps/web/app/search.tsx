@@ -1,10 +1,25 @@
 "use client";
 
 import type { IntentMatch } from "@ariane/core";
+import dynamic from "next/dynamic";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { track } from "./analytics";
-import { IGNITION_MS, Ignition } from "./ignition";
+import { IGNITION_MS } from "./ignition-beats";
+
+/**
+ * The overlay arrives with its own animation engine, so it arrives separately.
+ *
+ * It only ever renders after a submit, and it is warmed the moment the box is
+ * focused, which is seconds before anyone finishes typing a sentence. Keeping
+ * it out of the landing page's first load is worth more than those seconds:
+ * this is the page people reach on a phone, on a train, on a bad connection.
+ *
+ * `IGNITION_MS` comes from the data module instead, because the floor it puts
+ * under the request has to be known here without any of that coming along.
+ */
+const Ignition = dynamic(() => import("./ignition").then((m) => m.Ignition), { ssr: false });
+const warmIgnition = () => void import("./ignition");
 
 export function Search() {
   const router = useRouter();
@@ -96,6 +111,10 @@ export function Search() {
             className="grow"
             value={text}
             onChange={(e) => setText(e.target.value)}
+            // Focusing the box is the earliest honest signal that a search is
+            // coming. Fetching the overlay now means it is already in memory
+            // when the sentence is finished, rather than a gap after submit.
+            onFocus={warmIgnition}
             placeholder="I need to renew my driving licence"
             aria-label="What do you need to get done?"
             autoComplete="off"
