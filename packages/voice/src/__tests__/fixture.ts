@@ -132,6 +132,15 @@ export function harness(): Harness {
     graph: async () => GRAPH,
     // The real chain's first pass, without the two that hold API keys.
     resolveNeed: async (graph, text) => ({ matches: resolveIntent(graph, text) }),
+    /**
+     * `planGoals` without the model. Which services a life event opens is the
+     * model's half and is tested in core; the broker's half is the merge and
+     * the refusal, so this returns everything, or nothing when asked to.
+     */
+    planNeed: async (graph, text) => ({
+      goals: /nothing/i.test(text) ? [] : graph.nodes.filter((n) => n.type === "SERVICE").map((n) => n.id),
+      title: "Everything at once",
+    }),
   });
 
   let n = 0;

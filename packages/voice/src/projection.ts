@@ -1,4 +1,4 @@
-import { officeLine, type CompiledJourney, type IntentMatch, type JourneyStep } from "@ariane/core";
+import { officeLine, type CompiledJourney, type CompiledPlan, type IntentMatch, type JourneyStep } from "@ariane/core";
 import type { SpeakableFact } from "./types";
 
 /**
@@ -220,6 +220,109 @@ function addStepFacts(step: JourneyStep, add: (fact: SpeakableFact) => void): vo
   for (const [i, line] of (step.couldBlock ?? []).slice(0, 3).entries()) {
     add({ claimId: `couldBlock:${step.nodeId}:${i}`, text: line, sourceId, ...flag });
   }
+}
+
+/** A life event, cut down the same way a journey is. */
+export interface VoicePlan {
+  /** So the screen can tell a plan from a journey without knowing the tool. */
+  kind: "PLAN";
+  title: string;
+  jurisdiction: string;
+  /** One sentence: how many services, how much to do, how many visits. */
+  summary: string;
+  services: { id: string; name: string; after: string[] }[];
+  /** The whole checklist, in order, for the panel to draw. Titles only. */
+  checklist: { order: number; stepId: string; title: string; forService: string; alsoFor: string[] }[];
+  nextBestAction?: { stepId: string; title: string; whatToDo?: string };
+  nextQuestion?: VoiceQuestion;
+  documents: { neededCount: number; mostImportantMissing?: string; needed: string[] };
+  offices: { name: string; line: string }[];
+  /** Named, never silently dropped: a plan one service short reads complete. */
+  unknownGoals: string[];
+  unverified: boolean;
+  speakableFacts: SpeakableFact[];
+}
+
+/**
+ * How many checklist lines cross into a voice payload.
+ *
+ * Higher than `SPOKEN_LIST_CAP` because this one is drawn on a screen as well
+ * as spoken, and a plan whose panel stops at six steps is a plan that looks
+ * finished four steps early. The model is still told to say the count and read
+ * one line, which is what `summary` and `nextBestAction` are for.
+ */
+const PLAN_LIST_CAP = 20;
+
+/**
+ * A compiled plan, for a phone call and the panel beside it.
+ *
+ * Same discipline as `projectJourney`: everything here is a claim the model may
+ * make and nothing else is. The extra thing a plan can say, and the reason it
+ * exists, is which service each line belongs to and which two services one line
+ * covers at once.
+ */
+export function projectPlan(plan: CompiledPlan, title: string): VoicePlan {
+  const facts: SpeakableFact[] = [];
+  const add = (fact: SpeakableFact) => {
+    if (fact.text.trim()) facts.push(fact);
+  };
+
+  for (const track of plan.tracks) {
+    add({ claimId: `service:${track.goal}`, text: track.goalName });
+  }
+
+  const pending = plan.checklist.filter((i) => i.step.state !== "SATISFIED" && i.step.state !== "COMPLETED");
+  const next = pending[0];
+  if (next) addStepFacts(next.step, add);
+
+  for (const doc of plan.documents.slice(0, SPOKEN_LIST_CAP)) {
+    add({ claimId: `document:${doc.nodeId}`, text: doc.name, sourceId: firstSource(doc) });
+  }
+  for (const office of plan.offices.slice(0, 3)) {
+    add({ claimId: `office:${office.nodeId}`, text: officeLine(office), sourceId: firstSource(office) });
+  }
+
+  const question = plan.questions[0];
+  const visits = plan.offices.length;
+
+  return {
+    kind: "PLAN",
+    title,
+    jurisdiction: plan.jurisdiction.name,
+    summary:
+      `${plan.tracks.length} service${plan.tracks.length === 1 ? "" : "s"}, ` +
+      `${pending.length} thing${pending.length === 1 ? "" : "s"} to do, ` +
+      `${plan.documents.length} document${plan.documents.length === 1 ? "" : "s"}` +
+      (visits ? `, ${visits} office${visits === 1 ? "" : "s"} to visit` : ""),
+    services: plan.tracks.map((t) => ({ id: t.goal, name: t.goalName, after: t.after })),
+    checklist: plan.checklist.slice(0, PLAN_LIST_CAP).map((item) => ({
+      order: item.order,
+      stepId: item.step.nodeId,
+      title: item.step.title,
+      forService: item.goalName,
+      alsoFor: item.alsoFor,
+    })),
+    nextBestAction: next
+      ? { stepId: next.step.nodeId, title: next.step.title, whatToDo: next.step.whatToDo ?? next.step.description }
+      : undefined,
+    nextQuestion: question
+      ? {
+          id: question.field,
+          prompt: question.label,
+          inputType: question.inputType,
+          ...(question.options ? { options: question.options.map((o) => o.label).slice(0, SPOKEN_LIST_CAP) } : {}),
+        }
+      : undefined,
+    documents: {
+      neededCount: plan.documents.length,
+      mostImportantMissing: plan.documents[0]?.name,
+      needed: plan.documents.slice(0, SPOKEN_LIST_CAP).map((d) => d.name),
+    },
+    offices: plan.offices.slice(0, 3).map((o) => ({ name: o.name, line: officeLine(o) })),
+    unknownGoals: plan.unknownGoals,
+    unverified: plan.unverified,
+    speakableFacts: facts,
+  };
 }
 
 /**

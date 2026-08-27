@@ -65,6 +65,9 @@ describe("§19: the eleven things people try", () => {
     expect([...VOICE_TOOLS].sort()).toEqual(
       [
         "answer_question",
+        // Free text in, ids that already exist out, and nothing written. Same
+        // surface as resolve_need, several services at a time.
+        "build_plan",
         "explain_step",
         "forget_my_data",
         "get_current_journey",

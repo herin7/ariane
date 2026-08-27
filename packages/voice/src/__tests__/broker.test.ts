@@ -108,6 +108,43 @@ describe("a call that goes well", () => {
     expect(session.citizenId).toBeUndefined();
   });
 
+  it("turns a life event into one checklist across several services", async () => {
+    const h = harness();
+    const session = await h.open();
+
+    const built = await h.call(session, "build_plan", { utterance: "I am starting a business" });
+    expect(built.ok).toBe(true);
+    if (!built.ok) return;
+
+    const plan = built.data as {
+      services: { id: string }[];
+      checklist: { stepId: string; alsoFor: string[] }[];
+      documents: { needed: string[] };
+    };
+    expect(plan.services.map((s) => s.id)).toEqual(["service:income_certificate", "service:caste_certificate"]);
+
+    // Both services want an Aadhaar. The whole point of a plan is that this is
+    // one thing the citizen fetches once, not the same line twice.
+    const ids = plan.checklist.map((i) => i.stepId);
+    expect(new Set(ids).size).toBe(ids.length);
+    expect(plan.documents.needed.filter((d) => d === "Aadhaar card")).toHaveLength(1);
+
+    // The goals stay on the session, never the compiled plan: the graph is the
+    // truth and it may have changed by the caller's next turn.
+    expect(session.activePlan?.goals).toEqual(["service:income_certificate", "service:caste_certificate"]);
+  });
+
+  it("says so rather than calling one service a plan", async () => {
+    const h = harness();
+    const session = await h.open();
+
+    const built = await h.call(session, "build_plan", { utterance: "nothing at all" });
+    expect(built.ok).toBe(false);
+    if (built.ok) return;
+    expect(built.code).toBe("NOT_FOUND");
+    expect(session.activePlan).toBeUndefined();
+  });
+
   it("gives the screen the same compile the model is working from", async () => {
     const h = harness();
     const session = await h.open();

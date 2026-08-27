@@ -112,11 +112,43 @@ function resolve(answer: string | undefined, candidates: ServiceChoice[]): strin
 export async function pickService(
   text: string,
   candidates: ServiceChoice[],
-  options: { config?: BedrockConfig; timeoutMs?: number; fetchImpl?: typeof fetch } = {},
+  options: BedrockCall = {},
 ): Promise<string | undefined> {
   const query = text.trim();
+  if (!query || !candidates.length) return undefined;
+
+  const answer = await bedrockChat(
+    [
+      { role: "system", content: SYSTEM },
+      { role: "user", content: `Services available:\n${catalogue(candidates)}\n\nCitizen said: ${query}\n\nWhich id?` },
+    ],
+    options,
+  );
+  return resolve(answer, candidates);
+}
+
+export interface BedrockCall {
+  config?: BedrockConfig;
+  timeoutMs?: number;
+  maxTokens?: number;
+  fetchImpl?: typeof fetch;
+}
+
+/**
+ * One chat completion, or undefined.
+ *
+ * Extracted from `pickService` when a second caller appeared, and undefined
+ * still covers every failure the same way: no credentials, no model access, a
+ * timeout, a refusal, a body in a shape we did not expect. Every caller of this
+ * has to have an answer for "the model said nothing", because that is a normal
+ * Tuesday, and one that throws instead would be a page of five hundreds.
+ */
+export async function bedrockChat(
+  messages: { role: string; content: string }[],
+  options: BedrockCall = {},
+): Promise<string | undefined> {
   const config = options.config ?? bedrockConfigFromEnv();
-  if (!query || !config || !candidates.length) return undefined;
+  if (!config) return undefined;
 
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), options.timeoutMs ?? 6000);
@@ -134,22 +166,16 @@ export async function pickService(
         model: config.model,
         // Generous, because several models in this catalogue think out loud
         // first and return an empty message if you cut them off mid thought.
-        max_tokens: 800,
+        max_tokens: options.maxTokens ?? 800,
         temperature: 0,
-        messages: [
-          { role: "system", content: SYSTEM },
-          {
-            role: "user",
-            content: `Services available:\n${catalogue(candidates)}\n\nCitizen said: ${query}\n\nWhich id?`,
-          },
-        ],
+        messages,
       }),
     });
 
     if (!response.ok) return undefined;
 
     const body = (await response.json()) as { choices?: { message?: { content?: string } }[] };
-    return resolve(body.choices?.[0]?.message?.content, candidates);
+    return body.choices?.[0]?.message?.content;
   } catch {
     return undefined;
   } finally {

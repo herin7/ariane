@@ -53,12 +53,23 @@ const isJourney = (data: unknown): boolean =>
   data !== null &&
   typeof (data as { service?: { name?: unknown } }).service?.name === "string";
 
+/** A plan projection. Tagged rather than sniffed, because a plan has no `service`. */
+const isPlan = (data: unknown): boolean =>
+  typeof data === "object" && data !== null && (data as { kind?: unknown }).kind === "PLAN";
+
 export interface VoiceHandlers {
   onState?: (state: VoiceState) => void;
   /** Assistant's own words, as it says them. Only shown; never stored by us. */
   onTranscript?: (text: string, final: boolean) => void;
   /** Every projected journey the broker returned, for the screen to render. */
   onJourney?: (journey: unknown) => void;
+  /** The same, for a life event that turned into several services. */
+  onPlan?: (plan: unknown) => void;
+  /**
+   * Every tool call, as it is answered. What the screen draws from this is a
+   * report of work already done on the server: nothing here decides anything,
+   * and a caller editing it in devtools changes what one person sees.
+   */
   onTool?: (name: string, result: ToolResult) => void;
   onError?: (message: string) => void;
   /** Place in line while waiting, and undefined the moment the wait is over. */
@@ -627,6 +638,7 @@ export class VoiceClient {
       // checked rather than the tool name because the broker owns the shapes
       // and this file is not allowed to know which tool is which.
       if (isJourney(result.data)) this.options.onJourney?.(result.data);
+      else if (isPlan(result.data)) this.options.onPlan?.(result.data);
     }
     this.options.onTool?.(name, result);
 

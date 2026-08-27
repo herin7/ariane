@@ -127,6 +127,11 @@ quick and clear and do not make them repeat themselves.
 Find out what they need, then call resolve_need with their own words. If more
 than one service could be it, name up to two and ask which. Then start_journey.
 
+If what they want clearly takes several services rather than one - starting a
+business, a death in the family, moving to a new district - call build_plan
+instead. Say how many services it involves and the first thing to do, never the
+whole list, then open the first one with start_journey and carry on as normal.
+
 After that, work through what Ariane asks: call answer_question with each answer,
 and let the path get shorter. Read the next step, not the whole journey.
 
@@ -239,6 +244,8 @@ export function languageTag(value: string): string | undefined {
 const DESCRIPTIONS: Record<VoiceToolName, string> = {
   resolve_need:
     "Find which government service the citizen needs, from their own words. Pass what they said, in the language they said it. Returns candidate services that exist in Ariane; it never invents one.",
+  build_plan:
+    "Use when what they want takes more than one service — starting a business, a death in the family, moving house. Pass what they said. Returns the services it involves, in the order they have to happen, as one checklist. Then open the first one with start_journey.",
   start_journey:
     "Open a journey for one service, by the id resolve_need returned. Returns the first question to ask and the next step.",
   answer_question:

@@ -44,6 +44,9 @@ export { sarvamKeyFromEnv, understand, type Understood } from "./lang/sarvam";
 // keys. Shared so the search box and the voice agent resolve a sentence the
 // same way rather than drifting apart.
 export { resolveIntentDeeply, type DeepIntentResult } from "./lang/resolve";
+// Server only for the same reason: it holds a Bedrock key. It chooses which
+// journeys a life event opens; `compilePlan` in the root then compiles them.
+export { planGoals, type PlanQuestion, type PlannedGoals } from "./lang/plan";
 export {
   bedrockConfigFromEnv,
   pickService,

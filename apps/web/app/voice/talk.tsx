@@ -36,6 +36,41 @@ interface VoiceJourney {
   unverified: boolean;
 }
 
+/** A life event, several services deep. `projectPlan` in `@ariane/voice`. */
+interface VoicePlan {
+  title: string;
+  jurisdiction: string;
+  summary: string;
+  services: { id: string; name: string; after: string[] }[];
+  checklist: { order: number; stepId: string; title: string; forService: string; alsoFor: string[] }[];
+  documents: { neededCount: number; needed: string[] };
+  offices: { name: string; line: string }[];
+  unknownGoals: string[];
+  unverified: boolean;
+}
+
+/**
+ * What each tool is doing, in the citizen's words rather than ours.
+ *
+ * The names are the model's API surface and mean nothing to the person on the
+ * phone. This is the only place they are translated, and it is presentation:
+ * a tool missing from here still runs, it just does not narrate itself.
+ */
+const DOING: Record<string, string> = {
+  resolve_need: "Looking through Gujarat's services",
+  build_plan: "Working out everything this involves",
+  start_journey: "Opening the path",
+  answer_question: "Shortening the path with your answer",
+  get_current_journey: "Checking where you are",
+  explain_step: "Reading that step",
+  save_preference: "Remembering that for next time",
+  forget_my_data: "Erasing everything saved about you",
+  resume_journey: "Bringing up what you had started",
+};
+
+/** How many lines of work stay on screen. Past four it is a log, not a signal. */
+const ACTS_SHOWN = 4;
+
 const LABEL: Record<VoiceState, string> = {
   idle: "Talk to Ariane",
   queued: "Waiting for a line",
@@ -57,6 +92,8 @@ export function TalkToAriane({ district }: { district?: string }) {
   const [muted, setMuted] = useState(false);
   const [said, setSaid] = useState("");
   const [journey, setJourney] = useState<VoiceJourney>();
+  const [plan, setPlan] = useState<VoicePlan>();
+  const [acts, setActs] = useState<{ id: number; label: string; ok: boolean }[]>([]);
   const [problem, setProblem] = useState<string>();
   const [place, setPlace] = useState<QueuePlace>();
   const [left, setLeft] = useState<number>();
@@ -109,11 +146,22 @@ export function TalkToAriane({ district }: { district?: string }) {
     setProblem(undefined);
     setLimit(undefined);
     setSaid("");
+    setActs([]);
     const voice = new VoiceClient({
       jurisdiction: { country: "IN", state: "GJ", ...(district ? { district } : {}) },
       onState: setState,
       onTranscript: (text) => setSaid(text),
       onJourney: (data) => setJourney(data as VoiceJourney),
+      onPlan: (data) => setPlan(data as VoicePlan),
+      // Only tools we have words for. A name with no entry in DOING is one
+      // somebody added without deciding what a citizen should be told it means,
+      // and a raw `save_preference` on screen is worse than silence.
+      onTool: (name, result) =>
+        setActs((current) =>
+          DOING[name]
+            ? [{ id: current.length, label: DOING[name] as string, ok: result.ok }, ...current].slice(0, ACTS_SHOWN)
+            : current,
+        ),
       onQueue: setPlace,
       onTime: setLeft,
       onLimit: setLimit,
@@ -198,6 +246,18 @@ export function TalkToAriane({ district }: { district?: string }) {
         {said || (live ? "Say what you need to get done." : "Ask in Gujarati, Hindi or English.")}
       </p>
 
+      {/* What Ariane is doing, while it is doing it. A pause on a government
+          line is normally indistinguishable from a line that has died. */}
+      {acts.length > 0 && live && (
+        <ul className={styles.acts} aria-live="polite" aria-label="What Ariane is doing">
+          {acts.map((act) => (
+            <li key={act.id} className={styles.act} data-ok={act.ok}>
+              {act.ok ? act.label : `${act.label} — could not just now`}
+            </li>
+          ))}
+        </ul>
+      )}
+
       {/* §17, and before the first call rather than after it. Two sentences,
           not a legal modal: audio is not kept, text may be, do not read out
           numbers you would not put in an email. */}
@@ -215,6 +275,70 @@ export function TalkToAriane({ district }: { district?: string }) {
         <p className="small" role="status" style={{ color: "var(--bad)" }}>
           {problem}
         </p>
+      )}
+
+      {/* The plan, drawn while it is being spoken. The voice says the count and
+          the first thing to do; the screen is where the other eleven lines can
+          live without anybody having to hold them in their head. */}
+      {plan && (
+        <div className="card">
+          <div className="row" style={{ justifyContent: "space-between" }}>
+            <strong>{plan.title}</strong>
+            <span className="small faint">{plan.jurisdiction}</span>
+          </div>
+          <p className="small muted" style={{ margin: "6px 0 0" }}>
+            {plan.summary}
+          </p>
+
+          <div className="row" style={{ gap: 6, marginTop: 10 }}>
+            {plan.services.map((s) => (
+              <span key={s.id} className="tag accent">
+                {s.name}
+              </span>
+            ))}
+          </div>
+
+          <div style={{ marginTop: 12 }}>
+            {plan.checklist.map((item) => (
+              <div key={item.stepId} className={styles.line}>
+                <b>{item.order}</b>
+                <span>
+                  {item.title}
+                  <span className="small faint">
+                    {" "}
+                    · {item.forService}
+                    {item.alsoFor.length ? ` and ${item.alsoFor.join(", ")}` : ""}
+                  </span>
+                </span>
+              </div>
+            ))}
+          </div>
+
+          {plan.offices.length > 0 && (
+            <p className="small muted" style={{ margin: "10px 0 0" }}>
+              Where you will have to go: {plan.offices.map((o) => o.name).join(", ")}.
+            </p>
+          )}
+
+          {/* A plan one service short reads exactly like a complete one, so the
+              gap is on screen rather than only in the payload. */}
+          {plan.unknownGoals.length > 0 && (
+            <p className="small" style={{ color: "var(--warn)", margin: "10px 0 0" }}>
+              {plan.unknownGoals.length} part{plan.unknownGoals.length === 1 ? " is" : "s are"} not mapped yet and{" "}
+              {plan.unknownGoals.length === 1 ? "is" : "are"} not on this list.
+            </p>
+          )}
+
+          {plan.unverified && (
+            <p className="small" style={{ color: "var(--warn)", margin: "10px 0 0" }}>
+              Parts of this were read by machine and not yet checked by a person.
+            </p>
+          )}
+
+          <a className="small" href={`/plan?q=${encodeURIComponent(plan.title)}`}>
+            Open this plan, with the map
+          </a>
+        </div>
       )}
 
       {journey && (

@@ -340,7 +340,7 @@ function Summary({ journey }: { journey: CompiledJourney }) {
   );
 }
 
-function Question({ question, onAnswer }: { question: DerivedQuestion; onAnswer: (value: unknown) => void }) {
+export function Question({ question, onAnswer }: { question: DerivedQuestion; onAnswer: (value: unknown) => void }) {
   const [draft, setDraft] = useState("");
 
   return (
@@ -428,7 +428,7 @@ function trust(step: JourneyStep) {
   return { tone: "", label: "Not verified yet" };
 }
 
-function Step({ step, held, onHave }: { step: JourneyStep; held: string[]; onHave: (id: string) => void }) {
+export function Step({ step, held, onHave }: { step: JourneyStep; held: string[]; onHave: (id: string) => void }) {
   const tone =
     step.state === "BLOCKED" ? "bad" : step.state === "WAITING_EXTERNAL" ? "warn" : step.state === "SATISFIED" ? "good" : "";
   const mark = trust(step);

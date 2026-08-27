@@ -5,6 +5,7 @@
  *   pnpm services:discover --limit 10      # a taste
  *   pnpm services:discover --host iora.gujarat.gov.in
  *   pnpm services:discover --score         # rescore what is cached, no network
+ *   pnpm services:discover --cap 20000     # how many urls may enter the queue
  *   pnpm services:discover --selftest      # the scorer, no network
  *
  * 384 named hosts. Sitemaps are a dead end on this estate (measured: robots.txt
@@ -46,7 +47,6 @@ const URLS = ".ingest/urls.jsonl";
 const CONCURRENCY = 4;
 /** A host that fails this many times is a host for another day, not a loop. */
 const MAX_ATTEMPTS = 3;
-const PAGE_CAP = 3000;
 const THRESHOLD = 4;
 
 const args = process.argv.slice(2);
@@ -55,6 +55,13 @@ const value = (name, fallback) => {
   const i = args.indexOf(`--${name}`);
   return i >= 0 && args[i + 1] ? args[i + 1] : fallback;
 };
+
+/**
+ * How many scoring urls are allowed into the fetch queue. 3000 was the agreed
+ * ceiling for the first pass and it cut 2985 urls that had cleared the
+ * threshold; `--cap` raises it when there is budget to read them.
+ */
+const PAGE_CAP = Number(value("cap", 3000));
 
 /** Categories whose hosts can plausibly hold a service a citizen must complete. */
 const WORTH_MAPPING = new Set(["SERVICE_PORTAL", "DEPARTMENT", "DISTRICT_COLLECTOR", "DISTRICT_PANCHAYAT", "MUNICIPAL", "POLICE", "TRANSPORT_RTO", "EDUCATION", "JUDICIARY"]);

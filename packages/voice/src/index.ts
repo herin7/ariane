@@ -78,8 +78,10 @@ export {
 export {
   projectJourney,
   projectMatches,
+  projectPlan,
   projectStep,
   type VoiceJourney,
+  type VoicePlan,
   type VoiceQuestion,
 } from "./projection";
 

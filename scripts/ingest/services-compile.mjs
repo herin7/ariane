@@ -39,7 +39,8 @@ import { handSaved } from "./chunks.mjs";
 import { appendFileSync, existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 
 const IDENTIFY = ".ingest/identify/";
-const PROMPT_VERSION = 2;
+/** v3: seven journeys added, so every cached `skip` has to be asked again. */
+const PROMPT_VERSION = 3;
 const CONCURRENCY = 8;
 /** Facts that describe what a citizen must do, as opposed to what a page mentions. */
 const HARD = ["DOCUMENT_REQUIREMENT", "ELIGIBILITY", "FEE", "TIMELINE", "CONDITIONAL_REQUIREMENT"];
@@ -465,6 +466,24 @@ const JOURNEYS = {
   aadhaar: "Aadhaar enrolment, update, or authentication",
   pan: "a PAN card, fresh or corrected",
   gst: "GST registration, returns or cancellation",
+  /**
+   * The seven below were added after a run where 1003 of 2016 identified pages
+   * came back `skip` because they were about a real service that belonged to no
+   * journey on this list. That is not filing discipline, it is a hole: a page
+   * about an RTO fitness certificate or an Ayushman card was being read,
+   * grounded, and then dropped because there was no shelf for it.
+   *
+   * Names avoid the hand written bundles by construction (`certificates`,
+   * `driving-licence`, `pension`, `pf`, `scholarship`), which is asserted in the
+   * selftest rather than left to whoever reads this.
+   */
+  "vehicle-and-rto": "anything at an RTO about a vehicle rather than a licence: registration, RC transfer, fitness, permits, hypothecation, no objection certificate, PUC",
+  "health-and-insurance": "a health card, a government health insurance scheme, a medical reimbursement or a hospital empanelment a citizen applies for",
+  "education-and-admission": "school or college admission, migration and transfer certificates, fee reimbursement, equivalence and verification of a qualification",
+  "employment-and-labour": "registering as a worker or a jobseeker: e-Shram, employment exchange, labour and shop registration, contractor and establishment licences, ESIC",
+  "agriculture-and-farmer": "something a farmer applies for: crop insurance, seed and equipment subsidy, soil health, mandi and trader registration, animal husbandry",
+  "municipal-and-utilities": "a municipal or panchayat counter: property tax, water and drainage connection, building permission, trade licence, electricity connection",
+  "police-and-verification": "a police issued clearance, NOC or permission: character verification, tenant and servant verification, event and procession permission, arms licence",
 };
 
 /**
@@ -1181,7 +1200,14 @@ if (flag("selftest")) {
   // Checked against the hand built five by name and not against EXISTING,
   // because after the first run EXISTING contains our own output and the
   // assertion would fail on exactly the thing it is meant to allow.
-  const HERO = new Set(["driving-licence", "certificates", "scholarship", "pf", "pension"]);
+  // The four after the hand built five are the shared bundles every generated
+  // journey points into. A journey named `offices` would overwrite the office
+  // directory the rest of the graph resolves against, which is a worse failure
+  // than overwriting one journey and was not covered by name.
+  const HERO = new Set([
+    "driving-licence", "certificates", "scholarship", "pf", "pension",
+    "central-services", "escalation", "jurisdictions", "offices",
+  ]);
   for (const name of Object.keys(JOURNEYS)) {
     assert.ok(!HERO.has(name), `journey "${name}" would overwrite a hand written bundle`);
   }

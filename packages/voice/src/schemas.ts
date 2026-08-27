@@ -65,6 +65,12 @@ export const TOOL_ARGUMENTS = {
   /** Plain language to candidate services. Wraps the existing `resolveIntent`. */
   resolve_need: z.object({ utterance: z.string().min(1).max(400) }).strict(),
 
+  /**
+   * A life event to a plan of several services. Same shape as `resolve_need`
+   * and for the same reason: free text in, ids the graph already holds out.
+   */
+  build_plan: z.object({ utterance: z.string().min(1).max(400) }).strict(),
+
   /** Begin a journey. The id must already exist in the graph; the broker checks. */
   start_journey: z.object({ serviceId: NodeId }).strict(),
 

@@ -26,6 +26,9 @@ export const TOOL_POLICY: Record<VoiceToolName, ToolRule> = {
   // everyone, because it is published and because making a citizen prove who
   // they are to read a fee is the behaviour this product exists against.
   resolve_need: { minIdentity: "ANONYMOUS", writes: false, refusal: "I could not look that up just now." },
+  // Several of those at once. Same data, same openness: a plan is published
+  // government information about published government services.
+  build_plan: { minIdentity: "ANONYMOUS", writes: false, refusal: "I could not put that plan together just now." },
   start_journey: { minIdentity: "ANONYMOUS", writes: false, refusal: "I could not open that one just now." },
   get_current_journey: { minIdentity: "ANONYMOUS", writes: false, refusal: "I do not have a journey open." },
   explain_step: { minIdentity: "ANONYMOUS", writes: false, refusal: "I do not have that step open." },

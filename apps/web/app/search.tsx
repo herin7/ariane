@@ -194,6 +194,25 @@ export function Search() {
           </div>
         </div>
       ) : null}
+
+      {/* Some sentences are not a service. "I want to start a company" is five
+          of them, so a weak match is the honest moment to offer the other
+          shape of answer rather than making somebody search five times. Shown
+          only when we did not confidently route: a good match needs no rescue. */}
+      {matches || comingSoon ? (
+        <p className="search-note small muted rise">
+          Is this more than one thing?{" "}
+          <button
+            className="tiny"
+            onClick={() => {
+              track("plan_started");
+              router.push(`/plan?q=${encodeURIComponent(text)}`);
+            }}
+          >
+            Build me a plan
+          </button>
+        </p>
+      ) : null}
     </div>
   );
 }

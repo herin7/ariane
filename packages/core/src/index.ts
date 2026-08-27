@@ -24,6 +24,13 @@ export {
 } from "./journey";
 export { resolveIntent, type IntentMatch } from "./intent";
 export {
+  compilePlan,
+  type CompiledPlan,
+  type PlanItem,
+  type PlanRequest,
+  type PlanTrack,
+} from "./plan";
+export {
   CONFLICT_TOLERANCE_KM,
   addressHash,
   formatCrowKm,

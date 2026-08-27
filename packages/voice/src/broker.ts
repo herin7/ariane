@@ -2,6 +2,7 @@ import {
   GoalNotFoundError,
   JurisdictionNotFoundError,
   compileJourney,
+  compilePlan,
   type CitizenContext,
   type CompiledJourney,
   type GraphData,
@@ -9,7 +10,7 @@ import {
 import { languageTag } from "./agent";
 import { checkInput } from "./guardrails";
 import { LIMITS, TOOL_POLICY } from "./policy";
-import { projectJourney, projectMatches, projectStep } from "./projection";
+import { projectJourney, projectMatches, projectPlan, projectStep } from "./projection";
 import { TOOL_ARGUMENTS, isVoiceTool } from "./schemas";
 import type { VoiceSessions } from "./session";
 import type { PreferenceKey, VoiceStore } from "./store";
@@ -52,6 +53,13 @@ export interface BrokerConfig {
    * refusal code. `resolveIntentDeeply` in production.
    */
   resolveNeed: (graph: GraphData, text: string) => Promise<{ matches: { goal: string; name: string; officialName?: string; confidence: number; matched: string[] }[] }>;
+  /**
+   * A life event to the goals it opens. `planGoals` in production, injected for
+   * the same reason as `resolveNeed`. Optional: without it `build_plan` refuses
+   * rather than falling back to one service and calling it a plan, because a
+   * plan that is four services short is the failure this tool exists against.
+   */
+  planNeed?: (graph: GraphData, text: string) => Promise<{ goals: string[]; title?: string }>;
   now?: () => number;
 }
 
@@ -206,6 +214,8 @@ export class VoiceBroker {
     switch (name) {
       case "resolve_need":
         return this.resolveNeed(session, args as unknown as { utterance: string });
+      case "build_plan":
+        return this.buildPlan(session, args as unknown as { utterance: string });
       case "start_journey":
         return this.startJourney(session, args as unknown as { serviceId: string });
       case "answer_question":
@@ -223,22 +233,30 @@ export class VoiceBroker {
     }
   }
 
-  private async resolveNeed(session: VoiceSession, { utterance }: { utterance: string }) {
-    /**
-     * The one tool that takes free text, so the one tool the input guardrail
-     * has anything to do. It is not access control: whatever this returns, it
-     * returns service ids that already exist in the graph. It is here so that a
-     * sentence whose only purpose is to attack the system does not also get
-     * spent as an intent query.
-     */
-    const check = checkInput(utterance);
+  /**
+   * The guardrail every free-text tool runs first.
+   *
+   * `resolve_need` and `build_plan` are the only two tools that take a sentence,
+   * so they are the only two the input guardrail has anything to do. It is not
+   * access control: whatever they return, they return service ids that already
+   * exist in the graph. It is here so that a sentence whose only purpose is to
+   * attack the system does not also get spent as an intent query.
+   */
+  private guardText(session: VoiceSession, tool: VoiceToolName, text: string) {
+    const check = checkInput(text);
     if (check.verdict === "REFUSE") {
-      emit("voice.guardrail", session.id, { tool: "resolve_need", reasons: check.reasons }, session.callerHash);
+      emit("voice.guardrail", session.id, { tool, reasons: check.reasons }, session.callerHash);
       return { refusal: { code: "GUARDRAIL" as const, speak: check.speak ?? "Tell me what you need to get done." } };
     }
     if (check.verdict === "FLAG") {
-      emit("voice.guardrail", session.id, { tool: "resolve_need", reasons: check.reasons, action: "flagged" }, session.callerHash);
+      emit("voice.guardrail", session.id, { tool, reasons: check.reasons, action: "flagged" }, session.callerHash);
     }
+    return undefined;
+  }
+
+  private async resolveNeed(session: VoiceSession, { utterance }: { utterance: string }) {
+    const refused = this.guardText(session, "resolve_need", utterance);
+    if (refused) return refused;
 
     const graph = await this.config.graph();
     const { matches } = await this.config.resolveNeed(graph, utterance);
@@ -258,6 +276,48 @@ export class VoiceBroker {
       },
       grounding: projected.speakableFacts,
     };
+  }
+
+  /**
+   * A life event, compiled. "I want to start a company" is five services.
+   *
+   * The division of labour is the same one the whole product runs on: a model
+   * picks *which* services out of a list of ids that already exist, and
+   * `compilePlan` — deterministic, in `@ariane/core` — decides the order, the
+   * documents and the offices. Nothing here invents a service, and a goal that
+   * will not compile comes back named in `unknownGoals` rather than dropped.
+   *
+   * Read only. Answering a question still means opening one of these services
+   * with `start_journey`, which keeps a single place where answers are written.
+   */
+  private async buildPlan(session: VoiceSession, { utterance }: { utterance: string }) {
+    const refused = this.guardText(session, "build_plan", utterance);
+    if (refused) return refused;
+
+    const planNeed = this.config.planNeed;
+    if (!planNeed) {
+      return { refusal: { code: "UPSTREAM_UNAVAILABLE" as const, speak: TOOL_POLICY.build_plan.refusal } };
+    }
+
+    const graph = await this.config.graph();
+    const { goals, title } = await planNeed(graph, utterance);
+    if (!goals.length) {
+      return {
+        refusal: {
+          code: "NOT_FOUND" as const,
+          speak: "I could not work out which services that involves. Tell me the first thing you need to get done.",
+        },
+      };
+    }
+
+    const compiled = compilePlan(graph, { goals, jurisdiction: session.jurisdiction, intent: utterance });
+    if (!compiled.tracks.length) {
+      return { refusal: { code: "NOT_FOUND" as const, speak: "I do not have those mapped yet. Tell me one thing you need and I will look that up." } };
+    }
+
+    session.activePlan = { intent: utterance, goals: compiled.tracks.map((t) => t.goal), updatedAt: this.now() };
+    const projected = projectPlan(compiled, title ?? utterance);
+    return { data: projected as unknown as Record<string, unknown>, grounding: projected.speakableFacts, touched: true };
   }
 
   private async startJourney(session: VoiceSession, { serviceId }: { serviceId: string }) {

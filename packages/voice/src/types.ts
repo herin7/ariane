@@ -80,6 +80,20 @@ export interface ActiveJourney {
 }
 
 /**
+ * A life event in progress: several services at once.
+ *
+ * The goals, not the compiled plan. Same reason `ActiveJourney` holds answers
+ * and not a `CompiledJourney`: the graph is the truth and it may have changed
+ * between two turns of the same call, so every turn recompiles from ids.
+ */
+export interface ActivePlan {
+  /** What they said, kept for the heading. Never stored beyond the session. */
+  intent: string;
+  goals: string[];
+  updatedAt: number;
+}
+
+/**
  * What this caller's time is worth. Decided by the server from a login, never
  * from anything the caller or the model says. `policy.ts` turns it into a
  * number of milliseconds and nothing else may.
@@ -115,6 +129,8 @@ export interface VoiceSession {
   /** Deny by default. A tool absent from this list does not exist for this call. */
   allowedTools: string[];
   activeJourney?: ActiveJourney;
+  /** The life event, when they asked for one. Independent of the journey. */
+  activePlan?: ActivePlan;
   jurisdiction: JurisdictionQuery;
   /** BCP 47-ish tag the caller prefers. Presentation only, never authorization. */
   language?: string;
@@ -152,6 +168,7 @@ export interface IssuedSession {
  */
 export const VOICE_TOOLS = [
   "resolve_need",
+  "build_plan",
   "start_journey",
   "answer_question",
   "get_current_journey",

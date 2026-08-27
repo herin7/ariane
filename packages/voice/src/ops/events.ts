@@ -18,6 +18,9 @@ export const APP_EVENTS = [
   "search_submitted",
   "service_opened",
   "journey_started",
+  // A life event, not a service: "start a company" is several journeys and we
+  // want to know it was asked for. The sentence itself stays out, as ever.
+  "plan_started",
   "question_answered",
   "document_marked",
   "source_opened",

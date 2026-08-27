@@ -99,6 +99,72 @@
   font-weight: 600;
 }
 
+/* What Ariane is doing while it talks.
+
+   A phone call is invisible work: the caller hears a pause and cannot tell a
+   graph lookup from a model losing its train of thought. This is that work,
+   named in the citizen's words as it happens, and it is a report - the server
+   had already done it before this line was drawn. Newest first, so the eye
+   does not have to travel. */
+.acts {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.act {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--muted);
+  animation: slide 0.24s ease-out;
+}
+
+/* The first line is what is happening now; the ones under it already happened
+   and fade back rather than competing with the transcript. */
+.act:not(:first-child) { opacity: 0.45; }
+
+.act::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex: none;
+}
+
+.act[data-ok="false"] { color: var(--warn); }
+.act[data-ok="false"]::before { background: var(--warn); }
+
+@keyframes slide {
+  from { opacity: 0; transform: translateY(-4px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .act { animation: none; }
+}
+
+/* One line of a plan's checklist. A number, a thing to do, and who else it is
+   for - that last one is the only thing a plan can say that a journey cannot. */
+.line {
+  display: flex;
+  gap: 10px;
+  padding: 6px 0;
+  border-top: 1px solid var(--line);
+  font-size: 14px;
+}
+
+.line b {
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+  font-weight: 550;
+  flex: none;
+}
+
 /* Waiting, and the sign-in prompt that follows a spent preview. Both are the
    system working, so neither is styled as an error. */
 .notice {

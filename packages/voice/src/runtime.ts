@@ -1,5 +1,5 @@
 import { randomBytes } from "node:crypto";
-import { loadLiveGraph, resolveIntentDeeply, supabaseClient, supabaseConfigFromEnv } from "@ariane/core/server";
+import { loadLiveGraph, planGoals, resolveIntentDeeply, supabaseClient, supabaseConfigFromEnv } from "@ariane/core/server";
 import { VoiceBroker } from "./broker";
 import { VoiceCapacity } from "./ops/capacity";
 import { SecurityLog } from "./ops/security";
@@ -100,6 +100,11 @@ export function voiceRuntime(env: Record<string, string | undefined> = process.e
     store,
     graph: loadLiveGraph,
     resolveNeed: resolveIntentDeeply,
+    // The scoping questions `planGoals` can return are dropped on this path on
+    // purpose: on a phone call the model asks them itself, in conversation,
+    // and answering by voice into a question id nobody can see is a worse
+    // version of a conversation. The screen at /plan gets them as buttons.
+    planNeed: (graph, text) => planGoals(graph, text),
   });
 
   runtime = {
