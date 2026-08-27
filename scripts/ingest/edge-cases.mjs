@@ -59,8 +59,13 @@ export const REPORT = `${RESEARCH}/edge-cases.json`;
  *
  * 2: a quote has to be a sentence, because v1 reported four downloadable form
  *    names off one page as four separate rules.
+ * 3: a sentence has to do something. v2 kept a nine word row of a licence menu
+ *    and a marketing blog’s twelve lakh threshold.
+ * 4: the model is told who is asking. v3 answered a home baker with the draft
+ *    rules for school meal caterers and a cloud kitchen with the clearance
+ *    times for imported consignments, both verbatim and neither about them.
  */
-export const PROMPT_VERSION = 2;
+export const PROMPT_VERSION = 4;
 
 /**
  * A case is a sentence, a hypothesis and the words to search with.
@@ -150,10 +155,66 @@ export const official = (url) => {
 const OTHER_STATES =
   /(andhra|arunachal|assam|bihar|chhattisgarh|goa|haryana|himachal|jharkhand|karnataka|kerala|madhya[-_]?pradesh|maharashtra|manipur|meghalaya|mizoram|nagaland|odisha|punjab|rajasthan|sikkim|tamil[-_]?nadu|telangana|tripura|uttar[-_]?pradesh|uttarakhand|west[-_]?bengal|jammu|kashmir|ladakh|puducherry|chandigarh)/i;
 
+/**
+ * The same thing again as a subdomain, because a state does not have to spell
+ * its name to be the wrong one.
+ *
+ * `excise.wb.gov.in` came back for a food stall in Gujarat and passed every
+ * check: official host, no state named anywhere in the url, and a perfectly
+ * true page about West Bengal liquor licences. Every state code except `gj`.
+ */
+const STATE_CODES =
+  /\.(ap|ar|as|br|cg|ga|hp|hr|jh|jk|ka|kl|la|ld|mh|ml|mn|mp|mz|nl|od|pb|py|rj|sk|tn|tr|ts|uk|up|wb|an|ch|dd|dn)\.gov\.in$/i;
+
+/**
+ * A blog on a government domain is still a blog.
+ *
+ * `startupindia.gov.in/content/sih/en/bloglist/...` is a `.gov.in` host and a
+ * marketing article, and it is where the twelve lakh food licence threshold
+ * came back from: a number somebody wrote up once, on a page no department
+ * maintains, which is exactly the stale fact this pass exists to not repeat.
+ */
+const NOT_A_RULE_PAGE = /\/(blog|bloglist|blogs|news|press|media|gallery|tenders?|recruitment|vacanc)/i;
+
+/**
+ * Neither is a document somebody has to win, or one nobody has passed yet.
+ *
+ * A Delhi Development Authority request for proposals for a park kiosk lists a
+ * valid FSSAI licence among the things a bidder must furnish, which is true and
+ * is a term of that contract, not a rule for a college festival stall. A draft
+ * notice inviting comments is the other half: it is what the rule might become.
+ */
+const NOT_IN_FORCE = /(rfp|rfq|\bbid\b|eoi|landdisposal|draft[-_]?(notice|rules?|regulation)|_draft|comments?[-_]invited)/i;
+
+/**
+ * And once more as a squashed prefix, because neither of the two above catches
+ * a state that abbreviates itself into the host label.
+ *
+ * `hrylabour.gov.in` and `pblabour.gov.in` are Haryana's and Punjab's labour
+ * departments and both came back for a Gujarat contract labour question, with
+ * no state name, no state code and a perfectly correct answer about somewhere
+ * else. `ghmc.gov.in` is Hyderabad's municipal corporation and arrived the same
+ * way. A department host is `<who><what>.gov.in`, so this asks for the state
+ * code and a department word after it rather than the code alone: `up` on its
+ * own would take `upsc.gov.in` off the table and `ap` would take `apeda`, and
+ * both of those are central bodies with every right to answer.
+ */
+const STATE_DEPARTMENTS =
+  /^(hry|pb|mh|ap|ts|ka|tn|up|mp|rj|wb|od|br|jh|cg|hp|uk)(labour|labor|police|rto|excise|revenue|health|fire|panchayat|urban|municipal|transport|forest|industries|pollution|treasury)/i;
+
+/** Somebody else's city. Whole label only: these are the corporation's name. */
+const OTHER_CITIES = /^(ghmc|bbmp|mcgm|pmc|kmc|nmmc|bmc|ndmc|mcd|dda)$/i;
+
 export const wrongState = (url) => {
   const u = url.toLowerCase();
-  return OTHER_STATES.test(u) && !/gujarat/.test(u);
+  if (/gujarat/.test(u)) return false;
+  const host = hostOf(u) ?? "";
+  if (OTHER_STATES.test(u) || STATE_CODES.test(host)) return true;
+  const label = host.replace(/^www\./, "").split(".")[0] ?? "";
+  return /\.gov\.in$/.test(host) && (STATE_DEPARTMENTS.test(label) || OTHER_CITIES.test(label));
 };
+
+export const readable = (url) => !NOT_A_RULE_PAGE.test(url) && !NOT_IN_FORCE.test(url);
 
 /**
  * Gujarat first, then the central regulator, then whatever else is official.
@@ -300,11 +361,21 @@ Rules:
 - never turn "may be required" into "is required". Report the page's hedge as the page wrote it.
 - evidence must be a full sentence of at least eight words. A form name, a menu item, a column heading or a link label is not evidence, even when it is on the page.
 - if the page does not discuss permissions, return [].
+- you are told what somebody is trying to do. Report only permissions that would bind THEM. A page can be official, current and verbatim and still be about somebody else: a school meal contractor, an importer at a port, a bidder for a park kiosk in Delhi. Those are not this person, and reporting them is worse than reporting nothing, because it reads as an answer.
+- if the page is about permissions but none of them touch what this person is doing, return [].
 - at most 8 objects. Prefer the ones with a number, a threshold or a named authority in them.
 Return only the JSON array.`;
 
-const userPrompt = (url, title, text) =>
-  `Page: ${url}\nTitle: ${title ?? ""}\n\n${text.slice(0, 12000)}`;
+/**
+ * The page, and who is asking.
+ *
+ * The ask went missing from this prompt for two versions and the pass answered
+ * a home baker with the FSSAI's draft rules for school meal caterers and a
+ * cloud kitchen with the timeline for clearing imported consignments at a port.
+ * Both were verbatim, official and current. Neither was about them.
+ */
+const userPrompt = (url, title, text, ask) =>
+  `Somebody's situation: ${ask}\n\nPage: ${url}\nTitle: ${title ?? ""}\n\n${text.slice(0, 12000)}`;
 
 /**
  * Long enough to be a rule rather than a label.
@@ -314,18 +385,37 @@ const userPrompt = (url, title, text) =>
  * none of them reached eight words. A real requirement almost always carries a
  * verb, a number or a condition, and cannot say any of that in five words.
  */
-export const sentence = (s) => typeof s === "string" && s.trim().length >= 40 && s.trim().split(/\s+/).length >= 8;
+const RULE_MARKER = /\b(shall|must|require[ds]?|needs?|obtain|apply|application|issued?|grant(ed)?|prescribed|exempt|liable|permitted|valid|renew|not apply)\b|\d/i;
+
+/**
+ * "Form No. II [See rule 18(1)] Certificate of Registration" is eight words, has
+ * three numbers in it and is a row in a table of downloadable forms. It cleared
+ * both floors above and came back four times off one page. A row that opens by
+ * naming a form is naming a form.
+ */
+const A_FORM_INDEX_ROW = /^form\s*(no\.?|number)?\s*[-–]?\s*[ivxlc0-9]/i;
+
+export const sentence = (s) => {
+  if (typeof s !== "string") return false;
+  const t = s.trim();
+  if (A_FORM_INDEX_ROW.test(t)) return false;
+  // A row of a licence menu clears eight words easily: "FL ON License for
+  // hotel or restaurant & attached bar" is nine and is a link. A rule either
+  // does something to somebody or has a number in it, and a list entry has
+  // neither.
+  return t.length >= 40 && t.split(/\s+/).length >= 8 && RULE_MARKER.test(t);
+};
 
 /** One page through the model, cached on the page content and this prompt. */
-export async function readPage(caseId, got, model = MODELS.tier1) {
-  const key = sha1(`${got.url}|${PROMPT_VERSION}|${model}|${got.text.length}`);
+export async function readPage(caseId, got, ask, model = MODELS.tier1) {
+  const key = sha1(`${got.url}|${ask}|${PROMPT_VERSION}|${model}|${got.text.length}`);
   const file = at(ANSWERS + key + ".json");
   if (existsSync(file)) return JSON.parse(readFileSync(file, "utf8"));
 
   const reply = await chat(
     [
       { role: "system", content: SYSTEM },
-      { role: "user", content: userPrompt(got.url, null, unmark(got.text)) },
+      { role: "user", content: userPrompt(got.url, null, unmark(got.text), ask) },
     ],
     { model, maxTokens: 3000 },
   );
@@ -433,27 +523,36 @@ async function runCase(kase) {
   for (const s of searches) {
     for (const r of s.results) {
       const u = normalise(r.url);
-      if (!official(u) || wrongState(u) || seen.has(u)) continue;
+      if (!official(u) || wrongState(u) || !readable(u) || seen.has(u)) continue;
       seen.add(u);
       urls.push(u);
     }
   }
   urls.sort((a, b) => rank(a) - rank(b));
 
-  // Six readable pages is a case's budget, and a page that will not open does
-  // not spend it: five of six were unreadable on the first probe of case two
-  // and the case reported "no rules" when what happened was "no pages". Twelve
-  // attempts is the ceiling either way.
-  // Three at a time, eight attempts. Sequentially it was a government page's
-  // twenty second timeout plus a browser render, eight times over, and one case
-  // was taking longer than the model work for the whole pass.
-  const reads = (
-    await pool(urls.slice(0, 8), 3, async (url) => {
-      const got = await page(url);
-      if (!got.text) return { url, claims: [], dropped: [], empty: true };
-      return readPage(kase.id, got);
-    })
-  ).filter(Boolean);
+  // Six pages that open is a case's budget, and a page that will not open does
+  // not spend it. Four of the eight the café case reached came back empty, and
+  // it reported "no rules" when what had happened was "no pages" - which is the
+  // difference between a gap in the state's website and a gap in this pass, and
+  // the report has no way to tell them apart after the fact. A second wave runs
+  // only when the first did not fill the budget; sixteen attempts is the
+  // ceiling either way.
+  //
+  // Three at a time. Sequentially it was a government page's twenty second
+  // timeout plus a browser render, eight times over, and one case was taking
+  // longer than the model work for the whole pass.
+  const attempts = [];
+  for (const batch of [urls.slice(0, 8), urls.slice(8, 16)]) {
+    if (!batch.length || attempts.filter((r) => r && !r.empty).length >= 6) break;
+    attempts.push(
+      ...(await pool(batch, 3, async (url) => {
+        const got = await page(url);
+        if (!got.text) return { url, claims: [], dropped: [], empty: true };
+        return readPage(kase.id, got, kase.ask);
+      })),
+    );
+  }
+  const reads = attempts.filter(Boolean);
   const read = reads.filter((r) => !r.empty).length;
 
   const claims = reads.flatMap((r) => r?.claims ?? []);
@@ -563,10 +662,10 @@ async function main() {
 
   console.log(`${todo.length} case(s), ${todo.reduce((n, c) => n + queriesFor(c).length, 0)} searches`);
   const records = [];
-  // Three cases at a time. A case is mostly waiting on government web servers,
+  // Five cases at a time. A case is mostly waiting on government web servers,
   // and one of them times out at twenty seconds often enough that doing them in
   // a line put the whole pass at over two hours.
-  await pool(todo, 3, async (kase) => {
+  await pool(todo, 5, async (kase) => {
     const record = await runCase(kase);
     records.push(record);
     console.log(`  ${record.caseId} ${record.status} — ${record.claims.length} grounded claim(s) from ${record.sources.length} source(s), ${record.officialFound} official page(s) found`);
@@ -613,6 +712,17 @@ function selftest() {
   console.assert(rank("https://fssai.gov.in/b") < rank("https://nsws.gov.in/c"), "the regulator before the aggregator");
 
   console.assert(!sentence("Shops and Establishment License Application Form-A"), "a form name is not a rule");
+  console.assert(!sentence("FL ON License for club, theatre, public resort etc and others"), "a row of a licence menu is not a rule");
+  console.assert(!sentence("Form No. II [See rule 18(1)] Certificate of Registration under section 7"), "a row of a table of forms is not a rule either");
+  console.assert(!readable("https://dda.gov.in/sites/default/files/LandDisposal/rpf_document_restaurant.pdf"), "a document a bidder must win is not a rule");
+  console.assert(!readable("https://fssai.gov.in/upload/Draft_Notice_Comments_Food_School_Children.pdf"), "a draft out for comments is not in force");
+  console.assert(wrongState("https://excise.wb.gov.in/FAQ/category_licen.aspx"), "a state code is a state");
+  console.assert(!wrongState("https://ceiced.gujarat.gov.in/x") && !wrongState("https://peso.gov.in/y"), "Gujarat and the centre are not");
+  console.assert(wrongState("https://hrylabour.gov.in/x") && wrongState("https://pblabour.gov.in/y"), "a state code welded to its department is a state");
+  console.assert(wrongState("https://www.ghmc.gov.in/z"), "somebody else's municipal corporation is somebody else's");
+  console.assert(!wrongState("https://upsc.gov.in/a") && !wrongState("https://apeda.gov.in/b") && !wrongState("https://clc.gov.in/c"), "the centre is not a state that starts the same way");
+  console.assert(!readable("https://www.startupindia.gov.in/content/sih/en/bloglist/blogs/all_about_food_licensing.html"), "a blog on a gov domain is a blog");
+  console.assert(readable("https://excise.gujarat.gov.in/faq.htm"), "an FAQ a department maintains is not");
   console.assert(sentence("A licence is required for the storage of petroleum in excess of 2500 litres."), "a rule is");
 
   console.assert(judge([]).status === "UNVERIFIED", "no claims is not a finding");
