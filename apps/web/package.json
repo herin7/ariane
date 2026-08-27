@@ -12,6 +12,8 @@
   "dependencies": {
     "@ariane/core": "workspace:*",
     "@ariane/voice": "workspace:*",
+    "@supabase/ssr": "^0.12.5",
+    "@supabase/supabase-js": "^2.112.3",
     "@xyflow/react": "^12.11.3",
     "maplibre-gl": "^6.6.0",
     "next": "^15.5.2",

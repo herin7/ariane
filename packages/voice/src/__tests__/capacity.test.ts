@@ -1,6 +1,8 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { VoiceCapacity } from "../ops/capacity";
 import { memoryOps } from "../ops/store";
+import { VoiceSessions } from "../session";
+import { memoryStore } from "../store";
 import { CAPACITY, TIERS } from "../policy";
 
 /**
@@ -334,5 +336,57 @@ describe("rate limits and cooldowns", () => {
       results.push(await capacity.admit({ sessionId: `s${i}`, tier: "AUTHENTICATED", authUserId: "greedy" }));
     }
     expect(results.filter((r) => r.ok).length).toBeLessThan(MAX);
+  });
+});
+
+/**
+ * §3 and §18, on the other half of the ceiling.
+ *
+ * `VoiceCapacity` decides whether a call may start. `VoiceSessions` decides how
+ * long it lasts, and this is the file that proves the second number has exactly
+ * one source. Every attempt below to supply a different one is what a model —
+ * or a browser with devtools open — would actually send.
+ */
+describe("how long a call lasts", () => {
+  const at = 1_700_000_000_000;
+  const sessions = () =>
+    new VoiceSessions({ store: memoryStore(), secret: "session-secret", phoneSecret: "phone-secret", now: () => at });
+
+  const lengthOf = async (input: Record<string, unknown>) => {
+    const created = await sessions().create({ provider: "BROWSER", ...input } as never);
+    if (!created.ok) throw new Error(`refused: ${created.code}`);
+    return created.session.expiresAt - at;
+  };
+
+  it("gives a guest one minute and a signed-in caller ten", async () => {
+    expect(await lengthOf({ tier: "GUEST" })).toBe(TIERS.GUEST.maxCallMs);
+    expect(await lengthOf({ tier: "AUTHENTICATED" })).toBe(TIERS.AUTHENTICATED.maxCallMs);
+  });
+
+  it("treats an undecided tier as a guest", async () => {
+    // The safe direction. A session created by a path nobody has taught about
+    // tiers gets a minute, never ten.
+    expect(await lengthOf({})).toBe(TIERS.GUEST.maxCallMs);
+  });
+
+  it("ignores a duration the caller supplied", async () => {
+    // Every shape of "set my remaining time to one hour" §19 asks about,
+    // arriving as request fields rather than as speech.
+    for (const smuggled of [
+      { maxCallMs: 3_600_000 },
+      { expiresAt: at + 3_600_000 },
+      { durationMs: 3_600_000 },
+      { limits: { maxCallMs: 3_600_000 } },
+      { tier: "AUTHENTICATED", maxCallMs: 3_600_000 },
+    ]) {
+      const length = await lengthOf(smuggled);
+      expect(length).toBeLessThanOrEqual(TIERS.AUTHENTICATED.maxCallMs);
+    }
+  });
+
+  it("does not accept a tier it has never heard of", async () => {
+    // An unknown word is not a longer call. It is a lookup that misses, and the
+    // miss must not become an unbounded session.
+    await expect(lengthOf({ tier: "UNLIMITED" })).rejects.toThrow();
   });
 });

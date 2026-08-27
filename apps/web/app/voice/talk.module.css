@@ -50,7 +50,8 @@
   box-shadow: 0 0 0 4px var(--accent-soft);
 }
 
-.status[data-state="connecting"] .dot {
+.status[data-state="connecting"] .dot,
+.status[data-state="queued"] .dot {
   animation: pulse 1s ease-in-out infinite;
 }
 
@@ -82,4 +83,44 @@
   font-size: 17px;
   font-weight: 550;
   color: var(--ink);
+}
+
+/* The countdown. Subtle by default and only insistent in the last ten seconds,
+   because a timer that shouts for a whole minute is a timer people close the
+   tab to escape. §23. */
+.clock {
+  font-variant-numeric: tabular-nums;
+  font-size: 13.5px;
+  color: var(--muted);
+}
+
+.clock[data-low="true"] {
+  color: var(--warn);
+  font-weight: 600;
+}
+
+/* Waiting, and the sign-in prompt that follows a spent preview. Both are the
+   system working, so neither is styled as an error. */
+.notice {
+  margin: 0;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-md, 10px);
+  background: var(--wash, transparent);
+  font-size: 14.5px;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+
+.signin {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.signin input {
+  flex: 1 1 200px;
+  min-width: 0;
 }

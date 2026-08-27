@@ -1,4 +1,4 @@
-import { VOICE_TOOLS, atLeast, type IdentityLevel, type VoiceToolName } from "./types";
+import { VOICE_TOOLS, atLeast, type IdentityLevel, type Tier, type VoiceToolName } from "./types";
 
 /**
  * Deny by default, in one table.
@@ -161,7 +161,7 @@ export type Limits = typeof LIMITS;
  * and the realtime provider's own `maxDurationSeconds` — and the caller would
  * have to defeat all three, on a server they do not control, to gain a second.
  */
-export type Tier = "GUEST" | "AUTHENTICATED";
+export type { Tier };
 
 export const TIERS = {
   GUEST: {
