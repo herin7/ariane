@@ -3,6 +3,7 @@
 import type { QueuePlace, VoiceLimit, VoiceState } from "@ariane/voice/client";
 import { VoiceClient } from "@ariane/voice/client";
 import { useCallback, useEffect, useRef, useState } from "react";
+import { track } from "../analytics";
 import styles from "./talk.module.css";
 
 /**
@@ -319,6 +320,7 @@ function SignIn({ onSignedIn }: { onSignedIn: (email: string) => void }) {
         className={styles.signin}
         onSubmit={async (event) => {
           event.preventDefault();
+          track("login_started");
           const result = await post("/api/auth/otp", { email });
           if (result.error) setNote(result.error);
           else setSent(true);

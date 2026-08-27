@@ -62,6 +62,14 @@ export {
   newAnonId,
   readGuest,
 } from "./ops/net";
+export {
+  ADMIN_SESSION_TTL_MS,
+  hashPassword,
+  issueAdminSession,
+  openAdminSession,
+  sameString,
+  verifyPassword,
+} from "./ops/admin";
 export { VoiceCapacity, type AdmitRequest, type AdmitResult, type QueueView } from "./ops/capacity";
 export { SecurityLog, inputHash, type Report, type SecurityCategory } from "./ops/security";
 export {

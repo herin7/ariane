@@ -92,6 +92,15 @@ export async function POST(request: Request) {
   });
   if (!admitted.ok) {
     await voice.sessions.end(session);
+    // §10, and the number that says whether ten lines is enough: a call that
+    // was wanted and not served. The reason, never who wanted it.
+    await voice.ops.recordAppEvent({
+      eventName: "voice_limit_hit",
+      authUserId: who.authUserId,
+      anonymousSessionId: who.anonId,
+      ipHash: who.ipHash,
+      metadata: { reason: admitted.reason, tier: session.tier },
+    });
     return refuse(admitted);
   }
 
@@ -223,13 +232,17 @@ export async function DELETE(request: Request) {
   await voice.sessions.end(session);
   await voice.capacity.release(session.id);
 
+  const durationMs = Math.max(0, Date.now() - session.startedAt);
   const conversationId = await voice.ops.conversationForSession(session.id);
   if (conversationId) {
-    await voice.ops.endConversation(conversationId, {
-      endReason: "HANGUP",
-      durationMs: Math.max(0, Date.now() - session.startedAt),
-    });
+    await voice.ops.endConversation(conversationId, { endReason: "HANGUP", durationMs });
   }
+
+  await voice.ops.recordAppEvent({
+    eventName: "voice_finished",
+    authUserId: session.authUserId,
+    metadata: { tier: session.tier, seconds: Math.round(durationMs / 1000) },
+  });
 
   emit("voice.session.end", session.id, { provider: session.provider });
   return NextResponse.json({ ended: true });
