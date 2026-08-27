@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { loadGraph } from "../data/providers";
+import { appliesTo } from "../jurisdiction";
 import { compileJourney } from "../journey";
 import { compilePlan } from "../plan";
 
@@ -14,12 +15,21 @@ import { compilePlan } from "../plan";
 
 const data = loadGraph();
 const jurisdiction = { country: "India", state: "Gujarat", district: "Ahmedabad" };
+const CHAIN = ["IN-GJ-AHMEDABAD", "IN-GJ", "IN"];
+
+/**
+ * The services this citizen can actually be handed.
+ *
+ * Roughly two hundred services in the graph belong to one district: another
+ * district's municipal corporation, its own counters, its own phone number. A
+ * plan for Ahmedabad may not contain one, and the compiler refuses rather than
+ * quietly answering with the wrong municipality, so the fixture asks the same
+ * rule the compiler does instead of taking whatever is first in the file.
+ */
+const local = data.nodes.filter((n) => n.type === "SERVICE" && appliesTo(n.jurisdictionId, CHAIN));
 
 /** Two real services out of whatever this graph happens to hold. */
-const goals = data.nodes
-  .filter((n) => n.type === "SERVICE")
-  .slice(0, 2)
-  .map((n) => n.id);
+const goals = local.slice(0, 2).map((n) => n.id);
 
 describe("compilePlan", () => {
   it("compiles every goal it was given", () => {
@@ -60,8 +70,7 @@ describe("compilePlan", () => {
   });
 
   it("puts a prerequisite service before the service that needs it", () => {
-    const pair = data.nodes
-      .filter((n) => n.type === "SERVICE")
+    const pair = local
       .map((n) => ({ goal: n.id, needs: compileJourney(data, { goal: n.id, jurisdiction }).prerequisiteServices }))
       .find((s) => s.needs.some((p) => p !== s.goal));
 

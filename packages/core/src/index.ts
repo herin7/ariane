@@ -17,6 +17,7 @@ export { evaluateRequirementGroup, type GroupContext, type GroupEvaluation } fro
 export {
   CITIZEN_STAGES,
   GoalNotFoundError,
+  GoalOutOfJurisdictionError,
   JourneyCompiler,
   JurisdictionNotFoundError,
   compileJourney,

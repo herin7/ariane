@@ -1,6 +1,6 @@
 import { evaluateCondition, unresolvedFields } from "./condition";
 import { extractSubgraph, filterEdges, GraphIndex, topologicalSort, traverse } from "./graph";
-import { JurisdictionIndex, type ResolvedJurisdiction } from "./jurisdiction";
+import { appliesTo, JurisdictionIndex, type ResolvedJurisdiction } from "./jurisdiction";
 import { evaluateRequirementGroup, type GroupContext } from "./requirements";
 import type {
   Blocker,
@@ -143,6 +143,33 @@ export class GoalNotFoundError extends Error {
   }
 }
 
+/**
+ * The goal exists and belongs to a different district.
+ *
+ * Roughly two hundred services in this corpus were read off one district's
+ * pages and carry names nobody would guess were local: "property tax", "food
+ * licence", "citizen registration". Only one municipal corporation publishes a
+ * property tax desk in here, so a citizen in Ahmedabad asking for property tax
+ * used to be handed Jamnagar's, address, phone number and map pin included.
+ *
+ * That is not a near miss. It is the wrong municipality quoted with our
+ * confidence on it, and the citizen has no way to tell, so the compiler refuses
+ * instead of answering. A subclass of GoalNotFoundError because every caller
+ * already turns "we have nothing for you" into a 404, and this is that with a
+ * reason attached.
+ */
+export class GoalOutOfJurisdictionError extends GoalNotFoundError {
+  constructor(
+    goal: string,
+    readonly publishedFor: string,
+    readonly askedFrom: string,
+  ) {
+    super(goal);
+    this.name = "GoalOutOfJurisdictionError";
+    this.message = `"${goal}" is published for ${publishedFor}, and nothing equivalent is published for ${askedFrom}`;
+  }
+}
+
 export class JurisdictionNotFoundError extends Error {
   constructor(readonly query: unknown) {
     super(`Could not resolve jurisdiction from ${JSON.stringify(query)}`);
@@ -231,6 +258,10 @@ export class JourneyCompiler {
 
     const jurisdiction = this.jurisdictions.resolve(request.jurisdiction);
     if (!jurisdiction) throw new JurisdictionNotFoundError(request.jurisdiction);
+    if (!this.inScope(root.jurisdictionId, jurisdiction.chain)) {
+      const owner = root.jurisdictionId!;
+      throw new GoalOutOfJurisdictionError(root.name, this.jurisdictions.get(owner)?.name ?? owner, jurisdiction.name);
+    }
     trace.push({
       stage: "Resolve jurisdiction",
       detail: `${jurisdiction.name}, applying rules scoped to ${jurisdiction.chain.join(" then ")}`,
@@ -514,6 +545,21 @@ export class JourneyCompiler {
     }
   }
 
+  /**
+   * Whether a node's jurisdiction and the citizen's sit on the same line of
+   * descent.
+   *
+   * `appliesTo` answers half of it: a state wide node applies to a citizen in
+   * any district of that state. The other half is the citizen who named no
+   * district, where every district node in the state is a legitimate answer and
+   * `appliesTo` alone would drop all of them. Anything off that line, Jamnagar
+   * in an Ahmedabad journey, is neither.
+   */
+  private inScope(scopeId: string | undefined, chain: string[]): boolean {
+    if (appliesTo(scopeId, chain)) return true;
+    return this.jurisdictions.chainFor(scopeId!).includes(chain[0]!);
+  }
+
   /** One hop off each retained step, for channels, offices and escalation. */
   private attach(expansion: Expansion, opts: { facts: Facts; chain: string[] }): { nodeIds: Set<string>; edges: GraphEdge[] } {
     const nodeIds = new Set<string>();
@@ -523,6 +569,13 @@ export class JourneyCompiler {
       const node = this.index.node(id);
       if (!node) continue;
       for (const hit of filterEdges(this.index.outgoing(id, ATTACHMENT_EDGES), { ...opts, keepUnknown: false })) {
+        // `filterEdges` scopes the edge; an office is scoped on the node, and a
+        // state wide service links the counters of the districts whose pages
+        // happened to mention it. An office is an address somebody travels to,
+        // so one in the wrong district is not a weaker answer than none, it is
+        // a wasted morning with a map pin on it.
+        const target = this.index.node(hit.edge.to);
+        if (target?.type === "OFFICE" && !this.inScope(target.jurisdictionId, opts.chain)) continue;
         edges.push(hit.edge);
         if (!expansion.nodeIds.has(hit.edge.to)) nodeIds.add(hit.edge.to);
       }

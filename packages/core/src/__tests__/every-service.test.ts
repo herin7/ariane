@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { loadGraph } from "../data/providers";
-import { compileJourney } from "../journey";
+import { JourneyCompiler, compileJourney } from "../journey";
 
 /**
  * Every service in the graph, compiled cold with no answers and nothing held.
@@ -21,10 +21,21 @@ const all = data.nodes.filter((n) => n.type === "SERVICE");
 const services = all.filter((n) => n.metadata?.supportStatus !== "COMING_SOON");
 const comingSoon = all.filter((n) => n.metadata?.supportStatus === "COMING_SOON");
 
-const compile = (goal: string) =>
+/**
+ * Asked from the district that publishes the thing, not always from Ahmedabad.
+ *
+ * Ahmedabad for everything was the old default and it hid the bug it was meant
+ * to catch: a service scoped to one district compiled anywhere, so a citizen in
+ * Ahmedabad asking for "property tax" was answered with Jamnagar's municipal
+ * corporation, address and phone number included. The compiler refuses that
+ * now, which means this file has to ask from somewhere the service exists.
+ */
+const districtNames = new Map(data.jurisdictions.filter((j) => j.level === "DISTRICT").map((j) => [j.id, j.name]));
+
+const compile = (goal: string, scope?: string) =>
   compileJourney(data, {
     goal,
-    jurisdiction: { country: "India", state: "Gujarat", district: "Ahmedabad" },
+    jurisdiction: { country: "India", state: "Gujarat", district: districtNames.get(scope ?? "") ?? "Ahmedabad" },
   });
 
 describe("every service compiles into something a citizen can act on", () => {
@@ -46,7 +57,7 @@ describe("every service compiles into something a citizen can act on", () => {
 
   for (const service of services) {
     it(`${service.id} compiles`, () => {
-      const journey = compile(service.id);
+      const journey = compile(service.id, service.jurisdictionId);
 
       // Nothing may arrive empty. An empty path is a dead end wearing a page.
       expect(journey.orderedSteps.length).toBeGreaterThan(0);
@@ -106,7 +117,7 @@ describe("couldBlock survives the compile", () => {
     it(`${node.id} shows what stops it`, () => {
       // Compiled from the node itself, so this holds whatever journey drags it
       // in and does not go stale when the graph is rewired around it.
-      const step = compile(node.id).orderedSteps.find((s) => s.nodeId === node.id);
+      const step = compile(node.id, node.jurisdictionId).orderedSteps.find((s) => s.nodeId === node.id);
       expect(step?.couldBlock?.length).toBe(node.metadata?.couldBlock?.length);
       // A node id is not a warning. Anything shaped like one must have been
       // swapped for the thing's name before it reaches a citizen.
@@ -149,7 +160,11 @@ describe("the machine cannot shadow a hand written service", () => {
           // written service and an alias of another, and which one wins is an
           // overlap two people left in the seed, not a thing the machine broke.
           // What must never happen is a machine extracted service answering.
-          const winner = data.nodes.find((n) => n.id === compile(phrase).goal);
+          // The resolve on its own, not a whole compile: which node answers a
+          // phrase is decided before any jurisdiction is, and a district scoped
+          // winner now refuses to compile outside its district, which would
+          // fail this for the wrong reason.
+          const winner = new JourneyCompiler(data).resolveGoal(phrase);
           expect(winner?.metadata?.machineExtracted).toBeFalsy();
         },
         // One resolve against 556 services and every alias they carry is ~2s,
