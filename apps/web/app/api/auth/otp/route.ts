@@ -4,7 +4,7 @@ import { authClient, caller } from "../../caller";
 import { ops } from "../../ops";
 
 /**
- * POST /api/auth/otp — send a six digit code to an email address.
+ * POST /api/auth/otp — send a one time code to an email address.
  *
  * The whole of Ariane's login, half of it. No password to forget, no password
  * to leak, no password reset flow to get wrong. §2 asked for the simplest thing
@@ -12,8 +12,11 @@ import { ops } from "../../ops";
  *
  * A code rather than a magic link on purpose: a link needs a redirect allowlist
  * configured per deployment and breaks when somebody opens their mail on a
- * different device. Six digits typed into the page they are already on works
+ * different device. A few digits typed into the page they are already on works
  * from a phone, a shared computer and a train.
+ *
+ * How many digits is a Supabase project setting, so nothing here counts them.
+ * `verify` accepts six to ten.
  */
 export const dynamic = "force-dynamic";
 

@@ -6,10 +6,14 @@ import { ops } from "../../ops";
 /**
  * POST /api/auth/verify — exchange the emailed code for a session.
  *
- * Supabase does the checking. What this route adds is a limit on guessing: six
- * digits is a million combinations, which is a lot for a person and an
- * afternoon for a script, so the same window that governs sending governs
- * trying. §6.
+ * Supabase does the checking. What this route adds is a limit on guessing: a
+ * numeric code is a lot of combinations for a person and an afternoon for a
+ * script, so the same window that governs sending governs trying. §6.
+ *
+ * Six to ten digits because the length is a Supabase project setting, not a
+ * constant. Pinning it to one number means the day it changes in the dashboard
+ * every login fails here, with a message blaming the caller's typing. The code
+ * stays a string throughout: 09470715 is eight digits, and seven as a number.
  */
 export const dynamic = "force-dynamic";
 
@@ -26,8 +30,8 @@ export async function POST(request: Request) {
   } catch {
     return NextResponse.json({ error: "Body must be JSON" }, { status: 400 });
   }
-  if (!email || !/^\d{6}$/.test(code)) {
-    return NextResponse.json({ error: "Enter the six digit code from your email" }, { status: 400 });
+  if (!email || !/^\d{6,10}$/.test(code)) {
+    return NextResponse.json({ error: "Enter the code from your email" }, { status: 400 });
   }
 
   const store = ops();

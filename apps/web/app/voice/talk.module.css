@@ -111,16 +111,3 @@
   line-height: 1.5;
   color: var(--ink-soft);
 }
-
-.signin {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-top: 10px;
-}
-
-.signin input {
-  flex: 1 1 200px;
-  min-width: 0;
-}

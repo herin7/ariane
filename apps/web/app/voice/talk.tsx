@@ -4,6 +4,7 @@ import type { QueuePlace, VoiceLimit, VoiceState } from "@ariane/voice/client";
 import { VoiceClient } from "@ariane/voice/client";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { track } from "../analytics";
+import { SignIn } from "../signin";
 import styles from "./talk.module.css";
 
 /**
@@ -280,94 +281,5 @@ function Ceiling({
       {limit.message}
       {limit.code === "GUEST_QUOTA" && !signedIn && <SignIn onSignedIn={onSignedIn} />}
     </div>
-  );
-}
-
-/**
- * The whole of Ariane's login. An email, a six digit code, done.
- *
- * No password field, so there is no password to store, leak or reset. Nothing
- * here holds a token: the code is exchanged on the server and the session comes
- * back as an HttpOnly cookie this component cannot read. §8.
- */
-function SignIn({ onSignedIn }: { onSignedIn: (email: string) => void }) {
-  const [email, setEmail] = useState("");
-  const [code, setCode] = useState("");
-  const [sent, setSent] = useState(false);
-  const [busy, setBusy] = useState(false);
-  const [note, setNote] = useState<string>();
-
-  const post = async (path: string, body: unknown) => {
-    setBusy(true);
-    setNote(undefined);
-    try {
-      const response = await fetch(path, {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify(body),
-      });
-      return (await response.json()) as { error?: string; sent?: boolean; signedIn?: boolean; email?: string };
-    } catch {
-      return { error: "Could not reach the server. Try again." };
-    } finally {
-      setBusy(false);
-    }
-  };
-
-  if (!sent) {
-    return (
-      <form
-        className={styles.signin}
-        onSubmit={async (event) => {
-          event.preventDefault();
-          track("login_started");
-          const result = await post("/api/auth/otp", { email });
-          if (result.error) setNote(result.error);
-          else setSent(true);
-        }}
-      >
-        <input
-          type="email"
-          required
-          autoComplete="email"
-          placeholder="you@example.com"
-          aria-label="Email address"
-          value={email}
-          onChange={(event) => setEmail(event.target.value)}
-        />
-        <button type="submit" className="primary" disabled={busy}>
-          Continue with email
-        </button>
-        {note && <span className="small">{note}</span>}
-      </form>
-    );
-  }
-
-  return (
-    <form
-      className={styles.signin}
-      onSubmit={async (event) => {
-        event.preventDefault();
-        const result = await post("/api/auth/verify", { email, code });
-        if (result.signedIn) onSignedIn(result.email ?? email);
-        else setNote(result.error ?? "That code was not right.");
-      }}
-    >
-      <input
-        inputMode="numeric"
-        pattern="\d{6}"
-        required
-        autoComplete="one-time-code"
-        placeholder="6 digit code"
-        aria-label="The code from your email"
-        value={code}
-        onChange={(event) => setCode(event.target.value.replace(/\D/g, "").slice(0, 6))}
-      />
-      <button type="submit" className="primary" disabled={busy}>
-        Sign in
-      </button>
-      <span className="small faint">Sent to {email}</span>
-      {note && <span className="small">{note}</span>}
-    </form>
   );
 }

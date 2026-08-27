@@ -6,6 +6,7 @@ import {
   type CompiledJourney,
   type GraphData,
 } from "@ariane/core";
+import { languageTag } from "./agent";
 import { checkInput } from "./guardrails";
 import { LIMITS, TOOL_POLICY } from "./policy";
 import { projectJourney, projectMatches, projectStep } from "./projection";
@@ -366,14 +367,33 @@ export class VoiceBroker {
       return { refusal: { code: "IDENTITY_REQUIRED" as const, speak: TOOL_POLICY.save_preference.refusal } };
     }
 
-    await this.config.store.savePreference(session.citizenId, key, value);
-    if (key === "preferred_language") session.language = value;
+    /**
+     * A language is the one preference that comes back as an instruction: it is
+     * read on the next call as "Start in X". So it is stored as a tag we
+     * recognise or not at all, and "French" never becomes a standing order.
+     */
+    let stored = value;
+    if (key === "preferred_language") {
+      const tag = languageTag(value);
+      if (!tag) {
+        return {
+          refusal: {
+            code: "GUARDRAIL" as const,
+            speak: "I only speak English and the Indian languages, so I will stay in English.",
+          },
+        };
+      }
+      stored = tag;
+    }
+
+    await this.config.store.savePreference(session.citizenId, key, stored);
+    if (key === "preferred_language") session.language = stored;
 
     return {
-      data: { status: "SAVED", key, value },
+      data: { status: "SAVED", key, value: stored },
       // A preference is a fact about the caller, not about government. It cites
       // nothing because there is nothing to cite, and the model may repeat it.
-      grounding: [{ claimId: `preference:${key}`, text: value }],
+      grounding: [{ claimId: `preference:${key}`, text: stored }],
       touched: true,
     };
   }

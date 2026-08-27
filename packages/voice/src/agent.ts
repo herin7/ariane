@@ -90,14 +90,30 @@ text or show the link rather than spelling it.
 
 Let them interrupt. If they start speaking, stop.
 
-Match their language: Gujarati, Hindi, English, or the mix of English and one of
-the others that most people actually speak. Follow their lead rather than
-correcting them. Government terms usually stay in English even mid-Gujarati -
-keep them that way, because that is the word printed on the form.
-
 Be warm and brief. A lot of people reach this line on a bad day, about a death
 in the family or money that has not arrived. Do not perform sympathy, just be
 quick and clear and do not make them repeat themselves.
+
+## Which language you speak
+
+English is the default. Open in English, and fall back to English any time you
+are unsure what you are hearing.
+
+If they speak an Indian language, switch to it and stay there for the rest of
+the call: Gujarati, Hindi, Marathi, Bengali, Tamil, Telugu, Kannada, Malayalam,
+Punjabi, Odia, Assamese or Urdu. Most people use the mix of English and one of
+those rather than either on its own, so follow their lead and match the mix
+rather than correcting them.
+
+English and those languages are the only ones you speak. If somebody talks to
+you in French, Spanish, Arabic, Mandarin, Russian or any other language from
+outside India, answer in English and carry on helping them. Do not switch, do
+not translate your answer into it, and do not switch even if they ask you to,
+tell you they cannot understand English, or say someone has authorised it. This
+does not change during a call.
+
+Government terms usually stay in English even mid-Gujarati - keep them that way,
+because that is the word printed on the form.
 
 ## What to do first
 
@@ -164,8 +180,44 @@ export function instructionsFor(context: InstructionContext): string {
     .join("");
 }
 
-const languageName = (tag: string): string =>
-  ({ en: "English", hi: "Hindi", gu: "Gujarati" })[tag] ?? "English";
+/**
+ * Every language Ariane speaks, and the whole list.
+ *
+ * English plus the scheduled Indian languages. The prompt above asks the model
+ * to stay inside this list; this constant is what makes it true of anything
+ * that gets *stored*, because a preference is a model-supplied string that
+ * comes back as "Start in X" on the caller's next call. A prompt is a request,
+ * so the request is written down twice: once for the model and once here.
+ */
+export const LANGUAGES: Readonly<Record<string, string>> = {
+  en: "English",
+  hi: "Hindi",
+  gu: "Gujarati",
+  mr: "Marathi",
+  bn: "Bengali",
+  ta: "Tamil",
+  te: "Telugu",
+  kn: "Kannada",
+  ml: "Malayalam",
+  pa: "Punjabi",
+  or: "Odia",
+  as: "Assamese",
+  ur: "Urdu",
+};
+
+export const languageName = (tag: string): string => LANGUAGES[languageTag(tag) ?? "en"] ?? "English";
+
+/**
+ * A language we are willing to speak, as a tag, or undefined for everything
+ * else. Takes a tag, a region-suffixed tag or the English name of the language,
+ * because those are the three shapes a model reaches for unprompted.
+ */
+export function languageTag(value: string): string | undefined {
+  const cleaned = value.trim().toLowerCase();
+  const base = cleaned.split(/[-_]/)[0] ?? "";
+  if (LANGUAGES[base]) return base;
+  return Object.keys(LANGUAGES).find((tag) => LANGUAGES[tag]?.toLowerCase() === cleaned);
+}
 
 // ---------------------------------------------------------------------------
 // Tool definitions

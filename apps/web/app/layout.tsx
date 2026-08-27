@@ -3,6 +3,7 @@ import Link from "next/link";
 import "./globals.css";
 import { Telemetry } from "./analytics";
 import { MotionObserver } from "./motion";
+import { AuthLink } from "./signin";
 
 export const metadata: Metadata = {
   title: { default: "Ariane", template: "%s · Ariane" },
@@ -47,10 +48,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/admin/coverage">Coverage</Link>
             </nav>
 
-            <Link href="/#start" className="nav-cta">
-              <span>Find my path</span>
-              <span className="nav-cta-icon" aria-hidden>↗</span>
-            </Link>
+            <div className="nav-end">
+              <AuthLink />
+              <Link href="/#start" className="nav-cta">
+                <span>Find my path</span>
+                <span className="nav-cta-icon" aria-hidden>↗</span>
+              </Link>
+            </div>
 
             {/* Below 700px the pill swallows the links, so it unfolds into them
                 instead. A <details> is the whole disclosure: open state, keyboard
@@ -62,6 +66,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <Link href="/voice">Talk</Link>
                 <Link href="/admin/graph">How it works</Link>
                 <Link href="/admin/coverage">Coverage</Link>
+                <Link href="/signin">Sign in or create an account</Link>
               </div>
             </details>
           </div>
