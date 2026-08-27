@@ -7,6 +7,22 @@ import { Search } from "./search";
 // service names and keeps the page a static file the rest of the time.
 export const revalidate = 60;
 
+/**
+ * Four sentences a person actually arrives with.
+ *
+ * Not a taxonomy and not data: the services behind each are decided by
+ * `compilePlan` against the live graph when the page opens, so nothing here
+ * claims what any of them involve. The `note` says why it is more than one
+ * service without naming a single one, which is the line this page holds
+ * everywhere else too.
+ */
+const LIFE_EVENTS = [
+  { said: "I want to start a company", note: "Registration, tax and the licences that follow it." },
+  { said: "Someone in my family has died", note: "The certificate first, then everything that needs it." },
+  { said: "I am moving to a new district", note: "What follows you, and what has to be applied for again." },
+  { said: "I am opening a shop", note: "The permissions a counter will ask you for." },
+];
+
 export default async function Home() {
   const { nodes, edges, sources } = await graph();
   const services = nodes.filter((n) => n.type === "SERVICE");
@@ -134,6 +150,32 @@ export default async function Home() {
               <div>
                 <h3>{service.name}</h3>
                 <p>{service.description}</p>
+              </div>
+              <span className="service-arrow" aria-hidden>↗</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* The other shape of a request, and the one nobody's website answers.
+          Four sentences rather than four service names, because that is what a
+          person arrives with: the services behind each are worked out against
+          the same graph, in the same compiler, when the page opens. */}
+      <section className="featured-section" data-reveal>
+        <div className="section-intro row-between">
+          <div>
+            <p className="section-kicker">Life events</p>
+            <h2>Some things are not one service.</h2>
+          </div>
+          <Link href="/#start" className="text-link">Describe your own <span>→</span></Link>
+        </div>
+        <div className="service-grid">
+          {LIFE_EVENTS.map((event, index) => (
+            <Link key={event.said} href={`/plan?q=${encodeURIComponent(event.said)}`} className="service-card rise">
+              <span className="service-index">{String(index + 1).padStart(2, "0")}</span>
+              <div>
+                <h3>{event.said}</h3>
+                <p>{event.note}</p>
               </div>
               <span className="service-arrow" aria-hidden>↗</span>
             </Link>

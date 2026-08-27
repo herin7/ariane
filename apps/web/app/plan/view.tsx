@@ -131,6 +131,11 @@ export function PlanView({ districts }: { districts: string[] }) {
         <p className="small muted" style={{ margin: "4px 0 0" }}>
           Try &ldquo;I want to start a company&rdquo; or &ldquo;my father died and I need to sort out the paperwork&rdquo;.
         </p>
+        {/* There is no box on this page on purpose: one search box, on the
+            front page, and it decides whether a sentence is one service or
+            several. Two boxes asking the same question is the thing a citizen
+            has to guess between. */}
+        <a className="small" href="/#start">Say what you need &rarr;</a>
       </div>
     );
   }
