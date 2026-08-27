@@ -42,10 +42,14 @@ export default async function Home() {
   // worse, because the scholarship services all lead into the same portal, so
   // it filled the page with three near identical scholarship cards.
   //
-  // Varshai is machine written and still belongs here: it is how a Gujarati
+  // Varsai is machine written and still belongs here: it is how a Gujarati
   // family gets a death in it recognised, and the step cards say plainly where
-  // each line came from.
-  const HEROES = ["service:nsp_scholarship", "service:driving_licence", "service:varshai"];
+  // each line came from. Its id follows the heading the page prints, so a
+  // recompile can rename it - it was `service:varshai` until the extractor read
+  // the collectorate's own spelling - and the card goes quiet rather than
+  // breaking. `docs/research/service-names.tsv` is what says so out loud: a row
+  // naming a service that did not build is reported by the compiler.
+  const HEROES = ["service:nsp_scholarship", "service:driving_licence", "service:varsai"];
 
   const degree = new Map<string, number>();
   for (const e of edges) degree.set(e.from, (degree.get(e.from) ?? 0) + 1);

@@ -33,13 +33,13 @@
 #
 # Format: serviceId<TAB>alias<TAB>why
 
-service:varshai	legal heir certificate	what this is called in English across India, and the service's own page says "legal lineal heir of the deceased"
-service:varshai	legal heir	the short form people actually type
-service:varshai	heirship certificate	the revenue department's English term for a varsai entry
-service:varshai	varsai	the collectorate page spells it this way, the url spells it varshai
-service:varshai	varsai certificate	the full phrase in the commoner spelling
-service:varshai	varasai	a third spelling in circulation, two edits from varshai so near() cannot reach it
-service:varshai	વારસાઈ	the Gujarati name without the word certificate after it
+service:varsai	legal heir certificate	what this is called in English across India, and the service's own page says "legal lineal heir of the deceased"
+service:varsai	legal heir	the short form people actually type
+service:varsai	heirship certificate	the revenue department's English term for a varsai entry
+service:varsai	varshai	the url spells it this way and the node is now named after the page's heading, so the spelling that used to be the id is now the one that needs a row
+service:varsai	varsai certificate	the full phrase in the commoner spelling
+service:varsai	varasai	a third spelling in circulation, two edits from varshai so near() cannot reach it
+service:varsai	વારસાઈ	the Gujarati name without the word certificate after it
 
 service:food_ration_card	રેશન કાર્ડ	the Gujarati name, which the smart and duplicate cards already carry and this one did not
 

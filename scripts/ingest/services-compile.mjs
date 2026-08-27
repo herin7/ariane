@@ -36,7 +36,7 @@ import { at, chat, GRAPH, jsonArray, pool, readJsonl, REJECTIONS, REJECTION_SUMM
 import { display, districtOf, isPerson, slug, title } from "./places.mjs";
 import { norm } from "./gate.mjs";
 import { handSaved } from "./chunks.mjs";
-import { appendFileSync, existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { appendFileSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 
 const IDENTIFY = ".ingest/identify/";
 /** v3: seven journeys added, so every cached `skip` has to be asked again. */
@@ -2120,6 +2120,17 @@ function build(journey, services) {
   const link = (from, to, type, note, refs) => {
     const id = `e:${slug(from)}__${type.toLowerCase()}__${slug(to)}`.slice(0, 120);
     if (edges.some((e) => e.id === id)) return;
+    // A service cannot require the thing it hands you. The nationality
+    // certificate page lists "nationality certificate application" among the
+    // documents to bring, which slugs to the same node the service PRODUCES,
+    // and the result is a dependency cycle: a checklist whose first step is to
+    // already own what you came for. PRODUCES is the true edge, so it wins
+    // whichever order the two claims arrive in.
+    if (type === "REQUIRES" && edges.some((e) => e.from === from && e.to === to && e.type === "PRODUCES")) return;
+    if (type === "PRODUCES") {
+      const cycle = edges.findIndex((e) => e.from === from && e.to === to && e.type === "REQUIRES");
+      if (cycle >= 0) edges.splice(cycle, 1);
+    }
     edges.push({ id, from, to, type, verificationStatus: "EXTRACTED", ...(note ? { note } : {}), sources: refs });
   };
 
@@ -2687,6 +2698,19 @@ function build(journey, services) {
 
 let written = 0;
 const summary = [];
+// Last run's bundle for a journey this run does not write is not an older
+// answer, it is a second one. birth-death fell from three services to two, its
+// file stayed on disk, and every office and helpline in it collided with the
+// bundle that now owns those ids: six DUPLICATE_NODE errors from a graph that
+// compiled cleanly. This compiler owns every name in JOURNEYS by construction -
+// EXISTING is defined as the files that are not one - so clearing them here
+// makes what is on disk what this run decided, and nothing else.
+if (!flag("dry")) {
+  for (const journey of Object.keys(JOURNEYS)) {
+    rmSync(`${GRAPH}/${journey}.json`, { force: true });
+    rmSync(`${RESEARCH}/${journey}.json`, { force: true });
+  }
+}
 for (const [journey, services] of [...journeys.entries()].sort()) {
   const list = [...services.values()].filter((s) => s.pages.length > 0);
   if (list.length < MIN_SERVICES) {

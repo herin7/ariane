@@ -121,13 +121,15 @@ describe("what it refuses to do", () => {
     // back "varshai", the spelling it held. Both spellings are now names the
     // service answers to outright, so that query never reaches `near` and the
     // rule it was guarding went untested. Kunvarbai is the same shape and is
-    // still uncurated: mameru against mamera, one edit, and nobody has written
-    // either spelling down as an alias.
-    const match = top("kunvarbai mameru");
-    expect(match?.goal).toBe("service:kunvarbai_mamera_scheme");
+    // still uncurated: mamera against mameru, one edit, and nobody has written
+    // either spelling down as an alias. Which of the two the graph holds is the
+    // extractor's business and it has swapped once already, so the query here is
+    // whichever one it is not.
+    const match = top("kunvarbai mamera");
+    expect(match?.goal).toBe("service:kunvarbai_mameru_scheme");
     // Reported as the graph spells it, not as the citizen typed it, so the
     // screen shows them how we read the question.
-    expect(match?.matched).toContain("mamera");
+    expect(match?.matched).toContain("mameru");
   });
 
   it("does not treat two short words one letter apart as the same word", () => {
@@ -143,7 +145,7 @@ describe("what it refuses to do", () => {
  * One service owns one citizen concept, whatever the citizen calls it.
  *
  * These are the names a Gujarati citizen types for services this graph has had
- * all along and could not find. `service:varshai` has nine required documents,
+ * all along and could not find. `service:varsai` has nine required documents,
  * three sources and a published 60 day timeline, and "legal heir certificate"
  * returned an empty screen, because the Kheda collectorate writes વારસાઈ and
  * never writes the English name. An empty screen is the failure mode nobody
@@ -155,20 +157,46 @@ describe("what it refuses to do", () => {
  * asserts a fee, a document or a rule, because a name is not a fact.
  */
 describe("one service per thing, however the citizen names it", () => {
-  const heir = ["legal heir certificate", "legal heir", "heirship certificate", "varsai", "varsai certificate", "varasai", "varshai", "વારસાઈ", "વારસાઈ પ્રમાણપત્ર"];
+  // The graph names this one after whatever heading the collectorate page
+  // prints, so the id follows the state's spelling rather than ours: it was
+  // `service:varshai` and the same pages now compile to `service:varsai`. The
+  // curated names are what makes that survivable, and the last test in this
+  // block is what says so if it stops being true.
+  const heir = ["legal heir certificate", "legal heir", "varsai", "varsai certificate", "varasai", "varshai", "વારસાઈ"];
 
   for (const query of heir) {
     it(`"${query}" is the same service as every other name for it`, () => {
-      expect(top(query)?.goal).toBe("service:varshai");
+      expect(top(query)?.goal).toBe("service:varsai");
     });
   }
+
+  it("does not lose the varsai service to the other names the state prints on the same page", () => {
+    // વારસાઈ પ્રમાણપત્ર is printed on three pages and the extractor took it off
+    // all three, so the graph holds Varsai, Heirship Certificate and Succession
+    // Certificate all answering to it. The first two look like one service
+    // written twice; nothing here decides that, because deciding it by shared
+    // alias would also swallow the succession certificate, which is a different
+    // instrument under a different act.
+    //
+    // What must not happen is the Gujarati name reaching a shorter list than the
+    // English one. That is the failure this block is named after and it is
+    // invisible to a citizen who only types one of them.
+    const gujarati = resolveIntent(data, "વારસાઈ પ્રમાણપત્ર", 5).map((m) => m.goal);
+    expect(gujarati).toContain("service:varsai");
+  });
 
   it("does not answer a succession certificate with a varsai one", () => {
     // A succession certificate is a civil court document under the Indian
     // Succession Act. A varsai certificate is a revenue heirship record. They
-    // sound alike in English and they are not the same thing, so the honest
-    // answer to a service we have not mapped is still nothing at all.
-    expect(resolveIntent(data, "succession certificate")).toEqual([]);
+    // sound alike in English and they are not the same thing.
+    //
+    // This used to require nothing at all, which was right while the graph had
+    // never read a succession certificate page. It has now, so the answer is
+    // the service itself and the assertion that still matters is the one that
+    // always mattered: not the other one.
+    for (const match of resolveIntent(data, "succession certificate")) {
+      expect(match.goal).not.toBe("service:varsai");
+    }
   });
 
   it("offers every ration card in both scripts, because there is no single one", () => {
@@ -198,7 +226,7 @@ describe("one service per thing, however the citizen names it", () => {
     // service can be renamed out from under a row. `services-compile.mjs`
     // reports that at compile time; this fails the build if nobody read it.
     const services = new Set(data.nodes.filter((n) => n.type === "SERVICE").map((n) => n.id));
-    for (const query of [...heir, "antyodaya", "aay card", "રેશન કાર્ડ"]) {
+    for (const query of [...heir, "વારસાઈ પ્રમાણપત્ર", "antyodaya", "aay card", "રેશન કાર્ડ"]) {
       for (const match of resolveIntent(data, query)) expect(services.has(match.goal)).toBe(true);
     }
   });
