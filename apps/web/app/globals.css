@@ -1705,21 +1705,27 @@ html { scroll-padding-top: 96px; }
   border: 1px solid var(--line);
   overflow: hidden;
   background: var(--paper-sunk);
+  /* Leaflet's panes and controls climb to z-index 1000. This keeps that ladder
+     inside the map instead of over the page's own header. */
+  position: relative;
+  z-index: 0;
 }
 .office-map-note { margin: 6px 0 0; }
 
-/* MapLibre draws its own controls and attribution. Only the parts that would
+/* Leaflet draws its own controls and attribution. Only the parts that would
    otherwise fight the page are touched. */
-.office-map .maplibregl-ctrl-attrib {
+.office-map .leaflet-control-attribution {
   font-size: 10.5px;
   background: rgba(250, 249, 246, 0.86);
 }
-.office-map .maplibregl-popup-content {
+.office-map .leaflet-popup-content {
   font: inherit;
   font-size: 12.5px;
+  margin: 8px 11px;
+}
+.office-map .leaflet-popup-content-wrapper {
   border-radius: var(--r-sm);
   box-shadow: var(--lift-hi);
-  padding: 8px 11px;
 }
 
 .map-pin {
@@ -1737,10 +1743,12 @@ html { scroll-padding-top: 96px; }
   border-color: var(--thread);
   box-shadow: none;
 }
+/* A ring rather than a scale: Leaflet positions a marker with `transform`, so
+   anything set here instead of added to it lands the pin at the top left. */
 .map-pin-on {
   background: var(--accent);
   border-color: var(--paper);
-  transform: scale(1.25);
+  box-shadow: 0 0 0 5px var(--accent-line), 0 1px 6px rgba(14, 21, 18, 0.3);
 }
 
 .map-me {

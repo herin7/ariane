@@ -2,9 +2,11 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { Feature, LineString } from "geojson";
-// The stylesheet is 40kB and ships with the component; the 250kB library that
-// needs it does not, and arrives through the dynamic import below.
-import "maplibre-gl/dist/maplibre-gl.css";
+import type { Layer, Map as LeafletMap } from "leaflet";
+// Small enough to ship with the component. The library itself still arrives
+// through the dynamic import below, because it touches `window` on evaluation
+// and this page is server rendered.
+import "leaflet/dist/leaflet.css";
 import { formatCrowKm, formatDuration, formatRoutedKm, rankByDistance, type Point } from "@ariane/core/location";
 import { locationIsUsable, officeLine, type OfficeRef } from "@ariane/core/types";
 
@@ -26,8 +28,18 @@ import { locationIsUsable, officeLine, type OfficeRef } from "@ariane/core/types
  * stored, not logged, and not attached to anything we keep.
  */
 
-/** OpenStreetMap's own tiles, no key, no account, no per-view billing. */
-const STYLE_URL = "https://tiles.openfreemap.org/styles/liberty";
+/**
+ * OpenStreetMap's own tiles, no key, no account, no per-view billing.
+ *
+ * Plain PNGs, deliberately. The previous map drew vector tiles through WebGL
+ * and rendered nothing at all on a machine without a working GL context: the
+ * pins are DOM elements so they still appeared, floating over an empty box,
+ * which is the single worst way for a map to fail. These are `<img>` tags. A
+ * browser that cannot draw them cannot draw the page either.
+ */
+const TILES = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
+const TILE_ATTRIBUTION =
+  '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 
 /** Public demo server. Fine for one route on demand, not for a batch. */
 const OSRM = "https://router.project-osrm.org/route/v1/driving";
@@ -206,11 +218,12 @@ function Office({
 }
 
 /**
- * MapLibre, loaded only when there is something to draw.
+ * Leaflet, loaded only when there is something to draw.
  *
- * The library and its stylesheet are ~250kB and most journeys are entirely
- * online, so both arrive through a dynamic import inside the effect rather than
- * in the page bundle.
+ * The map lives in state rather than a ref on purpose. It is created after an
+ * await, so every effect that draws onto it has to run again once it exists —
+ * with a ref they ran once, found `null`, and returned, and the map came up
+ * with no pins on it at all.
  */
 function OfficeMap({
   offices,
@@ -224,107 +237,93 @@ function OfficeMap({
   highlight?: string;
 }) {
   const container = useRef<HTMLDivElement>(null);
-  const map = useRef<import("maplibre-gl").Map>(null);
+  const [map, setMap] = useState<LeafletMap>();
   const [failed, setFailed] = useState(false);
 
   useEffect(() => {
-    if (!container.current || map.current) return;
+    if (!container.current) return;
     let cancelled = false;
+    let instance: LeafletMap | undefined;
 
     (async () => {
-      const maplibre = await import("maplibre-gl");
+      const L = (await import("leaflet")).default;
       if (cancelled || !container.current) return;
 
-      const instance = new maplibre.Map({
-        container: container.current,
-        style: STYLE_URL,
-        // Ahmedabad, until the pins say otherwise a frame later.
-        center: [72.5714, 23.0225],
-        zoom: 10,
-        attributionControl: { compact: false },
-      });
-      instance.addControl(new maplibre.NavigationControl({ showCompass: false }), "top-right");
-      instance.on("error", () => setFailed(true));
-      map.current = instance;
+      // Ahmedabad, until the pins say otherwise. Wheel zoom stays off: this map
+      // sits mid page and a citizen scrolling past it wants the page to move.
+      instance = L.map(container.current, { scrollWheelZoom: false }).setView([23.0225, 72.5714], 10);
+      L.tileLayer(TILES, { attribution: TILE_ATTRIBUTION, maxZoom: 19 }).addTo(instance);
+      setMap(instance);
     })().catch(() => setFailed(true));
 
     return () => {
       cancelled = true;
-      map.current?.remove();
-      map.current = null;
+      instance?.remove();
+      setMap(undefined);
     };
   }, []);
 
   // Pins, the citizen, and the frame that holds all of them.
   useEffect(() => {
-    const instance = map.current;
-    if (!instance) return;
+    if (!map) return;
     let cancelled = false;
+    const drawn: Layer[] = [];
 
     (async () => {
-      const maplibre = await import("maplibre-gl");
-      if (cancelled || !map.current) return;
+      const L = (await import("leaflet")).default;
+      if (cancelled) return;
 
-      const markers: import("maplibre-gl").Marker[] = [];
-      const bounds = new maplibre.LngLatBounds();
+      const points: [number, number][] = [];
 
       for (const office of offices) {
         if (!locationIsUsable(office.location)) continue;
-        const at: [number, number] = [office.location.longitude, office.location.latitude];
-        const pin = document.createElement("div");
-        pin.className = `map-pin${office.nodeId === highlight ? " map-pin-on" : ""}${office.location.status === "DERIVED_MEDIUM" ? " map-pin-soft" : ""}`;
-        markers.push(
-          new maplibre.Marker({ element: pin })
-            .setLngLat(at)
-            .setPopup(new maplibre.Popup({ offset: 16, closeButton: false }).setText(officeLine(office)))
-            .addTo(instance),
-        );
-        bounds.extend(at);
+        const at: [number, number] = [office.location.latitude, office.location.longitude];
+        const icon = L.divIcon({
+          className: `map-pin${office.nodeId === highlight ? " map-pin-on" : ""}${office.location.status === "DERIVED_MEDIUM" ? " map-pin-soft" : ""}`,
+          iconSize: [15, 15],
+          iconAnchor: [7, 7],
+        });
+        drawn.push(L.marker(at, { icon, title: officeLine(office) }).bindPopup(officeLine(office)).addTo(map));
+        points.push(at);
       }
 
       if (position) {
-        const me = document.createElement("div");
-        me.className = "map-me";
-        markers.push(new maplibre.Marker({ element: me }).setLngLat([position.longitude, position.latitude]).addTo(instance));
-        bounds.extend([position.longitude, position.latitude]);
+        const icon = L.divIcon({ className: "map-me", iconSize: [13, 13], iconAnchor: [6, 6] });
+        drawn.push(L.marker([position.latitude, position.longitude], { icon }).addTo(map));
+        points.push([position.latitude, position.longitude]);
       }
 
-      if (!bounds.isEmpty()) instance.fitBounds(bounds, { padding: 56, maxZoom: 15, duration: 600 });
-      return () => markers.forEach((m) => m.remove());
+      if (points.length) map.fitBounds(L.latLngBounds(points), { padding: [40, 40], maxZoom: 15 });
     })();
 
     return () => {
       cancelled = true;
+      for (const layer of drawn) layer.remove();
     };
-  }, [offices, position, highlight]);
+  }, [map, offices, position, highlight]);
 
-  // The route line, drawn as a source rather than a marker so it survives pans.
+  // The route, drawn as its own layer so it survives pans and clears itself.
   useEffect(() => {
-    const instance = map.current;
-    if (!instance) return;
-    const draw = () => {
-      const existing = instance.getSource("route") as import("maplibre-gl").GeoJSONSource | undefined;
-      if (!route) {
-        if (existing) {
-          instance.removeLayer("route");
-          instance.removeSource("route");
-        }
-        return;
-      }
+    if (!map || !route) return;
+    let cancelled = false;
+    let line: Layer | undefined;
+
+    (async () => {
+      const L = (await import("leaflet")).default;
+      if (cancelled) return;
       const data: Feature = { type: "Feature", properties: {}, geometry: route.geometry };
-      if (existing) return existing.setData(data);
-      instance.addSource("route", { type: "geojson", data });
-      instance.addLayer({
-        id: "route",
-        type: "line",
-        source: "route",
-        layout: { "line-cap": "round", "line-join": "round" },
-        paint: { "line-color": "#ef5a3c", "line-width": 4, "line-opacity": 0.85 },
-      });
+      const drawn = L.geoJSON(data, { style: { color: "#ef5a3c", weight: 4, opacity: 0.85 } }).addTo(map);
+      line = drawn;
+      // The whole way, both ends visible. A route half off the edge is a
+      // direction, not directions.
+      map.fitBounds(drawn.getBounds(), { padding: [40, 40] });
+    })();
+
+    return () => {
+      cancelled = true;
+      line?.remove();
     };
-    if (instance.isStyleLoaded()) draw();
-    else instance.once("load", draw);
-  }, [route]);
+  }, [map, route]);
 
   if (failed) {
     // The addresses below are the product. A map that will not load is a
