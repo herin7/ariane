@@ -142,3 +142,139 @@ export const LIMITS = {
 } as const;
 
 export type Limits = typeof LIMITS;
+
+// ---------------------------------------------------------------------------
+// Tiers
+// ---------------------------------------------------------------------------
+
+/**
+ * What you get without logging in, and what you get after.
+ *
+ * A minute is enough to hear Ariane answer a real question and decide whether
+ * it is worth an email address. Ten is enough to finish a journey. The gap is
+ * the product argument; the reason it is *here* is the security one.
+ *
+ * `maxCallMs` is a constant in a table, so there is no code path that takes a
+ * duration from a request, a cookie, a tool argument or a model turn. "Set my
+ * remaining time to an hour" has nothing to write to. The number is read in
+ * three independent places — the session's `expiresAt`, the capacity lease TTL,
+ * and the realtime provider's own `maxDurationSeconds` — and the caller would
+ * have to defeat all three, on a server they do not control, to gain a second.
+ */
+export type Tier = "GUEST" | "AUTHENTICATED";
+
+export const TIERS = {
+  GUEST: {
+    /** Hard stop. Not extendable, not refreshable, not negotiable. */
+    maxCallMs: 60_000,
+    /** And that is the whole day's allowance, per cookie and per address. */
+    dailyMs: 60_000,
+    /** Window the daily allowance resets over. */
+    dailyWindowSeconds: 24 * 60 * 60,
+  },
+  AUTHENTICATED: {
+    maxCallMs: 10 * 60_000,
+    dailyMs: 30 * 60_000,
+    dailyWindowSeconds: 24 * 60 * 60,
+  },
+} as const satisfies Record<Tier, { maxCallMs: number; dailyMs: number; dailyWindowSeconds: number }>;
+
+/**
+ * Seconds remaining at which the caller is warned, longest first.
+ *
+ * Spoken by the client from the server's `expiresAt`, so a warning that fails
+ * to fire is a worse experience and not a longer call — the hard stop is
+ * elsewhere and does not consult this.
+ */
+export const WARN_AT_MS = [30_000, 10_000] as const;
+
+// ---------------------------------------------------------------------------
+// Capacity
+// ---------------------------------------------------------------------------
+
+/**
+ * Ten lines, globally.
+ *
+ * Global is the operative word. This is a count of rows in Postgres, not a
+ * variable in a Node process, because Vercel runs however many instances it
+ * feels like and a per-instance counter of ten is a bill for ten times ten.
+ */
+export const CAPACITY = {
+  /** Concurrent realtime sessions across the entire deployment. */
+  maxConcurrentCalls: 10,
+  /**
+   * How long a lease survives without a heartbeat. Three missed beats.
+   *
+   * This is what makes a closed laptop give its slot back. Shorter and a slow
+   * network drops live callers; longer and a crashed tab holds a line for
+   * minutes.
+   */
+  leaseTtlMs: 45_000,
+  heartbeatMs: 15_000,
+  /** A queue ticket that stops polling for this long is gone. */
+  queueTtlMs: 60_000,
+  queuePollMs: 2_000,
+  /** How long a promoted caller has to actually start their call. */
+  claimMs: 30_000,
+  /** For "about four minutes" in the queue UI. A guess, and labelled as one. */
+  typicalCallMs: 4 * 60_000,
+} as const;
+
+// ---------------------------------------------------------------------------
+// Rate limits
+// ---------------------------------------------------------------------------
+
+/**
+ * Fixed windows, per subject, enforced in Postgres.
+ *
+ * Nothing here limits reading Ariane. Search, journeys, services, the graph and
+ * the map are the product and they stay open; every bucket below guards
+ * something that either costs money per call or is a credential guess.
+ */
+export const RATE_LIMITS = {
+  /** Starting a voice session. Generous — retries after a dropped call are normal. */
+  voiceSession: { windowSeconds: 60, max: 6 },
+  /** Joining the queue. Stops a script from farming ticket positions. */
+  voiceQueue: { windowSeconds: 60, max: 20 },
+  /** Tool calls from one session. The broker's own budget is the real ceiling. */
+  voiceTool: { windowSeconds: 60, max: 90 },
+  /** Transcript posts. One per turn plus slack. */
+  voiceTurn: { windowSeconds: 60, max: 120 },
+  /** The paid intent chain, which is the one unauthenticated route that bills. */
+  intent: { windowSeconds: 60, max: 20 },
+  /** Magic links. Deliberately mean: each one is an email to somebody's inbox. */
+  magicLink: { windowSeconds: 15 * 60, max: 3 },
+  /** Admin login attempts per address before the cooldown. §11. */
+  adminLogin: { windowSeconds: 15 * 60, max: 5 },
+  /** Analytics beacons. Enough for a busy session, not enough to be a firehose. */
+  appEvent: { windowSeconds: 60, max: 120 },
+} as const;
+
+/** How long a failed-admin-login cooldown lasts once the limit is hit. */
+export const ADMIN_LOCKOUT_MS = 15 * 60_000;
+
+/**
+ * Repeated HIGH-severity security events buy a rest.
+ *
+ * Server policy, applied to a count of rows. The classifier's job ends at
+ * writing the row; it never decides that somebody is banned, because a
+ * classifier that can ban is a classifier worth arguing with.
+ */
+export const SECURITY_COOLDOWN = {
+  windowMs: 60 * 60_000,
+  /** HIGH events in that window before voice is closed to this subject. */
+  threshold: 3,
+  durationMs: 60 * 60_000,
+} as const;
+
+// ---------------------------------------------------------------------------
+// Retention
+// ---------------------------------------------------------------------------
+
+/** §17. The numbers `ariane_cleanup` is called with. One place to change them. */
+export const RETENTION_DAYS = {
+  transcripts: 30,
+  securityEvents: 90,
+  appEvents: 365,
+  ephemeral: 7,
+} as const;

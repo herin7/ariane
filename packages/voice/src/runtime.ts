@@ -1,6 +1,9 @@
 import { randomBytes } from "node:crypto";
 import { loadLiveGraph, resolveIntentDeeply, supabaseClient, supabaseConfigFromEnv } from "@ariane/core/server";
 import { VoiceBroker } from "./broker";
+import { VoiceCapacity } from "./ops/capacity";
+import { SecurityLog } from "./ops/security";
+import { memoryOps, supabaseOps, type OpsStore } from "./ops/store";
 import { VoiceSessions } from "./session";
 import { memoryStore, supabaseStore, type VoiceStore } from "./store";
 import { defaultSinks, setVoiceSinks } from "./telemetry";
@@ -19,6 +22,12 @@ export interface VoiceRuntime {
   sessions: VoiceSessions;
   broker: VoiceBroker;
   store: VoiceStore;
+  /** Capacity, queue, limits and telemetry. Postgres in production. */
+  ops: OpsStore;
+  capacity: VoiceCapacity;
+  security: SecurityLog;
+  /** The key that turns an address into an `ip_hash`. Never leaves the server. */
+  rateSecret: string;
   /** False when the secrets are missing in production. Routes answer 503. */
   ready: boolean;
 }
@@ -49,18 +58,38 @@ export function voiceRuntime(env: Record<string, string | undefined> = process.e
 
   const sessionSecret = secret(env, "VOICE_SESSION_SECRET");
   const phoneSecret = secret(env, "VOICE_PHONE_HMAC_SECRET");
+  const rateSecret = secret(env, "RATE_LIMIT_SECRET");
 
   // Postgres when it is configured, memory when it is not. Same decision
   // `loadLiveGraph` makes about the graph, so a clone with no credentials runs
   // the whole voice path end to end and only loses what a restart would.
   const config = supabaseConfigFromEnv();
-  const store = config ? supabaseStore(supabaseClient(config)) : memoryStore();
+  const db = config ? supabaseClient(config) : undefined;
+  const store = db ? supabaseStore(db) : memoryStore();
+  const ops = db ? supabaseOps(db) : memoryOps();
 
-  if (!sessionSecret || !phoneSecret) {
+  if (!sessionSecret || !phoneSecret || !rateSecret) {
     // Fail closed and say so once. `ready: false` is what the routes turn into
     // a 503; constructing `VoiceSessions` without a secret would throw here and
     // take the whole route module down with it.
-    console.error("Voice is disabled: VOICE_SESSION_SECRET and VOICE_PHONE_HMAC_SECRET are required.");
+    console.error(
+      "Voice is disabled: VOICE_SESSION_SECRET, VOICE_PHONE_HMAC_SECRET and RATE_LIMIT_SECRET are required.",
+    );
+    runtime = { ready: false } as unknown as VoiceRuntime;
+    return runtime;
+  }
+
+  /**
+   * The one configuration mistake that is silent and expensive.
+   *
+   * Without Postgres, `memoryOps` decides capacity — and it decides it per
+   * process. Vercel runs many, so "ten concurrent calls" quietly becomes ten
+   * per instance and the ceiling this whole subsystem exists to enforce is
+   * gone. There is no partial version of this to fall back to, so voice stays
+   * off until somebody sets the credentials.
+   */
+  if (!ops.durable && env.NODE_ENV === "production") {
+    console.error("Voice is disabled: capacity and rate limits need Postgres, and Supabase is not configured.");
     runtime = { ready: false } as unknown as VoiceRuntime;
     return runtime;
   }
@@ -73,6 +102,15 @@ export function voiceRuntime(env: Record<string, string | undefined> = process.e
     resolveNeed: resolveIntentDeeply,
   });
 
-  runtime = { sessions, broker, store, ready: true };
+  runtime = {
+    sessions,
+    broker,
+    store,
+    ops,
+    capacity: new VoiceCapacity(ops),
+    security: new SecurityLog(ops),
+    rateSecret,
+    ready: true,
+  };
   return runtime;
 }

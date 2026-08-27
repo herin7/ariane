@@ -38,14 +38,29 @@ export {
 } from "./types";
 
 export {
+  ADMIN_LOCKOUT_MS,
+  CAPACITY,
   FORBIDDEN_TOOL_NAMES,
   LIMITS,
+  RATE_LIMITS,
+  RETENTION_DAYS,
+  SECURITY_COOLDOWN,
+  TIERS,
   TOOL_POLICY,
+  WARN_AT_MS,
   readOnlyToolsFor,
   toolsFor,
   type Limits,
+  type Tier,
   type ToolRule,
 } from "./policy";
+
+/**
+ * Event names and the beacon body, exported from the root because the browser
+ * needs both. Everything else under `./ops` reaches Postgres and stays server
+ * side — see `./server`.
+ */
+export { APP_EVENTS, AppEventBody, type AppEventName } from "./ops/events";
 
 export { RawPhone, SessionRequest, TOOL_ARGUMENTS, ToolRequest, VapiWebhook, isVoiceTool } from "./schemas";
 
@@ -54,6 +69,7 @@ export {
   checkInput,
   checkOutput,
   redact,
+  redactText,
   type InputCheck,
   type InputVerdict,
   type OutputCheck,
