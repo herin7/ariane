@@ -140,7 +140,11 @@ export const CASES = [
 export const official = (url) => {
   const host = hostOf(url);
   if (!host) return false;
-  return /(^|\.)(gov|nic)\.in$/.test(host) || /(^|\.)(gujarat|india)\.gov\.in$/.test(host) || host.endsWith(".gov");
+  // `.gov` without the `.in` was here to catch a stray central host and what it
+  // actually caught was the Texas Commission on Environmental Quality, which
+  // answered a Gujarat diesel drum with the exemptions from Texas petroleum
+  // storage tank rules. Official, verbatim, and eight thousand miles wrong.
+  return /(^|\.)(gov|nic)\.in$/.test(host);
 };
 
 /**
@@ -578,7 +582,7 @@ async function runCase(kase) {
   // rules and half new ones with nothing saying which. Running it here as well
   // costs a regex per claim and means the report obeys the gate as it stands
   // today, whatever the cache remembers.
-  const claims = reads.flatMap((r) => r?.claims ?? []).filter((c) => sentence(c.evidence));
+  const claims = reads.flatMap((r) => r?.claims ?? []).filter((c) => sentence(c.evidence) && official(c.sourceUrl) && !wrongState(c.sourceUrl));
   const { status, conflicts } = judge(claims);
 
   return {
@@ -746,6 +750,8 @@ function selftest() {
   console.assert(!wrongState("https://ceiced.gujarat.gov.in/x") && !wrongState("https://peso.gov.in/y"), "Gujarat and the centre are not");
   console.assert(wrongState("https://hrylabour.gov.in/x") && wrongState("https://pblabour.gov.in/y"), "a state code welded to its department is a state");
   console.assert(wrongState("https://www.ghmc.gov.in/z"), "somebody else's municipal corporation is somebody else's");
+  console.assert(!official("https://www.tceq.texas.gov/assistance/industry/pst/exclusions"), "a .gov is not an Indian government page");
+  console.assert(official("https://ceiced.gujarat.gov.in/lift") && official("https://clc.gov.in/x"), "these are");
   console.assert(!wrongState("https://upsc.gov.in/a") && !wrongState("https://apeda.gov.in/b") && !wrongState("https://clc.gov.in/c"), "the centre is not a state that starts the same way");
   console.assert(!readable("https://www.startupindia.gov.in/content/sih/en/bloglist/blogs/all_about_food_licensing.html"), "a blog on a gov domain is a blog");
   console.assert(readable("https://excise.gujarat.gov.in/faq.htm"), "an FAQ a department maintains is not");
