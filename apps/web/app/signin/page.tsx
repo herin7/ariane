@@ -44,7 +44,7 @@ export default async function SignInPage() {
         <>
           <h1>Sign in or create an account</h1>
           <p>
-            Enter your email and we will send a six digit code. No password. If you have not used Ariane before, the
+            Enter your email and we will send a one time code. No password. If you have not used Ariane before, the
             same code creates your account.
           </p>
           <SignIn autoFocus />

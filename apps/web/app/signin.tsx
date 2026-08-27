@@ -5,7 +5,7 @@ import { track } from "./analytics";
 import styles from "./signin.module.css";
 
 /**
- * The whole of Ariane's login. An email, a six digit code, done.
+ * The whole of Ariane's login. An email, the code it carries, done.
  *
  * There is no separate sign up, because with a one time code there is nothing
  * to sign up *with*: the first code sent to an address creates the account and
@@ -87,16 +87,22 @@ export function SignIn({ onSignedIn, autoFocus }: { onSignedIn?: (email: string)
         } else setNote(result.error ?? "That code was not right.");
       }}
     >
+      {/* Six to ten digits, not six: the length is a Supabase project setting
+          rather than a constant, and a pinned `\d{6}` rejects a valid code in
+          the browser before the server ever sees it. Kept as a string all the
+          way down, because a code like 09470715 loses its first digit the
+          moment anything treats it as a number. */}
       <input
         inputMode="numeric"
-        pattern="\d{6}"
+        pattern="\d{6,10}"
+        maxLength={10}
         required
         autoFocus
         autoComplete="one-time-code"
-        placeholder="6 digit code"
+        placeholder="Code from your email"
         aria-label="The code from your email"
         value={code}
-        onChange={(event) => setCode(event.target.value.replace(/\D/g, "").slice(0, 6))}
+        onChange={(event) => setCode(event.target.value.replace(/\D/g, "").slice(0, 10))}
       />
       <button type="submit" className="primary" disabled={busy}>
         Sign in
