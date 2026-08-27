@@ -1,6 +1,7 @@
 "use client";
 
 import { stageGroups, type Channel, type CompiledJourney, type DerivedQuestion, type Facts, type JourneyStep } from "@ariane/core";
+import { track } from "../analytics";
 import { Offices } from "./offices";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
@@ -31,6 +32,12 @@ export function JourneyView({ districts }: { districts: string[] }) {
   // it was telling you to go and answer.
   const questionsRef = useRef<HTMLElement | null>(null);
   const [questionsVisible, setQuestionsVisible] = useState(true);
+
+  // §10. Which service, never the answers to it. One row per journey opened,
+  // which is the number that says whether any of this is being used.
+  useEffect(() => {
+    track("journey_started", { serviceId: goal });
+  }, [goal]);
 
   useEffect(() => {
     const section = questionsRef.current;
@@ -119,7 +126,12 @@ export function JourneyView({ districts }: { districts: string[] }) {
           </h2>
           <div className="stack">
             {questions.map((q) => (
-              <Question key={q.field} question={q} onAnswer={(v) => setAnswers((a) => ({ ...a, [q.field]: v }))} />
+              <Question key={q.field} question={q} onAnswer={(v) => {
+                  // The id of the question, never `v`. §10 names this exact
+                  // case: a citizen's answer is not traffic data.
+                  track("question_answered", { serviceId: goal, metadata: { questionId: q.field } });
+                  setAnswers((a) => ({ ...a, [q.field]: v }));
+                }} />
             ))}
           </div>
         </section>
@@ -149,7 +161,10 @@ export function JourneyView({ districts }: { districts: string[] }) {
       <Path
         steps={journey.orderedSteps}
         held={held}
-        onHave={(id) => setHeld((h) => (h.includes(id) ? h.filter((x) => x !== id) : [...h, id]))}
+        onHave={(id) => {
+          track("document_marked", { serviceId: goal, metadata: { documentId: id } });
+          setHeld((h) => (h.includes(id) ? h.filter((x) => x !== id) : [...h, id]));
+        }}
       />
 
       {journey.mobileApps.length ? (

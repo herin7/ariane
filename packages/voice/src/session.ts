@@ -7,12 +7,13 @@ import {
   newToken,
   tokenMatches,
 } from "./identity";
-import { LIMITS, readOnlyToolsFor, toolsFor } from "./policy";
+import { LIMITS, TIERS, readOnlyToolsFor, toolsFor } from "./policy";
 import type { VoiceStore } from "./store";
 import type {
   IdentityLevel,
   IssuedSession,
   RefusalCode,
+  Tier,
   VoiceProvider,
   VoiceSession,
 } from "./types";
@@ -44,6 +45,16 @@ export interface CreateSessionInput {
   rawPhone?: string;
   jurisdiction?: JurisdictionQuery;
   language?: string;
+  /**
+   * Set by the route from a verified auth cookie. Absent means GUEST, which is
+   * the safe default: a forged or missing session gets a minute, never ten.
+   *
+   * There is no `maxCallMs` here and there deliberately never will be. The tier
+   * is a word; the duration is looked up from `TIERS`. That is what makes "give
+   * me an hour" unanswerable rather than merely refused.
+   */
+  tier?: Tier;
+  authUserId?: string;
 }
 
 export type CreateSessionResult =
@@ -102,10 +113,16 @@ export class VoiceSessions {
       citizenId: remembered?.id,
     });
 
+    // Unknown tier is GUEST. A telephony leg has no web login, so PSTN callers
+    // land here too and get the authenticated ceiling only if a route says so.
+    const tier: Tier = input.tier ?? "GUEST";
+
     const token = newToken();
     const session: VoiceSession = {
       id: newSessionId(),
       provider: input.provider,
+      tier,
+      authUserId: input.authUserId,
       providerCallId: input.providerCallId,
       citizenId: remembered?.id,
       callerHash: caller,
@@ -122,7 +139,10 @@ export class VoiceSessions {
       language: input.language ?? remembered?.preferredLanguage,
       tokenHash: hashToken(token, this.config.secret),
       startedAt: at,
-      expiresAt: at + LIMITS.maxCallMs,
+      // §3, and the only place a call length is set. Two ceilings, and the
+      // lower wins: the tier's, and the absolute one in LIMITS that no tier may
+      // ever exceed even if somebody edits the table above by mistake.
+      expiresAt: at + Math.min(TIERS[tier].maxCallMs, LIMITS.maxCallMs),
       status: "ACTIVE",
       budget: { toolCalls: 0, invalidToolCalls: 0, consecutiveFailures: 0, turns: 0 },
     };
@@ -136,6 +156,7 @@ export class VoiceSessions {
         sessionId: session.id,
         token,
         expiresAt: session.expiresAt,
+        tier: session.tier,
         identityLevel: session.identityLevel,
         allowedTools: session.allowedTools,
       },

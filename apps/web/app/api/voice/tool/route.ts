@@ -1,5 +1,6 @@
-import { ToolRequest } from "@ariane/voice";
+import { RATE_LIMITS, ToolRequest } from "@ariane/voice";
 import { NextResponse } from "next/server";
+import { caller } from "../../caller";
 import { STATUS_FOR, bearer, notConfigured, runtime } from "../shared";
 
 /**
@@ -50,11 +51,66 @@ export async function POST(request: Request) {
     );
   }
 
+  /**
+   * §6. A ceiling on tool calls per minute, on top of the broker's own per-call
+   * budget: the budget stops one call spending forever, this stops one caller
+   * opening call after call and spending the same amount across all of them.
+   */
+  const who = await caller(request);
+  const subject = who.authUserId ? `user:${who.authUserId}` : who.ipHash ? `ip:${who.ipHash}` : `session:${session.id}`;
+  const verdict = await voice.ops.rateLimit(
+    `voice:tool:${subject}`,
+    RATE_LIMITS.voiceTool.windowSeconds,
+    RATE_LIMITS.voiceTool.max,
+  );
+  if (!verdict.allowed) {
+    return NextResponse.json(
+      { ok: false, code: "RATE_LIMITED", speak: "Let me catch up. Ask me that again in a moment." },
+      { status: 429 },
+    );
+  }
+
+  const startedAt = Date.now();
   const result = await voice.broker.execute(session, {
     callId: parsed.data.callId,
     name: parsed.data.name,
     arguments: parsed.data.arguments,
   });
+
+  /**
+   * What the model asked for and what it got, for the admin panel. §9, §12.
+   *
+   * Never the arguments themselves and never the result: `resolve_need` carries
+   * the sentence a citizen said and a journey projection is most of their
+   * situation. The name, the outcome and how long it took is what an operator
+   * actually needs to see, and it is also all this is allowed to keep.
+   */
+  const conversationId = await voice.ops.conversationForSession(session.id);
+  if (conversationId) {
+    await voice.ops.recordToolEvent(conversationId, {
+      toolName: parsed.data.name,
+      status: result.ok ? "OK" : result.code,
+      durationMs: Date.now() - startedAt,
+    });
+  }
+
+  // A denied tool is the signal §7 wants written down: the model proposed
+  // something this call's identity level does not reach. It is not by itself an
+  // attack — a caller who asks to save a preference before consenting trips it
+  // honestly — so it is recorded and counted, and nothing else.
+  if (!result.ok && (result.code === "TOOL_NOT_ALLOWED" || result.code === "UNKNOWN_TOOL" || result.code === "GUARDRAIL")) {
+    await voice.security
+      .record({
+        sessionId: session.id,
+        authUserId: who.authUserId,
+        ipHash: who.ipHash,
+        category: result.code === "GUARDRAIL" ? "prompt-injection" : "tool-denied",
+        severity: result.code === "UNKNOWN_TOOL" ? "MEDIUM" : "LOW",
+        actionTaken: "refused",
+        metadata: { tool: parsed.data.name, code: result.code },
+      })
+      .catch((error) => console.warn("could not record a security event", error instanceof Error ? error.message : error));
+  }
 
   return NextResponse.json(result, { status: result.ok ? 200 : STATUS_FOR[result.code] });
 }

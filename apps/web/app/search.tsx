@@ -3,6 +3,7 @@
 import type { IntentMatch } from "@ariane/core";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { track } from "./analytics";
 import { IGNITION_MS, Ignition } from "./ignition";
 
 export function Search() {
@@ -25,6 +26,9 @@ export function Search() {
     setBusy(true);
     setFailed(false);
     setComingSoon(null);
+    // §10: that a search happened, never what was searched for. The sentence a
+    // citizen types is the most sensitive thing on this page.
+    track("search_submitted");
 
     // The overlay says four true things in 1.2s and the request usually takes
     // less. Nothing below is allowed to land until it has finished saying them:
@@ -61,6 +65,7 @@ export function Search() {
         // put the landing page back on screen for however long the journey
         // takes to render, which is the one thing the overlay exists to avoid.
         navigating = true;
+        track("service_opened", { serviceId: best.goal, metadata: { from: "auto" } });
         router.push(`/journey?goal=${encodeURIComponent(best.goal)}`);
         return;
       }
@@ -168,11 +173,15 @@ export function Search() {
               <button
                 key={match.goal}
                 className="search-result rise"
-                onClick={() =>
-                  match.supportStatus === "COMING_SOON"
-                    ? (setComingSoon(match), setMatches(null))
-                    : router.push(`/journey?goal=${encodeURIComponent(match.goal)}`)
-                }
+                onClick={() => {
+                  if (match.supportStatus === "COMING_SOON") {
+                    setComingSoon(match);
+                    setMatches(null);
+                    return;
+                  }
+                  track("service_opened", { serviceId: match.goal, metadata: { from: "list" } });
+                  router.push(`/journey?goal=${encodeURIComponent(match.goal)}`);
+                }}
               >
                 <h3>
                   {match.name}

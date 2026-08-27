@@ -258,6 +258,10 @@ export function supabaseStore(db: SupabaseClient): VoiceStore {
     return {
       id: String(r.id),
       provider: r.provider as VoiceSession["provider"],
+      // A row written before tiers existed reads back as GUEST. Wrong in the
+      // generous direction is not the wrong direction to be wrong in here.
+      tier: (state.tier as VoiceSession["tier"]) ?? "GUEST",
+      authUserId: (state.authUserId as string) ?? undefined,
       providerCallId: (r.provider_call_id as string) ?? undefined,
       citizenId: (r.citizen_id as string) ?? undefined,
       callerHash: (r.phone_hash as string) ?? undefined,
@@ -415,6 +419,8 @@ export function supabaseStore(db: SupabaseClient): VoiceStore {
           // citizen still gets continuity across a reconnect. It goes when the
           // session does.
           session_state: {
+            tier: session.tier,
+            authUserId: session.authUserId ?? null,
             jurisdiction: session.jurisdiction,
             language: session.language ?? null,
             activeJourney: session.activeJourney ?? null,

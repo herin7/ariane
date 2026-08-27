@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import "./globals.css";
+import { Telemetry } from "./analytics";
 import { MotionObserver } from "./motion";
 
 export const metadata: Metadata = {
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <MotionObserver />
+        <Telemetry />
         <header className="site-header">
           <div className="site-header-inner">
             <Link href="/" aria-label="Ariane, home" className="wordmark">

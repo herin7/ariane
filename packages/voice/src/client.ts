@@ -1,4 +1,5 @@
 import { checkOutput } from "./guardrails";
+import { WARN_AT_MS } from "./policy";
 import type { SpeakableFact, ToolResult } from "./types";
 
 /**
@@ -15,7 +16,36 @@ import type { SpeakableFact, ToolResult } from "./types";
  * is on the other side of the network.
  */
 
-export type VoiceState = "idle" | "connecting" | "listening" | "speaking" | "ended" | "error";
+export type VoiceState = "idle" | "queued" | "connecting" | "listening" | "speaking" | "ended" | "error";
+
+/** Where in line, while all ten lines are busy. §5. */
+export interface QueuePlace {
+  position: number;
+  estimatedWaitMs?: number;
+  max: number;
+}
+
+/**
+ * A ceiling, hit. Not an error: every one of these is the system working, and
+ * the panel says so in a sentence rather than showing a status code. §23.
+ */
+export interface VoiceLimit {
+  code: "GUEST_QUOTA" | "BUSY" | "RATE_LIMITED" | "COOLDOWN" | "CLAIM_INVALID" | "TIME_UP";
+  message: string;
+  /** Set on GUEST_QUOTA and RATE_LIMITED: when the allowance comes back. */
+  resetAt?: number;
+}
+
+/**
+ * A refusal from our own server, carried as an error so it can travel out of
+ * `openSession` without every caller having to check a union.
+ */
+class Refused extends Error {
+  constructor(readonly limit: VoiceLimit) {
+    super(limit.message);
+    this.name = "Refused";
+  }
+}
 
 /** A journey projection, as opposed to any of the other tool results. */
 const isJourney = (data: unknown): boolean =>
@@ -31,6 +61,12 @@ export interface VoiceHandlers {
   onJourney?: (journey: unknown) => void;
   onTool?: (name: string, result: ToolResult) => void;
   onError?: (message: string) => void;
+  /** Place in line while waiting, and undefined the moment the wait is over. */
+  onQueue?: (place: QueuePlace | undefined) => void;
+  /** Once a second while connected. For a countdown, and nothing else. */
+  onTime?: (remainingMs: number, maxCallMs: number) => void;
+  /** A ceiling was reached. The call did not start, or has just ended. */
+  onLimit?: (limit: VoiceLimit) => void;
 }
 
 export interface VoiceClientOptions extends VoiceHandlers {
@@ -45,6 +81,15 @@ interface StartedSession {
   token: string;
   clientSecret: string;
   model: string;
+  /**
+   * How long this call gets, as decided by the server from the tier. Shown, and
+   * used for nothing else: the countdown below is corrected from the server on
+   * every heartbeat, and the actual stop is `expires_at` on the session row.
+   * Editing this number in devtools buys a wrong number on a screen. §3.
+   */
+  maxCallMs: number;
+  heartbeatMs: number;
+  tier: "GUEST" | "AUTHENTICATED";
   /**
    * The realtime host, handed over rather than compiled in.
    *
@@ -74,6 +119,14 @@ export class VoiceClient {
   private grounding: SpeakableFact[] = [];
   private said = "";
 
+  /** Queue ticket while waiting, and the clocks while connected. */
+  private ticket?: string;
+  private abandoned = false;
+  private endsAt = 0;
+  private ticker?: ReturnType<typeof setInterval>;
+  private pulse?: ReturnType<typeof setInterval>;
+  private warned = new Set<number>();
+
   constructor(private readonly options: VoiceClientOptions = {}) {}
 
   get currentState(): VoiceState {
@@ -82,18 +135,66 @@ export class VoiceClient {
 
   async start(): Promise<void> {
     if (this.state !== "idle" && this.state !== "ended" && this.state !== "error") return;
+    this.abandoned = false;
     this.setState("connecting");
 
     try {
-      this.session = await this.openSession();
+      let started = await this.openSession();
+
+      /**
+       * All ten lines busy. §5: take a ticket and wait, and do not open a
+       * realtime session, ask for a microphone or spend anything while waiting.
+       * A queued caller costs a poll every two seconds and nothing else.
+       */
+      if (!started) {
+        const claimed = await this.waitInLine();
+        if (!claimed) {
+          this.setState("idle");
+          return;
+        }
+        started = await this.openSession(claimed);
+        if (!started) {
+          // The slot we waited for went while we were claiming it. Rare, and
+          // recoverable by trying again, which is what the button now offers.
+          this.options.onLimit?.({ code: "CLAIM_INVALID", message: "Your place in line expired. Please try again." });
+          this.setState("idle");
+          return;
+        }
+      }
+
+      this.session = started;
       // Ask before connecting anything: a permission prompt that appears after
       // a peer connection is open is a permission prompt nobody understands.
       this.mic = await navigator.mediaDevices.getUserMedia({ audio: true });
-      await this.connect(this.session);
+      await this.connect(started);
+      this.startClock(started);
       this.setState("listening");
     } catch (error) {
+      if (error instanceof Refused) {
+        this.options.onLimit?.(error.limit);
+        this.setState("idle");
+        return;
+      }
       this.fail(error instanceof Error ? error.message : "Could not start the call");
     }
+  }
+
+  /** Stop waiting. The ticket is released so the person behind moves up. */
+  leaveQueue(): void {
+    this.abandoned = true;
+    const ticket = this.ticket;
+    this.ticket = undefined;
+    if (ticket) {
+      void fetch(this.base(`/api/voice/queue?ticket=${encodeURIComponent(ticket)}`), {
+        method: "DELETE",
+        keepalive: true,
+      }).catch(() => {
+        // The ticket expires on its own. Same rule as the lease: the client is
+        // an optimisation and never the mechanism.
+      });
+    }
+    this.options.onQueue?.(undefined);
+    this.setState("idle");
   }
 
   stop(): void {
@@ -114,6 +215,11 @@ export class VoiceClient {
       });
     }
 
+    clearInterval(this.ticker);
+    clearInterval(this.pulse);
+    this.ticker = undefined;
+    this.pulse = undefined;
+    this.warned.clear();
     this.channel?.close();
     this.pc?.close();
     this.mic?.getTracks().forEach((track) => track.stop());
@@ -140,22 +246,184 @@ export class VoiceClient {
     return `${this.options.baseUrl ?? ""}${path}`;
   }
 
-  private async openSession(): Promise<StartedSession> {
+  /**
+   * Ask for a line. Returns undefined when every line is taken, which is the
+   * one refusal that has somewhere to go: the queue. Everything else is a
+   * ceiling and comes back as `Refused`.
+   *
+   * The body carries a jurisdiction, a language and — if we waited — a ticket
+   * and the claim token the server itself minted for it. There is nothing else
+   * it is allowed to say. No tier, no duration, no position.
+   */
+  private async openSession(claim?: { ticket: string; claimToken: string }): Promise<StartedSession | undefined> {
     const response = await fetch(this.base("/api/voice/session"), {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({
         ...(this.options.jurisdiction ? { jurisdiction: this.options.jurisdiction } : {}),
         ...(this.options.language ? { language: this.options.language } : {}),
+        ...(claim ?? {}),
       }),
     });
-    const body = (await response.json()) as Partial<StartedSession> & { error?: string };
-    if (!response.ok) throw new Error(body.error ?? "Voice is not available right now");
+
+    const body = (await response.json()) as Partial<StartedSession> & {
+      error?: string;
+      code?: VoiceLimit["code"];
+      resetAt?: number;
+    };
+
+    if (!response.ok) {
+      if (body.code === "BUSY" && !claim) return undefined;
+      if (body.code) throw new Refused({ code: body.code, message: body.error ?? "Voice is not available right now", resetAt: body.resetAt });
+      throw new Error(body.error ?? "Voice is not available right now");
+    }
+
     const { sessionId, token, clientSecret, model, callUrl } = body;
     if (!sessionId || !token || !clientSecret || !model || !callUrl) {
       throw new Error("Voice session was incomplete");
     }
-    return { sessionId, token, clientSecret, model, callUrl };
+    return {
+      sessionId,
+      token,
+      clientSecret,
+      model,
+      callUrl,
+      // Defaults so an older server that does not send these still connects.
+      // Wrong in the direction of a shorter call, never a longer one.
+      maxCallMs: body.maxCallMs ?? 60_000,
+      heartbeatMs: body.heartbeatMs ?? 15_000,
+      tier: body.tier ?? "GUEST",
+    };
+  }
+
+  /**
+   * Wait for a line. §5.
+   *
+   * A ticket, then a poll every couple of seconds until the server says this
+   * ticket is at the front and hands over a claim token. Nothing here decides
+   * anything about position: it asks, and it reports what it is told.
+   */
+  private async waitInLine(): Promise<{ ticket: string; claimToken: string } | undefined> {
+    const joined = await fetch(this.base("/api/voice/queue"), { method: "POST" });
+    if (!joined.ok) return undefined;
+
+    const first = (await joined.json()) as { ticket?: string; position?: number; estimatedWaitMs?: number; max?: number; pollMs?: number };
+    if (!first.ticket) return undefined;
+
+    this.ticket = first.ticket;
+    this.setState("queued");
+    this.options.onQueue?.({ position: first.position ?? 1, estimatedWaitMs: first.estimatedWaitMs, max: first.max ?? 10 });
+
+    const pollMs = Math.max(1_000, first.pollMs ?? 2_000);
+    while (!this.abandoned) {
+      await new Promise((resolve) => setTimeout(resolve, pollMs));
+      if (this.abandoned) break;
+
+      let view: { status?: string; position?: number; estimatedWaitMs?: number; max?: number; claimToken?: string };
+      try {
+        const response = await fetch(this.base(`/api/voice/queue?ticket=${encodeURIComponent(first.ticket)}`));
+        view = (await response.json()) as typeof view;
+      } catch {
+        // A dropped poll on a train is not a lost place. The ticket's TTL is
+        // refreshed by the next successful one.
+        continue;
+      }
+
+      if (view.status === "ADMITTED" && view.claimToken) {
+        this.ticket = undefined;
+        this.options.onQueue?.(undefined);
+        this.setState("connecting");
+        return { ticket: first.ticket, claimToken: view.claimToken };
+      }
+      if (view.status !== "WAITING") break;
+
+      this.options.onQueue?.({ position: view.position ?? 1, estimatedWaitMs: view.estimatedWaitMs, max: view.max ?? 10 });
+    }
+
+    this.ticket = undefined;
+    this.options.onQueue?.(undefined);
+    return undefined;
+  }
+
+  /**
+   * Two clocks, and neither of them is the limit. §3.
+   *
+   * The fast one draws a countdown once a second so the number on screen moves.
+   * The slow one is the heartbeat: it tells the server this line is still in
+   * use, and the server answers with how long is actually left, which is what
+   * the countdown is then corrected to. That is what makes a throttled
+   * background tab, a suspended laptop and a rewritten `setTimeout` all
+   * harmless — the browser's opinion about time is overwritten every fifteen
+   * seconds by the row in Postgres, and when the row says zero the call ends
+   * whatever this file thinks.
+   */
+  private startClock(session: StartedSession): void {
+    this.endsAt = Date.now() + session.maxCallMs;
+    this.warned.clear();
+
+    this.ticker = setInterval(() => {
+      const remaining = Math.max(0, this.endsAt - Date.now());
+      this.options.onTime?.(remaining, session.maxCallMs);
+
+      for (const at of WARN_AT_MS) {
+        if (remaining <= at && !this.warned.has(at)) {
+          this.warned.add(at);
+          this.warn(Math.round(at / 1000));
+        }
+      }
+
+      if (remaining <= 0) this.timeUp();
+    }, 1_000);
+
+    this.pulse = setInterval(() => {
+      void this.heartbeat(session);
+    }, session.heartbeatMs);
+  }
+
+  private async heartbeat(session: StartedSession): Promise<void> {
+    try {
+      const response = await fetch(
+        this.base(`/api/voice/session?sessionId=${encodeURIComponent(session.sessionId)}`),
+        { method: "PATCH", headers: { authorization: `Bearer ${session.token}` } },
+      );
+      const body = (await response.json()) as { live?: boolean; remainingMs?: number };
+      if (body.live === false) {
+        this.timeUp();
+        return;
+      }
+      // Relative, not absolute: a phone whose clock is four minutes off would
+      // otherwise end every call the moment it connected.
+      if (typeof body.remainingMs === "number") this.endsAt = Date.now() + body.remainingMs;
+    } catch {
+      // The lease expires on its own if this keeps failing, and the session row
+      // ends the call regardless. A dropped heartbeat is not a reason to hang
+      // up on somebody mid-sentence.
+    }
+  }
+
+  /** One short sentence, out loud, at thirty seconds and at ten. §3. */
+  private warn(seconds: number): void {
+    this.send({
+      type: "response.create",
+      response: {
+        instructions: `Tell the caller, in one short sentence and in the language you are speaking, that about ${seconds} seconds remain on this call. Then carry on helping.`,
+      },
+    });
+  }
+
+  /** The end, gracefully. §3: a goodbye, then the line goes back. */
+  private timeUp(): void {
+    clearInterval(this.ticker);
+    this.ticker = undefined;
+    this.send({
+      type: "response.create",
+      response: {
+        instructions:
+          "The time on this call is up. Say goodbye in one short sentence and tell them everything is saved on the page in front of them.",
+      },
+    });
+    this.options.onLimit?.({ code: "TIME_UP", message: "Your time is up." });
+    setTimeout(() => this.stop(), 2_500);
   }
 
   private async connect(session: StartedSession): Promise<void> {
@@ -267,7 +535,18 @@ export class VoiceClient {
       case "response.output_audio_transcript.done":
         this.options.onTranscript?.(String(event.transcript ?? this.said), true);
         this.checkWhatItSaid(String(event.transcript ?? this.said));
+        this.postTurn("ASSISTANT", String(event.transcript ?? this.said));
         this.said = "";
+        break;
+
+      /**
+       * What the caller said, and only when the deployment has turned caller
+       * transcription on. Off by default, and off means the admin panel shows
+       * Ariane's half of the conversation and a note that the other half was
+       * never written down. §9, §17.
+       */
+      case "conversation.item.input_audio_transcription.completed":
+        this.postTurn("USER", String(event.transcript ?? ""));
         break;
 
       case "input_audio_buffer.speech_started":
@@ -292,6 +571,28 @@ export class VoiceClient {
         this.fail(String((event.error as { message?: string })?.message ?? "Voice error"));
         break;
     }
+  }
+
+  /**
+   * A line of what was said, sent home. §9.
+   *
+   * Fire and forget, deliberately. The audio never touched our server — it went
+   * browser to Azure over WebRTC — so this is the only path text has, and it is
+   * also a path that must never be able to affect the call. Nothing awaits it,
+   * nothing retries it, and a failure is silent. Redaction happens on the
+   * server, because a client is not where a rule about Aadhaar numbers lives.
+   */
+  private postTurn(role: "USER" | "ASSISTANT", text: string): void {
+    const session = this.session;
+    if (!session || !text.trim()) return;
+    void fetch(this.base("/api/voice/turn"), {
+      method: "POST",
+      headers: { "content-type": "application/json", authorization: `Bearer ${session.token}` },
+      body: JSON.stringify({ sessionId: session.sessionId, role, text }),
+      keepalive: true,
+    }).catch(() => {
+      // A missing line in a transcript is a gap in a log. Not a citizen's problem.
+    });
   }
 
   /**

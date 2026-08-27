@@ -13,6 +13,7 @@
   },
   "scripts": {
     "test": "vitest run",
+    "test:pg": "node --env-file=pg-tests.env --env-file-if-exists=../../.env node_modules/vitest/vitest.mjs run src/__tests__/capacity.pg.test.ts",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit"
   },

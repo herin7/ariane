@@ -79,9 +79,22 @@ export interface ActiveJourney {
   updatedAt: number;
 }
 
+/**
+ * What this caller's time is worth. Decided by the server from a login, never
+ * from anything the caller or the model says. `policy.ts` turns it into a
+ * number of milliseconds and nothing else may.
+ */
+export type Tier = "GUEST" | "AUTHENTICATED";
+
 export interface VoiceSession {
   id: string;
   provider: VoiceProvider;
+  tier: Tier;
+  /**
+   * The Supabase auth user, when somebody signed in. Same rule as `citizenId`:
+   * resolved from a cookie the server verified, invisible to the model.
+   */
+  authUserId?: string;
   /** The provider's own call id. Bound at creation, checked on every webhook. */
   providerCallId?: string;
   /**
@@ -123,6 +136,8 @@ export interface IssuedSession {
   sessionId: string;
   token: string;
   expiresAt: number;
+  /** So the UI can say "one minute free" honestly. Display only. */
+  tier: Tier;
   identityLevel: IdentityLevel;
   allowedTools: string[];
 }

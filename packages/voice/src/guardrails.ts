@@ -52,7 +52,9 @@ const INJECTION_PATTERNS: [RegExp, string, severe?][] = [
   [/\b(api[_\s-]?key|secret|token|password|credential|env(ironment)?\s+variable)s?\b/i, "secret-request"],
   [/\b(previous|other|another|last)\s+(caller|user|customer|person|citizen)('?s)?\b/i, "cross-user", true],
   [/\b(citizen|user|customer|account)[_\s-]?id\s*(is|=|:)/i, "identity-assertion"],
-  [/\bi\s*('?m|\s+am)\s+(an?\s+)?(admin|administrator|developer|root|superuser|the\s+owner)\b/i, "identity-assertion"],
+  // "the admin" as well as "an admin": `a|an` alone missed the wording §19
+  // lists verbatim, which is the one everybody actually types.
+  [/\bi\s*('?m|\s+am)\s+(an?\s+|the\s+)?(admin|administrator|developer|root|superuser|owner)\b/i, "identity-assertion"],
   [/\bremember\s+that\s+i\s*('?m|\s+am)\s+(an?\s+)?(admin|administrator|verified|authorised|authorized)/i, "identity-assertion"],
   [/\b(run|execute|eval)\s+(this|the following|these)?\s*(code|sql|query|script|command)/i, "code-execution"],
   [/\b(select|insert|update|delete|drop)\s+.{0,20}\b(from|into|table)\b/i, "code-execution"],
@@ -153,7 +155,16 @@ const LEAK_PATTERNS: [RegExp, string][] = [
   [/\beyJ[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{10,}/, "jwt"],
   [/\bAKIA[0-9A-Z]{16}\b/, "aws-key"],
   [/\bBearer\s+[A-Za-z0-9._-]{20,}/i, "bearer-token"],
-  [/\b(SUPABASE|OPENAI|VAPI|AWS|SARVAM|LANGFUSE)_[A-Z_]{3,}\b/, "env-name"],
+  [/\b(SUPABASE|OPENAI|VAPI|AWS|SARVAM|LANGFUSE|ADMIN|RATE_LIMIT|VOICE|CRON|AZURE|DATABASE|ARIANE)_[A-Z_]{3,}\b/, "env-name"],
+  // §8 names these two specifically. A connection string is a password with a
+  // hostname attached, and an admin credential does not become safe by being
+  // lowercase.
+  [/\b(postgres(ql)?|mysql|mongodb(\+srv)?|redis):\/\/\S+/i, "database-url"],
+  [/\b[a-z]+-(test-)?secret-[A-Za-z0-9_-]{8,}/i, "credential"],
+  // Anything else long enough and opaque enough to be a key. Ariane says fees,
+  // dates, office names and document names; none of them is a 24 character run
+  // of letters and digits with no space in it.
+  [/\b(?=[A-Za-z0-9_-]*\d)(?=[A-Za-z0-9_-]*[A-Za-z])[A-Za-z0-9_-]{24,}\b/, "opaque-token"],
   [/\bcitizen_[a-z0-9-]{4,}\b/i, "internal-id"],
   [/\b[0-9a-f]{32,}\b/i, "digest"],
   [/\bat\s+[A-Za-z]+\s*\([^)]*[\\/][^)]*:\d+:\d+\)/, "stack-trace"],
@@ -269,22 +280,53 @@ export function checkOutput(text: string, grounding: SpeakableFact[]): OutputChe
  * somebody bypasses by adding one more `console.log`.
  */
 const SENSITIVE = [
+  // Ordered: the ones that would otherwise be swallowed by a broader pattern
+  // go first. A `sk-` key contains no spaces and would survive [account], but
+  // an OTP is digits and would not survive it, so OTP is matched earlier.
   [/\b\d{4}\s?\d{4}\s?\d{4}\b/g, "[aadhaar]"],
   [/\b[A-Z]{5}\d{4}[A-Z]\b/g, "[pan]"],
-  [/\b\+?\d[\d\s()-]{7,}\d\b/g, "[phone]"],
-  [/\b[\w.%-]+@[\w.-]+\.[a-z]{2,}\b/gi, "[email]"],
-  [/\b\d{9,18}\b/g, "[account]"],
-  [/\b(otp|code|password|pin)\s*(is|:)?\s*\d{4,8}\b/gi, "[otp]"],
+  [/\b(otp|code|password|passcode|pin|cvv)\s*(is|=|:)?\s*\d{3,8}\b/gi, "[otp]"],
+  [/\b(password|passphrase|pwd)\s*(is|=|:)\s*\S+/gi, "[password]"],
+  [/\bbearer\s+[A-Za-z0-9._~+/-]{12,}=*/gi, "[bearer]"],
+  [/\bsb_(secret|publishable)_[A-Za-z0-9_-]{8,}/g, "[supabase-key]"],
+  [/\bAKIA[0-9A-Z]{12,}/g, "[aws-key]"],
   [/\bsk-[A-Za-z0-9_-]{8,}/g, "[key]"],
   [/\beyJ[A-Za-z0-9_-]{8,}\.[A-Za-z0-9_.-]+/g, "[jwt]"],
+  // A secret nobody gave a prefix to: an admin session secret, an ip hashing
+  // key, a password hash. All of them are just a long unbroken run of key
+  // alphabet, so that is what this matches - 24 or more characters with at
+  // least one letter and one digit among them. No sentence in any of the
+  // three languages Ariane speaks contains one, and a service id has no
+  // digits, so this costs nothing on real callers.
+  [/\b(?=[A-Za-z0-9_-]*\d)(?=[A-Za-z0-9_-]*[A-Za-z])[A-Za-z0-9_-]{24,}\b/g, "[token]"],
+  [/\b\+?\d[\d\s()-]{7,}\d\b/g, "[phone]"],
+  [/\b[\w.%-]+@[\w.-]+\.[a-z]{2,}\b/gi, "[email]"],
+  // Bank accounts and card numbers, both of which are just long digit runs.
+  [/\b\d{9,18}\b/g, "[account]"],
 ] as const;
+
+/**
+ * A string with everything sensitive taken out of it, at a length you choose.
+ *
+ * Split out of `redact` because the two callers want different lengths for the
+ * same masking. Telemetry wants 200 characters, because a log line is a hint.
+ * A stored transcript wants the whole sentence, because an operator reading a
+ * complaint needs to see what was actually said — minus the Aadhaar number the
+ * citizen read out loud, which is the part this removes.
+ *
+ * Not a guarantee, and it is not the only defence: `voice_turns.text` is capped
+ * in Postgres too, and the patterns above are a best effort against a caller
+ * who says their card number in words. It removes every machine-shaped secret
+ * and the identifiers people actually recite.
+ */
+export function redactText(text: string, limit = 200): string {
+  const masked = SENSITIVE.reduce<string>((value, [re, to]) => value.replace(re, to), text);
+  return masked.length > limit ? `${masked.slice(0, limit)}…` : masked;
+}
 
 export function redact(value: unknown, depth = 0): unknown {
   if (depth > 4) return "[deep]";
-  if (typeof value === "string") {
-    const masked = SENSITIVE.reduce<string>((text, [re, to]) => text.replace(re, to), value);
-    return masked.length > 200 ? `${masked.slice(0, 200)}…` : masked;
-  }
+  if (typeof value === "string") return redactText(value);
   if (Array.isArray(value)) return value.slice(0, 10).map((v) => redact(v, depth + 1));
   if (value && typeof value === "object") {
     return Object.fromEntries(

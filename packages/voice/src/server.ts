@@ -49,3 +49,41 @@ export {
 } from "./transport/vapi";
 export { consoleSink, defaultSinks, langfuseSink } from "./telemetry";
 export { voiceRuntime, type VoiceRuntime } from "./runtime";
+
+export {
+  ANON_COOKIE,
+  GUEST_COOKIE,
+  GUEST_COOKIE_MAX_AGE,
+  clientIp,
+  guestSubjects,
+  hashIp,
+  ipHash,
+  issueGuest,
+  newAnonId,
+  readGuest,
+} from "./ops/net";
+export {
+  ADMIN_SESSION_TTL_MS,
+  hashPassword,
+  issueAdminSession,
+  openAdminSession,
+  sameString,
+  verifyPassword,
+} from "./ops/admin";
+export { VoiceCapacity, type AdmitRequest, type AdmitResult, type QueueView } from "./ops/capacity";
+export { SecurityLog, inputHash, type Report, type SecurityCategory } from "./ops/security";
+export {
+  memoryOps,
+  supabaseOps,
+  type Admission,
+  type AppEvent,
+  type ConversationEnd,
+  type ConversationStart,
+  type GuestBudget,
+  type OpsStore,
+  type QueueState,
+  type RateVerdict,
+  type SecurityEvent,
+  type ToolEvent,
+  type Turn,
+} from "./ops/store";
