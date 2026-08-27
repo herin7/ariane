@@ -136,8 +136,17 @@ export const LIMITS = {
   dailyCallerMs: 30 * 60_000,
   /** Everyone, per day. The bill has a ceiling even if the abuse is distributed. */
   dailyGlobalMs: 24 * 60 * 60_000,
-  /** A single Ariane call. The compiler is in-process and fast; this is a fuse. */
-  toolTimeoutMs: 8_000,
+  /**
+   * A single Ariane call. A fuse, not a latency target.
+   *
+   * It was 8s, which is longer than the compiler ever takes and shorter than
+   * the tools that call a model. `build_plan` gives Bedrock 20s of its own and
+   * `resolve_need` runs a three pass chain, so both were being cut off partway
+   * and the caller heard "I cannot check that right now" about a lookup that
+   * was still working. Silence is bad, but a wrong "no" is worse, and the route
+   * that carries this has `maxDuration = 60` above it either way.
+   */
+  toolTimeoutMs: 30_000,
   /** Bytes of tool arguments. Beyond this it is not a question, it is a payload. */
   maxArgumentBytes: 4_096,
   /** Identical tool calls in a row before we call it a loop. */
