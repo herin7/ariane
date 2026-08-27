@@ -20,7 +20,7 @@ import { animate } from "motion";
 
 const NS = "http://www.w3.org/2000/svg";
 
-/** Above the header (20) and below the ignition overlay (90). */
+/** Above the header (20), below any full screen overlay. */
 const LAYER = 80;
 
 const el = <K extends keyof SVGElementTagNameMap>(name: K, attrs: Record<string, string>) => {
