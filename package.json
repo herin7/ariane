@@ -29,7 +29,7 @@
     "fetch:ledger": "node scripts/fetch-ledger.mjs",
     "fetch:have": "node scripts/fetch-ledger.mjs --have",
     "graph:snapshot": "pnpm --filter @ariane/core graph:snapshot",
-    "gates": "node scripts/ingest/lib.mjs && node scripts/ingest/domains-classify.mjs --selftest && node scripts/ingest/services-discover.mjs --selftest && node scripts/ingest/services-extract.mjs --selftest && node scripts/ingest/services-compile.mjs --selftest && node scripts/ingest/pdf-extract.mjs --selftest && node scripts/ingest/offices-discover.mjs --selftest && node scripts/ingest/rejections-stats.mjs --selftest && node scripts/ingest/chunks.mjs --selftest && node scripts/ingest/corpus.mjs --selftest && node scripts/ingest/completeness.mjs --selftest && node scripts/ingest/queries.mjs --selftest && node scripts/ingest/services-deepen.mjs --selftest && node scripts/ingest/rerank.mjs --selftest && node scripts/ingest/enrich.mjs --selftest && node scripts/ingest/retrieval-eval.mjs --selftest && node scripts/domains.mjs --check && pnpm typecheck && pnpm test && pnpm graph:validate && pnpm quotes:audit && pnpm coverage --check",
+    "gates": "node scripts/ingest/lib.mjs && node scripts/ingest/domains-classify.mjs --selftest && node scripts/ingest/services-discover.mjs --selftest && node scripts/ingest/services-extract.mjs --selftest && node scripts/ingest/services-compile.mjs --selftest && node scripts/ingest/pdf-extract.mjs --selftest && node scripts/ingest/offices-discover.mjs --selftest && node scripts/ingest/rejections-stats.mjs --selftest && node scripts/ingest/chunks.mjs --selftest && node scripts/ingest/corpus.mjs --selftest && node scripts/ingest/completeness.mjs --selftest && node scripts/ingest/queries.mjs --selftest && node scripts/ingest/services-deepen.mjs --selftest && node scripts/ingest/rerank.mjs --selftest && node scripts/ingest/enrich.mjs --selftest && node scripts/ingest/retrieval-eval.mjs --selftest && node scripts/ingest/edge-cases.mjs --selftest && node scripts/domains.mjs --check && pnpm typecheck && pnpm test && pnpm graph:validate && pnpm quotes:audit && pnpm coverage --check",
     "gates:integration": "node scripts/graph-present.mjs && pnpm gates",
     "gates:corpus": "node scripts/fetch-ledger.mjs --check",
     "services:discover": "node --env-file-if-exists=.env scripts/ingest/services-discover.mjs",
@@ -46,6 +46,7 @@
     "evidence:rerank": "node --env-file-if-exists=.env scripts/ingest/rerank.mjs",
     "services:enrich": "node --env-file-if-exists=.env scripts/ingest/enrich.mjs",
     "retrieval:eval": "node scripts/ingest/retrieval-eval.mjs",
+    "edge:research": "node --env-file-if-exists=.env scripts/ingest/edge-cases.mjs",
     "shots": "node scripts/shots.mjs"
   },
   "devDependencies": {
