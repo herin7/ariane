@@ -395,10 +395,26 @@ const RULE_MARKER = /\b(shall|must|require[ds]?|needs?|obtain|apply|application|
  */
 const A_FORM_INDEX_ROW = /^form\s*(no\.?|number)?\s*[-–]?\s*[ivxlc0-9]/i;
 
+/**
+ * A run of links read as one line, which is what a nav bar looks like in text.
+ *
+ * "Registration of Motor transport undertaking | Section 3" is a row of the
+ * Act's own table of contents. "Applications Under Contract Labour Act
+ * Registration Application License Application License Renew Application
+ * Application for amendment in registration" is the sidebar of a forms page,
+ * forty words long with six of them repeated. Prose does not repeat itself like
+ * that and does not use a pipe.
+ */
+const A_MENU = (t) => {
+  if (t.includes("|")) return true;
+  const words = t.toLowerCase().match(/[a-z]{4,}/g) ?? [];
+  return words.length >= 8 && new Set(words).size / words.length < 0.65;
+};
+
 export const sentence = (s) => {
   if (typeof s !== "string") return false;
   const t = s.trim();
-  if (A_FORM_INDEX_ROW.test(t)) return false;
+  if (A_FORM_INDEX_ROW.test(t) || A_MENU(t)) return false;
   // A row of a licence menu clears eight words easily: "FL ON License for
   // hotel or restaurant & attached bar" is nine and is a link. A rule either
   // does something to somebody or has a number in it, and a list entry has
@@ -555,7 +571,14 @@ async function runCase(kase) {
   const reads = attempts.filter(Boolean);
   const read = reads.filter((r) => !r.empty).length;
 
-  const claims = reads.flatMap((r) => r?.claims ?? []);
+  // The evidence gate again, on the way out.
+  //
+  // `readPage` caches what survived it, so tightening the gate would otherwise
+  // only reach pages nobody has read yet and the artifact would be half old
+  // rules and half new ones with nothing saying which. Running it here as well
+  // costs a regex per claim and means the report obeys the gate as it stands
+  // today, whatever the cache remembers.
+  const claims = reads.flatMap((r) => r?.claims ?? []).filter((c) => sentence(c.evidence));
   const { status, conflicts } = judge(claims);
 
   return {
@@ -714,6 +737,9 @@ function selftest() {
   console.assert(!sentence("Shops and Establishment License Application Form-A"), "a form name is not a rule");
   console.assert(!sentence("FL ON License for club, theatre, public resort etc and others"), "a row of a licence menu is not a rule");
   console.assert(!sentence("Form No. II [See rule 18(1)] Certificate of Registration under section 7"), "a row of a table of forms is not a rule either");
+  console.assert(!sentence("Registration of Motor transport undertaking | Section 3 of the Act applies"), "a row of a table of contents is not a rule");
+  console.assert(!sentence("Applications Under Contract Labour Act Registration Application License Application License Renew Application Application for amendment in registration"), "a sidebar is not a rule");
+  console.assert(sentence("Registration is compulsory for principal employer to employ 10 or more contract labours."), "and a rule with a threshold in it survives all of that");
   console.assert(!readable("https://dda.gov.in/sites/default/files/LandDisposal/rpf_document_restaurant.pdf"), "a document a bidder must win is not a rule");
   console.assert(!readable("https://fssai.gov.in/upload/Draft_Notice_Comments_Food_School_Children.pdf"), "a draft out for comments is not in force");
   console.assert(wrongState("https://excise.wb.gov.in/FAQ/category_licen.aspx"), "a state code is a state");
