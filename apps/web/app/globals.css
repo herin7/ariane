@@ -1884,61 +1884,28 @@ html { scroll-padding-top: 96px; }
 
 /* ------------------------------------------------------------ arriving */
 /*
-   What "Find my path" should feel like.
+   What "Find my path" should feel like, and why almost none of it is here.
 
-   Scrolling somewhere and stopping is not an answer to a click. The section
-   you were sent to says so: it settles the last few pixels, a ring blooms out
-   of the control once and leaves, and the cursor is already in the field.
+   Ariane is Ariadne's thread, so the click throws one: a coral line leaves the
+   pill, arcs down the page, and the search box springs when it lands. That is
+   `thread.ts`, driven by Motion, because the interesting half of it cannot be
+   written as a stylesheet - the path is recomputed every frame against a box
+   that is still scrolling, and the landing is a spring rather than a curve.
 
-   `.just-landed` is set by the delegated handler in `motion.tsx` and removed
-   when the animation ends, so a second click replays it. A `:target` rule
-   cannot: the hash is already set, nothing re-matches, and the second click
-   does visibly nothing. That is the bug this replaces.
+   The search icon and the control are animated from there too, which is why
+   `.just-landed` and its three keyframes are gone rather than reworked. Two
+   systems moving the same element is how you get a fight nobody can debug.
 
-   Reduced motion is handled globally - every animation there is clamped to
-   1ms, so this collapses to an instant jump with no ring and no drift.
+   Motion writes inline transforms onto `.search-control`, `.search-icon` and
+   `.nav-cta-icon`, then removes them when the spring settles, so the hover and
+   focus rules above still own those elements at rest. No `will-change` here on
+   purpose: these animate through the Web Animations API and are composited
+   already, and a permanent hint is a permanent layer for a half second of
+   movement.
+
+   Reduced motion never loads the module at all: the jump is instant, the
+   cursor still lands in the field, and no thread is drawn.
 */
-.just-landed .search-control {
-  animation: landed 820ms cubic-bezier(.16, 1, .3, 1);
-}
-
-@keyframes landed {
-  0% {
-    transform: translateY(6px);
-    box-shadow: 0 10px 30px rgba(52, 46, 130, .06), 0 0 0 0 rgba(85, 80, 216, .34);
-  }
-  40% {
-    transform: translateY(-2px);
-    box-shadow: 0 22px 70px rgba(52, 46, 130, .16), 0 0 0 8px rgba(85, 80, 216, .13);
-  }
-  100% {
-    transform: none;
-    box-shadow: 0 16px 60px rgba(52, 46, 130, .08), 0 0 0 18px rgba(85, 80, 216, 0);
-  }
-}
-
-/* The thread mark in the wordmark answers too, so the click has a sender as
-   well as a destination. */
-.just-landed .search-icon {
-  animation: landed-icon 820ms cubic-bezier(.16, 1, .3, 1);
-}
-
-@keyframes landed-icon {
-  0% { transform: scale(.72) rotate(-16deg); opacity: .5; }
-  45% { transform: scale(1.14) rotate(4deg); opacity: 1; }
-  100% { transform: none; }
-}
-
-/* Anything else linked to from the nav gets the quieter half of the same idea,
-   so a new anchor is not a new stylesheet. */
-.just-landed:not(:has(.search-control)) {
-  animation: landed-plain 620ms cubic-bezier(.16, 1, .3, 1);
-}
-
-@keyframes landed-plain {
-  from { transform: translateY(8px); opacity: .55; }
-  to { transform: none; opacity: 1; }
-}
 
 /* Someone who has asked for less movement gets the four lines and no motion.
    They still get told what is happening, which was the whole point. */
