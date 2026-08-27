@@ -2,7 +2,7 @@
 
 import type { CompiledPlan, DerivedQuestion, Facts, PlanItem } from "@ariane/core";
 import { useSearchParams } from "next/navigation";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { track } from "../analytics";
 import { Offices } from "../journey/offices";
 import { Question, Step } from "../journey/view";
@@ -85,8 +85,20 @@ export function PlanView({ districts }: { districts: string[] }) {
     [text],
   );
 
+  // Every input that changes the plan, as one string. Taking a service off the
+  // plan has to recompile it, and the response setting `goals` must not: the
+  // request that produced a plan records the key its own answer will produce,
+  // so the render that follows it recognises the work as already done.
+  const requestKey = JSON.stringify({ text, district, scoping, answers, held, goals });
+  const fetched = useRef("");
+
   useEffect(() => {
     if (!text && !goals?.length) return;
+    if (requestKey === fetched.current) {
+      setPending(false);
+      return;
+    }
+    fetched.current = requestKey;
     let live = true;
     setPending(true);
     fetch("/api/plans/compose", {
@@ -112,17 +124,18 @@ export function PlanView({ districts }: { districts: string[] }) {
         // The goals the model chose become the citizen's, so answering a
         // derived question later recompiles the same plan instead of asking a
         // model to plan the sentence a second time and possibly differently.
-        if (!goals) setGoals(body.tracks.map((t) => t.goal));
+        if (!goals) {
+          const chosen = body.tracks.map((t) => t.goal);
+          fetched.current = JSON.stringify({ text, district, scoping, answers, held, goals: chosen });
+          setGoals(chosen);
+        }
       })
       .catch(() => live && setError("We could not build that plan just now."))
       .finally(() => live && setPending(false));
     return () => {
       live = false;
     };
-    // `goals` deliberately absent: it is set from the response and re-running on
-    // it would be a second identical compile every time a plan lands.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [text, district, scoping, answers, held]);
+  }, [text, district, scoping, answers, held, goals, requestKey]);
 
   if (!text) {
     return (
@@ -172,7 +185,38 @@ export function PlanView({ districts }: { districts: string[] }) {
 
       {!plan && pending ? <Loading /> : null}
 
-      {plan ? (
+      {/* A sentence the graph has nothing for, or a plan the citizen emptied
+          themselves. Both end here rather than on a page reading "0 services,
+          0 of 0 left to do", which is the shape of a bug and not an answer. */}
+      {plan && !plan.tracks.length ? (
+        <div className="card blocked">
+          {goals?.length === 0 ? (
+            <>
+              <p className="small" style={{ margin: 0 }}><b>Nothing left in this plan.</b></p>
+              <p className="small muted" style={{ margin: "6px 0 0" }}>
+                You took every service off it. Put them back and start again from the sentence.
+              </p>
+              <button className="tiny" style={{ marginTop: 10 }} onClick={() => setGoals(null)}>
+                Start this plan again
+              </button>
+            </>
+          ) : (
+            <>
+              <p className="small" style={{ margin: 0 }}><b>We have not mapped this one yet.</b></p>
+              <p className="small muted" style={{ margin: "6px 0 0" }}>
+                Nothing in Ariane matches that sentence, and a plausible guess at the services involved would be
+                worse than saying so. Naming one thing you need &mdash; a certificate, a licence, a card &mdash; usually
+                finds it.
+              </p>
+              <a className="small" href="/#start" style={{ display: "inline-block", marginTop: 10 }}>
+                Try a different sentence &rarr;
+              </a>
+            </>
+          )}
+        </div>
+      ) : null}
+
+      {plan && plan.tracks.length ? (
         <>
           <div className="row" style={{ gap: 8 }}>
             <span className="tag accent">{plan.tracks.length} service{plan.tracks.length === 1 ? "" : "s"}</span>

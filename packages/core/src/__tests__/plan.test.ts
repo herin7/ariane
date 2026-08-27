@@ -30,6 +30,17 @@ describe("compilePlan", () => {
     expect(plan.checklist.length).toBeGreaterThan(0);
   });
 
+  it("compiles an empty plan for an empty goal list", () => {
+    // A citizen who takes every service off their plan gets an empty plan, and
+    // the route hands that straight through rather than asking a model to
+    // decide what they meant. Nothing here may throw on the way.
+    const plan = compilePlan(data, { goals: [], jurisdiction });
+
+    expect(plan.tracks).toEqual([]);
+    expect(plan.checklist).toEqual([]);
+    expect(plan.unknownGoals).toEqual([]);
+  });
+
   it("names the goals it could not compile instead of shortening the plan", () => {
     const plan = compilePlan(data, { goals: [...goals, "service:not_a_real_service"], jurisdiction });
 

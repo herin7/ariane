@@ -48,8 +48,9 @@ export async function POST(request: Request) {
 
   // An explicit goal list is the citizen's, not a model's, so it is not
   // second-guessed. This is what "remove that licence, I don't sell food"
-  // posts back.
-  const planned = body.goals?.length
+  // posts back. An empty list is an answer too: somebody who took every service
+  // off their plan gets an empty plan, not the model's opinion a second time.
+  const planned = Array.isArray(body.goals)
     ? { goals: body.goals, questions: [], inferred: false, title: undefined }
     : await planGoals(graph, text, body.answers ?? {});
 

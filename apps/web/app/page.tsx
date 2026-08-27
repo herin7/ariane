@@ -15,11 +15,15 @@ export const revalidate = 60;
  * claims what any of them involve. The `note` says why it is more than one
  * service without naming a single one, which is the line this page holds
  * everywhere else too.
+ *
+ * Each of the four was checked against the live graph and resolves to at least
+ * one service today. If the graph loses them the plan page says so rather than
+ * inventing something, so a card going quiet is survivable, not a broken link.
  */
 const LIFE_EVENTS = [
   { said: "I want to start a company", note: "Registration, tax and the licences that follow it." },
   { said: "Someone in my family has died", note: "The certificate first, then everything that needs it." },
-  { said: "I am moving to a new district", note: "What follows you, and what has to be applied for again." },
+  { said: "I am buying a vehicle", note: "Registration, the licence to drive it, and the order in between." },
   { said: "I am opening a shop", note: "The permissions a counter will ask you for." },
 ];
 
