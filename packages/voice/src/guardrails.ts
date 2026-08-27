@@ -52,7 +52,9 @@ const INJECTION_PATTERNS: [RegExp, string, severe?][] = [
   [/\b(api[_\s-]?key|secret|token|password|credential|env(ironment)?\s+variable)s?\b/i, "secret-request"],
   [/\b(previous|other|another|last)\s+(caller|user|customer|person|citizen)('?s)?\b/i, "cross-user", true],
   [/\b(citizen|user|customer|account)[_\s-]?id\s*(is|=|:)/i, "identity-assertion"],
-  [/\bi\s*('?m|\s+am)\s+(an?\s+)?(admin|administrator|developer|root|superuser|the\s+owner)\b/i, "identity-assertion"],
+  // "the admin" as well as "an admin": `a|an` alone missed the wording §19
+  // lists verbatim, which is the one everybody actually types.
+  [/\bi\s*('?m|\s+am)\s+(an?\s+|the\s+)?(admin|administrator|developer|root|superuser|owner)\b/i, "identity-assertion"],
   [/\bremember\s+that\s+i\s*('?m|\s+am)\s+(an?\s+)?(admin|administrator|verified|authorised|authorized)/i, "identity-assertion"],
   [/\b(run|execute|eval)\s+(this|the following|these)?\s*(code|sql|query|script|command)/i, "code-execution"],
   [/\b(select|insert|update|delete|drop)\s+.{0,20}\b(from|into|table)\b/i, "code-execution"],
@@ -153,7 +155,16 @@ const LEAK_PATTERNS: [RegExp, string][] = [
   [/\beyJ[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{10,}/, "jwt"],
   [/\bAKIA[0-9A-Z]{16}\b/, "aws-key"],
   [/\bBearer\s+[A-Za-z0-9._-]{20,}/i, "bearer-token"],
-  [/\b(SUPABASE|OPENAI|VAPI|AWS|SARVAM|LANGFUSE)_[A-Z_]{3,}\b/, "env-name"],
+  [/\b(SUPABASE|OPENAI|VAPI|AWS|SARVAM|LANGFUSE|ADMIN|RATE_LIMIT|VOICE|CRON|AZURE|DATABASE|ARIANE)_[A-Z_]{3,}\b/, "env-name"],
+  // §8 names these two specifically. A connection string is a password with a
+  // hostname attached, and an admin credential does not become safe by being
+  // lowercase.
+  [/\b(postgres(ql)?|mysql|mongodb(\+srv)?|redis):\/\/\S+/i, "database-url"],
+  [/\b[a-z]+-(test-)?secret-[A-Za-z0-9_-]{8,}/i, "credential"],
+  // Anything else long enough and opaque enough to be a key. Ariane says fees,
+  // dates, office names and document names; none of them is a 24 character run
+  // of letters and digits with no space in it.
+  [/\b(?=[A-Za-z0-9_-]*\d)(?=[A-Za-z0-9_-]*[A-Za-z])[A-Za-z0-9_-]{24,}\b/, "opaque-token"],
   [/\bcitizen_[a-z0-9-]{4,}\b/i, "internal-id"],
   [/\b[0-9a-f]{32,}\b/i, "digest"],
   [/\bat\s+[A-Za-z]+\s*\([^)]*[\\/][^)]*:\d+:\d+\)/, "stack-trace"],
@@ -281,6 +292,13 @@ const SENSITIVE = [
   [/\bAKIA[0-9A-Z]{12,}/g, "[aws-key]"],
   [/\bsk-[A-Za-z0-9_-]{8,}/g, "[key]"],
   [/\beyJ[A-Za-z0-9_-]{8,}\.[A-Za-z0-9_.-]+/g, "[jwt]"],
+  // A secret nobody gave a prefix to: an admin session secret, an ip hashing
+  // key, a password hash. All of them are just a long unbroken run of key
+  // alphabet, so that is what this matches - 24 or more characters with at
+  // least one letter and one digit among them. No sentence in any of the
+  // three languages Ariane speaks contains one, and a service id has no
+  // digits, so this costs nothing on real callers.
+  [/\b(?=[A-Za-z0-9_-]*\d)(?=[A-Za-z0-9_-]*[A-Za-z])[A-Za-z0-9_-]{24,}\b/g, "[token]"],
   [/\b\+?\d[\d\s()-]{7,}\d\b/g, "[phone]"],
   [/\b[\w.%-]+@[\w.-]+\.[a-z]{2,}\b/gi, "[email]"],
   // Bank accounts and card numbers, both of which are just long digit runs.
