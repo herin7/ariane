@@ -19,23 +19,39 @@ import { jurisdictionRows, toBundles, toJurisdictions, toRows, type GraphRows } 
 export interface SupabaseConfig {
   url: string;
   key: string;
+  /**
+   * Which variable the key came from.
+   *
+   * Four names are accepted and the winner is decided by precedence, so a
+   * rejected key is otherwise unattributable: a deploy with a stale legacy key
+   * in `SUPABASE_ANON_KEY` and a good one in `SUPABASE_API_KEY` fails in a way
+   * that reads identically to having no key at all. Errors say the name.
+   */
+  keyVar: KeyVar;
 }
+
+/**
+ * In precedence order. New style keys first: sb_secret_ writes,
+ * sb_publishable_ reads. Then the legacy JWTs, still what most Supabase docs
+ * show and still what most deploys were set up with.
+ */
+const KEY_VARS = [
+  "SUPABASE_API_SECRET_KEY",
+  "SUPABASE_API_KEY",
+  "SUPABASE_SERVICE_ROLE_KEY",
+  "SUPABASE_ANON_KEY",
+] as const;
+
+export type KeyVar = (typeof KEY_VARS)[number];
 
 /**
  * Config from the environment, or undefined when there is none. Undefined is a
  * normal state, not an error: the seed is a working fallback.
  */
 export function supabaseConfigFromEnv(env: Record<string, string | undefined> = process.env): SupabaseConfig | undefined {
-  const key =
-    // New style keys first: sb_secret_ writes, sb_publishable_ reads.
-    env.SUPABASE_API_SECRET_KEY ??
-    env.SUPABASE_API_KEY ??
-    // Legacy JWT keys, still what most Supabase docs show.
-    env.SUPABASE_SERVICE_ROLE_KEY ??
-    env.SUPABASE_ANON_KEY;
-
+  const keyVar = KEY_VARS.find((name) => env[name]);
   const url = restUrl(env.SUPABASE_URL) ?? restUrl(env.SUPABASE_DB_URL);
-  return url && key ? { url, key } : undefined;
+  return url && keyVar ? { url, key: env[keyVar]!, keyVar } : undefined;
 }
 
 /**

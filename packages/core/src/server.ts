@@ -70,14 +70,24 @@ const TTL_MS = 60_000;
 const isProduction = (env: NodeJS.ProcessEnv = process.env) => env.NODE_ENV === "production";
 
 export class NoProductionGraphError extends Error {
+  /**
+   * The reason carries the remedy, because the two ways to get here need
+   * different ones and the old message only knew about the first.
+   *
+   * "Set SUPABASE_URL and SUPABASE_ANON_KEY" is exactly wrong advice for a
+   * deploy that has both and whose key was refused, and that is the failure
+   * that actually happens: a build died on `JWT issued at future` and told the
+   * reader to go and set a variable that was already set, naming the one
+   * variable of the four that is checked last.
+   */
   constructor(reason: string) {
-    super(
-      `Refusing to serve a graph in production: ${reason}. Set SUPABASE_URL and SUPABASE_ANON_KEY, ` +
-        `or point ARIANE_GRAPH_DIR at a snapshot from \`pnpm data:sync\`.`,
-    );
+    super(`Refusing to serve a graph in production: ${reason}`);
     this.name = "NoProductionGraphError";
   }
 }
+
+/** Everything Postgres said, not just its class name. */
+const because = (error: unknown) => (error instanceof Error ? error.message : String(error));
 
 /**
  * What a citizen's request reaches. Supabase first, always.
@@ -94,7 +104,12 @@ export class NoProductionGraphError extends Error {
  */
 export async function loadLiveGraph(): Promise<GraphData> {
   const config = supabaseConfigFromEnv();
-  if (!config) return localOrRefuse("SUPABASE_URL and SUPABASE_ANON_KEY are not set");
+  if (!config)
+    return localOrRefuse(
+      "no database is configured. Set SUPABASE_URL and one of SUPABASE_API_SECRET_KEY, " +
+        "SUPABASE_API_KEY, SUPABASE_SERVICE_ROLE_KEY or SUPABASE_ANON_KEY, or point " +
+        "ARIANE_GRAPH_DIR at a snapshot from `pnpm data:sync`",
+    );
 
   if (!live || Date.now() - live.at > TTL_MS) {
     const graph = (async () => {
@@ -116,7 +131,10 @@ export async function loadLiveGraph(): Promise<GraphData> {
     return await live.graph;
   } catch (error) {
     console.error("Supabase unreachable for this request.", error);
-    return localOrRefuse("Supabase is unreachable");
+    return localOrRefuse(
+      `Supabase refused the read using the key in ${config.keyVar} (${because(error)}). ` +
+        `Check that variable in this environment`,
+    );
   }
 }
 
