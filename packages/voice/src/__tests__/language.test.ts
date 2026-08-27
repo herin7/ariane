@@ -44,9 +44,37 @@ describe("what the model is told", () => {
 
   it("closes the obvious ways round it", () => {
     // A caller asking, claiming they cannot understand, or invoking authority.
-    expect(prompt).toMatch(/do not switch even if they ask you to/i);
-    expect(prompt).toMatch(/cannot understand English/i);
+    // `\s+` rather than a space: the prompt is hard wrapped, so a rule can move
+    // across a line break without changing, and an assertion that fails on that
+    // is testing the wrapping.
+    expect(prompt).toMatch(/even if they ask you to/i);
+    expect(prompt).toMatch(/cannot\s+understand\s+English/i);
     expect(prompt).toMatch(/authorised/i);
+  });
+
+  /**
+   * A live call came back fluent in French. Nothing stored was French - the
+   * model simply mirrored a language it thought it heard, and the rule telling
+   * it not to was a hundred lines down a prompt it reads top-weighted.
+   */
+  it("puts the language rule before anything else it could bury it under", () => {
+    expect(prompt.indexOf("## Which language you speak")).toBeLessThan(prompt.indexOf("## Where facts come from"));
+  });
+
+  it("names accented English as the likelier reading of a foreign language", () => {
+    expect(prompt).toMatch(/you misheard/i);
+    expect(prompt).toMatch(/accented English/i);
+  });
+
+  it("does not leave the closing line an open invitation to switch", () => {
+    const started = instructionsFor({
+      identityLevel: "RECOGNIZED",
+      returning: true,
+      needsConsentLine: false,
+      language: "gu",
+    });
+    expect(started).toMatch(/Start in Gujarati\. Switch only if/);
+    expect(started).not.toMatch(/Switch if they do/);
   });
 
   it("still starts a returning caller in their own language", () => {
