@@ -27,9 +27,13 @@ import { readdirSync, readFileSync } from "node:fs";
 export const norm = (s) =>
   String(s ?? "")
     .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
-    .replace(/\\([-.*_[\]()#+!`>~])/g, "$1")
+    .replace(/\\([-.*_[\]()#+!`>~|])/g, "$1")
     .replace(/[*_`~]/g, "")
+    .replace(/<\/?[a-z][^>]{0,200}>/gi, " ")
+    .replace(/[‘’‛]/g, "'")
+    .replace(/[“”]/g, '"')
     .replace(/[​-‍⁠﻿]/g, "")
+    .replace(/^[ \t]*[-+•]\s+/gm, "")
     .replace(/\s+/g, " ")
     .trim()
     .toLowerCase();

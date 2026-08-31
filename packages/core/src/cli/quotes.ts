@@ -62,9 +62,13 @@ const declared = new Set(graph.bundles().flatMap((b) => b.sources).map((s) => s.
 const norm = (s: string) =>
   s
     .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
-    .replace(/\\([-.*_[\]()#+!`>~])/g, "$1")
+    .replace(/\\([-.*_[\]()#+!`>~|])/g, "$1")
     .replace(/[*_`~]/g, "")
+    .replace(/<\/?[a-z][^>]{0,200}>/gi, " ")
+    .replace(/[\u2018\u2019\u201b]/g, "'")
+    .replace(/[\u201c\u201d]/g, '"')
     .replace(/[\u200b-\u200d\u2060\ufeff]/g, "")
+    .replace(/^[ \t]*[-+\u2022]\s+/gm, "")
     .replace(/\s+/g, " ")
     .trim()
     .toLowerCase();

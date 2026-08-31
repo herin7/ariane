@@ -30,9 +30,19 @@
 export const unmark = (s) =>
   s
     .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
-    .replace(/\\([-.*_[\]()#+!`>~])/g, "$1")
+    .replace(/\\([-.*_[\]()#+!`>~|])/g, "$1")
     .replace(/[*_`~]/g, "")
-    .replace(/[\u200b-\u200d\u2060\ufeff]/g, "");
+    // A tag is markup the page renders and nobody reads. `<br>` in the middle of
+    // a sentence has to become a space, not nothing, or two words fuse into one
+    // that is on neither side.
+    .replace(/<\/?[a-z][^>]{0,200}>/gi, " ")
+    // A word processor turned the apostrophe in "learner's" into U+2019 on its
+    // way to the page. The citizen typed the ASCII one. Same character.
+    .replace(/[\u2018\u2019\u201b]/g, "'")
+    .replace(/[\u201c\u201d]/g, '"')
+    .replace(/[\u200b-\u200d\u2060\ufeff]/g, "")
+    // A leading bullet is the list, not the sentence in it.
+    .replace(/^[ \t]*[-+\u2022]\s+/gm, "");
 
 /** Character for character the same rule as `packages/core/src/cli/quotes.ts`. */
 export const norm = (s) => unmark(s).replace(/\s+/g, " ").trim().toLowerCase();

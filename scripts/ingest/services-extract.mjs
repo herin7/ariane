@@ -163,18 +163,31 @@ if (flag("selftest")) {
   assert.equal(grounded("For Law Studies: Course Catalogue", md), false, "still a paraphrase, still dropped");
   assert.equal(grounded("https://x.gov.in/c.aspx", md), false, "a link target is not something the page said");
 
+  // Four ways a page prints a sentence that a citizen reads as plain text. Each
+  // one of these was silently throwing away real quotes off real pages.
+  const messy = "- The applicant must be a widowed woman.\nApply at <u>https://sarathi.parivahan.gov.in</u> for a learner’s licence.\n\\| city : ahmedabad \\| pin code : 380027\nઆવક અને<br>શહેર";
+  assert.equal(grounded("The applicant must be a widowed woman.", messy), true, "a list bullet is the list, not the sentence");
+  assert.equal(grounded("Apply at https://sarathi.parivahan.gov.in for a learner's licence.", messy), true, "an html tag and a curly apostrophe are not what the page said");
+  assert.equal(grounded("| city : ahmedabad | pin code : 380027", messy), true, "an escaped table pipe is a printed pipe");
+  assert.equal(grounded("આવક અને શહેર", messy), true, "a line break tag reads as the space it renders as");
+  assert.equal(grounded("The applicant must be a married woman.", messy), false, "none of that softens the gate");
+
   // The gate must agree with the auditor that runs on the committed graph, or a
   // fact passes here and fails there, which is the worst place to find out.
   const auditor = (s) =>
     s
       .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
-      .replace(/\\([-.*_[\]()#+!`>~])/g, "$1")
+      .replace(/\\([-.*_[\]()#+!`>~|])/g, "$1")
       .replace(/[*_`~]/g, "")
+      .replace(/<\/?[a-z][^>]{0,200}>/gi, " ")
+      .replace(/[\u2018\u2019\u201b]/g, "'")
+      .replace(/[\u201c\u201d]/g, '"')
       .replace(/[\u200b-\u200d\u2060\ufeff]/g, "")
+      .replace(/^[ \t]*[-+\u2022]\s+/gm, "")
       .replace(/\s+/g, " ")
       .trim()
       .toLowerCase();
-  for (const s of ["  A   B\nc ", md, "**bold** and [a link](http://x)", "plain"]) {
+  for (const s of ["  A   B\nc ", md, "**bold** and [a link](http://x)", "plain", messy]) {
     assert.equal(norm(s), auditor(s), `the two copies of the rule disagree on ${JSON.stringify(s)}`);
   }
 
