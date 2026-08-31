@@ -93,10 +93,34 @@ for (const file of journeys) {
     checked++;
     if (!page.includes(norm(fact.evidence))) {
       problems.push(`${file}: ${fact.sourceId} was never on that page: "${String(fact.evidence).slice(0, 90)}"`);
+      if (args.includes("--why")) problems.push(divergence(page, norm(fact.evidence)));
     }
   }
 }
 
+/**
+ * Where the quote stopped being the page, for `--why`.
+ *
+ * "Not on the page" is true and useless: a quote can miss by a swallowed table
+ * pipe or by being invented, and those want opposite fixes. Binary search the
+ * longest prefix that IS on the page, then print what each side says next.
+ */
+function divergence(page, quote) {
+  let lo = 0;
+  let hi = quote.length;
+  while (lo < hi) {
+    const mid = (lo + hi + 1) >> 1;
+    if (page.includes(quote.slice(0, mid))) lo = mid;
+    else hi = mid - 1;
+  }
+  const at = page.indexOf(quote.slice(0, lo));
+  return [
+    `       matched  ...${JSON.stringify(quote.slice(0, lo).slice(-60))}`,
+    `       quote has  ${JSON.stringify(quote.slice(lo, lo + 60))}`,
+    `       page  has  ${lo ? JSON.stringify(page.slice(at + lo, at + lo + 60)) : "(nothing in common)"}`,
+  ].join("\n");
+}
+
 for (const p of problems) console.error(`  FAIL ${p}`);
-console.log(`${checked} quote(s) checked against the page they came off, ${skipped} source(s) with no local page, ${problems.length} problem(s)`);
+console.log(`${checked} quote(s) checked against the page they came off, ${skipped} source(s) with no local page, ${problems.filter((p) => !p.startsWith("       ")).length} problem(s)`);
 process.exit(problems.length ? 1 : 0);
