@@ -44,6 +44,25 @@ describe("bad rows do not load quietly", () => {
     expect(errors(data)).toContain("UNKNOWN_ENUM");
   });
 
+  it("refuses a private company's site as a source, whoever it processes forms for", () => {
+    const data = clone();
+    data.sources[0]!.url = "https://tinpan.proteantech.in/services/pan/correction.html";
+    expect(errors(data)).toContain("PRIVATE_SOURCE");
+  });
+
+  it("refuses to hand a citizen a link to one either", () => {
+    const data = clone();
+    const node = data.nodes.find((n) => n.type === "PORTAL")!;
+    node.metadata = { ...node.metadata, url: "https://tinpan.proteantech.in/" };
+    expect(errors(data)).toContain("PRIVATE_URL");
+  });
+
+  it("still allows a government body that does not own a .gov.in name", () => {
+    const data = clone();
+    data.sources[0]!.url = "https://www.pan.utiitsl.com/";
+    expect(errors(data)).toEqual([]);
+  });
+
   it("catches a source type that would let a blog in next to a government page", () => {
     const data = clone();
     data.sources[0]!.sourceType = "BLOG" as never;

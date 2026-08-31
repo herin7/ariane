@@ -23,6 +23,50 @@ const ACTORS = ["CITIZEN", "EMPLOYER", "GOVERNMENT", "INSTITUTE", "BANK"];
 const CHANNEL_TYPES = ["WEB", "ANDROID_APP", "IOS_APP", "PHYSICAL_OFFICE", "CSC", "PHONE", "EMAIL", "GRIEVANCE_PORTAL"];
 const OPERATORS = ["EQ", "NEQ", "IN", "NOT_IN", "GT", "GTE", "LT", "LTE", "EXISTS", "NOT_EXISTS"];
 
+/**
+ * Government bodies that do not live on a `.gov.in` or `.nic.in` name.
+ *
+ * Ariane sends a citizen to a website. A private company's site dressed as a
+ * government service is the one link that can cost them money, so the rule
+ * fails closed: a host is refused unless it is a government name or it is on
+ * this list, and getting on this list means somebody checked who owns it.
+ * A denylist would fail open, which is exactly how tinpan.proteantech.in - a
+ * privately held listed company - got cited in the first place.
+ *
+ * ponytail: a flat list of 12 because that is all there is. If it passes ~50,
+ * move it to a reviewed TSV next to docs/research/domains/.
+ */
+const CITABLE_NON_GOV: Record<string, string> = {
+  "bmcgujarat.com": "Bhavnagar Municipal Corporation",
+  "gandhinagarmunicipal.com": "Gandhinagar Municipal Corporation",
+  "mcjamnagar.com": "Jamnagar Municipal Corporation",
+  "gujarattourism.com": "Gujarat Tourism, a state government corporation",
+  "gsrtc.in": "Gujarat State Road Transport Corporation",
+  "ggrc.co.in": "Gujarat Green Revolution Company, a state PSU",
+  "gvc.org.in": "Gujarat Vidyapith, a deemed university",
+  "nhb.org.in": "National Housing Bank, wholly owned by the Reserve Bank",
+  "mudra.org.in": "MUDRA, a SIDBI subsidiary set up by the Union government",
+  "udyamimitra.in": "Udyami Mitra, run by SIDBI",
+  "pan.utiitsl.com": "UTIITSL, CIN U65991MH1993GOI072051, a Government of India company",
+  "play.google.com": "the app store an official app is listed on, never a claim source",
+};
+
+/** The host of a url, or "" if it will not parse. */
+const hostOf = (url: string) => {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "").toLowerCase();
+  } catch {
+    return "";
+  }
+};
+
+const citable = (url: string) => {
+  const host = hostOf(url);
+  // `.invalid` is reserved and can never resolve, so the demo fixture's
+  // example.gov.invalid cannot send anybody anywhere. Test data, not a source.
+  return !host || host.endsWith(".gov.in") || host.endsWith(".nic.in") || host.endsWith(".gov.invalid") || host in CITABLE_NON_GOV;
+};
+
 export interface GraphIssue {
   severity: "ERROR" | "WARNING";
   code: string;
@@ -93,6 +137,9 @@ export function validateGraph(data: GraphData): GraphIssue[] {
   for (const source of data.sources) {
     oneOf(source.sourceType, SOURCE_TYPES, "sourceType", source.id);
     if (!source.url?.startsWith("http")) error("BAD_SOURCE_URL", `Source ${source.id} has no usable URL`, source.id);
+    else if (!citable(source.url)) {
+      error("PRIVATE_SOURCE", `Source ${source.id} cites ${hostOf(source.url)}, which is not a government site. If it is a government body, add it to CITABLE_NON_GOV with who owns it.`, source.id);
+    }
   }
 
   for (const q of data.questions) oneOf(q.inputType, INPUT_TYPES, "inputType", q.field);
@@ -111,6 +158,12 @@ export function validateGraph(data: GraphData): GraphIssue[] {
     const needsSource = node.type === "SERVICE" || node.type === "DOCUMENT" || node.type === "PORTAL" || node.type === "OFFICE";
     if (needsSource && !node.sources?.length) {
       warn("UNSOURCED_NODE", `${node.type} ${node.id} has no source. It will render as "not verified yet".`, node.id);
+    }
+    // A source is what we quote; `metadata.url` is what the citizen is handed
+    // and clicks. Same rule, and this is the half that actually reaches them.
+    const url = node.metadata?.url;
+    if (typeof url === "string" && !citable(url)) {
+      error("PRIVATE_URL", `Node ${node.id} sends the citizen to ${hostOf(url)}, which is not a government site.`, node.id);
     }
     if (node.type === "MOBILE_APP" && !node.metadata?.androidAppId && !node.metadata?.iosAppId) {
       warn("APP_WITHOUT_STORE_ID", `Mobile app ${node.id} has no store id. Never guess one.`, node.id);
