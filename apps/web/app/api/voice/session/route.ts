@@ -233,6 +233,20 @@ export async function DELETE(request: Request) {
   await voice.capacity.release(session.id);
 
   const durationMs = Math.max(0, Date.now() - session.startedAt);
+
+  // Give back the minute this call did not use. A guest whose handshake failed
+  // after four seconds was being charged the whole sixty, so the retry they
+  // reached for answered "sign in to keep talking" about a call that never
+  // happened. The cookie and the address are read here for the same reason
+  // `admit` read them: they are what a guest's allowance is counted against.
+  const who = await caller(request);
+  await voice.capacity.settle({
+    tier: session.tier,
+    guestId: who.guestId,
+    ipHash: who.ipHash,
+    usedMs: durationMs,
+  });
+
   const conversationId = await voice.ops.conversationForSession(session.id);
   if (conversationId) {
     await voice.ops.endConversation(conversationId, { endReason: "HANGUP", durationMs });

@@ -247,6 +247,36 @@ describe("the guest allowance", () => {
     if (!second.ok) expect(second.reason).toBe("GUEST_QUOTA");
   });
 
+  /**
+   * The other half of "charged up front": a call that never happened has to
+   * give it back. This is the bug people actually hit - the handshake hung,
+   * they pressed the button again, and were told their preview was over for a
+   * call that had not connected.
+   */
+  it("gives the minute back when the call never got off the ground", async () => {
+    const { capacity } = setup();
+
+    expect((await capacity.admit(guest("g1"))).ok).toBe(true);
+    await capacity.release("g1");
+    // Four seconds in and the handshake failed. Nobody said anything.
+    await capacity.settle({ tier: "GUEST", guestId: "cookie-1", ipHash: "ip-1", usedMs: 4_000 });
+
+    expect((await capacity.admit(guest("g2"))).ok).toBe(true);
+  });
+
+  it("keeps the minute when the call ran long enough to be one", async () => {
+    const { capacity } = setup();
+
+    expect((await capacity.admit(guest("g1"))).ok).toBe(true);
+    await capacity.release("g1");
+    // Twenty seconds of actual conversation, then a hang-up. Spent.
+    await capacity.settle({ tier: "GUEST", guestId: "cookie-1", ipHash: "ip-1", usedMs: 20_000 });
+
+    const second = await capacity.admit(guest("g2"));
+    expect(second.ok).toBe(false);
+    if (!second.ok) expect(second.reason).toBe("GUEST_QUOTA");
+  });
+
   it("is not reset by clearing cookies, because the address is charged too", async () => {
     const { capacity } = setup();
 

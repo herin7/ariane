@@ -47,6 +47,12 @@ export interface QueueView {
 }
 
 /**
+ * Under this, the call did not happen. A greeting takes longer than eight
+ * seconds to ask for and answer, so nothing below it was a conversation.
+ */
+const NEVER_HAPPENED_MS = 8_000;
+
+/**
  * The subjects a limit is charged against, most specific first.
  *
  * A logged-in user is limited as that user, so sharing an office IP does not
@@ -165,6 +171,32 @@ export class VoiceCapacity {
     }
 
     return { ok: true, maxCallMs: limits.maxCallMs, expiresAt: Date.now() + limits.maxCallMs, active, waitedMs };
+  }
+
+  /**
+   * Hang up on a call that never happened, and put the minute back.
+   *
+   * `admit` charges a guest their whole minute up front and that stays true: it
+   * is what makes a refresh worthless. What was wrong was charging it for a
+   * call that spent its whole life on a handshake that failed. The caller
+   * pressed the retry button and was told their preview was over, about a
+   * conversation that never had a word in it.
+   *
+   * All or nothing, and not a partial refund, because the reservation is all or
+   * nothing: `admit` asks for the full minute against a one minute budget, so
+   * handing back forty seconds would leave twenty behind and still refuse the
+   * next call. Half a fix reads worse than none.
+   *
+   * ponytail: the eight second window is the whole test for "never happened",
+   * so a script could hang up at seven seconds on repeat and keep its minute.
+   * What stops that is `RATE_LIMITS.voiceSession`, six session opens a minute
+   * per cookie and per address, which caps the loop at six greetings. Make this
+   * a real signal - a recorded assistant turn - if that ever stops being enough.
+   */
+  async settle(input: { tier: Tier; guestId?: string; ipHash?: string; usedMs: number }): Promise<void> {
+    if (input.tier !== "GUEST" || input.usedMs >= NEVER_HAPPENED_MS) return;
+    const limits = TIERS[input.tier];
+    await this.refund(guestSubjects({ guestId: input.guestId, ipHash: input.ipHash }), limits.maxCallMs, limits);
   }
 
   /** Give back a reservation for a call that never happened. Best effort. */
