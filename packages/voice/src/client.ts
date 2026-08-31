@@ -136,7 +136,37 @@ export class VoiceClient {
   private endsAt = 0;
   private ticker?: ReturnType<typeof setInterval>;
   private pulse?: ReturnType<typeof setInterval>;
+  private deadline?: ReturnType<typeof setTimeout>;
   private warned = new Set<number>();
+
+  /**
+   * Any microphone, cleaned up by the browser rather than by us.
+   *
+   * A built-in laptop microphone sits a few centimetres from the speaker
+   * playing Ariane's voice, so without echo cancellation the model hears
+   * itself, decides the caller is talking, and interrupts its own sentence. A
+   * headset on the same page is quiet and needs the gain instead. All three of
+   * these run in the platform's audio thread, which is a far better place for
+   * them than any DSP we could ship in a bundle.
+   *
+   * `ideal` and not `exact`, and no `deviceId` anywhere: a microphone that
+   * cannot do one of them still connects. Naming a device is how you build a
+   * panel that works on the laptop it was written on.
+   */
+  private static readonly AUDIO: MediaTrackConstraints = {
+    echoCancellation: { ideal: true },
+    noiseSuppression: { ideal: true },
+    autoGainControl: { ideal: true },
+  };
+
+  /**
+   * How long a connected call may stay silent before we call it dead.
+   *
+   * The clock now starts at Ariane's first word, so a handshake that completes
+   * and then produces nothing would otherwise sit on "Connecting" forever with
+   * no countdown to end it.
+   */
+  private static readonly FIRST_WORD_MS = 20_000;
 
   constructor(private readonly options: VoiceClientOptions = {}) {}
 
@@ -150,23 +180,42 @@ export class VoiceClient {
     this.setState("connecting");
 
     try {
+      /**
+       * The microphone first, and before anything has been reserved.
+       *
+       * This used to run after `openSession`, which meant the browser's
+       * permission prompt sat open on top of a guest's one paid minute already
+       * ticking down. People took twenty seconds to find the Allow button and
+       * were then told to sign in to keep talking, about a call that had never
+       * connected. Nothing is spent until there is a working microphone to
+       * spend it on.
+       */
+      this.mic = await this.openMic();
+
       let started = await this.openSession();
 
       /**
        * All ten lines busy. §5: take a ticket and wait, and do not open a
-       * realtime session, ask for a microphone or spend anything while waiting.
-       * A queued caller costs a poll every two seconds and nothing else.
+       * realtime session or spend anything while waiting. A queued caller costs
+       * a poll every two seconds and nothing else.
        */
       if (!started) {
+        // Let the microphone go while we wait. A queue can run minutes and
+        // nobody wants the recording indicator lit through all of it. The
+        // permission is granted by now, so taking it back is instant and
+        // silent.
+        this.releaseMic();
         const claimed = await this.waitInLine();
         if (!claimed) {
           this.setState("idle");
           return;
         }
+        this.mic = await this.openMic();
         started = await this.openSession(claimed);
         if (!started) {
           // The slot we waited for went while we were claiming it. Rare, and
           // recoverable by trying again, which is what the button now offers.
+          this.releaseMic();
           this.options.onLimit?.({ code: "CLAIM_INVALID", message: "Your place in line expired. Please try again." });
           this.setState("idle");
           return;
@@ -174,20 +223,62 @@ export class VoiceClient {
       }
 
       this.session = started;
-      // Ask before connecting anything: a permission prompt that appears after
-      // a peer connection is open is a permission prompt nobody understands.
-      this.mic = await navigator.mediaDevices.getUserMedia({ audio: true });
       await this.connect(started);
-      this.startClock(started);
-      this.setState("listening");
+
+      /**
+       * Still "connecting", deliberately, and no countdown yet.
+       *
+       * A peer connection is open; that is not the same as somebody being on
+       * the line. The clock starts at Ariane's first word in `speaking()`
+       * below, so a slow handshake comes out of our time rather than out of a
+       * guest's sixty seconds. This is only the backstop for the case where
+       * that word never arrives.
+       */
+      this.deadline = setTimeout(() => {
+        if (!this.ticker) this.fail("Ariane did not pick up. Please try again.");
+      }, VoiceClient.FIRST_WORD_MS);
     } catch (error) {
       if (error instanceof Refused) {
+        // A ceiling is not a failure and gets no error state, but the
+        // microphone we opened on the way in is still ours to put down.
+        this.releaseMic();
         this.options.onLimit?.(error.limit);
         this.setState("idle");
         return;
       }
       this.fail(error instanceof Error ? error.message : "Could not start the call");
     }
+  }
+
+  /**
+   * Ask for a microphone, and say something useful when there is not one.
+   *
+   * All four of these arrive as the same `DOMException` and, before this, as
+   * the same "Could not start the call" - which is unhelpful in four different
+   * ways, because the fix is a different one every time.
+   */
+  private async openMic(): Promise<MediaStream> {
+    try {
+      return await navigator.mediaDevices.getUserMedia({ audio: VoiceClient.AUDIO });
+    } catch (error) {
+      switch ((error as { name?: string })?.name) {
+        case "NotAllowedError":
+        case "SecurityError":
+          throw new Error("Ariane needs your microphone. Allow it in the address bar, then try again.");
+        case "NotFoundError":
+        case "OverconstrainedError":
+          throw new Error("No microphone found. Plug one in or pick one in your system sound settings, then try again.");
+        case "NotReadableError":
+          throw new Error("Something else is using your microphone. Close it and try again.");
+        default:
+          throw new Error("Could not open your microphone.");
+      }
+    }
+  }
+
+  private releaseMic(): void {
+    this.mic?.getTracks().forEach((track) => track.stop());
+    this.mic = undefined;
   }
 
   /** Stop waiting. The ticket is released so the person behind moves up. */
@@ -209,6 +300,20 @@ export class VoiceClient {
   }
 
   stop(): void {
+    this.teardown();
+    this.setState("ended");
+  }
+
+  /**
+   * Everything down, and nothing said about what state we are in.
+   *
+   * Split out of `stop` because a failed call has to hang up too. It used to
+   * not: `fail` set an error state and left the session open, so the line
+   * stayed leased until its TTL and, for a guest, the whole minute stayed
+   * charged for a call that never connected. Then they pressed the retry
+   * button and were told to sign in.
+   */
+  private teardown(): void {
     /**
      * Tell the server first, and with `keepalive` so it survives the tab
      * closing. A session nobody hangs up holds a concurrency slot for ten
@@ -228,16 +333,17 @@ export class VoiceClient {
 
     clearInterval(this.ticker);
     clearInterval(this.pulse);
+    clearTimeout(this.deadline);
     this.ticker = undefined;
     this.pulse = undefined;
+    this.deadline = undefined;
     this.warned.clear();
     this.channel?.close();
     this.pc?.close();
-    this.mic?.getTracks().forEach((track) => track.stop());
+    this.releaseMic();
     this.audio?.remove();
     this.channel = undefined;
     this.pc = undefined;
-    this.mic = undefined;
     this.audio = undefined;
     // The session id is kept out of anything persistent on purpose. Reload the
     // page and it is a new call, which is the retention policy §19 asks for.
@@ -368,7 +474,27 @@ export class VoiceClient {
    * seconds by the row in Postgres, and when the row says zero the call ends
    * whatever this file thinks.
    */
+  /**
+   * Ariane opened its mouth. This is where the call starts, and it is
+   * deliberately not "the peer connection came up".
+   *
+   * A guest gets sixty seconds. Spending nine of them on an SDP round trip and
+   * a model warming up is spending them on nothing the caller can use, and the
+   * worst version of it - a handshake that hangs and then fails - was charging
+   * the whole minute for silence. So the countdown starts at the first word.
+   * The server is still the limit: `expires_at` was set at admit and the
+   * heartbeat corrects this clock against it every fifteen seconds, so what
+   * this buys is honesty about the start, never extra time. §3.
+   */
+  private speaking(): void {
+    if (this.session && !this.ticker) this.startClock(this.session);
+    this.setState("speaking");
+  }
+
   private startClock(session: StartedSession): void {
+    clearTimeout(this.deadline);
+    this.deadline = undefined;
+
     this.endsAt = Date.now() + session.maxCallMs;
     this.warned.clear();
 
@@ -567,7 +693,7 @@ export class VoiceClient {
         break;
 
       case "response.created":
-        this.setState("speaking");
+        this.speaking();
         break;
 
       case "response.done":
@@ -680,6 +806,10 @@ export class VoiceClient {
   }
 
   private fail(message: string): void {
+    // Hang up on the way out, which also hands back the line and settles the
+    // unused part of a guest's minute. A retry button is only honest if the
+    // attempt that failed gave everything back first.
+    this.teardown();
     this.setState("error");
     this.options.onError?.(message);
   }
