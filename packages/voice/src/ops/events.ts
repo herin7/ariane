@@ -67,3 +67,26 @@ export const AppEventBody = z.object({
 });
 
 export type AppEventBody = z.infer<typeof AppEventBody>;
+
+/**
+ * The other direction: a sentence somebody meant to send us.
+ *
+ * Everything above exists to keep typed text *out* of the traffic tables. This
+ * is the one route where typed text is the entire point, so it gets the
+ * opposite treatment: it goes in its own table, capped and trimmed, and nothing
+ * reads it but an operator. Two thousand characters is a long paragraph and not
+ * a paste of somebody's Aadhaar file.
+ *
+ * `contact` is optional on purpose. Asking a citizen for an email before they
+ * are allowed to say "the ration card page is wrong" is how you stop hearing
+ * that the ration card page is wrong.
+ */
+export const FeedbackBody = z.object({
+  kind: z.enum(["REVIEW", "REQUEST"]),
+  message: z.string().trim().min(4).max(2000),
+  rating: z.number().int().min(1).max(5).optional(),
+  contact: z.string().trim().max(200).optional(),
+  path: z.string().max(200).optional(),
+});
+
+export type FeedbackBody = z.infer<typeof FeedbackBody>;

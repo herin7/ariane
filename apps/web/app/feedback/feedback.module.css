@@ -1,0 +1,81 @@
+/* Tokens only, no new colours. Same card width as the sign-in page. */
+
+.page {
+  width: min(100%, 520px);
+  margin: 96px auto 140px;
+  padding: 0 20px;
+}
+
+.page h1 {
+  margin: 0 0 6px;
+  font-size: 27px;
+  letter-spacing: -.02em;
+}
+
+.page > p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14.5px;
+  line-height: 1.55;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.form textarea { resize: vertical; }
+
+/* Two radios that read as one control. The inputs stay real inputs — a div
+   pretending to be a radio group is a div that a screen reader cannot use. */
+.kinds {
+  display: flex;
+  gap: 8px;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+.kinds legend {
+  padding: 0;
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.kinds label {
+  flex: 1;
+  padding: 9px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  font-size: 13.5px;
+  cursor: pointer;
+  transition: border-color var(--fast), background var(--fast);
+}
+
+.kinds label:hover { border-color: var(--line-strong); }
+
+.kinds input { margin-right: 8px; }
+
+.kinds label:has(input:checked) {
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+}
+
+.kinds label:has(input:focus-visible) { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+.row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.row label {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.row select { flex: 0 0 auto; }

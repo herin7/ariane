@@ -196,6 +196,34 @@ create index if not exists app_events_user_idx on app_events (auth_user_id, crea
 create index if not exists app_events_anon_idx on app_events (anonymous_session_id, created_at desc);
 create index if not exists app_events_service_idx on app_events (service_id);
 
+/**
+ * What people tell us: a review, or a service they want covered.
+ *
+ * Separate from `app_events` on purpose. Everything in that table is a thing
+ * somebody did and is deliberately free of anything they typed; this is the one
+ * place typed text belongs, so it lives on its own with its own retention and
+ * its own reason to exist. `kind` is checked in the database as well as in zod
+ * because a check constraint is the copy that cannot be forgotten.
+ *
+ * `contact` is whatever they chose to leave, usually nothing. No raw IP, same
+ * as everywhere: `ip_hash` is HMAC'd in `ops/net.ts` before it gets here.
+ */
+create table if not exists ariane_feedback (
+  id                   bigint generated always as identity primary key,
+  created_at           timestamptz not null default now(),
+  kind                 text not null check (kind in ('REVIEW', 'REQUEST')),
+  rating               smallint check (rating between 1 and 5),
+  message              text not null,
+  contact              text,
+  path                 text,
+  anonymous_session_id text,
+  auth_user_id         uuid,
+  ip_hash              text
+);
+
+create index if not exists ariane_feedback_time_idx on ariane_feedback (created_at desc);
+create index if not exists ariane_feedback_kind_idx on ariane_feedback (kind, created_at desc);
+
 -- ===========================================================================
 -- Voice observability
 -- ===========================================================================
@@ -841,8 +869,8 @@ declare
 begin
   foreach t in array array[
     'voice_capacity_leases', 'voice_queue', 'ariane_rate_limits', 'voice_guest_usage',
-    'ariane_cooldowns', 'security_events', 'app_events', 'voice_conversations',
-    'voice_turns', 'voice_tool_events', 'ariane_profiles'
+    'ariane_cooldowns', 'security_events', 'app_events', 'ariane_feedback',
+    'voice_conversations', 'voice_turns', 'voice_tool_events', 'ariane_profiles'
   ]
   loop
     execute format('alter table %I enable row level security', t);

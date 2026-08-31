@@ -113,6 +113,24 @@ export interface AppEvent {
   metadata?: Record<string, unknown>;
 }
 
+/**
+ * Something a person sat down and typed at us.
+ *
+ * Unlike `AppEvent`, this is free text on purpose, so it is the one table here
+ * that can contain anything. Capped and trimmed at the route, never used to
+ * decide anything, and read only by an operator.
+ */
+export interface Feedback {
+  kind: "REVIEW" | "REQUEST";
+  message: string;
+  rating?: number;
+  contact?: string;
+  path?: string;
+  anonymousSessionId?: string;
+  authUserId?: string;
+  ipHash?: string;
+}
+
 export interface OpsStore {
   /**
    * True when this is Postgres. False means one process is deciding capacity,
@@ -186,6 +204,13 @@ export interface OpsStore {
   // -- funnel --------------------------------------------------------------
   recordAppEvent(event: AppEvent): Promise<void>;
 
+  /**
+   * Returns whether the row actually landed, which the funnel does not bother
+   * with. A dropped beacon is a missing tick on a chart; a dropped review is
+   * somebody's paragraph, and they deserve to be told it did not save.
+   */
+  recordFeedback(feedback: Feedback): Promise<boolean>;
+
   // -- auth ----------------------------------------------------------------
   touchProfile(input: { authUserId: string; email?: string; login?: boolean }): Promise<void>;
 }
@@ -231,6 +256,7 @@ export function memoryOps(): OpsStore {
   >();
   const bySession = new Map<string, string>();
   const appEvents: AppEvent[] = [];
+  const feedbacks: Feedback[] = [];
   const profiles = new Map<string, { email?: string; logins: number }>();
   let seq = 0;
   const id = () => `mem-${++seq}`;
@@ -415,6 +441,11 @@ export function memoryOps(): OpsStore {
 
     async recordAppEvent(event) {
       appEvents.push(event);
+    },
+
+    async recordFeedback(feedback) {
+      feedbacks.push(feedback);
+      return true;
     },
 
     async touchProfile({ authUserId, email, login }) {
@@ -742,6 +773,26 @@ export function supabaseOps(db: SupabaseClient): OpsStore {
           metadata: event.metadata ?? {},
         }),
       );
+    },
+
+    async recordFeedback(feedback) {
+      try {
+        const { error } = await db.from("ariane_feedback").insert({
+          kind: feedback.kind,
+          message: feedback.message,
+          rating: feedback.rating ?? null,
+          contact: feedback.contact ?? null,
+          path: feedback.path ?? null,
+          anonymous_session_id: feedback.anonymousSessionId ?? null,
+          auth_user_id: feedback.authUserId ?? null,
+          ip_hash: feedback.ipHash ?? null,
+        });
+        if (error) console.warn("ops store: recording feedback failed", error.message);
+        return !error;
+      } catch (error) {
+        console.warn("ops store: recording feedback failed", error instanceof Error ? error.message : error);
+        return false;
+      }
     },
 
     async touchProfile({ authUserId, email, login }) {

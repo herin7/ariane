@@ -4,7 +4,7 @@ import { describe, expect, it } from "vitest";
 import { VoiceCapacity } from "../ops/capacity";
 import { memoryOps } from "../ops/store";
 import { SecurityLog } from "../ops/security";
-import { AppEventBody } from "../ops/events";
+import { AppEventBody, FeedbackBody } from "../ops/events";
 import { checkInput, checkOutput, redactText } from "../guardrails";
 import { CAPACITY, FORBIDDEN_TOOL_NAMES, LIMITS, TIERS, toolsFor } from "../policy";
 import { VOICE_TOOLS } from "../types";
@@ -277,6 +277,29 @@ describe("§8: zero secret leakage", () => {
   it("refuses an event name nobody has thought about", () => {
     expect(AppEventBody.safeParse({ event: "keystroke", metadata: {} }).success).toBe(false);
     expect(AppEventBody.safeParse({ event: "dump_env", metadata: {} }).success).toBe(false);
+  });
+
+  /**
+   * The feedback form is the one route where typed text is the point, so the
+   * cap is the whole boundary: a paste of somebody's documents is refused at
+   * the schema rather than landing in a table an operator will read.
+   */
+  it("caps what somebody can type into the feedback form", () => {
+    expect(FeedbackBody.safeParse({ kind: "REVIEW", message: "a".repeat(2001) }).success).toBe(false);
+    expect(FeedbackBody.safeParse({ kind: "REVIEW", message: "   " }).success).toBe(false);
+    expect(FeedbackBody.safeParse({ kind: "PROMOTE_ME", message: "hello there" }).success).toBe(false);
+    expect(FeedbackBody.safeParse({ kind: "REVIEW", message: "good", rating: 9 }).success).toBe(false);
+
+    const ok = FeedbackBody.safeParse({ kind: "REQUEST", message: "  add property tax for Rajkot  ", rating: 5 });
+    expect(ok.success).toBe(true);
+    if (ok.success) expect(ok.data.message).toBe("add property tax for Rajkot");
+  });
+
+  it("tells the caller when a review did not save", async () => {
+    // A dropped beacon is a missing tick on a chart. A dropped review is
+    // somebody's paragraph, so the store reports rather than swallows.
+    const store = memoryOps();
+    expect(await store.recordFeedback({ kind: "REVIEW", message: "the ration card page is wrong" })).toBe(true);
   });
 });
 

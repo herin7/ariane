@@ -60,7 +60,7 @@ export {
  * needs both. Everything else under `./ops` reaches Postgres and stays server
  * side — see `./server`.
  */
-export { APP_EVENTS, AppEventBody, type AppEventName } from "./ops/events";
+export { APP_EVENTS, AppEventBody, FeedbackBody, type AppEventName } from "./ops/events";
 
 export { RawPhone, SessionRequest, TOOL_ARGUMENTS, ToolRequest, VapiWebhook, isVoiceTool } from "./schemas";
 

@@ -79,6 +79,7 @@ export {
   type AppEvent,
   type ConversationEnd,
   type ConversationStart,
+  type Feedback,
   type GuestBudget,
   type OpsStore,
   type QueueState,

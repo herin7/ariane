@@ -260,6 +260,8 @@ export const RATE_LIMITS = {
   adminLogin: { windowSeconds: 15 * 60, max: 5 },
   /** Analytics beacons. Enough for a busy session, not enough to be a firehose. */
   appEvent: { windowSeconds: 60, max: 120 },
+  /** Free text somebody typed. Nobody has five honest reviews in an hour. */
+  feedback: { windowSeconds: 60 * 60, max: 5 },
 } as const;
 
 /** How long a failed-admin-login cooldown lasts once the limit is hit. */
