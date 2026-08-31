@@ -81,10 +81,27 @@ const LABEL: Record<VoiceState, string> = {
   error: "Something went wrong",
 };
 
+/**
+ * What pressing the button does, where that is not the same as where we are.
+ *
+ * The status pill says "Something went wrong". A button saying it as well is a
+ * button that looks broken rather than one that looks like a second try, and
+ * the second try is the whole point: almost every voice failure is a handshake
+ * that will work on the next attempt.
+ */
+const ACTION: Partial<Record<VoiceState, string>> = {
+  connecting: "Cancel",
+  error: "Try again",
+  ended: "Start another call",
+};
+
 const clock = (ms: number): string => {
   const total = Math.max(0, Math.ceil(ms / 1000));
   return `${Math.floor(total / 60)}:${String(total % 60).padStart(2, "0")}`;
 };
+
+/** How often the lines-in-use number is refreshed. */
+const TRAFFIC_MS = 10_000;
 
 export function TalkToAriane({ district }: { district?: string }) {
   const client = useRef<VoiceClient>(null);
@@ -99,6 +116,12 @@ export function TalkToAriane({ district }: { district?: string }) {
   const [left, setLeft] = useState<number>();
   const [limit, setLimit] = useState<VoiceLimit>();
   const [email, setEmail] = useState<string>();
+  // How many of the ten lines are in use, and how many people are behind them.
+  const [traffic, setTraffic] = useState<{ active: number; max: number; queued: number }>();
+  // How long we have been connecting or queueing. A spinner that does not say
+  // how long it has been spinning is why somebody once sat through a whole
+  // minute of a dead handshake without knowing it was dead. §23.
+  const [waited, setWaited] = useState(0);
   // Undefined until the first attempt: a deployment without voice keys answers
   // 503 and the button should disappear rather than fail in front of somebody.
   const [available, setAvailable] = useState(true);
@@ -119,6 +142,43 @@ export function TalkToAriane({ district }: { district?: string }) {
       live = false;
     };
   }, []);
+
+  /**
+   * Who else is on the line, right now.
+   *
+   * Counts only, straight off the same lease table the queue is built on, so
+   * this cannot disagree with the refusal somebody gets a second later. It
+   * runs whether or not this browser is in a call: knowing nine of ten lines
+   * are lit is most useful *before* pressing the button.
+   */
+  useEffect(() => {
+    let live = true;
+    const read = () =>
+      fetch("/api/voice/traffic")
+        .then((r) => (r.ok ? r.json() : undefined))
+        .then((body) => {
+          if (live && body) setTraffic(body as { active: number; max: number; queued: number });
+        })
+        .catch(() => {
+          // A missing traffic number hides one line of text. Not worth a retry.
+        });
+    void read();
+    const every = setInterval(read, TRAFFIC_MS);
+    return () => {
+      live = false;
+      clearInterval(every);
+    };
+  }, []);
+
+  // Counts up only while nothing is connected yet. The countdown below counts
+  // down, and the two are never on screen at the same time.
+  useEffect(() => {
+    setWaited(0);
+    if (state !== "connecting" && state !== "queued") return;
+    const from = Date.now();
+    const every = setInterval(() => setWaited(Date.now() - from), 1_000);
+    return () => clearInterval(every);
+  }, [state]);
 
   const stop = useCallback(() => {
     client.current?.stop();
@@ -149,7 +209,12 @@ export function TalkToAriane({ district }: { district?: string }) {
     setActs([]);
     const voice = new VoiceClient({
       jurisdiction: { country: "IN", state: "GJ", ...(district ? { district } : {}) },
-      onState: setState,
+      onState: (next) => {
+        // A countdown still on screen after the call has gone is a call that
+        // looks like it is still running.
+        if (next === "idle" || next === "ended" || next === "error") setLeft(undefined);
+        setState(next);
+      },
       onTranscript: (text) => setSaid(text),
       onJourney: (data) => setJourney(data as VoiceJourney),
       onPlan: (data) => setPlan(data as VoicePlan),
@@ -187,7 +252,9 @@ export function TalkToAriane({ district }: { district?: string }) {
           type="button"
           className={busy ? "" : "primary"}
           onClick={waiting ? () => client.current?.leaveQueue() : busy ? stop : start}
-          disabled={state === "connecting"}
+          // Never disabled, and "Connecting" least of all. A handshake that
+          // hangs used to leave the one control on the panel greyed out, so
+          // the only way out was reloading the page. §23.
         >
           {waiting
             ? "Leave queue"
@@ -197,7 +264,7 @@ export function TalkToAriane({ district }: { district?: string }) {
                 // has not signed in and has not just been on a call.
                 state === "idle" && email === undefined
                 ? "Try Ariane — 1 minute free"
-                : LABEL[state]}
+                : (ACTION[state] ?? LABEL[state])}
         </button>
 
         {live && (
@@ -217,8 +284,12 @@ export function TalkToAriane({ district }: { district?: string }) {
 
         {/* Visible, subtle, and honest about being a display. Polite rather
             than assertive so a screen reader does not read a number every
-            second over the top of the person Ariane is talking to. */}
-        {live && left !== undefined && (
+            second over the top of the person Ariane is talking to.
+
+            It appears at Ariane's first word, because that is when the client
+            starts counting. Nothing on screen counts down during a handshake
+            any more: that number was a minute being spent on silence. */}
+        {left !== undefined && (
           <span className={styles.clock} data-low={left <= 10_000} aria-live="polite">
             {clock(left)} left
           </span>
@@ -227,7 +298,21 @@ export function TalkToAriane({ district }: { district?: string }) {
         <span className={styles.status} data-state={state}>
           <span className={styles.dot} aria-hidden />
           {LABEL[state]}
+          {/* Held back three seconds so a normal, fast connect never shows a
+              number. Past that, the wait is the news. */}
+          {waited >= 3_000 ? ` ${Math.round(waited / 1000)}s` : ""}
         </span>
+
+        {/* Who else is on the line. Not while this browser is queued: the
+            queue notice below already says it, in more useful words. */}
+        {traffic && traffic.max > 0 && !waiting && (
+          <span className={styles.traffic} data-full={traffic.active >= traffic.max}>
+            {traffic.active === 0
+              ? "All lines free"
+              : `${traffic.active} of ${traffic.max} ${traffic.active === 1 ? "line" : "lines"} busy`}
+            {traffic.queued > 0 ? ` · ${traffic.queued} waiting` : ""}
+          </span>
+        )}
       </div>
 
       {/* §23. Being tenth in line is not an error and is not styled as one. */}

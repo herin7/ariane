@@ -91,7 +91,7 @@ export function spine(journey: CompiledJourney, who: Citizen): { nodes: Node[]; 
     source: SPINE_PREFIX + chain[i]!.id,
     target: SPINE_PREFIX + link.id,
     label: labels[i],
-    labelStyle: { fontSize: 9, fill: "var(--faint)" },
+    labelStyle: { fontSize: 11, fill: "var(--faint)" },
     labelBgStyle: { fill: "var(--bg)" },
     // Dashed everywhere, because none of it was read off a government page and
     // a solid line in this picture means "we can show you where this came from".
@@ -103,7 +103,7 @@ export function spine(journey: CompiledJourney, who: Citizen): { nodes: Node[]; 
     source: SPINE_PREFIX + chain[chain.length - 1]!.id,
     target: journey.goal,
     label: central ? "and this is what they ask" : "and this is what you asked for",
-    labelStyle: { fontSize: 9, fill: "var(--faint)" },
+    labelStyle: { fontSize: 11, fill: "var(--faint)" },
     labelBgStyle: { fill: "var(--bg)" },
     animated: true,
     style: { strokeWidth: 2, stroke: "var(--thread)" },

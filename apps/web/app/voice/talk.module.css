@@ -28,6 +28,39 @@
   margin-left: auto;
   color: var(--muted);
   font-size: 13.5px;
+  /* The elapsed seconds live in here and would otherwise shove the pill left
+     and right once a second. */
+  font-variant-numeric: tabular-nums;
+}
+
+/* How busy the shared line is, right now. Quiet on purpose: it is context for
+   the button, not a second thing to read. */
+.traffic {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--faint);
+  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+}
+
+.traffic::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--thread);
+  animation: pulse 2.4s ease-in-out infinite;
+}
+
+/* Every line lit is the one time this is worth noticing, because it is the
+   moment before the button starts queueing people instead of connecting them. */
+.traffic[data-full="true"] {
+  color: var(--warn);
+}
+
+.traffic[data-full="true"]::before {
+  background: var(--warn);
 }
 
 .dot {

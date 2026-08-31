@@ -1870,3 +1870,131 @@ html { scroll-padding-top: 96px; }
 @media (prefers-reduced-motion: reduce) {
   .react-flow__node.spine-human::after { animation: none; opacity: 0.5; }
 }
+
+/* --------------------------------------------------------------------------
+   The thumb pass.
+
+   Everything above is laid out for a pointer that lands where it is aimed. A
+   thumb does not: it covers about 10mm of glass and it commits before it can
+   see what it hit. `scripts/shots.mjs` measures both failures at 375 and 430,
+   and every rule below exists because that script named the element.
+
+   Gated on `max-width: 760px, (pointer: coarse)` rather than width alone. A
+   touchscreen laptop is 1440px wide and still driven by a finger, and nothing
+   in here should grow under a mouse: a 44px footer link on a desktop is a
+   layout regression paying for a problem that page does not have.
+
+   Two numbers, both floors, neither invented here: 44px for anything a finger
+   is meant to hit, 12px for anything an eye is meant to read.
+   -------------------------------------------------------------------------- */
+@media (max-width: 760px), (pointer: coarse) {
+  /* Hit areas. `min-height` plus centring rather than padding, so the box grows
+     around the text instead of pushing it off its own baseline. */
+  .wordmark,
+  .nav-cta,
+  .text-link,
+  .secondary-link,
+  .footer-links a,
+  .page-eyebrow a,
+  .office-actions a,
+  .office-actions button,
+  a.small,
+  button.tiny {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+
+  /* Except where `.small` is doing its actual job: a citation sitting inside a
+     quote is prose, and a 44px line box would tear the evidence block apart. */
+  .evidence a.small,
+  p a.small {
+    display: inline;
+    min-height: 0;
+  }
+
+  /* The footer stacks these in a column, so the gap that separated 21px links
+     is now doing nothing but adding 9px to an already tall target. */
+  .footer-links div { gap: 0; }
+
+  /* `.secondary-link` drew its underline with `border-bottom`, which sits on the
+     bottom edge of the box. Growing the box to 44px would have left the rule
+     floating 18px under the words. A text decoration tracks the text instead. */
+  .secondary-link {
+    padding-bottom: 0;
+    border-bottom: 0;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 1px;
+  }
+
+  /* Every `<summary>` on the site: the 24 filters on /admin/coverage, the "See
+     how Ariane figured this out" disclosure, and the hamburger that is the only
+     navigation a phone gets. */
+  details > summary { min-height: 44px; display: flex; align-items: center; }
+  .nav-menu > summary { width: 44px; height: 44px; }
+
+  input, select, textarea { min-height: 44px; }
+
+  /* Leaflet ships 30px zoom buttons and React Flow ships 26px ones. Both are
+     the only way to move a map that has scroll-wheel zoom turned off.
+
+     Over-qualified deliberately. Both libraries' stylesheets are imported from
+     the client components that use them, so Next emits them after this file
+     and an equally specific rule here loses on order alone. */
+  .office-map .leaflet-touch .leaflet-bar a,
+  .office-map .leaflet-control-zoom a {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+  }
+  .react-flow .react-flow__controls-button { width: 44px; height: 44px; }
+
+  /* The pin stays 15px, because a map covered in 44px dots is not a map. The
+     target grows underneath it: 15 + 13 + 13 lands on 41px of glass with the
+     dot still in the middle of it. */
+  .map-pin::after {
+    content: "";
+    position: absolute;
+    inset: -13px;
+  }
+
+  /* Type. Nothing here is decorative; every one of these carries a number, a
+     status or a service name that somebody is squinting at. */
+  .tag,
+  .soon,
+  .trust-list span,
+  .service-index,
+  .catalog-link span,
+  .map-footer,
+  .map-header,
+  .map-knot,
+  .map-step small,
+  .route-number,
+  .office-map .leaflet-control-attribution {
+    font-size: 12px;
+  }
+
+  /* React Flow fits the whole graph into the canvas, so a short canvas means a
+     small scale means labels below their own font size. Taller canvas, closer
+     zoom, readable edges. */
+  .graph-split > div:first-child { height: 66vh; min-height: 420px; }
+}
+
+/* The one deliberate sideways scroll on the site: /admin/coverage is an eleven
+   column table and squeezing it into 375px would be a worse answer than
+   swiping it. This is the standard two layer scroll shadow, and it earns its
+   place by hiding itself: the `local` layers scroll with the content and cover
+   the `scroll` shadow when there is nothing more in that direction, so a table
+   that already fits shows no affordance at all. */
+.scroll-x {
+  background-image:
+    linear-gradient(to right, var(--paper) 30%, transparent),
+    linear-gradient(to left, var(--paper) 30%, transparent),
+    linear-gradient(to right, rgba(14, 21, 18, 0.11), transparent 14px),
+    linear-gradient(to left, rgba(14, 21, 18, 0.11), transparent 14px);
+  background-position: 0 0, 100% 0, 0 0, 100% 0;
+  background-repeat: no-repeat;
+  background-size: 44px 100%, 44px 100%, 16px 100%, 16px 100%;
+  background-attachment: local, local, scroll, scroll;
+}

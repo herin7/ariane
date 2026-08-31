@@ -117,7 +117,7 @@ export function GraphExplorer({ goals }: { goals: GoalOption[] }) {
       // The one thing worth animating: the places the government contradicts
       // itself. Everything else holds still. §13.
       animated: e.verificationStatus === "CONFLICTING",
-      labelStyle: { fontSize: 9, fill: "var(--faint)" },
+      labelStyle: { fontSize: 11, fill: "var(--faint)" },
       labelBgStyle: { fill: "var(--bg)" },
       style: {
         strokeWidth: 1.5,
