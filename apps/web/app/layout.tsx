@@ -46,6 +46,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/voice">Talk</Link>
               <Link href="/admin/graph">How it works</Link>
               <Link href="/admin/coverage">Coverage</Link>
+              {/* Leaves Ariane, so a plain anchor and no prefetch. `noreferrer`
+                  implies `noopener`, and both are the point of a new tab. */}
+              <a href="https://herin.vercel.app/" target="_blank" rel="noreferrer">
+                Builder
+              </a>
             </nav>
 
             <div className="nav-end">
@@ -66,6 +71,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <Link href="/voice">Talk</Link>
                 <Link href="/admin/graph">How it works</Link>
                 <Link href="/admin/coverage">Coverage</Link>
+                <Link href="/feedback">Reviews and requests</Link>
+                <a href="https://herin.vercel.app/" target="_blank" rel="noreferrer">
+                  Builder
+                </a>
                 <Link href="/signin">Sign in or create an account</Link>
               </div>
             </details>
@@ -83,8 +92,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
             <div className="footer-links">
               <div><b>Explore</b><Link href="/">Start a journey</Link><Link href="/browse">All services</Link></div>
-              <div><b>Trust</b><Link href="/admin/coverage">What we know</Link><Link href="/admin/graph">See the graph</Link></div>
-              <div><b>Scope</b><span>Gujarat, India</span><span>Official sources linked</span></div>
+              <div><b>Trust</b><Link href="/admin/coverage">What we know</Link><Link href="/admin/graph">See the graph</Link><Link href="/feedback">Tell us what is missing</Link></div>
+              <div><b>Scope</b><span>Gujarat, India</span><span>Official sources linked</span><a href="https://herin.vercel.app/" target="_blank" rel="noreferrer">Built by Herin</a></div>
             </div>
           </div>
           <div className="footer-base">Ariane is independent and is not an official government publication.</div>

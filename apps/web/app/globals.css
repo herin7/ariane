@@ -151,7 +151,9 @@ main {
 
 .small-mark { width: 28px; height: 28px; color: var(--thread); font-size: 20px; }
 
-.site-nav { display: flex; align-items: center; gap: 30px; }
+/* clamp, not a breakpoint: five links at a fixed 30px gap collide with the CTA
+   somewhere around 820px, and that is a width, not a device. */
+.site-nav { display: flex; align-items: center; gap: clamp(16px, 2.4vw, 30px); }
 .site-nav a {
   position: relative;
   color: var(--muted);
