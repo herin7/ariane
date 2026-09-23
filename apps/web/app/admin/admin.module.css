@@ -123,3 +123,27 @@
   max-width: 320px;
   margin: 80px auto;
 }
+
+/* The credits notice. First thing in the panel, because clearing it is the
+   job somebody opened the panel to do. */
+.pauseControl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--paper);
+}
+
+.pauseControl[data-on="true"] {
+  border-color: #e4d0a4;
+  background: var(--warn-soft);
+}
+
+.pauseControl b { display: block; font-size: 15px; margin-bottom: 2px; }
+.pauseControl p { margin: 0; max-width: 62ch; font-size: 14px; color: var(--ink-soft); }
+.pauseControl p + p { margin-top: 6px; }
+.pauseControl button { flex: none; }

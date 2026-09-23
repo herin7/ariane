@@ -1100,9 +1100,11 @@ h1, h2, h3,
 .route-stage b,
 .map-step b { font-family: var(--display); }
 
-/* The pill is 14px down and about 50px tall, so an anchor needs to clear 64px
-   before it clears the header. 96 leaves it room to breathe. */
+/* The pill is 14px down and about 50px tall, and the pause notice sticks
+   just under it. An anchor has to clear both or `#start` lands underneath
+   the notice and reads as a broken jump. */
 html { scroll-padding-top: 96px; }
+html.service-paused { scroll-padding-top: 156px; }
 
 .site-header {
   position: fixed;
@@ -1479,6 +1481,79 @@ html { scroll-padding-top: 96px; }
 @keyframes route-pulse {
   0% { box-shadow: 0 0 0 0 rgba(239,90,60,.36); }
   65%, 100% { box-shadow: 0 0 0 16px rgba(239,90,60,0); }
+}
+
+/* ----------------------------------------------------------------- pause
+
+   The service is paused. This is a status, so it uses the warn tokens rather
+   than the indigo glass of the nav: same paper, a different meaning. It sits
+   in normal flow under the floating header, then sticks there so scrolling
+   the home page does not hide it. Width matches the pill so the two read as
+   one stack. */
+
+.pause-banner {
+  position: sticky;
+  top: 86px;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  width: min(calc(100% - 32px), 980px);
+  margin: 0 auto;
+  padding: 12px 18px;
+  border: 1px solid #e4d0a4;
+  border-radius: 18px;
+  background: linear-gradient(105deg, #fff9ef, var(--warn-soft) 42%, #fff6e6);
+  color: var(--ink);
+  box-shadow:
+    0 1px 2px rgba(143, 92, 6, 0.05),
+    0 14px 36px rgba(143, 92, 6, 0.1);
+  text-align: center;
+}
+
+.pause-banner p {
+  margin: 0;
+  max-width: 42em;
+  font-size: 15.5px;
+  line-height: 1.45;
+  font-weight: 520;
+}
+
+.pause-banner-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  flex: none;
+  padding: 3px 10px 3px 8px;
+  border-radius: var(--r-full);
+  background: #fff;
+  color: var(--warn);
+  font-size: 12.5px;
+  font-weight: 680;
+  letter-spacing: 0.01em;
+  box-shadow: inset 0 0 0 1px rgba(143, 92, 6, 0.18);
+}
+
+.pause-banner-label::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--warn);
+  box-shadow: 0 0 0 3px rgba(143, 92, 6, 0.16);
+}
+
+@media (max-width: 700px) {
+  html.service-paused { scroll-padding-top: 188px; }
+  .pause-banner {
+    top: 74px;
+    width: calc(100% - 18px);
+    padding: 11px 14px;
+    border-radius: 16px;
+  }
+  .pause-banner p { font-size: 15px; }
 }
 
 @media (max-width: 700px) {

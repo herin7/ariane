@@ -47,6 +47,14 @@ export interface Resolved {
   inferred?: boolean;
 }
 
+/** The credits notice. The website reads the same flag while it renders. */
+export async function servicePaused(): Promise<boolean> {
+  const response = await fetch(`${API}/api/status`);
+  if (!response.ok) throw new Error("status");
+  const body = (await response.json()) as { paused?: unknown };
+  return body.paused !== false;
+}
+
 export const resolveIntent = (text: string) => post<Resolved>("/api/intents/resolve", { text });
 
 export const compileJourney = (goal: string, district: string, answers: Facts, documents: string[]) =>
