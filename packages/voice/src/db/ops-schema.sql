@@ -329,6 +329,31 @@ create table if not exists ariane_profiles (
 
 create index if not exists profiles_last_seen_idx on ariane_profiles (last_seen_at desc);
 
+-- ===========================================================================
+-- Service settings: switches an operator flips from the admin panel
+-- ===========================================================================
+
+/**
+ * One row per switch. The value is whatever that switch needs, so adding
+ * another one is a key rather than a migration.
+ *
+ * `service_paused` is the credits notice on the public pages. The insert
+ * below only runs when the row is absent: applying this file again must not
+ * turn the notice back on after an admin has cleared it. A missing row, and
+ * a database that has not been given this table yet, both still mean the
+ * notice stays up — clearing it is an explicit write.
+ */
+create table if not exists ariane_settings (
+  key         text primary key,
+  value       jsonb not null,
+  updated_at  timestamptz not null default now(),
+  updated_by  text
+);
+
+insert into ariane_settings (key, value)
+values ('service_paused', '{"paused": true}'::jsonb)
+on conflict (key) do nothing;
+
 -- A logged-in caller and a phone caller can be the same person. Nullable and
 -- unique: most citizen rows have no auth user and never will.
 alter table voice_citizens add column if not exists auth_user_id uuid;
@@ -870,7 +895,8 @@ begin
   foreach t in array array[
     'voice_capacity_leases', 'voice_queue', 'ariane_rate_limits', 'voice_guest_usage',
     'ariane_cooldowns', 'security_events', 'app_events', 'ariane_feedback',
-    'voice_conversations', 'voice_turns', 'voice_tool_events', 'ariane_profiles'
+    'voice_conversations', 'voice_turns', 'voice_tool_events', 'ariane_profiles',
+    'ariane_settings'
   ]
   loop
     execute format('alter table %I enable row level security', t);

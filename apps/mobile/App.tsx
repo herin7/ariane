@@ -10,7 +10,7 @@ import {
   TextInput,
   View,
 } from "react-native";
-import { API, compileJourney, resolveIntent, type Resolved } from "./api";
+import { API, compileJourney, resolveIntent, servicePaused, type Resolved } from "./api";
 // The subpath, not the package root. The root re-exports the graph seed, and
 // Metro follows it: importing this one function from "@ariane/core" put every
 // node, every source and 11471 verbatim government quotes inside the phone
@@ -63,11 +63,34 @@ const T = {
 
 export default function App() {
   const [goal, setGoal] = useState<{ id: string; name: string } | null>(null);
+  // Null until the server answers. A failed request leaves the notice up:
+  // the pause is the state we would rather show than hide by accident.
+  const [paused, setPaused] = useState<boolean | null>(null);
+
+  useEffect(() => {
+    let live = true;
+    servicePaused()
+      .then((on) => live && setPaused(on))
+      .catch(() => live && setPaused(true));
+    return () => {
+      live = false;
+    };
+  }, []);
 
   return (
     <View style={styles.app}>
       <StatusBar style="dark" />
-      {goal ? <Journey goal={goal} onBack={() => setGoal(null)} /> : <Search onPick={setGoal} />}
+      {paused && (
+        <View style={styles.pauseBanner} accessibilityRole="alert">
+          <Text style={styles.pauseLabel}>Paused</Text>
+          <Text style={styles.pauseText}>
+            Ariane is currently paused due to a credits issue and will be back soon.
+          </Text>
+        </View>
+      )}
+      <View style={styles.screen}>
+        {goal ? <Journey goal={goal} onBack={() => setGoal(null)} /> : <Search onPick={setGoal} />}
+      </View>
     </View>
   );
 }
@@ -92,7 +115,7 @@ function Search({ onPick }: { onPick: (goal: { id: string; name: string }) => vo
   };
 
   return (
-    <ScrollView contentContainerStyle={styles.page} keyboardShouldPersistTaps="handled">
+    <ScrollView style={styles.screen} contentContainerStyle={styles.page} keyboardShouldPersistTaps="handled">
       {/* §28. Same sentence the web landing page opens with. */}
       <Text style={styles.h1}>Government shouldn&rsquo;t{"\n"}feel this hard.</Text>
       <Text style={styles.lede}>
@@ -192,7 +215,7 @@ function Journey({ goal, onBack }: { goal: { id: string; name: string }; onBack:
 
   if (error) {
     return (
-      <ScrollView contentContainerStyle={styles.page}>
+      <ScrollView style={styles.screen} contentContainerStyle={styles.page}>
         <Back onPress={onBack} />
         <Text style={styles.error}>{error}</Text>
       </ScrollView>
@@ -201,7 +224,7 @@ function Journey({ goal, onBack }: { goal: { id: string; name: string }; onBack:
 
   if (!journey) {
     return (
-      <View style={[styles.page, styles.centre]}>
+      <View style={[styles.page, styles.centre, styles.screen]}>
         <ActivityIndicator />
         <Text style={styles.muted}>Compiling your path</Text>
       </View>
@@ -211,7 +234,7 @@ function Journey({ goal, onBack }: { goal: { id: string; name: string }; onBack:
   const s = journey.summary;
 
   return (
-    <ScrollView contentContainerStyle={styles.page} keyboardShouldPersistTaps="handled">
+    <ScrollView style={styles.screen} contentContainerStyle={styles.page} keyboardShouldPersistTaps="handled">
       <Back onPress={onBack} />
       <Text style={styles.h1}>{journey.goalName}</Text>
       {/* §29. The sentence a person needs before a list of eight things. */}
@@ -620,6 +643,20 @@ function Back({ onPress }: { onPress: () => void }) {
 
 const styles = StyleSheet.create({
   app: { flex: 1, backgroundColor: T.bg, paddingTop: 48 },
+  screen: { flex: 1 },
+  pauseBanner: {
+    marginHorizontal: 12,
+    marginBottom: 8,
+    paddingVertical: 10,
+    paddingHorizontal: 14,
+    borderRadius: 14,
+    borderWidth: 1,
+    borderColor: "#e4d0a4",
+    backgroundColor: T.warnSoft,
+    gap: 4,
+  },
+  pauseLabel: { fontSize: 12.5, fontWeight: "700", color: T.warn },
+  pauseText: { fontSize: 15, lineHeight: 21, fontWeight: "600", color: T.ink },
   page: { padding: 18, paddingBottom: 72, gap: 10 },
   centre: { flex: 1, alignItems: "center", justifyContent: "center", gap: 10 },
   h1: { fontSize: 30, fontWeight: "700", color: T.ink, letterSpacing: -0.7, lineHeight: 34 },

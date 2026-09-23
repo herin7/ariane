@@ -8,6 +8,7 @@
     "build": "next build && node scripts/check-bundle.mjs",
     "start": "next start",
     "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test app/pause-value.test.ts",
     "check:motion": "node --experimental-strip-types scripts/check-thread.mjs"
   },
   "dependencies": {

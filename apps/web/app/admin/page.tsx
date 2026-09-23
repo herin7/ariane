@@ -30,8 +30,13 @@ interface Call {
   service_id: string | null;
 }
 
-export default async function AdminOverview() {
+export default async function AdminOverview({
+  searchParams,
+}: {
+  searchParams: Promise<{ pauseError?: string }>;
+}) {
   const user = await requireAdmin();
+  const { pauseError } = await searchParams;
   const db = adminDb();
 
   const [calls24, calls7, events24, security7, logins7, recent, callChart, eventChart, live] = await Promise.all([
@@ -51,7 +56,7 @@ export default async function AdminOverview() {
   ]);
 
   return (
-    <Shell here="/admin" user={user}>
+    <Shell here="/admin" user={user} pauseError={pauseError}>
       {!db && (
         <p className="small" style={{ color: "var(--warn)" }}>
           No database is configured on this deployment, so every number below is zero.

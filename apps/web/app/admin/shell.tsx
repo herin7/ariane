@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
+import { readPauseSetting, type PauseSetting } from "../pause";
 import styles from "./admin.module.css";
 import type { Page } from "./db";
 
@@ -22,10 +23,31 @@ const TABS = [
   ["/admin/traffic", "Traffic"],
 ] as const;
 
-export function Shell({ here, user, children }: { here: string; user: string; children: ReactNode }) {
+const PAUSE_ERROR: Record<string, string> = {
+  "no-database": "No database is configured on this deployment, so the notice cannot be changed from here.",
+  "not-saved": "The notice could not be saved. Apply packages/voice/src/db/ops-schema.sql if ariane_settings is not in the database yet.",
+};
+
+export async function Shell({
+  here,
+  user,
+  children,
+  pauseError,
+}: {
+  here: string;
+  user: string;
+  children: ReactNode;
+  pauseError?: string;
+}) {
+  const setting = await readPauseSetting();
+  // A deployment that cannot save already says why. The query string is only
+  // for a write that was attempted and failed.
+  const error = pauseError && setting.writable ? PAUSE_ERROR[pauseError] : undefined;
+
   return (
     <div className="container">
       <div className={styles.shell}>
+        <PauseControl setting={setting} error={error} />
         <nav className={styles.tabs} aria-label="Admin sections">
           {TABS.map(([href, label]) => (
             <Link key={href} href={href} aria-current={href === here ? "page" : undefined}>
@@ -42,6 +64,38 @@ export function Shell({ here, user, children }: { here: string; user: string; ch
         {children}
       </div>
     </div>
+  );
+}
+
+function PauseControl({ setting, error }: { setting: PauseSetting; error?: string }) {
+  return (
+    <form className={styles.pauseControl} data-on={setting.paused} action="/api/admin/pause" method="post">
+      <div>
+        <b>{setting.paused ? "Pause notice is on" : "Pause notice is off"}</b>
+        <p>
+          {setting.paused
+            ? "People see that Ariane is currently paused due to a credits issue and will be back soon."
+            : "People are not being shown the pause notice."}
+        </p>
+        {!setting.writable && setting.reason === "no-database" && (
+          <p>No database is configured on this deployment, so the notice cannot be changed from here.</p>
+        )}
+        {!setting.writable && setting.reason === "not-installed" && (
+          <p>Apply packages/voice/src/db/ops-schema.sql once. After that, this notice can be cleared from here.</p>
+        )}
+        {!setting.writable && setting.reason === "unavailable" && <p>The setting could not be read just now.</p>}
+        {error && (
+          <p role="alert" style={{ color: "var(--bad)" }}>
+            {error}
+          </p>
+        )}
+      </div>
+      {setting.writable && (
+        <button className="primary" type="submit" name="paused" value={setting.paused ? "0" : "1"}>
+          {setting.paused ? "Clear notice" : "Show notice"}
+        </button>
+      )}
+    </form>
   );
 }
 

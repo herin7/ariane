@@ -3,6 +3,7 @@ import Link from "next/link";
 import "./globals.css";
 import { Telemetry } from "./analytics";
 import { MotionObserver } from "./motion";
+import { servicePaused } from "./pause";
 import { AuthLink } from "./signin";
 
 export const metadata: Metadata = {
@@ -16,9 +17,11 @@ export const viewport: Viewport = {
   maximumScale: 5,
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const paused = await servicePaused();
+
   return (
-    <html lang="en">
+    <html lang="en" className={paused ? "service-paused" : undefined}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -80,6 +83,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </details>
           </div>
         </header>
+        {/* In the shell, not on one page: home, a journey, voice and sign-in
+            all have to say the same thing. Whether it is said at all is the
+            admin switch in `ariane_settings`, not a deploy. */}
+        {paused && (
+          <div className="pause-banner" role="status">
+            <span className="pause-banner-label" aria-hidden="true">Paused</span>
+            <p>Ariane is currently paused due to a credits issue and will be back soon.</p>
+          </div>
+        )}
         <main>{children}</main>
         <footer className="site-footer">
           <div className="site-footer-inner">

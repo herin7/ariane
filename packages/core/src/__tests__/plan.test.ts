@@ -1,8 +1,9 @@
 import { describe, expect, it } from "vitest";
 import { loadGraph } from "../data/providers";
-import { appliesTo } from "../jurisdiction";
+import { JurisdictionIndex, appliesTo } from "../jurisdiction";
 import { compileJourney } from "../journey";
 import { compilePlan } from "../plan";
+import type { JurisdictionQuery } from "../types";
 
 /**
  * A plan is several journeys that agree with each other.
@@ -14,17 +15,41 @@ import { compilePlan } from "../plan";
  */
 
 const data = loadGraph();
-const jurisdiction = { country: "India", state: "Gujarat", district: "Ahmedabad" };
-const CHAIN = ["IN-GJ-AHMEDABAD", "IN-GJ", "IN"];
+
+/**
+ * A citizen the loaded graph can actually answer.
+ *
+ * Ahmedabad when the real graph is on disk. Public CI has no snapshot, so the
+ * only service is the Example District tree-felling permit. Asking that graph
+ * from Ahmedabad is an empty plan for the right reason — the compiler refuses
+ * another jurisdiction's service — and then there is nothing here to merge.
+ * The assertions below are about compiling and merging, so they ask from
+ * somewhere the services exist, and still drop a service that does not apply
+ * there rather than taking whatever is first in the file.
+ */
+const index = new JurisdictionIndex(data.jurisdictions);
+const anchorId =
+  data.jurisdictions.find((j) => j.id === "IN-GJ-AHMEDABAD")?.id ??
+  data.nodes.find((n) => n.type === "SERVICE" && n.jurisdictionId)?.jurisdictionId ??
+  data.jurisdictions[0]?.id ??
+  "";
+const CHAIN = anchorId ? index.chainFor(anchorId) : [];
+const jurisdiction: JurisdictionQuery = { country: "India" };
+for (const id of CHAIN) {
+  const place = index.get(id);
+  if (!place) continue;
+  if (place.level === "COUNTRY") jurisdiction.country = place.name;
+  else if (place.level === "STATE") jurisdiction.state = place.name;
+  else if (place.level === "DISTRICT") jurisdiction.district = place.name;
+}
 
 /**
  * The services this citizen can actually be handed.
  *
- * Roughly two hundred services in the graph belong to one district: another
- * district's municipal corporation, its own counters, its own phone number. A
- * plan for Ahmedabad may not contain one, and the compiler refuses rather than
- * quietly answering with the wrong municipality, so the fixture asks the same
- * rule the compiler does instead of taking whatever is first in the file.
+ * Roughly two hundred services in the real graph belong to one district:
+ * another district's municipal corporation, its own counters, its own phone
+ * number. A plan may not contain one, and the compiler refuses rather than
+ * quietly answering with the wrong municipality.
  */
 const local = data.nodes.filter((n) => n.type === "SERVICE" && appliesTo(n.jurisdictionId, CHAIN));
 
